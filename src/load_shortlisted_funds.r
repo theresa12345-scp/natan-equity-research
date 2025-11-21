@@ -27,7 +27,7 @@ cat("Shortlisted funds (BUY):", nrow(shortlisted_funds), "\n\n")
 # Show top 12 shortlisted funds
 cat("=== TOP 12 SHORTLISTED FUNDS ===\n")
 print(shortlisted_funds %>%
-  select(Rank, Fund, Alpha_pct, Beta_rounded, Expense_Ratio_pct, Age_Yrs, Source))
+  select(Overall_Rank, Fund, Alpha_pct, Beta_rounded, Expense_Ratio_pct, Age_Yrs, Source))
 
 # Summary statistics for shortlisted funds
 cat("\n=== SHORTLIST SUMMARY STATISTICS ===\n")

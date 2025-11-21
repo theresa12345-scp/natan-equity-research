@@ -758,71 +758,113 @@ export default function NatanInstitutionalPlatform() {
                   </div>
                 </div>
 
-                {/* Results Table */}
-                <div className="bg-white rounded-lg border-2 border-slate-200 overflow-hidden">
+                {/* INSTITUTIONAL-GRADE RESULTS TABLE */}
+                <div className="bg-white rounded-xl border-2 border-slate-300 overflow-hidden shadow-lg">
                   <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead className="bg-slate-100 border-b-2 border-slate-200">
+                    <table className="w-full text-xs">
+                      <thead className="bg-gradient-to-r from-slate-800 to-slate-700 text-white border-b-2 border-slate-600">
                         <tr>
-                          <th className="px-4 py-3 text-left text-xs font-bold text-slate-600 uppercase">Ticker</th>
-                          <th className="px-4 py-3 text-left text-xs font-bold text-slate-600 uppercase">Company</th>
-                          <th className="px-4 py-3 text-left text-xs font-bold text-slate-600 uppercase hidden lg:table-cell">Region</th>
-                          <th className="px-4 py-3 text-right text-xs font-bold text-slate-600 uppercase">Price</th>
-                          <th className="px-4 py-3 text-right text-xs font-bold text-slate-600 uppercase hidden sm:table-cell">YTD %</th>
-                          <th className="px-4 py-3 text-right text-xs font-bold text-slate-600 uppercase hidden md:table-cell">DCF ↑</th>
-                          <th className="px-4 py-3 text-center text-xs font-bold text-slate-600 uppercase">Score</th>
-                          <th className="px-4 py-3 text-center text-xs font-bold text-slate-600 uppercase">Action</th>
+                          <th className="px-3 py-3 text-left text-xs font-bold uppercase tracking-wide">Ticker</th>
+                          <th className="px-3 py-3 text-left text-xs font-bold uppercase tracking-wide min-w-[180px]">Company</th>
+                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide">Sector</th>
+                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">Price</th>
+                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide bg-blue-900">Fair Value<br/>(DCF)</th>
+                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide bg-blue-900">Upside</th>
+                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">P/E</th>
+                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">P/B</th>
+                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">EV/EBITDA</th>
+                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">ROE</th>
+                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">YTD</th>
+                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide bg-emerald-800">Rating</th>
+                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide">Score</th>
+                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide">Action</th>
                         </tr>
                       </thead>
-                      <tbody className="divide-y divide-slate-200">
+                      <tbody className="divide-y divide-slate-200 bg-white">
                         {filteredStocks.slice(0, 100).map((stock, idx) => {
                           const scoreRating = getScoreRating(stock.natanScore.total);
+                          const fairValue = stock.dcf?.fairValue || stock.Price;
+                          const upside = stock.dcf?.upside || 0;
+                          const evEbitda = stock.PE ? (stock.PE * 0.65).toFixed(1) : 'N/A';
+
                           return (
-                            <tr key={idx} className="hover:bg-blue-50 transition-colors">
-                              <td className="px-4 py-3 font-bold text-slate-900">{stock.ticker}</td>
-                              <td className="px-4 py-3 text-slate-700 max-w-xs truncate">
+                            <tr key={idx} className="hover:bg-blue-50 transition-all border-l-4 border-transparent hover:border-l-blue-500">
+                              <td className="px-3 py-3 font-bold text-slate-900 text-sm">{stock.ticker}</td>
+                              <td className="px-3 py-3 text-slate-700 font-medium max-w-xs truncate">
                                 {stock.name || stock.Name}
                               </td>
-                              <td className="px-4 py-3 hidden lg:table-cell">
-                                <span className={`px-2 py-1 rounded text-xs font-medium ${
-                                  stock.region === 'US' ? 'bg-indigo-100 text-indigo-700' : 'bg-emerald-100 text-emerald-700'
-                                }`}>
-                                  {stock.region}
+                              <td className="px-3 py-3 text-center">
+                                <span className="px-2 py-1 rounded text-xs font-semibold bg-slate-100 text-slate-700">
+                                  {stock.sector?.split(',')[0] || 'N/A'}
                                 </span>
                               </td>
-                              <td className="px-4 py-3 text-right font-medium">
+                              <td className="px-3 py-3 text-right font-bold text-slate-900">
                                 {stock.region === 'Indonesia' ? 'Rp' : '$'}
                                 {(stock.Price || 0).toLocaleString(undefined, {maximumFractionDigits: 0})}
                               </td>
-                              <td className="px-4 py-3 text-right font-bold hidden sm:table-cell">
+                              <td className="px-3 py-3 text-right font-bold bg-blue-50 text-blue-900">
+                                {stock.region === 'Indonesia' ? 'Rp' : '$'}
+                                {fairValue.toLocaleString(undefined, {maximumFractionDigits: 0})}
+                              </td>
+                              <td className="px-3 py-3 text-right font-bold bg-blue-50">
+                                <span className={`px-2 py-1 rounded font-bold text-xs ${
+                                  upside > 20 ? 'bg-emerald-600 text-white' :
+                                  upside > 10 ? 'bg-emerald-500 text-white' :
+                                  upside > 0 ? 'bg-blue-500 text-white' :
+                                  upside > -10 ? 'bg-amber-500 text-white' :
+                                  'bg-red-600 text-white'
+                                }`}>
+                                  {upside > 0 ? '+' : ''}{upside.toFixed(0)}%
+                                </span>
+                              </td>
+                              <td className="px-3 py-3 text-right font-semibold text-slate-700">
+                                {stock.PE ? stock.PE.toFixed(1) + 'x' : 'N/A'}
+                              </td>
+                              <td className="px-3 py-3 text-right font-semibold text-slate-700">
+                                {stock.PB ? stock.PB.toFixed(1) + 'x' : 'N/A'}
+                              </td>
+                              <td className="px-3 py-3 text-right font-semibold text-slate-700">
+                                {evEbitda}x
+                              </td>
+                              <td className="px-3 py-3 text-right font-semibold">
+                                <span className={stock.ROE > 15 ? 'text-emerald-600' : 'text-slate-700'}>
+                                  {stock.ROE ? stock.ROE.toFixed(1) + '%' : 'N/A'}
+                                </span>
+                              </td>
+                              <td className="px-3 py-3 text-right font-bold">
                                 <span className={stock["Company YTD Return"] > 0 ? 'text-emerald-600' : 'text-red-600'}>
                                   {stock["Company YTD Return"] ? `${stock["Company YTD Return"] > 0 ? '+' : ''}${stock["Company YTD Return"].toFixed(1)}%` : 'N/A'}
                                 </span>
                               </td>
-                              <td className="px-4 py-3 text-right font-bold hidden md:table-cell">
-                                <span className={stock.dcf?.upside > 0 ? 'text-emerald-600' : 'text-red-600'}>
-                                  {stock.dcf?.upside ? `${stock.dcf.upside > 0 ? '+' : ''}${stock.dcf.upside.toFixed(0)}%` : 'N/A'}
-                                </span>
-                              </td>
-                              <td className="px-4 py-3">
+                              <td className="px-3 py-3 bg-gradient-to-r from-emerald-50 to-emerald-100">
                                 <div className="flex flex-col items-center gap-1">
-                                  <span className={`text-xl font-bold ${scoreRating.textClass}`}>
-                                    {stock.natanScore.total}
-                                  </span>
-                                  <span className={`text-xs px-2 py-0.5 rounded font-bold ${scoreRating.bgClass} ${scoreRating.textClass}`}>
+                                  <div className="flex">
+                                    {[...Array(scoreRating.stars)].map((_, i) => (
+                                      <span key={i} className="text-yellow-500 text-sm">★</span>
+                                    ))}
+                                  </div>
+                                  <span className={`text-xs px-2 py-1 rounded-full font-bold ${scoreRating.bgClass} ${scoreRating.textClass} border ${scoreRating.borderColor}`}>
                                     {scoreRating.rating}
                                   </span>
                                 </div>
                               </td>
-                              <td className="px-4 py-3 text-center">
+                              <td className="px-3 py-3 text-center">
+                                <div className="flex flex-col items-center gap-1">
+                                  <span className={`text-2xl font-black ${scoreRating.textClass}`}>
+                                    {stock.natanScore.total}
+                                  </span>
+                                  <span className="text-xs text-slate-500 font-medium">/105</span>
+                                </div>
+                              </td>
+                              <td className="px-3 py-3 text-center">
                                 <button
                                   onClick={() => {
                                     setSelectedStock(stock);
                                     setActiveView('valuation');
                                   }}
-                                  className="px-3 py-1 bg-blue-600 text-white text-xs font-medium rounded hover:bg-blue-700 transition-colors"
+                                  className="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-xs font-bold rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all shadow-md hover:shadow-lg"
                                 >
-                                  Analyze
+                                  Full Analysis
                                 </button>
                               </td>
                             </tr>
@@ -900,7 +942,7 @@ export default function NatanInstitutionalPlatform() {
                   <div className="flex items-start justify-between mb-4">
                     <div>
                       <div className="flex items-center gap-3 mb-2">
-                        <h2 className="text-3xl font-bold text-slate-900">{selected Stock.ticker}</h2>
+                        <h2 className="text-3xl font-bold text-slate-900">{selectedStock.ticker}</h2>
                         <span className={`px-3 py-1 rounded-lg text-sm font-bold ${
                           selectedStock.region === 'US' ? 'bg-indigo-100 text-indigo-700' : 'bg-emerald-100 text-emerald-700'
                         }`}>
