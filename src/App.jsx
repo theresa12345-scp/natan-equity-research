@@ -400,6 +400,7 @@ const MARKET_NEWS = [
 
 export default function NatanInstitutionalPlatform() {
   const [companies, setCompanies] = useState([]);
+  const [newsData, setNewsData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [activeView, setActiveView] = useState('macro');
   const [minScore, setMinScore] = useState(0);
@@ -423,6 +424,21 @@ export default function NatanInstitutionalPlatform() {
       .catch(err => {
         console.error('❌ Error loading data:', err);
         setLoading(false);
+      });
+  }, []);
+
+  // Load news sentiment data
+  useEffect(() => {
+    console.log('🔄 Loading news sentiment data...');
+    fetch('/sentiment.json')
+      .then(res => res.json())
+      .then(data => {
+        console.log(`✅ Loaded ${data.top_signals?.length || 0} news articles`);
+        setNewsData(data.top_signals || []);
+      })
+      .catch(err => {
+        console.error('❌ Error loading news:', err);
+        setNewsData([]);
       });
   }, []);
 
@@ -1541,87 +1557,147 @@ export default function NatanInstitutionalPlatform() {
               </div>
             )}
 
-            {/* NEWS TAB */}
+            {/* PROFESSIONAL NEWS & SENTIMENT TAB */}
             {activeView === 'news' && (
               <div className="space-y-6">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h2 className="text-2xl font-bold text-slate-900 mb-1">Market News & Intelligence</h2>
-                    <p className="text-slate-600 text-sm">Latest market developments with direct source links</p>
-                  </div>
-                  <select
-                    value={newsFilter}
-                    onChange={(e) => setNewsFilter(e.target.value)}
-                    className="px-4 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
-                  >
-                    <option value="all">All Markets</option>
-                    <option value="Indonesia">🇮🇩 Indonesia</option>
-                    <option value="Global">🌍 Global</option>
-                  </select>
+                {/* Header */}
+                <div className="bg-gradient-to-r from-slate-800 to-blue-900 rounded-xl p-6 text-white shadow-2xl">
+                  <h2 className="text-3xl font-black mb-2 flex items-center gap-3">
+                    <Newspaper className="w-8 h-8" />
+                    Market News & Sentiment Analysis
+                  </h2>
+                  <p className="text-slate-300 text-sm">
+                    Real-time news with AI-powered sentiment scoring • Sourced from Bloomberg, Investing.com, Reuters
+                  </p>
                 </div>
 
-                <div className="space-y-4">
-                  {MARKET_NEWS.filter(news => newsFilter === 'all' || news.region === newsFilter).map(news => (
-                    <a
-                      key={news.id}
-                      href={news.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block bg-white rounded-lg p-6 border-2 border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all group"
-                    >
-                      <div className="flex items-start justify-between gap-4 mb-3">
-                        <h3 className="font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">
-                          {news.title}
-                        </h3>
-                        <div className="flex items-center gap-2 shrink-0">
-                          <span className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                            news.sentiment === 'positive' ? 'bg-emerald-100 text-emerald-700' :
-                            news.sentiment === 'negative' ? 'bg-red-100 text-red-700' :
-                            'bg-slate-100 text-slate-700'
-                          }`}>
-                            {news.sentiment === 'positive' ? '📈 Positive' : news.sentiment === 'negative' ? '📉 Negative' : '➡️ Neutral'}
-                          </span>
-                          <ExternalLink className="w-5 h-5 text-blue-600 group-hover:text-blue-800" />
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-4 text-sm text-slate-600 flex-wrap">
-                        <span className="flex items-center gap-1">
-                          <Newspaper className="w-4 h-4" />
-                          {news.source}
-                        </span>
-                        <span>•</span>
-                        <span>{news.time}</span>
-                        <span>•</span>
-                        <span className="px-2 py-1 bg-slate-100 rounded font-medium">{news.category}</span>
-                        <span>•</span>
-                        <span className={`px-2 py-1 rounded font-medium ${
-                          news.region === 'Indonesia' ? 'bg-emerald-100 text-emerald-700' : 'bg-blue-100 text-blue-700'
-                        }`}>
-                          {news.region}
-                        </span>
-                      </div>
-                    </a>
-                  ))}
-                </div>
-
-                <div className="bg-blue-50 rounded-lg p-6 border-2 border-blue-200">
-                  <div className="flex items-start gap-3">
-                    <Info className="w-5 h-5 mt-0.5 text-blue-600 shrink-0" />
-                    <div className="text-sm text-blue-900">
-                      <strong className="block mb-2">Professional News Integration</strong>
-                      <p className="mb-3">
-                        This platform curates news from leading financial sources. For production deployment, 
-                        integrate with professional news APIs for real-time market intelligence.
-                      </p>
-                      <strong className="block mb-2">Recommended API Providers:</strong>
-                      <ul className="space-y-1 text-blue-800">
-                        <li>• <strong>Bloomberg Terminal API</strong> - Institutional-grade news & data</li>
-                        <li>• <strong>Reuters Eikon</strong> - Global market news and analysis</li>
-                        <li>• <strong>Financial Modeling Prep</strong> - Market news & financial data</li>
-                        <li>• <strong>Alpha Vantage</strong> - News sentiment & market data</li>
-                      </ul>
+                {/* INDONESIAN NEWS SECTION (PRIORITY) */}
+                <div className="bg-white rounded-xl p-6 shadow-xl border-2 border-emerald-200">
+                  <div className="flex items-center gap-3 mb-6 pb-4 border-b-2 border-emerald-200">
+                    <span className="text-4xl">🇮🇩</span>
+                    <div>
+                      <h3 className="text-2xl font-black text-slate-900">INDONESIAN MARKET NEWS</h3>
+                      <p className="text-sm text-slate-600">JCI, Banking & Indonesian Economic Updates</p>
                     </div>
                   </div>
+
+                  <div className="space-y-4">
+                    {newsData.filter(news =>
+                      news.headline?.toLowerCase().includes('indonesia') ||
+                      news.impact?.toLowerCase().includes('indonesia') ||
+                      news.category === 'indonesia_specific'
+                    ).length > 0 ? (
+                      newsData.filter(news =>
+                        news.headline?.toLowerCase().includes('indonesia') ||
+                        news.impact?.toLowerCase().includes('indonesia') ||
+                        news.category === 'indonesia_specific'
+                      ).slice(0, 5).map((news, idx) => (
+                        <a
+                          key={idx}
+                          href={news.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block bg-gradient-to-r from-emerald-50 to-white rounded-xl p-5 border-2 border-emerald-200 hover:border-emerald-400 hover:shadow-lg transition-all group"
+                        >
+                          <div className="flex items-start justify-between gap-4 mb-3">
+                            <h4 className="font-bold text-slate-900 text-lg group-hover:text-emerald-600 transition-colors flex-1">
+                              {news.headline}
+                            </h4>
+                            <div className="flex items-center gap-2 shrink-0">
+                              <span className={`px-3 py-1 rounded-lg text-xs font-black ${
+                                news.sentiment === 'positive' ? 'bg-emerald-600 text-white' :
+                                news.sentiment === 'negative' ? 'bg-red-600 text-white' :
+                                'bg-slate-600 text-white'
+                              }`}>
+                                {news.sentiment === 'positive' ? '📈 BULLISH' : news.sentiment === 'negative' ? '📉 BEARISH' : '➡️ NEUTRAL'}
+                              </span>
+                              <ExternalLink className="w-5 h-5 text-emerald-600 group-hover:text-emerald-800" />
+                            </div>
+                          </div>
+                          <p className="text-sm text-slate-700 mb-3 leading-relaxed">
+                            {news.impact}
+                          </p>
+                          <div className="flex items-center gap-4 text-xs text-slate-600 flex-wrap">
+                            <span className="flex items-center gap-1 font-semibold">
+                              <Newspaper className="w-3 h-3" />
+                              {news.source}
+                            </span>
+                            <span>•</span>
+                            <span>{news.date}</span>
+                            <span>•</span>
+                            <span className="px-2 py-1 bg-emerald-100 text-emerald-700 rounded font-bold">Score: {news.score}/10</span>
+                            <span>•</span>
+                            <span className="px-2 py-1 bg-slate-100 rounded font-medium capitalize">{news.category?.replace('_', ' ')}</span>
+                          </div>
+                        </a>
+                      ))
+                    ) : (
+                      <div className="text-center py-8 text-slate-500">
+                        <p>No Indonesia-specific news available. Showing global market news below.</p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* GLOBAL / U.S. NEWS SECTION */}
+                <div className="bg-white rounded-xl p-6 shadow-xl border-2 border-blue-200">
+                  <div className="flex items-center gap-3 mb-6 pb-4 border-b-2 border-blue-200">
+                    <span className="text-4xl">🌍</span>
+                    <div>
+                      <h3 className="text-2xl font-black text-slate-900">GLOBAL MARKET NEWS</h3>
+                      <p className="text-sm text-slate-600">U.S. Markets, Global Economy & Emerging Markets</p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-4">
+                    {newsData.slice(0, 10).map((news, idx) => (
+                      <a
+                        key={idx}
+                        href={news.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block bg-gradient-to-r from-blue-50 to-white rounded-xl p-5 border-2 border-blue-200 hover:border-blue-400 hover:shadow-lg transition-all group"
+                      >
+                        <div className="flex items-start justify-between gap-4 mb-3">
+                          <h4 className="font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors flex-1">
+                            {news.headline}
+                          </h4>
+                          <div className="flex items-center gap-2 shrink-0">
+                            <span className={`px-3 py-1 rounded-lg text-xs font-black ${
+                              news.sentiment === 'positive' ? 'bg-emerald-600 text-white' :
+                              news.sentiment === 'negative' ? 'bg-red-600 text-white' :
+                              'bg-slate-600 text-white'
+                            }`}>
+                              {news.sentiment === 'positive' ? '📈 BULLISH' : news.sentiment === 'negative' ? '📉 BEARISH' : '➡️ NEUTRAL'}
+                            </span>
+                            <ExternalLink className="w-5 h-5 text-blue-600 group-hover:text-blue-800" />
+                          </div>
+                        </div>
+                        <p className="text-sm text-slate-700 mb-3 leading-relaxed">
+                          {news.impact}
+                        </p>
+                        <div className="flex items-center gap-4 text-xs text-slate-600 flex-wrap">
+                          <span className="flex items-center gap-1 font-semibold">
+                            <Newspaper className="w-3 h-3" />
+                            {news.source}
+                          </span>
+                          <span>•</span>
+                          <span>{news.date}</span>
+                          <span>•</span>
+                          <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded font-bold">Score: {news.score}/10</span>
+                          <span>•</span>
+                          <span className="px-2 py-1 bg-slate-100 rounded font-medium capitalize">{news.category?.replace('_', ' ')}</span>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Info Footer */}
+                <div className="bg-slate-100 rounded-lg p-4 border border-slate-300">
+                  <p className="text-xs text-slate-600 text-center">
+                    <strong>Data Sources:</strong> News sentiment powered by AI analysis of Bloomberg Markets, Investing.com, Reuters • Scores based on relevance and market impact
+                  </p>
                 </div>
               </div>
             )}
