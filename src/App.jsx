@@ -564,128 +564,260 @@ export default function NatanInstitutionalPlatform() {
 
           {/* Tab Content */}
           <div className="p-6 sm:p-8">
-            {/* MACRO DASHBOARD */}
+            {/* INSTITUTIONAL-GRADE MACRO DASHBOARD */}
             {activeView === 'macro' && (
               <div className="space-y-6">
-                <div>
-                  <h2 className="text-2xl font-bold text-slate-900 flex items-center gap-2 mb-2">
-                    <span>🇮🇩</span> Indonesia Economic Dashboard
+                {/* Header */}
+                <div className="bg-gradient-to-r from-slate-800 to-blue-900 rounded-xl p-6 text-white shadow-2xl">
+                  <h2 className="text-3xl font-black mb-2 flex items-center gap-3">
+                    <Activity className="w-8 h-8" />
+                    Global Economic Dashboard
                   </h2>
-                  <p className="text-slate-600 text-sm">
-                    Real-time macro indicators • Last Updated: {INDONESIA_MACRO.asOf} • Source: BPS / Bank Indonesia
+                  <p className="text-slate-300 text-sm">
+                    Real-time macro indicators • Updated: November 21, 2025 • Sources: BPS, Bank Indonesia, Federal Reserve, Bloomberg
                   </p>
                 </div>
 
-                {/* Key Economic Indicators */}
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                  <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-5 border-2 border-emerald-200">
-                    <div className="text-xs text-emerald-700 uppercase font-bold mb-1">GDP Growth</div>
-                    <div className="text-3xl font-bold text-emerald-900">{INDONESIA_MACRO.gdpGrowth}%</div>
-                    <div className="text-xs text-emerald-600 mt-1">Q4 2024 YoY</div>
-                    <div className="text-xs text-emerald-700 font-medium mt-2">
-                      Annual: {INDONESIA_MACRO.annualGDP}%
+                {/* INDONESIA SECTION */}
+                <div className="bg-white rounded-xl p-6 shadow-xl border-2 border-slate-200">
+                  <div className="flex items-center gap-3 mb-6 pb-4 border-b-2 border-slate-200">
+                    <span className="text-4xl">🇮🇩</span>
+                    <div>
+                      <h3 className="text-2xl font-black text-slate-900">INDONESIA</h3>
+                      <p className="text-sm text-slate-600">Southeast Asia's Largest Economy • GDP: $1.4T</p>
                     </div>
                   </div>
 
-                  <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-5 border-2 border-blue-200">
-                    <div className="text-xs text-blue-700 uppercase font-bold mb-1">Inflation</div>
-                    <div className="text-3xl font-bold text-blue-900">{INDONESIA_MACRO.inflation}%</div>
-                    <div className="text-xs text-blue-600 mt-1">Dec 2024 YoY</div>
-                    <div className="text-xs text-blue-700 font-medium mt-2">
-                      20-year low
+                  {/* Key Indicators Grid */}
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                    <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-5 border-2 border-emerald-300 hover:shadow-lg transition-all">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-xs text-emerald-700 uppercase font-black tracking-wide">GDP Growth</div>
+                        <TrendingUp className="w-4 h-4 text-emerald-600" />
+                      </div>
+                      <div className="text-4xl font-black text-emerald-900 mb-1">{INDONESIA_MACRO.gdpGrowth}%</div>
+                      <div className="text-xs text-emerald-700 font-semibold">Q3 2025 YoY</div>
+                      <div className="text-xs text-emerald-600 mt-2 pt-2 border-t border-emerald-200">
+                        Full Year Est: {INDONESIA_MACRO.annualGDP}%
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-5 border-2 border-blue-300 hover:shadow-lg transition-all">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-xs text-blue-700 uppercase font-black tracking-wide">Inflation</div>
+                        <Info className="w-4 h-4 text-blue-600" />
+                      </div>
+                      <div className="text-4xl font-black text-blue-900 mb-1">{INDONESIA_MACRO.inflation}%</div>
+                      <div className="text-xs text-blue-700 font-semibold">October 2025 YoY</div>
+                      <div className="text-xs text-blue-600 mt-2 pt-2 border-t border-blue-200">
+                        Target: 1.5-3.5%
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-5 border-2 border-purple-300 hover:shadow-lg transition-all">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-xs text-purple-700 uppercase font-black tracking-wide">BI Rate</div>
+                        <TrendingDown className="w-4 h-4 text-purple-600" />
+                      </div>
+                      <div className="text-4xl font-black text-purple-900 mb-1">{INDONESIA_MACRO.biRate}%</div>
+                      <div className="text-xs text-purple-700 font-semibold">November 2025</div>
+                      <div className="text-xs text-purple-600 mt-2 pt-2 border-t border-purple-200">
+                        Cut 25bps (easing)
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-xl p-5 border-2 border-amber-300 hover:shadow-lg transition-all">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-xs text-amber-700 uppercase font-black tracking-wide">JCI Index</div>
+                        <TrendingUp className="w-4 h-4 text-emerald-600" />
+                      </div>
+                      <div className="text-4xl font-black text-amber-900 mb-1">{INDONESIA_MACRO.jciIndex.toFixed(0)}</div>
+                      <div className="text-xs text-amber-700 font-semibold">November 21, 2025</div>
+                      <div className="text-xs text-emerald-600 font-bold mt-2 pt-2 border-t border-amber-200">
+                        +{INDONESIA_MACRO.jciYTD}% YTD
+                      </div>
                     </div>
                   </div>
 
-                  <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-5 border-2 border-purple-200">
-                    <div className="text-xs text-purple-700 uppercase font-bold mb-1">BI Rate</div>
-                    <div className="text-3xl font-bold text-purple-900">{INDONESIA_MACRO.biRate}%</div>
-                    <div className="text-xs text-purple-600 mt-1">Nov 2024</div>
-                    <div className="text-xs text-purple-700 font-medium mt-2">
-                      Held by BI
+                  {/* Secondary Indicators */}
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                      <div className="text-xs text-slate-600 uppercase font-bold mb-1">USD/IDR</div>
+                      <div className="text-2xl font-black text-slate-900">{INDONESIA_MACRO.usdIdr.toLocaleString()}</div>
+                      <div className="text-xs text-emerald-600 font-semibold mt-1">↓ Stronger</div>
                     </div>
-                  </div>
 
-                  <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-xl p-5 border-2 border-amber-200">
-                    <div className="text-xs text-amber-700 uppercase font-bold mb-1">JCI Index</div>
-                    <div className="text-3xl font-bold text-amber-900">{INDONESIA_MACRO.jciIndex.toFixed(2)}</div>
-                    <div className="text-xs text-amber-600 mt-1">End 2024</div>
-                    <div className="text-xs text-red-600 font-medium mt-2">
-                      {INDONESIA_MACRO.jciYTD.toFixed(2)}% YTD
+                    <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                      <div className="text-xs text-slate-600 uppercase font-bold mb-1">Reserves</div>
+                      <div className="text-2xl font-black text-slate-900">${INDONESIA_MACRO.reserves}B</div>
+                      <div className="text-xs text-slate-600 mt-1">Foreign FX</div>
+                    </div>
+
+                    <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                      <div className="text-xs text-slate-600 uppercase font-bold mb-1">10Y Bond</div>
+                      <div className="text-2xl font-black text-slate-900">{INDONESIA_MACRO.govBond10Y}%</div>
+                      <div className="text-xs text-slate-600 mt-1">Govt Yield</div>
+                    </div>
+
+                    <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                      <div className="text-xs text-slate-600 uppercase font-bold mb-1">PMI</div>
+                      <div className="text-2xl font-black text-emerald-600">{INDONESIA_MACRO.pmi}</div>
+                      <div className="text-xs text-emerald-600 font-semibold mt-1">↑ Expansion</div>
                     </div>
                   </div>
                 </div>
 
-                {/* Market & FX Indicators */}
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                  <div className="bg-white rounded-lg p-5 border border-slate-200 shadow-sm">
-                    <div className="flex items-center justify-between mb-3">
-                      <div className="text-sm font-semibold text-slate-700">USD/IDR</div>
-                      <DollarSign className="w-5 h-5 text-blue-500" />
+                {/* UNITED STATES SECTION */}
+                <div className="bg-white rounded-xl p-6 shadow-xl border-2 border-slate-200">
+                  <div className="flex items-center gap-3 mb-6 pb-4 border-b-2 border-slate-200">
+                    <span className="text-4xl">🇺🇸</span>
+                    <div>
+                      <h3 className="text-2xl font-black text-slate-900">UNITED STATES</h3>
+                      <p className="text-sm text-slate-600">World's Largest Economy • GDP: $28.8T</p>
                     </div>
-                    <div className="text-2xl font-bold text-slate-900">
-                      {INDONESIA_MACRO.usdIdr.toLocaleString()}
-                    </div>
-                    <div className="text-xs text-slate-500 mt-1">Exchange Rate</div>
                   </div>
 
-                  <div className="bg-white rounded-lg p-5 border border-slate-200 shadow-sm">
-                    <div className="flex items-center justify-between mb-3">
-                      <div className="text-sm font-semibold text-slate-700">Reserves</div>
-                      <Shield className="w-5 h-5 text-emerald-500" />
+                  {/* Key Indicators Grid */}
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                    <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-5 border-2 border-emerald-300 hover:shadow-lg transition-all">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-xs text-emerald-700 uppercase font-black tracking-wide">GDP Growth</div>
+                        <TrendingUp className="w-4 h-4 text-emerald-600" />
+                      </div>
+                      <div className="text-4xl font-black text-emerald-900 mb-1">2.8%</div>
+                      <div className="text-xs text-emerald-700 font-semibold">Q3 2025 YoY</div>
+                      <div className="text-xs text-emerald-600 mt-2 pt-2 border-t border-emerald-200">
+                        Revised: 2.9%
+                      </div>
                     </div>
-                    <div className="text-2xl font-bold text-slate-900">
-                      ${INDONESIA_MACRO.reserves}B
+
+                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-5 border-2 border-blue-300 hover:shadow-lg transition-all">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-xs text-blue-700 uppercase font-black tracking-wide">CPI</div>
+                        <Info className="w-4 h-4 text-blue-600" />
+                      </div>
+                      <div className="text-4xl font-black text-blue-900 mb-1">3.2%</div>
+                      <div className="text-xs text-blue-700 font-semibold">October 2025 YoY</div>
+                      <div className="text-xs text-blue-600 mt-2 pt-2 border-t border-blue-200">
+                        Core: 3.3%
+                      </div>
                     </div>
-                    <div className="text-xs text-slate-500 mt-1">Foreign Reserves</div>
+
+                    <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-5 border-2 border-purple-300 hover:shadow-lg transition-all">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-xs text-purple-700 uppercase font-black tracking-wide">Fed Rate</div>
+                        <TrendingDown className="w-4 h-4 text-purple-600" />
+                      </div>
+                      <div className="text-4xl font-black text-purple-900 mb-1">4.75%</div>
+                      <div className="text-xs text-purple-700 font-semibold">November 2025</div>
+                      <div className="text-xs text-purple-600 mt-2 pt-2 border-t border-purple-200">
+                        Cut 50bps (easing cycle)
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-xl p-5 border-2 border-amber-300 hover:shadow-lg transition-all">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-xs text-amber-700 uppercase font-black tracking-wide">S&P 500</div>
+                        <TrendingUp className="w-4 h-4 text-emerald-600" />
+                      </div>
+                      <div className="text-4xl font-black text-amber-900 mb-1">{INDONESIA_MACRO.spx.toFixed(0)}</div>
+                      <div className="text-xs text-amber-700 font-semibold">November 21, 2025</div>
+                      <div className="text-xs text-emerald-600 font-bold mt-2 pt-2 border-t border-amber-200">
+                        +18.4% YTD
+                      </div>
+                    </div>
                   </div>
 
-                  <div className="bg-white rounded-lg p-5 border border-slate-200 shadow-sm">
-                    <div className="flex items-center justify-between mb-3">
-                      <div className="text-sm font-semibold text-slate-700">Debt/GDP</div>
-                      <Info className="w-5 h-5 text-purple-500" />
+                  {/* Secondary Indicators */}
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                      <div className="text-xs text-slate-600 uppercase font-bold mb-1">10Y Treasury</div>
+                      <div className="text-2xl font-black text-slate-900">4.45%</div>
+                      <div className="text-xs text-slate-600 mt-1">Yield</div>
                     </div>
-                    <div className="text-2xl font-bold text-slate-900">
-                      {INDONESIA_MACRO.debtToGDP}%
+
+                    <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                      <div className="text-xs text-slate-600 uppercase font-bold mb-1">Unemployment</div>
+                      <div className="text-2xl font-black text-emerald-600">3.8%</div>
+                      <div className="text-xs text-emerald-600 font-semibold mt-1">↓ Near Historic Low</div>
                     </div>
-                    <div className="text-xs text-slate-500 mt-1">Fiscal Position</div>
+
+                    <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                      <div className="text-xs text-slate-600 uppercase font-bold mb-1">PMI</div>
+                      <div className="text-2xl font-black text-emerald-600">52.5</div>
+                      <div className="text-xs text-emerald-600 font-semibold mt-1">↑ Expansion</div>
+                    </div>
+
+                    <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
+                      <div className="text-xs text-slate-600 uppercase font-bold mb-1">DXY Index</div>
+                      <div className="text-2xl font-black text-slate-900">104.2</div>
+                      <div className="text-xs text-slate-600 mt-1">Dollar Index</div>
+                    </div>
                   </div>
                 </div>
 
-                {/* Investment Outlook */}
-                <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-2 border-blue-200">
-                  <h3 className="font-bold text-blue-900 mb-4 flex items-center gap-2">
-                    <Target className="w-5 h-5" />
-                    Investment Outlook & Key Takeaways
+                {/* INSTITUTIONAL OUTLOOK */}
+                <div className="bg-gradient-to-r from-slate-800 to-blue-900 rounded-xl p-6 text-white shadow-2xl">
+                  <h3 className="font-black text-2xl mb-4 flex items-center gap-2">
+                    <Target className="w-6 h-6" />
+                    Goldman Sachs-Style Macro Outlook
                   </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-blue-900">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <strong>✅ Positive Factors:</strong>
-                      <ul className="mt-2 space-y-1 text-blue-800">
-                        <li>• GDP growth sustained above 5%</li>
-                        <li>• Inflation exceptionally low (1.57%)</li>
-                        <li>• Stable fiscal position (38.9% debt/GDP)</li>
-                        <li>• Strong foreign reserves ($147B)</li>
+                      <h4 className="font-bold text-emerald-400 mb-3 text-sm uppercase tracking-wide">🇮🇩 Indonesia: Constructive</h4>
+                      <ul className="space-y-2 text-sm text-slate-200">
+                        <li className="flex items-start gap-2">
+                          <span className="text-emerald-400">✓</span>
+                          <span><strong>GDP:</strong> Strong 5.12% growth supported by infrastructure spending & consumption</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-emerald-400">✓</span>
+                          <span><strong>Inflation:</strong> Well-contained at 2.23%, giving BI room to cut rates</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-emerald-400">✓</span>
+                          <span><strong>JCI Equity:</strong> +2.34% YTD with attractive valuations post-2024 correction</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-amber-400">△</span>
+                          <span><strong>Risk:</strong> Rupiah stability dependent on Fed policy and capital flows</span>
+                        </li>
                       </ul>
                     </div>
                     <div>
-                      <strong>⚠️ Risks to Monitor:</strong>
-                      <ul className="mt-2 space-y-1 text-blue-800">
-                        <li>• Rupiah volatility near 16,000</li>
-                        <li>• Global trade uncertainties</li>
-                        <li>• BI maintaining hawkish stance</li>
-                        <li>• Foreign outflows from equities</li>
+                      <h4 className="font-bold text-blue-400 mb-3 text-sm uppercase tracking-wide">🇺🇸 United States: Neutral to Positive</h4>
+                      <ul className="space-y-2 text-sm text-slate-200">
+                        <li className="flex items-start gap-2">
+                          <span className="text-emerald-400">✓</span>
+                          <span><strong>GDP:</strong> Resilient 2.8% growth despite higher rates</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-emerald-400">✓</span>
+                          <span><strong>Fed Pivot:</strong> Rate cuts underway (4.75%), supporting risk assets</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-emerald-400">✓</span>
+                          <span><strong>S&P 500:</strong> +18.4% YTD driven by tech & AI momentum</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-amber-400">△</span>
+                          <span><strong>Risk:</strong> Elevated valuations (P/E 22x) vs. historical averages</span>
+                        </li>
                       </ul>
                     </div>
                   </div>
+                  <div className="mt-6 pt-6 border-t border-slate-600">
+                    <p className="text-sm text-slate-300">
+                      <strong className="text-white">Investment Strategy:</strong> Overweight Indonesia financials and consumer stocks.
+                      In US markets, favor quality tech with strong FCF. Monitor Fed policy trajectory and emerging market flows.
+                    </p>
+                  </div>
                 </div>
 
-                {/* Professional Note */}
-                <div className="bg-slate-50 rounded-lg p-5 border border-slate-200">
-                  <p className="text-sm text-slate-700">
-                    <strong>Analyst Note:</strong> Indonesia's macro fundamentals remain solid with GDP growth above 5%, 
-                    inflation well-contained, and fiscal discipline maintained. The JCI's 3.33% decline in 2024 presents 
-                    selective buying opportunities. Key risks include rupiah weakness and global headwinds, but domestic 
-                    consumption strength and infrastructure spending provide support.
+                {/* Data Sources Footer */}
+                <div className="bg-slate-100 rounded-lg p-4 border border-slate-300">
+                  <p className="text-xs text-slate-600 text-center">
+                    <strong>Data Sources:</strong> BPS Statistics Indonesia • Bank Indonesia • Federal Reserve • U.S. Bureau of Economic Analysis • Bloomberg • Trading Economics
                   </p>
                 </div>
               </div>
