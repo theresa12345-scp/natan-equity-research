@@ -449,13 +449,19 @@ export default function NatanInstitutionalPlatform() {
   }, [companies]);
 
   const filteredStocks = useMemo(() => {
-    return ALL_STOCKS_DATA.filter(stock => {
+    if (!ALL_STOCKS_DATA || ALL_STOCKS_DATA.length === 0) {
+      console.log('⚠️ ALL_STOCKS_DATA is empty');
+      return [];
+    }
+
+    console.log(`🔍 Filtering ${ALL_STOCKS_DATA.length} stocks...`);
+    const filtered = ALL_STOCKS_DATA.filter(stock => {
       if (stock.natanScore.total < minScore) return false;
       if (selectedSector !== 'all' && stock.sector !== selectedSector) return false;
       if (selectedRegion !== 'all' && stock.region !== selectedRegion) return false;
       if (searchTerm) {
         const search = searchTerm.toLowerCase();
-        return stock.ticker?.toLowerCase().includes(search) || 
+        return stock.ticker?.toLowerCase().includes(search) ||
                stock.name?.toLowerCase().includes(search) ||
                stock.Name?.toLowerCase().includes(search);
       }
@@ -467,12 +473,16 @@ export default function NatanInstitutionalPlatform() {
       if (sortBy === 'dcf') return (b.dcf?.upside || 0) - (a.dcf?.upside || 0);
       return 0;
     });
-  }, [minScore, selectedSector, selectedRegion, searchTerm, sortBy]);
+
+    console.log(`✅ Filtered to ${filtered.length} stocks`);
+    return filtered;
+  }, [ALL_STOCKS_DATA, minScore, selectedSector, selectedRegion, searchTerm, sortBy]);
 
   const sectors = useMemo(() => {
+    if (!ALL_STOCKS_DATA || ALL_STOCKS_DATA.length === 0) return ['all'];
     const sectorSet = new Set(ALL_STOCKS_DATA.map(s => s.sector).filter(Boolean));
     return ['all', ...Array.from(sectorSet).sort()];
-  }, []);
+  }, [ALL_STOCKS_DATA]);
 
   const regions = ['all', 'Indonesia', 'US'];
 
