@@ -1047,6 +1047,26 @@ export default function NatanInstitutionalPlatform() {
                             </tr>
                           );
                         })}
+                        {filteredStocks.length === 0 && (
+                          <tr>
+                            <td colSpan="13" className="py-16 text-center bg-slate-50">
+                              <Search className="w-16 h-16 text-slate-300 mx-auto mb-4" />
+                              <h3 className="text-xl font-bold text-slate-700 mb-2">No stocks found</h3>
+                              <p className="text-slate-500 mb-4">Try adjusting your filters or search criteria</p>
+                              <button
+                                onClick={() => {
+                                  setMinScore(0);
+                                  setSelectedSector('all');
+                                  setSelectedRegion('all');
+                                  setSearchTerm('');
+                                }}
+                                className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+                              >
+                                Reset All Filters
+                              </button>
+                            </td>
+                          </tr>
+                        )}
                       </tbody>
                     </table>
                   </div>
