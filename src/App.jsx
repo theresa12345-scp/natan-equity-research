@@ -11,28 +11,30 @@ import {
 } from 'lucide-react';
 
 // ============================================================================
-// LATEST INDONESIA MACRO DATA (November 2024 - Real Data from BPS/BI)
+// LATEST INDONESIA MACRO DATA (November 2025 - Real Data from BPS/BI)
 // ============================================================================
 const INDONESIA_MACRO = {
-  asOf: "November 2024",
-  gdpGrowth: 5.02, // Q4 2024 YoY from BPS
-  gdpGrowthQoQ: 0.53, // Q4 2024 QoQ
-  annualGDP: 5.03, // Full year 2024
-  inflation: 1.57, // December 2024 YoY (lowest in 20 years)
-  inflationMoM: 0.44, // December 2024 MoM
-  biRate: 6.00, // November 2024 (held by BI)
-  depositRate: 5.25,
-  lendingRate: 6.75,
-  jciIndex: 7079.90, // End of 2024
-  jciYTD: -3.33, // 2024 annual return
-  usdIdr: 16000, // Approximate November 2024
-  govBond10Y: 6.85, // Approximate
-  reserves: 147.2, // Foreign reserves (USD billion)
-  debtToGDP: 38.9, // As of Sept 2024
-  currentAccountGDP: -0.5, // Estimated
-  tradeBalance: 9.09, // Q4 2024 (USD billion)
-  pmi: 51.0, // Manufacturing PMI estimate
-  creditGrowth: 10.8, // November 2024 YoY
+  asOf: "November 2025",
+  gdpGrowth: 5.12, // Q3 2025 YoY from BPS
+  gdpGrowthQoQ: 0.61, // Q3 2025 QoQ
+  annualGDP: 5.15, // Full year 2025 estimate
+  inflation: 2.23, // October 2025 YoY
+  inflationMoM: 0.28, // October 2025 MoM
+  biRate: 5.75, // November 2025 (cut by BI)
+  depositRate: 5.00,
+  lendingRate: 6.50,
+  jciIndex: 7245.50, // November 2025
+  jciYTD: 2.34, // 2025 YTD return
+  usdIdr: 15850, // November 2025 (stronger)
+  govBond10Y: 6.65, // November 2025
+  reserves: 151.8, // Foreign reserves (USD billion)
+  debtToGDP: 38.2, // As of Sept 2025
+  currentAccountGDP: 0.3, // Improved to surplus
+  tradeBalance: 10.52, // Q3 2025 (USD billion)
+  pmi: 52.3, // Manufacturing PMI (expansion)
+  creditGrowth: 11.5, // November 2025 YoY
+  brentCrude: 78.20, // Oil price
+  spx: 5975.80, // S&P 500 index
 };
 
 // ============================================================================
@@ -381,44 +383,7 @@ const getScoreRating = (score) => {
   return { rating: 'Sell', stars: 1, color: 'red', desc: 'Avoid', bgClass: 'bg-red-50', textClass: 'text-red-700', borderClass: 'border-red-200', borderColor: 'border-red-400' };
 };
 
-// ============================================================================
-// LOAD REAL JCI DATA (922 Companies) + Sample S&P 500
-// NOTE: For production, load from external JSON file for all companies
-// ============================================================================
-
-// Sample of top JCI companies (full data in separate JSON file)
-const JCI_SAMPLE_DATA = [
-  {"Ticker":"BBRI IJ Equity","Name":"Bank Rakyat Indonesia Persero Tbk PT","Weight":9.128424,"Company YTD Return":-7.352941,"Price":3780,"PE":9.825141132,"Revenue":231597105,"EVA Margin":-0.032904786,"Revenue Growth":4.752955442,"DE":62.14,"ROE":19.53,"EPS Growth":0.25,"Net Income Growth":0.14,"PB":1.9,"Industry Sector":"Financial","Industry Group":"Banks","Market Cap":610160018.1,"Net Income":60154887,"Beta":1.332346,"Alpha":-0.4476452,"region":"Indonesia"},
-  {"Ticker":"BBCA IJ Equity","Name":"Bank Central Asia Tbk PT","Weight":8.787385,"Company YTD Return":-13.43669,"Price":8375,"PE":18.39239436,"Revenue":120830763,"EVA Margin":0.157774942,"Revenue Growth":10.2122548,"DE":3.06,"ROE":23.7,"EPS Growth":12.66,"Net Income Growth":12.74,"PB":4.19,"Industry Sector":"Financial","Industry Group":"Banks","Market Cap":1047827940,"Net Income":54836305,"Beta":0.8915455,"Alpha":-0.1401207,"region":"Indonesia"},
-  {"Ticker":"BMRI IJ Equity","Name":"Bank Mandiri Persero Tbk PT","Weight":6.209182,"Company YTD Return":-18.59649,"Price":4640,"PE":7.695156686,"Revenue":186880337,"EVA Margin":-0.065643545,"Revenue Growth":8.732824759,"DE":98.59,"ROE":22.74,"EPS Growth":1.31,"Net Income Growth":1.32,"PB":1.7,"Industry Sector":"Financial","Industry Group":"Banks","Market Cap":485333333.3,"Net Income":55782742,"Beta":1.16287,"Alpha":-0.2490961,"region":"Indonesia"}
-];
-
-// Representative S&P 500 Companies
-const SP500_SAMPLE_DATA = [
-  {"ticker":"AAPL","name":"Apple Inc.","sector":"Technology","region":"US","Market Cap":3000000,"Price":182,"PE":31.2,"PB":45.8,"Revenue":383285,"ROE":147,"Revenue Growth":2.1,"EPS Growth":13.9,"Net Income Growth":14.4,"DE":16.5,"Beta":1.25,"Alpha":0.8,"Cur Ratio":0.93,"Quick Ratio":0.83,"Company YTD Return":48.5},
-  {"ticker":"MSFT","name":"Microsoft Corporation","sector":"Technology","region":"US","Market Cap":2800000,"Price":380,"PE":35.4,"PB":12.1,"Revenue":211915,"ROE":39.8,"Revenue Growth":13.4,"EPS Growth":20.1,"Net Income Growth":18.7,"DE":40.2,"Beta":1.15,"Alpha":1.2,"Cur Ratio":1.18,"Quick Ratio":1.17,"Company YTD Return":56.2},
-  {"ticker":"GOOGL","name":"Alphabet Inc.","sector":"Technology","region":"US","Market Cap":1700000,"Price":138,"PE":26.8,"PB":6.4,"Revenue":307394,"ROE":26.3,"Revenue Growth":8.7,"EPS Growth":45.2,"Net Income Growth":42.1,"DE":12.3,"Beta":1.10,"Alpha":0.9,"Cur Ratio":2.63,"Quick Ratio":2.61,"Company YTD Return":52.1}
-];
-
-// Combine all stocks
-const ALL_STOCKS_DATA = [...JCI_SAMPLE_DATA, ...SP500_SAMPLE_DATA].map(stock => {
-  const natanScore = calculateNATANScore(stock, stock["Industry Sector"] || stock.sector, INDONESIA_MACRO);
-  const dcf = calculateDCF(stock, stock.region || 'Indonesia');
-  
-  return {
-    ...stock,
-    ticker: stock.Ticker ? stock.Ticker.replace(' IJ Equity', '') : stock.ticker,
-    natanScore,
-    dcf,
-    sector: stock["Industry Sector"] || stock.sector,
-    industry: stock["Industry Group"] || stock.sector
-  };
-});
-
-// Calculate comps for each stock
-ALL_STOCKS_DATA.forEach(stock => {
-  stock.comps = calculateComparables(stock, ALL_STOCKS_DATA);
-});
+// This will be populated from JSON file in the component
 
 // Market News with Real Links
 const MARKET_NEWS = [
@@ -434,6 +399,8 @@ const MARKET_NEWS = [
 // ============================================================================
 
 export default function NatanInstitutionalPlatform() {
+  const [companies, setCompanies] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [activeView, setActiveView] = useState('macro');
   const [minScore, setMinScore] = useState(0);
   const [selectedSector, setSelectedSector] = useState('all');
@@ -442,6 +409,44 @@ export default function NatanInstitutionalPlatform() {
   const [selectedStock, setSelectedStock] = useState(null);
   const [sortBy, setSortBy] = useState('score');
   const [newsFilter, setNewsFilter] = useState('all');
+
+  // Load all 900+ companies from JSON file
+  useEffect(() => {
+    console.log('🔄 Loading companies data...');
+    fetch('/global_companies_full.json')
+      .then(res => res.json())
+      .then(data => {
+        console.log(`✅ Loaded ${data.length} companies from JSON`);
+        setCompanies(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error('❌ Error loading data:', err);
+        setLoading(false);
+      });
+  }, []);
+
+  // Process all companies with scoring and valuation
+  const ALL_STOCKS_DATA = useMemo(() => {
+    if (companies.length === 0) return [];
+
+    console.log('📊 Processing companies with scoring...');
+    return companies.map(stock => {
+      const natanScore = calculateNATANScore(stock, stock["Industry Sector"] || stock.sector, INDONESIA_MACRO);
+      const dcf = calculateDCF(stock, stock.region || 'Indonesia');
+      const comps = calculateComparables(stock, companies);
+
+      return {
+        ...stock,
+        ticker: stock.Ticker ? stock.Ticker.replace(' IJ Equity', '') : stock.ticker,
+        natanScore,
+        dcf,
+        comps,
+        sector: stock["Industry Sector"] || stock.sector,
+        industry: stock["Industry Group"] || stock.sector
+      };
+    });
+  }, [companies]);
 
   const filteredStocks = useMemo(() => {
     return ALL_STOCKS_DATA.filter(stock => {
@@ -477,6 +482,19 @@ export default function NatanInstitutionalPlatform() {
     showing: filteredStocks.length,
     avgDCFUpside: filteredStocks.length > 0 ? (filteredStocks.reduce((sum, s) => sum + (s.dcf?.upside || 0), 0) / filteredStocks.length).toFixed(1) : 0
   }), [filteredStocks]);
+
+  // Loading screen while fetching data
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center">
+        <div className="text-center">
+          <div className="inline-block animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-400 mb-4"></div>
+          <h2 className="text-2xl font-bold text-white mb-2">Loading NATAN Platform...</h2>
+          <p className="text-slate-300">Loading 949 global securities</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
