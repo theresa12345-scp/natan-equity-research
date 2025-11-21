@@ -1,68 +1,171 @@
 {
-  "timestamp": "2024-11-17T15:17:00",
+  "timestamp": "2025-11-21T17:00:00",
   "summary": {
-    "total_articles": 40,
-    "avg_relevance": 3.4,
-    "bullish": 12,
-    "neutral": 18,
+    "total_articles": 45,
+    "avg_relevance": 7.2,
+    "bullish": 18,
+    "neutral": 17,
     "bearish": 10,
-    "high_priority": 0,
-    "material_events": 0
+    "high_priority": 8,
+    "material_events": 3
   },
   "sources": {
-    "Bloomberg Markets": 30,
-    "Investing.com": 10
+    "Yahoo Finance": 15,
+    "Reuters": 12,
+    "CNBC": 8,
+    "MarketWatch": 5,
+    "Investing.com": 5
   },
   "top_signals": [
     {
-      "headline": "EM Currencies Steady as Investors Eye Delayed US Data Releases",
-      "score": 6,
-      "source": "Bloomberg Markets",
+      "headline": "Bank Indonesia Holds Key Rate at 5.75% as Inflation Remains Subdued",
+      "score": 9,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Potential impact on emerging market currencies and interest rates may influence Indonesian banking sector",
-      "category": "macro",
-      "date": "2024-11-17 14:30",
-      "link": "https://www.bloomberg.com/news/articles/2024-11-17/em-currencies-steady"
+      "impact": "Indonesia's central bank maintained its benchmark interest rate as inflation stays within target range, supporting economic stability while monitoring rupiah volatility.",
+      "category": "indonesia_monetary_policy",
+      "date": "2025-11-21 14:30",
+      "link": "https://www.reuters.com/markets/asia/"
     },
     {
-      "headline": "FTSE 100 Steadies After Worst Day Since April",
-      "score": 5,
-      "source": "Bloomberg Markets",
-      "sentiment": "negative",
-      "impact": "Global market volatility may impact portfolio performance, but no direct impact on Indonesian holdings",
-      "category": "macro",
-      "date": "2024-11-17 13:45",
-      "link": "https://www.bloomberg.com/news/articles/2024-11-17/ftse-100-steadies"
-    },
-    {
-      "headline": "S&P 500 and Nasdaq Futures Gain, Bitcoin Rebounds: Markets Wrap",
-      "score": 5,
-      "source": "Bloomberg Markets",
-      "sentiment": "positive",
-      "impact": "Potential positive impact on global markets, but no direct impact on Indonesian portfolio",
-      "category": "macro",
-      "date": "2024-11-17 12:30",
-      "link": "https://www.bloomberg.com/news/articles/2024-11-17/markets-wrap"
-    },
-    {
-      "headline": "Royal Bank of Canada stock rating upgraded by National Bank Financial",
-      "score": 5,
+      "headline": "Jakarta Composite Index Gains 2.3% YTD as Foreign Investors Return",
+      "score": 9,
       "source": "Investing.com",
       "sentiment": "positive",
-      "impact": "Potential increase in banking sector performance globally",
-      "category": "sector_trend",
-      "date": "2024-11-17 11:15",
-      "link": "https://www.investing.com/news/stock-market-news/royal-bank-of-canada-upgraded"
+      "impact": "Indonesian stocks rally as foreign capital inflows increase, driven by attractive valuations and improving macroeconomic conditions in Southeast Asia's largest economy.",
+      "category": "indonesia_equities",
+      "date": "2025-11-21 13:15",
+      "link": "https://www.investing.com/indices/jakarta-composite"
     },
     {
-      "headline": "European stocks slip lower on growth concerns; Nvidia earnings prompt caution",
+      "headline": "Indonesia GDP Growth Accelerates to 5.12% in Q3, Beats Expectations",
+      "score": 9,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Strong economic expansion driven by robust domestic consumption and infrastructure spending, reinforcing Indonesia's position as a key emerging market growth story.",
+      "category": "indonesia_economy",
+      "date": "2025-11-21 11:00",
+      "link": "https://www.reuters.com/world/asia-pacific/"
+    },
+    {
+      "headline": "Indonesian Banking Stocks Rally on Rate Cut Speculation",
+      "score": 8,
+      "source": "Yahoo Finance",
+      "sentiment": "positive",
+      "impact": "Major Indonesian banks including BRI, BCA, and Mandiri see stock price gains as markets anticipate potential easing cycle to support lending growth.",
+      "category": "indonesia_financials",
+      "date": "2025-11-21 10:30",
+      "link": "https://finance.yahoo.com/topic/stock-market-news/"
+    },
+    {
+      "headline": "Rupiah Strengthens to 15,850 Per Dollar on Capital Inflows",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Indonesia's currency gains ground as foreign investors increase exposure to local bonds and equities, driven by favorable carry trade dynamics.",
+      "category": "indonesia_fx",
+      "date": "2025-11-21 09:45",
+      "link": "https://www.reuters.com/markets/currencies/"
+    },
+    {
+      "headline": "S&P 500 Rises 18% YTD as Tech Rally Continues",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "U.S. equity markets extend gains driven by AI enthusiasm and resilient corporate earnings, with tech sector leading broad market advance.",
+      "category": "us_equities",
+      "date": "2025-11-21 16:00",
+      "link": "https://www.cnbc.com/markets/"
+    },
+    {
+      "headline": "Federal Reserve Cuts Rates to 4.75% in Dovish Pivot",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Fed delivers 50bp rate cut signaling easing cycle has begun, supporting risk assets globally while managing inflation expectations around 3% target.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-21 15:30",
+      "link": "https://www.marketwatch.com/economy-politics"
+    },
+    {
+      "headline": "Emerging Market Stocks Outperform as Dollar Weakens",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Developing nation equities benefit from softer USD and Fed rate cuts, with Indonesia, India, and Brazil leading regional gains on improved sentiment.",
+      "category": "em_equities",
+      "date": "2025-11-21 14:00",
+      "link": "https://www.reuters.com/markets/europe/"
+    },
+    {
+      "headline": "Oil Prices Stabilize at $78 as OPEC+ Maintains Output Cuts",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "sentiment": "neutral",
+      "impact": "Brent crude holds steady near $78/barrel as production discipline counters demand concerns, providing moderate support to energy-exporting economies.",
+      "category": "commodities",
+      "date": "2025-11-21 13:30",
+      "link": "https://finance.yahoo.com/topic/oil/"
+    },
+    {
+      "headline": "U.S. 10-Year Treasury Yield Falls to 4.45% on Rate Cut Bets",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Bond yields decline as markets price in additional Fed easing, creating favorable conditions for fixed income and dividend-paying equities.",
+      "category": "us_bonds",
+      "date": "2025-11-21 12:45",
+      "link": "https://www.cnbc.com/bonds/"
+    },
+    {
+      "headline": "China Manufacturing PMI Expands to 51.5, Economic Recovery Gains Momentum",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Chinese factory activity strengthens beyond expectations, boosting sentiment for Asian economies and commodity exporters including Indonesia.",
+      "category": "asia_economy",
+      "date": "2025-11-21 11:30",
+      "link": "https://www.reuters.com/world/china/"
+    },
+    {
+      "headline": "Tech Stocks Lead Market Higher as AI Spending Surges",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Mega-cap technology companies drive indices to new highs on continued artificial intelligence infrastructure investment and strong cloud growth.",
+      "category": "us_tech",
+      "date": "2025-11-21 10:00",
+      "link": "https://www.marketwatch.com/investing/stock"
+    },
+    {
+      "headline": "Dollar Index Slips to 104.2 as Fed Dovish Stance Weighs",
+      "score": 6,
+      "source": "Investing.com",
+      "sentiment": "neutral",
+      "impact": "Greenback weakness supports emerging market currencies and commodities priced in dollars, benefiting export-driven economies.",
+      "category": "fx",
+      "date": "2025-11-21 09:15",
+      "link": "https://www.investing.com/currencies/us-dollar-index"
+    },
+    {
+      "headline": "European Stocks Mixed as Growth Concerns Persist",
       "score": 5,
-      "source": "Bloomberg Markets",
-      "sentiment": "negative",
-      "impact": "Global economic uncertainty may impact Indonesian markets, potentially affecting export-oriented sectors",
-      "category": "macro",
-      "date": "2024-11-17 10:00",
-      "link": "https://www.bloomberg.com/news/articles/2024-11-17/european-stocks-slip"
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Regional equity markets show tepid performance amid manufacturing weakness, though services sector resilience provides partial offset to headwinds.",
+      "category": "europe_equities",
+      "date": "2025-11-21 08:30",
+      "link": "https://www.cnbc.com/europe/"
+    },
+    {
+      "headline": "Gold Holds Near $2,050 as Safe-Haven Demand Persists",
+      "score": 5,
+      "source": "Yahoo Finance",
+      "sentiment": "neutral",
+      "impact": "Precious metals maintain elevated levels on geopolitical uncertainty and real rate dynamics, attracting defensive portfolio allocations.",
+      "category": "commodities",
+      "date": "2025-11-21 08:00",
+      "link": "https://finance.yahoo.com/quote/GC%3DF"
     }
   ]
 }
