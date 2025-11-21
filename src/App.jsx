@@ -151,10 +151,10 @@ const calculateComparables = (stock, allStocks) => {
   const marketCapLower = (stock["Market Cap"] || 0) * 0.3;
   const marketCapUpper = (stock["Market Cap"] || 0) * 3.0;
   
-  const peers = allStocks.filter(s => 
+  const peers = allStocks.filter(s =>
     s["Industry Sector"] === stock["Industry Sector"] &&
-    s.region === stock.region &&
-    s.ticker !== stock.ticker &&
+    s.Region === stock.Region &&
+    s.Ticker !== stock.Ticker &&
     s["Market Cap"] && s["Market Cap"] >= marketCapLower && s["Market Cap"] <= marketCapUpper &&
     s.PE && s.PE > 0
   ).slice(0, 5);
@@ -448,18 +448,19 @@ export default function NatanInstitutionalPlatform() {
 
     console.log('📊 Processing companies with scoring...');
     return companies.map(stock => {
-      const natanScore = calculateNATANScore(stock, stock["Industry Sector"] || stock.sector, INDONESIA_MACRO);
-      const dcf = calculateDCF(stock, stock.region || 'Indonesia');
+      const natanScore = calculateNATANScore(stock, stock["Industry Sector"], INDONESIA_MACRO);
+      const dcf = calculateDCF(stock, stock.Region || 'Indonesia');
       const comps = calculateComparables(stock, companies);
 
       return {
         ...stock,
-        ticker: stock.Ticker ? stock.Ticker.replace(' IJ Equity', '') : stock.ticker,
+        ticker: stock.Ticker ? stock.Ticker.replace(' IJ Equity', '') : stock.Ticker,
         natanScore,
         dcf,
         comps,
-        sector: stock["Industry Sector"] || stock.sector,
-        industry: stock["Industry Group"] || stock.sector
+        sector: stock["Industry Sector"],
+        industry: stock["Industry Group"],
+        region: stock.Region
       };
     });
   }, [companies]);
@@ -474,7 +475,7 @@ export default function NatanInstitutionalPlatform() {
     const filtered = ALL_STOCKS_DATA.filter(stock => {
       if (stock.natanScore.total < minScore) return false;
       if (selectedSector !== 'all' && stock.sector !== selectedSector) return false;
-      if (selectedRegion !== 'all' && stock.region !== selectedRegion) return false;
+      if (selectedRegion !== 'all' && stock.Region !== selectedRegion) return false;
       if (searchTerm) {
         const search = searchTerm.toLowerCase();
         return stock.ticker?.toLowerCase().includes(search) ||
