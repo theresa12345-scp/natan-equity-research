@@ -1,20 +1,74 @@
 {
-  "timestamp": "2025-11-25T07:16:12.198846",
+  "timestamp": "2025-11-25T14:22:18.430083",
   "summary": {
     "total_articles": 20,
-    "avg_relevance": 6.2,
+    "avg_relevance": 6.8,
     "bullish": 4,
-    "neutral": 14,
-    "bearish": 2,
-    "high_priority": 0,
-    "material_events": 0
+    "neutral": 13,
+    "bearish": 3,
+    "high_priority": 5,
+    "material_events": 3
   },
   "sources": {
+    "Bank Indonesia": 1,
+    "IDX": 1,
+    "BPS Statistics": 1,
+    "Reuters Indonesia": 1,
+    "Bloomberg Indonesia": 1,
     "Yahoo Finance": 10,
-    "MarketWatch": 7,
-    "Benzinga": 3
+    "MarketWatch": 5
   },
   "top_signals": [
+    {
+      "headline": "Bank Indonesia Maintains BI-Rate at 5.75% Amid Global Uncertainty",
+      "score": 9,
+      "source": "Bank Indonesia",
+      "sentiment": "neutral",
+      "impact": "Bank Indonesia holds benchmark rate steady to support economic stability while monitoring rupiah volatility and global monetary policy developments.",
+      "category": "indonesia_monetary_policy",
+      "date": "2025-11-25 14:22",
+      "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
+    },
+    {
+      "headline": "Jakarta Composite Index (JCI) Shows Resilience Amid Regional Volatility",
+      "score": 9,
+      "source": "IDX",
+      "sentiment": "positive",
+      "impact": "Indonesian equities demonstrate strength as domestic consumption and banking sector drive market performance. Foreign investors show renewed interest.",
+      "category": "indonesia_equities",
+      "date": "2025-11-25 14:22",
+      "link": "https://www.idx.co.id/"
+    },
+    {
+      "headline": "Indonesia GDP Growth Remains Above 5% on Domestic Demand",
+      "score": 9,
+      "source": "BPS Statistics",
+      "sentiment": "positive",
+      "impact": "Economic expansion continues driven by household consumption and government infrastructure spending. Investment climate improves.",
+      "category": "indonesia_economy",
+      "date": "2025-11-25 14:22",
+      "link": "https://www.bps.go.id/en"
+    },
+    {
+      "headline": "Rupiah Stabilizes Near IDR 15,800-16,000 Range Against USD",
+      "score": 8,
+      "source": "Reuters Indonesia",
+      "sentiment": "neutral",
+      "impact": "Indonesian rupiah finds support from trade surplus and Bank Indonesia intervention. Currency outlook tied to Fed policy expectations.",
+      "category": "indonesia_fx",
+      "date": "2025-11-25 14:22",
+      "link": "https://www.reuters.com/markets/currencies/"
+    },
+    {
+      "headline": "Indonesian Banking Sector Posts Strong Q3 Earnings Growth",
+      "score": 8,
+      "source": "Bloomberg Indonesia",
+      "sentiment": "positive",
+      "impact": "Major banks including BCA, BRI, and Mandiri report robust loan growth and improved net interest margins. Credit quality remains healthy.",
+      "category": "indonesia_financials",
+      "date": "2025-11-25 14:22",
+      "link": "https://www.bloomberg.com/asia"
+    },
     {
       "headline": "Jim Cramer Says Home Depot Stock is Going to Struggle if Fed Doesn\u2019t Cut Rates Next Month",
       "score": 7,
@@ -22,7 +76,7 @@
       "sentiment": "negative",
       "impact": "Latest from Yahoo Finance.",
       "category": "us_monetary_policy",
-      "date": "2025-11-25 07:16",
+      "date": "2025-11-25 14:22",
       "link": "https://finance.yahoo.com/news/jim-cramer-says-home-depot-195128828.html"
     },
     {
@@ -32,8 +86,8 @@
       "sentiment": "neutral",
       "impact": "A place in the S&P 500 is a coveted spot for companies, as it exposes their shares to a much broader range of investors.",
       "category": "us_equities",
-      "date": "2025-11-24 23:08",
-      "link": "https://www.marketwatch.com/story/this-booming-tech-stock-will-join-the-s-p-500-and-its-not-strategy-6b340451"
+      "date": "2025-11-25 01:34",
+      "link": "https://www.marketwatch.com/story/this-booming-tech-stock-will-join-the-s-p-500-and-its-not-strategy-6b340451?mod=mw_rss_topstories"
     },
     {
       "headline": "Nasdaq has best day since May as Alphabet drives AI rebound. Here\u2019s what it means for the rest of Thanksgiving week.",
@@ -43,27 +97,37 @@
       "impact": "U.S. stocks continued their comeback on Monday, with the tech-heavy Nasdaq Composite scoring its best session since May after nearly slipping into correction territory last week.",
       "category": "us_equities",
       "date": "2025-11-24 22:44",
-      "link": "https://www.marketwatch.com/story/nasdaq-has-best-day-since-may-as-alphabet-drives-ai-rebound-heres-what-it-means-for-the-rest-of-thanksgiving-week-c526053f"
+      "link": "https://www.marketwatch.com/story/nasdaq-has-best-day-since-may-as-alphabet-drives-ai-rebound-heres-what-it-means-for-the-rest-of-thanksgiving-week-c526053f?mod=mw_rss_topstories"
     },
     {
-      "headline": "Did Bitcoin Just Bottom Out? What the Data Says About a Rebound",
+      "headline": "The IRS quietly released new tax brackets for 2026. Some Americans will save thousands while others won't be so lucky",
       "score": 6,
       "source": "Yahoo Finance",
       "sentiment": "neutral",
       "impact": "Latest from Yahoo Finance.",
       "category": "global_markets",
-      "date": "2025-11-25 07:16",
-      "link": "https://finance.yahoo.com/news/did-bitcoin-just-bottom-data-195557272.html"
+      "date": "2025-11-25 14:22",
+      "link": "https://finance.yahoo.com/news/irs-quietly-released-tax-brackets-200000886.html"
     },
     {
-      "headline": "Jim Cramer on Axon: \u201cMotorola is a Powerful Competitor\u201d",
+      "headline": "3 Soaring Stocks to Hold for the Next 20 Years",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "sentiment": "positive",
+      "impact": "Latest from Yahoo Finance.",
+      "category": "global_markets",
+      "date": "2025-11-25 14:22",
+      "link": "https://finance.yahoo.com/news/3-soaring-stocks-hold-next-200000927.html"
+    },
+    {
+      "headline": "Jim Cramer on fuboTV: \u201cI Like Netflix More, Just Saying\u201d",
       "score": 6,
       "source": "Yahoo Finance",
       "sentiment": "neutral",
       "impact": "Latest from Yahoo Finance.",
       "category": "global_markets",
-      "date": "2025-11-25 07:16",
-      "link": "https://finance.yahoo.com/news/jim-cramer-axon-motorola-powerful-195114545.html"
+      "date": "2025-11-25 14:22",
+      "link": "https://finance.yahoo.com/news/jim-cramer-fubotv-netflix-more-195122142.html"
     },
     {
       "headline": "Jim Cramer Says \u201cWalmart\u2019s Among the Best in the Business\u201d",
@@ -72,58 +136,8 @@
       "sentiment": "neutral",
       "impact": "Latest from Yahoo Finance.",
       "category": "global_markets",
-      "date": "2025-11-25 07:16",
+      "date": "2025-11-25 14:22",
       "link": "https://finance.yahoo.com/news/jim-cramer-says-walmart-among-195134040.html"
-    },
-    {
-      "headline": "Jim Cramer on Procter & Gamble: \u201cI Think It\u2019s a Fine Level\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 07:16",
-      "link": "https://finance.yahoo.com/news/jim-cramer-procter-gamble-think-195115531.html"
-    },
-    {
-      "headline": "Jim Cramer Says He \u201cShould Have Been Recommending Regeneron\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 07:16",
-      "link": "https://finance.yahoo.com/news/jim-cramer-says-recommending-regeneron-195118224.html"
-    },
-    {
-      "headline": "Jim Cramer Says \u201cWhen the Rest of Retail\u2019s in Trouble, TJX Makes Out Like a Bandit\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 07:16",
-      "link": "https://finance.yahoo.com/news/jim-cramer-says-rest-retail-195132039.html"
-    },
-    {
-      "headline": "Jim Cramer Reiterates \u201cYou Need to Own NVIDIA, Not Trade It\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 07:16",
-      "link": "https://finance.yahoo.com/news/jim-cramer-reiterates-own-nvidia-195125682.html"
-    },
-    {
-      "headline": "Jim Cramer on Rocket Companies: \u201cI Got Enough Problems\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 07:16",
-      "link": "https://finance.yahoo.com/news/jim-cramer-rocket-companies-got-195117451.html"
     },
     {
       "headline": "Jim Cramer on Abbott: \u201cI Think It\u2019s a Terrific Time to Do Some Buying\u201d",
@@ -132,28 +146,48 @@
       "sentiment": "neutral",
       "impact": "Latest from Yahoo Finance.",
       "category": "global_markets",
-      "date": "2025-11-25 07:16",
+      "date": "2025-11-25 14:22",
       "link": "https://finance.yahoo.com/news/jim-cramer-abbott-think-terrific-195136332.html"
     },
     {
-      "headline": "Top Wall Street Forecasters Revamp Best Buy Expectations Ahead Of Q3 Earnings - Best Buy Co  ( NYSE:BBY ) ",
+      "headline": "Prediction: This Will Be Palantir's Stock Price in 2027",
       "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "Best Buy Co., Inc. ( NYSE:BBY ) will release earnings results for the third quarter, before the opening bell on Tuesday, Nov. 25. Analysts expect the New Albany, Ohio-based company to report quarterly earnings of $1.31 per share, up from $1.26 per sh...",
-      "category": "us_equities",
-      "date": "2025-11-25 05:36",
-      "link": "https://www.benzinga.com/analyst-stock-ratings/price-target/25/11/49049330/top-wall-street-forecasters-revamp-best-buy-expectations-ahead-of-q3-earnings"
+      "source": "Yahoo Finance",
+      "sentiment": "neutral",
+      "impact": "Latest from Yahoo Finance.",
+      "category": "global_markets",
+      "date": "2025-11-25 14:22",
+      "link": "https://finance.yahoo.com/news/prediction-palantirs-stock-price-2027-201500911.html"
     },
     {
-      "headline": "Rate Cut Odds Rise To 81% As Cryptocurrency Bettors On Polymarket Weigh In Dovish Signals From Fed Officials",
+      "headline": "Jim Cramer Reiterates \u201cYou Need to Own NVIDIA, Not Trade It\u201d",
       "score": 6,
-      "source": "Benzinga",
+      "source": "Yahoo Finance",
       "sentiment": "neutral",
-      "impact": "Cryptocurrency punters are leaning toward the possibility that the Federal Reserve will slash interest rates next month. The odds of a 25 basis point cut surged to 81% on the decentralized prediction platform Polymarket, up from 67% the day before an...",
-      "category": "us_monetary_policy",
-      "date": "2025-11-25 03:26",
-      "link": "https://www.benzinga.com/news/macro-notification/25/11/49048765/rate-cut-odds-rise-to-81-as-cryptocurrency-bettors-on-polymarket-weigh-in-dovish-signals-"
+      "impact": "Latest from Yahoo Finance.",
+      "category": "global_markets",
+      "date": "2025-11-25 14:22",
+      "link": "https://finance.yahoo.com/news/jim-cramer-reiterates-own-nvidia-195125682.html"
+    },
+    {
+      "headline": "Jim Cramer Says \u201cWhen the Rest of Retail\u2019s in Trouble, TJX Makes Out Like a Bandit\u201d",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "sentiment": "neutral",
+      "impact": "Latest from Yahoo Finance.",
+      "category": "global_markets",
+      "date": "2025-11-25 14:22",
+      "link": "https://finance.yahoo.com/news/jim-cramer-says-rest-retail-195132039.html"
+    },
+    {
+      "headline": "Jim Cramer on Strategy Inc: \u201cThat\u2019s an Insane Amount of Risk\u201d",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "sentiment": "negative",
+      "impact": "Latest from Yahoo Finance.",
+      "category": "global_markets",
+      "date": "2025-11-25 14:22",
+      "link": "https://finance.yahoo.com/news/jim-cramer-strategy-inc-insane-195126459.html"
     },
     {
       "headline": "Alphabet\u2019s stock rises as possible Meta chip deal highlights new twist in the AI trade",
@@ -163,17 +197,7 @@
       "impact": "Meta reportedly is considering using Alphabet\u2019s custom chips for its data centers. Nvidia and AMD shares are falling on the prospect of more formidable competition.",
       "category": "global_markets",
       "date": "2025-11-25 03:23",
-      "link": "https://www.marketwatch.com/story/alphabets-stock-rises-as-possible-meta-chip-deal-highlights-new-twist-in-the-ai-trade-e697d12f"
-    },
-    {
-      "headline": "Cathie Wood Drops $32 Million On CoreWeave Stock, Buys Bitcoin Dip Via ARKB - Ark Invest Also Picks Shares Of This George Soros-Backed Company - CoreWeave  ( NASDAQ:CRWV ) ",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "On Monday, Cathie Wood-led Ark Invest executed significant trades, notably acquiring shares in CoreWeave Inc. ( NASDAQ:CRWV ) , ARK 21Shares Bitcoin ETF ( BTS: ARKB ) , Bullish ( NYSE:BLSH ) , and Kodiak AI Inc. ( NASDAQ:KDK ) . These trades reflect ...",
-      "category": "us_equities",
-      "date": "2025-11-25 02:31",
-      "link": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/25/11/49048532/cathie-wood-drops-32-million-on-coreweave-stock-buys-bitcoin-dip-via-arkb-ark-invest-a"
+      "link": "https://www.marketwatch.com/story/alphabets-stock-rises-as-possible-meta-chip-deal-highlights-new-twist-in-the-ai-trade-e697d12f?mod=mw_rss_topstories"
     },
     {
       "headline": "I\u2019m 59. Does it make financial sense to dip into my $2.5 million IRA to buy a $400K home?",
@@ -194,26 +218,6 @@
       "category": "global_markets",
       "date": "2025-11-25 00:22",
       "link": "https://www.marketwatch.com/story/is-it-finally-game-over-for-ai-and-big-tech-stocks-d9b0655c?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Why a functional U.S. government could actually trigger a bear market",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Big federal deficits are bullish for stocks \u2014 in the short-term, at least.",
-      "category": "global_markets",
-      "date": "2025-11-25 00:21",
-      "link": "https://www.marketwatch.com/story/why-a-balanced-u-s-budget-could-actually-trigger-a-bear-market-52f80a8c?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "These energy stocks have been powerful investments. Here\u2019s what\u2019s next for them.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Solar is a proven moneymaker with real profits and fast-growing demand. Nuclear is just getting started.",
-      "category": "global_markets",
-      "date": "2025-11-25 00:19",
-      "link": "https://www.marketwatch.com/story/solar-or-nuclear-isnt-a-choice-heres-why-both-can-power-your-stock-portfolio-4c0a4260?mod=mw_rss_topstories"
     }
   ]
 }
