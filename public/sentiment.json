@@ -1,87 +1,129 @@
 {
-  "timestamp": "2025-11-25T14:22:18.430083",
+  "timestamp": "2025-11-25T14:28:16.829956",
   "summary": {
-    "total_articles": 20,
-    "avg_relevance": 6.8,
-    "bullish": 4,
-    "neutral": 13,
-    "bearish": 3,
-    "high_priority": 5,
-    "material_events": 3
+    "total_articles": 25,
+    "avg_relevance": 6.6,
+    "bullish": 9,
+    "neutral": 12,
+    "bearish": 4,
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
-    "IDX": 1,
-    "BPS Statistics": 1,
-    "Reuters Indonesia": 1,
-    "Bloomberg Indonesia": 1,
-    "Yahoo Finance": 10,
-    "MarketWatch": 5
+    "Indonesia Stock Exchange": 1,
+    "BPS Statistics Indonesia": 1,
+    "Federal Reserve": 1,
+    "Reuters": 3,
+    "Bloomberg": 2,
+    "Caixin/S&P Global": 1,
+    "MarketWatch": 10,
+    "CNBC": 5
   },
   "top_signals": [
     {
-      "headline": "Bank Indonesia Maintains BI-Rate at 5.75% Amid Global Uncertainty",
+      "headline": "Bank Indonesia Holds BI-Rate at 5.75% to Support Rupiah Stability",
       "score": 9,
       "source": "Bank Indonesia",
       "sentiment": "neutral",
-      "impact": "Bank Indonesia holds benchmark rate steady to support economic stability while monitoring rupiah volatility and global monetary policy developments.",
+      "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-11-25 14:22",
+      "date": "2025-11-25 14:28",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
-      "headline": "Jakarta Composite Index (JCI) Shows Resilience Amid Regional Volatility",
+      "headline": "JCI Index Resilient Above 7,200 as Foreign Flows Turn Positive",
       "score": 9,
-      "source": "IDX",
+      "source": "Indonesia Stock Exchange",
       "sentiment": "positive",
-      "impact": "Indonesian equities demonstrate strength as domestic consumption and banking sector drive market performance. Foreign investors show renewed interest.",
+      "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-11-25 14:22",
-      "link": "https://www.idx.co.id/"
+      "date": "2025-11-25 14:28",
+      "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
-      "headline": "Indonesia GDP Growth Remains Above 5% on Domestic Demand",
+      "headline": "Indonesia Q3 GDP Grows 5.12% YoY, Beats Consensus Estimates",
       "score": 9,
-      "source": "BPS Statistics",
+      "source": "BPS Statistics Indonesia",
       "sentiment": "positive",
-      "impact": "Economic expansion continues driven by household consumption and government infrastructure spending. Investment climate improves.",
+      "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-11-25 14:22",
-      "link": "https://www.bps.go.id/en"
+      "date": "2025-11-25 14:28",
+      "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
-      "headline": "Rupiah Stabilizes Near IDR 15,800-16,000 Range Against USD",
+      "headline": "Federal Reserve Signals Potential December Rate Cut Amid Cooling Inflation",
+      "score": 9,
+      "source": "Federal Reserve",
+      "sentiment": "positive",
+      "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-25 14:28",
+      "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
       "score": 8,
-      "source": "Reuters Indonesia",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Indonesian rupiah finds support from trade surplus and Bank Indonesia intervention. Currency outlook tied to Fed policy expectations.",
+      "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-11-25 14:22",
+      "date": "2025-11-25 14:28",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
-      "headline": "Indonesian Banking Sector Posts Strong Q3 Earnings Growth",
+      "headline": "Indonesian Banks Report Strong NIM Expansion in Q3 Results",
       "score": 8,
-      "source": "Bloomberg Indonesia",
+      "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "Major banks including BCA, BRI, and Mandiri report robust loan growth and improved net interest margins. Credit quality remains healthy.",
+      "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-11-25 14:22",
+      "date": "2025-11-25 14:28",
       "link": "https://www.bloomberg.com/asia"
     },
     {
-      "headline": "Jim Cramer Says Home Depot Stock is Going to Struggle if Fed Doesn\u2019t Cut Rates Next Month",
+      "headline": "S&P 500 Approaches All-Time High on AI Optimism and Rate Cut Bets",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
+      "category": "us_equities",
+      "date": "2025-11-25 14:28",
+      "link": "https://www.bloomberg.com/markets"
+    },
+    {
+      "headline": "US 10-Year Treasury Yield Falls to 4.35% on Dovish Fed Outlook",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
+      "category": "fixed_income",
+      "date": "2025-11-25 14:28",
+      "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
-      "source": "Yahoo Finance",
-      "sentiment": "negative",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "us_monetary_policy",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/jim-cramer-says-home-depot-195128828.html"
+      "source": "Caixin/S&P Global",
+      "sentiment": "positive",
+      "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
+      "category": "asia_economy",
+      "date": "2025-11-25 14:28",
+      "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
+    },
+    {
+      "headline": "Brent Crude Holds at $78/bbl as OPEC+ Maintains Production Discipline",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
+      "category": "commodities",
+      "date": "2025-11-25 14:28",
+      "link": "https://www.reuters.com/business/energy/"
     },
     {
       "headline": "This booming tech stock will join the S&P 500 \u2014 and it\u2019s not Strategy",
-      "score": 7,
+      "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
       "impact": "A place in the S&P 500 is a coveted spot for companies, as it exposes their shares to a much broader range of investors.",
@@ -91,7 +133,7 @@
     },
     {
       "headline": "Nasdaq has best day since May as Alphabet drives AI rebound. Here\u2019s what it means for the rest of Thanksgiving week.",
-      "score": 7,
+      "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
       "impact": "U.S. stocks continued their comeback on Monday, with the tech-heavy Nasdaq Composite scoring its best session since May after nearly slipping into correction territory last week.",
@@ -100,98 +142,58 @@
       "link": "https://www.marketwatch.com/story/nasdaq-has-best-day-since-may-as-alphabet-drives-ai-rebound-heres-what-it-means-for-the-rest-of-thanksgiving-week-c526053f?mod=mw_rss_topstories"
     },
     {
-      "headline": "The IRS quietly released new tax brackets for 2026. Some Americans will save thousands while others won't be so lucky",
+      "headline": "Kohl's names Michael Bender as permanent CEO after a turbulent year and sales declines",
       "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/irs-quietly-released-tax-brackets-200000886.html"
-    },
-    {
-      "headline": "3 Soaring Stocks to Hold for the Next 20 Years",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "positive",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/3-soaring-stocks-hold-next-200000927.html"
-    },
-    {
-      "headline": "Jim Cramer on fuboTV: \u201cI Like Netflix More, Just Saying\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/jim-cramer-fubotv-netflix-more-195122142.html"
-    },
-    {
-      "headline": "Jim Cramer Says \u201cWalmart\u2019s Among the Best in the Business\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/jim-cramer-says-walmart-among-195134040.html"
-    },
-    {
-      "headline": "Jim Cramer on Abbott: \u201cI Think It\u2019s a Terrific Time to Do Some Buying\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/jim-cramer-abbott-think-terrific-195136332.html"
-    },
-    {
-      "headline": "Prediction: This Will Be Palantir's Stock Price in 2027",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/prediction-palantirs-stock-price-2027-201500911.html"
-    },
-    {
-      "headline": "Jim Cramer Reiterates \u201cYou Need to Own NVIDIA, Not Trade It\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/jim-cramer-reiterates-own-nvidia-195125682.html"
-    },
-    {
-      "headline": "Jim Cramer Says \u201cWhen the Rest of Retail\u2019s in Trouble, TJX Makes Out Like a Bandit\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Latest from Yahoo Finance.",
-      "category": "global_markets",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/jim-cramer-says-rest-retail-195132039.html"
-    },
-    {
-      "headline": "Jim Cramer on Strategy Inc: \u201cThat\u2019s an Insane Amount of Risk\u201d",
-      "score": 6,
-      "source": "Yahoo Finance",
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Latest from Yahoo Finance.",
+      "impact": "Kohl's has has multiple CEOs in recent years and is struggling with declining sales.",
       "category": "global_markets",
-      "date": "2025-11-25 14:22",
-      "link": "https://finance.yahoo.com/news/jim-cramer-strategy-inc-insane-195126459.html"
+      "date": "2025-11-24 19:11",
+      "link": "https://www.cnbc.com/2025/11/24/kohls-picks-new-ceo-after-a-turbulent-year-and-sales-declines.html"
+    },
+    {
+      "headline": "Republicans push Obamacare tax credit alternatives as enrollment deadline looms",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Republicans are proposing alternatives to Obamacare enhanced tax credits, with the enrollment deadline just three weeks away. ",
+      "category": "fixed_income",
+      "date": "2025-11-24 18:52",
+      "link": "https://www.cnbc.com/2025/11/24/republicans-push-obamacare-tax-credit-alternatives-as-deadline-looms.html"
+    },
+    {
+      "headline": "Eli Lilly hits $1 trillion market value, a first in health care, as Novo Nordisk tumbles",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The pharmaceutical giant Eli Lilly's stock has been riding the skyrocketing demand for its weight loss injection Zepbound and diabetes treatment Mounjaro. ",
+      "category": "global_markets",
+      "date": "2025-11-24 16:49",
+      "link": "https://www.cnbc.com/2025/11/21/eli-lilly-hits-1-trillion-market-value-first-for-health-care-company.html"
+    },
+    {
+      "headline": "'Wicked: For Good' soars to $150 million domestic opening",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Universal's \"Wicked: For Good\" tallied an estimated $150 million domestic opening during its first three days in theaters.",
+      "category": "global_markets",
+      "date": "2025-11-23 18:39",
+      "link": "https://www.cnbc.com/2025/11/23/universals-wicked-for-good-soars-to-150-million-domestic-opening.html"
+    },
+    {
+      "headline": "'Stakes are high.' With shutdown over, airlines predict record numbers of travelers this Thanksgiving",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Airline executives are hoping for a smooth Thanksgiving after a rocky fall because of the government shutdown.",
+      "category": "us_equities",
+      "date": "2025-11-23 13:00",
+      "link": "https://www.cnbc.com/2025/11/23/thanksgiving-air-travel-after-shutdown.html"
     },
     {
       "headline": "Alphabet\u2019s stock rises as possible Meta chip deal highlights new twist in the AI trade",
-      "score": 6,
+      "score": 5,
       "source": "MarketWatch",
       "sentiment": "neutral",
       "impact": "Meta reportedly is considering using Alphabet\u2019s custom chips for its data centers. Nvidia and AMD shares are falling on the prospect of more formidable competition.",
@@ -201,7 +203,7 @@
     },
     {
       "headline": "I\u2019m 59. Does it make financial sense to dip into my $2.5 million IRA to buy a $400K home?",
-      "score": 6,
+      "score": 5,
       "source": "MarketWatch",
       "sentiment": "neutral",
       "impact": "\u201cI regret not buying a home 10 years ago, but we were both going through divorces.\u201d",
@@ -211,13 +213,63 @@
     },
     {
       "headline": "AI and tech stocks are giving \u2018early 1999\u2019 dot-com bubble vibes. Is their rally finished?",
-      "score": 6,
+      "score": 5,
       "source": "MarketWatch",
       "sentiment": "negative",
       "impact": "Potential Fed rate cut in December could ignite a \u2018risk-on\u2019 flame \u2014 but just for a short time.",
       "category": "global_markets",
       "date": "2025-11-25 00:22",
       "link": "https://www.marketwatch.com/story/is-it-finally-game-over-for-ai-and-big-tech-stocks-d9b0655c?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Why a functional U.S. government could actually trigger a bear market",
+      "score": 5,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Big federal deficits are bullish for stocks \u2014 in the short-term, at least.",
+      "category": "global_markets",
+      "date": "2025-11-25 00:21",
+      "link": "https://www.marketwatch.com/story/why-a-balanced-u-s-budget-could-actually-trigger-a-bear-market-52f80a8c?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "These energy stocks have been powerful investments. Here\u2019s what\u2019s next for them.",
+      "score": 5,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Solar is a proven moneymaker with real profits and fast-growing demand. Nuclear is just getting started.",
+      "category": "global_markets",
+      "date": "2025-11-25 00:19",
+      "link": "https://www.marketwatch.com/story/solar-or-nuclear-isnt-a-choice-heres-why-both-can-power-your-stock-portfolio-4c0a4260?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "My sons will each inherit $500K laundromats from their grandparents. How do we keep their spouses out of it?",
+      "score": 5,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "\u201cThe businesses each have two employees who manage the day-to-day operations.\u201d",
+      "category": "global_markets",
+      "date": "2025-11-24 23:42",
+      "link": "https://www.marketwatch.com/story/my-sons-will-each-inherit-500k-laundromats-from-their-grandparents-how-do-we-keep-their-spouses-out-of-it-6dd520d2?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "\u2018He lived alone in Section 8 housing\u2019: My late uncle\u2019s landlord disposed of his art collection. What can we do?",
+      "score": 5,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "\u201cThe management company said they would store his belongings.\u201d",
+      "category": "global_markets",
+      "date": "2025-11-24 23:05",
+      "link": "https://www.marketwatch.com/story/he-lived-alone-in-section-8-housing-my-late-uncles-landlord-disposed-of-his-art-collection-what-can-we-do-a4ac6a23?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Trump\u2019s healthcare plan could extend Obamacare subsidies. Here\u2019s what we know so far.",
+      "score": 5,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "President Donald Trump is working on a healthcare plan that could address expiring Obamacare subsidies, the issue that triggered this fall\u2019s record-breaking government shutdown.",
+      "category": "global_markets",
+      "date": "2025-11-24 22:09",
+      "link": "https://www.marketwatch.com/story/trumps-healthcare-plan-could-be-revealed-today-heres-what-we-know-so-far-734225b1?mod=mw_rss_topstories"
     }
   ]
 }

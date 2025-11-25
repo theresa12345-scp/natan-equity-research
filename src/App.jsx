@@ -1605,13 +1605,19 @@ export default function NatanInstitutionalPlatform() {
                   <div className="space-y-4">
                     {newsData.filter(news =>
                       news.headline?.toLowerCase().includes('indonesia') ||
+                      news.headline?.toLowerCase().includes('jakarta') ||
+                      news.headline?.toLowerCase().includes('rupiah') ||
+                      news.headline?.toLowerCase().includes('jci') ||
                       news.impact?.toLowerCase().includes('indonesia') ||
-                      news.category === 'indonesia_specific'
+                      news.category?.startsWith('indonesia')
                     ).length > 0 ? (
                       newsData.filter(news =>
                         news.headline?.toLowerCase().includes('indonesia') ||
+                        news.headline?.toLowerCase().includes('jakarta') ||
+                        news.headline?.toLowerCase().includes('rupiah') ||
+                        news.headline?.toLowerCase().includes('jci') ||
                         news.impact?.toLowerCase().includes('indonesia') ||
-                        news.category === 'indonesia_specific'
+                        news.category?.startsWith('indonesia')
                       ).slice(0, 5).map((news, idx) => (
                         <a
                           key={idx}
