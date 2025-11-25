@@ -337,60 +337,102 @@ export const estimateFCFF = (stock, region) => {
   let method = '';
   let confidence = 'Low';
 
+  // SANITY CHECK HELPER: FCF Yield should be 1-10% typically
+  // If FCF Yield is below 0.5%, the data is likely in wrong units (millions vs actual currency)
+  const marketCap = stock["Market Cap"] || 1;
+  const checkFCFYield = (fcfValue) => {
+    const fcfYield = (fcfValue / marketCap) * 100;
+    return fcfYield >= 0.5; // Minimum 0.5% FCF yield to be plausible
+  };
+
   // METHOD 1: Direct FCF data (highest confidence)
-  // SANITY CHECK: FCF should be roughly comparable to Net Income (within 100x)
-  // If FCF is way smaller than Net Income, it's likely in different units (e.g., millions vs actual currency)
+  // SANITY CHECKS:
+  // 1. FCF should be comparable to Net Income (within 100x)
+  // 2. FCF yield should be at least 0.5%
   if (stock.FCF && stock.FCF > 0) {
     const netIncome = stock["Net Income"];
     const fcfToNetIncomeRatio = netIncome ? (netIncome / stock.FCF) : 1;
 
-    // If Net Income is more than 100x FCF, the FCF data is likely in wrong units - skip it
-    if (fcfToNetIncomeRatio < 100) {
+    // Check both: Net Income ratio AND FCF yield
+    if (fcfToNetIncomeRatio < 100 && checkFCFYield(stock.FCF)) {
       fcff = stock.FCF;
       method = 'Direct FCF';
       confidence = 'High';
       return { fcff, method, confidence };
     }
-    // Otherwise, fall through to Net Income method (FCF data is unreliable)
+    // FCF data is unreliable - fall through to other methods
   }
 
-  // METHOD 2: Use actual Net Income data when available (HIGH PRIORITY)
+  // METHOD 2: Use actual Net Income data when available
   // For financials: FCF ≈ Net Income × 0.85 (high cash conversion)
-  // For others: FCF ≈ Net Income × 0.70 (after reinvestment)
+  // For others: FCF ≈ Net Income × 0.65-0.80 (after reinvestment)
   if (stock["Net Income"] && stock["Net Income"] > 0) {
     const netIncome = stock["Net Income"];
 
-    // FCF conversion rate depends on sector
-    let fcfConversionRate;
-    if (isFinancial) {
-      fcfConversionRate = 0.85; // Banks have high cash conversion
-    } else if (sector === 'Technology') {
-      fcfConversionRate = 0.80; // Tech has good FCF conversion
-    } else if (sector === 'Energy' || sector === 'Basic Materials') {
-      fcfConversionRate = 0.50; // Capital intensive
-    } else {
-      fcfConversionRate = 0.65; // Default
-    }
-
-    fcff = netIncome * fcfConversionRate;
-    method = 'Net Income Based';
-    confidence = 'High';
-
-    return {
-      fcff,
-      method,
-      confidence,
-      details: {
-        netIncome: Math.round(netIncome),
-        fcfConversionRate
+    // SANITY CHECK: Net Income yield should also be reasonable (at least 0.3%)
+    const netIncomeYield = (netIncome / marketCap) * 100;
+    if (netIncomeYield >= 0.3) {
+      // FCF conversion rate depends on sector
+      let fcfConversionRate;
+      if (isFinancial) {
+        fcfConversionRate = 0.85; // Banks have high cash conversion
+      } else if (sector === 'Technology') {
+        fcfConversionRate = 0.80; // Tech has good FCF conversion
+      } else if (sector === 'Energy' || sector === 'Basic Materials') {
+        fcfConversionRate = 0.50; // Capital intensive
+      } else {
+        fcfConversionRate = 0.65; // Default
       }
-    };
+
+      fcff = netIncome * fcfConversionRate;
+      method = 'Net Income Based';
+      confidence = 'High';
+
+      return {
+        fcff,
+        method,
+        confidence,
+        details: {
+          netIncome: Math.round(netIncome),
+          fcfConversionRate
+        }
+      };
+    }
+    // Net Income data is unreliable - fall through to EBITDA method
   }
 
   // METHOD 3: Full FCFF calculation from EBITDA
   // FCFF = EBIT(1-T) + D&A - CapEx - ΔNWC
   if (stock["EBITDA Margin"] && stock["Market Cap"]) {
-    const impliedRevenue = stock.Revenue || (stock["Market Cap"] / (stock.PS || 2));
+    // SANITY CHECK: Revenue/Market Cap should be at least 5% (most companies have PS < 20)
+    // If Revenue is way too low relative to Market Cap, it's likely in wrong units
+    let impliedRevenue;
+    const revenueYield = stock.Revenue ? (stock.Revenue / marketCap * 100) : 0;
+
+    if (revenueYield >= 5) {
+      // Revenue looks reasonable
+      impliedRevenue = stock.Revenue;
+    } else {
+      // Revenue is missing or in wrong units - estimate from Market Cap / PS
+      // Use sector-typical PS multiples if PS is missing
+      const sectorPS = {
+        'Technology': 8,
+        'Financial': 3,
+        'Consumer, Cyclical': 1.5,
+        'Consumer, Non-cyclical': 2.5,
+        'Industrial': 1.5,
+        'Basic Materials': 1.5,
+        'Energy': 1,
+        'Communications': 3,
+        'Utilities': 2,
+        'Healthcare': 4,
+        'default': 2.5
+      };
+      const typicalPS = sectorPS[sector] || sectorPS.default;
+      const psToUse = stock.PS || typicalPS;
+      impliedRevenue = marketCap / psToUse;
+    }
+
     const ebitdaMargin = stock["EBITDA Margin"] / 100;
     const ebitda = impliedRevenue * ebitdaMargin;
 
@@ -534,31 +576,29 @@ const calculateNetDebt = (stock) => {
   // Total Debt from D/E ratio applied to book equity
   const totalDebt = bookEquity * deRatio;
 
-  // Estimate Cash
-  let estimatedCash;
-  let cashMethod = '';
+  // Estimate Cash - use sector benchmarks (more reliable than Current Ratio estimation)
+  // Tech companies especially often have significant cash relative to market cap
+  const sectorCashRatios = {
+    'Technology': 0.12,        // Tech companies typically have large cash positions
+    'Consumer, Cyclical': 0.06,
+    'Consumer, Non-cyclical': 0.08,
+    'Industrial': 0.06,
+    'Basic Materials': 0.05,
+    'Energy': 0.06,
+    'Communications': 0.08,
+    'Utilities': 0.04,
+    'Healthcare': 0.10,
+    'default': 0.07
+  };
 
-  if (stock["Cur Ratio"] && stock["Cur Ratio"] > 0) {
-    const currentLiabilities = totalDebt * 0.20;
-    const currentAssets = currentLiabilities * stock["Cur Ratio"];
-    estimatedCash = currentAssets * 0.35;
-    cashMethod = 'Current Ratio';
-  } else {
-    const sectorCashRatios = {
-      'Technology': 0.15,
-      'Consumer, Cyclical': 0.08,
-      'Consumer, Non-cyclical': 0.10,
-      'Industrial': 0.07,
-      'Basic Materials': 0.06,
-      'Energy': 0.08,
-      'Communications': 0.10,
-      'Utilities': 0.05,
-      'Healthcare': 0.12,
-      'default': 0.08
-    };
-    const cashRatio = sectorCashRatios[sector] || sectorCashRatios.default;
-    estimatedCash = marketCap * cashRatio;
-    cashMethod = 'Sector Benchmark';
+  const cashRatio = sectorCashRatios[sector] || sectorCashRatios.default;
+  let estimatedCash = marketCap * cashRatio;
+  let cashMethod = 'Sector Benchmark';
+
+  // For high P/B companies, increase cash estimate (they often have more cash than book value implies)
+  if (pb > 10) {
+    estimatedCash = Math.max(estimatedCash, marketCap * 0.10);
+    cashMethod = 'High P/B Adjustment';
   }
 
   // Net Debt = Total Debt - Cash
@@ -604,8 +644,31 @@ export const calculateDCF = (stock, region) => {
   const baseFCF = fcfData.fcff;
 
   // Growth rate assumptions (decay from current to terminal)
-  // Cap current growth at reasonable levels
-  const rawGrowth = stock["Revenue Growth"] || 8;
+  // Use blended growth rate: 70% Revenue Growth + 30% Earnings Growth
+  // This balances top-line growth with bottom-line improvements (margin expansion, buybacks)
+  // Cap each input at reasonable sustainable levels before blending
+  const revenueGrowth = stock["Revenue Growth"] !== null && stock["Revenue Growth"] !== undefined
+    ? Math.min(40, Math.max(-20, stock["Revenue Growth"]))
+    : null;
+  const rawEarningsGrowth = stock["Net Income Growth"] || stock["EPS Growth"] || null;
+  // Cap earnings growth at +40% as higher is usually one-time/unsustainable
+  const earningsGrowth = rawEarningsGrowth !== null
+    ? Math.min(40, Math.max(-20, rawEarningsGrowth))
+    : null;
+
+  let rawGrowth;
+  if (revenueGrowth !== null && earningsGrowth !== null) {
+    // Blend: 70% revenue, 30% earnings (revenue is more sustainable)
+    rawGrowth = (revenueGrowth * 0.7) + (earningsGrowth * 0.3);
+  } else if (revenueGrowth !== null) {
+    rawGrowth = revenueGrowth;
+  } else if (earningsGrowth !== null) {
+    rawGrowth = earningsGrowth;
+  } else {
+    rawGrowth = 8; // Default assumption
+  }
+
+  // Final cap on blended growth
   const currentGrowth = Math.min(35, Math.max(-15, rawGrowth));
   const terminalGrowth = params.terminalGrowth;
 
