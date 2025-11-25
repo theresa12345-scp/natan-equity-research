@@ -1,12 +1,21 @@
 // NATAN INSTITUTIONAL EQUITY RESEARCH PLATFORM
 // Professional-Grade Multi-Asset Analysis System
+// DCF & Comps: CFA Level II, Damodaran (NYU), Rosenbaum & Pearl methodology
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { 
-  TrendingUp, TrendingDown, DollarSign, Info, Building2, Search, Calculator, 
+import {
+  TrendingUp, TrendingDown, DollarSign, Info, Building2, Search, Calculator,
   BarChart3, Newspaper, Target, AlertCircle, ExternalLink, Award, Activity,
   Filter, Download, TrendingUp as Growth, Shield, Zap, Globe
 } from 'lucide-react';
+
+// Import institutional-grade valuation models
+import {
+  calculateDCF as calculateDCFNew,
+  calculateComparables as calculateComparablesNew,
+  calculateWACC as calculateWACCNew,
+  DCF_ASSUMPTIONS
+} from './valuation.js';
 
 // ============================================================================
 // LATEST INDONESIA MACRO DATA (November 2025 - Real Data from BPS/BI)
@@ -36,168 +45,20 @@ const INDONESIA_MACRO = {
 };
 
 // ============================================================================
-// DCF VALUATION MODEL - Goldman Sachs / JP Morgan Methodology
+// DCF & COMPS VALUATION MODELS
+// Now using institutional-grade models from valuation.js
+// Based on: CFA Level II, Damodaran (NYU Stern), Rosenbaum & Pearl (IB Valuation)
+//
+// Key Improvements over previous implementation:
+// 1. WACC: Added country risk premium for Indonesia (+2.5%)
+// 2. WACC: Cost of debt derived from synthetic credit rating (Damodaran method)
+// 3. FCF: Multiple estimation methods (EBITDA-based, ROE-based, sector yield)
+// 4. DCF: H-model growth decay (faster convergence to terminal)
+// 5. DCF: Terminal value sanity check (TV% of EV)
+// 6. Comps: Added EV/EBITDA multiple (most important for M&A)
+// 7. Comps: Sector-specific weighting (Banks: P/B, Tech: EV/EBITDA)
+// 8. Comps: Expanded peer selection (up to 8 peers, cross-region if needed)
 // ============================================================================
-
-const DCF_ASSUMPTIONS = {
-  Indonesia: {
-    riskFreeRate: 6.85, // 10Y Gov Bond
-    equityRiskPremium: 8.0, // Emerging market ERP
-    terminalGrowth: 4.0, // Long-term GDP growth
-    taxRate: 22, // Corporate tax rate
-  },
-  US: {
-    riskFreeRate: 4.5, // 10Y Treasury
-    equityRiskPremium: 6.0, // US market ERP
-    terminalGrowth: 2.5, // Long-term GDP growth
-    taxRate: 21, // Corporate tax rate
-  }
-};
-
-// Calculate WACC (Weighted Average Cost of Capital)
-const calculateWACC = (stock, region) => {
-  const assumptions = DCF_ASSUMPTIONS[region];
-  const beta = stock.Beta || 1.0;
-  
-  // Cost of Equity = Risk Free Rate + Beta * ERP
-  const costOfEquity = assumptions.riskFreeRate + (beta * assumptions.equityRiskPremium);
-  
-  // Debt/Equity ratio
-  const debtRatio = stock.DE ? (stock.DE / (100 + stock.DE)) : 0.3;
-  const equityRatio = 1 - debtRatio;
-  
-  // Cost of Debt (estimated from interest coverage or default rate)
-  const costOfDebt = stock.DE < 50 ? 7.0 : stock.DE < 100 ? 8.5 : 10.0;
-  
-  // WACC = (E/V * Re) + (D/V * Rd * (1-Tc))
-  const wacc = (equityRatio * costOfEquity) + (debtRatio * costOfDebt * (1 - assumptions.taxRate/100));
-  
-  return wacc;
-};
-
-// Full DCF Valuation Model
-const calculateDCF = (stock, region) => {
-  const assumptions = DCF_ASSUMPTIONS[region];
-  const wacc = calculateWACC(stock, region);
-  
-  // Base FCF (use actual if available, else estimate from market cap)
-  const baseFCF = stock.FCF || (stock["Market Cap"] * 0.05);
-  
-  // Projected FCF growth rates (declining over time)
-  const fcfGrowthRates = [
-    stock["Revenue Growth"] || 8,
-    (stock["Revenue Growth"] || 8) * 0.9,
-    (stock["Revenue Growth"] || 8) * 0.8,
-    (stock["Revenue Growth"] || 8) * 0.7,
-    assumptions.terminalGrowth
-  ];
-  
-  // Project 5-year FCF
-  let projectedFCFs = [];
-  let discountedFCFs = [];
-  let cumulativeFCF = baseFCF;
-  
-  for (let year = 1; year <= 5; year++) {
-    cumulativeFCF = cumulativeFCF * (1 + fcfGrowthRates[year-1]/100);
-    projectedFCFs.push(cumulativeFCF);
-    
-    const discountFactor = Math.pow(1 + wacc/100, year);
-    discountedFCFs.push(cumulativeFCF / discountFactor);
-  }
-  
-  // Terminal Value using Gordon Growth Model
-  const terminalFCF = projectedFCFs[4] * (1 + assumptions.terminalGrowth/100);
-  const terminalValue = terminalFCF / ((wacc - assumptions.terminalGrowth)/100);
-  const discountedTerminalValue = terminalValue / Math.pow(1 + wacc/100, 5);
-  
-  // Enterprise Value = PV of FCFs + PV of Terminal Value
-  const pvFCF = discountedFCFs.reduce((a, b) => a + b, 0);
-  const enterpriseValue = pvFCF + discountedTerminalValue;
-  
-  // Equity Value = Enterprise Value - Net Debt
-  const netDebt = (stock["Market Cap"] * (stock.DE || 50) / 100) * 0.7;
-  const equityValue = Math.max(0, enterpriseValue - netDebt);
-  
-  // Per Share Value
-  const currentMarketCap = stock["Market Cap"] || 1000;
-  const fairValue = (equityValue / currentMarketCap) * (stock.Price || 1000);
-  
-  // Upside/Downside
-  const upside = ((fairValue - (stock.Price || 1000)) / (stock.Price || 1000)) * 100;
-  
-  return {
-    fairValue: Math.max(0, fairValue),
-    upside,
-    wacc,
-    enterpriseValue,
-    equityValue,
-    terminalValue: discountedTerminalValue,
-    pvFCF,
-    projectedFCFs,
-    discountedFCFs,
-    fcfGrowthRates,
-    assumptions
-  };
-};
-
-// ============================================================================
-// COMPARABLE COMPANY ANALYSIS - Morgan Stanley Methodology
-// ============================================================================
-
-const calculateComparables = (stock, allStocks) => {
-  // Find peer companies (same sector and region, similar market cap)
-  const marketCapLower = (stock["Market Cap"] || 0) * 0.3;
-  const marketCapUpper = (stock["Market Cap"] || 0) * 3.0;
-  
-  const peers = allStocks.filter(s =>
-    s["Industry Sector"] === stock["Industry Sector"] &&
-    s.Region === stock.Region &&
-    s.Ticker !== stock.Ticker &&
-    s["Market Cap"] && s["Market Cap"] >= marketCapLower && s["Market Cap"] <= marketCapUpper &&
-    s.PE && s.PE > 0
-  ).slice(0, 5);
-  
-  if (peers.length === 0) return null;
-  
-  // Calculate median multiples
-  const calculateMedian = (arr) => {
-    const sorted = arr.sort((a, b) => a - b);
-    const mid = Math.floor(sorted.length / 2);
-    return sorted.length % 2 ? sorted[mid] : (sorted[mid-1] + sorted[mid]) / 2;
-  };
-  
-  const peValues = peers.map(p => p.PE).filter(v => v > 0 && v < 100);
-  const pbValues = peers.map(p => p.PB).filter(v => v > 0 && v < 50);
-  
-  const medianPE = peValues.length > 0 ? calculateMedian(peValues) : null;
-  const medianPB = pbValues.length > 0 ? calculateMedian(pbValues) : null;
-  
-  // Calculate implied valuations
-  const eps = stock.PE && stock.Price ? stock.Price / stock.PE : 0;
-  const bookValue = stock.PB && stock.Price ? stock.Price / stock.PB : 0;
-  
-  const impliedValuePE = medianPE && eps ? medianPE * eps : null;
-  const impliedValuePB = medianPB && bookValue ? medianPB * bookValue : null;
-  
-  // Average implied value
-  const validImpliedValues = [impliedValuePE, impliedValuePB].filter(v => v !== null);
-  const avgImpliedValue = validImpliedValues.length > 0 
-    ? validImpliedValues.reduce((a, b) => a + b) / validImpliedValues.length 
-    : stock.Price;
-  
-  const compsUpside = ((avgImpliedValue - (stock.Price || 1000)) / (stock.Price || 1000)) * 100;
-  
-  return {
-    peers,
-    medianPE,
-    medianPB,
-    impliedValuePE,
-    impliedValuePB,
-    avgImpliedValue,
-    upside: compsUpside,
-    peerCount: peers.length
-  };
-};
 
 // ============================================================================
 // ADVANCED MULTI-FACTOR SCORING - Best Practices from GS/JPM/MS/BlackRock
@@ -441,14 +302,17 @@ export default function NatanInstitutionalPlatform() {
   }, []);
 
   // Process all companies with scoring and valuation
+  // Using CFA/Damodaran/IB best practices for DCF & Comps
   const ALL_STOCKS_DATA = useMemo(() => {
     if (companies.length === 0) return [];
 
-    console.log('📊 Processing companies with scoring...');
+    console.log('📊 Processing companies with institutional-grade valuation...');
     return companies.map(stock => {
       const natanScore = calculateNATANScore(stock, stock["Industry Sector"], INDONESIA_MACRO);
-      const dcf = calculateDCF(stock, stock.Region || 'Indonesia');
-      const comps = calculateComparables(stock, companies);
+      // Use new institutional-grade DCF model (Damodaran methodology)
+      const dcf = calculateDCFNew(stock, stock.Region || 'Indonesia');
+      // Use new Comps model with EV/EBITDA and sector-specific weighting
+      const comps = calculateComparablesNew(stock, companies);
 
       return {
         ...stock,
