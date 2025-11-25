@@ -338,11 +338,20 @@ export const estimateFCFF = (stock, region) => {
   let confidence = 'Low';
 
   // METHOD 1: Direct FCF data (highest confidence)
+  // SANITY CHECK: FCF should be roughly comparable to Net Income (within 100x)
+  // If FCF is way smaller than Net Income, it's likely in different units (e.g., millions vs actual currency)
   if (stock.FCF && stock.FCF > 0) {
-    fcff = stock.FCF;
-    method = 'Direct FCF';
-    confidence = 'High';
-    return { fcff, method, confidence };
+    const netIncome = stock["Net Income"];
+    const fcfToNetIncomeRatio = netIncome ? (netIncome / stock.FCF) : 1;
+
+    // If Net Income is more than 100x FCF, the FCF data is likely in wrong units - skip it
+    if (fcfToNetIncomeRatio < 100) {
+      fcff = stock.FCF;
+      method = 'Direct FCF';
+      confidence = 'High';
+      return { fcff, method, confidence };
+    }
+    // Otherwise, fall through to Net Income method (FCF data is unreliable)
   }
 
   // METHOD 2: Use actual Net Income data when available (HIGH PRIORITY)
