@@ -1677,7 +1677,13 @@ export default function NatanInstitutionalPlatform() {
                   </div>
 
                   <div className="space-y-4">
-                    {newsData.slice(0, 10).map((news, idx) => (
+                    {newsData.filter(news =>
+                      !news.headline?.toLowerCase().includes('indonesia') &&
+                      !news.headline?.toLowerCase().includes('jakarta') &&
+                      !news.headline?.toLowerCase().includes('rupiah') &&
+                      !news.headline?.toLowerCase().includes('jci') &&
+                      !news.category?.startsWith('indonesia')
+                    ).slice(0, 10).map((news, idx) => (
                       <a
                         key={idx}
                         href={news.link}
