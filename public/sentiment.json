@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-11-25T14:28:16.829956",
+  "timestamp": "2025-11-25T14:24:22.520430",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 6.6,
-    "bullish": 9,
-    "neutral": 12,
-    "bearish": 4,
-    "high_priority": 8,
+    "avg_relevance": 7.2,
+    "bullish": 12,
+    "neutral": 7,
+    "bearish": 6,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,9 +16,10 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
+    "Benzinga": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 10,
-    "CNBC": 5
+    "CNBC": 7,
+    "MarketWatch": 5
   },
   "top_signals": [
     {
@@ -28,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +99,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "ZenaTech's ZenaDrone Establishes Washington, D.C. Area Office Strengthening US Defense Revenue Opportunities and Federal Government Market Access - ZenaTech  ( NASDAQ:ZENA ) ",
+      "score": 8,
+      "source": "Benzinga",
+      "sentiment": "neutral",
+      "impact": "VANCOUVER, British Columbia, Nov. 25, 2025 ( GLOBE NEWSWIRE ) -- ZenaTech, Inc. ( NASDAQ:ZENA ) ( FSE: 49Q ) ( BMV:ZENA ) ( \"ZenaTech\" ) , a technology business solution provider specializing in AI ( Artificial Intelligence ) drone, Drone as a Service ( DaaS ) , enterprise SaaS, and Quantum ...",
+      "category": "us_monetary_policy",
+      "date": "2025-11-25 13:00",
+      "link": "https://www.benzinga.com/pressreleases/25/11/g49053550/zenatechs-zenadrone-establishes-washington-d-c-area-office-strengthening-us-defense-revenue-opport"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -108,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,158 +129,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-11-25 14:28",
+      "date": "2025-11-25 14:24",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "This booming tech stock will join the S&P 500 \u2014 and it\u2019s not Strategy",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "A place in the S&P 500 is a coveted spot for companies, as it exposes their shares to a much broader range of investors.",
-      "category": "us_equities",
-      "date": "2025-11-25 01:34",
-      "link": "https://www.marketwatch.com/story/this-booming-tech-stock-will-join-the-s-p-500-and-its-not-strategy-6b340451?mod=mw_rss_topstories"
+      "headline": "Abercrombie shares soar 18% on Hollister growth, strong earnings beat",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Abercrombie & Fitch's namesake banner is slowing down, but revenue is ramping up at Hollister, its teen-focused brand. ",
+      "category": "corporate_earnings",
+      "date": "2025-11-25 14:13",
+      "link": "https://www.cnbc.com/2025/11/25/abercrombie-fitch-anf-earnings-q3-2025.html"
     },
     {
-      "headline": "Nasdaq has best day since May as Alphabet drives AI rebound. Here\u2019s what it means for the rest of Thanksgiving week.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "U.S. stocks continued their comeback on Monday, with the tech-heavy Nasdaq Composite scoring its best session since May after nearly slipping into correction territory last week.",
-      "category": "us_equities",
-      "date": "2025-11-24 22:44",
-      "link": "https://www.marketwatch.com/story/nasdaq-has-best-day-since-may-as-alphabet-drives-ai-rebound-heres-what-it-means-for-the-rest-of-thanksgiving-week-c526053f?mod=mw_rss_topstories"
+      "headline": "Dick's Sporting Goods to shutter some Foot Locker stores to protect profits",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Dick's Sporting Goods acquired Foot Locker for $2.4 billion. To ensure the tie-up doesn't become a drag on profits, the company is shrinking its footprint.",
+      "category": "corporate_earnings",
+      "date": "2025-11-25 14:00",
+      "link": "https://www.cnbc.com/2025/11/25/dicks-sporting-goods-dks-earnings-q3-2025.html"
     },
     {
-      "headline": "Kohl's names Michael Bender as permanent CEO after a turbulent year and sales declines",
-      "score": 6,
+      "headline": "Wholesale inflation was fairly tame before government shutdown, but PPI might not sway the Fed",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "The last piece of inflation data the Federal Reserve will see before its pivotal December meeting to debate another interest-rate cut showed just a mild increase in wholesale prices ahead of the government shutdown.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-25 13:42",
+      "link": "https://www.marketwatch.com/story/wholesale-inflation-was-fairly-tame-before-government-shutdown-but-ppi-unlikely-to-sway-the-fed-efccbb04?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Bessent says there's a 'very good chance' Trump names new Fed chair before Christmas",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Bessent, who has been heading the search for a successor to current Chair Jerome Powell, said he still has one interview to go.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-25 13:29",
+      "link": "https://www.cnbc.com/2025/11/25/bessent-says-theres-a-very-good-chance-trump-names-new-fed-chair-before-christmas.html"
+    },
+    {
+      "headline": "Asia-Pacific markets set for recovery on revived Fed cut hopes after bruising tech losses last week",
+      "score": 7,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Kohl's has has multiple CEOs in recent years and is struggling with declining sales.",
-      "category": "global_markets",
-      "date": "2025-11-24 19:11",
-      "link": "https://www.cnbc.com/2025/11/24/kohls-picks-new-ceo-after-a-turbulent-year-and-sales-declines.html"
+      "impact": "Fed funds futures are currently pricing in a more than 70% chance of a quarter percentage point cut, according to the\u00a0CME FedWatch tool.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-23 23:52",
+      "link": "https://www.cnbc.com/2025/11/24/asia-markets-today-monday-kospi-hang-seng-index-fed-rate-cut-tech-ai-trade.html"
     },
     {
-      "headline": "Republicans push Obamacare tax credit alternatives as enrollment deadline looms",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Republicans are proposing alternatives to Obamacare enhanced tax credits, with the enrollment deadline just three weeks away. ",
-      "category": "fixed_income",
-      "date": "2025-11-24 18:52",
-      "link": "https://www.cnbc.com/2025/11/24/republicans-push-obamacare-tax-credit-alternatives-as-deadline-looms.html"
-    },
-    {
-      "headline": "Eli Lilly hits $1 trillion market value, a first in health care, as Novo Nordisk tumbles",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The pharmaceutical giant Eli Lilly's stock has been riding the skyrocketing demand for its weight loss injection Zepbound and diabetes treatment Mounjaro. ",
-      "category": "global_markets",
-      "date": "2025-11-24 16:49",
-      "link": "https://www.cnbc.com/2025/11/21/eli-lilly-hits-1-trillion-market-value-first-for-health-care-company.html"
-    },
-    {
-      "headline": "'Wicked: For Good' soars to $150 million domestic opening",
+      "headline": "Multifamily housing leads CRE bid competition in October",
       "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Universal's \"Wicked: For Good\" tallied an estimated $150 million domestic opening during its first three days in theaters.",
+      "impact": "Bidder dynamics in October saw the second-highest monthly gain over the past year, according to JLL's Global Bid Intensity Index.",
       "category": "global_markets",
-      "date": "2025-11-23 18:39",
-      "link": "https://www.cnbc.com/2025/11/23/universals-wicked-for-good-soars-to-150-million-domestic-opening.html"
+      "date": "2025-11-25 14:18",
+      "link": "https://www.cnbc.com/2025/11/25/jll-global-bid-intensity-index-october-multifamily-housing.html"
     },
     {
-      "headline": "'Stakes are high.' With shutdown over, airlines predict record numbers of travelers this Thanksgiving",
+      "headline": "Kohl\u2019s stock enjoys meme-like rally as blowout earnings confirm turnaround has taken hold",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Kohl\u2019s strong results come on Michael Bender\u2019s second day as official CEO, and as discount retailers are enjoying an uptick in sales.",
+      "category": "corporate_earnings",
+      "date": "2025-11-25 13:37",
+      "link": "https://www.marketwatch.com/story/kohls-stock-enjoys-meme-like-rally-as-blowout-earnings-confirm-turnaround-has-taken-hold-9dd32cf3?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Best Buy hikes sales forecast as shoppers upgrade tech, splurge on devices",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The consumer electronics retailer said it saw tech upgrades and strong sales of computers, gaming consoles and smartphones during the fiscal third quarter.",
+      "category": "global_markets",
+      "date": "2025-11-25 13:30",
+      "link": "https://www.cnbc.com/2025/11/25/-best-buy-bby-q3-2026-earnings-.html"
+    },
+    {
+      "headline": "Halper Sadeh LLC Encourages GDOT, BLFY, AXTA, GDEN Shareholders to Contact the Firm to Discuss Their Rights - Blue Foundry Bancorp  ( NASDAQ:BLFY ) , Axalta Coating Systems  ( NYSE:AXTA ) ",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "positive",
+      "impact": "NEW YORK, Nov. 25, 2025 ( GLOBE NEWSWIRE ) -- Halper Sadeh LLC, an investor rights law firm, is investigating the following companies for potential violations of the federal securities laws and/or breaches of fiduciary duties to shareholders relating to:",
+      "category": "us_equities",
+      "date": "2025-11-25 13:13",
+      "link": "https://www.benzinga.com/pressreleases/25/11/g49053843/halper-sadeh-llc-encourages-gdot-blfy-axta-gden-shareholders-to-contact-the-firm-to-discuss-their-"
+    },
+    {
+      "headline": "Alibaba shows off its AI credentials as revenue tops expectations",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Alibaba stock spiked 5% Tuesday morning after third-quarter results impressed the market.",
+      "category": "corporate_earnings",
+      "date": "2025-11-25 13:09",
+      "link": "https://www.marketwatch.com/story/alibaba-shows-off-its-ai-credentials-as-revenue-tops-expectations-4cb47301"
+    },
+    {
+      "headline": "As Fed hawks and doves battle over rate cuts, investors need to watch these critical clues",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Stocks and bonds will react to new data on job openings, wages and labor market perceptions.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-25 13:05",
+      "link": "https://www.marketwatch.com/story/as-fed-hawks-and-doves-battle-over-rate-cuts-investors-need-to-watch-these-critical-clues-f07da3a4"
+    },
+    {
+      "headline": "Fed hawks and doves are battling over December rate cuts \u2014 watch for these critical clues",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Stocks and bonds will react to new data on job openings, wages and labor market perceptions.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-25 13:05",
+      "link": "https://www.marketwatch.com/story/as-fed-hawks-and-doves-battle-over-rate-cuts-investors-need-to-watch-these-critical-clues-f07da3a4?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Semtech Posts Mixed Q3 Results, Joins Zhihu, Nvidia And Other Big Stocks Moving Lower In Tuesday's Pre-Market Session - Advanced Micro Devices  ( NASDAQ:AMD ) , Coherent  ( NYSE:COHR ) ",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "negative",
+      "impact": "U.S. stock futures were lower this morning, with the Dow futures falling around 0.1% on Tuesday. Shares of Semtech Corp ( NASDAQ:SMTC ) fell sharply in pre-market trading as the company reported mixed financial results for the third quarter of fiscal 2026.",
+      "category": "us_equities",
+      "date": "2025-11-25 13:01",
+      "link": "https://www.benzinga.com/trading-ideas/movers/25/11/49053674/semtech-posts-mixed-q3-results-joins-zhihu-nvidia-and-other-big-stocks-moving-lower-in-tuesd"
+    },
+    {
+      "headline": "Abortion pill makers brace for restrictions a year after Trump's election",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Airline executives are hoping for a smooth Thanksgiving after a rocky fall because of the government shutdown.",
-      "category": "us_equities",
-      "date": "2025-11-23 13:00",
-      "link": "https://www.cnbc.com/2025/11/23/thanksgiving-air-travel-after-shutdown.html"
-    },
-    {
-      "headline": "Alphabet\u2019s stock rises as possible Meta chip deal highlights new twist in the AI trade",
-      "score": 5,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Meta reportedly is considering using Alphabet\u2019s custom chips for its data centers. Nvidia and AMD shares are falling on the prospect of more formidable competition.",
+      "impact": "Abortion medication access, like mifepristone, is unchanged under Trump, but FDA reviews, lawsuits and state enforcement are creating risks for drugmakers.",
       "category": "global_markets",
-      "date": "2025-11-25 03:23",
-      "link": "https://www.marketwatch.com/story/alphabets-stock-rises-as-possible-meta-chip-deal-highlights-new-twist-in-the-ai-trade-e697d12f?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "I\u2019m 59. Does it make financial sense to dip into my $2.5 million IRA to buy a $400K home?",
-      "score": 5,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "\u201cI regret not buying a home 10 years ago, but we were both going through divorces.\u201d",
-      "category": "global_markets",
-      "date": "2025-11-25 01:23",
-      "link": "https://www.marketwatch.com/story/i-regret-not-buying-10-years-ago-im-59-and-pay-2-300-in-rent-do-i-dip-into-my-ira-to-buy-a-home-d581e678?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "AI and tech stocks are giving \u2018early 1999\u2019 dot-com bubble vibes. Is their rally finished?",
-      "score": 5,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Potential Fed rate cut in December could ignite a \u2018risk-on\u2019 flame \u2014 but just for a short time.",
-      "category": "global_markets",
-      "date": "2025-11-25 00:22",
-      "link": "https://www.marketwatch.com/story/is-it-finally-game-over-for-ai-and-big-tech-stocks-d9b0655c?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Why a functional U.S. government could actually trigger a bear market",
-      "score": 5,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Big federal deficits are bullish for stocks \u2014 in the short-term, at least.",
-      "category": "global_markets",
-      "date": "2025-11-25 00:21",
-      "link": "https://www.marketwatch.com/story/why-a-balanced-u-s-budget-could-actually-trigger-a-bear-market-52f80a8c?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "These energy stocks have been powerful investments. Here\u2019s what\u2019s next for them.",
-      "score": 5,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Solar is a proven moneymaker with real profits and fast-growing demand. Nuclear is just getting started.",
-      "category": "global_markets",
-      "date": "2025-11-25 00:19",
-      "link": "https://www.marketwatch.com/story/solar-or-nuclear-isnt-a-choice-heres-why-both-can-power-your-stock-portfolio-4c0a4260?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "My sons will each inherit $500K laundromats from their grandparents. How do we keep their spouses out of it?",
-      "score": 5,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "\u201cThe businesses each have two employees who manage the day-to-day operations.\u201d",
-      "category": "global_markets",
-      "date": "2025-11-24 23:42",
-      "link": "https://www.marketwatch.com/story/my-sons-will-each-inherit-500k-laundromats-from-their-grandparents-how-do-we-keep-their-spouses-out-of-it-6dd520d2?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "\u2018He lived alone in Section 8 housing\u2019: My late uncle\u2019s landlord disposed of his art collection. What can we do?",
-      "score": 5,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "\u201cThe management company said they would store his belongings.\u201d",
-      "category": "global_markets",
-      "date": "2025-11-24 23:05",
-      "link": "https://www.marketwatch.com/story/he-lived-alone-in-section-8-housing-my-late-uncles-landlord-disposed-of-his-art-collection-what-can-we-do-a4ac6a23?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Trump\u2019s healthcare plan could extend Obamacare subsidies. Here\u2019s what we know so far.",
-      "score": 5,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "President Donald Trump is working on a healthcare plan that could address expiring Obamacare subsidies, the issue that triggered this fall\u2019s record-breaking government shutdown.",
-      "category": "global_markets",
-      "date": "2025-11-24 22:09",
-      "link": "https://www.marketwatch.com/story/trumps-healthcare-plan-could-be-revealed-today-heres-what-we-know-so-far-734225b1?mod=mw_rss_topstories"
+      "date": "2025-11-25 13:00",
+      "link": "https://www.cnbc.com/2025/11/25/abortion-pill-mifepristone-access-trump-fda.html"
     }
   ]
 }
