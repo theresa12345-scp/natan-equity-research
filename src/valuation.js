@@ -331,6 +331,7 @@ export const estimateFCFF = (stock, region) => {
   const params = DCF_ASSUMPTIONS[region] || DCF_ASSUMPTIONS.US;
   const sector = stock["Industry Sector"] || 'default';
   const sectorParams = SECTOR_PARAMETERS[sector] || SECTOR_PARAMETERS.default;
+  const isFinancial = sector.includes('Financial') || sector.includes('Bank');
 
   let fcff = 0;
   let method = '';
@@ -344,40 +345,58 @@ export const estimateFCFF = (stock, region) => {
     return { fcff, method, confidence };
   }
 
-  // METHOD 2: Full FCFF calculation from EBITDA (preferred estimation method)
+  // METHOD 2: Use actual Net Income data when available (HIGH PRIORITY)
+  // For financials: FCF ≈ Net Income × 0.85 (high cash conversion)
+  // For others: FCF ≈ Net Income × 0.70 (after reinvestment)
+  if (stock["Net Income"] && stock["Net Income"] > 0) {
+    const netIncome = stock["Net Income"];
+
+    // FCF conversion rate depends on sector
+    let fcfConversionRate;
+    if (isFinancial) {
+      fcfConversionRate = 0.85; // Banks have high cash conversion
+    } else if (sector === 'Technology') {
+      fcfConversionRate = 0.80; // Tech has good FCF conversion
+    } else if (sector === 'Energy' || sector === 'Basic Materials') {
+      fcfConversionRate = 0.50; // Capital intensive
+    } else {
+      fcfConversionRate = 0.65; // Default
+    }
+
+    fcff = netIncome * fcfConversionRate;
+    method = 'Net Income Based';
+    confidence = 'High';
+
+    return {
+      fcff,
+      method,
+      confidence,
+      details: {
+        netIncome: Math.round(netIncome),
+        fcfConversionRate
+      }
+    };
+  }
+
+  // METHOD 3: Full FCFF calculation from EBITDA
   // FCFF = EBIT(1-T) + D&A - CapEx - ΔNWC
   if (stock["EBITDA Margin"] && stock["Market Cap"]) {
-    // Derive Revenue from P/S or Market Cap assumptions
-    const impliedRevenue = stock["Market Cap"] / (stock.PS || 2);
+    const impliedRevenue = stock.Revenue || (stock["Market Cap"] / (stock.PS || 2));
     const ebitdaMargin = stock["EBITDA Margin"] / 100;
     const ebitda = impliedRevenue * ebitdaMargin;
 
-    // Estimate D&A using sector-specific ratio
     const da = ebitda * sectorParams.daToEbitda;
-
-    // EBIT = EBITDA - D&A
     const ebit = ebitda - da;
-
-    // NOPAT = EBIT × (1 - Tax Rate)
     const nopat = ebit * (1 - params.taxRate / 100);
-
-    // Estimate CapEx (maintenance + growth)
-    // CapEx typically runs at 100-150% of D&A depending on growth stage
     const capex = da * sectorParams.capexToDA;
-
-    // Estimate Working Capital change
-    // ΔNWC typically 5-15% of revenue growth
     const revenueGrowth = (stock["Revenue Growth"] || 5) / 100;
     const deltaNWC = impliedRevenue * revenueGrowth * sectorParams.nwcToRevGrowth;
 
-    // FCFF = NOPAT + D&A - CapEx - ΔNWC
-    // Or equivalently: EBIT(1-T) + D&A - CapEx - ΔNWC
     fcff = nopat + da - capex - deltaNWC;
 
-    method = 'EBITDA-Based (NOPAT + D&A - CapEx - ΔNWC)';
+    method = 'EBITDA-Based';
     confidence = 'Medium';
 
-    // Store intermediate values for debugging/transparency
     return {
       fcff: Math.max(0, fcff),
       method,
@@ -385,43 +404,24 @@ export const estimateFCFF = (stock, region) => {
       details: {
         impliedRevenue: Math.round(impliedRevenue),
         ebitda: Math.round(ebitda),
-        ebit: Math.round(ebit),
-        nopat: Math.round(nopat),
-        da: Math.round(da),
-        capex: Math.round(capex),
-        deltaNWC: Math.round(deltaNWC)
+        nopat: Math.round(nopat)
       }
     };
   }
 
-  // METHOD 3: Damodaran's Reinvestment Rate approach
-  // FCFF = NOPAT × (1 - Reinvestment Rate)
-  // Reinvestment Rate = g / ROIC
+  // METHOD 4: Damodaran's Reinvestment Rate approach
   if (stock.ROE && stock["Market Cap"] && stock.PB) {
-    // Estimate Net Income from ROE and Book Value
     const bookValue = stock["Market Cap"] / (stock.PB || 2);
     const netIncome = bookValue * (stock.ROE / 100);
-
-    // Estimate ROIC (Return on Invested Capital)
-    // ROIC ≈ ROE × (E/V) for approximation, or use 80% of ROE as proxy
     const roic = (stock.ROE / 100) * 0.85;
-
-    // Expected growth rate
     const expectedGrowth = Math.min((stock["Revenue Growth"] || 5) / 100, 0.20);
-
-    // Reinvestment Rate = Growth / ROIC (Damodaran fundamental growth equation)
-    // Capped at 80% to avoid negative FCF in high-growth scenarios
     const reinvestmentRate = Math.min(expectedGrowth / Math.max(roic, 0.08), 0.80);
-
-    // Convert Net Income to NOPAT approximation
-    // NOPAT ≈ Net Income × (1 + D/E × (1-T)) for rough conversion
     const deRatio = normalizeDeRatio(stock.DE);
     const nopat = netIncome * (1 + deRatio * (1 - params.taxRate / 100));
 
-    // FCFF = NOPAT × (1 - Reinvestment Rate)
     fcff = nopat * (1 - reinvestmentRate);
 
-    method = 'Reinvestment Rate (g/ROIC)';
+    method = 'ROE-Based';
     confidence = 'Medium-Low';
 
     return {
@@ -430,23 +430,21 @@ export const estimateFCFF = (stock, region) => {
       confidence,
       details: {
         netIncome: Math.round(netIncome),
-        roic: Math.round(roic * 100) / 100,
         reinvestmentRate: Math.round(reinvestmentRate * 100) / 100,
         nopat: Math.round(nopat)
       }
     };
   }
 
-  // METHOD 4: Sector FCF Yield (last resort)
-  // Based on historical FCF/Market Cap ratios by sector
+  // METHOD 5: Sector FCF Yield (last resort)
   const sectorFCFYields = {
-    'Technology': 0.035,           // Tech: 3.5% FCF yield typical
-    'Financial': 0.055,            // Financials: Higher payout
+    'Technology': 0.035,
+    'Financial': 0.055,
     'Consumer, Cyclical': 0.04,
     'Consumer, Non-cyclical': 0.045,
     'Industrial': 0.045,
     'Basic Materials': 0.05,
-    'Energy': 0.06,                // Energy: Higher FCF yield
+    'Energy': 0.06,
     'Communications': 0.04,
     'Utilities': 0.055,
     'Healthcare': 0.04,
@@ -484,6 +482,8 @@ export const estimateFCFF = (stock, region) => {
  */
 const calculateNetDebt = (stock) => {
   const marketCap = stock["Market Cap"] || 1000000000;
+  const sector = stock["Industry Sector"] || 'default';
+  const isFinancial = sector.includes('Financial') || sector.includes('Bank');
 
   // METHOD 1: Direct balance sheet data (highest accuracy)
   if (stock.TotalDebt !== undefined && stock.Cash !== undefined) {
@@ -499,38 +499,44 @@ const calculateNetDebt = (stock) => {
     };
   }
 
-  // METHOD 2: Estimate from Book Value and D/E ratio
-  // Book Equity = Market Cap / P/B
-  // Total Debt = Book Equity × D/E
+  // SPECIAL HANDLING FOR FINANCIALS (Banks, Insurance)
+  // For banks, D/E ratio represents deposits/liabilities, NOT traditional debt
+  // Net Debt concept doesn't apply the same way
+  // Use a simplified approach: assume minimal net debt for valuation purposes
+  if (isFinancial) {
+    // For banks, use a small percentage of market cap as net debt proxy
+    // This reflects that banks' "debt" is mostly deposits which earn spread income
+    const netDebt = marketCap * 0.05; // Assume 5% of market cap as effective net debt
+    return {
+      netDebt,
+      totalDebt: 0,
+      cash: 0,
+      bookEquity: marketCap / (stock.PB || 2),
+      method: 'Financial Sector (simplified)',
+      confidence: 'Medium'
+    };
+  }
+
+  // METHOD 2: Estimate from Book Value and D/E ratio for non-financials
   const pb = stock.PB || 2;
   const bookEquity = marketCap / pb;
   const deRatio = normalizeDeRatio(stock.DE);
 
-  // Total Debt from D/E ratio applied to book equity (not market cap!)
+  // Total Debt from D/E ratio applied to book equity
   const totalDebt = bookEquity * deRatio;
 
-  // Estimate Cash using multiple signals
+  // Estimate Cash
   let estimatedCash;
   let cashMethod = '';
 
-  // Cash estimation hierarchy:
-  // 1. If current ratio available, use liquidity-based estimate
   if (stock["Cur Ratio"] && stock["Cur Ratio"] > 0) {
-    // Higher current ratio implies more liquid assets
-    // Estimate cash as portion of current assets
-    // Current Assets ≈ Current Liabilities × Current Ratio
-    // Assume short-term debt ≈ 20% of total debt
     const currentLiabilities = totalDebt * 0.20;
     const currentAssets = currentLiabilities * stock["Cur Ratio"];
-    // Cash typically 30-50% of current assets
     estimatedCash = currentAssets * 0.35;
     cashMethod = 'Current Ratio';
-  }
-  // 2. Sector-based cash holdings (% of market cap)
-  else {
+  } else {
     const sectorCashRatios = {
-      'Technology': 0.15,      // Tech holds more cash
-      'Financial': 0.05,       // Banks: different balance sheet
+      'Technology': 0.15,
       'Consumer, Cyclical': 0.08,
       'Consumer, Non-cyclical': 0.10,
       'Industrial': 0.07,
@@ -541,7 +547,6 @@ const calculateNetDebt = (stock) => {
       'Healthcare': 0.12,
       'default': 0.08
     };
-    const sector = stock["Industry Sector"] || 'default';
     const cashRatio = sectorCashRatios[sector] || sectorCashRatios.default;
     estimatedCash = marketCap * cashRatio;
     cashMethod = 'Sector Benchmark';
@@ -551,7 +556,7 @@ const calculateNetDebt = (stock) => {
   const netDebt = totalDebt - estimatedCash;
 
   return {
-    netDebt: Math.max(-marketCap * 0.5, netDebt), // Floor at -50% market cap (net cash position)
+    netDebt: Math.max(-marketCap * 0.5, netDebt),
     totalDebt: Math.round(totalDebt),
     cash: Math.round(estimatedCash),
     bookEquity: Math.round(bookEquity),
