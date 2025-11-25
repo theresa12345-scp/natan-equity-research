@@ -647,10 +647,23 @@ export const calculateDCF = (stock, region) => {
 
   // Enterprise Value
   const pvFCF = discountedFCFs.reduce((a, b) => a + b, 0);
-  const enterpriseValue = pvFCF + discountedTV;
+  let enterpriseValue = pvFCF + discountedTV;
+
+  // SANITY CHECK: Enterprise Value should not exceed 5x Market Cap
+  // If it does, the model is producing unrealistic results
+  const marketCap = stock["Market Cap"] || 1000000000;
+  const evToMarketCap = enterpriseValue / marketCap;
+  let evCapped = false;
+
+  if (evToMarketCap > 5) {
+    // Cap EV at 3x market cap for reasonableness
+    enterpriseValue = marketCap * 3;
+    evCapped = true;
+    if (!terminalValueWarning) terminalValueWarning = 'EV capped: Model produced unrealistic value';
+  }
 
   // Terminal Value as % of EV (McKinsey sanity check)
-  const tvPercentage = (discountedTV / enterpriseValue) * 100;
+  const tvPercentage = (discountedTV / (pvFCF + discountedTV)) * 100;
 
   // TV% sanity checks per McKinsey Valuation
   let tvSanityCheck = 'Pass';
@@ -668,13 +681,23 @@ export const calculateDCF = (stock, region) => {
   const netDebt = netDebtData.netDebt;
 
   // Equity Value = Enterprise Value - Net Debt
-  const marketCap = stock["Market Cap"] || 1000000000;
   const equityValue = Math.max(0, enterpriseValue - netDebt);
 
   // Fair Value per Share
   // Implied price = Current Price × (Equity Value / Market Cap)
   const currentPrice = stock.Price || 1000;
-  const fairValue = currentPrice * (equityValue / marketCap);
+  let fairValue = currentPrice * (equityValue / marketCap);
+
+  // SANITY CHECK: Cap upside at reasonable levels
+  // Most institutional research caps price targets at +/- 100% from current
+  const maxUpside = 1.5; // 150% max upside
+  const maxDownside = 0.5; // 50% max downside (fair value = 50% of current)
+
+  if (fairValue > currentPrice * (1 + maxUpside)) {
+    fairValue = currentPrice * (1 + maxUpside);
+  } else if (fairValue < currentPrice * maxDownside) {
+    fairValue = currentPrice * maxDownside;
+  }
 
   // Upside/Downside
   const upside = ((fairValue - currentPrice) / currentPrice) * 100;
@@ -725,7 +748,9 @@ export const calculateDCF = (stock, region) => {
     confidence,
     confidenceScore,
     confidenceFactors,
-    warnings: terminalValueWarning ? [terminalValueWarning] : []
+    warnings: terminalValueWarning ? [terminalValueWarning] : [],
+    evCapped,
+    evToMarketCapRatio: Math.round(evToMarketCap * 100) / 100
   };
 };
 
