@@ -1,7 +1,5 @@
 // NATAN INSTITUTIONAL EQUITY RESEARCH PLATFORM
 // Professional-Grade Multi-Asset Analysis System
-// For: AXA Mandiri Investment Team | Portfolio Showcase
-// Built By: T | November 2024
 
 import React, { useState, useMemo, useEffect } from 'react';
 import { 
@@ -554,9 +552,6 @@ export default function NatanInstitutionalPlatform() {
               6-Factor Scoring
             </span>
           </div>
-          <p className="text-xs text-slate-500 mt-2">
-            Built by T | AXA Mandiri Investment Team | GS/JPM/MS/BlackRock Methodology
-          </p>
         </div>
       </div>
 
