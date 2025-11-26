@@ -1166,18 +1166,7 @@ export default function NatanInstitutionalPlatform() {
                           >
                             P/E {sortBy === 'pe' && (sortDirection === 'desc' ? '▼' : '▲')}
                           </th>
-                          <th
-                            className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide cursor-pointer hover:bg-slate-600 transition-colors select-none"
-                            onClick={() => {
-                              if (sortBy === 'pb') setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
-                              else { setSortBy('pb'); setSortDirection('asc'); }
-                            }}
-                          >
-                            P/B {sortBy === 'pb' && (sortDirection === 'desc' ? '▼' : '▲')}
-                          </th>
-                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide bg-purple-800">Tech</th>
-                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide bg-pink-800">Sent</th>
-                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide bg-amber-700">Liq</th>
+                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide bg-gradient-to-r from-purple-800 to-pink-800">Signals</th>
                           <th
                             className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide cursor-pointer hover:bg-slate-600 transition-colors select-none"
                             onClick={() => {
@@ -1248,37 +1237,30 @@ export default function NatanInstitutionalPlatform() {
                               <td className="px-3 py-3 text-right font-semibold text-slate-700">
                                 {stock.PE ? stock.PE.toFixed(1) + 'x' : 'N/A'}
                               </td>
-                              <td className="px-3 py-3 text-right font-semibold text-slate-700">
-                                {stock.PB ? stock.PB.toFixed(1) + 'x' : 'N/A'}
-                              </td>
-                              <td className="px-3 py-3 text-center">
-                                <span className={`px-2 py-1 rounded text-xs font-bold ${
-                                  stock.natanScore.technicalScore >= 15 ? 'bg-purple-600 text-white' :
-                                  stock.natanScore.technicalScore >= 10 ? 'bg-purple-400 text-white' :
-                                  stock.natanScore.technicalScore >= 5 ? 'bg-purple-200 text-purple-800' :
-                                  'bg-slate-200 text-slate-600'
-                                }`}>
-                                  {stock.natanScore.technicalScore || 0}
-                                </span>
-                              </td>
-                              <td className="px-3 py-3 text-center">
-                                <span className={`px-2 py-1 rounded text-xs font-bold ${
-                                  stock.natanScore.sentimentScore >= 12 ? 'bg-pink-600 text-white' :
-                                  stock.natanScore.sentimentScore >= 8 ? 'bg-pink-400 text-white' :
-                                  stock.natanScore.sentimentScore >= 4 ? 'bg-pink-200 text-pink-800' :
-                                  'bg-slate-200 text-slate-600'
-                                }`}>
-                                  {stock.natanScore.sentimentScore || 0}
-                                </span>
-                              </td>
-                              <td className="px-3 py-3 text-center">
-                                <span className={`px-2 py-1 rounded text-xs font-bold ${
-                                  stock.natanScore.liquidityScore >= 8 ? 'bg-amber-500 text-white' :
-                                  stock.natanScore.liquidityScore >= 5 ? 'bg-amber-300 text-amber-900' :
-                                  'bg-slate-200 text-slate-600'
-                                }`}>
-                                  {stock.natanScore.liquidityScore >= 8 ? 'H' : stock.natanScore.liquidityScore >= 5 ? 'M' : 'L'}
-                                </span>
+                              <td className="px-3 py-3">
+                                <div className="flex items-center justify-center gap-1">
+                                  <span className={`w-6 h-6 flex items-center justify-center rounded text-[10px] font-bold ${
+                                    stock.natanScore.technicalScore >= 15 ? 'bg-purple-600 text-white' :
+                                    stock.natanScore.technicalScore >= 10 ? 'bg-purple-400 text-white' :
+                                    'bg-purple-100 text-purple-700'
+                                  }`} title={`Technical: ${stock.natanScore.technicalScore}/20`}>
+                                    T
+                                  </span>
+                                  <span className={`w-6 h-6 flex items-center justify-center rounded text-[10px] font-bold ${
+                                    stock.natanScore.sentimentScore >= 12 ? 'bg-pink-600 text-white' :
+                                    stock.natanScore.sentimentScore >= 8 ? 'bg-pink-400 text-white' :
+                                    'bg-pink-100 text-pink-700'
+                                  }`} title={`Sentiment: ${stock.natanScore.sentimentScore}/15`}>
+                                    S
+                                  </span>
+                                  <span className={`w-6 h-6 flex items-center justify-center rounded text-[10px] font-bold ${
+                                    stock.natanScore.liquidityScore >= 8 ? 'bg-amber-500 text-white' :
+                                    stock.natanScore.liquidityScore >= 5 ? 'bg-amber-300 text-amber-900' :
+                                    'bg-amber-100 text-amber-700'
+                                  }`} title={`Liquidity: ${stock.natanScore.liquidityScore}/10`}>
+                                    L
+                                  </span>
+                                </div>
                               </td>
                               <td className="px-3 py-3 text-right font-semibold">
                                 <span className={stock.ROE > 15 ? 'text-emerald-600' : 'text-slate-700'}>
@@ -1557,21 +1539,21 @@ export default function NatanInstitutionalPlatform() {
                     <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                       <div className="text-xs text-slate-600 mb-1 font-bold">WACC</div>
                       <div className="text-xl font-bold text-slate-900">
-                        {selectedStock.dcf?.wacc.toFixed(2)}%
+                        {selectedStock.dcf?.wacc ? selectedStock.dcf.wacc.toFixed(2) : 'N/A'}%
                       </div>
                       <div className="text-xs text-slate-500 mt-1">Discount Rate</div>
                     </div>
                     <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                       <div className="text-xs text-slate-600 mb-1 font-bold">Terminal Growth</div>
                       <div className="text-xl font-bold text-slate-900">
-                        {selectedStock.dcf?.assumptions.terminalGrowth}%
+                        {selectedStock.dcf?.assumptions?.terminalGrowth || 3}%
                       </div>
                       <div className="text-xs text-slate-500 mt-1">Perpetual</div>
                     </div>
                     <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                       <div className="text-xs text-slate-600 mb-1 font-bold">PV of FCFs</div>
                       <div className="text-xl font-bold text-slate-900">
-                        ${selectedStock.dcf?.pvFCF.toFixed(0)}M
+                        ${selectedStock.dcf?.pvFCF ? selectedStock.dcf.pvFCF.toFixed(0) : 'N/A'}M
                       </div>
                       <div className="text-xs text-slate-500 mt-1">5-Year Total</div>
                     </div>
@@ -1585,6 +1567,7 @@ export default function NatanInstitutionalPlatform() {
                   </div>
 
                   {/* 5-Year FCF Projection Table */}
+                  {selectedStock.dcf?.projectedFCFs && selectedStock.dcf.projectedFCFs.length > 0 ? (
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm border border-slate-200">
                       <thead className="bg-slate-100">
@@ -1600,39 +1583,46 @@ export default function NatanInstitutionalPlatform() {
                       <tbody>
                         <tr className="border-b border-slate-100">
                           <td className="px-4 py-3 font-semibold">FCF ($M)</td>
-                          {selectedStock.dcf?.projectedFCFs.map((fcf, i) => (
-                            <td key={i} className="px-4 py-3 text-right">{fcf.toFixed(1)}</td>
+                          {selectedStock.dcf.projectedFCFs.map((fcf, i) => (
+                            <td key={i} className="px-4 py-3 text-right">{fcf?.toFixed(1) || 'N/A'}</td>
                           ))}
                         </tr>
                         <tr className="border-b border-slate-100">
                           <td className="px-4 py-3 font-semibold">Growth Rate</td>
-                          {selectedStock.dcf?.fcfGrowthRates.map((rate, i) => (
-                            <td key={i} className="px-4 py-3 text-right text-slate-600">{rate.toFixed(1)}%</td>
+                          {(selectedStock.dcf.fcfGrowthRates || [0,0,0,0,0]).map((rate, i) => (
+                            <td key={i} className="px-4 py-3 text-right text-slate-600">{rate?.toFixed(1) || 0}%</td>
                           ))}
                         </tr>
                         <tr>
                           <td className="px-4 py-3 font-semibold">PV of FCF ($M)</td>
-                          {selectedStock.dcf?.discountedFCFs.map((fcf, i) => (
-                            <td key={i} className="px-4 py-3 text-right font-bold text-blue-600">{fcf.toFixed(1)}</td>
+                          {(selectedStock.dcf.discountedFCFs || [0,0,0,0,0]).map((fcf, i) => (
+                            <td key={i} className="px-4 py-3 text-right font-bold text-blue-600">{fcf?.toFixed(1) || 'N/A'}</td>
                           ))}
                         </tr>
                       </tbody>
                     </table>
                   </div>
+                  ) : (
+                    <div className="bg-slate-50 rounded-lg p-4 text-center text-slate-500 text-sm">
+                      Detailed FCF projections not available for this stock
+                    </div>
+                  )}
                 </div>
 
                 {/* Score Breakdown */}
                 <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
-                  <h4 className="font-bold text-slate-900 mb-5 text-lg">Multi-Factor Score Analysis</h4>
+                  <h4 className="font-bold text-slate-900 mb-5 text-lg">8-Factor Score Analysis</h4>
                   <div className="space-y-4">
                     {Object.entries(selectedStock.natanScore.breakdown).map(([key, value]) => {
                       const maxValues = {
-                        valuation: 30,
-                        quality: 25,
-                        growth: 20,
-                        financial_health: 15,
-                        momentum: 10,
-                        macro_alignment: 5
+                        technical: 20,
+                        sentiment: 15,
+                        valuation: 15,
+                        quality: 15,
+                        liquidity: 10,
+                        growth: 10,
+                        financial_health: 10,
+                        analyst_coverage: 5
                       };
                       const maxValue = maxValues[key];
                       const percentage = (value / maxValue) * 100;
