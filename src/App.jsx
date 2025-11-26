@@ -268,7 +268,17 @@ export default function NatanInstitutionalPlatform() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedStock, setSelectedStock] = useState(null);
   const [sortBy, setSortBy] = useState('score');
+  const [sortDirection, setSortDirection] = useState('desc'); // 'asc' or 'desc'
   const [newsFilter, setNewsFilter] = useState('all');
+
+  // Advanced screener filters (Finviz/Bloomberg style)
+  const [marketCapFilter, setMarketCapFilter] = useState('all'); // all, mega, large, mid, small, micro
+  const [peMin, setPeMin] = useState('');
+  const [peMax, setPeMax] = useState('');
+  const [roeMin, setRoeMin] = useState('');
+  const [divYieldMin, setDivYieldMin] = useState('');
+  const [upsideMin, setUpsideMin] = useState('');
+  const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
 
   // Load all 900+ companies from JSON file
   useEffect(() => {
@@ -327,6 +337,19 @@ export default function NatanInstitutionalPlatform() {
     });
   }, [companies]);
 
+  // Market cap ranges (in millions USD for US, billions IDR for Indonesia)
+  const getMarketCapRange = (filter, region) => {
+    // Finviz-style ranges (in USD millions)
+    const ranges = {
+      mega: { min: 200000 },      // >$200B
+      large: { min: 10000, max: 200000 },  // $10B-$200B
+      mid: { min: 2000, max: 10000 },      // $2B-$10B
+      small: { min: 300, max: 2000 },      // $300M-$2B
+      micro: { max: 300 }         // <$300M
+    };
+    return ranges[filter] || null;
+  };
+
   const filteredStocks = useMemo(() => {
     if (!ALL_STOCKS_DATA || ALL_STOCKS_DATA.length === 0) {
       console.log('⚠️ ALL_STOCKS_DATA is empty');
@@ -335,27 +358,76 @@ export default function NatanInstitutionalPlatform() {
 
     console.log(`🔍 Filtering ${ALL_STOCKS_DATA.length} stocks...`);
     const filtered = ALL_STOCKS_DATA.filter(stock => {
+      // Basic filters
       if (stock.natanScore.total < minScore) return false;
       if (selectedSector !== 'all' && stock.sector !== selectedSector) return false;
       if (selectedRegion !== 'all' && stock.Region !== selectedRegion) return false;
+
+      // Search filter
       if (searchTerm) {
         const search = searchTerm.toLowerCase();
-        return stock.ticker?.toLowerCase().includes(search) ||
+        const matchesSearch = stock.ticker?.toLowerCase().includes(search) ||
                stock.name?.toLowerCase().includes(search) ||
                stock.Name?.toLowerCase().includes(search);
+        if (!matchesSearch) return false;
       }
+
+      // Market Cap filter (Finviz style)
+      if (marketCapFilter !== 'all') {
+        const mcap = stock["Market Cap"] || 0;
+        // Convert to USD millions for comparison (IDR stocks stored in IDR)
+        const mcapUSD = stock.region === 'Indonesia' ? mcap / 15000 : mcap; // Rough IDR/USD
+        const range = getMarketCapRange(marketCapFilter);
+        if (range) {
+          if (range.min && mcapUSD < range.min) return false;
+          if (range.max && mcapUSD > range.max) return false;
+        }
+      }
+
+      // P/E filter
+      if (peMin !== '' && (stock.PE === null || stock.PE < parseFloat(peMin))) return false;
+      if (peMax !== '' && (stock.PE === null || stock.PE > parseFloat(peMax))) return false;
+
+      // ROE filter
+      if (roeMin !== '' && (stock.ROE === null || stock.ROE < parseFloat(roeMin))) return false;
+
+      // Dividend Yield filter
+      if (divYieldMin !== '' && (stock["Dividend Yield"] === null || stock["Dividend Yield"] < parseFloat(divYieldMin))) return false;
+
+      // DCF Upside filter
+      if (upsideMin !== '' && (stock.dcf?.upside === null || stock.dcf?.upside < parseFloat(upsideMin))) return false;
+
       return true;
     }).sort((a, b) => {
-      if (sortBy === 'score') return b.natanScore.total - a.natanScore.total;
-      if (sortBy === 'marketcap') return (b["Market Cap"] || 0) - (a["Market Cap"] || 0);
-      if (sortBy === 'ytd') return (b["Company YTD Return"] || 0) - (a["Company YTD Return"] || 0);
-      if (sortBy === 'dcf') return (b.dcf?.upside || 0) - (a.dcf?.upside || 0);
-      return 0;
+      let comparison = 0;
+
+      // Get values for comparison
+      const getValue = (stock, key) => {
+        switch(key) {
+          case 'score': return stock.natanScore?.total || 0;
+          case 'marketcap': return stock["Market Cap"] || 0;
+          case 'ytd': return stock["Company YTD Return"] || 0;
+          case 'dcf': return stock.dcf?.upside || 0;
+          case 'pe': return stock.PE || 999;
+          case 'pb': return stock.PB || 999;
+          case 'roe': return stock.ROE || 0;
+          case 'price': return stock.Price || 0;
+          case 'divyield': return stock["Dividend Yield"] || 0;
+          default: return 0;
+        }
+      };
+
+      const aVal = getValue(a, sortBy);
+      const bVal = getValue(b, sortBy);
+      comparison = bVal - aVal;
+
+      // Apply sort direction
+      return sortDirection === 'asc' ? -comparison : comparison;
     });
 
     console.log(`✅ Filtered to ${filtered.length} stocks`);
     return filtered;
-  }, [ALL_STOCKS_DATA, minScore, selectedSector, selectedRegion, searchTerm, sortBy]);
+  }, [ALL_STOCKS_DATA, minScore, selectedSector, selectedRegion, searchTerm, sortBy, sortDirection, marketCapFilter, peMin, peMax, roeMin, divYieldMin, upsideMin]);
 
   const sectors = useMemo(() => {
     if (!ALL_STOCKS_DATA || ALL_STOCKS_DATA.length === 0) return ['all'];
@@ -814,25 +886,25 @@ export default function NatanInstitutionalPlatform() {
                   />
                 </div>
 
-                {/* Advanced Filters */}
-                <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 p-5 bg-slate-50 rounded-lg border border-slate-200">
+                {/* Primary Filters Row */}
+                <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 p-5 bg-slate-50 rounded-lg border border-slate-200">
                   <div>
                     <label className="block text-xs font-bold text-slate-600 uppercase mb-2">Min Score</label>
-                    <select 
+                    <select
                       value={minScore}
                       onChange={(e) => setMinScore(Number(e.target.value))}
                       className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
                     >
                       <option value="0">All (0+)</option>
-                      <option value="85">Strong Buy (85+) ⭐⭐⭐⭐⭐</option>
-                      <option value="75">Buy (75+) ⭐⭐⭐⭐</option>
-                      <option value="60">Hold (60+) ⭐⭐⭐</option>
+                      <option value="85">Strong Buy (85+)</option>
+                      <option value="75">Buy (75+)</option>
+                      <option value="60">Hold (60+)</option>
                     </select>
                   </div>
 
                   <div>
                     <label className="block text-xs font-bold text-slate-600 uppercase mb-2">Region</label>
-                    <select 
+                    <select
                       value={selectedRegion}
                       onChange={(e) => setSelectedRegion(e.target.value)}
                       className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
@@ -845,7 +917,7 @@ export default function NatanInstitutionalPlatform() {
 
                   <div>
                     <label className="block text-xs font-bold text-slate-600 uppercase mb-2">Sector</label>
-                    <select 
+                    <select
                       value={selectedSector}
                       onChange={(e) => setSelectedSector(e.target.value)}
                       className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
@@ -857,19 +929,150 @@ export default function NatanInstitutionalPlatform() {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold text-slate-600 uppercase mb-2">Sort By</label>
-                    <select 
-                      value={sortBy}
-                      onChange={(e) => setSortBy(e.target.value)}
+                    <label className="block text-xs font-bold text-slate-600 uppercase mb-2">Market Cap</label>
+                    <select
+                      value={marketCapFilter}
+                      onChange={(e) => setMarketCapFilter(e.target.value)}
                       className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
                     >
-                      <option value="score">NATAN Score</option>
-                      <option value="dcf">DCF Upside</option>
-                      <option value="marketcap">Market Cap</option>
-                      <option value="ytd">YTD Return</option>
+                      <option value="all">All Caps</option>
+                      <option value="mega">Mega ($200B+)</option>
+                      <option value="large">Large ($10B-$200B)</option>
+                      <option value="mid">Mid ($2B-$10B)</option>
+                      <option value="small">Small ($300M-$2B)</option>
+                      <option value="micro">Micro (&lt;$300M)</option>
                     </select>
                   </div>
+
+                  <div>
+                    <label className="block text-xs font-bold text-slate-600 uppercase mb-2">&nbsp;</label>
+                    <button
+                      onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
+                      className={`w-full px-3 py-2 border-2 rounded-lg text-sm font-semibold transition-all flex items-center justify-center gap-2 ${
+                        showAdvancedFilters
+                          ? 'bg-blue-600 text-white border-blue-600'
+                          : 'bg-white text-slate-700 border-slate-300 hover:border-blue-500'
+                      }`}
+                    >
+                      <Filter className="w-4 h-4" />
+                      {showAdvancedFilters ? 'Hide Filters' : 'More Filters'}
+                    </button>
+                  </div>
                 </div>
+
+                {/* Advanced Filters Panel (Finviz/Bloomberg Style) */}
+                {showAdvancedFilters && (
+                  <div className="bg-gradient-to-r from-slate-100 to-blue-50 rounded-lg border-2 border-blue-200 p-5 space-y-4">
+                    <div className="flex items-center justify-between mb-2">
+                      <h4 className="text-sm font-bold text-slate-800 flex items-center gap-2">
+                        <Filter className="w-4 h-4 text-blue-600" />
+                        Advanced Screener Filters
+                      </h4>
+                      <button
+                        onClick={() => {
+                          setPeMin('');
+                          setPeMax('');
+                          setRoeMin('');
+                          setDivYieldMin('');
+                          setUpsideMin('');
+                          setMarketCapFilter('all');
+                        }}
+                        className="text-xs text-blue-600 hover:text-blue-800 font-semibold"
+                      >
+                        Reset All
+                      </button>
+                    </div>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
+                      {/* P/E Range */}
+                      <div>
+                        <label className="block text-xs font-bold text-slate-600 uppercase mb-2">P/E Min</label>
+                        <input
+                          type="number"
+                          placeholder="Any"
+                          value={peMin}
+                          onChange={(e) => setPeMin(e.target.value)}
+                          className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-xs font-bold text-slate-600 uppercase mb-2">P/E Max</label>
+                        <input
+                          type="number"
+                          placeholder="Any"
+                          value={peMax}
+                          onChange={(e) => setPeMax(e.target.value)}
+                          className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
+                        />
+                      </div>
+
+                      {/* ROE Min */}
+                      <div>
+                        <label className="block text-xs font-bold text-slate-600 uppercase mb-2">ROE Min (%)</label>
+                        <input
+                          type="number"
+                          placeholder="Any"
+                          value={roeMin}
+                          onChange={(e) => setRoeMin(e.target.value)}
+                          className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
+                        />
+                      </div>
+
+                      {/* Dividend Yield */}
+                      <div>
+                        <label className="block text-xs font-bold text-slate-600 uppercase mb-2">Div Yield Min (%)</label>
+                        <input
+                          type="number"
+                          placeholder="Any"
+                          value={divYieldMin}
+                          onChange={(e) => setDivYieldMin(e.target.value)}
+                          className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
+                        />
+                      </div>
+
+                      {/* DCF Upside */}
+                      <div>
+                        <label className="block text-xs font-bold text-slate-600 uppercase mb-2">DCF Upside Min (%)</label>
+                        <input
+                          type="number"
+                          placeholder="Any"
+                          value={upsideMin}
+                          onChange={(e) => setUpsideMin(e.target.value)}
+                          className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Quick Filter Buttons */}
+                    <div className="flex flex-wrap gap-2 pt-3 border-t border-slate-200">
+                      <span className="text-xs font-semibold text-slate-500 mr-2">Quick:</span>
+                      <button
+                        onClick={() => { setPeMax('15'); setRoeMin('15'); }}
+                        className="px-3 py-1 bg-white border border-slate-300 rounded-full text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:border-blue-400 transition-all"
+                      >
+                        Value (P/E&lt;15, ROE&gt;15%)
+                      </button>
+                      <button
+                        onClick={() => { setRoeMin('20'); setUpsideMin('10'); }}
+                        className="px-3 py-1 bg-white border border-slate-300 rounded-full text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:border-blue-400 transition-all"
+                      >
+                        Quality Growth
+                      </button>
+                      <button
+                        onClick={() => { setDivYieldMin('3'); }}
+                        className="px-3 py-1 bg-white border border-slate-300 rounded-full text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:border-blue-400 transition-all"
+                      >
+                        High Dividend (3%+)
+                      </button>
+                      <button
+                        onClick={() => { setUpsideMin('20'); }}
+                        className="px-3 py-1 bg-white border border-slate-300 rounded-full text-xs font-semibold text-slate-700 hover:bg-blue-50 hover:border-blue-400 transition-all"
+                      >
+                        Undervalued (20%+ upside)
+                      </button>
+                    </div>
+                  </div>
+                )}
 
                 {/* INSTITUTIONAL-GRADE RESULTS TABLE */}
                 <div className="bg-white rounded-xl border-2 border-slate-300 overflow-hidden shadow-lg">
@@ -880,16 +1083,72 @@ export default function NatanInstitutionalPlatform() {
                           <th className="px-3 py-3 text-left text-xs font-bold uppercase tracking-wide">Ticker</th>
                           <th className="px-3 py-3 text-left text-xs font-bold uppercase tracking-wide min-w-[180px]">Company</th>
                           <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide">Sector</th>
-                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">Price</th>
+                          <th
+                            className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide cursor-pointer hover:bg-slate-600 transition-colors select-none"
+                            onClick={() => {
+                              if (sortBy === 'price') setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
+                              else { setSortBy('price'); setSortDirection('desc'); }
+                            }}
+                          >
+                            Price {sortBy === 'price' && (sortDirection === 'desc' ? '▼' : '▲')}
+                          </th>
                           <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide bg-blue-900">Fair Value<br/>(DCF)</th>
-                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide bg-blue-900">Upside</th>
-                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">P/E</th>
-                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">P/B</th>
+                          <th
+                            className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide bg-blue-900 cursor-pointer hover:bg-blue-800 transition-colors select-none"
+                            onClick={() => {
+                              if (sortBy === 'dcf') setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
+                              else { setSortBy('dcf'); setSortDirection('desc'); }
+                            }}
+                          >
+                            Upside {sortBy === 'dcf' && (sortDirection === 'desc' ? '▼' : '▲')}
+                          </th>
+                          <th
+                            className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide cursor-pointer hover:bg-slate-600 transition-colors select-none"
+                            onClick={() => {
+                              if (sortBy === 'pe') setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
+                              else { setSortBy('pe'); setSortDirection('asc'); }
+                            }}
+                          >
+                            P/E {sortBy === 'pe' && (sortDirection === 'desc' ? '▼' : '▲')}
+                          </th>
+                          <th
+                            className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide cursor-pointer hover:bg-slate-600 transition-colors select-none"
+                            onClick={() => {
+                              if (sortBy === 'pb') setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
+                              else { setSortBy('pb'); setSortDirection('asc'); }
+                            }}
+                          >
+                            P/B {sortBy === 'pb' && (sortDirection === 'desc' ? '▼' : '▲')}
+                          </th>
                           <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">EV/EBITDA</th>
-                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">ROE</th>
-                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">YTD</th>
+                          <th
+                            className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide cursor-pointer hover:bg-slate-600 transition-colors select-none"
+                            onClick={() => {
+                              if (sortBy === 'roe') setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
+                              else { setSortBy('roe'); setSortDirection('desc'); }
+                            }}
+                          >
+                            ROE {sortBy === 'roe' && (sortDirection === 'desc' ? '▼' : '▲')}
+                          </th>
+                          <th
+                            className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide cursor-pointer hover:bg-slate-600 transition-colors select-none"
+                            onClick={() => {
+                              if (sortBy === 'ytd') setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
+                              else { setSortBy('ytd'); setSortDirection('desc'); }
+                            }}
+                          >
+                            YTD {sortBy === 'ytd' && (sortDirection === 'desc' ? '▼' : '▲')}
+                          </th>
                           <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide bg-emerald-800">Rating</th>
-                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide">Score</th>
+                          <th
+                            className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide cursor-pointer hover:bg-slate-600 transition-colors select-none"
+                            onClick={() => {
+                              if (sortBy === 'score') setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
+                              else { setSortBy('score'); setSortDirection('desc'); }
+                            }}
+                          >
+                            Score {sortBy === 'score' && (sortDirection === 'desc' ? '▼' : '▲')}
+                          </th>
                           <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide">Action</th>
                         </tr>
                       </thead>
