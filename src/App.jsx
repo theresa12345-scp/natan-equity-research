@@ -61,7 +61,7 @@ const INDONESIA_MACRO = {
 // ============================================================================
 
 // ============================================================================
-// ADVANCED MULTI-FACTOR SCORING - Best Practices from GS/JPM/MS/BlackRock
+// ADVANCED MULTI-FACTOR SCORING - Based on CFA Institute & Academic Research
 // ============================================================================
 
 const calculateNATANScore = (stock, sector, macroData) => {
@@ -642,11 +642,88 @@ export default function NatanInstitutionalPlatform() {
                   </div>
                 </div>
 
+                {/* LIVE MARKET CHARTS */}
+                <div className="bg-white rounded-xl p-6 shadow-xl border-2 border-slate-200">
+                  <div className="flex items-center gap-3 mb-6 pb-4 border-b-2 border-slate-200">
+                    <BarChart3 className="w-8 h-8 text-blue-600" />
+                    <div>
+                      <h3 className="text-2xl font-black text-slate-900">Live Market Charts</h3>
+                      <p className="text-sm text-slate-600">Real-time index performance • Powered by TradingView</p>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    {/* JCI Chart */}
+                    <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+                      <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
+                        <span className="text-xl">🇮🇩</span> JCI (Jakarta Composite Index)
+                      </h4>
+                      <div className="h-80 rounded-lg overflow-hidden">
+                        <iframe
+                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_jkse&symbol=IDX%3ACOMPOSITE&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=Asia%2FJakarta&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=natan&utm_medium=widget&utm_campaign=chart"
+                          style={{width: '100%', height: '100%', border: 'none'}}
+                          title="JCI Chart"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+
+                    {/* S&P 500 Chart */}
+                    <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+                      <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
+                        <span className="text-xl">🇺🇸</span> S&P 500 Index
+                      </h4>
+                      <div className="h-80 rounded-lg overflow-hidden">
+                        <iframe
+                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_spx&symbol=SP%3ASPX&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=natan&utm_medium=widget&utm_campaign=chart"
+                          style={{width: '100%', height: '100%', border: 'none'}}
+                          title="S&P 500 Chart"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+
+                    {/* USD/IDR Chart */}
+                    <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+                      <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
+                        <DollarSign className="w-5 h-5 text-green-600" /> USD/IDR Exchange Rate
+                      </h4>
+                      <div className="h-80 rounded-lg overflow-hidden">
+                        <iframe
+                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_usdidr&symbol=FX_IDC%3AUSDIDR&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=Asia%2FJakarta&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=natan&utm_medium=widget&utm_campaign=chart"
+                          style={{width: '100%', height: '100%', border: 'none'}}
+                          title="USD/IDR Chart"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+
+                    {/* 10Y Treasury Yield Chart */}
+                    <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+                      <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
+                        <Activity className="w-5 h-5 text-purple-600" /> US 10-Year Treasury Yield
+                      </h4>
+                      <div className="h-80 rounded-lg overflow-hidden">
+                        <iframe
+                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_us10y&symbol=TVC%3AUS10Y&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=natan&utm_medium=widget&utm_campaign=chart"
+                          style={{width: '100%', height: '100%', border: 'none'}}
+                          title="US 10Y Treasury Chart"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-slate-500 mt-4 text-center">
+                    Charts provided by TradingView • Data delayed by exchange rules • For informational purposes only
+                  </p>
+                </div>
+
                 {/* INSTITUTIONAL OUTLOOK */}
                 <div className="bg-gradient-to-r from-slate-800 to-blue-900 rounded-xl p-6 text-white shadow-2xl">
                   <h3 className="font-black text-2xl mb-4 flex items-center gap-2">
                     <Target className="w-6 h-6" />
-                    Goldman Sachs-Style Macro Outlook
+                    Market Outlook & Investment Thesis
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
@@ -716,7 +793,7 @@ export default function NatanInstitutionalPlatform() {
                   <div>
                     <h2 className="text-2xl font-bold text-slate-900 mb-1">Global Equity Screener</h2>
                     <p className="text-slate-600 text-sm">
-                      Multi-factor analysis • {ALL_STOCKS_DATA.length} securities • GS/JPM/MS methodology
+                      Multi-factor analysis • {ALL_STOCKS_DATA.length} securities • CFA/Damodaran methodology
                     </p>
                   </div>
                   <button className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
@@ -984,7 +1061,7 @@ export default function NatanInstitutionalPlatform() {
                     </div>
                   </div>
                   <p className="text-xs text-slate-500 mt-3 italic">
-                    Based on methodologies from Goldman Sachs, JP Morgan, Morgan Stanley, BlackRock, and Fidelity
+                    Based on CFA Institute curriculum, Damodaran (NYU Stern), and Rosenbaum & Pearl frameworks
                   </p>
                 </div>
               </div>
