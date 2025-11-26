@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-11-25T14:24:22.520430",
+  "timestamp": "2025-11-26T06:19:51.812137",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
+    "avg_relevance": 7.0,
     "bullish": 12,
-    "neutral": 7,
-    "bearish": 6,
-    "high_priority": 9,
+    "neutral": 12,
+    "bearish": 1,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -16,10 +16,10 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "Benzinga": 3,
     "Caixin/S&P Global": 1,
     "CNBC": 7,
-    "MarketWatch": 5
+    "The Wall Street Journal": 1,
+    "Benzinga": 7
   },
   "top_signals": [
     {
@@ -29,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,18 +99,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "ZenaTech's ZenaDrone Establishes Washington, D.C. Area Office Strengthening US Defense Revenue Opportunities and Federal Government Market Access - ZenaTech  ( NASDAQ:ZENA ) ",
-      "score": 8,
-      "source": "Benzinga",
-      "sentiment": "neutral",
-      "impact": "VANCOUVER, British Columbia, Nov. 25, 2025 ( GLOBE NEWSWIRE ) -- ZenaTech, Inc. ( NASDAQ:ZENA ) ( FSE: 49Q ) ( BMV:ZENA ) ( \"ZenaTech\" ) , a technology business solution provider specializing in AI ( Artificial Intelligence ) drone, Drone as a Service ( DaaS ) , enterprise SaaS, and Quantum ...",
-      "category": "us_monetary_policy",
-      "date": "2025-11-25 13:00",
-      "link": "https://www.benzinga.com/pressreleases/25/11/g49053550/zenatechs-zenadrone-establishes-washington-d-c-area-office-strengthening-us-defense-revenue-opport"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -119,7 +109,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,17 +119,17 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-11-25 14:24",
+      "date": "2025-11-26 06:19",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Abercrombie shares soar 18% on Hollister growth, strong earnings beat",
+      "headline": "Abercrombie shares soar 37% on Hollister growth, strong earnings beat",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
       "impact": "Abercrombie & Fitch's namesake banner is slowing down, but revenue is ramping up at Hollister, its teen-focused brand. ",
       "category": "corporate_earnings",
-      "date": "2025-11-25 14:13",
+      "date": "2025-11-25 21:44",
       "link": "https://www.cnbc.com/2025/11/25/abercrombie-fitch-anf-earnings-q3-2025.html"
     },
     {
@@ -149,18 +139,8 @@
       "sentiment": "positive",
       "impact": "Dick's Sporting Goods acquired Foot Locker for $2.4 billion. To ensure the tie-up doesn't become a drag on profits, the company is shrinking its footprint.",
       "category": "corporate_earnings",
-      "date": "2025-11-25 14:00",
+      "date": "2025-11-25 21:41",
       "link": "https://www.cnbc.com/2025/11/25/dicks-sporting-goods-dks-earnings-q3-2025.html"
-    },
-    {
-      "headline": "Wholesale inflation was fairly tame before government shutdown, but PPI might not sway the Fed",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The last piece of inflation data the Federal Reserve will see before its pivotal December meeting to debate another interest-rate cut showed just a mild increase in wholesale prices ahead of the government shutdown.",
-      "category": "us_monetary_policy",
-      "date": "2025-11-25 13:42",
-      "link": "https://www.marketwatch.com/story/wholesale-inflation-was-fairly-tame-before-government-shutdown-but-ppi-unlikely-to-sway-the-fed-efccbb04?mod=mw_rss_topstories"
     },
     {
       "headline": "Bessent says there's a 'very good chance' Trump names new Fed chair before Christmas",
@@ -173,34 +153,84 @@
       "link": "https://www.cnbc.com/2025/11/25/bessent-says-theres-a-very-good-chance-trump-names-new-fed-chair-before-christmas.html"
     },
     {
-      "headline": "Asia-Pacific markets set for recovery on revived Fed cut hopes after bruising tech losses last week",
+      "headline": "Exclusive | Fed\u2019s Daly Backs December Rate Cut, Citing Vulnerable Labor Market",
       "score": 7,
-      "source": "CNBC",
+      "source": "The Wall Street Journal",
       "sentiment": "negative",
-      "impact": "Fed funds futures are currently pricing in a more than 70% chance of a quarter percentage point cut, according to the\u00a0CME FedWatch tool.",
+      "impact": "Views of San Francisco Fed president are significant because she has rarely deviated publicly from the position of Chair Jerome Powell",
       "category": "us_monetary_policy",
-      "date": "2025-11-23 23:52",
-      "link": "https://www.cnbc.com/2025/11/24/asia-markets-today-monday-kospi-hang-seng-index-fed-rate-cut-tech-ai-trade.html"
+      "date": "2025-11-24 19:55",
+      "link": "https://www.wsj.com/economy/central-banking/feds-daly-backs-december-rate-cut-citing-vulnerable-labor-market-07a497b6"
     },
     {
-      "headline": "Multifamily housing leads CRE bid competition in October",
+      "headline": "What Sparked KALA BIO's Nearly 38% Surge Overnight? - NovaBay Pharmaceuticals  ( AMEX:NBY ) , Kala Bio  ( NASDAQ:KALA ) ",
       "score": 6,
-      "source": "CNBC",
+      "source": "Benzinga",
       "sentiment": "positive",
-      "impact": "Bidder dynamics in October saw the second-highest monthly gain over the past year, according to JLL's Global Bid Intensity Index.",
-      "category": "global_markets",
-      "date": "2025-11-25 14:18",
-      "link": "https://www.cnbc.com/2025/11/25/jll-global-bid-intensity-index-october-multifamily-housing.html"
+      "impact": "KALA BIO Inc. ( NASDAQ:KALA ) jumped 37.87% to $0.88 in after-hours trading on Tuesday. Check out the current price of KALA stock here. According to Benzinga Pro data, the stock closed the regular session at $0.64, up 3.45%.",
+      "category": "us_equities",
+      "date": "2025-11-26 05:34",
+      "link": "https://www.benzinga.com/markets/equities/25/11/49076865/what-sparked-kala-bios-nearly-38-surge-overnight"
     },
     {
-      "headline": "Kohl\u2019s stock enjoys meme-like rally as blowout earnings confirm turnaround has taken hold",
+      "headline": "Synopsys, Inc. Securities Fraud Class Action Result of Financial Issues and +34% Stock Decline - Investors may Contact Lewis Kahn, Esq, @ KSF - Synopsys  ( NASDAQ:SNPS ) ",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "Benzinga",
+      "sentiment": "neutral",
+      "impact": "NEW YORK and NEW ORLEANS, Nov. 25, 2025 ( GLOBE NEWSWIRE ) -- Kahn Swick & Foti, LLC ( \"KSF\" ) and KSF partner, former Attorney General of Louisiana, Charles C.",
+      "category": "us_equities",
+      "date": "2025-11-26 03:48",
+      "link": "https://www.benzinga.com/pressreleases/25/11/g49076387/synopsys-inc-securities-fraud-class-action-result-of-financial-issues-and-34-stock-decline-investo"
+    },
+    {
+      "headline": "Cathie Wood Makes Massive Google Stock Purchase Amid AI Chip Shakeup - Ark Loads Up On Meta, Sells Palantir And AMD Shares - Alphabet  ( NASDAQ:GOOG ) ",
+      "score": 6,
+      "source": "Benzinga",
       "sentiment": "positive",
-      "impact": "Kohl\u2019s strong results come on Michael Bender\u2019s second day as official CEO, and as discount retailers are enjoying an uptick in sales.",
-      "category": "corporate_earnings",
-      "date": "2025-11-25 13:37",
-      "link": "https://www.marketwatch.com/story/kohls-stock-enjoys-meme-like-rally-as-blowout-earnings-confirm-turnaround-has-taken-hold-9dd32cf3?mod=mw_rss_topstories"
+      "impact": "On Tuesday, Cathie Wood-led Ark Invest made significant trades. These trades were executed across multiple Ark ETFs and focused on tech as well as cryptocurrency-related companies.",
+      "category": "us_equities",
+      "date": "2025-11-26 03:47",
+      "link": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/25/11/49076385/cathie-wood-makes-massive-google-stock-purchase-amid-ai-chip-shakeup-ark-loads-up-on-m"
+    },
+    {
+      "headline": "Why Did Mobile\u2011Health Network  ( MNDR )  Stock Jump 45% In After\u2011Hours Trading? - Mobile-health Network  ( NASDAQ:MNDR ) ",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "neutral",
+      "impact": "Mobile-Health Network Solutions Inc. ( NASDAQ:MNDR ) shares surged 44.75% in after-hours trading on Tuesday, climbing to $2.75. Check out the current price of MNDR stock here.",
+      "category": "us_equities",
+      "date": "2025-11-26 03:45",
+      "link": "https://www.benzinga.com/markets/equities/25/11/49076318/why-did-mobile%E2%80%91health-network-mndr-stock-jump-45-in-after%E2%80%91hours-trading"
+    },
+    {
+      "headline": "Trump Advisor Kevin Hassett Reportedly Leading Fed Chair Race: See What Polymarket, Kalshi Bettors Are Predicting",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "neutral",
+      "impact": "White House National Economic Council Director Kevin Hassett has emerged as the leading candidate to become the next Federal Reserve Chair, according to a report published Tuesday.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-26 03:18",
+      "link": "https://www.benzinga.com/news/macro-notification/25/11/49076288/trump-advisor-kevin-hassett-reportedly-leading-fed-chair-race-see-what-polymarket-kalshi-"
+    },
+    {
+      "headline": "Leaders from FF and FX Attend the Ras Al Khaimah Investment & Business Summit to Advance EAI Mobility Strategy in the Middle East; Delivery of First FX Super One Vehicle to Andr\u00e9s Iniesta in Dubai Scheduled for November 27 - Faraday Future  ( NASDAQ:FFAI ) ",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "positive",
+      "impact": "RAS AL KHAIMAH, United Arab Emirates, Nov. 25, 2025 ( GLOBE NEWSWIRE ) -- Faraday Future Intelligent Electric Inc. ( NASDAQ:FFAI ) ( \"Faraday Future\", \"FF\" or the \"Company\" ) , a California-based global shared intelligent electric mobility ecosystem company, today announced that Faraday Future ...",
+      "category": "us_equities",
+      "date": "2025-11-26 02:36",
+      "link": "https://www.benzinga.com/pressreleases/25/11/g49076088/leaders-from-ff-and-fx-attend-the-ras-al-khaimah-investment-business-summit-to-advance-eai-mobilit"
+    },
+    {
+      "headline": "DELL, KSS, ZS, WDAY, ADSK: 5 Trending Stocks Today - Autodesk  ( NASDAQ:ADSK ) ",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "neutral",
+      "impact": "The U.S. markets closed higher, with the Nasdaq up 0.67% to 23,025.59 and the S&P 500 advancing 0.9% to 6,765.88. The Dow Jones Industrial Average climbed 1.43% to 47,112.45. These are the top stocks that gained the attention of retail traders and investors through the day:",
+      "category": "us_equities",
+      "date": "2025-11-26 01:29",
+      "link": "https://www.benzinga.com/markets/equities/25/11/49075627/dell-kohls-corp-zscaler-workday-and-autodesk-why-these-5-stocks-are-on-investors-radars-today"
     },
     {
       "headline": "Best Buy hikes sales forecast as shoppers upgrade tech, splurge on devices",
@@ -209,68 +239,38 @@
       "sentiment": "positive",
       "impact": "The consumer electronics retailer said it saw tech upgrades and strong sales of computers, gaming consoles and smartphones during the fiscal third quarter.",
       "category": "global_markets",
-      "date": "2025-11-25 13:30",
+      "date": "2025-11-25 21:43",
       "link": "https://www.cnbc.com/2025/11/25/-best-buy-bby-q3-2026-earnings-.html"
     },
     {
-      "headline": "Halper Sadeh LLC Encourages GDOT, BLFY, AXTA, GDEN Shareholders to Contact the Firm to Discuss Their Rights - Blue Foundry Bancorp  ( NASDAQ:BLFY ) , Axalta Coating Systems  ( NYSE:AXTA ) ",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "NEW YORK, Nov. 25, 2025 ( GLOBE NEWSWIRE ) -- Halper Sadeh LLC, an investor rights law firm, is investigating the following companies for potential violations of the federal securities laws and/or breaches of fiduciary duties to shareholders relating to:",
-      "category": "us_equities",
-      "date": "2025-11-25 13:13",
-      "link": "https://www.benzinga.com/pressreleases/25/11/g49053843/halper-sadeh-llc-encourages-gdot-blfy-axta-gden-shareholders-to-contact-the-firm-to-discuss-their-"
-    },
-    {
-      "headline": "Alibaba shows off its AI credentials as revenue tops expectations",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Alibaba stock spiked 5% Tuesday morning after third-quarter results impressed the market.",
-      "category": "corporate_earnings",
-      "date": "2025-11-25 13:09",
-      "link": "https://www.marketwatch.com/story/alibaba-shows-off-its-ai-credentials-as-revenue-tops-expectations-4cb47301"
-    },
-    {
-      "headline": "As Fed hawks and doves battle over rate cuts, investors need to watch these critical clues",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Stocks and bonds will react to new data on job openings, wages and labor market perceptions.",
-      "category": "us_monetary_policy",
-      "date": "2025-11-25 13:05",
-      "link": "https://www.marketwatch.com/story/as-fed-hawks-and-doves-battle-over-rate-cuts-investors-need-to-watch-these-critical-clues-f07da3a4"
-    },
-    {
-      "headline": "Fed hawks and doves are battling over December rate cuts \u2014 watch for these critical clues",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Stocks and bonds will react to new data on job openings, wages and labor market perceptions.",
-      "category": "us_monetary_policy",
-      "date": "2025-11-25 13:05",
-      "link": "https://www.marketwatch.com/story/as-fed-hawks-and-doves-battle-over-rate-cuts-investors-need-to-watch-these-critical-clues-f07da3a4?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Semtech Posts Mixed Q3 Results, Joins Zhihu, Nvidia And Other Big Stocks Moving Lower In Tuesday's Pre-Market Session - Advanced Micro Devices  ( NASDAQ:AMD ) , Coherent  ( NYSE:COHR ) ",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "negative",
-      "impact": "U.S. stock futures were lower this morning, with the Dow futures falling around 0.1% on Tuesday. Shares of Semtech Corp ( NASDAQ:SMTC ) fell sharply in pre-market trading as the company reported mixed financial results for the third quarter of fiscal 2026.",
-      "category": "us_equities",
-      "date": "2025-11-25 13:01",
-      "link": "https://www.benzinga.com/trading-ideas/movers/25/11/49053674/semtech-posts-mixed-q3-results-joins-zhihu-nvidia-and-other-big-stocks-moving-lower-in-tuesd"
-    },
-    {
-      "headline": "Abortion pill makers brace for restrictions a year after Trump's election",
+      "headline": "A third high-profile tech leader is leaving GM as part of a software-product restructuring ",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Abortion medication access, like mifepristone, is unchanged under Trump, but FDA reviews, lawsuits and state enforcement are creating risks for drugmakers.",
+      "sentiment": "neutral",
+      "impact": "GM is combining its vehicle software engineering and global product units under one organization, led by new Chief Product Officer Sterling Anderson.",
       "category": "global_markets",
-      "date": "2025-11-25 13:00",
-      "link": "https://www.cnbc.com/2025/11/25/abortion-pill-mifepristone-access-trump-fda.html"
+      "date": "2025-11-25 21:30",
+      "link": "https://www.cnbc.com/2025/11/25/gm-software-leader-baris-cetinok-leaving.html"
+    },
+    {
+      "headline": "Lopsided action in the stock market as Big Tech stumbles while retail shares rise",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2025-11-25 20:02",
+      "link": "https://www.cnbc.com/2025/11/25/lopsided-action-in-the-market-as-big-tech-stumbles-while-retail-rises.html"
+    },
+    {
+      "headline": "Bill Gates: Read these 5 books\u2014each one 'sparks your curiosity' and reveals 'how something important really works'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Bill Gates released his list of book recommendations for the 2025 holidays, including a fictional tale, a media mogul's memoir and a political bestseller.",
+      "category": "global_markets",
+      "date": "2025-11-25 18:00",
+      "link": "https://www.cnbc.com/2025/11/25/bill-gates-book-list-read-these-during-the-2025-holidays.html"
     }
   ]
 }
