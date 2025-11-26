@@ -652,15 +652,15 @@ export default function NatanInstitutionalPlatform() {
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* JCI Chart */}
                     <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
                       <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
                         <span className="text-xl">🇮🇩</span> JCI (Jakarta Composite Index)
                       </h4>
-                      <div className="h-80 rounded-lg overflow-hidden">
+                      <div className="h-72 rounded-lg overflow-hidden">
                         <iframe
-                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_jkse&symbol=IDX%3ACOMPOSITE&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=Asia%2FJakarta&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=natan&utm_medium=widget&utm_campaign=chart"
+                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_jkse&symbol=IDX%3ACOMPOSITE&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=Asia%2FJakarta&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en"
                           style={{width: '100%', height: '100%', border: 'none'}}
                           title="JCI Chart"
                           loading="lazy"
@@ -673,7 +673,7 @@ export default function NatanInstitutionalPlatform() {
                       <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
                         <span className="text-xl">🇺🇸</span> S&P 500 Index
                       </h4>
-                      <div className="h-80 rounded-lg overflow-hidden">
+                      <div className="h-72 rounded-lg overflow-hidden">
                         <iframe
                           src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_spx&symbol=FOREXCOM%3ASPXUSD&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en"
                           style={{width: '100%', height: '100%', border: 'none'}}
@@ -686,9 +686,9 @@ export default function NatanInstitutionalPlatform() {
                     {/* USD/IDR Chart */}
                     <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
                       <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
-                        <DollarSign className="w-5 h-5 text-green-600" /> USD/IDR Exchange Rate
+                        <span className="text-xl">💱</span> USD/IDR Exchange Rate
                       </h4>
-                      <div className="h-80 rounded-lg overflow-hidden">
+                      <div className="h-72 rounded-lg overflow-hidden">
                         <iframe
                           src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_usdidr&symbol=FX_IDC%3AUSDIDR&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=Asia%2FJakarta&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en"
                           style={{width: '100%', height: '100%', border: 'none'}}
@@ -698,31 +698,16 @@ export default function NatanInstitutionalPlatform() {
                       </div>
                     </div>
 
-                    {/* Indonesia 10Y Gov Bond Yield */}
+                    {/* Gold Chart */}
                     <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
                       <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
-                        <span className="text-xl">🇮🇩</span> Indonesia 10Y Government Bond
+                        <span className="text-xl">🥇</span> Gold (XAU/USD)
                       </h4>
-                      <div className="h-80 rounded-lg overflow-hidden">
+                      <div className="h-72 rounded-lg overflow-hidden">
                         <iframe
-                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_id10y&symbol=TVC%3AID10Y&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=Asia%2FJakarta&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en"
+                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_gold&symbol=OANDA%3AXAUUSD&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en"
                           style={{width: '100%', height: '100%', border: 'none'}}
-                          title="Indonesia 10Y Bond Chart"
-                          loading="lazy"
-                        />
-                      </div>
-                    </div>
-
-                    {/* US 10Y Treasury Yield Chart */}
-                    <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
-                      <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
-                        <span className="text-xl">🇺🇸</span> US 10-Year Treasury Yield
-                      </h4>
-                      <div className="h-80 rounded-lg overflow-hidden">
-                        <iframe
-                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_us10y&symbol=TVC%3AUS10Y&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en"
-                          style={{width: '100%', height: '100%', border: 'none'}}
-                          title="US 10Y Treasury Chart"
+                          title="Gold Chart"
                           loading="lazy"
                         />
                       </div>
