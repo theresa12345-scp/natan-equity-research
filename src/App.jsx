@@ -540,7 +540,7 @@ export default function NatanInstitutionalPlatform() {
             <span>•</span>
             <span className="flex items-center gap-1">
               <BarChart3 className="w-4 h-4" />
-              6-Factor Scoring
+              8-Factor Scoring
             </span>
           </div>
         </div>
