@@ -61,184 +61,239 @@ const INDONESIA_MACRO = {
 // ============================================================================
 
 // ============================================================================
-// ADVANCED MULTI-FACTOR SCORING - Based on CFA Institute & Academic Research
+// ADVANCED MULTI-FACTOR SCORING - Institutional Grade
+// Based on: CFA Institute, Damodaran, and Indonesian Market Dynamics
+// Key insight: 80-90% of Indonesian stock movement is sentiment/technical driven
 // ============================================================================
 
 const calculateNATANScore = (stock, sector, macroData) => {
   let scores = {
-    valuation: 0,      // 30 points
-    quality: 0,        // 25 points  
-    growth: 0,         // 20 points
-    financial_health: 0, // 15 points
-    momentum: 0,       // 10 points
-    macro_alignment: 0  // 5 points bonus
+    valuation: 0,        // 15 points - fundamentals less dominant in EM
+    quality: 0,          // 15 points - business quality
+    growth: 0,           // 10 points - earnings trajectory
+    financial_health: 0, // 10 points - balance sheet strength
+    technical: 0,        // 20 points - price action, momentum (HIGH WEIGHT)
+    sentiment: 0,        // 15 points - market sentiment proxy (HIGH WEIGHT)
+    liquidity: 0,        // 10 points - trading activity, institutional flow
+    analyst_coverage: 0  // 5 points - coverage breadth proxy
   };
-  
-  // 1. VALUATION (30 points) - Graham & Dodd principles
-  if (stock.PE && stock.PE > 0) {
-    if (stock.PE < 8) scores.valuation += 12;
-    else if (stock.PE < 12) scores.valuation += 10;
-    else if (stock.PE < 15) scores.valuation += 8;
-    else if (stock.PE < 20) scores.valuation += 6;
-    else if (stock.PE < 25) scores.valuation += 4;
-    else scores.valuation += 2;
+
+  // 1. VALUATION (15 points) - Graham & Dodd, but weighted lower for EM
+  if (stock.PE && stock.PE > 0 && stock.PE < 500) {
+    if (stock.PE < 8) scores.valuation += 6;
+    else if (stock.PE < 12) scores.valuation += 5;
+    else if (stock.PE < 15) scores.valuation += 4;
+    else if (stock.PE < 20) scores.valuation += 3;
+    else if (stock.PE < 30) scores.valuation += 2;
+    else scores.valuation += 1;
   }
-  
-  if (stock.PB && stock.PB > 0) {
-    if (stock.PB < 1) scores.valuation += 10;
-    else if (stock.PB < 1.5) scores.valuation += 8;
-    else if (stock.PB < 2) scores.valuation += 6;
-    else if (stock.PB < 3) scores.valuation += 4;
-    else scores.valuation += 2;
+
+  if (stock.PB && stock.PB > 0 && stock.PB < 100) {
+    if (stock.PB < 1) scores.valuation += 5;
+    else if (stock.PB < 1.5) scores.valuation += 4;
+    else if (stock.PB < 2) scores.valuation += 3;
+    else if (stock.PB < 3) scores.valuation += 2;
+    else scores.valuation += 1;
   }
-  
+
   // EV/EBITDA proxy
   if (stock["EBITDA Margin"]) {
     const evEbitdaProxy = stock.PE ? stock.PE * 0.65 : 15;
-    if (evEbitdaProxy < 6) scores.valuation += 8;
-    else if (evEbitdaProxy < 10) scores.valuation += 6;
-    else if (evEbitdaProxy < 12) scores.valuation += 4;
-    else scores.valuation += 2;
+    if (evEbitdaProxy < 6) scores.valuation += 4;
+    else if (evEbitdaProxy < 10) scores.valuation += 3;
+    else if (evEbitdaProxy < 12) scores.valuation += 2;
+    else scores.valuation += 1;
   }
-  
-  // 2. QUALITY (25 points) - Buffett/Munger quality factors
+
+  // 2. QUALITY (15 points) - Buffett/Munger quality factors
   if (stock.ROE && stock.ROE > 0) {
-    if (stock.ROE > 25) scores.quality += 10;
-    else if (stock.ROE > 20) scores.quality += 8;
-    else if (stock.ROE > 15) scores.quality += 6;
-    else if (stock.ROE > 10) scores.quality += 4;
-    else scores.quality += 2;
+    if (stock.ROE > 25) scores.quality += 6;
+    else if (stock.ROE > 20) scores.quality += 5;
+    else if (stock.ROE > 15) scores.quality += 4;
+    else if (stock.ROE > 10) scores.quality += 3;
+    else scores.quality += 1;
   }
-  
+
   if (stock["FCF Conversion"]) {
-    if (stock["FCF Conversion"] > 0.8) scores.quality += 8;
-    else if (stock["FCF Conversion"] > 0.6) scores.quality += 6;
-    else if (stock["FCF Conversion"] > 0.4) scores.quality += 4;
+    if (stock["FCF Conversion"] > 0.8) scores.quality += 5;
+    else if (stock["FCF Conversion"] > 0.6) scores.quality += 4;
+    else if (stock["FCF Conversion"] > 0.4) scores.quality += 3;
     else if (stock["FCF Conversion"] > 0.2) scores.quality += 2;
   }
-  
+
   const margin = stock["EBITDA Margin"] || stock["Gross Margin"];
   if (margin) {
-    if (margin > 40) scores.quality += 7;
-    else if (margin > 30) scores.quality += 6;
-    else if (margin > 20) scores.quality += 4;
-    else if (margin > 10) scores.quality += 2;
+    if (margin > 40) scores.quality += 4;
+    else if (margin > 30) scores.quality += 3;
+    else if (margin > 20) scores.quality += 2;
+    else if (margin > 10) scores.quality += 1;
   }
-  
-  // 3. GROWTH (20 points) - GARP methodology
+
+  // 3. GROWTH (10 points) - GARP methodology
   if (stock["Revenue Growth"] && stock["Revenue Growth"] > 0) {
-    if (stock["Revenue Growth"] > 20) scores.growth += 7;
-    else if (stock["Revenue Growth"] > 15) scores.growth += 6;
-    else if (stock["Revenue Growth"] > 10) scores.growth += 5;
-    else if (stock["Revenue Growth"] > 5) scores.growth += 3;
-    else scores.growth += 1;
+    if (stock["Revenue Growth"] > 20) scores.growth += 4;
+    else if (stock["Revenue Growth"] > 15) scores.growth += 3;
+    else if (stock["Revenue Growth"] > 10) scores.growth += 2;
+    else if (stock["Revenue Growth"] > 5) scores.growth += 1;
   }
-  
+
   if (stock["EPS Growth"] && stock["EPS Growth"] > 0) {
-    if (stock["EPS Growth"] > 25) scores.growth += 7;
-    else if (stock["EPS Growth"] > 20) scores.growth += 6;
-    else if (stock["EPS Growth"] > 15) scores.growth += 5;
-    else if (stock["EPS Growth"] > 10) scores.growth += 3;
+    if (stock["EPS Growth"] > 25) scores.growth += 4;
+    else if (stock["EPS Growth"] > 15) scores.growth += 3;
+    else if (stock["EPS Growth"] > 10) scores.growth += 2;
     else scores.growth += 1;
   }
-  
+
   if (stock["Net Income Growth"] && stock["Net Income Growth"] > 0) {
-    if (stock["Net Income Growth"] > 20) scores.growth += 6;
-    else if (stock["Net Income Growth"] > 15) scores.growth += 5;
-    else if (stock["Net Income Growth"] > 10) scores.growth += 3;
-    else if (stock["Net Income Growth"] > 5) scores.growth += 2;
+    if (stock["Net Income Growth"] > 15) scores.growth += 2;
+    else if (stock["Net Income Growth"] > 5) scores.growth += 1;
   }
-  
-  // 4. FINANCIAL HEALTH (15 points) - Altman Z-Score inspired
+
+  // 4. FINANCIAL HEALTH (10 points) - Altman Z-Score inspired
   if (stock.DE !== null && stock.DE !== undefined) {
-    if (stock.DE < 25) scores.financial_health += 6;
-    else if (stock.DE < 50) scores.financial_health += 5;
-    else if (stock.DE < 75) scores.financial_health += 4;
-    else if (stock.DE < 100) scores.financial_health += 2;
-    else scores.financial_health += 1;
+    if (stock.DE < 25) scores.financial_health += 4;
+    else if (stock.DE < 50) scores.financial_health += 3;
+    else if (stock.DE < 75) scores.financial_health += 2;
+    else if (stock.DE < 100) scores.financial_health += 1;
   }
-  
+
   if (stock["Cur Ratio"]) {
-    if (stock["Cur Ratio"] > 2.5) scores.financial_health += 5;
-    else if (stock["Cur Ratio"] > 2) scores.financial_health += 4;
-    else if (stock["Cur Ratio"] > 1.5) scores.financial_health += 3;
-    else if (stock["Cur Ratio"] > 1) scores.financial_health += 2;
+    if (stock["Cur Ratio"] > 2) scores.financial_health += 3;
+    else if (stock["Cur Ratio"] > 1.5) scores.financial_health += 2;
+    else if (stock["Cur Ratio"] > 1) scores.financial_health += 1;
   }
-  
+
   if (stock["Quick Ratio"]) {
-    if (stock["Quick Ratio"] > 1.5) scores.financial_health += 4;
-    else if (stock["Quick Ratio"] > 1.2) scores.financial_health += 3;
+    if (stock["Quick Ratio"] > 1.5) scores.financial_health += 3;
     else if (stock["Quick Ratio"] > 1) scores.financial_health += 2;
     else if (stock["Quick Ratio"] > 0.8) scores.financial_health += 1;
   }
-  
-  // 5. MOMENTUM (10 points) - Technical + sentiment
-  if (stock["Company YTD Return"] !== null) {
-    if (stock["Company YTD Return"] > 50) scores.momentum += 4;
-    else if (stock["Company YTD Return"] > 20) scores.momentum += 3;
-    else if (stock["Company YTD Return"] > 10) scores.momentum += 2;
-    else if (stock["Company YTD Return"] > 0) scores.momentum += 1;
+
+  // 5. TECHNICAL SCORE (20 points) - HIGH WEIGHT per Indonesian market dynamics
+  // Price momentum - strongest technical signal
+  const ytdReturn = stock["Company YTD Return"];
+  if (ytdReturn !== null && ytdReturn !== undefined) {
+    if (ytdReturn > 50) scores.technical += 8;
+    else if (ytdReturn > 30) scores.technical += 7;
+    else if (ytdReturn > 20) scores.technical += 6;
+    else if (ytdReturn > 10) scores.technical += 5;
+    else if (ytdReturn > 0) scores.technical += 3;
+    else if (ytdReturn > -10) scores.technical += 2;
+    else scores.technical += 0;
   }
-  
-  if (stock.Alpha) {
-    if (stock.Alpha > 1) scores.momentum += 3;
-    else if (stock.Alpha > 0.5) scores.momentum += 2;
-    else if (stock.Alpha > 0) scores.momentum += 1;
+
+  // Alpha - risk-adjusted outperformance (Jensen's Alpha)
+  if (stock.Alpha !== null && stock.Alpha !== undefined) {
+    if (stock.Alpha > 0.5) scores.technical += 6;
+    else if (stock.Alpha > 0.2) scores.technical += 5;
+    else if (stock.Alpha > 0) scores.technical += 4;
+    else if (stock.Alpha > -0.2) scores.technical += 2;
+    else scores.technical += 0;
   }
-  
-  if (stock.Beta) {
-    if (stock.Beta >= 0.7 && stock.Beta <= 1.3) scores.momentum += 3;
-    else if (stock.Beta >= 0.5 && stock.Beta <= 1.5) scores.momentum += 2;
-    else scores.momentum += 1;
+
+  // Beta - optimal range for risk-adjusted returns (0.8-1.2 ideal)
+  if (stock.Beta !== null && stock.Beta !== undefined) {
+    if (stock.Beta >= 0.8 && stock.Beta <= 1.2) scores.technical += 6;
+    else if (stock.Beta >= 0.6 && stock.Beta <= 1.4) scores.technical += 4;
+    else if (stock.Beta >= 0.4 && stock.Beta <= 1.6) scores.technical += 2;
+    else scores.technical += 1;
   }
-  
-  // 6. MACRO ALIGNMENT (5 points bonus) - Sector-specific
+
+  // 6. SENTIMENT SCORE (15 points) - Critical for Indonesian market (80-90% driver)
+  // Momentum strength as sentiment proxy
+  if (ytdReturn !== null && ytdReturn !== undefined) {
+    // Strong positive momentum = bullish sentiment
+    if (ytdReturn > 30) scores.sentiment += 6;
+    else if (ytdReturn > 15) scores.sentiment += 5;
+    else if (ytdReturn > 5) scores.sentiment += 4;
+    else if (ytdReturn > -5) scores.sentiment += 3;
+    else if (ytdReturn > -15) scores.sentiment += 2;
+    else scores.sentiment += 0;
+  }
+
+  // Alpha as sentiment confirmation (beating market = positive sentiment)
+  if (stock.Alpha !== null && stock.Alpha !== undefined) {
+    if (stock.Alpha > 0.3) scores.sentiment += 5;
+    else if (stock.Alpha > 0) scores.sentiment += 4;
+    else if (stock.Alpha > -0.2) scores.sentiment += 2;
+    else scores.sentiment += 0;
+  }
+
+  // Institutional confidence proxy (low beta + positive returns = strong hands)
+  if (stock.Beta && ytdReturn !== null) {
+    const stabilityScore = (stock.Beta < 1.2 && ytdReturn > 0) ? 4 :
+                          (stock.Beta < 1.4 && ytdReturn > -10) ? 2 : 0;
+    scores.sentiment += stabilityScore;
+  }
+
+  // 7. LIQUIDITY SCORE (10 points) - Trading activity & institutional flow
+  // Market Cap tier as liquidity proxy
+  const mcap = stock["Market Cap"] || 0;
+  const mcapUSD = stock.Region === 'Indonesia' ? mcap / 15800000000000 : mcap / 1000000000; // Normalize to billions
+
+  if (mcapUSD > 50) scores.liquidity += 5;       // Mega cap
+  else if (mcapUSD > 10) scores.liquidity += 4;  // Large cap
+  else if (mcapUSD > 2) scores.liquidity += 3;   // Mid cap
+  else if (mcapUSD > 0.3) scores.liquidity += 2; // Small cap
+  else scores.liquidity += 1;                    // Micro cap
+
+  // Index weight as institutional flow proxy (higher weight = more institutional interest)
+  if (stock.Weight !== null && stock.Weight !== undefined) {
+    if (stock.Weight > 5) scores.liquidity += 5;      // Top index constituents
+    else if (stock.Weight > 2) scores.liquidity += 4;
+    else if (stock.Weight > 1) scores.liquidity += 3;
+    else if (stock.Weight > 0.5) scores.liquidity += 2;
+    else if (stock.Weight > 0) scores.liquidity += 1;
+  }
+
+  // 8. ANALYST COVERAGE PROXY (5 points) - More coverage = more convergent view
+  // Using index weight as proxy (higher weight = more analyst coverage typically)
+  if (stock.Weight !== null && stock.Weight !== undefined) {
+    if (stock.Weight > 3) scores.analyst_coverage += 5;      // Heavy coverage
+    else if (stock.Weight > 1.5) scores.analyst_coverage += 4;
+    else if (stock.Weight > 0.5) scores.analyst_coverage += 3;
+    else if (stock.Weight > 0.1) scores.analyst_coverage += 2;
+    else scores.analyst_coverage += 1;
+  } else {
+    // US stocks without weight - use market cap as proxy
+    if (mcapUSD > 100) scores.analyst_coverage += 5;
+    else if (mcapUSD > 20) scores.analyst_coverage += 4;
+    else if (mcapUSD > 5) scores.analyst_coverage += 3;
+    else scores.analyst_coverage += 2;
+  }
+
+  // MACRO ALIGNMENT BONUS (up to 5 points) - Sector-specific tailwinds
+  let macroBonus = 0;
   if (macroData && sector) {
-    if (sector === 'Energy') {
-      // Oil price sensitivity
-      if (macroData.brentCrude && macroData.brentCrude > 70) scores.macro_alignment += 3;
-      else if (macroData.brentCrude && macroData.brentCrude > 60) scores.macro_alignment += 2;
-    }
-    
-    if (sector === 'Financial') {
-      // Interest rate environment (steeper yield curve = better for banks)
-      if (macroData.biRate && macroData.biRate > 5.5 && macroData.biRate < 7) scores.macro_alignment += 3;
-      else scores.macro_alignment += 2;
-    }
-    
-    if (sector === 'Consumer, Cyclical' || sector === 'Consumer, Non-cyclical') {
-      // GDP growth + low inflation = good for consumers
-      if (macroData.gdpGrowth > 5 && macroData.inflation < 3) scores.macro_alignment += 3;
-      else if (macroData.gdpGrowth > 4.5) scores.macro_alignment += 2;
-    }
-    
-    if (sector === 'Communications' || sector === 'Technology') {
-      // Tech benefits from growth + stable rates
-      if (macroData.gdpGrowth > 5) scores.macro_alignment += 2;
-    }
-    
-    if (sector === 'Basic Materials' || sector === 'Industrial') {
-      // Industrial production + infrastructure
-      if (macroData.pmi && macroData.pmi > 50) scores.macro_alignment += 2;
-    }
+    if (sector === 'Energy' && macroData.brentCrude > 70) macroBonus += 3;
+    if (sector === 'Financial' && macroData.biRate > 5.5 && macroData.biRate < 7) macroBonus += 3;
+    if ((sector === 'Consumer, Cyclical' || sector === 'Consumer, Non-cyclical') &&
+        macroData.gdpGrowth > 5 && macroData.inflation < 3) macroBonus += 3;
+    if ((sector === 'Communications' || sector === 'Technology') && macroData.gdpGrowth > 5) macroBonus += 2;
+    if ((sector === 'Basic Materials' || sector === 'Industrial') && macroData.pmi > 50) macroBonus += 2;
   }
-  
-  const totalScore = Math.min(105, Math.round(
-    scores.valuation + scores.quality + scores.growth + 
-    scores.financial_health + scores.momentum + scores.macro_alignment
+
+  const totalScore = Math.min(100, Math.round(
+    scores.valuation + scores.quality + scores.growth + scores.financial_health +
+    scores.technical + scores.sentiment + scores.liquidity + scores.analyst_coverage +
+    Math.min(5, macroBonus)
   ));
-  
+
   return {
     total: totalScore,
-    breakdown: scores
+    breakdown: scores,
+    technicalScore: scores.technical,
+    sentimentScore: scores.sentiment,
+    liquidityScore: scores.liquidity,
+    analystCoverage: scores.analyst_coverage
   };
 };
 
 const getScoreRating = (score) => {
-  if (score >= 85) return { rating: 'Strong Buy', stars: 5, color: 'emerald', desc: 'Exceptional', bgClass: 'bg-emerald-50', textClass: 'text-emerald-700', borderClass: 'border-emerald-200', borderColor: 'border-emerald-400' };
-  if (score >= 75) return { rating: 'Buy', stars: 4, color: 'blue', desc: 'Attractive', bgClass: 'bg-blue-50', textClass: 'text-blue-700', borderClass: 'border-blue-200', borderColor: 'border-blue-400' };
-  if (score >= 60) return { rating: 'Hold', stars: 3, color: 'slate', desc: 'Neutral', bgClass: 'bg-slate-50', textClass: 'text-slate-700', borderClass: 'border-slate-200', borderColor: 'border-slate-400' };
-  if (score >= 45) return { rating: 'Underperform', stars: 2, color: 'amber', desc: 'Caution', bgClass: 'bg-amber-50', textClass: 'text-amber-700', borderClass: 'border-amber-200', borderColor: 'border-amber-400' };
+  if (score >= 80) return { rating: 'Strong Buy', stars: 5, color: 'emerald', desc: 'Exceptional', bgClass: 'bg-emerald-50', textClass: 'text-emerald-700', borderClass: 'border-emerald-200', borderColor: 'border-emerald-400' };
+  if (score >= 70) return { rating: 'Buy', stars: 4, color: 'blue', desc: 'Attractive', bgClass: 'bg-blue-50', textClass: 'text-blue-700', borderClass: 'border-blue-200', borderColor: 'border-blue-400' };
+  if (score >= 55) return { rating: 'Hold', stars: 3, color: 'slate', desc: 'Neutral', bgClass: 'bg-slate-50', textClass: 'text-slate-700', borderClass: 'border-slate-200', borderColor: 'border-slate-400' };
+  if (score >= 40) return { rating: 'Underperform', stars: 2, color: 'amber', desc: 'Caution', bgClass: 'bg-amber-50', textClass: 'text-amber-700', borderClass: 'border-amber-200', borderColor: 'border-amber-400' };
   return { rating: 'Sell', stars: 1, color: 'red', desc: 'Avoid', bgClass: 'bg-red-50', textClass: 'text-red-700', borderClass: 'border-red-200', borderColor: 'border-red-400' };
 };
 
@@ -439,7 +494,7 @@ export default function NatanInstitutionalPlatform() {
 
   const statsData = useMemo(() => ({
     avgScore: filteredStocks.length > 0 ? (filteredStocks.reduce((sum, s) => sum + s.natanScore.total, 0) / filteredStocks.length).toFixed(1) : 0,
-    strongBuy: filteredStocks.filter(s => s.natanScore.total >= 85).length,
+    strongBuy: filteredStocks.filter(s => s.natanScore.total >= 80).length,
     showing: filteredStocks.length,
     avgDCFUpside: filteredStocks.length > 0 ? (filteredStocks.reduce((sum, s) => sum + (s.dcf?.upside || 0), 0) / filteredStocks.length).toFixed(1) : 0
   }), [filteredStocks]);
@@ -896,9 +951,9 @@ export default function NatanInstitutionalPlatform() {
                       className="w-full px-3 py-2 border-2 border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
                     >
                       <option value="0">All (0+)</option>
-                      <option value="85">Strong Buy (85+)</option>
-                      <option value="75">Buy (75+)</option>
-                      <option value="60">Hold (60+)</option>
+                      <option value="80">Strong Buy (80+)</option>
+                      <option value="70">Buy (70+)</option>
+                      <option value="55">Hold (55+)</option>
                     </select>
                   </div>
 
@@ -1225,7 +1280,7 @@ export default function NatanInstitutionalPlatform() {
                                   <span className={`text-2xl font-black ${scoreRating.textClass}`}>
                                     {stock.natanScore.total}
                                   </span>
-                                  <span className="text-xs text-slate-500 font-medium">/105</span>
+                                  <span className="text-xs text-slate-500 font-medium">/100</span>
                                 </div>
                               </td>
                               <td className="px-3 py-3 text-center">
@@ -1291,36 +1346,44 @@ export default function NatanInstitutionalPlatform() {
                 <div className="bg-slate-50 rounded-lg p-5 border border-slate-200">
                   <h4 className="font-bold text-slate-900 mb-3 flex items-center gap-2 text-sm">
                     <Award className="w-4 h-4" />
-                    NATAN Multi-Factor Scoring Framework
+                    NATAN Multi-Factor Scoring Framework (100 pts)
                   </h4>
-                  <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 text-xs">
-                    <div className="text-center">
-                      <div className="font-bold text-slate-900">30pts</div>
-                      <div className="text-slate-600">Valuation</div>
+                  <div className="grid grid-cols-4 sm:grid-cols-8 gap-2 text-xs">
+                    <div className="text-center p-2 bg-purple-50 rounded-lg border border-purple-200">
+                      <div className="font-bold text-purple-700">20pts</div>
+                      <div className="text-purple-600 font-medium">Technical</div>
                     </div>
-                    <div className="text-center">
-                      <div className="font-bold text-slate-900">25pts</div>
-                      <div className="text-slate-600">Quality</div>
+                    <div className="text-center p-2 bg-pink-50 rounded-lg border border-pink-200">
+                      <div className="font-bold text-pink-700">15pts</div>
+                      <div className="text-pink-600 font-medium">Sentiment</div>
                     </div>
-                    <div className="text-center">
-                      <div className="font-bold text-slate-900">20pts</div>
-                      <div className="text-slate-600">Growth</div>
+                    <div className="text-center p-2 bg-blue-50 rounded-lg border border-blue-200">
+                      <div className="font-bold text-blue-700">15pts</div>
+                      <div className="text-blue-600 font-medium">Valuation</div>
                     </div>
-                    <div className="text-center">
-                      <div className="font-bold text-slate-900">15pts</div>
-                      <div className="text-slate-600">Health</div>
+                    <div className="text-center p-2 bg-emerald-50 rounded-lg border border-emerald-200">
+                      <div className="font-bold text-emerald-700">15pts</div>
+                      <div className="text-emerald-600 font-medium">Quality</div>
                     </div>
-                    <div className="text-center">
-                      <div className="font-bold text-slate-900">10pts</div>
-                      <div className="text-slate-600">Momentum</div>
+                    <div className="text-center p-2 bg-amber-50 rounded-lg border border-amber-200">
+                      <div className="font-bold text-amber-700">10pts</div>
+                      <div className="text-amber-600 font-medium">Liquidity</div>
                     </div>
-                    <div className="text-center">
-                      <div className="font-bold text-slate-900">+5pts</div>
-                      <div className="text-slate-600">Macro</div>
+                    <div className="text-center p-2 bg-slate-100 rounded-lg border border-slate-300">
+                      <div className="font-bold text-slate-700">10pts</div>
+                      <div className="text-slate-600 font-medium">Growth</div>
+                    </div>
+                    <div className="text-center p-2 bg-slate-100 rounded-lg border border-slate-300">
+                      <div className="font-bold text-slate-700">10pts</div>
+                      <div className="text-slate-600 font-medium">Health</div>
+                    </div>
+                    <div className="text-center p-2 bg-cyan-50 rounded-lg border border-cyan-200">
+                      <div className="font-bold text-cyan-700">5pts</div>
+                      <div className="text-cyan-600 font-medium">Coverage</div>
                     </div>
                   </div>
                   <p className="text-xs text-slate-500 mt-3 italic">
-                    Based on CFA Institute curriculum, Damodaran (NYU Stern), and Rosenbaum & Pearl frameworks
+                    Optimized for Indonesian market dynamics (80-90% sentiment/technical driven) • CFA Institute, Damodaran, TCW methodology
                   </p>
                 </div>
               </div>
