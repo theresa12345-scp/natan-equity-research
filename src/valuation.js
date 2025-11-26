@@ -1,8 +1,8 @@
 // ============================================================================
 // NATAN INSTITUTIONAL VALUATION MODELS
 // Version 2.0 - November 2025
-// Based on: CFA Level II, Damodaran (NYU), Rosenbaum & Pearl (Investment Banking)
-// McKinsey Valuation, Goldman Sachs/Morgan Stanley methodologies
+// Based on: CFA Level II, Damodaran (NYU Stern), Rosenbaum & Pearl (IB Valuation)
+// McKinsey Valuation methodology
 // ============================================================================
 
 // ============================================================================

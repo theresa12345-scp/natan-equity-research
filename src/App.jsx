@@ -1615,8 +1615,8 @@ export default function NatanInstitutionalPlatform() {
 
         {/* Footer */}
         <div className="text-center text-slate-400 text-xs mt-8 pb-4">
-          <p>NATAN Institutional Research Platform • Built by T for AXA Mandiri Investment Team</p>
-          <p className="mt-1">Methodology: Goldman Sachs • JP Morgan • Morgan Stanley • BlackRock • Fidelity</p>
+          <p>NATAN Institutional Research Platform</p>
+          <p className="mt-1">Methodology: CFA Institute • Damodaran (NYU Stern) • Rosenbaum & Pearl</p>
           <p className="mt-1">Data Sources: BPS Statistics Indonesia • Bank Indonesia • Indonesia Stock Exchange</p>
         </div>
       </div>
