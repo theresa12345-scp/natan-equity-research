@@ -1175,7 +1175,9 @@ export default function NatanInstitutionalPlatform() {
                           >
                             P/B {sortBy === 'pb' && (sortDirection === 'desc' ? '▼' : '▲')}
                           </th>
-                          <th className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide">EV/EBITDA</th>
+                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide bg-purple-800">Tech</th>
+                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide bg-pink-800">Sent</th>
+                          <th className="px-3 py-3 text-center text-xs font-bold uppercase tracking-wide bg-amber-700">Liq</th>
                           <th
                             className="px-3 py-3 text-right text-xs font-bold uppercase tracking-wide cursor-pointer hover:bg-slate-600 transition-colors select-none"
                             onClick={() => {
@@ -1212,7 +1214,6 @@ export default function NatanInstitutionalPlatform() {
                           const scoreRating = getScoreRating(stock.natanScore.total);
                           const fairValue = stock.dcf?.fairValue || stock.Price;
                           const upside = stock.dcf?.upside || 0;
-                          const evEbitda = stock.PE ? (stock.PE * 0.65).toFixed(1) : 'N/A';
 
                           return (
                             <tr key={idx} className="hover:bg-blue-50 transition-all border-l-4 border-transparent hover:border-l-blue-500">
@@ -1250,8 +1251,34 @@ export default function NatanInstitutionalPlatform() {
                               <td className="px-3 py-3 text-right font-semibold text-slate-700">
                                 {stock.PB ? stock.PB.toFixed(1) + 'x' : 'N/A'}
                               </td>
-                              <td className="px-3 py-3 text-right font-semibold text-slate-700">
-                                {evEbitda}x
+                              <td className="px-3 py-3 text-center">
+                                <span className={`px-2 py-1 rounded text-xs font-bold ${
+                                  stock.natanScore.technicalScore >= 15 ? 'bg-purple-600 text-white' :
+                                  stock.natanScore.technicalScore >= 10 ? 'bg-purple-400 text-white' :
+                                  stock.natanScore.technicalScore >= 5 ? 'bg-purple-200 text-purple-800' :
+                                  'bg-slate-200 text-slate-600'
+                                }`}>
+                                  {stock.natanScore.technicalScore || 0}
+                                </span>
+                              </td>
+                              <td className="px-3 py-3 text-center">
+                                <span className={`px-2 py-1 rounded text-xs font-bold ${
+                                  stock.natanScore.sentimentScore >= 12 ? 'bg-pink-600 text-white' :
+                                  stock.natanScore.sentimentScore >= 8 ? 'bg-pink-400 text-white' :
+                                  stock.natanScore.sentimentScore >= 4 ? 'bg-pink-200 text-pink-800' :
+                                  'bg-slate-200 text-slate-600'
+                                }`}>
+                                  {stock.natanScore.sentimentScore || 0}
+                                </span>
+                              </td>
+                              <td className="px-3 py-3 text-center">
+                                <span className={`px-2 py-1 rounded text-xs font-bold ${
+                                  stock.natanScore.liquidityScore >= 8 ? 'bg-amber-500 text-white' :
+                                  stock.natanScore.liquidityScore >= 5 ? 'bg-amber-300 text-amber-900' :
+                                  'bg-slate-200 text-slate-600'
+                                }`}>
+                                  {stock.natanScore.liquidityScore >= 8 ? 'H' : stock.natanScore.liquidityScore >= 5 ? 'M' : 'L'}
+                                </span>
                               </td>
                               <td className="px-3 py-3 text-right font-semibold">
                                 <span className={stock.ROE > 15 ? 'text-emerald-600' : 'text-slate-700'}>
