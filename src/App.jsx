@@ -675,7 +675,7 @@ export default function NatanInstitutionalPlatform() {
                       </h4>
                       <div className="h-80 rounded-lg overflow-hidden">
                         <iframe
-                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_spx&symbol=SP%3ASPX&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=natan&utm_medium=widget&utm_campaign=chart"
+                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_spx&symbol=FOREXCOM%3ASPXUSD&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en"
                           style={{width: '100%', height: '100%', border: 'none'}}
                           title="S&P 500 Chart"
                           loading="lazy"
@@ -705,7 +705,7 @@ export default function NatanInstitutionalPlatform() {
                       </h4>
                       <div className="h-80 rounded-lg overflow-hidden">
                         <iframe
-                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_us10y&symbol=TVC%3AUS10Y&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=natan&utm_medium=widget&utm_campaign=chart"
+                          src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_us10y&symbol=CBOE%3AIRX&interval=D&hidesidetoolbar=1&symboledit=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&theme=light&style=1&timezone=America%2FNew_York&withdateranges=1&showpopupbutton=0&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en"
                           style={{width: '100%', height: '100%', border: 'none'}}
                           title="US 10Y Treasury Chart"
                           loading="lazy"
