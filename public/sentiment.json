@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-11-26T14:24:53.740775",
+  "timestamp": "2025-11-27T06:20:19.200388",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 12,
-    "neutral": 11,
+    "avg_relevance": 7.2,
+    "bullish": 13,
+    "neutral": 10,
     "bearish": 2,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,11 +16,15 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "Caixin/S&P Global": 1,
     "CNBC": 5,
-    "The Wall Street Journal": 1,
-    "MarketWatch": 3,
-    "Benzinga": 6
+    "Caixin/S&P Global": 1,
+    "GlobeNewswire": 1,
+    "Federalreserve.gov": 1,
+    "Decrypt.co": 1,
+    "Benzinga": 4,
+    "Cointelegraph": 1,
+    "Economic Times": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -30,7 +34,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +44,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +54,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +64,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +74,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +84,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +94,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +104,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Workday shares sink on subscription revenue guidance concerns",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Workday shares fell as analysts lowered their price targets for the software maker after the company revised its full-year subscription revenue forecast.",
+      "category": "corporate_earnings",
+      "date": "2025-11-26 18:25",
+      "link": "https://www.cnbc.com/2025/11/26/workday-shares-sink-on-subscription-revenue-guidance-concerns.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +124,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,8 +134,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-11-26 14:24",
+      "date": "2025-11-27 06:20",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Hydreight Reports 132% YoY Revenue Increase in Q3 2025 and Fourth Consecutive Quarter of Profitability, Highlighting Strong Multi-Vertical Performance",
+      "score": 7,
+      "source": "GlobeNewswire",
+      "sentiment": "positive",
+      "impact": "\"The quarter reflects broad growth across all verticals, expanding VSDHOne adoption, and strategic investments aimed at supporting margin improvement and 2026 objectives. We exceeded our internal metrics across all verticals, reinforcing the strength of our strategy.",
+      "category": "corporate_earnings",
+      "date": "2025-11-26 23:25",
+      "link": "https://www.globenewswire.com/news-release/2025/11/26/3195428/0/en/Hydreight-Reports-132-YoY-Revenue-Increase-in-Q3-2025-and-Fourth-Consecutive-Quarter-of-Profitability-Highlighting-Strong-Multi-Vertical-Performance.html"
+    },
+    {
+      "headline": "Students pursuing these 11 degrees will be eligible to take out up to $200,000 in federal loans under new borrowing limits",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Students pursuing professional degrees will be able to borrow up to $200,000 in federal student loans beginning in 2026.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-26 19:32",
+      "link": "https://www.cnbc.com/2025/11/26/criteria-to-be-considered-professional-degrees.html"
     },
     {
       "headline": "Abercrombie shares soar 37% on Hollister growth, strong earnings beat",
@@ -134,144 +168,114 @@
       "link": "https://www.cnbc.com/2025/11/25/abercrombie-fitch-anf-earnings-q3-2025.html"
     },
     {
-      "headline": "Abercrombie shares soar 18% on Hollister growth, strong earnings beat",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Abercrombie & Fitch's namesake banner is slowing down, but revenue is ramping up at Hollister, its teen-focused brand.",
-      "category": "corporate_earnings",
-      "date": "2025-11-25 13:00",
-      "link": "https://www.cnbc.com/2025/11/25/abercrombie-fitch-anf-earnings-q3-2025.html"
-    },
-    {
       "headline": "Dick's Sporting Goods to shutter some Foot Locker stores to protect profits",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
       "impact": "Dick's Sporting Goods acquired Foot Locker for $2.4 billion. To ensure the tie-up doesn't become a drag on profits, the company is shrinking its footprint.",
       "category": "corporate_earnings",
-      "date": "2025-11-25 12:15",
+      "date": "2025-11-25 21:41",
       "link": "https://www.cnbc.com/2025/11/25/dicks-sporting-goods-dks-earnings-q3-2025.html"
     },
     {
-      "headline": "Fed Chair Powell\u2019s Allies Provide Opening for December Rate Cut",
+      "headline": "Agencies issue final rule to modify certain regulatory capital standards",
       "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "negative",
-      "impact": "A divided committee, missing data and a whiff of stagflation leave Powell to choose between two paths\u2014each with drawbacks",
+      "source": "Federalreserve.gov",
+      "sentiment": "neutral",
+      "impact": "The federal bank regulatory agencies today jointly issued a final rule that modifies certain regulatory capital standards to reduce disincentives a banking org",
       "category": "us_monetary_policy",
-      "date": "2025-11-25 02:00",
-      "link": "https://www.wsj.com/economy/central-banking/fed-interest-rate-cut-powell-december-e9207386"
+      "date": "2025-11-25 18:31",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251125b.htm"
     },
     {
-      "headline": "Over a third of Black Friday sales aren't really discounts, study finds: 'There's some trickery happening'",
+      "headline": "Nasdaq ISE Seeks to Quadruple Trading Limits on BlackRock's Bitcoin ETF Options",
       "score": 6,
-      "source": "CNBC",
+      "source": "Decrypt.co",
       "sentiment": "neutral",
-      "impact": "Prices fluctuate all the time. A low price on a particular item may not be exclusive to Black Friday sales, experts say.",
-      "category": "global_markets",
-      "date": "2025-11-26 14:00",
-      "link": "https://www.cnbc.com/2025/11/26/how-to-find-real-deals-on-black-friday.html"
+      "impact": "The move marks a shift that would bring Bitcoin derivatives in line with major equities and deepen institutional access to the market.",
+      "category": "us_equities",
+      "date": "2025-11-27 04:21",
+      "link": "https://decrypt.co/350191/nasdaq-ise-seeks-quadruple-trading-limits-blackrocks-bitcoin-etf"
     },
     {
-      "headline": "Thanksgiving gas prices could be the lowest in years \u2014 if you adjust for inflation. But consumers are still on edge.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "As American consumers continue to fret over rising food prices, the cost of gasoline is less of a worry.",
-      "category": "global_markets",
-      "date": "2025-11-26 13:54",
-      "link": "https://www.marketwatch.com/story/thanksgiving-gas-prices-could-be-the-lowest-in-years-if-you-adjust-for-inflation-why-households-are-still-on-edge-9f294d58?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Waton Financial Limited Launches TradingWTF, a DePearl\u2122 Powered AI Trading Platform Designed to Reshape How Investors Trade - Waton Financial  ( NASDAQ:WTF ) ",
+      "headline": "Anthony Scaramucci Cheers JPMorgan's New Bitcoin-Linked Offering, Says Market Is Missing Scale Of The 'Huge' Milestone - iShares Bitcoin Trust  ( NASDAQ:IBIT ) ",
       "score": 6,
       "source": "Benzinga",
       "sentiment": "positive",
-      "impact": "HONG KONG, Nov. 26, 2025 ( GLOBE NEWSWIRE ) -- Waton Financial Limited ( NASDAQ:WTF ) , a provider of securities brokerage and financial technology services ( \"Waton\" or the \"Company\" ) , today announced the launch of \"TradingWTF,\" an investment and trading app that integrates AI capabilities ...",
+      "impact": "Anthony Scaramucci, the founder of SkyBridge Capital, highlighted on Wednesday the significance of JPMorgan Chase & Co.'s ( NYSE:JPM ) move to offer a Bitcoin ( CRYPTO: BTC ) -backed bond. In an X post, Scaramucci hailed it as a \"huge\" milestone and wondered why there hasn't been much ...",
       "category": "us_equities",
-      "date": "2025-11-26 13:30",
-      "link": "https://www.benzinga.com/pressreleases/25/11/g49081911/waton-financial-limited-launches-tradingwtf-a-depearl-powered-ai-trading-platform-designed-to-resh"
+      "date": "2025-11-27 03:42",
+      "link": "https://www.benzinga.com/crypto/cryptocurrency/25/11/49100923/anthony-scaramucci-cheers-jpmorgans-new-bitcoin-linked-offering-says-market-is-missing-scal"
     },
     {
-      "headline": "Advanced Micro Devices' Latest Meltdown Heightens Speculative Fervor For Direxion's AMUU, AMDD ETFs - Direxion Daily AMD Bear 1X Shares  ( NASDAQ:AMDD ) , Direxion Daily AMD Bull 2X Shares  ( NASDAQ:AMUU ) ",
+      "headline": "Nasdaq seeks to 'super-size' option limits for BlackRock's Bitcoin ETF",
       "score": 6,
-      "source": "Benzinga",
+      "source": "Cointelegraph",
       "sentiment": "neutral",
-      "impact": "Depending on when the inquiry is asked and to whom, Advanced Micro Devices Inc ( NASDAQ:AMD ) is either a critical player in artificial intelligence - and thus deserves a strong valuation premium - or is an overplayed enterprise that has long overstayed its welcome.",
+      "impact": "The push from the Nasdaq to increase option limits for the BlackRock Bitcoin fund shows Bitcoin markets are \"breaking out of their training wheels.\" ...",
       "category": "us_equities",
-      "date": "2025-11-26 13:20",
-      "link": "https://www.benzinga.com/etfs/specialty-etfs/25/11/49081790/advanced-micro-devices-latest-meltdown-heightens-speculative-fervor-for-direxions-amuu-amdd-e"
+      "date": "2025-11-27 03:20",
+      "link": "https://cointelegraph.com/news/nasdaq-ibit-bitcoin-etf-options-1-million"
     },
     {
-      "headline": "Netflix's Dominance Finally Encounters Serious Inquiries, Bolstering Intrigue For Direxion's NFXL, NFXS ETFs - Direxion Daily NFLX Bear 1X Shares  ( NASDAQ:NFXS ) , Direxion Daily NFLX Bull 2X Shares  ( NASDAQ:NFXL ) ",
+      "headline": "India's central bank expected to cut rates to 5.25% on December 5: Reuters poll",
       "score": 6,
-      "source": "Benzinga",
+      "source": "Economic Times",
       "sentiment": "neutral",
-      "impact": "Carrying the benchmark for modern entertainment content, Netflix Inc. ( NASDAQ:NFLX ) can arguably be referred to as the only streaming service with true global penetration. According to the company's website, its programs reach over half a billion people in more than 190 countries.",
-      "category": "us_equities",
-      "date": "2025-11-26 13:15",
-      "link": "https://www.benzinga.com/etfs/specialty-etfs/25/11/49081527/netflixs-dominance-finally-encounters-serious-inquiries-bolstering-intrigue-for-direxions-nfx"
+      "impact": "INDIA-RATES-India's central bank expected to cut rates to 5.25% on December ...",
+      "category": "global_markets",
+      "date": "2025-11-27 02:56",
+      "link": "https://cfo.economictimes.indiatimes.com/news/economy/indias-central-bank-expected-to-cut-rates-to-5-25-on-december-5-reuters-poll/125603493"
     },
     {
-      "headline": "How To Earn $500 A Month From Apple Stock - Apple  ( NASDAQ:AAPL ) ",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "neutral",
-      "impact": "Apple Inc. ( NASDAQ:AAPL ) shares reached an all-time high on Tuesday, closing at $276.97. The company recently announced plans to roll out three new iPhone models within the next three years, marking a major transformation in the history of the device.",
-      "category": "us_equities",
-      "date": "2025-11-26 13:14",
-      "link": "https://www.benzinga.com/trading-ideas/dividends/25/11/49081512/how-to-earn-500-a-month-from-apple-stock-10"
-    },
-    {
-      "headline": "Broadcom To Rally Around 13%? Here Are 10 Top Analyst Forecasts For Wednesday - Broadcom  ( NASDAQ:AVGO ) , Autodesk  ( NASDAQ:ADSK ) ",
+      "headline": "Dan Ives Calls Nvidia The 'Indisputable Rocky Balboa' Of AI And Gene Munster Agrees As The Jensen Huang-Led Tech Giant Faces Rare November Slump - Alphabet  ( NASDAQ:GOOG ) , Broadcom  ( NASDAQ:AVGO ) ",
       "score": 6,
       "source": "Benzinga",
       "sentiment": "positive",
-      "impact": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades and downgrades, please see our analyst ratings page. Keybanc cut Workday, Inc. ( NASDAQ:WDAY ) price target from $285 to $260.",
+      "impact": "Nvidia Corp. ( NASDAQ:NVDA ) might be facing fresh concerns, but analysts continue to say that it is the champion of the AI revolution.",
       "category": "us_equities",
-      "date": "2025-11-26 13:09",
-      "link": "https://www.benzinga.com/analyst-stock-ratings/price-target/25/11/49081463/broadcom-to-rally-around-13-here-are-10-top-analyst-forecasts-for-wednesday"
+      "date": "2025-11-27 02:35",
+      "link": "https://www.benzinga.com/markets/tech/25/11/49100687/dan-ives-calls-nvidia-the-indisputable-rocky-balboa-of-ai-and-gene-munster-agrees-as-the-jensen-huan"
     },
     {
-      "headline": "Why Is Li Auto Stock Falling Wednesday? - Li Auto  ( NASDAQ:LI ) ",
+      "headline": "Cathie Wood Dumps $11.6 Million Worth Of Tesla Stock: Here Is What Ark Purchased Instead - Tesla  ( NASDAQ:TSLA ) ",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "positive",
+      "impact": "On Wednesday, Cathie Wood-led Ark Invest made significant trades involving Tesla Inc. ( NASDAQ:TSLA ) , Coinbase Global Inc. ( NASDAQ:COIN ) , and Deere & Co. ( NYSE:DE ) . These trades were part of Ark's ongoing strategy to adjust its portfolio amid changing market conditions.",
+      "category": "us_equities",
+      "date": "2025-11-27 02:02",
+      "link": "https://www.benzinga.com/markets/equities/25/11/49100412/cathie-wood-dumps-11-6-million-worth-of-tesla-stock-here-is-what-ark-purchased-instead"
+    },
+    {
+      "headline": "HUTCHMED Highlights Clinical Data to be Presented at the 2025 ESMO Asia Congress and the 2025 ASH Annual Meeting - HUTCHMED  ( China )   ( NASDAQ:HCM ) ",
       "score": 6,
       "source": "Benzinga",
       "sentiment": "neutral",
-      "impact": "Li Auto Inc. ( NASDAQ:LI ) stock fell on Wednesday after the Chinese EV maker reported a steep decline in fiscal third-quarter 2025 results, weighed by lower deliveries, margin compression, and costs tied to a major vehicle recall.",
+      "impact": "HONG KONG and SHANGHAI and FLORHAM PARK, N.J., Nov. 27, 2025 ( GLOBE NEWSWIRE ) -- HUTCHMED ( China ) Limited ( \"HUTCHMED\" ) ( Nasdaq/AIM:HCM.",
       "category": "us_equities",
-      "date": "2025-11-26 13:06",
-      "link": "https://www.benzinga.com/markets/earnings/25/11/49081424/teslas-china-rival-li-auto-grapples-with-recall-impact-lower-demand"
+      "date": "2025-11-27 00:00",
+      "link": "https://www.benzinga.com/pressreleases/25/11/g49099689/hutchmed-highlights-clinical-data-to-be-presented-at-the-2025-esmo-asia-congress-and-the-2025-ash-"
     },
     {
-      "headline": "Black Friday is most popular with Gen Z, even as the holiday loses its shine, new survey finds",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A new AT&T survey found that members of Generation Z are the biggest Black Friday shoppers, while older generations shop closer to Christmas.",
-      "category": "global_markets",
-      "date": "2025-11-26 13:00",
-      "link": "https://www.cnbc.com/2025/11/26/att-holiday-shopping-survey-black-friday-gen-z.html"
-    },
-    {
-      "headline": "Mortgage rates fall sharply on expectations of a Fed rate cut. Will they keep on dropping from here?",
+      "headline": "Economy muddled along during the shutdown, the Fed found. Is another rate cut on tap?",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "Mortgage rates took a dive on Tuesday, pushing the 30-year rate to the lowest level in a month.",
+      "impact": "Just two weeks before a pivotal meeting, the Federal Reserve said the U.S. economy has been just muddling along. Few businesses are hiring,  inflation is still a sore spot and households have cut back on spending.",
       "category": "us_monetary_policy",
-      "date": "2025-11-26 12:00",
-      "link": "https://www.marketwatch.com/story/mortgage-rates-fall-sharply-on-expectations-of-a-fed-rate-cut-will-they-keep-on-dropping-from-here-18d03650"
+      "date": "2025-11-26 19:21",
+      "link": "https://www.marketwatch.com/story/the-economy-muddled-along-during-the-shutdown-the-fed-found-is-another-rate-cut-on-tap-666897d4"
     },
     {
-      "headline": "JPMorgan just one-upped the most bullish call on Wall Street for the S&P 500 next year",
+      "headline": "'Zootopia 2,' 'Wicked: For Good' lead Thanksgiving box office",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "JPMorgan has an optimistic view on U.S. stock markets next year, and AI momentum will be playing a starring role.",
-      "category": "us_equities",
-      "date": "2025-11-26 11:56",
-      "link": "https://www.marketwatch.com/story/jpmorgan-just-one-upped-the-most-bullish-call-on-wall-street-for-the-s-p-500-next-year-c6ae8ba7"
+      "impact": "Disney's \"Zootopia 2\" and Universal's \"Wicked: For Good\" are set for strong Thanksgiving box office haul, but not as big as 2024's record-breaking tally.",
+      "category": "global_markets",
+      "date": "2025-11-26 17:41",
+      "link": "https://www.cnbc.com/2025/11/26/thanksgiving-box-office-zootopia-2-wicked-for-good.html"
     }
   ]
 }
