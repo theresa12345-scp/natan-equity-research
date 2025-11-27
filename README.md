@@ -247,10 +247,8 @@ Optimizations:
 ## Author
 
 **Nathaniel Luu**
-- Investment Analyst, AXA Mandiri
-- LinkedIn: [Your LinkedIn]
-- Email: your.email@example.com
-- Portfolio: [Your Portfolio Site]
+- Investments, AXA Mandiri
+- Email: nathanielnluu@gmail.com
 
 ---
 
