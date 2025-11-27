@@ -274,7 +274,4 @@ This project is proprietary and intended for portfolio demonstration purposes.
 ## Contact
 
 For questions, collaboration, or opportunities:
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile]
-
-**Built with precision. Designed for professionals.**
+- Email: nathanielnluu@gmail.com
