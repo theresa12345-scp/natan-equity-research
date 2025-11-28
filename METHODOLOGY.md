@@ -25,7 +25,7 @@ NATAN Institutional Research Platform is a professional-grade equity screening a
 - **8-Factor scoring model** calibrated for emerging market dynamics
 
 ### Key Insight: Indonesian Market Dynamics
-Per TCW Bahana research insights, 80-90% of Indonesian stock price movement is driven by **sentiment, technicals, and momentum** rather than pure fundamentals. The NATAN scoring model reflects this reality by weighting technical and sentiment factors at 35% of total score.
+Per industry discussions, 80-90% of Indonesian stock price movement is driven by **sentiment, technicals, and momentum** rather than pure fundamentals. The NATAN scoring model reflects this reality by weighting technical and sentiment factors at 35% of total score.
 
 ---
 
