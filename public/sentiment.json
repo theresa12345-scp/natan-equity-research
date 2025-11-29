@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-11-29T06:17:44.601705",
+  "timestamp": "2025-11-29T14:20:17.079909",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 6.9,
     "bullish": 8,
-    "neutral": 14,
-    "bearish": 3,
+    "neutral": 16,
+    "bearish": 1,
     "high_priority": 8,
     "material_events": 4
   },
@@ -15,11 +15,11 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 11,
-    "Associated Press": 1,
-    "Financial Times": 2
+    "CNBC": 13,
+    "The Wall Street Journal": 1,
+    "Associated Press": 1
   },
   "top_signals": [
     {
@@ -29,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +99,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -109,7 +109,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,7 +119,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-11-29 06:17",
+      "date": "2025-11-29 14:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -213,6 +213,16 @@
       "link": "https://www.cnbc.com/2025/11/28/black-friday-shopping-retail-letdown.html"
     },
     {
+      "headline": "Exclusive | American Customers Are Madder Than Ever",
+      "score": 6,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "It has never been easier to buy stuff. But dealing with product and service problems has never felt so difficult, consumers say.",
+      "category": "us_equities",
+      "date": "2025-11-28 11:00",
+      "link": "https://www.wsj.com/articles/american-customers-are-madder-than-ever-b9de4b54"
+    },
+    {
       "headline": "Here's what to know about the federal ban threatening the market for THC-infused drinks and snacks",
       "score": 6,
       "source": "Associated Press",
@@ -223,24 +233,14 @@
       "link": "https://apnews.com/article/hemp-thc-drinks-ban-law-8d77842cb250291a178db6f9d39f8b7e"
     },
     {
-      "headline": "OpenAI partners amass $100bn debt pile to fund its ambitions",
+      "headline": "SEC investigates Jefferies over First Brands collapse, report says",
       "score": 6,
-      "source": "Financial Times",
-      "sentiment": "negative",
-      "impact": "Cloud companies and developers rely on lossmaking start-up to repay huge loans",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The FT said the SEC is looking into whether Jefferies gave investors enough information on their exposure to the failed auto business.",
       "category": "global_markets",
-      "date": "2025-11-28 05:00",
-      "link": "https://www.ft.com/content/5605d086-289e-4b5f-803b-4c13666976a5"
-    },
-    {
-      "headline": "Live Q&A: Untangling RBI's Intervention To Stabilize Sliding Indian Rupee",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Bloomberg journalists answer your questions about RBI's intervention to stabilize the Indian rupee after its biggest drop since 2022 on Friday, 28 Nov. at 10 a.m. IST / 12:30 p.m. HKT / 11:30 p.m. ET.",
-      "category": "global_markets",
-      "date": "2025-11-28 04:30",
-      "link": "https://www.bloomberg.com/sessions/2025-11-27/live-q-amp-a-untangling-rbi-s-intervention-to-stabilize-sliding-indian-rupee"
+      "date": "2025-11-27 16:40",
+      "link": "https://www.cnbc.com/2025/11/27/sec-investigates-jefferies-over-first-brands-collapse-report-says.html"
     },
     {
       "headline": "88-year-old Morgan Freeman shares the secrets to his long life and 60-year career: 'Keep getting up in the morning, keep moving'",
@@ -253,24 +253,24 @@
       "link": "https://www.cnbc.com/2025/11/27/morgan-freemans-secret-to-longevity-as-an-88-year-old-actor.html"
     },
     {
-      "headline": "Monte dei Paschi CEO under investigation for alleged market manipulation",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "negative",
-      "impact": "Luigi Lovaglio served with notice by Milan prosecutors in probe linked to Mediobanca takeover",
-      "category": "global_markets",
-      "date": "2025-11-27 15:39",
-      "link": "https://www.ft.com/content/65425da8-91ef-4a37-bc63-dd60d782e816"
-    },
-    {
-      "headline": "35-year-old American left the U.S. for the U.K., spends about $2,532 a month: 'This is where I'm supposed to be'",
+      "headline": "With Trump's tax bill set to dent giving by the wealthy, can middle-class donors make up the difference?",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Chanel Rivers moved to London in October 2024 after planning a move on and off since 2019.",
+      "impact": "Next year, some 140 million Americans will get a new tax break on donations. Experts warn it's unclear whether they will use it.",
       "category": "global_markets",
-      "date": "2025-11-27 15:00",
-      "link": "https://www.cnbc.com/2025/11/27/american-left-us-for-uk.html"
+      "date": "2025-11-27 14:00",
+      "link": "https://www.cnbc.com/2025/11/27/trump-tax-changes-middle-class-donors-giving-gap.html"
+    },
+    {
+      "headline": "TikTok-fueled K-beauty boom triggers a retail race in the U.S.",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "K-beauty has vaulted into the American mainstream, driven by TikTok and younger, more diverse shoppers. Retailers from Ulta to Walmart are racing to cash in.",
+      "category": "global_markets",
+      "date": "2025-11-27 13:00",
+      "link": "https://www.cnbc.com/2025/11/27/k-beauty-tiktok-makeup.html"
     }
   ]
 }
