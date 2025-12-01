@@ -1,5 +1,4 @@
-// NATAN INSTITUTIONAL EQUITY RESEARCH PLATFORM
-// Professional-Grade Multi-Asset Analysis System
+// NATAN EQUITY RESEARCH PLATFORM
 // DCF & Comps: CFA Level II, Damodaran (NYU), Rosenbaum & Pearl methodology
 
 import React, { useState, useMemo, useEffect } from 'react';
@@ -14,6 +13,7 @@ import {
   calculateDCF as calculateDCFNew,
   calculateComparables as calculateComparablesNew,
   calculateWACC as calculateWACCNew,
+  calculateSensitivityAnalysis,
   DCF_ASSUMPTIONS
 } from './valuation.js';
 
@@ -59,6 +59,113 @@ const INDONESIA_MACRO = {
 // 7. Comps: Sector-specific weighting (Banks: P/B, Tech: EV/EBITDA)
 // 8. Comps: Expanded peer selection (up to 8 peers, cross-region if needed)
 // ============================================================================
+
+// ============================================================================
+// NUMBER FORMATTING UTILITIES - Professional Display
+// ============================================================================
+
+/**
+ * Format large numbers with appropriate suffix (K, M, B, T)
+ * @param {number} num - The number to format
+ * @param {string} currency - 'USD' or 'IDR'
+ * @param {number} decimals - Number of decimal places (default 1)
+ * @returns {string} Formatted number string
+ */
+const formatLargeNumber = (num, currency = 'USD', decimals = 1) => {
+  if (num === null || num === undefined || isNaN(num)) return 'N/A';
+
+  const absNum = Math.abs(num);
+  const sign = num < 0 ? '-' : '';
+  const prefix = currency === 'IDR' ? 'Rp' : '$';
+
+  // For IDR (Indonesian Rupiah) - typically in trillions
+  if (currency === 'IDR') {
+    if (absNum >= 1e15) return `${sign}${prefix}${(absNum / 1e15).toFixed(decimals)}Q`; // Quadrillion
+    if (absNum >= 1e12) return `${sign}${prefix}${(absNum / 1e12).toFixed(decimals)}T`; // Trillion
+    if (absNum >= 1e9) return `${sign}${prefix}${(absNum / 1e9).toFixed(decimals)}B`;  // Billion
+    if (absNum >= 1e6) return `${sign}${prefix}${(absNum / 1e6).toFixed(decimals)}M`;  // Million
+    if (absNum >= 1e3) return `${sign}${prefix}${(absNum / 1e3).toFixed(decimals)}K`;  // Thousand
+    return `${sign}${prefix}${absNum.toLocaleString(undefined, { maximumFractionDigits: 0 })}`;
+  }
+
+  // For USD - also handle very large numbers (Indonesian data shown in USD context)
+  if (absNum >= 1e15) return `${sign}${prefix}${(absNum / 1e15).toFixed(decimals)}Q`;
+  if (absNum >= 1e12) return `${sign}${prefix}${(absNum / 1e12).toFixed(decimals)}T`;
+  if (absNum >= 1e9) return `${sign}${prefix}${(absNum / 1e9).toFixed(decimals)}B`;
+  if (absNum >= 1e6) return `${sign}${prefix}${(absNum / 1e6).toFixed(decimals)}M`;
+  if (absNum >= 1e3) return `${sign}${prefix}${(absNum / 1e3).toFixed(decimals)}K`;
+  return `${sign}${prefix}${absNum.toFixed(decimals)}`;
+};
+
+/**
+ * Format market cap with appropriate regional handling
+ * @param {number} marketCap - Market cap value
+ * @param {string} region - 'Indonesia' or 'US'
+ * @returns {string} Formatted market cap
+ */
+const formatMarketCap = (marketCap, region) => {
+  if (!marketCap) return 'N/A';
+  // Default to IDR for Indonesian market (most data)
+  const currency = region === 'US' ? 'USD' : 'IDR';
+  return formatLargeNumber(marketCap, currency, 1);
+};
+
+/**
+ * Format price with currency symbol
+ * @param {number} price - Price value
+ * @param {string} region - 'Indonesia' or 'US'
+ * @returns {string} Formatted price
+ */
+const formatPrice = (price, region) => {
+  if (price === null || price === undefined || isNaN(price)) return 'N/A';
+  // Default to IDR for Indonesian market (most data)
+  const prefix = region === 'US' ? '$' : 'Rp';
+  if (price >= 1000) {
+    return `${prefix}${price.toLocaleString(undefined, { maximumFractionDigits: 0 })}`;
+  }
+  return `${prefix}${price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+};
+
+/**
+ * Format DCF/Comps values - convert to readable format
+ * These values are in local currency units
+ * @param {number} value - The value to format
+ * @param {string} region - 'Indonesia' or 'US'
+ * @returns {string} Formatted value
+ */
+const formatValuationNumber = (value, region) => {
+  if (value === null || value === undefined || isNaN(value)) return 'N/A';
+  // Default to IDR for Indonesian market (most data)
+  const currency = region === 'US' ? 'USD' : 'IDR';
+  return formatLargeNumber(value, currency, 1);
+};
+
+/**
+ * Format percentage with sign
+ * @param {number} pct - Percentage value
+ * @param {number} decimals - Number of decimal places
+ * @returns {string} Formatted percentage
+ */
+const formatPercent = (pct, decimals = 1) => {
+  if (pct === null || pct === undefined || isNaN(pct)) return 'N/A';
+  const sign = pct > 0 ? '+' : '';
+  return `${sign}${pct.toFixed(decimals)}%`;
+};
+
+/**
+ * Format ratio (like P/E, P/B)
+ * @param {number} ratio - Ratio value
+ * @param {number} decimals - Number of decimal places
+ * @returns {string} Formatted ratio with 'x' suffix
+ */
+const formatRatio = (ratio, decimals = 1) => {
+  if (ratio === null || ratio === undefined || isNaN(ratio)) return 'N/A';
+  // Handle unreasonable ratios (data quality issues)
+  if (ratio > 10000) return 'N/A';
+  if (ratio >= 1000) return `${(ratio / 1000).toFixed(1)}Kx`;
+  if (ratio >= 100) return `${ratio.toFixed(0)}x`;
+  return `${ratio.toFixed(decimals)}x`;
+};
 
 // ============================================================================
 // ADVANCED MULTI-FACTOR SCORING - Institutional Grade
@@ -312,7 +419,7 @@ const MARKET_NEWS = [
 // MAIN COMPONENT
 // ============================================================================
 
-export default function NatanInstitutionalPlatform() {
+export default function NatanEquityResearch() {
   const [companies, setCompanies] = useState([]);
   const [newsData, setNewsData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -391,6 +498,14 @@ export default function NatanInstitutionalPlatform() {
       };
     });
   }, [companies]);
+
+  // Calculate sensitivity analysis on-demand when a stock is selected
+  // Per Wall Street Prep: "Sensitivity tables should be calculated dynamically"
+  const sensitivityAnalysis = useMemo(() => {
+    if (!selectedStock || !selectedStock.dcf) return null;
+    console.log('📊 Calculating sensitivity analysis for:', selectedStock.ticker);
+    return calculateSensitivityAnalysis(selectedStock, selectedStock.region || 'Indonesia', selectedStock.dcf);
+  }, [selectedStock]);
 
   // Market cap ranges (in millions USD for US, billions IDR for Indonesia)
   const getMarketCapRange = (filter, region) => {
@@ -505,7 +620,7 @@ export default function NatanInstitutionalPlatform() {
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center">
         <div className="text-center">
           <div className="inline-block animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-400 mb-4"></div>
-          <h2 className="text-2xl font-bold text-white mb-2">Loading NATAN Platform...</h2>
+          <h2 className="text-2xl font-bold text-white mb-2">Loading Natan Equity Research...</h2>
           <p className="text-slate-300">Loading 949 global securities</p>
         </div>
       </div>
@@ -514,18 +629,18 @@ export default function NatanInstitutionalPlatform() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
-      {/* Professional Header */}
-      <div className="bg-gradient-to-r from-slate-800 via-blue-800 to-slate-800 border-b border-slate-700 shadow-2xl">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
-          <div className="flex items-center justify-between mb-4">
+      {/* Header - Clean & Minimal per Bloomberg UX standards */}
+      <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 border-b border-slate-700 shadow-xl">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-5">
+          <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-3">
-              <Building2 className="w-8 h-8 sm:w-10 sm:h-10 text-blue-400" />
-              <div>
-                <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">NATAN INSTITUTIONAL RESEARCH</h1>
-                <p className="text-slate-300 text-sm sm:text-base mt-1">Professional-Grade Multi-Asset Equity Analysis Platform</p>
-              </div>
+              <Building2 className="w-7 h-7 sm:w-8 sm:h-8 text-blue-400" />
+              <h1 className="text-xl sm:text-2xl font-bold text-white tracking-tight">Natan Equity Research</h1>
             </div>
-            <Award className="w-8 h-8 text-yellow-400 hidden sm:block" />
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-slate-400 hidden sm:block">Indonesia & US Markets</span>
+              <Award className="w-6 h-6 text-yellow-400" />
+            </div>
           </div>
           <div className="flex items-center gap-4 text-xs sm:text-sm text-slate-400">
             <span className="flex items-center gap-1">
@@ -1216,12 +1331,10 @@ export default function NatanInstitutionalPlatform() {
                                 </span>
                               </td>
                               <td className="px-3 py-3 text-right font-bold text-slate-900">
-                                {stock.region === 'Indonesia' ? 'Rp' : '$'}
-                                {(stock.Price || 0).toLocaleString(undefined, {maximumFractionDigits: 0})}
+                                {formatPrice(stock.Price, stock.region)}
                               </td>
                               <td className="px-3 py-3 text-right font-bold bg-blue-50 text-blue-900">
-                                {stock.region === 'Indonesia' ? 'Rp' : '$'}
-                                {fairValue.toLocaleString(undefined, {maximumFractionDigits: 0})}
+                                {formatPrice(fairValue, stock.region)}
                               </td>
                               <td className="px-3 py-3 text-right font-bold bg-blue-50">
                                 <span className={`px-2 py-1 rounded font-bold text-xs ${
@@ -1235,7 +1348,7 @@ export default function NatanInstitutionalPlatform() {
                                 </span>
                               </td>
                               <td className="px-3 py-3 text-right font-semibold text-slate-700">
-                                {stock.PE ? stock.PE.toFixed(1) + 'x' : 'N/A'}
+                                {formatRatio(stock.PE)}
                               </td>
                               <td className="px-3 py-3">
                                 <div className="flex items-center justify-center gap-1">
@@ -1263,13 +1376,13 @@ export default function NatanInstitutionalPlatform() {
                                 </div>
                               </td>
                               <td className="px-3 py-3 text-right font-semibold">
-                                <span className={stock.ROE > 15 ? 'text-emerald-600' : 'text-slate-700'}>
-                                  {stock.ROE ? stock.ROE.toFixed(1) + '%' : 'N/A'}
+                                <span className={(stock.ROE || 0) > 15 ? 'text-emerald-600' : 'text-slate-700'}>
+                                  {stock.ROE ? `${stock.ROE.toFixed(1)}%` : 'N/A'}
                                 </span>
                               </td>
                               <td className="px-3 py-3 text-right font-bold">
-                                <span className={stock["Company YTD Return"] > 0 ? 'text-emerald-600' : 'text-red-600'}>
-                                  {stock["Company YTD Return"] ? `${stock["Company YTD Return"] > 0 ? '+' : ''}${stock["Company YTD Return"].toFixed(1)}%` : 'N/A'}
+                                <span className={(stock["Company YTD Return"] || 0) >= 0 ? 'text-emerald-600' : 'text-red-600'}>
+                                  {formatPercent(stock["Company YTD Return"])}
                                 </span>
                               </td>
                               <td className="px-3 py-3 bg-gradient-to-r from-emerald-50 to-emerald-100">
@@ -1449,26 +1562,25 @@ export default function NatanInstitutionalPlatform() {
                     <div>
                       <div className="text-xs text-slate-600 uppercase font-bold mb-1">Current Price</div>
                       <div className="text-2xl font-bold text-slate-900">
-                        {selectedStock.region === 'Indonesia' ? 'Rp' : '$'}
-                        {(selectedStock.Price || 0).toLocaleString()}
+                        {formatPrice(selectedStock.Price, selectedStock.region)}
                       </div>
                     </div>
                     <div>
                       <div className="text-xs text-slate-600 uppercase font-bold mb-1">Market Cap</div>
                       <div className="text-2xl font-bold text-slate-900">
-                        ${(selectedStock["Market Cap"] / (selectedStock.region === 'Indonesia' ? 1000 : 1000000)).toFixed(1)}{selectedStock.region === 'Indonesia' ? 'M' : 'B'}
+                        {formatMarketCap(selectedStock["Market Cap"], selectedStock.region)}
                       </div>
                     </div>
                     <div>
                       <div className="text-xs text-slate-600 uppercase font-bold mb-1">P/E Ratio</div>
                       <div className="text-2xl font-bold text-slate-900">
-                        {selectedStock.PE ? selectedStock.PE.toFixed(1) + 'x' : 'N/A'}
+                        {formatRatio(selectedStock.PE)}
                       </div>
                     </div>
                     <div>
                       <div className="text-xs text-slate-600 uppercase font-bold mb-1">YTD Return</div>
-                      <div className={`text-2xl font-bold ${selectedStock["Company YTD Return"] > 0 ? 'text-emerald-600' : 'text-red-600'}`}>
-                        {selectedStock["Company YTD Return"] ? `${selectedStock["Company YTD Return"] > 0 ? '+' : ''}${selectedStock["Company YTD Return"].toFixed(1)}%` : 'N/A'}
+                      <div className={`text-2xl font-bold ${(selectedStock["Company YTD Return"] || 0) >= 0 ? 'text-emerald-600' : 'text-red-600'}`}>
+                        {formatPercent(selectedStock["Company YTD Return"])}
                       </div>
                     </div>
                   </div>
@@ -1485,23 +1597,21 @@ export default function NatanInstitutionalPlatform() {
                     <div className="bg-white rounded-lg p-5 border-2 border-blue-200 shadow-sm">
                       <div className="text-xs text-slate-600 uppercase font-bold mb-2">Current Price</div>
                       <div className="text-3xl font-bold text-slate-900">
-                        {selectedStock.region === 'Indonesia' ? 'Rp' : '$'}
-                        {(selectedStock.Price || 0).toLocaleString(undefined, {maximumFractionDigits: 0})}
+                        {formatPrice(selectedStock.Price, selectedStock.region)}
                       </div>
                     </div>
 
                     <div className="bg-white rounded-lg p-5 border-2 border-blue-200 shadow-sm">
                       <div className="text-xs text-slate-600 uppercase font-bold mb-2">Fair Value (DCF)</div>
                       <div className="text-3xl font-bold text-blue-900">
-                        {selectedStock.region === 'Indonesia' ? 'Rp' : '$'}
-                        {(selectedStock.dcf?.fairValue || 0).toLocaleString(undefined, {maximumFractionDigits: 0})}
+                        {formatPrice(selectedStock.dcf?.fairValue, selectedStock.region)}
                       </div>
                     </div>
 
                     <div className="bg-white rounded-lg p-5 border-2 border-blue-200 shadow-sm">
                       <div className="text-xs text-slate-600 uppercase font-bold mb-2">Upside/Downside</div>
-                      <div className={`text-3xl font-bold ${selectedStock.dcf?.upside > 0 ? 'text-emerald-600' : 'text-red-600'}`}>
-                        {selectedStock.dcf?.upside > 0 ? '+' : ''}{(selectedStock.dcf?.upside || 0).toFixed(1)}%
+                      <div className={`text-3xl font-bold ${(selectedStock.dcf?.upside || 0) >= 0 ? 'text-emerald-600' : 'text-red-600'}`}>
+                        {formatPercent(selectedStock.dcf?.upside)}
                       </div>
                     </div>
                   </div>
@@ -1539,7 +1649,7 @@ export default function NatanInstitutionalPlatform() {
                     <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                       <div className="text-xs text-slate-600 mb-1 font-bold">WACC</div>
                       <div className="text-xl font-bold text-slate-900">
-                        {selectedStock.dcf?.wacc ? selectedStock.dcf.wacc.toFixed(2) : 'N/A'}%
+                        {selectedStock.dcf?.wacc ? `${selectedStock.dcf.wacc.toFixed(1)}%` : 'N/A'}
                       </div>
                       <div className="text-xs text-slate-500 mt-1">Discount Rate</div>
                     </div>
@@ -1553,14 +1663,14 @@ export default function NatanInstitutionalPlatform() {
                     <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                       <div className="text-xs text-slate-600 mb-1 font-bold">PV of FCFs</div>
                       <div className="text-xl font-bold text-slate-900">
-                        ${selectedStock.dcf?.pvFCF ? selectedStock.dcf.pvFCF.toFixed(0) : 'N/A'}M
+                        {formatValuationNumber(selectedStock.dcf?.pvFCF, selectedStock.region)}
                       </div>
                       <div className="text-xs text-slate-500 mt-1">5-Year Total</div>
                     </div>
                     <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                       <div className="text-xs text-slate-600 mb-1 font-bold">Terminal Value</div>
                       <div className="text-xl font-bold text-slate-900">
-                        ${(selectedStock.dcf?.terminalValue || 0).toFixed(0)}M
+                        {formatValuationNumber(selectedStock.dcf?.terminalValue, selectedStock.region)}
                       </div>
                       <div className="text-xs text-slate-500 mt-1">Discounted</div>
                     </div>
@@ -1582,21 +1692,21 @@ export default function NatanInstitutionalPlatform() {
                       </thead>
                       <tbody>
                         <tr className="border-b border-slate-100">
-                          <td className="px-4 py-3 font-semibold">FCF ($M)</td>
-                          {selectedStock.dcf.projectedFCFs.map((fcf, i) => (
-                            <td key={i} className="px-4 py-3 text-right">{fcf?.toFixed(1) || 'N/A'}</td>
+                          <td className="px-4 py-3 font-semibold">FCF</td>
+                          {selectedStock.dcf.projectedFCFs.slice(0, 5).map((fcf, i) => (
+                            <td key={i} className="px-4 py-3 text-right">{formatValuationNumber(fcf, selectedStock.region)}</td>
                           ))}
                         </tr>
                         <tr className="border-b border-slate-100">
                           <td className="px-4 py-3 font-semibold">Growth Rate</td>
-                          {(selectedStock.dcf.fcfGrowthRates || [0,0,0,0,0]).map((rate, i) => (
-                            <td key={i} className="px-4 py-3 text-right text-slate-600">{rate?.toFixed(1) || 0}%</td>
+                          {(selectedStock.dcf.growthRates || [0,0,0,0,0]).slice(0, 5).map((rate, i) => (
+                            <td key={i} className="px-4 py-3 text-right text-slate-600">{rate != null ? `${rate.toFixed(1)}%` : 'N/A'}</td>
                           ))}
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 font-semibold">PV of FCF ($M)</td>
-                          {(selectedStock.dcf.discountedFCFs || [0,0,0,0,0]).map((fcf, i) => (
-                            <td key={i} className="px-4 py-3 text-right font-bold text-blue-600">{fcf?.toFixed(1) || 'N/A'}</td>
+                          <td className="px-4 py-3 font-semibold">PV of FCF</td>
+                          {(selectedStock.dcf.discountedFCFs || [0,0,0,0,0]).slice(0, 5).map((fcf, i) => (
+                            <td key={i} className="px-4 py-3 text-right font-bold text-blue-600">{formatValuationNumber(fcf, selectedStock.region)}</td>
                           ))}
                         </tr>
                       </tbody>
@@ -1608,6 +1718,225 @@ export default function NatanInstitutionalPlatform() {
                     </div>
                   )}
                 </div>
+
+                {/* SENSITIVITY ANALYSIS TABLE - Investment Banking Standard */}
+                {sensitivityAnalysis && (
+                <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
+                  <div className="flex items-center justify-between mb-5">
+                    <div>
+                      <h4 className="font-bold text-slate-900 text-lg">Sensitivity Analysis</h4>
+                      <p className="text-xs text-slate-500 mt-1">WACC vs Terminal Growth Rate (Fair Value per Share)</p>
+                    </div>
+                    <div className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
+                      sensitivityAnalysis.recommendationColor === 'emerald' ? 'bg-emerald-100 text-emerald-700' :
+                      sensitivityAnalysis.recommendationColor === 'green' ? 'bg-green-100 text-green-700' :
+                      sensitivityAnalysis.recommendationColor === 'amber' ? 'bg-amber-100 text-amber-700' :
+                      sensitivityAnalysis.recommendationColor === 'orange' ? 'bg-orange-100 text-orange-700' :
+                      'bg-red-100 text-red-700'
+                    }`}>
+                      {sensitivityAnalysis.recommendation}
+                    </div>
+                  </div>
+
+                  {/* Sensitivity Matrix Table */}
+                  <div className="overflow-x-auto mb-6">
+                    <table className="w-full text-sm border-collapse">
+                      <thead>
+                        <tr>
+                          <th className="p-2 text-xs font-bold text-slate-500 border border-slate-200 bg-slate-50" rowSpan="2">
+                            WACC
+                          </th>
+                          <th className="p-2 text-xs font-bold text-slate-500 border border-slate-200 bg-slate-50 text-center" colSpan={sensitivityAnalysis.growthValues.length}>
+                            Terminal Growth Rate
+                          </th>
+                        </tr>
+                        <tr>
+                          {sensitivityAnalysis.growthValues.map((g, i) => (
+                            <th key={i} className={`p-2 text-xs font-bold border border-slate-200 text-center ${
+                              Math.abs(g - sensitivityAnalysis.baseTerminalGrowth) < 0.01
+                                ? 'bg-blue-100 text-blue-800'
+                                : 'bg-slate-50 text-slate-600'
+                            }`}>
+                              {g.toFixed(2)}%
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {sensitivityAnalysis.matrix.map((row, rowIdx) => (
+                          <tr key={rowIdx}>
+                            <td className={`p-2 text-xs font-bold border border-slate-200 text-center ${
+                              Math.abs(sensitivityAnalysis.waccValues[rowIdx] - sensitivityAnalysis.baseWACC) < 0.01
+                                ? 'bg-blue-100 text-blue-800'
+                                : 'bg-slate-50 text-slate-600'
+                            }`}>
+                              {sensitivityAnalysis.waccValues[rowIdx].toFixed(1)}%
+                            </td>
+                            {row.map((cell, colIdx) => {
+                              // Professional color coding based on upside (more granular)
+                              // Per IB standards: green gradient for upside, red for downside
+                              let bgColor, textColor, borderColor;
+                              if (cell.isInvalid || cell.fairValue === null) {
+                                bgColor = 'bg-slate-200';
+                                textColor = 'text-slate-500';
+                                borderColor = 'border-slate-300';
+                              } else if (cell.isBaseCase) {
+                                bgColor = 'bg-blue-600';
+                                textColor = 'text-white';
+                                borderColor = 'border-blue-700 border-2';
+                              } else if (cell.upside >= 200) {
+                                bgColor = 'bg-emerald-700';
+                                textColor = 'text-white';
+                                borderColor = 'border-emerald-800';
+                              } else if (cell.upside >= 150) {
+                                bgColor = 'bg-emerald-600';
+                                textColor = 'text-white';
+                                borderColor = 'border-emerald-700';
+                              } else if (cell.upside >= 100) {
+                                bgColor = 'bg-emerald-500';
+                                textColor = 'text-white';
+                                borderColor = 'border-emerald-600';
+                              } else if (cell.upside >= 50) {
+                                bgColor = 'bg-emerald-400';
+                                textColor = 'text-white';
+                                borderColor = 'border-emerald-500';
+                              } else if (cell.upside >= 25) {
+                                bgColor = 'bg-emerald-300';
+                                textColor = 'text-emerald-900';
+                                borderColor = 'border-emerald-400';
+                              } else if (cell.upside >= 0) {
+                                bgColor = 'bg-emerald-100';
+                                textColor = 'text-emerald-800';
+                                borderColor = 'border-emerald-200';
+                              } else if (cell.upside >= -25) {
+                                bgColor = 'bg-amber-100';
+                                textColor = 'text-amber-800';
+                                borderColor = 'border-amber-200';
+                              } else if (cell.upside >= -50) {
+                                bgColor = 'bg-orange-200';
+                                textColor = 'text-orange-900';
+                                borderColor = 'border-orange-300';
+                              } else {
+                                bgColor = 'bg-red-300';
+                                textColor = 'text-red-900';
+                                borderColor = 'border-red-400';
+                              }
+
+                              return (
+                                <td key={colIdx} className={`p-1.5 text-center border ${borderColor} ${bgColor} ${textColor} transition-all hover:opacity-80`}>
+                                  {cell.isInvalid || cell.fairValue === null ? (
+                                    <span className="text-xs font-medium">N/A</span>
+                                  ) : (
+                                    <div className="flex flex-col leading-tight">
+                                      <span className={`text-xs font-bold ${cell.isBaseCase ? 'underline' : ''}`}>
+                                        {formatPrice(cell.fairValue, selectedStock.region)}
+                                      </span>
+                                      <span className={`text-[10px] font-medium ${cell.isBaseCase ? 'text-blue-200' : 'opacity-90'}`}>
+                                        {cell.upside > 0 ? '+' : ''}{cell.upside.toFixed(0)}%
+                                      </span>
+                                    </div>
+                                  )}
+                                </td>
+                              );
+                            })}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+
+                  {/* Valuation Range Summary */}
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-4">
+                    <div className="bg-slate-50 rounded-lg p-3 border border-slate-200">
+                      <div className="text-xs text-slate-500 font-medium mb-1">Min Fair Value</div>
+                      <div className="text-lg font-bold text-red-600">
+                        {formatPrice(sensitivityAnalysis.valuationRange.min, selectedStock.region)}
+                      </div>
+                      <div className="text-xs text-slate-500">
+                        {sensitivityAnalysis.upsideRange.min > 0 ? '+' : ''}{sensitivityAnalysis.upsideRange.min}%
+                      </div>
+                    </div>
+                    <div className="bg-blue-50 rounded-lg p-3 border border-blue-200">
+                      <div className="text-xs text-blue-600 font-medium mb-1">Base Case</div>
+                      <div className="text-lg font-bold text-blue-700">
+                        {formatPrice(sensitivityAnalysis.valuationRange.baseCase, selectedStock.region)}
+                      </div>
+                      <div className="text-xs text-blue-600">
+                        {sensitivityAnalysis.upsideRange.baseCase > 0 ? '+' : ''}{sensitivityAnalysis.upsideRange.baseCase}%
+                      </div>
+                    </div>
+                    <div className="bg-slate-50 rounded-lg p-3 border border-slate-200">
+                      <div className="text-xs text-slate-500 font-medium mb-1">Max Fair Value</div>
+                      <div className="text-lg font-bold text-emerald-600">
+                        {formatPrice(sensitivityAnalysis.valuationRange.max, selectedStock.region)}
+                      </div>
+                      <div className="text-xs text-slate-500">
+                        {sensitivityAnalysis.upsideRange.max > 0 ? '+' : ''}{sensitivityAnalysis.upsideRange.max}%
+                      </div>
+                    </div>
+                    <div className="bg-slate-50 rounded-lg p-3 border border-slate-200">
+                      <div className="text-xs text-slate-500 font-medium mb-1">Valuation Spread</div>
+                      <div className="text-lg font-bold text-slate-700">
+                        {sensitivityAnalysis.valuationRange.rangePercent}%
+                      </div>
+                      <div className="text-xs text-slate-500">Range vs Current</div>
+                    </div>
+                  </div>
+
+                  {/* Football Field Visualization */}
+                  <div className="bg-gradient-to-r from-red-50 via-amber-50 to-emerald-50 rounded-lg p-4 border border-slate-200">
+                    <div className="text-xs font-bold text-slate-600 mb-3">VALUATION RANGE (Football Field)</div>
+                    <div className="relative h-8 bg-gradient-to-r from-red-200 via-amber-200 to-emerald-200 rounded-full overflow-hidden">
+                      {/* Current Price Marker */}
+                      <div
+                        className="absolute top-0 bottom-0 w-1 bg-slate-800 z-10"
+                        style={{
+                          left: `${Math.max(0, Math.min(100,
+                            ((sensitivityAnalysis.currentPrice - sensitivityAnalysis.valuationRange.min) /
+                            (sensitivityAnalysis.valuationRange.max - sensitivityAnalysis.valuationRange.min)) * 100
+                          ))}%`
+                        }}
+                        title={`Current: ${formatPrice(sensitivityAnalysis.currentPrice, selectedStock.region)}`}
+                      >
+                        <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 text-[10px] font-bold text-slate-700 whitespace-nowrap">
+                          Current
+                        </div>
+                      </div>
+                      {/* Base Case Marker */}
+                      <div
+                        className="absolute top-0 bottom-0 w-2 bg-blue-600 rounded z-20"
+                        style={{
+                          left: `${Math.max(0, Math.min(100,
+                            ((sensitivityAnalysis.valuationRange.baseCase - sensitivityAnalysis.valuationRange.min) /
+                            (sensitivityAnalysis.valuationRange.max - sensitivityAnalysis.valuationRange.min)) * 100
+                          ))}%`
+                        }}
+                        title={`Base: ${formatPrice(sensitivityAnalysis.valuationRange.baseCase, selectedStock.region)}`}
+                      >
+                        <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 text-[10px] font-bold text-blue-700 whitespace-nowrap">
+                          Base
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex justify-between mt-2 text-xs text-slate-600">
+                      <span>{formatPrice(sensitivityAnalysis.valuationRange.min, selectedStock.region)}</span>
+                      <span className="font-bold text-blue-700">
+                        {formatPrice(sensitivityAnalysis.valuationRange.baseCase, selectedStock.region)}
+                      </span>
+                      <span>{formatPrice(sensitivityAnalysis.valuationRange.max, selectedStock.region)}</span>
+                    </div>
+                  </div>
+
+                  {/* Methodology Note */}
+                  <div className="mt-4 text-xs text-slate-500 flex items-start gap-2">
+                    <Info className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-semibold">Methodology:</span> {sensitivityAnalysis.methodology}.
+                      <span className="text-slate-400 ml-1">{sensitivityAnalysis.note}</span>
+                    </div>
+                  </div>
+                </div>
+                )}
 
                 {/* Score Breakdown */}
                 <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
@@ -1713,23 +2042,21 @@ export default function NatanInstitutionalPlatform() {
                     <div className="bg-white rounded-lg p-5 border-2 border-purple-200 shadow-sm">
                       <div className="text-xs text-slate-600 uppercase font-bold mb-2">Current Price</div>
                       <div className="text-3xl font-bold text-slate-900">
-                        {selectedStock.region === 'Indonesia' ? 'Rp' : '$'}
-                        {(selectedStock.Price || 0).toLocaleString()}
+                        {formatPrice(selectedStock.Price, selectedStock.region)}
                       </div>
                     </div>
 
                     <div className="bg-white rounded-lg p-5 border-2 border-purple-200 shadow-sm">
                       <div className="text-xs text-slate-600 uppercase font-bold mb-2">Implied Value (Comps)</div>
                       <div className="text-3xl font-bold text-purple-900">
-                        {selectedStock.region === 'Indonesia' ? 'Rp' : '$'}
-                        {(selectedStock.comps.avgImpliedValue || 0).toLocaleString(undefined, {maximumFractionDigits: 0})}
+                        {formatPrice(selectedStock.comps.avgImpliedValue, selectedStock.region)}
                       </div>
                     </div>
 
                     <div className="bg-white rounded-lg p-5 border-2 border-purple-200 shadow-sm">
                       <div className="text-xs text-slate-600 uppercase font-bold mb-2">Upside/Downside</div>
-                      <div className={`text-3xl font-bold ${selectedStock.comps.upside > 0 ? 'text-emerald-600' : 'text-red-600'}`}>
-                        {selectedStock.comps.upside > 0 ? '+' : ''}{selectedStock.comps.upside.toFixed(1)}%
+                      <div className={`text-3xl font-bold ${(selectedStock.comps.upside || 0) >= 0 ? 'text-emerald-600' : 'text-red-600'}`}>
+                        {formatPercent(selectedStock.comps.upside)}
                       </div>
                     </div>
                   </div>
@@ -1752,27 +2079,27 @@ export default function NatanInstitutionalPlatform() {
                       <tbody>
                         <tr className="bg-blue-50 font-bold border-b-2 border-blue-200">
                           <td className="px-4 py-3">{selectedStock.ticker} (Target)</td>
-                          <td className="px-4 py-3 text-right">{selectedStock.PE ? selectedStock.PE.toFixed(1) + 'x' : 'N/A'}</td>
-                          <td className="px-4 py-3 text-right">{selectedStock.PB ? selectedStock.PB.toFixed(1) + 'x' : 'N/A'}</td>
-                          <td className="px-4 py-3 text-right">{selectedStock.ROE ? selectedStock.ROE.toFixed(1) + '%' : 'N/A'}</td>
-                          <td className="px-4 py-3 text-right">${(selectedStock["Market Cap"] / 1000).toFixed(0)}M</td>
+                          <td className="px-4 py-3 text-right">{formatRatio(selectedStock.PE)}</td>
+                          <td className="px-4 py-3 text-right">{formatRatio(selectedStock.PB)}</td>
+                          <td className="px-4 py-3 text-right">{selectedStock.ROE ? `${selectedStock.ROE.toFixed(1)}%` : 'N/A'}</td>
+                          <td className="px-4 py-3 text-right">{formatMarketCap(selectedStock["Market Cap"], selectedStock.region)}</td>
                         </tr>
                         {selectedStock.comps.peers.map((peer, idx) => (
                           <tr key={idx} className="border-b border-slate-100 hover:bg-slate-50">
                             <td className="px-4 py-3">{peer.ticker}</td>
-                            <td className="px-4 py-3 text-right">{peer.PE ? peer.PE.toFixed(1) + 'x' : 'N/A'}</td>
-                            <td className="px-4 py-3 text-right">{peer.PB ? peer.PB.toFixed(1) + 'x' : 'N/A'}</td>
-                            <td className="px-4 py-3 text-right">{peer.ROE ? peer.ROE.toFixed(1) + '%' : 'N/A'}</td>
-                            <td className="px-4 py-3 text-right">${(peer["Market Cap"] / 1000).toFixed(0)}M</td>
+                            <td className="px-4 py-3 text-right">{formatRatio(peer.pe)}</td>
+                            <td className="px-4 py-3 text-right">{formatRatio(peer.pb)}</td>
+                            <td className="px-4 py-3 text-right">{peer.revenueGrowth ? `${peer.revenueGrowth.toFixed(1)}%` : 'N/A'}</td>
+                            <td className="px-4 py-3 text-right">{formatMarketCap(peer.marketCap, selectedStock.region)}</td>
                           </tr>
                         ))}
                         <tr className="bg-purple-50 font-bold border-t-2 border-purple-300">
                           <td className="px-4 py-3">Peer Median</td>
                           <td className="px-4 py-3 text-right text-purple-600">
-                            {selectedStock.comps.medianPE ? selectedStock.comps.medianPE.toFixed(1) + 'x' : 'N/A'}
+                            {formatRatio(selectedStock.comps.medianPE)}
                           </td>
                           <td className="px-4 py-3 text-right text-purple-600">
-                            {selectedStock.comps.medianPB ? selectedStock.comps.medianPB.toFixed(1) + 'x' : 'N/A'}
+                            {formatRatio(selectedStock.comps.medianPB)}
                           </td>
                           <td className="px-4 py-3 text-right">-</td>
                           <td className="px-4 py-3 text-right">-</td>
@@ -1799,34 +2126,30 @@ export default function NatanInstitutionalPlatform() {
                         <tr className="border-b border-slate-100">
                           <td className="px-4 py-3 font-semibold">DCF Analysis</td>
                           <td className="px-4 py-3 text-right font-bold">
-                            {selectedStock.region === 'Indonesia' ? 'Rp' : '$'}
-                            {(selectedStock.dcf?.fairValue || 0).toLocaleString(undefined, {maximumFractionDigits: 0})}
+                            {formatPrice(selectedStock.dcf?.fairValue, selectedStock.region)}
                           </td>
-                          <td className={`px-4 py-3 text-right font-bold ${selectedStock.dcf?.upside > 0 ? 'text-emerald-600' : 'text-red-600'}`}>
-                            {selectedStock.dcf?.upside > 0 ? '+' : ''}{(selectedStock.dcf?.upside || 0).toFixed(1)}%
+                          <td className={`px-4 py-3 text-right font-bold ${(selectedStock.dcf?.upside || 0) >= 0 ? 'text-emerald-600' : 'text-red-600'}`}>
+                            {formatPercent(selectedStock.dcf?.upside)}
                           </td>
                           <td className="px-4 py-3 text-sm">Intrinsic value based on cash flows</td>
                         </tr>
                         <tr className="border-b border-slate-100">
                           <td className="px-4 py-3 font-semibold">Comparable Analysis</td>
                           <td className="px-4 py-3 text-right font-bold">
-                            {selectedStock.region === 'Indonesia' ? 'Rp' : '$'}
-                            {(selectedStock.comps.avgImpliedValue || 0).toLocaleString(undefined, {maximumFractionDigits: 0})}
+                            {formatPrice(selectedStock.comps.avgImpliedValue, selectedStock.region)}
                           </td>
-                          <td className={`px-4 py-3 text-right font-bold ${selectedStock.comps.upside > 0 ? 'text-emerald-600' : 'text-red-600'}`}>
-                            {selectedStock.comps.upside > 0 ? '+' : ''}{selectedStock.comps.upside.toFixed(1)}%
+                          <td className={`px-4 py-3 text-right font-bold ${(selectedStock.comps.upside || 0) >= 0 ? 'text-emerald-600' : 'text-red-600'}`}>
+                            {formatPercent(selectedStock.comps.upside)}
                           </td>
                           <td className="px-4 py-3 text-sm">Relative valuation vs {selectedStock.comps.peerCount} peers</td>
                         </tr>
                         <tr className="bg-blue-50 font-bold border-t-2 border-slate-300">
                           <td className="px-4 py-3">Average Fair Value</td>
                           <td className="px-4 py-3 text-right text-blue-900">
-                            {selectedStock.region === 'Indonesia' ? 'Rp' : '$'}
-                            {((selectedStock.dcf?.fairValue + selectedStock.comps.avgImpliedValue) / 2).toLocaleString(undefined, {maximumFractionDigits: 0})}
+                            {formatPrice(((selectedStock.dcf?.fairValue || 0) + (selectedStock.comps.avgImpliedValue || 0)) / 2, selectedStock.region)}
                           </td>
-                          <td className={`px-4 py-3 text-right ${((selectedStock.dcf?.upside + selectedStock.comps.upside) / 2) > 0 ? 'text-emerald-600' : 'text-red-600'}`}>
-                            {((selectedStock.dcf?.upside + selectedStock.comps.upside) / 2) > 0 ? '+' : ''}
-                            {((selectedStock.dcf?.upside + selectedStock.comps.upside) / 2).toFixed(1)}%
+                          <td className={`px-4 py-3 text-right ${(((selectedStock.dcf?.upside || 0) + (selectedStock.comps.upside || 0)) / 2) >= 0 ? 'text-emerald-600' : 'text-red-600'}`}>
+                            {formatPercent(((selectedStock.dcf?.upside || 0) + (selectedStock.comps.upside || 0)) / 2)}
                           </td>
                           <td className="px-4 py-3 text-blue-700 text-sm font-semibold">Blended valuation estimate</td>
                         </tr>
@@ -2031,7 +2354,7 @@ export default function NatanInstitutionalPlatform() {
 
         {/* Footer */}
         <div className="text-center text-slate-400 text-xs mt-8 pb-4">
-          <p>NATAN Institutional Research Platform</p>
+          <p>Natan Equity Research Platform</p>
           <p className="mt-1">Methodology: CFA Institute • Damodaran (NYU Stern) • Rosenbaum & Pearl</p>
           <p className="mt-1">Data Sources: BPS Statistics Indonesia • Bank Indonesia • Indonesia Stock Exchange</p>
         </div>

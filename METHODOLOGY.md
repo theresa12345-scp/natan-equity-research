@@ -1,31 +1,116 @@
-# NATAN Institutional Equity Research Platform
-## Valuation & Scoring Methodology Documentation
+# Natan Equity Research Platform
 
-**Version 2.0 | November 2025**
+## Technical Architecture & Valuation Methodology
+
+**Version 2.1 | November 2025**
 
 ---
 
 ## Table of Contents
 1. [Platform Overview](#platform-overview)
-2. [8-Factor Scoring Model](#8-factor-scoring-model)
-3. [DCF Valuation Model](#dcf-valuation-model)
-4. [Comparable Company Analysis](#comparable-company-analysis)
-5. [Data Sources](#data-sources)
-6. [Academic References](#academic-references)
+2. [Technology Stack](#technology-stack)
+3. [Project Structure](#project-structure)
+4. [8-Factor Scoring Model](#8-factor-scoring-model)
+5. [DCF Valuation Model](#dcf-valuation-model)
+6. [Sensitivity Analysis](#sensitivity-analysis)
+7. [Comparable Company Analysis](#comparable-company-analysis)
+8. [Data Sources](#data-sources)
+9. [Academic References](#academic-references)
 
 ---
 
 ## Platform Overview
 
-NATAN Institutional Research Platform is a professional-grade equity screening and valuation system covering:
+Natan Equity Research is a full-stack equity screening and valuation platform covering **949 securities** across Indonesia (IDX) and United States (S&P 500) markets.
 
-- **1,200+ companies** across US (S&P 500) and Indonesia (IDX)
-- **Real-time DCF valuation** using Damodaran methodology
-- **Comparable company analysis** per Rosenbaum & Pearl standards
-- **8-Factor scoring model** calibrated for emerging market dynamics
+### Core Capabilities
+- **Discounted Cash Flow (DCF)** valuation with sensitivity analysis
+- **Comparable Company Analysis** with sector-specific weighting
+- **8-Factor Quantitative Scoring** model (100-point scale)
+- **Macro Dashboard** with real-time Indonesia & US economic indicators
+- **News Sentiment** integration and market analysis
 
 ### Key Insight: Indonesian Market Dynamics
-Per industry discussions, 80-90% of Indonesian stock price movement is driven by **sentiment, technicals, and momentum** rather than pure fundamentals. The NATAN scoring model reflects this reality by weighting technical and sentiment factors at 35% of total score.
+Per industry research, 80-90% of Indonesian stock price movement is driven by **sentiment, technicals, and momentum** rather than pure fundamentals. The scoring model reflects this reality by weighting technical and sentiment factors at 35% of total score.
+
+---
+
+## Technology Stack
+
+### Frontend
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **React** | 19.2 | Component-based UI framework |
+| **Vite** | 7.2 | Next-generation build tool & dev server |
+| **Tailwind CSS** | 4.1 | Utility-first CSS framework |
+| **Recharts** | 3.4 | Composable charting library |
+| **Lucide React** | 0.554 | Modern icon set |
+
+### Data Processing
+
+| Technology | Purpose |
+|------------|---------|
+| **Python 3** | Data fetching, transformation, sentiment analysis |
+| **Yahoo Finance API** | Real-time market data via `yahoo-finance2` |
+| **R (tidyverse)** | Statistical analysis & fund screening |
+
+### Build & Deployment
+
+| Technology | Purpose |
+|------------|---------|
+| **Vite** | Production bundling with tree-shaking |
+| **@vitejs/plugin-legacy** | Safari 12+ / iOS compatibility |
+| **Vercel** | Production hosting with global CDN |
+| **GitHub** | Version control & CI/CD pipeline |
+
+### Browser Support
+
+| Browser | Minimum Version |
+|---------|-----------------|
+| Chrome | 64+ |
+| Safari | 12+ |
+| iOS Safari | 12+ |
+| Firefox | 67+ |
+| Edge | 79+ |
+
+---
+
+## Project Structure
+
+```
+natan-equity-research/
+│
+├── src/                          # Source code
+│   ├── App.jsx                   # Main React application (~2,400 lines)
+│   ├── valuation.js              # DCF & Comps models (~1,560 lines)
+│   ├── main.jsx                  # React entry point
+│   ├── App.css                   # Component styles
+│   └── index.css                 # Global styles (Tailwind)
+│
+├── public/                       # Static assets
+│   ├── global_companies_full.json   # 949 securities dataset
+│   ├── sentiment.json               # News sentiment data
+│   └── sp500_companies.json         # S&P 500 reference data
+│
+├── scripts/                      # Data pipeline
+│   ├── update_stock_data.py      # Price & fundamentals update
+│   ├── update_news.py            # Sentiment data refresh
+│   └── generate_sp500_data.py    # S&P 500 data generation
+│
+├── vite.config.js                # Build configuration
+├── tailwind.config.js            # Styling configuration
+├── package.json                  # Dependencies & scripts
+└── METHODOLOGY.md                # This document
+```
+
+### Key Files
+
+| File | Lines | Description |
+|------|-------|-------------|
+| `App.jsx` | ~2,400 | Main UI: Screener, DCF view, Comps, Macro dashboard |
+| `valuation.js` | ~1,560 | WACC, DCF, Comps, Sensitivity analysis models |
+| `global_companies_full.json` | 949 records | Full securities database |
 
 ---
 
@@ -324,6 +409,44 @@ Where g = Terminal growth rate (must be < WACC)
 
 ---
 
+## Sensitivity Analysis
+
+### Methodology
+
+Per **Goldman Sachs** and **Morgan Stanley** pitch book standards, the platform includes a two-way sensitivity analysis matrix.
+
+### Implementation
+
+**Matrix Configuration:**
+- **5×5 grid** (industry standard for pitch books)
+- **WACC variation:** ±1.0% in 0.5% increments
+- **Terminal Growth variation:** ±0.5% in 0.25% increments
+- **Convention:** Lowest values top-left, highest bottom-right
+
+### Visual Features
+
+1. **Color-coded cells** based on implied upside:
+   - Dark green: >150% upside
+   - Light green: 0-150% upside
+   - Amber: 0% to -25% (slight downside)
+   - Red: >25% downside
+
+2. **Base case highlighting** in blue with border
+
+3. **Football field visualization** showing valuation range
+
+4. **Investment recommendation** based on scenario distribution:
+   - Strong Buy: Positive upside in all scenarios
+   - Buy: Median upside positive
+   - Hold: Mixed signals
+   - Cautious/Sell: Predominantly downside scenarios
+
+### References
+- Wall Street Prep: [Sensitivity Analysis](https://www.wallstreetprep.com/knowledge/financial-modeling-techniques-sensitivity-what-if-analysis-2/)
+- Financial Edge: [DCF Sensitizing Variables](https://www.fe.training/free-resources/valuation/dcf-sensitizing-for-key-variables/)
+
+---
+
 ## Comparable Company Analysis
 
 ### Methodology: Rosenbaum & Pearl Standards
@@ -450,11 +573,18 @@ Where:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.1 | Nov 2025 | Safari compatibility, Sensitivity analysis, UI refinements |
 | 2.0 | Nov 2025 | 8-Factor scoring, S&P 500 coverage, Enhanced DCF |
 | 1.5 | Nov 2025 | Institutional-grade Comps, Sector weighting |
 | 1.0 | Oct 2025 | Initial release with IDX coverage |
 
 ---
 
-*NATAN Institutional Research Platform*
-*Built with institutional-grade methodology for professional equity analysis*
+## Author
+
+**Nathaniel Luu**
+
+---
+
+*Natan Equity Research Platform*
+*Built with React, Python, and institutional-grade valuation methodology*

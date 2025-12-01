@@ -454,15 +454,53 @@ cat_etf <- read_csv("ETFJCICategories_CORRECT.csv") %>%
 
 categories <- bind_rows(cat_mf, cat_etf)
 
-# Merge
+#============================================================================
+# LOAD FUND NAMES FROM MutualFundsCopy.csv and ETF.csv
+#============================================================================
+
+# Load mutual fund names
+fund_names_mf <- read_csv("MutualFundsCopy.csv", col_types = cols(.default = col_character())) %>%
+  select(1:2) %>%
+  setNames(c("Ticker", "Fund_Name")) %>%
+  mutate(
+    Ticker = str_trim(Ticker),
+    Fund_Name = str_trim(Fund_Name),
+    # Create matching key (add _IJ_Equity suffix and clean)
+    Fund_clean = clean_name(str_replace(Ticker, " IJ Equity", "_IJ_Equity"))
+  ) %>%
+  filter(!is.na(Ticker) & Ticker != "")
+
+# Load ETF names
+fund_names_etf <- read_csv("ETF.csv", col_types = cols(.default = col_character())) %>%
+  select(Ticker = 2, Fund_Name = 5) %>%
+  mutate(
+    Ticker = str_trim(Ticker),
+    Fund_Name = str_trim(Fund_Name),
+    Fund_clean = clean_name(str_replace(Ticker, " IJ Equity", "_IJ_Equity"))
+  ) %>%
+  filter(!is.na(Ticker) & Ticker != "")
+
+# Combine fund names
+fund_names <- bind_rows(fund_names_mf, fund_names_etf) %>%
+  distinct(Fund_clean, .keep_all = TRUE)
+
+cat("✅ Loaded", nrow(fund_names), "fund names\n")
+
+# Merge performance with categories
 merged <- perf_jci %>%
   left_join(categories %>% select(Fund_clean, AUM, Expense_Ratio, Age_Years, Source),
-            by = "Fund_clean") %>%
+            by = "Fund_clean")
+
+# Add fund names
+merged <- merged %>%
+  left_join(fund_names %>% select(Fund_clean, Fund_Name), by = "Fund_clean") %>%
   select(-Fund_clean)
 
 # Verify merge
 match_count <- sum(!is.na(merged$AUM))
-cat("✅ Data merged:", match_count, "/", nrow(merged), "funds\n\n")
+name_count <- sum(!is.na(merged$Fund_Name))
+cat("✅ Data merged:", match_count, "/", nrow(merged), "funds with categories\n")
+cat("✅ Fund names matched:", name_count, "/", nrow(merged), "funds\n\n")
 
 #============================================================================
 # INVESTMENT PARAMETERS (BLOOMBERG DATA INTEGRATED)
@@ -534,7 +572,7 @@ cat("========================================\n\n")
 strong_buy <- merged %>%
   filter(Recommendation == "STRONG BUY") %>%
   arrange(desc(Alpha_annualized)) %>%
-  select(Fund, Alpha_annualized, Excess_Return, Beta, AUM, Expense_Ratio, Age_Years, Source)
+  select(Fund, Fund_Name, Alpha_annualized, Excess_Return, Beta, AUM, Expense_Ratio, Age_Years, Source)
 
 cat("🟢 STRONG BUY RECOMMENDATIONS (", nrow(strong_buy), " funds):\n", sep="")
 if (nrow(strong_buy) > 0) {
@@ -548,7 +586,7 @@ if (nrow(strong_buy) > 0) {
 consider <- merged %>%
   filter(Recommendation == "CONSIDER") %>%
   arrange(desc(Alpha_annualized)) %>%
-  select(Fund, Alpha_annualized, Excess_Return, Beta, AUM, Expense_Ratio, Age_Years, Source)
+  select(Fund, Fund_Name, Alpha_annualized, Excess_Return, Beta, AUM, Expense_Ratio, Age_Years, Source)
 
 cat("\n🟡 CONSIDER (", nrow(consider), " funds):\n", sep="")
 if (nrow(consider) > 0) {
@@ -562,7 +600,7 @@ if (nrow(consider) > 0) {
 verify <- merged %>%
   filter(Recommendation == "BUY (verify criteria)") %>%
   arrange(desc(Alpha_annualized)) %>%
-  select(Fund, Alpha_annualized, Excess_Return, AUM, Expense_Ratio, Age_Years)
+  select(Fund, Fund_Name, Alpha_annualized, Excess_Return, AUM, Expense_Ratio, Age_Years)
 
 if (nrow(verify) > 0) {
   cat("\n⚠️  HIGH ALPHA - NEEDS VERIFICATION (", nrow(verify), " funds):\n", sep="")
@@ -620,14 +658,14 @@ print(min_max)
 cat("\n🏆 TOP 5 PERFORMERS:\n")
 top5 <- merged %>%
   arrange(desc(Alpha_annualized)) %>%
-  select(Fund, Alpha_annualized, Excess_Return, Expense_Ratio, AUM, Recommendation) %>%
+  select(Fund, Fund_Name, Alpha_annualized, Excess_Return, Expense_Ratio, AUM, Recommendation) %>%
   head(5)
 print(top5)
 
 cat("\n📉 BOTTOM 5 PERFORMERS:\n")
 bottom5 <- merged %>%
   arrange(Alpha_annualized) %>%
-  select(Fund, Alpha_annualized, Excess_Return, Expense_Ratio, Recommendation) %>%
+  select(Fund, Fund_Name, Alpha_annualized, Excess_Return, Expense_Ratio, Recommendation) %>%
   head(5)
 print(bottom5)
 
@@ -1002,7 +1040,7 @@ top_12_funds <- merged %>%
     AUM_B_IDR = if_else(is.na(AUM), "N/A", paste0(round(AUM / 1e9, 2), "B")),
     Age_Yrs = if_else(is.na(Age_Years), "N/A", as.character(round(Age_Years, 1)))
   ) %>%
-  select(Rank, Fund, Alpha_pct, Excess_Return_pct, Beta_rounded, 
+  select(Rank, Fund, Fund_Name, Alpha_pct, Excess_Return_pct, Beta_rounded,
          Expense_Ratio_pct, AUM_B_IDR, Age_Yrs, Source, Recommendation)
 
 #============================================================================
@@ -1020,7 +1058,7 @@ bottom_12_funds <- merged %>%
     Expense_Ratio_pct = paste0(round(Expense_Ratio * 100, 2), "%"),
     AUM_B_IDR = if_else(is.na(AUM), "N/A", paste0(round(AUM / 1e9, 2), "B"))
   ) %>%
-  select(Rank, Fund, Alpha_pct, Excess_Return_pct, Beta_rounded, 
+  select(Rank, Fund, Fund_Name, Alpha_pct, Excess_Return_pct, Beta_rounded,
          Expense_Ratio_pct, AUM_B_IDR, Recommendation)
 
 #============================================================================
@@ -1032,6 +1070,7 @@ worst_fund_data <- merged %>% filter(Alpha_annualized == min(Alpha_annualized, n
 
 min_max_comparison <- data.frame(
   Metric = c(
+    "Fund Ticker",
     "Fund Name",
     "Alpha (annualized)",
     "Excess Return vs Risk-Free",
@@ -1046,6 +1085,7 @@ min_max_comparison <- data.frame(
   ),
   Best_Performer = c(
     best_fund_data$Fund,
+    if_else(is.na(best_fund_data$Fund_Name), "N/A", best_fund_data$Fund_Name),
     paste0(round(best_fund_data$Alpha_annualized * 100, 2), "%"),
     paste0(round(best_fund_data$Excess_Return * 100, 2), "%"),
     as.character(round(best_fund_data$Beta, 3)),
@@ -1059,6 +1099,7 @@ min_max_comparison <- data.frame(
   ),
   Worst_Performer = c(
     worst_fund_data$Fund,
+    if_else(is.na(worst_fund_data$Fund_Name), "N/A", worst_fund_data$Fund_Name),
     paste0(round(worst_fund_data$Alpha_annualized * 100, 2), "%"),
     paste0(round(worst_fund_data$Excess_Return * 100, 2), "%"),
     as.character(round(worst_fund_data$Beta, 3)),
@@ -1071,6 +1112,7 @@ min_max_comparison <- data.frame(
     paste0("$", format(round(100000 * (1 + worst_fund_data$Alpha_annualized)^10, 0), big.mark = ","))
   ),
   Risk_Free_Bond = c(
+    "N/A",
     "Indonesia 10Y Govt Bond",
     "7.118% (Bloomberg avg)",
     "0.00% (benchmark)",
@@ -1160,8 +1202,8 @@ complete_ranking <- merged %>%
     AUM_B_IDR = if_else(is.na(AUM), "N/A", paste0(round(AUM / 1e9, 2), "B")),
     Age_Yrs = if_else(is.na(Age_Years), "N/A", as.character(round(Age_Years, 1)))
   ) %>%
-  select(Overall_Rank, Fund, Alpha_Quartile_Label, Alpha_pct, Excess_Return_pct, 
-         Beta_rounded, Expense_Ratio_pct, AUM_B_IDR, Age_Yrs, Source, 
+  select(Overall_Rank, Fund, Fund_Name, Alpha_Quartile_Label, Alpha_pct, Excess_Return_pct,
+         Beta_rounded, Expense_Ratio_pct, AUM_B_IDR, Age_Yrs, Source,
          Recommendation)
 
 #============================================================================
@@ -1267,4 +1309,404 @@ cat("   Primary: AXA_Mandiri_JCI_Investment_Analysis_Report.xlsx\n")
 cat("   Supporting: AXA_Mandiri_JCI_Investment_Analysis.png\n\n")
 
 cat("✅ All files saved to ~/Downloads/\n")
+cat("========================================\n")
+
+#============================================================================
+#============================================================================
+#
+#  PERIOD-SPECIFIC ANALYSIS (NEW SECTION - CAN BE REMOVED IF NOT NEEDED)
+#  Added for manager request: 3-period COVID breakdown
+#
+#============================================================================
+#============================================================================
+
+# Ensure tidyverse is loaded for this section
+if (!require(tidyverse)) library(tidyverse)
+
+cat("\n\n")
+cat("████████████████████████████████████████████████████████████████████████\n")
+cat("█  PERIOD-SPECIFIC ANALYSIS (3-Period COVID Breakdown)                 █\n")
+cat("████████████████████████████████████████████████████████████████████████\n\n")
+
+#============================================================================
+# PERIOD DEFINITIONS (Bloomberg GIND10YR Indonesia 10Y Gov Bond)
+#============================================================================
+
+# Period 1: Pre-COVID (01/01/2018 - 02/29/2020) - 2.17 years
+RF_PERIOD_1 <- 0.07425
+PERIOD_1_NAME <- "Pre-COVID"
+PERIOD_1_DATES <- "01/01/2018 - 02/29/2020"
+PERIOD_1_YEARS <- 2.17
+
+# Period 2: COVID/Recovery (03/01/2020 - 05/05/2023) - 3.18 years
+RF_PERIOD_2 <- 0.06779
+PERIOD_2_NAME <- "COVID/Recovery"
+PERIOD_2_DATES <- "03/01/2020 - 05/05/2023"
+PERIOD_2_YEARS <- 3.18
+
+# Period 3: Current (05/06/2023 - 12/01/2025) - 2.57 years
+RF_PERIOD_3 <- 0.06677
+PERIOD_3_NAME <- "Current"
+PERIOD_3_DATES <- "05/06/2023 - 12/01/2025"
+PERIOD_3_YEARS <- 2.57
+
+TOTAL_YEARS <- PERIOD_1_YEARS + PERIOD_2_YEARS + PERIOD_3_YEARS
+
+# Calculate weighted average
+RF_WEIGHTED_AVG <- (RF_PERIOD_1 * PERIOD_1_YEARS +
+                    RF_PERIOD_2 * PERIOD_2_YEARS +
+                    RF_PERIOD_3 * PERIOD_3_YEARS) / TOTAL_YEARS
+
+cat("📊 PERIOD-SPECIFIC RISK-FREE RATES (Bloomberg GIND10YR)\n")
+cat("========================================\n\n")
+cat("Period 1:", PERIOD_1_NAME, "\n")
+cat("   Dates:", PERIOD_1_DATES, "\n")
+cat("   Duration:", PERIOD_1_YEARS, "years\n")
+cat("   Risk-Free Rate:", RF_PERIOD_1 * 100, "%\n\n")
+
+cat("Period 2:", PERIOD_2_NAME, "\n")
+cat("   Dates:", PERIOD_2_DATES, "\n")
+cat("   Duration:", PERIOD_2_YEARS, "years\n")
+cat("   Risk-Free Rate:", RF_PERIOD_2 * 100, "%\n\n")
+
+cat("Period 3:", PERIOD_3_NAME, "\n")
+cat("   Dates:", PERIOD_3_DATES, "\n")
+cat("   Duration:", PERIOD_3_YEARS, "years\n")
+cat("   Risk-Free Rate:", RF_PERIOD_3 * 100, "%\n\n")
+
+cat("Weighted Average Risk-Free:", round(RF_WEIGHTED_AVG * 100, 3), "%\n")
+cat("(vs. Original 10Y Simple Avg: 7.118%)\n\n")
+
+#============================================================================
+# CALCULATE PERIOD-SPECIFIC EXCESS RETURNS
+#============================================================================
+
+period_analysis <- merged %>%
+  mutate(
+    # Excess returns vs each period's risk-free rate
+    Excess_P1 = Alpha_annualized - RF_PERIOD_1,
+    Excess_P2 = Alpha_annualized - RF_PERIOD_2,
+    Excess_P3 = Alpha_annualized - RF_PERIOD_3,
+
+    # Did fund beat each period's rate?
+    Beats_P1 = Alpha_annualized > RF_PERIOD_1,
+    Beats_P2 = Alpha_annualized > RF_PERIOD_2,
+    Beats_P3 = Alpha_annualized > RF_PERIOD_3,
+
+    # Consistency score (0-3)
+    Consistency_Score = as.integer(Beats_P1) + as.integer(Beats_P2) + as.integer(Beats_P3),
+
+    # Consistency label
+    Consistency_Label = case_when(
+      Consistency_Score == 3 ~ "⭐ ALL 3 Periods",
+      Consistency_Score == 2 ~ "✓ 2/3 Periods",
+      Consistency_Score == 1 ~ "○ 1/3 Periods",
+      TRUE ~ "✗ None"
+    ),
+
+    # Period-based recommendation
+    Period_Recommendation = case_when(
+      Consistency_Score == 3 & Alpha_Quartile == 4 ~ "⭐ STRONG BUY (All Periods)",
+      Consistency_Score == 3 ~ "BUY (Consistent Outperformer)",
+      Consistency_Score == 2 & Alpha_Quartile == 4 ~ "BUY (2/3 Periods)",
+      Consistency_Score == 2 ~ "CONSIDER (Mostly Consistent)",
+      Beats_P3 & Alpha_Quartile >= 3 ~ "CONSIDER (Current Performer)",
+      Beats_P3 ~ "MONITOR (Beats Current Rate)",
+      TRUE ~ "EXCLUDE"
+    )
+  )
+
+#============================================================================
+# PERIOD ANALYSIS SUMMARY STATISTICS
+#============================================================================
+
+cat("========================================\n")
+cat("📈 PERIOD ANALYSIS RESULTS\n")
+cat("========================================\n\n")
+
+# Count funds beating each period
+beats_p1 <- sum(period_analysis$Beats_P1, na.rm = TRUE)
+beats_p2 <- sum(period_analysis$Beats_P2, na.rm = TRUE)
+beats_p3 <- sum(period_analysis$Beats_P3, na.rm = TRUE)
+beats_all <- sum(period_analysis$Consistency_Score == 3, na.rm = TRUE)
+beats_none <- sum(period_analysis$Consistency_Score == 0, na.rm = TRUE)
+
+cat("Funds Beating Risk-Free Rate by Period:\n")
+cat("─────────────────────────────────────────\n")
+cat(sprintf("  Period 1 (Pre-COVID, 7.425%%):     %2d / %d funds\n", beats_p1, nrow(period_analysis)))
+cat(sprintf("  Period 2 (COVID/Recovery, 6.779%%): %2d / %d funds\n", beats_p2, nrow(period_analysis)))
+cat(sprintf("  Period 3 (Current, 6.677%%):       %2d / %d funds\n", beats_p3, nrow(period_analysis)))
+cat("─────────────────────────────────────────\n")
+cat(sprintf("  Beat ALL 3 periods:               %2d / %d funds\n", beats_all, nrow(period_analysis)))
+cat(sprintf("  Beat NONE:                        %2d / %d funds\n", beats_none, nrow(period_analysis)))
+cat("\n")
+
+#============================================================================
+# CONSISTENCY BREAKDOWN
+#============================================================================
+
+cat("📊 CONSISTENCY BREAKDOWN:\n")
+cat("─────────────────────────────────────────\n")
+
+consistency_summary <- period_analysis %>%
+  group_by(Consistency_Label) %>%
+  summarise(
+    Count = n(),
+    Avg_Alpha = mean(Alpha_annualized, na.rm = TRUE),
+    Best_Fund = Fund[which.max(Alpha_annualized)],
+    .groups = "drop"
+  ) %>%
+  arrange(desc(Count))
+
+print(consistency_summary)
+cat("\n")
+
+#============================================================================
+# TOP PERFORMERS BY PERIOD CONSISTENCY
+#============================================================================
+
+cat("========================================\n")
+cat("🏆 TOP PERFORMERS BY CONSISTENCY\n")
+cat("========================================\n\n")
+
+# Funds beating ALL 3 periods (if any)
+all_period_winners <- period_analysis %>%
+  filter(Consistency_Score == 3) %>%
+  arrange(desc(Alpha_annualized)) %>%
+  select(Fund, Fund_Name, Alpha_annualized, Excess_P1, Excess_P2, Excess_P3,
+         Consistency_Label, Period_Recommendation)
+
+if (nrow(all_period_winners) > 0) {
+  cat("⭐ FUNDS BEATING ALL 3 PERIODS (", nrow(all_period_winners), " funds):\n", sep = "")
+  cat("   These are the TRUE outperformers across all market regimes.\n\n")
+  print(all_period_winners)
+} else {
+  cat("⚠️  NO FUNDS BEAT ALL 3 PERIOD RATES\n")
+  cat("   This confirms: JCI equity funds consistently underperform bonds.\n\n")
+
+  # Show closest performers
+  cat("   Closest to beating all periods:\n")
+  closest <- period_analysis %>%
+    filter(Consistency_Score == 2) %>%
+    arrange(desc(Alpha_annualized)) %>%
+    head(5) %>%
+    select(Fund, Fund_Name, Alpha_annualized, Beats_P1, Beats_P2, Beats_P3)
+
+  if (nrow(closest) > 0) {
+    print(closest)
+  } else {
+    cat("   No funds beat even 2/3 periods.\n")
+  }
+}
+cat("\n")
+
+#============================================================================
+# CURRENT PERIOD PERFORMERS (MOST RELEVANT FOR TODAY)
+#============================================================================
+
+cat("========================================\n")
+cat("📍 CURRENT PERIOD PERFORMERS (Most Relevant)\n")
+cat("   Funds beating 6.677% (05/06/2023 - 12/01/2025)\n")
+cat("========================================\n\n")
+
+current_winners <- period_analysis %>%
+  filter(Beats_P3) %>%
+  arrange(desc(Alpha_annualized)) %>%
+  select(Fund, Fund_Name, Alpha_annualized, Excess_P3, Consistency_Score, Period_Recommendation)
+
+if (nrow(current_winners) > 0) {
+  cat("✅ FUNDS BEATING CURRENT RATE (", nrow(current_winners), " funds):\n\n", sep = "")
+  print(current_winners)
+} else {
+  cat("❌ NO FUNDS BEAT THE CURRENT PERIOD RATE (6.677%)\n")
+  cat("   Even in the lowest rate environment, JCI funds underperform.\n\n")
+
+  # Show how close the best funds are
+  cat("   Top 5 funds closest to current rate:\n")
+  closest_current <- period_analysis %>%
+    arrange(desc(Alpha_annualized)) %>%
+    head(5) %>%
+    mutate(
+      Gap_to_Current = paste0(round((Alpha_annualized - RF_PERIOD_3) * 100, 2), "%")
+    ) %>%
+    select(Fund, Fund_Name, Alpha_annualized, Gap_to_Current)
+  print(closest_current)
+}
+cat("\n")
+
+#============================================================================
+# PERIOD COMPARISON TABLE (ALL FUNDS)
+#============================================================================
+
+period_comparison <- period_analysis %>%
+  arrange(desc(Alpha_annualized)) %>%
+  mutate(
+    Rank = row_number(),
+    Alpha_pct = paste0(round(Alpha_annualized * 100, 2), "%"),
+    Excess_P1_pct = paste0(round(Excess_P1 * 100, 2), "%"),
+    Excess_P2_pct = paste0(round(Excess_P2 * 100, 2), "%"),
+    Excess_P3_pct = paste0(round(Excess_P3 * 100, 2), "%"),
+    P1_Status = if_else(Beats_P1, "✓", "✗"),
+    P2_Status = if_else(Beats_P2, "✓", "✗"),
+    P3_Status = if_else(Beats_P3, "✓", "✗")
+  ) %>%
+  select(Rank, Fund, Fund_Name, Alpha_pct,
+         Excess_P1_pct, P1_Status,
+         Excess_P2_pct, P2_Status,
+         Excess_P3_pct, P3_Status,
+         Consistency_Score, Consistency_Label, Period_Recommendation)
+
+#============================================================================
+# KEY INSIGHTS FROM PERIOD ANALYSIS
+#============================================================================
+
+cat("========================================\n")
+cat("💡 KEY INSIGHTS FROM PERIOD ANALYSIS\n")
+cat("========================================\n\n")
+
+best_fund <- period_analysis %>% filter(Alpha_annualized == max(Alpha_annualized, na.rm = TRUE))
+lowest_hurdle <- RF_PERIOD_3
+
+cat("1. BENCHMARK COMPARISON:\n")
+cat(sprintf("   Lowest risk-free rate (Current): %.3f%%\n", RF_PERIOD_3 * 100))
+cat(sprintf("   Best fund alpha: %.2f%% (%s)\n", best_fund$Alpha_annualized * 100, best_fund$Fund_Name))
+cat(sprintf("   Gap: %.2f%% BELOW risk-free\n", (best_fund$Alpha_annualized - RF_PERIOD_3) * 100))
+cat("\n")
+
+cat("2. PERIOD DIFFICULTY RANKING:\n")
+cat(sprintf("   Hardest to beat: Period 1 (Pre-COVID) at %.3f%% - %d funds beat it\n", RF_PERIOD_1 * 100, beats_p1))
+cat(sprintf("   Medium:          Period 2 (COVID) at %.3f%% - %d funds beat it\n", RF_PERIOD_2 * 100, beats_p2))
+cat(sprintf("   Easiest to beat: Period 3 (Current) at %.3f%% - %d funds beat it\n", RF_PERIOD_3 * 100, beats_p3))
+cat("\n")
+
+cat("3. INVESTMENT IMPLICATION:\n")
+if (beats_p3 == 0) {
+  cat("   ⚠️  CRITICAL: Even with the LOWEST hurdle rate (6.677%),\n")
+  cat("   zero JCI funds outperformed. This strongly supports\n")
+  cat("   a BOND-HEAVY allocation over JCI equity funds.\n")
+} else if (beats_all == 0) {
+  cat("   ⚠️  No funds consistently beat risk-free across all periods.\n")
+  cat("   Consider bonds for core allocation, equities for tactical only.\n")
+} else {
+  cat(sprintf("   ✅ %d funds beat all periods - consider for equity allocation.\n", beats_all))
+}
+cat("\n")
+
+#============================================================================
+# EXPORT PERIOD ANALYSIS RESULTS
+#============================================================================
+
+cat("========================================\n")
+cat("📁 EXPORTING PERIOD ANALYSIS FILES\n")
+cat("========================================\n\n")
+
+# Export period comparison (main deliverable)
+write_csv(period_comparison, "8_Period_Analysis_All_Funds.csv")
+cat("✅ 8_Period_Analysis_All_Funds.csv\n")
+cat("   - All 50 funds with period-specific excess returns\n")
+cat("   - Consistency scores and labels\n")
+cat("   - Period-based recommendations\n\n")
+
+# Export summary statistics
+period_summary <- data.frame(
+  Metric = c(
+    "Period 1 Name", "Period 1 Dates", "Period 1 Risk-Free Rate", "Period 1 Funds Beating",
+    "Period 2 Name", "Period 2 Dates", "Period 2 Risk-Free Rate", "Period 2 Funds Beating",
+    "Period 3 Name", "Period 3 Dates", "Period 3 Risk-Free Rate", "Period 3 Funds Beating",
+    "", "Weighted Average Risk-Free", "Funds Beating ALL Periods", "Funds Beating NONE",
+    "", "Best Fund", "Best Fund Alpha", "Best Fund vs Current Rate"
+  ),
+  Value = c(
+    PERIOD_1_NAME, PERIOD_1_DATES, paste0(RF_PERIOD_1 * 100, "%"), as.character(beats_p1),
+    PERIOD_2_NAME, PERIOD_2_DATES, paste0(RF_PERIOD_2 * 100, "%"), as.character(beats_p2),
+    PERIOD_3_NAME, PERIOD_3_DATES, paste0(RF_PERIOD_3 * 100, "%"), as.character(beats_p3),
+    "", paste0(round(RF_WEIGHTED_AVG * 100, 3), "%"), as.character(beats_all), as.character(beats_none),
+    "", best_fund$Fund_Name, paste0(round(best_fund$Alpha_annualized * 100, 2), "%"),
+    paste0(round((best_fund$Alpha_annualized - RF_PERIOD_3) * 100, 2), "% (gap)")
+  ),
+  stringsAsFactors = FALSE
+)
+
+write_csv(period_summary, "9_Period_Analysis_Summary.csv")
+cat("✅ 9_Period_Analysis_Summary.csv\n")
+cat("   - Period definitions and rates\n")
+cat("   - Summary statistics\n")
+cat("   - Key findings\n\n")
+
+# Export consistent performers (if any)
+consistent_performers <- period_analysis %>%
+  filter(Consistency_Score >= 2) %>%
+  arrange(desc(Consistency_Score), desc(Alpha_annualized)) %>%
+  select(Fund, Fund_Name, Alpha_annualized, Excess_P1, Excess_P2, Excess_P3,
+         Consistency_Score, Consistency_Label, Period_Recommendation, Source)
+
+write_csv(consistent_performers, "10_Consistent_Performers.csv")
+cat("✅ 10_Consistent_Performers.csv\n")
+cat("   - Funds beating 2+ periods\n")
+cat("   - Sorted by consistency then alpha\n\n")
+
+#============================================================================
+# PERIOD ANALYSIS VISUALIZATION
+#============================================================================
+
+cat("📊 Creating Period Analysis Visualization...\n\n")
+
+# Bar chart: Funds beating each period
+period_beats_data <- data.frame(
+  Period = c(
+    paste0("P1: Pre-COVID\n(7.425%)"),
+    paste0("P2: COVID/Recovery\n(6.779%)"),
+    paste0("P3: Current\n(6.677%)")
+  ),
+  Funds_Beating = c(beats_p1, beats_p2, beats_p3),
+  Rate = c(RF_PERIOD_1, RF_PERIOD_2, RF_PERIOD_3)
+)
+
+p_period <- ggplot(period_beats_data, aes(x = reorder(Period, -Funds_Beating), y = Funds_Beating, fill = Period)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  geom_text(aes(label = paste0(Funds_Beating, " / 50")), vjust = -0.5, size = 4, fontface = "bold") +
+  scale_fill_manual(values = c("#2563eb", "#7c3aed", "#059669")) +
+  labs(
+    title = "JCI Funds Beating Risk-Free Rate by Period",
+    subtitle = "Bloomberg GIND10YR Indonesia 10Y Government Bond | 3-Period COVID Analysis",
+    x = "",
+    y = "Number of Funds Beating Rate",
+    caption = "Pre-COVID: 01/01/2018-02/29/2020 | COVID: 03/01/2020-05/05/2023 | Current: 05/06/2023-12/01/2025"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    plot.subtitle = element_text(size = 10, color = "gray40"),
+    legend.position = "none",
+    axis.text.x = element_text(size = 10)
+  ) +
+  ylim(0, max(beats_p1, beats_p2, beats_p3) + 5)
+
+ggsave("Period_Analysis_Chart.png", p_period, width = 10, height = 6, dpi = 150)
+cat("✅ Period_Analysis_Chart.png\n\n")
+
+#============================================================================
+# FINAL PERIOD ANALYSIS SUMMARY
+#============================================================================
+
+cat("████████████████████████████████████████████████████████████████████████\n")
+cat("█  PERIOD ANALYSIS COMPLETE                                            █\n")
+cat("████████████████████████████████████████████████████████████████████████\n\n")
+
+cat("📁 NEW FILES CREATED (in ~/Downloads/):\n")
+cat("   8️⃣  8_Period_Analysis_All_Funds.csv    - Full period breakdown\n")
+cat("   9️⃣  9_Period_Analysis_Summary.csv      - Summary statistics\n")
+cat("   🔟 10_Consistent_Performers.csv        - Funds beating 2+ periods\n")
+cat("   📊 Period_Analysis_Chart.png           - Visualization\n\n")
+
+cat("🎯 KEY FINDING:\n")
+if (beats_p3 == 0) {
+  cat("   ❌ ZERO funds beat even the LOWEST risk-free rate (6.677%)\n")
+  cat("   📈 RECOMMENDATION: Bond-heavy allocation strongly advised\n")
+} else {
+  cat(sprintf("   %d funds beat current rate, %d beat all periods\n", beats_p3, beats_all))
+}
+cat("\n")
+cat("========================================\n")
+cat("✅ Period Analysis Complete!\n")
 cat("========================================\n")
