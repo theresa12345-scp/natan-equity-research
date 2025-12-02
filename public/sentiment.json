@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-01T14:26:24.353845",
+  "timestamp": "2025-12-02T06:20:34.299062",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 11,
-    "neutral": 11,
-    "bearish": 3,
-    "high_priority": 8,
+    "bullish": 10,
+    "neutral": 10,
+    "bearish": 5,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,18 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 4,
-    "Bloomberg": 2,
+    "Reuters": 3,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "TipRanks": 1,
-    "StreetInsider": 1,
-    "CNBC": 6,
-    "Benzinga": 1,
-    "MSN": 1,
-    "Stock Titan": 1,
+    "Investor's Business Daily": 1,
+    "Fortune": 1,
     "Bloomberg.com": 1,
-    "Yahoo Finance": 1,
-    "inkl": 1
+    "TradingView": 1,
+    "CNBC": 7,
+    "MarketWatch": 3
   },
   "top_signals": [
     {
@@ -35,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -45,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -55,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -65,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -75,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -85,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -95,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -105,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Trump Says He Has Made His Choice to Lead the Federal Reserve",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "President Donald Trump said Sunday he has decided on his pick for the next Federal Reserve chair after making clear he expects his nominee to deliver interest-rate cuts.",
+      "category": "us_monetary_policy",
+      "date": "2025-11-30 23:06",
+      "link": "https://www.bloomberg.com/news/articles/2025-11-30/fed-contender-hassett-says-market-is-ready-for-trump-chair-pick"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -115,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -125,28 +132,68 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-01 14:26",
+      "date": "2025-12-02 06:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Humana Reaffirms Earnings Guidance for December 2025",
+      "headline": "Dow Jones Futures Fall; Trump Says He's Made Fed Chief Decision",
       "score": 7,
-      "source": "TipRanks",
-      "sentiment": "neutral",
-      "impact": "Humana Inc. has reaffirmed its earnings guidance for FY 2025, projecting approximately $12.26 in diluted earnings per share and $17.00 in adjusted earnings per share. This guidance, reiterated during meetings with investors and analysts in December 2025, suggests stability in the company's financial",
-      "category": "corporate_earnings",
-      "date": "2025-12-01 13:06",
-      "link": "https://www.tipranks.com/news/company-announcements/humana-reaffirms-earnings-guidance-for-december-2025"
+      "source": "Investor's Business Daily",
+      "sentiment": "negative",
+      "impact": "Leading stocks from many sectors stepped up last week.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-01 01:48",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-president-trump-fed-chief-decision/"
     },
     {
-      "headline": "Humana reaffirms 2025 earnings guidance ahead of investor meetings",
+      "headline": "The S&P 500 could hit 7,000 this week, while Trump hints at a Fed chair pick and Washington eyes this special election",
       "score": 7,
-      "source": "StreetInsider",
+      "source": "Fortune",
       "sentiment": "positive",
-      "impact": "Humana Inc. plans to reaffirm its 2025 earnings guidance during investor and analyst meetings in December. The company expects diluted EPS of approximately $12.26 and adjusted EPS of about $17.00 for the year ending December 31, 2025. This guidance aligns with previous projections and includes sever",
+      "impact": "\"The S&P 500 would need to rise by just 2.2% to reach 7,000. That could happen this coming week, in our view.\"",
+      "category": "us_monetary_policy",
+      "date": "2025-12-01 00:06",
+      "link": "https://fortune.com/2025/11/30/stock-market-outlook-sp500-7000-trump-fed-chair-pick-hassett-tennessee-special-election/"
+    },
+    {
+      "headline": "Burry Shorts Tesla on Valuation and Musk Pay Plan, Fortune Says",
+      "score": 6,
+      "source": "Bloomberg.com",
+      "sentiment": "neutral",
+      "impact": "Michael Burry, known for his correct bet against the 2008 housing market, has shorted Tesla shares, deeming them \"ridiculously overvalued.\" He also criticized Elon Musk's proposed $1 trillion pay package, arguing it would worsen shareholder dilution, which he estimates at 3.6% annually without offse",
+      "category": "global_markets",
+      "date": "2025-12-02 03:53",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-02/burry-targets-tesla-on-valuation-and-musk-pay-plan-fortune-says"
+    },
+    {
+      "headline": "Q3 Earnings Season: 3 Companies That Crushed Expectations",
+      "score": 6,
+      "source": "TradingView",
+      "sentiment": "positive",
+      "impact": "The Q3 2025 earnings season is concluding with strong results, as several companies have exceeded expectations. Roku, American Express (AXP), and Palantir (PLTR) are highlighted for their robust performances, driven by advertiser growth, increased card member spending, and significant contract deals",
       "category": "corporate_earnings",
-      "date": "2025-12-01 12:37",
-      "link": "https://www.streetinsider.com/Corporate+News/Humana+reaffirms+2025+earnings+guidance+ahead+of+investor+meetings/25679339.html"
+      "date": "2025-12-02 03:07",
+      "link": "https://www.tradingview.com/news/zacks:b2b7e934f094b:0-q3-earnings-season-3-companies-that-crushed-expectations/"
+    },
+    {
+      "headline": "TikTok-fueled K-beauty boom triggers a retail race in the U.S.",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "K-beauty has vaulted into the American mainstream, driven by TikTok and younger, more diverse shoppers. Retailers from Ulta to Walmart are racing to cash in.",
+      "category": "global_markets",
+      "date": "2025-12-01 21:48",
+      "link": "https://www.cnbc.com/2025/11/27/k-beauty-tiktok-makeup.html"
+    },
+    {
+      "headline": "Meta's Instagram orders employees back to the office 5 days a week",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The RTO policy only applies to Instagram and not to Meta's other family of apps, like Facebook and WhatsApp.",
+      "category": "global_markets",
+      "date": "2025-12-01 21:27",
+      "link": "https://www.cnbc.com/2025/12/01/meta-instagram-rto-return-to-office.html"
     },
     {
       "headline": "Eli Lilly cuts cash prices of Zepbound weight loss drug vials on direct-to-consumer site",
@@ -155,128 +202,78 @@
       "sentiment": "negative",
       "impact": "The announcement comes weeks after President Donald Trump inked deals with Eli Lilly and Novo Nordisk to make their GLP-1 drugs easier for Americans to access. ",
       "category": "global_markets",
-      "date": "2025-12-01 13:39",
+      "date": "2025-12-01 21:22",
       "link": "https://www.cnbc.com/2025/12/01/eli-lilly-prices-zepbound-weight-loss-drug-vials.html"
     },
     {
-      "headline": "Morgan Stanley Sees 41% Upside For Nvidia, Boosts Broadcom Target on TPU Dominance - Alphabet (NASDAQ:GOOG), Broadcom (NASDAQ:AVGO)",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "Morgan Stanley has raised its price targets for Nvidia and Broadcom, driven by the strong momentum in artificial intelligence. Analyst Joseph Moore increased Nvidia's target to $250, predicting a 41% upside, and Broadcom's to $443, citing its significant AI exposure and tensor processing unit domina",
-      "category": "us_equities",
-      "date": "2025-12-01 13:33",
-      "link": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/25/12/49134139/nvidia-just-earned-a-massive-41-price-target-boost-from-morgan-stanley-broadcom-also-raised-as-ai-frenzy-accelerates"
-    },
-    {
-      "headline": "Goldman Sachs acquires ETF firm for $2 billion in latest deal to bolster asset management division",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Goldman Sachs has made asset and wealth management a priority since pivoting away from a consumer banking push. ",
-      "category": "commodities",
-      "date": "2025-12-01 13:31",
-      "link": "https://www.cnbc.com/2025/12/01/goldman-sachs-acquires-innovator-capital-management.html"
-    },
-    {
-      "headline": "Is Philip Morris International Stock Outperforming the S&P 500?",
-      "score": 6,
-      "source": "MSN",
-      "sentiment": "neutral",
-      "impact": "This article analyzes whether Philip Morris International (PM) stock is outperforming the S&P 500 based on year-to-date, 1-year, 3-year, and 5-year returns. While PM has outperformed the S&P 500 in the short term (YTD), its performance has lagged the index over longer periods of one, three, and five",
-      "category": "us_equities",
-      "date": "2025-12-01 13:21",
-      "link": "https://www.msn.com/en-us/money/topstocks/is-philip-morris-international-stock-outperforming-the-s-p-500/ar-AA1RhN6Q"
-    },
-    {
-      "headline": "nLIGHT (Nasdaq: LASR) to present at Raymond James 2025 TMT & Consumer Conference in NYC",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "nLIGHT, Inc. (Nasdaq: LASR) announced its management will participate in the Raymond James 2025 TMT & Consumer Conference on December 9, 2025, in New York City. The company, a leading provider of high-power lasers, will make its investor presentation materials available on its website. This particip",
-      "category": "us_equities",
-      "date": "2025-12-01 13:05",
-      "link": "https://www.stocktitan.net/news/LASR/n-light-inc-announces-participation-in-raymond-james-investor-3uy0kgu77ys5.html"
-    },
-    {
-      "headline": "Targa Resources to acquire Stakeholder Midstream for $1.25 billion",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Targa Resources announced its acquisition of Stakeholder Midstream for $1.25 billion in cash. Stakeholder Midstream provides natural gas gathering, treating, and processing services, as well as crude gathering and storage services in the Permian Basin. Targa anticipates the acquisition will annually",
-      "category": "global_markets",
-      "date": "2025-12-01 12:30",
-      "link": "https://www.reuters.com/business/energy/targa-resources-acquire-stakeholder-midstream-125-billion-2025-12-01/"
-    },
-    {
-      "headline": "Morgan Stanley\u2019s Lord Says Worst May Be Over for Korean Won",
-      "score": 6,
-      "source": "Bloomberg.com",
-      "sentiment": "positive",
-      "impact": "Morgan Stanley strategist James Lord believes the Korean won's worst selloff since 2008 may be nearing its end. He anticipates the won could stabilize and recover as upcoming US interest-rate cuts coincide with the conclusion of South Korea\u2019s policy-easing cycle. While volatility is expected to cont",
-      "category": "global_markets",
-      "date": "2025-12-01 12:22",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-01/morgan-stanley-s-lord-says-worst-may-be-over-for-korean-won?srnd=phx-economics-v2"
-    },
-    {
-      "headline": " With 88% ownership of the shares, Exelon Corporation (NASDAQ:EXC) is heavily dominated by institutional owners",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "positive",
-      "impact": " Exelon Corporation (NASDAQ:EXC) is heavily dominated by institutional owners, who collectively hold 88% of the company's shares. This significant institutional ownership suggests that the stock price is sensitive to their trading activities and indicates a vote of confidence in Exelon's future. The",
-      "category": "us_equities",
-      "date": "2025-12-01 12:00",
-      "link": "https://finance.yahoo.com/news/88-ownership-shares-exelon-corporation-120016376.html"
-    },
-    {
-      "headline": "Is Automatic Data Processing Stock Underperforming the S&P 500?",
-      "score": 6,
-      "source": "inkl",
-      "sentiment": "neutral",
-      "impact": "Automatic Data Processing (ADP) is a large-cap stock in the human-capital management industry with a market cap of $103.3 billion. Despite outperforming the S&P 500 year-to-date and over the past 52 weeks, ADP has seen a recent decline from its 52-week high and trails the S&P 500 over the last three",
-      "category": "us_equities",
-      "date": "2025-12-01 11:21",
-      "link": "https://www.inkl.com/news/is-automatic-data-processing-stock-underperforming-the-s-p-500-228ebb0b-898c-4107-9e71-ef7bea654414"
-    },
-    {
-      "headline": "Forget AI spending \u2014 the biggest risk to this stock market is speculative junk",
+      "headline": "What Eli Lilly's move to cut prices on obesity drug Zepbound means for investors",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "The idea that these alternative investments somehow create anything en masse is almost ludicrous.",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "category": "global_markets",
-      "date": "2025-11-30 21:49",
-      "link": "https://www.cnbc.com/2025/11/30/cramer-forget-ai-spending-the-biggest-risk-to-this-market-is-speculation.html"
+      "date": "2025-12-01 19:38",
+      "link": "https://www.cnbc.com/2025/12/01/what-eli-lillys-move-to-cut-prices-on-zepbound-means-for-investors.html"
     },
     {
-      "headline": "Here are the 4 big things we're watching in the stock market this week",
+      "headline": "What weak consumer? Strong holiday shopping kickoff is a good sign for retailers",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Earnings season is winding down as we kick off the last month of 2025.",
+      "impact": "\"The narrative that the consumer is not doing well is being challenged,\" said Jim Cramer.",
       "category": "global_markets",
-      "date": "2025-11-30 19:00",
-      "link": "https://www.cnbc.com/2025/11/30/here-are-the-4-big-things-were-watching-in-the-stock-market-this-week.html"
+      "date": "2025-12-01 18:53",
+      "link": "https://www.cnbc.com/2025/12/01/strong-holiday-shopping-kickoff-is-a-good-sign-for-retailers.html"
     },
     {
-      "headline": "'Zootopia 2' fuels top 5 Thanksgiving box office haul",
+      "headline": "Bank of Japan\u2019s Ueda rattles global bond markets with the prospect of a rate hike this month",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "A stronger yen and rising Japanese bond yields could pull capital away from the U.S. equity and bond markets.",
+      "category": "fixed_income",
+      "date": "2025-12-01 18:48",
+      "link": "https://www.marketwatch.com/story/bank-of-japans-ueda-rattles-global-bond-markets-with-the-prospect-of-a-rate-hike-this-month-73e6e290"
+    },
+    {
+      "headline": "Trump says he\u2019s made his decision on the next Fed chair. Here\u2019s what to know about front-runner Kevin Hassett.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Prediction markets give Hassett, a top economist in the Trump administration, a nearly 80% chance of becoming Fed chief.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-01 17:32",
+      "link": "https://www.marketwatch.com/story/trump-says-hes-made-his-decision-on-the-next-fed-chair-heres-what-to-know-about-front-runner-kevin-hassett-fccd182b"
+    },
+    {
+      "headline": "Chair of UK's fiscal watchdog resigns after early published report threw Budget into chaos",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Disney's \"Zootopia 2\" tallied an estimated $156 million during the five-day Thanksgiving holiday, leading the box office to a top five performance.",
+      "impact": "The U.K.'s Office for Budget Responsibility unexpectedly released its economic and fiscal forecasts ahead of the U.K.'s Autumn Budget on Wednesday.",
       "category": "global_markets",
-      "date": "2025-11-30 17:22",
-      "link": "https://www.cnbc.com/2025/11/30/zootopia-2-fuels-top-5-thanksgiving-box-office-haul.html"
+      "date": "2025-12-01 17:13",
+      "link": "https://www.cnbc.com/2025/12/01/uk-fiscal-watchdog-chair-quits-over-mistakenly-published-budget-report.html"
     },
     {
-      "headline": "The mobile app has changed the low-cost franchise business model, but not the risks",
+      "headline": "We're adding to a stock with future promise whose recent slide has stabilized",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Many new franchise business models are mobile app and internet based, but while the lack of real estate can reduce costs, many risks remain.",
+      "sentiment": "neutral",
+      "impact": "We're nibbling on shares and averaging down our cost basis.",
       "category": "global_markets",
-      "date": "2025-11-30 15:05",
-      "link": "https://www.cnbc.com/2025/11/30/franchise-business-costs-opportunities-risks.html"
+      "date": "2025-12-01 16:23",
+      "link": "https://www.cnbc.com/2025/12/01/were-adding-to-a-stock-with-future-promise-whose-recent-slide-has-stabilized.html"
+    },
+    {
+      "headline": "Alphabet and Nvidia alone make up a third of the S&P 500\u2019s gains this year, in a sign of Big Tech\u2019s dominance",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "On the whole, Big Tech accounts for almost half of the index\u2019s 2025 rise, according to DataTrek.",
+      "category": "us_equities",
+      "date": "2025-12-01 15:06",
+      "link": "https://www.marketwatch.com/story/alphabet-and-nvidia-alone-make-up-a-third-of-the-s-p-500s-gains-this-year-in-a-sign-of-big-techs-dominance-fee982a1"
     }
   ]
 }
