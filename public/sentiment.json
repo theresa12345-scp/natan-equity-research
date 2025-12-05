@@ -1,28 +1,27 @@
 {
-  "timestamp": "2025-12-05T06:20:20.159806",
+  "timestamp": "2025-12-05T14:25:07.044870",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 13,
-    "neutral": 11,
-    "bearish": 1,
+    "avg_relevance": 7.2,
+    "bullish": 14,
+    "neutral": 9,
+    "bearish": 2,
     "high_priority": 9,
-    "material_events": 5
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Financial Times": 1,
     "Reuters": 3,
     "Bloomberg": 2,
+    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 10,
-    "TheStreet": 1,
-    "Simply Wall Street": 1,
-    "Prologis": 1,
-    "MarketWatch": 1
+    "MarketWatch": 4,
+    "CNBC": 8,
+    "Al Jazeera English": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -32,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,18 +61,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Bond investors warned US Treasury over picking Kevin Hassett as Fed chair",
-      "score": 9,
-      "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "Some market participants worried candidate for top central bank job will be swayed by Trump on interest rates",
-      "category": "us_monetary_policy",
-      "date": "2025-12-03 18:18",
-      "link": "https://www.ft.com/content/ad4bfd8b-a0f8-4f9e-a234-eed589e3d0ab"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -82,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -92,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -102,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -112,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Stock Market Today: Bond Yields Rise, Dow Futures Hold Broadly Steady",
+      "score": 8,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Follow along for live updates on the Dow, S&P 500, Nasdaq and other markets.",
+      "category": "us_equities",
+      "date": "2025-12-04 13:42",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-12-04-2025"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,8 +131,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-05 06:20",
+      "date": "2025-12-05 14:25",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Investors are worrying about potential spillover from surging Japanese bond yields. Here\u2019s a breakdown of what matters.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Rising Japanese bond yields, coupled with the expectation that the Bank of Japan will raise interest rates again later this month for the first time since January, has breathed new life into a Wall Street boogeyman.",
+      "category": "us_equities",
+      "date": "2025-12-05 14:02",
+      "link": "https://www.marketwatch.com/story/why-investors-should-brush-off-fears-about-another-brutal-yen-carry-trade-unwind-e8f41ef2?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "$208 million wiped out: Yieldstreet investors rack up more losses as firm rebrands to Willow Wealth",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Yieldstreet is attempting to move past a troubled track record by rebranding to Willow Wealth while customers reel from a still-unfolding collapse of its funds.",
+      "category": "fixed_income",
+      "date": "2025-12-05 13:15",
+      "link": "https://www.cnbc.com/2025/12/05/yieldstreet-investors-losses-willow-wealth-rebrand.html"
+    },
+    {
+      "headline": "\u2018Misbehaving\u2019 U.S. long bonds have this strategist looking for yield elsewhere",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "When Greenspan and Bernanke were hiking rates, long-term yields kept falling. Now Powell is cutting, the reverse is happening \u2014 a conundrum for HSBC\u2019s strategist",
+      "category": "fixed_income",
+      "date": "2025-12-05 12:28",
+      "link": "https://www.marketwatch.com/story/misbehaving-u-s-long-bonds-have-this-strategist-looking-for-yield-elsewhere-d07c293f"
     },
     {
       "headline": "Ulta shares pop as beauty retailer hikes sales and earnings outlook for second straight quarter",
@@ -146,34 +175,64 @@
       "link": "https://www.cnbc.com/2025/12/04/ulta-ulta-earnings-q3-2025.html"
     },
     {
-      "headline": "Bank of America resets Fed interest rate cut forecast ahead of FOMC meeting",
+      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq set to pause after seven gains in eight sessions",
       "score": 7,
-      "source": "TheStreet",
-      "sentiment": "negative",
-      "impact": "Here's what may happen to interest rates next.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-03 16:32",
-      "link": "https://www.thestreet.com/fed/bank-of-america-resets-fed-interest-rate-cut-forecast-ahead-of-fomc-meeting"
-    },
-    {
-      "headline": " Should Wabtec\u2019s Margin Beat and 8.4% Revenue Growth Require Action From Westinghouse Air Brake Technologies (WAB) Investors?",
-      "score": 6,
-      "source": "Simply Wall Street",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": " Westinghouse Air Brake Technologies (Wabtec) reported strong quarterly results with 8.4% revenue growth and adjusted operating income surpassing analyst expectations, despite organic revenue missing forecasts. This strong performance, alongside reaffirmed full-year 2025 revenue guidance, supports W",
-      "category": "corporate_earnings",
-      "date": "2025-12-05 04:57",
-      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-wab/westinghouse-air-brake-technologies/news/should-wabtecs-margin-beat-and-84-revenue-growth-require-act"
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2025-12-04 12:56",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-set-to-pause-after-seven-gains-in-eight-sessions"
     },
     {
-      "headline": " Prologis Q4 2025 Earnings Conference Call",
+      "headline": "Who is Kevin Hassett, Trump\u2019s expected pick to lead the Federal Reserve?",
+      "score": 7,
+      "source": "Al Jazeera English",
+      "sentiment": "negative",
+      "impact": "Trump\u2019s top economic adviser is odds-on favourite to lead the Fed amid concerns over the central bank\u2019s independence.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-04 02:15",
+      "link": "https://www.aljazeera.com/economy/2025/12/4/who-is-kevin-hassett-trumps-expected-pick-to-lead-the-federal-reserve"
+    },
+    {
+      "headline": "Netflix to buy Warner Bros. film and streaming assets in $72 billion deal",
       "score": 6,
-      "source": "Prologis",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": " Prologis, Inc. (PLD) has scheduled its Q4 2025 Earnings Conference Call for January 21, 2026, at 12:00 pm EST. Investors can access a live broadcast of the call via a toll-free number for the US and Canada or an international number, with a telephonic replay available until February 4. This call wi",
-      "category": "corporate_earnings",
-      "date": "2025-12-05 03:10",
-      "link": "https://ir.prologis.com/events-presentations/events/detail/20260121-prologis-q4-2025-earnings-conference-call"
+      "impact": "Netflix announced it's reached a deal to buy WBD, bringing a swift end to a dramatic bidding process that also involved Paramount Skydance and Comcast.",
+      "category": "global_markets",
+      "date": "2025-12-05 14:24",
+      "link": "https://www.cnbc.com/2025/12/05/neflix-warner-bros-discovery-deal.html"
+    },
+    {
+      "headline": "Southwest Airlines cuts outlook on government shutdown demand hit, higher fuel costs",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The carrier said it expects 2025 earnings before interest and taxes of about $500 million, down from a previous forecast of $600 million to $800 million. ",
+      "category": "us_equities",
+      "date": "2025-12-05 13:58",
+      "link": "https://www.cnbc.com/2025/12/05/airlines-government-shutdown-earnings-impact.html"
+    },
+    {
+      "headline": " Willis Towers Watson Public Limited Company (NASDAQ:WTW) to Issue Quarterly Dividend of $0.92",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": " Willis Towers Watson Public Limited Company (NASDAQ:WTW) announced a quarterly dividend of $0.92 per share, payable on January 15, 2026, to shareholders of record by December 31, 2025. This equates to an annualized dividend of $3.68 and a yield of 1.2%. The dividend is well-covered, with a payout r",
+      "category": "us_equities",
+      "date": "2025-12-05 12:56",
+      "link": "https://www.marketbeat.com/instant-alerts/willis-towers-watson-public-limited-company-nasdaqwtw-to-issue-quarterly-dividend-of-092-2025-12-04/"
+    },
+    {
+      "headline": "Paramount questions Warner Bros. Discovery on 'fairness and adequacy' of sale process: Read the full letter",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Paramount attorneys sent a letter to Warner Bros. Discovery questioning whether its acting in the best interest of shareholders. ",
+      "category": "global_markets",
+      "date": "2025-12-05 10:05",
+      "link": "https://www.cnbc.com/2025/12/04/paramount-questions-warner-bros-discovery-sale-process-letter.html"
     },
     {
       "headline": "Salesforce CEO calls AI a 'commodity feature', says the technology bolsters enterprise software",
@@ -184,16 +243,6 @@
       "category": "commodities",
       "date": "2025-12-04 23:31",
       "link": "https://www.cnbc.com/2025/12/04/salesforce-ai-commodity-enterprise-software-technology.html"
-    },
-    {
-      "headline": "Paramount questions Warner Bros. Discovery on 'fairness and adequacy' of sale process: Read the full letter",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Paramount attorneys sent a letter to Warner Bros. Discovery questioning whether its acting in the best interest of shareholders. ",
-      "category": "global_markets",
-      "date": "2025-12-04 20:49",
-      "link": "https://www.cnbc.com/2025/12/04/paramount-questions-warner-bros-discovery-sale-process-letter.html"
     },
     {
       "headline": "RFK Jr.'s vaccine panel defers vote on hepatitis B shot for babies until Friday",
@@ -224,56 +273,6 @@
       "category": "global_markets",
       "date": "2025-12-04 20:07",
       "link": "https://www.marketwatch.com/story/why-investors-see-fridays-inflation-report-as-a-gut-check-of-vibes-on-the-economy-6e0b8cb1"
-    },
-    {
-      "headline": "The market's big swing from oversold to overbought \u2014 plus, the GE Vernova bull case",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2025-12-04 19:44",
-      "link": "https://www.cnbc.com/2025/12/04/the-markets-swing-from-oversold-to-overbought-plus-the-ge-vernova-bull-case.html"
-    },
-    {
-      "headline": "GM's new product chief Sterling Anderson eyes technology renaissance for automaker",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "GM Chief Product Officer Sterling Anderson has consolidated power to oversee\u00a0\"the end-to-end product lifecycle\" of manufacturing, engineering and software.",
-      "category": "global_markets",
-      "date": "2025-12-04 19:34",
-      "link": "https://www.cnbc.com/2025/12/04/general-motors-gm-sterling-anderson.html"
-    },
-    {
-      "headline": "'We're in it together': These friends chose 'co-buying' to achieve homeownership\u2014how they make shared lives and mortgages work",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "With the cost of homeownership and mortgage rates continuing to rise, friends are co-buying homes together.",
-      "category": "global_markets",
-      "date": "2025-12-04 19:24",
-      "link": "https://www.cnbc.com/2025/12/04/these-friends-chose-co-buying-to-achieve-homeownership.html"
-    },
-    {
-      "headline": "Tesla gains in 2026 Consumer Reports' auto brand rankings",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Tesla made notable strides in Consumer Reports' influential annual auto brand rankings, cracking the top 10 overall U.S. automotive brands.",
-      "category": "global_markets",
-      "date": "2025-12-04 18:54",
-      "link": "https://www.cnbc.com/2025/12/04/consumer-reports-auto-brand-rankings-tesla.html"
-    },
-    {
-      "headline": "These 5 high-quality stocks are set up for a big bounce back in 2026",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Headwinds remain, but these underperforming stocks are better positioned than most to go higher, regardless of any short-term hiccups.",
-      "category": "global_markets",
-      "date": "2025-12-04 18:16",
-      "link": "https://www.cnbc.com/2025/12/04/jim-cramer-says-these-5-stocks-are-set-for-a-bounce-back-in-2026.html"
     }
   ]
 }
