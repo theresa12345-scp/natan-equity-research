@@ -1,24 +1,28 @@
 {
-  "timestamp": "2025-12-04T14:25:55.861472",
+  "timestamp": "2025-12-05T06:20:20.159806",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 6.9,
-    "bullish": 9,
-    "neutral": 14,
-    "bearish": 2,
-    "high_priority": 8,
-    "material_events": 4
+    "avg_relevance": 7.1,
+    "bullish": 13,
+    "neutral": 11,
+    "bearish": 1,
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
+    "Financial Times": 1,
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 11,
-    "MarketWatch": 4
+    "CNBC": 10,
+    "TheStreet": 1,
+    "Simply Wall Street": 1,
+    "Prologis": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -28,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,8 +62,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Bond investors warned US Treasury over picking Kevin Hassett as Fed chair",
+      "score": 9,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "Some market participants worried candidate for top central bank job will be swayed by Trump on interest rates",
+      "category": "us_monetary_policy",
+      "date": "2025-12-03 18:18",
+      "link": "https://www.ft.com/content/ad4bfd8b-a0f8-4f9e-a234-eed589e3d0ab"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -68,7 +82,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +102,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,7 +112,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -108,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,158 +132,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-04 14:25",
+      "date": "2025-12-05 06:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Keep October 1987 Black Monday crash in mind: Former Treasury Sec., Goldman chair Robert Rubin's message to the market",
+      "headline": "Ulta shares pop as beauty retailer hikes sales and earnings outlook for second straight quarter",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The market can be complacent for a long time, and former Treasury Secretary, Goldman chair Robert Rubin says he keeps reminding people of October 1987's crash.",
-      "category": "fixed_income",
-      "date": "2025-12-04 01:12",
-      "link": "https://www.cnbc.com/2025/12/03/stock-market-crash-risk-black-monday-october-1987.html"
+      "sentiment": "positive",
+      "impact": "Ulta easily beat Wall Street's earnings expectations for its third quarter.",
+      "category": "corporate_earnings",
+      "date": "2025-12-04 22:31",
+      "link": "https://www.cnbc.com/2025/12/04/ulta-ulta-earnings-q3-2025.html"
     },
     {
-      "headline": "RFK Jr.'s vaccine panel to vote on changing hepatitis B shot recommendation for babies",
+      "headline": "Bank of America resets Fed interest rate cut forecast ahead of FOMC meeting",
+      "score": 7,
+      "source": "TheStreet",
+      "sentiment": "negative",
+      "impact": "Here's what may happen to interest rates next.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-03 16:32",
+      "link": "https://www.thestreet.com/fed/bank-of-america-resets-fed-interest-rate-cut-forecast-ahead-of-fomc-meeting"
+    },
+    {
+      "headline": " Should Wabtec\u2019s Margin Beat and 8.4% Revenue Growth Require Action From Westinghouse Air Brake Technologies (WAB) Investors?",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": " Westinghouse Air Brake Technologies (Wabtec) reported strong quarterly results with 8.4% revenue growth and adjusted operating income surpassing analyst expectations, despite organic revenue missing forecasts. This strong performance, alongside reaffirmed full-year 2025 revenue guidance, supports W",
+      "category": "corporate_earnings",
+      "date": "2025-12-05 04:57",
+      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-wab/westinghouse-air-brake-technologies/news/should-wabtecs-margin-beat-and-84-revenue-growth-require-act"
+    },
+    {
+      "headline": " Prologis Q4 2025 Earnings Conference Call",
+      "score": 6,
+      "source": "Prologis",
+      "sentiment": "neutral",
+      "impact": " Prologis, Inc. (PLD) has scheduled its Q4 2025 Earnings Conference Call for January 21, 2026, at 12:00 pm EST. Investors can access a live broadcast of the call via a toll-free number for the US and Canada or an international number, with a telephonic replay available until February 4. This call wi",
+      "category": "corporate_earnings",
+      "date": "2025-12-05 03:10",
+      "link": "https://ir.prologis.com/events-presentations/events/detail/20260121-prologis-q4-2025-earnings-conference-call"
+    },
+    {
+      "headline": "Salesforce CEO calls AI a 'commodity feature', says the technology bolsters enterprise software",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Salesforce CEO Marc Benioff told CNBC's Jim Cramer how his company uses AI.",
+      "category": "commodities",
+      "date": "2025-12-04 23:31",
+      "link": "https://www.cnbc.com/2025/12/04/salesforce-ai-commodity-enterprise-software-technology.html"
+    },
+    {
+      "headline": "Paramount questions Warner Bros. Discovery on 'fairness and adequacy' of sale process: Read the full letter",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Paramount attorneys sent a letter to Warner Bros. Discovery questioning whether its acting in the best interest of shareholders. ",
+      "category": "global_markets",
+      "date": "2025-12-04 20:49",
+      "link": "https://www.cnbc.com/2025/12/04/paramount-questions-warner-bros-discovery-sale-process-letter.html"
+    },
+    {
+      "headline": "RFK Jr.'s vaccine panel defers vote on hepatitis B shot for babies until Friday",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "The current recommendation for babies to receive a hepatitis B shot within 24 hours of birth is credited with driving down infections in kids by 99%. ",
       "category": "global_markets",
-      "date": "2025-12-04 13:32",
+      "date": "2025-12-04 20:48",
       "link": "https://www.cnbc.com/2025/12/04/rfk-jr-vaccine-vote-hepatitis-b-babies.html"
     },
     {
-      "headline": "Bids for WBD are in. Here's what Paramount, Comcast and Netflix could do with the assets",
+      "headline": "Starbucks Workers United holds rally in NYC as strikes continue for a third week",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "WBD's coveted library of content includes franchises like DC's superheroes, Harry Potter, Lord of the Rings, Game of Thrones, Looney Tunes and Scooby-Doo.",
+      "sentiment": "positive",
+      "impact": "Several hundred picketers gathered outside of the Empire State Building, the site of a Starbucks Reserve location and the company's regional headquarters.",
       "category": "global_markets",
-      "date": "2025-12-04 13:11",
-      "link": "https://www.cnbc.com/2025/12/04/wbd-bids-paramount-comcast-netflix-assets.html"
+      "date": "2025-12-04 20:38",
+      "link": "https://www.cnbc.com/2025/12/04/starbucks-workers-united-union-strike-nyc-rally.html"
     },
     {
-      "headline": "Fanatics lands retail and merchandising deal for 2026 FIFA World Cup",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The 2026 World Cup, set to be played next summer across the U.S., Mexico and Canada, will have its in-venue retail operations led by Fanatics.",
-      "category": "global_markets",
-      "date": "2025-12-04 13:00",
-      "link": "https://www.cnbc.com/2025/12/04/2026-fifa-world-cup-fanatics-merchandising-deal.html"
-    },
-    {
-      "headline": "Market forecasts are usually wrong \u2014 but this inflation-fighting investment can see the future",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "\u2018It\u2019s tough to make predictions, especially about the future,\u2019 Yogi Berra said. He could have been talking about Wall Street.",
-      "category": "global_markets",
-      "date": "2025-12-04 12:50",
-      "link": "https://www.marketwatch.com/story/market-forecasts-are-usually-wrong-but-this-inflation-fighting-investment-can-see-the-future-f54efd7f"
-    },
-    {
-      "headline": "Where billionaires' investment firms placed their bets in November",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Family offices of Jeff Bezos and John Doerr are betting on AI's potential to improve how diseases are tracked and treated.",
-      "category": "global_markets",
-      "date": "2025-12-04 12:30",
-      "link": "https://www.cnbc.com/2025/12/04/billionaire-investments-family-office.html"
-    },
-    {
-      "headline": "Strategist who nailed stocks, bonds and oil this year warns of \u2018optimism shakeout\u2019 in early 2026",
+      "headline": "Why investors see Friday\u2019s inflation report as a gut check of vibes on the economy",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Look for more AI adoption to help broaden the stock market next year, but overly optimistic sentiment may need a reset early on, says strategist Warren Pies.",
-      "category": "fixed_income",
-      "date": "2025-12-04 12:13",
-      "link": "https://www.marketwatch.com/story/strategist-who-nailed-stocks-bonds-and-oil-this-year-warns-of-optimism-shakeout-in-early-2026-fcde8107"
+      "impact": "Stocks are back on the doorstep of record territory after a volatile month on Wall Street, but persistent inflation worries and souring consumer sentiment are keeping investors uneasy ahead of the Fed\u2019s last policy meeting of the year.",
+      "category": "global_markets",
+      "date": "2025-12-04 20:07",
+      "link": "https://www.marketwatch.com/story/why-investors-see-fridays-inflation-report-as-a-gut-check-of-vibes-on-the-economy-6e0b8cb1"
     },
     {
-      "headline": "GM\u2019s new \u2018Silicon Valley cowboy\u2019 eyes technology renaissance for automaker",
+      "headline": "The market's big swing from oversold to overbought \u2014 plus, the GE Vernova bull case",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2025-12-04 19:44",
+      "link": "https://www.cnbc.com/2025/12/04/the-markets-swing-from-oversold-to-overbought-plus-the-ge-vernova-bull-case.html"
+    },
+    {
+      "headline": "GM's new product chief Sterling Anderson eyes technology renaissance for automaker",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "GM Chief Product Officer Sterling Anderson has consolidated power to oversee\u00a0\"the end-to-end product lifecycle\" of manufacturing, engineering and software.",
       "category": "global_markets",
-      "date": "2025-12-04 12:06",
+      "date": "2025-12-04 19:34",
       "link": "https://www.cnbc.com/2025/12/04/general-motors-gm-sterling-anderson.html"
     },
     {
-      "headline": "CrowdStrike CEO talks relationship with AWS: 'We're now part of the ecosystem there'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "CrowdStrike CEO George Kurtz told CNBC's Jim Cramer how his company's partnership with with Amazon Web Services helps business.",
-      "category": "asia_economy",
-      "date": "2025-12-04 00:10",
-      "link": "https://www.cnbc.com/2025/12/03/crowdstrike-ceo-talks-relationship-with-aws-were-now-part-of-the-ecosystem-there.html"
-    },
-    {
-      "headline": "Congressional stock ownership is 'outrageous,' says Rep. Mike Levin, calling for ban",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Calls for a ban on congressional stock ownership have grown in recent years, and California Rep. Mike Levin said the measure has bipartisan support.",
-      "category": "global_markets",
-      "date": "2025-12-03 22:51",
-      "link": "https://www.cnbc.com/2025/12/03/congress-stock-ownership-ban.html"
-    },
-    {
-      "headline": "Why Snowflake\u2019s earnings beat isn\u2019t enough to lift its stock",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "An analyst notes that growth in product revenue slowed in the latest quarter. And Snowflake shares have meaningfully outperformed peers this year, raising the bar for results.",
-      "category": "corporate_earnings",
-      "date": "2025-12-03 22:41",
-      "link": "https://www.marketwatch.com/story/why-snowflakes-earnings-beat-isnt-enough-to-lift-its-stock-cc55d5ba"
-    },
-    {
-      "headline": "Trump proposes slashing fuel efficiency standards for passenger cars",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The oil industry group the American Petroleum Institute has lobbied the Trump administration to repeal the Biden fuel economy standards.",
-      "category": "global_markets",
-      "date": "2025-12-03 22:18",
-      "link": "https://www.cnbc.com/2025/12/03/trump-fuel-economy-standards.html"
-    },
-    {
-      "headline": "Salesforce cheers \u2018a powerful pipeline of future revenue\u2019 as its stock zooms higher",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Salesforce said its earnings reflect AI momentum. Will the results be enough to flip bearish sentiment for an extended stretch?",
-      "category": "corporate_earnings",
-      "date": "2025-12-03 21:52",
-      "link": "https://www.marketwatch.com/story/salesforce-cheers-a-powerful-pipeline-of-future-revenue-as-its-stock-zooms-higher-b613e9b5"
-    },
-    {
-      "headline": "Trump's South Korea tariff cuts are major boost for Hyundai and GM",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The Trump administration said the tariff rate for vehicles from South Korea will drop to 15% as part of a trade deal.",
-      "category": "global_markets",
-      "date": "2025-12-03 21:23",
-      "link": "https://www.cnbc.com/2025/12/03/trump-south-korea-tariffs-vehicles-hyundai-gm.html"
-    },
-    {
-      "headline": "Macy\u2019s posts strongest growth in more than 3 years, but strikes cautious note on holidays",
+      "headline": "'We're in it together': These friends chose 'co-buying' to achieve homeownership\u2014how they make shared lives and mortgages work",
       "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Macy's has seen signs of momentum as it invests in more staffing and sharper visual displays at its namesake department stores. ",
+      "impact": "With the cost of homeownership and mortgage rates continuing to rise, friends are co-buying homes together.",
       "category": "global_markets",
-      "date": "2025-12-03 21:17",
-      "link": "https://www.cnbc.com/2025/12/03/macys-m-earnings-q3-2025.html"
+      "date": "2025-12-04 19:24",
+      "link": "https://www.cnbc.com/2025/12/04/these-friends-chose-co-buying-to-achieve-homeownership.html"
+    },
+    {
+      "headline": "Tesla gains in 2026 Consumer Reports' auto brand rankings",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Tesla made notable strides in Consumer Reports' influential annual auto brand rankings, cracking the top 10 overall U.S. automotive brands.",
+      "category": "global_markets",
+      "date": "2025-12-04 18:54",
+      "link": "https://www.cnbc.com/2025/12/04/consumer-reports-auto-brand-rankings-tesla.html"
+    },
+    {
+      "headline": "These 5 high-quality stocks are set up for a big bounce back in 2026",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Headwinds remain, but these underperforming stocks are better positioned than most to go higher, regardless of any short-term hiccups.",
+      "category": "global_markets",
+      "date": "2025-12-04 18:16",
+      "link": "https://www.cnbc.com/2025/12/04/jim-cramer-says-these-5-stocks-are-set-for-a-bounce-back-in-2026.html"
     }
   ]
 }
