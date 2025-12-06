@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-06T06:17:41.867574",
+  "timestamp": "2025-12-06T14:19:36.625747",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
+    "avg_relevance": 7.2,
     "bullish": 11,
-    "neutral": 11,
-    "bearish": 3,
-    "high_priority": 8,
+    "neutral": 10,
+    "bearish": 4,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,10 +16,11 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
+    "MarketWatch": 5,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "MarketWatch": 7,
-    "The Wall Street Journal": 1,
+    "CNBC": 7,
+    "Investopedia": 1,
+    "Realtor.com News": 1,
     "Simply Wall Street": 1
   },
   "top_signals": [
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "This week\u2019s Fed meeting will highlight the central bank\u2019s challenge: Preventing a recession while tackling inflation",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "The Fed is widely expected to cut interest rates for the third meeting in a row when it meets this week.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-06 14:00",
+      "link": "https://www.marketwatch.com/story/this-weeks-fed-meeting-will-highlight-the-central-banks-challenge-preventing-a-recession-while-tackling-inflation-8861a13c"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,7 +131,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-06 06:17",
+      "date": "2025-12-06 14:19",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -144,16 +155,6 @@
       "link": "https://www.cnbc.com/2025/12/05/hepatitis-b-vaccine-babies-rfk-jr-cdc.html"
     },
     {
-      "headline": "Inflation didn\u2019t get any worse before government shutdown. Fed seen cutting rates again.",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The rate of U.S. inflation stayed stuck close to 3% before the government shutdown, a long delayed report showed, adding a final piece of the puzzle before the Federal Reserve votes on whether to cut interest rates again.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-05 15:09",
-      "link": "https://www.marketwatch.com/story/inflation-didnt-get-any-worse-before-government-shutdown-fed-seen-cutting-rates-again-50476075"
-    },
-    {
       "headline": "$208 million wiped out: Yieldstreet investors rack up more losses as firm rebrands to Willow Wealth",
       "score": 7,
       "source": "CNBC",
@@ -164,14 +165,14 @@
       "link": "https://www.cnbc.com/2025/12/05/yieldstreet-investors-losses-willow-wealth-rebrand.html"
     },
     {
-      "headline": "Stock Market Today: Dow, S&P 500 Slip; Hims, Meta in Focus \u2014 Live Updates",
+      "headline": "Stock futures are little changed ahead of key inflation data: Live updates",
       "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2025-12-04 22:31",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-12-04-2025"
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The PCE report on Friday will be the first one since the record-setting U.S. government shutdown.",
+      "category": "global_markets",
+      "date": "2025-12-04 23:53",
+      "link": "https://www.cnbc.com/2025/12/04/stock-market-today-live-updates.html"
     },
     {
       "headline": "Ulta shares pop as beauty retailer hikes sales and earnings outlook for second straight quarter",
@@ -184,14 +185,44 @@
       "link": "https://www.cnbc.com/2025/12/04/ulta-ulta-earnings-q3-2025.html"
     },
     {
-      "headline": " Is U.S. Bancorp (USB) Still Undervalued After Its 18% Profit Jump and Fee Income Strength?",
+      "headline": "S&P 500 Gains and Losses Today: Dollar General Soars on Strong Earnings; Intel Stock Slumps",
+      "score": 7,
+      "source": "Investopedia",
+      "sentiment": "positive",
+      "impact": "A discount retailer got a boost on Thursday, Dec. 4, 2025, as bargain-seeking shoppers bolstered its quarterly results, while a semiconductor stock retreated from its recent highs.",
+      "category": "us_equities",
+      "date": "2025-12-04 21:52",
+      "link": "https://www.investopedia.com/s-and-p-500-gains-and-losses-today-dollar-general-soars-on-strong-earnings-intel-stock-slumps-intc-dg-11862048"
+    },
+    {
+      "headline": "Mortgage Interest Rates Today: Mortgage Rates Drop to 6.19% as Likelihood of Another Fed Cut Rises",
+      "score": 7,
+      "source": "Realtor.com News",
+      "sentiment": "negative",
+      "impact": "Latest market news.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-04 17:07",
+      "link": "https://www.realtor.com/news/trends/mortgage-interest-rates-now-december-4-2025/"
+    },
+    {
+      "headline": "From the California gold rush to Sydney Sweeney: How denim became the most enduring garment in American fashion",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The American blue jean was created in 1873 by tailor Jacob Davis, who patented the design with Levi Strauss, founder of the eponymous denim retailer",
+      "category": "commodities",
+      "date": "2025-12-06 13:00",
+      "link": "https://www.cnbc.com/2025/12/06/the-history-of-denim-and-how-jeans-were-created.html"
+    },
+    {
+      "headline": " APA Corporation's (NASDAQ:APA) Share Price Boosted 25% But Its Business Prospects Need A Lift Too",
       "score": 6,
       "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": " U.S. Bancorp (USB) recently reported an 18% profit jump, with net income reaching $1.89 billion, highlighting the strength of its fee-based businesses. Despite a recent share price increase of 9.67% over the last month and a 3-year return of 37.36%, the stock is considered 7.9% undervalued with a n",
-      "category": "corporate_earnings",
-      "date": "2025-12-06 01:58",
-      "link": "https://simplywall.st/stocks/us/banks/nyse-usb/us-bancorp/news/is-us-bancorp-usb-still-undervalued-after-its-18-profit-jump"
+      "sentiment": "neutral",
+      "impact": " APA Corporation's shares have gained 25% recently, yet its P/E ratio of 6.4x is significantly lower than the market average, indicating investor apprehension. The company's earnings have declined by 37% over the last year and 59% over three years, with analysts forecasting only 0.8% annual growth f",
+      "category": "us_equities",
+      "date": "2025-12-06 12:53",
+      "link": "https://simplywall.st/stocks/us/energy/nasdaq-apa/apa/news/apa-corporations-nasdaqapa-share-price-boosted-25-but-its-bu"
     },
     {
       "headline": "Carvana gets a spot in the S&P 500 ahead of these tech stocks",
@@ -224,16 +255,6 @@
       "link": "https://www.marketwatch.com/story/the-fed-is-running-into-a-wall-of-its-own-making-10ee8e31"
     },
     {
-      "headline": "The Fed is running into a wall of its own making ahead of next week\u2019s interest-rate vote",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Charlie Garcia responds to readers concerned about their money and interest rates.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-05 22:23",
-      "link": "https://www.marketwatch.com/story/the-fed-is-running-into-a-wall-of-its-own-making-10ee8e31?mod=mw_rss_topstories"
-    },
-    {
       "headline": "Treasury market logs worst weekly rout since April, in a bad sign for borrowers",
       "score": 6,
       "source": "MarketWatch",
@@ -252,26 +273,6 @@
       "category": "global_markets",
       "date": "2025-12-05 20:41",
       "link": "https://www.cnbc.com/2025/12/05/netflix-warner-bros-deal-regulatory-questions.html"
-    },
-    {
-      "headline": "This crazy chart shows just how much cash OpenAI is burning as it chases AI profits",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "OpenAI has become, as of its latest $500 billion valuation, one of the most valuable privately held companies in the world. It has also been a cash-burning machine.",
-      "category": "corporate_earnings",
-      "date": "2025-12-05 20:39",
-      "link": "https://www.marketwatch.com/story/this-crazy-chart-shows-just-how-much-cash-openai-is-burning-as-it-chases-ai-profits-81e7ffef"
-    },
-    {
-      "headline": "What Masa Son's plan to create 'Trump Industrial Parks' means for Corning stock",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2025-12-05 20:03",
-      "link": "https://www.cnbc.com/2025/12/05/what-masa-sons-plan-to-create-trump-industrial-parks-means-for-corning.html"
     }
   ]
 }
