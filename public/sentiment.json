@@ -1,27 +1,26 @@
 {
-  "timestamp": "2025-12-08T14:27:19.467860",
+  "timestamp": "2025-12-09T06:20:21.384309",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 10,
-    "neutral": 11,
-    "bearish": 4,
-    "high_priority": 10,
-    "material_events": 4
+    "bullish": 8,
+    "neutral": 15,
+    "bearish": 2,
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
+    "MarketWatch": 3,
     "Reuters": 3,
-    "Bloomberg": 2,
-    "MarketWatch": 5,
-    "Investopedia": 1,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "Investing.com": 1,
-    "Barchart.com": 1
+    "CNBC": 9,
+    "TipRanks": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -31,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,8 +60,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Treasury yields push higher as bond investors reach \u2018disappointment phase\u2019 of Fed\u2019s rate-cutting cycle",
+      "score": 9,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Yields on long-dated U.S. government debt continue to rise despite the likelihood of a Federal Reserve interest-rate cut on Wednesday, and this is threatening to undermine the Trump administration\u2019s goal of bringing down borrowing costs.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-08 21:22",
+      "link": "https://www.marketwatch.com/story/treasury-yields-push-higher-as-bond-investors-reach-disappointment-phase-of-feds-rate-cutting-cycle-100b5692"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -71,7 +80,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +100,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,28 +110,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "This week\u2019s Fed meeting will highlight the central bank\u2019s challenge: Preventing a recession while tackling inflation",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The Fed is widely expected to cut interest rates for the third meeting in a row when it meets this week.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-08 13:16",
-      "link": "https://www.marketwatch.com/story/this-weeks-fed-meeting-will-highlight-the-central-banks-challenge-preventing-a-recession-while-tackling-inflation-8861a13c?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "What to Expect in Markets This Week: Fed Interest Rate Decision and Powell Remarks; Earnings From Oracle, Broadcom",
-      "score": 8,
-      "source": "Investopedia",
-      "sentiment": "neutral",
-      "impact": "Coming up: Federal Reserve interest rate decision, Fed Chair Jerome Powell remarks, trade deficit data, earnings from Oracle, Broadcom, GameStop, and Adobe.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-07 10:00",
-      "link": "https://www.investopedia.com/what-to-expect-in-markets-this-week-fed-interest-rate-decision-powell-remarks-earnings-from-oracle-broadcom-gamestop-orcl-avgo-gme-11862148"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -131,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -141,138 +130,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-08 14:27",
+      "date": "2025-12-09 06:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "RFK Jr.\u2019s vaccine panel weakens recommendation on hepatitis B shot for babies, scrapping universal guidance",
+      "headline": "Japan Confirms Deeper GDP Decline, Backing Takaichi\u2019s Stimulus",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Japan\u2019s economy shrank in the three months through September, the government confirmed in a revised report, giving some justification for Prime Minister Sanae Takaichi\u2019s stimulus package announced last month.",
+      "category": "global_markets",
+      "date": "2025-12-08 01:20",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-08/japan-confirms-deeper-gdp-contraction-backing-stimulus-package"
+    },
+    {
+      "headline": "Bessent says U.S. will finish the year with 3% GDP growth, sees 'very strong' holiday season",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Some public health experts expressed concerns the recommendation could lead to an increase in hepatitis B infections in babies.",
-      "category": "corporate_earnings",
-      "date": "2025-12-05 18:04",
-      "link": "https://www.cnbc.com/2025/12/05/hepatitis-b-vaccine-babies-rfk-jr-cdc.html"
-    },
-    {
-      "headline": "The Club's top 10 things to watch in the stock market Monday",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Stocks were little changed early this morning after Wall Street notched another winning week.",
-      "category": "global_markets",
-      "date": "2025-12-08 14:00",
-      "link": "https://www.cnbc.com/2025/12/08/the-clubs-top-10-things-to-watch-in-the-stock-market-monday.html"
-    },
-    {
-      "headline": "United maintains elite status requirements for 2027, but here's what's changing",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Airlines have spent years grappling with having hordes of members in elite frequent flyer programs.",
-      "category": "global_markets",
-      "date": "2025-12-08 14:00",
-      "link": "https://www.cnbc.com/2025/12/08/united-airlines-mileage-plus-frequent-flyer-changes.html"
-    },
-    {
-      "headline": "Federal Signal Corp stock hits all-time high at 128.51 USD",
-      "score": 6,
-      "source": "Investing.com",
       "sentiment": "positive",
-      "impact": "Federal Signal Corp's stock reached an all-time high of $128.51, driven by strong financial health, momentum, and profitability metrics, according to InvestingPro data. The company reported robust Q2 2025 earnings, exceeding market expectations with an adjusted EPS of $1.17 and revenue of $565 milli",
-      "category": "us_monetary_policy",
-      "date": "2025-12-08 13:34",
-      "link": "https://www.investing.com/news/company-news/federal-signal-corp-stock-hits-alltime-high-at-12851-usd-93CH-4185999"
-    },
-    {
-      "headline": "How to beat inflation over the next year in one investing move",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Short-term interest rates are too high. This sets  up an opportunity in 1-year Treasury bills.",
+      "impact": "Treasury Secretary Scott Bessent said the economy will end the year on strong footing and said the president was disappointed in economic coverage in the media.",
       "category": "global_markets",
-      "date": "2025-12-08 13:15",
-      "link": "https://www.marketwatch.com/story/how-to-beat-inflation-over-the-next-year-in-one-investing-move-2d51f3f7"
+      "date": "2025-12-07 20:14",
+      "link": "https://www.cnbc.com/2025/12/07/bessent-gdp-growth.html"
     },
     {
-      "headline": "Rising stocks and IPOs helped create 287 new billionaires this year",
+      "headline": "Clearside Biomedical Delists from Nasdaq Amid Bankruptcy",
       "score": 6,
-      "source": "CNBC",
+      "source": "TipRanks",
       "sentiment": "neutral",
-      "impact": "The U.S. led the global billionaire increase, with 92 new self-made billionaires representing wealth of $180 billion, according to UBS.",
-      "category": "global_markets",
-      "date": "2025-12-08 13:15",
-      "link": "https://www.cnbc.com/2025/12/08/rising-stocks-ipos-new-billionaires-2025.html"
-    },
-    {
-      "headline": "Is Delta Air Lines Stock Underperforming the S&P 500?",
-      "score": 6,
-      "source": "Barchart.com",
-      "sentiment": "positive",
-      "impact": "Delta Air Lines (DAL) has seen its stock increase by 9.7% over the past three months, outperforming the S&P 500. However, its year-to-date and 52-week performance lags behind the S&P 500, with an increase of 10.9% and 2% respectively, compared to the index's 16.8% and 13.1% returns. Despite this, an",
+      "impact": "Clearside Biomedical (CLSDQ) has delisted its common stock from Nasdaq and terminated its registration under the Exchange Act following a voluntary Chapter 11 bankruptcy filing. The stock began trading on the OTC Pink Limited Market on December 1, 2025. This move is expected to reduce SEC reporting ",
       "category": "us_equities",
-      "date": "2025-12-08 12:57",
-      "link": "https://www.barchart.com/story/news/36505158/is-delta-air-lines-stock-underperforming-the-s-p-500"
+      "date": "2025-12-09 05:10",
+      "link": "https://www.tipranks.com/news/company-announcements/clearside-biomedical-delists-from-nasdaq-amid-bankruptcy"
     },
     {
-      "headline": "How recent grads are dealing with the shrinking pool of entry-level jobs: 'None of us are really thriving'",
+      "headline": "Castle Biosciences (NASDAQ:CSTL) Insider Sells $53,600.17 in Stock",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Gen Z is now figuring out how to compete in an increasingly small job market and deciding whether a college degree is still the key to landing a stable job.",
-      "category": "global_markets",
-      "date": "2025-12-08 12:30",
-      "link": "https://www.cnbc.com/2025/12/08/how-recent-grads-are-dealing-with-the-shrinking-pool-of-entry-level-jobs.html"
-    },
-    {
-      "headline": "Firm that called 2025 nearly perfectly \u2014 until a moment of doubt \u2014 now has highest S&P 500 target on Wall Street",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Oppenheimer says the S&P 500 will push ahead in 2026, boosted by the economy and corporate profits that are likely to keep holding up.",
+      "impact": " Derek Maetzold, a director at Castle Biosciences (NASDAQ:CSTL), sold 1,339 shares of the company's stock for a total of $53,600.17, reducing his stake by 3.44%. The transaction occurred on December 4th at an average price of $40.03 per share. Castle Biosciences recently reported stronger-than-expec",
       "category": "us_equities",
-      "date": "2025-12-08 11:42",
-      "link": "https://www.marketwatch.com/story/firm-that-called-2025-nearly-perfectly-until-a-moment-of-doubt-now-has-highest-s-p-500-target-on-wall-street-be6a3a08"
+      "date": "2025-12-09 05:10",
+      "link": "https://www.marketbeat.com/instant-alerts/castle-biosciences-nasdaqcstl-insider-sells-5360017-in-stock-2025-12-08/"
     },
     {
-      "headline": "Berkshire Hathaway's Todd Combs, investment lieutenant to Buffett and Geico CEO, is leaving for JPMorgan",
+      "headline": "This financial company was just added to the S&P 500, and its stock is surging",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Ares is getting the nod over Strategy as the index looks to replace Kellanova.",
+      "category": "us_equities",
+      "date": "2025-12-08 23:04",
+      "link": "https://www.marketwatch.com/story/this-financial-company-was-just-added-to-the-s-p-500-and-its-stock-is-surging-db3d7dd3"
+    },
+    {
+      "headline": "Paramount Skydance launches hostile bid for WBD 'to finish what we started,' CEO Ellison tells CNBC",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Combs, 54, will be joining JPMorgan Chase, where he already served on the board, as head of the bank's new Security and Resiliency Initiative.",
+      "impact": "Netflix won a bidding war for the Warner Bros. film studio and HBO Max streaming service, but it doesn't plan to buy WBD's TV networks. ",
       "category": "global_markets",
-      "date": "2025-12-08 11:27",
-      "link": "https://www.cnbc.com/2025/12/08/berkshire-hathaways-todd-combs-investment-lieutenant-to-buffett-and-geico-ceo-is-leaving-for-jpmorgan.html"
+      "date": "2025-12-08 22:25",
+      "link": "https://www.cnbc.com/2025/12/08/paramount-skydance-hostile-bid-wbd-netflix.html"
     },
     {
-      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
+      "headline": "Stellantis to bring tiny Fiat car to U.S. following Trump remarks",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "We're in the final stretch of 2025 and entering a deciding week on Wall Street.",
+      "impact": "Stellantis on Monday announced it will offer an all-electric small \"car\" called the Fiat Topolino in the U.S.",
       "category": "global_markets",
-      "date": "2025-12-07 23:23",
-      "link": "https://www.cnbc.com/2025/12/07/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
+      "date": "2025-12-08 22:23",
+      "link": "https://www.cnbc.com/2025/12/08/fiat-stellantis-trump.html"
     },
     {
-      "headline": "U.S. stock futures flat as investors await Fed meeting \u2014 and likely a rate cut",
+      "headline": "Mortgage rates are surging ahead of the Fed\u2019s expected rate cut. What gives?",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "U.S. stock futures were little changed Sunday, as investors anticipated another interest-rate cut by the Federal Reserve later this week.",
+      "impact": "Mortgage rates are rising sharply even though the Federal Reserve is expected to cut interest rates later this week.",
       "category": "us_monetary_policy",
-      "date": "2025-12-07 23:21",
-      "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-fed-meeting-and-likely-a-rate-cut-ecf9f5bc"
+      "date": "2025-12-08 21:40",
+      "link": "https://www.marketwatch.com/story/mortgage-rates-are-surging-ahead-of-the-feds-expected-rate-cut-what-gives-cbb630ea"
     },
     {
-      "headline": "The Fed meeting this week will determine if investors get new all-time highs or coal for Christmas",
+      "headline": "Here's what to expect in Paramount's quest to elbow out Netflix and buy Warner Bros. Discovery",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Markets are expecting the Federal Reserve to cut interst rates at it next meeting, but some traders predict volatility.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-07 17:00",
-      "link": "https://www.marketwatch.com/story/the-fed-meeting-this-week-will-determine-if-investors-get-new-all-time-highs-or-coal-for-christmas-8ddf2d3f"
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Paramount's all-cash tender offer sets up a potentially months-long battle with Netflix to convince WBD shareholders which bid is best.",
+      "category": "global_markets",
+      "date": "2025-12-08 20:55",
+      "link": "https://www.cnbc.com/2025/12/08/paramount-wbd-netflix-hostile-bid-what-to-expect.html"
+    },
+    {
+      "headline": "Broadcom is firing on all cylinders, and Wall Street can't get enough of the stock",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Broadcom shares hit an all-time high during Monday's trading session.",
+      "category": "us_equities",
+      "date": "2025-12-08 20:53",
+      "link": "https://www.cnbc.com/2025/12/08/broadcom-is-firing-on-all-cylinders-and-wall-street-cant-get-enough-of-the-stock.html"
+    },
+    {
+      "headline": "Google to launch first of its AI glasses in 2026",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "That includes the first of Google's AI glasses in partnership with Warby Parker.",
+      "category": "global_markets",
+      "date": "2025-12-08 20:10",
+      "link": "https://www.cnbc.com/2025/12/08/google-ai-glasses-launch-2026.html"
+    },
+    {
+      "headline": "Boeing closes key acquisition of a major supplier \u2014 plus, Nvidia gets good news on China chips",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "asia_economy",
+      "date": "2025-12-08 19:42",
+      "link": "https://www.cnbc.com/2025/12/08/boeing-closes-a-key-acquisition-plus-nvidia-gets-good-news-on-china-chips.html"
+    },
+    {
+      "headline": "McDonald\u2019s will assess if franchisees are offering value for customers under new standards",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "McDonald's has leaned into value to appeal to cash-strapped diners who have been visiting its restaurants less frequently.",
+      "category": "global_markets",
+      "date": "2025-12-08 17:14",
+      "link": "https://www.cnbc.com/2025/12/08/mcdonalds-value-franchising-standards.html"
+    },
+    {
+      "headline": "Comcast president outlines unsuccessful WBD offer and future of NBC's Peacock",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Comcast made multiple offers for Warner Bros. Discovery's streaming and studio assets before Netflix was deemed the winning bidder.",
+      "category": "global_markets",
+      "date": "2025-12-08 17:13",
+      "link": "https://www.cnbc.com/2025/12/08/comcast-president-unsuccessful-wbd-offer-future-of-peacock.html"
     }
   ]
 }
