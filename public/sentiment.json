@@ -1,24 +1,26 @@
 {
-  "timestamp": "2025-12-09T14:26:41.772247",
+  "timestamp": "2025-12-10T06:20:44.217475",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 7,
-    "neutral": 15,
-    "bearish": 3,
-    "high_priority": 9,
-    "material_events": 5
+    "avg_relevance": 6.9,
+    "bullish": 8,
+    "neutral": 17,
+    "bearish": 0,
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "MarketWatch": 3,
     "Reuters": 3,
-    "Bloomberg": 3,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 11
+    "Simply Wall Street": 2,
+    "Finviz": 1,
+    "CNBC": 11,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -28,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,18 +60,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Treasury yields push higher as bond investors reach \u2018disappointment phase\u2019 of Fed\u2019s rate-cutting cycle",
-      "score": 9,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Yields on long-dated U.S. government debt continue to rise despite the likelihood of a Federal Reserve interest-rate cut on Wednesday, and this is threatening to undermine the Trump administration\u2019s goal of bringing down borrowing costs.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-08 21:22",
-      "link": "https://www.marketwatch.com/story/treasury-yields-push-higher-as-bond-investors-reach-disappointment-phase-of-feds-rate-cutting-cycle-100b5692"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -78,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -88,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -98,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -108,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -118,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -128,18 +120,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-09 14:26",
+      "date": "2025-12-10 06:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Japan Confirms Deeper GDP Decline, Backing Takaichi\u2019s Stimulus",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Japan\u2019s economy shrank in the three months through September, the government confirmed in a revised report, giving some justification for Prime Minister Sanae Takaichi\u2019s stimulus package announced last month.",
+      "headline": "Does Newmont\u2019s 145% 2025 Rally Match Its Gold Fueled Earnings and Cash Flow Outlook?",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": " Newmont (NYSE: NEM) has seen a significant 145.2% rally year-to-date, with strong tailwinds from higher gold prices. A Discounted Cash Flow analysis suggests an intrinsic value of $124.59 per share, indicating a 24.5% discount to the current market price, while its current P/E ratio of 14.3x is bel",
+      "category": "commodities",
+      "date": "2025-12-10 03:43",
+      "link": "https://simplywall.st/stocks/us/materials/nyse-nem/newmont/news/does-newmonts-145-2025-rally-match-its-gold-fueled-earnings"
+    },
+    {
+      "headline": "Southwest Airlines (LUV) Valuation After 2025 Profit Cut Linked to Extended U.S. Government Shutdown",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "neutral",
+      "impact": " Southwest Airlines (LUV) has revised its 2025 profit outlook downwards due to an extended U.S. government shutdown impacting travel demand and fuel costs, although management notes a recovery in bookings to pre-shutdown levels. Despite this, the stock has seen a recent rebound, with a 30-day share ",
+      "category": "us_equities",
+      "date": "2025-12-10 03:43",
+      "link": "https://simplywall.st/stocks/us/transportation/nyse-luv/southwest-airlines/news/southwest-airlines-luv-valuation-after-2025-profit-cut-linke"
+    },
+    {
+      "headline": "Lululemon (LULU) Q3 Earnings: What To Expect",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "neutral",
+      "impact": " Lululemon (LULU) will report its Q3 earnings this Thursday afternoon, with analysts expecting a 3.3% year-on-year revenue growth to $2.48 billion and adjusted earnings of $2.21 per share. The company missed revenue expectations last quarter, and its full-year EPS guidance fell short of analyst esti",
+      "category": "corporate_earnings",
+      "date": "2025-12-10 03:28",
+      "link": "https://finviz.com/news/250201/lululemon-lulu-q3-earnings-what-to-expect"
+    },
+    {
+      "headline": "Apple gets a big price target hike, and Wells Fargo plants a big dealmaking flag",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Citigroup raises its price target on Apple stock. Wells Fargo wants to become a top player in Wall Street dealmaking.",
       "category": "global_markets",
-      "date": "2025-12-08 01:20",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-08/japan-confirms-deeper-gdp-contraction-backing-stimulus-package"
+      "date": "2025-12-09 21:46",
+      "link": "https://www.cnbc.com/2025/12/09/apple-gets-a-big-price-target-hike-and-wells-fargo-plants-a-big-dealmaking-flag.html"
+    },
+    {
+      "headline": "There's a growing ambition gap between men and women at work, says new report\u2014here's why",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Experts say companies are rolling back their commitments to women's career advancement, which is leading to an ambition gap.",
+      "category": "global_markets",
+      "date": "2025-12-09 21:41",
+      "link": "https://www.cnbc.com/2025/12/09/lean-in-x-mckinsey-report-growing-ambition-gap-between-men-and-women-at-work.html"
+    },
+    {
+      "headline": "Can Adobe\u2019s \u2018incredibly frustrating stock\u2019 turn around after earnings? Wall Street is doubtful.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Adobe\u2019s stock is cheap and the company is better monetizing AI. But analysts think defeating negative investor sentiment could take some time.",
+      "category": "us_equities",
+      "date": "2025-12-09 21:02",
+      "link": "https://www.marketwatch.com/story/can-adobes-incredibly-frustrating-stock-turn-around-after-earnings-wall-street-is-doubtful-ce0db7eb"
+    },
+    {
+      "headline": "Eli Lilly to build $6 billion manufacturing plant in Alabama to help make upcoming obesity pill, other drugs",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "That added production capacity for Eli Lilly's obesity pill, orforglipron, is crucial as the company races to file for its approval. ",
+      "category": "global_markets",
+      "date": "2025-12-09 21:02",
+      "link": "https://www.cnbc.com/2025/12/09/eli-lilly-6-billion-alabama-manufacturing-plant-obesity-pill.html"
+    },
+    {
+      "headline": "Fifth Third signs deal making fintech firm Brex the provider of its commercial cards",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The move shows how some banks are choosing to partner with fintech firms rather than building their own platforms to keep up with evolving tech expectations.",
+      "category": "global_markets",
+      "date": "2025-12-09 20:26",
+      "link": "https://www.cnbc.com/2025/12/09/fifth-third-bank-brex-commercial-cards-agreement.html"
+    },
+    {
+      "headline": "2 bank CEOs talk up the consumer \u2014 plus, a buy call on a struggling portfolio stock",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2025-12-09 19:41",
+      "link": "https://www.cnbc.com/2025/12/09/2-bank-ceos-talk-up-the-consumer-plus-another-danaher-buy-call.html"
+    },
+    {
+      "headline": "Take a look inside Target's new fashion-focused store in New York's SoHo neighborhood",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Target's remodeled store opens as the company tries to get back to growth and attract sales during the critical holiday season.",
+      "category": "global_markets",
+      "date": "2025-12-09 19:05",
+      "link": "https://www.cnbc.com/2025/12/09/new-target-store-soho-new-york-fashion.html"
+    },
+    {
+      "headline": "FDA approves Merck drug for decimated U.S. cattle herds to stop screwworm",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "There's hope for U.S. cattle ranchers in the battle to stop the spread of screwworm at a time of decimated herds with the FDA approving a new Merck treatment.",
+      "category": "global_markets",
+      "date": "2025-12-09 16:55",
+      "link": "https://www.cnbc.com/2025/12/09/fda-merck-screwworm-treatment-cattle-herd-decline.html"
+    },
+    {
+      "headline": "Commercial real estate deal volume drops for the first time in nearly two years",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Commercial real estate has had a rough year after gaining momentum coming out of the pandemic.",
+      "category": "global_markets",
+      "date": "2025-12-09 15:42",
+      "link": "https://www.cnbc.com/2025/12/09/commercial-real-estate-deals-october.html"
+    },
+    {
+      "headline": "30-year-old's poetry side hustle brings in $12,000 a month\u2014how he built it",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Rashan Brown's New York-based side hustle Poetry me, please \u2014 a series of poetry showcase events \u2014 brings in six figures per year. Here's how he built it.",
+      "category": "global_markets",
+      "date": "2025-12-09 15:05",
+      "link": "https://www.cnbc.com/2025/12/08/poetry-me-please-founder-how-i-built-creative-six-figure-side-hustle.html"
+    },
+    {
+      "headline": "Judge unseals Ghislaine Maxwell grand jury materials, citing Epstein files act",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Jeffrey Epstein, a former friend of President Donald Trump, killed himself in jail in August 2019, weeks after being arrested on child sex trafficking charges.",
+      "category": "global_markets",
+      "date": "2025-12-09 14:56",
+      "link": "https://www.cnbc.com/2025/12/09/ghislaine-maxwell-jeffrey-epstein-trump-grand-jury.html"
     },
     {
       "headline": "The No. 1 thing parents need to stop doing when buying gifts for their kids: 'It can backfire,' says expert",
@@ -150,126 +272,6 @@
       "category": "global_markets",
       "date": "2025-12-09 14:08",
       "link": "https://www.cnbc.com/2025/12/09/the-no-1-thing-parents-need-to-stop-doing-when-buying-gifts-for-kids-it-can-backfire.html"
-    },
-    {
-      "headline": "Corporate America is upbeat on economy, but less so on President Trump's handling of it: CNBC CFO survey",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A majority of CFOs are optimistic on the economy and see no recession in 2026, but their view of Trump's handling of the job of president is lukewarm at best.",
-      "category": "global_markets",
-      "date": "2025-12-09 13:57",
-      "link": "https://www.cnbc.com/2025/12/09/trump-economy-inflation-interest-rates-market.html"
-    },
-    {
-      "headline": "AI's potential excites executives and investors, but general public remains skeptical, survey says",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Three years after the launch of ChatGPT, corporate executives and the general public have widely divergent views on the potential of artificial intelligence.",
-      "category": "global_markets",
-      "date": "2025-12-09 11:41",
-      "link": "https://www.cnbc.com/2025/12/09/just-capital-survey-investor-corporate-and-public-sentiments-on-ai-.html"
-    },
-    {
-      "headline": "This financial company was just added to the S&P 500, and its stock is surging",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Ares is getting the nod over Strategy as the index looks to replace Kellanova.",
-      "category": "us_equities",
-      "date": "2025-12-08 23:04",
-      "link": "https://www.marketwatch.com/story/this-financial-company-was-just-added-to-the-s-p-500-and-its-stock-is-surging-db3d7dd3"
-    },
-    {
-      "headline": "Paramount Skydance launches hostile bid for WBD 'to finish what we started,' CEO Ellison tells CNBC",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Netflix won a bidding war for the Warner Bros. film studio and HBO Max streaming service, but it doesn't plan to buy WBD's TV networks. ",
-      "category": "global_markets",
-      "date": "2025-12-08 22:25",
-      "link": "https://www.cnbc.com/2025/12/08/paramount-skydance-hostile-bid-wbd-netflix.html"
-    },
-    {
-      "headline": "Stellantis to bring tiny Fiat car to U.S. following Trump remarks",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Stellantis on Monday announced it will offer an all-electric small \"car\" called the Fiat Topolino in the U.S.",
-      "category": "global_markets",
-      "date": "2025-12-08 22:23",
-      "link": "https://www.cnbc.com/2025/12/08/fiat-stellantis-trump.html"
-    },
-    {
-      "headline": "Mortgage rates are surging ahead of the Fed\u2019s expected rate cut. What gives?",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Mortgage rates are rising sharply even though the Federal Reserve is expected to cut interest rates later this week.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-08 21:40",
-      "link": "https://www.marketwatch.com/story/mortgage-rates-are-surging-ahead-of-the-feds-expected-rate-cut-what-gives-cbb630ea"
-    },
-    {
-      "headline": "Here's what to expect in Paramount's quest to elbow out Netflix and buy Warner Bros. Discovery",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Paramount's all-cash tender offer sets up a potentially months-long battle with Netflix to convince WBD shareholders which bid is best.",
-      "category": "global_markets",
-      "date": "2025-12-08 20:55",
-      "link": "https://www.cnbc.com/2025/12/08/paramount-wbd-netflix-hostile-bid-what-to-expect.html"
-    },
-    {
-      "headline": "Comcast president outlines unsuccessful WBD offer and future of NBC's Peacock",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Comcast made multiple offers for Warner Bros. Discovery's streaming and studio assets before Netflix was deemed the winning bidder. ",
-      "category": "global_markets",
-      "date": "2025-12-08 18:26",
-      "link": "https://www.cnbc.com/2025/12/08/comcast-president-unsuccessful-wbd-offer-future-of-peacock.html"
-    },
-    {
-      "headline": "McDonald\u2019s will assess if franchisees are offering value for customers under new standards",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "McDonald's has leaned into value to appeal to cash-strapped diners who have been visiting its restaurants less frequently.",
-      "category": "global_markets",
-      "date": "2025-12-08 17:14",
-      "link": "https://www.cnbc.com/2025/12/08/mcdonalds-value-franchising-standards.html"
-    },
-    {
-      "headline": "Rising stocks and IPOs helped create 287 new billionaires this year",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The U.S. led the global billionaire increase, with 92 new self-made billionaires representing wealth of $180 billion, according to UBS.",
-      "category": "global_markets",
-      "date": "2025-12-08 15:13",
-      "link": "https://www.cnbc.com/2025/12/08/rising-stocks-ipos-new-billionaires-2025.html"
-    },
-    {
-      "headline": "United maintains elite status requirements for 2027, but here's what's changing",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Airlines have spent years grappling with having hordes of members in elite frequent flyer programs.",
-      "category": "global_markets",
-      "date": "2025-12-08 14:00",
-      "link": "https://www.cnbc.com/2025/12/08/united-airlines-mileage-plus-frequent-flyer-changes.html"
-    },
-    {
-      "headline": "Stock futures are little changed after Wall Street notches back-to-back winning weeks: Live updates",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The three major indexes are coming off their second straight winning weeks.",
-      "category": "us_equities",
-      "date": "2025-12-08 12:44",
-      "link": "https://www.cnbc.com/2025/12/07/stock-market-today-live-updates.html"
     }
   ]
 }
