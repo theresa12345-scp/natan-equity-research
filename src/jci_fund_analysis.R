@@ -410,7 +410,7 @@ setwd("~/Downloads")
 
 cat("\n========================================\n")
 cat("AXA MANDIRI - JCI FUND SELECTION\n")
-cat("Investment Analysis\n")
+cat("Investment Analyst Intern Analysis\n")
 cat("========================================\n\n")
 
 #============================================================================
@@ -559,6 +559,138 @@ merged <- merged %>%
       TRUE ~ "EXCLUDE"
     )
   )
+
+#============================================================================
+# SHARPE & TREYNOR RATIO CALCULATIONS
+#============================================================================
+# Sharpe Ratio = (Rp - Rf) / σp  --> Excess return per unit of TOTAL risk
+# Treynor Ratio = (Rp - Rf) / β  --> Excess return per unit of SYSTEMATIC risk
+# Information Ratio = Alpha / TE --> Alpha per unit of ACTIVE risk
+#============================================================================
+
+cat("========================================\n")
+cat("CALCULATING RISK-ADJUSTED METRICS\n")
+cat("========================================\n\n")
+
+# Market parameters (JCI historical)
+MARKET_RETURN <- 0.08        # JCI historical average ~8%
+MARKET_VOLATILITY <- 0.22    # JCI historical annual volatility ~22%
+
+cat("Parameters:\n")
+cat("  Risk-Free Rate (Rf):", RISK_FREE_RATE * 100, "%\n")
+cat("  Market Return (Rm):", MARKET_RETURN * 100, "%\n")
+cat("  Market Volatility (σm):", MARKET_VOLATILITY * 100, "%\n")
+cat("  Market Risk Premium:", (MARKET_RETURN - RISK_FREE_RATE) * 100, "%\n\n")
+
+merged <- merged %>%
+  mutate(
+    # Estimate fund volatility using beta: σp = |β| × σm
+    Est_Volatility = abs(Beta) * MARKET_VOLATILITY,
+
+    # Estimate total return: Rp = Alpha + β × Rm
+    Est_Total_Return = Alpha_annualized + (Beta * MARKET_RETURN),
+
+    # SHARPE RATIO = (Rp - Rf) / σp
+    Sharpe_Ratio = (Est_Total_Return - RISK_FREE_RATE) / Est_Volatility,
+    Sharpe_Ratio = ifelse(Est_Volatility == 0 | is.na(Est_Volatility), NA_real_, Sharpe_Ratio),
+
+    # TREYNOR RATIO = (Rp - Rf) / β
+    Treynor_Ratio = (Est_Total_Return - RISK_FREE_RATE) / Beta,
+    Treynor_Ratio = ifelse(Beta <= 0 | is.na(Beta), NA_real_, Treynor_Ratio),
+
+    # INFORMATION RATIO = Alpha / Tracking Error
+    # Estimate tracking error: TE ≈ |1 - β| × σm + base TE
+    Est_Tracking_Error = abs(1 - Beta) * MARKET_VOLATILITY + 0.02,
+    Information_Ratio = Alpha_annualized / Est_Tracking_Error,
+
+    # Sharpe Rating
+    Sharpe_Rating = case_when(
+      Sharpe_Ratio >= 1.0 ~ "Excellent (>=1.0)",
+      Sharpe_Ratio >= 0.5 ~ "Good (0.5-1.0)",
+      Sharpe_Ratio >= 0.0 ~ "Acceptable (0-0.5)",
+      Sharpe_Ratio < 0.0 ~ "Poor (<0)",
+      TRUE ~ "N/A"
+    ),
+
+    # Treynor Rating (compare to market risk premium)
+    Market_Treynor = MARKET_RETURN - RISK_FREE_RATE,
+    Treynor_Rating = case_when(
+      Treynor_Ratio >= Market_Treynor * 1.5 ~ "Excellent (>1.5x Mkt)",
+      Treynor_Ratio >= Market_Treynor ~ "Good (>= Mkt)",
+      Treynor_Ratio >= 0 ~ "Below Market",
+      Treynor_Ratio < 0 ~ "Negative",
+      TRUE ~ "N/A"
+    ),
+
+    # Information Ratio Rating
+    IR_Rating = case_when(
+      Information_Ratio >= 0.5 ~ "Excellent (>=0.5)",
+      Information_Ratio >= 0.25 ~ "Good (0.25-0.5)",
+      Information_Ratio >= 0 ~ "Acceptable (0-0.25)",
+      Information_Ratio < 0 ~ "Negative Alpha",
+      TRUE ~ "N/A"
+    ),
+
+    # Rankings
+    Sharpe_Rank = rank(-Sharpe_Ratio, na.last = "keep", ties.method = "min"),
+    Treynor_Rank = rank(-Treynor_Ratio, na.last = "keep", ties.method = "min"),
+    IR_Rank = rank(-Information_Ratio, na.last = "keep", ties.method = "min"),
+
+    # Composite risk-adjusted rank (average of all three)
+    Composite_RA_Score = (Sharpe_Rank + Treynor_Rank + IR_Rank) / 3,
+    Overall_RA_Rank = rank(Composite_RA_Score, na.last = "keep", ties.method = "min")
+  )
+
+# Print summary statistics
+cat("📊 SHARPE RATIO SUMMARY:\n")
+cat("   Mean:", round(mean(merged$Sharpe_Ratio, na.rm = TRUE), 3), "\n")
+cat("   Median:", round(median(merged$Sharpe_Ratio, na.rm = TRUE), 3), "\n")
+cat("   Min:", round(min(merged$Sharpe_Ratio, na.rm = TRUE), 3), "\n")
+cat("   Max:", round(max(merged$Sharpe_Ratio, na.rm = TRUE), 3), "\n")
+cat("   Funds with Sharpe >= 0.5 (Good):", sum(merged$Sharpe_Ratio >= 0.5, na.rm = TRUE), "\n")
+cat("   Funds with Sharpe >= 1.0 (Excellent):", sum(merged$Sharpe_Ratio >= 1.0, na.rm = TRUE), "\n\n")
+
+cat("📊 TREYNOR RATIO SUMMARY:\n")
+cat("   Mean:", round(mean(merged$Treynor_Ratio, na.rm = TRUE), 4), "\n")
+cat("   Median:", round(median(merged$Treynor_Ratio, na.rm = TRUE), 4), "\n")
+cat("   Market Benchmark:", round(MARKET_RETURN - RISK_FREE_RATE, 4), "\n")
+cat("   Funds beating market:", sum(merged$Treynor_Ratio > (MARKET_RETURN - RISK_FREE_RATE), na.rm = TRUE), "\n\n")
+
+cat("📊 INFORMATION RATIO SUMMARY:\n")
+cat("   Mean:", round(mean(merged$Information_Ratio, na.rm = TRUE), 3), "\n")
+cat("   Median:", round(median(merged$Information_Ratio, na.rm = TRUE), 3), "\n")
+cat("   Funds with positive IR:", sum(merged$Information_Ratio > 0, na.rm = TRUE), "\n\n")
+
+# Top 5 by each ratio
+cat("🏆 TOP 5 BY SHARPE RATIO:\n")
+top_sharpe <- merged %>%
+  arrange(desc(Sharpe_Ratio)) %>%
+  select(Fund, Fund_Name, Sharpe_Ratio, Sharpe_Rating, Est_Total_Return, Beta) %>%
+  head(5)
+print(top_sharpe)
+
+cat("\n🏆 TOP 5 BY TREYNOR RATIO:\n")
+top_treynor <- merged %>%
+  arrange(desc(Treynor_Ratio)) %>%
+  select(Fund, Fund_Name, Treynor_Ratio, Treynor_Rating, Est_Total_Return, Beta) %>%
+  head(5)
+print(top_treynor)
+
+cat("\n🏆 TOP 5 BY INFORMATION RATIO:\n")
+top_ir <- merged %>%
+  arrange(desc(Information_Ratio)) %>%
+  select(Fund, Fund_Name, Information_Ratio, IR_Rating, Alpha_annualized) %>%
+  head(5)
+print(top_ir)
+
+cat("\n🏆 TOP 5 OVERALL RISK-ADJUSTED (COMPOSITE):\n")
+top_composite <- merged %>%
+  arrange(Overall_RA_Rank) %>%
+  select(Fund, Fund_Name, Overall_RA_Rank, Sharpe_Ratio, Treynor_Ratio, Information_Ratio) %>%
+  head(5)
+print(top_composite)
+
+cat("\n")
 
 #============================================================================
 # INVESTMENT RECOMMENDATIONS
@@ -780,6 +912,85 @@ print(p3)
 dev.off()
 
 #============================================================================
+# RISK-ADJUSTED VISUALIZATIONS (SHARPE/TREYNOR)
+#============================================================================
+
+# Plot 4: Sharpe vs Treynor Scatter
+p4_sharpe_treynor <- ggplot(merged %>% filter(!is.na(Sharpe_Ratio) & !is.na(Treynor_Ratio)),
+                            aes(x = Sharpe_Ratio, y = Treynor_Ratio, color = Alpha_Quartile_Label)) +
+  geom_point(size = 3, alpha = 0.7) +
+  geom_hline(yintercept = MARKET_RETURN - RISK_FREE_RATE, color = "blue", linetype = "dashed") +
+  geom_vline(xintercept = 0.5, color = "green", linetype = "dashed") +
+  geom_vline(xintercept = 0, color = "black", linetype = "solid", linewidth = 0.5) +
+  geom_hline(yintercept = 0, color = "black", linetype = "solid", linewidth = 0.5) +
+  labs(
+    title = "Sharpe vs Treynor Ratio",
+    subtitle = "Green = Sharpe 0.5 (Good) | Blue = Market Treynor",
+    x = "Sharpe Ratio (Return/Total Risk)",
+    y = "Treynor Ratio (Return/Systematic Risk)",
+    color = "Alpha Quartile"
+  ) +
+  scale_color_manual(values = c(
+    "Q4 (Top 25%)" = "#2ca02c",
+    "Q3 (50-75%)" = "#ff7f0e",
+    "Q2 (25-50%)" = "#1f77b4",
+    "Q1 (Bottom 25%)" = "#d62728"
+  )) +
+  theme_minimal() +
+  theme(legend.position = "bottom", plot.title = element_text(face = "bold"))
+
+# Plot 5: Risk-Return Tradeoff
+p5_risk_return <- ggplot(merged %>% filter(!is.na(Est_Volatility)),
+                         aes(x = Est_Volatility, y = Est_Total_Return,
+                             color = Sharpe_Rating, size = abs(Information_Ratio))) +
+  geom_point(alpha = 0.7) +
+  geom_hline(yintercept = RISK_FREE_RATE, color = "red", linetype = "dashed", linewidth = 1) +
+  geom_abline(slope = 0.5 / 1, intercept = RISK_FREE_RATE, color = "green", linetype = "dotted") +
+  geom_abline(slope = 1.0 / 1, intercept = RISK_FREE_RATE, color = "darkgreen", linetype = "dotted") +
+  annotate("text", x = 0.25, y = RISK_FREE_RATE + 0.01,
+           label = paste0("Rf = ", RISK_FREE_RATE*100, "%"), color = "red", size = 3) +
+  labs(
+    title = "Risk-Return Tradeoff",
+    subtitle = "Dotted lines = Sharpe 0.5 & 1.0 | Red = Risk-Free Rate",
+    x = "Estimated Volatility",
+    y = "Estimated Total Return",
+    color = "Sharpe Rating",
+    size = "|Info Ratio|"
+  ) +
+  scale_x_continuous(labels = scales::percent_format()) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  scale_color_manual(values = c(
+    "Excellent (>=1.0)" = "#2ca02c",
+    "Good (0.5-1.0)" = "#98df8a",
+    "Acceptable (0-0.5)" = "#ffbb78",
+    "Poor (<0)" = "#d62728",
+    "N/A" = "gray"
+  )) +
+  theme_minimal() +
+  theme(legend.position = "bottom", plot.title = element_text(face = "bold"))
+
+# Save risk-adjusted plots
+png("JCI_Sharpe_vs_Treynor.png", width = 1000, height = 800, res = 150)
+print(p4_sharpe_treynor)
+dev.off()
+
+png("JCI_Risk_Return_Tradeoff.png", width = 1000, height = 800, res = 150)
+print(p5_risk_return)
+dev.off()
+
+# Combined risk-adjusted panel
+png("JCI_Risk_Adjusted_Analysis_Panel.png", width = 1600, height = 700, res = 150)
+grid.arrange(p4_sharpe_treynor, p5_risk_return, ncol = 2,
+             top = grid::textGrob("JCI Fund Risk-Adjusted Performance Analysis",
+                                  gp = grid::gpar(fontsize = 14, fontface = "bold")))
+dev.off()
+
+cat("✅ Risk-adjusted plots saved:\n")
+cat("   - JCI_Sharpe_vs_Treynor.png\n")
+cat("   - JCI_Risk_Return_Tradeoff.png\n")
+cat("   - JCI_Risk_Adjusted_Analysis_Panel.png\n\n")
+
+#============================================================================
 # EXPORT RESULTS
 #============================================================================
 
@@ -800,6 +1011,39 @@ top_candidates <- merged %>%
          Expense_Ratio, Age_Years, Source, Recommendation)
 
 write_csv(top_candidates, "JCI_Top_Investment_Candidates.csv")
+
+# Risk-adjusted metrics export
+risk_adjusted_export <- merged %>%
+  arrange(Overall_RA_Rank) %>%
+  select(
+    Fund, Fund_Name, Type, Source,
+    Alpha_annualized, Beta, Excess_Return,
+    Est_Total_Return, Est_Volatility,
+    Sharpe_Ratio, Sharpe_Rating, Sharpe_Rank,
+    Treynor_Ratio, Treynor_Rating, Treynor_Rank,
+    Information_Ratio, IR_Rating, IR_Rank,
+    Overall_RA_Rank,
+    AUM, Expense_Ratio, Age_Years,
+    Alpha_Quartile_Label, Recommendation
+  )
+
+write_csv(risk_adjusted_export, "JCI_Risk_Adjusted_Analysis.csv")
+
+# Top 10 risk-adjusted performers
+top_risk_adjusted <- merged %>%
+  arrange(Overall_RA_Rank) %>%
+  head(10) %>%
+  select(
+    Rank = Overall_RA_Rank, Fund, Fund_Name,
+    Sharpe_Ratio, Treynor_Ratio, Information_Ratio,
+    Alpha_annualized, Beta, Recommendation
+  )
+
+write_csv(top_risk_adjusted, "JCI_Top10_Risk_Adjusted.csv")
+
+cat("✅ Risk-adjusted analysis exported:\n")
+cat("   - JCI_Risk_Adjusted_Analysis.csv (all funds)\n")
+cat("   - JCI_Top10_Risk_Adjusted.csv (top 10)\n\n")
 
 # Summary report
 summary_report <- tibble(
@@ -1315,9 +1559,13 @@ cat("========================================\n")
 #============================================================================
 #
 #  PERIOD-SPECIFIC ANALYSIS (NEW SECTION - CAN BE REMOVED IF NOT NEEDED)
+#  Added for manager request: 3-period COVID breakdown
 #
 #============================================================================
 #============================================================================
+
+# Ensure tidyverse is loaded for this section
+if (!require(tidyverse)) library(tidyverse)
 
 cat("\n\n")
 cat("████████████████████████████████████████████████████████████████████████\n")
@@ -1706,3 +1954,226 @@ cat("\n")
 cat("========================================\n")
 cat("✅ Period Analysis Complete!\n")
 cat("========================================\n")
+
+#============================================================================
+#============================================================================
+#
+#  EXECUTIVE SUMMARY (ONE-PAGER)
+#  Quick reference document for investment committee review
+#
+#============================================================================
+#============================================================================
+
+cat("\n\n")
+cat("████████████████████████████████████████████████████████████████████████\n")
+cat("█  EXECUTIVE SUMMARY (ONE-PAGER)                                       █\n")
+cat("████████████████████████████████████████████████████████████████████████\n\n")
+
+#============================================================================
+# ONE-PAGER: KEY METRICS
+#============================================================================
+
+# Get top fund data
+top_fund <- merged %>% arrange(desc(Alpha_annualized)) %>% head(1)
+top_sharpe_fund <- merged %>% filter(!is.na(Sharpe_Ratio)) %>% arrange(desc(Sharpe_Ratio)) %>% head(1)
+lowest_expense_fund <- merged %>% filter(!is.na(Expense_Ratio)) %>% arrange(Expense_Ratio) %>% head(1)
+largest_aum_fund <- merged %>% filter(!is.na(AUM)) %>% arrange(desc(AUM)) %>% head(1)
+
+# Calculate key stats
+total_funds <- nrow(merged)
+strong_buy_count <- sum(merged$Recommendation == "STRONG BUY", na.rm = TRUE)
+consider_count <- sum(merged$Recommendation == "CONSIDER", na.rm = TRUE)
+avg_alpha <- mean(merged$Alpha_annualized, na.rm = TRUE)
+avg_sharpe <- mean(merged$Sharpe_Ratio, na.rm = TRUE)
+funds_positive_alpha <- sum(merged$Alpha_annualized > 0, na.rm = TRUE)
+
+# Create One-Pager
+exec_one_pager <- tibble(
+  Category = c(
+    "═══ EXECUTIVE SUMMARY ═══",
+    "Analysis Date",
+    "Total Funds Analyzed",
+    "Benchmark",
+    "",
+    "═══ TOP PERFORMERS ═══",
+    "Best Alpha Fund",
+    "Best Alpha Value",
+    "Best Risk-Adjusted (Sharpe)",
+    "Best Sharpe Value",
+    "Lowest Expense Ratio",
+    "Expense Ratio Value",
+    "Largest AUM (Liquidity)",
+    "AUM Value",
+    "",
+    "═══ PORTFOLIO METRICS ═══",
+    "Average Alpha (All Funds)",
+    "Funds with Positive Alpha",
+    "Average Sharpe Ratio",
+    "Funds with Sharpe > 0.5",
+    "Risk-Free Rate (Bloomberg)",
+    "Funds Beating Risk-Free",
+    "",
+    "═══ RECOMMENDATIONS ═══",
+    "STRONG BUY Count",
+    "CONSIDER Count",
+    "Total Actionable",
+    "",
+    "═══ INVESTMENT THESIS ═══",
+    "Primary Recommendation",
+    "Key Risk",
+    "Suggested Allocation"
+  ),
+  Value = c(
+    "",
+    format(Sys.Date(), "%B %d, %Y"),
+    as.character(total_funds),
+    "JCI (Jakarta Composite Index)",
+    "",
+    "",
+    top_fund$Fund,
+    paste0(round(top_fund$Alpha_annualized * 100, 2), "%"),
+    top_sharpe_fund$Fund,
+    round(top_sharpe_fund$Sharpe_Ratio, 3),
+    lowest_expense_fund$Fund,
+    paste0(round(lowest_expense_fund$Expense_Ratio * 100, 2), "%"),
+    largest_aum_fund$Fund,
+    paste0(round(largest_aum_fund$AUM / 1e12, 2), "T IDR"),
+    "",
+    "",
+    paste0(round(avg_alpha * 100, 2), "%"),
+    paste0(funds_positive_alpha, " / ", total_funds, " (", round(funds_positive_alpha/total_funds*100, 1), "%)"),
+    round(avg_sharpe, 3),
+    paste0(sum(merged$Sharpe_Ratio >= 0.5, na.rm = TRUE), " / ", total_funds),
+    paste0(round(RISK_FREE_RATE * 100, 3), "%"),
+    paste0(sum(merged$Beats_Risk_Free, na.rm = TRUE), " / ", total_funds),
+    "",
+    "",
+    as.character(strong_buy_count),
+    as.character(consider_count),
+    paste0(strong_buy_count + consider_count, " funds"),
+    "",
+    "",
+    if_else(strong_buy_count > 0, "Select from STRONG BUY list", "Bond-heavy allocation recommended"),
+    "JCI funds consistently underperform risk-free rate",
+    if_else(strong_buy_count > 0, "60% Bonds / 40% Top Quartile Equity", "80% Bonds / 20% Selective Equity")
+  ),
+  Fund_Name = c(
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    if_else(is.na(top_fund$Fund_Name), "", top_fund$Fund_Name),
+    "",
+    if_else(is.na(top_sharpe_fund$Fund_Name), "", top_sharpe_fund$Fund_Name),
+    "",
+    if_else(is.na(lowest_expense_fund$Fund_Name), "", lowest_expense_fund$Fund_Name),
+    "",
+    if_else(is.na(largest_aum_fund$Fund_Name), "", largest_aum_fund$Fund_Name),
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  )
+)
+
+# Quick action list
+action_list <- tibble(
+  Priority = c("1", "2", "3", "4", "5"),
+  Action = c(
+    "Review STRONG BUY recommendations",
+    "Check risk-adjusted metrics (Sharpe/Treynor)",
+    "Verify AUM for liquidity requirements",
+    "Compare expense ratios across candidates",
+    "Present findings to investment committee"
+  ),
+  Reference_File = c(
+    "JCI_STRONG_BUY_Recommendations.csv",
+    "JCI_Risk_Adjusted_Analysis.csv",
+    "JCI_Complete_Fund_Analysis.csv",
+    "4_Top12_Funds_Q4.csv",
+    "AXA_Mandiri_JCI_Investment_Analysis_Report.xlsx"
+  )
+)
+
+# Top 5 funds summary for quick reference
+top5_quick_ref <- merged %>%
+  arrange(desc(Alpha_annualized)) %>%
+  head(5) %>%
+  mutate(
+    Rank = row_number(),
+    Alpha = paste0(round(Alpha_annualized * 100, 2), "%"),
+    Sharpe = round(Sharpe_Ratio, 2),
+    Expense = paste0(round(Expense_Ratio * 100, 2), "%"),
+    AUM_T = paste0(round(AUM / 1e12, 2), "T")
+  ) %>%
+  select(Rank, Fund, Fund_Name, Alpha, Sharpe, Expense, AUM_T, Recommendation)
+
+#============================================================================
+# EXPORT EXECUTIVE SUMMARY FILES
+#============================================================================
+
+write_csv(exec_one_pager, "JCI_Executive_Summary.csv")
+write_csv(action_list, "JCI_Action_List.csv")
+write_csv(top5_quick_ref, "JCI_Top5_Quick_Reference.csv")
+
+cat("✅ EXECUTIVE SUMMARY FILES CREATED:\n")
+cat("─────────────────────────────────────────\n")
+cat("   📋 JCI_Executive_Summary.csv      - One-pager with all key metrics\n")
+cat("   📋 JCI_Action_List.csv            - Priority action items\n")
+cat("   📋 JCI_Top5_Quick_Reference.csv   - Top 5 funds at a glance\n\n")
+
+#============================================================================
+# PRINT SUMMARY TO CONSOLE
+#============================================================================
+
+cat("═══════════════════════════════════════════════════════════════════════\n")
+cat("                       QUICK REFERENCE                                 \n")
+cat("═══════════════════════════════════════════════════════════════════════\n\n")
+
+cat("📊 FUND UNIVERSE:\n")
+cat(sprintf("   Total Analyzed: %d funds\n", total_funds))
+cat(sprintf("   Positive Alpha: %d funds (%.1f%%)\n", funds_positive_alpha, funds_positive_alpha/total_funds*100))
+cat(sprintf("   Beat Risk-Free: %d funds\n\n", sum(merged$Beats_Risk_Free, na.rm = TRUE)))
+
+cat("🏆 TOP PERFORMERS:\n")
+cat(sprintf("   Best Alpha:     %s (%.2f%%)\n", top_fund$Fund, top_fund$Alpha_annualized * 100))
+cat(sprintf("   Best Sharpe:    %s (%.3f)\n", top_sharpe_fund$Fund, top_sharpe_fund$Sharpe_Ratio))
+cat(sprintf("   Lowest Cost:    %s (%.2f%%)\n", lowest_expense_fund$Fund, lowest_expense_fund$Expense_Ratio * 100))
+cat(sprintf("   Most Liquid:    %s (%.2fT IDR)\n\n", largest_aum_fund$Fund, largest_aum_fund$AUM / 1e12))
+
+cat("📈 RECOMMENDATIONS:\n")
+cat(sprintf("   STRONG BUY: %d funds\n", strong_buy_count))
+cat(sprintf("   CONSIDER:   %d funds\n", consider_count))
+cat(sprintf("   TOTAL:      %d actionable\n\n", strong_buy_count + consider_count))
+
+cat("💡 INVESTMENT THESIS:\n")
+if (sum(merged$Beats_Risk_Free, na.rm = TRUE) == 0) {
+  cat("   ⚠️  Zero JCI funds beat risk-free rate (7.118%)\n")
+  cat("   📊 Recommend: Bond-heavy allocation (70-80%)\n")
+  cat("   🎯 Equity: Selective exposure to top quartile only\n")
+} else {
+  cat(sprintf("   ✅ %d funds beat risk-free rate\n", sum(merged$Beats_Risk_Free, na.rm = TRUE)))
+  cat("   📊 Recommend: Balanced allocation\n")
+  cat("   🎯 Focus on STRONG BUY list\n")
+}
+
+cat("\n═══════════════════════════════════════════════════════════════════════\n")
+cat("                         FILES SAVED TO ~/Downloads/                    \n")
+cat("═══════════════════════════════════════════════════════════════════════\n")

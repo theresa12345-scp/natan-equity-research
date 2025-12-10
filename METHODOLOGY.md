@@ -1,349 +1,368 @@
-# Natan Equity Research Platform
+# Global Equity Screener
 
-## Technical Architecture & Valuation Methodology
+## Valuation Methodology & Technical Documentation
 
-**Version 2.1 | November 2025**
+**Version 3.1 | December 2025**
+
+**Prepared by: Nathaniel Luu**
+
+---
+
+## Executive Summary
+
+The Global Equity Screener is an institutional-grade equity screening and valuation system covering **1,203 securities** across the Indonesian Stock Exchange (IDX), S&P 500, and select global markets. The platform integrates three core analytical frameworks:
+
+1. **Discounted Cash Flow (DCF) Valuation** - Damodaran two-stage model with H-model growth decay
+2. **Comparable Company Analysis** - GICS-based peer selection with sector-specific multiples
+3. **Multi-Factor Quantitative Scoring** - 8-factor model calibrated for emerging market dynamics
+
+This documentation serves as the definitive reference for investment professionals seeking to understand the analytical foundations, assumptions, and limitations of each methodology.
 
 ---
 
 ## Table of Contents
-1. [Platform Overview](#platform-overview)
-2. [Technology Stack](#technology-stack)
-3. [Project Structure](#project-structure)
-4. [8-Factor Scoring Model](#8-factor-scoring-model)
-5. [DCF Valuation Model](#dcf-valuation-model)
-6. [Sensitivity Analysis](#sensitivity-analysis)
-7. [Comparable Company Analysis](#comparable-company-analysis)
-8. [Data Sources](#data-sources)
-9. [Academic References](#academic-references)
+
+1. [Investment Philosophy](#1-investment-philosophy)
+2. [Multi-Factor (MF) Scoring Model](#2-multi-factor-mf-scoring-model)
+3. [DCF Valuation Methodology](#3-dcf-valuation-methodology)
+4. [Comparable Company Analysis](#4-comparable-company-analysis)
+5. [Sensitivity Analysis](#5-sensitivity-analysis)
+6. [Blended Valuation Framework](#6-blended-valuation-framework)
+7. [Sector-Specific Considerations](#7-sector-specific-considerations)
+8. [Data Sources & Quality](#8-data-sources--quality)
+9. [Model Limitations & Risk Factors](#9-model-limitations--risk-factors)
+10. [Technical Implementation](#10-technical-implementation)
+11. [Glossary of Terms](#11-glossary-of-terms)
+12. [Academic References](#12-academic-references)
 
 ---
 
-## Platform Overview
+## 1. Investment Philosophy
 
-Natan Equity Research is a full-stack equity screening and valuation platform covering **949 securities** across Indonesia (IDX) and United States (S&P 500) markets.
+### 1.1 Core Principles
 
-### Core Capabilities
-- **Discounted Cash Flow (DCF)** valuation with sensitivity analysis
-- **Comparable Company Analysis** with sector-specific weighting
-- **8-Factor Quantitative Scoring** model (100-point scale)
-- **Macro Dashboard** with real-time Indonesia & US economic indicators
-- **News Sentiment** integration and market analysis
+The platform is built on established valuation principles from leading academic and practitioner sources:
 
-### Key Insight: Indonesian Market Dynamics
-Per industry research, 80-90% of Indonesian stock price movement is driven by **sentiment, technicals, and momentum** rather than pure fundamentals. The scoring model reflects this reality by weighting technical and sentiment factors at 35% of total score.
+| Principle | Source | Application |
+|-----------|--------|-------------|
+| Intrinsic value exists independently of market price | Graham & Dodd | DCF fair value calculation |
+| Cost of capital reflects systematic risk | CAPM (Sharpe, Lintner) | WACC computation |
+| Relative valuation requires comparable businesses | Rosenbaum & Pearl | Peer selection criteria |
+| Terminal value requires conservative assumptions | McKinsey Valuation | TV sanity checks |
+| Beta mean-reverts toward 1.0 over time | Blume (1971) | Blume-adjusted beta |
 
----
+### 1.2 Indonesian Market Considerations
 
-## Technology Stack
+**Critical Insight**: Empirical research indicates that 80-90% of Indonesian stock price movement is driven by **sentiment, technicals, and momentum** rather than pure fundamentals. This reality is reflected in the scoring model through:
 
-### Frontend
+- Higher weight on Technical factors (20 points) and Sentiment factors (15 points)
+- Combined Technical + Sentiment = 35% of total score
+- Macro alignment bonus for sector-specific tailwinds
 
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| **React** | 19.2 | Component-based UI framework |
-| **Vite** | 7.2 | Next-generation build tool & dev server |
-| **Tailwind CSS** | 4.1 | Utility-first CSS framework |
-| **Recharts** | 3.4 | Composable charting library |
-| **Lucide React** | 0.554 | Modern icon set |
-
-### Data Processing
-
-| Technology | Purpose |
-|------------|---------|
-| **Python 3** | Data fetching, transformation, sentiment analysis |
-| **Yahoo Finance API** | Real-time market data via `yahoo-finance2` |
-| **R (tidyverse)** | Statistical analysis & fund screening |
-
-### Build & Deployment
-
-| Technology | Purpose |
-|------------|---------|
-| **Vite** | Production bundling with tree-shaking |
-| **@vitejs/plugin-legacy** | Safari 12+ / iOS compatibility |
-| **Vercel** | Production hosting with global CDN |
-| **GitHub** | Version control & CI/CD pipeline |
-
-### Browser Support
-
-| Browser | Minimum Version |
-|---------|-----------------|
-| Chrome | 64+ |
-| Safari | 12+ |
-| iOS Safari | 12+ |
-| Firefox | 67+ |
-| Edge | 79+ |
+This calibration acknowledges that while DCF provides intrinsic value, short-to-medium term price action in emerging markets is heavily influenced by capital flows, momentum, and market sentiment.
 
 ---
 
-## Project Structure
+## 2. Multi-Factor (MF) Scoring Model
 
-```
-natan-equity-research/
-│
-├── src/                          # Source code
-│   ├── App.jsx                   # Main React application (~2,400 lines)
-│   ├── valuation.js              # DCF & Comps models (~1,560 lines)
-│   ├── main.jsx                  # React entry point
-│   ├── App.css                   # Component styles
-│   └── index.css                 # Global styles (Tailwind)
-│
-├── public/                       # Static assets
-│   ├── global_companies_full.json   # 949 securities dataset
-│   ├── sentiment.json               # News sentiment data
-│   └── sp500_companies.json         # S&P 500 reference data
-│
-├── scripts/                      # Data pipeline
-│   ├── update_stock_data.py      # Price & fundamentals update
-│   ├── update_news.py            # Sentiment data refresh
-│   └── generate_sp500_data.py    # S&P 500 data generation
-│
-├── vite.config.js                # Build configuration
-├── tailwind.config.js            # Styling configuration
-├── package.json                  # Dependencies & scripts
-└── METHODOLOGY.md                # This document
-```
+### 2.1 Overview
 
-### Key Files
+The MF Scoring Model produces a composite score from 0-100 points, aggregating eight distinct factors that capture different dimensions of investment attractiveness. This proprietary framework is calibrated specifically for emerging market dynamics where sentiment and technicals drive 80-90% of price movement.
 
-| File | Lines | Description |
-|------|-------|-------------|
-| `App.jsx` | ~2,400 | Main UI: Screener, DCF view, Comps, Macro dashboard |
-| `valuation.js` | ~1,560 | WACC, DCF, Comps, Sensitivity analysis models |
-| `global_companies_full.json` | 949 records | Full securities database |
+| Factor | Maximum Points | Weight | Rationale |
+|--------|---------------|--------|-----------|
+| Technical | 20 | 20% | Price momentum and risk-adjusted returns |
+| Sentiment | 15 | 15% | Market sentiment and institutional confidence |
+| Valuation | 15 | 15% | Graham & Dodd value metrics |
+| Quality | 15 | 15% | Buffett/Munger quality factors |
+| Growth | 10 | 10% | GARP methodology |
+| Financial Health | 10 | 10% | Altman Z-Score inspired metrics |
+| Liquidity | 10 | 10% | Trading activity and market cap tier |
+| Analyst Coverage | 5 | 5% | Coverage breadth proxy |
+
+**Maximum Score**: 100 points (plus up to 5 bonus points for macro alignment)
+
+### 2.2 Score Interpretation
+
+| Score Range | Rating | Investment Implication |
+|-------------|--------|------------------------|
+| 80-100+ | **Strong Buy** | Exceptional opportunity across multiple factors |
+| 70-79 | **Buy** | Attractive risk/reward profile |
+| 55-69 | **Hold** | Neutral stance; monitor for catalysts |
+| 40-54 | **Underperform** | Caution advised; material concerns present |
+| 0-39 | **Sell** | Significant risks; avoid or reduce exposure |
+
+### 2.3 Detailed Factor Methodology
+
+#### 2.3.1 Technical Score (20 Points Maximum)
+
+*Reflects price action and momentum - critical for emerging markets where technicals drive short-term returns.*
+
+**YTD Return Component (0-8 points)**
+
+| YTD Return | Points | Interpretation |
+|------------|--------|----------------|
+| > 50% | 8 | Strong momentum; institutional accumulation |
+| > 30% | 7 | Above-market performance |
+| > 20% | 6 | Solid outperformance |
+| > 10% | 5 | Modest positive return |
+| > 0% | 3 | Positive but underperforming |
+| > -10% | 2 | Mild underperformance |
+| ≤ -10% | 0 | Significant underperformance |
+
+**Jensen's Alpha Component (0-6 points)**
+
+Jensen's Alpha measures risk-adjusted excess return versus the benchmark (CAPM-predicted return).
+
+| Alpha (α) | Points | Interpretation |
+|-----------|--------|----------------|
+| > 0.5 | 6 | Strong outperformance vs. risk |
+| > 0.2 | 5 | Consistent outperformance |
+| > 0 | 4 | Positive alpha generation |
+| > -0.2 | 2 | Slight underperformance |
+| ≤ -0.2 | 0 | Negative risk-adjusted return |
+
+**Beta Component (0-6 points)**
+
+Beta measures systematic risk relative to the market. The scoring rewards market-like betas (around 1.0) as optimal for most investors.
+
+| Beta Range | Points | Risk Profile |
+|------------|--------|--------------|
+| 0.8 - 1.2 | 6 | Optimal; market-like risk |
+| 0.6 - 1.4 | 4 | Acceptable deviation |
+| 0.4 - 1.6 | 2 | Higher tracking error |
+| Other | 1 | Extreme beta; specialist holding |
+
+#### 2.3.2 Sentiment Score (15 Points Maximum)
+
+*Proxies market sentiment using momentum and stability metrics. Strong positive momentum combined with appropriate risk suggests institutional confidence.*
+
+The sentiment score synthesizes:
+- Momentum strength as a bullish/bearish indicator
+- Alpha as sentiment confirmation (positive alpha = favorable sentiment)
+- Beta + positive returns = institutional confidence signal
+
+#### 2.3.3 Valuation Score (15 Points Maximum)
+
+*Graham & Dodd inspired metrics. Weighted lower for emerging markets where sentiment often overrides fundamentals.*
+
+**P/E Ratio Component (0-6 points)**
+
+| P/E Ratio | Points | Valuation Tier |
+|-----------|--------|----------------|
+| < 8 | 6 | Deep value |
+| < 12 | 5 | Attractive value |
+| < 15 | 4 | Fair value |
+| < 20 | 3 | Slight premium |
+| < 30 | 2 | Growth premium |
+| ≥ 30 | 1 | High growth/speculative |
+
+**P/B Ratio Component (0-5 points)**
+
+| P/B Ratio | Points | Interpretation |
+|-----------|--------|----------------|
+| < 1.0 | 5 | Trading below book value |
+| < 1.5 | 4 | Modest book premium |
+| < 2.0 | 3 | Fair book multiple |
+| < 3.0 | 2 | Elevated valuation |
+| ≥ 3.0 | 1 | Significant premium |
+
+**EV/EBITDA Proxy Component (0-4 points)**
+
+| EV/EBITDA | Points | Interpretation |
+|-----------|--------|----------------|
+| < 6x | 4 | Attractive enterprise value |
+| < 10x | 3 | Fair valuation |
+| < 12x | 2 | Moderate premium |
+| ≥ 12x | 1 | Elevated valuation |
+
+#### 2.3.4 Quality Score (15 Points Maximum)
+
+*Buffett/Munger quality factors measuring business excellence and capital allocation.*
+
+**Return on Equity (0-6 points)**
+
+| ROE | Points | Quality Tier |
+|-----|--------|--------------|
+| > 25% | 6 | Exceptional capital efficiency |
+| > 20% | 5 | High quality |
+| > 15% | 4 | Above average |
+| > 10% | 3 | Adequate |
+| ≤ 10% | 1 | Below target |
+
+**FCF Conversion (0-5 points)**
+
+Free Cash Flow Conversion = FCF / Net Income. Measures earnings quality.
+
+| FCF Conversion | Points | Interpretation |
+|----------------|--------|----------------|
+| > 80% | 5 | Excellent cash conversion |
+| > 60% | 4 | Good conversion |
+| > 40% | 3 | Acceptable |
+| > 20% | 2 | Weak conversion |
+| ≤ 20% | 1 | Poor cash generation |
+
+**Margin Component (0-4 points)**
+
+Based on EBITDA margin or operating margin as profitability measure.
+
+| Margin | Points | Interpretation |
+|--------|--------|----------------|
+| > 40% | 4 | Exceptional profitability |
+| > 30% | 3 | Strong margins |
+| > 20% | 2 | Healthy margins |
+| > 10% | 1 | Acceptable margins |
+
+#### 2.3.5 Growth Score (10 Points Maximum)
+
+*GARP (Growth at Reasonable Price) methodology.*
+
+| Component | Maximum Points |
+|-----------|---------------|
+| Revenue Growth | 4 |
+| EPS Growth | 4 |
+| Net Income Growth | 2 |
+
+Growth is scored on a relative basis with higher points for sustainable double-digit growth rates, penalizing both declining companies and unsustainably high growth.
+
+#### 2.3.6 Financial Health Score (10 Points Maximum)
+
+*Altman Z-Score inspired metrics assessing balance sheet strength and liquidity.*
+
+**Debt-to-Equity Ratio (0-4 points)**
+
+| D/E Ratio | Points | Risk Level |
+|-----------|--------|------------|
+| < 25% | 4 | Conservative leverage |
+| < 50% | 3 | Moderate leverage |
+| < 75% | 2 | Elevated leverage |
+| < 100% | 1 | High leverage |
+| ≥ 100% | 0 | Concerning leverage |
+
+**Current Ratio (0-3 points)**
+
+| Current Ratio | Points | Liquidity |
+|---------------|--------|-----------|
+| > 2.0 | 3 | Strong liquidity |
+| > 1.5 | 2 | Adequate liquidity |
+| > 1.0 | 1 | Tight liquidity |
+| ≤ 1.0 | 0 | Liquidity concern |
+
+**Quick Ratio (0-3 points)**
+
+| Quick Ratio | Points | Interpretation |
+|-------------|--------|----------------|
+| > 1.5 | 3 | Excellent liquidity |
+| > 1.0 | 2 | Good liquidity |
+| > 0.8 | 1 | Acceptable |
+| ≤ 0.8 | 0 | Liquidity risk |
+
+#### 2.3.7 Liquidity Score (10 Points Maximum)
+
+*Trading activity and institutional flow proxy.*
+
+| Component | Maximum Points | Criteria |
+|-----------|---------------|----------|
+| Market Cap Tier | 5 | Mega cap (>$50B) = 5 pts |
+| Index Weight | 5 | Higher weight = more institutional interest |
+
+#### 2.3.8 Analyst Coverage (5 Points Maximum)
+
+*Coverage breadth as a proxy for information efficiency.*
+
+Based on index weight or market cap as proxy for analyst coverage density. Higher coverage typically means more efficient pricing but also more consensus-driven.
+
+### 2.4 Macro Alignment Bonus (+5 Points Maximum)
+
+Sector-specific tailwinds based on current macro conditions can add up to 5 bonus points:
+
+| Sector | Favorable Condition | Bonus Trigger |
+|--------|---------------------|---------------|
+| Energy | Strong oil prices | Brent > $70/bbl |
+| Financial | Optimal rate environment | BI Rate 5.5-7.0% |
+| Consumer | Growth + low inflation | GDP > 5% AND Inflation < 3% |
+| Technology | Economic expansion | GDP > 5% |
+| Materials/Industrial | Manufacturing expansion | PMI > 50 |
 
 ---
 
-## 8-Factor Scoring Model
+## 3. DCF Valuation Methodology
 
-### Overview (100 Points Total)
+### 3.1 Overview
 
-| Factor | Weight | Rationale |
-|--------|--------|-----------|
-| Technical | 20 pts | Price momentum, alpha, beta |
-| Sentiment | 15 pts | Market sentiment proxy |
-| Valuation | 15 pts | Graham & Dodd metrics |
-| Quality | 15 pts | Buffett/Munger factors |
-| Growth | 10 pts | GARP methodology |
-| Financial Health | 10 pts | Altman Z-Score inspired |
-| Liquidity | 10 pts | Trading activity |
-| Analyst Coverage | 5 pts | Coverage breadth proxy |
+The DCF model follows **Damodaran's Two-Stage Framework** with H-Model growth decay, representing institutional best practice for equity valuation.
 
-### Score Thresholds
+**Core Equation:**
 
-| Score | Rating | Interpretation |
-|-------|--------|----------------|
-| 80-100 | **Strong Buy** | Exceptional opportunity |
-| 70-79 | **Buy** | Attractive risk/reward |
-| 55-69 | **Hold** | Neutral stance |
-| 40-54 | **Underperform** | Caution advised |
-| 0-39 | **Sell** | Avoid |
-
-### Detailed Factor Methodology
-
-#### 1. Technical Score (20 points)
-*Reflects price action and momentum - critical for EM markets*
-
-**YTD Return (0-8 points):**
-```
-> 50%:  8 pts
-> 30%:  7 pts
-> 20%:  6 pts
-> 10%:  5 pts
-> 0%:   3 pts
-> -10%: 2 pts
-≤ -10%: 0 pts
-```
-
-**Alpha - Jensen's Alpha (0-6 points):**
-```
-α > 0.5:  6 pts (Strong outperformance)
-α > 0.2:  5 pts
-α > 0:    4 pts
-α > -0.2: 2 pts
-α ≤ -0.2: 0 pts
-```
-
-**Beta (0-6 points):**
-```
-0.8-1.2:  6 pts (Optimal risk profile)
-0.6-1.4:  4 pts
-0.4-1.6:  2 pts
-Other:    1 pt
-```
-
-#### 2. Sentiment Score (15 points)
-*Proxies market sentiment using momentum and stability metrics*
-
-- Momentum strength as bullish/bearish indicator
-- Alpha as sentiment confirmation
-- Beta + positive returns = institutional confidence
-
-#### 3. Valuation Score (15 points)
-*Graham & Dodd inspired - weighted lower for EM due to sentiment dominance*
-
-**P/E Ratio (0-6 points):**
-```
-P/E < 8:  6 pts (Deep value)
-P/E < 12: 5 pts
-P/E < 15: 4 pts
-P/E < 20: 3 pts
-P/E < 30: 2 pts
-P/E ≥ 30: 1 pt
-```
-
-**P/B Ratio (0-5 points):**
-```
-P/B < 1.0: 5 pts
-P/B < 1.5: 4 pts
-P/B < 2.0: 3 pts
-P/B < 3.0: 2 pts
-P/B ≥ 3.0: 1 pt
-```
-
-**EV/EBITDA Proxy (0-4 points):**
-```
-< 6x:  4 pts
-< 10x: 3 pts
-< 12x: 2 pts
-≥ 12x: 1 pt
-```
-
-#### 4. Quality Score (15 points)
-*Buffett/Munger quality factors*
-
-**ROE (0-6 points):**
-```
-> 25%: 6 pts (Exceptional)
-> 20%: 5 pts
-> 15%: 4 pts
-> 10%: 3 pts
-≤ 10%: 1 pt
-```
-
-**FCF Conversion (0-5 points):**
-```
-> 80%: 5 pts
-> 60%: 4 pts
-> 40%: 3 pts
-> 20%: 2 pts
-```
-
-**Margins (0-4 points):**
-```
-> 40%: 4 pts
-> 30%: 3 pts
-> 20%: 2 pts
-> 10%: 1 pt
-```
-
-#### 5. Growth Score (10 points)
-*GARP (Growth at Reasonable Price) methodology*
-
-- Revenue Growth: 0-4 pts
-- EPS Growth: 0-4 pts
-- Net Income Growth: 0-2 pts
-
-#### 6. Financial Health Score (10 points)
-*Altman Z-Score inspired metrics*
-
-**D/E Ratio (0-4 points):**
-```
-< 25%:  4 pts
-< 50%:  3 pts
-< 75%:  2 pts
-< 100%: 1 pt
-```
-
-**Current Ratio (0-3 points):**
-```
-> 2.0: 3 pts
-> 1.5: 2 pts
-> 1.0: 1 pt
-```
-
-**Quick Ratio (0-3 points):**
-```
-> 1.5: 3 pts
-> 1.0: 2 pts
-> 0.8: 1 pt
-```
-
-#### 7. Liquidity Score (10 points)
-*Trading activity and institutional flow proxy*
-
-- Market Cap tier: 0-5 pts (Mega cap > $50B = 5 pts)
-- Index weight: 0-5 pts (Higher weight = more institutional interest)
-
-#### 8. Analyst Coverage (5 points)
-*Coverage breadth as a convergence proxy*
-
-Based on index weight or market cap as proxy for analyst coverage density.
-
-#### Macro Alignment Bonus (+5 points max)
-Sector-specific tailwinds based on macro conditions:
-- Energy: Oil > $70
-- Financial: BI Rate 5.5-7%
-- Consumer: GDP > 5% & Inflation < 3%
-- Tech/Comms: GDP > 5%
-- Materials/Industrial: PMI > 50
-
----
-
-## DCF Valuation Model
-
-### Methodology: Damodaran Two-Stage DCF with H-Model Decay
-
-**Formula:**
 ```
 Enterprise Value = Σ(FCFt / (1+WACC)^t) + Terminal Value / (1+WACC)^n
 
 Where:
-- FCF = Free Cash Flow to Firm
-- WACC = Weighted Average Cost of Capital
-- n = Forecast period (5-10 years based on growth)
+  FCFt     = Free Cash Flow to Firm in year t
+  WACC     = Weighted Average Cost of Capital
+  n        = Explicit forecast period (5-10 years)
+  TV       = Terminal Value (Gordon Growth Model)
 ```
 
-### Cost of Capital (WACC)
+### 3.2 Weighted Average Cost of Capital (WACC)
 
-**Formula:**
+**WACC Formula:**
+
 ```
 WACC = (E/V × Re) + (D/V × Rd × (1-T))
 
 Where:
-- E/V = Equity weight
-- D/V = Debt weight
-- Re = Cost of Equity
-- Rd = Cost of Debt
-- T = Tax rate
+  E/V  = Equity weight (market value of equity / total value)
+  D/V  = Debt weight (market value of debt / total value)
+  Re   = Cost of Equity
+  Rd   = Cost of Debt (pre-tax)
+  T    = Corporate tax rate
 ```
 
-### Cost of Equity (CAPM with Country Risk)
+### 3.3 Cost of Equity (CAPM with Country Risk)
 
 **Formula:**
+
 ```
-Re = Rf + β × ERP + CRP
+Re = Rf + β × ERP + CRP + SRP
 
 Where:
-- Rf = Risk-free rate
-- β = Blume-adjusted beta (0.67 × Raw β + 0.33 × 1.0)
-- ERP = Equity Risk Premium
-- CRP = Country Risk Premium
+  Rf   = Risk-free rate (10-year government bond)
+  β    = Blume-adjusted beta
+  ERP  = Equity Risk Premium
+  CRP  = Country Risk Premium
+  SRP  = Sector Risk Premium (optional)
 ```
 
-**Regional Parameters (November 2025):**
+**Blume Beta Adjustment:**
 
-| Parameter | Indonesia | US |
-|-----------|-----------|-----|
-| Risk-Free Rate | 6.65% | 4.35% |
-| Equity Risk Premium | 6.0% | 5.5% |
-| Country Risk Premium | 2.5% | 0% |
-| Terminal Growth | 4.0% | 2.5% |
+Per Blume (1971), historical betas mean-revert toward 1.0. The adjustment improves forecast accuracy:
+
+```
+Adjusted β = (0.67 × Raw β) + (0.33 × 1.0)
+```
+
+This adjustment is Bloomberg/CFA standard practice for forward-looking beta estimates.
+
+**Regional Parameters (December 2025):**
+
+| Parameter | Indonesia | United States |
+|-----------|-----------|---------------|
+| Risk-Free Rate (Rf) | 6.65% | 4.35% |
+| Equity Risk Premium (ERP) | 6.0% | 5.5% |
+| Country Risk Premium (CRP) | 2.5% | 0% |
+| Terminal Growth Rate | 4.0% | 2.5% |
 | Corporate Tax Rate | 22% | 21% |
 
-### Cost of Debt (Damodaran Synthetic Rating)
+*Sources: Bank Indonesia 10Y bond, US 10Y Treasury, Damodaran country risk data (2025)*
+
+### 3.4 Cost of Debt (Damodaran Synthetic Rating)
+
+The cost of debt is estimated using Damodaran's synthetic rating approach based on Interest Coverage Ratio (ICR).
 
 **Primary Method: Interest Coverage Ratio**
+
+ICR = EBIT / Interest Expense
 
 | ICR | Synthetic Rating | Spread (IDN) | Spread (US) |
 |-----|-----------------|--------------|-------------|
@@ -362,133 +381,225 @@ Where:
 | ≥ 0.5 | CC | 10.50% | 8.00% |
 | < 0.5 | D | 14.00% | 12.00% |
 
+*Source: Damodaran Online (pages.stern.nyu.edu/~adamodar/)*
+
 **Fallback Method: D/E Ratio Based**
 
-| D/E Ratio | Estimated Rating | Spread (IDN) |
-|-----------|-----------------|--------------|
-| < 30% | A- est | 1.5% |
-| 30-60% | BBB est | 2.5% |
-| 60-100% | BB est | 4.0% |
-| > 100% | B est | 6.0% |
+When Interest Coverage data is unavailable:
 
-### Free Cash Flow Estimation
+| D/E Ratio | Estimated Rating | Spread (IDN) | Spread (US) |
+|-----------|-----------------|--------------|-------------|
+| < 30% | A- (estimated) | 1.5% | 1.0% |
+| 30-60% | BBB (estimated) | 2.5% | 1.75% |
+| 60-100% | BB (estimated) | 4.0% | 3.0% |
+| > 100% | B (estimated) | 6.0% | 5.0% |
+
+### 3.5 Free Cash Flow Estimation
 
 **FCFF Formula (per Damodaran/CFA):**
+
 ```
 FCFF = EBIT × (1-T) + D&A - CapEx - ΔNWC
      = NOPAT + D&A - CapEx - ΔNWC
+
+Where:
+  NOPAT = Net Operating Profit After Tax
+  D&A   = Depreciation & Amortization
+  CapEx = Capital Expenditures
+  ΔNWC  = Change in Net Working Capital
 ```
 
-**Estimation Methods (in priority order):**
-1. **Direct FCF data** (highest confidence)
-2. **Net Income based**: FCF = Net Income × FCF Conversion Rate
-3. **EBITDA based**: Full calculation with sector parameters
-4. **ROE based**: Using Damodaran's reinvestment rate approach
-5. **Sector FCF Yield**: Market Cap × typical sector yield (fallback)
+**Estimation Methods (Priority Order):**
 
-### Terminal Value
+| Priority | Method | Confidence | Description |
+|----------|--------|------------|-------------|
+| 1 | Direct FCF Data | High | Uses reported FCF if available and passes sanity checks |
+| 2 | Net Income Based | High | FCF = Net Income × FCF Conversion Rate (sector-specific) |
+| 3 | EBITDA Based | Medium | Full calculation using sector parameters |
+| 4 | ROE Based | Medium-Low | Damodaran's reinvestment rate approach |
+| 5 | Sector FCF Yield | Low | Market Cap × typical sector FCF yield |
 
-**Gordon Growth Model:**
-```
-TV = FCFn × (1 + g) / (WACC - g)
+**Sector-Specific FCF Conversion Rates:**
 
-Where g = Terminal growth rate (must be < WACC)
-```
+| Sector | FCF Conversion | Rationale |
+|--------|----------------|-----------|
+| Financial | 85% | Asset-light, high cash conversion |
+| Technology | 80-85% | Low capex, high margins |
+| Consumer Non-cyclical | 75% | Stable cash generation |
+| Healthcare | 70% | Moderate reinvestment |
+| Consumer Cyclical | 65% | Working capital needs |
+| Industrial | 55% | Capital intensive |
+| Basic Materials | 50% | High capex cycles |
+| Energy | 45% | Very high capex |
+| Utilities | 40% | Continuous infrastructure investment |
 
-**Sanity Checks (per McKinsey):**
-- TV% of EV should be < 85% (warning if > 75%)
-- WACC must exceed terminal growth rate
-- EV capped at 5x Market Cap for reasonableness
-
-### Growth Rate Assumptions
+### 3.6 Growth Rate Assumptions
 
 **H-Model Decay:**
-- High growth companies (>15%): 10-year explicit forecast
-- Normal companies: 5-year explicit forecast
-- Linear decay from current growth to terminal growth
+
+Growth rates decay linearly from current growth to terminal growth over the explicit forecast period:
+
+```
+Year t Growth = Terminal Growth + (Current Growth - Terminal Growth) × ((n - t) / n)
+
+Where:
+  n = Forecast period (years)
+  t = Current year in projection
+```
+
+**Forecast Period Selection:**
+
+| Company Profile | Forecast Period | Rationale |
+|-----------------|-----------------|-----------|
+| High Growth (>15%) | 10 years | Longer runway to converge to terminal |
+| Normal Growth | 5 years | Standard institutional practice |
+
+**Growth Rate Blending:**
+
+```
+Blended Growth = (Revenue Growth × 70%) + (Earnings Growth × 30%)
+```
+
+Revenue is weighted higher as it is typically more sustainable. Both inputs are capped at ±40% to prevent extreme values.
+
+### 3.7 Terminal Value
+
+**Gordon Growth Model:**
+
+```
+Terminal Value = FCF_n × (1 + g) / (WACC - g)
+
+Where:
+  FCF_n = Final year projected FCF
+  g     = Terminal growth rate
+  WACC  = Weighted Average Cost of Capital
+```
+
+**Critical Constraint:** WACC must exceed terminal growth rate (WACC > g). If violated, the model produces mathematically invalid results.
+
+**Sanity Checks (per McKinsey Valuation):**
+
+| Check | Threshold | Action if Exceeded |
+|-------|-----------|-------------------|
+| TV as % of EV | > 85% | Fail - model unreliable |
+| TV as % of EV | > 75% | Warning - review assumptions |
+| EV to Market Cap | > 5x | Cap EV at 3x Market Cap |
+| Upside | > 150% | Cap at 150% upside |
+| Downside | > 50% | Floor at 50% of current price |
+
+### 3.8 Net Debt Calculation
+
+**Formula:**
+
+```
+Net Debt = Total Debt + Preferred Stock + Minority Interest - Cash & Equivalents
+```
+
+**Estimation Methods:**
+
+1. **Direct Balance Sheet** (preferred): Uses reported debt and cash figures
+2. **D/E Estimation**: Total Debt = Book Equity × D/E Ratio
+3. **Sector Cash Benchmarks**: Cash estimated as % of market cap by sector
+
+**Special Handling for Financials:**
+
+Banks and insurance companies have different capital structures. Their "debt" (deposits, policy liabilities) earns spread income. The model uses a simplified 5% of market cap proxy for effective net debt.
+
+### 3.9 Equity Value and Fair Value
+
+```
+Equity Value = Enterprise Value - Net Debt
+
+Fair Value per Share = Current Price × (Equity Value / Market Cap)
+```
+
+### 3.10 Confidence Scoring
+
+The model produces a confidence score based on data quality:
+
+| Factor | Impact | Points |
+|--------|--------|--------|
+| Direct FCF data available | +15 | Higher confidence in cash flow |
+| Beta available | +10 | Better risk estimation |
+| EBITDA Margin available | +10 | Improved margin analysis |
+| Interest Coverage available | +5 | Better debt rating |
+| Balance Sheet debt data | +10 | Accurate net debt |
+| TV% > 80% | -15 | Model may be unreliable |
+| Low FCF confidence | -15 | Base input uncertain |
+| Terminal value warning | -10 | Assumption issues |
+
+**Confidence Tiers:**
+
+| Score | Confidence Level |
+|-------|------------------|
+| ≥ 75 | High |
+| 55-74 | Medium |
+| 40-54 | Medium-Low |
+| < 40 | Low |
 
 ---
 
-## Sensitivity Analysis
+## 4. Comparable Company Analysis
 
-### Methodology
+### 4.1 Overview
 
-Per **Goldman Sachs** and **Morgan Stanley** pitch book standards, the platform includes a two-way sensitivity analysis matrix.
+Comparable Company Analysis ("Comps") values a company by applying peer group multiples to the target company's financial metrics. The methodology follows **Rosenbaum & Pearl** and **Damodaran** standards.
 
-### Implementation
+### 4.2 GICS Hierarchy for Peer Selection
 
-**Matrix Configuration:**
-- **5×5 grid** (industry standard for pitch books)
-- **WACC variation:** ±1.0% in 0.5% increments
-- **Terminal Growth variation:** ±0.5% in 0.25% increments
-- **Convention:** Lowest values top-left, highest bottom-right
+The platform uses the Global Industry Classification Standard (GICS) hierarchy developed by MSCI and S&P:
 
-### Visual Features
+| Level | Specificity | Example |
+|-------|-------------|---------|
+| GICS Sector | Broadest | Consumer Staples |
+| GICS Industry Group | Broad | Food, Beverage & Tobacco |
+| GICS Industry | Specific | Food Products |
+| GICS Sub-Industry | Most Specific | Packaged Foods & Meats |
 
-1. **Color-coded cells** based on implied upside:
-   - Dark green: >150% upside
-   - Light green: 0-150% upside
-   - Amber: 0% to -25% (slight downside)
-   - Red: >25% downside
+**Selection Priority:**
 
-2. **Base case highlighting** in blue with border
+| Level | Filter Criteria | Minimum Peers |
+|-------|-----------------|---------------|
+| 1 | Same Sub-Industry + Same Region + 0.5-2x Market Cap | 3 |
+| 2 | Same Sub-Industry (any region) OR Same Industry (same region) | 3 |
+| 3 | Same Industry + 0.33-3x Market Cap | 3 |
+| 4 | Same Industry Group | 3 |
+| 5 | Same Sector + 0.2-5x Market Cap | 3 |
+| 6 | Legacy Bloomberg Sector (fallback) | Any |
 
-3. **Football field visualization** showing valuation range
+### 4.3 Peer Similarity Scoring
 
-4. **Investment recommendation** based on scenario distribution:
-   - Strong Buy: Positive upside in all scenarios
-   - Buy: Median upside positive
-   - Hold: Mixed signals
-   - Cautious/Sell: Predominantly downside scenarios
+Each potential peer is scored on similarity to the target:
 
-### References
-- Wall Street Prep: [Sensitivity Analysis](https://www.wallstreetprep.com/knowledge/financial-modeling-techniques-sensitivity-what-if-analysis-2/)
-- Financial Edge: [DCF Sensitizing Variables](https://www.fe.training/free-resources/valuation/dcf-sensitizing-for-key-variables/)
+| Factor | Maximum Points | Criteria |
+|--------|---------------|----------|
+| GICS Specificity | 40 | Exact sub-industry = 40, Industry = 30, Group = 20, Sector = 10 |
+| Market Cap Proximity | 25 | 0.5-2x = 25, 0.33-3x = 15, wider = 5 |
+| Same Region | 15 | Yes = 15, No = 0 |
+| Growth Profile Match | 10 | <5% diff = 10, <10% diff = 5 |
+| Margin Profile Match | 10 | <5% diff = 10, <10% diff = 5 |
 
----
+Top 8 peers by similarity score are selected for the analysis.
 
-## Comparable Company Analysis
-
-### Methodology: Rosenbaum & Pearl Standards
-
-### Peer Selection Criteria
-
-**Primary Filter (Tightest):**
-- Same sector AND region
-- Market cap: 0.5x to 2.0x target
-- Valid P/E (0 < P/E < 100)
-
-**Relaxed Filter:**
-- Same sector, any region
-- Market cap: 0.33x to 3.0x target
-
-**Expanded Filter:**
-- Same industry group
-- Market cap: 0.33x to 3.0x target
-
-### Peer Similarity Scoring
-
-| Factor | Weight | Scoring |
-|--------|--------|---------|
-| Market Cap Proximity | 30 pts | 0.5-2x = 30, 0.33-3x = 20 |
-| Same Region | 20 pts | Yes = 20, No = 0 |
-| Growth Profile Match | 15 pts | <5% diff = 15, <10% = 10 |
-| Margin Profile Match | 15 pts | <5% diff = 15, <10% = 10 |
-
-Top 8 peers by similarity score are selected.
-
-### Valuation Multiples
+### 4.4 Valuation Multiples
 
 **Standard Multiples:**
-- P/E Ratio
-- P/B Ratio
-- EV/EBITDA (non-financials only)
-- P/TBV (financials only)
 
-### Sector-Specific Weighting
+| Multiple | Formula | Applicability |
+|----------|---------|---------------|
+| P/E | Price / EPS | All sectors |
+| P/B | Price / Book Value per Share | All sectors |
+| EV/EBITDA | Enterprise Value / EBITDA | Non-financials only |
+| P/TBV | Price / Tangible Book Value | Financials only |
 
-| Sector | P/E | P/B | EV/EBITDA | P/TBV |
-|--------|-----|-----|-----------|-------|
+**Why EV/EBITDA Excludes Financials:**
+
+Banks and insurance companies do not have traditional "EBITDA" as their revenue model differs fundamentally. Their "operating income" includes interest income/expense which is core to the business, not a financing item. Using EV/EBITDA for financials produces meaningless results.
+
+### 4.5 Sector-Specific Weighting
+
+| Sector | P/E Weight | P/B Weight | EV/EBITDA Weight | P/TBV Weight |
+|--------|------------|------------|------------------|--------------|
 | Financial/Banks | 40% | 30% | 0% | 30% |
 | Technology | 30% | 15% | 55% | 0% |
 | Industrial/Materials | 35% | 20% | 45% | 0% |
@@ -496,76 +607,429 @@ Top 8 peers by similarity score are selected.
 | Utilities | 40% | 35% | 25% | 0% |
 | Default | 40% | 25% | 35% | 0% |
 
-**Note:** EV/EBITDA is meaningless for financial companies (banks, insurance) because they don't have traditional EBITDA. The model correctly excludes this multiple for financials.
+### 4.6 Implied Valuation Calculation
 
-### Implied Valuation
+**Per-Multiple Implied Values:**
 
 ```
-Implied Value = Σ(Multiple_i × Per-Share Metric_i × Weight_i)
-
-Where:
-- P/E implied = Median Peer P/E × Company EPS
-- P/B implied = Median Peer P/B × Company BVPS
-- EV/EBITDA implied = Median × EBITDA, adjusted for Net Debt
+P/E Implied Value = Median Peer P/E × Target EPS × Current Price / Target PE
+P/B Implied Value = Median Peer P/B × Target BVPS × Current Price / Target PB
+EV/EBITDA Implied = (Median × Target EBITDA - Net Debt) / Shares × Current Price / Market Cap
 ```
 
-### Blended Valuation (DCF + Comps)
+**Weighted Average:**
 
-**Standard Weighting:**
-- DCF: 60%
-- Comps: 40%
+```
+Comps Fair Value = Σ(Implied Value_i × Weight_i) / Σ(Weight_i)
+```
 
-**Dynamic Adjustment:**
-- High DCF confidence → 65% DCF / 35% Comps
-- Low DCF confidence → 45% DCF / 55% Comps
-- TV% > 80% → Reduce DCF weight
-- Few peers (<3) → Reduce Comps weight
+### 4.7 Premium/Discount Analysis
+
+The model calculates the target's premium or discount to peer medians:
+
+```
+Premium (%) = ((Stock Multiple - Peer Median) / Peer Median) × 100
+```
+
+A significant premium may indicate overvaluation or justified by superior fundamentals. A significant discount may indicate undervaluation or fundamental concerns.
+
+### 4.8 Trading Range
+
+The 25th to 75th percentile of peer multiples provides a trading range for the fair value estimate.
 
 ---
 
-## Data Sources
+## 5. Sensitivity Analysis
 
-### Financial Data
-- **Yahoo Finance** (via yahoo-finance2 API)
-  - Real-time prices and market cap
-  - Financial statements
-  - Key ratios and metrics
+### 5.1 Overview
 
-### Macro Data
-- **Bank Indonesia (BI)**: Interest rates, inflation
-- **Badan Pusat Statistik (BPS)**: GDP, trade data
-- **Bloomberg**: Market indices, commodity prices
-- **Federal Reserve**: US Treasury yields
+Per Goldman Sachs and Morgan Stanley pitch book standards, the platform provides a two-way sensitivity analysis matrix showing fair value under different assumptions.
 
-### Parameters
-- **Damodaran Online**: Country risk premiums, credit spreads
-- **CFA Institute**: Valuation standards
-- **McKinsey**: Industry benchmarks
+### 5.2 Matrix Configuration
+
+**Standard 5×5 Grid:**
+
+| Parameter | Base Case | Range | Step Size |
+|-----------|-----------|-------|-----------|
+| WACC | Model-calculated | ±1.0% | 0.5% |
+| Terminal Growth | Region default | ±0.5% | 0.25% |
+
+**Convention:** Lowest values appear top-left, highest values bottom-right (Wall Street standard).
+
+### 5.3 Color Coding
+
+| Implied Upside | Color | Interpretation |
+|----------------|-------|----------------|
+| > 150% | Dark Green | Strong buy across assumptions |
+| 0-150% | Light Green | Positive upside |
+| 0% to -25% | Amber | Slight downside risk |
+| < -25% | Red | Significant downside |
+
+### 5.4 Investment Recommendations
+
+Based on the distribution of scenarios:
+
+| Condition | Recommendation |
+|-----------|----------------|
+| All scenarios positive (min > 20%) | Strong Buy |
+| All scenarios positive (min > 0%) | Buy |
+| Median positive, some negative | Hold |
+| Median negative, some positive | Cautious |
+| All scenarios negative | Sell |
 
 ---
 
-## Academic References
+## 6. Blended Valuation Framework
+
+### 6.1 Standard Weighting
+
+| Method | Base Weight | Rationale |
+|--------|-------------|-----------|
+| DCF | 60% | Intrinsic value anchor |
+| Comps | 40% | Market-relative check |
+
+### 6.2 Dynamic Weight Adjustment
+
+| Condition | Adjustment |
+|-----------|------------|
+| DCF High Confidence | 65% DCF / 35% Comps |
+| DCF Low Confidence | 45% DCF / 55% Comps |
+| TV% > 80% | Reduce DCF weight to 50% max |
+| < 3 Peers | Reduce Comps weight to 30% max |
+
+### 6.3 Convergence Analysis
+
+The spread between DCF and Comps values indicates valuation uncertainty:
+
+| Upside Spread | Convergence | Interpretation |
+|---------------|-------------|----------------|
+| < 10% | High | Strong valuation consensus |
+| 10-25% | Medium | Moderate uncertainty |
+| > 25% | Low | Significant model divergence |
+
+---
+
+## 7. Sector-Specific Considerations
+
+### 7.1 Financial Sector (Banks, Insurance, Financial Services)
+
+**Key Differences:**
+- EV/EBITDA is NOT applicable (deposits are not traditional debt)
+- Primary multiples: P/E, P/TBV, P/B
+- ROE vs. Cost of Equity determines P/B premium
+- D/E ratio represents deposits, not traditional leverage
+- Net debt calculation uses simplified 5% market cap proxy
+
+#### 7.1.1 Bank Valuation Models
+
+The platform includes a dedicated **Bank Valuation Module** with four methodologies:
+
+| Model | Weight | Best For |
+|-------|--------|----------|
+| Residual Income | 35% | All banks (captures ROE vs. Ke spread) |
+| DDM 2-Stage | 25% | Mature, dividend-paying banks |
+| DDM 3-Stage | 25% | Growth banks transitioning to maturity |
+| Gordon Growth P/B | 15% | Quick relative valuation |
+
+**Residual Income Model (Preferred for Banks):**
+```
+Value = BV₀ + Σ[(ROE - Ke) × BV_{t-1} / (1+Ke)^t] + Terminal Value
+```
+
+**Gordon Growth P/B Model:**
+```
+Fair P/B = (ROE - g) / (Ke - g)
+
+Interpretation:
+- P/B > 1.0 when ROE > Ke (value creator)
+- P/B = 1.0 when ROE = Ke (break-even)
+- P/B < 1.0 when ROE < Ke (value destroyer)
+```
+
+**Bank Quality Score (0-100 Points):**
+
+| Factor | Points | Key Metrics |
+|--------|--------|-------------|
+| Profitability | 30 | ROE, NIM, Cost-to-Income |
+| Asset Quality | 25 | NPL Ratio, NPL Coverage, LLR |
+| Capital Strength | 20 | CAR, Tier 1 Ratio |
+| Liquidity | 15 | LDR (optimal 78-92%), CASA Ratio |
+| Growth | 10 | Loan Growth, NII Growth |
+
+**Indonesian Big 4 Banks Benchmarks:**
+
+| Bank | Tier | Key Characteristics |
+|------|------|---------------------|
+| BBCA | Tier 1 Private | Premium valuation, best asset quality |
+| BBRI | Tier 1 SOE | Micro lending leader, rural focus |
+| BMRI | Tier 1 SOE | Corporate banking, growth trajectory |
+| BBNI | Tier 2 SOE | Dividend story, international exposure |
+
+#### 7.1.2 Insurance Valuation
+
+**Life Insurance:**
+- **Embedded Value (EV):** Adjusted Net Worth + Value of In-Force Business
+- **Appraisal Value:** EV + Franchise Value (future new business)
+- Primary multiple: P/EV (Price to Embedded Value)
+
+**P&C Insurance:**
+- **Combined Ratio Adjustment:** Fair P/B adjusted for underwriting profitability
+- CR < 90%: 1.30x P/B multiplier (profitable underwriting)
+- CR 95-100%: 1.00x (breakeven)
+- CR > 105%: 0.70x (underwriting losses)
+
+#### 7.1.3 Other Financial Services
+
+| Type | Primary Model | Key Metrics |
+|------|---------------|-------------|
+| Consumer Finance | Modified P/B (60%) + DDM (40%) | NIM, NPL, Gearing |
+| Asset Management | AUM Multiple (35%) + Fee Revenue (35%) + P/E (30%) | AUM Growth, Alpha |
+| Securities/Investment Banking | Revenue Multiple (40%) + P/B (60%) | Trading Revenue, Advisory |
+| Diversified Financials | SOTP with 15% holding discount | Segment breakdowns |
+
+### 7.2 Technology Sector
+
+**Key Differences:**
+- Higher weight on EV/EBITDA and EV/Revenue
+- Longer forecast period (10 years) for high growth
+- Higher FCF conversion (80-85%)
+- Lower D&A and CapEx relative to revenue
+
+### 7.3 Energy & Materials
+
+**Key Differences:**
+- Commodity price sensitivity critical
+- Higher sector risk premiums
+- Use through-cycle EBITDA for comps
+- Higher capex intensity reduces FCF conversion
+
+### 7.4 Real Estate
+
+**Key Differences:**
+- P/NAV is primary multiple
+- FFO/AFFO for REITs (not applicable in Indonesia)
+- Interest rate sensitivity critical
+- Working capital intensity for developers
+
+---
+
+## 8. Data Sources & Quality
+
+### 8.1 Financial Data
+
+| Source | Data Type | Update Frequency |
+|--------|-----------|------------------|
+| Yahoo Finance API | Prices, fundamentals, ratios | Real-time / Daily |
+| Bloomberg (via export) | GICS classification, detailed financials | Periodic |
+| Company filings | Verification of key metrics | Quarterly |
+
+### 8.2 Macro Data
+
+| Source | Data Type |
+|--------|-----------|
+| Bank Indonesia (BI) | Interest rates, inflation, GDP |
+| Badan Pusat Statistik (BPS) | GDP, trade data, demographics |
+| Federal Reserve | US Treasury yields, economic data |
+| Bloomberg | Commodity prices, market indices |
+
+### 8.3 Parameter Sources
+
+| Parameter | Source | Reference |
+|-----------|--------|-----------|
+| Country Risk Premiums | Damodaran Online | pages.stern.nyu.edu/~adamodar |
+| Equity Risk Premiums | Damodaran Annual Update | January 2025 |
+| Credit Spreads | Damodaran Rating Tables | pages.stern.nyu.edu/~adamodar |
+| Sector Parameters | McKinsey, Damodaran sector data | Industry benchmarks |
+
+---
+
+## 9. Model Limitations & Risk Factors
+
+### 9.1 General Limitations
+
+| Limitation | Description | Mitigation |
+|------------|-------------|------------|
+| Data Quality | Dependent on source accuracy | Multiple estimation methods, sanity checks |
+| Terminal Value Sensitivity | TV often >60% of EV | Sensitivity analysis, TV% warnings |
+| Point Estimates | Single fair value masks uncertainty | Provide ranges, confidence scores |
+| Backward-Looking Inputs | Historical data may not predict future | H-model decay, sector adjustments |
+
+### 9.2 Indonesian Market Specific
+
+| Factor | Risk | Consideration |
+|--------|------|---------------|
+| Liquidity | Lower trading volumes | Score includes liquidity factor |
+| Currency | IDR volatility | Country risk premium reflects |
+| Governance | Variable quality | Not explicitly modeled |
+| Sentiment Dominance | 80-90% of price movement | Higher technical/sentiment weights |
+
+### 9.3 What the Model Cannot Capture
+
+- Corporate governance quality
+- Management quality and incentives
+- ESG factors (not explicitly modeled)
+- Event-driven catalysts
+- Short-term trading patterns
+- Market microstructure effects
+
+---
+
+## 10. Technical Implementation
+
+### 10.1 Technology Stack
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| Frontend | React 19.2 | User interface |
+| Build Tool | Vite 7.2 | Development and bundling |
+| Styling | Tailwind CSS 4.1 | Responsive design |
+| Charts | Recharts 3.4 | Data visualization |
+| Icons | Lucide React | Professional iconography |
+| Data API | Yahoo Finance (yfinance) | Real-time market data |
+| Data Pipeline | Python 3, R (tidyverse) | Data processing |
+| Hosting | Vercel | Production deployment |
+
+### 10.2 Project Structure
+
+```text
+global-equity-screener/
+├── src/
+│   ├── App.jsx                    # Main application (7,700+ lines)
+│   ├── valuation.js               # DCF, Comps, WACC calculations
+│   ├── components/
+│   │   ├── BankValuationTab.jsx   # FIG valuation interface
+│   │   ├── FinancialServicesTab.jsx
+│   │   └── InteractiveDCF.jsx     # Interactive DCF with sensitivity
+│   ├── services/
+│   │   └── liveData.js            # Yahoo Finance API integration
+│   └── utils/
+│       ├── bankValuation.js       # Bank valuation models (943 lines)
+│       ├── financialServicesValuation.js  # FIG models (1,249 lines)
+│       └── exportUtils.js         # CSV/Excel export functions
+├── public/
+│   ├── global_companies_full.json # 1,200+ securities database
+│   └── sentiment.json             # News sentiment data
+├── scripts/
+│   ├── fetch_sp500_data.py        # Data pipeline automation
+│   └── merge_gics_data.py         # GICS classification merger
+└── METHODOLOGY.md                 # This document
+```
+
+### 10.3 Key Files
+
+| File | Lines | Description |
+|------|-------|-------------|
+| `valuation.js` | ~2,400 | All valuation models, WACC, DCF, Comps |
+| `App.jsx` | ~7,700 | UI components, MF scoring, dashboards |
+| `bankValuation.js` | ~943 | Bank-specific valuation (DDM, Residual Income) |
+| `financialServicesValuation.js` | ~1,249 | Insurance, Asset Management models |
+| `liveData.js` | ~737 | Real-time data service with caching |
+| `global_companies_full.json` | 1,203 records | Securities database |
+
+### 10.4 Platform Features
+
+| Feature | Description |
+|---------|-------------|
+| Multi-Factor Screening | 8-factor scoring with customizable weights |
+| DCF Valuation | Two-stage model with H-model growth decay |
+| Comparable Companies | GICS-based peer selection with sector weights |
+| Sensitivity Analysis | Two-way tables and scenario analysis |
+| Bank Valuation | Residual Income, DDM, Gordon P/B models |
+| Backtest Simulation | Historical strategy performance testing |
+| Export | Excel and CSV with professional formatting |
+| Dark Mode | Full dark/light theme support |
+| Mobile Responsive | Optimized for tablet and mobile viewing |
+
+### 10.5 Browser Support
+
+| Browser | Minimum Version |
+|---------|-----------------|
+| Chrome | 64+ |
+| Safari | 12+ |
+| iOS Safari | 12+ |
+| Firefox | 67+ |
+| Edge | 79+ |
+
+---
+
+## 11. Glossary of Terms
+
+| Term | Definition |
+|------|------------|
+| **Alpha (Jensen's)** | Risk-adjusted excess return vs. CAPM expectation |
+| **Beta** | Measure of systematic risk relative to market |
+| **Blume Adjustment** | Statistical adjustment for beta mean reversion |
+| **CAPM** | Capital Asset Pricing Model; Re = Rf + β × ERP |
+| **CRP** | Country Risk Premium; additional return for EM risk |
+| **D/E Ratio** | Debt-to-Equity ratio; leverage measure |
+| **DCF** | Discounted Cash Flow; intrinsic valuation method |
+| **EBITDA** | Earnings Before Interest, Taxes, Depreciation, Amortization |
+| **ERP** | Equity Risk Premium; stock market return over bonds |
+| **EV** | Enterprise Value; Market Cap + Net Debt |
+| **FCFF** | Free Cash Flow to Firm; cash available to all capital providers |
+| **GARP** | Growth at Reasonable Price; balanced growth/value approach |
+| **GICS** | Global Industry Classification Standard (MSCI/S&P) |
+| **Gordon Growth** | Terminal value model; TV = FCF(1+g)/(r-g) |
+| **H-Model** | Growth decay model with linear convergence to terminal |
+| **ICR** | Interest Coverage Ratio; EBIT / Interest Expense |
+| **NOPAT** | Net Operating Profit After Tax |
+| **P/B** | Price-to-Book ratio |
+| **P/E** | Price-to-Earnings ratio |
+| **P/TBV** | Price to Tangible Book Value |
+| **Synthetic Rating** | Credit rating estimated from financial ratios |
+| **Terminal Value** | Value of cash flows beyond explicit forecast period |
+| **WACC** | Weighted Average Cost of Capital |
+
+---
+
+## 12. Academic References
+
+### Primary Sources
 
 1. **Damodaran, Aswath** (NYU Stern)
-   - "Investment Valuation" (3rd Edition)
-   - Country Risk Premiums: https://pages.stern.nyu.edu/~adamodar/
+   - *Investment Valuation* (3rd Edition, Wiley)
+   - Country Risk Premiums: [pages.stern.nyu.edu/~adamodar](https://pages.stern.nyu.edu/~adamodar/)
+   - Annual ERP updates and rating spreads
 
 2. **Rosenbaum, Joshua & Pearl, Joshua**
-   - "Investment Banking: Valuation, LBOs, M&A, and IPOs" (3rd Edition)
+   - *Investment Banking: Valuation, LBOs, M&A, and IPOs* (3rd Edition, Wiley)
+   - Industry-standard comparable company methodology
 
-3. **CFA Institute**
+3. **McKinsey & Company** (Koller, Goedhart, Wessels)
+   - *Valuation: Measuring and Managing the Value of Companies* (7th Edition)
+   - Terminal value sanity checks, forecast period guidance
+
+4. **CFA Institute**
    - CFA Level II Equity Valuation Curriculum
-   - Global Investment Performance Standards (GIPS)
+   - FCFF calculation standards
 
-4. **McKinsey & Company**
-   - "Valuation: Measuring and Managing the Value of Companies" (7th Edition)
+### Supporting Sources
 
 5. **Graham, Benjamin & Dodd, David**
-   - "Security Analysis" (6th Edition)
+   - *Security Analysis* (6th Edition)
+   - Value investing principles, margin of safety
 
-6. **Blume, Marshall E.**
-   - "On the Assessment of Risk" (Journal of Finance, 1971)
+6. **Blume, Marshall E.** (1971)
+   - "On the Assessment of Risk" (Journal of Finance)
    - Beta adjustment: Adjusted β = 0.67 × Raw β + 0.33 × 1.0
+
+7. **Sharpe, William F.** (1964)
+   - "Capital Asset Prices" (Journal of Finance)
+   - CAPM foundation
+
+8. **Altman, Edward I.** (1968)
+   - "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy"
+   - Z-Score inspiration for financial health metrics
+
+### Industry References
+
+9. **Wall Street Prep**
+   - Sensitivity Analysis Best Practices
+   - [wallstreetprep.com](https://www.wallstreetprep.com)
+
+10. **Financial Edge**
+    - DCF Sensitizing for Key Variables
+    - [fe.training](https://www.fe.training)
 
 ---
 
@@ -573,6 +1037,8 @@ Where:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.1 | Dec 2025 | Universal branding; expanded global coverage (1,200+ securities); bank valuation module |
+| 3.0 | Dec 2025 | Comprehensive rewrite; enhanced explanations; professional formatting |
 | 2.1 | Nov 2025 | Safari compatibility, Sensitivity analysis, UI refinements |
 | 2.0 | Nov 2025 | 8-Factor scoring, S&P 500 coverage, Enhanced DCF |
 | 1.5 | Nov 2025 | Institutional-grade Comps, Sector weighting |
@@ -583,8 +1049,22 @@ Where:
 ## Author
 
 **Nathaniel Luu**
+Investment Analyst Intern | TCW Bahana Asset Management
+Jakarta, Indonesia
+
+*Research conducted during internship program, Fall 2025*
 
 ---
 
-*Natan Equity Research Platform*
-*Built with React, Python, and institutional-grade valuation methodology*
+### Contact & Repository
+
+- **GitHub:** [github.com/theresa12345-scp/natan-equity-research](https://github.com/theresa12345-scp/natan-equity-research)
+- **Live Demo:** Available upon request
+
+---
+
+*Global Equity Screener*
+*Built with institutional-grade methodology for professional investors*
+*Methodology: CFA Institute • Damodaran (NYU Stern) • Rosenbaum & Pearl*
+
+*Last Updated: December 2025*

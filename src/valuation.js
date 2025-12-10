@@ -160,35 +160,716 @@ const SECTOR_PARAMETERS = {
 };
 
 // ============================================================================
+// INDUSTRY-SPECIFIC DCF PRESETS - More granular subsector assumptions
+// Based on: Damodaran industry data, Bloomberg sector medians, McKinsey benchmarks
+// NOTE: Subsector-level data can be enhanced with Bloomberg exports
+// ============================================================================
+
+export const INDUSTRY_PRESETS = {
+  // ==================== FINANCIAL SECTOR ====================
+  'Banks - Diversified': {
+    name: 'Diversified Banks',
+    description: 'Large-cap commercial banks (BBCA, BBRI, BMRI)',
+    forecastYears: 5,
+    terminalGrowth: 4.5, // Indonesia: nominal GDP + spread growth
+    initialGrowth: 12,
+    fcfConversion: 0.85,
+    useRoeModel: true, // Banks: value = BV × (ROE-g)/(Ke-g)
+    typicalRoe: 18,
+    typicalPb: 2.5,
+    betaAdjustment: 0.95, // Banks slightly less volatile
+    sectorRiskPremium: 0,
+    ebitdaMargin: null, // Not applicable for banks
+    daToEbitda: null,
+    capexToDA: null,
+    nwcToRevGrowth: null
+  },
+  'Banks - Regional': {
+    name: 'Regional Banks',
+    description: 'Mid-cap regional banks (BNGA, BDMN)',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 10,
+    fcfConversion: 0.80,
+    useRoeModel: true,
+    typicalRoe: 14,
+    typicalPb: 1.5,
+    betaAdjustment: 1.05,
+    sectorRiskPremium: 0.5,
+    ebitdaMargin: null,
+    daToEbitda: null,
+    capexToDA: null,
+    nwcToRevGrowth: null
+  },
+  'Insurance': {
+    name: 'Insurance',
+    description: 'Life & P&C insurers',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 8,
+    fcfConversion: 0.75,
+    useRoeModel: true,
+    typicalRoe: 15,
+    typicalPb: 1.8,
+    betaAdjustment: 0.9,
+    sectorRiskPremium: 0,
+    ebitdaMargin: null,
+    daToEbitda: null,
+    capexToDA: null,
+    nwcToRevGrowth: null
+  },
+  'Financial Services': {
+    name: 'Financial Services',
+    description: 'Asset managers, securities firms, fintech',
+    forecastYears: 5,
+    terminalGrowth: 4.5,
+    initialGrowth: 15,
+    fcfConversion: 0.80,
+    useRoeModel: false,
+    typicalRoe: 20,
+    betaAdjustment: 1.15,
+    sectorRiskPremium: 0.5,
+    ebitdaMargin: 35,
+    daToEbitda: 0.05,
+    capexToDA: 0.5,
+    nwcToRevGrowth: 0.03
+  },
+
+  // ==================== CONSUMER SECTOR ====================
+  'Consumer Staples - Food': {
+    name: 'Food & Beverage',
+    description: 'Packaged food, beverages (ICBP, MYOR, INDF)',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 8,
+    fcfConversion: 0.75,
+    useRoeModel: false,
+    typicalRoe: 18,
+    betaAdjustment: 0.85, // Defensive
+    sectorRiskPremium: -0.5,
+    ebitdaMargin: 18,
+    daToEbitda: 0.12,
+    capexToDA: 1.0,
+    nwcToRevGrowth: 0.08
+  },
+  'Consumer Staples - Retail': {
+    name: 'Retail - Staples',
+    description: 'Grocery, convenience stores (AMRT)',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 10,
+    fcfConversion: 0.65,
+    useRoeModel: false,
+    typicalRoe: 15,
+    betaAdjustment: 0.90,
+    sectorRiskPremium: 0,
+    ebitdaMargin: 8,
+    daToEbitda: 0.20,
+    capexToDA: 1.3,
+    nwcToRevGrowth: 0.10
+  },
+  'Consumer Discretionary - Auto': {
+    name: 'Automotive',
+    description: 'Auto manufacturers, dealers (ASII)',
+    forecastYears: 5,
+    terminalGrowth: 3.5,
+    initialGrowth: 6,
+    fcfConversion: 0.55,
+    useRoeModel: false,
+    typicalRoe: 12,
+    betaAdjustment: 1.20, // Cyclical
+    sectorRiskPremium: 1.0,
+    ebitdaMargin: 12,
+    daToEbitda: 0.22,
+    capexToDA: 1.4,
+    nwcToRevGrowth: 0.15
+  },
+  'Consumer Discretionary - Retail': {
+    name: 'Retail - Discretionary',
+    description: 'Department stores, specialty retail',
+    forecastYears: 5,
+    terminalGrowth: 3.5,
+    initialGrowth: 8,
+    fcfConversion: 0.60,
+    useRoeModel: false,
+    typicalRoe: 14,
+    betaAdjustment: 1.15,
+    sectorRiskPremium: 0.5,
+    ebitdaMargin: 10,
+    daToEbitda: 0.18,
+    capexToDA: 1.2,
+    nwcToRevGrowth: 0.12
+  },
+
+  // ==================== TECHNOLOGY ====================
+  'Technology - Software': {
+    name: 'Software & SaaS',
+    description: 'Enterprise software, cloud services',
+    forecastYears: 10, // High growth warrants longer period
+    terminalGrowth: 3.5,
+    initialGrowth: 25,
+    fcfConversion: 0.85,
+    useRoeModel: false,
+    typicalRoe: 25,
+    betaAdjustment: 1.25,
+    sectorRiskPremium: 0,
+    ebitdaMargin: 30,
+    daToEbitda: 0.08,
+    capexToDA: 0.6,
+    nwcToRevGrowth: 0.03
+  },
+  'Technology - Hardware': {
+    name: 'Hardware & Electronics',
+    description: 'Computer hardware, consumer electronics',
+    forecastYears: 5,
+    terminalGrowth: 3.0,
+    initialGrowth: 12,
+    fcfConversion: 0.70,
+    useRoeModel: false,
+    typicalRoe: 18,
+    betaAdjustment: 1.15,
+    sectorRiskPremium: 0.5,
+    ebitdaMargin: 20,
+    daToEbitda: 0.15,
+    capexToDA: 1.0,
+    nwcToRevGrowth: 0.08
+  },
+  'Technology - Semiconductor': {
+    name: 'Semiconductors',
+    description: 'Chip manufacturers, foundries',
+    forecastYears: 7,
+    terminalGrowth: 3.5,
+    initialGrowth: 18,
+    fcfConversion: 0.55, // High capex
+    useRoeModel: false,
+    typicalRoe: 20,
+    betaAdjustment: 1.30, // Highly cyclical
+    sectorRiskPremium: 1.0,
+    ebitdaMargin: 35,
+    daToEbitda: 0.25,
+    capexToDA: 1.8,
+    nwcToRevGrowth: 0.05
+  },
+
+  // ==================== INDUSTRIAL ====================
+  'Industrial - Construction': {
+    name: 'Construction & Engineering',
+    description: 'Infrastructure, construction (WIKA, ADHI, PTPP)',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 10,
+    fcfConversion: 0.45, // Working capital intensive
+    useRoeModel: false,
+    typicalRoe: 10,
+    betaAdjustment: 1.20,
+    sectorRiskPremium: 1.5,
+    ebitdaMargin: 10,
+    daToEbitda: 0.20,
+    capexToDA: 1.2,
+    nwcToRevGrowth: 0.20 // High NWC needs
+  },
+  'Industrial - Cement': {
+    name: 'Cement & Building Materials',
+    description: 'Cement, concrete, aggregates (INTP, SMGR)',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 6,
+    fcfConversion: 0.50,
+    useRoeModel: false,
+    typicalRoe: 8,
+    betaAdjustment: 1.10,
+    sectorRiskPremium: 0.5,
+    ebitdaMargin: 25,
+    daToEbitda: 0.30,
+    capexToDA: 1.3,
+    nwcToRevGrowth: 0.08
+  },
+  'Industrial - Logistics': {
+    name: 'Transportation & Logistics',
+    description: 'Shipping, logistics, ports',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 8,
+    fcfConversion: 0.55,
+    useRoeModel: false,
+    typicalRoe: 12,
+    betaAdjustment: 1.05,
+    sectorRiskPremium: 0.5,
+    ebitdaMargin: 20,
+    daToEbitda: 0.25,
+    capexToDA: 1.4,
+    nwcToRevGrowth: 0.10
+  },
+
+  // ==================== BASIC MATERIALS ====================
+  'Materials - Mining': {
+    name: 'Mining & Metals',
+    description: 'Coal, nickel, gold mining (ADRO, PTBA, ANTM)',
+    forecastYears: 5,
+    terminalGrowth: 3.0, // Commodity cycles
+    initialGrowth: 5,
+    fcfConversion: 0.45,
+    useRoeModel: false,
+    typicalRoe: 15,
+    betaAdjustment: 1.25, // Commodity exposure
+    sectorRiskPremium: 2.0, // High volatility
+    ebitdaMargin: 30,
+    daToEbitda: 0.30,
+    capexToDA: 1.5,
+    nwcToRevGrowth: 0.08
+  },
+  'Materials - Chemicals': {
+    name: 'Chemicals',
+    description: 'Specialty chemicals, fertilizers',
+    forecastYears: 5,
+    terminalGrowth: 3.5,
+    initialGrowth: 8,
+    fcfConversion: 0.55,
+    useRoeModel: false,
+    typicalRoe: 12,
+    betaAdjustment: 1.10,
+    sectorRiskPremium: 0.5,
+    ebitdaMargin: 18,
+    daToEbitda: 0.22,
+    capexToDA: 1.3,
+    nwcToRevGrowth: 0.10
+  },
+
+  // ==================== ENERGY ====================
+  'Energy - Oil & Gas': {
+    name: 'Oil & Gas',
+    description: 'Upstream, downstream, integrated (PGAS, MEDC)',
+    forecastYears: 5,
+    terminalGrowth: 2.5, // Energy transition discount
+    initialGrowth: 5,
+    fcfConversion: 0.40,
+    useRoeModel: false,
+    typicalRoe: 12,
+    betaAdjustment: 1.20,
+    sectorRiskPremium: 2.0,
+    ebitdaMargin: 25,
+    daToEbitda: 0.35,
+    capexToDA: 1.6,
+    nwcToRevGrowth: 0.06
+  },
+  'Energy - Renewable': {
+    name: 'Renewable Energy',
+    description: 'Solar, wind, geothermal',
+    forecastYears: 10,
+    terminalGrowth: 4.0,
+    initialGrowth: 20,
+    fcfConversion: 0.35, // Very high capex
+    useRoeModel: false,
+    typicalRoe: 10,
+    betaAdjustment: 1.00,
+    sectorRiskPremium: 0,
+    ebitdaMargin: 45,
+    daToEbitda: 0.35,
+    capexToDA: 2.0,
+    nwcToRevGrowth: 0.03
+  },
+
+  // ==================== TELECOMMUNICATIONS ====================
+  'Telecom - Wireless': {
+    name: 'Wireless Telecom',
+    description: 'Mobile carriers (TLKM, EXCL, ISAT)',
+    forecastYears: 5,
+    terminalGrowth: 3.5,
+    initialGrowth: 6,
+    fcfConversion: 0.55,
+    useRoeModel: false,
+    typicalRoe: 15,
+    betaAdjustment: 0.85,
+    sectorRiskPremium: 0,
+    ebitdaMargin: 45,
+    daToEbitda: 0.28,
+    capexToDA: 1.3,
+    nwcToRevGrowth: 0.03
+  },
+  'Telecom - Towers': {
+    name: 'Tower Infrastructure',
+    description: 'Telecom towers, data centers (TOWR, TBIG)',
+    forecastYears: 7,
+    terminalGrowth: 4.0,
+    initialGrowth: 12,
+    fcfConversion: 0.50,
+    useRoeModel: false,
+    typicalRoe: 18,
+    betaAdjustment: 0.80, // Contracted revenue
+    sectorRiskPremium: -0.5,
+    ebitdaMargin: 55,
+    daToEbitda: 0.25,
+    capexToDA: 1.4,
+    nwcToRevGrowth: 0.02
+  },
+
+  // ==================== UTILITIES ====================
+  'Utilities - Power': {
+    name: 'Electric Utilities',
+    description: 'Power generation, distribution',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 6,
+    fcfConversion: 0.35, // High reinvestment
+    useRoeModel: false,
+    typicalRoe: 10,
+    betaAdjustment: 0.70, // Regulated
+    sectorRiskPremium: -0.5,
+    ebitdaMargin: 30,
+    daToEbitda: 0.30,
+    capexToDA: 1.8,
+    nwcToRevGrowth: 0.03
+  },
+
+  // ==================== HEALTHCARE ====================
+  'Healthcare - Pharma': {
+    name: 'Pharmaceuticals',
+    description: 'Drug manufacturers (KLBF, KAEF)',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 10,
+    fcfConversion: 0.70,
+    useRoeModel: false,
+    typicalRoe: 18,
+    betaAdjustment: 0.85,
+    sectorRiskPremium: 0,
+    ebitdaMargin: 22,
+    daToEbitda: 0.10,
+    capexToDA: 0.9,
+    nwcToRevGrowth: 0.10
+  },
+  'Healthcare - Hospitals': {
+    name: 'Hospitals & Clinics',
+    description: 'Hospital operators (MIKA, SILO)',
+    forecastYears: 7,
+    terminalGrowth: 4.5,
+    initialGrowth: 15,
+    fcfConversion: 0.60,
+    useRoeModel: false,
+    typicalRoe: 15,
+    betaAdjustment: 0.90,
+    sectorRiskPremium: 0,
+    ebitdaMargin: 18,
+    daToEbitda: 0.15,
+    capexToDA: 1.2,
+    nwcToRevGrowth: 0.08
+  },
+
+  // ==================== REAL ESTATE ====================
+  'Real Estate - Developers': {
+    name: 'Property Developers',
+    description: 'Residential, commercial developers (BSDE, CTRA, SMRA)',
+    forecastYears: 5,
+    terminalGrowth: 3.5,
+    initialGrowth: 8,
+    fcfConversion: 0.40, // High inventory
+    useRoeModel: false,
+    typicalRoe: 8,
+    betaAdjustment: 1.25, // Interest rate sensitive
+    sectorRiskPremium: 1.5,
+    ebitdaMargin: 35,
+    daToEbitda: 0.05,
+    capexToDA: 0.5,
+    nwcToRevGrowth: 0.25 // High land bank needs
+  },
+  'Real Estate - REITs': {
+    name: 'REITs',
+    description: 'Real estate investment trusts',
+    forecastYears: 5,
+    terminalGrowth: 3.0,
+    initialGrowth: 5,
+    fcfConversion: 0.85, // High dividend payout
+    useRoeModel: false,
+    typicalRoe: 8,
+    betaAdjustment: 0.85,
+    sectorRiskPremium: 0,
+    ebitdaMargin: 65,
+    daToEbitda: 0.20,
+    capexToDA: 0.8,
+    nwcToRevGrowth: 0.02
+  },
+
+  // ==================== DEFAULT ====================
+  'default': {
+    name: 'General Industry',
+    description: 'Default assumptions for unclassified companies',
+    forecastYears: 5,
+    terminalGrowth: 4.0,
+    initialGrowth: 8,
+    fcfConversion: 0.60,
+    useRoeModel: false,
+    typicalRoe: 15,
+    betaAdjustment: 1.0,
+    sectorRiskPremium: 0,
+    ebitdaMargin: 15,
+    daToEbitda: 0.18,
+    capexToDA: 1.1,
+    nwcToRevGrowth: 0.10
+  }
+};
+
+// ============================================================================
+// GICS SUB-INDUSTRY TO DCF PRESET MAPPING
+// Maps 118 GICS Sub-Industries from Bloomberg to our DCF presets
+// Based on: Standard & Poor's GICS classification system
+// ============================================================================
+
+export const GICS_TO_PRESET_MAP = {
+  // ==================== FINANCIALS ====================
+  'Diversified Banks': 'Banks - Diversified',
+  'Regional Banks': 'Banks - Regional',
+  'Life & Health Insurance': 'Insurance',
+  'Multi-line Insurance': 'Insurance',
+  'Property & Casualty Insurance': 'Insurance',
+  'Reinsurance': 'Insurance',
+  'Consumer Finance': 'Financial Services',
+  'Investment Banking & Brokerage': 'Financial Services',
+  'Asset Management & Custody Ban': 'Financial Services',
+  'Financial Exchanges & Data': 'Financial Services',
+  'Specialized Finance': 'Financial Services',
+  'Transaction & Payment Processi': 'Financial Services',
+
+  // ==================== REAL ESTATE ====================
+  'Real Estate Development': 'Real Estate - Developers',
+  'Real Estate Operating Companie': 'Real Estate - REITs',
+  'Diversified Real Estate Activi': 'Real Estate - Developers',
+
+  // ==================== CONSUMER STAPLES ====================
+  'Packaged Foods & Meats': 'Consumer Staples - Food',
+  'Agricultural Products & Servic': 'Consumer Staples - Food',
+  'Soft Drinks & Non-alcoholic Be': 'Consumer Staples - Food',
+  'Brewers': 'Consumer Staples - Food',
+  'Distillers & Vintners': 'Consumer Staples - Food',
+  'Food Distributors': 'Consumer Staples - Retail',
+  'Food Retail': 'Consumer Staples - Retail',
+  'Consumer Staples Merchandise R': 'Consumer Staples - Retail',
+  'Household Products': 'Consumer Staples - Food',
+  'Personal Care Products': 'Consumer Staples - Food',
+  'Tobacco': 'Consumer Staples - Food',
+
+  // ==================== CONSUMER DISCRETIONARY ====================
+  'Broadline Retail': 'Consumer Discretionary - Retail',
+  'Apparel Retail': 'Consumer Discretionary - Retail',
+  'Other Specialty Retail': 'Consumer Discretionary - Retail',
+  'Home Improvement Retail': 'Consumer Discretionary - Retail',
+  'Computer & Electronics Retail': 'Consumer Discretionary - Retail',
+  'Automotive Retail': 'Consumer Discretionary - Auto',
+  'Automotive Parts & Equipment': 'Consumer Discretionary - Auto',
+  'Restaurants': 'Consumer Discretionary - Retail',
+  'Hotels, Resorts & Cruise Lines': 'Consumer Discretionary - Retail',
+  'Leisure Facilities': 'Consumer Discretionary - Retail',
+  'Leisure Products': 'Consumer Discretionary - Retail',
+  'Apparel, Accessories & Luxury': 'Consumer Discretionary - Retail',
+  'Footwear': 'Consumer Discretionary - Retail',
+  'Home Furnishings': 'Consumer Discretionary - Retail',
+  'Housewares & Specialties': 'Consumer Discretionary - Retail',
+  'Household Appliances': 'Consumer Discretionary - Retail',
+  'Textiles': 'Consumer Discretionary - Retail',
+  'Movies & Entertainment': 'Consumer Discretionary - Retail',
+  'Distributors': 'Consumer Discretionary - Retail',
+  'Specialized Consumer Services': 'Consumer Discretionary - Retail',
+  'Education Services': 'Consumer Discretionary - Retail',
+
+  // ==================== INDUSTRIALS ====================
+  'Construction & Engineering': 'Industrial - Construction',
+  'Construction Materials': 'Industrial - Cement',
+  'Building Products': 'Industrial - Cement',
+  'Construction Machinery & Heavy': 'Industrial - Construction',
+  'Industrial Conglomerates': 'Industrial - Construction',
+  'Industrial Machinery & Supplie': 'Industrial - Construction',
+  'Trading Companies & Distributo': 'Industrial - Logistics',
+  'Marine Transportation': 'Industrial - Logistics',
+  'Marine Ports & Services': 'Industrial - Logistics',
+  'Air Freight & Logistics': 'Industrial - Logistics',
+  'Cargo Ground Transportation': 'Industrial - Logistics',
+  'Rail Transportation': 'Industrial - Logistics',
+  'Passenger Airlines': 'Industrial - Logistics',
+  'Passenger Ground Transportatio': 'Industrial - Logistics',
+  'Airport Services': 'Industrial - Logistics',
+  'Highways & Railtracks': 'Industrial - Logistics',
+  'Diversified Support Services': 'Industrial - Construction',
+  'Environmental & Facilities Ser': 'Industrial - Construction',
+  'Office Services & Supplies': 'Industrial - Construction',
+  'Research & Consulting Services': 'Industrial - Construction',
+  'Aerospace & Defense': 'Industrial - Construction',
+  'Electrical Components & Equipm': 'Technology - Hardware',
+
+  // ==================== TECHNOLOGY ====================
+  'Application Software': 'Technology - Software',
+  'IT Consulting & Other Services': 'Technology - Software',
+  'Internet Services & Infrastruc': 'Technology - Software',
+  'Interactive Media & Services': 'Technology - Software',
+  'Technology Hardware, Storage &': 'Technology - Hardware',
+  'Technology Distributors': 'Technology - Hardware',
+  'Communications Equipment': 'Technology - Hardware',
+  'Electronic Components': 'Technology - Semiconductor',
+  'Electronic Equipment & Instrum': 'Technology - Hardware',
+  'Semiconductors': 'Technology - Semiconductor',
+
+  // ==================== MATERIALS ====================
+  'Diversified Metals & Mining': 'Materials - Mining',
+  'Gold': 'Materials - Mining',
+  'Copper': 'Materials - Mining',
+  'Aluminum': 'Materials - Mining',
+  'Steel': 'Materials - Mining',
+  'Commodity Chemicals': 'Materials - Chemicals',
+  'Specialty Chemicals': 'Materials - Chemicals',
+  'Diversified Chemicals': 'Materials - Chemicals',
+  'Industrial Gases': 'Materials - Chemicals',
+  'Fertilizers & Agricultural Che': 'Materials - Chemicals',
+  'Paper Products': 'Materials - Chemicals',
+  'Forest Products': 'Materials - Chemicals',
+  'Paper & Plastic Packaging Prod': 'Materials - Chemicals',
+  'Metal, Glass & Plastic Contain': 'Materials - Chemicals',
+
+  // ==================== ENERGY ====================
+  'Coal & Consumable Fuels': 'Energy - Oil & Gas',
+  'Oil & Gas Exploration & Produc': 'Energy - Oil & Gas',
+  'Oil & Gas Refining & Marketing': 'Energy - Oil & Gas',
+  'Oil & Gas Storage & Transporta': 'Energy - Oil & Gas',
+  'Oil & Gas Equipment & Services': 'Energy - Oil & Gas',
+  'Oil & Gas Drilling': 'Energy - Oil & Gas',
+  'Renewable Electricity': 'Energy - Renewable',
+  'Independent Power Producers &': 'Energy - Renewable',
+
+  // ==================== TELECOMMUNICATIONS ====================
+  'Integrated Telecommunication S': 'Telecom - Wireless',
+  'Wireless Telecommunication Ser': 'Telecom - Wireless',
+  'Alternative Carriers': 'Telecom - Towers',
+  'Cable & Satellite': 'Telecom - Towers',
+
+  // ==================== MEDIA & ENTERTAINMENT ====================
+  'Broadcasting': 'Consumer Discretionary - Retail',
+  'Publishing': 'Consumer Discretionary - Retail',
+  'Advertising': 'Consumer Discretionary - Retail',
+  'Commercial Printing': 'Consumer Discretionary - Retail',
+
+  // ==================== UTILITIES ====================
+  'Electric Utilities': 'Utilities - Power',
+  'Gas Utilities': 'Utilities - Power',
+
+  // ==================== HEALTHCARE ====================
+  'Pharmaceuticals': 'Healthcare - Pharma',
+  'Health Care Facilities': 'Healthcare - Hospitals',
+  'Health Care Services': 'Healthcare - Hospitals',
+  'Health Care Distributors': 'Healthcare - Pharma',
+  'Health Care Supplies': 'Healthcare - Pharma',
+
+  // ==================== TIRES & RUBBER ====================
+  'Tires & Rubber': 'Consumer Discretionary - Auto',
+};
+
+// Helper function to get industry preset by GICS Sub-Industry (primary) or sector (fallback)
+export const getIndustryPreset = (sector, subsector, gicsSubIndustry) => {
+  // Priority 1: GICS Sub-Industry (most granular - from Bloomberg)
+  if (gicsSubIndustry && GICS_TO_PRESET_MAP[gicsSubIndustry]) {
+    const presetKey = GICS_TO_PRESET_MAP[gicsSubIndustry];
+    if (INDUSTRY_PRESETS[presetKey]) {
+      return {
+        ...INDUSTRY_PRESETS[presetKey],
+        matchedOn: 'GICS Sub-Industry',
+        gicsSubIndustry
+      };
+    }
+  }
+
+  // Priority 2: Exact subsector match (our custom presets)
+  if (subsector && INDUSTRY_PRESETS[subsector]) {
+    return {
+      ...INDUSTRY_PRESETS[subsector],
+      matchedOn: 'Subsector',
+      gicsSubIndustry
+    };
+  }
+
+  // Priority 3: Map Bloomberg sector to best-fit preset
+  const sectorMapping = {
+    'Financial': 'Banks - Diversified',
+    'Technology': 'Technology - Software',
+    'Consumer, Cyclical': 'Consumer Discretionary - Retail',
+    'Consumer, Non-cyclical': 'Consumer Staples - Food',
+    'Industrial': 'Industrial - Construction',
+    'Basic Materials': 'Materials - Mining',
+    'Energy': 'Energy - Oil & Gas',
+    'Communications': 'Telecom - Wireless',
+    'Utilities': 'Utilities - Power',
+    'Healthcare': 'Healthcare - Pharma',
+    // GICS Sectors
+    'Financials': 'Banks - Diversified',
+    'Information Technology': 'Technology - Software',
+    'Consumer Discretionary': 'Consumer Discretionary - Retail',
+    'Consumer Staples': 'Consumer Staples - Food',
+    'Industrials': 'Industrial - Construction',
+    'Materials': 'Materials - Mining',
+    'Energy': 'Energy - Oil & Gas',
+    'Communication Services': 'Telecom - Wireless',
+    'Utilities': 'Utilities - Power',
+    'Health Care': 'Healthcare - Pharma',
+    'Real Estate': 'Real Estate - Developers'
+  };
+
+  const mappedKey = sectorMapping[sector] || 'default';
+  const preset = INDUSTRY_PRESETS[mappedKey] || INDUSTRY_PRESETS['default'];
+
+  return {
+    ...preset,
+    matchedOn: 'Sector Fallback',
+    gicsSubIndustry
+  };
+};
+
+// ============================================================================
 // COST OF CAPITAL CALCULATIONS
 // Based on: CAPM + Country Risk Premium (Damodaran methodology)
 // ============================================================================
 
 /**
  * Calculate Cost of Equity using CAPM with Country Risk Premium
- * Formula: Re = Rf + β × (ERP) + CRP
+ * Formula: Re = Rf + β × (ERP) + CRP + Sector Risk Premium
  *
  * Per Damodaran: For emerging markets, add country risk premium to capture
  * additional sovereign and currency risk not reflected in beta
  *
  * @param {number} beta - Company beta (levered)
  * @param {string} region - 'Indonesia' or 'US'
+ * @param {Object} customOverrides - Optional custom assumption overrides
  * @returns {number} Cost of equity as percentage
  */
-export const calculateCostOfEquity = (beta, region) => {
-  const params = DCF_ASSUMPTIONS[region] || DCF_ASSUMPTIONS.US;
+export const calculateCostOfEquity = (beta, region, customOverrides = {}) => {
+  const baseParams = DCF_ASSUMPTIONS[region] || DCF_ASSUMPTIONS.US;
+
+  // Merge custom overrides with base params
+  const params = {
+    riskFreeRate: customOverrides.riskFreeRate ?? baseParams.riskFreeRate,
+    equityRiskPremium: customOverrides.equityRiskPremium ?? baseParams.equityRiskPremium,
+    countryRiskPremium: customOverrides.countryRiskPremium ?? baseParams.countryRiskPremium,
+  };
 
   // Apply Blume adjustment for beta mean reversion: Adjusted β = 0.67 × Raw β + 0.33 × 1.0
   // This is standard Bloomberg/CFA practice for forward-looking beta
-  const rawBeta = beta || 1.0;
-  const blumeAdjustedBeta = (0.67 * rawBeta) + (0.33 * 1.0);
+  // Allow user to override beta adjustment factor or disable it entirely
+  const rawBeta = customOverrides.beta ?? beta ?? 1.0;
+  const useBlumeAdjustment = customOverrides.useBlumeAdjustment !== false;
+  const betaAdjustmentFactor = customOverrides.betaAdjustment ?? 1.0;
+
+  let adjustedBeta;
+  if (useBlumeAdjustment) {
+    const blumeAdjustedBeta = (0.67 * rawBeta) + (0.33 * 1.0);
+    adjustedBeta = blumeAdjustedBeta * betaAdjustmentFactor;
+  } else {
+    adjustedBeta = rawBeta * betaAdjustmentFactor;
+  }
 
   // Cap adjusted beta between 0.4 and 2.5 for reasonableness
-  const adjustedBeta = Math.max(0.4, Math.min(2.5, blumeAdjustedBeta));
+  adjustedBeta = Math.max(0.4, Math.min(2.5, adjustedBeta));
+
+  // Add sector risk premium if provided (from industry preset)
+  const sectorRiskPremium = customOverrides.sectorRiskPremium ?? 0;
 
   return params.riskFreeRate +
          (adjustedBeta * params.equityRiskPremium) +
-         params.countryRiskPremium;
+         params.countryRiskPremium +
+         sectorRiskPremium;
 };
 
 /**
@@ -271,37 +952,51 @@ const normalizeDeRatio = (de) => {
  *
  * @param {Object} stock - Stock object with financial data
  * @param {string} region - 'Indonesia' or 'US'
+ * @param {Object} customOverrides - Optional custom assumption overrides
  * @returns {Object} WACC details
  */
-export const calculateWACC = (stock, region) => {
-  const params = DCF_ASSUMPTIONS[region] || DCF_ASSUMPTIONS.US;
+export const calculateWACC = (stock, region, customOverrides = {}) => {
+  const baseParams = DCF_ASSUMPTIONS[region] || DCF_ASSUMPTIONS.US;
 
-  // Get normalized D/E ratio
-  const deRatio = normalizeDeRatio(stock.DE);
+  // Merge custom overrides for tax rate
+  const taxRate = customOverrides.taxRate ?? baseParams.taxRate;
+
+  // Get normalized D/E ratio (allow user override)
+  const deRatio = customOverrides.deRatio ?? normalizeDeRatio(stock.DE);
 
   // Capital structure weights (from D/E ratio)
   // D/V = D/E / (1 + D/E), E/V = 1 / (1 + D/E)
   const debtWeight = deRatio / (1 + deRatio);
   const equityWeight = 1 - debtWeight;
 
-  // Component costs
-  const costOfEquity = calculateCostOfEquity(stock.Beta, region);
+  // Component costs (pass custom overrides through)
+  const costOfEquity = calculateCostOfEquity(stock.Beta, region, customOverrides);
   const debtData = calculateCostOfDebt(stock, region);
-  const afterTaxCostOfDebt = debtData.preTaxCost * (1 - params.taxRate / 100);
 
-  // WACC calculation
-  const wacc = (equityWeight * costOfEquity) + (debtWeight * afterTaxCostOfDebt);
+  // Allow custom cost of debt spread override
+  const preTaxCostOfDebt = customOverrides.costOfDebt ?? debtData.preTaxCost;
+  const afterTaxCostOfDebt = preTaxCostOfDebt * (1 - taxRate / 100);
+
+  // WACC calculation (allow direct override as well)
+  let wacc;
+  if (customOverrides.wacc !== undefined) {
+    wacc = customOverrides.wacc;
+  } else {
+    wacc = (equityWeight * costOfEquity) + (debtWeight * afterTaxCostOfDebt);
+  }
 
   return {
     wacc: Math.round(wacc * 100) / 100,
     costOfEquity: Math.round(costOfEquity * 100) / 100,
-    costOfDebt: debtData.preTaxCost,
+    costOfDebt: preTaxCostOfDebt,
     afterTaxCostOfDebt: Math.round(afterTaxCostOfDebt * 100) / 100,
     debtWeight: Math.round(debtWeight * 1000) / 10,
     equityWeight: Math.round(equityWeight * 1000) / 10,
-    beta: stock.Beta || 1.0,
+    beta: customOverrides.beta ?? stock.Beta ?? 1.0,
     syntheticRating: debtData.syntheticRating,
-    debtRatingMethod: debtData.method
+    debtRatingMethod: debtData.method,
+    taxRate,
+    isCustom: Object.keys(customOverrides).length > 0
   };
 };
 
@@ -627,19 +1322,42 @@ const calculateNetDebt = (stock) => {
  * 3. Terminal Value sanity checks per McKinsey
  * 4. H-model growth decay with 10-year option for high growth
  * 5. Confidence scoring based on data quality
+ * 6. NEW: User-editable assumptions with industry presets
  *
  * @param {Object} stock - Stock object with financial data
  * @param {string} region - 'Indonesia' or 'US'
+ * @param {Object} customOverrides - Optional custom assumption overrides
  * @returns {Object} Complete DCF analysis
  */
-export const calculateDCF = (stock, region) => {
-  const params = DCF_ASSUMPTIONS[region] || DCF_ASSUMPTIONS.US;
-  const waccData = calculateWACC(stock, region);
+export const calculateDCF = (stock, region, customOverrides = {}) => {
+  const baseParams = DCF_ASSUMPTIONS[region] || DCF_ASSUMPTIONS.US;
+
+  // Merge custom overrides with base params
+  const params = {
+    ...baseParams,
+    terminalGrowth: customOverrides.terminalGrowth ?? baseParams.terminalGrowth,
+    taxRate: customOverrides.taxRate ?? baseParams.taxRate,
+    riskFreeRate: customOverrides.riskFreeRate ?? baseParams.riskFreeRate,
+    equityRiskPremium: customOverrides.equityRiskPremium ?? baseParams.equityRiskPremium,
+    countryRiskPremium: customOverrides.countryRiskPremium ?? baseParams.countryRiskPremium,
+  };
+
+  // Calculate WACC with custom overrides
+  const waccData = calculateWACC(stock, region, customOverrides);
   const wacc = waccData.wacc;
 
   // Base FCF estimation using improved methodology
-  const fcfData = estimateFCFF(stock, region);
-  const baseFCF = fcfData.fcff;
+  // Allow custom FCF override for manual analyst input
+  let fcfData;
+  let baseFCF;
+
+  if (customOverrides.baseFCF !== undefined) {
+    baseFCF = customOverrides.baseFCF;
+    fcfData = { fcff: baseFCF, method: 'User Override', confidence: 'Custom' };
+  } else {
+    fcfData = estimateFCFF(stock, region);
+    baseFCF = fcfData.fcff;
+  }
 
   // Growth rate assumptions (decay from current to terminal)
   // Use blended growth rate: 70% Revenue Growth + 30% Earnings Growth
@@ -666,14 +1384,17 @@ export const calculateDCF = (stock, region) => {
     rawGrowth = 8; // Default assumption
   }
 
-  // Final cap on blended growth
-  const currentGrowth = Math.min(35, Math.max(-15, rawGrowth));
+  // Final cap on blended growth - allow user override
+  const defaultCurrentGrowth = Math.min(35, Math.max(-15, rawGrowth));
+  const currentGrowth = customOverrides.initialGrowth ?? defaultCurrentGrowth;
   const terminalGrowth = params.terminalGrowth;
 
   // Determine forecast period based on growth profile (McKinsey approach)
   // High growth companies warrant longer explicit forecast
+  // Allow user override
   const isHighGrowth = currentGrowth > 15;
-  const forecastYears = isHighGrowth ? 10 : 5;
+  const defaultForecastYears = isHighGrowth ? 10 : 5;
+  const forecastYears = customOverrides.forecastYears ?? defaultForecastYears;
 
   // H-Model style decay: linear convergence to terminal growth
   // This is more theoretically sound than step functions
@@ -799,6 +1520,21 @@ export const calculateDCF = (stock, region) => {
   else if (confidenceScore >= 40) confidence = 'Medium-Low';
   else confidence = 'Low';
 
+  // Track which assumptions are custom vs default
+  const customAssumptionsUsed = {
+    terminalGrowth: customOverrides.terminalGrowth !== undefined,
+    initialGrowth: customOverrides.initialGrowth !== undefined,
+    forecastYears: customOverrides.forecastYears !== undefined,
+    riskFreeRate: customOverrides.riskFreeRate !== undefined,
+    equityRiskPremium: customOverrides.equityRiskPremium !== undefined,
+    countryRiskPremium: customOverrides.countryRiskPremium !== undefined,
+    beta: customOverrides.beta !== undefined,
+    taxRate: customOverrides.taxRate !== undefined,
+    wacc: customOverrides.wacc !== undefined,
+    baseFCF: customOverrides.baseFCF !== undefined,
+  };
+  const hasCustomAssumptions = Object.values(customAssumptionsUsed).some(v => v);
+
   return {
     fairValue: Math.round(fairValue * 100) / 100,
     upside: Math.round(upside * 10) / 10,
@@ -825,7 +1561,23 @@ export const calculateDCF = (stock, region) => {
     confidenceFactors,
     warnings: terminalValueWarning ? [terminalValueWarning] : [],
     evCapped,
-    evToMarketCapRatio: Math.round(evToMarketCap * 100) / 100
+    evToMarketCapRatio: Math.round(evToMarketCap * 100) / 100,
+    // NEW: Custom assumption tracking
+    currentGrowth: Math.round(currentGrowth * 10) / 10,
+    terminalGrowth: params.terminalGrowth,
+    hasCustomAssumptions,
+    customAssumptionsUsed,
+    customOverrides: { ...customOverrides },
+    // Computed values for UI display
+    computedDefaults: {
+      initialGrowth: Math.round(defaultCurrentGrowth * 10) / 10,
+      forecastYears: defaultForecastYears,
+      terminalGrowth: baseParams.terminalGrowth,
+      riskFreeRate: baseParams.riskFreeRate,
+      equityRiskPremium: baseParams.equityRiskPremium,
+      countryRiskPremium: baseParams.countryRiskPremium,
+      taxRate: baseParams.taxRate,
+    }
   };
 };
 
@@ -915,14 +1667,18 @@ const calculateStats = (arr) => {
 
 /**
  * Comprehensive Comparable Company Analysis
- * With institutional-grade methodology
+ * With institutional-grade methodology using GICS classification hierarchy
  *
- * KEY IMPROVEMENTS:
- * 1. Tighter peer selection (0.33x to 3x market cap)
- * 2. EV/EBITDA excluded for financials
- * 3. P/TBV added for banks
- * 4. Growth-adjusted peer matching
- * 5. Statistical range reporting (25th/75th percentile)
+ * KEY IMPROVEMENTS (Updated Dec 2025):
+ * 1. GICS Sub-Industry → Industry → Industry Group → Sector hierarchy for peer selection
+ * 2. Tighter peer selection (0.33x to 3x market cap)
+ * 3. EV/EBITDA excluded for financials
+ * 4. P/TBV added for banks
+ * 5. Growth-adjusted peer matching with GICS specificity weighting
+ * 6. Statistical range reporting (25th/75th percentile)
+ *
+ * Per Rosenbaum & Pearl / Damodaran: "Peers should be in the same specific industry
+ * with similar business models, size, and growth profiles"
  *
  * @param {Object} stock - Target stock
  * @param {Array} allStocks - All available stocks for comparison
@@ -934,87 +1690,172 @@ export const calculateComparables = (stock, allStocks) => {
   const marketCap = stock["Market Cap"] || 0;
   if (marketCap === 0) return null;
 
-  const sector = stock["Industry Sector"] || '';
-  const isFinancial = sector.includes('Financial') || sector.includes('Bank') || sector.includes('Insurance');
+  // Extract GICS classifications (most specific to least specific)
+  const gicsSubIndustry = stock["GICS Sub-Industry"] || '';
+  const gicsIndustry = stock["GICS Industry"] || '';
+  const gicsIndustryGroup = stock["GICS Industry Group"] || '';
+  const gicsSector = stock["GICS Sector"] || '';
 
-  // TIGHTENED peer selection criteria (per Rosenbaum & Pearl)
-  // Standard: 0.5x to 2x market cap
-  // Relaxed: 0.33x to 3x market cap (if insufficient peers)
+  // Fallback to legacy Bloomberg classification if GICS unavailable
+  const legacySector = stock["Industry Sector"] || '';
+
+  const isFinancial = gicsSector.includes('Financial') || legacySector.includes('Financial') ||
+                      legacySector.includes('Bank') || legacySector.includes('Insurance');
+
+  // Market cap ranges per Rosenbaum & Pearl
+  // Tight: 0.5x to 2x market cap (ideal peers)
+  // Relaxed: 0.33x to 3x market cap (acceptable peers)
+  // Wide: 0.2x to 5x market cap (last resort)
   const tightLower = marketCap * 0.5;
   const tightUpper = marketCap * 2.0;
   const relaxedLower = marketCap * 0.33;
   const relaxedUpper = marketCap * 3.0;
+  const wideLower = marketCap * 0.2;
+  const wideUpper = marketCap * 5.0;
 
-  // Primary peer criteria
-  const primaryFilter = (s) =>
-    s["Industry Sector"] === stock["Industry Sector"] &&
+  // Base quality filter (valid PE, not the target stock)
+  const baseFilter = (s) =>
+    s.Ticker !== stock.Ticker &&
+    s["Market Cap"] &&
+    s.PE && s.PE > 0 && s.PE < 100;
+
+  // ============================================================================
+  // GICS HIERARCHY PEER SELECTION (Industry Best Practice)
+  // Per Damodaran: "Start with the most specific industry classification"
+  // ============================================================================
+
+  // LEVEL 1: GICS Sub-Industry (most specific - e.g., "Agricultural Products & Services")
+  // Same sub-industry + same region + tight market cap
+  const level1Filter = (s) =>
+    baseFilter(s) &&
+    s["GICS Sub-Industry"] && s["GICS Sub-Industry"] === gicsSubIndustry &&
     s.Region === stock.Region &&
-    s.Ticker !== stock.Ticker &&
-    s["Market Cap"] &&
-    s["Market Cap"] >= tightLower &&
-    s["Market Cap"] <= tightUpper &&
-    s.PE && s.PE > 0 && s.PE < 100;
+    s["Market Cap"] >= tightLower && s["Market Cap"] <= tightUpper;
 
-  // Relaxed peer criteria (same sector, any region, wider size)
-  const relaxedFilter = (s) =>
-    s["Industry Sector"] === stock["Industry Sector"] &&
-    s.Ticker !== stock.Ticker &&
-    s["Market Cap"] &&
-    s["Market Cap"] >= relaxedLower &&
-    s["Market Cap"] <= relaxedUpper &&
-    s.PE && s.PE > 0 && s.PE < 100;
+  // LEVEL 2: GICS Sub-Industry + any region OR same GICS Industry + same region
+  // Slightly relaxed geography or one level up in classification
+  const level2Filter = (s) =>
+    baseFilter(s) &&
+    ((s["GICS Sub-Industry"] && s["GICS Sub-Industry"] === gicsSubIndustry) ||
+     (s["GICS Industry"] && s["GICS Industry"] === gicsIndustry && s.Region === stock.Region)) &&
+    s["Market Cap"] >= relaxedLower && s["Market Cap"] <= relaxedUpper;
 
-  // Cross-sector fallback (same industry group)
-  const crossSectorFilter = (s) =>
-    s["Industry Group"] === stock["Industry Group"] &&
-    s.Ticker !== stock.Ticker &&
-    s["Market Cap"] &&
-    s["Market Cap"] >= relaxedLower &&
-    s["Market Cap"] <= relaxedUpper &&
-    s.PE && s.PE > 0 && s.PE < 100;
+  // LEVEL 3: GICS Industry (e.g., "Food Products") + relaxed market cap
+  const level3Filter = (s) =>
+    baseFilter(s) &&
+    s["GICS Industry"] && s["GICS Industry"] === gicsIndustry &&
+    s["Market Cap"] >= relaxedLower && s["Market Cap"] <= relaxedUpper;
 
-  // Try tightest criteria first, then expand
-  let peers = allStocks.filter(primaryFilter);
-  let selectionMethod = 'Primary (same sector/region, 0.5-2x cap)';
+  // LEVEL 4: GICS Industry Group (e.g., "Food, Beverage & Tobacco")
+  const level4Filter = (s) =>
+    baseFilter(s) &&
+    s["GICS Industry Group"] && s["GICS Industry Group"] === gicsIndustryGroup &&
+    s["Market Cap"] >= relaxedLower && s["Market Cap"] <= relaxedUpper;
 
-  if (peers.length < 4) {
-    peers = allStocks.filter(relaxedFilter);
-    selectionMethod = 'Relaxed (same sector, any region, 0.33-3x cap)';
+  // LEVEL 5: GICS Sector (e.g., "Consumer Staples") - broad but still GICS
+  const level5Filter = (s) =>
+    baseFilter(s) &&
+    s["GICS Sector"] && s["GICS Sector"] === gicsSector &&
+    s["Market Cap"] >= wideLower && s["Market Cap"] <= wideUpper;
+
+  // LEVEL 6: Legacy Bloomberg sector (fallback for stocks without GICS)
+  const legacyFilter = (s) =>
+    baseFilter(s) &&
+    s["Industry Sector"] === legacySector &&
+    s["Market Cap"] >= wideLower && s["Market Cap"] <= wideUpper;
+
+  // Apply filters in order of specificity, requiring minimum 3 peers
+  let peers = [];
+  let selectionMethod = '';
+  let gicsMatchLevel = 0;
+
+  // Try each level until we have enough peers
+  if (gicsSubIndustry) {
+    peers = allStocks.filter(level1Filter);
+    if (peers.length >= 3) {
+      selectionMethod = `GICS Sub-Industry: ${gicsSubIndustry} (same region, 0.5-2x cap)`;
+      gicsMatchLevel = 1;
+    }
   }
 
+  if (peers.length < 3 && (gicsSubIndustry || gicsIndustry)) {
+    peers = allStocks.filter(level2Filter);
+    if (peers.length >= 3) {
+      selectionMethod = `GICS Sub-Industry/Industry: ${gicsSubIndustry || gicsIndustry} (relaxed)`;
+      gicsMatchLevel = 2;
+    }
+  }
+
+  if (peers.length < 3 && gicsIndustry) {
+    peers = allStocks.filter(level3Filter);
+    if (peers.length >= 3) {
+      selectionMethod = `GICS Industry: ${gicsIndustry} (0.33-3x cap)`;
+      gicsMatchLevel = 3;
+    }
+  }
+
+  if (peers.length < 3 && gicsIndustryGroup) {
+    peers = allStocks.filter(level4Filter);
+    if (peers.length >= 3) {
+      selectionMethod = `GICS Industry Group: ${gicsIndustryGroup}`;
+      gicsMatchLevel = 4;
+    }
+  }
+
+  if (peers.length < 3 && gicsSector) {
+    peers = allStocks.filter(level5Filter);
+    if (peers.length >= 3) {
+      selectionMethod = `GICS Sector: ${gicsSector} (broad)`;
+      gicsMatchLevel = 5;
+    }
+  }
+
+  // Final fallback to legacy classification
   if (peers.length < 3) {
-    peers = allStocks.filter(crossSectorFilter);
-    selectionMethod = 'Expanded (same industry group)';
+    peers = allStocks.filter(legacyFilter);
+    selectionMethod = `Legacy Sector: ${legacySector} (fallback)`;
+    gicsMatchLevel = 6;
   }
 
-  // Score peers by similarity and take top 8
+  // Score peers by similarity, incorporating GICS match specificity
   peers = peers
     .map(p => {
       let similarityScore = 0;
 
-      // Market cap proximity (most important)
+      // GICS SPECIFICITY BONUS (most important for comps quality)
+      // Per Damodaran: "The more specific the industry match, the better the comp"
+      if (p["GICS Sub-Industry"] === gicsSubIndustry && gicsSubIndustry) {
+        similarityScore += 40; // Exact sub-industry match
+      } else if (p["GICS Industry"] === gicsIndustry && gicsIndustry) {
+        similarityScore += 30; // Same industry
+      } else if (p["GICS Industry Group"] === gicsIndustryGroup && gicsIndustryGroup) {
+        similarityScore += 20; // Same industry group
+      } else if (p["GICS Sector"] === gicsSector && gicsSector) {
+        similarityScore += 10; // Same sector only
+      }
+
+      // Market cap proximity (second most important)
       const capRatio = p["Market Cap"] / marketCap;
-      if (capRatio >= 0.5 && capRatio <= 2.0) similarityScore += 30;
-      else if (capRatio >= 0.33 && capRatio <= 3.0) similarityScore += 20;
-      else similarityScore += 10;
+      if (capRatio >= 0.5 && capRatio <= 2.0) similarityScore += 25;
+      else if (capRatio >= 0.33 && capRatio <= 3.0) similarityScore += 15;
+      else similarityScore += 5;
 
       // Same region bonus
-      if (p.Region === stock.Region) similarityScore += 20;
+      if (p.Region === stock.Region) similarityScore += 15;
 
       // Growth profile similarity
       const targetGrowth = stock["Revenue Growth"] || 5;
       const peerGrowth = p["Revenue Growth"] || 5;
       const growthDiff = Math.abs(targetGrowth - peerGrowth);
-      if (growthDiff < 5) similarityScore += 15;
-      else if (growthDiff < 10) similarityScore += 10;
-      else similarityScore += 5;
+      if (growthDiff < 5) similarityScore += 10;
+      else if (growthDiff < 10) similarityScore += 5;
 
       // Profitability similarity
       const targetMargin = stock["EBITDA Margin"] || 15;
       const peerMargin = p["EBITDA Margin"] || 15;
       const marginDiff = Math.abs(targetMargin - peerMargin);
-      if (marginDiff < 5) similarityScore += 15;
-      else if (marginDiff < 10) similarityScore += 10;
+      if (marginDiff < 5) similarityScore += 10;
+      else if (marginDiff < 10) similarityScore += 5;
 
       return { ...p, similarityScore, capDiff: Math.abs(p["Market Cap"] - marketCap) };
     })
@@ -1087,19 +1928,19 @@ export const calculateComparables = (stock, allStocks) => {
       evEbitda: 0  // ZERO weight for financials
     };
     methodologyNote = 'Financial sector: P/E and P/TBV weighted (EV/EBITDA excluded)';
-  } else if (sector.includes('Technology') || sector.includes('Communications')) {
+  } else if (gicsSector.includes('Technology') || gicsSector.includes('Information') || legacySector.includes('Technology') || legacySector.includes('Communications')) {
     // TECH: Higher weight on EV/EBITDA and growth-adjusted metrics
     weights = { pe: 0.30, pb: 0.15, ptbv: 0, evEbitda: 0.55 };
     methodologyNote = 'Tech/Comms sector: EV/EBITDA emphasized';
-  } else if (sector.includes('Industrial') || sector.includes('Material') || sector.includes('Energy')) {
+  } else if (gicsSector.includes('Industrial') || gicsSector.includes('Material') || gicsSector.includes('Energy') || legacySector.includes('Industrial') || legacySector.includes('Material') || legacySector.includes('Energy')) {
     // CYCLICALS: Balance between P/E and EV/EBITDA
     weights = { pe: 0.35, pb: 0.20, ptbv: 0, evEbitda: 0.45 };
     methodologyNote = 'Cyclical sector: Balanced P/E and EV/EBITDA';
-  } else if (sector.includes('Consumer')) {
+  } else if (gicsSector.includes('Consumer') || legacySector.includes('Consumer')) {
     // CONSUMER: Higher P/E weight (earnings quality important)
     weights = { pe: 0.45, pb: 0.25, ptbv: 0, evEbitda: 0.30 };
     methodologyNote = 'Consumer sector: P/E emphasized';
-  } else if (sector.includes('Utilities')) {
+  } else if (gicsSector.includes('Utilities') || legacySector.includes('Utilities')) {
     // UTILITIES: Dividend and asset-based
     weights = { pe: 0.40, pb: 0.35, ptbv: 0, evEbitda: 0.25 };
     methodologyNote = 'Utilities: P/E and P/B weighted';
@@ -1140,7 +1981,7 @@ export const calculateComparables = (stock, allStocks) => {
   }
 
   return {
-    // Peer information
+    // Peer information with GICS classification
     peers: peers.map(p => ({
       ticker: p.Ticker,
       name: p.Name || p.name,
@@ -1150,10 +1991,15 @@ export const calculateComparables = (stock, allStocks) => {
       evEbitda: isFinancial ? null : calculateEVEBITDA(p),
       ptbv: isFinancial ? calculatePTBV(p) : null,
       revenueGrowth: p["Revenue Growth"],
-      similarityScore: p.similarityScore
+      similarityScore: p.similarityScore,
+      // GICS classification for peer quality assessment
+      gicsSubIndustry: p["GICS Sub-Industry"],
+      gicsIndustry: p["GICS Industry"],
+      gicsIndustryGroup: p["GICS Industry Group"]
     })),
     peerCount: peers.length,
     selectionMethod,
+    gicsMatchLevel, // 1=Sub-Industry (best), 2-5=broader, 6=legacy fallback
 
     // Statistical summaries (median, mean, range)
     peStats: peStats ? {
@@ -1211,8 +2057,16 @@ export const calculateComparables = (stock, allStocks) => {
     // Methodology info
     weights,
     methodologyNote,
-    sector,
-    isFinancial
+    sector: legacySector, // Legacy Bloomberg sector
+    isFinancial,
+
+    // GICS Classification (target stock)
+    gicsClassification: {
+      sector: gicsSector,
+      industryGroup: gicsIndustryGroup,
+      industry: gicsIndustry,
+      subIndustry: gicsSubIndustry
+    }
   };
 };
 
