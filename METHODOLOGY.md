@@ -984,52 +984,114 @@ global-equity-screener/
 
 ## 12. Academic References
 
-### Primary Sources
+### Factor Models & Asset Pricing
 
-1. **Damodaran, Aswath** (NYU Stern)
-   - *Investment Valuation* (3rd Edition, Wiley)
-   - Country Risk Premiums: [pages.stern.nyu.edu/~adamodar](https://pages.stern.nyu.edu/~adamodar/)
-   - Annual ERP updates and rating spreads
+1. **Fama, Eugene F. & French, Kenneth R.** (1992)
+   - "The Cross-Section of Expected Stock Returns" *Journal of Finance*, 47(2): 427-465
+   - Foundational paper establishing size (SMB) and value (HML) factors
+   - **Application**: Informs valuation factor weighting in MF Score
 
-2. **Rosenbaum, Joshua & Pearl, Joshua**
-   - *Investment Banking: Valuation, LBOs, M&A, and IPOs* (3rd Edition, Wiley)
-   - Industry-standard comparable company methodology
+2. **Fama, Eugene F. & French, Kenneth R.** (1993)
+   - "Common Risk Factors in the Returns on Stocks and Bonds" *Journal of Financial Economics*, 33: 3-56
+   - Three-factor model explaining 90%+ of portfolio return variation
+   - [Kenneth French Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)
 
-3. **McKinsey & Company** (Koller, Goedhart, Wessels)
-   - *Valuation: Measuring and Managing the Value of Companies* (7th Edition)
-   - Terminal value sanity checks, forecast period guidance
+3. **Fama, Eugene F. & French, Kenneth R.** (2015)
+   - "A Five-Factor Asset Pricing Model" *Journal of Financial Economics*, 116(1): 1-22
+   - Extended model adding profitability (RMW) and investment (CMA) factors
+   - **Application**: Quality and Growth scoring components
 
-4. **CFA Institute**
-   - CFA Level II Equity Valuation Curriculum
-   - FCFF calculation standards
+### Momentum & Technical Analysis
 
-### Supporting Sources
+4. **Jegadeesh, Narasimhan & Titman, Sheridan** (1993)
+   - "Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency" *Journal of Finance*, 48(1): 65-91
+   - Seminal paper on momentum effect (~1% monthly abnormal returns)
+   - **Application**: Technical Score momentum components
 
-5. **Graham, Benjamin & Dodd, David**
-   - *Security Analysis* (6th Edition)
-   - Value investing principles, margin of safety
+5. **Carhart, Mark M.** (1997)
+   - "On Persistence in Mutual Fund Performance" *Journal of Finance*, 52(1): 57-82
+   - Four-factor model adding momentum (MOM) to Fama-French
+   - **Application**: Jensen's Alpha calculation methodology
 
-6. **Blume, Marshall E.** (1971)
-   - "On the Assessment of Risk" (Journal of Finance)
-   - Beta adjustment: Adjusted β = 0.67 × Raw β + 0.33 × 1.0
+### Value Investing & Stock Selection
 
-7. **Sharpe, William F.** (1964)
-   - "Capital Asset Prices" (Journal of Finance)
-   - CAPM foundation
+6. **Piotroski, Joseph D.** (2000)
+   - "Value Investing: The Use of Historical Financial Statement Information to Separate Winners from Losers" *Journal of Accounting Research*, 38: 1-41
+   - F-Score methodology: 9-point financial health scoring
+   - 7.5% annual improvement over pure book-to-market strategy
+   - [Original Paper (Chicago Booth)](https://www.chicagobooth.edu/~/media/fe874ee65f624aaebd0166b1974fd74d.pdf)
+   - **Application**: Financial Health Score design
+
+7. **Greenblatt, Joel** (2006)
+   - "The Little Book That Beats the Market" (Wiley)
+   - Magic Formula: ROC + Earnings Yield two-factor screening
+   - Backtested 30.8% CAGR over 17 years
+   - **Application**: Quality and Valuation factor integration
+
+### Financial Distress & Credit Risk
 
 8. **Altman, Edward I.** (1968)
-   - "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy"
-   - Z-Score inspiration for financial health metrics
+   - "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy" *Journal of Finance*, 23(4): 189-209
+   - Z-Score model: 72% accuracy predicting bankruptcy 2 years ahead
+   - [Altman Z-Score Paper (NYU Stern)](https://pages.stern.nyu.edu/~ealtman/Zscores.pdf)
+   - **Application**: Financial Health metrics (D/E, Current Ratio, Quick Ratio)
+
+9. **Altman, Edward I. et al.** (2017)
+   - "Financial Distress Prediction in an International Context" *Journal of International Financial Management & Accounting*, 28(2): 131-171
+   - International validation across 31 European + 3 non-European countries
+   - **Application**: Cross-border applicability validation
+
+### Valuation Theory
+
+10. **Damodaran, Aswath** (NYU Stern)
+    - *Investment Valuation* (3rd Edition, Wiley, 2012)
+    - Country Risk Premiums: [pages.stern.nyu.edu/~adamodar](https://pages.stern.nyu.edu/~adamodar/)
+    - Synthetic rating methodology, WACC calculation
+    - **Application**: DCF model, cost of capital, credit spreads
+
+11. **Rosenbaum, Joshua & Pearl, Joshua**
+    - *Investment Banking: Valuation, LBOs, M&A, and IPOs* (3rd Edition, Wiley, 2020)
+    - Comparable company analysis methodology
+    - **Application**: Comps peer selection and multiple weighting
+
+12. **McKinsey & Company** (Koller, Goedhart, Wessels)
+    - *Valuation: Measuring and Managing the Value of Companies* (7th Edition, 2020)
+    - Terminal value sanity checks, forecast period guidance
+    - **Application**: TV% limits, convergence analysis
+
+### CAPM & Risk Measurement
+
+13. **Sharpe, William F.** (1964)
+    - "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk" *Journal of Finance*, 19(3): 425-442
+    - Nobel Prize-winning CAPM framework
+    - **Application**: Cost of equity calculation
+
+14. **Blume, Marshall E.** (1971)
+    - "On the Assessment of Risk" *Journal of Finance*, 26(1): 1-10
+    - Beta mean-reversion toward 1.0 over time
+    - **Application**: Blume-adjusted beta = 0.67 × Raw β + 0.33 × 1.0
+
+15. **Jensen, Michael C.** (1968)
+    - "The Performance of Mutual Funds in the Period 1945-1964" *Journal of Finance*, 23(2): 389-416
+    - Jensen's Alpha for risk-adjusted performance
+    - **Application**: Technical Score alpha component
+
+### Value Investing Foundations
+
+16. **Graham, Benjamin & Dodd, David** (1934)
+    - *Security Analysis* (6th Edition, McGraw-Hill, 2008)
+    - Margin of safety, intrinsic value concepts
+    - **Application**: Valuation Score design principles
 
 ### Industry References
 
-9. **Wall Street Prep**
-   - Sensitivity Analysis Best Practices
-   - [wallstreetprep.com](https://www.wallstreetprep.com)
+17. **CFA Institute**
+    - CFA Level II Equity Valuation Curriculum
+    - FCFF calculation standards, GICS classification
 
-10. **Financial Edge**
-    - DCF Sensitizing for Key Variables
-    - [fe.training](https://www.fe.training)
+18. **Wall Street Prep** - Sensitivity Analysis Best Practices
+
+19. **Financial Edge** - DCF Sensitizing for Key Variables
 
 ---
 
