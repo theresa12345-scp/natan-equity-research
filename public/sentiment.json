@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-12-11T06:21:15.422332",
+  "timestamp": "2025-12-11T14:25:36.207614",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 11,
-    "neutral": 9,
-    "bearish": 5,
+    "bullish": 14,
+    "neutral": 10,
+    "bearish": 1,
     "high_priority": 8,
     "material_events": 4
   },
@@ -15,12 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 4,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 5,
-    "MarketWatch": 6,
+    "MarketWatch": 3,
+    "CNBC": 7,
     "Financial Times": 1,
-    "ts2.tech": 1
+    "The Wall Street Journal": 1,
+    "MarketBeat": 3
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -110,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,8 +121,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-11 06:21",
+      "date": "2025-12-11 14:25",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Gundlach keeps finding 1995 parallels as Fed finally catches up to 2-year Treasury",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Market development reported by MarketWatch.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-11 09:44",
+      "link": "https://www.marketwatch.com/story/gundlach-keeps-finding-1995-parallels-as-fed-finally-catches-up-to-2-year-treasury-087157b8"
     },
     {
       "headline": "Here are the five big takeaways from Wednesday's Fed rate decision",
@@ -164,23 +175,13 @@
       "link": "https://www.cnbc.com/2025/12/10/fafsa-will-now-tell-you-if-your-school-has-lower-earnings.html"
     },
     {
-      "headline": "Asian Stocks Look Muted as Traders Await Fed Clues: Markets Wrap",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Asian stocks were mixed as investors awaited clues about the Federal Reserve\u2019s policy path in its final interest-rate decision of the year.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-10 04:06",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-09/asian-stocks-look-muted-as-traders-await-fed-clues-markets-wrap"
-    },
-    {
       "headline": "Stock futures are little changed as investors await Fed decision: Live updates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "The Russell 2000 index of small-cap companies hit a\u00a0record intraday high\u00a0on Tuesday, supported by the prospect of future interest rate cuts.",
       "category": "us_monetary_policy",
-      "date": "2025-12-10 00:11",
+      "date": "2025-12-10 10:47",
       "link": "https://www.cnbc.com/2025/12/09/stock-market-today-live-updates.html"
     },
     {
@@ -194,84 +195,84 @@
       "link": "https://www.ft.com/content/307ce3c1-65ee-4d1f-b74a-2f3fdacab175"
     },
     {
-      "headline": "Hassett Says Room for Fed to Cut More Than 25 Basis Points",
+      "headline": "Exxon Mobil Sees Higher Earnings, Greater Returns in New 2030 Plan",
       "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "White House National Economic Council Director Kevin Hassett said he sees plenty of room to substantially lower the Federal Reserve\u2019s benchmark interest rate.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-09 16:12",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-09/hassett-says-room-now-for-fed-to-cut-more-than-25-basis-points"
-    },
-    {
-      "headline": "Broadcom (AVGO) Stock After Hours on December 10, 2025: AI Rally, Fed Cut and What to Watch Before the December 11 Open",
-      "score": 6,
-      "source": "ts2.tech",
+      "source": "The Wall Street Journal",
       "sentiment": "positive",
-      "impact": " This article examines Broadcom (AVGO) stock performance after hours on December 10, 2025, highlighting its near-record highs driven by AI spending and a recent Federal Reserve rate cut. It delves into the company's strong Q3 2025 results, its pivotal role in AI infrastructure through custom chips a",
-      "category": "us_monetary_policy",
-      "date": "2025-12-11 05:07",
-      "link": "https://ts2.tech/en/broadcom-avgo-stock-after-hours-on-december-10-2025-ai-rally-fed-cut-and-what-to-watch-before-the-december-11-open/"
+      "impact": "The company expects $25 billion in earnings growth and $35 billion in cash flow growth through the end of the decade",
+      "category": "us_equities",
+      "date": "2025-12-09 15:34",
+      "link": "https://www.wsj.com/business/energy-oil/exxon-mobil-sees-higher-earnings-greater-returns-in-new-2030-plan-1fa7590d"
     },
     {
-      "headline": "Coca-Cola taps COO Henrique Braun to replace James Quincey as CEO in 2026",
+      "headline": "Art Basel Miami sees strong attendance and sales as art market recovers ",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "More than 80,000 collectors and art fans poured into Art Basel Miami Beach, with several works selling for over $1 million.",
+      "category": "global_markets",
+      "date": "2025-12-11 14:00",
+      "link": "https://www.cnbc.com/2025/12/11/art-basel-miami-attendance-sales.html"
+    },
+    {
+      "headline": "Northrim BanCorp (NASDAQ:NRIM) Director Purchases $28,600.50 in Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": " Northrim BanCorp Director David McCambridge bought 1,150 shares of the company's stock for $28,600.50, increasing his total holdings to 41,598 shares. This purchase follows strong quarterly earnings and a dividend announcement, with analysts maintaining a \"Buy\" rating and a $33 price target for the",
+      "category": "us_equities",
+      "date": "2025-12-11 13:08",
+      "link": "https://www.marketbeat.com/instant-alerts/northrim-bancorp-nasdaqnrim-director-purchases-2860050-in-stock-2025-12-10/"
+    },
+    {
+      "headline": "Federal Signal Corporation $FSS Shares Purchased by Aperture Investors LLC",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": " Aperture Investors LLC increased its stake in Federal Signal Corporation (NYSE:FSS) by 73.0% in Q2, acquiring 88,768 additional shares and making FSS its 12th largest holding. This comes as Federal Signal beat quarterly earnings estimates, and while multiple institutional investors modified their h",
+      "category": "us_monetary_policy",
+      "date": "2025-12-11 13:08",
+      "link": "https://www.marketbeat.com/instant-alerts/filing-federal-signal-corporation-fss-shares-purchased-by-aperture-investors-llc-2025-12-10/"
+    },
+    {
+      "headline": "Nebula Research & Development LLC Acquires New Stake in FedEx Corporation $FDX",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Nebula Research & Development LLC recently acquired a new stake in FedEx Corporation, purchasing 21,311 shares valued at approximately $4.84 million, making it their 20th largest position. Other institutional investors also adjusted their holdings in FedEx, which has shown strong stock performance w",
+      "category": "us_monetary_policy",
+      "date": "2025-12-11 13:04",
+      "link": "https://www.marketbeat.com/instant-alerts/filing-nebula-research-development-llc-acquires-new-stake-in-fedex-corporation-fdx-2025-12-11/"
+    },
+    {
+      "headline": "JetBlue unveils first ever airport lounge, BlueHouse. Here's what's inside",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Quincey has led Coca-Cola since 2017, seeing the company through the Covid pandemic and a focus on healthier beverages.",
+      "impact": "JetBlue is set to open its first ever airport lounge, BlueHouse, at JFK next week.",
       "category": "global_markets",
-      "date": "2025-12-10 23:08",
-      "link": "https://www.cnbc.com/2025/12/10/coca-cola-coo-henrique-braun-ceo-.html"
+      "date": "2025-12-11 13:00",
+      "link": "https://www.cnbc.com/2025/12/11/jetblue-jfk-airport-lounge-bluehouse.html"
     },
     {
-      "headline": "Adobe\u2019s AI-driven earnings beat is not enough to boost the stock",
+      "headline": "The exclusive WhatsApp chats where family offices vet deals, plan meetups and sell dinosaur bones",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The rich \u2014 they're just like us. Family offices rely on WhatsApp for everything from deal sourcing to selling collectibles.",
+      "category": "global_markets",
+      "date": "2025-12-11 12:30",
+      "link": "https://www.cnbc.com/2025/12/11/whatsapp-family-office.html"
+    },
+    {
+      "headline": "The Fed will help drive a 10% gain for stocks in 2026, says one of Wall Street\u2019s most accurate forecasters, Tom Lee",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "The software company said its record fiscal 2025 results reflect global attention and use of its AI tools",
-      "category": "corporate_earnings",
-      "date": "2025-12-10 22:24",
-      "link": "https://www.marketwatch.com/story/adobes-ai-driven-earnings-beat-is-not-enough-to-boost-the-stock-3031b9ff"
-    },
-    {
-      "headline": "Carvana\u2019s stock zooms to record, longest winning run as S&P 500 inclusion is within sight",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The online used-car retailer\u2019s stock has gained nearly 50% over a 12-day winning streak, and is aiming for an all-time high.",
-      "category": "us_equities",
-      "date": "2025-12-10 22:21",
-      "link": "https://www.marketwatch.com/story/carvanas-stock-zooms-to-longest-winning-run-on-record-as-s-p-500-inclusion-is-within-sight-1b678f9a?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "The Fed cut rates. Biotech didn\u2019t notice.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Biotechs are instead spending their time advancing the kind of smart science that will catch the eye of cash-rich pharmaceutical companies.",
+      "impact": "A wall of worry headed into 2026 won\u2019t stop stocks from logging more gains, says Fundstrat\u2019s Tom Lee.",
       "category": "us_monetary_policy",
-      "date": "2025-12-10 22:06",
-      "link": "https://www.marketwatch.com/story/the-fed-cut-rates-biotech-didnt-notice-c80d6353"
-    },
-    {
-      "headline": "Oracle\u2019s mixed earnings fail to dispel AI fears, and the stock falls",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "While the company beat on EPS and increased its AI deal pipeline, concerns over Oracle\u2019s financing strategy remain",
-      "category": "corporate_earnings",
-      "date": "2025-12-10 21:33",
-      "link": "https://www.marketwatch.com/story/oracles-mixed-earnings-fail-to-dispel-ai-fears-and-the-stock-falls-5533a383"
-    },
-    {
-      "headline": "Should you refinance your mortgage now? This could be the Fed\u2019s last rate cut for a while.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The Federal Reserve has cut interest rates, possibly for the last time for a while. What\u2019s the best move home buyers and homeowners can make right now \u2014 and what could be a costly mistake?",
-      "category": "us_monetary_policy",
-      "date": "2025-12-10 21:03",
-      "link": "https://www.marketwatch.com/story/should-you-refinance-your-mortgage-now-this-could-be-the-feds-last-rate-cut-for-a-while-0e365859"
+      "date": "2025-12-11 12:08",
+      "link": "https://www.marketwatch.com/story/the-fed-will-help-drive-a-10-gain-for-stocks-in-2026-says-one-of-wall-streets-most-accurate-forecasters-tom-lee-ecf85aeb"
     }
   ]
 }
