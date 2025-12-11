@@ -28,6 +28,9 @@ import FinancialStatements from './components/FinancialStatements';
 // Stock Chart Component - Historical price charts with technical indicators
 import StockChart from './components/StockChart';
 
+// ML Factor Weighting Dashboard - Neural network optimized factor weights
+import MLFactorDashboard from './components/MLFactorDashboard';
+
 // Live Data Service - Real-time market data
 import {
   fetchLiveQuote,
@@ -2655,6 +2658,7 @@ export default function NatanEquityResearch() {
               { id: 'financials', label: 'Financials', icon: FileText },
               { id: 'comps', label: 'Comparable Analysis', icon: BarChart3 },
               { id: 'backtest', label: 'Backtesting', icon: History },
+              { id: 'mlfactor', label: 'ML Factors', icon: Zap },
               { id: 'fig', label: 'FIG Valuation', icon: Building2 },
               { id: 'news', label: 'Market News', icon: Newspaper },
             ].map((tab) => {
@@ -6476,6 +6480,11 @@ export default function NatanEquityResearch() {
                   </p>
                 </div>
               </div>
+            )}
+
+            {/* ML FACTOR WEIGHTING DASHBOARD */}
+            {activeView === 'mlfactor' && (
+              <MLFactorDashboard stocks={ALL_STOCKS_DATA} darkMode={darkMode} />
             )}
 
             {/* Financial Institutions Group (FIG) Valuation */}
