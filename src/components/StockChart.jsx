@@ -129,12 +129,13 @@ const CustomTooltip = ({ active, payload, label, currency, darkMode }) => {
 // ============================================================================
 
 const RSIChart = ({ data, darkMode }) => {
-  const filteredData = data.filter(d => d.rsi !== null);
+  // Don't filter data - keep all points so x-axis stays aligned with main chart
+  // Use connectNulls to handle the initial null values gracefully
 
   return (
     <div className="h-24">
       <ResponsiveContainer width="100%" height="100%">
-        <AreaChart data={filteredData} margin={{ top: 5, right: 5, left: 0, bottom: 5 }}>
+        <AreaChart data={data} margin={{ top: 5, right: 5, left: 0, bottom: 5 }}>
           <defs>
             <linearGradient id="rsiGradient" x1="0" y1="0" x2="0" y2="1">
               <stop offset="5%" stopColor="#8b5cf6" stopOpacity={0.3} />
@@ -159,6 +160,8 @@ const RSIChart = ({ data, darkMode }) => {
             stroke="#8b5cf6"
             fill="url(#rsiGradient)"
             strokeWidth={1.5}
+            connectNulls={true}
+            isAnimationActive={false}
           />
         </AreaChart>
       </ResponsiveContainer>
