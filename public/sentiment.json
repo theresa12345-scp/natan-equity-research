@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-13T06:18:29.170869",
+  "timestamp": "2025-12-13T14:20:38.567257",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.4,
-    "bullish": 7,
+    "bullish": 8,
     "neutral": 12,
-    "bearish": 6,
-    "high_priority": 11,
+    "bearish": 5,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -16,12 +16,14 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "CNBC": 9,
-    "Yahoo Entertainment": 1,
+    "CNBC": 7,
+    "Yahoo Entertainment": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 3,
+    "MarketWatch": 2,
     "Axios": 1,
-    "Federalreserve.gov": 1
+    "Federalreserve.gov": 1,
+    "Realtor.com News": 1,
+    "ts2.tech": 1
   },
   "top_signals": [
     {
@@ -31,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +103,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -115,23 +117,13 @@
       "link": "https://www.cnbc.com/2025/12/12/cramers-week-ahead-new-economic-data-earnings-fedex-jabil.html"
     },
     {
-      "headline": "Fed's Goolsbee explains vote against rate cut, says central bank should have waited",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Chicago Federal Reserve President Austan Goolsbee spoke Friday morning on CNBC.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-12 13:27",
-      "link": "https://www.cnbc.com/2025/12/12/feds-goolsbee-explains-vote-against-rate-cut-says-central-bank-should-have-waited.html"
-    },
-    {
       "headline": "Live coverage: Federal Reserve cuts interest rates by 0.25%, Powell warns there's 'no risk-free path'",
       "score": 8,
       "source": "Yahoo Entertainment",
       "sentiment": "negative",
       "impact": "The Federal Reserve cut interest rates by 25 basis points at its final meeting of 2025, with investors focusing on the outlook for 2026.",
       "category": "us_monetary_policy",
-      "date": "2025-12-11 20:20",
+      "date": "2025-12-11 22:23",
       "link": "https://finance.yahoo.com/news/live/live-coverage-federal-reserve-cuts-interest-rates-by-025-powell-warns-theres-no-risk-free-path-134139574.html"
     },
     {
@@ -141,7 +133,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -151,7 +143,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-13 06:18",
+      "date": "2025-12-13 14:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -173,6 +165,16 @@
       "category": "us_monetary_policy",
       "date": "2025-12-12 14:50",
       "link": "https://www.marketwatch.com/story/inflation-remains-too-high-two-fed-dissenters-who-rejected-latest-interest-rate-cut-explain-why-91534f3d"
+    },
+    {
+      "headline": "Broadcom Inc (AVGO) Q4 2025 Earnings Call Highlights: Record Revenue and AI Growth Propel ...",
+      "score": 7,
+      "source": "Yahoo Entertainment",
+      "sentiment": "positive",
+      "impact": "Broadcom Inc (AVGO) reports a 24% annual revenue increase, driven by a 65% surge in AI revenue, while announcing a 10% dividend hike for fiscal 2026.",
+      "category": "corporate_earnings",
+      "date": "2025-12-12 05:00",
+      "link": "https://finance.yahoo.com/news/broadcom-inc-avgo-q4-2025-050036753.html"
     },
     {
       "headline": "Broadcom stock reverses lower on a misinterpretation of what the CEO said on the earnings call",
@@ -215,6 +217,36 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20251211a.htm"
     },
     {
+      "headline": "Mortgage Interest Rates Today: Mortgage Rates Inch Up to 6.22% After Fed's Third-Straight Cut",
+      "score": 7,
+      "source": "Realtor.com News",
+      "sentiment": "negative",
+      "impact": "Latest market news.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-11 17:02",
+      "link": "https://www.realtor.com/news/trends/mortgage-interest-rates-now-december-11-2025/"
+    },
+    {
+      "headline": "'Stranger Things' ushered in a new era for Netflix",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "A lot has changed since its first season in 2016, as Netflix has announced dozens of \"Stranger Things\" partnerships and collaborations with brands.",
+      "category": "global_markets",
+      "date": "2025-12-13 13:00",
+      "link": "https://www.cnbc.com/2025/12/13/stranger-things-netflix.html"
+    },
+    {
+      "headline": "Realty Income (O) Stock Update: Dividend Boost, $800M CityCenter Investment, and Fed Rate Cut Set the Tone for the Week Ahead (Updated Dec. 13, 2025)",
+      "score": 6,
+      "source": "ts2.tech",
+      "sentiment": "neutral",
+      "impact": "Realty Income (O) concluded the week at $57.72, influenced by a dividend increase, an $800 million preferred equity investment in CityCenter Las Vegas, and a Federal Reserve rate cut. The article details these key developments, alongside analyst forecasts and important economic data releases for the",
+      "category": "us_monetary_policy",
+      "date": "2025-12-13 12:56",
+      "link": "https://ts2.tech/en/realty-income-o-stock-update-dividend-boost-800m-citycenter-investment-and-fed-rate-cut-set-the-tone-for-the-week-ahead-updated-dec-13-2025/"
+    },
+    {
       "headline": "These stocks could land big profits from filling Big Tech\u2019s critical water needs",
       "score": 6,
       "source": "MarketWatch",
@@ -243,36 +275,6 @@
       "category": "us_equities",
       "date": "2025-12-12 21:03",
       "link": "https://www.cnbc.com/2025/12/12/rivian-rivn-ai-ev.html"
-    },
-    {
-      "headline": "Disney's 'Zootopia 2' to hit $1 billion box office, only the second Hollywood film to do so this year",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Disney Animation's \"Zootopia 2\" is set to cross the billion-dollar box office mark on Friday, becoming the second Hollywood film to reach the benchmark in 2025.",
-      "category": "global_markets",
-      "date": "2025-12-12 18:32",
-      "link": "https://www.cnbc.com/2025/12/12/disney-zootopia-2-1-billion-global-box-office.html"
-    },
-    {
-      "headline": "Is the economy losing jobs? The Fed\u2019s rate cut hints at bigger worries.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Is the U.S. jobs market even worse than it looks? Most top officials at the Federal Reserve sure seem to think so.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-12 18:26",
-      "link": "https://www.marketwatch.com/story/is-the-economy-losing-jobs-the-feds-rate-cut-hints-at-bigger-worries-ab9dc6a9"
-    },
-    {
-      "headline": "Powerball jackpot hits $1 billion\u2014experts say to avoid these 5 mistakes if you win: 'You will be in an emotional state for a while'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Hitting a massive jackpot is thrilling, but the choices you make right after the win can put your wealth at risk.",
-      "category": "global_markets",
-      "date": "2025-12-12 17:35",
-      "link": "https://www.cnbc.com/2025/12/12/powerball-hits-1-billion-mistakes-to-avoid-if-you-win.html"
     }
   ]
 }
