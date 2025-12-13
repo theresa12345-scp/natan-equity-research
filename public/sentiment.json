@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-12T14:22:04.356757",
+  "timestamp": "2025-12-13T06:18:29.170869",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.4,
-    "bullish": 12,
+    "bullish": 7,
     "neutral": 12,
-    "bearish": 1,
-    "high_priority": 12,
+    "bearish": 6,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -16,11 +16,12 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "CNBC": 10,
+    "CNBC": 9,
     "Yahoo Entertainment": 1,
-    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 3
+    "MarketWatch": 3,
+    "Axios": 1,
+    "Federalreserve.gov": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Cramer's week ahead: New economic data and earnings from FedEx, Jabil",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "CNBC's Jim Cramer on Friday told investors what to look out for next week on Wall Street.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-12 23:14",
+      "link": "https://www.cnbc.com/2025/12/12/cramers-week-ahead-new-economic-data-earnings-fedex-jabil.html"
     },
     {
       "headline": "Fed's Goolsbee explains vote against rate cut, says central bank should have waited",
@@ -114,34 +125,14 @@
       "link": "https://www.cnbc.com/2025/12/12/feds-goolsbee-explains-vote-against-rate-cut-says-central-bank-should-have-waited.html"
     },
     {
-      "headline": "S&P 500 futures retreat after nearing record on Fed as Oracle disappointment drags down AI stocks: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Major U.S. indexes closed higher Wednesday after a divided Fed announced an interest rate cut for the third time this year and ruled out a rate hike.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-11 12:38",
-      "link": "https://www.cnbc.com/2025/12/10/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Fed meeting live coverage: Federal Reserve cuts interest rates by 0.25%, Powell says there's 'no risk-free path'",
+      "headline": "Live coverage: Federal Reserve cuts interest rates by 0.25%, Powell warns there's 'no risk-free path'",
       "score": 8,
       "source": "Yahoo Entertainment",
       "sentiment": "negative",
       "impact": "The Federal Reserve cut interest rates by 25 basis points at its final meeting of 2025, with investors focusing on the outlook for 2026.",
       "category": "us_monetary_policy",
-      "date": "2025-12-11 12:00",
-      "link": "https://finance.yahoo.com/news/live/fed-meeting-live-coverage-federal-reserve-cuts-interest-rates-by-025-powell-says-theres-no-risk-free-path-200909359.html"
-    },
-    {
-      "headline": "Fed Meeting Today: Dow, S&P 500 Steady Ahead of Interest-Rate Decision \u2014 Live Updates",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Federal Reserve voted 9-3 for the move, the first time in six years that three officials cast dissents",
-      "category": "us_monetary_policy",
-      "date": "2025-12-10 15:34",
-      "link": "https://www.wsj.com/livecoverage/fed-interest-rate-decision-live-12-10-2025"
+      "date": "2025-12-11 20:20",
+      "link": "https://finance.yahoo.com/news/live/live-coverage-federal-reserve-cuts-interest-rates-by-025-powell-warns-theres-no-risk-free-path-134139574.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -150,7 +141,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -160,118 +151,128 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-12 14:22",
+      "date": "2025-12-13 06:18",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "JPMorgan upgrades Citigroup as profitability improves",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "JPMorgan has upgraded Citigroup stock to overweight from neutral, citing improving profitability as the key driver for future upside. Analyst Vivek Juneja projects an 11% increase from Thursday's close, setting a new December 2026 price target of $124. The upgrade is based on expectations that Citig",
-      "category": "corporate_earnings",
-      "date": "2025-12-12 13:01",
-      "link": "https://www.cnbc.com/2025/12/12/jpmorgan-upgrades-citigroup-as-profitability-improves.html"
-    },
-    {
-      "headline": "Fed votes to reappoint all of its regional bank presidents",
+      "headline": "Trump says Kevin Warsh is at top of Fed chair candidate list, president should be consulted on rates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The Fed on Thursday reappointed 11 of its 12 regional bank presidents, ending a mini-drama at in a move that came a bit earlier than usual.",
+      "impact": "Trump said Friday that Kevin Warsh has moved to the top of his list as the next Federal Reserve chair, though others remain in contention.",
       "category": "us_monetary_policy",
-      "date": "2025-12-11 21:53",
-      "link": "https://www.cnbc.com/2025/12/11/fed-votes-to-reappoint-all-of-its-regional-bank-presidents-.html"
+      "date": "2025-12-12 21:41",
+      "link": "https://www.cnbc.com/2025/12/12/trump-kevin-warsh-fed-chair-rates.html"
+    },
+    {
+      "headline": "\u2018Inflation remains too high.\u2019 Two Fed dissenters who rejected latest interest-rate cut explain why.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "The Fed could have waited for delayed economic reports on inflation and employment, Chicago Federal Reserve Bank President Austan Goolsbee said.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-12 14:50",
+      "link": "https://www.marketwatch.com/story/inflation-remains-too-high-two-fed-dissenters-who-rejected-latest-interest-rate-cut-explain-why-91534f3d"
+    },
+    {
+      "headline": "Broadcom stock reverses lower on a misinterpretation of what the CEO said on the earnings call",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Investors were apparently not satisfied with Broadcom CEO Hock Tan's answer to an important question.",
+      "category": "corporate_earnings",
+      "date": "2025-12-12 02:20",
+      "link": "https://www.cnbc.com/2025/12/11/broadcom-stock-reverses-lower-on-a-misinterpretation-of-what-the-ceo-said-on-the-earnings-call.html"
     },
     {
       "headline": "Costco tops Wall Street's sales and revenue expectations",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Costco said on Thursday surpassed Wall Street's quarterly expectations as its sales rose 8.2% year over year.",
+      "impact": "Costco on Thursday surpassed Wall Street's quarterly expectations as its sales rose 8.2% year over year.",
       "category": "us_equities",
-      "date": "2025-12-11 21:24",
+      "date": "2025-12-11 23:08",
       "link": "https://www.cnbc.com/2025/12/11/costco-cost-earnings-q1-2026.html"
     },
     {
-      "headline": "The bond market is rallying off the Fed\u2019s latest rate cut \u2014 but that could change come January",
+      "headline": "White House issues federal agency guidance against \"woke\" AI",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The central bank delivered another quarter-point rate cut on Wednesday. Why that decision \u201ccould look reckless\u201d come January, according to one investment manager.",
+      "source": "Axios",
+      "sentiment": "positive",
+      "impact": "The Trump administration released guidance for federal agencies to try to ensure that the AI models they buy aren't spitting out \"woke\" responses.",
       "category": "us_monetary_policy",
-      "date": "2025-12-11 18:52",
-      "link": "https://www.marketwatch.com/story/the-bond-market-is-rallying-off-the-feds-latest-rate-cut-but-that-could-change-come-january-74bc9544"
+      "date": "2025-12-11 22:32",
+      "link": "https://www.axios.com/2025/12/11/white-house-woke-ai-guidance-federal-agencies"
     },
     {
-      "headline": "Rivian announces new AI tech, chip and robotaxi ambitions",
-      "score": 6,
-      "source": "CNBC",
+      "headline": "Federal Reserve Board announces reappointment of Reserve Bank presidents and first vice presidents",
+      "score": 7,
+      "source": "Federalreserve.gov",
       "sentiment": "neutral",
-      "impact": "The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next year for $2,500 up front or $49.99 a month.",
-      "category": "global_markets",
-      "date": "2025-12-12 14:04",
-      "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html"
+      "impact": "Following a comprehensive review by the boards of directors of the regional Reserve Banks, and the unanimous concurrence of Federal Reserve Board members, the",
+      "category": "us_monetary_policy",
+      "date": "2025-12-11 21:01",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20251211a.htm"
     },
     {
-      "headline": "\u2018The next protein\u2019: Fiber is shaping up to be the latest grocery obsession",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "As consumers find their next grocery obsession in fiber, food and beverage companies are racing to keep up with the trend.",
-      "category": "global_markets",
-      "date": "2025-12-12 13:09",
-      "link": "https://www.cnbc.com/2025/12/12/fibermaxxing-high-fiber-foods-pepsi-nestle-olipop.html"
-    },
-    {
-      "headline": "Cannabis stocks surge on reports Trump will reclassify marijuana; Tilray jumps 28%",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "President Donald Trump will significantly ease federal restrictions on marijuana, according to the Washington Post.",
-      "category": "global_markets",
-      "date": "2025-12-12 13:05",
-      "link": "https://www.cnbc.com/2025/12/12/cannabis-stocks-trump-regulations.html"
-    },
-    {
-      "headline": "Costco\u2019s profits rise as pizzas, pies and Black Friday see record sales",
+      "headline": "These stocks could land big profits from filling Big Tech\u2019s critical water needs",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Costco shows investors a mixed financial snapshot on Thursday.",
+      "sentiment": "neutral",
+      "impact": "Charlie Garcia responds to readers concerned about the scarcity of ultrapure water and the Japanese stocks that provide it.",
       "category": "corporate_earnings",
-      "date": "2025-12-12 12:58",
-      "link": "https://www.marketwatch.com/story/costcos-profits-are-rising-but-what-about-its-sales-22825e07?mod=mw_rss_topstories"
+      "date": "2025-12-12 22:29",
+      "link": "https://www.marketwatch.com/story/these-stocks-could-land-big-profits-from-filling-big-techs-critical-water-needs-2e0e214b"
     },
     {
-      "headline": "What the stock market\u2019s post-Fed-meeting optimism may be getting wrong about the U.S. economy",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The U.S. stock market just booked fresh record highs, despite economic challenges.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-12 12:00",
-      "link": "https://www.marketwatch.com/story/what-the-stock-markets-post-fed-meeting-optimism-may-be-getting-wrong-about-the-u-s-economy-87b93db6"
-    },
-    {
-      "headline": "AI shopping could drive $263 billion in holiday sales. Walmart and Target are racing to get in",
+      "headline": "Here\u2019s an update on all 34 portfolio stocks, including 7 out-of-favor names to buy",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Consumers are turning to AI chatbots like ChatGPT for gift discovery, reviews and price matching, potentially driving billions in sales this holiday season.",
+      "impact": "Jim Cramer and Jeff Marks, the Club\u2019s director of portfolio analysis, set the table for the stock market in 2026 during the December Monthly Meeting.",
       "category": "global_markets",
-      "date": "2025-12-12 12:00",
-      "link": "https://www.cnbc.com/2025/12/12/ai-chatgpt-holiday-shopping-sales-walmart-target.html"
+      "date": "2025-12-12 21:59",
+      "link": "https://www.cnbc.com/2025/12/12/heres-an-update-on-all-34-portfolio-stocks-including-7-buys.html"
     },
     {
-      "headline": "Lululemon jumps in premarket after CEO Calvin McDonald announces departure",
+      "headline": "Rivian's AI, autonomy impress Wall Street, but EV and capital concerns remain",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Lululemon's CEO Calvin McDonald will leave the athleisure retailer at the end of January as sales in its largest market sag and consumers flee to competitors.",
+      "sentiment": "negative",
+      "impact": "Rivian impressed Wall Street with its plans for AI and automation, but significant challenges involving demand and capital remain for the EV maker.",
+      "category": "us_equities",
+      "date": "2025-12-12 21:03",
+      "link": "https://www.cnbc.com/2025/12/12/rivian-rivn-ai-ev.html"
+    },
+    {
+      "headline": "Disney's 'Zootopia 2' to hit $1 billion box office, only the second Hollywood film to do so this year",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Disney Animation's \"Zootopia 2\" is set to cross the billion-dollar box office mark on Friday, becoming the second Hollywood film to reach the benchmark in 2025.",
       "category": "global_markets",
-      "date": "2025-12-12 10:38",
-      "link": "https://www.cnbc.com/2025/12/11/lululemon-ceo-calvin-mcdonald-departing.html"
+      "date": "2025-12-12 18:32",
+      "link": "https://www.cnbc.com/2025/12/12/disney-zootopia-2-1-billion-global-box-office.html"
+    },
+    {
+      "headline": "Is the economy losing jobs? The Fed\u2019s rate cut hints at bigger worries.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Is the U.S. jobs market even worse than it looks? Most top officials at the Federal Reserve sure seem to think so.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-12 18:26",
+      "link": "https://www.marketwatch.com/story/is-the-economy-losing-jobs-the-feds-rate-cut-hints-at-bigger-worries-ab9dc6a9"
+    },
+    {
+      "headline": "Powerball jackpot hits $1 billion\u2014experts say to avoid these 5 mistakes if you win: 'You will be in an emotional state for a while'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Hitting a massive jackpot is thrilling, but the choices you make right after the win can put your wealth at risk.",
+      "category": "global_markets",
+      "date": "2025-12-12 17:35",
+      "link": "https://www.cnbc.com/2025/12/12/powerball-hits-1-billion-mistakes-to-avoid-if-you-win.html"
     }
   ]
 }
