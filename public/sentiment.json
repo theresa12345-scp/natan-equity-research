@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-13T14:20:38.567257",
+  "timestamp": "2025-12-14T06:18:34.557682",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
+    "avg_relevance": 7.1,
     "bullish": 8,
-    "neutral": 12,
-    "bearish": 5,
-    "high_priority": 10,
+    "neutral": 16,
+    "bearish": 1,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,14 +16,13 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "CNBC": 7,
-    "Yahoo Entertainment": 2,
+    "CNBC": 4,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "Axios": 1,
-    "Federalreserve.gov": 1,
-    "Realtor.com News": 1,
-    "ts2.tech": 1
+    "The Wall Street Journal": 1,
+    "MarketBeat": 6,
+    "Simply Wall Street": 1,
+    "TradingView \u2014 Track All Markets": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -33,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -73,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,7 +102,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -117,23 +116,13 @@
       "link": "https://www.cnbc.com/2025/12/12/cramers-week-ahead-new-economic-data-earnings-fedex-jabil.html"
     },
     {
-      "headline": "Live coverage: Federal Reserve cuts interest rates by 0.25%, Powell warns there's 'no risk-free path'",
-      "score": 8,
-      "source": "Yahoo Entertainment",
-      "sentiment": "negative",
-      "impact": "The Federal Reserve cut interest rates by 25 basis points at its final meeting of 2025, with investors focusing on the outlook for 2026.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-11 22:23",
-      "link": "https://finance.yahoo.com/news/live/live-coverage-federal-reserve-cuts-interest-rates-by-025-powell-warns-theres-no-risk-free-path-134139574.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -143,7 +132,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-13 14:20",
+      "date": "2025-12-14 06:18",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -157,34 +146,14 @@
       "link": "https://www.cnbc.com/2025/12/12/trump-kevin-warsh-fed-chair-rates.html"
     },
     {
-      "headline": "\u2018Inflation remains too high.\u2019 Two Fed dissenters who rejected latest interest-rate cut explain why.",
+      "headline": "Exclusive | Trump Says He Is Leaning Toward Warsh or Hassett to Lead the Fed",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The Fed could have waited for delayed economic reports on inflation and employment, Chicago Federal Reserve Bank President Austan Goolsbee said.",
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "In an interview with The Wall Street Journal, Trump said the next Fed chair should consult with him on interest rates",
       "category": "us_monetary_policy",
-      "date": "2025-12-12 14:50",
-      "link": "https://www.marketwatch.com/story/inflation-remains-too-high-two-fed-dissenters-who-rejected-latest-interest-rate-cut-explain-why-91534f3d"
-    },
-    {
-      "headline": "Broadcom Inc (AVGO) Q4 2025 Earnings Call Highlights: Record Revenue and AI Growth Propel ...",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "Broadcom Inc (AVGO) reports a 24% annual revenue increase, driven by a 65% surge in AI revenue, while announcing a 10% dividend hike for fiscal 2026.",
-      "category": "corporate_earnings",
-      "date": "2025-12-12 05:00",
-      "link": "https://finance.yahoo.com/news/broadcom-inc-avgo-q4-2025-050036753.html"
-    },
-    {
-      "headline": "Broadcom stock reverses lower on a misinterpretation of what the CEO said on the earnings call",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Investors were apparently not satisfied with Broadcom CEO Hock Tan's answer to an important question.",
-      "category": "corporate_earnings",
-      "date": "2025-12-12 02:20",
-      "link": "https://www.cnbc.com/2025/12/11/broadcom-stock-reverses-lower-on-a-misinterpretation-of-what-the-ceo-said-on-the-earnings-call.html"
+      "date": "2025-12-12 21:34",
+      "link": "https://www.wsj.com/economy/central-banking/trump-says-he-is-leaning-toward-warsh-or-hassett-to-lead-the-fed-34a200e5"
     },
     {
       "headline": "Costco tops Wall Street's sales and revenue expectations",
@@ -197,84 +166,114 @@
       "link": "https://www.cnbc.com/2025/12/11/costco-cost-earnings-q1-2026.html"
     },
     {
-      "headline": "White House issues federal agency guidance against \"woke\" AI",
-      "score": 7,
-      "source": "Axios",
+      "headline": "Ludmila Smolyansky Sells 20,000 Shares of Lifeway Foods (NASDAQ:LWAY) Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Ludmila Smolyansky, a major shareholder in Lifeway Foods (NASDAQ:LWAY), sold 20,000 shares of the company's stock on December 10th for $463,400, reducing her ownership by 2.49%. This transaction is part of a larger pattern of selling, with Smolyansky having sold a total of 63,569 shares across five ",
+      "category": "us_equities",
+      "date": "2025-12-14 05:09",
+      "link": "https://www.marketbeat.com/instant-alerts/ludmila-smolyansky-sells-20000-shares-of-lifeway-foods-nasdaqlway-stock-2025-12-12/"
+    },
+    {
+      "headline": "How Investors May Respond To Williams-Sonoma (WSM) Store Closures Amid Looser Fed Policy",
+      "score": 6,
+      "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "The Trump administration released guidance for federal agencies to try to ensure that the AI models they buy aren't spitting out \"woke\" responses.",
+      "impact": "Williams-Sonoma (WSM) is navigating store closures and soft same-store sales despite recent Federal Reserve interest rate cuts aimed at stimulating economic growth. The company's investment narrative hinges on its premium brands and omnichannel model offsetting housing-related demand slowdowns and u",
       "category": "us_monetary_policy",
-      "date": "2025-12-11 22:32",
-      "link": "https://www.axios.com/2025/12/11/white-house-woke-ai-guidance-federal-agencies"
+      "date": "2025-12-14 03:14",
+      "link": "https://simplywall.st/stocks/us/retail/nyse-wsm/williams-sonoma/news/how-investors-may-respond-to-williams-sonoma-wsm-store-closu"
     },
     {
-      "headline": "Federal Reserve Board announces reappointment of Reserve Bank presidents and first vice presidents",
-      "score": 7,
-      "source": "Federalreserve.gov",
-      "sentiment": "neutral",
-      "impact": "Following a comprehensive review by the boards of directors of the regional Reserve Banks, and the unanimous concurrence of Federal Reserve Board members, the",
-      "category": "us_monetary_policy",
-      "date": "2025-12-11 21:01",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20251211a.htm"
-    },
-    {
-      "headline": "Mortgage Interest Rates Today: Mortgage Rates Inch Up to 6.22% After Fed's Third-Straight Cut",
-      "score": 7,
-      "source": "Realtor.com News",
-      "sentiment": "negative",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-11 17:02",
-      "link": "https://www.realtor.com/news/trends/mortgage-interest-rates-now-december-11-2025/"
-    },
-    {
-      "headline": "'Stranger Things' ushered in a new era for Netflix",
+      "headline": "Hope Bancorp (NASDAQ:HOPE) EVP Jason Kim Sells 1,000 Shares",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "A lot has changed since its first season in 2016, as Netflix has announced dozens of \"Stranger Things\" partnerships and collaborations with brands.",
-      "category": "global_markets",
-      "date": "2025-12-13 13:00",
-      "link": "https://www.cnbc.com/2025/12/13/stranger-things-netflix.html"
+      "impact": "Hope Bancorp EVP Jason Kim sold 1,000 shares of the company's stock on December 10th for $11,540, reducing his ownership by 1.21%. The company's recent quarterly results were mixed, missing EPS estimates but exceeding revenue expectations. Hope Bancorp offers a high dividend yield but its payout rat",
+      "category": "us_equities",
+      "date": "2025-12-14 02:09",
+      "link": "https://www.marketbeat.com/instant-alerts/hope-bancorp-nasdaqhope-evp-jason-kim-sells-1000-shares-2025-12-12/"
     },
     {
-      "headline": "Realty Income (O) Stock Update: Dividend Boost, $800M CityCenter Investment, and Fed Rate Cut Set the Tone for the Week Ahead (Updated Dec. 13, 2025)",
+      "headline": "Jason Kim Sells 1,000 Shares of Hope Bancorp (NASDAQ:HOPE) Stock",
       "score": 6,
-      "source": "ts2.tech",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Realty Income (O) concluded the week at $57.72, influenced by a dividend increase, an $800 million preferred equity investment in CityCenter Las Vegas, and a Federal Reserve rate cut. The article details these key developments, alongside analyst forecasts and important economic data releases for the",
-      "category": "us_monetary_policy",
-      "date": "2025-12-13 12:56",
-      "link": "https://ts2.tech/en/realty-income-o-stock-update-dividend-boost-800m-citycenter-investment-and-fed-rate-cut-set-the-tone-for-the-week-ahead-updated-dec-13-2025/"
+      "impact": "Jason Kim, EVP of Hope Bancorp (NASDAQ:HOPE), sold 1,000 shares of the company's stock on December 12th at an average price of $11.41, reducing his stake by 1.24%. Despite the sale, Hope Bancorp recently declared a quarterly dividend of $0.14, representing a 4.9% yield, although its payout ratio is ",
+      "category": "us_equities",
+      "date": "2025-12-14 02:09",
+      "link": "https://www.marketbeat.com/instant-alerts/jason-kim-sells-1000-shares-of-hope-bancorp-nasdaqhope-stock-2025-12-12/"
     },
     {
-      "headline": "These stocks could land big profits from filling Big Tech\u2019s critical water needs",
+      "headline": "Hope Bancorp (NASDAQ:HOPE) Director Sells $239,430.00 in Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Hope Bancorp Director David Malone sold 20,820 shares of the company's stock on December 11th for $239,430.00, reducing his stake by 23.8%. The financial services provider reported Q3 EPS of $0.25, missing estimates, and pays a quarterly dividend of $0.14. Shares are currently trading around $11.52 ",
+      "category": "us_equities",
+      "date": "2025-12-14 02:09",
+      "link": "https://www.marketbeat.com/instant-alerts/hope-bancorp-nasdaqhope-director-sells-23943000-in-stock-2025-12-12/"
+    },
+    {
+      "headline": "Blink Charging (NASDAQ:BLNK) CEO Michael Battaglia Buys 33,333 Shares",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Blink Charging (NASDAQ:BLNK) CEO Michael Battaglia recently purchased 33,333 shares, increasing his stake by 14.26% to 267,095 shares, valued at about $200,321. This transaction occurred as the stock plunged 12.1% to $0.78 on heavy trading volume. Despite beating EPS estimates, the company's revenue",
+      "category": "us_equities",
+      "date": "2025-12-14 01:09",
+      "link": "https://www.marketbeat.com/instant-alerts/blink-charging-nasdaqblnk-ceo-michael-battaglia-buys-33333-shares-2025-12-12/"
+    },
+    {
+      "headline": "Key facts: UnitedHealth Group earnings release date set; Themes ETFs launches 2X Long UNH Daily ETF",
+      "score": 6,
+      "source": "TradingView \u2014 Track All Markets",
+      "sentiment": "neutral",
+      "impact": "UnitedHealth Group (UNH) has announced an upcoming earnings release. Themes ETFs has launched a 2X Long UNH Daily ETF, aiming to double daily returns for UNH, a stock gaining attention due to Warren Buffett's investment.",
+      "category": "corporate_earnings",
+      "date": "2025-12-14 01:05",
+      "link": "https://www.tradingview.com/news/tradingview:66c55eb90aa19:0-key-facts-unitedhealth-group-earnings-release-date-set-themes-etfs-launches-2x-long-unh-daily-etf/"
+    },
+    {
+      "headline": "Insider Selling: Bridgewater Bancshares (NASDAQ:BWB) CFO Sells 5,211 Shares of Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Bridgewater Bancshares (NASDAQ:BWB) CFO Joseph Chybowski sold 5,211 shares of the company's stock on December 10th at an average price of $18.05 per share, totaling $94,058.55. This transaction reduced his ownership by 4.71% to 105,349 shares. The sale was disclosed in an SEC filing and comes as Bri",
+      "category": "us_equities",
+      "date": "2025-12-14 00:57",
+      "link": "https://www.marketbeat.com/instant-alerts/insider-selling-bridgewater-bancshares-nasdaqbwb-cfo-sells-5211-shares-of-stock-2025-12-12/"
+    },
+    {
+      "headline": "Kevin Warsh\u2019s odds of becoming Fed chair leap higher as Dimon signals support",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Charlie Garcia responds to readers concerned about the scarcity of ultrapure water and the Japanese stocks that provide it.",
-      "category": "corporate_earnings",
-      "date": "2025-12-12 22:29",
-      "link": "https://www.marketwatch.com/story/these-stocks-could-land-big-profits-from-filling-big-techs-critical-water-needs-2e0e214b"
+      "sentiment": "positive",
+      "impact": "President Trump said he was leaning toward choosing either Warsh or Kevin Hassett to succeed Fed chair Jerome Powell.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-13 21:08",
+      "link": "https://www.marketwatch.com/story/kevin-warshs-odds-of-becoming-fed-chair-leap-higher-as-dimon-signals-support-cf0f0c04"
     },
     {
-      "headline": "Here\u2019s an update on all 34 portfolio stocks, including 7 out-of-favor names to buy",
+      "headline": "Walmart was too late for a Nasdaq-100 spot \u2014 but these 6 stocks made the cut",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Jim Cramer and Jeff Marks, the Club\u2019s director of portfolio analysis, set the table for the stock market in 2026 during the December Monthly Meeting.",
-      "category": "global_markets",
-      "date": "2025-12-12 21:59",
-      "link": "https://www.cnbc.com/2025/12/12/heres-an-update-on-all-34-portfolio-stocks-including-7-buys.html"
-    },
-    {
-      "headline": "Rivian's AI, autonomy impress Wall Street, but EV and capital concerns remain",
-      "score": 6,
-      "source": "CNBC",
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "Rivian impressed Wall Street with its plans for AI and automation, but significant challenges involving demand and capital remain for the EV maker.",
+      "impact": "Strategy maintained its place in the tech-heavy index, but Lululemon and Trade Desk are among the companies getting the boot.",
       "category": "us_equities",
-      "date": "2025-12-12 21:03",
-      "link": "https://www.cnbc.com/2025/12/12/rivian-rivn-ai-ev.html"
+      "date": "2025-12-13 16:04",
+      "link": "https://www.marketwatch.com/story/walmart-was-too-late-for-a-nasdaq-100-spot-but-these-6-stocks-made-the-cut-27aec306"
+    },
+    {
+      "headline": "Hoda Kotb: The No. 1 question to ask yourself before making a career change\u2014it's about 'what you think you deserve'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "If you want to overhaul your career, whether you're in your 20s or your 60s, you can do so by asking yourself one simple question first, says Hoda Kotb.",
+      "category": "global_markets",
+      "date": "2025-12-13 14:05",
+      "link": "https://www.cnbc.com/2025/12/13/hoda-kotb-best-question-to-ask-yourself-before-making-career-change.html"
     }
   ]
 }
