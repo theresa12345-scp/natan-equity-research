@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-15T14:29:31.214436",
+  "timestamp": "2025-12-16T06:20:52.288372",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 10,
-    "neutral": 12,
-    "bearish": 3,
-    "high_priority": 9,
+    "bullish": 12,
+    "neutral": 8,
+    "bearish": 5,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -15,14 +15,15 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
-    "CNBC": 5,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "Yahoo Finance": 1,
-    "MarketWatch": 5,
-    "Tipranks.com": 1,
-    "The Wall Street Journal": 1,
-    "Financial Times": 1
+    "MarketWatch": 2,
+    "CNBC": 5,
+    "Associated Press": 1,
+    "MarketBeat": 4,
+    "The Manila Times": 1,
+    "StocksToTrade": 1,
+    "Yahoo Finance": 1
   },
   "top_signals": [
     {
@@ -32,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,18 +103,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Cramer's week ahead: New economic data and earnings from FedEx, Jabil",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "CNBC's Jim Cramer on Friday told investors what to look out for next week on Wall Street.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-12 23:14",
-      "link": "https://www.cnbc.com/2025/12/12/cramers-week-ahead-new-economic-data-earnings-fedex-jabil.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +113,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,18 +123,128 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-15 14:29",
+      "date": "2025-12-16 06:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Should You Invest in the Invesco NASDAQ Internet ETF (PNQI)?",
+      "headline": "Two Fed officials who rarely agree both say inflation will not be a problem going forward",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Fed governor Stephen Miran and New York Fed President John Williams say they are not worried about inflation.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-15 20:09",
+      "link": "https://www.marketwatch.com/story/two-fed-officials-who-rarely-agree-both-say-inflation-will-not-be-a-problem-going-forward-f5425178"
+    },
+    {
+      "headline": "We're booking some big profits in an AI data center energy play after the stock's big rally",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Last week, management provided a strong order update and significantly increased its 2028 financial framework for revenue, margins, and free cash flow.",
+      "category": "corporate_earnings",
+      "date": "2025-12-15 16:29",
+      "link": "https://www.cnbc.com/2025/12/15/were-booking-some-big-profits-in-an-ai-data-center-energy-play-after-the-stocks-big-rally.html"
+    },
+    {
+      "headline": "Hassett says Federal Reserve can reject Trump\u2019s views if he is chair",
+      "score": 7,
+      "source": "Associated Press",
+      "sentiment": "neutral",
+      "impact": "A leading candidate to be President Donald Trump\u2019s choice for Federal Reserve chair says he would present the president\u2019s views to Fed officials for their consideration but they could reject them if they chose when making decisions on interest rates. Hassett\u2019\u2026",
+      "category": "us_monetary_policy",
+      "date": "2025-12-14 20:53",
+      "link": "https://apnews.com/article/federal-reserve-hassett-trump-independence-2a2a5c1bd7de916d1118f2c9d863cde7"
+    },
+    {
+      "headline": "Littelfuse (NASDAQ:LFUS) SVP Peter Sung-Jip Kim Sells 2,049 Shares",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Littelfuse (NASDAQ:LFUS) SVP Peter Sung-Jip Kim sold 2,049 shares of the company's stock on December 11th, reducing his stake by 16.76% to 10,175 shares worth approximately $2.75 million. The sale, valued at $553,270.98, occurred at an average price of $270.02 per share. This transaction follows a s",
+      "category": "us_equities",
+      "date": "2025-12-16 05:09",
+      "link": "https://www.marketbeat.com/instant-alerts/littelfuse-nasdaqlfus-svp-peter-sung-jip-kim-sells-2049-shares-2025-12-15/"
+    },
+    {
+      "headline": "Credo Technology Group (NASDAQ:CRDO) COO Yat Tung Lam Sells 370,000 Shares",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Credo Technology Group's COO, Yat Tung Lam, sold 370,000 shares of CRDO stock for $56.68 million on December 11, reducing his stake by 48.05%. This sale follows earlier transactions in October. The company recently reported strong quarterly earnings, and analysts maintain a \"Buy\" rating with a targe",
+      "category": "us_equities",
+      "date": "2025-12-16 05:09",
+      "link": "https://www.marketbeat.com/instant-alerts/credo-technology-group-nasdaqcrdo-coo-yat-tung-lam-sells-370000-shares-2025-12-15/"
+    },
+    {
+      "headline": "Univest Securities, LLC Announces Closing of $4.0 Million Registered Direct Offering for its Client Jiuzi Holdings, Inc. (NASDAQ: JZXN)",
+      "score": 6,
+      "source": "The Manila Times",
+      "sentiment": "positive",
+      "impact": "Univest Securities, LLC announced the closing of a $4.0 million registered direct offering for its client Jiuzi Holdings, Inc. (NASDAQ: JZXN). The offering involved the sale of 1,600,000 Class A ordinary shares (or pre-funded warrants) at $2.50 per share to one investor. Univest Securities, LLC acte",
+      "category": "us_equities",
+      "date": "2025-12-16 05:08",
+      "link": "https://www.manilatimes.net/2025/12/16/tmt-newswire/globenewswire/univest-securities-llc-announces-closing-of-40-million-registered-direct-offering-for-its-client-jiuzi-holdings-inc-nasdaq-jzxn/2243976"
+    },
+    {
+      "headline": "FRP (NASDAQ:FRPH) COO Sells $35,130.00 in Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "FRP Holdings, Inc. (NASDAQ:FRPH) COO David Devilliers III sold 1,500 shares of the company's stock on December 11th for $35,130, reducing his stake by 2.6%. Following this transaction, his direct ownership stands at 56,159 shares valued at approximately $1.315 million. The stock traded down about 1.",
+      "category": "us_equities",
+      "date": "2025-12-16 04:09",
+      "link": "https://www.marketbeat.com/instant-alerts/frp-nasdaqfrph-coo-sells-3513000-in-stock-2025-12-15/"
+    },
+    {
+      "headline": "CleanSpark Faces Financial Turbulence with Missed EPS and Revenue",
+      "score": 6,
+      "source": "StocksToTrade",
+      "sentiment": "negative",
+      "impact": "CleanSpark Inc. (NASDAQ: CLSK) is experiencing significant financial turbulence, with its stock trading down amid market concerns. The company missed Q4 FY25 revenue expectations, reporting $766.3M against a forecast of $774.5M, and earnings per share of $1.12, below the $1.42 consensus. These resul",
+      "category": "corporate_earnings",
+      "date": "2025-12-16 04:08",
+      "link": "https://stockstotrade.com/news/cleanspark-inc-clsk-news-2025_12_15-2/"
+    },
+    {
+      "headline": "Cormorant Asset Management, Lp Sells 30,029 Shares of Corbus Pharmaceuticals (NASDAQ:CRBP) Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Cormorant Asset Management, Lp sold 30,029 shares of Corbus Pharmaceuticals (NASDAQ:CRBP) on December 11th at an average price of $11.46, totaling $344,132. This sale reduced their stake by 1.26%. Despite the sale and a recent earnings miss, analysts maintain a \"Moderate Buy\" rating with a consensus",
+      "category": "us_equities",
+      "date": "2025-12-16 04:08",
+      "link": "https://www.marketbeat.com/instant-alerts/cormorant-asset-management-lp-sells-30029-shares-of-corbus-pharmaceuticals-nasdaqcrbp-stock-2025-12-15/"
+    },
+    {
+      "headline": "Check out Amplify Cash Flow Dividend Leaders ETF's stock price (COWS) in real time",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "This article provides real-time stock information for the Amplify Cash Flow Dividend Leaders ETF (COWS). It includes current trading prices, key statistics such as volume, 52-week range, dividend yield, and important dates for dividends. The article also notes that there is no recent news available ",
+      "category": "global_markets",
+      "date": "2025-12-16 04:08",
+      "link": "https://www.cnbc.com/quotes/COWS"
+    },
+    {
+      "headline": "Earnings To Watch: Jabil (JBL) Reports Q4 Results Tomorrow",
       "score": 6,
       "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "The Invesco NASDAQ Internet ETF (PNQI) is a passively managed ETF designed to track the Technology - Internet segment, holding a Zacks ETF Rank of 2 (Buy). With $770.98 million in assets and an expense ratio of 0.6%, it offers diversified exposure, primarily to Information Technology, with top holdi",
-      "category": "us_equities",
-      "date": "2025-12-15 13:08",
-      "link": "https://finance.yahoo.com/news/invest-invesco-nasdaq-internet-etf-112002494.html"
+      "sentiment": "positive",
+      "impact": "Jabil (NYSE:JBL), an electronics manufacturing services provider, is set to report its Q4 earnings tomorrow. Analysts anticipate a 14.4% year-on-year revenue growth to $8.00 billion and adjusted earnings of $2.73 per share, reversing last year's decrease. The company has a strong track record of bea",
+      "category": "corporate_earnings",
+      "date": "2025-12-16 04:08",
+      "link": "https://finance.yahoo.com/news/earnings-watch-jabil-jbl-reports-030110537.html"
+    },
+    {
+      "headline": "Ford to record $19.5 billion in special charges related to EV pullback",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The charges are related to a restructuring of its business priorities and a pullback in its all-electric vehicle investments, Ford announced Monday.",
+      "category": "global_markets",
+      "date": "2025-12-16 00:28",
+      "link": "https://www.cnbc.com/2025/12/15/ford-ev-pullback.html"
     },
     {
       "headline": "\u2018We all have economic jitters\u2019: After the Fed cut rates, should my son buy a $600K house?",
@@ -152,128 +253,28 @@
       "sentiment": "negative",
       "impact": "\u201cThey are tuned in to friends and colleagues, who are losing jobs, cognizant of shifts in company agendas and financial worries.\u201d",
       "category": "us_monetary_policy",
-      "date": "2025-12-15 10:30",
-      "link": "https://www.marketwatch.com/story/we-all-have-economic-jitters-after-the-fed-cut-rates-should-my-son-buy-a-600k-house-e97d039b"
+      "date": "2025-12-16 00:08",
+      "link": "https://www.marketwatch.com/story/we-all-have-economic-jitters-after-the-fed-cut-rates-should-my-son-buy-a-600k-house-e97d039b?mod=mw_rss_topstories"
     },
     {
-      "headline": "The last major Wall Street bank to set its 2026 target forecasts double-digit gains for the S&P 500",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "High valuations represent a hurdle for the markets but not an insurmountable one",
-      "category": "us_equities",
-      "date": "2025-12-15 10:00",
-      "link": "https://www.marketwatch.com/story/the-last-major-wall-street-bank-to-set-its-2026-target-forecasts-double-digit-gains-for-the-s-p-500-de462b0a"
-    },
-    {
-      "headline": "Hassett says Trump would have \u2018no weight\u2019 on Fed\u2019s decision-making if he\u2019s chair",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Kevin Hassett, President Donald Trump\u2019s top economic adviser, on Sunday dismissed concerns that he would simply push Trump\u2019s agenda if he\u2019s chosen as the next Fed chair.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-14 21:54",
-      "link": "https://www.marketwatch.com/story/hassett-says-trump-would-have-no-weight-on-feds-decision-making-if-hes-chair-8cf59cfb"
-    },
-    {
-      "headline": "Broadcom and Costco's rich valuations leave little room for error as battleground stocks",
+      "headline": "Affirm CEO details no-fee lending model: 'We have total alignment with our consumers'",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "In his Sunday column for Investing Club subscribers, CNBC's Jim Cramer writes about the issues facing Broadcom and Costco.",
+      "impact": "Affirm CEO Max Levchin reviewed his company's strategy in a Monday interview with CNBC's Jim Cramer.",
       "category": "global_markets",
-      "date": "2025-12-14 20:41",
-      "link": "https://www.cnbc.com/2025/12/14/broadcom-and-costcos-rich-valuations-leave-little-room-for-error-as-battleground-stocks.html"
+      "date": "2025-12-15 23:56",
+      "link": "https://www.cnbc.com/2025/12/15/affirm-ceo-no-fee-lending-consumers.html"
     },
     {
-      "headline": "Here are the 2 big things we're watching in the stock market this week",
+      "headline": "Merriam-Webster declares 'slop' its word of the year in nod to growth of AI",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "This week is the last full trading week on Wall Street for the year, and it is packed with key economic and earnings reports.",
-      "category": "global_markets",
-      "date": "2025-12-14 16:46",
-      "link": "https://www.cnbc.com/2025/12/14/here-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html"
-    },
-    {
-      "headline": "AI tools could drive $263 billion in holiday sales. Walmart and Target are racing to get in",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Consumers are turning to AI chatbots like ChatGPT for gift discovery, reviews and price matching, potentially driving billions in sales this holiday season.",
-      "category": "global_markets",
-      "date": "2025-12-14 15:53",
-      "link": "https://www.cnbc.com/2025/12/12/ai-chatgpt-holiday-shopping-sales-walmart-target.html"
-    },
-    {
-      "headline": "25-year-old certified nutrition and health coach's go-to breakfast: 'It sets me up for success, it makes me feel good'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Known as \"Health with Hunter\" on social media, this nutrition and health coach recommends this healthy breakfast to feel your best.",
-      "category": "global_markets",
-      "date": "2025-12-14 15:00",
-      "link": "https://www.cnbc.com/2025/12/14/certified-nutrition-and-health-coachs-go-to-breakfast.html"
-    },
-    {
-      "headline": "Hong Kong, India fuel blockbuster year for Asia fundraising",
-      "score": 6,
-      "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "his year, the Hong Kong market became a beneficiary of China\u2019s artificial-intelligence ambitions, advances in biotechnology, efforts by Beijing to boost domestic demand, and gains in global prices of gold and aluminIum",
-      "category": "asia_economy",
-      "date": "2025-12-14 04:09",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-14/hong-kong-leads-blistering-year-for-asia-fundraising-with-73-billion"
-    },
-    {
-      "headline": "3 \u2018Strong Buy High-Yield\u2019 Dividend Stocks to Buy Today, According to Analysts",
-      "score": 6,
-      "source": "Tipranks.com",
-      "sentiment": "positive",
-      "impact": "Dividend-paying stocks offer a steady way to earn passive income and are often seen as safer picks in today\u2019s uncertain market. They can also deliver solid capital ...",
-      "category": "fixed_income",
-      "date": "2025-12-14 02:51",
-      "link": "https://www.tipranks.com/news/3-strong-buy-high-yield-dividend-stocks-to-buy-today-according-to-analysts"
-    },
-    {
-      "headline": "Exclusive | OpenAI Ends \u2018Vesting Cliff\u2019 for New Employees in Compensation-Policy Change",
-      "score": 6,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2025-12-13 23:19",
-      "link": "https://www.wsj.com/tech/ai/openai-ends-vesting-cliff-for-new-employees-in-compensation-policy-change-d4c4c2cd"
-    },
-    {
-      "headline": "Kevin Warsh\u2019s odds of becoming Fed chair leap higher as Dimon signals support",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "President Trump said he was leaning toward choosing either Warsh or Kevin Hassett to succeed Fed chair Jerome Powell.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-13 21:08",
-      "link": "https://www.marketwatch.com/story/kevin-warshs-odds-of-becoming-fed-chair-leap-higher-as-dimon-signals-support-cf0f0c04"
-    },
-    {
-      "headline": "Walmart was too late for a Nasdaq-100 spot \u2014 but these 6 stocks made the cut",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Strategy maintained its place in the tech-heavy index, but Lululemon and Trade Desk are among the companies getting the boot.",
-      "category": "us_equities",
-      "date": "2025-12-13 16:04",
-      "link": "https://www.marketwatch.com/story/walmart-was-too-late-for-a-nasdaq-100-spot-but-these-6-stocks-made-the-cut-27aec306"
-    },
-    {
-      "headline": "More than 9mn US borrowers miss student loan payments as delinquencies rise",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "Share of balances past due has doubled as Biden-era forbearance expires",
+      "impact": "Slop refers to the low-quality content created by artificial intelligence that's showing up across social media.",
       "category": "global_markets",
-      "date": "2025-12-13 15:00",
-      "link": "https://www.ft.com/content/b6ca2ab2-2d3a-40d7-9a61-12a6fda0625d"
+      "date": "2025-12-15 22:44",
+      "link": "https://www.cnbc.com/2025/12/15/merriam-webster-declares-slop-word-of-the-year-nod-to-growth-of-ai.html"
     }
   ]
 }
