@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-16T14:28:21.249557",
+  "timestamp": "2025-12-17T06:20:22.956799",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 6.9,
-    "bullish": 9,
-    "neutral": 14,
-    "bearish": 2,
-    "high_priority": 8,
+    "avg_relevance": 7.1,
+    "bullish": 8,
+    "neutral": 11,
+    "bearish": 6,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -16,10 +16,15 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
+    "The Wall Street Journal": 1,
+    "Financial Times": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 11,
-    "MarketBeat": 1,
-    "MarketWatch": 3
+    "MarketWatch": 2,
+    "CNBC": 5,
+    "MarketBeat": 2,
+    "Markets Mojo": 1,
+    "Meyka": 1,
+    "Simply Wall Street": 2
   },
   "top_signals": [
     {
@@ -29,7 +34,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +44,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +54,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +64,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +74,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +84,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +94,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +104,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Treasury Yields End Lower",
+      "score": 8,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2025-12-15 20:53",
+      "link": "https://www.wsj.com/finance/investing/jgb-futures-edge-higher-as-investors-digest-boj-tankan-aca404c6"
+    },
+    {
+      "headline": "Fed decisions distorted by \u2018phantom inflation\u2019, says Stephen Miran",
+      "score": 8,
+      "source": "Financial Times",
+      "sentiment": "negative",
+      "impact": "Trump ally says US central bank should lower interest rates more quickly",
+      "category": "us_monetary_policy",
+      "date": "2025-12-15 15:17",
+      "link": "https://www.ft.com/content/7d375109-9471-450b-8530-a6147ff7068e"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -109,7 +134,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,68 +144,98 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-16 14:28",
+      "date": "2025-12-17 06:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Market rotation, the Fed's Kevins, Netflix's 'Star Wars' moment and more in Morning Squawk",
+      "headline": "Fed\u2019s Bostic expects no rate cuts in 2026 due to worries GOP tax bill might fuel inflation",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Atlanta Fed President Raphael Bostic said he thought the economy was no longer in danger of a sharp rise in the unemployment rate that might spur a recession.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-16 20:38",
+      "link": "https://www.marketwatch.com/story/feds-bostic-expects-no-rate-cuts-in-2026-due-to-worries-gop-tax-bill-might-fuel-inflation-ebdf46fb"
+    },
+    {
+      "headline": "BofA's Savita Subramanian says the S&P 500 will rise to 7,100 in 2026, the most bearish forecast on the Street thus far",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Here are five key things investors need to know to start the trading day.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-15 13:22",
-      "link": "https://www.cnbc.com/2025/12/15/5-things-to-know-before-the-stock-market-opens.html"
+      "impact": "The head of U.S. equity and quantitative strategy's target implies just a 4% rise from current levels.",
+      "category": "us_equities",
+      "date": "2025-12-15 15:02",
+      "link": "https://www.cnbc.com/2025/12/15/bofas-savita-subramanian-says-sp-500-will-rise-to-just-7100-in-2026.html"
     },
     {
-      "headline": "LinkedIn CEO: Ignore this common piece of career advice\u2014it's 'outdated' and 'a little bit foolish'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Young professionals should focus on learning and new experiences, says LinkedIn CEO.",
-      "category": "global_markets",
-      "date": "2025-12-16 14:00",
-      "link": "https://www.cnbc.com/2025/12/16/linkedin-ceo-ignore-this-common-piece-of-career-adviceits-outdated-and-a-little-bit-foolish.html"
-    },
-    {
-      "headline": "Huntington Bancshares Incorporated Plans Quarterly Dividend of $0.16 (NASDAQ:HBAN)",
+      "headline": "Catalyst Pharmaceuticals (NASDAQ:CPRX) Director Molly Harper Sells 26,746 Shares",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "Huntington Bancshares Incorporated (NASDAQ:HBAN) has announced a quarterly dividend of $0.155 per share, payable on January 2nd to shareholders of record as of December 18th. This translates to an annualized dividend of $0.62 and a 3.5% yield. The dividend appears well-covered by earnings, with an e",
+      "impact": "Catalyst Pharmaceuticals (NASDAQ:CPRX) Director Molly Harper sold 26,746 shares, significantly reducing her stake in the company. Despite the insider sale, Catalyst Pharmaceuticals recently reported solid quarterly results and authorized a $200 million share buyback, suggesting confidence from the b",
       "category": "us_equities",
-      "date": "2025-12-16 13:05",
-      "link": "https://www.marketbeat.com/instant-alerts/huntington-bancshares-incorporated-plans-quarterly-dividend-of-016-nasdaqhban-2025-12-16/"
+      "date": "2025-12-17 05:09",
+      "link": "https://www.marketbeat.com/instant-alerts/catalyst-pharmaceuticals-nasdaqcprx-director-molly-harper-sells-26746-shares-2025-12-16/"
     },
     {
-      "headline": "Here\u2019s why Pfizer is revising its revenue forecasts",
+      "headline": "Invitation Homes Adjusts Valuation Amid High Debt and Declining Profits",
+      "score": 6,
+      "source": "Markets Mojo",
+      "sentiment": "negative",
+      "impact": "Invitation Homes, Inc. recently saw its valuation grade shift from \"very attractive\" to \"attractive,\" influenced by high P/E ratio, elevated price to book value, and a significant debt-equity ratio. The company reported a 9.7% decline in profits and a -20.25% return over the past year, indicating un",
+      "category": "corporate_earnings",
+      "date": "2025-12-17 04:50",
+      "link": "https://www.marketsmojo.com/news/stock-recommendation/invitation-homes-downgraded-from-buy-to-hold-amid-valuation-shift-3760250"
+    },
+    {
+      "headline": "BlackBerry Limited (BB.TO): Navigating Growth and Expectations Ahead of Earnings",
+      "score": 6,
+      "source": "Meyka",
+      "sentiment": "neutral",
+      "impact": "BlackBerry Limited (BB.TO) saw a 3.07% increase in its stock price on the Toronto Stock Exchange, closing at C$6.04 ahead of its earnings announcement. The company is expected to report an EPS of C$0.05045 and revenues of C$189,222,374. Investors are monitoring the cybersecurity and IoT leader for c",
+      "category": "corporate_earnings",
+      "date": "2025-12-17 03:09",
+      "link": "https://meyka.com/blog/blackberry-limited-bbto-navigating-growth-and-expectations-ahead-of-earnings-1712/"
+    },
+    {
+      "headline": "Angela Stephens Sells 10,000 Shares of Keurig Dr Pepper (NASDAQ:KDP) Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Angela Stephens, VP of Keurig Dr Pepper (NASDAQ:KDP), sold 10,000 shares of the company's stock on December 12th for a total of $295,200, reducing her stake by 15.58% to 54,200 shares. The transaction was disclosed in an SEC filing, revealing the stock sold at an average price of $29.52. KDP shares ",
+      "category": "us_equities",
+      "date": "2025-12-17 02:47",
+      "link": "https://www.marketbeat.com/instant-alerts/angela-stephens-sells-10000-shares-of-keurig-dr-pepper-nasdaqkdp-stock-2025-12-16/"
+    },
+    {
+      "headline": "Edwards Lifesciences (EW): Reassessing Valuation After Strong Sales Growth and Upgraded Guidance",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "neutral",
+      "impact": "Edwards Lifesciences (EW) is gaining attention due to strong sales growth, upgraded guidance, and a positive share price trend, prompting a reassessment of its valuation. While a narrative suggests it's 10.5% undervalued with a fair value near $95, its current Price-to-Earnings ratio of 36.9x indica",
+      "category": "corporate_earnings",
+      "date": "2025-12-17 02:45",
+      "link": "https://simplywall.st/stocks/us/healthcare/nyse-ew/edwards-lifesciences/news/edwards-lifesciences-ew-reassessing-valuation-after-strong-s"
+    },
+    {
+      "headline": "Is Western Digital\u2019s Nasdaq 100 Inclusion Reframing The AI Storage Investment Case For WDC?",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Western Digital's inclusion in the Nasdaq 100 highlights its growing role in large-cap technology, particularly due to its focus on hard disk drives, AI-driven data center demand, and expansion into quantum computing. The company's investment narrative is tied to AI-driven data growth and HDD adopti",
+      "category": "us_equities",
+      "date": "2025-12-17 02:44",
+      "link": "https://simplywall.st/stocks/us/tech/nasdaq-wdc/western-digital/news/is-western-digitals-nasdaq-100-inclusion-reframing-the-ai-st"
+    },
+    {
+      "headline": "\u2018We all have economic jitters\u2019: After the Fed cut rates, should my son buy a $600K house?",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The drugmaker revised its revenue guidance for 2025, saying it now expects $62 billion in revenue for the year.",
-      "category": "corporate_earnings",
-      "date": "2025-12-16 12:47",
-      "link": "https://www.marketwatch.com/story/heres-why-pfizer-is-revising-its-revenue-forecasts-c6ed3e12"
-    },
-    {
-      "headline": "Kraft Heinz taps former Kellanova CEO Steve Cahillane to lead company ahead of breakup",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Steve Cahillane previously led Kellogg through its own breakup two years ago.",
-      "category": "global_markets",
-      "date": "2025-12-16 12:26",
-      "link": "https://www.cnbc.com/2025/12/16/kraft-heinz-steve-cahillane-ceo-breakup.html"
-    },
-    {
-      "headline": "As catastrophe losses top $100 billion again, insurers are helping policyholders mitigate risk",
-      "score": 6,
-      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Wildfires and severe storms are the main driver of losses, accounting for 83% of the total insured losses, according to Swiss Re.",
-      "category": "global_markets",
-      "date": "2025-12-16 12:20",
-      "link": "https://www.cnbc.com/2025/12/16/insurers-policyholders-mitigate-risk-catastrophe-losses.html"
+      "impact": "\u201cThey are tuned in to friends and colleagues, who are losing jobs, cognizant of shifts in company agendas and financial worries.\u201d",
+      "category": "us_monetary_policy",
+      "date": "2025-12-17 00:49",
+      "link": "https://www.marketwatch.com/story/we-all-have-economic-jitters-after-the-fed-cut-rates-should-my-son-buy-a-600k-house-e97d039b?mod=mw_rss_topstories"
     },
     {
       "headline": "Consumers are feeling gloomy about the economy. Here's why they're spending anyway",
@@ -189,88 +244,38 @@
       "sentiment": "neutral",
       "impact": "Consumer sentiment is low and the job market is shaky. Shoppers are still spending during the holidays.",
       "category": "global_markets",
-      "date": "2025-12-16 12:00",
+      "date": "2025-12-16 20:54",
       "link": "https://www.cnbc.com/2025/12/16/consumer-sentiment-retail-sales-holiday-walmart-tjx.html"
     },
     {
-      "headline": "The Fed\u2019s \u2018dovish version of a hawkish cut\u2019 signals shift in stock-market leadership, says Jeremy Siegel",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "A decline in short-term rates is positive for the balance sheets of businesses, banks and households, says Wharton professor",
-      "category": "us_monetary_policy",
-      "date": "2025-12-16 11:39",
-      "link": "https://www.marketwatch.com/story/the-feds-dovish-version-of-a-hawkish-cut-signals-shift-in-stock-market-leadership-says-jeremy-siegel-9b230723"
-    },
-    {
-      "headline": "Startup backed by Altman, JPMorgan announces capital lending partnership with Amazon",
+      "headline": "What Trump's reclassification of pot and CBD could mean for seniors, research and stocks",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Slope, an AI lending platform backed by JPMorgan Chase, told CNBC exclusively that it is launching a partnership with Amazon's independent sellers.",
+      "impact": "Reclassification to a Schedule III drug and possible Medicare coverage for pot could unlock new investment from pharmaceutical companies.",
       "category": "global_markets",
-      "date": "2025-12-16 11:00",
-      "link": "https://www.cnbc.com/2025/12/16/slope-sam-altman-jpmorgan-amazon.html"
+      "date": "2025-12-16 20:23",
+      "link": "https://www.cnbc.com/2025/12/16/trump-medicare-pot-seniors-marijuana-reclassification.html"
     },
     {
-      "headline": "Ford to record $19.5 billion in special charges related to EV pullback",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The charges are related to a restructuring of its business priorities and a pullback in its all-electric vehicle investments, Ford announced Monday.",
-      "category": "global_markets",
-      "date": "2025-12-16 00:28",
-      "link": "https://www.cnbc.com/2025/12/15/ford-ev-pullback.html"
-    },
-    {
-      "headline": "Affirm CEO details no-fee lending model: 'We have total alignment with our consumers'",
+      "headline": "Capital One catches two well-deserved price target bumps as broad market slides",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Affirm CEO Max Levchin reviewed his company's strategy in a Monday interview with CNBC's Jim Cramer.",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "category": "global_markets",
-      "date": "2025-12-15 23:56",
-      "link": "https://www.cnbc.com/2025/12/15/affirm-ceo-no-fee-lending-consumers.html"
+      "date": "2025-12-16 19:45",
+      "link": "https://www.cnbc.com/2025/12/16/capital-one-catches-two-price-target-bumps-as-broad-market-slides.html"
     },
     {
-      "headline": "Merriam-Webster declares 'slop' its word of the year in nod to growth of AI",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Slop refers to the low-quality content created by artificial intelligence that's showing up across social media.",
-      "category": "global_markets",
-      "date": "2025-12-15 22:44",
-      "link": "https://www.cnbc.com/2025/12/15/merriam-webster-declares-slop-word-of-the-year-nod-to-growth-of-ai.html"
-    },
-    {
-      "headline": "Frontier Airlines replaces CEO Barry Biffle with carrier's president",
+      "headline": "Sheryl Sandberg says corporate climate 'one of the worst' she has ever seen",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Frontier Airlines is replacing its CEO, Barry Biffle, with the carrier's president.",
+      "impact": "Sheryl Sandberg says corporate climate is 'one of the worst' ever and there is no excuse for companies to backslide on efforts to level career playing field.",
       "category": "global_markets",
-      "date": "2025-12-15 22:13",
-      "link": "https://www.cnbc.com/2025/12/15/frontier-airlines-replaces-ceo-biffle-with-carriers-president.html"
-    },
-    {
-      "headline": "Pentagon takes big stake in new Korea Zinc smelter in Tennessee, will get 10% of company",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The U.S. government is ramping up its investment in critical minerals partnerships not reliant on China.",
-      "category": "global_markets",
-      "date": "2025-12-15 21:12",
-      "link": "https://www.cnbc.com/2025/12/15/pentagon-korea-zinc-refinery-tennessee.html"
-    },
-    {
-      "headline": "Why Kevin Warsh is newly ascendant in the Fed chair contest",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The race to become the Federal Reserve\u2019s next chair appeared almost over just a couple of weeks ago, but it\u2019s now back to looking like a real competition.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-15 21:00",
-      "link": "https://www.marketwatch.com/story/why-kevin-warsh-is-newly-ascendant-in-the-fed-chair-contest-50253e9a"
+      "date": "2025-12-16 19:21",
+      "link": "https://www.cnbc.com/2025/12/16/sheryl-sandberg-corporate-culture-women-careers-opportunities.html"
     }
   ]
 }
