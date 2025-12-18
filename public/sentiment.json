@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-18T06:20:20.373195",
+  "timestamp": "2025-12-18T14:26:43.535197",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 11,
-    "neutral": 10,
-    "bearish": 4,
-    "high_priority": 8,
+    "avg_relevance": 7.2,
+    "bullish": 9,
+    "neutral": 9,
+    "bearish": 7,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -16,12 +16,13 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "Caixin/S&P Global": 1,
     "CNBC": 9,
+    "Atlantafed.org": 1,
+    "Caixin/S&P Global": 1,
+    "MarketWatch": 1,
     "Investing.com India": 1,
     "MarketBeat": 2,
-    "Stock Titan": 1,
-    "MarketWatch": 2
+    "Stock Titan": 1
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,8 +102,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Fed chair candidate Waller says he will 'absolutely' emphasize importance of the central bank's independence to Trump",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "President Donald Trump regularly weighs in on Fed decisions, accusing the central bank of moving too slowly to lower interest rates.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-17 13:29",
+      "link": "https://www.cnbc.com/2025/12/17/fed-chair-candidate-waller-says-he-will-absolutely-emphasize-importance-of-the-central-banks-independence-to-trump.html"
+    },
+    {
+      "headline": "FOMC's Credibility on Inflation Could Be at Stake",
+      "score": 8,
+      "source": "Atlantafed.org",
+      "sentiment": "negative",
+      "impact": "In his last quarterly message of the year, Atlanta Fed president and CEO Raphael Bostic explains his view of price stability as the most pressing risk facing the FOMC.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-16 20:01",
+      "link": "https://www.atlantafed.org/about/atlantafed/executive-leadership-committee/bostic-raphael/message-from-the-president/archive/2025/12/16/fomcs-credibility-on-inflation-could-be-at-stake"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -111,7 +132,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,8 +142,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-18 06:20",
+      "date": "2025-12-18 14:26",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Olive Garden owner Darden Restaurants hikes revenue outlook for second straight quarter",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Darden Restaurants reported strong demand for Olive Garden and LongHorn Steakhouse.",
+      "category": "corporate_earnings",
+      "date": "2025-12-18 13:08",
+      "link": "https://www.cnbc.com/2025/12/18/darden-restaurants-dri-q2-2026-earnings.html"
     },
     {
       "headline": "Delta president Glen Hauenstein, who helped turn airline into industry profit leader, to retire in February",
@@ -135,14 +166,74 @@
       "link": "https://www.cnbc.com/2025/12/17/delta-air-lines-president-glen-hauenstein.html"
     },
     {
-      "headline": "This chip play\u2019s strong 2025 run could hit a speed bump as earnings loom, charts show",
+      "headline": "S&P 500 slips for a third day as jobs report sparks economic fears: Live updates",
       "score": 7,
       "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The broad market index posted a third consecutive losing session on Tuesday.",
+      "category": "us_equities",
+      "date": "2025-12-16 21:23",
+      "link": "https://www.cnbc.com/2025/12/15/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Chipotle chases the protein craze with new menu items \u2014 including meat in a cup",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Chipotle is launching a high-protein snack menu, including a new protein cup, as the chain looks to revive demand amid slowing sales and shifting eating habits.",
+      "category": "global_markets",
+      "date": "2025-12-18 12:53",
+      "link": "https://www.cnbc.com/2025/12/18/chipotle-high-protein-snack-meat-cup.html"
+    },
+    {
+      "headline": "Giorgos Tsetis built Nutrafol into a $3.5 billion brand. Now he's investing in AI and backing social causes",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Young entrepreneurs are getting rich earlier and using their family offices to put their wealth to work more than preserve it.",
+      "category": "global_markets",
+      "date": "2025-12-18 12:36",
+      "link": "https://www.cnbc.com/2025/12/18/nutrafol-founder-giorgos-tsetis-philanthrophy.html"
+    },
+    {
+      "headline": "American Airlines starts flying the longest-range narrow-body Airbus plane. Here's what's inside",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The first Airbus A321XLR for a U.S. airline took off Thursday from John F. Kennedy International Airport in New York, bound for Los Angeles.",
+      "category": "global_markets",
+      "date": "2025-12-18 12:00",
+      "link": "https://www.cnbc.com/2025/12/18/american-airlines-airbus-321xlr.html"
+    },
+    {
+      "headline": "Eli Lilly says obesity pill helps maintain weight loss after patients switch from Wegovy, Zepbound\u00a0",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Eli Lilly also said it has filed for Food and Drug Administration approval of the daily GLP-1 pill, called orforglipron, for obesity. ",
+      "category": "global_markets",
+      "date": "2025-12-18 11:51",
+      "link": "https://www.cnbc.com/2025/12/18/eli-lilly-obesity-pill-maintains-weight-loss-after-wegovy-zepbound-.html"
+    },
+    {
+      "headline": "What's ahead for media in 2026? Anonymous executives make bold predictions",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "CNBC spoke with 16 anonymous media executives who each gave a bold industry prediction for 2026.",
+      "category": "global_markets",
+      "date": "2025-12-18 11:00",
+      "link": "https://www.cnbc.com/2025/12/18/2026-media-predictions-anonymous-executives.html"
+    },
+    {
+      "headline": "It\u2019s time to take profits in silver after record-breaking run, these analysts say",
+      "score": 6,
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Micron is toting a sizable gain on a year-to-date basis as its earnings release approaches, but that momentum may not last.",
+      "impact": "Histrorically, after years of 100% returns or better, the following twelve months are generally poor for silver.",
       "category": "corporate_earnings",
-      "date": "2025-12-16 19:01",
-      "link": "https://www.cnbc.com/2025/12/16/this-chip-plays-strong-2025-run-could-hit-a-speed-bump-charts-show.html"
+      "date": "2025-12-18 10:03",
+      "link": "https://www.marketwatch.com/story/its-time-to-take-profits-in-silver-after-record-breaking-run-these-analysts-say-a8349f23"
     },
     {
       "headline": "Haoxin receives Nasdaq minimum bid price deficiency notice",
@@ -183,96 +274,6 @@
       "category": "us_equities",
       "date": "2025-12-18 04:05",
       "link": "https://www.stocktitan.net/news/HXHX/haoxin-holdings-limited-receives-nasdaq-notification-regarding-w4z1sgxlom1v.html"
-    },
-    {
-      "headline": "Medical supply firm Medline jumps more than 40% in debut after biggest IPO of 2025",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Medline priced at $29 per share on Tuesday, raising $6.26 billion to cap off a strong year for new listings and bolster optimism about 2026. ",
-      "category": "global_markets",
-      "date": "2025-12-18 01:32",
-      "link": "https://www.cnbc.com/2025/12/17/medline-debuts-nasdaq-biggest-ipo-2025.html"
-    },
-    {
-      "headline": "\u2018We all have economic jitters\u2019: After the Fed cut rates, should my son buy a $600K house?",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "\u201cThey are tuned in to friends and colleagues, who are losing jobs, cognizant of shifts in company agendas and financial worries.\u201d",
-      "category": "us_monetary_policy",
-      "date": "2025-12-17 22:49",
-      "link": "https://www.marketwatch.com/story/we-all-have-economic-jitters-after-the-fed-cut-rates-should-my-son-buy-a-600k-house-e97d039b?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Trump to address the nation live on Wednesday night",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "President Trump will address the nation Wednesday as his approval ratings are dipping according to several polls.",
-      "category": "global_markets",
-      "date": "2025-12-17 22:40",
-      "link": "https://www.cnbc.com/2025/12/17/watch-trump-white-house-address.html"
-    },
-    {
-      "headline": "As WNBA labor deadline nears, players union is 'frustrated' by lack of progress",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Frustrations are growing as the WNBA and its players face a Jan. 9 deadline to finalize their new CBA.",
-      "category": "global_markets",
-      "date": "2025-12-17 21:04",
-      "link": "https://www.cnbc.com/2025/12/17/wnba-collective-bargaining-labor-union-updates.html"
-    },
-    {
-      "headline": "AI spending worries hit industrials, Trump takes aim at defense stocks",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2025-12-17 19:32",
-      "link": "https://www.cnbc.com/2025/12/17/ai-spending-worries-hit-industrials-trump-takes-aim-at-defense-stocks.html"
-    },
-    {
-      "headline": "Prediction markets could hit a trillion dollars in trading volume by the end of this decade, new report says",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Sports is fueling the growth in prediction markets and is forecasted to make up 44% of volume as the industry matures, according to new research.",
-      "category": "global_markets",
-      "date": "2025-12-17 19:02",
-      "link": "https://www.cnbc.com/2025/12/17/prediction-markets-trillion-dollar-trading-volume-ek-report.html"
-    },
-    {
-      "headline": "FBI Deputy Director Dan Bongino plans to step down early next year, MS NOW reports",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Bongino had been selected by President Donald Trump for the high-profile law enforcement job despite him having no prior FBI experience.",
-      "category": "us_equities",
-      "date": "2025-12-17 18:57",
-      "link": "https://www.cnbc.com/2025/12/17/fbi-dan-bongino-steps-down-epstein-jan-6.html"
-    },
-    {
-      "headline": "Tricolor CEO received a $6.25 million bonus weeks before company\u2019s bankruptcy, prosecutors say",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Tricolor's collapse was one of a string of defaults that churned the U.S. banking industry this fall, sparking concerns over risks in the financial system.",
-      "category": "global_markets",
-      "date": "2025-12-17 18:49",
-      "link": "https://www.cnbc.com/2025/12/17/tricolor-ceo-bonus-bankruptcy-indictment.html"
-    },
-    {
-      "headline": "How emerging-markets stocks can keep trouncing the S&P 500",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Emerging-market stocks have broadly crushed the U.S. equities market this year, in one of the biggest market surprises of 2025.",
-      "category": "us_equities",
-      "date": "2025-12-17 18:46",
-      "link": "https://www.marketwatch.com/story/how-emerging-markets-stocks-can-keep-trouncing-the-s-p-500-3717fc49"
     }
   ]
 }
