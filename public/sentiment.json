@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-17T14:27:12.122414",
+  "timestamp": "2025-12-18T06:20:20.373195",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 7,
-    "neutral": 12,
-    "bearish": 6,
-    "high_priority": 9,
+    "avg_relevance": 7.0,
+    "bullish": 11,
+    "neutral": 10,
+    "bearish": 4,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -16,10 +16,12 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 10,
-    "MarketWatch": 4
+    "CNBC": 9,
+    "Investing.com India": 1,
+    "MarketBeat": 2,
+    "Stock Titan": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,18 +101,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Treasury Yields End Lower",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "negative",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2025-12-15 20:53",
-      "link": "https://www.wsj.com/finance/investing/jgb-futures-edge-higher-as-investors-digest-boj-tankan-aca404c6"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -119,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,88 +121,78 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-17 14:27",
+      "date": "2025-12-18 06:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Fed chair candidate Waller says he will \u2018absolutely\u2019 stress importance of Fed\u2019s independence to Trump",
+      "headline": "Delta president Glen Hauenstein, who helped turn airline into industry profit leader, to retire in February",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "President Donald Trump regularly weighs in on Fed decisions, accusing the central bank of moving too slowly to lower interest rates.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-17 14:04",
-      "link": "https://www.cnbc.com/2025/12/17/fed-chair-candidate-waller-says-he-will-absolutely-emphasize-importance-of-the-central-banks-independence-to-trump.html"
+      "sentiment": "positive",
+      "impact": "Delta's president, Glen Hauenstein, who helped turn Delta into the country's premium-travel leader, is retiring after 20 years.",
+      "category": "corporate_earnings",
+      "date": "2025-12-17 21:17",
+      "link": "https://www.cnbc.com/2025/12/17/delta-air-lines-president-glen-hauenstein.html"
     },
     {
-      "headline": "Fed\u2019s Waller thinks inflation will start to fall in next 3-4 months and rates can come down at moderate pace",
+      "headline": "This chip play\u2019s strong 2025 run could hit a speed bump as earnings loom, charts show",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "A finalist to replace Powell sees room for 100 basis points of rate cuts.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-17 14:03",
-      "link": "https://www.marketwatch.com/story/feds-waller-thinks-inflation-will-start-to-fall-in-next-3-4-months-and-rates-can-come-down-at-moderate-pace-ef72420c"
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Micron is toting a sizable gain on a year-to-date basis as its earnings release approaches, but that momentum may not last.",
+      "category": "corporate_earnings",
+      "date": "2025-12-16 19:01",
+      "link": "https://www.cnbc.com/2025/12/16/this-chip-plays-strong-2025-run-could-hit-a-speed-bump-charts-show.html"
     },
     {
-      "headline": "Fed\u2019s Bostic expects no rate cuts in 2026 due to worries GOP tax bill might fuel inflation",
-      "score": 7,
-      "source": "MarketWatch",
+      "headline": "Haoxin receives Nasdaq minimum bid price deficiency notice",
+      "score": 6,
+      "source": "Investing.com India",
       "sentiment": "negative",
-      "impact": "Atlanta Fed President Raphael Bostic said he thought the economy was no longer in danger of a sharp rise in the unemployment rate that might spur a recession.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-16 20:38",
-      "link": "https://www.marketwatch.com/story/feds-bostic-expects-no-rate-cuts-in-2026-due-to-worries-gop-tax-bill-might-fuel-inflation-ebdf46fb"
+      "impact": "Haoxin Holdings Limited (NASDAQ:HXHX) announced it received a Nasdaq deficiency notice for failing to maintain the minimum bid price of $1.00 per share. The company's stock trades at $0.41, an 86% year-to-date plummet. Haoxin has 180 calendar days to regain compliance, with a possible extension if o",
+      "category": "us_equities",
+      "date": "2025-12-18 04:11",
+      "link": "https://in.investing.com/news/company-news/haoxin-receives-nasdaq-minimum-bid-price-deficiency-notice-93CH-5158087"
     },
     {
-      "headline": "We're buying more of this beaten-up stock that an analyst just upgraded",
+      "headline": "Rep. Gilbert Ray Cisneros, Jr. Buys Honeywell International Inc. (NASDAQ:HON) Shares",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Representative Gilbert Ray Cisneros, Jr. (D-California) recently purchased between $1,001 and $15,000 worth of Honeywell International Inc. (NASDAQ:HON) shares on November 18th, filed December 15th, through his trust account. Honeywell International shares recently traded up 0.8% to $199.89 and the ",
+      "category": "us_equities",
+      "date": "2025-12-18 04:08",
+      "link": "https://www.marketbeat.com/instant-alerts/rep-gilbert-ray-cisneros-jr-buys-honeywell-international-inc-nasdaqhon-shares-2025-12-17/"
+    },
+    {
+      "headline": "Rep. Gilbert Ray Cisneros, Jr. Purchases Shares of Booking Holdings Inc. (NASDAQ:BKNG)",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Representative Gilbert Ray Cisneros, Jr. recently purchased shares of Booking Holdings Inc. (NASDAQ:BKNG) valued between $1,001 and $15,000. This comes as Booking reported strong quarterly earnings, beating expectations, and announced a quarterly dividend. Despite insider selling, analysts maintain ",
+      "category": "us_equities",
+      "date": "2025-12-18 04:08",
+      "link": "https://www.marketbeat.com/instant-alerts/rep-gilbert-ray-cisneros-jr-purchases-shares-of-booking-holdings-inc-nasdaqbkng-2025-12-17/"
+    },
+    {
+      "headline": "Haoxin Holdings Limited Receives Nasdaq Notification Regarding Minimum Bid-Price Requirement",
+      "score": 6,
+      "source": "Stock Titan",
+      "sentiment": "negative",
+      "impact": "Haoxin Holdings Limited (Nasdaq: HXHX) received a Nasdaq notification on December 15, 2025, for failing to meet the Minimum Bid Price Requirement after its closing bid price fell below $1.00 for 31 consecutive business days. The company has a 180-calendar-day compliance period, ending June 15, 2026,",
+      "category": "us_equities",
+      "date": "2025-12-18 04:05",
+      "link": "https://www.stocktitan.net/news/HXHX/haoxin-holdings-limited-receives-nasdaq-notification-regarding-w4z1sgxlom1v.html"
+    },
+    {
+      "headline": "Medical supply firm Medline jumps more than 40% in debut after biggest IPO of 2025",
       "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "The stock is one of seven out-of-favor names Jim Cramer highlighted at our recent Monthly Meeting.",
+      "impact": "Medline priced at $29 per share on Tuesday, raising $6.26 billion to cap off a strong year for new listings and bolster optimism about 2026. ",
       "category": "global_markets",
-      "date": "2025-12-17 13:50",
-      "link": "https://www.cnbc.com/2025/12/17/were-buying-more-of-this-beaten-up-stock-that-an-analyst-just-upgraded.html"
-    },
-    {
-      "headline": "Tricolor executives charged with 'systematic fraud' after subprime auto lender roiled banking sector",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Prosecutors allege senior managers orchestrated schemes that allowed Tricolor to obtain billions of dollars from lenders by misrepresenting collateral.",
-      "category": "commodities",
-      "date": "2025-12-17 13:44",
-      "link": "https://www.cnbc.com/2025/12/17/tricolor-execs-charged-with-systematic-fraud-after-subprime-auto-lender-roiled-banking-sector.html"
-    },
-    {
-      "headline": "WBD tells shareholders Netflix deal is superior to Paramount offer: 'It was not a hard choice,' chairman tells CNBC",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Paramount launched a hostile bid for WBD, taking a $30-per-share, all-cash offer directly to shareholders. ",
-      "category": "global_markets",
-      "date": "2025-12-17 13:44",
-      "link": "https://www.cnbc.com/2025/12/17/wbd-board-paramount-skydance-reject-value.html"
-    },
-    {
-      "headline": "Why this billionaire real estate developer is waving a red flag over data centers",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "While big players like Blackstone, KKR and Bain Capital are buying in, Fernando de Leon, founder of Leon Capital Group, said he is sitting out.\u00a0",
-      "category": "global_markets",
-      "date": "2025-12-17 12:31",
-      "link": "https://www.cnbc.com/2025/12/17/billionaire-real-estate-developer-red-flag-data-centers.html"
-    },
-    {
-      "headline": "Energy stocks are the new bonds, this strategist argues",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "In an inflationary setting, why hold bonds at all, says Louis-Vincent Gave",
-      "category": "fixed_income",
-      "date": "2025-12-17 11:36",
-      "link": "https://www.marketwatch.com/story/energy-stocks-are-the-new-bonds-this-strategist-argues-ae4db842"
+      "date": "2025-12-18 01:32",
+      "link": "https://www.cnbc.com/2025/12/17/medline-debuts-nasdaq-biggest-ipo-2025.html"
     },
     {
       "headline": "\u2018We all have economic jitters\u2019: After the Fed cut rates, should my son buy a $600K house?",
@@ -219,58 +201,78 @@
       "sentiment": "negative",
       "impact": "\u201cThey are tuned in to friends and colleagues, who are losing jobs, cognizant of shifts in company agendas and financial worries.\u201d",
       "category": "us_monetary_policy",
-      "date": "2025-12-17 10:31",
+      "date": "2025-12-17 22:49",
       "link": "https://www.marketwatch.com/story/we-all-have-economic-jitters-after-the-fed-cut-rates-should-my-son-buy-a-600k-house-e97d039b?mod=mw_rss_topstories"
     },
     {
-      "headline": "Consumers are feeling gloomy about the economy. Here's why they're spending anyway",
+      "headline": "Trump to address the nation live on Wednesday night",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Consumer sentiment is low and the job market is shaky. Shoppers are still spending during the holidays.",
+      "impact": "President Trump will address the nation Wednesday as his approval ratings are dipping according to several polls.",
       "category": "global_markets",
-      "date": "2025-12-16 20:54",
-      "link": "https://www.cnbc.com/2025/12/16/consumer-sentiment-retail-sales-holiday-walmart-tjx.html"
+      "date": "2025-12-17 22:40",
+      "link": "https://www.cnbc.com/2025/12/17/watch-trump-white-house-address.html"
     },
     {
-      "headline": "What Trump's reclassification of pot and CBD could mean for seniors, research and stocks",
+      "headline": "As WNBA labor deadline nears, players union is 'frustrated' by lack of progress",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Reclassification to a Schedule III drug and possible Medicare coverage for pot could unlock new investment from pharmaceutical companies.",
+      "impact": "Frustrations are growing as the WNBA and its players face a Jan. 9 deadline to finalize their new CBA.",
       "category": "global_markets",
-      "date": "2025-12-16 20:23",
-      "link": "https://www.cnbc.com/2025/12/16/trump-medicare-pot-seniors-marijuana-reclassification.html"
+      "date": "2025-12-17 21:04",
+      "link": "https://www.cnbc.com/2025/12/17/wnba-collective-bargaining-labor-union-updates.html"
     },
     {
-      "headline": "Capital One catches two well-deserved price target bumps as broad market slides",
+      "headline": "AI spending worries hit industrials, Trump takes aim at defense stocks",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "category": "global_markets",
-      "date": "2025-12-16 19:45",
-      "link": "https://www.cnbc.com/2025/12/16/capital-one-catches-two-price-target-bumps-as-broad-market-slides.html"
+      "date": "2025-12-17 19:32",
+      "link": "https://www.cnbc.com/2025/12/17/ai-spending-worries-hit-industrials-trump-takes-aim-at-defense-stocks.html"
     },
     {
-      "headline": "Sheryl Sandberg says corporate climate 'one of the worst' she has ever seen",
+      "headline": "Prediction markets could hit a trillion dollars in trading volume by the end of this decade, new report says",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Sports is fueling the growth in prediction markets and is forecasted to make up 44% of volume as the industry matures, according to new research.",
+      "category": "global_markets",
+      "date": "2025-12-17 19:02",
+      "link": "https://www.cnbc.com/2025/12/17/prediction-markets-trillion-dollar-trading-volume-ek-report.html"
+    },
+    {
+      "headline": "FBI Deputy Director Dan Bongino plans to step down early next year, MS NOW reports",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Sheryl Sandberg says corporate climate is 'one of the worst' ever and there is no excuse for companies to backslide on efforts to level career playing field.",
-      "category": "global_markets",
-      "date": "2025-12-16 19:21",
-      "link": "https://www.cnbc.com/2025/12/16/sheryl-sandberg-corporate-culture-women-careers-opportunities.html"
+      "impact": "Bongino had been selected by President Donald Trump for the high-profile law enforcement job despite him having no prior FBI experience.",
+      "category": "us_equities",
+      "date": "2025-12-17 18:57",
+      "link": "https://www.cnbc.com/2025/12/17/fbi-dan-bongino-steps-down-epstein-jan-6.html"
     },
     {
-      "headline": "Birkin bag prices are sinking at auction despite high-profile sales  ",
+      "headline": "Tricolor CEO received a $6.25 million bonus weeks before company\u2019s bankruptcy, prosecutors say",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Luxury experts say aspirational luxury consumers are facing new pressures from inflation and a slowing job market, meaning fewer Birkin buyers at auction. ",
+      "sentiment": "negative",
+      "impact": "Tricolor's collapse was one of a string of defaults that churned the U.S. banking industry this fall, sparking concerns over risks in the financial system.",
       "category": "global_markets",
-      "date": "2025-12-16 17:53",
-      "link": "https://www.cnbc.com/2025/12/16/birkin-bag-prices-sink-auction.html"
+      "date": "2025-12-17 18:49",
+      "link": "https://www.cnbc.com/2025/12/17/tricolor-ceo-bonus-bankruptcy-indictment.html"
+    },
+    {
+      "headline": "How emerging-markets stocks can keep trouncing the S&P 500",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Emerging-market stocks have broadly crushed the U.S. equities market this year, in one of the biggest market surprises of 2025.",
+      "category": "us_equities",
+      "date": "2025-12-17 18:46",
+      "link": "https://www.marketwatch.com/story/how-emerging-markets-stocks-can-keep-trouncing-the-s-p-500-3717fc49"
     }
   ]
 }
