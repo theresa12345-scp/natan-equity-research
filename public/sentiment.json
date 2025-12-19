@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-18T14:26:43.535197",
+  "timestamp": "2025-12-19T06:19:58.561438",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 9,
-    "neutral": 9,
-    "bearish": 7,
-    "high_priority": 10,
+    "bullish": 12,
+    "neutral": 11,
+    "bearish": 2,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -16,13 +16,15 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "CNBC": 9,
-    "Atlantafed.org": 1,
     "Caixin/S&P Global": 1,
+    "CNBC": 5,
     "MarketWatch": 1,
-    "Investing.com India": 1,
-    "MarketBeat": 2,
-    "Stock Titan": 1
+    "Federalreserve.gov": 1,
+    "Financial Times": 1,
+    "MarketBeat": 4,
+    "Investing.com South Africa": 1,
+    "Seeking Alpha": 1,
+    "Yahoo Finance": 1
   },
   "top_signals": [
     {
@@ -32,7 +34,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +44,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +54,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +64,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +74,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +84,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +94,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,28 +104,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Fed chair candidate Waller says he will 'absolutely' emphasize importance of the central bank's independence to Trump",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "President Donald Trump regularly weighs in on Fed decisions, accusing the central bank of moving too slowly to lower interest rates.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-17 13:29",
-      "link": "https://www.cnbc.com/2025/12/17/fed-chair-candidate-waller-says-he-will-absolutely-emphasize-importance-of-the-central-banks-independence-to-trump.html"
-    },
-    {
-      "headline": "FOMC's Credibility on Inflation Could Be at Stake",
-      "score": 8,
-      "source": "Atlantafed.org",
-      "sentiment": "negative",
-      "impact": "In his last quarterly message of the year, Atlanta Fed president and CEO Raphael Bostic explains his view of price stability as the most pressing risk facing the FOMC.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-16 20:01",
-      "link": "https://www.atlantafed.org/about/atlantafed/executive-leadership-committee/bostic-raphael/message-from-the-president/archive/2025/12/16/fomcs-credibility-on-inflation-could-be-at-stake"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -132,7 +114,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -142,18 +124,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-18 14:26",
+      "date": "2025-12-19 06:19",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Olive Garden owner Darden Restaurants hikes revenue outlook for second straight quarter",
+      "headline": "Nike shares fall 10% as China sales plunge, tariffs hit profits",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Nike posted fiscal second-quarter earnings and revenue that topped Wall Street's expectations as CEO Elliott Hill tries to turn around the company.",
+      "category": "asia_economy",
+      "date": "2025-12-18 23:05",
+      "link": "https://www.cnbc.com/2025/12/18/nike-nke-q2-2026-earnings.html"
+    },
+    {
+      "headline": "FedEx calls for more profit this year as this key business turns around",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "FedEx gives investors more reason to believe its overhaul is taking hold.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-18 21:55",
+      "link": "https://www.marketwatch.com/story/fedex-calls-for-more-profit-this-year-as-this-key-business-turns-around-3cb962e6"
+    },
+    {
+      "headline": "Why Eli Lilly shares should be higher \u2014 plus, our wishlist for Nike's earnings",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "corporate_earnings",
+      "date": "2025-12-18 17:04",
+      "link": "https://www.cnbc.com/2025/12/18/why-eli-lilly-shares-should-be-higher-plus-our-wishlist-for-nike.html"
+    },
+    {
+      "headline": "Olive Garden owner Darden Restaurants hikes revenue outlook as value plays help bring in diners",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
       "impact": "Darden Restaurants reported strong demand for Olive Garden and LongHorn Steakhouse.",
       "category": "corporate_earnings",
-      "date": "2025-12-18 13:08",
+      "date": "2025-12-18 15:37",
       "link": "https://www.cnbc.com/2025/12/18/darden-restaurants-dri-q2-2026-earnings.html"
+    },
+    {
+      "headline": "November's inflation report is the first to be released after the shutdown. Here's what to expect",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "November's CPI report is expected to show the annual inflation rate at 3.1%, according to economists polled by Dow Jones.",
+      "category": "us_equities",
+      "date": "2025-12-17 23:52",
+      "link": "https://www.cnbc.com/2025/12/17/novembers-inflation-report-is-the-first-to-be-released-after-the-shutdown.html"
     },
     {
       "headline": "Delta president Glen Hauenstein, who helped turn airline into industry profit leader, to retire in February",
@@ -162,118 +184,98 @@
       "sentiment": "positive",
       "impact": "Delta's president, Glen Hauenstein, who helped turn Delta into the country's premium-travel leader, is retiring after 20 years.",
       "category": "corporate_earnings",
-      "date": "2025-12-17 21:17",
+      "date": "2025-12-17 21:39",
       "link": "https://www.cnbc.com/2025/12/17/delta-air-lines-president-glen-hauenstein.html"
     },
     {
-      "headline": "S&P 500 slips for a third day as jobs report sparks economic fears: Live updates",
+      "headline": "Federal Reserve Board withdraws 2023 policy statement and issues new policy statement regarding the treatment of certain Board-supervised banks that facilitates responsible innovation",
       "score": 7,
-      "source": "CNBC",
+      "source": "Federalreserve.gov",
+      "sentiment": "neutral",
+      "impact": "The Federal Reserve Board on Wednesday withdrew a 2023 policy statement and issued a new policy statement regarding the treatment of certain Board-supervised b",
+      "category": "us_monetary_policy",
+      "date": "2025-12-17 21:02",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251217a.htm"
+    },
+    {
+      "headline": "Fed governor Christopher Waller says rates could be cut by as much as a full point",
+      "score": 7,
+      "source": "Financial Times",
       "sentiment": "negative",
-      "impact": "The broad market index posted a third consecutive losing session on Tuesday.",
+      "impact": "Policymaker set to meet Donald Trump on Wednesday for interview to be next chair of US central bank",
+      "category": "us_monetary_policy",
+      "date": "2025-12-17 16:02",
+      "link": "https://www.ft.com/content/b0495ea7-a6ee-470d-b9ef-e49c2006d058"
+    },
+    {
+      "headline": "Esperion Therapeutics (NASDAQ:ESPR) CFO Benjamin Halladay Sells 7,337 Shares",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Esperion Therapeutics CFO Benjamin Halladay recently sold 7,337 shares of the company stock, reducing his stake by 1.55%. This transaction followed Esperion's Q3 earnings report, where the company missed EPS estimates but topped revenue forecasts. The stock traded up after the news, and analysts hav",
       "category": "us_equities",
-      "date": "2025-12-16 21:23",
-      "link": "https://www.cnbc.com/2025/12/15/stock-market-today-live-updates.html"
+      "date": "2025-12-19 05:09",
+      "link": "https://www.marketbeat.com/instant-alerts/esperion-therapeutics-nasdaqespr-cfo-benjamin-halladay-sells-7337-shares-2025-12-18/"
     },
     {
-      "headline": "Chipotle chases the protein craze with new menu items \u2014 including meat in a cup",
+      "headline": "William Sheriff Sells 24,000 Shares of enCore Energy (NASDAQ:EU) Stock",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Chipotle is launching a high-protein snack menu, including a new protein cup, as the chain looks to revive demand amid slowing sales and shifting eating habits.",
-      "category": "global_markets",
-      "date": "2025-12-18 12:53",
-      "link": "https://www.cnbc.com/2025/12/18/chipotle-high-protein-snack-meat-cup.html"
+      "impact": "William Sheriff, an insider at enCore Energy (NASDAQ:EU), sold 24,000 shares of the company's stock on December 16th, reducing his stake by 1.05%. The sale was valued at $56,880.00, with shares trading at an average price of $2.37. The company's stock, which has a consensus analyst rating of \"Modera",
+      "category": "us_equities",
+      "date": "2025-12-19 05:09",
+      "link": "https://www.marketbeat.com/instant-alerts/william-sheriff-sells-24000-shares-of-encore-energy-nasdaqeu-stock-2025-12-18/"
     },
     {
-      "headline": "Giorgos Tsetis built Nutrafol into a $3.5 billion brand. Now he's investing in AI and backing social causes",
+      "headline": "International Paper to release Q4 and full-year 2025 earnings on Jan. 29 By Investing.com",
       "score": 6,
-      "source": "CNBC",
+      "source": "Investing.com South Africa",
       "sentiment": "neutral",
-      "impact": "Young entrepreneurs are getting rich earlier and using their family offices to put their wealth to work more than preserve it.",
-      "category": "global_markets",
-      "date": "2025-12-18 12:36",
-      "link": "https://www.cnbc.com/2025/12/18/nutrafol-founder-giorgos-tsetis-philanthrophy.html"
-    },
-    {
-      "headline": "American Airlines starts flying the longest-range narrow-body Airbus plane. Here's what's inside",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The first Airbus A321XLR for a U.S. airline took off Thursday from John F. Kennedy International Airport in New York, bound for Los Angeles.",
-      "category": "global_markets",
-      "date": "2025-12-18 12:00",
-      "link": "https://www.cnbc.com/2025/12/18/american-airlines-airbus-321xlr.html"
-    },
-    {
-      "headline": "Eli Lilly says obesity pill helps maintain weight loss after patients switch from Wegovy, Zepbound\u00a0",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Eli Lilly also said it has filed for Food and Drug Administration approval of the daily GLP-1 pill, called orforglipron, for obesity. ",
-      "category": "global_markets",
-      "date": "2025-12-18 11:51",
-      "link": "https://www.cnbc.com/2025/12/18/eli-lilly-obesity-pill-maintains-weight-loss-after-wegovy-zepbound-.html"
-    },
-    {
-      "headline": "What's ahead for media in 2026? Anonymous executives make bold predictions",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "CNBC spoke with 16 anonymous media executives who each gave a bold industry prediction for 2026.",
-      "category": "global_markets",
-      "date": "2025-12-18 11:00",
-      "link": "https://www.cnbc.com/2025/12/18/2026-media-predictions-anonymous-executives.html"
-    },
-    {
-      "headline": "It\u2019s time to take profits in silver after record-breaking run, these analysts say",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Histrorically, after years of 100% returns or better, the following twelve months are generally poor for silver.",
+      "impact": "International Paper (NYSE:IP) will announce its fourth-quarter and full-year 2025 earnings on January 29, 2026, before the New York Stock Exchange opens. The company will host a webcast at 10 a.m. ET to discuss the results and current market conditions. International Paper, which recently acquired D",
       "category": "corporate_earnings",
-      "date": "2025-12-18 10:03",
-      "link": "https://www.marketwatch.com/story/its-time-to-take-profits-in-silver-after-record-breaking-run-these-analysts-say-a8349f23"
+      "date": "2025-12-19 05:02",
+      "link": "https://za.investing.com/news/company-news/international-paper-to-release-q4-and-fullyear-2025-earnings-on-jan-29-93CH-4034765"
     },
     {
-      "headline": "Haoxin receives Nasdaq minimum bid price deficiency notice",
+      "headline": "Axon Stock's Sell Off Is One Of Santa's Gifts (NASDAQ:AXON)",
       "score": 6,
-      "source": "Investing.com India",
-      "sentiment": "negative",
-      "impact": "Haoxin Holdings Limited (NASDAQ:HXHX) announced it received a Nasdaq deficiency notice for failing to maintain the minimum bid price of $1.00 per share. The company's stock trades at $0.41, an 86% year-to-date plummet. Haoxin has 180 calendar days to regain compliance, with a possible extension if o",
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "Axon Enterprise, a leader in public safety solutions, has seen a 38% sell-off, which the author believes offers a compelling long-term buying opportunity. The company's recurring revenue, strong net retention, and robust contract backlog support a high-growth outlook. Despite risks from valuation an",
       "category": "us_equities",
-      "date": "2025-12-18 04:11",
-      "link": "https://in.investing.com/news/company-news/haoxin-receives-nasdaq-minimum-bid-price-deficiency-notice-93CH-5158087"
+      "date": "2025-12-19 05:01",
+      "link": "https://seekingalpha.com/article/4854586-axon-stock-sell-off-is-one-of-santas-gifts"
     },
     {
-      "headline": "Rep. Gilbert Ray Cisneros, Jr. Buys Honeywell International Inc. (NASDAQ:HON) Shares",
+      "headline": "Calamos Investments Closed-End Funds (NASDAQ: CHI, CHY, CSQ, CGO, CHW, CCD and CPZ) Announce Monthly Distributions and Required Notifications of Sources of Distribution",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "sentiment": "positive",
+      "impact": "Calamos Investments has announced monthly distributions for its seven closed-end funds, with the Calamos Strategic Total Return Fund (CSQ) increasing its distribution by approximately 19.5% to $0.1225 per share. The announcement includes detailed tables outlining payable dates, record dates, ex-divi",
+      "category": "us_equities",
+      "date": "2025-12-19 04:10",
+      "link": "https://finance.yahoo.com/news/calamos-investments-closed-end-funds-225000784.html"
+    },
+    {
+      "headline": "Establishment Labs (NASDAQ:ESTA) Shares Down 3.7% - Should You Sell?",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Representative Gilbert Ray Cisneros, Jr. (D-California) recently purchased between $1,001 and $15,000 worth of Honeywell International Inc. (NASDAQ:HON) shares on November 18th, filed December 15th, through his trust account. Honeywell International shares recently traded up 0.8% to $199.89 and the ",
+      "impact": "Establishment Labs (NASDAQ:ESTA) shares fell 3.7% to $71.95 on Thursday amidst light trading volume, despite an overall \"Moderate Buy\" rating from analysts with an average price target of $78.14. While the company reported a 33.8% increase in Q3 revenue and beat EPS estimates, it remains unprofitabl",
       "category": "us_equities",
-      "date": "2025-12-18 04:08",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-gilbert-ray-cisneros-jr-buys-honeywell-international-inc-nasdaqhon-shares-2025-12-17/"
+      "date": "2025-12-19 04:09",
+      "link": "https://www.marketbeat.com/instant-alerts/establishment-labs-nasdaqesta-shares-down-37-should-you-sell-2025-12-18/"
     },
     {
-      "headline": "Rep. Gilbert Ray Cisneros, Jr. Purchases Shares of Booking Holdings Inc. (NASDAQ:BKNG)",
+      "headline": "Certara (NASDAQ:CERT) Given New $12.00 Price Target at Morgan Stanley",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Representative Gilbert Ray Cisneros, Jr. recently purchased shares of Booking Holdings Inc. (NASDAQ:BKNG) valued between $1,001 and $15,000. This comes as Booking reported strong quarterly earnings, beating expectations, and announced a quarterly dividend. Despite insider selling, analysts maintain ",
+      "impact": "Morgan Stanley recently lowered its price target for Certara (NASDAQ:CERT) from $16.00 to $12.00, maintaining an \"equal weight\" rating, which still suggests a significant upside of around 32%. Despite the lowered target from Morgan Stanley, the company maintains a \"Moderate Buy\" consensus rating fro",
       "category": "us_equities",
-      "date": "2025-12-18 04:08",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-gilbert-ray-cisneros-jr-purchases-shares-of-booking-holdings-inc-nasdaqbkng-2025-12-17/"
-    },
-    {
-      "headline": "Haoxin Holdings Limited Receives Nasdaq Notification Regarding Minimum Bid-Price Requirement",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "negative",
-      "impact": "Haoxin Holdings Limited (Nasdaq: HXHX) received a Nasdaq notification on December 15, 2025, for failing to meet the Minimum Bid Price Requirement after its closing bid price fell below $1.00 for 31 consecutive business days. The company has a 180-calendar-day compliance period, ending June 15, 2026,",
-      "category": "us_equities",
-      "date": "2025-12-18 04:05",
-      "link": "https://www.stocktitan.net/news/HXHX/haoxin-holdings-limited-receives-nasdaq-notification-regarding-w4z1sgxlom1v.html"
+      "date": "2025-12-19 04:09",
+      "link": "https://www.marketbeat.com/instant-alerts/certara-nasdaqcert-given-new-1200-price-target-at-morgan-stanley-2025-12-18/"
     }
   ]
 }
