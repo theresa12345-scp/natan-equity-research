@@ -1,26 +1,27 @@
 {
-  "timestamp": "2025-12-20T14:20:38.458662",
+  "timestamp": "2025-12-21T06:18:51.089166",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 10,
-    "neutral": 14,
-    "bearish": 1,
+    "bullish": 12,
+    "neutral": 10,
+    "bearish": 3,
     "high_priority": 9,
-    "material_events": 5
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "The Wall Street Journal": 1,
     "Reuters": 3,
-    "Bloomberg": 2,
+    "Bloomberg": 3,
+    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 12,
-    "MarketBeat": 1,
-    "MarketWatch": 1
+    "MarketWatch": 1,
+    "Federalreserve.gov": 1,
+    "CNBC": 7,
+    "Simply Wall Street": 4
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,18 +61,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Treasury Yields Slip on November Inflation Data",
-      "score": 9,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2025-12-18 13:53",
-      "link": "https://www.wsj.com/finance/jgbs-mixed-on-possible-position-adjustments-dfd164d1"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -80,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -90,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -100,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -110,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Last Full Trading Week of 2025 Brings Treasury Yields Lower",
+      "score": 8,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2025-12-19 21:45",
+      "link": "https://www.wsj.com/finance/investing/jgb-futures-edge-higher-ahead-of-bojs-monetary-policy-decision-2aa0922e"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -120,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,8 +131,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-20 14:20",
+      "date": "2025-12-21 06:18",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Stock Market on Dec. 19, 2025: Dow, S&P 500, Nasdaq close higher amid AI-trade comeback; S&P 500 ekes out weekly gain after tech rally on Friday",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The U.S. stock market ended higher Friday, as the S&P 500's tech sector saw it best day in nearly a month.",
+      "category": "us_equities",
+      "date": "2025-12-19 21:43",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-to-be-hit-by-nike-but-s-p-500-and-nasdaq-seen-extending-gains"
+    },
+    {
+      "headline": "Federal Reserve Board requests public input on \u201cpayment account,\u201d which eligible financial institutions could use for the limited purpose of clearing and settling their payments",
+      "score": 7,
+      "source": "Federalreserve.gov",
+      "sentiment": "neutral",
+      "impact": "The Federal Reserve Board on Friday requested public input on a \"payment account,\" which eligible financial institutions could use for the limited purpose of c",
+      "category": "us_monetary_policy",
+      "date": "2025-12-19 15:03",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251219a.htm"
     },
     {
       "headline": "Nike shares drop 10% as China sales plunge, tariffs hit profits",
@@ -144,16 +165,6 @@
       "link": "https://www.cnbc.com/2025/12/18/nike-nke-q2-2026-earnings.html"
     },
     {
-      "headline": "S&P 500 futures are little changed after index ends four-day losing run: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The S&P 500 and Dow Jones Industrial Average both snapped their four-day losing streaks in Thursday's regular trading.",
-      "category": "us_equities",
-      "date": "2025-12-19 00:06",
-      "link": "https://www.cnbc.com/2025/12/18/stock-market-today-live-updates.html"
-    },
-    {
       "headline": "Olive Garden owner Darden Restaurants hikes revenue outlook as value plays help bring in diners",
       "score": 7,
       "source": "CNBC",
@@ -164,14 +175,54 @@
       "link": "https://www.cnbc.com/2025/12/18/darden-restaurants-dri-q2-2026-earnings.html"
     },
     {
-      "headline": "Septerna (NASDAQ:SEPN) Raised to \"Strong-Buy\" at Raymond James Financial",
+      "headline": "Assessing U.S. Bancorp\u2019s Valuation After Analyst Upgrades and Strong Recent Profit Growth",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "Septerna (NASDAQ:SEPN) received an upgrade to \"strong-buy\" from Raymond James Financial. Several other analysts have also issued ratings on SEPN, with a consensus of \"Moderate Buy\" and an average price target of $31.00. The article also details recent price performance, quarterly earnings, insider t",
+      "impact": "U.S. Bancorp (USB) is gaining investor attention following analyst upgrades and an 18% profit jump in Q3, leading to a 13% year-to-date share price return. Despite strong momentum and earnings beats, analysts believe the stock is currently undervalued with a fair value of $55.63, suggesting potentia",
+      "category": "corporate_earnings",
+      "date": "2025-12-21 04:28",
+      "link": "https://simplywall.st/stocks/us/banks/nyse-usb/us-bancorp/news/assessing-us-bancorps-valuation-after-analyst-upgrades-and-s"
+    },
+    {
+      "headline": "Danaher (DHR): Revisiting Valuation as Earnings Grow While the Share Price Stalls",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Danaher's stock price has remained flat over the past year despite improved fundamentals and steady earnings growth, leading to questions about its valuation. While a popular narrative suggests the company is 12.9% undervalued due to its strong technology portfolio and high-margin growth potential, ",
+      "category": "corporate_earnings",
+      "date": "2025-12-21 04:28",
+      "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-dhr/danaher/news/danaher-dhr-revisiting-valuation-as-earnings-grow-while-the"
+    },
+    {
+      "headline": "DRDGOLD (NYSE:DRD): Assessing Valuation as ERGO Strike Action Raises Operational and Earnings Risks",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "DRDGOLD (NYSE:DRD) is facing strike action at its ERGO operations, raising concerns about near-term output and margins despite a strong year-to-date share price return of 246.34%. The company screens as undervalued with a 20.2x price-to-earnings ratio, below industry averages and showing a 48.1% dis",
       "category": "us_equities",
-      "date": "2025-12-20 12:37",
-      "link": "https://www.marketbeat.com/instant-alerts/septerna-nasdaqsepn-raised-to-strong-buy-at-raymond-james-financial-2025-12-20/"
+      "date": "2025-12-21 03:09",
+      "link": "https://simplywall.st/stocks/us/materials/nyse-drd/drdgold/news/drdgold-nysedrd-assessing-valuation-as-ergo-strike-action-ra/amp"
+    },
+    {
+      "headline": "Intuitive Surgical (ISRG): Reassessing Valuation After Earnings Beat, FDA da Vinci Clearance, and Strategy Shift",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Intuitive Surgical (ISRG) has seen its stock regain momentum following an earnings beat, FDA clearance for its da Vinci Single Port system, and a strategic shift to direct distribution in Southern Europe. While the company's long-term potential looks strong with ongoing innovation and expansion, its",
+      "category": "corporate_earnings",
+      "date": "2025-12-21 02:49",
+      "link": "https://simplywall.st/stocks/us/healthcare/nasdaq-isrg/intuitive-surgical/news/intuitive-surgical-isrg-reassessing-valuation-after-earnings"
+    },
+    {
+      "headline": "25-year-old certified nutrition and health coach\u2019s grocery store hack for eating well",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Consider this popular grocery store hack that a nutrition and health coach swears by for healthy eating.",
+      "category": "global_markets",
+      "date": "2025-12-20 16:00",
+      "link": "https://www.cnbc.com/2025/12/20/a-certified-nutrition-coachs-grocery-store-hack-for-eating-well.html"
     },
     {
       "headline": "How Build-A-Bear went from a penny stock to a retail winner",
@@ -180,8 +231,28 @@
       "sentiment": "neutral",
       "impact": "Build-A-Bear Workshop's business plummeted during the pandemic, but under CEO Sharon Price John, the company has undergone a significant turnaround.",
       "category": "global_markets",
-      "date": "2025-12-20 12:00",
+      "date": "2025-12-20 15:24",
       "link": "https://www.cnbc.com/2025/12/20/build-a-bear-workshop-bbw.html"
+    },
+    {
+      "headline": "2 things successful couples do over the holidays, according to a psychologist",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Successful couples know how to compromise in a high stakes time like the holidays, says Sabrina Romanoff.",
+      "category": "global_markets",
+      "date": "2025-12-20 14:30",
+      "link": "https://www.cnbc.com/2025/12/20/psychologist-2-things-successful-couples-do-over-the-holidays.html"
+    },
+    {
+      "headline": "Roomba's bankruptcy may wreck a lot more than one robot vacuum maker",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Roomba's bankruptcy should serve as a warning sign to many small companies that big tech may not be able to come to the rescue, say M&A experts.",
+      "category": "global_markets",
+      "date": "2025-12-20 14:21",
+      "link": "https://www.cnbc.com/2025/12/20/roomba-bankruptcy-robot-vacuum-maker.html"
     },
     {
       "headline": "I stayed in a $40 capsule hotel as return to office mandates drive workers back to the city",
@@ -194,84 +265,14 @@
       "link": "https://www.cnbc.com/2025/12/20/zedwell-capsule-hotel-i-stayed-in-a-40-dollar-capsule-hotel-in-london.html"
     },
     {
-      "headline": "As stock-market rally broadens, it\u2019s tough for the S&P 500 to keep advancing without tech",
+      "headline": "US trade chief criticises India, EU as negotiations drag on",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The S&P 500\u2019s tech sector is down so far this month, even after its big rally on Friday.",
-      "category": "us_equities",
-      "date": "2025-12-19 23:56",
-      "link": "https://www.marketwatch.com/story/as-stock-market-rally-broadens-its-tough-for-the-s-p-500-to-keep-advancing-without-tech-0b8185ae"
-    },
-    {
-      "headline": "Shoppers are focusing on quality, not deals, in the final days before Christmas",
-      "score": 6,
-      "source": "CNBC",
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "Consumers are also increasingly leaning on in-store pickup to get last-minute gifts.",
+      "impact": "US Trade Representative Jamieson Greer says US concluded deals with a slew of other partners after starting talks with India",
       "category": "global_markets",
-      "date": "2025-12-19 23:36",
-      "link": "https://www.cnbc.com/2025/12/19/christmas-shoppers-focus-on-quality-rather-than-deals.html"
-    },
-    {
-      "headline": "Inside the dealmaking that pushed Trump to reclassify pot, expand access",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Trump\u2019s pot executive order follows a yearlong industry push blending lobbying, donations and insider access, opening the door to a Medicare CBD pilot.",
-      "category": "global_markets",
-      "date": "2025-12-19 22:29",
-      "link": "https://www.cnbc.com/2025/12/19/trump-pot-executive-order-medicare-cbd-lobbying-donors.html"
-    },
-    {
-      "headline": "Wall Street saves a weekly win, and one of our cyber stocks gets closer with Google",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "us_equities",
-      "date": "2025-12-19 20:24",
-      "link": "https://www.cnbc.com/2025/12/19/wall-street-saves-a-weekly-win-and-palo-alto-networks-gets-closer-with-google.html"
-    },
-    {
-      "headline": "Wall Street banked on a flurry of deals under Trump in 2025. It wasn't that simple",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Dealmakers expected a flood of M&A to take place in 2025 following the election of President Trump. The number of transactions didn't live up to the hype. ",
-      "category": "us_equities",
-      "date": "2025-12-19 20:12",
-      "link": "https://www.cnbc.com/2025/12/19/wall-street-deals-2025-trump-tariffs-uncertainty.html"
-    },
-    {
-      "headline": "Nine of the largest pharma companies ink deals with Trump to lower drug prices",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "President Donald Trump has pushed to lower drug prices for Americans, which are on average nearly three times higher than overseas.",
-      "category": "global_markets",
-      "date": "2025-12-19 19:40",
-      "link": "https://www.cnbc.com/2025/12/19/nine-pharma-companies-ink-deals-with-trump-to-lower-drug-prices.html"
-    },
-    {
-      "headline": "Classic-car market poised for strong 2026, says Hagerty CEO",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "A new generation of collectors are more comfortable buying online, with online classic-car sales surging 12% this year to $2.5 billion, according to Hagerty.",
-      "category": "global_markets",
-      "date": "2025-12-19 17:53",
-      "link": "https://www.cnbc.com/2025/12/19/classic-cars-hagerty.html"
-    },
-    {
-      "headline": "Trump name added to Kennedy Center signage",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Kennedy Center board on Thursday voted to add Trump's name to the famed arts institution.",
-      "category": "global_markets",
-      "date": "2025-12-19 16:53",
-      "link": "https://www.cnbc.com/2025/12/19/trump-kennedy-center-added-signage.html"
+      "date": "2025-12-20 06:00",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-19/us-trade-chief-criticizes-eu-india-as-negotiations-drag-on"
     }
   ]
 }
