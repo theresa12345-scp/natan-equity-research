@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-21T14:21:23.653726",
+  "timestamp": "2025-12-22T06:21:41.316115",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
+    "avg_relevance": 7.0,
     "bullish": 9,
     "neutral": 13,
     "bearish": 3,
-    "high_priority": 9,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -16,12 +16,12 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 3,
-    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 10,
-    "Federalreserve.gov": 1,
-    "MarketWatch": 1,
-    "Yahoo Entertainment": 1
+    "The Wall Street Journal": 2,
+    "CNBC": 9,
+    "ts2.tech": 1,
+    "Seeking Alpha": 1,
+    "Politico": 1
   },
   "top_signals": [
     {
@@ -31,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +101,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Last Full Trading Week of 2025 Brings Treasury Yields Lower",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "negative",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2025-12-19 21:45",
-      "link": "https://www.wsj.com/finance/investing/jgb-futures-edge-higher-ahead-of-bojs-monetary-policy-decision-2aa0922e"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,28 +121,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-21 14:21",
+      "date": "2025-12-22 06:21",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "S&P 500 posts back-to-back gains Friday as AI trade makes a comeback: Live updates",
+      "headline": "The Fight Over the Next Fed Chair Is Spilling Out Across D.C. and Wall Street",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "U.S. stocks rose on Friday, lifted by Oracle, as the artificial intelligence trade looks to regain its footing after experiencing volatility.",
-      "category": "us_equities",
-      "date": "2025-12-19 21:47",
-      "link": "https://www.cnbc.com/2025/12/18/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Federal Reserve Board requests public input on \u201cpayment account,\u201d which eligible financial institutions could use for the limited purpose of clearing and settling their payments",
-      "score": 7,
-      "source": "Federalreserve.gov",
+      "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "The Federal Reserve Board on Friday requested public input on a \"payment account,\" which eligible financial institutions could use for the limited purpose of c",
+      "impact": "Latest market news.",
       "category": "us_monetary_policy",
-      "date": "2025-12-19 15:03",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251219a.htm"
+      "date": "2025-12-20 22:07",
+      "link": "https://www.wsj.com/politics/policy/the-fight-over-the-next-fed-chair-is-spilling-out-across-d-c-and-wall-street-14761d86"
     },
     {
       "headline": "Nike shares drop 10% as China sales plunge, tariffs hit profits",
@@ -165,14 +145,94 @@
       "link": "https://www.cnbc.com/2025/12/18/nike-nke-q2-2026-earnings.html"
     },
     {
-      "headline": "Olive Garden owner Darden Restaurants hikes revenue outlook as value plays help bring in diners",
-      "score": 7,
-      "source": "CNBC",
+      "headline": "Intuit (INTU) Stock: Key News, Earnings Forecasts, and Analyst Targets to Know Before the Market Opens on Dec. 22, 2025",
+      "score": 6,
+      "source": "ts2.tech",
       "sentiment": "positive",
-      "impact": "Darden Restaurants reported strong demand for Olive Garden and LongHorn Steakhouse.",
+      "impact": "This article provides a comprehensive overview for investors regarding Intuit (INTU) stock before the market opens on December 22, 2025. It details recent key news, including partnerships with OpenAI and Circle for stablecoin integration, and the \"Now This Is Taxes\" marketing push. Financial guidanc",
       "category": "corporate_earnings",
-      "date": "2025-12-18 15:37",
-      "link": "https://www.cnbc.com/2025/12/18/darden-restaurants-dri-q2-2026-earnings.html"
+      "date": "2025-12-22 04:37",
+      "link": "https://ts2.tech/en/intuit-intu-stock-key-news-earnings-forecasts-and-analyst-targets-to-know-before-the-market-opens-on-dec-22-2025/"
+    },
+    {
+      "headline": "Invesco International Bond Fund Q3 2025 Commentary (OIBIX)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "The Invesco International Bond Fund (OIBIX) aims to identify the best international opportunities across developed and emerging market sovereign and corporate bonds, as well as currencies. The fund's managers believe the divergence in global economic and policy outlooks creates an exceptional enviro",
+      "category": "fixed_income",
+      "date": "2025-12-22 03:51",
+      "link": "https://seekingalpha.com/article/4855018-invesco-international-bond-fund-q3-2025-commentary"
+    },
+    {
+      "headline": "Here are 5 bear cases for Nvidia \u2014 and why each one of them is wrong",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "It's a brutal parade of horrors, so steel yourself, and \u2014 spoiler alert \u2014 I don't believe any of it.",
+      "category": "asia_economy",
+      "date": "2025-12-21 19:40",
+      "link": "https://www.cnbc.com/2025/12/21/cramer-here-are-5-bear-cases-for-nvidia-and-why-each-one-is-wrong.html"
+    },
+    {
+      "headline": "Here are 2 things we're watching in the stock market this week",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Will Santa Claus come to Wall Street? And, how do holiday shoppers feel about the economy?",
+      "category": "global_markets",
+      "date": "2025-12-21 15:57",
+      "link": "https://www.cnbc.com/2025/12/21/here-are-2-things-were-watching-in-the-stock-market-this-week.html"
+    },
+    {
+      "headline": "How this 30-year-old turned her junk journaling hobby into a business after being laid off from her dream job",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Nandi Owolo started junk journaling in June 2024. A year and a half later, she's turning the crafting hobby into her full-time business.",
+      "category": "global_markets",
+      "date": "2025-12-21 15:00",
+      "link": "https://www.cnbc.com/2025/12/21/30-year-old-turned-her-junk-journaling-hobby-into-a-business-after-being-laid-off-from-dream-job.html"
+    },
+    {
+      "headline": "33-year-olds shuttered their $2M-a-year startup, risked running out of money\u2014now their AI business is valued at $100M",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Dhruv Amin and Marcus Lowe shut down their developer marketplace in 2023 after predicting that the AI revolution would render their business model obsolete.",
+      "category": "global_markets",
+      "date": "2025-12-21 14:05",
+      "link": "https://www.cnbc.com/2025/12/21/ex-googlers-shuttered-successful-startup-built-ai-company-worth-100m.html"
+    },
+    {
+      "headline": "India\u2019s options traders rethink strategies for the calmest stock market in the world",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Volatility is the engine of derivatives trading: when markets swing, investors pay up to hedge, and the cost of contracts rise",
+      "category": "global_markets",
+      "date": "2025-12-21 04:39",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-21/world-s-calmest-stock-market-challenges-options-traders-in-india"
+    },
+    {
+      "headline": "The Netflix Chief Who Insists He Won\u2019t Ruin Hollywood",
+      "score": 6,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Ted Sarandos, a movie buff and one-time video-store clerk, may soon oversee the iconic Warner Bros. studio",
+      "category": "global_markets",
+      "date": "2025-12-20 17:35",
+      "link": "https://www.wsj.com/business/media/netflix-ted-sarandos-1752aa9c"
+    },
+    {
+      "headline": "Do it for Trump: Treasury pushes businesses, wealthy people to contribute to 'Trump Accounts'",
+      "score": 6,
+      "source": "Politico",
+      "sentiment": "neutral",
+      "impact": "A pair of major contributions from business titans recently is part of a strategy to pump money into the new savings plans for children.",
+      "category": "fixed_income",
+      "date": "2025-12-20 16:54",
+      "link": "https://www.politico.com/news/2025/12/20/treasury-hopes-to-juice-trump-accounts-with-appeals-to-philanthropists-corporations-00698179"
     },
     {
       "headline": "25-year-old certified nutrition and health coach\u2019s grocery store hack for eating well",
@@ -213,66 +273,6 @@
       "category": "global_markets",
       "date": "2025-12-20 14:21",
       "link": "https://www.cnbc.com/2025/12/20/roomba-bankruptcy-robot-vacuum-maker.html"
-    },
-    {
-      "headline": "I stayed in a $40 capsule hotel as return to office mandates drive workers back to the city",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "RTO mandates has workers who don't live in cities scrambling to find inexpensive ways of staying in the city without resorting to hostels.",
-      "category": "global_markets",
-      "date": "2025-12-20 08:55",
-      "link": "https://www.cnbc.com/2025/12/20/zedwell-capsule-hotel-i-stayed-in-a-40-dollar-capsule-hotel-in-london.html"
-    },
-    {
-      "headline": "US trade chief criticises India, EU as negotiations drag on",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "US Trade Representative Jamieson Greer says US concluded deals with a slew of other partners after starting talks with India",
-      "category": "global_markets",
-      "date": "2025-12-20 06:00",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-19/us-trade-chief-criticizes-eu-india-as-negotiations-drag-on"
-    },
-    {
-      "headline": "As stock-market rally broadens, it\u2019s tough for the S&P 500 to keep advancing without tech",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The S&P 500\u2019s tech sector is down so far this month, even after its big rally on Friday.",
-      "category": "us_equities",
-      "date": "2025-12-19 23:56",
-      "link": "https://www.marketwatch.com/story/as-stock-market-rally-broadens-its-tough-for-the-s-p-500-to-keep-advancing-without-tech-0b8185ae"
-    },
-    {
-      "headline": "Shoppers are focusing on quality, not deals, in the final days before Christmas",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Consumers are also increasingly leaning on in-store pickup to get last-minute gifts.",
-      "category": "global_markets",
-      "date": "2025-12-19 23:36",
-      "link": "https://www.cnbc.com/2025/12/19/christmas-shoppers-focus-on-quality-rather-than-deals.html"
-    },
-    {
-      "headline": "Inside the dealmaking that pushed Trump to reclassify pot, expand access",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Trump\u2019s pot executive order follows a yearlong industry push blending lobbying, donations and insider access, opening the door to a Medicare CBD pilot.",
-      "category": "global_markets",
-      "date": "2025-12-19 22:29",
-      "link": "https://www.cnbc.com/2025/12/19/trump-pot-executive-order-medicare-cbd-lobbying-donors.html"
-    },
-    {
-      "headline": "CNBC anchor who blasted Trump\u2019s \u2018insane\u2019 tariffs is now shocked by \u2018very, very low\u2019 inflation. How to capitalize in 2026",
-      "score": 6,
-      "source": "Yahoo Entertainment",
-      "sentiment": "neutral",
-      "impact": "Liesman wasn\u2019t alone in his reaction.",
-      "category": "global_markets",
-      "date": "2025-12-19 22:03",
-      "link": "https://finance.yahoo.com/news/cnbc-anchor-blasted-trump-insane-220300299.html"
     }
   ]
 }
