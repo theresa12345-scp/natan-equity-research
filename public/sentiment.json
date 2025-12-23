@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-22T14:25:16.013215",
+  "timestamp": "2025-12-23T06:20:50.983658",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 6.9,
-    "bullish": 8,
-    "neutral": 13,
-    "bearish": 4,
-    "high_priority": 8,
+    "avg_relevance": 7.0,
+    "bullish": 11,
+    "neutral": 14,
+    "bearish": 0,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,11 +16,13 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
+    "CNBC": 8,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 1,
-    "CNBC": 10,
-    "MarketWatch": 2,
-    "Financial Times": 2
+    "FXLeaders": 1,
+    "MarketBeat": 2,
+    "Defense World": 1,
+    "Simply Wall Street": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -30,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Fed's Hammack says there's no need to change interest rates for months, WSJ reports",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Federal Reserve Bank of Cleveland president sees no need to change rates for months ahead, The Wall Street Journal reported on Sunday.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-21 13:11",
+      "link": "https://www.cnbc.com/2025/12/21/fed-hammack-says-no-reason-to-change-interest-rates-for-months.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,28 +132,68 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-22 14:25",
+      "date": "2025-12-23 06:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "The Fight Over the Next Fed Chair Is Spilling Out Across D.C. and Wall Street",
+      "headline": "Forex Signals Dec 23: US, Canada GDP, and BHP, Korea Electric Power Earnings Preview",
       "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Industry titans, Trump allies weigh in during the final days of a sharp-elbowed campaign to succeed Jerome Powell",
-      "category": "us_monetary_policy",
-      "date": "2025-12-20 22:07",
-      "link": "https://www.wsj.com/politics/policy/the-fight-over-the-next-fed-chair-is-spilling-out-across-d-c-and-wall-street-14761d86"
+      "source": "FXLeaders",
+      "sentiment": "positive",
+      "impact": "This article provides a preview of key economic events for December 23, 2025, including GDP data for the US and Canada, and earnings reports from BHP, Korea Electric Power, and Hyperliquid Strategies. It discusses potential impacts on the US and Canadian dollars, global commodity demand, and the uti",
+      "category": "corporate_earnings",
+      "date": "2025-12-23 04:09",
+      "link": "https://www.fxleaders.com/news/2025/12/22/forex-signals-dec-23-us-canada-gdp-and-bhp-korea-electric-power-earnings-preview/"
     },
     {
-      "headline": "Waiting until January to make this move could trim up to $2,000 off your taxable income\u2014about 90% of filers could benefit",
+      "headline": "First Community Bancshares (NASDAQ:FCBC) Shares Gap Down - Here's Why",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "First Community Bancshares (NASDAQ:FCBC) experienced a premarket gap down, with shares opening at $34.60 after closing at $36.27. Despite this, the bank recently beat EPS estimates and reported strong revenue for the quarter, and declared a special dividend of $1.00payable in January. Institutional ",
+      "category": "us_equities",
+      "date": "2025-12-23 05:10",
+      "link": "https://www.marketbeat.com/instant-alerts/first-community-bancshares-nasdaqfcbc-shares-gap-down-heres-why-2025-12-22/"
+    },
+    {
+      "headline": "Clarius Group LLC Has $48.97 Million Stock Position in Dimensional US High Profitability ETF $DUHP",
+      "score": 6,
+      "source": "Defense World",
+      "sentiment": "positive",
+      "impact": "Clarius Group LLC increased its stake in Dimensional US High Profitability ETF (DUHP) by 20.2% in the third quarter, bringing their total ownership to 1,296,585 shares valued at $48.97 million. DUHP now represents 2.9% of Clarius Group LLC's portfolio, making it their 9th largest holding. Other inst",
+      "category": "corporate_earnings",
+      "date": "2025-12-23 05:10",
+      "link": "https://www.defenseworld.net/2025/12/22/clarius-group-llc-has-48-97-million-stock-position-in-dimensional-us-high-profitability-etf-duhp.html"
+    },
+    {
+      "headline": "|Assessing Allegro MicroSystems (ALGM) Valuation After Sector Lift From Micron\u2019s Bullish Revenue Outlook",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "|Allegro MicroSystems (ALGM) saw a 4% climb after Micron Technology's upbeat revenue forecast boosted the semiconductor sector, especially AI-exposed chipmakers. Despite a recent rebound and significant revenue growth, ALGM is still trading below consensus price targets, leading to questions about w",
+      "category": "corporate_earnings",
+      "date": "2025-12-23 05:10",
+      "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-algm/allegro-microsystems/news/assessing-allegro-microsystems-algm-valuation-after-sector-l/amp"
+    },
+    {
+      "headline": "Iovance Biotherapeutics (NASDAQ:IOVA) Trading Up 8.7% - Still a Buy?",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Iovance Biotherapeutics (NASDAQ:IOVA) saw its shares rise by 8.7% on Monday, closing at $2.6950 with a significant drop in trading volume. Despite this surge, analysts are divided on the company's prospects, with a consensus \"Hold\" rating and an average price target of $11.10. The clinical-stage bio",
+      "category": "us_equities",
+      "date": "2025-12-23 05:09",
+      "link": "https://www.marketbeat.com/instant-alerts/iovance-biotherapeutics-nasdaqiova-trading-up-87-still-a-buy-2025-12-22/"
+    },
+    {
+      "headline": "FDA approves first GLP-1 pill for obesity from Wegovy maker Novo Nordisk",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The \"big beautiful\" budget bill created a $2,000 above-the-line deduction on charitable donations for tax year 2026.",
+      "impact": "The approval gives Novo Nordisk a head start over chief rival Eli Lilly, which is racing to launch its own obesity pill.",
       "category": "global_markets",
-      "date": "2025-12-22 14:00",
-      "link": "https://www.cnbc.com/2025/12/22/new-tax-break-for-charitable-giving-available-next-year.html"
+      "date": "2025-12-23 03:09",
+      "link": "https://www.cnbc.com/2025/12/22/fda-approves-first-glp-1-pill-for-obesity-from-novo-nordisk.html"
     },
     {
       "headline": "Paramount guarantees Larry Ellison backing in amended WBD bid",
@@ -150,128 +202,78 @@
       "sentiment": "neutral",
       "impact": "Paramount notably did not increase its bid on Monday, reiterating that it believes the deal is superior to Netflix's.",
       "category": "global_markets",
-      "date": "2025-12-22 13:57",
+      "date": "2025-12-22 23:53",
       "link": "https://www.cnbc.com/2025/12/22/wbd-bid-paramount-larry-ellison-backing-bid.html"
     },
     {
-      "headline": "Brick trophies, a life-size pink Cadillac and a team sponsorship: Why Lego is going all in on F1",
+      "headline": "Nike gets named a top pick at Jefferies \u2014 plus, what's next for Starbucks stock",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Lego and Formula 1 kicked off a multiyear partnership in 2025. Here's how that collaboration is providing value to the toy company and the racing organization.",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "category": "global_markets",
-      "date": "2025-12-22 13:30",
-      "link": "https://www.cnbc.com/2025/12/22/lego-formula-1-partnership-fan-base.html"
+      "date": "2025-12-22 19:37",
+      "link": "https://www.cnbc.com/2025/12/22/nike-gets-named-a-top-pick-at-jefferies-plus-whats-next-for-starbucks-stock.html"
     },
     {
-      "headline": "Honeywell says it has a $470 million Flexjet problem, and a lowered profit outlook",
+      "headline": "Powerball's $1.6 billion jackpot is its fourth largest ever\u2014here's the after-tax payout in every U.S. state",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Powerball's jackpot has grown to the fourth largest ever in U.S. lottery history.",
+      "category": "global_markets",
+      "date": "2025-12-22 19:08",
+      "link": "https://www.cnbc.com/2025/12/22/powerball-jackpot-after-tax-payout-by-state.html"
+    },
+    {
+      "headline": "A closely watched gauge of bond-market volatility is signaling all-clear for stocks",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Honeywell expects to make a one-time cash settlement payment of $470 million related to the Flexjet lawsuit \u2014 and the stock drops.",
-      "category": "corporate_earnings",
-      "date": "2025-12-22 12:44",
-      "link": "https://www.marketwatch.com/story/honeywell-says-it-has-a-470-million-flexjet-problem-and-a-lowered-profit-outlook-07f08a17"
-    },
-    {
-      "headline": "Supplements in your stocking: Why wellness gifts are gaining steam for the holidays and beyond",
-      "score": 6,
-      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Retailers are blurring the lines between beauty and wellness as customers look for holiday gifts and focus on self-care.",
-      "category": "global_markets",
-      "date": "2025-12-22 12:00",
-      "link": "https://www.cnbc.com/2025/12/22/supplements-wellness-christmas-gifts.html"
+      "impact": "November wasn\u2019t exactly a great month for the U.S. stock market, although the S&P 500 did manage to eke out a small gain. So far, December is shaping up to be only modestly better.",
+      "category": "fixed_income",
+      "date": "2025-12-22 18:57",
+      "link": "https://www.marketwatch.com/story/a-closely-watched-gauge-of-bond-market-volatility-is-signaling-all-clear-for-stocks-a7054b45"
     },
     {
-      "headline": "How this commodity trader is preparing for a second wave of inflation",
+      "headline": "GDP looks strong despite a turbulent year. Can the U.S. economy keep it up?",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "A similar pattern to the 1970\u2019s may be on the cards, says this former commodity trader",
-      "category": "commodities",
-      "date": "2025-12-22 11:47",
-      "link": "https://www.marketwatch.com/story/how-this-commodity-trader-is-preparing-for-a-second-wave-of-inflation-2e57261a"
-    },
-    {
-      "headline": "Here are 5 bear cases for Nvidia \u2014 and why each one of them is wrong",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "It's a brutal parade of horrors, so steel yourself, and \u2014 spoiler alert \u2014 I don't believe any of it.",
-      "category": "asia_economy",
-      "date": "2025-12-21 19:40",
-      "link": "https://www.cnbc.com/2025/12/21/cramer-here-are-5-bear-cases-for-nvidia-and-why-each-one-is-wrong.html"
-    },
-    {
-      "headline": "Disney's 'Avatar: Fire and Ash' disappoints with weak $88 million domestic opening",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Disney's \"Avatar: Fire and Ash\" tallied just $88 million during its domestic debut, well shy of the $110 million to $125 million range analysts had expected.",
-      "category": "global_markets",
-      "date": "2025-12-21 17:11",
-      "link": "https://www.cnbc.com/2025/12/21/disneys-avatar-fire-and-ash-box-office.html"
-    },
-    {
-      "headline": "Here are 2 things we're watching in the stock market this week",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Will Santa Claus come to Wall Street? And, how do holiday shoppers feel about the economy?",
-      "category": "global_markets",
-      "date": "2025-12-21 15:57",
-      "link": "https://www.cnbc.com/2025/12/21/here-are-2-things-were-watching-in-the-stock-market-this-week.html"
-    },
-    {
-      "headline": "How this 30-year-old turned her junk journaling hobby into a business after being laid off from her dream job",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Nandi Owolo started junk journaling in June 2024. A year and a half later, she's turning the crafting hobby into her full-time business.",
-      "category": "global_markets",
-      "date": "2025-12-21 15:00",
-      "link": "https://www.cnbc.com/2025/12/21/30-year-old-turned-her-junk-journaling-hobby-into-a-business-after-being-laid-off-from-dream-job.html"
-    },
-    {
-      "headline": "33-year-olds shuttered their $2M-a-year startup, risked running out of money\u2014now their AI business is valued at $100M",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Dhruv Amin and Marcus Lowe shut down their developer marketplace in 2023 after predicting that the AI revolution would render their business model obsolete.",
-      "category": "global_markets",
-      "date": "2025-12-21 14:05",
-      "link": "https://www.cnbc.com/2025/12/21/ex-googlers-shuttered-successful-startup-built-ai-company-worth-100m.html"
-    },
-    {
-      "headline": "AI was behind over 50,000 layoffs in 2025 \u2014 here are the top firms to cite it for job cuts",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Some of the world's biggest tech companies cited AI as part of their layoff and restructuring strategy in 2025.",
-      "category": "global_markets",
-      "date": "2025-12-21 08:10",
-      "link": "https://www.cnbc.com/2025/12/21/ai-job-cuts-amazon-microsoft-and-more-cite-ai-for-2025-layoffs.html"
-    },
-    {
-      "headline": "Chinese stocks cool on weak economic data",
-      "score": 6,
-      "source": "Financial Times",
       "sentiment": "positive",
-      "impact": "Profit-taking has also brought this year\u2019s steep rally to an end in the last quarter",
+      "impact": "The kitchen sink was thrown at the economy in 2025 \u2014 punishing tariffs, higher inflation, rising unemployment \u2014 but the U.S. might still be growing at an above-average speed in a sign of surprising pluck.",
       "category": "global_markets",
-      "date": "2025-12-21 05:00",
-      "link": "https://www.ft.com/content/8dd04935-3d05-44bc-bbef-7ff07d420287"
+      "date": "2025-12-22 18:11",
+      "link": "https://www.marketwatch.com/story/gdp-looks-strong-despite-a-turbulent-year-can-the-u-s-economy-keep-it-up-3a73bfdf"
     },
     {
-      "headline": "Inside Tencent\u2019s deal to use Nvidia\u2019s best AI chips in Japan",
+      "headline": "Why Warner Bros. Discovery shareholders might opt for Paramount's offer \u2014 and why they might not",
       "score": 6,
-      "source": "Financial Times",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Contracts with Chinese tech giant have rapidly turned Datasection into one of Asia\u2019s biggest \u2018neoclouds\u2019",
+      "impact": "WBD shareholders must weigh pros and cons of tendering their shares to Paramount for $30 per share. CNBC lays out the arguments on both sides.",
       "category": "global_markets",
-      "date": "2025-12-21 05:00",
-      "link": "https://www.ft.com/content/9b47c335-9633-4560-9f57-5736c9d04bef"
+      "date": "2025-12-22 18:09",
+      "link": "https://www.cnbc.com/2025/12/22/paramount-wbd-tender-offer-arguments.html"
+    },
+    {
+      "headline": "The NBA is pursuing ownership groups for a potential basketball league in Europe",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The NBA is exploring the launch of a new professional men\u2019s league in Europe in partnership with FIBA.",
+      "category": "global_markets",
+      "date": "2025-12-22 15:44",
+      "link": "https://www.cnbc.com/2025/12/22/nba-basketball-league-in-europe.html"
+    },
+    {
+      "headline": "How Build-A-Bear went from a penny stock to a retail winner",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Build-A-Bear Workshop's business plummeted during the pandemic, but under CEO Sharon Price John, the company has undergone a significant turnaround.",
+      "category": "global_markets",
+      "date": "2025-12-22 14:27",
+      "link": "https://www.cnbc.com/2025/12/20/build-a-bear-workshop-bbw.html"
     }
   ]
 }
