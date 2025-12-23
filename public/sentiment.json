@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-12-23T06:20:50.983658",
+  "timestamp": "2025-12-23T14:25:39.380431",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 11,
-    "neutral": 14,
+    "avg_relevance": 6.9,
+    "bullish": 13,
+    "neutral": 12,
     "bearish": 0,
-    "high_priority": 9,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -16,13 +16,11 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "CNBC": 8,
     "Caixin/S&P Global": 1,
-    "FXLeaders": 1,
-    "MarketBeat": 2,
-    "Defense World": 1,
-    "Simply Wall Street": 1,
-    "MarketWatch": 2
+    "CNBC": 10,
+    "MarketWatch": 3,
+    "MarketBeat": 1,
+    "Barchart.com": 1
   },
   "top_signals": [
     {
@@ -32,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,18 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Fed's Hammack says there's no need to change interest rates for months, WSJ reports",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Federal Reserve Bank of Cleveland president sees no need to change rates for months ahead, The Wall Street Journal reported on Sunday.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-21 13:11",
-      "link": "https://www.cnbc.com/2025/12/21/fed-hammack-says-no-reason-to-change-interest-rates-for-months.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,58 +120,78 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-23 06:20",
+      "date": "2025-12-23 14:25",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Forex Signals Dec 23: US, Canada GDP, and BHP, Korea Electric Power Earnings Preview",
-      "score": 7,
-      "source": "FXLeaders",
-      "sentiment": "positive",
-      "impact": "This article provides a preview of key economic events for December 23, 2025, including GDP data for the US and Canada, and earnings reports from BHP, Korea Electric Power, and Hyperliquid Strategies. It discusses potential impacts on the US and Canadian dollars, global commodity demand, and the uti",
-      "category": "corporate_earnings",
-      "date": "2025-12-23 04:09",
-      "link": "https://www.fxleaders.com/news/2025/12/22/forex-signals-dec-23-us-canada-gdp-and-bhp-korea-electric-power-earnings-preview/"
+      "headline": "Nearly a quarter of Americans say their credit scores took a hit this year\u2014the No. 1 way to increase yours, according to an expert",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "If your credit score has taken a hit this year, there isn't much you can do to erase your history, but there are steps you can take to rebuild your credit.",
+      "category": "fixed_income",
+      "date": "2025-12-23 14:00",
+      "link": "https://www.cnbc.com/2025/12/23/how-to-increase-your-credit-score.html"
     },
     {
-      "headline": "First Community Bancshares (NASDAQ:FCBC) Shares Gap Down - Here's Why",
+      "headline": "U.S. economy grows by 4.3% in third quarter, much more than expected, delayed report shows",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The U.S. economy grew at a much bigger-than-expected pace in the third quarter, boosted by strong consumer spending, a delayed report released Tuesday showed.",
+      "category": "corporate_earnings",
+      "date": "2025-12-23 13:43",
+      "link": "https://www.cnbc.com/2025/12/23/us-economy-grows-by-4point3percent-in-third-quarter-much-more-than-expected-delayed-report-shows.html"
+    },
+    {
+      "headline": "U.S. economy grew 4.3% before government shutdown, GDP shows, in biggest gain in 2 years",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The U.S. grew at a snappy 4.3% annual pace in the third quarter \u2014 the biggest increase in two years \u2014 but the economy is unlikely to match that feat in the waning months of 2025 due partly to the long government shutdown.",
+      "category": "us_equities",
+      "date": "2025-12-23 13:38",
+      "link": "https://www.marketwatch.com/story/u-s-economy-grew-4-3-before-government-shutdown-gdp-shows-in-biggest-gain-in-2-years-25b62dca"
+    },
+    {
+      "headline": "RadNet (NASDAQ:RDNT) Trading Down 3.5% - Time to Sell?",
       "score": 6,
       "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "First Community Bancshares (NASDAQ:FCBC) experienced a premarket gap down, with shares opening at $34.60 after closing at $36.27. Despite this, the bank recently beat EPS estimates and reported strong revenue for the quarter, and declared a special dividend of $1.00payable in January. Institutional ",
-      "category": "us_equities",
-      "date": "2025-12-23 05:10",
-      "link": "https://www.marketbeat.com/instant-alerts/first-community-bancshares-nasdaqfcbc-shares-gap-down-heres-why-2025-12-22/"
-    },
-    {
-      "headline": "Clarius Group LLC Has $48.97 Million Stock Position in Dimensional US High Profitability ETF $DUHP",
-      "score": 6,
-      "source": "Defense World",
       "sentiment": "positive",
-      "impact": "Clarius Group LLC increased its stake in Dimensional US High Profitability ETF (DUHP) by 20.2% in the third quarter, bringing their total ownership to 1,296,585 shares valued at $48.97 million. DUHP now represents 2.9% of Clarius Group LLC's portfolio, making it their 9th largest holding. Other inst",
-      "category": "corporate_earnings",
-      "date": "2025-12-23 05:10",
-      "link": "https://www.defenseworld.net/2025/12/22/clarius-group-llc-has-48-97-million-stock-position-in-dimensional-us-high-profitability-etf-duhp.html"
-    },
-    {
-      "headline": "|Assessing Allegro MicroSystems (ALGM) Valuation After Sector Lift From Micron\u2019s Bullish Revenue Outlook",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "|Allegro MicroSystems (ALGM) saw a 4% climb after Micron Technology's upbeat revenue forecast boosted the semiconductor sector, especially AI-exposed chipmakers. Despite a recent rebound and significant revenue growth, ALGM is still trading below consensus price targets, leading to questions about w",
-      "category": "corporate_earnings",
-      "date": "2025-12-23 05:10",
-      "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-algm/allegro-microsystems/news/assessing-allegro-microsystems-algm-valuation-after-sector-l/amp"
-    },
-    {
-      "headline": "Iovance Biotherapeutics (NASDAQ:IOVA) Trading Up 8.7% - Still a Buy?",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Iovance Biotherapeutics (NASDAQ:IOVA) saw its shares rise by 8.7% on Monday, closing at $2.6950 with a significant drop in trading volume. Despite this surge, analysts are divided on the company's prospects, with a consensus \"Hold\" rating and an average price target of $11.10. The clinical-stage bio",
+      "impact": "RadNet (NASDAQ:RDNT) shares fell 3.5% on Monday with significantly lower trading volume, closing at $73.99. Despite a consensus \"Moderate Buy\" rating and an average price target of $87.60 from analysts following several upgrades, some analysts and Weiss Ratings remain negative. The company reported ",
       "category": "us_equities",
-      "date": "2025-12-23 05:09",
-      "link": "https://www.marketbeat.com/instant-alerts/iovance-biotherapeutics-nasdaqiova-trading-up-87-still-a-buy-2025-12-22/"
+      "date": "2025-12-23 13:09",
+      "link": "https://www.marketbeat.com/instant-alerts/radnet-nasdaqrdnt-trading-down-35-time-to-sell-2025-12-22/"
+    },
+    {
+      "headline": "Holiday retail spending rose 4.2% this season, driven by e-commerce and electronics: Visa report",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "U.S. holiday retail spending rose 4.2% as consumers spent more on tech and apparel, with online sales jumping 7.8%, Visa data shows, despite higher prices. ",
+      "category": "global_markets",
+      "date": "2025-12-23 13:00",
+      "link": "https://www.cnbc.com/2025/12/23/holiday-retail-spending-visa-report-2025.html"
+    },
+    {
+      "headline": "SLB Earnings Preview: What to Expect",
+      "score": 6,
+      "source": "Barchart.com",
+      "sentiment": "positive",
+      "impact": "SLB N.V. (SLB) is set to announce its Q4 2025 results on January 23rd, with analysts expecting an adjusted EPS of $0.74, a decrease from the previous year. Despite a Q3 beat, shares fell due to management's cautious outlook on North American drilling activity and operational softness. Analysts curre",
+      "category": "corporate_earnings",
+      "date": "2025-12-23 12:55",
+      "link": "https://www.barchart.com/story/news/36759828/slb-earnings-preview-what-to-expect"
+    },
+    {
+      "headline": "EV realism is here. How automakers react in 2026 will be telling",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Detroit automakers are refocusing on large gas-guzzling trucks and SUVs, and many have admitted that policies, not consumers, were driving the charge for EVs.",
+      "category": "global_markets",
+      "date": "2025-12-23 12:00",
+      "link": "https://www.cnbc.com/2025/12/23/evs-gm-ford-hyundai-tesla.html"
     },
     {
       "headline": "FDA approves first GLP-1 pill for obesity from Wegovy maker Novo Nordisk",
@@ -256,24 +264,14 @@
       "link": "https://www.cnbc.com/2025/12/22/paramount-wbd-tender-offer-arguments.html"
     },
     {
-      "headline": "The NBA is pursuing ownership groups for a potential basketball league in Europe",
+      "headline": "The NBA is pursuing ownership groups for a potential basketball league in Europe ",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "The NBA is exploring the launch of a new professional men\u2019s league in Europe in partnership with FIBA.",
       "category": "global_markets",
-      "date": "2025-12-22 15:44",
+      "date": "2025-12-22 17:08",
       "link": "https://www.cnbc.com/2025/12/22/nba-basketball-league-in-europe.html"
-    },
-    {
-      "headline": "How Build-A-Bear went from a penny stock to a retail winner",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Build-A-Bear Workshop's business plummeted during the pandemic, but under CEO Sharon Price John, the company has undergone a significant turnaround.",
-      "category": "global_markets",
-      "date": "2025-12-22 14:27",
-      "link": "https://www.cnbc.com/2025/12/20/build-a-bear-workshop-bbw.html"
     }
   ]
 }
