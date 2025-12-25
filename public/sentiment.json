@@ -1,25 +1,23 @@
 {
-  "timestamp": "2025-12-25T06:20:32.542705",
+  "timestamp": "2025-12-25T14:23:29.877971",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 11,
+    "bullish": 12,
     "neutral": 11,
-    "bearish": 3,
+    "bearish": 2,
     "high_priority": 9,
-    "material_events": 4
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
+    "CNBC": 10,
     "Reuters": 3,
-    "Bloomberg": 2,
-    "CNBC": 9,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "Financial Times": 1,
-    "intelligentinvestor.com.au": 1,
     "MarketBeat": 1,
     "MarketWatch": 3
   },
@@ -31,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,8 +59,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "10-year Treasury yield lower as investors mull rates path following strong GDP data",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The 10-year benchmark yields edged lower at the start of a shorter trading day.",
+      "category": "fixed_income",
+      "date": "2025-12-24 09:24",
+      "link": "https://www.cnbc.com/2025/12/24/10-year-treasury-yields-dip-as-stronger-gdp-data-clouds-rate-path.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -71,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +109,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "U.S. Treasury yields decline ahead of key debt auctions",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "U.S. Treasury yields declined as investors look toward a shortened holiday trading week on top of key debt auctions.",
-      "category": "fixed_income",
-      "date": "2025-12-23 08:21",
-      "link": "https://www.cnbc.com/2025/12/23/us-treasury-yields-decline-ahead-of-key-debt-auctions.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,7 +129,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-25 06:20",
+      "date": "2025-12-25 14:23",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -151,7 +149,7 @@
       "sentiment": "positive",
       "impact": "Major U.S. indexes climbed for a fourth straight session on Tuesday, led by names in the tech sector.",
       "category": "us_equities",
-      "date": "2025-12-24 00:25",
+      "date": "2025-12-24 12:35",
       "link": "https://www.cnbc.com/2025/12/23/stock-market-today-live-updates.html"
     },
     {
@@ -165,34 +163,24 @@
       "link": "https://www.cnbc.com/2025/12/23/southwest-luv-airline-stocks.html"
     },
     {
-      "headline": "AI debt boom pushes US corporate bond sales close to record",
-      "score": 7,
-      "source": "Financial Times",
-      "sentiment": "positive",
-      "impact": "Investment-grade borrowers have issued $1.7tn of bonds this year, closing in on 2020\u2019s Covid debt rush",
-      "category": "fixed_income",
-      "date": "2025-12-23 05:00",
-      "link": "https://www.ft.com/content/faa3d747-9a32-4219-93eb-a93c10502f06"
-    },
-    {
-      "headline": "First Trust BuyWrite Income ETF (NASDAQ: FTHI) - Dividends",
+      "headline": "Tariffs hit boots, bags and more as leather prices jump \u2014 and relief could be years away",
       "score": 6,
-      "source": "intelligentinvestor.com.au",
-      "sentiment": "neutral",
-      "impact": "This article provides a detailed list of past and upcoming dividend distributions for the First Trust BuyWrite Income ETF (NASDAQ:FTHI). It includes information on distribution type, franking, ex-dividend date, payment date, and current and 7-day average prices related to each dividend. The current ",
-      "category": "us_equities",
-      "date": "2025-12-25 04:10",
-      "link": "https://www.intelligentinvestor.com.au/shares/nasdaq-fthi/first-trust-buywrite-income-etf/dividends"
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Leather prices are expected to continue rising in 2026 as Trump's tariffs crimple a global supply-chain while domestic manufacturing and cattle herds are down.",
+      "category": "global_markets",
+      "date": "2025-12-25 13:00",
+      "link": "https://www.cnbc.com/2025/12/25/leather-prices-tariffs-trump-boots-handbags-furniture-twisted-x.html"
     },
     {
-      "headline": "Hennessy Advisors, Inc. (NASDAQ:HNNA) Short Interest Update",
+      "headline": "Zacks Research Predicts Weaker Earnings for Zimmer Biomet",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Hennessy Advisors, Inc. (NASDAQ:HNNA) experienced a significant 89.1% drop in short interest in December, reducing the total to 6,309 shares as of December 15th, representing only 0.1% of shares. The company pays a quarterly dividend of $0.1375, offering a 5.9% yield, and traded recently at $9.37 wi",
-      "category": "us_equities",
-      "date": "2025-12-25 03:09",
-      "link": "https://www.marketbeat.com/instant-alerts/hennessy-advisors-inc-nasdaqhnna-short-interest-update-2025-12-24/"
+      "impact": "Zacks Research has revised down its Q2 2026 EPS estimate for Zimmer Biomet to $2.10 and projects FY2026 EPS at $8.16, with FY2027 at $8.84. Despite beating consensus EPS in its last report, the medical equipment provider's revenue slightly missed expectations. Analysts currently hold a \"Hold\" consen",
+      "category": "corporate_earnings",
+      "date": "2025-12-25 12:49",
+      "link": "https://www.marketbeat.com/instant-alerts/zacks-research-predicts-weaker-earnings-for-zimmer-biomet-2025-12-25/"
     },
     {
       "headline": "S&P 500 hits record high on Christmas Eve for first time in more than a decade",
@@ -273,6 +261,16 @@
       "category": "us_equities",
       "date": "2025-12-24 12:03",
       "link": "https://www.marketwatch.com/story/one-of-the-most-important-magnificent-seven-members-is-rumbling-to-life-heres-what-that-means-for-tech-and-the-s-p-500-2867dc12"
+    },
+    {
+      "headline": "Haier sells 49% of Indian unit to Bharti, Warburg Pincus",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "The agreement will bolster Haier\u2019s \u201cMade in India, for India\u201d strategy by deepening local sourcing, expanding manufacturing capacity and innovation, and accelerating its push into the market",
+      "category": "global_markets",
+      "date": "2025-12-24 09:23",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-24/haier-sells-49-stake-in-indian-unit-to-bharti-warburg-pincus"
     }
   ]
 }
