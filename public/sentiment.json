@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-12-25T14:23:29.877971",
+  "timestamp": "2025-12-26T06:20:29.569472",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
+    "avg_relevance": 7.2,
     "bullish": 12,
-    "neutral": 11,
-    "bearish": 2,
+    "neutral": 10,
+    "bearish": 3,
     "high_priority": 9,
     "material_events": 5
   },
@@ -14,11 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 10,
+    "CNBC": 9,
     "Reuters": 3,
-    "Bloomberg": 3,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "MarketBeat": 1,
+    "Investor's Business Daily": 1,
+    "Seeking Alpha": 1,
+    "\u5bcc\u9014\u725b\u725b": 1,
     "MarketWatch": 3
   },
   "top_signals": [
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -99,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -109,7 +111,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -119,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,8 +131,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-25 14:23",
+      "date": "2025-12-26 06:20",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Dow Jones, S&P 500 Hit Record Highs Heading Into Christmas Holiday",
+      "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "positive",
+      "impact": "Palantir, Tesla, Nvidia and Google are holding in buy areas.",
+      "category": "us_equities",
+      "date": "2025-12-24 21:38",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-highs-christmas-holiday/"
     },
     {
       "headline": "We're buying the post-earnings slump in a stock alongside Tim Cook. It's not Apple",
@@ -143,14 +155,14 @@
       "link": "https://www.cnbc.com/2025/12/24/were-buying-the-post-earnings-slump-in-a-stock-alongside-tim-cook-its-not-apple.html"
     },
     {
-      "headline": "Stock futures are little changed after S&P 500 posts record close: Live updates",
+      "headline": "Economy grows, chip tariff delay, new S&P 500 record and more in Morning Squawk",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Major U.S. indexes climbed for a fourth straight session on Tuesday, led by names in the tech sector.",
+      "impact": "Here are five key things investors need to know to start the trading day.",
       "category": "us_equities",
-      "date": "2025-12-24 12:35",
-      "link": "https://www.cnbc.com/2025/12/23/stock-market-today-live-updates.html"
+      "date": "2025-12-24 12:42",
+      "link": "https://www.cnbc.com/2025/12/24/economy-grows-chip-tariff-delay-new-sp-500-record-and-more-in-morning-squawk.html"
     },
     {
       "headline": "Southwest's profits are down 42% this year but it's the top U.S. airline stock",
@@ -163,6 +175,36 @@
       "link": "https://www.cnbc.com/2025/12/23/southwest-luv-airline-stocks.html"
     },
     {
+      "headline": "Moderna Stock: Transition From Pandemic Windfall To Multi-Product Platform (NASDAQ:MRNA)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "negative",
+      "impact": "Moderna (MRNA) is initiated with a Hold rating and a $25 target price, lower than its current trading price, due to balanced risk-reward despite its advanced mRNA platform and robust pipeline. While near-term execution in respiratory vaccines is improving, COVID-19 demand remains unpredictable, and ",
+      "category": "us_equities",
+      "date": "2025-12-26 03:43",
+      "link": "https://seekingalpha.com/article/4855797-moderna-on-transition-from-pandemic-windfall-to-multi-product-platform"
+    },
+    {
+      "headline": "YieldMax GOOGL Option Income Strategy ETF To Go Ex-Dividend On December 26th, 2025 With 0.0869 USD Dividend Per Share",
+      "score": 6,
+      "source": "\u5bcc\u9014\u725b\u725b",
+      "sentiment": "neutral",
+      "impact": "The YieldMax GOOGL Option Income Strategy ETF (GOOY.US) is scheduled to trade ex-dividend on December 26th, 2025, with a dividend of $0.0869 per share. Shareholders on record by December 26th, 2025, will receive this payment on December 29th, 2025. The article also provides general definitions for c",
+      "category": "fixed_income",
+      "date": "2025-12-26 03:09",
+      "link": "https://news.futunn.com/en/post/66620665/yieldmax-googl-option-income-strategy-etf-to-go-ex-dividend"
+    },
+    {
+      "headline": "Move over, Mariah: Michael Bubl\u00e9 is becoming the king of Christmas music with nearly $16 million in holiday earnings",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "\u201cBubl\u00e9 has been a busy little elf,\u201d music-industry experts note",
+      "category": "corporate_earnings",
+      "date": "2025-12-25 15:51",
+      "link": "https://www.marketwatch.com/story/move-over-mariah-michael-buble-is-becoming-the-king-of-christmas-music-with-nearly-16-million-in-holiday-earnings-d2ae04cb?mod=mw_rss_topstories"
+    },
+    {
       "headline": "Tariffs hit boots, bags and more as leather prices jump \u2014 and relief could be years away",
       "score": 6,
       "source": "CNBC",
@@ -171,16 +213,6 @@
       "category": "global_markets",
       "date": "2025-12-25 13:00",
       "link": "https://www.cnbc.com/2025/12/25/leather-prices-tariffs-trump-boots-handbags-furniture-twisted-x.html"
-    },
-    {
-      "headline": "Zacks Research Predicts Weaker Earnings for Zimmer Biomet",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Zacks Research has revised down its Q2 2026 EPS estimate for Zimmer Biomet to $2.10 and projects FY2026 EPS at $8.16, with FY2027 at $8.84. Despite beating consensus EPS in its last report, the medical equipment provider's revenue slightly missed expectations. Analysts currently hold a \"Hold\" consen",
-      "category": "corporate_earnings",
-      "date": "2025-12-25 12:49",
-      "link": "https://www.marketbeat.com/instant-alerts/zacks-research-predicts-weaker-earnings-for-zimmer-biomet-2025-12-25/"
     },
     {
       "headline": "S&P 500 hits record high on Christmas Eve for first time in more than a decade",
@@ -241,36 +273,6 @@
       "category": "fixed_income",
       "date": "2025-12-24 14:00",
       "link": "https://www.cnbc.com/2025/12/24/how-to-figure-out-your-ideal-credit-limit-according-to-experts.html"
-    },
-    {
-      "headline": "Want to be happier and less stressed during the holidays? Give 'yourself breaks,' says psychologist",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "If you're stressed out this holiday season, try muting social media accounts that bring you down, says psychologist Sabrina Romanoff.",
-      "category": "global_markets",
-      "date": "2025-12-24 13:30",
-      "link": "https://www.cnbc.com/2025/12/24/how-to-be-happier-and-less-stressed-during-the-holidays-says-psychologist.html"
-    },
-    {
-      "headline": "One of the most important \u2018Magnificent Seven\u2019 members is rumbling to life. Here\u2019s what that means for tech and the S&P 500.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Nvidia shares have been on a run lately and strategist Mark Newton says that has bigger meaning for the stock market in general.",
-      "category": "us_equities",
-      "date": "2025-12-24 12:03",
-      "link": "https://www.marketwatch.com/story/one-of-the-most-important-magnificent-seven-members-is-rumbling-to-life-heres-what-that-means-for-tech-and-the-s-p-500-2867dc12"
-    },
-    {
-      "headline": "Haier sells 49% of Indian unit to Bharti, Warburg Pincus",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "The agreement will bolster Haier\u2019s \u201cMade in India, for India\u201d strategy by deepening local sourcing, expanding manufacturing capacity and innovation, and accelerating its push into the market",
-      "category": "global_markets",
-      "date": "2025-12-24 09:23",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-24/haier-sells-49-stake-in-indian-unit-to-bharti-warburg-pincus"
     }
   ]
 }
