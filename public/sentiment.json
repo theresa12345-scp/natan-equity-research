@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-12-28T06:19:21.247263",
+  "timestamp": "2025-12-28T14:22:36.729974",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 8,
+    "bullish": 9,
     "neutral": 12,
-    "bearish": 5,
+    "bearish": 4,
     "high_priority": 8,
     "material_events": 4
   },
@@ -15,14 +15,12 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "ts2.tech": 2,
-    "Investor's Business Daily": 1,
-    "MarketBeat": 2,
-    "CNBC": 6,
-    "The Wall Street Journal": 1,
-    "Financial Times": 2
+    "CNBC": 7,
+    "Financial Times": 5,
+    "Nasdaq": 1,
+    "The Wall Street Journal": 2
   },
   "top_signals": [
     {
@@ -32,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -112,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,38 +120,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-28 06:19",
+      "date": "2025-12-28 14:22",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Icahn Enterprises (IEP) Stock Ends Week at $7.60 After Friday Bounce; Dividend Yield and Q4 Earnings Window in Focus",
+      "headline": "Week in review: The S&P 500 kept hitting records, and an AI giant went back into the Bullpen",
       "score": 7,
-      "source": "ts2.tech",
-      "sentiment": "neutral",
-      "impact": "Icahn Enterprises (IEP) stock closed the week at $7.60, up 3.1% on Friday, following a rebound from multi-week lows. Investors are now focused on the sustainability of this bounce, the implications of its high dividend yield, and the approaching Q4 earnings announcement. The company's significant en",
-      "category": "us_equities",
-      "date": "2025-12-28 01:08",
-      "link": "https://ts2.tech/en/icahn-enterprises-iep-stock-ends-week-at-7-60-after-friday-bounce-dividend-yield-and-q4-earnings-window-in-focus/"
-    },
-    {
-      "headline": "4.3% GDP Growth Overstated By Odd Video Game Inflation Data",
-      "score": 7,
-      "source": "Investor's Business Daily",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "GDP growth of 4.3% in Q3 exaggerated U.S. economic strength. Nintendo's Switch 2 release and Trump tariffs both played a part.",
-      "category": "global_markets",
-      "date": "2025-12-26 16:42",
-      "link": "https://www.investors.com/news/economy/nintendo-switch-2-gdp-growth-trump-tariffs-video-game-inflation/"
+      "impact": "The Club added an old stock to the bullpen and bought more shares of another.",
+      "category": "us_equities",
+      "date": "2025-12-28 13:49",
+      "link": "https://www.cnbc.com/2025/12/28/week-in-review-the-sp-500-kept-hitting-records-and-an-ai-giant-went-back-into-the-bullpen.html"
     },
     {
-      "headline": "MarketAxess Holdings Inc. (NASDAQ:MKTX) Short Interest Up 102.0% in December",
+      "headline": "China industrial profits plunge as weak demand and deflation bite",
+      "score": 7,
+      "source": "Financial Times",
+      "sentiment": "negative",
+      "impact": "Steep fall in November nearly wipes out profit growth in 2025 as Beijing steps up pressure on over-investment",
+      "category": "asia_economy",
+      "date": "2025-12-27 07:51",
+      "link": "https://www.ft.com/content/2a69ff03-5ead-4818-a5f8-2fb5f6f41e1b"
+    },
+    {
+      "headline": "|Paranovus Entertainment Technology Limited Received Nasdaq Delisting Notice",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "MarketAxess Holdings Inc. (NASDAQ:MKTX) experienced a significant increase in short interest during December, rising 102.0% to 2,756,858 shares as of December 15th, representing 7.6% of its shares sold short. Analysts currently hold a \"Hold\" consensus rating with a price target of $204.82 for the co",
+      "source": "Nasdaq",
+      "sentiment": "negative",
+      "impact": "|Paranovus Entertainment Technology Limited (NASDAQ: PAVS) has received a notice from Nasdaq regarding the delisting of its Class A ordinary shares due to non-compliance with the minimum bid price rule. The Company intends to appeal this determination to a hearing panel, which would temporarily stay",
       "category": "us_equities",
-      "date": "2025-12-28 01:23",
-      "link": "https://www.marketbeat.com/instant-alerts/marketaxess-holdings-inc-nasdaqmktx-short-interest-up-1020-in-december-2025-12-27/"
+      "date": "2025-12-28 13:09",
+      "link": "https://www.nasdaq.com/press-release/paranovus-entertainment-technology-limited-received-nasdaq-delisting-notice-2025-12"
+    },
+    {
+      "headline": "Restaurants' hottest menu item in 2025 was 'value.' That won't change next year",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Restaurant chains bet on value in 2025, and they're not likely to ditch the strategy next year.",
+      "category": "asia_economy",
+      "date": "2025-12-28 13:00",
+      "link": "https://www.cnbc.com/2025/12/28/value-meals-restaurants-mcdonalds-chilis-taco-bell.html"
     },
     {
       "headline": "Airlines cancel 900 more flights but disruptions from winter storm ease. Here\u2019s what to know",
@@ -166,44 +174,64 @@
       "link": "https://www.cnbc.com/2025/12/26/winter-storm-flight-cancellations.html"
     },
     {
-      "headline": "Manhattan Bridge Capital, Inc (NASDAQ:LOAN) Sees Large Increase in Short Interest",
+      "headline": "Morgan Stanley says these are top stock picks in 2026, including Nvidia",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Manhattan Bridge Capital, Inc (NASDAQ:LOAN) experienced a significant 112.1% surge in short interest in December, reaching 10,248 shares, or 0.1% of its total shares, despite a low days-to-cover ratio of 0.5. The company recently declared a quarterly dividend of $0.115, yielding 9.4% with a 100% pay",
-      "category": "us_equities",
-      "date": "2025-12-27 23:08",
-      "link": "https://www.marketbeat.com/instant-alerts/manhattan-bridge-capital-inc-nasdaqloan-sees-large-increase-in-short-interest-2025-12-27/"
+      "impact": "Morgan Stanley named its favorite stocks to buy in 2026.",
+      "category": "global_markets",
+      "date": "2025-12-27 12:40",
+      "link": "https://www.cnbc.com/2025/12/27/top-stocks-in-2026-include-nvidia.html"
     },
     {
-      "headline": "Bristol-Myers Squibb (BMY) Stock: What Investors Should Watch Before Monday\u2019s Open as Dividend Date, Earnings, and 2026 Catalysts Come Into Focus",
+      "headline": "Data centres turn to aircraft engines to avoid grid connection delays",
       "score": 6,
-      "source": "ts2.tech",
+      "source": "Financial Times",
       "sentiment": "neutral",
-      "impact": "Bristol-Myers Squibb (NYSE: BMY) is heading into the end of 2025 with investor attention on its dividend timeline, upcoming earnings, and key 2026 regulatory and pipeline milestones. The stock finished Friday at about $54.65, with analysts holding mixed views and a consensus \"Hold\" rating. Investors",
-      "category": "corporate_earnings",
-      "date": "2025-12-27 22:51",
-      "link": "https://ts2.tech/en/bristol-myers-squibb-bmy-stock-what-investors-should-watch-before-mondays-open-as-dividend-date-earnings-and-2026-catalysts-come-into-focus/"
+      "impact": "Supply chain shortages drive developers to use smaller and less efficient power sources to fuel AI power demand",
+      "category": "global_markets",
+      "date": "2025-12-27 05:00",
+      "link": "https://www.ft.com/content/8deb1518-b650-4a21-b7d1-3e6180560056"
+    },
+    {
+      "headline": "Year in a word: Stablecoins",
+      "score": 6,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "In spite of efforts to bring it into the mainstream, the cryptocurrency remains one step removed from money",
+      "category": "global_markets",
+      "date": "2025-12-27 05:00",
+      "link": "https://www.ft.com/content/a93cef5f-5bc5-4234-9035-e261de1f01f3"
+    },
+    {
+      "headline": "Global hotel groups bet on customer loyalty to beat online and AI agents",
+      "score": 6,
+      "source": "Financial Times",
+      "sentiment": "positive",
+      "impact": "Companies including Marriott and Hilton push to improve perks and get more direct bookings",
+      "category": "global_markets",
+      "date": "2025-12-27 05:00",
+      "link": "https://www.ft.com/content/b4ee6ec8-cfdc-4f28-b4ab-65baf611125b"
     },
     {
       "headline": "Silver and Gold Prices Rally; Stocks Hold Near Records",
       "score": 6,
       "source": "The Wall Street Journal",
       "sentiment": "positive",
-      "impact": "Indexes back away slightly from records hit Wednesday.",
-      "category": "commodities",
+      "impact": "Latest market news.",
+      "category": "us_equities",
       "date": "2025-12-26 21:44",
       "link": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-update-48806b61"
     },
     {
-      "headline": "Brutal Year for Stock Picking Spurs Trillion-Dollar Fund Exodus",
+      "headline": "Oil Loses Ground On Russia-Ukraine Peace Efforts",
       "score": 6,
-      "source": "Bloomberg",
+      "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "The last thing a diversified fund manager wants is to run a portfolio dominated by just seven technology companies \u2014 all American, all megacap, clustered in the same corner of the economy. Yet as the S&P 500 pushed to fresh records this week, investors were a\u2026",
-      "category": "global_markets",
-      "date": "2025-12-26 21:18",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-26/brutal-year-for-stock-picking-spurs-trillion-dollar-fund-exodus"
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2025-12-26 20:26",
+      "link": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-amid-geopolitical-tensions-7a58e03a"
     },
     {
       "headline": "As the cost of living keeps climbing, Americans are 'trying to muscle through' the affordability crisis, analyst says",
@@ -244,36 +272,6 @@
       "category": "global_markets",
       "date": "2025-12-26 17:13",
       "link": "https://www.cnbc.com/2025/12/26/the-15-highest-paying-jobs-you-can-land-without-a-4-year-degree-says-new-report.html"
-    },
-    {
-      "headline": "Rents are falling in these major U.S. cities heading into 2026\u2014one of the more 'renter-friendly periods' in a decade, says expert",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Falling rents and rising vacancies are giving renters more room to negotiate prices heading into early 2026.",
-      "category": "global_markets",
-      "date": "2025-12-26 16:53",
-      "link": "https://www.cnbc.com/2025/12/26/rents-are-falling-in-these-major-us-cities-heading-into-2026.html"
-    },
-    {
-      "headline": "Pressure grows on Target as activist investor builds stake",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "negative",
-      "impact": "Move by hedge fund TCIM comes as US retailer struggles with a sales slump",
-      "category": "global_markets",
-      "date": "2025-12-26 14:59",
-      "link": "https://www.ft.com/content/91dc7dde-6768-4ce3-b30b-fc5a1b5ef9ac"
-    },
-    {
-      "headline": "Citi AAdvantage Executive World Elite vs. Citi AAdvantage Globe",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "With these premium American Airlines cards, the choice comes down to lounge access, elite status and statement credits.",
-      "category": "global_markets",
-      "date": "2025-12-26 14:05",
-      "link": "https://www.cnbc.com/select/citi-aadvantage-executive-world-elite-vs-citi-aadvantage-globe-/"
     }
   ]
 }
