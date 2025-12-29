@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-12-28T14:22:36.729974",
+  "timestamp": "2025-12-29T06:22:36.841623",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 9,
-    "neutral": 12,
-    "bearish": 4,
+    "bullish": 10,
+    "neutral": 13,
+    "bearish": 2,
     "high_priority": 8,
     "material_events": 4
   },
@@ -17,10 +17,11 @@
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
+    "ts2.tech": 5,
     "CNBC": 7,
-    "Financial Times": 5,
-    "Nasdaq": 1,
-    "The Wall Street Journal": 2
+    "Financial Times": 1,
+    "TipRanks": 1,
+    "The Washington Post": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -110,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,8 +121,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-28 14:22",
+      "date": "2025-12-29 06:22",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Lam Research stock steadies near $180 as investors eye Fed minutes and January earnings",
+      "score": 7,
+      "source": "ts2.tech",
+      "sentiment": "positive",
+      "impact": "Lam Research (NASDAQ:LRCX) shares are holding steady near $180 as investors await the Federal Reserve's meeting minutes for interest rate signals and the company's January earnings report. Analysts have recently raised price targets for Lam Research, citing expectations for a rebound in memory chipm",
+      "category": "us_monetary_policy",
+      "date": "2025-12-29 02:33",
+      "link": "https://ts2.tech/en/lam-research-stock-steadies-near-180-as-investors-eye-fed-minutes-and-january-earnings/"
     },
     {
       "headline": "Week in review: The S&P 500 kept hitting records, and an AI giant went back into the Bullpen",
@@ -144,14 +155,84 @@
       "link": "https://www.ft.com/content/2a69ff03-5ead-4818-a5f8-2fb5f6f41e1b"
     },
     {
-      "headline": "|Paranovus Entertainment Technology Limited Received Nasdaq Delisting Notice",
+      "headline": "Caterpillar stock drifts into year-end as Fed minutes loom and trading stays thin",
       "score": 6,
-      "source": "Nasdaq",
-      "sentiment": "negative",
-      "impact": "|Paranovus Entertainment Technology Limited (NASDAQ: PAVS) has received a notice from Nasdaq regarding the delisting of its Class A ordinary shares due to non-compliance with the minimum bid price rule. The Company intends to appeal this determination to a hearing panel, which would temporarily stay",
+      "source": "ts2.tech",
+      "sentiment": "neutral",
+      "impact": "Caterpillar (NYSE:CAT) shares closed slightly lower in muted post-Christmas trading as investors anticipate upcoming Fed minutes for clues on future rate cuts. The heavy-equipment maker's stock is being watched for year-end portfolio adjustments and its sensitivity to market demand and borrowing con",
+      "category": "us_monetary_policy",
+      "date": "2025-12-29 04:07",
+      "link": "https://ts2.tech/en/caterpillar-stock-drifts-into-year-end-as-fed-minutes-loom-and-trading-stays-thin/"
+    },
+    {
+      "headline": "Linde stock barely budges into year-end as Fed minutes loom",
+      "score": 6,
+      "source": "ts2.tech",
+      "sentiment": "neutral",
+      "impact": "Linde plc shares saw minimal movement, slipping 0.03% to $424.77 at the Dec. 26 close, as thin post-Christmas trading characterized Wall Street. Investors are closely watching for the release of Federal Reserve minutes on December 30th for clues on future rate outlook and Linde's next quarterly earn",
+      "category": "us_monetary_policy",
+      "date": "2025-12-29 03:41",
+      "link": "https://ts2.tech/en/linde-stock-barely-budges-into-year-end-as-fed-minutes-loom/"
+    },
+    {
+      "headline": "P&G stock steadies near $145 as year-end trading thins and Fed minutes loom",
+      "score": 6,
+      "source": "ts2.tech",
+      "sentiment": "neutral",
+      "impact": "Procter & Gamble shares ended Friday's trading session up 0.2% at $144.74, holding steady near the $145 level amidst thin year-end trading. Investors are focused on the upcoming Federal Reserve meeting minutes, due Tuesday, for clues on potential rate cuts, and P&G's fiscal second-quarter earnings w",
+      "category": "us_monetary_policy",
+      "date": "2025-12-29 03:08",
+      "link": "https://ts2.tech/en/pg-stock-steadies-near-145-as-year-end-trading-thins-and-fed-minutes-loom/"
+    },
+    {
+      "headline": "Bank of America stock in focus after Moynihan\u2019s Fed warning as markets reopen Monday",
+      "score": 6,
+      "source": "ts2.tech",
+      "sentiment": "neutral",
+      "impact": "Bank of America\u2019s stock is under scrutiny following CEO Brian Moynihan's warning that markets would \"punish people\" if the Federal Reserve loses its independence. Investors are watching for fresh signals on interest rates from upcoming pending home sales data and the Fed's December policy meeting mi",
+      "category": "us_monetary_policy",
+      "date": "2025-12-29 02:28",
+      "link": "https://ts2.tech/en/bank-of-america-stock-in-focus-after-moynihans-fed-warning-as-markets-reopen-monday/"
+    },
+    {
+      "headline": "Check out Big Tree Cloud Holdings Equities Warrants Exp 31 May 2029's stock price (DSYWW) in real time",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "This article provides real-time stock price and key statistics for Big Tree Cloud Holdings Equities Warrants Exp 31 May 2029 (DSYWW) on NASDAQ. It includes current trading figures, 52-week range, and basic company profile information. The company primarily focuses on personal care products in China.",
+      "category": "global_markets",
+      "date": "2025-12-29 01:10",
+      "link": "https://www.cnbc.com/quotes/DSYWW"
+    },
+    {
+      "headline": "News Corp Details Progress of US$2bn Nasdaq Share Repurchase Programs",
+      "score": 6,
+      "source": "TipRanks",
+      "sentiment": "positive",
+      "impact": "News Corp (AU:NWS) has updated shareholders on its existing share repurchase framework, which allows it to buy back up to US$2 billion of its Nasdaq-listed Class A and Class B common stock. These buybacks, authorized in 2021 and expanded in 2025, aim to provide capital management flexibility and imp",
       "category": "us_equities",
-      "date": "2025-12-28 13:09",
-      "link": "https://www.nasdaq.com/press-release/paranovus-entertainment-technology-limited-received-nasdaq-delisting-notice-2025-12"
+      "date": "2025-12-29 00:09",
+      "link": "https://www.tipranks.com/news/company-announcements/news-corp-details-progress-of-us2bn-nasdaq-share-repurchase-programs"
+    },
+    {
+      "headline": "Week ahead: Here are the 3 big things we're watching in the stock market",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "While there are no major earnings scheduled this week, there are macroeconomic updates to watch.",
+      "category": "global_markets",
+      "date": "2025-12-28 22:39",
+      "link": "https://www.cnbc.com/2025/12/28/week-ahead-here-are-the-3-big-things-were-watching-in-the-stock-market.html"
+    },
+    {
+      "headline": "Airlines cancel 1,400 more flights but disruptions from winter storm ease. Here\u2019s what to know",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Airlines waived change fees ahead of a large winter storm and low temperatures after Christmas holiday.",
+      "category": "global_markets",
+      "date": "2025-12-28 17:03",
+      "link": "https://www.cnbc.com/2025/12/26/winter-storm-flight-cancellations.html"
     },
     {
       "headline": "Restaurants' hottest menu item in 2025 was 'value.' That won't change next year",
@@ -164,14 +245,14 @@
       "link": "https://www.cnbc.com/2025/12/28/value-meals-restaurants-mcdonalds-chilis-taco-bell.html"
     },
     {
-      "headline": "Airlines cancel 900 more flights but disruptions from winter storm ease. Here\u2019s what to know",
+      "headline": "Bankruptcies soar as companies grapple with inflation, tariffs",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Airlines waived change fees ahead of a large winter storm and low temperatures after Christmas holiday.",
+      "source": "The Washington Post",
+      "sentiment": "positive",
+      "impact": "Businesses in vulnerable sectors found themselves caught between rising tariffs and beleaguered consumers.",
       "category": "global_markets",
-      "date": "2025-12-27 23:20",
-      "link": "https://www.cnbc.com/2025/12/26/winter-storm-flight-cancellations.html"
+      "date": "2025-12-27 18:00",
+      "link": "https://www.washingtonpost.com/business/2025/12/27/corporate-bankruptcies-economy/"
     },
     {
       "headline": "Morgan Stanley says these are top stock picks in 2026, including Nvidia",
@@ -184,56 +265,6 @@
       "link": "https://www.cnbc.com/2025/12/27/top-stocks-in-2026-include-nvidia.html"
     },
     {
-      "headline": "Data centres turn to aircraft engines to avoid grid connection delays",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "Supply chain shortages drive developers to use smaller and less efficient power sources to fuel AI power demand",
-      "category": "global_markets",
-      "date": "2025-12-27 05:00",
-      "link": "https://www.ft.com/content/8deb1518-b650-4a21-b7d1-3e6180560056"
-    },
-    {
-      "headline": "Year in a word: Stablecoins",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "In spite of efforts to bring it into the mainstream, the cryptocurrency remains one step removed from money",
-      "category": "global_markets",
-      "date": "2025-12-27 05:00",
-      "link": "https://www.ft.com/content/a93cef5f-5bc5-4234-9035-e261de1f01f3"
-    },
-    {
-      "headline": "Global hotel groups bet on customer loyalty to beat online and AI agents",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "positive",
-      "impact": "Companies including Marriott and Hilton push to improve perks and get more direct bookings",
-      "category": "global_markets",
-      "date": "2025-12-27 05:00",
-      "link": "https://www.ft.com/content/b4ee6ec8-cfdc-4f28-b4ab-65baf611125b"
-    },
-    {
-      "headline": "Silver and Gold Prices Rally; Stocks Hold Near Records",
-      "score": 6,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2025-12-26 21:44",
-      "link": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-update-48806b61"
-    },
-    {
-      "headline": "Oil Loses Ground On Russia-Ukraine Peace Efforts",
-      "score": 6,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2025-12-26 20:26",
-      "link": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-amid-geopolitical-tensions-7a58e03a"
-    },
-    {
       "headline": "As the cost of living keeps climbing, Americans are 'trying to muscle through' the affordability crisis, analyst says",
       "score": 6,
       "source": "CNBC",
@@ -242,36 +273,6 @@
       "category": "global_markets",
       "date": "2025-12-26 19:51",
       "link": "https://www.cnbc.com/2025/12/26/how-americans-are-responding-to-the-affordability-crisis.html"
-    },
-    {
-      "headline": "Are dividends better for investors than stock buybacks? It all depends",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Both are positive events with relative pros and cons.",
-      "category": "global_markets",
-      "date": "2025-12-26 19:47",
-      "link": "https://www.cnbc.com/2025/12/26/are-dividends-better-for-investors-than-stock-buybacks-it-all-depends.html"
-    },
-    {
-      "headline": "So long, American exceptionalism",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "negative",
-      "impact": "For the first time, investors are talking about \u2018US risk\u2019",
-      "category": "global_markets",
-      "date": "2025-12-26 18:00",
-      "link": "https://www.ft.com/content/a9f5e37c-dd0f-4681-bddf-f20b6a6ce4e3"
-    },
-    {
-      "headline": "The 15 highest-paying jobs you can land without a 4-year degree, according to new report",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "These jobs are \"very attainable\" without a degree, according to a career expert.",
-      "category": "global_markets",
-      "date": "2025-12-26 17:13",
-      "link": "https://www.cnbc.com/2025/12/26/the-15-highest-paying-jobs-you-can-land-without-a-4-year-degree-says-new-report.html"
     }
   ]
 }
