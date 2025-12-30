@@ -1,26 +1,25 @@
 {
-  "timestamp": "2025-12-30T06:20:41.293783",
+  "timestamp": "2025-12-30T14:25:33.274953",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 9,
+    "avg_relevance": 7.1,
+    "bullish": 10,
     "neutral": 11,
-    "bearish": 5,
-    "high_priority": 8,
-    "material_events": 4
+    "bearish": 4,
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
+    "CNBC": 10,
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "Forbes": 1,
-    "ts2.tech": 5,
-    "MarketWatch": 3
+    "MarketWatch": 4,
+    "The Wall Street Journal": 1
   },
   "top_signals": [
     {
@@ -30,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,8 +59,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate path.",
+      "category": "fixed_income",
+      "date": "2025-12-29 08:46",
+      "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -70,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +109,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -110,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,88 +129,68 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-30 06:20",
+      "date": "2025-12-30 14:25",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Stock futures are little changed after S&P 500 hits fresh record: Live updates",
+      "headline": "S&P 500 hits new highs, flight cancellations, the restaurant industry's value push and more in Morning Squawk",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Here are five key things investors need to know to start the trading day.",
+      "category": "us_equities",
+      "date": "2025-12-29 12:45",
+      "link": "https://www.cnbc.com/2025/12/29/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
+      "headline": "S&P 500 futures slip after benchmark index hits fresh record: Live updates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
       "impact": "Stock futures were little changed Sunday night after the S&P 500 scaled to fresh record levels, with traders set to wrap up a strong 2025.",
       "category": "us_equities",
-      "date": "2025-12-28 23:26",
+      "date": "2025-12-29 12:23",
       "link": "https://www.cnbc.com/2025/12/28/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Market \u2018Will Punish People\u2019 If Trump Influences Federal Reserve, Bank Of America CEO Warns",
-      "score": 7,
-      "source": "Forbes",
-      "sentiment": "negative",
-      "impact": "Trump has long threatened to fire Federal Reserve chair Jerome Powell, raising fears about a non-independent Fed.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-28 20:25",
-      "link": "https://www.forbes.com/sites/alisondurkee/2025/12/28/market-will-punish-people-if-trump-influences-federal-reserve-bank-of-america-ceo-warns/"
-    },
-    {
-      "headline": "ConocoPhillips stock closes higher as oil jumps; inventories and Feb. 5 earnings date in focus",
+      "headline": "Here\u2019s what to expect for commercial real estate in 2026",
       "score": 6,
-      "source": "ts2.tech",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "ConocoPhillips (COP) stock closed 1.2% higher as crude oil prices rose over 2%, despite a delayed U.S. report showing increased crude and gasoline inventories. Traders are closely watching overnight oil market movements and the company's upcoming February 5th earnings call for 2026 guidance. Geopoli",
-      "category": "commodities",
-      "date": "2025-12-30 05:00",
-      "link": "https://ts2.tech/en/conocophillips-stock-closes-higher-as-oil-jumps-inventories-and-feb-5-earnings-date-in-focus/"
+      "impact": "Experts and research firms forecast a year of stabilization and recovery for commercial real estate in 2026. ",
+      "category": "global_markets",
+      "date": "2025-12-30 14:17",
+      "link": "https://www.cnbc.com/2025/12/30/commercial-real-estate-2026-what-to-expect.html"
     },
     {
-      "headline": "Honeywell stock edges down after $58.8 million Army contract update as Fed minutes loom",
-      "score": 6,
-      "source": "ts2.tech",
-      "sentiment": "negative",
-      "impact": "Honeywell International Inc. shares dipped 0.14% after a U.S. Army contract notice showed a $58.79 million modification related to the AGT 1500 engine platform. This minor market movement occurred in thin year-end trading as investors await Federal Reserve minutes, which could influence interest rat",
-      "category": "us_monetary_policy",
-      "date": "2025-12-30 04:35",
-      "link": "https://ts2.tech/en/honeywell-stock-edges-down-after-58-8-million-army-contract-update-as-fed-minutes-loom/"
-    },
-    {
-      "headline": "Medtronic stock slips as year-end trading thins and Fed minutes loom",
-      "score": 6,
-      "source": "ts2.tech",
-      "sentiment": "neutral",
-      "impact": "Medtronic shares closed down 0.4% at $96.15 as year-end trading thins, with investors de-risking and awaiting fresh clues on interest rates from upcoming Federal Reserve minutes. The medical-device maker's decline is attributed to macro positioning rather than company-specific news, though its diabe",
-      "category": "us_monetary_policy",
-      "date": "2025-12-30 04:30",
-      "link": "https://ts2.tech/en/medtronic-stock-slips-as-year-end-trading-thins-and-fed-minutes-loom/"
-    },
-    {
-      "headline": "Deere stock ends higher as Wall Street slips; dividend date and Fed minutes in focus",
-      "score": 6,
-      "source": "ts2.tech",
-      "sentiment": "neutral",
-      "impact": "Deere & Company (NYSE:DE) shares closed higher by 0.28% to $470.24 despite a broader market slip, with investors focusing on upcoming Federal Reserve minutes and jobless claims data. The company is set to trade ex-dividend on December 31, 2025, with a quarterly payout of $1.62 per share declared for",
-      "category": "us_monetary_policy",
-      "date": "2025-12-30 04:25",
-      "link": "https://ts2.tech/en/deere-stock-ends-higher-as-wall-street-slips-dividend-date-and-fed-minutes-in-focus/"
-    },
-    {
-      "headline": "Palo Alto Networks stock dips as insider sales hit SEC filings; Fed minutes next",
-      "score": 6,
-      "source": "ts2.tech",
-      "sentiment": "negative",
-      "impact": "Palo Alto Networks (PANW) shares dipped 0.8% to $186.85 amidst revelations of insider share sales by the CFO and President under Rule 10b5-1 trading plans. This dip occurred during cautious, light holiday trading, with cybersecurity peers also seeing declines. Traders are closely watching Tuesday's ",
-      "category": "us_monetary_policy",
-      "date": "2025-12-30 04:16",
-      "link": "https://ts2.tech/en/__trashed-5/"
-    },
-    {
-      "headline": "\u2018I\u2019m fed up\u2019: My selfish mother-in-law has controlled me for 30 years. How can I regain my power?",
+      "headline": "These stocks doubled the S&P 500\u2019s return in 2025 \u2014 why a 2026 repeat looks likely",
       "score": 6,
       "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Valuation indicators now are extremely bearish for U.S. stocks. Non-U.S. stocks are a much better bet.",
+      "category": "us_equities",
+      "date": "2025-12-30 12:35",
+      "link": "https://www.marketwatch.com/story/these-stocks-doubled-the-s-p-500s-return-in-2025-why-a-2026-repeat-looks-likely-bdc93716"
+    },
+    {
+      "headline": "This trader says AI IPOs and a falling dollar could drive the S&P 500 to 8,200 next year",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Samantha LaDuc has nailed some big calls on stocks in recent years. She sees another S&P 500 high coming in 2026, but an unhappy Main Street.",
+      "category": "us_equities",
+      "date": "2025-12-30 12:06",
+      "link": "https://www.marketwatch.com/story/this-trader-says-ai-ipos-and-a-falling-dollar-could-drive-the-s-p-500-to-8-200-next-year-90c14fe7"
+    },
+    {
+      "headline": "Silver soars after tumbling on Monday, capping 2025 with another wild ride",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "\u201cI\u2019m almost 50 years old. Enough is enough. I am exhausted by it.\u201d",
-      "category": "us_monetary_policy",
-      "date": "2025-12-29 22:37",
-      "link": "https://www.marketwatch.com/story/im-completely-fed-up-my-selfish-boomer-mother-in-law-has-controlled-me-for-30-years-how-can-i-regain-my-power-7d6b82e0?mod=mw_rss_topstories"
+      "impact": "The precious metal rally continued Tuesday as gold and silver recovered from Monday's selloff.",
+      "category": "global_markets",
+      "date": "2025-12-30 09:44",
+      "link": "https://www.cnbc.com/2025/12/30/silver-price-soars-capping-stellar-year-precious-metals.html"
     },
     {
       "headline": "Trump eyes January for announcement of Powell replacement as he renews attacks on Fed chief",
@@ -212,6 +201,16 @@
       "category": "us_monetary_policy",
       "date": "2025-12-29 21:52",
       "link": "https://www.marketwatch.com/story/trump-eyes-january-for-announcement-of-powell-replacement-as-he-renews-attacks-on-fed-chief-914828b2"
+    },
+    {
+      "headline": "GM's record stock performance beats Tesla, Ford and other automakers in 2025",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "General Motors' stock is having its best year since the company's reemergence from bankruptcy in 2009.",
+      "category": "global_markets",
+      "date": "2025-12-29 21:36",
+      "link": "https://www.cnbc.com/2025/12/29/gm-stock-tesla-ford.html"
     },
     {
       "headline": "The Fed has gone into hibernation. Tuesday may bring clues to how long it might wait to emerge.",
@@ -254,24 +253,24 @@
       "link": "https://www.cnbc.com/2025/12/29/were-adding-an-ai-giant-to-the-portfolio-recognizing-things-have-changed.html"
     },
     {
-      "headline": "Add these 2 routines to your workday in 2026, says focus and productivity expert: 'Get more out of your life outside work'",
+      "headline": "Lululemon Founder Chip Wilson Launches Proxy Fight to Change Board",
       "score": 6,
-      "source": "CNBC",
+      "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "Cal Newport, author of several books on focus and productivity, suggests a routine for deep work and a routine that can help manage work anxiety after-hours.",
+      "impact": "Proposal seeks to make boardroom revisions before athletic-apparel company chooses a new CEO",
       "category": "global_markets",
-      "date": "2025-12-29 15:06",
-      "link": "https://www.cnbc.com/2025/12/29/add-these-2-routines-to-your-workday-in-2026-says-focus-and-productivity-expert.html"
+      "date": "2025-12-29 12:30",
+      "link": "https://www.wsj.com/business/lululemon-activist-investor-campaign-70c61e8e"
     },
     {
-      "headline": "Middle managers are getting laid off\u2014but their role is 'more important than ever,' says leadership expert",
+      "headline": "Nvidia takes $5 billion stake in Intel under September agreement",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "As middle management jobs shrink, workplace experts stress the importance of managers, especially in the age of AI.",
+      "impact": "Nvidia has purchased Intel shares worth $5 billion, the \u2060semiconductor firm said in a filing on \u200dMonday, carrying \u200dout \u200da transaction announced in September.",
       "category": "global_markets",
-      "date": "2025-12-29 14:35",
-      "link": "https://www.cnbc.com/2025/12/29/middle-managers-are-getting-laid-offbut-their-role-is-more-important-than-ever-says-leadership-expert.html"
+      "date": "2025-12-29 12:22",
+      "link": "https://www.cnbc.com/2025/12/29/nvidia-takes-5-billion-stake-in-intel-under-september-agreement.html"
     }
   ]
 }
