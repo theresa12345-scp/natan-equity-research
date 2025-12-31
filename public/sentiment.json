@@ -1,25 +1,27 @@
 {
-  "timestamp": "2025-12-30T14:25:33.274953",
+  "timestamp": "2025-12-31T06:20:50.082645",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 10,
-    "neutral": 11,
-    "bearish": 4,
-    "high_priority": 9,
-    "material_events": 5
+    "avg_relevance": 7.0,
+    "bullish": 11,
+    "neutral": 9,
+    "bearish": 5,
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 10,
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 4,
-    "The Wall Street Journal": 1
+    "MarketWatch": 2,
+    "CNBC": 8,
+    "Convenience.org": 1,
+    "ts2.tech": 3,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,18 +61,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate path.",
-      "category": "fixed_income",
-      "date": "2025-12-29 08:46",
-      "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -79,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -89,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -99,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -109,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -119,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,28 +121,128 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2025-12-30 14:25",
+      "date": "2025-12-31 06:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "S&P 500 hits new highs, flight cancellations, the restaurant industry's value push and more in Morning Squawk",
+      "headline": "Interest rates could be on hold \u2018for some time,\u2019 Fed minutes show",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Here are five key things investors need to know to start the trading day.",
-      "category": "us_equities",
-      "date": "2025-12-29 12:45",
-      "link": "https://www.cnbc.com/2025/12/29/5-things-to-know-before-the-stock-market-opens.html"
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "A pause would give Fed time to assess the effects of the three rate cuts made this year.",
+      "category": "us_monetary_policy",
+      "date": "2025-12-30 19:13",
+      "link": "https://www.marketwatch.com/story/interest-rates-could-be-on-hold-for-some-time-fed-minutes-show-f799db89"
     },
     {
-      "headline": "S&P 500 futures slip after benchmark index hits fresh record: Live updates",
+      "headline": "Stock futures are little changed after S&P 500 posts back-to-back losses: Live updates",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Stock futures were little changed Sunday night after the S&P 500 scaled to fresh record levels, with traders set to wrap up a strong 2025.",
+      "sentiment": "negative",
+      "impact": "Stocks slipped on Monday as investors sold their tech holdings heading into the end of 2025.",
       "category": "us_equities",
-      "date": "2025-12-29 12:23",
-      "link": "https://www.cnbc.com/2025/12/28/stock-market-today-live-updates.html"
+      "date": "2025-12-30 00:16",
+      "link": "https://www.cnbc.com/2025/12/29/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Treasury Issues Guidance for Penny Shortage",
+      "score": 7,
+      "source": "Convenience.org",
+      "sentiment": "neutral",
+      "impact": "Plus,\u202fthe House Committee\u202fpresses\u202fthe Fed to increase penny recirculation.",
+      "category": "fixed_income",
+      "date": "2025-12-29 17:31",
+      "link": "https://www.convenience.org/Media/Daily/2025/December/29/1-Treasury_Issues_Guidance_for_Penny_Shortage_GR"
+    },
+    {
+      "headline": "ConocoPhillips stock rises as oil steadies; Australia gas well update and Feb. 5 earnings in focus",
+      "score": 6,
+      "source": "ts2.tech",
+      "sentiment": "positive",
+      "impact": "ConocoPhillips shares rose about 1.6% to $94.10, influenced by steadying oil prices despite a choppy trading day. The company is preparing for its fourth-quarter results release and 2026 guidance conference call on February 5. Uncertainty surrounds a drilling project offshore Australia, which was pa",
+      "category": "commodities",
+      "date": "2025-12-31 04:41",
+      "link": "https://ts2.tech/en/conocophillips-stock-rises-as-oil-steadies-australia-gas-well-update-and-feb-5-earnings-in-focus/"
+    },
+    {
+      "headline": "John Kent Walker Sells 17,829 Shares of Alphabet (NASDAQ:GOOGL) Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Alphabet insider John Kent Walker sold 17,829 shares of Alphabet (NASDAQ:GOOGL) stock on December 30, 2025, for a total of $5,614,173.81, reducing his stake by 29.32%. The company recently reported strong quarterly earnings, beating analyst expectations, and announced a quarterly dividend. Analyst s",
+      "category": "us_equities",
+      "date": "2025-12-31 04:37",
+      "link": "https://www.marketbeat.com/instant-alerts/john-kent-walker-sells-17829-shares-of-alphabet-nasdaqgoogl-stock-2025-12-30/"
+    },
+    {
+      "headline": "Prologis stock ticks up as Fed minutes sharpen rate watch heading into New Year\u2019s Eve session",
+      "score": 6,
+      "source": "ts2.tech",
+      "sentiment": "positive",
+      "impact": "Prologis (PLD) stock rose 0.4% to $129.01 in Tuesday's session as Federal Reserve minutes indicated a \"finely balanced\" December rate cut, influencing interest-rate expectations among REITs. Investors are now looking forward to New Year's Eve data and Prologis's fourth-quarter results call on Januar",
+      "category": "us_monetary_policy",
+      "date": "2025-12-31 04:27",
+      "link": "https://ts2.tech/en/prologis-stock-ticks-up-as-fed-minutes-sharpen-rate-watch-heading-into-new-years-eve-session/"
+    },
+    {
+      "headline": "Union Pacific stock slips as rivals press regulators to reject Norfolk Southern merger filing; UNP sets Q4 earnings date",
+      "score": 6,
+      "source": "ts2.tech",
+      "sentiment": "negative",
+      "impact": "Union Pacific shares declined after rival railroads urged the Surface Transportation Board to deem its merger application with Norfolk Southern incomplete. The STB is currently conducting a \"completeness\" review of the $85 billion deal, and a decision to reject the application would reset the review",
+      "category": "corporate_earnings",
+      "date": "2025-12-31 04:12",
+      "link": "https://ts2.tech/en/union-pacific-stock-slips-as-rivals-press-regulators-to-reject-norfolk-southern-merger-filing-unp-sets-q4-earnings-date/"
+    },
+    {
+      "headline": "\u2018I\u2019m fed up\u2019: My selfish mother-in-law has controlled me for 30 years. How can I regain my power?",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "\u201cI\u2019m almost 50 years old. Enough is enough. I am exhausted by it.\u201d",
+      "category": "us_monetary_policy",
+      "date": "2025-12-30 22:00",
+      "link": "https://www.marketwatch.com/story/im-completely-fed-up-my-selfish-boomer-mother-in-law-has-controlled-me-for-30-years-how-can-i-regain-my-power-7d6b82e0?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Tech startup Hyphen is bringing AI to the lunch line \u2014 with help from Cava and Chipotle",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Hyphen aims to make service better and more efficient, and it has investors including Cava and Chipotle.",
+      "category": "global_markets",
+      "date": "2025-12-30 18:42",
+      "link": "https://www.cnbc.com/2025/12/30/hyphen-automated-makelines-investments-cava-chipotle.html"
+    },
+    {
+      "headline": "Home prices are getting slightly more affordable, but down payments are still holding buyers back",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Housing is getting more affordable thanks to lower prices and lower mortgage rates, but it still takes more time to save for a down payment than pre-pandemic.",
+      "category": "us_equities",
+      "date": "2025-12-30 17:56",
+      "link": "https://www.cnbc.com/2025/12/30/home-prices-affordable-down-payments-buyers.html"
+    },
+    {
+      "headline": "These restaurant chains closed locations in 2025",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Chains like Starbucks, Wendy's and Denny's announced plans to close underperforming restaurants in 2025.",
+      "category": "global_markets",
+      "date": "2025-12-30 17:10",
+      "link": "https://www.cnbc.com/2025/12/30/2025-restaurant-closures-starbucks-wendys.html"
+    },
+    {
+      "headline": "33-year-old left fine dining to become a private chef. Now she works up to 25 hours a week and makes 'the same income'\u2014'I really enjoy the freedom'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Cintia Diaz, 33, left fine dining to become a private chef in New York City. She says it's helped her work-life balance, as she works 20 to 25 hours a week now.",
+      "category": "global_markets",
+      "date": "2025-12-30 16:10",
+      "link": "https://www.cnbc.com/2025/12/30/33-year-old-left-the-restaurant-business-to-become-a-private-chef.html"
     },
     {
       "headline": "Here\u2019s what to expect for commercial real estate in 2026",
@@ -159,118 +251,28 @@
       "sentiment": "positive",
       "impact": "Experts and research firms forecast a year of stabilization and recovery for commercial real estate in 2026. ",
       "category": "global_markets",
-      "date": "2025-12-30 14:17",
+      "date": "2025-12-30 15:15",
       "link": "https://www.cnbc.com/2025/12/30/commercial-real-estate-2026-what-to-expect.html"
     },
     {
-      "headline": "These stocks doubled the S&P 500\u2019s return in 2025 \u2014 why a 2026 repeat looks likely",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Valuation indicators now are extremely bearish for U.S. stocks. Non-U.S. stocks are a much better bet.",
-      "category": "us_equities",
-      "date": "2025-12-30 12:35",
-      "link": "https://www.marketwatch.com/story/these-stocks-doubled-the-s-p-500s-return-in-2025-why-a-2026-repeat-looks-likely-bdc93716"
-    },
-    {
-      "headline": "This trader says AI IPOs and a falling dollar could drive the S&P 500 to 8,200 next year",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Samantha LaDuc has nailed some big calls on stocks in recent years. She sees another S&P 500 high coming in 2026, but an unhappy Main Street.",
-      "category": "us_equities",
-      "date": "2025-12-30 12:06",
-      "link": "https://www.marketwatch.com/story/this-trader-says-ai-ipos-and-a-falling-dollar-could-drive-the-s-p-500-to-8-200-next-year-90c14fe7"
-    },
-    {
-      "headline": "Silver soars after tumbling on Monday, capping 2025 with another wild ride",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The precious metal rally continued Tuesday as gold and silver recovered from Monday's selloff.",
-      "category": "global_markets",
-      "date": "2025-12-30 09:44",
-      "link": "https://www.cnbc.com/2025/12/30/silver-price-soars-capping-stellar-year-precious-metals.html"
-    },
-    {
-      "headline": "Trump eyes January for announcement of Powell replacement as he renews attacks on Fed chief",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "President Donald Trump on Monday revived his threat to sue over Federal Reserve building renovations.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-29 21:52",
-      "link": "https://www.marketwatch.com/story/trump-eyes-january-for-announcement-of-powell-replacement-as-he-renews-attacks-on-fed-chief-914828b2"
-    },
-    {
-      "headline": "GM's record stock performance beats Tesla, Ford and other automakers in 2025",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "General Motors' stock is having its best year since the company's reemergence from bankruptcy in 2009.",
-      "category": "global_markets",
-      "date": "2025-12-29 21:36",
-      "link": "https://www.cnbc.com/2025/12/29/gm-stock-tesla-ford.html"
-    },
-    {
-      "headline": "The Fed has gone into hibernation. Tuesday may bring clues to how long it might wait to emerge.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Federal Reserve officials are clearly divided about whether higher inflation or a weaker economy is the bigger risk going forward.",
-      "category": "us_monetary_policy",
-      "date": "2025-12-29 21:23",
-      "link": "https://www.marketwatch.com/story/the-fed-has-gone-into-hibernation-tuesday-may-bring-clues-to-how-long-it-might-wait-to-emerge-7ee04f6c"
-    },
-    {
-      "headline": "How to successfully handle end-of-year work stress, from experts: \u2018Embrace your inner toddler\u2019",
+      "headline": "Your work calendar is a mess. Use these expert tips to declutter and free up time heading into 2026.",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Mitigate your end-of-year work stress by celebrating small wins, listening to your mind and body, setting boundaries and living like a toddler, experts say.",
+      "impact": "Experts shared tips for cleaning up and better managing your work calendar in 2026.",
       "category": "global_markets",
-      "date": "2025-12-29 20:18",
-      "link": "https://www.cnbc.com/2025/12/29/how-to-successfully-handle-end-of-year-work-stress-from-experts-embrace-your-inner-toddler.html"
+      "date": "2025-12-30 15:05",
+      "link": "https://www.cnbc.com/2025/12/30/how-to-make-your-work-calendar-feel-less-overwhelming-in-2026.html"
     },
     {
-      "headline": "American parents said social media and screen time were among the top health concerns for their kids in 2025",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "To lower kids' screen time, experts recommend keeping screens out of bedrooms and having a special place for devices in the house.",
-      "category": "global_markets",
-      "date": "2025-12-29 19:25",
-      "link": "https://www.cnbc.com/2025/12/29/most-parents-think-their-kids-mental-health-is-getting-worse.html"
-    },
-    {
-      "headline": "We're adding this AI giant back to the portfolio, recognizing things have changed",
+      "headline": "If you want people to say 'yes' to you more often, use these 4 easy phrases: Psychology expert",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "We can't let a bad call cloud our future thinking. Facts change, and we reconsider our investment theses.",
+      "impact": "If you want to be more persuasive in both work and life, psychology expert Shad\u00e9 Zahrai shares her most \"counterintuitive\" advice for getting people to say \"yes.\"",
       "category": "global_markets",
-      "date": "2025-12-29 17:44",
-      "link": "https://www.cnbc.com/2025/12/29/were-adding-an-ai-giant-to-the-portfolio-recognizing-things-have-changed.html"
-    },
-    {
-      "headline": "Lululemon Founder Chip Wilson Launches Proxy Fight to Change Board",
-      "score": 6,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Proposal seeks to make boardroom revisions before athletic-apparel company chooses a new CEO",
-      "category": "global_markets",
-      "date": "2025-12-29 12:30",
-      "link": "https://www.wsj.com/business/lululemon-activist-investor-campaign-70c61e8e"
-    },
-    {
-      "headline": "Nvidia takes $5 billion stake in Intel under September agreement",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Nvidia has purchased Intel shares worth $5 billion, the \u2060semiconductor firm said in a filing on \u200dMonday, carrying \u200dout \u200da transaction announced in September.",
-      "category": "global_markets",
-      "date": "2025-12-29 12:22",
-      "link": "https://www.cnbc.com/2025/12/29/nvidia-takes-5-billion-stake-in-intel-under-september-agreement.html"
+      "date": "2025-12-30 14:30",
+      "link": "https://www.cnbc.com/2025/12/30/psychology-expert-4-phrases-that-will-get-people-to-say-yes-to-you-more-often.html"
     }
   ]
 }
