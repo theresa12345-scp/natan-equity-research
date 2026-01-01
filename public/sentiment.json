@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-01T06:20:59.427827",
+  "timestamp": "2026-01-01T14:23:46.171535",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 6.9,
-    "bullish": 12,
-    "neutral": 10,
-    "bearish": 3,
-    "high_priority": 8,
+    "avg_relevance": 7.0,
+    "bullish": 13,
+    "neutral": 8,
+    "bearish": 4,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,16 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 2,
+    "Bloomberg": 3,
+    "CNBC": 9,
     "Caixin/S&P Global": 1,
-    "MarketBeat": 3,
-    "Investing.com": 1,
-    "TipRanks": 2,
-    "Investing.com Canada": 1,
+    "Stock Titan": 1,
     "AD HOC NEWS": 1,
-    "Finviz": 1,
     "MarketWatch": 2,
-    "CNBC": 4
+    "Financial Times": 1
   },
   "top_signals": [
     {
@@ -34,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -44,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -54,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -64,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -74,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -84,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -94,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -104,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "10-year Treasury yield dips as investors await final economic data of 2025",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The U.S. 10-year Treasury was slightly lower on Wednesday as investors take stock ahead of the new year.",
+      "category": "fixed_income",
+      "date": "2025-12-31 09:23",
+      "link": "https://www.cnbc.com/2025/12/31/10-year-treasury-yield-in-focus-as-investors-monitor-economic-data.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -114,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -124,98 +131,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-01 06:20",
+      "date": "2026-01-01 14:23",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Pliant Therapeutics, Inc. (NASDAQ:PLRX) Short Interest Down 20.3% in December",
+      "headline": "Minimum wage just went up in 19 states\u2014workers in one state are getting a $2 an hour raise",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Pliant Therapeutics, Inc. (NASDAQ:PLRX) experienced a significant 20.3% drop in short interest in December, with the total short interest falling to 3,182,879 shares. The short-interest ratio for PLRX is currently 1.2 days, and institutional investors own a substantial 97.3% of the stock. Despite a ",
-      "category": "us_equities",
-      "date": "2026-01-01 05:08",
-      "link": "https://www.marketbeat.com/instant-alerts/pliant-therapeutics-inc-nasdaqplrx-short-interest-down-203-in-december-2025-12-31/"
-    },
-    {
-      "headline": "Laser Photonics stock rises after regaining Nasdaq compliance",
-      "score": 6,
-      "source": "Investing.com",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Laser Photonics Corporation (NASDAQ:LASE) stock saw a 1.7% increase today after the company announced it has regained compliance with Nasdaq\u2019s listing requirements. This follows the timely filing of its Form 10-Q for the quarter ended September 30, 2025, which resolved a significant regulatory conce",
-      "category": "us_equities",
-      "date": "2026-01-01 05:08",
-      "link": "https://www.investing.com/news/stock-market-news/laser-photonics-stock-rises-after-regaining-nasdaq-compliance-93CH-4426618"
+      "impact": "More than 8.3 million workers are expected to benefit from minimum wage hikes in 19 states including Arizona, California, Michigan, New Jersey and New York.",
+      "category": "global_markets",
+      "date": "2026-01-01 13:30",
+      "link": "https://www.cnbc.com/2026/01/01/minimum-wage-just-went-up-in-these-us-states-starting-january-2026.html"
     },
     {
-      "headline": "Laser Photonics Regains Compliance With Nasdaq Listing Rules",
+      "headline": "Modular Medical Receives 180-Day Extension to Regain Compliance with Nasdaq Minimum Bid Price Rule",
       "score": 6,
-      "source": "TipRanks",
+      "source": "Stock Titan",
       "sentiment": "neutral",
-      "impact": "Laser Photonics Corporation (LASE) announced on December 30, 2025, that it has regained compliance with Nasdaq Listing Rule 5250(c)(1). This was achieved after the company filed its delayed Form 10-Q for the quarter ended September 30, 2025, addressing a non-compliance notice issued on November 20, ",
+      "impact": "Modular Medical (NASDAQ: MODD) has been granted a 180-day extension by Nasdaq to regain compliance with the minimum bid price rule, moving the deadline to June 29, 2026. The company needs its stock to close at $1.00 or more for 10 consecutive business days before this date to avoid potential delisti",
       "category": "us_equities",
-      "date": "2026-01-01 05:08",
-      "link": "https://www.tipranks.com/news/company-announcements/laser-photonics-regains-compliance-with-nasdaq-listing-rules"
+      "date": "2026-01-01 13:09",
+      "link": "https://www.stocktitan.net/news/MODD/modular-medical-receives-180-day-extension-to-regain-compliance-with-upjogrnh2k74.html"
     },
     {
-      "headline": "Gogo Inc. (NASDAQ:GOGO) Sees Significant Drop in Short Interest",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Gogo Inc. (NASDAQ:GOGO) experienced a significant 16.8% decrease in short interest in December, reducing the total shorted shares to about 16.9 million, or 17% of the company's shares. This signals reduced bearish sentiment, further supported by insider buying from Oakleigh Thorne and increased inst",
-      "category": "us_equities",
-      "date": "2026-01-01 05:08",
-      "link": "https://www.marketbeat.com/instant-alerts/gogo-inc-nasdaqgogo-sees-significant-drop-in-short-interest-2025-12-31/"
-    },
-    {
-      "headline": "HCW Biologics Restructures Obligations to Regain Nasdaq Compliance",
-      "score": 6,
-      "source": "TipRanks",
-      "sentiment": "neutral",
-      "impact": "HCW Biologics (HCWB) has restructured its financial obligations to regain compliance with Nasdaq's minimum stockholders' equity requirement. The company undertook warrant inducement transactions, utilized its Standby Equity Line of Credit, and settled legal fees, collectively boosting its stockholde",
-      "category": "us_equities",
-      "date": "2026-01-01 05:08",
-      "link": "https://www.tipranks.com/news/company-announcements/hcw-biologics-restructures-obligations-to-regain-nasdaq-compliance"
-    },
-    {
-      "headline": "Knorex reports strong q4 ad spend despite first-half revenue decline",
-      "score": 6,
-      "source": "Investing.com Canada",
-      "sentiment": "positive",
-      "impact": "Knorex Ltd. reported a strong Q4 in ad spend through its XPO platform, despite a revenue decline in the first half of 2025 due to a major client loss. The AI-driven programmatic advertising platform provider, which recently listed on NYSE American, is now focusing on diversifying its customer base a",
-      "category": "corporate_earnings",
-      "date": "2026-01-01 05:08",
-      "link": "https://ca.investing.com/news/company-news/knorex-reports-strong-q4-ad-spend-despite-firsthalf-revenue-decline-93CH-4382599"
-    },
-    {
-      "headline": "Devon Energy Stock: Energy Cycles, Shareholder Cash, and a Market Caught Between Yield and Volatilit",
+      "headline": "FirstEnergy Corp. stock: Quiet chart, loud questions as investors weigh yield against regulatory ris",
       "score": 6,
       "source": "AD HOC NEWS",
       "sentiment": "neutral",
-      "impact": "Devon Energy (DVN) stock has seen recent declines linked to crude price volatility, prompting investors to question if it's a value opportunity or a warning signal for future energy prices. Despite the short-term pullback, the company's strong cash return profile from its U.S. shale operations, part",
+      "impact": "FirstEnergy Corp. stock has seen sideways trading recently, presenting a dilemma for investors balancing its strong dividend yield against persistent legal and regulatory issues. While the company has shown modest positive total returns over the last year due to dividends and has received cautiously",
       "category": "fixed_income",
-      "date": "2026-01-01 05:07",
-      "link": "https://www.ad-hoc-news.de/boerse/ueberblick/devon-energy-stock-energy-cycles-shareholder-cash-and-a-market-caught/68445169"
-    },
-    {
-      "headline": "Orrstown Financial Services Inc (NASDAQ:ORRF) Short Interest Down 16.5% in December",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Orrstown Financial Services Inc (NASDAQ:ORRF) experienced a 16.5% decrease in short interest during December, totaling 326,306 shares as of December 15th. This represents about 1.8% of the company's float, with a days-to-cover ratio of 0.8 days. The stock trades at $35.49, has a market capitalizatio",
-      "category": "us_equities",
-      "date": "2026-01-01 04:09",
-      "link": "https://www.marketbeat.com/instant-alerts/orrstown-financial-services-inc-nasdaqorrf-short-interest-down-165-in-december-2025-12-31/"
-    },
-    {
-      "headline": "Will OSI (OSIS) Beat Estimates Again in Its Next Earnings Report?",
-      "score": 6,
-      "source": "Finviz",
-      "sentiment": "positive",
-      "impact": "OSI Systems (OSIS), a manufacturer in the Electronics - Miscellaneous Components industry, is on a streak of beating earnings estimates, with an average surprise of 2.61% over the last two quarters. With a positive Zacks Earnings ESP of +1.98% and a Zacks Rank #2 (Buy), the company is well-positione",
-      "category": "corporate_earnings",
-      "date": "2026-01-01 04:09",
-      "link": "https://finviz.com/news/265401/will-osi-osis-beat-estimates-again-in-its-next-earnings-report"
+      "date": "2026-01-01 12:49",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/firstenergy-corp-stock-quiet-chart-loud-questions-as-investors-weigh/68448398"
     },
     {
       "headline": "\u2018I\u2019m fed up\u2019: My selfish mother-in-law has controlled me for 30 years. How can I regain my power?",
@@ -276,6 +223,56 @@
       "category": "global_markets",
       "date": "2025-12-31 14:28",
       "link": "https://www.cnbc.com/2025/12/31/the-clubs-top-10-things-to-watch-in-the-stock-market-wednesday.html"
+    },
+    {
+      "headline": "27-year-old quit her 9-to-5 to start a floral business\u2014this year, she brought in 6 figures and designed bouquets for Sabrina Carpenter, Katy Perry",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Colleen McCarthy began designing flower arrangements in 2022. Today, she's created bouquets for stars like Sabrina Carpenter and Katy Perry.",
+      "category": "global_markets",
+      "date": "2025-12-31 14:15",
+      "link": "https://www.cnbc.com/2025/12/31/27-year-old-quit-her-9-to-5-to-start-a-floral-businessthis-year-she-brought-in-6-figures.html"
+    },
+    {
+      "headline": "Nike shares move higher on big insider purchases by CEO Elliott Hill, director Tim Cook after down year",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The retailer's insiders picked up shares near the end of a rough year.",
+      "category": "us_equities",
+      "date": "2025-12-31 13:58",
+      "link": "https://www.cnbc.com/2025/12/31/nike-shares-insider-buying-tim-cook.html"
+    },
+    {
+      "headline": "Xi Jinping says China has hit 2025 growth target",
+      "score": 6,
+      "source": "Financial Times",
+      "sentiment": "positive",
+      "impact": "Leader hails \u2018new heights\u2019 for economy, technology and defence in year racked by trade turmoil",
+      "category": "asia_economy",
+      "date": "2025-12-31 08:52",
+      "link": "https://www.ft.com/content/fc8efdaf-a90c-45b9-912f-192ae1720e6a"
+    },
+    {
+      "headline": "CME Hikes Precious-Metal Margins Again After Price Swings",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "CME Group will raise margins on precious-metal futures for the second time in the space of a week following a volatile period of trading that saw prices spike then retreat.",
+      "category": "global_markets",
+      "date": "2025-12-31 07:39",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-31/cme-hikes-precious-metal-margins-again-after-wild-price-swings"
+    },
+    {
+      "headline": "European markets open mixed on last trading day of 2025; Defense stocks rise",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "European stocks opened mixed on Wednesday, the last trading day of the year, with defense stocks taking the lead.",
+      "category": "global_markets",
+      "date": "2025-12-31 06:13",
+      "link": "https://www.cnbc.com/2025/12/31/european-markets-on-december-31-stoxx-600-ftse-dax-cac.html"
     }
   ]
 }
