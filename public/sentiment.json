@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-01-04T14:21:43.196607",
+  "timestamp": "2026-01-05T06:26:13.408202",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
     "bullish": 12,
-    "neutral": 11,
-    "bearish": 2,
+    "neutral": 10,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -15,14 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 2,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
     "CNBC": 8,
-    "Financial Times": 1,
-    "Barron's": 2,
-    "Federal News Network": 1,
-    "Yahoo Entertainment": 1
+    "MarketWatch": 1,
+    "TradingView \u2014 Track All Markets": 2,
+    "Bloomberg.com": 1,
+    "Financial Times": 2
   },
   "top_signals": [
     {
@@ -32,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -112,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,8 +121,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-04 14:21",
+      "date": "2026-01-05 06:26",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "After a bruising 2025, the Fed faces another slew of challenges in the year ahead",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The central bank heads into 2026 facing a slew of political and policy challenges.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-03 14:37",
+      "link": "https://www.cnbc.com/2026/01/03/federal-reserve-powell-face-challenges-in-2026.html"
     },
     {
       "headline": "U.S. on verge of unemployment surge that forces Fed to slash rates, Wall Street veteran says",
@@ -146,14 +155,74 @@
       "link": "https://www.cnbc.com/2026/01/02/4-of-our-stocks-are-helping-nasdaqs-rise-friday-why-apple-isnt-one-.html"
     },
     {
-      "headline": "\u2018I\u2019m fed up\u2019: My selfish mother-in-law has controlled me for 30 years. How can I regain my power?",
+      "headline": "US 10-Year Yield Steady as Key Data Eyed",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "TradingView \u2014 Track All Markets",
+      "sentiment": "neutral",
+      "impact": "The yield on the 10-year US Treasury note remained stable around 4.19%, near four-month highs, as investors anticipate key US economic data that could influence Federal Reserve policy. Markets are focusing on December's jobs report, JOLTS, ADP figures, ISM PMIs, and the Michigan consumer confidence ",
+      "category": "fixed_income",
+      "date": "2026-01-05 04:22",
+      "link": "https://www.tradingview.com/news/te_news:514220:0-us-10-year-yield-steady-as-key-data-eyed/"
+    },
+    {
+      "headline": "NST: Production guidance lowered after operational setbacks, but outlook remains strong with key projects on track",
+      "score": 6,
+      "source": "TradingView \u2014 Track All Markets",
+      "sentiment": "neutral",
+      "impact": "Northern Star Resources Ltd (NST) has revised its annual production guidance downwards due to operational setbacks, but most issues are resolved, and assets are returning to normal. The company maintains confidence in its second-half targets, supported by a new Fimiston plant and strong stockpiles, ",
+      "category": "corporate_earnings",
+      "date": "2026-01-05 04:19",
+      "link": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:2548382:0-nst-production-guidance-lowered-after-operational-setbacks-but-outlook-remains-strong-with-key-projects-on-track/"
+    },
+    {
+      "headline": "TSMC Shares Jump Most Since April After Goldman Lifts Target 35%",
+      "score": 6,
+      "source": "Bloomberg.com",
       "sentiment": "positive",
-      "impact": "\u201cI\u2019m almost 50 years old. Enough is enough. I am exhausted by it.\u201d",
-      "category": "us_monetary_policy",
-      "date": "2026-01-03 22:00",
-      "link": "https://www.marketwatch.com/story/im-completely-fed-up-my-selfish-boomer-mother-in-law-has-controlled-me-for-30-years-how-can-i-regain-my-power-7d6b82e0?mod=mw_rss_topstories"
+      "impact": "Taiwan Semiconductor Manufacturing Co. (TSMC) shares experienced their largest jump since April, reaching a new record high after Goldman Sachs Group Inc. increased its price target by 35% to NT$2,330. This surge is attributed to continued optimism surrounding artificial intelligence demand, benefit",
+      "category": "commodities",
+      "date": "2026-01-05 03:51",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-05/tsmc-shares-jump-most-since-april-after-goldman-lifts-target-35"
+    },
+    {
+      "headline": "Forget all the bubble talk \u2014 here's why you need to own AI stocks in 2026",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "There isn't enough air to inflate a bubble, so how can it be popped?",
+      "category": "global_markets",
+      "date": "2026-01-04 19:24",
+      "link": "https://www.cnbc.com/2026/01/04/cramer-forget-the-bubble-talk-why-you-need-to-own-ai-stocks-in-2026.html"
+    },
+    {
+      "headline": "Here are the 3 big things we're watching in the stock market this week",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Our focus will be on macroeconomic updates and geopolitical headlines.",
+      "category": "global_markets",
+      "date": "2026-01-04 16:53",
+      "link": "https://www.cnbc.com/2026/01/04/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html"
+    },
+    {
+      "headline": "To influence people, do 5 simple things, says expert: These 'powerful behaviors' make a big difference",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Influence isn't some \"magical quality\" you're born with, it's a set of learnable actions, says executive coach and human behavior expert Melody Wilding.",
+      "category": "global_markets",
+      "date": "2026-01-04 12:15",
+      "link": "https://www.cnbc.com/2026/01/04/to-influence-people-do-these-simple-things-says-expert-these-powerful-behaviors-make-a-big-difference.html"
+    },
+    {
+      "headline": "Asian stocks enter 2026 under cloud of AI valuation risks, policy divergence",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Asian stocks face challenges in 2026 due to AI valuation concerns and divergent policies amid recent strong performances.",
+      "category": "asia_economy",
+      "date": "2026-01-04 04:03",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-04/ai-bubble-fears-and-policy-splits-loom-over-asia-stocks-in-2026"
     },
     {
       "headline": "U.S. indictment against Venezuela President Maduro, wife is unsealed",
@@ -166,6 +235,16 @@
       "link": "https://www.cnbc.com/2026/01/03/maduro-indictment-drugs-venezuela.html"
     },
     {
+      "headline": "Bank of America expects a boost in dividends in 2026. These stocks have payouts that beat the market",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Bank of America's Savita Subramanian expects stocks\u2019 dividend growth will rise year over year in 2026.",
+      "category": "global_markets",
+      "date": "2026-01-03 14:43",
+      "link": "https://www.cnbc.com/2026/01/03/bank-of-america-expects-a-boost-in-dividend-growth-in-2026.html"
+    },
+    {
       "headline": "Trump orders Chinese-controlled firm to unwind chip asset deal, citing national security risks",
       "score": 6,
       "source": "CNBC",
@@ -176,104 +255,24 @@
       "link": "https://www.cnbc.com/2026/01/03/trump-orders-unwind-chinese-chip-acquisition-emcore-hiefo-emcore-velocity-one-navgiation-gyro.html"
     },
     {
-      "headline": "London emerges as frontline in US-China battle over robotaxis",
+      "headline": "Gold tipped to extend record-breaking rally in 2026",
       "score": 6,
       "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "Waymo and Baidu prepare to launch autonomous ride-hailing vehicles in UK capital as soon as 2026",
-      "category": "asia_economy",
+      "sentiment": "positive",
+      "impact": "Analysts predict further gains for bullion after 64% rally last year",
+      "category": "commodities",
       "date": "2026-01-03 05:00",
-      "link": "https://www.ft.com/content/a507f9d0-c0b2-43e3-9e2b-7ea04dbdb8d4"
+      "link": "https://www.ft.com/content/a2b62f00-3174-4818-9a90-7489fc9be6d8"
     },
     {
-      "headline": "Stock Market News From Jan. 2, 2026: Dow, S&P 500 End Losing Streaks",
+      "headline": "Electric vehicle sales set for slowest growth since pandemic",
       "score": 6,
-      "source": "Barron's",
-      "sentiment": "neutral",
-      "impact": "The Dow and S&P both snapped their four-day losing streaks, but the Nasdaq couldn't seal the deal on Friday.",
-      "category": "us_equities",
-      "date": "2026-01-02 23:19",
-      "link": "https://www.barrons.com/livecoverage/stock-market-news-today-010225"
-    },
-    {
-      "headline": "3 credit card and travel deals that feel too good to last",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "These credit cards and award prices buck the trends. The only question is, for how long?",
-      "category": "fixed_income",
-      "date": "2026-01-02 20:36",
-      "link": "https://www.cnbc.com/select/credit-card-travel-deals-that-wont-last-forever/"
-    },
-    {
-      "headline": "What spooked Palo Alto investors in 2025 could accelerate growth in the year ahead",
-      "score": 6,
-      "source": "CNBC",
+      "source": "Financial Times",
       "sentiment": "positive",
-      "impact": "The same acquisitions that spooked Palo Alto investors this year could accelerate its growth in 2026.",
+      "impact": "Contraction in US and cooling Chinese demand are expected hurdles for market",
       "category": "global_markets",
-      "date": "2026-01-02 19:48",
-      "link": "https://www.cnbc.com/2026/01/02/what-spooked-palo-alto-investors-in-2025-could-accelerate-growth-in-2026.html"
-    },
-    {
-      "headline": "Stronger Global Growth Could Reignite Inflation Risks in 2026",
-      "score": 6,
-      "source": "Barron's",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "global_markets",
-      "date": "2026-01-02 19:07",
-      "link": "https://www.barrons.com/articles/global-growth-inflation-risk-2026-ad706553"
-    },
-    {
-      "headline": "AI may not be the federal buzzword for 2026",
-      "score": 6,
-      "source": "Federal News Network",
-      "sentiment": "neutral",
-      "impact": "Federal News Network asked federal acquisition and IT experts what initiatives they are paying close attention to in the new year.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-02 18:38",
-      "link": "https://federalnewsnetwork.com/reporters-notebook/2026/01/ai-may-not-be-the-federal-buzzword-for-2026/"
-    },
-    {
-      "headline": "What's the difference between trading and investing? It's more than time horizon",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "There are more subtle distinctions that all begin with your mindset.",
-      "category": "global_markets",
-      "date": "2026-01-02 18:23",
-      "link": "https://www.cnbc.com/2026/01/02/difference-between-trading-and-investing-its-more-than-time-horizon.html"
-    },
-    {
-      "headline": "'Queen City' Charlotte was the king of the stock market in 2025",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Lithium and steel outshined A.I. in 2025, at least when it comes to CNBC's exclusive Power City Indexes.",
-      "category": "global_markets",
-      "date": "2026-01-02 18:05",
-      "link": "https://www.cnbc.com/2026/01/02/queen-city-charlotte-was-the-king-of-the-stock-market-in-2025.html"
-    },
-    {
-      "headline": "We're buying the dip in this consumer staples stock that's teed up for a bounce",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "We're taking advantage of this dip to lower our average cost basis and pick up stock with a dividend yield of roughly 3%.",
-      "category": "global_markets",
-      "date": "2026-01-02 17:22",
-      "link": "https://www.cnbc.com/2026/01/02/were-buying-the-dip-in-this-consumer-staples-stock-teed-up-for-a-bounce.html"
-    },
-    {
-      "headline": "Adobe (ADBE) Reaffirms AI Leadership With Strong Revenue and Cash Flow, Piper Sandler Reaffirms Outperform Rating",
-      "score": 6,
-      "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "Adobe Inc. (NASDAQ:ADBE) ranks among the best AI stocks to buy according to analysts. Piper Sandler reaffirmed its Overweight rating and $470 price target...",
-      "category": "corporate_earnings",
-      "date": "2026-01-02 16:29",
-      "link": "https://finance.yahoo.com/news/adobe-adbe-reaffirms-ai-leadership-162911445.html"
+      "date": "2026-01-03 05:00",
+      "link": "https://www.ft.com/content/1c7d0e22-ea15-400f-ad05-69abe13be23c"
     }
   ]
 }
