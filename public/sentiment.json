@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-01-05T14:28:21.043941",
+  "timestamp": "2026-01-06T06:21:10.663129",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 8,
-    "neutral": 15,
-    "bearish": 2,
+    "avg_relevance": 7.0,
+    "bullish": 10,
+    "neutral": 14,
+    "bearish": 1,
     "high_priority": 8,
     "material_events": 4
   },
@@ -17,9 +17,10 @@
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 10,
-    "Philadelphiafed.org": 1,
-    "MarketWatch": 4
+    "CNBC": 11,
+    "Bloomberg.com": 1,
+    "TradingView \u2014 Track All Markets": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -109,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,8 +120,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-05 14:28",
+      "date": "2026-01-06 06:21",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Comcast spinoff Versant starts trading on Nasdaq in rare media debut",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Versant, Comcast's spinoff of the majority of NBCUniversal's cable TV networks like MS Now and CNBC, started trading Monday. ",
+      "category": "us_equities",
+      "date": "2026-01-05 21:02",
+      "link": "https://www.cnbc.com/2026/01/05/comcast-spinoff-versant-vsnt-trading-debut-nasdaq.html"
     },
     {
       "headline": "Lucid increases EV deliveries by 55% in 2025, meets lowered guidance",
@@ -129,88 +140,28 @@
       "sentiment": "negative",
       "impact": "Lucid Group significantly increased its production and sales last year, as it continues to ramp-up production of its new Gravity SUV.",
       "category": "corporate_earnings",
-      "date": "2026-01-05 14:03",
+      "date": "2026-01-05 16:19",
       "link": "https://www.cnbc.com/2026/01/05/lucid-ev-deliveries-2025.html"
     },
     {
-      "headline": "Comcast spinoff Versant to start trading on Nasdaq",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Versant, Comcast's spinoff of the majority of NBCUniversal's cable TV networks like MS Now and CNBC, starts trading Monday.",
-      "category": "us_equities",
-      "date": "2026-01-05 13:14",
-      "link": "https://www.cnbc.com/2026/01/05/comcast-spinoff-versant-vsnt-trading-debut-nasdaq.html"
-    },
-    {
-      "headline": "Thoughts on the U.S. Economy and the Year Ahead",
-      "score": 7,
-      "source": "Philadelphiafed.org",
-      "sentiment": "neutral",
-      "impact": "Philadelphia Fed President and CEO Anna Paulson shared her perspective on economic issues at the 2026 Allied Social Science Associations Annual Meeting.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-03 19:47",
-      "link": "https://www.philadelphiafed.org/the-economy/monetary-policy/260103-thoughts-on-the-us-economy-and-the-year-ahead"
-    },
-    {
-      "headline": "After a bruising 2025, the Fed faces another slew of challenges in the year ahead",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The central bank heads into 2026 facing a slew of political and policy challenges.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-03 14:37",
-      "link": "https://www.cnbc.com/2026/01/03/federal-reserve-powell-face-challenges-in-2026.html"
-    },
-    {
-      "headline": "U.S. on verge of unemployment surge that forces Fed to slash rates, Wall Street veteran says",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Those with optimistic views of 2026 are overlooking signs of a labor market in sharp decline, says David Rosenberg.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-03 13:00",
-      "link": "https://www.marketwatch.com/story/u-s-on-verge-of-unemployment-surge-that-forces-fed-to-slash-rates-wall-street-veteran-says-e4bd0be1"
-    },
-    {
-      "headline": "First GLP-1 pill for obesity from Novo Nordisk launches in the U.S.\u00a0",
+      "headline": "Goldman Sees China Steel-Capacity Cuts Going Slower Than Thought",
       "score": 6,
-      "source": "CNBC",
+      "source": "Bloomberg.com",
       "sentiment": "neutral",
-      "impact": "The drug's cash prices are among the lowest on the market, ranging from $149 to $299 per month, depending on the dose. ",
-      "category": "global_markets",
-      "date": "2026-01-05 13:39",
-      "link": "https://www.cnbc.com/2026/01/05/first-glp-1-pill-for-obesity-from-novo-nordisk-launches-in-the-us.html"
+      "impact": "Goldman Sachs Group Inc. predicts an extended period of depressed margins for Chinese steel mills due to slower-than-expected capacity cuts and persistently high exports. The bank revised down earnings estimates for major steel companies like Baoshan Iron & Steel Co. and Maanshan Iron & Steel Co., a",
+      "category": "commodities",
+      "date": "2026-01-06 03:58",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-06/china-steel-outlook-cut-as-capacity-progress-slows-goldman-says"
     },
     {
-      "headline": "U.S. stocks show little reaction to Trump's extraordinary Venezuela action. Why investors see a bull case",
+      "headline": "Jefferies Earnings: What To Look For From JEF",
       "score": 6,
-      "source": "CNBC",
+      "source": "TradingView \u2014 Track All Markets",
       "sentiment": "neutral",
-      "impact": "Geopolitical shocks historically have little impact on the stock market, and, additionally, investors do not expect the attack will escalate further.",
-      "category": "global_markets",
-      "date": "2026-01-05 13:26",
-      "link": "https://www.cnbc.com/2026/01/05/us-stocks-show-little-reaction-to-trumps-extraordinary-venezuela-action-why-investors-see-a-bull-case.html"
-    },
-    {
-      "headline": "Chick-fil-A launches its biggest ever marketing campaign as restaurant industry traffic shrinks",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Chick-fil-A's anniversary campaign gives the chicken chain the opportunity to attract more customers to its restaurants.",
-      "category": "global_markets",
-      "date": "2026-01-05 13:00",
-      "link": "https://www.cnbc.com/2026/01/05/chick-fil-a-launches-80th-anniversary-marketing-campaign.html"
-    },
-    {
-      "headline": "Deposed Venezuelan leader Maduro, wife to appear in New York court after U.S. capture",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Nicolas Maduro and his wife, Cilia Flores, were captured on Saturday by U.S. forces in Venezuela on the orders of President Donald Trump.",
-      "category": "global_markets",
-      "date": "2026-01-05 12:57",
-      "link": "https://www.cnbc.com/2026/01/05/venezuela-maduro-court-trump.html"
+      "impact": "Investment banking firm Jefferies Financial Group (JEF) is set to report earnings this Wednesday after market close. Analysts expect revenue to grow 2.8% year-on-year to $2.01 billion and adjusted earnings of $0.80 per share. The company has a mixed record on revenue estimates, but investor sentimen",
+      "category": "corporate_earnings",
+      "date": "2026-01-06 03:08",
+      "link": "https://www.tradingview.com/news/stockstory:c55e1a16c094b:0-jefferies-earnings-what-to-look-for-from-jef/"
     },
     {
       "headline": "The Fed will be forced into deep rate cuts in 2026 \u2014 boosting gold and breaking the dollar",
@@ -219,58 +170,108 @@
       "sentiment": "neutral",
       "impact": "The next Fed chair will grapple with a deteriorating U.S. job market and slower economic growth.",
       "category": "us_monetary_policy",
-      "date": "2026-01-05 12:45",
-      "link": "https://www.marketwatch.com/story/the-fed-will-be-forced-into-deep-rate-cuts-in-2026-boosting-gold-and-breaking-the-dollar-9f2d9331"
+      "date": "2026-01-05 22:38",
+      "link": "https://www.marketwatch.com/story/the-fed-will-be-forced-into-deep-rate-cuts-in-2026-boosting-gold-and-breaking-the-dollar-9f2d9331?mod=mw_rss_topstories"
     },
     {
-      "headline": "Inflation is likely to be a casualty of fraught superpower politics, these strategists say",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Multipolarity, deglobalization and nearshoring are trends that likely cause a structural shift higher in inflation, economists predict",
-      "category": "global_markets",
-      "date": "2026-01-05 12:40",
-      "link": "https://www.marketwatch.com/story/inflation-is-likely-to-be-a-casualty-of-fraught-superpower-politics-these-strategists-say-db542e0e"
-    },
-    {
-      "headline": "\u2018I\u2019m fed up\u2019: My selfish mother-in-law has controlled me for 30 years. How can I regain my power?",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "\u201cI\u2019m almost 50 years old. Enough is enough. I am exhausted by it.\u201d",
-      "category": "us_monetary_policy",
-      "date": "2026-01-05 12:00",
-      "link": "https://www.marketwatch.com/story/im-completely-fed-up-my-selfish-boomer-mother-in-law-has-controlled-me-for-30-years-how-can-i-regain-my-power-7d6b82e0?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Forget all the bubble talk \u2014 here's why you need to own AI stocks in 2026",
+      "headline": "The market has anointed Chevron the big Venezuela winner. But oil majors face a long road before any payoff",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "There isn't enough air to inflate a bubble, so how can it be popped?",
-      "category": "global_markets",
-      "date": "2026-01-04 19:24",
-      "link": "https://www.cnbc.com/2026/01/04/cramer-forget-the-bubble-talk-why-you-need-to-own-ai-stocks-in-2026.html"
+      "impact": "President Trump's call for U.S. oil companies to rebuild Venezuela's energy sector after the overthrow of President Nicolas Maduro is easier said than done.",
+      "category": "commodities",
+      "date": "2026-01-05 21:20",
+      "link": "https://www.cnbc.com/2026/01/05/market-sees-chevron-the-big-venezuela-winner-but-oil-majors-face-a-long-road.html"
     },
     {
-      "headline": "Here are the 3 big things we're watching in the stock market this week",
+      "headline": "Micron\u2019s stock is an S&P 500 standout by this metric, as memory prices boom",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Looking across the S&P 500 at unreported fiscal years, no company is expected to grow revenue faster than Micron.",
+      "category": "us_equities",
+      "date": "2026-01-05 20:48",
+      "link": "https://www.marketwatch.com/story/microns-stock-is-an-s-p-500-standout-by-this-metric-as-memory-prices-boom-3a1827de"
+    },
+    {
+      "headline": "What\u2019s next for the big bank stocks after a banner 2025? More of the same",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Wells Fargo and Goldman Sachs hit record highs after record highs last year, jumping 36% and 57%, respectively, over a 12-month period.",
+      "category": "global_markets",
+      "date": "2026-01-05 20:10",
+      "link": "https://www.cnbc.com/2026/01/05/whats-next-for-the-big-bank-stocks-after-a-banner-2025-a-lot-more.html"
+    },
+    {
+      "headline": "What may be driving Eli Lilly shares lower \u2014 plus, oil and financial stocks rally",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Our focus will be on macroeconomic updates and geopolitical headlines.",
-      "category": "global_markets",
-      "date": "2026-01-04 16:53",
-      "link": "https://www.cnbc.com/2026/01/04/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html"
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "commodities",
+      "date": "2026-01-05 19:35",
+      "link": "https://www.cnbc.com/2026/01/05/what-may-be-driving-eli-lilly-shares-lower-plus-oil-financial-stocks-rally.html"
     },
     {
-      "headline": "To influence people, do 5 simple things, says expert: These 'powerful behaviors' make a big difference",
+      "headline": "GM posts 5.5% U.S. sales gain in 2025, Stellantis' Jeep marks first increase in seven years",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Influence isn't some \"magical quality\" you're born with, it's a set of learnable actions, says executive coach and human behavior expert Melody Wilding.",
+      "sentiment": "neutral",
+      "impact": "GM posts 5.5% U.S. sales gain in 2025, Stellantis' Jeep endsannual declines",
       "category": "global_markets",
-      "date": "2026-01-04 12:15",
-      "link": "https://www.cnbc.com/2026/01/04/to-influence-people-do-these-simple-things-says-expert-these-powerful-behaviors-make-a-big-difference.html"
+      "date": "2026-01-05 19:25",
+      "link": "https://www.cnbc.com/2026/01/05/gm-posts-5point5percent-us-sales-gain-in-2025-while-jeep-ends-annual-declines.html"
+    },
+    {
+      "headline": "The 11 large U.S. cities where home prices are expected to rise the most in 2026",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "National home-price growth is expected to be modest in 2026. But in some Midwest and Northeast cities, prices could climb by more than 10%.",
+      "category": "global_markets",
+      "date": "2026-01-05 18:05",
+      "link": "https://www.cnbc.com/2026/01/05/us-cities-where-home-prices-are-expected-to-rise-the-most-in-2026.html"
+    },
+    {
+      "headline": "Cramer rebuts analyst call on Eaton, warns that oil stock rally is 'all spec'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "commodities",
+      "date": "2026-01-05 17:50",
+      "link": "https://www.cnbc.com/2026/01/05/cramer-rebuts-analyst-call-warns-oil-stock-rally-is-all-speculation.html"
+    },
+    {
+      "headline": "Chick-fil-A launches its biggest ever marketing campaign as restaurant industry traffic shrinks",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Chick-fil-A's anniversary campaign gives the chicken chain the opportunity to attract more customers to its restaurants.",
+      "category": "global_markets",
+      "date": "2026-01-05 16:53",
+      "link": "https://www.cnbc.com/2026/01/05/chick-fil-a-launches-80th-anniversary-marketing-campaign.html"
+    },
+    {
+      "headline": "We're trimming our position in a stock that is off to a strong new year",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The sale will also help us rebuild our cash position after a series of buys.",
+      "category": "global_markets",
+      "date": "2026-01-05 16:03",
+      "link": "https://www.cnbc.com/2026/01/05/were-trimming-our-position-in-a-stock-that-is-off-to-a-strong-new-year.html"
+    },
+    {
+      "headline": "First GLP-1 pill for obesity from Novo Nordisk launches in the U.S.\u00a0",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The drug's cash prices are among the lowest on the market, ranging from $149 to $299 per month, depending on the dose. ",
+      "category": "global_markets",
+      "date": "2026-01-05 14:47",
+      "link": "https://www.cnbc.com/2026/01/05/first-glp-1-pill-for-obesity-from-novo-nordisk-launches-in-the-us.html"
     }
   ]
 }
