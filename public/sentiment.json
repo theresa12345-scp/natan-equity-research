@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-08T14:29:12.992703",
+  "timestamp": "2026-01-09T06:21:01.752048",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
+    "avg_relevance": 7.1,
     "bullish": 11,
     "neutral": 10,
     "bearish": 4,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,10 +16,14 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
+    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 13,
-    "Financial Times": 1,
-    "Benzinga": 1
+    "TipRanks": 2,
+    "CNBC": 6,
+    "Federalreserve.gov": 1,
+    "Simply Wall Street": 1,
+    "MarketBeat": 1,
+    "MarketWatch": 3
   },
   "top_signals": [
     {
@@ -29,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +103,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Treasury Yields Rise on Economic Indicators",
+      "score": 8,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-01-07 16:08",
+      "link": "https://www.wsj.com/finance/investing/jgbs-edge-higher-amid-prospects-of-bojs-planned-purchases-6f46d8ba"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -109,7 +123,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,158 +133,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-08 14:29",
+      "date": "2026-01-09 06:21",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Mortgage demand drops nearly 10% to end 2025, despite lower interest rates",
+      "headline": "Stock Market News Review: SPY, QQQ Waver Despite Trade Deficit Narrowing to 17-Year Low; Atlanta Fed Doubling Q4 GDP Estimate",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The Mortgage Bankers Association's seasonally adjusted index reported a 9.7% drop in total mortgage applications despite decreased mortgage rates.",
-      "category": "global_markets",
-      "date": "2026-01-07 12:00",
-      "link": "https://www.cnbc.com/2026/01/07/mortgage-demand-drops-nearly-10percent-to-end-2025.html"
-    },
-    {
-      "headline": "Eurozone inflation falls to 2% in December",
-      "score": 7,
-      "source": "Financial Times",
-      "sentiment": "negative",
-      "impact": "Economists polled by FT do not expect interest rate cut this year",
-      "category": "global_markets",
-      "date": "2026-01-07 10:04",
-      "link": "https://www.ft.com/content/29853bf6-5a20-4bb7-9dbb-fe98ce76da3b"
-    },
-    {
-      "headline": "CNBC launches CNBC Cures to help 30 million Americans with rare diseases",
-      "score": 6,
-      "source": "CNBC",
+      "source": "TipRanks",
       "sentiment": "neutral",
-      "impact": "CNBC Cures aims to raise awareness of rare diseases. Led by \"Squawk Box\" anchor Becky Quick, CNBC Cures was inspired by her family's own rare disease journey.",
-      "category": "global_markets",
-      "date": "2026-01-08 13:40",
-      "link": "https://www.cnbc.com/2026/01/08/cnbc-launches-initiative-to-help-30-million-americans-rare-diseases.html"
+      "impact": "Despite positive economic news including a narrowed trade deficit, an increased Q4 GDP estimate by the Atlanta Fed, and Fitch raising its 2025/2026 GDP estimates, the S&P 500 ETF (SPY) and Nasdaq 100 ETF (QQQ) both closed negatively. Federal Reserve Governor Stephen Miran and Treasury Secretary Scot",
+      "category": "us_monetary_policy",
+      "date": "2026-01-09 04:10",
+      "link": "https://www.tipranks.com/news/stock-market-news-review-spy-qqq-waver-despite-trade-deficit-narrowing-to-17-year-low-atlanta-fed-doubling-q4-gdp-estimate"
     },
     {
-      "headline": "Family office deals cooled off in December, but heirs placed bets in health and media",
-      "score": 6,
+      "headline": "Trump instructs 'representatives' to buy $200 billion in mortgage bonds, aiming to lower rates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "President Donald Trump said he is \"instructing my Representatives\" to buy $200 billion in mortgage bonds.",
+      "category": "fixed_income",
+      "date": "2026-01-08 21:43",
+      "link": "https://www.cnbc.com/2026/01/08/trump-mortgage-bonds-rates-fannie-freddie.html"
+    },
+    {
+      "headline": "Stock futures are little changed after S&P 500, Dow retreat from record highs: Live updates",
+      "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Investment firms of the ultra-rich didn't jump into the M&A frenzy during the holiday season.",
-      "category": "global_markets",
-      "date": "2026-01-08 13:30",
-      "link": "https://www.cnbc.com/2026/01/08/family-office-deals-bets-december.html"
-    },
-    {
-      "headline": "Wall Street's Most Accurate Analysts Weigh In On 3 Utilities Stocks With Over 4% Dividend Yields",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "This article highlights three utilities stocks\u2014Eversource Energy (ES), Avista Corp (AVA), and AES Corp (AES)\u2014that offer dividend yields over 4%, as reviewed by highly accurate Wall Street analysts. It details recent analyst ratings, price target changes, and significant news for each company, provid",
+      "impact": "Growing geopolitical tensions could test the resilience of stocks as the new year begins.",
       "category": "us_equities",
-      "date": "2026-01-08 13:00",
-      "link": "https://www.benzinga.com/trading-ideas/dividends/26/01/49779882/wall-streets-most-accurate-analysts-weigh-in-on-3-utilities-stocks-with-over-4-dividend-yields-5"
+      "date": "2026-01-08 00:32",
+      "link": "https://www.cnbc.com/2026/01/07/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Real estate agents say the housing market is starting to balance out",
+      "headline": "Speech by Vice Chair for Supervision Bowman on modernizing supervision and regulation",
+      "score": 7,
+      "source": "Federalreserve.gov",
+      "sentiment": "neutral",
+      "impact": "I would like to thank the California Bankers Association for the invitation to join you today.  1     Throughout my now seven years as a member of the Federal",
+      "category": "us_monetary_policy",
+      "date": "2026-01-07 21:13",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260107a.htm"
+    },
+    {
+      "headline": "Intelligent Bio Solutions Regains Nasdaq Listing Compliance Status",
       "score": 6,
-      "source": "CNBC",
+      "source": "TipRanks",
+      "sentiment": "negative",
+      "impact": "Intelligent Bio Solutions (INBS) announced it has regained compliance with Nasdaq's minimum bid price requirement as of January 7, 2026. This follows its common stock trading below $1.00 for 30 consecutive business days, leading to a deficiency notice in December 2025. The company maintained a closi",
+      "category": "us_equities",
+      "date": "2026-01-09 05:10",
+      "link": "https://www.tipranks.com/news/company-announcements/intelligent-bio-solutions-regains-nasdaq-listing-compliance-status"
+    },
+    {
+      "headline": "A Look At WEC Energy Group (WEC) Valuation As Earnings Slow And Illinois Rate Cases Draw Focus",
+      "score": 6,
+      "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "The latest housing survey shows agents slightly more optimistic about the new year, and shows a previously strong buyer's market becoming more balanced. ",
-      "category": "global_markets",
-      "date": "2026-01-08 12:42",
-      "link": "https://www.cnbc.com/2026/01/08/cnbc-housing-market-survey-agents-balance-out.html"
+      "impact": "WEC Energy Group is approaching its Q4 earnings report with an expected 4.2% decline in earnings per share, paired with regulatory scrutiny from new Illinois rate case filings. Despite a recent share price dip, the company is considered 13.1% undervalued by Simply Wall St, trading below analyst targ",
+      "category": "corporate_earnings",
+      "date": "2026-01-09 04:49",
+      "link": "https://simplywall.st/stocks/us/utilities/nyse-wec/wec-energy-group/news/a-look-at-wec-energy-group-wec-valuation-as-earnings-slow-an"
     },
     {
-      "headline": "Ford enters race to offer eyes-off driving tech, starting with $30,000 EV in 2028",
+      "headline": "Analog Devices (NASDAQ:ADI) SVP Sells $144,585.00 in Stock",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "The target brings Ford into a race against competitors such as Tesla, General Motors and Rivian Automotive to develop and broadly launch such systems.",
-      "category": "global_markets",
-      "date": "2026-01-08 00:00",
-      "link": "https://www.cnbc.com/2026/01/07/ford-eyes-off-driving-ev-2028.html"
+      "impact": "Analog Devices (NASDAQ:ADI) Senior Vice President Katsufumi Nakamura sold 500 shares of the company's stock for $144,585 on January 7th, reducing his direct ownership by 3.65%. The semiconductor company recently reported strong quarterly earnings, exceeding analyst expectations, and maintains a \"Mod",
+      "category": "us_equities",
+      "date": "2026-01-09 04:09",
+      "link": "https://www.marketbeat.com/instant-alerts/analog-devices-nasdaqadi-svp-sells-14458500-in-stock-2026-01-08/"
     },
     {
-      "headline": "JPMorgan Chase reaches deal to become Apple Card issuer as Goldman closes chapter on consumer foray",
+      "headline": "Trump wants purchase of $200 billion in mortgage bonds. What that means for mortgage rates.",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "JPMorgan Chase has reached a deal to take over the Apple credit card from Goldman Sachs, the two banks said late Wednesday. ",
-      "category": "commodities",
-      "date": "2026-01-07 23:53",
-      "link": "https://www.cnbc.com/2026/01/07/jpmorgan-apple-credit-card.html"
+      "impact": "Freddie and Fannie have been growing their mortgage bond holdings in recent months, but the 30-year fixed mortgage is still above 6%.",
+      "category": "fixed_income",
+      "date": "2026-01-09 01:33",
+      "link": "https://www.marketwatch.com/story/trump-suggests-his-representatives-will-buy-200-billion-in-mortgage-bonds-what-it-means-for-mortgage-rates-9524491d?mod=mw_rss_topstories"
     },
     {
-      "headline": "Alaska Airlines to buy more than 100 Boeing jets in carrier's biggest order ever",
+      "headline": "Trump suggests his \u2018representatives\u2019 will buy $200 billion in mortgage bonds. What it means for mortgage rates.",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Alaska Airlines orders 105 Boeing 737 Max 10s and five 787-10 Dreamliners in carrier's biggest order ever.",
-      "category": "global_markets",
-      "date": "2026-01-07 21:47",
-      "link": "https://www.cnbc.com/2026/01/07/alaska-airlines-boeing-order-737-10-dreamliners.html"
+      "impact": "Freddie and Fannie have been growing their mortgage bond holdings in recent months, but the 30-year fixed mortgage is still above 6%.",
+      "category": "fixed_income",
+      "date": "2026-01-09 00:06",
+      "link": "https://www.marketwatch.com/story/trump-suggests-his-representatives-will-buy-200-billion-in-mortgage-bonds-what-it-means-for-mortgage-rates-9524491d"
     },
     {
-      "headline": "Nvidia's Jensen Huang would have to pay about $8 billion in proposed billionaire tax\u2014he says that's 'perfectly fine' with him",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Nvidia CEO Jensen Huang has an estimated net worth of $166 billion, according to Forbes. A 5% tax on those assets would result in a bill over $8 billion.",
-      "category": "global_markets",
-      "date": "2026-01-07 21:24",
-      "link": "https://www.cnbc.com/2026/01/07/nvidia-ceo-jensen-huang-perfectly-fine-with-proposed-billionaire-tax.html"
-    },
-    {
-      "headline": "The bottom may be in on cyber stocks \u2014 here are fundamental and technical reasons",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Shares of Club names CrowdStrike and Palo Alto Networks were each up roughly 5% in the third session of an early 2026 rally.",
-      "category": "global_markets",
-      "date": "2026-01-07 20:52",
-      "link": "https://www.cnbc.com/2026/01/07/bottom-may-be-in-on-cyber-stocks-here-are-fundamental-and-technical-reasons.html"
-    },
-    {
-      "headline": "We're thinking about trimming 3 financial stocks in the portfolio \u2014 here's why",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2026-01-07 19:59",
-      "link": "https://www.cnbc.com/2026/01/07/were-thinking-about-trimming-3-financial-stocks-in-the-portfolio-heres-why.html"
-    },
-    {
-      "headline": "Avelo Airlines to end ICE deportation charters as it cuts commercial flights, jobs ",
+      "headline": "Saks Global struggles to line up financing as potential bankruptcy filing looms",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Upstart airline Avelo said it would stop flying deportation flights for ICE, citing unpredictable revenue and added costs.",
+      "impact": "Saks is trying to line up financing to pay its bills during a potential bankruptcy filing, but investors have shown little interest over repayment concerns.",
       "category": "global_markets",
-      "date": "2026-01-07 19:11",
-      "link": "https://www.cnbc.com/2026/01/07/avelo-airlines-ice-deportation-flights-job-cuts.html"
+      "date": "2026-01-08 22:55",
+      "link": "https://www.cnbc.com/2026/01/08/saks-global-struggles-to-line-up-bankruptcy-financing.html"
     },
     {
-      "headline": "RFK Jr. announces new nutrition guidelines, pushing more protein and less processed food",
+      "headline": "NASA to bring ISS Crew-11 astronauts back to Earth earlier than planned after medical situation",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Health and Human Services Secretary Robert F. Kennedy Jr. and Agriculture Secretary Brooke Rollins announced new nutrition guidelines.",
+      "impact": "NASA earlier delayed a planned spacewalk with ISS Commander Mike Fincke and flight engineer Zena Cardman.",
       "category": "global_markets",
-      "date": "2026-01-07 18:17",
-      "link": "https://www.cnbc.com/2026/01/07/rfk-jr-nutrition-guidelines-protein-processed-food.html"
+      "date": "2026-01-08 22:14",
+      "link": "https://www.cnbc.com/2026/01/08/nasa-iss-crew-11-astronauts-earth-medical-situation.html"
     },
     {
-      "headline": "American Airlines keeps frequent flyer status requirements the same, following rivals",
+      "headline": "The S&P 500 is losing the momentum that had been fueling stock investors",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Lack of follow-through to new highs is concerning but not necessarily bearish \u2014 yet.",
+      "category": "us_equities",
+      "date": "2026-01-08 21:25",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-is-losing-the-momentum-that-had-been-fueling-stock-investors-371ef01e"
+    },
+    {
+      "headline": "Patient advocacy groups urge U.S. court to halt overseas prescription drug operations",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "American Airlines is keeping frequent flyer status requirements the same for a third consecutive year.",
+      "sentiment": "neutral",
+      "impact": "The court filing follows a CNBC investigation that detailed how these third-party vendors have spread across U.S. employer-sponsored health plans.",
       "category": "global_markets",
-      "date": "2026-01-07 14:45",
-      "link": "https://www.cnbc.com/2026/01/07/american-airlines-aadvantage-frequent-flyer-status-requirements.html"
+      "date": "2026-01-08 21:22",
+      "link": "https://www.cnbc.com/2026/01/08/patient-advocates-us-court-afp-prescription-operations.html"
+    },
+    {
+      "headline": "GM to record $7.1 billion in fourth-quarter charges due to EV pullback, China restructuring\u00a0 ",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "GM's announcement comes after Ford said it would record similar writedowns following a broad resetting for the U.S. EV market.",
+      "category": "asia_economy",
+      "date": "2026-01-08 21:20",
+      "link": "https://www.cnbc.com/2026/01/08/gm-q4-charges-ev-china.html"
     }
   ]
 }
