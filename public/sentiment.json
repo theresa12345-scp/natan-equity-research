@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-09T06:21:01.752048",
+  "timestamp": "2026-01-09T14:27:56.092738",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 11,
+    "avg_relevance": 7.2,
+    "bullish": 10,
     "neutral": 10,
-    "bearish": 4,
-    "high_priority": 9,
+    "bearish": 5,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -16,14 +16,11 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "The Wall Street Journal": 1,
+    "CNBC": 11,
     "Caixin/S&P Global": 1,
-    "TipRanks": 2,
-    "CNBC": 6,
+    "Samsung.com": 1,
     "Federalreserve.gov": 1,
-    "Simply Wall Street": 1,
-    "MarketBeat": 1,
-    "MarketWatch": 3
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -33,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -73,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,18 +100,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Treasury Yields Rise on Economic Indicators",
+      "headline": "Treasury Secretary Bessent says more Fed rate cuts are 'only ingredient missing' for stronger economy",
       "score": 8,
-      "source": "The Wall Street Journal",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Bessent on Thursday pressed the administration's desire for lower interest rates, saying they are the key to future economic growth.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-08 13:33",
+      "link": "https://www.cnbc.com/2026/01/08/treasury-secretary-bessent-says-more-fed-rate-cuts-are-only-ingredient-missing-for-stronger-economy.html"
+    },
+    {
+      "headline": "Treasury yields move higher as investors look ahead to key jobs report",
+      "score": 8,
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-01-07 16:08",
-      "link": "https://www.wsj.com/finance/investing/jgbs-edge-higher-amid-prospects-of-bojs-planned-purchases-6f46d8ba"
+      "impact": "U.S. Treasury yields moved marginally higher on Thursday as investors look ahead to key jobs data and continued to monitored geopolitical developments.",
+      "category": "fixed_income",
+      "date": "2026-01-08 10:29",
+      "link": "https://www.cnbc.com/2026/01/08/us-treasury-yields-investors-look-ahead-to-key-jobs-report.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -123,7 +130,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -133,18 +140,8 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-09 06:21",
+      "date": "2026-01-09 14:27",
       "link": "https://www.reuters.com/business/energy/"
-    },
-    {
-      "headline": "Stock Market News Review: SPY, QQQ Waver Despite Trade Deficit Narrowing to 17-Year Low; Atlanta Fed Doubling Q4 GDP Estimate",
-      "score": 7,
-      "source": "TipRanks",
-      "sentiment": "neutral",
-      "impact": "Despite positive economic news including a narrowed trade deficit, an increased Q4 GDP estimate by the Atlanta Fed, and Fitch raising its 2025/2026 GDP estimates, the S&P 500 ETF (SPY) and Nasdaq 100 ETF (QQQ) both closed negatively. Federal Reserve Governor Stephen Miran and Treasury Secretary Scot",
-      "category": "us_monetary_policy",
-      "date": "2026-01-09 04:10",
-      "link": "https://www.tipranks.com/news/stock-market-news-review-spy-qqq-waver-despite-trade-deficit-narrowing-to-17-year-low-atlanta-fed-doubling-q4-gdp-estimate"
     },
     {
       "headline": "Trump instructs 'representatives' to buy $200 billion in mortgage bonds, aiming to lower rates",
@@ -157,14 +154,14 @@
       "link": "https://www.cnbc.com/2026/01/08/trump-mortgage-bonds-rates-fannie-freddie.html"
     },
     {
-      "headline": "Stock futures are little changed after S&P 500, Dow retreat from record highs: Live updates",
+      "headline": "Samsung Electronics Announces Earnings Guidance for Fourth Quarter 2025",
       "score": 7,
-      "source": "CNBC",
+      "source": "Samsung.com",
       "sentiment": "positive",
-      "impact": "Growing geopolitical tensions could test the resilience of stocks as the new year begins.",
-      "category": "us_equities",
-      "date": "2026-01-08 00:32",
-      "link": "https://www.cnbc.com/2026/01/07/stock-market-today-live-updates.html"
+      "impact": "Samsung Electronics today announced its earnings guidance for the fourth quarter of 2025. \u00a0Consolidated Sales: Approximately 93 trillion Korean won \u00a0Consolidated Operating Profit: Approximately 20 trillion Korean won The above estimates are based on K-IFRS. P\u2026",
+      "category": "corporate_earnings",
+      "date": "2026-01-07 22:42",
+      "link": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-fourth-quarter-2025"
     },
     {
       "headline": "Speech by Vice Chair for Supervision Bowman on modernizing supervision and regulation",
@@ -177,44 +174,64 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260107a.htm"
     },
     {
-      "headline": "Intelligent Bio Solutions Regains Nasdaq Listing Compliance Status",
-      "score": 6,
-      "source": "TipRanks",
-      "sentiment": "negative",
-      "impact": "Intelligent Bio Solutions (INBS) announced it has regained compliance with Nasdaq's minimum bid price requirement as of January 7, 2026. This follows its common stock trading below $1.00 for 30 consecutive business days, leading to a deficiency notice in December 2025. The company maintained a closi",
-      "category": "us_equities",
-      "date": "2026-01-09 05:10",
-      "link": "https://www.tipranks.com/news/company-announcements/intelligent-bio-solutions-regains-nasdaq-listing-compliance-status"
-    },
-    {
-      "headline": "A Look At WEC Energy Group (WEC) Valuation As Earnings Slow And Illinois Rate Cases Draw Focus",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "WEC Energy Group is approaching its Q4 earnings report with an expected 4.2% decline in earnings per share, paired with regulatory scrutiny from new Illinois rate case filings. Despite a recent share price dip, the company is considered 13.1% undervalued by Simply Wall St, trading below analyst targ",
-      "category": "corporate_earnings",
-      "date": "2026-01-09 04:49",
-      "link": "https://simplywall.st/stocks/us/utilities/nyse-wec/wec-energy-group/news/a-look-at-wec-energy-group-wec-valuation-as-earnings-slow-an"
-    },
-    {
-      "headline": "Analog Devices (NASDAQ:ADI) SVP Sells $144,585.00 in Stock",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Analog Devices (NASDAQ:ADI) Senior Vice President Katsufumi Nakamura sold 500 shares of the company's stock for $144,585 on January 7th, reducing his direct ownership by 3.65%. The semiconductor company recently reported strong quarterly earnings, exceeding analyst expectations, and maintains a \"Mod",
-      "category": "us_equities",
-      "date": "2026-01-09 04:09",
-      "link": "https://www.marketbeat.com/instant-alerts/analog-devices-nasdaqadi-svp-sells-14458500-in-stock-2026-01-08/"
-    },
-    {
-      "headline": "Trump wants purchase of $200 billion in mortgage bonds. What that means for mortgage rates.",
-      "score": 6,
-      "source": "MarketWatch",
+      "headline": "Dow closes more than 450 points lower, S&P 500 pulls back from record: Live updates",
+      "score": 7,
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Freddie and Fannie have been growing their mortgage bond holdings in recent months, but the 30-year fixed mortgage is still above 6%.",
-      "category": "fixed_income",
-      "date": "2026-01-09 01:33",
-      "link": "https://www.marketwatch.com/story/trump-suggests-his-representatives-will-buy-200-billion-in-mortgage-bonds-what-it-means-for-mortgage-rates-9524491d?mod=mw_rss_topstories"
+      "impact": "The S&P 500 and Dow Jones Industrial Average notched fresh all-time intraday records on Wednesday.",
+      "category": "us_equities",
+      "date": "2026-01-07 20:37",
+      "link": "https://www.cnbc.com/2026/01/06/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "As tech stocks soar, executives use exchange funds to diversify wealth without selling",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Strong market returns and the AI boom have meant new riches for some employees, but it's risky to have too much of your net worth tied up in one stock.",
+      "category": "global_markets",
+      "date": "2026-01-09 14:00",
+      "link": "https://www.cnbc.com/2026/01/09/executives-exchange-funds-diversify-wealth.html"
+    },
+    {
+      "headline": "Trump suggests U.S. military will hit cartels on \u2018land\u2019 in Mexico",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "President Donald Trump's comments on Fox News come less than a week after land strikes in Venezuela and the capture of its leader Nicolas Maduro.",
+      "category": "global_markets",
+      "date": "2026-01-09 13:54",
+      "link": "https://www.cnbc.com/2026/01/09/trump-us-military-cartels-mexico-land.html"
+    },
+    {
+      "headline": "What student loan borrowers can do if they're facing wage garnishment: 'Early action' is critical, advisor says",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Department of Education began sending notices of coming wage garnishment to over 1,000 defaulted student loan borrowers.",
+      "category": "global_markets",
+      "date": "2026-01-09 13:30",
+      "link": "https://www.cnbc.com/2026/01/09/what-student-loan-borrowers-can-do-if-theyre-facing-wage-garnishment.html"
+    },
+    {
+      "headline": "How IMAX crushed other theater stocks in 2025",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "IMAX outperformed other theatrical stocks in 2025 as it capitalized on changing consumer trends and partnerships with major studio productions.",
+      "category": "global_markets",
+      "date": "2026-01-09 12:00",
+      "link": "https://www.cnbc.com/2026/01/09/imax-theater-stocks-2025.html"
+    },
+    {
+      "headline": "Semiconductor stocks boosted by Intel after Donald Trump praises company and its CEO",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Intel shares rose 2% in extended trading on Thursday after Trump said he had \"a great meeting with the very successful Intel CEO, Lip-Bu Tan.\"",
+      "category": "global_markets",
+      "date": "2026-01-09 10:09",
+      "link": "https://www.cnbc.com/2026/01/09/semiconductor-stocks-boosted-by-donald-trumps-intel-praise.html"
     },
     {
       "headline": "Trump suggests his \u2018representatives\u2019 will buy $200 billion in mortgage bonds. What it means for mortgage rates.",
@@ -255,26 +272,6 @@
       "category": "us_equities",
       "date": "2026-01-08 21:25",
       "link": "https://www.marketwatch.com/story/the-s-p-500-is-losing-the-momentum-that-had-been-fueling-stock-investors-371ef01e"
-    },
-    {
-      "headline": "Patient advocacy groups urge U.S. court to halt overseas prescription drug operations",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The court filing follows a CNBC investigation that detailed how these third-party vendors have spread across U.S. employer-sponsored health plans.",
-      "category": "global_markets",
-      "date": "2026-01-08 21:22",
-      "link": "https://www.cnbc.com/2026/01/08/patient-advocates-us-court-afp-prescription-operations.html"
-    },
-    {
-      "headline": "GM to record $7.1 billion in fourth-quarter charges due to EV pullback, China restructuring\u00a0 ",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "GM's announcement comes after Ford said it would record similar writedowns following a broad resetting for the U.S. EV market.",
-      "category": "asia_economy",
-      "date": "2026-01-08 21:20",
-      "link": "https://www.cnbc.com/2026/01/08/gm-q4-charges-ev-china.html"
     }
   ]
 }
