@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-01-14T06:21:47.190927",
+  "timestamp": "2026-01-14T14:29:26.623741",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
+    "avg_relevance": 7.4,
     "bullish": 10,
-    "neutral": 14,
-    "bearish": 1,
-    "high_priority": 8,
-    "material_events": 4
+    "neutral": 13,
+    "bearish": 2,
+    "high_priority": 10,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
+    "CNBC": 7,
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 10,
-    "The Washington Post": 1,
-    "Stock Titan": 1,
-    "MarketWatch": 3
+    "Financial Times": 2,
+    "MarketWatch": 5,
+    "CNN": 1
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,8 +60,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "S&P 500 is little changed as traders assess earnings, latest inflation data: Live updates",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Stocks were relatively unchanged as investors absorbed the latest inflation reading and studied the first earnings reports trickling in for the fourth quarter.",
+      "category": "us_equities",
+      "date": "2026-01-13 14:42",
+      "link": "https://www.cnbc.com/2026/01/12/stock-market-today-live-updates.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -70,7 +80,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +100,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +110,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Trump's war on the Fed threatens global financial stability, European central bankers warn",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "European central bankers said an \"obedient\" Fed under White House control would be \"extremely grave\" for global financial stability.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-14 13:53",
+      "link": "https://www.cnbc.com/2026/01/14/trump-threat-war-fed-powell-financial-stability-economy-banks-attack-federal-reserve-risk.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +130,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,18 +140,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-14 06:21",
+      "date": "2026-01-14 14:29",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "How wages compare with inflation since 2020: 'It feels likes stagnation because it is,' analyst says",
+      "headline": "Citigroup profit slips as expenses rise amid sweeping overhaul",
       "score": 7,
-      "source": "CNBC",
+      "source": "Financial Times",
       "sentiment": "neutral",
-      "impact": "Wages have caught up with inflation, but that hasn\u2019t meant cost relief for many workers.",
-      "category": "global_markets",
-      "date": "2026-01-13 16:59",
-      "link": "https://www.cnbc.com/2026/01/13/how-wages-compare-with-inflation-since-2020.html"
+      "impact": "Citigroup reported a 13% drop in fourth-quarter profits, with net income falling to $2.5 billion due to increased expenses that neared $14 billion, despite revenue growth to $19.9 billion. The Wall Street bank is undergoing a major restructuring led by CEO Jane Fraser, which includes anticipated job",
+      "category": "corporate_earnings",
+      "date": "2026-01-14 13:10",
+      "link": "https://www.ft.com/content/f3da395f-fff8-40d4-860e-c39593dd97d6"
+    },
+    {
+      "headline": "A Fed-Treasury asset trade? One analyst says a swap could help the struggling housing market.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The White House is proposing a flurry of policies to stimulate the moribund housing market, and one analyst is proposing another twist.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-14 13:07",
+      "link": "https://www.marketwatch.com/story/a-fed-treasury-asset-trade-one-analyst-says-a-swap-could-help-the-struggling-housing-market-c55162c7"
+    },
+    {
+      "headline": "Wells Fargo comes up short on revenue as it sets new profit target",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The number-three bank by market cap beat on earnings but missed on revenue.",
+      "category": "corporate_earnings",
+      "date": "2026-01-14 12:47",
+      "link": "https://www.marketwatch.com/story/wells-fargo-comes-up-short-on-revenue-as-it-sets-new-profit-target-b2565251"
     },
     {
       "headline": "BNY raises profit target as CEO Robin Vince says 'turnaround' is taking hold",
@@ -154,6 +194,16 @@
       "link": "https://www.cnbc.com/2026/01/13/jpmorgan-chase-jpm-earnings-q4-2025.html"
     },
     {
+      "headline": "US inflation stays at 2.7% in December",
+      "score": 7,
+      "source": "Financial Times",
+      "sentiment": "positive",
+      "impact": "Figures suggest price pressures are contained even as price growth remains above Fed\u2019s target",
+      "category": "global_markets",
+      "date": "2026-01-13 13:30",
+      "link": "https://www.ft.com/content/2f6d3a97-561e-4c78-9a45-913999d622ca"
+    },
+    {
       "headline": "Delta CEO sees record earnings in reach again thanks to high-end travel demand",
       "score": 7,
       "source": "CNBC",
@@ -164,114 +214,64 @@
       "link": "https://www.cnbc.com/2026/01/13/delta-air-lines-dal-4q-2025-earnings.html"
     },
     {
-      "headline": "The campaign to persuade Trump to investigate the Federal Reserve chief",
+      "headline": "The Fed is unlikely to cut interest rates any time soon. Here\u2019s why that might be good news",
       "score": 7,
-      "source": "The Washington Post",
-      "sentiment": "neutral",
-      "impact": "It\u2019s not clear how the inquiry into Federal Reserve Chair Jerome Powell was approved, but housing regulator Bill Pulte met with President Donald Trump at Mar-a-Lago, and shared a prop resembling a \u201cwanted poster\u201d he had made up featuring Powell.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-13 06:27",
-      "link": "https://www.washingtonpost.com/business/2026/01/12/jerome-powell-fed-chair-investigation/"
-    },
-    {
-      "headline": "Hear Enova break down its 2025 performance on Jan. 27 earnings call",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "Enova (NYSE: ENVA) will release its fourth quarter and full-year 2025 financial results after market close on Tuesday, January 27, 2026. The company will host a conference call on the same day at 4:00 p.m. Central Time / 5:00 p.m. Eastern Time to discuss these results. A live webcast will be availab",
-      "category": "us_equities",
-      "date": "2026-01-14 05:27",
-      "link": "https://www.stocktitan.net/news/ENVA/enova-announces-date-of-fourth-quarter-and-full-year-2025-financial-u7fqjbasz5gn.html"
-    },
-    {
-      "headline": "From coffee to electricity, latest CPI report shows where inflation is hitting the middle class the most",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Cost of living rose in December, and these households are feeling the pinch",
-      "category": "global_markets",
-      "date": "2026-01-13 23:18",
-      "link": "https://www.marketwatch.com/story/from-coffee-to-electricity-latest-cpi-report-shows-where-inflation-is-hitting-the-middle-class-the-most-5544820f"
-    },
-    {
-      "headline": "Nasdaq flashes a bullish signal after treading water for more than 2 months",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The formerly red-hot Nasdaq-100 has gone nowhere for more than two months as shares of some of its biggest constituents, including Nvidia, Broadcom and Apple, have struggled.",
-      "category": "us_equities",
-      "date": "2026-01-13 21:34",
-      "link": "https://www.marketwatch.com/story/nasdaq-flashes-a-bullish-signal-after-treading-water-for-more-than-2-months-2086d828"
-    },
-    {
-      "headline": "Palantir is trying to 'destroy' Percepta through legal action, startup's execs say in filing",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Three months after Palantir sued Percepta employees, lawyers for the defendants said Palantir is trying to \"scare others away\" from leaving the company.",
-      "category": "global_markets",
-      "date": "2026-01-13 20:23",
-      "link": "https://www.cnbc.com/2026/01/13/ai-palantir-percepta-lawsuit-theft.html"
-    },
-    {
-      "headline": "How billionaire executive Barry Diller separates good ideas from bad ones: 'You cannot be cynical. Cynicism kills everything'",
-      "score": 6,
-      "source": "CNBC",
+      "source": "CNN",
       "sentiment": "negative",
-      "impact": "Good judgement, particularly when separating good ideas from bad ones, comes from a place of openness and naivete, not cynicism, says billionaire Barry Diller.",
-      "category": "global_markets",
-      "date": "2026-01-13 18:37",
-      "link": "https://www.cnbc.com/2026/01/13/how-billionaire-executive-barry-diller-separates-good-ideas-from-bad-ones.html"
+      "impact": "After cutting interest rates three times in a row last year, the Federal Reserve indicated last month it probably won\u2019t lower interest rates again for a while. A months-long pause, cemented by key economic data released Friday, may indeed be the best-case sce\u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-01-13 11:01",
+      "link": "https://www.cnn.com/2026/01/13/economy/federal-reserve-rate-decision-january"
     },
     {
-      "headline": "\u2018We are Jerome Powell\u2019: In rare show of unity, Republicans, Democrats, Wall Streeters and TikTok-ers are backing the Fed chair",
+      "headline": "Citigroup tops estimates on stronger net interest income, smaller loan loss provision",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Under CEO Jane Fraser, Citigroup is in the midst of a restructuring, selling off parts of its overseas operations.",
+      "category": "global_markets",
+      "date": "2026-01-14 14:28",
+      "link": "https://www.cnbc.com/2026/01/14/citigroup-c-earnings-q4-2025.html"
+    },
+    {
+      "headline": "Bank of America tops estimates on better-than-expected net interest income, equities trading",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Bank of America, the second-largest U.S. bank by assets, has been a beneficiary of the industry's recent tail winds.",
+      "category": "global_markets",
+      "date": "2026-01-14 14:18",
+      "link": "https://www.cnbc.com/2026/01/14/bank-of-america-bac-q4-2025-earnings.html"
+    },
+    {
+      "headline": "Citigroup\u2019s stock is rising even with profit falling below expectations. Russia is one reason.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Citigroup\u2019s stock rose, as the bank\u2019s earnings miss was due to a previously disclosed large loss related to plans to sell AO Citibank in Russia.",
+      "category": "corporate_earnings",
+      "date": "2026-01-14 13:54",
+      "link": "https://www.marketwatch.com/story/citigroups-stock-is-rising-even-with-profit-falling-below-expectations-russia-is-one-reason-4761d0a0"
+    },
+    {
+      "headline": "Wholesale-cost increases during government shutdown point to persistent inflation in U.S. economy",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Federal Reserve Chair Jerome Powell has drawn all sorts of support after disclosing that the Trump administration\u2019s Department of Justice has threatened him with a criminal indictment over his testimony about building renovations.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-13 17:56",
-      "link": "https://www.marketwatch.com/story/we-are-jerome-powell-in-rare-show-of-unity-republicans-democrats-wall-streeters-and-tiktok-ers-are-backing-the-fed-chair-953087f5"
+      "impact": "The cost of wholesale goods and services rose during the government shutdown and showed the persistence of inflation pressures in the guts of the U.S. economy.",
+      "category": "us_equities",
+      "date": "2026-01-14 13:48",
+      "link": "https://www.marketwatch.com/story/wholesale-cost-increases-during-government-shutdown-point-to-persistent-inflation-in-u-s-economy-7dcb35f1"
     },
     {
-      "headline": "This industrial stock is starting to look overbought as it hits new intraday high",
+      "headline": "Rising wholesale prices during shutdown point to persistent inflation in the economy",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "category": "global_markets",
-      "date": "2026-01-13 17:03",
-      "link": "https://www.cnbc.com/2026/01/13/this-stock-is-starting-to-look-overbought-as-it-hits-new-intraday-high.html"
-    },
-    {
-      "headline": "JPMorgan Chase says banks could fight Trump credit card rate cap: 'Everything's on the table' ",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Banks say a proposed 10% cap on credit card interest rates would result in fewer credit card accounts for Americans and a hit to the U.S. economy.",
-      "category": "fixed_income",
-      "date": "2026-01-13 16:54",
-      "link": "https://www.cnbc.com/2026/01/13/trump-credit-card-rate-cap-jpmorgan-chase-banks-fight.html"
-    },
-    {
-      "headline": "Fanatics to launch sports media and entertainment studio",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Fanatics Studios will create, produce and distribute films, documentaries, live events and digital series.",
-      "category": "global_markets",
-      "date": "2026-01-13 16:37",
-      "link": "https://www.cnbc.com/2026/01/13/fanatics-sports-media-entertainment-studio.html"
-    },
-    {
-      "headline": "Boeing outsold Airbus last year for first time since 2018, deliveries rise to 600",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Boeing delivered 600 jetliners in 2025 with 63 in December alone, while net orders rose to 1,173 planes.",
-      "category": "global_markets",
-      "date": "2026-01-13 16:00",
-      "link": "https://www.cnbc.com/2026/01/13/boeing-orders-deliveries.html"
+      "impact": "The cost of wholesale goods and services rose during the government shutdown and showed the persistence of inflation pressures in the guts of the U.S. economy.",
+      "category": "us_equities",
+      "date": "2026-01-14 13:48",
+      "link": "https://www.marketwatch.com/story/wholesale-cost-increases-during-government-shutdown-point-to-persistent-inflation-in-u-s-economy-7dcb35f1?mod=mw_rss_topstories"
     }
   ]
 }
