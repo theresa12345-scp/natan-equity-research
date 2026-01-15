@@ -1,26 +1,25 @@
 {
-  "timestamp": "2026-01-14T14:29:26.623741",
+  "timestamp": "2026-01-15T06:21:19.893306",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 10,
-    "neutral": 13,
-    "bearish": 2,
-    "high_priority": 10,
-    "material_events": 5
+    "avg_relevance": 7.2,
+    "bullish": 9,
+    "neutral": 15,
+    "bearish": 1,
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 7,
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "Financial Times": 2,
-    "MarketWatch": 5,
-    "CNN": 1
+    "CNBC": 11,
+    "MarketBeat": 2,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -30,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,18 +59,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "S&P 500 is little changed as traders assess earnings, latest inflation data: Live updates",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Stocks were relatively unchanged as investors absorbed the latest inflation reading and studied the first earnings reports trickling in for the fourth quarter.",
-      "category": "us_equities",
-      "date": "2026-01-13 14:42",
-      "link": "https://www.cnbc.com/2026/01/12/stock-market-today-live-updates.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -80,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -90,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -100,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -110,18 +99,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Trump's war on the Fed threatens global financial stability, European central bankers warn",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "European central bankers said an \"obedient\" Fed under White House control would be \"extremely grave\" for global financial stability.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-14 13:53",
-      "link": "https://www.cnbc.com/2026/01/14/trump-threat-war-fed-powell-financial-stability-economy-banks-attack-federal-reserve-risk.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -130,7 +109,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,38 +119,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-14 14:29",
+      "date": "2026-01-15 06:21",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Citigroup profit slips as expenses rise amid sweeping overhaul",
+      "headline": "Goldman Sachs is about to report fourth-quarter earnings \u2014 here's what the Street expects",
       "score": 7,
-      "source": "Financial Times",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Citigroup reported a 13% drop in fourth-quarter profits, with net income falling to $2.5 billion due to increased expenses that neared $14 billion, despite revenue growth to $19.9 billion. The Wall Street bank is undergoing a major restructuring led by CEO Jane Fraser, which includes anticipated job",
-      "category": "corporate_earnings",
-      "date": "2026-01-14 13:10",
-      "link": "https://www.ft.com/content/f3da395f-fff8-40d4-860e-c39593dd97d6"
+      "impact": "Trading desks across Wall Street have benefited in the last year as Trump's policies have roiled markets for bonds, currencies, commodities and stocks.",
+      "category": "commodities",
+      "date": "2026-01-15 05:01",
+      "link": "https://www.cnbc.com/2026/01/15/goldman-sachs-gs-q4-2025-earnings.html"
     },
     {
-      "headline": "A Fed-Treasury asset trade? One analyst says a swap could help the struggling housing market.",
+      "headline": "We're booking profits in a stock looking to cash in on a hot-yet-unprofitable investing craze",
       "score": 7,
-      "source": "MarketWatch",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The White House is proposing a flurry of policies to stimulate the moribund housing market, and one analyst is proposing another twist.",
+      "impact": "We're peeling off some shares, which were bucking Wednesday's broader market decline.",
+      "category": "corporate_earnings",
+      "date": "2026-01-14 17:45",
+      "link": "https://www.cnbc.com/2026/01/14/were-booking-profits-in-a-stock-looking-to-cash-in-on-a-hot-yet-unprofitable-investing-craze.html"
+    },
+    {
+      "headline": "This portfolio stock may be on the chopping block if it doesn't deliver on earnings",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "corporate_earnings",
+      "date": "2026-01-14 17:08",
+      "link": "https://www.cnbc.com/2026/01/14/this-portfolio-stock-may-be-on-the-chopping-block-if-it-doesnt-deliver-on-earnings.html"
+    },
+    {
+      "headline": "Stock futures are flat as traders look ahead to more bank earnings: Live updates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Bank earnings got off to a rocky start. Investors continued to digest several demands made by President Donald Trump.",
+      "category": "corporate_earnings",
+      "date": "2026-01-14 00:45",
+      "link": "https://www.cnbc.com/2026/01/13/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "A major development in Trump's Fed feud is set to happen next week in the Supreme Court",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Supreme Court arguments on Jan. 21 will likely be the next big development for the central bank's quest to maintain independence.",
       "category": "us_monetary_policy",
-      "date": "2026-01-14 13:07",
-      "link": "https://www.marketwatch.com/story/a-fed-treasury-asset-trade-one-analyst-says-a-swap-could-help-the-struggling-housing-market-c55162c7"
-    },
-    {
-      "headline": "Wells Fargo comes up short on revenue as it sets new profit target",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The number-three bank by market cap beat on earnings but missed on revenue.",
-      "category": "corporate_earnings",
-      "date": "2026-01-14 12:47",
-      "link": "https://www.marketwatch.com/story/wells-fargo-comes-up-short-on-revenue-as-it-sets-new-profit-target-b2565251"
+      "date": "2026-01-13 20:05",
+      "link": "https://www.cnbc.com/2026/01/13/a-major-development-in-trumps-fed-feud-is-set-to-happen-next-week-in-the-supreme-court.html"
     },
     {
       "headline": "BNY raises profit target as CEO Robin Vince says 'turnaround' is taking hold",
@@ -194,16 +193,6 @@
       "link": "https://www.cnbc.com/2026/01/13/jpmorgan-chase-jpm-earnings-q4-2025.html"
     },
     {
-      "headline": "US inflation stays at 2.7% in December",
-      "score": 7,
-      "source": "Financial Times",
-      "sentiment": "positive",
-      "impact": "Figures suggest price pressures are contained even as price growth remains above Fed\u2019s target",
-      "category": "global_markets",
-      "date": "2026-01-13 13:30",
-      "link": "https://www.ft.com/content/2f6d3a97-561e-4c78-9a45-913999d622ca"
-    },
-    {
       "headline": "Delta CEO sees record earnings in reach again thanks to high-end travel demand",
       "score": 7,
       "source": "CNBC",
@@ -214,64 +203,74 @@
       "link": "https://www.cnbc.com/2026/01/13/delta-air-lines-dal-4q-2025-earnings.html"
     },
     {
-      "headline": "The Fed is unlikely to cut interest rates any time soon. Here\u2019s why that might be good news",
-      "score": 7,
-      "source": "CNN",
-      "sentiment": "negative",
-      "impact": "After cutting interest rates three times in a row last year, the Federal Reserve indicated last month it probably won\u2019t lower interest rates again for a while. A months-long pause, cemented by key economic data released Friday, may indeed be the best-case sce\u2026",
+      "headline": "CoStar Group (NASDAQ:CSGP) Shares Acquired Rep. Gilbert Ray Cisneros, Jr.",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Representative Gilbert Ray Cisneros, Jr. (D-California) recently purchased between $1,001 and $15,000 worth of CoStar Group (NASDAQ:CSGP) stock on December 10th, disclosed in a January 12th filing. CoStar Group's stock traded up 3.3% recently, following its approval of a $1.5 billion share buyback a",
+      "category": "us_equities",
+      "date": "2026-01-15 04:15",
+      "link": "https://www.marketbeat.com/instant-alerts/costar-group-nasdaqcsgp-shares-acquired-rep-gilbert-ray-cisneros-jr-2026-01-14/"
+    },
+    {
+      "headline": "Rep. Gilbert Ray Cisneros, Jr. Purchases Shares of The Cooper Companies, Inc. (NASDAQ:COO)",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Representative Gilbert Ray Cisneros, Jr. (D-California) recently purchased between $1,001 and $15,000 worth of shares in The Cooper Companies, Inc. (NASDAQ:COO). This transaction, disclosed on January 12th, occurred on December 10th. Cooper Companies recently exceeded quarterly EPS estimates, provid",
+      "category": "us_equities",
+      "date": "2026-01-15 04:13",
+      "link": "https://www.marketbeat.com/instant-alerts/rep-gilbert-ray-cisneros-jr-purchases-shares-of-the-cooper-companies-inc-nasdaqcoo-2026-01-14/"
+    },
+    {
+      "headline": "Musk's xAI disables Grok's ability to create sexualized images of real people after backlash",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "X's safety account said in a social media post that no users will be able to create sexualized images of real people using Grok.",
+      "category": "global_markets",
+      "date": "2026-01-15 01:29",
+      "link": "https://www.cnbc.com/2026/01/14/musk-xai-blocks-grok-chatbot-from-creating-sexualized-images-of-people.html"
+    },
+    {
+      "headline": "Your wealth and investments are on the line if Trump torpedoes the Fed\u2019s independence",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "When politicians get involved with central-bank decisions, inflation, the dollar and the stock market all become less predictable.",
       "category": "us_monetary_policy",
-      "date": "2026-01-13 11:01",
-      "link": "https://www.cnn.com/2026/01/13/economy/federal-reserve-rate-decision-january"
+      "date": "2026-01-15 01:21",
+      "link": "https://www.marketwatch.com/story/your-wealth-and-investments-would-be-on-the-line-if-trump-torpedoes-the-feds-independence-32205e6f?mod=mw_rss_topstories"
     },
     {
-      "headline": "Citigroup tops estimates on stronger net interest income, smaller loan loss provision",
+      "headline": "Down in the polls, Trump yanks Republicans toward economic populism. It may not save them",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Under CEO Jane Fraser, Citigroup is in the midst of a restructuring, selling off parts of its overseas operations.",
-      "category": "global_markets",
-      "date": "2026-01-14 14:28",
-      "link": "https://www.cnbc.com/2026/01/14/citigroup-c-earnings-q4-2025.html"
+      "impact": "President Donald Trump phoned Democratic Sen. Elizabeth Warren earlier this week.",
+      "category": "us_equities",
+      "date": "2026-01-14 21:54",
+      "link": "https://www.cnbc.com/2026/01/14/trump-republicans-economic-populism.html"
     },
     {
-      "headline": "Bank of America tops estimates on better-than-expected net interest income, equities trading",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Bank of America, the second-largest U.S. bank by assets, has been a beneficiary of the industry's recent tail winds.",
-      "category": "global_markets",
-      "date": "2026-01-14 14:18",
-      "link": "https://www.cnbc.com/2026/01/14/bank-of-america-bac-q4-2025-earnings.html"
-    },
-    {
-      "headline": "Citigroup\u2019s stock is rising even with profit falling below expectations. Russia is one reason.",
+      "headline": "Your wealth and investments would be on the line if Trump torpedoes the Fed\u2019s independence",
       "score": 6,
       "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "When politicians get involved with central-bank decisions, inflation, the dollar and the stock market all become less predictable.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-14 21:27",
+      "link": "https://www.marketwatch.com/story/your-wealth-and-investments-would-be-on-the-line-if-trump-torpedoes-the-feds-independence-32205e6f"
+    },
+    {
+      "headline": "Stellantis CEO: 2026 is the \u2018year of execution\u2019 as Wall Street awaits turnaround strategy",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Citigroup\u2019s stock rose, as the bank\u2019s earnings miss was due to a previously disclosed large loss related to plans to sell AO Citibank in Russia.",
-      "category": "corporate_earnings",
-      "date": "2026-01-14 13:54",
-      "link": "https://www.marketwatch.com/story/citigroups-stock-is-rising-even-with-profit-falling-below-expectations-russia-is-one-reason-4761d0a0"
-    },
-    {
-      "headline": "Wholesale-cost increases during government shutdown point to persistent inflation in U.S. economy",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The cost of wholesale goods and services rose during the government shutdown and showed the persistence of inflation pressures in the guts of the U.S. economy.",
+      "impact": "Stellantis CEO Antonio Filosa views 2026 as an execution year for the embattled automaker following years of sales declines in the U.S.",
       "category": "us_equities",
-      "date": "2026-01-14 13:48",
-      "link": "https://www.marketwatch.com/story/wholesale-cost-increases-during-government-shutdown-point-to-persistent-inflation-in-u-s-economy-7dcb35f1"
-    },
-    {
-      "headline": "Rising wholesale prices during shutdown point to persistent inflation in the economy",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The cost of wholesale goods and services rose during the government shutdown and showed the persistence of inflation pressures in the guts of the U.S. economy.",
-      "category": "us_equities",
-      "date": "2026-01-14 13:48",
-      "link": "https://www.marketwatch.com/story/wholesale-cost-increases-during-government-shutdown-point-to-persistent-inflation-in-u-s-economy-7dcb35f1?mod=mw_rss_topstories"
+      "date": "2026-01-14 21:15",
+      "link": "https://www.cnbc.com/2026/01/14/stellantis-ceo-turnaround-plan.html"
     }
   ]
 }
