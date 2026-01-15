@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-15T06:21:19.893306",
+  "timestamp": "2026-01-15T14:28:29.595108",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 9,
-    "neutral": 15,
-    "bearish": 1,
-    "high_priority": 8,
+    "avg_relevance": 7.3,
+    "bullish": 13,
+    "neutral": 10,
+    "bearish": 2,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,10 +16,11 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "Caixin/S&P Global": 1,
     "CNBC": 11,
-    "MarketBeat": 2,
-    "MarketWatch": 2
+    "Caixin/S&P Global": 1,
+    "MarketWatch": 2,
+    "The Wall Street Journal": 1,
+    "Investor's Business Daily": 1
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Treasury yields nudge higher as investors monitor geopolitical uncertainty",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "U.S. Treasury yields inched higher on Thursday as geopolitical uncertainty dominated headlines.",
+      "category": "fixed_income",
+      "date": "2026-01-15 10:16",
+      "link": "https://www.cnbc.com/2026/01/15/us-treasury-yields-investors-monitor-geopolitical-uncertainty-.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -109,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,68 +130,78 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-15 06:21",
+      "date": "2026-01-15 14:28",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Goldman Sachs is about to report fourth-quarter earnings \u2014 here's what the Street expects",
+      "headline": "Goldman Sachs tops profit estimates as equities, asset and wealth management outperform",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Trading desks across Wall Street have benefited in the last year as Trump's policies have roiled markets for bonds, currencies, commodities and stocks.",
+      "sentiment": "positive",
+      "impact": "Goldman's revenue dipped 3% in Q4, which the company said was the result of offloading the Apple Card loan portfolio to JPMorgan Chase.",
       "category": "commodities",
-      "date": "2026-01-15 05:01",
+      "date": "2026-01-15 14:08",
       "link": "https://www.cnbc.com/2026/01/15/goldman-sachs-gs-q4-2025-earnings.html"
     },
     {
-      "headline": "We're booking profits in a stock looking to cash in on a hot-yet-unprofitable investing craze",
+      "headline": "TSMC breaks big revenue milestone in thumping fourth quarter, raises guidance on revenue and AI capex for 2026",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "We're peeling off some shares, which were bucking Wednesday's broader market decline.",
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "TSMC\u2019s stock jumps 5% after announcing a stonking set of 4Q numbers that have positive implications the companies it supplies and those who supply it.",
       "category": "corporate_earnings",
-      "date": "2026-01-14 17:45",
-      "link": "https://www.cnbc.com/2026/01/14/were-booking-profits-in-a-stock-looking-to-cash-in-on-a-hot-yet-unprofitable-investing-craze.html"
+      "date": "2026-01-15 10:34",
+      "link": "https://www.marketwatch.com/story/tsmc-breaks-big-revenue-milestone-in-thumping-fourth-quarter-raises-guidance-on-revenue-and-ai-capex-for-2026-cac934a4"
     },
     {
-      "headline": "This portfolio stock may be on the chopping block if it doesn't deliver on earnings",
+      "headline": "Wholesale inflation was softer than expected, retail sales moved higher in November",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "category": "corporate_earnings",
-      "date": "2026-01-14 17:08",
-      "link": "https://www.cnbc.com/2026/01/14/this-portfolio-stock-may-be-on-the-chopping-block-if-it-doesnt-deliver-on-earnings.html"
+      "sentiment": "positive",
+      "impact": "Wholesale prices moved up less than expected while consumers kept up a heavy buying pace, according to economic data Wednesday.",
+      "category": "global_markets",
+      "date": "2026-01-14 13:58",
+      "link": "https://www.cnbc.com/2026/01/14/wholesale-inflation-was-softer-than-expected-retail-sales-moved-higher-in-november.html"
     },
     {
-      "headline": "Stock futures are flat as traders look ahead to more bank earnings: Live updates",
+      "headline": "Pace of Inflation Held Steady in December; Consumer Prices Up 2.7% on Year",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-01-14 13:21",
+      "link": "https://www.wsj.com/economy/consumer-price-index-inflation-december-2025-5e292092"
+    },
+    {
+      "headline": "Dow Jones Futures Fall Amid Wells Fargo, Citigroup, BofA Earnings; Tesla FSD To Be Subscription Only",
+      "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "negative",
+      "impact": "Bank of America, Wells Fargo and Citigroup reported.",
+      "category": "us_equities",
+      "date": "2026-01-14 13:15",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp-500-citigroup-wells-fargo-bac-tesla-fsd-stop-selling/"
+    },
+    {
+      "headline": "Mortgage refinance demand surges 40% higher after Trump post briefly tanks interest rates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Mortgage rates dropped markedly at the end of last week, causing a huge jump in demand to refinance and a smaller surge in demand from home buyers.",
+      "category": "global_markets",
+      "date": "2026-01-14 12:00",
+      "link": "https://www.cnbc.com/2026/01/14/mortgage-refinance-demand-surges-40percent-higher-.html"
+    },
+    {
+      "headline": "Stock futures lose ground as traders weigh more bank earnings: Live updates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "Bank earnings got off to a rocky start. Investors continued to digest several demands made by President Donald Trump.",
       "category": "corporate_earnings",
-      "date": "2026-01-14 00:45",
+      "date": "2026-01-14 10:52",
       "link": "https://www.cnbc.com/2026/01/13/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "A major development in Trump's Fed feud is set to happen next week in the Supreme Court",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Supreme Court arguments on Jan. 21 will likely be the next big development for the central bank's quest to maintain independence.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-13 20:05",
-      "link": "https://www.cnbc.com/2026/01/13/a-major-development-in-trumps-fed-feud-is-set-to-happen-next-week-in-the-supreme-court.html"
-    },
-    {
-      "headline": "BNY raises profit target as CEO Robin Vince says 'turnaround' is taking hold",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "BNY raised a pair of key medium-term performance targets on Tuesday. ",
-      "category": "corporate_earnings",
-      "date": "2026-01-13 16:10",
-      "link": "https://www.cnbc.com/2026/01/13/bny-profit-target-ceo-robin-vince-turnaround.html"
     },
     {
       "headline": "JPMorgan Chase tops estimates as trading revenue exceeds expectations",
@@ -203,74 +224,54 @@
       "link": "https://www.cnbc.com/2026/01/13/delta-air-lines-dal-4q-2025-earnings.html"
     },
     {
-      "headline": "CoStar Group (NASDAQ:CSGP) Shares Acquired Rep. Gilbert Ray Cisneros, Jr.",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Representative Gilbert Ray Cisneros, Jr. (D-California) recently purchased between $1,001 and $15,000 worth of CoStar Group (NASDAQ:CSGP) stock on December 10th, disclosed in a January 12th filing. CoStar Group's stock traded up 3.3% recently, following its approval of a $1.5 billion share buyback a",
-      "category": "us_equities",
-      "date": "2026-01-15 04:15",
-      "link": "https://www.marketbeat.com/instant-alerts/costar-group-nasdaqcsgp-shares-acquired-rep-gilbert-ray-cisneros-jr-2026-01-14/"
-    },
-    {
-      "headline": "Rep. Gilbert Ray Cisneros, Jr. Purchases Shares of The Cooper Companies, Inc. (NASDAQ:COO)",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Representative Gilbert Ray Cisneros, Jr. (D-California) recently purchased between $1,001 and $15,000 worth of shares in The Cooper Companies, Inc. (NASDAQ:COO). This transaction, disclosed on January 12th, occurred on December 10th. Cooper Companies recently exceeded quarterly EPS estimates, provid",
-      "category": "us_equities",
-      "date": "2026-01-15 04:13",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-gilbert-ray-cisneros-jr-purchases-shares-of-the-cooper-companies-inc-nasdaqcoo-2026-01-14/"
-    },
-    {
-      "headline": "Musk's xAI disables Grok's ability to create sexualized images of real people after backlash",
+      "headline": "How much one parent needs to earn so the other can stay home in every U.S. state",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "X's safety account said in a social media post that no users will be able to create sexualized images of real people using Grok.",
+      "impact": "Many families want or need one parent to stay at home with a young child. While that may help save on child care, the single-earner still needs a decent income.",
       "category": "global_markets",
-      "date": "2026-01-15 01:29",
-      "link": "https://www.cnbc.com/2026/01/14/musk-xai-blocks-grok-chatbot-from-creating-sexualized-images-of-people.html"
+      "date": "2026-01-15 14:00",
+      "link": "https://www.cnbc.com/2026/01/15/how-much-one-parent-needs-to-earn-so-the-other-can-stay-home-by-state.html"
     },
     {
-      "headline": "Your wealth and investments are on the line if Trump torpedoes the Fed\u2019s independence",
+      "headline": "Goldman Sachs\u2019s revenue fell for first time in 2 years \u2014 Apple Card was the problem",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "When politicians get involved with central-bank decisions, inflation, the dollar and the stock market all become less predictable.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-15 01:21",
-      "link": "https://www.marketwatch.com/story/your-wealth-and-investments-would-be-on-the-line-if-trump-torpedoes-the-feds-independence-32205e6f?mod=mw_rss_topstories"
+      "sentiment": "positive",
+      "impact": "Goldman Sachs beat fourth-quarter profit expectations by a wide margin, amid particular strength in the investment banking and equities businesses, but the stock fell as revenue disappointed.",
+      "category": "commodities",
+      "date": "2026-01-15 13:57",
+      "link": "https://www.marketwatch.com/story/goldman-sachs-revenue-fell-for-first-time-in-2-years-apple-card-was-the-problem-c19c226d?mod=mw_rss_topstories"
     },
     {
-      "headline": "Down in the polls, Trump yanks Republicans toward economic populism. It may not save them",
+      "headline": "Under threat from Trump, Wall Street banks wager they can fend off credit card price controls",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "President Donald Trump phoned Democratic Sen. Elizabeth Warren earlier this week.",
+      "impact": "Five days after Trump's demand to cap credit card rates, bankers and lobbyists told CNBC they have yet to receive any formal or written guidance on the policy.",
       "category": "us_equities",
-      "date": "2026-01-14 21:54",
-      "link": "https://www.cnbc.com/2026/01/14/trump-republicans-economic-populism.html"
+      "date": "2026-01-15 13:41",
+      "link": "https://www.cnbc.com/2026/01/14/trump-credit-card-cap-banks-fend-off-controls.html"
     },
     {
-      "headline": "Your wealth and investments would be on the line if Trump torpedoes the Fed\u2019s independence",
+      "headline": "Billionaire Rams owner Stan Kroenke becomes America's biggest private landowner",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "When politicians get involved with central-bank decisions, inflation, the dollar and the stock market all become less predictable.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-14 21:27",
-      "link": "https://www.marketwatch.com/story/your-wealth-and-investments-would-be-on-the-line-if-trump-torpedoes-the-feds-independence-32205e6f"
+      "impact": "Kroenke represents a growing wave of ultra-wealthy entrepreneurs investing in long-held ranches and farmland.",
+      "category": "us_equities",
+      "date": "2026-01-15 13:30",
+      "link": "https://www.cnbc.com/2026/01/15/stan-kroenke-largest-private-us-landowner.html"
     },
     {
-      "headline": "Stellantis CEO: 2026 is the \u2018year of execution\u2019 as Wall Street awaits turnaround strategy",
+      "headline": "How Saks's acquisition of Neiman Marcus plunged the company into bankruptcy: 'Recipe for disaster'",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Stellantis CEO Antonio Filosa views 2026 as an execution year for the embattled automaker following years of sales declines in the U.S.",
-      "category": "us_equities",
-      "date": "2026-01-14 21:15",
-      "link": "https://www.cnbc.com/2026/01/14/stellantis-ceo-turnaround-plan.html"
+      "impact": "Saks used $2.2 billion in junk bonds to buy Neiman Marcus, but didn't have enough money left over to pay vendors, which led the company to declare bankruptcy. ",
+      "category": "global_markets",
+      "date": "2026-01-15 13:30",
+      "link": "https://www.cnbc.com/2026/01/15/saks-acquisition-of-neiman-marcus-led-to-bankruptcy.html"
     }
   ]
 }
