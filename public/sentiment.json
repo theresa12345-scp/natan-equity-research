@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-16T06:21:46.559445",
+  "timestamp": "2026-01-16T14:27:47.096072",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 8,
-    "neutral": 15,
-    "bearish": 2,
-    "high_priority": 8,
+    "bullish": 10,
+    "neutral": 14,
+    "bearish": 1,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
+    "Reuters": 4,
     "Bloomberg": 2,
+    "CNBC": 8,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "Yahoo Entertainment": 1,
-    "Irs.gov": 1,
+    "The Wall Street Journal": 1,
     "MarketBeat": 1,
-    "Simply Wall Street": 1,
-    "MarketWatch": 5
+    "MarketWatch": 4
   },
   "top_signals": [
     {
@@ -32,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "S&P 500 books back-to-back losses as tech sells off, Bank of America slides after earnings: Live updates",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The three major averages fell for a second consecutive session.",
+      "category": "us_equities",
+      "date": "2026-01-14 21:07",
+      "link": "https://www.cnbc.com/2026/01/13/stock-market-today-live-updates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -112,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,7 +130,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-16 06:21",
+      "date": "2026-01-16 14:27",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -136,64 +144,44 @@
       "link": "https://www.cnbc.com/2026/01/15/goldman-sachs-gs-q4-2025-earnings.html"
     },
     {
-      "headline": "We're booking some profits in a rallying stock that rewarded our patience",
+      "headline": "TSMC Ends 2025 With a Bang as AI Keeps Boosting Profits",
       "score": 7,
-      "source": "CNBC",
+      "source": "The Wall Street Journal",
       "sentiment": "positive",
-      "impact": "We're raising more cash for the portfolio into strength after the S&P Short Range Oscillator officially entered overbought territory.",
-      "category": "corporate_earnings",
-      "date": "2026-01-15 16:30",
-      "link": "https://www.cnbc.com/2026/01/15/were-booking-some-profits-in-a-rallying-stock-that-rewarded-our-patience.html"
-    },
-    {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures slide after Wall Street's first back-to-back losses in 2026",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "negative",
-      "impact": "Stock futures fell following consecutive days of losses. Investors have been buffeted by industry losses and geopolitical issues.",
+      "impact": "World\u2019s largest contract chip maker is caught in the middle of a long-awaited trade deal between Taiwan and the U.S.",
       "category": "us_equities",
-      "date": "2026-01-14 23:55",
-      "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-slip-after-wall-streets-first-back-to-back-losses-in-2026-235521867.html"
+      "date": "2026-01-15 06:03",
+      "link": "https://www.wsj.com/business/earnings/tsmc-ends-2025-with-a-bang-as-ai-keeps-boosting-profits-9f775b1e"
     },
     {
-      "headline": "Treasury, IRS issue guidance on the additional first year depreciation deduction amended as part of the One, Big, Beautiful Bill",
-      "score": 7,
-      "source": "Irs.gov",
-      "sentiment": "neutral",
-      "impact": "IR-2026-06, Jan. 14, 2026 \u2014 The Department of the Treasury and the Internal Revenue Service today issued Notice 2026-11 that provides taxpayers with guidance on the permanent 100% additional first year depreciation deduction for eligible depreciable property \u2026",
-      "category": "fixed_income",
-      "date": "2026-01-14 15:05",
-      "link": "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill"
-    },
-    {
-      "headline": "Frontier Group Holdings, Inc. (NASDAQ:ULCC) Given Average Rating of \"Hold\" by Brokerages",
+      "headline": "BNP Paribas Exane Upgrades Monster Beverage (NASDAQ:MNST) to \"Neutral\"",
       "score": 6,
       "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Frontier Group Holdings, Inc. (NASDAQ:ULCC) has received an average \"Hold\" rating from brokerages, with an average 12-month price target of $6.38. The company recently reported quarterly EPS of ($0.34) which matched estimates, and revenue of $886 million, below expectations. Insider selling has been",
+      "sentiment": "positive",
+      "impact": "BNP Paribas Exane has upgraded Monster Beverage (NASDAQ:MNST) from an \"underperform\" to a \"neutral\" rating, setting a $77.00 price target. This comes amidst other analysts reaffirming \"buy\" or \"outperform\" ratings with various price objectives, leading to an average \"Moderate Buy\" rating for the sto",
       "category": "us_equities",
-      "date": "2026-01-16 05:55",
-      "link": "https://www.marketbeat.com/instant-alerts/frontier-group-holdings-inc-nasdaqulcc-given-average-rating-of-hold-by-brokerages-2026-01-15/"
+      "date": "2026-01-16 13:55",
+      "link": "https://www.marketbeat.com/instant-alerts/bnp-paribas-exane-upgrades-monster-beverage-nasdaqmnst-to-neutral-2026-01-16/"
     },
     {
-      "headline": "A Look At CoStar Group (CSGP) Valuation After Its 2026 Outlook And Homes.com Profitability Delay",
+      "headline": "JPMorgan forms new advisory group to tap boom in private markets",
       "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "neutral",
-      "impact": "CoStar Group (CSGP) is under investor scrutiny after releasing its 2026 outlook, which detailed revenue and earnings guidance but delayed profitability for Homes.com. Despite a recent share price decline, the company aims for future growth through ongoing investment and a US$1.5 billion buyback plan",
-      "category": "corporate_earnings",
-      "date": "2026-01-16 04:12",
-      "link": "https://simplywall.st/stocks/us/real-estate-management-and-development/nasdaq-csgp/costar-group/news/a-look-at-costar-group-csgp-valuation-after-its-2026-outlook"
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "JPMorgan Chase & Co. has established a new advisory team, dubbed \"private capital advisory & solutions,\" to leverage the growing private markets. The initiative aims to help companies and sponsors raise capital outside traditional public markets, recognizing the increasing trend of startups like Ope",
+      "category": "global_markets",
+      "date": "2026-01-16 13:49",
+      "link": "https://www.reuters.com/business/finance/jpmorgan-forms-new-advisory-group-tap-boom-private-markets-2026-01-16/"
     },
     {
-      "headline": "This stock-and-bond blend made double-digit gains last year \u2014 investors still dismiss it",
+      "headline": "Trump's proposed ban on buying single-family homes introduces uncertainty for family offices",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Why we should sing the praises of the tried-and-true 60/40 stocks-bonds portfolio.",
-      "category": "fixed_income",
-      "date": "2026-01-16 01:04",
-      "link": "https://www.marketwatch.com/story/this-mix-of-stocks-and-bonds-delivered-double-digit-gains-last-year-yet-too-many-investors-dismiss-it-44c15413?mod=mw_rss_topstories"
+      "impact": "Wall Street landlords are the primary target of Trump's proposed ban, but investment firms of the ultra rich could get caught in the crosshairs.",
+      "category": "global_markets",
+      "date": "2026-01-16 12:30",
+      "link": "https://www.cnbc.com/2026/01/16/trump-investors-homes-family-offices.html"
     },
     {
       "headline": "Coinbase CEO says key crypto vote can be rescheduled after 11th hour cancellation",
@@ -274,6 +262,16 @@
       "category": "global_markets",
       "date": "2026-01-15 18:57",
       "link": "https://www.cnbc.com/2026/01/15/prediction-markets-college-students-teens-could-be-fueling-the-boom.html"
+    },
+    {
+      "headline": "Trump unveils health-care plan outline as Congress wrestles over Obamacare subsidies",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Trump urged Congress, which is grappling over an extension of key ACA tax credits, to pass \"The Great Healthcare Plan\" without delay.",
+      "category": "global_markets",
+      "date": "2026-01-15 18:37",
+      "link": "https://www.cnbc.com/2026/01/15/trump-congress-aca-subsidies-health-care.html"
     }
   ]
 }
