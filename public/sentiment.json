@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-18T06:19:34.622941",
+  "timestamp": "2026-01-18T14:21:30.837708",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 11,
+    "avg_relevance": 7.2,
+    "bullish": 12,
     "neutral": 12,
-    "bearish": 2,
-    "high_priority": 9,
+    "bearish": 1,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -15,13 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
-    "Simply Wall Street": 2,
+    "Bloomberg": 4,
+    "Fortune": 1,
+    "TPM": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "MarketWatch": 4,
-    "Financial Times": 1,
-    "Associated Press": 1
+    "CNBC": 7,
+    "The Wall Street Journal": 1,
+    "MarketWatch": 3
   },
   "top_signals": [
     {
@@ -31,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +101,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Clean Harbors (CLH) Valuation Check After Earnings Miss On Revenue And Profit Estimates",
+      "headline": "Bond yields jump after Trump hints Hassett won't be named Fed chair as Wall Street eyes hawk Warsh",
       "score": 8,
-      "source": "Simply Wall Street",
+      "source": "Fortune",
+      "sentiment": "positive",
+      "impact": "\u201cI actually want to keep you where you are, if you want to know the truth,\u201d Trump said at a White House event.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-16 23:45",
+      "link": "https://fortune.com/2026/01/16/bond-yields-trump-kevin-hassett-fed-chair-hawkish-warsh-powell/"
+    },
+    {
+      "headline": "There\u2019s More at Stake Than Just Interest Rates. Here\u2019s What Trump Could Do With the Whole Federal Reserve Toolkit",
+      "score": 8,
+      "source": "TPM",
       "sentiment": "neutral",
-      "impact": "Clean Harbors (CLH) reported an earnings miss, with revenue and profit falling short of analyst expectations, leading to a slight share price drop in the immediate aftermath. Despite this, the stock has shown positive momentum over the past month and quarter. The company's valuation narrative sugges",
-      "category": "corporate_earnings",
-      "date": "2026-01-18 04:27",
-      "link": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/clean-harbors-clh-valuation-check-after-earnings-miss-on-rev"
+      "impact": "On Wednesday, the Supreme Court will hear oral arguments on whether President...",
+      "category": "us_monetary_policy",
+      "date": "2026-01-16 19:07",
+      "link": "http://talkingpointsmemo.com/news/trump-federal-reserve-independence-monetary-policy-toolkit-banks"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +131,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,7 +141,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-18 06:19",
+      "date": "2026-01-18 14:21",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -143,6 +153,16 @@
       "category": "corporate_earnings",
       "date": "2026-01-17 19:21",
       "link": "https://www.cnbc.com/2026/01/17/week-in-review-stocks-battled-a-flood-of-news-and-we-booked-some-profits.html"
+    },
+    {
+      "headline": "Trump Purchased Netflix, Warner Bonds in Days After Deal Announcement",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-01-17 03:10",
+      "link": "https://www.wsj.com/business/media/trump-purchased-netflix-warner-bonds-in-days-after-deal-announcement-2a5da67f"
     },
     {
       "headline": "Cramer's week ahead: Earnings from Netflix, Intel, Capital One, McCormick",
@@ -175,14 +195,14 @@
       "link": "https://www.cnbc.com/2026/01/15/goldman-sachs-gs-q4-2025-earnings.html"
     },
     {
-      "headline": "Evaluating Deere (DE) After Layoffs Tariff Headwinds And An Earnings Slowdown",
+      "headline": "The minimum savings needed to retire at 65 in every U.S. state\u2014it's over $2 million in Hawaii",
       "score": 6,
-      "source": "Simply Wall Street",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Deere (DE) is facing significant challenges including over 2,000 layoffs, recent earnings per share underperformance, and a projected $1.2 billion tariff impact. While the company's precision agriculture initiatives suggest future growth, current valuations range from a modest 2.4% undervaluation to",
-      "category": "us_equities",
-      "date": "2026-01-18 05:28",
-      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-de/deere/news/evaluating-deere-de-after-layoffs-tariff-headwinds-and-an-ea"
+      "impact": "The estimated savings needed to retire at 65 varies by nearly $1.5 million from state to state, driven largely by differences in housing costs.",
+      "category": "global_markets",
+      "date": "2026-01-18 14:00",
+      "link": "https://www.cnbc.com/2026/01/18/minimum-savings-needed-to-retire-at-65-in-every-us-state.html"
     },
     {
       "headline": "These 20 cheap S&P 500 stocks can cushion the blow in a market downturn",
@@ -203,16 +223,6 @@
       "category": "global_markets",
       "date": "2026-01-17 18:59",
       "link": "https://www.cnbc.com/2026/01/17/trump-jpmorgan-chase-debanking.html"
-    },
-    {
-      "headline": "Inflation relief is on the way \u2014 if these 3 market forces can come together",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Productivity gains, tame oil prices and lower taxes could ease the pressure on consumers.",
-      "category": "global_markets",
-      "date": "2026-01-17 17:22",
-      "link": "https://www.marketwatch.com/story/inflation-relief-is-on-the-way-if-these-3-market-forces-can-come-together-this-year-13be218f?mod=mw_rss_topstories"
     },
     {
       "headline": "Disney dominated the 2025 box office. Here's how it could keep the crown in 2026",
@@ -255,24 +265,14 @@
       "link": "https://www.bloomberg.com/news/articles/2026-01-16/india-inches-closer-to-buying-114-french-rafale-jets"
     },
     {
-      "headline": "Nvidia suppliers halt H200 output after China blocks chip shipments",
+      "headline": "Musk Seeks Up to $134 Billion Damages From OpenAI, Microsoft",
       "score": 6,
-      "source": "Financial Times",
-      "sentiment": "negative",
-      "impact": "Parts makers concerned about whether Beijing will allow imports of AI processors",
-      "category": "asia_economy",
-      "date": "2026-01-17 01:30",
-      "link": "https://www.ft.com/content/02a3eb7c-684f-4e39-87b8-36e9595ef800"
-    },
-    {
-      "headline": "Republicans vouch for Fed chair, creating a rare schism with Trump",
-      "score": 6,
-      "source": "Associated Press",
+      "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "Republicans in Congress are supporting Federal Reserve Chair Jerome Powell as the Trump administration ramps up its pressure campaign against the central bank. The rare break in Congress from Trump is a result of Powell revealing that the Justice Department h\u2026",
-      "category": "us_monetary_policy",
-      "date": "2026-01-16 21:12",
-      "link": "https://apnews.com/article/jerome-powell-federal-reserve-trump-af06d80b28be9c8a5de9c3b2fe33fa3d"
+      "impact": "Elon Musk wants OpenAI Inc. and Microsoft to pay him damages in the range of $79 billion to $134 billion over his claims that the generative AI company defrauded him by abandoning its nonprofit roots and partnering with the software giant.",
+      "category": "global_markets",
+      "date": "2026-01-17 05:32",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-17/musk-seeks-up-to-134-billion-damages-from-openai-microsoft"
     }
   ]
 }
