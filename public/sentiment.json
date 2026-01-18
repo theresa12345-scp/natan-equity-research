@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-17T14:21:55.287824",
+  "timestamp": "2026-01-18T06:19:34.622941",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 10,
-    "neutral": 11,
-    "bearish": 4,
-    "high_priority": 8,
+    "avg_relevance": 7.1,
+    "bullish": 11,
+    "neutral": 12,
+    "bearish": 2,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,11 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 2,
+    "Bloomberg": 3,
+    "Simply Wall Street": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 10,
-    "MarketBeat": 1,
-    "MarketWatch": 4
+    "CNBC": 6,
+    "MarketWatch": 4,
+    "Financial Times": 1,
+    "Associated Press": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Clean Harbors (CLH) Valuation Check After Earnings Miss On Revenue And Profit Estimates",
+      "score": 8,
+      "source": "Simply Wall Street",
+      "sentiment": "neutral",
+      "impact": "Clean Harbors (CLH) reported an earnings miss, with revenue and profit falling short of analyst expectations, leading to a slight share price drop in the immediate aftermath. Despite this, the stock has shown positive momentum over the past month and quarter. The company's valuation narrative sugges",
+      "category": "corporate_earnings",
+      "date": "2026-01-18 04:27",
+      "link": "https://simplywall.st/stocks/us/commercial-services/nyse-clh/clean-harbors/news/clean-harbors-clh-valuation-check-after-earnings-miss-on-rev"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -109,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,8 +131,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-17 14:21",
+      "date": "2026-01-18 06:19",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Week in review: Stocks battled a flood of news and we booked some profits",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Stocks finished last week slightly lower as the market battled a series of political headlines and policy news.",
+      "category": "corporate_earnings",
+      "date": "2026-01-17 19:21",
+      "link": "https://www.cnbc.com/2026/01/17/week-in-review-stocks-battled-a-flood-of-news-and-we-booked-some-profits.html"
     },
     {
       "headline": "Cramer's week ahead: Earnings from Netflix, Intel, Capital One, McCormick",
@@ -153,14 +175,44 @@
       "link": "https://www.cnbc.com/2026/01/15/goldman-sachs-gs-q4-2025-earnings.html"
     },
     {
-      "headline": "Silvercrest Asset Management Group Inc. (NASDAQ:SAMG) Sees Large Drop in Short Interest",
+      "headline": "Evaluating Deere (DE) After Layoffs Tariff Headwinds And An Earnings Slowdown",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Simply Wall Street",
       "sentiment": "neutral",
-      "impact": "Silvercrest Asset Management Group Inc. (NASDAQ:SAMG) experienced a significant 25.8% decrease in short interest in December, bringing the total to 78,161 shares with a days-to-cover ratio of 1.6 days. Despite a 5.4% dividend yield, the company's dividend payout ratio is high at 118.31%, and its mos",
+      "impact": "Deere (DE) is facing significant challenges including over 2,000 layoffs, recent earnings per share underperformance, and a projected $1.2 billion tariff impact. While the company's precision agriculture initiatives suggest future growth, current valuations range from a modest 2.4% undervaluation to",
       "category": "us_equities",
-      "date": "2026-01-17 13:18",
-      "link": "https://www.marketbeat.com/instant-alerts/silvercrest-asset-management-group-inc-nasdaqsamg-sees-large-drop-in-short-interest-2026-01-17/"
+      "date": "2026-01-18 05:28",
+      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-de/deere/news/evaluating-deere-de-after-layoffs-tariff-headwinds-and-an-ea"
+    },
+    {
+      "headline": "These 20 cheap S&P 500 stocks can cushion the blow in a market downturn",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Conservative investors favor stocks trading at low P/E ratios \u2014 and the long-term record proves them right.",
+      "category": "us_equities",
+      "date": "2026-01-17 19:54",
+      "link": "https://www.marketwatch.com/story/these-stocks-are-steady-eddies-if-s-p-500-earnings-growth-slips-and-the-market-slides-add642d0?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Trump threatens to sue JPMorgan Chase for 'debanking' him",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "President Trump threatened to sue JPMorgan for allegedly \"debanking\" him following the Jan. 6 insurrection in 2021.",
+      "category": "global_markets",
+      "date": "2026-01-17 18:59",
+      "link": "https://www.cnbc.com/2026/01/17/trump-jpmorgan-chase-debanking.html"
+    },
+    {
+      "headline": "Inflation relief is on the way \u2014 if these 3 market forces can come together",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Productivity gains, tame oil prices and lower taxes could ease the pressure on consumers.",
+      "category": "global_markets",
+      "date": "2026-01-17 17:22",
+      "link": "https://www.marketwatch.com/story/inflation-relief-is-on-the-way-if-these-3-market-forces-can-come-together-this-year-13be218f?mod=mw_rss_topstories"
     },
     {
       "headline": "Disney dominated the 2025 box office. Here's how it could keep the crown in 2026",
@@ -193,84 +245,34 @@
       "link": "https://www.marketwatch.com/story/s-p-500-has-gained-16-in-trumps-first-year-back-in-office-how-that-compares-with-other-presidents-a9746686"
     },
     {
-      "headline": "Novo Nordisk shares rise 8% after Wegovy obesity pill has 'solid' launch",
+      "headline": "Govt green-lights plan to buy 114 French Rafale jets",
       "score": 6,
-      "source": "CNBC",
+      "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "The early data is a boost to the Danish drugmaker's hopes of winning back more market share from Eli Lilly in the obesity drug space. ",
+      "impact": "The purchase would be a significant upgrade for the Indian Air Force, whose fighter fleet, largely of Russian origin, is dwindling",
       "category": "global_markets",
-      "date": "2026-01-16 21:02",
-      "link": "https://www.cnbc.com/2026/01/16/novo-nordisk-shares-wegovy-obesity-pill-launch.html"
+      "date": "2026-01-17 05:38",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-16/india-inches-closer-to-buying-114-french-rafale-jets"
     },
     {
-      "headline": "One of our top stocks this week just lost its CFO \u2014 what it means for investors",
+      "headline": "Nvidia suppliers halt H200 output after China blocks chip shipments",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2026-01-16 19:35",
-      "link": "https://www.cnbc.com/2026/01/16/one-of-our-top-stocks-this-week-just-lost-its-cfo-what-it-means-.html"
-    },
-    {
-      "headline": "This energy stock is the clearest winner in efforts aimed at powering the AI buildout",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "category": "global_markets",
-      "date": "2026-01-16 16:57",
-      "link": "https://www.cnbc.com/2026/01/16/this-energy-stock-is-the-clearest-winner-in-efforts-aimed-at-powering-the-ai-buildout.html"
-    },
-    {
-      "headline": "Is inflation actually lower than we think? This economist says yes.",
-      "score": 6,
-      "source": "MarketWatch",
+      "source": "Financial Times",
       "sentiment": "negative",
-      "impact": "New York Fed says inflation and import prices are overstated.",
-      "category": "global_markets",
-      "date": "2026-01-16 16:55",
-      "link": "https://www.marketwatch.com/story/is-inflation-actually-lower-than-we-think-this-economist-says-yes-5d4581f1"
-    },
-    {
-      "headline": "Warsh\u2019s chances of becoming Fed chair jump as Trump suggests he doesn\u2019t want Hassett in that job",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The contest to become the next chair of the Federal Reserve took another turn Friday, as President Donald Trump hinted that he may want to keep economist Kevin Hassett in his current White House job.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-16 16:24",
-      "link": "https://www.marketwatch.com/story/warshs-chances-of-becoming-fed-chair-jump-as-trump-suggests-he-doesnt-want-hassett-in-that-job-146fb6a9"
-    },
-    {
-      "headline": "Stellantis CEO: 2026 is the \u2018year of execution\u2019 as Wall Street awaits turnaround strategy",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Stellantis CEO Antonio Filosa views 2026 as an execution year for the embattled automaker following years of sales declines in the U.S.",
-      "category": "us_equities",
-      "date": "2026-01-16 16:01",
-      "link": "https://www.cnbc.com/2026/01/14/stellantis-ceo-turnaround-plan.html"
-    },
-    {
-      "headline": "Making U.S. biotech more competitive with China's could help rare disease patients, experts say",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "China is becoming a leader in biotech innovation. That offers hope to rare disease patients and presents a problem to American companies trying to save them.",
+      "impact": "Parts makers concerned about whether Beijing will allow imports of AI processors",
       "category": "asia_economy",
-      "date": "2026-01-16 14:58",
-      "link": "https://www.cnbc.com/2026/01/16/keeping-us-biotech-ahead-of-china-could-aid-rare-disease-patients-experts.html"
+      "date": "2026-01-17 01:30",
+      "link": "https://www.ft.com/content/02a3eb7c-684f-4e39-87b8-36e9595ef800"
     },
     {
-      "headline": "25-year-old college dropout's production company brings in $1.08 million a year\u2014and helped his parents retire",
+      "headline": "Republicans vouch for Fed chair, creating a rare schism with Trump",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Tuan Le struggled to acclimate to life in Canada after immigrating from Vietnam with his family at 15. Now, his company brings in over $1 million a year.",
-      "category": "global_markets",
-      "date": "2026-01-16 14:15",
-      "link": "https://www.cnbc.com/2026/01/16/video-production-company-brought-in-over-a-million-dollars-in-2025.html"
+      "source": "Associated Press",
+      "sentiment": "positive",
+      "impact": "Republicans in Congress are supporting Federal Reserve Chair Jerome Powell as the Trump administration ramps up its pressure campaign against the central bank. The rare break in Congress from Trump is a result of Powell revealing that the Justice Department h\u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-01-16 21:12",
+      "link": "https://apnews.com/article/jerome-powell-federal-reserve-trump-af06d80b28be9c8a5de9c3b2fe33fa3d"
     }
   ]
 }
