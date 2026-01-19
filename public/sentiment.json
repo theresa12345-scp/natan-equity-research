@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-18T14:21:30.837708",
+  "timestamp": "2026-01-19T06:26:15.358707",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
+    "avg_relevance": 7.1,
     "bullish": 12,
     "neutral": 12,
     "bearish": 1,
-    "high_priority": 10,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,13 +15,15 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 4,
+    "Bloomberg": 3,
     "Fortune": 1,
-    "TPM": 1,
     "Caixin/S&P Global": 1,
     "CNBC": 7,
-    "The Wall Street Journal": 1,
-    "MarketWatch": 3
+    "The Wall Street Journal": 2,
+    "FinancialContent": 1,
+    "Seeking Alpha": 1,
+    "MarketWatch": 1,
+    "Tipranks.com": 1
   },
   "top_signals": [
     {
@@ -31,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +103,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -115,23 +117,13 @@
       "link": "https://fortune.com/2026/01/16/bond-yields-trump-kevin-hassett-fed-chair-hawkish-warsh-powell/"
     },
     {
-      "headline": "There\u2019s More at Stake Than Just Interest Rates. Here\u2019s What Trump Could Do With the Whole Federal Reserve Toolkit",
-      "score": 8,
-      "source": "TPM",
-      "sentiment": "neutral",
-      "impact": "On Wednesday, the Supreme Court will hear oral arguments on whether President...",
-      "category": "us_monetary_policy",
-      "date": "2026-01-16 19:07",
-      "link": "http://talkingpointsmemo.com/news/trump-federal-reserve-independence-monetary-policy-toolkit-banks"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -141,7 +133,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-18 14:21",
+      "date": "2026-01-19 06:26",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -155,14 +147,14 @@
       "link": "https://www.cnbc.com/2026/01/17/week-in-review-stocks-battled-a-flood-of-news-and-we-booked-some-profits.html"
     },
     {
-      "headline": "Trump Purchased Netflix, Warner Bonds in Days After Deal Announcement",
+      "headline": "The 2025 Inflation Numbers Are Finally In. Here\u2019s the Good and Bad News.",
       "score": 7,
       "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "Latest market news.",
+      "impact": "Gasoline prices are down, but rising grocery costs continue to weigh on consumers",
       "category": "us_equities",
-      "date": "2026-01-17 03:10",
-      "link": "https://www.wsj.com/business/media/trump-purchased-netflix-warner-bonds-in-days-after-deal-announcement-2a5da67f"
+      "date": "2026-01-17 10:30",
+      "link": "https://www.wsj.com/economy/consumers/inflation-price-changes-2025-charts-a8deee40"
     },
     {
       "headline": "Cramer's week ahead: Earnings from Netflix, Intel, Capital One, McCormick",
@@ -185,14 +177,44 @@
       "link": "https://www.cnbc.com/2026/01/16/white-house-hassett-trump-cards-credit-card-battle.html"
     },
     {
-      "headline": "Goldman Sachs tops profit estimates as equities, asset and wealth management outperform",
-      "score": 7,
-      "source": "CNBC",
+      "headline": "Versus Systems Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+      "score": 6,
+      "source": "FinancialContent",
       "sentiment": "positive",
-      "impact": "Goldman's revenue dipped 3% in Q4, which the company said was the result of off-loading the Apple Card loan portfolio to JPMorgan Chase.",
-      "category": "commodities",
-      "date": "2026-01-15 19:16",
-      "link": "https://www.cnbc.com/2026/01/15/goldman-sachs-gs-q4-2025-earnings.html"
+      "impact": "Versus Systems Inc. announced that it has regained compliance with the Nasdaq minimum bid price requirement. The company received notice on November 23, 2022, from Nasdaq after its common shares maintained a closing bid price of $1.00 or more for at least 10 consecutive business days, following a 1-",
+      "category": "us_equities",
+      "date": "2026-01-19 05:28",
+      "link": "https://markets.financialcontent.com/pasadenastarnews/article/gnwcq-2022-11-28-versus-systems-regains-compliance-with-nasdaq-minimum-bid-price-requirement"
+    },
+    {
+      "headline": "Micron says AI-driven memory chip shortage is 'unprecedented', to last beyond 2026 (MU:NASDAQ)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "Micron Technology announced that an AI-driven memory chip shortage has intensified and is expected to last beyond 2026 due to surging demand for advanced semiconductors in AI infrastructure. The company is responding by expanding manufacturing, exiting the consumer memory market, and prioritizing en",
+      "category": "us_equities",
+      "date": "2026-01-19 04:42",
+      "link": "https://seekingalpha.com/news/4540111-micron-says-ai-driven-memory-chip-shortage-is-unprecedented-to-last-beyond-2026"
+    },
+    {
+      "headline": "I talked to many health CEOs out West and see big things for drug stocks",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Health care is going to resume its rightful place in big-time managers' portfolios.",
+      "category": "global_markets",
+      "date": "2026-01-18 21:43",
+      "link": "https://www.cnbc.com/2026/01/18/cramer-i-talked-to-many-health-ceos-out-west-and-see-big-things-for-drug-stocks.html"
+    },
+    {
+      "headline": "Mark Cuban's money helped build Indiana University's football team\u2014he shares 'how championship teams and organizations are built'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Billionaire entrepreneur Mark Cuban is one of the wealthiest donors to an Indiana University football program that's vying for the national championship.",
+      "category": "global_markets",
+      "date": "2026-01-18 14:05",
+      "link": "https://www.cnbc.com/2026/01/18/mark-cuban-indiana-football-donor-how-to-build-successful-teams.html"
     },
     {
       "headline": "The minimum savings needed to retire at 65 in every U.S. state\u2014it's over $2 million in Hawaii",
@@ -225,54 +247,34 @@
       "link": "https://www.cnbc.com/2026/01/17/trump-jpmorgan-chase-debanking.html"
     },
     {
-      "headline": "Disney dominated the 2025 box office. Here's how it could keep the crown in 2026",
+      "headline": "Soaring Electricity Costs Are Now a Hot Political Issue",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Disney accounted for 27.5% of the domestic box office's overall annual haul. It looks to be a dominant force in 2026, too.",
-      "category": "global_markets",
-      "date": "2026-01-17 13:00",
-      "link": "https://www.cnbc.com/2026/01/17/disney-dominated-2025-box-office.html"
-    },
-    {
-      "headline": "\u2018I had hoped the virus would be contained in China\u2019: An inside look at the Fed\u2019s historic fight to save the U.S. economy",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Senior Federal Reserve officials were in a good mood in January 2020 \u2014 but danger was brewing on the other side of the world.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-17 13:00",
-      "link": "https://www.marketwatch.com/story/i-had-hoped-the-virus-would-be-contained-in-china-an-inside-look-at-the-feds-historic-fight-to-save-the-u-s-economy-37fe1afc"
-    },
-    {
-      "headline": "S&P 500 has gained 16% in Trump\u2019s first year back in office. How that compares with other presidents.",
-      "score": 6,
-      "source": "MarketWatch",
+      "source": "The Wall Street Journal",
       "sentiment": "positive",
-      "impact": "Donald Trump\u2019s first year back in the White House shook the U.S. stock market \u2014 but it\u2019s still way up.",
+      "impact": "Electricity-cost increases are outpacing other kinds of inflation, putting utility bills in the spotlight ahead of the midterms",
       "category": "us_equities",
-      "date": "2026-01-17 12:00",
-      "link": "https://www.marketwatch.com/story/s-p-500-has-gained-16-in-trumps-first-year-back-in-office-how-that-compares-with-other-presidents-a9746686"
+      "date": "2026-01-17 17:00",
+      "link": "https://www.wsj.com/business/energy-oil/soaring-electricity-costs-are-now-a-hot-political-issue-d0319a1d"
     },
     {
-      "headline": "Govt green-lights plan to buy 114 French Rafale jets",
+      "headline": "Trump Is Pushing Gas to Power AI Boom, But Building Plants Takes Years",
       "score": 6,
       "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "The purchase would be a significant upgrade for the Indian Air Force, whose fighter fleet, largely of Russian origin, is dwindling",
+      "sentiment": "neutral",
+      "impact": "To speed the construction of new energy plants, the Trump administration called for an emergency power auction. They favor gas, coal and nuclear.",
       "category": "global_markets",
-      "date": "2026-01-17 05:38",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-16/india-inches-closer-to-buying-114-french-rafale-jets"
+      "date": "2026-01-17 16:45",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-17/trump-is-pushing-gas-to-power-ai-boom-but-building-plants-take-years"
     },
     {
-      "headline": "Musk Seeks Up to $134 Billion Damages From OpenAI, Microsoft",
+      "headline": "Ahead of Q4 Earnings, Let\u2019s Look at Who Owns Netflix Stock (NFLX)",
       "score": 6,
-      "source": "Bloomberg",
+      "source": "Tipranks.com",
       "sentiment": "positive",
-      "impact": "Elon Musk wants OpenAI Inc. and Microsoft to pay him damages in the range of $79 billion to $134 billion over his claims that the generative AI company defrauded him by abandoning its nonprofit roots and partnering with the software giant.",
-      "category": "global_markets",
-      "date": "2026-01-17 05:32",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-17/musk-seeks-up-to-134-billion-damages-from-openai-microsoft"
+      "impact": "Streaming giant Netflix (NFLX) is set to report its\u00a0fourth-quarter Fiscal 2025 results\u00a0after market close on Tuesday, January 20. The stock has gained about 2.5% in 2025. Wall Street expects Netflix",
+      "category": "corporate_earnings",
+      "date": "2026-01-17 13:24",
+      "link": "https://www.tipranks.com/news/ahead-of-q4-earnings-lets-look-at-who-owns-netflix-stock-nflx"
     }
   ]
 }
