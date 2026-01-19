@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-19T06:26:15.358707",
+  "timestamp": "2026-01-19T14:31:40.988528",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 12,
-    "neutral": 12,
-    "bearish": 1,
-    "high_priority": 9,
+    "avg_relevance": 7.0,
+    "bullish": 10,
+    "neutral": 13,
+    "bearish": 2,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -15,14 +15,11 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
-    "Fortune": 1,
+    "Bloomberg": 4,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "The Wall Street Journal": 2,
-    "FinancialContent": 1,
-    "Seeking Alpha": 1,
-    "MarketWatch": 1,
+    "CNBC": 10,
+    "Barchart.com": 1,
+    "The Wall Street Journal": 1,
     "Tipranks.com": 1
   },
   "top_signals": [
@@ -33,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -73,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,18 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Bond yields jump after Trump hints Hassett won't be named Fed chair as Wall Street eyes hawk Warsh",
-      "score": 8,
-      "source": "Fortune",
-      "sentiment": "positive",
-      "impact": "\u201cI actually want to keep you where you are, if you want to know the truth,\u201d Trump said at a White House event.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-16 23:45",
-      "link": "https://fortune.com/2026/01/16/bond-yields-trump-kevin-hassett-fed-chair-hawkish-warsh-powell/"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -123,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -133,7 +120,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-19 06:26",
+      "date": "2026-01-19 14:31",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -145,16 +132,6 @@
       "category": "corporate_earnings",
       "date": "2026-01-17 19:21",
       "link": "https://www.cnbc.com/2026/01/17/week-in-review-stocks-battled-a-flood-of-news-and-we-booked-some-profits.html"
-    },
-    {
-      "headline": "The 2025 Inflation Numbers Are Finally In. Here\u2019s the Good and Bad News.",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Gasoline prices are down, but rising grocery costs continue to weigh on consumers",
-      "category": "us_equities",
-      "date": "2026-01-17 10:30",
-      "link": "https://www.wsj.com/economy/consumers/inflation-price-changes-2025-charts-a8deee40"
     },
     {
       "headline": "Cramer's week ahead: Earnings from Netflix, Intel, Capital One, McCormick",
@@ -177,24 +154,24 @@
       "link": "https://www.cnbc.com/2026/01/16/white-house-hassett-trump-cards-credit-card-battle.html"
     },
     {
-      "headline": "Versus Systems Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+      "headline": "What You Need To Know Ahead of Quanta Services' Earnings Release",
       "score": 6,
-      "source": "FinancialContent",
+      "source": "Barchart.com",
       "sentiment": "positive",
-      "impact": "Versus Systems Inc. announced that it has regained compliance with the Nasdaq minimum bid price requirement. The company received notice on November 23, 2022, from Nasdaq after its common shares maintained a closing bid price of $1.00 or more for at least 10 consecutive business days, following a 1-",
-      "category": "us_equities",
-      "date": "2026-01-19 05:28",
-      "link": "https://markets.financialcontent.com/pasadenastarnews/article/gnwcq-2022-11-28-versus-systems-regains-compliance-with-nasdaq-minimum-bid-price-requirement"
+      "impact": "Quanta Services (PWR) is expected to announce its Q4 2025 earnings soon, with analysts forecasting a 1.1% rise in profit to $2.77 per share. The company has consistently beaten earnings expectations and projects significant EPS growth for fiscal years 2025 and 2026. PWR stock has outperformed both t",
+      "category": "corporate_earnings",
+      "date": "2026-01-19 13:35",
+      "link": "https://www.barchart.com/story/news/37110269/what-you-need-to-know-ahead-of-quanta-services-earnings-release"
     },
     {
-      "headline": "Micron says AI-driven memory chip shortage is 'unprecedented', to last beyond 2026 (MU:NASDAQ)",
+      "headline": "Stellantis stock off 43% as Jeep maker turns five, executes turnaround",
       "score": 6,
-      "source": "Seeking Alpha",
-      "sentiment": "positive",
-      "impact": "Micron Technology announced that an AI-driven memory chip shortage has intensified and is expected to last beyond 2026 due to surging demand for advanced semiconductors in AI infrastructure. The company is responding by expanding manufacturing, exiting the consumer memory market, and prioritizing en",
-      "category": "us_equities",
-      "date": "2026-01-19 04:42",
-      "link": "https://seekingalpha.com/news/4540111-micron-says-ai-driven-memory-chip-shortage-is-unprecedented-to-last-beyond-2026"
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Stellantis shares were largely up \u2013 as high as 93% in March 2024 \u2013 until reporting troubling financial results that year amid cost-cutting efforts and EVs.",
+      "category": "global_markets",
+      "date": "2026-01-19 13:00",
+      "link": "https://www.cnbc.com/2026/01/19/stellantis-stock-stla-five-year-anniversary.html"
     },
     {
       "headline": "I talked to many health CEOs out West and see big things for drug stocks",
@@ -227,14 +204,14 @@
       "link": "https://www.cnbc.com/2026/01/18/minimum-savings-needed-to-retire-at-65-in-every-us-state.html"
     },
     {
-      "headline": "These 20 cheap S&P 500 stocks can cushion the blow in a market downturn",
+      "headline": "China\u2019s New Tech Stock Boom Leaves Its Economic Malaise Behind",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "Conservative investors favor stocks trading at low P/E ratios \u2014 and the long-term record proves them right.",
-      "category": "us_equities",
-      "date": "2026-01-17 19:54",
-      "link": "https://www.marketwatch.com/story/these-stocks-are-steady-eddies-if-s-p-500-earnings-growth-slips-and-the-market-slides-add642d0?mod=mw_rss_topstories"
+      "impact": "Nearly a year after DeepSeek\u2019s AI breakthrough rattled global markets, China is entering 2026 with a fresh wave of technological advances that are powering a stock rally, even as its economy remains fragile.",
+      "category": "asia_economy",
+      "date": "2026-01-18 00:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-18/china-s-new-tech-stock-boom-leaves-its-economic-malaise-behind"
     },
     {
       "headline": "Trump threatens to sue JPMorgan Chase for 'debanking' him",
@@ -267,6 +244,16 @@
       "link": "https://www.bloomberg.com/news/articles/2026-01-17/trump-is-pushing-gas-to-power-ai-boom-but-building-plants-take-years"
     },
     {
+      "headline": "Unexpected expenses take 10% of retirees' income, on average, research shows \u2014 many don't have enough cash on hand",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The typical retiree household will spend an amount equivalent to 10% of annual income on unexpected expenses, and about 40% lack the cash to cover those costs.",
+      "category": "global_markets",
+      "date": "2026-01-17 13:30",
+      "link": "https://www.cnbc.com/2026/01/17/retirees-emergency-savings.html"
+    },
+    {
       "headline": "Ahead of Q4 Earnings, Let\u2019s Look at Who Owns Netflix Stock (NFLX)",
       "score": 6,
       "source": "Tipranks.com",
@@ -275,6 +262,16 @@
       "category": "corporate_earnings",
       "date": "2026-01-17 13:24",
       "link": "https://www.tipranks.com/news/ahead-of-q4-earnings-lets-look-at-who-owns-netflix-stock-nflx"
+    },
+    {
+      "headline": "Disney dominated the 2025 box office. Here's how it could keep the crown in 2026",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Disney accounted for 27.5% of the domestic box office's overall annual haul. It looks to be a dominant force in 2026, too.",
+      "category": "global_markets",
+      "date": "2026-01-17 13:00",
+      "link": "https://www.cnbc.com/2026/01/17/disney-dominated-2025-box-office.html"
     }
   ]
 }
