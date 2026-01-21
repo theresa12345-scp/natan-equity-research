@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-20T14:35:36.378624",
+  "timestamp": "2026-01-21T06:23:53.680055",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
+    "avg_relevance": 7.1,
     "bullish": 11,
-    "neutral": 12,
-    "bearish": 2,
-    "high_priority": 8,
+    "neutral": 9,
+    "bearish": 5,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,13 +15,14 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 4,
+    "Bloomberg": 3,
+    "CNBC": 6,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "MarketBeat": 1,
-    "TipRanks": 1,
-    "Chartmill": 1,
-    "MarketWatch": 3
+    "MarketWatch": 3,
+    "Bloomberg.com": 1,
+    "MarketBeat": 2,
+    "GlobeNewswire": 1,
+    "TipRanks": 1
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Japan's 40-year bond yield hits 4% record on fiscal jitters following election call",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Japan's government 40-year government bond yields notched a record high on Tuesday amid a broader selloff in Japanese government bonds.",
+      "category": "fixed_income",
+      "date": "2026-01-20 02:20",
+      "link": "https://www.cnbc.com/2026/01/20/japan-40-year-jgb-government-bond-yield-record-fiscal-jitters-snap-election-call-takaichi.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -111,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,158 +132,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-20 14:35",
+      "date": "2026-01-21 06:23",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "'This is sell America' \u2014 U.S. dollar, Treasury prices tumble and gold spikes as globe flees U.S. assets",
+      "headline": "United Airlines could hit record earnings after strong start to 2026",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The \"Sell America\" trade is in full swing Tuesday morning.",
-      "category": "fixed_income",
-      "date": "2026-01-20 13:53",
-      "link": "https://www.cnbc.com/2026/01/20/sell-america-trade-dollar-treasury-gold-us-trump-greenland.html"
-    },
-    {
-      "headline": "Hohn Breaks Citadel\u2019s Record With $18.9 Billion Trading Profit",
-      "score": 7,
-      "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "Chris Hohn broke the hedge fund profit record last year as rising stocks and global market volatility helped the industry rack up $543 billion worth of gains, also an all-time high.",
+      "impact": "United Airlines said 2026 is off to a strong start, both for premium seats and no-frills tickets, as it reported fourth-quarter earnings.",
       "category": "corporate_earnings",
-      "date": "2026-01-19 00:01",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-19/hohn-breaks-citadel-s-record-with-18-9-billion-trading-profit"
+      "date": "2026-01-20 22:55",
+      "link": "https://www.cnbc.com/2026/01/20/united-airlines-ual-4q-2025-earnings.html"
     },
     {
-      "headline": "Hassett Says Trump May Be Right to Pass Him Over for Fed Chair",
+      "headline": "Netflix posts narrow earnings beat, reports 325 million global subscribers",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Netflix this week amended its offer for Warner Bros. Discovery assets amid a Paramount Skydance hostile takeover attempt. ",
+      "category": "corporate_earnings",
+      "date": "2026-01-20 22:47",
+      "link": "https://www.cnbc.com/2026/01/20/netflix-nflx-earnings-q4-2025.html"
+    },
+    {
+      "headline": "Japan\u2019s long-bond yields surge to record highs. Why it may be a problem beyond Tokyo.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The problems in Japan may expand elsewhere.",
+      "category": "fixed_income",
+      "date": "2026-01-20 15:31",
+      "link": "https://www.marketwatch.com/story/japans-long-bond-yields-surge-to-record-highs-why-it-may-be-a-problem-beyond-tokyo-e36cc46f"
+    },
+    {
+      "headline": "Treasuries Join Global Bond Selloff as Tariff Fears Grip Markets",
       "score": 7,
       "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "White House economic adviser Kevin Hassett said President Donald Trump may well keep him in his current job, which would eliminate him from contention for the next Federal Reserve chair.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-18 18:41",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-18/hassett-says-trump-may-be-right-to-pass-him-over-for-fed-chair"
+      "sentiment": "negative",
+      "impact": "Treasuries joined a selloff in global bonds amid concerns about fiscal spending, a fresh geopolitical tariff threat and questions over the impact that might have on demand for American assets.",
+      "category": "fixed_income",
+      "date": "2026-01-20 04:23",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-20/treasuries-join-global-bond-selloff-as-tariff-fears-grip-markets"
     },
     {
-      "headline": "Amazon CEO Jassy says Trump's tariffs have started to 'creep' into prices",
+      "headline": "HSBC Warns Yen\u2019s Surging Risk Premium Has Few Easy Fixes",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Sellers tried to absorb the tariff shock by buying stock ahead of time, but much of that inventory has run out, forcing some businesses to raise prices.",
+      "source": "Bloomberg.com",
+      "sentiment": "negative",
+      "impact": "HSBC Holdings Plc strategists have reversed their yen forecasts due to fears of steep government spending and resurgent inflation in Japan. These concerns are causing a breakdown in the yen's traditional correlation with the dollar and government-bond yields. The yen traditionally finds support when",
       "category": "global_markets",
-      "date": "2026-01-20 13:50",
-      "link": "https://www.cnbc.com/2026/01/20/amazon-jassy-trump-tariffs-prices-shoppers.html"
+      "date": "2026-01-21 05:58",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-20/hsbc-warns-yen-s-surging-risk-premium-has-few-easy-fixes"
     },
     {
-      "headline": "Seagate Technology (NASDAQ:STX) Given New $370.00 Price Target at Rosenblatt Securities",
+      "headline": "Green Plains (NASDAQ:GPRE) Stock Price Down 6.7% - Here's What Happened",
       "score": 6,
       "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Rosenblatt Securities has raised its price target for Seagate Technology (NASDAQ:STX) from $270.00 to $370.00, reiterating a \"buy\" rating. This new target implies a potential upside of 13.42% from the stock's previous close. Other analysts have also increased their price targets for Seagate, with th",
+      "sentiment": "negative",
+      "impact": "Green Plains (NASDAQ:GPRE) shares fell by 6.7% on Tuesday, trading at $10.85 with significantly lower than average trading volume. This drop occurred despite the company reporting better-than-expected earnings of $0.35 EPS, which beat the consensus estimate of -$0.13, though revenue declined by 22.8",
       "category": "us_equities",
-      "date": "2026-01-20 13:38",
-      "link": "https://www.marketbeat.com/instant-alerts/seagate-technology-nasdaqstx-given-new-37000-price-target-at-rosenblatt-securities-2026-01-20/"
+      "date": "2026-01-21 05:57",
+      "link": "https://www.marketbeat.com/instant-alerts/green-plains-nasdaqgpre-stock-price-down-67-heres-what-happened-2026-01-20/"
     },
     {
-      "headline": "MMM Earnings: 3M Company Stock Sinks despite \u2018Growth Above Macro\u2019 in 2025",
+      "headline": "Eldorado Gold Achieves Higher-End of 2025 Production Guidance; Appoints Dr. Sally Eyre to the Board of Directors; Details 2026 Reporting Schedule and Provides Q4 2025 Conference Call Details",
+      "score": 6,
+      "source": "GlobeNewswire",
+      "sentiment": "positive",
+      "impact": "Eldorado Gold announced preliminary gold production of 488,268 ounces for 2025, reaching the higher end of its guidance, with strong fourth-quarter performance driven by the Lamaque Complex and improved stability at Olympias. The company also announced the appointment of Dr. Sally Eyre to its Board ",
+      "category": "commodities",
+      "date": "2026-01-21 05:27",
+      "link": "https://www.globenewswire.com/news-release/2026/01/20/3222328/0/en/eldorado-gold-achieves-higher-end-of-2025-production-guidance-appoints-dr-sally-eyre-to-the-board-of-directors-details-2026-reporting-schedule-and-provides-q4-2025-conference-call-.html"
+    },
+    {
+      "headline": "EHang (NASDAQ:EH) Shares Down 7.2% - Here's Why",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "EHang's shares (NASDAQ:EH) fell by 7.2% due to JPMorgan cutting its rating to \"neutral\" and lowering its price target from $21 to $13. Despite this, MarketBeat reports an average \"Moderate Buy\" rating with an average target price of $23.48, though analyst views are mixed. The company has a market ca",
+      "category": "us_equities",
+      "date": "2026-01-21 04:27",
+      "link": "https://www.marketbeat.com/instant-alerts/ehang-nasdaqeh-shares-down-72-heres-why-2026-01-20/"
+    },
+    {
+      "headline": "DT Cloud Star faces Nasdaq listing compliance deficiency notice",
       "score": 6,
       "source": "TipRanks",
+      "sentiment": "neutral",
+      "impact": "DT Cloud Star Acquisition Corp (DTSQ) has received a deficiency notice from Nasdaq because its market value of listed securities fell below the $50 million minimum requirement. The company has 180 days, until July 14, 2026, to regain compliance by increasing its market value above the threshold for ",
+      "category": "us_equities",
+      "date": "2026-01-21 04:27",
+      "link": "https://www.tipranks.com/news/company-announcements/dt-cloud-star-faces-nasdaq-listing-compliance-deficiency-notice"
+    },
+    {
+      "headline": "These stocks were the biggest losers on the S&P 500\u2019s worst day in three months",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The damage was widespread as investors showed their displeasure with Trump\u2019s tough words for U.S. allies",
+      "category": "us_equities",
+      "date": "2026-01-20 22:08",
+      "link": "https://www.marketwatch.com/story/these-stocks-were-the-biggest-losers-on-the-s-p-500s-worst-day-in-three-months-be705c89"
+    },
+    {
+      "headline": "Here\u2019s how much risk the U.S. faces if global investors \u2018weaponize\u2019 American stocks and bonds",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "President Donald Trump\u2019s attempt to browbeat Denmark into parting with Greenland has revived worries that foreign investors could start dumping U.S. assets \u2014 particularly bonds \u2014 in retaliation.",
+      "category": "fixed_income",
+      "date": "2026-01-20 21:37",
+      "link": "https://www.marketwatch.com/story/heres-how-much-risk-the-u-s-faces-if-global-investors-weaponize-american-stocks-and-bonds-813f5204"
+    },
+    {
+      "headline": "2 stocks that won in last year's trade war may benefit from new tariff threats",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2026-01-20 20:00",
+      "link": "https://www.cnbc.com/2026/01/20/2-stocks-that-won-in-last-years-trade-war-may-benefit-from-new-tariff-threats.html"
+    },
+    {
+      "headline": "Drug pricing, patent losses and deals: Here's what pharma execs see ahead in the industry",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Shares of 3M Company (MMM) fell approximately 5% after its Q4 2025 earnings report showed uneven performance. While revenue of $6.13 billion exceeded expectations, EPS of $1.07 missed the Wall Street estimate of $1.80. CEO William Brown noted that the company achieved \"growth above macro\" for the ye",
-      "category": "corporate_earnings",
-      "date": "2026-01-20 13:33",
-      "link": "https://www.tipranks.com/news/mmm-earnings-3m-company-stock-sinks-despite-growth-above-macro-in-2025"
+      "impact": "Big pharma is grappling with new drug pricing deals and roughly $300 billion in potential lost revenue from patent expirations of blockbuster drugs. ",
+      "category": "global_markets",
+      "date": "2026-01-20 19:51",
+      "link": "https://www.cnbc.com/2026/01/20/drug-pricing-patent-losses-deals-novo-nordisk-pfizer.html"
     },
     {
-      "headline": "DexCom Inc. (NASDAQ:DXCM) Combines Strong Fundamentals with Bullish Chart Pattern",
-      "score": 6,
-      "source": "Chartmill",
-      "sentiment": "neutral",
-      "impact": "DexCom (NASDAQ:DXCM) demonstrates strong fundamentals with notable past and projected growth in sales and earnings, alongside excellent earnings power and fiscal stability. A bullish chart pattern, specifically a bull flag shape and positive near-term direction, suggests the market is beginning to r",
-      "category": "us_equities",
-      "date": "2026-01-20 13:23",
-      "link": "https://www.chartmill.com/news/DXCM/Chartmill-40110-DexCom-Inc-NASDAQDXCM-Combines-Strong-Fundamentals-with-Bullish-Chart-Pattern"
-    },
-    {
-      "headline": "Netflix amends Warner Bros. Discovery offer to all-cash",
+      "headline": "Anthropic appoints Mariano-Florentino Cu\u00e9llar to its independent trust, two members conclude terms",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Netflix has agreed to pay $27.75 per WBD share to acquire the company's studio and streaming assets.",
+      "impact": "Anthropic's Long-Term Benefit Trust is the company's independent governance structure",
       "category": "global_markets",
-      "date": "2026-01-20 12:55",
-      "link": "https://www.cnbc.com/2026/01/20/netflix-warner-bros-discovery-offer-all-cash.html"
-    },
-    {
-      "headline": "3M\u2019s earnings beat can\u2019t save the stock from the broad-market selloff",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Shares of 3M slipped in early Tuesday trading, as the Post-it Notes, Scotch tape and Command strips maker\u2019s quarterly earnings beat and in-line profit outlook was overshadowed by a broad-market selloff.",
-      "category": "corporate_earnings",
-      "date": "2026-01-20 12:21",
-      "link": "https://www.marketwatch.com/story/3ms-earnings-beat-cant-save-the-stock-from-the-broad-market-selloff-cbc543c2"
-    },
-    {
-      "headline": "Netflix expected to see ad boom, even as Warner Bros. acquisition casts shadow on earnings",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "While investors don\u2019t seem to happy that Netflix CEO Ted Sarandos has moved to acquire Warner Bros. Discovery, analysts say Netflix\u2019s business fundamentals remain strong and are predicting strong ad growth ahead.",
-      "category": "us_equities",
-      "date": "2026-01-20 11:04",
-      "link": "https://www.marketwatch.com/story/netflix-expected-to-see-ad-boom-even-as-warner-bros-acquisition-casts-shadow-on-earnings-c005a348"
-    },
-    {
-      "headline": "This U.K. firm chalked up the biggest hedge-fund profit ever last year",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Big bets on defence and infrastructure spending helped lift TCI\u2019s annual return to 27%. The biggest hedge funds are proving themselves the best hedge funds in this era.",
-      "category": "corporate_earnings",
-      "date": "2026-01-20 10:56",
-      "link": "https://www.marketwatch.com/story/this-u-k-firm-chalked-up-the-biggest-hedge-fund-profit-ever-last-year-34438d9e"
-    },
-    {
-      "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The earnings calendar is filled with industry bellwethers ranging from 3M to GE Aerospace.",
-      "category": "global_markets",
-      "date": "2026-01-19 21:22",
-      "link": "https://www.cnbc.com/2026/01/19/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
-    },
-    {
-      "headline": "Trump is going to Davos \u2014 here are the big names who aren't",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A who's who of heads of state, top CEOs and tech pioneers are landing in Davos for the 2026 World Economic Forum meeting. But some big names aren't going.",
-      "category": "global_markets",
-      "date": "2026-01-19 16:29",
-      "link": "https://www.cnbc.com/2026/01/19/trump-world-economic-forum-davos-who-isnt-going.html"
-    },
-    {
-      "headline": "'PTO-maxxing' is the key to making the most of your time off in 2026\u2014here's how to do it",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "PTO-maxxing involves tacking vacation days onto holidays and weekends to maximize time off. Here's how it works and other tips for making the most of your PTO.",
-      "category": "global_markets",
-      "date": "2026-01-19 15:10",
-      "link": "https://www.cnbc.com/2026/01/19/how-to-make-the-most-of-your-pto-and-vacation-time-this-year.html"
-    },
-    {
-      "headline": "65% of workers are interested in 'microshifting' their schedules as an alternative to the strict 9-to-5: It's 'a way to reclaim control'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Some workers who have soured on the 9-to-5 schedule are interested in trying \"microshifting,\" which may offer greater flexibility and control over their time.",
-      "category": "global_markets",
-      "date": "2026-01-19 15:00",
-      "link": "https://www.cnbc.com/2026/01/19/65percent-of-workers-are-interested-in-microshifting-their-schedules-says-new-report.html"
+      "date": "2026-01-20 16:59",
+      "link": "https://www.cnbc.com/2026/01/20/anthropic-mariano-florentino-cullar-independent-trust.html"
     }
   ]
 }
