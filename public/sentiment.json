@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-22T14:38:19.133202",
+  "timestamp": "2026-01-23T06:21:56.350592",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 15,
-    "neutral": 7,
-    "bearish": 3,
-    "high_priority": 8,
+    "avg_relevance": 7.3,
+    "bullish": 14,
+    "neutral": 10,
+    "bearish": 1,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -15,14 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
+    "Bloomberg": 2,
+    "MarketWatch": 3,
+    "CNBC": 8,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 1,
-    "CNBC": 7,
-    "MarketWatch": 2,
     "MarketBeat": 2,
-    "AskTraders.com": 1,
-    "kare11.com": 1
+    "Intellectia AI": 1,
+    "AD HOC NEWS": 1
   },
   "top_signals": [
     {
@@ -32,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,8 +101,38 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Bond investors should worry less about Treasury yields, and watch this move instead",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Tensions between the U.S. and its NATO allies over Greenland put some investors on edge",
+      "category": "fixed_income",
+      "date": "2026-01-22 23:22",
+      "link": "https://www.marketwatch.com/story/bond-investors-should-worry-less-about-treasury-yields-and-watch-this-move-instead-937fc339"
+    },
+    {
+      "headline": "Fed's main gauge shows inflation at 2.8% in November, edging further away from target",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Inflation drifted slightly further from the Federal Reserve's target in November though in line with expectations.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-22 15:21",
+      "link": "https://www.cnbc.com/2026/01/22/pce-inflation-november-2026.html"
+    },
+    {
+      "headline": "U.S. inflation rate is still stuck near 3%. Fed appears no hurry to cut interest rates again.",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "PCE inflation rate inched up to 2.8% after government shutdown",
+      "category": "us_monetary_policy",
+      "date": "2026-01-22 15:13",
+      "link": "https://www.marketwatch.com/story/u-s-inflation-rate-is-still-stuck-near-3-fed-appears-no-hurry-to-cut-interest-rates-again-e41b782b"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -112,7 +141,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,18 +151,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-22 14:38",
+      "date": "2026-01-23 06:21",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Freeport-McMoRan Posts Profit Gains Despite Sharply Lower Production",
+      "headline": "We're booking profits in this AI stock that's had a parabolic move to start 2026",
       "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Freeport-McMoRan reported increased profits in the fourth quarter despite a significant drop in production due to an ongoing mine suspension. Higher prices for precious metals were a key factor in boosting the company's net income to $406 million, or 28 cents per share, compared to $274 million, or ",
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "We always say discipline trumps conviction, and we don't want to be greedy after a tremendous rally.",
       "category": "corporate_earnings",
-      "date": "2026-01-22 13:39",
-      "link": "https://www.wsj.com/business/earnings/freeport-mcmoran-posts-profit-gains-despite-sharply-lower-production-53750392?gaa_at=eafs&gaa_n=AWEtsqeYzYBZLbcMIQ5XOnuzvudXLCdgiF5p2jBmEHpzM8rJeYx73HVr8gyF&gaa_ts=69722f9d&gaa_sig=RZfkBADOEiEo2aI2rBIC0i4zsBV5wCqtbKzhnrUNXhHR7uPqbTzQ25TVshzMIYN6M9PyTlkYyeDDh9Zg2wwP4A%3D%3D"
+      "date": "2026-01-22 15:33",
+      "link": "https://www.cnbc.com/2026/01/22/were-booking-profits-in-this-ai-stock-that-had-parabolic-start-to-2026.html"
     },
     {
       "headline": "Procter & Gamble earnings top estimates, but shrinking demand weighs on sales",
@@ -142,7 +171,7 @@
       "sentiment": "negative",
       "impact": "Procter & Gamble topped Wall Street's estimates for its quarterly earnings, but the company's revenue was weaker than expected.",
       "category": "corporate_earnings",
-      "date": "2026-01-22 13:15",
+      "date": "2026-01-22 15:13",
       "link": "https://www.cnbc.com/2026/01/22/procter-gamble-pg-q2-2026-earnings.html"
     },
     {
@@ -156,16 +185,6 @@
       "link": "https://www.cnbc.com/2026/01/21/trump-congress-10percent-credit-card-interest-rate-cap.html"
     },
     {
-      "headline": "We're booking profits in an industrial stock whose rally was amplified in a market surge",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "We're taking off more of this stock as shares hit a new record high Wednesday.",
-      "category": "corporate_earnings",
-      "date": "2026-01-21 19:54",
-      "link": "https://www.cnbc.com/2026/01/21/were-booking-profits-in-an-industrial-stock-whose-rally-was-amplified-in-a-market-surge.html"
-    },
-    {
       "headline": "Netflix posts narrow earnings beat, reports 325 million global subscribers",
       "score": 7,
       "source": "CNBC",
@@ -174,26 +193,6 @@
       "category": "corporate_earnings",
       "date": "2026-01-21 19:49",
       "link": "https://www.cnbc.com/2026/01/20/netflix-nflx-earnings-q4-2025.html"
-    },
-    {
-      "headline": "Scott Bessent says U.S. is unconcerned by Treasury sell-off over Greenland, calls Denmark \u2018irrelevant\u2019",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "U.S. treasury secretary Scott Bessant addressed reporters at a press conference at the World Economic Forum on Wednesday.",
-      "category": "fixed_income",
-      "date": "2026-01-21 07:45",
-      "link": "https://www.cnbc.com/2026/01/21/bessent-davos-denmark-greenland-treasuries.html"
-    },
-    {
-      "headline": "UK inflation rises to 3.4% in December, above forecasts",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The U.K. inflation rate rose to 3.4% in December, above forecasts of 3.3% from economists polled by Reuters.",
-      "category": "global_markets",
-      "date": "2026-01-21 07:05",
-      "link": "https://www.cnbc.com/2026/01/21/uk-inflation-december-2025-uk-prices.html"
     },
     {
       "headline": "United Airlines could hit record earnings after strong start to 2026",
@@ -206,74 +205,74 @@
       "link": "https://www.cnbc.com/2026/01/20/united-airlines-ual-4q-2025-earnings.html"
     },
     {
-      "headline": "Trump\u2019s Fed Chair Search Is Becoming Hunt for Elusive Unicorn",
-      "score": 7,
-      "source": "Bloomberg",
+      "headline": "enGene (NASDAQ:ENGN) Stock Price Up 11.3% - Time to Buy?",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "enGene (NASDAQ:ENGN) shares surged 11.3% on Thursday, trading at $10.39 with significantly higher volume than average. Analysts currently rate ENGN as a \"Moderate Buy\" with an average price target of $22.38, though individual ratings range from a \"strong-buy\" to a \"sell.\" Despite missing quarterly E",
+      "category": "us_equities",
+      "date": "2026-01-23 05:27",
+      "link": "https://www.marketbeat.com/instant-alerts/engene-nasdaqengn-stock-price-up-113-time-to-buy-2026-01-22/"
+    },
+    {
+      "headline": "Joseph Lyssikatos Sells 20,000 Shares of Enliven Therapeutics (NASDAQ:ELVN) Stock",
+      "score": 6,
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "President Donald Trump\u2019s search for a new Federal Reserve chair is becoming a hunt for an elusive unicorn candidate as blowback from his attacks on the central bank complicates the decision.",
+      "impact": "Joseph Lyssikatos, an insider at Enliven Therapeutics (NASDAQ:ELVN), sold 20,000 shares of the company's stock for $535,000 on January 20th, reducing his holding by 2.61%. Following the sale, Lyssikatos directly owns 745,188 shares, valued at approximately $19.93 million. Enliven Therapeutics is tra",
+      "category": "us_equities",
+      "date": "2026-01-23 05:27",
+      "link": "https://www.marketbeat.com/instant-alerts/joseph-lyssikatos-sells-20000-shares-of-enliven-therapeutics-nasdaqelvn-stock-2026-01-22/"
+    },
+    {
+      "headline": "Coca-Cola's Asset-Light Model Drives Higher Profit Margins",
+      "score": 6,
+      "source": "Intellectia AI",
+      "sentiment": "positive",
+      "impact": "Coca-Cola's asset-light business model, which relies on bottling partners, contributes to its higher profit margins and flexibility in the competitive beverage market. The company also demonstrates economic resilience through its pricing power and offers an attractive dividend yield, making it a sta",
+      "category": "corporate_earnings",
+      "date": "2026-01-23 05:07",
+      "link": "https://intellectia.ai/news/stock/cocacolas-assetlight-model-drives-higher-profit-margins"
+    },
+    {
+      "headline": "Federal Realty Investment Trust: Quiet Climb or Value Trap? What FRT\u2019s Latest Moves Signal for Income Investors",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Federal Realty Investment Trust (FRT) has shown a \"quiet climb\" over the past year, offering a solid total return in the mid to high teens for investors who bought a year ago. While recent trading has been mildly bearish, the stock has rebounded significantly over the past three months due to expect",
       "category": "us_monetary_policy",
-      "date": "2026-01-20 18:06",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-20/trump-s-fed-chair-search-is-becoming-hunt-for-elusive-unicorn"
+      "date": "2026-01-23 04:28",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/federal-realty-investment-trust-quiet-climb-or-value-trap-what-frt-s/68511066"
     },
     {
-      "headline": "U.S. economy grew 4.4% in the third quarter, GDP shows. It showed little sign of slowing.",
+      "headline": "TikTok forms U.S. joint venture, names a CEO",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The economy expanded at zippy 4.4% annual pace in the third quarter of 2025, an updated estimate showed, to keep the U.S. on track to score the fifth straight year of above-average growth.",
-      "category": "corporate_earnings",
-      "date": "2026-01-22 14:20",
-      "link": "https://www.marketwatch.com/story/u-s-grew-4-4-in-the-third-quarter-gdp-shows-economy-showed-little-sign-of-slowing-03a3552c?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "GE Aerospace (NYSE:GE) Posts Earnings Results, Beats Expectations By $0.13 EPS",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "GE Aerospace (NYSE:GE) reported strong Q4 earnings, beating analyst expectations with $1.57 EPS against an estimated $1.44, and revenues of $11.90 billion, exceeding the $11.27 billion forecast. The company also announced a quarterly dividend of $0.36 per share and disclosed recent insider stock sal",
-      "category": "us_equities",
-      "date": "2026-01-22 13:54",
-      "link": "https://www.marketbeat.com/instant-alerts/ge-aerospace-nysege-posts-earnings-results-beats-expectations-by-013-eps-2026-01-22/"
-    },
-    {
-      "headline": "Intuitive Surgical Earnings on Deck \u2013 (ISRG) Stock Drops Below Support Leading In",
-      "score": 6,
-      "source": "AskTraders.com",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Intuitive Surgical (ISRG) stock has dropped below $550 ahead of its Q4 2025 earnings report, despite preliminary Q4 revenue exceeding expectations. Investors are focusing on the moderated 2026 da Vinci procedure growth guidance of 13-15%, which is lower than the 18% growth seen in Q4 2025. The upcom",
-      "category": "corporate_earnings",
-      "date": "2026-01-22 13:47",
-      "link": "https://www.asktraders.com/analysis/intuitive-surgical-earnings-on-deck-isrg-stock-drops-below-support-leading-in/"
+      "impact": "TikTok said Thursday that it officially formed a joint venture that will keep the video-sharing app operating in the United States.",
+      "category": "global_markets",
+      "date": "2026-01-23 00:59",
+      "link": "https://www.cnbc.com/2026/01/22/tiktok-forms-us-joint-venture-names-a-ceo.html"
     },
     {
-      "headline": "U.S. grew 4.4% in the third quarter, GDP shows. Economy showed little sign of slowing.",
+      "headline": "Capital One is buying startup Brex for $5.15 billion in credit card firm's latest deal",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Capital One's acquisition of Brex is the latest deal under Rich Fairbank, a rare founder-CEO of a major U.S. bank, after its Discover Financial deal last year.",
+      "category": "fixed_income",
+      "date": "2026-01-22 23:26",
+      "link": "https://www.cnbc.com/2026/01/22/capital-one-is-buying-startup-brex-for-5point15-billion-in-credit-card-firms-latest-deal.html"
+    },
+    {
+      "headline": "Wall Street clocks in a rally for second day across tech stocks, small caps and long-term Treasurys",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Consumer spending and business investment drive robust  growth",
-      "category": "corporate_earnings",
-      "date": "2026-01-22 13:44",
-      "link": "https://www.marketwatch.com/story/u-s-grew-4-4-in-the-third-quarter-gdp-shows-economy-showed-little-sign-of-slowing-03a3552c"
-    },
-    {
-      "headline": "Freeport-McMoRan: Q4 Earnings Snapshot",
-      "score": 6,
-      "source": "kare11.com",
-      "sentiment": "positive",
-      "impact": "Freeport-McMoRan Inc. (FCX) reported a fourth-quarter profit of $406 million, or 28 cents per share, which exceeded Wall Street expectations. Adjusted earnings were 47 cents per share. The mining company also surpassed revenue forecasts, posting $5.63 billion for the quarter and $25.92 billion for t",
-      "category": "corporate_earnings",
-      "date": "2026-01-22 13:41",
-      "link": "https://www.kare11.com/article/syndication/associatedpress/freeport-mcmoran-q4-earnings-snapshot/616-8ff4eead-1faf-4d78-8ff5-b335f77e3162"
-    },
-    {
-      "headline": "Mizuho Lowers Diamondback Energy (NASDAQ:FANG) Price Target to $194.00",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Mizuho has lowered its price target for Diamondback Energy (NASDAQ:FANG) from $195.00 to $194.00, while maintaining an \"outperform\" rating, indicating a potential upside of 26.80%. Other analysts have offered varied ratings, with a consensus of \"Moderate Buy\" and an average price target of $186.24. ",
+      "impact": "Everything from technology stocks to small caps advancing on Thursday, while longer-term Treasurys eased for a second day.",
       "category": "us_equities",
-      "date": "2026-01-22 13:33",
-      "link": "https://www.marketbeat.com/instant-alerts/mizuho-lowers-diamondback-energy-nasdaqfang-price-target-to-19400-2026-01-22/"
+      "date": "2026-01-22 23:01",
+      "link": "https://www.marketwatch.com/story/wall-street-clocks-in-a-rally-for-second-day-across-tech-stocks-small-caps-and-long-term-treasurys-294f1384"
     }
   ]
 }
