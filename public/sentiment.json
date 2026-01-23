@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-23T06:21:56.350592",
+  "timestamp": "2026-01-23T14:29:25.696724",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
+    "avg_relevance": 7.2,
     "bullish": 14,
-    "neutral": 10,
-    "bearish": 1,
-    "high_priority": 11,
+    "neutral": 8,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,12 +16,13 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "MarketWatch": 3,
-    "CNBC": 8,
+    "MarketWatch": 2,
     "Caixin/S&P Global": 1,
-    "MarketBeat": 2,
-    "Intellectia AI": 1,
-    "AD HOC NEWS": 1
+    "Insider Monkey": 1,
+    "CNBC": 9,
+    "Bea.gov": 1,
+    "Yahoo Finance": 1,
+    "Intellectia AI": 1
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +102,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -115,33 +116,13 @@
       "link": "https://www.marketwatch.com/story/bond-investors-should-worry-less-about-treasury-yields-and-watch-this-move-instead-937fc339"
     },
     {
-      "headline": "Fed's main gauge shows inflation at 2.8% in November, edging further away from target",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Inflation drifted slightly further from the Federal Reserve's target in November though in line with expectations.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-22 15:21",
-      "link": "https://www.cnbc.com/2026/01/22/pce-inflation-november-2026.html"
-    },
-    {
-      "headline": "U.S. inflation rate is still stuck near 3%. Fed appears no hurry to cut interest rates again.",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "PCE inflation rate inched up to 2.8% after government shutdown",
-      "category": "us_monetary_policy",
-      "date": "2026-01-22 15:13",
-      "link": "https://www.marketwatch.com/story/u-s-inflation-rate-is-still-stuck-near-3-fed-appears-no-hurry-to-cut-interest-rates-again-e41b782b"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -151,8 +132,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-23 06:21",
+      "date": "2026-01-23 14:29",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Northern Trust Corporation (NASDAQ:NTRS) Q4 2025 Earnings Call Transcript",
+      "score": 7,
+      "source": "Insider Monkey",
+      "sentiment": "positive",
+      "impact": "Northern Trust Corporation (NTRS) reported strong Q4 2025 earnings, with EPS of $2.69 against expectations of $2.37, driven by 7% growth in trust fees and 14% increase in net interest income. The company highlighted significant progress on its \"One Northern Trust\" strategy, delivering positive opera",
+      "category": "us_equities",
+      "date": "2026-01-23 13:10",
+      "link": "https://www.insidermonkey.com/blog/northern-trust-corporation-nasdaqntrs-q4-2025-earnings-call-transcript-1680167/"
     },
     {
       "headline": "We're booking profits in this AI stock that's had a parabolic move to start 2026",
@@ -165,13 +156,23 @@
       "link": "https://www.cnbc.com/2026/01/22/were-booking-profits-in-this-ai-stock-that-had-parabolic-start-to-2026.html"
     },
     {
+      "headline": "Gross Domestic Product, 3rd Quarter 2025 (Updated Estimate), GDP by Industry, and Corporate Profits (Revised)",
+      "score": 7,
+      "source": "Bea.gov",
+      "sentiment": "positive",
+      "impact": "Real gross domestic product (GDP) increased at an annual rate of 4.4 percent in the third quarter of 2025 (July, August, and September), according to the updated estimate released by the U.S. Bureau of Economic Analysis. In the second quarter, real GDP increa\u2026",
+      "category": "corporate_earnings",
+      "date": "2026-01-22 13:30",
+      "link": "https://www.bea.gov/news/2026/gross-domestic-product-3rd-quarter-2025-updated-estimate-gdp-industry-and-corporate"
+    },
+    {
       "headline": "Procter & Gamble earnings top estimates, but shrinking demand weighs on sales",
       "score": 7,
       "source": "CNBC",
       "sentiment": "negative",
       "impact": "Procter & Gamble topped Wall Street's estimates for its quarterly earnings, but the company's revenue was weaker than expected.",
       "category": "corporate_earnings",
-      "date": "2026-01-22 15:13",
+      "date": "2026-01-22 12:19",
       "link": "https://www.cnbc.com/2026/01/22/procter-gamble-pg-q2-2026-earnings.html"
     },
     {
@@ -185,64 +186,74 @@
       "link": "https://www.cnbc.com/2026/01/21/trump-congress-10percent-credit-card-interest-rate-cap.html"
     },
     {
-      "headline": "Netflix posts narrow earnings beat, reports 325 million global subscribers",
-      "score": 7,
+      "headline": "Alaska Air Group (ALK) Q4 Earnings Beat Estimates",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "sentiment": "positive",
+      "impact": "Alaska Air Group (ALK) reported Q4 earnings of $0.43 per share, significantly surpassing the Zacks Consensus Estimate of $0.11, despite being lower than the $0.97 per share from a year ago. The airline's revenues for the quarter were $3.63 billion, slightly missing the consensus estimate. The compan",
+      "category": "corporate_earnings",
+      "date": "2026-01-23 13:28",
+      "link": "https://finance.yahoo.com/news/alaska-air-group-alk-q4-234001709.html"
+    },
+    {
+      "headline": "Why a niche category of CRE lending is suddenly seeing record deals",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Netflix this week amended its offer for Warner Bros. Discovery assets amid a Paramount Skydance hostile takeover attempt. ",
-      "category": "corporate_earnings",
-      "date": "2026-01-21 19:49",
-      "link": "https://www.cnbc.com/2026/01/20/netflix-nflx-earnings-q4-2025.html"
+      "impact": "C-PACE stands for commercial property assessed clean energy and is a type of financing that differs from a traditional bank loan. It's seeing explosive growth. ",
+      "category": "global_markets",
+      "date": "2026-01-23 13:18",
+      "link": "https://www.cnbc.com/2026/01/23/c-pace-cre-lending-record-deals.html"
     },
     {
-      "headline": "United Airlines could hit record earnings after strong start to 2026",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "United Airlines said 2026 is off to a strong start, both for premium seats and no-frills tickets, as it reported fourth-quarter earnings.",
-      "category": "corporate_earnings",
-      "date": "2026-01-20 22:55",
-      "link": "https://www.cnbc.com/2026/01/20/united-airlines-ual-4q-2025-earnings.html"
-    },
-    {
-      "headline": "enGene (NASDAQ:ENGN) Stock Price Up 11.3% - Time to Buy?",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "enGene (NASDAQ:ENGN) shares surged 11.3% on Thursday, trading at $10.39 with significantly higher volume than average. Analysts currently rate ENGN as a \"Moderate Buy\" with an average price target of $22.38, though individual ratings range from a \"strong-buy\" to a \"sell.\" Despite missing quarterly E",
-      "category": "us_equities",
-      "date": "2026-01-23 05:27",
-      "link": "https://www.marketbeat.com/instant-alerts/engene-nasdaqengn-stock-price-up-113-time-to-buy-2026-01-22/"
-    },
-    {
-      "headline": "Joseph Lyssikatos Sells 20,000 Shares of Enliven Therapeutics (NASDAQ:ELVN) Stock",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Joseph Lyssikatos, an insider at Enliven Therapeutics (NASDAQ:ELVN), sold 20,000 shares of the company's stock for $535,000 on January 20th, reducing his holding by 2.61%. Following the sale, Lyssikatos directly owns 745,188 shares, valued at approximately $19.93 million. Enliven Therapeutics is tra",
-      "category": "us_equities",
-      "date": "2026-01-23 05:27",
-      "link": "https://www.marketbeat.com/instant-alerts/joseph-lyssikatos-sells-20000-shares-of-enliven-therapeutics-nasdaqelvn-stock-2026-01-22/"
-    },
-    {
-      "headline": "Coca-Cola's Asset-Light Model Drives Higher Profit Margins",
+      "headline": "Alaska Air Group Reports 3% Revenue Growth to $3.63 Billion in Q4 FY2025",
       "score": 6,
       "source": "Intellectia AI",
       "sentiment": "positive",
-      "impact": "Coca-Cola's asset-light business model, which relies on bottling partners, contributes to its higher profit margins and flexibility in the competitive beverage market. The company also demonstrates economic resilience through its pricing power and offers an attractive dividend yield, making it a sta",
+      "impact": "Alaska Air Group reported a 3% year-over-year revenue increase to $3.63 billion in Q4 FY2025, just",
       "category": "corporate_earnings",
-      "date": "2026-01-23 05:07",
-      "link": "https://intellectia.ai/news/stock/cocacolas-assetlight-model-drives-higher-profit-margins"
+      "date": "2026-01-23 13:11",
+      "link": "https://intellectia.ai/news/stock/alaska-air-group-reports-3-revenue-growth-to-363-billion-in-q4-fy2025"
     },
     {
-      "headline": "Federal Realty Investment Trust: Quiet Climb or Value Trap? What FRT\u2019s Latest Moves Signal for Income Investors",
+      "headline": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
       "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Federal Realty Investment Trust (FRT) has shown a \"quiet climb\" over the past year, offering a solid total return in the mid to high teens for investors who bought a year ago. While recent trading has been mildly bearish, the stock has rebounded significantly over the past three months due to expect",
-      "category": "us_monetary_policy",
-      "date": "2026-01-23 04:28",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/federal-realty-investment-trust-quiet-climb-or-value-trap-what-frt-s/68511066"
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the annual JPMorgan Healthcare Conference in San Francisco. ",
+      "category": "global_markets",
+      "date": "2026-01-23 12:50",
+      "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html"
+    },
+    {
+      "headline": "Capital One is buying startup Brex for $5.15 billion in credit card firm's latest deal",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Capital One's acquisition of Brex is the latest deal under Rich Fairbank, a rare founder-CEO of a major U.S. bank, after its Discover Financial acquisition.",
+      "category": "fixed_income",
+      "date": "2026-01-23 12:50",
+      "link": "https://www.cnbc.com/2026/01/22/capital-one-is-buying-startup-brex-for-5point15-billion-in-credit-card-firms-latest-deal.html"
+    },
+    {
+      "headline": "Wall Street braced for a private credit meltdown. The risk of one is rising",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Private credit is expected to grow from $3.4 trillion in 2025 to an estimated $4.9 trillion by 2029. Wall Street is starting to raise alarms about the risks. ",
+      "category": "us_equities",
+      "date": "2026-01-23 12:48",
+      "link": "https://www.cnbc.com/2026/01/23/wall-street-private-credit-risk-rising.html"
+    },
+    {
+      "headline": "Advisors to the ultra rich say AI isn't a gamechanger for landing new clients",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Referrals are still the name of the game when it comes to earning the trust of the ultra-rich.",
+      "category": "global_markets",
+      "date": "2026-01-23 12:37",
+      "link": "https://www.cnbc.com/2026/01/23/wealth-client-prospecting-ria-ai.html"
     },
     {
       "headline": "TikTok forms U.S. joint venture, names a CEO",
@@ -253,16 +264,6 @@
       "category": "global_markets",
       "date": "2026-01-23 00:59",
       "link": "https://www.cnbc.com/2026/01/22/tiktok-forms-us-joint-venture-names-a-ceo.html"
-    },
-    {
-      "headline": "Capital One is buying startup Brex for $5.15 billion in credit card firm's latest deal",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Capital One's acquisition of Brex is the latest deal under Rich Fairbank, a rare founder-CEO of a major U.S. bank, after its Discover Financial deal last year.",
-      "category": "fixed_income",
-      "date": "2026-01-22 23:26",
-      "link": "https://www.cnbc.com/2026/01/22/capital-one-is-buying-startup-brex-for-5point15-billion-in-credit-card-firms-latest-deal.html"
     },
     {
       "headline": "Wall Street clocks in a rally for second day across tech stocks, small caps and long-term Treasurys",
