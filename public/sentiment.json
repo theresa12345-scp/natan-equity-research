@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-24T14:23:34.347892",
+  "timestamp": "2026-01-25T06:20:03.956564",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 8,
-    "neutral": 11,
-    "bearish": 6,
-    "high_priority": 8,
+    "avg_relevance": 7.2,
+    "bullish": 11,
+    "neutral": 10,
+    "bearish": 4,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,10 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 2,
+    "Bloomberg": 3,
+    "Financial Times": 1,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 3,
-    "CNBC": 12
+    "Investor's Business Daily": 1,
+    "MarketWatch": 2,
+    "CNBC": 9,
+    "Finviz": 1
   },
   "top_signals": [
     {
@@ -28,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "BlackRock\u2019s Rick Rieder surges in Federal Reserve chair race",
+      "score": 8,
+      "source": "Financial Times",
+      "sentiment": "positive",
+      "impact": "Donald Trump has said he plans to name his nominee to run the US central bank \u2018in the not too distant future\u2019",
+      "category": "us_monetary_policy",
+      "date": "2026-01-23 18:24",
+      "link": "https://www.ft.com/content/a9bad7cb-ff5f-41ca-abcd-be93e7e20cd1"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -108,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,8 +131,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-24 14:23",
+      "date": "2026-01-25 06:20",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Dow Jones Futures: Tesla, Microsoft, Meta, Apple Lead Earnings Wave; What To Do Now",
+      "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "positive",
+      "impact": "The major indexes are all above key levels, while small caps are at record highs.",
+      "category": "us_equities",
+      "date": "2026-01-24 01:35",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-tesla-microsoft-meta-apple-earnings-wave-trump-week/"
+    },
+    {
+      "headline": "Sudden Chaos in Japan\u2019s Bond Market Puts Stock Bulls on Notice",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "From the start of the year, Japanese stocks surged on bets that Prime Minister Sanae Takaichi would cement power through a snap election and then ramp up spending. Then on Tuesday, the so-called Takaichi trade unraveled.",
+      "category": "fixed_income",
+      "date": "2026-01-23 23:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-23/sudden-chaos-in-japan-s-bond-market-puts-stock-bulls-on-notice"
     },
     {
       "headline": "Inflation is an \u2018economic thief.\u2019 Can the Fed finally arrest the frustrating rise in prices?",
@@ -150,6 +183,56 @@
       "category": "corporate_earnings",
       "date": "2026-01-22 15:13",
       "link": "https://www.cnbc.com/2026/01/22/procter-gamble-pg-q2-2026-earnings.html"
+    },
+    {
+      "headline": "RBC Capital Believes Expense Discipline and Modest Revenue Growth Driving Citigroup (C)",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "positive",
+      "impact": "RBC Capital has reaffirmed an Outperform rating and a $121 price target for Citigroup (NYSE:C), following strong quarterly results where the company exceeded earnings projections. The bank's management is confident in achieving its medium-term Return on Tangible Common Equity goals by 2026. RBC Capi",
+      "category": "corporate_earnings",
+      "date": "2026-01-25 05:27",
+      "link": "https://finviz.com/news/286216/rbc-capital-believes-expense-discipline-and-modest-revenue-growth-driving-citigroup-c"
+    },
+    {
+      "headline": "Pursuing early retirement led this financial coach to marriage counseling\u2014here's how he changed his strategy",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Andy Hill encourages couples to define a shared set of dreams and work backward rather than charging toward a savings goal.",
+      "category": "global_markets",
+      "date": "2026-01-24 15:00",
+      "link": "https://www.cnbc.com/2026/01/24/pursuing-early-retirement-led-financial-coach-to-marriage-counseling.html"
+    },
+    {
+      "headline": "31-year-old's porta-potty company brings in $4.3 million a year: We've built 'a low-tech, AI-proof business'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Daniel Tom launched Bay Area Sanitation in 2023 with 100 rentable toilets. Today, the business rents out nearly 2,000 units and brings in millions per year.",
+      "category": "global_markets",
+      "date": "2026-01-24 14:30",
+      "link": "https://www.cnbc.com/2026/01/24/porta-potty-company-owner-how-i-built-a-low-tech-ai-proof-business.html"
+    },
+    {
+      "headline": "He had everything he wanted by 30, but was still \u2018miserable\u2019\u2014now he follows these money rules to \u2018live a wealthy life\u2019",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Sahil Bloom, author of \"The 5 Types of Wealth,\" spent the last three years researching money and wealth. These rules \"helped me build a life that feels truly abundant,\" he says.",
+      "category": "global_markets",
+      "date": "2026-01-24 14:30",
+      "link": "https://www.cnbc.com/2026/01/24/he-had-it-all-by-30-but-was-still-miserablenow-he-follows-these-money-rules.html"
+    },
+    {
+      "headline": "These 5 tech stocks could be big winners this earnings season",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Beyond the \u201cMagnificent Seven\u201d names, Wall Street analysts see opportunities in software and specialized semiconductor plays.",
+      "category": "corporate_earnings",
+      "date": "2026-01-24 14:30",
+      "link": "https://www.marketwatch.com/story/these-5-tech-stocks-could-be-big-winners-this-earnings-season-0556bf47"
     },
     {
       "headline": "Delroy Lindo just got his first Oscar nomination at age 73\u2014he overcame \u2018strategic missteps\u2019 to build a 50-year career",
@@ -190,86 +273,6 @@
       "category": "global_markets",
       "date": "2026-01-24 12:12",
       "link": "https://www.cnbc.com/2026/01/24/davos-ai-greenland-trump-musk-energy-geopolitics.html"
-    },
-    {
-      "headline": "Wall Street braced for a private credit meltdown. The risk of one is rising",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Private credit is expected to grow from $3.4 trillion in 2025 to an estimated $4.9 trillion by 2029. Wall Street is starting to raise alarms about the risks. ",
-      "category": "us_equities",
-      "date": "2026-01-23 21:26",
-      "link": "https://www.cnbc.com/2026/01/23/wall-street-private-credit-risk-rising.html"
-    },
-    {
-      "headline": "AI, credit card rates, and housing \u2014 what 6 of our portfolio name CEOs said in Davos",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A look into key insights from the Club CEOs at this years World Economic Forum.",
-      "category": "fixed_income",
-      "date": "2026-01-23 21:02",
-      "link": "https://www.cnbc.com/2026/01/23/ai-credit-card-rates-housing-what-6-of-our-portfolio-name-ceos-said-in-davos.html"
-    },
-    {
-      "headline": "Sen. Warren blasts CFPB director for undermining Trump's credit card affordability push",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Sen. Elizabeth Warren seized on contradictions within the Trump administration when it comes to his push to make credit cards more affordable for Americans.",
-      "category": "fixed_income",
-      "date": "2026-01-23 20:32",
-      "link": "https://www.cnbc.com/2026/01/23/warren-cfpb-director-letter-undermining-trump-credit-card-affordability.html"
-    },
-    {
-      "headline": "Why gold is the only go-to safe haven from global turmoil \u2014 not bitcoin or bonds",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Investors don\u2019t have as much confidence in U.S. Treasurys as a risk hedge.",
-      "category": "fixed_income",
-      "date": "2026-01-23 20:16",
-      "link": "https://www.marketwatch.com/story/why-gold-is-the-only-go-to-safe-haven-from-global-turmoil-not-bitcoin-or-bonds-deaed26d"
-    },
-    {
-      "headline": "The future of shopping has arrived \u2014 and Google wants to run it",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Google is enabling retail's transition into agentic commerce, rewriting how we shop online.",
-      "category": "global_markets",
-      "date": "2026-01-23 17:56",
-      "link": "https://www.cnbc.com/2026/01/23/the-future-of-shopping-has-arrived-and-google-wants-to-run-it.html"
-    },
-    {
-      "headline": "Gold is at an all-time high\u2014here's the best way to own it, according to financial experts",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The optimal way to own gold depends largely upon your reason for buying, investing pros say.",
-      "category": "commodities",
-      "date": "2026-01-23 17:33",
-      "link": "https://www.cnbc.com/2026/01/23/best-way-to-owngold-according-to-financial-experts.html"
-    },
-    {
-      "headline": "Now is not the time to own bonds, says Bank of America. These are safer bets.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "International stocks, emerging markets and gold will shine in the second half of the 2020s, as investors have made clear that it\u2019s time for anything but bonds, Band of America says.",
-      "category": "fixed_income",
-      "date": "2026-01-23 16:32",
-      "link": "https://www.marketwatch.com/story/now-is-not-the-time-to-own-bonds-says-bank-of-america-these-are-safer-bets-3e3967e5"
-    },
-    {
-      "headline": "Why a niche category of CRE lending is suddenly seeing record deals",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "C-PACE stands for commercial property assessed clean energy and is a type of financing that differs from a traditional bank loan. It's seeing explosive growth. ",
-      "category": "global_markets",
-      "date": "2026-01-23 13:18",
-      "link": "https://www.cnbc.com/2026/01/23/c-pace-cre-lending-record-deals.html"
     }
   ]
 }
