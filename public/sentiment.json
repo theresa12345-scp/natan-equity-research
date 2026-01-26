@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-25T14:22:45.532360",
+  "timestamp": "2026-01-26T06:25:07.341827",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 9,
+    "avg_relevance": 7.0,
+    "bullish": 11,
     "neutral": 11,
-    "bearish": 5,
-    "high_priority": 9,
+    "bearish": 3,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -15,12 +15,14 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
-    "Financial Times": 1,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "Investor's Business Daily": 1,
-    "MarketWatch": 2,
-    "CNBC": 10
+    "Simply Wall Street": 1,
+    "MarketWatch": 3,
+    "CNBC": 3,
+    "MSN": 1,
+    "Finviz": 6,
+    "Seeking Alpha": 1
   },
   "top_signals": [
     {
@@ -30,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +102,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "BlackRock\u2019s Rick Rieder surges in Federal Reserve chair race",
-      "score": 8,
-      "source": "Financial Times",
-      "sentiment": "positive",
-      "impact": "Donald Trump has said he plans to name his nominee to run the US central bank \u2018in the not too distant future\u2019",
-      "category": "us_monetary_policy",
-      "date": "2026-01-23 18:24",
-      "link": "https://www.ft.com/content/a9bad7cb-ff5f-41ca-abcd-be93e7e20cd1"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -120,7 +112,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,18 +122,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-25 14:22",
+      "date": "2026-01-26 06:25",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Dow Jones Futures: Tesla, Microsoft, Meta, Apple Lead Earnings Wave; What To Do Now",
+      "headline": "A Look At State Street (STT) Valuation After Q4 Earnings Beat And Growing Digital Fee Revenues",
       "score": 7,
-      "source": "Investor's Business Daily",
+      "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "The major indexes are all above key levels, while small caps are at record highs.",
-      "category": "us_equities",
-      "date": "2026-01-24 01:35",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-tesla-microsoft-meta-apple-earnings-wave-trump-week/"
+      "impact": "State Street (STT) recently reported strong Q4 2025 earnings, surpassing analyst expectations for both revenue and earnings, driven by fee income and digital solutions. Despite a recent dip in share price, the stock is considered moderately undervalued by some models, trading at a 19% discount to it",
+      "category": "corporate_earnings",
+      "date": "2026-01-26 03:43",
+      "link": "https://simplywall.st/stocks/us/diversified-financials/nyse-stt/state-street/news/a-look-at-state-street-stt-valuation-after-q4-earnings-beat"
+    },
+    {
+      "headline": "U.S. stock futures fall, gold hits record ahead of Fed meeting, Big Tech earnings",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "U.S. stock futures slumped and gold hit a record high Sunday as investors look ahead to a Fed interest-rate decision and Big Tech earnings this week.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-25 23:19",
+      "link": "https://www.marketwatch.com/story/u-s-stock-futures-fall-gold-hits-record-ahead-of-fed-meeting-big-tech-earnings-c4646ae5"
+    },
+    {
+      "headline": "What I want from Apple, Meta and Microsoft in their key earnings reports",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "All three stocks are regarded as broken, and it's difficult to get more broken.",
+      "category": "corporate_earnings",
+      "date": "2026-01-25 22:45",
+      "link": "https://www.cnbc.com/2026/01/25/cramer-what-i-want-to-see-in-earnings-from-apple-meta-and-microsoft.html"
     },
     {
       "headline": "Inflation is an \u2018economic thief.\u2019 Can the Fed finally arrest the frustrating rise in prices?",
@@ -154,124 +166,114 @@
       "link": "https://www.marketwatch.com/story/inflation-is-an-economic-thief-can-the-fed-finally-arrest-the-frustrating-rise-in-prices-edae4b5c"
     },
     {
-      "headline": "Capital One's earnings sell-off has picked up steam. Here's what we're doing next",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "headline": "Earnings to watch: F5 (FFIV) reports Q4 results tomorrow",
+      "score": 6,
+      "source": "MSN",
+      "sentiment": "neutral",
+      "impact": "This article announces that F5 (FFIV) is scheduled to report its Q4 earnings tomorrow. It serves as a brief heads-up for investors and interested parties to watch for the upcoming financial results.",
       "category": "corporate_earnings",
-      "date": "2026-01-23 19:23",
-      "link": "https://www.cnbc.com/2026/01/23/capital-ones-earnings-sell-off-has-picked-up-steam-heres-what-were-doing-next.html"
+      "date": "2026-01-26 04:04",
+      "link": "https://www.msn.com/en-us/money/topstocks/earnings-to-watch-f5-ffiv-reports-q4-results-tomorrow/ar-AA1UXKeh?ocid=finance-verthp-feeds"
     },
     {
-      "headline": "Procter & Gamble earnings top estimates, but shrinking demand weighs on sales",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Procter & Gamble topped Wall Street's estimates for its quarterly earnings, but the company's revenue was weaker than expected.",
+      "headline": "Earnings To Watch: General Motors (GM) Reports Q4 Results Tomorrow",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "neutral",
+      "impact": "General Motors (NYSE:GM) is set to report its Q4 earnings tomorrow before market open. Analysts anticipate a 4% year-on-year revenue decline to $45.81 billion and adjusted earnings of $2.26 per share, despite the company's consistent track record of exceeding revenue estimates in the past. Investors",
       "category": "corporate_earnings",
-      "date": "2026-01-22 15:13",
-      "link": "https://www.cnbc.com/2026/01/22/procter-gamble-pg-q2-2026-earnings.html"
+      "date": "2026-01-26 04:02",
+      "link": "https://finviz.com/news/286445/earnings-to-watch-general-motors-gm-reports-q4-results-tomorrow"
     },
     {
-      "headline": "Auto executives are hoping for the best and planning for the worst in 2026",
+      "headline": "Invesco Earnings: What To Look For From IVZ",
       "score": 6,
-      "source": "CNBC",
+      "source": "Finviz",
+      "sentiment": "neutral",
+      "impact": "Invesco (NYSE: IVZ) is set to report earnings this Tuesday before market hours. Analysts anticipate a 7.7% year-on-year revenue growth to $1.25 billion and adjusted earnings of $0.58 per share. The stock has seen a 5.8% increase over the last month, with an average analyst price target of $30.30, co",
+      "category": "corporate_earnings",
+      "date": "2026-01-26 03:47",
+      "link": "https://finviz.com/news/286436/invesco-earnings-what-to-look-for-from-ivz"
+    },
+    {
+      "headline": "Union Pacific (UNP) To Report Earnings Tomorrow: Here Is What To Expect",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "positive",
+      "impact": "Union Pacific (UNP) is scheduled to report its Q4 earnings before the bell tomorrow. Analysts anticipate flat year-on-year revenue of $6.12 billion and adjusted earnings of $2.87 per share. The company has a history of missing Wall Street's revenue estimates, and recent peer results show mixed perfo",
+      "category": "corporate_earnings",
+      "date": "2026-01-26 03:31",
+      "link": "https://finviz.com/news/286449/union-pacific-unp-to-report-earnings-tomorrow-here-is-what-to-expect"
+    },
+    {
+      "headline": "HFRO: Resilient Real Estate Fund But Struggling In High Interest Rate Environment",
+      "score": 6,
+      "source": "Seeking Alpha",
       "sentiment": "negative",
-      "impact": "Automakers are entering a new phase of uncertainty as they deal with affordability issues and slowing consumer demand.",
+      "impact": "Highland Opportunities and Income Fund (HFRO) is rated a \"Hold\" due to its substantial 47% discount to NAV, navigating challenges in the real estate sector. Although its 7.5% yield is covered by net investment income, high leverage and declining NAV pose risks, particularly if interest rates don't d",
       "category": "global_markets",
-      "date": "2026-01-25 13:00",
-      "link": "https://www.cnbc.com/2026/01/25/auto-industry-2026.html"
+      "date": "2026-01-26 03:27",
+      "link": "https://seekingalpha.com/article/4862525-hfro-resilient-real-estate-fund-struggling-high-interest-rate-environment"
     },
     {
-      "headline": "Pursuing early retirement led this financial coach to marriage counseling\u2014here's how he changed his strategy",
+      "headline": "Hope Bancorp (HOPE) Q4 Earnings: What To Expect",
       "score": 6,
-      "source": "CNBC",
+      "source": "Finviz",
       "sentiment": "neutral",
-      "impact": "Andy Hill encourages couples to define a shared set of dreams and work backward rather than charging toward a savings goal.",
-      "category": "global_markets",
-      "date": "2026-01-24 15:00",
-      "link": "https://www.cnbc.com/2026/01/24/pursuing-early-retirement-led-financial-coach-to-marriage-counseling.html"
+      "impact": "Hope Bancorp (HOPE) is set to report its Q4 earnings on Tuesday morning. Analysts anticipate a 24% year-on-year revenue growth to $143.4 million and adjusted earnings of $0.26 per share. The regional bank sector has shown positive sentiment, with Hope Bancorp up 5% in the last month, nearing its ave",
+      "category": "corporate_earnings",
+      "date": "2026-01-26 03:27",
+      "link": "https://finviz.com/news/286415/hope-bancorp-hope-q4-earnings-what-to-expect"
     },
     {
-      "headline": "31-year-old's porta-potty company brings in $4.3 million a year: We've built 'a low-tech, AI-proof business'",
+      "headline": "UnitedHealth (UNH) Q4 Earnings: What To Expect",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Daniel Tom launched Bay Area Sanitation in 2023 with 100 rentable toilets. Today, the business rents out nearly 2,000 units and brings in millions per year.",
-      "category": "global_markets",
-      "date": "2026-01-24 14:30",
-      "link": "https://www.cnbc.com/2026/01/24/porta-potty-company-owner-how-i-built-a-low-tech-ai-proof-business.html"
+      "source": "Finviz",
+      "sentiment": "positive",
+      "impact": "UnitedHealth (UNH) is preparing to report its Q4 earnings this Tuesday. Analysts anticipate revenue growth of 12.7% year-on-year to $113.6 billion and adjusted earnings of $2.11 per share. Despite missing revenue estimates five times in the last two years, investor sentiment in the healthcare sector",
+      "category": "corporate_earnings",
+      "date": "2026-01-26 03:15",
+      "link": "https://finviz.com/news/286433/unitedhealth-unh-q4-earnings-what-to-expect"
     },
     {
-      "headline": "He had everything he wanted by 30, but was still \u2018miserable\u2019\u2014now he follows these money rules to \u2018live a wealthy life\u2019",
+      "headline": "What To Expect From Texas Instruments's (TXN) Q4 Earnings",
       "score": 6,
-      "source": "CNBC",
+      "source": "Finviz",
       "sentiment": "neutral",
-      "impact": "Sahil Bloom, author of \"The 5 Types of Wealth,\" spent the last three years researching money and wealth. These rules \"helped me build a life that feels truly abundant,\" he says.",
-      "category": "global_markets",
-      "date": "2026-01-24 14:30",
-      "link": "https://www.cnbc.com/2026/01/24/he-had-it-all-by-30-but-was-still-miserablenow-he-follows-these-money-rules.html"
+      "impact": "Texas Instruments (TXN) is set to report its Q4 earnings on Tuesday afternoon. Analysts expect an 11.3% year-on-year revenue growth to $4.46 billion and adjusted earnings of $1.29 per share. The company has a mixed track record with revenue estimates, but sentiment in the semiconductor sector has be",
+      "category": "corporate_earnings",
+      "date": "2026-01-26 03:15",
+      "link": "https://finviz.com/news/286440/what-to-expect-from-texas-instrumentss-txn-q4-earnings"
     },
     {
-      "headline": "These 5 tech stocks could be big winners this earnings season",
+      "headline": "The Fed is expected to stand pat this week. The big question is for how long?",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Beyond the \u201cMagnificent Seven\u201d names, Wall Street analysts see opportunities in software and specialized semiconductor plays.",
-      "category": "corporate_earnings",
-      "date": "2026-01-24 14:30",
-      "link": "https://www.marketwatch.com/story/these-5-tech-stocks-could-be-big-winners-this-earnings-season-0556bf47"
-    },
-    {
-      "headline": "Delroy Lindo just got his first Oscar nomination at age 73\u2014he overcame \u2018strategic missteps\u2019 to build a 50-year career",
-      "score": 6,
-      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "\"Sinners\" actor Delroy Lindo, nominated for his first Oscar award at age 73, has discussed the challenges of being labeled as \"difficult\" earlier in his career.",
-      "category": "global_markets",
-      "date": "2026-01-24 14:05",
-      "link": "https://www.cnbc.com/2026/01/24/delroy-lindo-overcame-strategic-missteps-on-way-to-first-oscar-nod.html"
+      "impact": "Expectations of quick further cuts are evaporating, and the market doesn\u2019t see another move until July",
+      "category": "us_monetary_policy",
+      "date": "2026-01-25 20:13",
+      "link": "https://www.marketwatch.com/story/the-fed-is-expected-to-stand-pat-this-week-the-big-question-is-for-how-long-bf52d957"
     },
     {
-      "headline": "The 10 best markets for first-time homebuyers in 2026, according to Realtor.com",
+      "headline": "Alex Pretti killing: Minnesota CEOs, including UnitedHealth, Target, call for 'immediate deescalation'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The Trump administration has surged federal law enforcement to the city to enforce its immigration crackdown and pursue allegations of widespread welfare fraud.",
+      "category": "global_markets",
+      "date": "2026-01-25 19:21",
+      "link": "https://www.cnbc.com/2026/01/25/alex-pretti-ceo-minneapolis-minnesota.html"
+    },
+    {
+      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "In January, Realtor.com released its annual ranking of the best housing markets for first-time homebuyers.",
+      "impact": "While the East Coast is digging out from a winter storm, the temperature is set to heat up on Wall Street.",
       "category": "global_markets",
-      "date": "2026-01-24 14:00",
-      "link": "https://www.cnbc.com/2026/01/24/best-markets-first-time-homebuyers-realtor.html"
-    },
-    {
-      "headline": "Winter Storm Fern could cause significant power outages",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The electric grid in many parts of the U.S. is already under strain due to rising demand from data centers and the slow construction of new power generation.",
-      "category": "global_markets",
-      "date": "2026-01-24 13:53",
-      "link": "https://www.cnbc.com/2026/01/24/winter-storm-fern-could-cause-significant-power-outages.html"
-    },
-    {
-      "headline": "Investors came to Davos for AI. They left talking about Greenland",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Two Davos's emerged: one chasing AI\u2019s future, the other gripped by Greenland, tariffs and the geopolitical risks reshaping investor playbooks.",
-      "category": "global_markets",
-      "date": "2026-01-24 12:12",
-      "link": "https://www.cnbc.com/2026/01/24/davos-ai-greenland-trump-musk-energy-geopolitics.html"
-    },
-    {
-      "headline": "Speculation Mounts Japan to Buy Yen, Perhaps With US Help",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Speculation mounted into the weekend that Japanese authorities could be preparing to enter currency markets in a bid to halt the yen\u2019s slide, possibly with the rare assistance of the US.",
-      "category": "global_markets",
-      "date": "2026-01-24 06:23",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-23/yen-jumps-most-since-august-as-risk-of-intervention-ramps-up"
+      "date": "2026-01-25 19:20",
+      "link": "https://www.cnbc.com/2026/01/25/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
     }
   ]
 }
