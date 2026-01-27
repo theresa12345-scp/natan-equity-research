@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-01-26T14:33:01.032976",
+  "timestamp": "2026-01-27T06:22:35.807540",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
     "bullish": 7,
-    "neutral": 11,
-    "bearish": 7,
+    "neutral": 14,
+    "bearish": 4,
     "high_priority": 8,
     "material_events": 4
   },
@@ -15,12 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 4,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 4,
     "CNBC": 7,
-    "Tipranks.com": 1,
-    "New York Post": 1
+    "Financial Times": 1,
+    "MSN": 1,
+    "Finviz": 2,
+    "MarketWatch": 3
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -110,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,158 +121,158 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-26 14:32",
+      "date": "2026-01-27 06:22",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "U.S. stock futures fall, gold hits record ahead of Fed meeting, Big Tech earnings",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "U.S. stock futures slumped and gold hit a record high Sunday as investors look ahead to a Fed interest-rate decision and Big Tech earnings this week.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-25 23:19",
-      "link": "https://www.marketwatch.com/story/u-s-stock-futures-fall-gold-hits-record-ahead-of-fed-meeting-big-tech-earnings-c4646ae5"
-    },
-    {
-      "headline": "What I want from Apple, Meta and Microsoft in their key earnings reports",
+      "headline": "General Motors is set to report earnings before the bell. Here's what Wall Street expects amid major electric vehicle write-downs",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "All three stocks are regarded as broken, and it's difficult to get more broken.",
-      "category": "corporate_earnings",
-      "date": "2026-01-25 22:45",
-      "link": "https://www.cnbc.com/2026/01/25/cramer-what-i-want-to-see-in-earnings-from-apple-meta-and-microsoft.html"
-    },
-    {
-      "headline": "Caution ahead of Big Tech earnings means these are the trades to make",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Use options to play Meta, Microsoft and Apple says Evercore ISI",
-      "category": "corporate_earnings",
-      "date": "2026-01-26 11:46",
-      "link": "https://www.marketwatch.com/story/caution-ahead-of-big-tech-earnings-means-these-are-the-trades-to-make-1b343472"
-    },
-    {
-      "headline": "The Fed is expected to stand pat this week. The big question is for how long?",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Expectations of quick further cuts are evaporating, and the market doesn\u2019t see another move until July",
-      "category": "us_monetary_policy",
-      "date": "2026-01-25 20:13",
-      "link": "https://www.marketwatch.com/story/the-fed-is-expected-to-stand-pat-this-week-the-big-question-is-for-how-long-bf52d957"
-    },
-    {
-      "headline": "Alex Pretti killing: Minnesota CEOs, including UnitedHealth, Target, call for 'immediate deescalation'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The Trump administration has surged federal law enforcement to the city to enforce its immigration crackdown and pursue allegations of widespread welfare fraud.",
-      "category": "global_markets",
-      "date": "2026-01-25 19:21",
-      "link": "https://www.cnbc.com/2026/01/25/alex-pretti-ceo-minneapolis-minnesota.html"
-    },
-    {
-      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "While the East Coast is digging out from a winter storm, the temperature is set to heat up on Wall Street.",
-      "category": "global_markets",
-      "date": "2026-01-25 19:20",
-      "link": "https://www.cnbc.com/2026/01/25/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
-    },
-    {
-      "headline": "Here\u2019s what investors want even more than a Fed interest-rate cut this week",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Investors are rotating out of tech stocks and into other sectors of the market as the U.S. economy chugs along.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-25 17:00",
-      "link": "https://www.marketwatch.com/story/heres-what-investors-want-even-more-than-a-fed-interest-rate-cut-this-week-1279f03f"
-    },
-    {
-      "headline": "30-year-old quit her job to open a bake shop\u2014now her 2 storefronts bring in 7 figures yearly: 'I always knew I wanted to work for myself'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Abi Caswell started baking cookies at home in 2021. Five years later, she's the founder of two successful bakeries.",
-      "category": "global_markets",
-      "date": "2026-01-25 14:34",
-      "link": "https://www.cnbc.com/2026/01/25/30-year-old-quit-her-job-to-open-a-bake-shopnow-her-2-storefronts-bring-in-7-figures-yearly.html"
-    },
-    {
-      "headline": "The U.S. states where you can retire at 65 with less than $1 million in savings",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "In many states in the South and Midwest, lower housing costs make it possible to retire with $1 million or less.",
-      "category": "global_markets",
-      "date": "2026-01-25 14:00",
-      "link": "https://www.cnbc.com/2026/01/25/us-states-where-you-can-retire-at-65-with-less-than-1-million.html"
-    },
-    {
-      "headline": "Auto executives are hoping for the best and planning for the worst in 2026",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Automakers are entering a new phase of uncertainty as they deal with affordability issues and slowing consumer demand.",
-      "category": "global_markets",
-      "date": "2026-01-25 13:00",
-      "link": "https://www.cnbc.com/2026/01/25/auto-industry-2026.html"
-    },
-    {
-      "headline": "Takaichi Warns Japan Is Ready to Act on Speculative Moves",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Japanese Prime Minister Sanae Takaichi sent a fresh warning to financial markets amid a weakening yen and surging bond yields, saying the government will be ready to take action.",
-      "category": "global_markets",
-      "date": "2026-01-25 05:58",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-24/japan-s-takaichi-warns-ready-to-act-on-speculative-market-moves"
-    },
-    {
-      "headline": "AAPL vs. MSFT vs. TSLA: Wall Street\u2019s Favorite Magnificent 7 Stock Ahead of Q4 Earnings Season",
-      "score": 6,
-      "source": "Tipranks.com",
-      "sentiment": "neutral",
-      "impact": "Four of the \u201cMagnificent 7\u201d stocks \u2014 Apple\u00a0($AAPL), Tesla ($TSLA), Microsoft\u00a0($MSFT), and Meta Platforms\u00a0($META) \u2014 are set to report earnings next week, between January 26 and January 30. Using TipRanks\u2019",
+      "impact": "General Motors is preparing to announce its fourth-quarter and full-year earnings, with analysts anticipating adjusted earnings per share of $2.20 and revenue of $45.8 billion. The company is expected to report significant special charges totaling $7.1 billion related to its electric vehicle strateg",
       "category": "us_equities",
-      "date": "2026-01-25 05:23",
-      "link": "https://www.tipranks.com/news/tsla-vs-aapl-vs-msft-which-magnificent-7-stock-is-wall-streets-best-pick-ahead-of-earnings"
+      "date": "2026-01-27 05:02",
+      "link": "https://www.cnbc.com/2026/01/27/general-motors-gm-earnings-q4-2025.html"
     },
     {
-      "headline": "Rough bond market was behind Trump\u2019s abrupt deescalation on Greenland",
-      "score": 6,
-      "source": "New York Post",
+      "headline": "Target's incoming CEO calls Minneapolis violence 'incredibly painful,' does not mention Trump or shootings by federal agents",
+      "score": 7,
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Don\u00adald Trump this past week abruptly ditched his plan to invade Greenland \u2014 and the head-spinning about-face came thanks to the US bond market.",
-      "category": "fixed_income",
-      "date": "2026-01-25 03:07",
-      "link": "https://nypost.com/2026/01/24/business/trump-ditches-plan-to-take-over-greenland-amid-state-of-us-bond-market/"
+      "impact": "More than 60 Minnesota business leaders, including Fiddelke, signed a letter on Sunday calling for an \"immediate deescalation of tensions.\" ",
+      "category": "us_monetary_policy",
+      "date": "2026-01-26 17:26",
+      "link": "https://www.cnbc.com/2026/01/26/alex-pretti-shooting-target-incoming-ceo-fiddelke.html"
     },
     {
-      "headline": "U.S. to inject $1.6 billion into rare earths miner for 10% stake, FT reports",
+      "headline": "Japan Bond Crash Unleashes a $7 Trillion Risk for Global Markets",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "As the country hurtles towards the snap election called by Prime Minister Takaichi, more unpredictable and violent price swings are expected",
+      "category": "fixed_income",
+      "date": "2026-01-25 22:00",
+      "link": "https://www.bloomberg.com/news/features/2026-01-25/japan-bond-market-crash-raises-alarm-for-global-interest-rates"
+    },
+    {
+      "headline": "Fed sets rates as Trump nears decision on who to back as chair",
+      "score": 7,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "Plus, UK\u2019s Starmer heads to Beijing, and Apple and Tesla in focus as earnings season builds steam",
+      "category": "us_monetary_policy",
+      "date": "2026-01-25 18:15",
+      "link": "https://www.ft.com/content/0066bf73-9908-44b8-9906-b41646886885"
+    },
+    {
+      "headline": "Waste Management (WM) to report earnings tomorrow: Here is what to expect",
+      "score": 6,
+      "source": "MSN",
+      "sentiment": "neutral",
+      "impact": "This article announces that Waste Management (WM) is scheduled to report its earnings tomorrow. Investors and analysts are anticipating the report to gain insights into the company's financial performance and future outlook. The article likely aims to set expectations or provide a brief preview of w",
+      "category": "corporate_earnings",
+      "date": "2026-01-27 04:07",
+      "link": "https://www.msn.com/en-us/money/topstocks/waste-management-wm-to-report-earnings-tomorrow-here-is-what-to-expect/ar-AA1V33Zs?ocid=finance-verthp-feeds"
+    },
+    {
+      "headline": "Progressive (PGR) Q4 Earnings Report Preview: What To Look For",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "neutral",
+      "impact": "Progressive (PGR) is set to release its Q4 earnings report, with analysts anticipating an 11.2% year-on-year revenue growth to $22.54 billion and adjusted earnings of $4.43 per share. The company missed revenue estimates twice in the last two years, and its stock has recently underperformed the prop",
+      "category": "corporate_earnings",
+      "date": "2026-01-27 03:57",
+      "link": "https://finviz.com/news/287768/progressive-pgr-q4-earnings-report-preview-what-to-look-for"
+    },
+    {
+      "headline": "Starbucks (SBUX) Reports Earnings Tomorrow: What To Expect",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "neutral",
+      "impact": "Starbucks (SBUX) is set to report its Q4 earnings before market hours on Wednesday. Analysts expect revenue to grow 2.8% year-on-year to $9.66 billion and adjusted earnings of $0.59 per share, despite the company missing Wall Street's revenue estimates five times in the last two years. The restauran",
+      "category": "corporate_earnings",
+      "date": "2026-01-27 03:55",
+      "link": "https://finviz.com/news/287748/starbucks-sbux-reports-earnings-tomorrow-what-to-expect"
+    },
+    {
+      "headline": "Health insurers tumble after Trump administration proposes keeping Medicare Advantage rates flat next year",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Shares of large Medicare plan providers Humana, CVS Health and UnitedHealth Group plunged in extended trading.",
+      "category": "global_markets",
+      "date": "2026-01-26 22:27",
+      "link": "https://www.cnbc.com/2026/01/26/health-insurers-tumble-after-trump-proposes-keeping-medicare-rates-flat.html"
+    },
+    {
+      "headline": "Air travel will return to normal by Wednesday, Transportation Secretary Duffy says",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The miner has brought in Cantor Fitzgerald, chaired by Brandon Lutnick, son of Secretary of Commerce Howard Lutnick, to lead efforts to raise over $1 billion.",
+      "impact": "Transportation Secretary Sean Duffy told CNBC that air travel should be back to normal by Wednesday, following a significant disruption from the snowstorm.",
       "category": "global_markets",
-      "date": "2026-01-25 01:11",
-      "link": "https://www.cnbc.com/2026/01/24/us-rare-earths-miner.html"
+      "date": "2026-01-26 21:46",
+      "link": "https://www.cnbc.com/2026/01/26/winter-storm-flight-cancellations.html"
     },
     {
-      "headline": "A Tale of Two Economies Is Reshaping China\u2019s Stock Market",
+      "headline": "Nike to cut 775 employees as it accelerates 'automation' at U.S. distribution centers",
       "score": 6,
-      "source": "Bloomberg",
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "A tale of two economies is driving China\u2019s stock market, prompting investors to raise bets on the beneficiaries of an industrial export boom at the expense of firms mired in a consumption slump.",
-      "category": "asia_economy",
-      "date": "2026-01-25 00:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-25/a-tale-of-two-economies-is-reshaping-china-s-stock-market"
+      "impact": "Nike is cutting 775 employees, primarily from jobs at distribution centers in Tennessee and Mississippi.",
+      "category": "global_markets",
+      "date": "2026-01-26 21:08",
+      "link": "https://www.cnbc.com/2026/01/26/nike-to-lay-off-775-employees-at-us-distribution-centers.html"
+    },
+    {
+      "headline": "Why Trade Desk\u2019s stock is the S&P 500\u2019s sharpest decliner on Monday",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Following another CFO change, analysts are worried about a pattern of leadership turnover at the company, as well as the judgment of those who selected the previous CFO.",
+      "category": "us_equities",
+      "date": "2026-01-26 19:05",
+      "link": "https://www.marketwatch.com/story/why-trade-desks-stock-is-the-s-p-500s-sharpest-decliner-on-monday-b8051d56"
+    },
+    {
+      "headline": "Tax season is here\u20144 reasons to file your return early",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "For taxpayers expecting a refund that averages about $3,000, filing early can mean getting that money back sooner.",
+      "category": "global_markets",
+      "date": "2026-01-26 19:02",
+      "link": "https://www.cnbc.com/2026/01/26/why-you-should-file-tax-return-early.html"
+    },
+    {
+      "headline": "Olympian Alysa Liu's training cost up to $1 million, her dad says\u2014how experts say to approach spending on extracurriculars",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Spending hundreds or thousands on your child's activities is OK, experts say, as long as you are aware of your goals and financial situation first.",
+      "category": "global_markets",
+      "date": "2026-01-26 18:48",
+      "link": "https://www.cnbc.com/2026/01/26/how-much-to-spend-on-kids-extracurriculars.html"
+    },
+    {
+      "headline": "Winter storm Fern chills the U.S. economy \u2014 and GDP could suffer",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The winter storm that just pummeled the country is likely to take a chunk out of U.S. growth in the first quarter, making it even harder to figure out what is going on in the economy.",
+      "category": "global_markets",
+      "date": "2026-01-26 18:33",
+      "link": "https://www.marketwatch.com/story/winter-storm-fern-chills-the-u-s-economy-and-gdp-could-suffer-e22a2d74"
+    },
+    {
+      "headline": "With Tesla earnings on deck, investors reveal their most pressing questions for Elon Musk",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Retail investors get to submit questions to be answered by the Tesla CEO. Their votes show shareholders are most interested in how they\u2019ll be prioritized if SpaceX goes public.",
+      "category": "corporate_earnings",
+      "date": "2026-01-26 18:07",
+      "link": "https://www.marketwatch.com/story/with-tesla-earnings-on-deck-investors-reveal-their-most-pressing-questions-for-elon-musk-f083b2d1"
     }
   ]
 }
