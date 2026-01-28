@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-27T14:34:46.054693",
+  "timestamp": "2026-01-28T06:24:09.531760",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 13,
-    "neutral": 8,
-    "bearish": 4,
-    "high_priority": 11,
+    "avg_relevance": 7.4,
+    "bullish": 12,
+    "neutral": 13,
+    "bearish": 0,
+    "high_priority": 10,
     "material_events": 5
   },
   "sources": {
@@ -16,13 +16,15 @@
     "Federal Reserve": 1,
     "CNBC": 7,
     "Reuters": 3,
-    "Bloomberg": 3,
-    "The Wall Street Journal": 1,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "Investing.com": 1,
-    "Finviz": 1,
-    "GuruFocus": 1,
-    "MarketWatch": 3
+    "MarketWatch": 1,
+    "Investor's Business Daily": 1,
+    "Finviz": 2,
+    "Bloomberg.com": 1,
+    "MarketBeat": 1,
+    "Simply Wall Street": 1,
+    "Yahoo Finance": 1
   },
   "top_signals": [
     {
@@ -32,7 +34,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +44,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +54,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +64,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +74,7 @@
       "sentiment": "positive",
       "impact": "UnitedHealth expects 2026 revenue to come in greater than $439 billion, which is a 2% year-over-year decline that reflects \"right-sizing across the enterprise.\"",
       "category": "corporate_earnings",
-      "date": "2026-01-27 14:07",
+      "date": "2026-01-27 16:51",
       "link": "https://www.cnbc.com/2026/01/27/unitedhealth-group-unh-earnings-q4-2025.html"
     },
     {
@@ -82,7 +84,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -92,7 +94,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -102,7 +104,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -112,7 +114,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -122,18 +124,8 @@
       "sentiment": "neutral",
       "impact": "American expects to earn 7% to 10% more revenue in the first three months of 2026.",
       "category": "corporate_earnings",
-      "date": "2026-01-27 14:33",
+      "date": "2026-01-27 21:06",
       "link": "https://www.cnbc.com/2026/01/27/american-airlines-aal-4q-2025-earnings.html"
-    },
-    {
-      "headline": "Japan Government Bond Yields, Stocks Fall After Yen\u2019s Rebound",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "negative",
-      "impact": "The yen\u2019s moves eased concerns about higher import costs and reduced expectations of a near-term interest-rate increase",
-      "category": "us_equities",
-      "date": "2026-01-26 02:15",
-      "link": "https://www.wsj.com/finance/japan-government-bond-yields-stocks-fall-after-yens-rebound-8c6a1914"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -142,7 +134,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -152,8 +144,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-27 14:34",
+      "date": "2026-01-28 06:24",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "The market thinks BlackRock's Rick Rieder will be the next Fed chair. Here's what's at stake",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "A five-month process of finding the next Fed chair appears to be down to its final days, with one candidate emerging as the betting favorite.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-27 21:23",
+      "link": "https://www.cnbc.com/2026/01/27/market-thinks-blackrocks-rieder-will-next-chair-the-fed-whats-at-stake.html"
     },
     {
       "headline": "GM tops earnings expectations, announces dividend increase and stock buyback program",
@@ -162,18 +164,48 @@
       "sentiment": "positive",
       "impact": "GM recorded $7.2 billion in special charges for the fourth quarter of 2025, largely related to its pullback in electric vehicles and restructuring in China.",
       "category": "corporate_earnings",
-      "date": "2026-01-27 13:29",
+      "date": "2026-01-27 21:07",
       "link": "https://www.cnbc.com/2026/01/27/general-motors-gm-earnings-q4-2025.html"
     },
     {
-      "headline": "Fed is likely to lower rates only two more times, even under Trump's next chair pick: CNBC Fed survey",
+      "headline": "This chart shows why upward pressure on long-term Treasury yields matters to borrowers and stocks",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "If the 10-year Treasury yield reaches or exceeds 4.5%, it could be a challenge to the market, says BNY",
+      "category": "fixed_income",
+      "date": "2026-01-27 18:26",
+      "link": "https://www.marketwatch.com/story/this-chart-shows-why-upward-pressure-on-long-term-treasury-yields-matters-to-borrowers-and-stocks-7043ff30"
+    },
+    {
+      "headline": "Cramer reveals plan for Starbucks stock based on how it reacts to earnings",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Forecasters don't believe the next Fed chair installed by President Donald Trump will drive down overnight rates towards the low levels demanded by the president.",
+      "sentiment": "neutral",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "corporate_earnings",
+      "date": "2026-01-27 16:53",
+      "link": "https://www.cnbc.com/2026/01/27/cramer-reveals-plan-for-starbucks-stock-if-it-dives-after-earnings-report.html"
+    },
+    {
+      "headline": "ICE chief ordered to appear in Minnesota federal court, judge threatens contempt ruling",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Minnesota state officials have pressed for ICE and other immigration authorities to cease aggressive actions in Minneapolis and elsewhere in the state.",
       "category": "us_monetary_policy",
-      "date": "2026-01-27 13:07",
-      "link": "https://www.cnbc.com/2026/01/27/fed-is-likely-to-lower-rates-only-two-more-times-even-under-trumps-next-chair-pick-cnbc-fed-survey.html"
+      "date": "2026-01-27 14:57",
+      "link": "https://www.cnbc.com/2026/01/27/ice-chief-todd-lyons-minnesota-court-contempt.html"
+    },
+    {
+      "headline": "Dow Jones Futures: AMD, Astera, Oklo, Rocket Lab, Tesla Sell Off; Fed Meeting Next",
+      "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "neutral",
+      "impact": "Dow Jones Futures: AMD, Astera, Oklo, Rocket Lab and Tesla all sold off sharply Monday. The Fed's two-day meeting kicks off Tuesday.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-27 01:40",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amd-alab-oklo-rklb-tsla-fed-meeting/"
     },
     {
       "headline": "Target's incoming CEO calls Minneapolis violence 'incredibly painful,' does not mention Trump or shootings by federal agents",
@@ -186,94 +218,64 @@
       "link": "https://www.cnbc.com/2026/01/26/alex-pretti-shooting-target-incoming-ceo-fiddelke.html"
     },
     {
-      "headline": "Japan Bond Crash Unleashes a $7 Trillion Risk for Global Markets",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "As the country hurtles towards the snap election called by Prime Minister Takaichi, more unpredictable and violent price swings are expected",
-      "category": "fixed_income",
-      "date": "2026-01-25 22:00",
-      "link": "https://www.bloomberg.com/news/features/2026-01-25/japan-bond-market-crash-raises-alarm-for-global-interest-rates"
-    },
-    {
-      "headline": "Boeing's quarterly sales jump 57% as CEO says there's 'a lot to be optimistic about'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Boeing's aircraft deliveries have surged over the past year as the manufacturer expects to continue to increase production.",
-      "category": "corporate_earnings",
-      "date": "2026-01-27 14:26",
-      "link": "https://www.cnbc.com/2026/01/27/boeing-ba-4q-2025-earnings.html"
-    },
-    {
-      "headline": "New AI tool from Fundrise brings high-level CRE analysis to the public",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Fundrise's co-founder and CEO, Ben Miller, says the new tool goes far beyond what more generalized AI, like ChatGPT, can offer. ",
-      "category": "global_markets",
-      "date": "2026-01-27 14:20",
-      "link": "https://www.cnbc.com/2026/01/27/new-ai-tool-from-fundrise-brings-high-level-cre-analysis-to-the-public.html"
-    },
-    {
-      "headline": "FedEx appoints Scott Ray as chief operating officer for U.S. and Canada",
-      "score": 6,
-      "source": "Investing.com",
-      "sentiment": "positive",
-      "impact": "FedEx has appointed Scott Ray as the chief operating officer for U.S. and Canada Surface Operations, effective June 1, with his transition beginning February 1. Ray, a 39-year veteran of FedEx, will oversee all surface operations, including the Network 2.0 initiative, and report directly to Presiden",
-      "category": "us_monetary_policy",
-      "date": "2026-01-27 13:55",
-      "link": "https://www.investing.com/news/company-news/fedex-appoints-scott-ray-as-chief-operating-officer-for-us-and-canada-93CH-4467563"
-    },
-    {
-      "headline": "Here's How to Play Chevron Stock Before Q4 Earnings Release",
+      "headline": "Hologic (HOLX) Q4 Earnings: What To Expect",
       "score": 6,
       "source": "Finviz",
-      "sentiment": "negative",
-      "impact": "Chevron Corporation (CVX) is set to release its Q4 2025 earnings, with revenue estimates suggesting a modest increase but a significant decline in earnings per share compared to the previous year. Despite strong upstream production, factors like weaker oil prices, higher depreciation costs, and subs",
-      "category": "corporate_earnings",
-      "date": "2026-01-27 13:53",
-      "link": "https://finviz.com/news/288209/heres-how-to-play-chevron-stock-before-q4-earnings-release"
-    },
-    {
-      "headline": "Sysco (SYY) Achieves Strong Q2 Revenue and Positive Case Growth",
-      "score": 6,
-      "source": "GuruFocus",
-      "sentiment": "positive",
-      "impact": "Sysco (SYY) reported robust Q2 fiscal 2026 results with revenues of $20.8 billion, exceeding market expectations, driven by a 1.2% growth in USFS local case volumes. The company anticipates continued growth, projecting full-year adjusted EPS to reach the higher end of its $4.50 to $4.60 guidance ran",
-      "category": "corporate_earnings",
-      "date": "2026-01-27 13:52",
-      "link": "https://www.gurufocus.com/news/8554569/sysco-syy-achieves-strong-q2-revenue-and-positive-case-growth"
-    },
-    {
-      "headline": "Boeing beats revenue expectations by a wide margin, as airplane deliveries nearly triple",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Boeing reported a surprisingly large fourth-quarter profit and beat revenue expectations by a wide margin.",
-      "category": "corporate_earnings",
-      "date": "2026-01-27 13:19",
-      "link": "https://www.marketwatch.com/story/boeing-beats-revenue-expectations-by-a-wide-margin-as-airplane-deliveries-nearly-triple-b03367dc"
-    },
-    {
-      "headline": "Here\u2019s how Microsoft can prove the doubters wrong this earnings season",
-      "score": 6,
-      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Increasing its cloud capacity is key for Microsoft, as the company can\u2019t currently meet all is AI demand due to a shortage of graphics processing units.",
+      "impact": "Hologic (HOLX) is set to report its Q4 earnings on Thursday after market hours. Analysts anticipate a 4.8% year-on-year revenue growth to $1.07 billion and adjusted earnings of $1.10 per share. The company has a history of beating revenue estimates, and its stock is currently trading below the avera",
       "category": "corporate_earnings",
-      "date": "2026-01-27 13:05",
-      "link": "https://www.marketwatch.com/story/heres-how-microsoft-can-prove-the-doubters-wrong-this-earnings-season-7e4a5a18"
+      "date": "2026-01-28 04:57",
+      "link": "https://finviz.com/news/289353/hologic-holx-q4-earnings-what-to-expect"
     },
     {
-      "headline": "American Airlines provides upbeat revenue outlook despite $200 million hit from winter storm",
+      "headline": "Goldman Warns Metal Rally at Risk as Users \u2018Respond Negatively\u2019",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "Bloomberg.com",
       "sentiment": "neutral",
-      "impact": "American Airlines\u2019 stock rallied, as quarterly revenue missed expectations only because of the government shutdown.",
+      "impact": "Goldman Sachs warns that the current rally in base metal prices faces headwinds due to softer demand from manufacturers, particularly in China. According to Trina Chen, co-head of equity research, producers are reacting negatively to soaring prices, leading to a pullback in demand. This suggests tha",
+      "category": "commodities",
+      "date": "2026-01-28 04:57",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-28/goldman-warns-metal-rally-at-risk-as-users-respond-negatively"
+    },
+    {
+      "headline": "WisdomTree Target Range Fund (NASDAQ:GTR) Short Interest Down 83.7% in January",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "WisdomTree Target Range Fund (NASDAQ:GTR) experienced a significant 83.7% decrease in short interest in January, bringing the total short interest to 2,197 shares. The fund also recently increased its quarterly dividend to $0.8466, annualizing to a 13.0% yield. Institutional ownership is highly conc",
+      "category": "us_equities",
+      "date": "2026-01-28 04:27",
+      "link": "https://www.marketbeat.com/instant-alerts/wisdomtree-target-range-fund-nasdaqgtr-short-interest-down-837-in-january-2026-01-27/"
+    },
+    {
+      "headline": "Assessing Merchants Bancorp (MBIN) Valuation As Investor Focus Builds Before Upcoming Earnings",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Merchants Bancorp (MBIN) is attracting investor attention ahead of its upcoming earnings report, with its stock trading below its one-year level and showing an 11.26% return over the last 90 days. The company's P/E ratio of 8.1x is considered inexpensive compared to peers and the broader financial s",
       "category": "corporate_earnings",
-      "date": "2026-01-27 12:58",
-      "link": "https://www.marketwatch.com/story/american-airlines-provides-upbeat-revenue-outlook-despite-200-million-hit-from-winter-storm-af279bc7"
+      "date": "2026-01-28 03:58",
+      "link": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-mbin/merchants-bancorp/news/assessing-merchants-bancorp-mbin-valuation-as-investor-focus"
+    },
+    {
+      "headline": "KLA Corporation Earnings: What To Look For From KLAC",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "positive",
+      "impact": "KLA Corporation is set to announce its earnings results this Thursday after market hours. Analysts expect revenue to grow 5.8% year over year to $3.26 billion and adjusted earnings of $8.80 per share. The company has a strong history of beating revenue estimates and positive investor sentiment in th",
+      "category": "corporate_earnings",
+      "date": "2026-01-28 03:33",
+      "link": "https://finviz.com/news/289367/kla-corporation-earnings-what-to-look-for-from-klac"
+    },
+    {
+      "headline": "Earnings To Watch: PennyMac Financial Services (PFSI) Reports Q4 Results Tomorrow",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "sentiment": "positive",
+      "impact": "PennyMac Financial Services (PFSI) is set to report its Q4 earnings after market close this Thursday. Analysts expect a revenue growth of 19.1% year-on-year, reaching $640.5 million, with adjusted earnings projected at $3.23 per share. The company has a history of consistently beating revenue estima",
+      "category": "corporate_earnings",
+      "date": "2026-01-28 03:28",
+      "link": "https://finance.yahoo.com/news/earnings-watch-pennymac-financial-services-030116919.html"
     }
   ]
 }
