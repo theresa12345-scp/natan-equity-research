@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-30T14:38:06.386858",
+  "timestamp": "2026-01-31T06:27:25.398120",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 12,
-    "neutral": 9,
-    "bearish": 4,
-    "high_priority": 8,
+    "avg_relevance": 7.3,
+    "bullish": 9,
+    "neutral": 13,
+    "bearish": 3,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -16,11 +16,14 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
+    "Financial Times": 1,
+    "Yahoo Entertainment": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "MarketWatch": 6,
-    "The Wall Street Journal": 1,
-    "Investor's Business Daily": 1
+    "MarketBeat": 2,
+    "Simply Wall Street": 1,
+    "MarketWatch": 4,
+    "CNBC": 4,
+    "Finviz": 2
   },
   "top_signals": [
     {
@@ -30,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +103,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Donald Trump preparing to nominate Kevin Warsh for Federal Reserve chair",
+      "score": 8,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "US president says he will announce nominee to replace Jay Powell on Friday morning",
+      "category": "us_monetary_policy",
+      "date": "2026-01-30 04:18",
+      "link": "https://www.ft.com/content/e227d99a-3144-465a-8108-209fb7d433cb"
+    },
+    {
+      "headline": "Federal Reserve live coverage: Fed holds interest rates steady amid political pressure",
+      "score": 8,
+      "source": "Yahoo Entertainment",
+      "sentiment": "neutral",
+      "impact": "The Federal Reserve kept interest rates unchanged for its first policy meeting of 2026.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-29 18:00",
+      "link": "https://finance.yahoo.com/news/live/federal-reserve-live-coverage-fed-holds-interest-rates-steady-amid-political-pressure-141347391.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +133,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,28 +143,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-01-30 14:38",
+      "date": "2026-01-31 06:27",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Former CNN anchor Don Lemon arrested by feds over Minnesota activities, lawyer says",
+      "headline": "IF Bancorp (NASDAQ:IROQ) Issues Quarterly Earnings Results",
       "score": 7,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Lemon's \"constitutionally protected work in Minneapolis was no different than what he has always done,\" his lawyer, Abbe Lowell, said.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-30 14:26",
-      "link": "https://www.cnbc.com/2026/01/30/don-lemon-arrest-doj-minnesota.html"
+      "impact": "IF Bancorp (NASDAQ:IROQ) recently announced its quarterly earnings, reporting $0.41 EPS. The company's stock traded down slightly at $27.12, with a market capitalization of $90.85 million. Institutional ownership stands at approximately 44.11%, and analysts currently maintain a consensus \"Hold\" rati",
+      "category": "us_equities",
+      "date": "2026-01-31 05:30",
+      "link": "https://www.marketbeat.com/instant-alerts/if-bancorp-nasdaqiroq-issues-quarterly-earnings-results-2026-01-30/"
     },
     {
-      "headline": "Wholesale prices rise sharply and show new Fed chief could confront stubborn inflation",
+      "headline": "OSI Systems (OSIS) Earnings Growth Outpaces Modest Revenue Lift Challenging Cautious Narratives",
+      "score": 7,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "OSI Systems (OSIS) recently released its Q2 2026 results, showing a 13.9% earnings growth despite a more modest 5.6% revenue increase. This indicates improved efficiency and profitability, with the net margin rising to 8.5%. However, concerns persist regarding the company's debt coverage by operatin",
+      "category": "corporate_earnings",
+      "date": "2026-01-31 05:00",
+      "link": "https://simplywall.st/stocks/us/tech/nasdaq-osis/osi-systems/news/osi-systems-osis-earnings-growth-outpaces-modest-revenue-lif"
+    },
+    {
+      "headline": "Bond market isn\u2019t getting everything it wants from Trump\u2019s choice of Warsh for Fed chair",
       "score": 7,
       "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The cost of wholesale goods and services rose sharply at the end of last year, underscoring the battle against inflation is far from over as President Trump gets set to name a new chairman of the Federal Reserve.",
+      "sentiment": "neutral",
+      "impact": "The nomination of Kevin Warsh \u201cavoids a lot of the worst-case scenarios, but it\u2019s still unclear what impact he will have on rates,\u201d one strategist said.",
       "category": "us_monetary_policy",
-      "date": "2026-01-30 13:49",
-      "link": "https://www.marketwatch.com/story/wholesale-prices-rise-sharply-and-show-new-fed-chief-could-confront-stubborn-inflation-597b071b"
+      "date": "2026-01-30 16:12",
+      "link": "https://www.marketwatch.com/story/bond-market-isnt-getting-everything-it-wants-from-trumps-choice-of-warsh-for-fed-chair-1aad399a"
+    },
+    {
+      "headline": "\u2018Zero. Zip. Nada.\u2019 Waller says the Fed should have cut interest rates this week because of a poor job market.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Federal Reserve governor Chris Waller, who was one of President Donald Trump\u2019s finalists as the next central-bank chief, said Friday that the Fed should have cut interest rates this week because of a poor U.S. job market.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-30 15:07",
+      "link": "https://www.marketwatch.com/story/zero-zip-nada-waller-says-the-fed-should-have-cut-interest-rates-this-week-because-of-a-poor-job-market-8cffd6b3"
+    },
+    {
+      "headline": "Trump's future Fed influence tests market trust \u2014 how to prepare your portfolio",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The key for investors in this upcoming time of uncertainty is to consider a diversification of outcomes.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-30 14:30",
+      "link": "https://www.cnbc.com/2026/01/30/trumps-future-fed-influence-tests-market-trust-how-to-prepare-your-portfolio.html"
     },
     {
       "headline": "GM is nailing the U.S. auto industry's profit, politics balancing act under Trump",
@@ -154,124 +207,74 @@
       "link": "https://www.cnbc.com/2026/01/29/gm-earnings-trump.html"
     },
     {
-      "headline": "Microsoft\u2019s Earnings Surge Is Overshadowed by Data-Center Spending",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Higher-than-anticipated capital spending and slower growth in cloud computing weigh on shares",
+      "headline": "Oxford Lane Capital Corp. (NASDAQ:OXLC) to Issue Monthly Dividend of $0.20",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Oxford Lane Capital Corp. (NASDAQ:OXLC) has announced a monthly dividend of $0.20 per share, payable on June 30th to shareholders of record on June 16th, which implies an annualized yield of about 19.8%. The company's high payout ratio of 509.1% suggests the dividend is not fully covered by earnings",
       "category": "us_equities",
-      "date": "2026-01-29 04:59",
-      "link": "https://www.wsj.com/tech/ai/microsofts-earnings-surge-elevated-by-cloud-business-251829c2"
+      "date": "2026-01-31 05:30",
+      "link": "https://www.marketbeat.com/instant-alerts/oxford-lane-capital-corp-nasdaqoxlc-to-issue-monthly-dividend-of-020-2026-01-30/"
     },
     {
-      "headline": "ServiceNow Q4 Earnings, Revenue Top Estimates Amid Acquisition Spree",
-      "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "positive",
-      "impact": "ServiceNow reported Q4 earnings that topped estimates. The software maker forecast higher-than-expected subscription revenue growth for ServiceNow stock in 2026.",
-      "category": "corporate_earnings",
-      "date": "2026-01-28 22:32",
-      "link": "https://www.investors.com/news/technology/servicenow-stock-servicenow-earnings-q42025/"
-    },
-    {
-      "headline": "Prediction markets allow trading on Super Bowl commercials, prompting insider trading questions",
+      "headline": "Deckers Outdoor (DECK) Climbs 19% on Upbeat Outlook, Earnings",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Prediction markets Kalshi and Polymarket are offering trades on which companies will air Super Bowl ads, prompting concerns about potential insider trading.",
-      "category": "global_markets",
-      "date": "2026-01-30 14:33",
-      "link": "https://www.cnbc.com/2026/01/30/super-bowl-ad-prediction-market-contracts.html"
-    },
-    {
-      "headline": "Sandisk\u2019s stock gets \u2018one of the most delayed upgrades in history\u2019 after blowout earnings",
-      "score": 6,
-      "source": "MarketWatch",
+      "source": "Finviz",
       "sentiment": "positive",
-      "impact": "Analysts say Sandisk might wind up being sold out of storage products for years due to a widening gulf between supply and demand.",
+      "impact": "Deckers Outdoor Corp. (DECK) saw its stock climb 19.50% after reporting strong third-quarter earnings and an optimistic outlook for fiscal year 2026. The company reported a 5.3% jump in net income and a 7% increase in net sales, driven by robust demand for its UGG and HOKA brands. Deckers anticipate",
       "category": "corporate_earnings",
-      "date": "2026-01-30 14:25",
-      "link": "https://www.marketwatch.com/story/sandisks-stock-gets-one-of-the-most-delayed-upgrades-in-history-after-blowout-earnings-ef9abb6b"
+      "date": "2026-01-31 05:07",
+      "link": "https://finviz.com/news/294347/deckers-outdoor-deck-climbs-19-on-upbeat-outlook-earnings"
     },
     {
-      "headline": "Exxon, Chevron are producing record amounts of oil, but lower prices led to lower earnings",
+      "headline": "Church & Dwight (CHD) Jumps 4.7% on Strong Earnings, Outlook; Firm to Pay Higher Dividends",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "positive",
+      "impact": "Church & Dwight (NYSE:CHD) saw its share prices jump by 4.67% after reporting strong full-year 2025 earnings, an optimistic outlook, and an increased dividend payout. The company achieved a 26% net income growth and 1.6% net sales increase for the full year, despite a dip in net profit in Q4. CHD al",
+      "category": "corporate_earnings",
+      "date": "2026-01-31 04:09",
+      "link": "https://finviz.com/news/294337/church-dwight-chd-jumps-47-on-strong-earnings-outlook-firm-to-pay-higher-dividends"
+    },
+    {
+      "headline": "Kevin Warsh isn\u2019t who investors think he is \u2014 how you can profit from their mistake",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "The two U.S. integrated giants reported quarterly earnings with Venezuela in focus.",
-      "category": "commodities",
-      "date": "2026-01-30 13:43",
-      "link": "https://www.marketwatch.com/story/exxon-chevron-are-producing-oil-at-record-rates-but-lower-prices-led-to-lower-earnings-6ce129fe?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Ford to record $600 million pretax pension charge in fourth quarter",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Ford will report a pretax charge of $600 million in its fourth quarter results due to adjustments to employee pension plans and other postretirement benefits.",
+      "impact": "Trump\u2019s nominee for Fed chair has been hawkish about easy money. But this president demands lower rates.",
       "category": "corporate_earnings",
-      "date": "2026-01-30 13:03",
-      "link": "https://www.cnbc.com/2026/01/30/ford-q4-earnings-pension-charge.html"
+      "date": "2026-01-30 23:48",
+      "link": "https://www.marketwatch.com/story/trump-picked-kevin-warsh-to-boost-markets-what-this-means-for-your-portfolio-f83826cb?mod=mw_rss_topstories"
     },
     {
-      "headline": "Hollywood has an IP problem: Box office sales are banking on franchise hits that keep falling flat",
+      "headline": "Hollywood has a box office problem: The old movie sequel trick is falling flat",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "But big-name installments like \"Wicked: For Good\" and \"Avatar: Fire and Ash\" have been underperforming ticket sales expectations.",
+      "impact": "But big-name installments like \"Wicked: For Good\" and \"Avatar: Fire and Ash\" have been underperforming ticket sales expectations. ",
       "category": "global_markets",
-      "date": "2026-01-30 13:00",
+      "date": "2026-01-30 22:25",
       "link": "https://www.cnbc.com/2026/01/30/hollywood-ip-franchise-hits-keep-falling-flat-weighing-on-box-office.html"
     },
     {
-      "headline": "Democratic states seek to hike taxes on the wealthy",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Legislators and governors in blue states are preparing a range of new taxes on the wealthy. At the same time, many red states continue to cut or eliminate taxes.",
-      "category": "global_markets",
-      "date": "2026-01-30 12:59",
-      "link": "https://www.cnbc.com/2026/01/30/democratic-states-seek-to-hike-taxes-on-the-wealthy.html"
-    },
-    {
-      "headline": "New cars are increasingly becoming a luxury amid K-shaped economy concerns",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The market has increasingly been pricing millions of Americans out of the new-vehicle market, including by cutting entry-level vehicle lines such as small cars.",
-      "category": "global_markets",
-      "date": "2026-01-30 12:59",
-      "link": "https://www.cnbc.com/2026/01/30/auto-industry-affordability-k-shaped-economy.html"
-    },
-    {
-      "headline": "Exxon, Chevron are producing oil at record rates, but lower prices led to lower earnings",
+      "headline": "Trump picking Kevin Warsh as Fed chair wasn\u2019t enough to soothe shaky markets",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "The two U.S. integrated giants reported quarterly earnings with Venezuela in focus.",
-      "category": "commodities",
-      "date": "2026-01-30 12:21",
-      "link": "https://www.marketwatch.com/story/exxon-chevron-are-producing-oil-at-record-rates-but-lower-prices-led-to-lower-earnings-6ce129fe"
-    },
-    {
-      "headline": "Gold\u2019s searing run halted, silver briefly drops below $100 as Warsh to Fed hits dollar debasement trade",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "A selloff is underway for gold, silver and copper on Friday, as the dollar rises on expectations that Kevin Warsh will be the next Federal Reserve chairman.",
+      "impact": "A double-whammy selloff of tech stocks and metals shook markets on Friday.",
       "category": "us_monetary_policy",
-      "date": "2026-01-30 12:17",
-      "link": "https://www.marketwatch.com/story/gold-falls-as-expectations-of-warsh-to-fed-hits-the-dollar-debasement-trade-854fd28e?mod=mw_rss_topstories"
+      "date": "2026-01-30 21:47",
+      "link": "https://www.marketwatch.com/story/trump-picking-kevin-warsh-as-fed-chair-wasnt-enough-to-soothe-shaky-markets-2f0137ad"
     },
     {
-      "headline": "SoFi\u2019s stock rises as the company hits a revenue milestone",
+      "headline": "Eli Lilly CEO says Medicare coverage of obesity drugs could 'change the game' for upcoming pill launch",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "SoFi\u2019s home-loan originations nearly doubled in the latest quarter.",
-      "category": "corporate_earnings",
-      "date": "2026-01-30 12:14",
-      "link": "https://www.marketwatch.com/story/sofis-stock-rises-as-the-company-hits-a-revenue-milestone-9cba0a16"
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Lilly CEO Dave Ricks is confident in the ability of the company's pill to compete and is preparing for a \"full launch\" in the second quarter.",
+      "category": "global_markets",
+      "date": "2026-01-30 21:39",
+      "link": "https://www.cnbc.com/2026/01/30/eli-lilly-ceo-david-ricks-medicare-coverage-obesity-pills.html"
     }
   ]
 }
