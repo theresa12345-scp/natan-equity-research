@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-02-01T06:38:18.153807",
+  "timestamp": "2026-02-01T14:30:14.030888",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
     "bullish": 9,
-    "neutral": 14,
-    "bearish": 2,
+    "neutral": 13,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -17,11 +17,12 @@
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 5,
+    "CNBC": 7,
     "Simply Wall Street": 1,
-    "MarketBeat": 4,
-    "Finviz": 2,
-    "MarketWatch": 3
+    "Yahoo Finance Singapore": 1,
+    "MarketWatch": 4,
+    "Axios": 1,
+    "The Wall Street Journal": 1
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +102,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -111,7 +112,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,7 +122,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-01 06:38",
+      "date": "2026-02-01 14:30",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -155,74 +156,24 @@
       "link": "https://www.cnbc.com/2026/01/29/gm-earnings-trump.html"
     },
     {
-      "headline": "Assessing CMS Energy (CMS) Valuation As Regulatory Optimism And Earnings Expectations Gain Traction",
+      "headline": "Some Investors May Be Willing To Look Past Halliburton's (NYSE:HAL) Soft Earnings",
       "score": 6,
       "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "This article analyzes CMS Energy's (CMS) valuation, noting its share price has been relatively stable around $71.49 with modest recent momentum. While a \"narrative fair value\" suggests the stock is 7.7% undervalued at $77.46 due to regulatory support and investment in clean energy, a discounted cash",
-      "category": "corporate_earnings",
-      "date": "2026-02-01 04:44",
-      "link": "https://simplywall.st/stocks/us/utilities/nyse-cms/cms-energy/news/assessing-cms-energy-cms-valuation-as-regulatory-optimism-an"
-    },
-    {
-      "headline": "The Intergroup Corporation (NASDAQ:INTG) Sees Significant Growth in Short Interest",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Short interest in The Intergroup Corporation (NASDAQ:INTG) increased by 67.4% in January, totaling 3,859 shares and representing about 0.7% of the company's shares. Despite this rise, the short-interest ratio remains low at 0.2 days based on average trading volume. The company recently traded at $30",
+      "impact": "Halliburton Company's stock remained strong despite a recent soft earnings report. This resilience is attributed to a significant US$748m expense from unusual items, which investors may view as a one-time occurrence. If these unusual expenses do not repeat, analysts anticipate a potential increase i",
       "category": "us_equities",
-      "date": "2026-02-01 04:09",
-      "link": "https://www.marketbeat.com/instant-alerts/the-intergroup-corporation-nasdaqintg-sees-significant-growth-in-short-interest-2026-01-31/"
+      "date": "2026-02-01 13:11",
+      "link": "https://simplywall.st/stocks/us/energy/nyse-hal/halliburton/news/some-investors-may-be-willing-to-look-past-halliburtons-nyse"
     },
     {
-      "headline": "Eltek Ltd. (NASDAQ:ELTK) Short Interest Down 32.1% in January",
+      "headline": "Delta Air Lines' (NYSE:DAL) earnings growth rate lags the 20% CAGR delivered to shareholders",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Yahoo Finance Singapore",
       "sentiment": "neutral",
-      "impact": "Eltek Ltd. (NASDAQ:ELTK) experienced a significant 32.1% decrease in short interest in January, with total short interest falling to 3,340 shares. This represents about 0.2% of the stock's shares sold short, with a days-to-cover ratio of 0.7 days based on an average daily volume of 4,527 shares. The",
+      "impact": "Delta Air Lines (NYSE:DAL) has seen its share price gain 66% in three years, outperforming the average market return, despite a 2.1% decline in the last year. While the share price has grown significantly, the average annual share price increase of 19% is lower than the company's 55% per year compou",
       "category": "us_equities",
-      "date": "2026-02-01 04:02",
-      "link": "https://www.marketbeat.com/instant-alerts/eltek-ltd-nasdaqeltk-short-interest-down-321-in-january-2026-01-31/"
-    },
-    {
-      "headline": "Short Interest in Elbit Systems Ltd. (NASDAQ:ESLT) Increases By 64.0%",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Short interest in Elbit Systems Ltd. (NASDAQ:ESLT) surged by 64.0% in January, reaching 177,836 shares, representing 0.4% of shares outstanding. Despite reporting strong quarterly EPS of $3.35 against an estimate of $2.75, the company's shares traded down 2.7% to $702.57, reflecting a high P/E ratio",
-      "category": "us_equities",
-      "date": "2026-02-01 04:01",
-      "link": "https://www.marketbeat.com/instant-alerts/short-interest-in-elbit-systems-ltd-nasdaqeslt-increases-by-640-2026-01-31/"
-    },
-    {
-      "headline": "Inter & Co. Inc. (NASDAQ:INTR) Short Interest Down 31.5% in January",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Inter & Co. Inc. (NASDAQ:INTR) saw a significant 31.5% decrease in short interest in January, with total shares short falling to 8,213,930. The company's stock traded down 5% to $9.33 on Friday with heavy volume, and it currently has a market capitalization of $4.10 billion. Analysts hold a \"Hold\" r",
-      "category": "us_equities",
-      "date": "2026-02-01 03:31",
-      "link": "https://www.marketbeat.com/instant-alerts/inter-co-inc-nasdaqintr-short-interest-down-315-in-january-2026-01-31/"
-    },
-    {
-      "headline": "Kforce (KFRC) Reports Q4: Everything You Need To Know Ahead Of Earnings",
-      "score": 6,
-      "source": "Finviz",
-      "sentiment": "positive",
-      "impact": "Kforce (NYSE:KFRC) is set to report its Q4 earnings this Monday. The company beat revenue and EPS expectations last quarter, with revenue guidance exceeding analyst expectations. Analysts anticipate a 4.2% year-on-year revenue decline to $329.3 million for Q4 and adjusted earnings of $0.47 per share",
-      "category": "corporate_earnings",
-      "date": "2026-02-01 03:31",
-      "link": "https://finviz.com/news/294647/kforce-kfrc-reports-q4-everything-you-need-to-know-ahead-of-earnings"
-    },
-    {
-      "headline": "DaVita (DVA) Q4 Earnings: What To Expect",
-      "score": 6,
-      "source": "Finviz",
-      "sentiment": "neutral",
-      "impact": "DaVita (DVA) is set to report its Q4 earnings on Monday after the bell. Analysts expect revenue to grow 6.4% year-on-year to $3.51 billion and adjusted earnings per share to be $3.19. The company has generally met revenue expectations in the past, and analyst estimates have remained consistent leadi",
-      "category": "corporate_earnings",
-      "date": "2026-02-01 03:30",
-      "link": "https://finviz.com/news/294646/davita-dva-q4-earnings-what-to-expect"
+      "date": "2026-02-01 13:06",
+      "link": "https://sg.finance.yahoo.com/news/delta-air-lines-nyse-dal-130010342.html"
     },
     {
       "headline": "Warsh pick doesn\u2019t end talk that Powell could stay on to defend the Fed\u2019s independence",
@@ -233,16 +184,6 @@
       "category": "us_monetary_policy",
       "date": "2026-01-31 23:34",
       "link": "https://www.marketwatch.com/story/warsh-pick-doesnt-end-talk-that-powell-may-stay-on-to-protect-feds-independence-26e9175b?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Kevin Warsh isn\u2019t who investors think he is \u2014 how you can profit from their mistake",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Trump\u2019s nominee for Fed chair has been hawkish about easy money. But this president demands lower rates.",
-      "category": "corporate_earnings",
-      "date": "2026-01-31 19:54",
-      "link": "https://www.marketwatch.com/story/trump-picked-kevin-warsh-to-boost-markets-what-this-means-for-your-portfolio-f83826cb?mod=mw_rss_topstories"
     },
     {
       "headline": "NYC's iconic Flatiron Building officially has apartments for sale, starting at nearly $11 million\u2014take a look inside",
@@ -273,6 +214,66 @@
       "category": "us_monetary_policy",
       "date": "2026-01-31 14:30",
       "link": "https://www.marketwatch.com/story/warsh-pick-doesnt-end-talk-that-powell-may-stay-on-to-protect-feds-independence-26e9175b"
+    },
+    {
+      "headline": "Big Food gets leaner with divestitures and breakups as consumers turn away from packaged snacks",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Big Food has been selling off underperforming brands or even splitting up, as the industry faces weaker demand.",
+      "category": "global_markets",
+      "date": "2026-01-31 13:00",
+      "link": "https://www.cnbc.com/2026/01/31/kraft-heinz-kellogg-breakups-show-big-food-is-getting-smaller.html"
+    },
+    {
+      "headline": "Eager for an OpenAI or Anthropic IPO? Then Trump\u2019s Fed pick is good news.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Kevin Warsh supports President Trump\u2019s desire for lower interest rates, and that could be a catalyst for blockbuster artificial-intelligence IPOs.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-31 12:30",
+      "link": "https://www.marketwatch.com/story/eager-for-an-openai-or-anthropic-ipo-then-trumps-fed-pick-is-good-news-b7049dbc"
+    },
+    {
+      "headline": "Gold and silver prices plunge following Trump's Fed pick announcement",
+      "score": 6,
+      "source": "Axios",
+      "sentiment": "neutral",
+      "impact": "The selloff follows a wild year when the precious metals soared as if they were meme stocks or the hot new tech darling.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-31 08:08",
+      "link": "https://www.axios.com/2026/01/30/kevin-warsh-silver-price-today-gold"
+    },
+    {
+      "headline": "Hollywood has a box office problem: The old movie sequel trick is falling flat",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "But big-name installments like \"Wicked: For Good\" and \"Avatar: Fire and Ash\" have been underperforming ticket sales expectations. ",
+      "category": "global_markets",
+      "date": "2026-01-30 22:25",
+      "link": "https://www.cnbc.com/2026/01/30/hollywood-ip-franchise-hits-keep-falling-flat-weighing-on-box-office.html"
+    },
+    {
+      "headline": "Verizon Posts Strong Subscriber Gains Under New CEO",
+      "score": 6,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-01-30 22:20",
+      "link": "https://www.wsj.com/business/telecom/verizon-vz-q4-earnings-report-2025-70b537de"
+    },
+    {
+      "headline": "Trump picking Kevin Warsh as Fed chair wasn\u2019t enough to soothe shaky markets",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "A double-whammy selloff of tech stocks and metals shook markets on Friday.",
+      "category": "us_monetary_policy",
+      "date": "2026-01-30 21:47",
+      "link": "https://www.marketwatch.com/story/trump-picking-kevin-warsh-as-fed-chair-wasnt-enough-to-soothe-shaky-markets-2f0137ad"
     }
   ]
 }
