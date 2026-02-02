@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-02-02T06:52:16.707791",
+  "timestamp": "2026-02-02T14:44:00.014353",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 8,
-    "neutral": 16,
-    "bearish": 1,
+    "avg_relevance": 7.1,
+    "bullish": 11,
+    "neutral": 10,
+    "bearish": 4,
     "high_priority": 8,
     "material_events": 4
   },
@@ -15,12 +15,12 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 4,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "MarketWatch": 4,
-    "The Conversation Africa": 1,
-    "TechCrunch": 1
+    "MarketWatch": 5,
+    "CNBC": 8,
+    "CNN": 1,
+    "Seeking Alpha": 1
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -110,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,8 +120,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-02 06:52",
+      "date": "2026-02-02 14:43",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Walt Disney reports solid gains in revenue but sees decline in net profit due to higher costs",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Walt Disney Co. missed expectations on net profit but came in slightly ahead on adjusted earnings per share and revenue.",
+      "category": "corporate_earnings",
+      "date": "2026-02-02 12:47",
+      "link": "https://www.marketwatch.com/story/walt-disney-misses-on-net-profit-despite-record-theme-park-revenue-eae1edb2?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Walt Disney misses on net profit despite record theme-park revenue",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Walt Disney Co. missed expectations on net profit but came in slightly ahead on adjusted earnings per share and revenue.",
+      "category": "corporate_earnings",
+      "date": "2026-02-02 12:15",
+      "link": "https://www.marketwatch.com/story/walt-disney-misses-on-net-profit-despite-record-theme-park-revenue-eae1edb2"
     },
     {
       "headline": "Cramer handicaps the collision of 2 more Big Tech earnings and the jobs report",
@@ -132,6 +152,16 @@
       "category": "corporate_earnings",
       "date": "2026-02-01 23:46",
       "link": "https://www.cnbc.com/2026/02/01/cramer-handicaps-the-collision-of-2-more-big-tech-earnings-and-the-jobs-report.html"
+    },
+    {
+      "headline": "Trump jokes about suing his Federal Reserve nominee Warsh at elite Washington dinner",
+      "score": 7,
+      "source": "CNN",
+      "sentiment": "negative",
+      "impact": "President Donald Trump joked that he might sue his newly selected Federal Reserve chair nominee, Kevin Warsh, over lowering interest rates in a speech to an elite group of Washington\u2019s power set on Saturday night, according to a person who attended the dinner.",
+      "category": "us_monetary_policy",
+      "date": "2026-02-01 04:00",
+      "link": "https://www.cnn.com/2026/01/31/politics/trump-speech-kevin-warsh"
     },
     {
       "headline": "Federal judge denies bid to end ICE Operation Metro Surge in Minnesota",
@@ -154,14 +184,44 @@
       "link": "https://www.cnbc.com/2026/01/31/use-up-your-credit-card-points-now-expert-says.html"
     },
     {
-      "headline": "Kevin Warsh isn\u2019t who investors think he is \u2014 how you can profit from their mistake",
+      "headline": "Disney beats Wall Street expectations propelled by theme parks and streaming",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "In the background of Disney's earnings report on Monday is the question of who will be named the successor to CEO Bob Iger.\u00a0",
+      "category": "us_equities",
+      "date": "2026-02-02 14:15",
+      "link": "https://www.cnbc.com/2026/02/02/disney-dis-earnings-q1-26.html"
+    },
+    {
+      "headline": "Fortinet slips amid after Scotiabank downgrades (FTNT:NASDAQ)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "negative",
+      "impact": "Fortinet's shares experienced a fractional slip in premarket trading following a downgrade from Scotiabank. Analyst Patrick Colville acknowledged Fortinet as a \"legendary company\" with a strong secure networking offering. The specific reasons for the downgrade were not detailed in the provided text.",
+      "category": "us_equities",
+      "date": "2026-02-02 14:11",
+      "link": "https://seekingalpha.com/news/4545429-fortinet-slips-amid-after-scotiabank-downgrades"
+    },
+    {
+      "headline": "Hollywood has a box-office problem: The old movie sequel trick is falling flat",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "But big-name installments like \"Wicked: For Good\" and \"Avatar: Fire and Ash\" have been underperforming ticket sales expectations. ",
+      "category": "global_markets",
+      "date": "2026-02-02 13:33",
+      "link": "https://www.cnbc.com/2026/01/30/hollywood-ip-franchise-hits-keep-falling-flat-weighing-on-box-office.html"
+    },
+    {
+      "headline": "Italian lender loses nearly half its value on profit warning, CEO exit",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Trump\u2019s nominee for Fed chair has been hawkish about easy money. But this president demands lower rates.",
+      "sentiment": "negative",
+      "impact": "An Italian specialty finance lender that buys up the invoices from the Italian public sector lost nearly half of its value on Monday after the ousting of its chief executive and a profit warning.",
       "category": "corporate_earnings",
-      "date": "2026-02-01 21:02",
-      "link": "https://www.marketwatch.com/story/trump-picked-kevin-warsh-to-boost-markets-what-this-means-for-your-portfolio-f83826cb?mod=mw_rss_topstories"
+      "date": "2026-02-02 10:12",
+      "link": "https://www.marketwatch.com/story/italian-lender-loses-nearly-half-its-value-on-profit-warning-ceo-exit-2e42e9fc"
     },
     {
       "headline": "There\u2019s now a bigger risk for stocks than the economy or corporate earnings",
@@ -172,6 +232,16 @@
       "category": "corporate_earnings",
       "date": "2026-02-01 17:00",
       "link": "https://www.marketwatch.com/story/theres-now-a-bigger-risk-for-stocks-than-the-economy-or-corporate-earnings-cff2eee0"
+    },
+    {
+      "headline": "'Melania' earns a surprising $7 million, best non-music documentary debut in a decade",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Amazon reportedly paid an estimated $40 million to acquire 'Melania' and spent an additional $35 million on marketing.",
+      "category": "global_markets",
+      "date": "2026-02-01 16:34",
+      "link": "https://www.cnbc.com/2026/02/01/melania-documentary-posts-7-million-domestic-opening.html"
     },
     {
       "headline": "How this 32-year-old New Yorker turned her love of dogs into a dream career: 'I feel like the luckiest person in the world'",
@@ -202,76 +272,6 @@
       "category": "us_equities",
       "date": "2026-02-01 14:50",
       "link": "https://www.cnbc.com/2026/02/01/government-shutdown-mike-johnson.html"
-    },
-    {
-      "headline": "Why Trump\u2019s new pick for Fed chair hit gold and silver markets \u2013 for good reasons",
-      "score": 6,
-      "source": "The Conversation Africa",
-      "sentiment": "neutral",
-      "impact": "Though Trump clearly remains sceptical of central bank independence, his appointment of Warsh suggests he recognises the importance Fed credibility.",
-      "category": "us_monetary_policy",
-      "date": "2026-02-01 00:59",
-      "link": "https://theconversation.com/why-trumps-new-pick-for-fed-chair-hit-gold-and-silver-markets-for-good-reasons-273233"
-    },
-    {
-      "headline": "SpaceX seeks federal approval to launch 1 million solar-powered satellite data centers",
-      "score": 6,
-      "source": "TechCrunch",
-      "sentiment": "neutral",
-      "impact": "SpaceX's filing claims these satellites will be \u201ca first step towards becoming a Kardashev II-level civilization\u00a0\u2014\u00a0one that can harness the Sun\u2019s full power.\"",
-      "category": "us_monetary_policy",
-      "date": "2026-01-31 21:27",
-      "link": "https://techcrunch.com/2026/01/31/spacex-seeks-federal-approval-to-launch-1-million-solar-powered-satellite-data-centers/"
-    },
-    {
-      "headline": "Bitcoin Plunges Below $80,000 as the Crypto Slide Deepens",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Bitcoin fell sharply on Saturday, tumbling below $80,000 to the lowest levels since April 2025 as part of a broader decline for digital assets.",
-      "category": "global_markets",
-      "date": "2026-01-31 21:20",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-31/bitcoin-plunges-below-80-000-as-the-crypto-slide-accelerates"
-    },
-    {
-      "headline": "NYC's iconic Flatiron Building officially has apartments for sale, starting at nearly $11 million\u2014take a look inside",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Flatiron Building has gone from a commercial building to a residential one with 38 luxury condos.",
-      "category": "global_markets",
-      "date": "2026-01-31 15:00",
-      "link": "https://www.cnbc.com/2026/01/31/flatiron-building-apartments-for-sale.html"
-    },
-    {
-      "headline": "Trump\u2019s Plan to Make Housing Affordable Is Faltering",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "President Donald Trump\u2019s bid to put home ownership in reach for more Americans is sputtering, just weeks after it launched.",
-      "category": "global_markets",
-      "date": "2026-01-31 15:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-31/trump-s-housing-affordability-plans-are-stalling"
-    },
-    {
-      "headline": "'Shark Tank' star worked at Red Lobster while building his business: Your 9-to-5 can be 'your first investor'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "'Shark Tank' star Daymond John says he kept his waiter job at Red Lobster while building his brand, FUBU, which made him a millionaire years later.",
-      "category": "global_markets",
-      "date": "2026-01-31 14:30",
-      "link": "https://www.cnbc.com/2026/01/31/shark-tank-star-daymond-john-9-to-5-job-can-be-your-first-investor.html"
-    },
-    {
-      "headline": "Warsh pick doesn\u2019t end talk that Powell may stay on to protect Fed\u2019s independence",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Some Fed watchers say the choice of Warsh means it\u2019s more likely that Powell will continue to stand in Trump\u2019s way.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-31 14:30",
-      "link": "https://www.marketwatch.com/story/warsh-pick-doesnt-end-talk-that-powell-may-stay-on-to-protect-feds-independence-26e9175b"
     }
   ]
 }
