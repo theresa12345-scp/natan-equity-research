@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-02-01T14:30:14.030888",
+  "timestamp": "2026-02-02T06:52:16.707791",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 9,
-    "neutral": 13,
-    "bearish": 3,
+    "bullish": 8,
+    "neutral": 16,
+    "bearish": 1,
     "high_priority": 8,
     "material_events": 4
   },
@@ -15,14 +15,12 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 2,
+    "Bloomberg": 4,
     "Caixin/S&P Global": 1,
     "CNBC": 7,
-    "Simply Wall Street": 1,
-    "Yahoo Finance Singapore": 1,
     "MarketWatch": 4,
-    "Axios": 1,
-    "The Wall Street Journal": 1
+    "The Conversation Africa": 1,
+    "TechCrunch": 1
   },
   "top_signals": [
     {
@@ -32,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -112,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,8 +120,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-01 14:30",
+      "date": "2026-02-02 06:52",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Cramer handicaps the collision of 2 more Big Tech earnings and the jobs report",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Alphabet on Wednesday evening and Amazon on Thursday evening should define the week \u2014 at least, until Friday's employment data.",
+      "category": "corporate_earnings",
+      "date": "2026-02-01 23:46",
+      "link": "https://www.cnbc.com/2026/02/01/cramer-handicaps-the-collision-of-2-more-big-tech-earnings-and-the-jobs-report.html"
     },
     {
       "headline": "Federal judge denies bid to end ICE Operation Metro Surge in Minnesota",
@@ -146,44 +154,84 @@
       "link": "https://www.cnbc.com/2026/01/31/use-up-your-credit-card-points-now-expert-says.html"
     },
     {
-      "headline": "GM is nailing the U.S. auto industry's profit, politics balancing act under Trump",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "GM's ability to walk such a tightrope has been easier to do when it can fall, if needed, onto $21.7 billion in cash to end 2025.",
-      "category": "corporate_earnings",
-      "date": "2026-01-29 17:21",
-      "link": "https://www.cnbc.com/2026/01/29/gm-earnings-trump.html"
-    },
-    {
-      "headline": "Some Investors May Be Willing To Look Past Halliburton's (NYSE:HAL) Soft Earnings",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "Halliburton Company's stock remained strong despite a recent soft earnings report. This resilience is attributed to a significant US$748m expense from unusual items, which investors may view as a one-time occurrence. If these unusual expenses do not repeat, analysts anticipate a potential increase i",
-      "category": "us_equities",
-      "date": "2026-02-01 13:11",
-      "link": "https://simplywall.st/stocks/us/energy/nyse-hal/halliburton/news/some-investors-may-be-willing-to-look-past-halliburtons-nyse"
-    },
-    {
-      "headline": "Delta Air Lines' (NYSE:DAL) earnings growth rate lags the 20% CAGR delivered to shareholders",
-      "score": 6,
-      "source": "Yahoo Finance Singapore",
-      "sentiment": "neutral",
-      "impact": "Delta Air Lines (NYSE:DAL) has seen its share price gain 66% in three years, outperforming the average market return, despite a 2.1% decline in the last year. While the share price has grown significantly, the average annual share price increase of 19% is lower than the company's 55% per year compou",
-      "category": "us_equities",
-      "date": "2026-02-01 13:06",
-      "link": "https://sg.finance.yahoo.com/news/delta-air-lines-nyse-dal-130010342.html"
-    },
-    {
-      "headline": "Warsh pick doesn\u2019t end talk that Powell could stay on to defend the Fed\u2019s independence",
+      "headline": "Kevin Warsh isn\u2019t who investors think he is \u2014 how you can profit from their mistake",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Some Fed watchers say the choice of Warsh means it\u2019s more likely that Powell will continue to stand in Trump\u2019s way.",
+      "impact": "Trump\u2019s nominee for Fed chair has been hawkish about easy money. But this president demands lower rates.",
+      "category": "corporate_earnings",
+      "date": "2026-02-01 21:02",
+      "link": "https://www.marketwatch.com/story/trump-picked-kevin-warsh-to-boost-markets-what-this-means-for-your-portfolio-f83826cb?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "There\u2019s now a bigger risk for stocks than the economy or corporate earnings",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "January reminded investors that even solid earnings and a strong economy can take a backseat when geopolitical shocks rattle markets.",
+      "category": "corporate_earnings",
+      "date": "2026-02-01 17:00",
+      "link": "https://www.marketwatch.com/story/theres-now-a-bigger-risk-for-stocks-than-the-economy-or-corporate-earnings-cff2eee0"
+    },
+    {
+      "headline": "How this 32-year-old New Yorker turned her love of dogs into a dream career: 'I feel like the luckiest person in the world'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "On the eve of her 30th birthday, Isabel Klee was at a career crossroads. Sharing stories of her foster dogs online helped her build her dream job.",
+      "category": "global_markets",
+      "date": "2026-02-01 15:00",
+      "link": "https://www.cnbc.com/2026/02/01/how-this-32-year-old-new-yorker-turned-her-love-of-dogs-into-a-dream-career.html"
+    },
+    {
+      "headline": "Amazon and Pinterest are slashing jobs, yet corporate America\u2019s profit margins are racing toward 15-year highs",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Earnings Watch: With Amazon and Alphabet leading a massive earnings week, analysts are focused on hiring decisions and AI adoption.",
+      "category": "corporate_earnings",
+      "date": "2026-02-01 15:00",
+      "link": "https://www.marketwatch.com/story/amazon-and-pinterest-are-slashing-jobs-yet-corporate-americas-profit-margins-are-racing-toward-15-year-highs-3177c2f5"
+    },
+    {
+      "headline": "Speaker Johnson: 'Confident' government shutdown will end by Tuesday",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The government shut down on Saturday after Senate Democrats demanded changes to a spending package following the killings of U.S. citizens in Minnesota.",
+      "category": "us_equities",
+      "date": "2026-02-01 14:50",
+      "link": "https://www.cnbc.com/2026/02/01/government-shutdown-mike-johnson.html"
+    },
+    {
+      "headline": "Why Trump\u2019s new pick for Fed chair hit gold and silver markets \u2013 for good reasons",
+      "score": 6,
+      "source": "The Conversation Africa",
+      "sentiment": "neutral",
+      "impact": "Though Trump clearly remains sceptical of central bank independence, his appointment of Warsh suggests he recognises the importance Fed credibility.",
       "category": "us_monetary_policy",
-      "date": "2026-01-31 23:34",
-      "link": "https://www.marketwatch.com/story/warsh-pick-doesnt-end-talk-that-powell-may-stay-on-to-protect-feds-independence-26e9175b?mod=mw_rss_topstories"
+      "date": "2026-02-01 00:59",
+      "link": "https://theconversation.com/why-trumps-new-pick-for-fed-chair-hit-gold-and-silver-markets-for-good-reasons-273233"
+    },
+    {
+      "headline": "SpaceX seeks federal approval to launch 1 million solar-powered satellite data centers",
+      "score": 6,
+      "source": "TechCrunch",
+      "sentiment": "neutral",
+      "impact": "SpaceX's filing claims these satellites will be \u201ca first step towards becoming a Kardashev II-level civilization\u00a0\u2014\u00a0one that can harness the Sun\u2019s full power.\"",
+      "category": "us_monetary_policy",
+      "date": "2026-01-31 21:27",
+      "link": "https://techcrunch.com/2026/01/31/spacex-seeks-federal-approval-to-launch-1-million-solar-powered-satellite-data-centers/"
+    },
+    {
+      "headline": "Bitcoin Plunges Below $80,000 as the Crypto Slide Deepens",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Bitcoin fell sharply on Saturday, tumbling below $80,000 to the lowest levels since April 2025 as part of a broader decline for digital assets.",
+      "category": "global_markets",
+      "date": "2026-01-31 21:20",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-31/bitcoin-plunges-below-80-000-as-the-crypto-slide-accelerates"
     },
     {
       "headline": "NYC's iconic Flatiron Building officially has apartments for sale, starting at nearly $11 million\u2014take a look inside",
@@ -194,6 +242,16 @@
       "category": "global_markets",
       "date": "2026-01-31 15:00",
       "link": "https://www.cnbc.com/2026/01/31/flatiron-building-apartments-for-sale.html"
+    },
+    {
+      "headline": "Trump\u2019s Plan to Make Housing Affordable Is Faltering",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "President Donald Trump\u2019s bid to put home ownership in reach for more Americans is sputtering, just weeks after it launched.",
+      "category": "global_markets",
+      "date": "2026-01-31 15:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-31/trump-s-housing-affordability-plans-are-stalling"
     },
     {
       "headline": "'Shark Tank' star worked at Red Lobster while building his business: Your 9-to-5 can be 'your first investor'",
@@ -214,66 +272,6 @@
       "category": "us_monetary_policy",
       "date": "2026-01-31 14:30",
       "link": "https://www.marketwatch.com/story/warsh-pick-doesnt-end-talk-that-powell-may-stay-on-to-protect-feds-independence-26e9175b"
-    },
-    {
-      "headline": "Big Food gets leaner with divestitures and breakups as consumers turn away from packaged snacks",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Big Food has been selling off underperforming brands or even splitting up, as the industry faces weaker demand.",
-      "category": "global_markets",
-      "date": "2026-01-31 13:00",
-      "link": "https://www.cnbc.com/2026/01/31/kraft-heinz-kellogg-breakups-show-big-food-is-getting-smaller.html"
-    },
-    {
-      "headline": "Eager for an OpenAI or Anthropic IPO? Then Trump\u2019s Fed pick is good news.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Kevin Warsh supports President Trump\u2019s desire for lower interest rates, and that could be a catalyst for blockbuster artificial-intelligence IPOs.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-31 12:30",
-      "link": "https://www.marketwatch.com/story/eager-for-an-openai-or-anthropic-ipo-then-trumps-fed-pick-is-good-news-b7049dbc"
-    },
-    {
-      "headline": "Gold and silver prices plunge following Trump's Fed pick announcement",
-      "score": 6,
-      "source": "Axios",
-      "sentiment": "neutral",
-      "impact": "The selloff follows a wild year when the precious metals soared as if they were meme stocks or the hot new tech darling.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-31 08:08",
-      "link": "https://www.axios.com/2026/01/30/kevin-warsh-silver-price-today-gold"
-    },
-    {
-      "headline": "Hollywood has a box office problem: The old movie sequel trick is falling flat",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "But big-name installments like \"Wicked: For Good\" and \"Avatar: Fire and Ash\" have been underperforming ticket sales expectations. ",
-      "category": "global_markets",
-      "date": "2026-01-30 22:25",
-      "link": "https://www.cnbc.com/2026/01/30/hollywood-ip-franchise-hits-keep-falling-flat-weighing-on-box-office.html"
-    },
-    {
-      "headline": "Verizon Posts Strong Subscriber Gains Under New CEO",
-      "score": 6,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-01-30 22:20",
-      "link": "https://www.wsj.com/business/telecom/verizon-vz-q4-earnings-report-2025-70b537de"
-    },
-    {
-      "headline": "Trump picking Kevin Warsh as Fed chair wasn\u2019t enough to soothe shaky markets",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "A double-whammy selloff of tech stocks and metals shook markets on Friday.",
-      "category": "us_monetary_policy",
-      "date": "2026-01-30 21:47",
-      "link": "https://www.marketwatch.com/story/trump-picking-kevin-warsh-as-fed-chair-wasnt-enough-to-soothe-shaky-markets-2f0137ad"
     }
   ]
 }
