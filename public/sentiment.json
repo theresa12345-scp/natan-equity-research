@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-02-04T14:43:07.984012",
+  "timestamp": "2026-02-05T06:45:31.887835",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 13,
-    "neutral": 8,
-    "bearish": 4,
-    "high_priority": 8,
+    "avg_relevance": 7.3,
+    "bullish": 15,
+    "neutral": 9,
+    "bearish": 1,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -16,15 +16,16 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
+    "CNBC": 6,
     "Caixin/S&P Global": 1,
-    "Seeking Alpha": 2,
-    "CNBC": 5,
-    "Tipranks.com": 1,
+    "Investing.com Australia": 1,
     "MarketWatch": 2,
+    "The Wall Street Journal": 1,
+    "Investopedia": 1,
+    "CDC Gaming": 1,
     "Finviz": 1,
-    "MarketBeat": 2,
     "Simply Wall Street": 1,
-    "MSN": 1
+    "Bloomberg.com": 1
   },
   "top_signals": [
     {
@@ -34,7 +35,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -44,7 +45,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -54,7 +55,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -64,7 +65,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -74,7 +75,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -84,7 +85,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -94,7 +95,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -104,8 +105,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "E.l.f. Beauty posts earnings beat, raises full-year guidance",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "E.l.f. Beauty said its acquisition of Hailey Bieber's skin-care company, Rhode, contributed $128 million to the company's net third-quarter sales growth.",
+      "category": "corporate_earnings",
+      "date": "2026-02-04 22:52",
+      "link": "https://www.cnbc.com/2026/02/04/elf-beauty-elf-q3-2026.html"
+    },
+    {
+      "headline": "E.l.f. Beauty stock soars 15% on big earnings beat, raised guidance",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Shares of E.l.f. Beauty surged Wednesday after the company reported a major earnings beat.",
+      "category": "corporate_earnings",
+      "date": "2026-02-04 21:53",
+      "link": "https://www.cnbc.com/2026/02/04/elf-beauty-elf-q3-2026.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -114,7 +135,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -124,28 +145,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-04 14:43",
+      "date": "2026-02-05 06:45",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Enphase Energy surges as upbeat revenue forecast prompts two analyst upgrades (ENPH:NASDAQ)",
+      "headline": "Kulicke & Soffa shares soar as earnings beat and strong guidance impress",
       "score": 7,
-      "source": "Seeking Alpha",
+      "source": "Investing.com Australia",
       "sentiment": "positive",
-      "impact": "Enphase Energy (ENPH) stock surged pre-market following better-than-expected Q4 adjusted earnings and Q1 revenue forecasts. The positive outlook led to at least two analyst upgrades for the company. Despite a 10% year-over-year revenue decrease in Q4 to $343.3M, this figure still exceeded analyst ex",
-      "category": "us_equities",
-      "date": "2026-02-04 13:41",
-      "link": "https://seekingalpha.com/news/4546991-enphase-energy-surges-as-upbeat-revenue-forecast-prompts-two-analyst-upgrades"
+      "impact": "Kulicke & Soffa Industries (NASDAQ:KLIC) reported impressive Q1 fiscal 2026 results, exceeding analyst expectations for both earnings and revenue. The semiconductor equipment manufacturer also provided strong guidance for Q2 fiscal 2026, leading to a 10% surge in its shares during after-hours tradin",
+      "category": "corporate_earnings",
+      "date": "2026-02-05 05:59",
+      "link": "https://au.investing.com/news/earnings/kulicke--soffa-shares-soar-as-earnings-beat-and-strong-guidance-impress-93CH-4241696"
     },
     {
-      "headline": "Chipotle stock sinks as restaurant chain reports falling traffic, weak guidance",
+      "headline": "The Fed has bought over $90B in Treasury bills since December. Why this has a huge impact on your finances.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The Treasury Deparment said Wednesday that the Federal Reserve has bought more than $90 billion of short-dated government bills over the past eight weeks.",
+      "category": "us_monetary_policy",
+      "date": "2026-02-04 22:37",
+      "link": "https://www.marketwatch.com/story/the-fed-has-bought-over-90b-in-treasury-bills-since-december-why-this-has-a-huge-impact-on-your-finances-311e5b91"
+    },
+    {
+      "headline": "We're booking profits in 2 Dow stocks riding double-digit gains to start 2026",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Chipotle stock has fallen about 33% over the last year, dragging the company's market value down to about $51 billion.",
-      "category": "corporate_earnings",
-      "date": "2026-02-03 22:54",
-      "link": "https://www.cnbc.com/2026/02/03/chipotle-cmg-q4-2025-earnings.html"
+      "sentiment": "positive",
+      "impact": "Our patience is finally paying off.",
+      "category": "us_equities",
+      "date": "2026-02-04 17:43",
+      "link": "https://www.cnbc.com/2026/02/04/were-trimming-2-dow-stocks-with-double-digit-gains-to-start-2026.html"
+    },
+    {
+      "headline": "Super Micro Computer Posts Higher Second-Quarter Profit on Two-Fold Sales Boost",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-02-03 22:42",
+      "link": "https://www.wsj.com/business/earnings/super-micro-computer-posts-higher-second-quarter-profit-on-two-fold-sales-boost-9d10da78"
     },
     {
       "headline": "Merck tops quarterly estimates, posts modest 2026 guidance as generic competition looms",
@@ -158,124 +199,84 @@
       "link": "https://www.cnbc.com/2026/02/03/merck-mrk-earnings-q4-2025.html"
     },
     {
-      "headline": "PayPal Earnings: PYPL Stock Plunges on Weak 2026 Profit Outlook, New CEO Named",
+      "headline": "Chipotle stock sinks as restaurant chain reports falling traffic, weak guidance",
       "score": 7,
-      "source": "Tipranks.com",
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Shares of PayPal ($PYPL) are down more than 16% in pre-market trading after the company\u2019s Q4 earnings miss and weaker profit outlook for 2026 rattled investors. Adjusted earnings came in",
+      "impact": "Chipotle stock has fallen about 33% over the last year, dragging the company's market value down to about $51 billion.",
       "category": "corporate_earnings",
-      "date": "2026-02-03 12:51",
-      "link": "https://www.tipranks.com/news/paypal-earnings-pypl-stock-plunges-as-2026-profit-forecast-spooks-investors"
+      "date": "2026-02-03 20:30",
+      "link": "https://www.cnbc.com/2026/02/03/chipotle-cmg-q4-2025-earnings.html"
     },
     {
-      "headline": "PepsiCo earnings beat estimates as drinks sales pick up around the world",
+      "headline": "Dow Jones Today: Stock Indexes End Sharply Higher to Begin February Trading; Dow Adds 515 Points; S&P 500 Just Misses Closing Record",
       "score": 7,
-      "source": "CNBC",
+      "source": "Investopedia",
       "sentiment": "positive",
-      "impact": "PepsiCo reported fourth-quarter earnings and revenue that topped Wall Street's estimates.",
-      "category": "corporate_earnings",
-      "date": "2026-02-03 11:04",
-      "link": "https://www.cnbc.com/2026/02/03/pepsico-pep-q4-2025-earnings.html"
+      "impact": "Major stock indexes finished sharply higher Monday to begin a new month of trading, with the Dow Jones Industrial Average adding 515 points and the S&P 500 just missing a new closing record.",
+      "category": "us_equities",
+      "date": "2026-02-02 21:13",
+      "link": "https://www.investopedia.com/dow-jones-today-02022026-11897235"
     },
     {
-      "headline": "Trump says DOJ should continue Fed Chair Powell probe 'to the end'",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Sen. Thom Tillis said he would oppose any new Fed nominees until the Powell probe is resolved, the same day Trump announced Kevin Warsh as his Fed chair pick.",
-      "category": "us_monetary_policy",
-      "date": "2026-02-02 23:24",
-      "link": "https://www.cnbc.com/2026/02/02/trump-powell-pirro-warsh-fed-tillis.html"
-    },
-    {
-      "headline": "The most important Amazon earnings figure comes with a high bar this time",
+      "headline": "MGM and Boyd kick off Las Vegas Q4 earnings calls Thursday",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "CDC Gaming",
       "sentiment": "positive",
-      "impact": "To impress investors, Amazon will need to show continued momentum in its cloud-computing business. But the real number to beat may be higher than the consensus view of 21% growth.",
+      "impact": "MGM Resorts International and Boyd Gaming will be the first Las Vegas-based companies to report their fourth-quarter 2025 earnings and provide 2026 outlooks on Thursday. The report comes after MGM's unexpected early release of Q4 results. Analysts anticipate locals casinos to outperform the Strip, w",
       "category": "corporate_earnings",
-      "date": "2026-02-04 14:14",
-      "link": "https://www.marketwatch.com/story/the-most-important-amazon-earnings-figure-comes-with-a-high-bar-this-time-f0a63767"
+      "date": "2026-02-05 04:58",
+      "link": "https://cdcgaming.com/boyd-gaming-kicks-off-las-vegas-investor-calls-thursday/"
     },
     {
-      "headline": "Can New Oriental (EDU) Run Higher on Rising Earnings Estimates?",
+      "headline": "Centene (CNC) Q4 Earnings: What To Expect",
       "score": 6,
       "source": "Finviz",
-      "sentiment": "positive",
-      "impact": "New Oriental Education (EDU) is seen as an attractive investment due to a noticeable improvement in its earnings outlook and rising earnings estimates from analysts. The stock's positive performance and strong agreement among analysts in revising estimates upward have led to a Zacks Rank #1 (Strong ",
+      "sentiment": "neutral",
+      "impact": "Centene (CNC) is set to report its Q4 earnings before market open this Friday. Analysts expect the company's revenue to grow 18.3% year-on-year to $48.26 billion, with an adjusted loss of -$1.22 per share. The stock has underperformed recently, down 10.6% over the last month, and analysts have large",
       "category": "corporate_earnings",
-      "date": "2026-02-04 13:58",
-      "link": "https://finviz.com/news/297950/can-new-oriental-edu-run-higher-on-rising-earnings-estimates"
+      "date": "2026-02-05 04:28",
+      "link": "https://finviz.com/news/300658/centene-cnc-q4-earnings-what-to-expect"
     },
     {
-      "headline": "Enphase Energy (NASDAQ:ENPH) Stock Price Expected to Rise, TD Cowen Analyst Says",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "TD Cowen analysts have increased their price target for Enphase Energy (NASDAQ:ENPH) from $35.00 to $40.00, suggesting a potential upside of 7.30%. This follows Enphase Energy's strong Q4 earnings, which surpassed analyst estimates, and positive Q1 revenue guidance. Despite some negative sentiments ",
-      "category": "us_equities",
-      "date": "2026-02-04 13:55",
-      "link": "https://www.marketbeat.com/instant-alerts/enphase-energy-nasdaqenph-stock-price-expected-to-rise-td-cowen-analyst-says-2026-02-04/"
-    },
-    {
-      "headline": "D.E. Shaw to push for board shake-up at CoStar - WSJ (CSGP:NASDAQ)",
-      "score": 6,
-      "source": "Seeking Alpha",
-      "sentiment": "negative",
-      "impact": "Hedge fund D.E. Shaw plans to advocate for significant board changes at CoStar Group, a real-estate information provider. This move comes as D.E. Shaw attributes CoStar's underperformance to its \"high-risk, money-losing\" investment in Homes.com. Following the news, CoStar's shares saw a premarket in",
-      "category": "us_equities",
-      "date": "2026-02-04 13:52",
-      "link": "https://seekingalpha.com/news/4547008-d-e-shaw-to-push-for-board-shake-up-at-costar-wsj"
-    },
-    {
-      "headline": "Do IDEX\u2019s (IEX) Earnings and Dividend Streak Reveal a Deeper Capital-Return Strategy Shift?",
+      "headline": "A Look At Annaly Capital Management (NLY) Valuation After Its Q4 2025 Earnings Beat And Dividend Confidence",
       "score": 6,
       "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "IDEX Corporation recently reported quarterly results, with analysts expecting modest revenue growth. The company's consistent dividend payments and raises, supported by strong profitability, are key to its investment appeal. While the stock has seen recent strength, its richer earnings multiple and ",
+      "impact": "Annaly Capital Management (NLY) recently reported better-than-expected Q4 2025 earnings and revenue, leading to a focus on its valuation. Despite a 27.60% 1-year total shareholder return, the stock is considered 2.2% undervalued with a fair value of $23.34 per share, slightly above its current tradi",
       "category": "corporate_earnings",
-      "date": "2026-02-04 13:49",
-      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-iex/idex/news/do-idexs-iex-earnings-and-dividend-streak-reveal-a-deeper-ca"
+      "date": "2026-02-05 04:02",
+      "link": "https://simplywall.st/stocks/us/diversified-financials/nyse-nly/annaly-capital-management/news/a-look-at-annaly-capital-management-nly-valuation-after-its"
     },
     {
-      "headline": "Colliers International Group (NASDAQ:CIGI) Stock Rating Upgraded by Raymond James Financial",
+      "headline": "Mizuho Strategist Sees End to Japan Debt Buyer Strike After Vote",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Bloomberg.com",
       "sentiment": "positive",
-      "impact": "Raymond James Financial has upgraded Colliers International Group (NASDAQ:CIGI) stock from an \"outperform\" to a \"strong-buy\" rating, setting a new price objective of $200.00, suggesting a significant upside. This upgrade comes amidst several other positive analyst reports, contributing to a \"Moderat",
-      "category": "us_equities",
-      "date": "2026-02-04 13:48",
-      "link": "https://www.marketbeat.com/instant-alerts/colliers-international-group-nasdaqcigi-stock-rating-upgraded-by-raymond-james-financial-2026-02-04/"
+      "impact": "A Mizuho strategist believes that Japanese investors may resume buying longer-dated debt after this weekend's snap election. The \"buying strike\" in the ultra-long end of the market could end once election uncertainty subsides, especially if 10-year yields reach 2.5%, a level pinpointed by large asse",
+      "category": "global_markets",
+      "date": "2026-02-05 03:59",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-05/mizuho-strategist-sees-end-to-japan-debt-buyer-strike-after-vote"
     },
     {
-      "headline": "Truist lowers Synchrony Financial (SYF) PT to $84 following cautious credit outlook, adjusted 2026 guidance",
-      "score": 6,
-      "source": "MSN",
-      "sentiment": "negative",
-      "impact": "Truist has lowered its price target for Synchrony Financial (SYF) to $84.00, down from $90.00, while maintaining a Buy rating. This adjustment reflects a more cautious stance on credit and revised guidance for 2026. The firm anticipates a more conservative net charge-off rate and a slight decrease i",
-      "category": "fixed_income",
-      "date": "2026-02-04 13:43",
-      "link": "https://www.msn.com/en-us/money/topstocks/truist-lowers-synchrony-financial-syf-pt-to-84-following-cautious-credit-outlook-adjusted-2026-guidance/ar-AA1VEl1p?ocid=finance-verthp-feeds"
-    },
-    {
-      "headline": "A surprising share of homeowners have high mortgage rates. Here's the breakdown",
+      "headline": "Paul Weiss chairman Brad Karp resigns after Jeffrey Epstein email disclosures",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "About 20% of borrowers have mortgages with a rate over 6%.",
-      "category": "us_equities",
-      "date": "2026-02-04 13:00",
-      "link": "https://www.cnbc.com/2026/02/04/homeowner-mortgage-rates-breakdown.html"
+      "impact": "The Department of Justice last week released millions of documents related to the notorious sex offender Jeffrey Epstein.",
+      "category": "global_markets",
+      "date": "2026-02-05 03:55",
+      "link": "https://www.cnbc.com/2026/02/05/paul-weiss-brad-karp-resigns-jeffrey-epstein.html"
     },
     {
-      "headline": "Uber\u2019s stock as record demand for rides fails to deliver the profit investors expected",
+      "headline": "Here are the new release dates for January\u2019s jobs and CPI inflation reports",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Uber\u2019s stock drops toward a 10-month low as a quarterly profit miss offset record user results.",
-      "category": "corporate_earnings",
-      "date": "2026-02-04 12:44",
-      "link": "https://www.marketwatch.com/story/ubers-stock-as-record-demand-for-rides-fails-to-deliver-the-profit-investors-expected-20b0c4b2"
+      "impact": "The U.S. employment report for January originally due on Friday has been rescheduled for the middle of next week \u2014 and the consumer price index was also pushed back a couple of days.",
+      "category": "global_markets",
+      "date": "2026-02-05 02:56",
+      "link": "https://www.marketwatch.com/story/heres-the-new-dates-for-january-jobs-and-cpi-inflation-reports-0350659d?mod=mw_rss_topstories"
     }
   ]
 }
