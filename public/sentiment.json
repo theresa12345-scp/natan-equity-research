@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-02-08T14:32:15.706622",
+  "timestamp": "2026-02-09T06:54:54.989335",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 6.9,
-    "bullish": 10,
-    "neutral": 12,
+    "avg_relevance": 7.0,
+    "bullish": 9,
+    "neutral": 13,
     "bearish": 3,
     "high_priority": 8,
     "material_events": 4
@@ -15,11 +15,12 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 4,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "Simply Wall Street": 1,
-    "CNBC": 10,
-    "The Wall Street Journal": 1,
+    "CNBC": 6,
+    "Finviz": 5,
+    "TradingView": 1,
+    "MarketWatch": 1,
     "Financial Times": 1
   },
   "top_signals": [
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -110,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,28 +121,138 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-08 14:32",
+      "date": "2026-02-09 06:54",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Biogen (BIIB) Q4 Loss And Margin Compression Reinforce Bearish Profitability Narratives",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "negative",
-      "impact": "Biogen (BIIB) concluded FY 2025 with a Q4 loss of US$0.33 EPS and revenue of US$2,279.4 million, prompting concerns about its profitability and margin resilience given a 13.1% net profit margin compared to 16.9% in the prior year. The company's performance includes a significant one-off loss and a s",
+      "headline": "The winner of Big Tech's earnings Super Bowl wasn't even close",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "One company was luckier than good. But it needed a superior hardware product to win.",
       "category": "corporate_earnings",
-      "date": "2026-02-08 13:39",
-      "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-biib/biogen/news/biogen-biib-q4-loss-and-margin-compression-reinforce-bearish"
+      "date": "2026-02-08 18:10",
+      "link": "https://www.cnbc.com/2026/02/08/cramer-the-winner-of-big-techs-earnings-super-bowl-wasnt-even-close.html"
     },
     {
-      "headline": "Pressure mounts on American Airlines CEO as carrier lags rivals",
+      "headline": "Get Ready for Double Whammy of US Jobs and Inflation",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Investors and policymakers are gearing up for a busy week of US economic reports that includes arguably the two most consequential data snapshots \u2014 employment and inflation.",
+      "category": "global_markets",
+      "date": "2026-02-07 21:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-07/get-ready-for-double-whammy-of-us-jobs-and-inflation"
+    },
+    {
+      "headline": "Incyte (INCY) Q4 Earnings: What To Expect",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "neutral",
+      "impact": "Incyte Corporation (NASDAQ: INCY) is set to announce its Q4 earnings results before market open this Tuesday. Analysts anticipate revenue growth of 14.8% year-on-year to $1.35 billion and adjusted earnings of $1.95 per share. The company has a strong track record of beating revenue estimates, and it",
+      "category": "corporate_earnings",
+      "date": "2026-02-09 04:13",
+      "link": "https://finviz.com/news/303876/incyte-incy-q4-earnings-what-to-expect"
+    },
+    {
+      "headline": "Assurant (AIZ) To Report Earnings Tomorrow: Here Is What To Expect",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "neutral",
+      "impact": "Assurant (AIZ) is set to announce its earnings results, with analysts projecting a 6.4% year-on-year revenue growth to $3.30 billion and adjusted earnings of $5.50 per share. The company has a strong track record of beating revenue estimates, and its stock has seen a 2.1% increase over the last mont",
+      "category": "corporate_earnings",
+      "date": "2026-02-09 03:57",
+      "link": "https://finviz.com/news/303886/assurant-aiz-to-report-earnings-tomorrow-here-is-what-to-expect"
+    },
+    {
+      "headline": "S&P Global (SPGI) Reports Earnings Tomorrow: What To Expect",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "neutral",
+      "impact": "S&P Global (SPGI) is set to report its earnings tomorrow (Tuesday) before the bell, with analysts expecting revenue growth of 8.7% year-on-year to $3.90 billion and adjusted earnings of $4.33 per share. The company has a history of beating revenue estimates, consistently surpassing predictions over ",
+      "category": "us_equities",
+      "date": "2026-02-09 03:42",
+      "link": "https://finviz.com/news/303860/sp-global-spgi-reports-earnings-tomorrow-what-to-expect"
+    },
+    {
+      "headline": "Fiserv (FISV) Reports Earnings Tomorrow: What To Expect",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "neutral",
+      "impact": "Fiserv (FISV) is set to announce its earnings results, with analysts expecting flat revenue growth year-on-year at $4.91 billion and adjusted earnings of $1.90 per share. The company missed revenue expectations last quarter, and its stock has underperformed the financial services segment recently. P",
+      "category": "corporate_earnings",
+      "date": "2026-02-09 03:34",
+      "link": "https://finviz.com/news/303863/fiserv-fisv-reports-earnings-tomorrow-what-to-expect"
+    },
+    {
+      "headline": "Xylem (XYL) Reports Earnings Tomorrow: What To Expect",
+      "score": 6,
+      "source": "TradingView",
+      "sentiment": "positive",
+      "impact": "Xylem (XYL) is set to report earnings tomorrow, with analysts expecting a 5% year-on-year revenue growth to $2.37 billion and adjusted earnings of $1.41 per share. The company has a history of beating revenue estimates and has seen positive investor sentiment in the industrial machinery sector, with",
+      "category": "asia_economy",
+      "date": "2026-02-09 03:29",
+      "link": "https://www.tradingview.com/news/stockstory:cc00d7a1c094b:0-xylem-xyl-reports-earnings-tomorrow-what-to-expect/"
+    },
+    {
+      "headline": "Earnings To Watch: Hasbro (HAS) Reports Q4 Results Tomorrow",
+      "score": 6,
+      "source": "Finviz",
+      "sentiment": "positive",
+      "impact": "Hasbro (NASDAQ:HAS) is set to report its Q4 results before market open tomorrow. Analysts expect revenue to grow 14.7% year over year to $1.26 billion and adjusted earnings of $0.95 per share. The company has a mixed record of beating revenue estimates and is heading into earnings with its stock up ",
+      "category": "corporate_earnings",
+      "date": "2026-02-09 03:28",
+      "link": "https://finviz.com/news/303856/earnings-to-watch-hasbro-has-reports-q4-results-tomorrow"
+    },
+    {
+      "headline": "U.S. stock futures rise after a wild week on Wall Street, ahead of key jobs and inflation reports",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "U.S. stock index futures rose Sunday, ahead of key employment and inflation data coming later this week.",
+      "category": "us_equities",
+      "date": "2026-02-08 23:17",
+      "link": "https://www.marketwatch.com/story/u-s-stock-futures-rise-after-a-wild-week-on-wall-street-ahead-of-key-jobs-and-inflation-reports-60e29ed8"
+    },
+    {
+      "headline": "Here are the 5 big things we're watching in the stock market this week",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "American Airlines made $111 million last year, while rivals Delta Air Lines and United Airlines, brought in $5 billion and $3.3 billion, respectively.",
+      "impact": "The week ahead brings earnings from two more portfolio names \u2014 plus, three important economic reports.",
       "category": "global_markets",
-      "date": "2026-02-07 20:31",
-      "link": "https://www.cnbc.com/2026/02/07/american-airlines-ceo-robert-isom.html"
+      "date": "2026-02-08 20:29",
+      "link": "https://www.cnbc.com/2026/02/08/here-are-the-5-big-things-were-watching-in-the-stock-market-this-week.html"
+    },
+    {
+      "headline": "Epstein files: Republican lawmaker Massie calls for Trump Commerce chief Lutnick to resign",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Commerce Secretary Howard Lutnick previously said on a podcast that he had cut ties with the notorious sex offender since an initial 2005 encounter.",
+      "category": "global_markets",
+      "date": "2026-02-08 19:27",
+      "link": "https://www.cnbc.com/2026/02/08/epstein-files-trump-lutnick-massie.html"
+    },
+    {
+      "headline": "I've studied over 200 kids\u2014the happiest ones have parents who do 6 things with them every evening",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Getting your child to bed after a long, stressful day can be a real struggle. Child psychologist Reem Raouda, who has studied over 200 kids, shares the evening routines that will keep your child happy and emotionally well-rounded.",
+      "category": "asia_economy",
+      "date": "2026-02-08 14:51",
+      "link": "https://www.cnbc.com/2026/02/08/child-psychologist-the-happiest-ones-have-parents-who-do-6-things-with-them-every-evening.html"
+    },
+    {
+      "headline": "Bitcoin is still about $69,000 too high",
+      "score": 6,
+      "source": "Financial Times",
+      "sentiment": "negative",
+      "impact": "The crypto crash is coming \u2014 and the landing won\u2019t be pretty",
+      "category": "global_markets",
+      "date": "2026-02-08 05:00",
+      "link": "https://www.ft.com/content/2b030926-2012-4446-b22d-e549e10e7086"
     },
     {
       "headline": "Automakers largely sit out 2026 Super Bowl advertising amid industry uncertainty",
@@ -154,124 +265,14 @@
       "link": "https://www.cnbc.com/2026/02/07/super-bowl-ads-gm-toyota-volkswagen.html"
     },
     {
-      "headline": "Couple bought a 140-year-old New Jersey home for $550,000 and spent $172,000 renovating it\u2014take a look inside",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Amanda and Vincent DeRise lived in New York City for years before they decided to buy a house from the 1800s in Atlantic Highlands, New Jersey.",
-      "category": "global_markets",
-      "date": "2026-02-07 15:00",
-      "link": "https://www.cnbc.com/2026/02/07/century-old-house-new-jersey.html"
-    },
-    {
-      "headline": "Issa Rae shares the simple exercise she uses twice a year to set herself up for success\u2014it includes pens, lists and a 'superpower day'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Issa Rae writes down her ideas and goals in a notebook on New Year's Day, and revisits them six months later, to stay on track for achieving them, she says.",
-      "category": "global_markets",
-      "date": "2026-02-07 14:15",
-      "link": "https://www.cnbc.com/2026/02/07/issa-rae-i-use-this-exercise-twice-a-year-to-set-myself-up-for-success.html"
-    },
-    {
-      "headline": "How a Super Bowl QB's parents taught him to be mentally resilient: 'It never mattered what kind of day they had'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Sam Darnold, a former top NFL Draft pick, spent time on five different teams before leading the Seattle Seahawks to a berth in Super Bowl 60.",
-      "category": "global_markets",
-      "date": "2026-02-07 14:05",
-      "link": "https://www.cnbc.com/2026/02/07/seahawks-qb-sam-darnold-credits-parents-for-resilient-mindset.html"
-    },
-    {
-      "headline": "Incomes would need to rise nearly $50,000 for median-priced homes to be as affordable as they were in 2019",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Rising home prices and s higher mortgage rates have pushed the income needed to afford a median-priced home up by nearly $50,000 since 2019.",
-      "category": "global_markets",
-      "date": "2026-02-07 14:00",
-      "link": "https://www.cnbc.com/2026/02/07/housing-affordability-income-changes.html"
-    },
-    {
-      "headline": "Charting the Global Economy: ECB holds, the UK tilts toward rate cut",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "In the UK, central bankers came within a vote of lowering interest rates and predicted inflation will fall below its target, a closer-than-expected decision that revived hopes the Bank of England will cut next month",
-      "category": "global_markets",
-      "date": "2026-02-07 10:37",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-07/world-economy-latest-ecb-holds-rates-steady-while-uk-tilts-toward-cut"
-    },
-    {
-      "headline": "Health Agency Refers Knockoff GLP-1 Provider Hims & Hers to Justice Department",
-      "score": 6,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-02-06 23:29",
-      "link": "https://www.wsj.com/health/pharma/fda-targets-hims-hers-other-marketers-of-unapproved-glp-1-weight-loss-drugs-037b6a71"
-    },
-    {
-      "headline": "US launches antitrust review of $83bn Netflix deal for Warner Bros",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "Justice department basing review on legal provisions barring monopolisation and reduced competition",
-      "category": "global_markets",
-      "date": "2026-02-06 23:06",
-      "link": "https://www.ft.com/content/fc91a7db-f99f-4f26-81ca-3be78bfa4ce4"
-    },
-    {
-      "headline": "AI companies pour big money into Super Bowl battle",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Google, Amazon and Meta are among the companies advertising their AI tools during Super Bowl 60.",
-      "category": "global_markets",
-      "date": "2026-02-06 22:22",
-      "link": "https://www.cnbc.com/2026/02/06/super-bowl-ai-companies-pour-big-money-into-ads.html"
-    },
-    {
-      "headline": "OpenAI executives were on a tear this week trying to quell critics",
+      "headline": "Nearly a thousand Google workers sign letter urging company to divest from ICE, CBP",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "CEO Sam Altman and several OpenAI executives stepped into a \"food fight\" over Anthropic's Super Bowl ad and threw jabs at Elon Musk.",
+      "impact": "Hundreds of Google workers signed an open letter urging the company to cut its ties with ICE and CBP after rising violence.",
       "category": "global_markets",
-      "date": "2026-02-06 21:21",
-      "link": "https://www.cnbc.com/2026/02/06/openai-altman-nvidia-musk-anthropic-super-bowl.html"
-    },
-    {
-      "headline": "Jennifer Garner\u2019s Once Upon a Farm Rises 17% After $198 Million IPO",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "Once Upon a Farm PBC, the organic kids snacks maker co-founded by actress Jennifer Garner, jumped 17% in its trading debut Friday after the company and some of its investors raised $197.9 million in an initial public offering.",
-      "category": "global_markets",
-      "date": "2026-02-06 21:13",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-06/jennifer-garner-s-once-upon-a-farm-rises-17-after-198-million-ipo"
-    },
-    {
-      "headline": "NFL plans to have discussions with partners outside of core media for live games, media chief says",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "NFL plans to look outside traditional media for potential partners for live games, NFL Media chief Hans Schroeder said.",
-      "category": "global_markets",
-      "date": "2026-02-06 21:11",
-      "link": "https://www.cnbc.com/2026/02/06/nfl-to-discuss-live-game-rights-with-new-media-partners.html"
-    },
-    {
-      "headline": "Stellantis CEO says automaker is stronger together as stock plummets amid $26 billion charge",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The automaker announced $26 billion in charges from a business restructuring that includes pulling back on electrification plans and reintroducing V8 engines.",
-      "category": "global_markets",
-      "date": "2026-02-06 21:09",
-      "link": "https://www.cnbc.com/2026/02/06/stellantis-stla-ceo-antonio-filosa.html"
+      "date": "2026-02-07 15:43",
+      "link": "https://www.cnbc.com/2026/02/07/nearly-a-thousand-google-workers-sign-letter-urging-company-to-divest-from-ice-cbp.html"
     }
   ]
 }
