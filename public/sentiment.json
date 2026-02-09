@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-02-09T06:54:54.989335",
+  "timestamp": "2026-02-09T14:56:16.395484",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
     "bullish": 9,
-    "neutral": 13,
-    "bearish": 3,
+    "neutral": 14,
+    "bearish": 2,
     "high_priority": 8,
     "material_events": 4
   },
@@ -17,11 +17,12 @@
     "Reuters": 3,
     "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "Finviz": 5,
-    "TradingView": 1,
-    "MarketWatch": 1,
-    "Financial Times": 1
+    "CNBC": 7,
+    "Benzinga": 1,
+    "Insider Monkey": 1,
+    "The Globe and Mail": 1,
+    "Financial Times": 1,
+    "MarketWatch": 3
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +102,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -111,7 +112,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,7 +122,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-09 06:54",
+      "date": "2026-02-09 14:56",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -145,64 +146,104 @@
       "link": "https://www.bloomberg.com/news/articles/2026-02-07/get-ready-for-double-whammy-of-us-jobs-and-inflation"
     },
     {
-      "headline": "Incyte (INCY) Q4 Earnings: What To Expect",
+      "headline": "Hamptons real estate prices hit record, with 2026 summer rentals going fast ",
       "score": 6,
-      "source": "Finviz",
-      "sentiment": "neutral",
-      "impact": "Incyte Corporation (NASDAQ: INCY) is set to announce its Q4 earnings results before market open this Tuesday. Analysts anticipate revenue growth of 14.8% year-on-year to $1.35 billion and adjusted earnings of $1.95 per share. The company has a strong track record of beating revenue estimates, and it",
-      "category": "corporate_earnings",
-      "date": "2026-02-09 04:13",
-      "link": "https://finviz.com/news/303876/incyte-incy-q4-earnings-what-to-expect"
-    },
-    {
-      "headline": "Assurant (AIZ) To Report Earnings Tomorrow: Here Is What To Expect",
-      "score": 6,
-      "source": "Finviz",
-      "sentiment": "neutral",
-      "impact": "Assurant (AIZ) is set to announce its earnings results, with analysts projecting a 6.4% year-on-year revenue growth to $3.30 billion and adjusted earnings of $5.50 per share. The company has a strong track record of beating revenue estimates, and its stock has seen a 2.1% increase over the last mont",
-      "category": "corporate_earnings",
-      "date": "2026-02-09 03:57",
-      "link": "https://finviz.com/news/303886/assurant-aiz-to-report-earnings-tomorrow-here-is-what-to-expect"
-    },
-    {
-      "headline": "S&P Global (SPGI) Reports Earnings Tomorrow: What To Expect",
-      "score": 6,
-      "source": "Finviz",
-      "sentiment": "neutral",
-      "impact": "S&P Global (SPGI) is set to report its earnings tomorrow (Tuesday) before the bell, with analysts expecting revenue growth of 8.7% year-on-year to $3.90 billion and adjusted earnings of $4.33 per share. The company has a history of beating revenue estimates, consistently surpassing predictions over ",
-      "category": "us_equities",
-      "date": "2026-02-09 03:42",
-      "link": "https://finviz.com/news/303860/sp-global-spgi-reports-earnings-tomorrow-what-to-expect"
-    },
-    {
-      "headline": "Fiserv (FISV) Reports Earnings Tomorrow: What To Expect",
-      "score": 6,
-      "source": "Finviz",
-      "sentiment": "neutral",
-      "impact": "Fiserv (FISV) is set to announce its earnings results, with analysts expecting flat revenue growth year-on-year at $4.91 billion and adjusted earnings of $1.90 per share. The company missed revenue expectations last quarter, and its stock has underperformed the financial services segment recently. P",
-      "category": "corporate_earnings",
-      "date": "2026-02-09 03:34",
-      "link": "https://finviz.com/news/303863/fiserv-fisv-reports-earnings-tomorrow-what-to-expect"
-    },
-    {
-      "headline": "Xylem (XYL) Reports Earnings Tomorrow: What To Expect",
-      "score": 6,
-      "source": "TradingView",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Xylem (XYL) is set to report earnings tomorrow, with analysts expecting a 5% year-on-year revenue growth to $2.37 billion and adjusted earnings of $1.41 per share. The company has a history of beating revenue estimates and has seen positive investor sentiment in the industrial machinery sector, with",
-      "category": "asia_economy",
-      "date": "2026-02-09 03:29",
-      "link": "https://www.tradingview.com/news/stockstory:cc00d7a1c094b:0-xylem-xyl-reports-earnings-tomorrow-what-to-expect/"
+      "impact": "Brokers say the summer rental and sales season is already off to a strong start \u2013 despite below-freezing temperatures and heavy snow \"out East.\"",
+      "category": "global_markets",
+      "date": "2026-02-09 14:49",
+      "link": "https://www.cnbc.com/2026/02/09/hamptons-real-estate-prices-record-2026-summer-rentals.html"
     },
     {
-      "headline": "Earnings To Watch: Hasbro (HAS) Reports Q4 Results Tomorrow",
+      "headline": "Novo Nordisk sues Hims & Hers over cheaper copycat versions of Wegovy pill, injections",
       "score": 6,
-      "source": "Finviz",
-      "sentiment": "positive",
-      "impact": "Hasbro (NASDAQ:HAS) is set to report its Q4 results before market open tomorrow. Analysts expect revenue to grow 14.7% year over year to $1.26 billion and adjusted earnings of $0.95 per share. The company has a mixed record of beating revenue estimates and is heading into earnings with its stock up ",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Novo is asking the court to permanently ban Hims from selling compounded versions of its drugs that infringe patents, and is seeking to recover damages. ",
+      "category": "global_markets",
+      "date": "2026-02-09 14:31",
+      "link": "https://www.cnbc.com/2026/02/09/novo-nordisk-sues-hims-hers-compounded-obesity-drugs.html"
+    },
+    {
+      "headline": "How to read people and master your body language to be more influential at work",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Learn how to read and use body language to improve communication, confidence and connection at work, with the latest online course from CNBC Make It.",
+      "category": "global_markets",
+      "date": "2026-02-09 14:00",
+      "link": "https://www.cnbc.com/2026/02/09/body-language-skills-improve-your-communication-confidence-and-success-at-work.html"
+    },
+    {
+      "headline": "Biogen Analysts Boost Their Forecasts After Upbeat Q4 Earnings",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "neutral",
+      "impact": "Biogen (NASDAQ: BIIB) reported stronger-than-expected fourth-quarter earnings and revenues, surpassing analyst consensus. Following these upbeat results, several analysts, including those from Piper Sandler, HC Wainwright & Co., and Wedbush, raised their price targets for the pharmaceutical company.",
       "category": "corporate_earnings",
-      "date": "2026-02-09 03:28",
-      "link": "https://finviz.com/news/303856/earnings-to-watch-hasbro-has-reports-q4-results-tomorrow"
+      "date": "2026-02-09 13:39",
+      "link": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/02/50477635/biogen-analysts-boost-their-forecasts-after-upbeat-q4-earnings"
+    },
+    {
+      "headline": "FactSet Research (FDS): 45 Years of Growth Culminate in $2.3 Billion Revenue",
+      "score": 6,
+      "source": "Insider Monkey",
+      "sentiment": "neutral",
+      "impact": "Pelican Bay Capital Management (PBCM) highlighted FactSet Research Systems Inc. (FDS) as a new addition to its portfolio in its Q4 2025 investor letter. Despite recent stock performance showing a one-month return of -30.18% and a 52-week loss of 55.00%, PBCM recognizes FDS as a leading financial dat",
+      "category": "corporate_earnings",
+      "date": "2026-02-09 13:35",
+      "link": "https://www.insidermonkey.com/blog/factset-research-fds-45-years-of-growth-culminate-in-2-3-billion-revenue-1691697/"
+    },
+    {
+      "headline": "3 Ultra-High-Yield Dividend Stocks I'm Still Buying",
+      "score": 6,
+      "source": "The Globe and Mail",
+      "sentiment": "positive",
+      "impact": "Amidst market volatility and concerns about AI stocks, this article highlights three ultra-high-yield dividend stocks that the author is continuing to buy. These include Realty Income (NYSE: O) for its stability and consistent dividend growth, United Parcel Service (NYSE: UPS) due to its reliable di",
+      "category": "fixed_income",
+      "date": "2026-02-09 13:34",
+      "link": "https://www.theglobeandmail.com/investing/markets/stocks/DG/pressreleases/103476/3-ultra-high-yield-dividend-stocks-im-still-buying/"
+    },
+    {
+      "headline": "Jack Henry & Associates Increases the Quarterly Dividend on its Common Stock by 6 Percent to $.61 Per Share",
+      "score": 6,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "Jack Henry & Associates, Inc. (NASDAQ: JKHY) announced that its Board of Directors has increased the quarterly dividend by 6% to $0.61 per share. This cash dividend is payable on March 25, 2026, to stockholders of record as of March 5, 2026. The company has paid consecutive quarterly dividends since",
+      "category": "corporate_earnings",
+      "date": "2026-02-09 13:33",
+      "link": "https://markets.ft.com/data/announce/detail?dockey=600-202602090830PR_NEWS_USPRX____CG82918-1"
+    },
+    {
+      "headline": "Why Kyndryl\u2019s stock is sinking after earnings",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Shares could lose more than a third of their value Monday following the disclosure of an accounting investigation and a big reset of the company\u2019s financial guidance.",
+      "category": "corporate_earnings",
+      "date": "2026-02-09 13:23",
+      "link": "https://www.marketwatch.com/story/why-kyndryls-stock-is-sinking-after-earnings-2cc935a8"
+    },
+    {
+      "headline": "Bank of America flags a really big risk to bonds \u2014 the stock market",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "A slowing of rebalancing flows could eat at a big source of bond-market demand.",
+      "category": "fixed_income",
+      "date": "2026-02-09 11:48",
+      "link": "https://www.marketwatch.com/story/bank-of-america-flags-a-really-big-risk-to-bonds-the-stock-market-8caa41ad"
+    },
+    {
+      "headline": "Super Bowl 60 recap: Rewatch the ads after Seahawks clinch the championship",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Seattle Seahawks defeated the New England Patriots in Super Bowl 60. CNBC covered all the top ads and business news from football's biggest night.",
+      "category": "global_markets",
+      "date": "2026-02-09 04:59",
+      "link": "https://www.cnbc.com/2026/02/08/super-bowl-60-ads-news-live-updates.html"
     },
     {
       "headline": "U.S. stock futures rise after a wild week on Wall Street, ahead of key jobs and inflation reports",
@@ -233,46 +274,6 @@
       "category": "global_markets",
       "date": "2026-02-08 19:27",
       "link": "https://www.cnbc.com/2026/02/08/epstein-files-trump-lutnick-massie.html"
-    },
-    {
-      "headline": "I've studied over 200 kids\u2014the happiest ones have parents who do 6 things with them every evening",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Getting your child to bed after a long, stressful day can be a real struggle. Child psychologist Reem Raouda, who has studied over 200 kids, shares the evening routines that will keep your child happy and emotionally well-rounded.",
-      "category": "asia_economy",
-      "date": "2026-02-08 14:51",
-      "link": "https://www.cnbc.com/2026/02/08/child-psychologist-the-happiest-ones-have-parents-who-do-6-things-with-them-every-evening.html"
-    },
-    {
-      "headline": "Bitcoin is still about $69,000 too high",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "negative",
-      "impact": "The crypto crash is coming \u2014 and the landing won\u2019t be pretty",
-      "category": "global_markets",
-      "date": "2026-02-08 05:00",
-      "link": "https://www.ft.com/content/2b030926-2012-4446-b22d-e549e10e7086"
-    },
-    {
-      "headline": "Automakers largely sit out 2026 Super Bowl advertising amid industry uncertainty",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Automakers are largely sitting on the advertising sidelines during this year's Super Bowl amid broader uncertainty in the U.S. automotive industry.",
-      "category": "global_markets",
-      "date": "2026-02-07 16:24",
-      "link": "https://www.cnbc.com/2026/02/07/super-bowl-ads-gm-toyota-volkswagen.html"
-    },
-    {
-      "headline": "Nearly a thousand Google workers sign letter urging company to divest from ICE, CBP",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Hundreds of Google workers signed an open letter urging the company to cut its ties with ICE and CBP after rising violence.",
-      "category": "global_markets",
-      "date": "2026-02-07 15:43",
-      "link": "https://www.cnbc.com/2026/02/07/nearly-a-thousand-google-workers-sign-letter-urging-company-to-divest-from-ice-cbp.html"
     }
   ]
 }
