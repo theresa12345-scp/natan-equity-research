@@ -1,28 +1,27 @@
 {
-  "timestamp": "2026-02-09T14:56:16.395484",
+  "timestamp": "2026-02-10T06:55:09.924479",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 9,
-    "neutral": 14,
-    "bearish": 2,
-    "high_priority": 8,
-    "material_events": 4
+    "bullish": 11,
+    "neutral": 9,
+    "bearish": 5,
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
     "Bloomberg": 3,
+    "Reuters": 3,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "Benzinga": 1,
-    "Insider Monkey": 1,
-    "The Globe and Mail": 1,
-    "Financial Times": 1,
-    "MarketWatch": 3
+    "Fortune": 1,
+    "Trefis": 1,
+    "GuruFocus": 1,
+    "CNBC": 9,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -32,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,8 +61,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Warsh Call for Fed-Treasury Accord Stirs Debate in $30 Trillion Bond Market",
+      "score": 9,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Kevin Warsh floated plenty of ideas for how he would run the Federal Reserve during his campaign for the job as chair. For Wall Street, few are as cryptic \u2014 or potentially consequential \u2014 as his call for a new accord with the Treasury Department.",
+      "category": "us_monetary_policy",
+      "date": "2026-02-08 20:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-08/warsh-call-for-fed-treasury-accord-stirs-debate-bond-market"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -72,7 +81,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,7 +111,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -112,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,28 +131,138 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-09 14:56",
+      "date": "2026-02-10 06:55",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "The winner of Big Tech's earnings Super Bowl wasn't even close",
+      "headline": "Dow futures rise after index tops 50,000 for first time while landslide election in Japan sends U.S. bond yields higher",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "One company was luckier than good. But it needed a superior hardware product to win.",
-      "category": "corporate_earnings",
-      "date": "2026-02-08 18:10",
-      "link": "https://www.cnbc.com/2026/02/08/cramer-the-winner-of-big-techs-earnings-super-bowl-wasnt-even-close.html"
+      "source": "Fortune",
+      "sentiment": "positive",
+      "impact": "The Dow soared by 1,200 points on Friday to top 50,000 for the first time as chipmakers and airlines fueled a ferocious stock market rebound",
+      "category": "us_equities",
+      "date": "2026-02-09 00:46",
+      "link": "https://fortune.com/2026/02/08/stock-market-today-dow-futures-50000-japan-election-us-bond-yields/"
     },
     {
-      "headline": "Get Ready for Double Whammy of US Jobs and Inflation",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Investors and policymakers are gearing up for a busy week of US economic reports that includes arguably the two most consequential data snapshots \u2014 employment and inflation.",
+      "headline": "Broadridge Financial Solutions Stock Delivers Strong Cash Yield - Upside Ahead?",
+      "score": 6,
+      "source": "Trefis",
+      "sentiment": "positive",
+      "impact": "The article, titled \"Broadridge Financial Solutions Stock Delivers Strong Cash Yield - Upside Ahead?\", seems to be a financial analysis of Broadridge Financial Solutions. While the full content is not provided, the title suggests it will discuss the company's strong cash yield and potential for futu",
+      "category": "fixed_income",
+      "date": "2026-02-10 05:37",
+      "link": "https://www.trefis.com/data/companies/BR/no-login-required/CaO3td5X/Broadridge-Financial-Solutions-Stock-Delivers-Strong-Cash-Yield-Upside-Ahead-"
+    },
+    {
+      "headline": "Li Auto (LI) Downgraded by J.P. Morgan Amid Profitability Concerns",
+      "score": 6,
+      "source": "GuruFocus",
+      "sentiment": "negative",
+      "impact": "J.P. Morgan has downgraded Li Auto (LI) from Neutral to Underperform, forecasting a 10% sales decline and evaporating profits by 2026 due to increased competition and rising costs in the EV market. The price target was reduced by 22% to $14, following a 31% year-over-year drop in the automaker's sto",
+      "category": "us_equities",
+      "date": "2026-02-10 04:29",
+      "link": "https://www.gurufocus.com/news/8599250/li-auto-li-downgraded-by-jp-morgan-amid-profitability-concerns"
+    },
+    {
+      "headline": "Novo Nordisk sues Hims & Hers over copycat versions of Wegovy drugs; Hims stock falls 18%",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Novo is asking the court to permanently ban Hims from selling compounded versions of its drugs that infringe patents, and is seeking to recover damages. ",
       "category": "global_markets",
-      "date": "2026-02-07 21:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-07/get-ready-for-double-whammy-of-us-jobs-and-inflation"
+      "date": "2026-02-10 00:18",
+      "link": "https://www.cnbc.com/2026/02/09/novo-nordisk-sues-hims-hers-compounded-obesity-drugs.html"
+    },
+    {
+      "headline": "FDA says Novo Nordisk's TV ad for obesity pill includes 'false or misleading' claims",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The FDA requested that Novo take immediate action to address the violations, which could include ceasing all ads containing misleading claims about the pill. ",
+      "category": "global_markets",
+      "date": "2026-02-10 00:16",
+      "link": "https://www.cnbc.com/2026/02/09/fda-novo-nordisk-wegovy-tv-ad.html"
+    },
+    {
+      "headline": "Alphabet\u2019s $20 billion bond deal may be followed by something highly unusual",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "As tech companies look to finance their hefty spending plans, they\u2019ve been offering bonds with longer maturities.",
+      "category": "fixed_income",
+      "date": "2026-02-10 00:08",
+      "link": "https://www.marketwatch.com/story/alphabets-15-billion-bond-deal-may-have-a-highly-unusual-component-2aa15bee?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Target steps up investment in store staffing, cuts about 500 other roles to help fix customer experience",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The big-box retailer is trying to win back shoppers who have complained about sloppier stores, out-of-stock items and longer checkout lines.",
+      "category": "global_markets",
+      "date": "2026-02-09 22:10",
+      "link": "https://www.cnbc.com/2026/02/09/target-store-investment-job-cuts-customer-experience.html"
+    },
+    {
+      "headline": "Is the U.S. economy creating any jobs? Is inflation really slowing? Investors are about to find out.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Investors will get twin reports this week on employment and consumer prices. They\u2019ll help set the stage for when the Fed cuts interest rates this year \u2014 if it reduces them at all.",
+      "category": "global_markets",
+      "date": "2026-02-09 21:24",
+      "link": "https://www.marketwatch.com/story/is-the-u-s-economy-creating-any-jobs-is-inflation-really-slowing-investors-are-about-to-find-out-7b04a5be"
+    },
+    {
+      "headline": "Tulsi Gabbard to testify at Senate Intelligence Committee amid election probe concerns",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Director of National Intelligence Tulsi Gabbard has said she was at a Georgia election center during an FBI raid at the direction of President Trump.",
+      "category": "global_markets",
+      "date": "2026-02-09 21:23",
+      "link": "https://www.cnbc.com/2026/02/09/tulsi-gabbard-testify-senate-intelligence-fulton-county-election.html"
+    },
+    {
+      "headline": "Morgan Stanley says buy 2 beaten-down software stocks. We agree on one of them",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "There's still opportunity in software despite the fears about artificial intelligence, according to  Morgan Stanley analysts.",
+      "category": "us_equities",
+      "date": "2026-02-09 20:43",
+      "link": "https://www.cnbc.com/2026/02/09/morgan-stanley-says-buy-2-beaten-down-software-stocks-we-agree-on-one-of-them.html"
+    },
+    {
+      "headline": "Super Bowl 60 recap: Rewatch all the top commercials from advertising's biggest night",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Seattle Seahawks defeated the New England Patriots in Super Bowl 60. CNBC covered all the top ads and business news from football's biggest night.",
+      "category": "global_markets",
+      "date": "2026-02-09 19:59",
+      "link": "https://www.cnbc.com/2026/02/08/super-bowl-60-ads-news-live-updates.html"
+    },
+    {
+      "headline": "Our basket of stocks that benefit from higher spending on AI is up again",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2026-02-09 19:56",
+      "link": "https://www.cnbc.com/2026/02/09/our-basket-of-stocks-that-benefit-from-higher-spending-on-ai-is-up-again.html"
+    },
+    {
+      "headline": "What's driving Procter & Gamble's monster start to 2026 \u2014 and how it can continue",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "P&G's resurgence is driven not just by the market rotation but also by improving fundamentals.",
+      "category": "global_markets",
+      "date": "2026-02-09 19:43",
+      "link": "https://www.cnbc.com/2026/02/09/whats-driving-pgs-monster-start-to-2026-and-how-it-can-continue.html"
     },
     {
       "headline": "Hamptons real estate prices hit record, with 2026 summer rentals going fast ",
@@ -152,128 +271,8 @@
       "sentiment": "positive",
       "impact": "Brokers say the summer rental and sales season is already off to a strong start \u2013 despite below-freezing temperatures and heavy snow \"out East.\"",
       "category": "global_markets",
-      "date": "2026-02-09 14:49",
+      "date": "2026-02-09 17:42",
       "link": "https://www.cnbc.com/2026/02/09/hamptons-real-estate-prices-record-2026-summer-rentals.html"
-    },
-    {
-      "headline": "Novo Nordisk sues Hims & Hers over cheaper copycat versions of Wegovy pill, injections",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Novo is asking the court to permanently ban Hims from selling compounded versions of its drugs that infringe patents, and is seeking to recover damages. ",
-      "category": "global_markets",
-      "date": "2026-02-09 14:31",
-      "link": "https://www.cnbc.com/2026/02/09/novo-nordisk-sues-hims-hers-compounded-obesity-drugs.html"
-    },
-    {
-      "headline": "How to read people and master your body language to be more influential at work",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Learn how to read and use body language to improve communication, confidence and connection at work, with the latest online course from CNBC Make It.",
-      "category": "global_markets",
-      "date": "2026-02-09 14:00",
-      "link": "https://www.cnbc.com/2026/02/09/body-language-skills-improve-your-communication-confidence-and-success-at-work.html"
-    },
-    {
-      "headline": "Biogen Analysts Boost Their Forecasts After Upbeat Q4 Earnings",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "neutral",
-      "impact": "Biogen (NASDAQ: BIIB) reported stronger-than-expected fourth-quarter earnings and revenues, surpassing analyst consensus. Following these upbeat results, several analysts, including those from Piper Sandler, HC Wainwright & Co., and Wedbush, raised their price targets for the pharmaceutical company.",
-      "category": "corporate_earnings",
-      "date": "2026-02-09 13:39",
-      "link": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/02/50477635/biogen-analysts-boost-their-forecasts-after-upbeat-q4-earnings"
-    },
-    {
-      "headline": "FactSet Research (FDS): 45 Years of Growth Culminate in $2.3 Billion Revenue",
-      "score": 6,
-      "source": "Insider Monkey",
-      "sentiment": "neutral",
-      "impact": "Pelican Bay Capital Management (PBCM) highlighted FactSet Research Systems Inc. (FDS) as a new addition to its portfolio in its Q4 2025 investor letter. Despite recent stock performance showing a one-month return of -30.18% and a 52-week loss of 55.00%, PBCM recognizes FDS as a leading financial dat",
-      "category": "corporate_earnings",
-      "date": "2026-02-09 13:35",
-      "link": "https://www.insidermonkey.com/blog/factset-research-fds-45-years-of-growth-culminate-in-2-3-billion-revenue-1691697/"
-    },
-    {
-      "headline": "3 Ultra-High-Yield Dividend Stocks I'm Still Buying",
-      "score": 6,
-      "source": "The Globe and Mail",
-      "sentiment": "positive",
-      "impact": "Amidst market volatility and concerns about AI stocks, this article highlights three ultra-high-yield dividend stocks that the author is continuing to buy. These include Realty Income (NYSE: O) for its stability and consistent dividend growth, United Parcel Service (NYSE: UPS) due to its reliable di",
-      "category": "fixed_income",
-      "date": "2026-02-09 13:34",
-      "link": "https://www.theglobeandmail.com/investing/markets/stocks/DG/pressreleases/103476/3-ultra-high-yield-dividend-stocks-im-still-buying/"
-    },
-    {
-      "headline": "Jack Henry & Associates Increases the Quarterly Dividend on its Common Stock by 6 Percent to $.61 Per Share",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "Jack Henry & Associates, Inc. (NASDAQ: JKHY) announced that its Board of Directors has increased the quarterly dividend by 6% to $0.61 per share. This cash dividend is payable on March 25, 2026, to stockholders of record as of March 5, 2026. The company has paid consecutive quarterly dividends since",
-      "category": "corporate_earnings",
-      "date": "2026-02-09 13:33",
-      "link": "https://markets.ft.com/data/announce/detail?dockey=600-202602090830PR_NEWS_USPRX____CG82918-1"
-    },
-    {
-      "headline": "Why Kyndryl\u2019s stock is sinking after earnings",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Shares could lose more than a third of their value Monday following the disclosure of an accounting investigation and a big reset of the company\u2019s financial guidance.",
-      "category": "corporate_earnings",
-      "date": "2026-02-09 13:23",
-      "link": "https://www.marketwatch.com/story/why-kyndryls-stock-is-sinking-after-earnings-2cc935a8"
-    },
-    {
-      "headline": "Bank of America flags a really big risk to bonds \u2014 the stock market",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "A slowing of rebalancing flows could eat at a big source of bond-market demand.",
-      "category": "fixed_income",
-      "date": "2026-02-09 11:48",
-      "link": "https://www.marketwatch.com/story/bank-of-america-flags-a-really-big-risk-to-bonds-the-stock-market-8caa41ad"
-    },
-    {
-      "headline": "Super Bowl 60 recap: Rewatch the ads after Seahawks clinch the championship",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Seattle Seahawks defeated the New England Patriots in Super Bowl 60. CNBC covered all the top ads and business news from football's biggest night.",
-      "category": "global_markets",
-      "date": "2026-02-09 04:59",
-      "link": "https://www.cnbc.com/2026/02/08/super-bowl-60-ads-news-live-updates.html"
-    },
-    {
-      "headline": "U.S. stock futures rise after a wild week on Wall Street, ahead of key jobs and inflation reports",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "U.S. stock index futures rose Sunday, ahead of key employment and inflation data coming later this week.",
-      "category": "us_equities",
-      "date": "2026-02-08 23:17",
-      "link": "https://www.marketwatch.com/story/u-s-stock-futures-rise-after-a-wild-week-on-wall-street-ahead-of-key-jobs-and-inflation-reports-60e29ed8"
-    },
-    {
-      "headline": "Here are the 5 big things we're watching in the stock market this week",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The week ahead brings earnings from two more portfolio names \u2014 plus, three important economic reports.",
-      "category": "global_markets",
-      "date": "2026-02-08 20:29",
-      "link": "https://www.cnbc.com/2026/02/08/here-are-the-5-big-things-were-watching-in-the-stock-market-this-week.html"
-    },
-    {
-      "headline": "Epstein files: Republican lawmaker Massie calls for Trump Commerce chief Lutnick to resign",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Commerce Secretary Howard Lutnick previously said on a podcast that he had cut ties with the notorious sex offender since an initial 2005 encounter.",
-      "category": "global_markets",
-      "date": "2026-02-08 19:27",
-      "link": "https://www.cnbc.com/2026/02/08/epstein-files-trump-lutnick-massie.html"
     }
   ]
 }
