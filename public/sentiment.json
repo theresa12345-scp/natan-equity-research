@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-02-11T14:57:13.153989",
+  "timestamp": "2026-02-12T06:51:05.375044",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 11,
-    "neutral": 11,
-    "bearish": 3,
-    "high_priority": 8,
+    "avg_relevance": 7.2,
+    "bullish": 13,
+    "neutral": 10,
+    "bearish": 2,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,12 +15,12 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
-    "Caixin/S&P Global": 1,
+    "Bloomberg": 2,
     "CNBC": 11,
-    "Seeking Alpha": 1,
-    "Finviz": 1,
-    "TipRanks": 1
+    "Caixin/S&P Global": 1,
+    "TIKR.com": 1,
+    "MarketBeat": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "10-year Treasury yield moves higher on stronger-than-expected January jobs report",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "U.S. Treasury yields moved higher Wednesday in response to January job creation that was more than double what Wall Street was expecting.",
+      "category": "fixed_income",
+      "date": "2026-02-11 19:36",
+      "link": "https://www.cnbc.com/2026/02/11/us-treasury-yields-investors-await-delayed-january-jobs-report.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,18 +130,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-11 14:57",
+      "date": "2026-02-12 06:51",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Scripps launches cost cutting, AI integration in latest effort to generate earnings growth",
+      "headline": "Incyte Shares Drop 8% Post-Earnings: Analysts Target $104 Amid 2026 Guidance Concerns",
+      "score": 7,
+      "source": "TIKR.com",
+      "sentiment": "negative",
+      "impact": "Incyte (INCY) stock dropped 8% after reporting mixed Q4 2025 results, with revenue beating estimates but EPS missing expectations and 2026 Opzelura sales guidance falling short. Analysts have set a price target of $104 amid concerns about future margins and growth, despite strong overall revenue gro",
+      "category": "corporate_earnings",
+      "date": "2026-02-12 04:01",
+      "link": "https://www.tikr.com/blog/incyte-shares-drop-8-post-earnings-analysts-target-104-amid-2026-guidance-concerns"
+    },
+    {
+      "headline": "McDonald\u2019s earnings beat estimates as chain\u2019s value push pays off",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "CEO Adam Symson said in an interview with CNBC the changes are intended to alleviate journalists from administrative tasks, but not replace them with AI.  ",
+      "sentiment": "positive",
+      "impact": "Buzzy promotions have helped McDonald's win over high-income consumers.",
       "category": "corporate_earnings",
-      "date": "2026-02-11 14:51",
-      "link": "https://www.cnbc.com/2026/02/11/scripps-cost-cutting-ai-integration-earnings.html"
+      "date": "2026-02-11 23:45",
+      "link": "https://www.cnbc.com/2026/02/11/mcdonalds-mcd-q4-2025-earnings.html"
     },
     {
       "headline": "Ford reports worst quarterly earnings miss in four years, guides for better 2026",
@@ -140,98 +160,78 @@
       "sentiment": "negative",
       "impact": "Ford Motor reported its first quarterly miss since 2024 and its largest quarterly earnings miss in four years.",
       "category": "corporate_earnings",
-      "date": "2026-02-10 22:46",
+      "date": "2026-02-11 15:44",
       "link": "https://www.cnbc.com/2026/02/10/ford-motor-f-earnings-q4-2025.html"
     },
     {
-      "headline": "Alphabet Begins Selling Multi Tranche Debut Swiss Franc Bond",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Alphabet Inc. is selling at least $9.4 billion in sterling and Swiss franc-denominated bonds, including an ultra-rare issue of a 100-year note, following a bumper deal in the US.",
-      "category": "fixed_income",
-      "date": "2026-02-10 12:22",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-10/alphabet-begins-selling-multi-tranche-debut-swiss-franc-bond-mlgb76p8"
-    },
-    {
-      "headline": "Coca-Cola is about to report earnings. Here's what to expect",
+      "headline": "Scripps launches cost cutting, AI integration in latest effort to generate earnings growth",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Like rival PepsiCo, Coke has seen demand for its drinks fall as budget-conscious shoppers try to save more on their grocery bills.",
+      "sentiment": "neutral",
+      "impact": "CEO Adam Symson said in an interview with CNBC the changes are intended to alleviate journalists from administrative tasks, but not replace them with AI.  ",
       "category": "corporate_earnings",
-      "date": "2026-02-10 11:35",
-      "link": "https://www.cnbc.com/2026/02/10/coca-cola-ko-q4-2025-earnings.html"
+      "date": "2026-02-11 15:11",
+      "link": "https://www.cnbc.com/2026/02/11/scripps-cost-cutting-ai-integration-earnings.html"
     },
     {
-      "headline": "CVS tops quarterly estimates, reaffirms profit outlook as turnaround plan takes effect",
+      "headline": "China consumer inflation rises less than expected in January as producer price deflation persists",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "The results signal steady progress in the health-care giant's aggressive turnaround plan under CEO David Joyner, who stepped into the role in late 2024.",
-      "category": "corporate_earnings",
-      "date": "2026-02-10 11:30",
-      "link": "https://www.cnbc.com/2026/02/10/cvs-health-earnings-q4-2025.html"
+      "impact": "China's consumer inflation rose less than expected in January while the deflation in producer prices persisted.",
+      "category": "asia_economy",
+      "date": "2026-02-11 01:40",
+      "link": "https://www.cnbc.com/2026/02/11/china-inflation-january-cpi-ppi-deflation.html"
     },
     {
-      "headline": "Kraft Heinz pauses work to split the company as new CEO says 'challenges are fixable'",
+      "headline": "Getty Realty (NYSE:GTY) Posts Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Getty Realty (NYSE:GTY) announced its quarterly earnings, reporting an EPS of $0.63, surpassing the consensus estimate of $0.62. The real estate investment trust also exceeded revenue expectations with $60.55 million, a 14.2% increase year-over-year. Despite beating estimates, the stock traded down ",
+      "category": "us_equities",
+      "date": "2026-02-12 03:58",
+      "link": "https://www.marketbeat.com/instant-alerts/getty-realty-nysegty-announces-quarterly-earnings-results-misses-estimates-by-017-eps-2026-02-11/"
+    },
+    {
+      "headline": "T-Mobile\u2019s stock turns higher after earnings. Here\u2019s what\u2019s impressing Wall Street.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The company gave an upbeat forecast for service revenue at its investor day on Wednesday, overshadowing some weak points in its fourth-quarter results.",
+      "category": "us_equities",
+      "date": "2026-02-12 00:12",
+      "link": "https://www.marketwatch.com/story/t-mobile-sees-huge-boom-in-phone-subscribers-but-heres-why-the-stock-is-falling-ae9c445d?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "FAA abruptly halted El Paso flights over Defense Department's plans for anti-drone technology",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Kraft Heinz CEO Steve Cahillane said many of the company's issues are \"fixable.\"",
+      "impact": "A Trump administration official said the Department of Defense disabled Mexican cartel drones that had breached U.S. airspace.",
       "category": "global_markets",
-      "date": "2026-02-11 14:55",
-      "link": "https://www.cnbc.com/2026/02/11/kraft-heinz-pauses-split-new-ceo-challenges.html"
-    },
-    {
-      "headline": "FAA abruptly lifts order halting El Paso flights; Trump official says Defense Dept. disabled Mexican cartel drones",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A Trump administration official said the Department of War disabled Mexican cartel drones that had breached U.S. airspace.",
-      "category": "global_markets",
-      "date": "2026-02-11 14:46",
+      "date": "2026-02-11 22:51",
       "link": "https://www.cnbc.com/2026/02/11/faa-el-paso-airport.html"
     },
     {
-      "headline": "Delinquencies in commercial mortgage-backed securities are on the rise. Here's what's happening",
+      "headline": "Cisco\u2019s stock falls as investors pan a seemingly upbeat earnings report",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The rate increase was driven by two exceptionally large New York City properties: Worldwide Plaza and One New York Plaza.\u00a0",
-      "category": "global_markets",
-      "date": "2026-02-11 14:44",
-      "link": "https://www.cnbc.com/2026/02/11/delinquencies-commercial-mortgage-backed-securities-rise.html"
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The networking company sported AI momentum and delivered a rosy revenue outlook, but that wasn\u2019t enough for Wall Street.",
+      "category": "corporate_earnings",
+      "date": "2026-02-11 22:24",
+      "link": "https://www.marketwatch.com/story/ciscos-stock-falls-as-investors-pan-a-seemingly-upbeat-earnings-report-17f46ba4"
     },
     {
-      "headline": "Trump's Venezuela oil sales deal raises questions about which government U.S. will recognize",
+      "headline": "Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start  ",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The U.S. is cooperating with a regime in Venezuela it does not recognize, and it's unclear what role the opposition will play in the future.",
-      "category": "commodities",
-      "date": "2026-02-11 14:26",
-      "link": "https://www.cnbc.com/2026/02/11/trump-venezuela-oil-revenue-qatar.html"
-    },
-    {
-      "headline": "After GOP rebellion, House set for Wednesday vote on Trump's Canada tariffs",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Republican House leaders tried, and failed, to pass a measure on Tuesday that would have blocked House disapproval votes on Trump tariffs through July.",
+      "impact": "The Danish drugmaker kicked off 2026 with its explosive obesity pill launch, but recent challenges have centered around protecting its market share. ",
       "category": "global_markets",
-      "date": "2026-02-11 14:23",
-      "link": "https://www.cnbc.com/2026/02/11/gop-trump-tariffs-canada.html"
-    },
-    {
-      "headline": "The Investing Club's top 10 things to watch in the stock market Wednesday",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The January jobs report was much stronger than expected, and data center equipment supplier Vertiv reported a blowout quarter.",
-      "category": "global_markets",
-      "date": "2026-02-11 14:15",
-      "link": "https://www.cnbc.com/2026/02/11/the-investing-clubs-top-10-things-to-watch-in-the-stock-market-wednesday.html"
+      "date": "2026-02-11 22:01",
+      "link": "https://www.cnbc.com/2026/02/11/novo-nordisk-faces-defining-year-in-the-obesity-drug-market.html"
     },
     {
       "headline": "Value is the key to McDonald's growth plans, but it's creating tensions with some franchisees",
@@ -240,38 +240,38 @@
       "sentiment": "positive",
       "impact": "McDonald's has doubled down on value, which will likely help boost sales, but some franchisees are standing ground in their ability to continue to independently set prices.",
       "category": "global_markets",
-      "date": "2026-02-11 14:10",
+      "date": "2026-02-11 21:24",
       "link": "https://www.cnbc.com/2026/02/11/mcdonalds-value-franchisees.html"
     },
     {
-      "headline": "T-Mobile stock slumps after tepid forecast, lower postpaid phone net adds in Q4 (TMUS:NASDAQ)",
+      "headline": "Why the largest U.S. auto dealer isn't interested in Chinese cars \u2014 for now",
       "score": 6,
-      "source": "Seeking Alpha",
-      "sentiment": "negative",
-      "impact": "T-Mobile (TMUS) shares are down 5.5% after the company provided a lukewarm 2026 forecast and reported mixed fourth-quarter results, including a bottom-line miss and fewer-than-expected postpaid phone net additions. The 2026 free cash flow and EBITDA guidance are slightly below analyst expectations. ",
-      "category": "us_equities",
-      "date": "2026-02-11 13:54",
-      "link": "https://seekingalpha.com/news/4550185-t-mobile-stock-slumps-after-tepid-forecast-lower-postpaid-phone-net-adds-in-q4"
-    },
-    {
-      "headline": "5 Must-Read Analyst Questions From Align Technology's Q4 Earnings Call",
-      "score": 6,
-      "source": "Finviz",
-      "sentiment": "positive",
-      "impact": "Align Technology's Q4 earnings call highlighted strong growth in clear aligner volumes, particularly in international markets and within dental service organizations (DSOs), leading to a positive market response. Analysts focused on understanding the drivers of this volume growth, future guidance as",
-      "category": "corporate_earnings",
-      "date": "2026-02-11 13:50",
-      "link": "https://finviz.com/news/307128/5-must-read-analyst-questions-from-align-technologys-q4-earnings-call"
-    },
-    {
-      "headline": "CyberArk Completes Merger Into Palo Alto Networks and Prepares Nasdaq Delisting",
-      "score": 6,
-      "source": "TipRanks",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "CyberArk Software has completed its merger into Palo Alto Networks, becoming a wholly owned subsidiary on February 11, 2026. This transaction involved converting CyberArk shares into Palo Alto Networks stock and cash, adjusting equity awards and convertible notes, and initiating delisting procedures",
-      "category": "us_equities",
-      "date": "2026-02-11 13:50",
-      "link": "https://www.tipranks.com/news/company-announcements/cyberark-completes-merger-into-palo-alto-networks-and-prepares-nasdaq-delisting"
+      "impact": "But reasons such as politics, logistics or potential consumer backlash aren't necessarily the main reasons, according to Lithia Motors CEO Bryan DeBoer.",
+      "category": "global_markets",
+      "date": "2026-02-11 21:07",
+      "link": "https://www.cnbc.com/2026/02/11/autos-chinese-car.html"
+    },
+    {
+      "headline": "The jobs picture still looks muddy, even with surprisingly strong January growth",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "January job gains were better than anything the U.S. economy saw in 2025 but not still enough to sound an all-clear.",
+      "category": "global_markets",
+      "date": "2026-02-11 20:22",
+      "link": "https://www.cnbc.com/2026/02/11/the-jobs-picture-still-looks-muddy-even-with-surprisingly-strong-january-growth.html"
+    },
+    {
+      "headline": "We're raising our price targets on 3 picks and shovel data center buildout stocks",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2026-02-11 19:40",
+      "link": "https://www.cnbc.com/2026/02/11/were-raising-our-price-targets-on-3-picks-and-shovel-data-center-buildout-stocks.html"
     }
   ]
 }
