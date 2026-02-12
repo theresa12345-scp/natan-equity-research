@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-02-12T06:51:05.375044",
+  "timestamp": "2026-02-12T14:51:30.602042",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 13,
-    "neutral": 10,
+    "bullish": 15,
+    "neutral": 8,
     "bearish": 2,
-    "high_priority": 9,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -16,11 +16,11 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
-    "CNBC": 11,
     "Caixin/S&P Global": 1,
-    "TIKR.com": 1,
-    "MarketBeat": 1,
-    "MarketWatch": 2
+    "CNBC": 11,
+    "MarketWatch": 2,
+    "Investor's Business Daily": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "10-year Treasury yield moves higher on stronger-than-expected January jobs report",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "U.S. Treasury yields moved higher Wednesday in response to January job creation that was more than double what Wall Street was expecting.",
-      "category": "fixed_income",
-      "date": "2026-02-11 19:36",
-      "link": "https://www.cnbc.com/2026/02/11/us-treasury-yields-investors-await-delayed-january-jobs-report.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -120,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,18 +120,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-12 06:51",
+      "date": "2026-02-12 14:51",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Incyte Shares Drop 8% Post-Earnings: Analysts Target $104 Amid 2026 Guidance Concerns",
+      "headline": "Restaurant Brands earnings top estimates as international Burger King restaurants fuel sales growth",
       "score": 7,
-      "source": "TIKR.com",
-      "sentiment": "negative",
-      "impact": "Incyte (INCY) stock dropped 8% after reporting mixed Q4 2025 results, with revenue beating estimates but EPS missing expectations and 2026 Opzelura sales guidance falling short. Analysts have set a price target of $104 amid concerns about future margins and growth, despite strong overall revenue gro",
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Outside of the U.S. and Canada, Restaurant Brands' same-store sales climbed 6.1%.",
       "category": "corporate_earnings",
-      "date": "2026-02-12 04:01",
-      "link": "https://www.tikr.com/blog/incyte-shares-drop-8-post-earnings-analysts-target-104-amid-2026-guidance-concerns"
+      "date": "2026-02-12 14:06",
+      "link": "https://www.cnbc.com/2026/02/12/restaurant-brands-international-qsr-q4-2025-earnings.html"
+    },
+    {
+      "headline": "Scared to invest in emerging-market bonds? If you hold U.S. Treasurys, then you already do.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The biggest difference these days between U.S. Treasurys and official emerging-market bonds is that Treasurys pay you a lot less interest.",
+      "category": "fixed_income",
+      "date": "2026-02-12 10:00",
+      "link": "https://www.marketwatch.com/story/scared-to-invest-in-emerging-market-bonds-if-you-hold-u-s-treasurys-then-you-already-do-aa0803a6"
     },
     {
       "headline": "McDonald\u2019s earnings beat estimates as chain\u2019s value push pays off",
@@ -184,94 +184,94 @@
       "link": "https://www.cnbc.com/2026/02/11/china-inflation-january-cpi-ppi-deflation.html"
     },
     {
-      "headline": "Getty Realty (NYSE:GTY) Posts Quarterly Earnings Results, Beats Expectations By $0.01 EPS",
+      "headline": "Cloudflare Earnings Beat, 2026 Revenue Outlook Above Expectations",
+      "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "positive",
+      "impact": "Cloudflare stock popped amid Q4 earnings and revenue that topped Wall Street targets while the company's 2026 revenue outlook came in above views.",
+      "category": "corporate_earnings",
+      "date": "2026-02-10 22:00",
+      "link": "https://www.investors.com/news/technology/cloudflare-stock-coudflare-earnings-q42025/"
+    },
+    {
+      "headline": "Trump administration will end Minnesota immigration operation: Homan",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Border czar Tom Homan said President Donald Trump has agreed with his proposal to conclude a federal immigration enforcement surge in Minnesota.",
+      "category": "global_markets",
+      "date": "2026-02-12 14:28",
+      "link": "https://www.cnbc.com/2026/02/12/homan-trump-ice-immigration-minnesota-minneapolis.html"
+    },
+    {
+      "headline": "American Airlines flight attendants picket as CEO tries to calm frustrated employees",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The union that represents American's 28,000 cabin crew members issued a vote of no confidence of CEO Robert Isom.",
+      "category": "global_markets",
+      "date": "2026-02-12 14:00",
+      "link": "https://www.cnbc.com/2026/02/12/american-airlines-ceo-pressure-flight-attendants-picket.html"
+    },
+    {
+      "headline": "The Investing Club's top 10 things to watch in the stock market Thursday",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Wall Street is on track for a higher open after the three major averages ended yesterday in the red.",
+      "category": "global_markets",
+      "date": "2026-02-12 13:56",
+      "link": "https://www.cnbc.com/2026/02/12/the-investing-clubs-top-10-things-to-watch-in-the-stock-market-thursday.html"
+    },
+    {
+      "headline": "It\u2019s still a \u2018low fire\u2019 jobs market. Jobless claims stay low and unemployment falls early in the new year.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Businesses aren\u2019t hiring much, but they\u2019re not resorting to big layoffs, either",
+      "category": "global_markets",
+      "date": "2026-02-12 13:55",
+      "link": "https://www.marketwatch.com/story/its-still-a-low-fire-jobs-market-jobless-claims-stay-low-and-unemployment-falls-early-in-the-new-year-d8244970"
+    },
+    {
+      "headline": "ING Groep NV Sells 156,544 Shares of Johnson Controls International plc $JCI",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "Getty Realty (NYSE:GTY) announced its quarterly earnings, reporting an EPS of $0.63, surpassing the consensus estimate of $0.62. The real estate investment trust also exceeded revenue expectations with $60.55 million, a 14.2% increase year-over-year. Despite beating estimates, the stock traded down ",
-      "category": "us_equities",
-      "date": "2026-02-12 03:58",
-      "link": "https://www.marketbeat.com/instant-alerts/getty-realty-nysegty-announces-quarterly-earnings-results-misses-estimates-by-017-eps-2026-02-11/"
+      "impact": "ING Groep NV reduced its stake in Johnson Controls International plc by 65.5% in the third quarter, selling 156,544 shares and retaining 82,543 shares valued at $9.076 million. Other institutional investors also adjusted their positions, and analysts currently rate JCI with a \"Moderate Buy\" and a co",
+      "category": "indonesia_equities",
+      "date": "2026-02-12 13:47",
+      "link": "https://www.marketbeat.com/instant-alerts/filing-ing-groep-nv-sells-156544-shares-of-johnson-controls-international-plc-jci-2026-02-12/"
     },
     {
-      "headline": "T-Mobile\u2019s stock turns higher after earnings. Here\u2019s what\u2019s impressing Wall Street.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The company gave an upbeat forecast for service revenue at its investor day on Wednesday, overshadowing some weak points in its fourth-quarter results.",
-      "category": "us_equities",
-      "date": "2026-02-12 00:12",
-      "link": "https://www.marketwatch.com/story/t-mobile-sees-huge-boom-in-phone-subscribers-but-heres-why-the-stock-is-falling-ae9c445d?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "FAA abruptly halted El Paso flights over Defense Department's plans for anti-drone technology",
+      "headline": "Anthropic gives $20 million to group pushing for AI regulations ahead of 2026 elections",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "A Trump administration official said the Department of Defense disabled Mexican cartel drones that had breached U.S. airspace.",
+      "impact": "Public First Action is taking on a PAC backed by the AI industry, supporting candidates who favor more regulation.",
       "category": "global_markets",
-      "date": "2026-02-11 22:51",
-      "link": "https://www.cnbc.com/2026/02/11/faa-el-paso-airport.html"
+      "date": "2026-02-12 12:42",
+      "link": "https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html"
     },
     {
-      "headline": "Cisco\u2019s stock falls as investors pan a seemingly upbeat earnings report",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The networking company sported AI momentum and delivered a rosy revenue outlook, but that wasn\u2019t enough for Wall Street.",
-      "category": "corporate_earnings",
-      "date": "2026-02-11 22:24",
-      "link": "https://www.marketwatch.com/story/ciscos-stock-falls-as-investors-pan-a-seemingly-upbeat-earnings-report-17f46ba4"
-    },
-    {
-      "headline": "Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start  ",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Danish drugmaker kicked off 2026 with its explosive obesity pill launch, but recent challenges have centered around protecting its market share. ",
-      "category": "global_markets",
-      "date": "2026-02-11 22:01",
-      "link": "https://www.cnbc.com/2026/02/11/novo-nordisk-faces-defining-year-in-the-obesity-drug-market.html"
-    },
-    {
-      "headline": "Value is the key to McDonald's growth plans, but it's creating tensions with some franchisees",
+      "headline": "Why we're seeing an Olympic-size rally in industrial stocks and what's next",
       "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "McDonald's has doubled down on value, which will likely help boost sales, but some franchisees are standing ground in their ability to continue to independently set prices.",
+      "impact": "Boy, does this market love the cyclicals \u2014 stocks that tend to rise and fall with the economy.",
       "category": "global_markets",
-      "date": "2026-02-11 21:24",
-      "link": "https://www.cnbc.com/2026/02/11/mcdonalds-value-franchisees.html"
+      "date": "2026-02-12 11:22",
+      "link": "https://www.cnbc.com/2026/02/12/cramer-why-were-seeing-an-olympic-size-rally-in-industrial-stocks-and-whats-next.html"
     },
     {
-      "headline": "Why the largest U.S. auto dealer isn't interested in Chinese cars \u2014 for now",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "But reasons such as politics, logistics or potential consumer backlash aren't necessarily the main reasons, according to Lithia Motors CEO Bryan DeBoer.",
-      "category": "global_markets",
-      "date": "2026-02-11 21:07",
-      "link": "https://www.cnbc.com/2026/02/11/autos-chinese-car.html"
-    },
-    {
-      "headline": "The jobs picture still looks muddy, even with surprisingly strong January growth",
+      "headline": "BTS comeback tour turbocharges concert tourism, with hotel searches jumping as much as 6,700%",
       "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "January job gains were better than anything the U.S. economy saw in 2025 but not still enough to sound an all-clear.",
+      "impact": "The announcement of South Korean boyband BTS' comeback global tour is expected to boost tourism in host cities.",
       "category": "global_markets",
-      "date": "2026-02-11 20:22",
-      "link": "https://www.cnbc.com/2026/02/11/the-jobs-picture-still-looks-muddy-even-with-surprisingly-strong-january-growth.html"
-    },
-    {
-      "headline": "We're raising our price targets on 3 picks and shovel data center buildout stocks",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2026-02-11 19:40",
-      "link": "https://www.cnbc.com/2026/02/11/were-raising-our-price-targets-on-3-picks-and-shovel-data-center-buildout-stocks.html"
+      "date": "2026-02-12 07:29",
+      "link": "https://www.cnbc.com/2026/02/12/bts-global-tour-2026-concert-tourism-travel-bookings.html"
     }
   ]
 }
