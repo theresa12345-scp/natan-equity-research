@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-02-14T14:30:47.688029",
+  "timestamp": "2026-02-15T06:39:32.105382",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
+    "avg_relevance": 7.1,
     "bullish": 9,
     "neutral": 14,
     "bearish": 2,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,13 +15,14 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 2,
+    "Bloomberg": 4,
+    "Investor's Business Daily": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "Irs.gov": 1,
-    "Simply Wall Street": 3,
-    "MarketBeat": 1,
-    "MarketWatch": 3
+    "CNBC": 6,
+    "Canton Repository": 1,
+    "Simply Wall Street": 1,
+    "MarketWatch": 3,
+    "CBS News": 1
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Dow Jones Futures Fall As AI Fears Grip Market, CPI Inflation Due; Arista, Applied Materials Jump On Earnings",
+      "score": 8,
+      "source": "Investor's Business Daily",
+      "sentiment": "negative",
+      "impact": "Applied Materials and Arista Networks lead overnight earnings winners.",
+      "category": "us_equities",
+      "date": "2026-02-13 12:59",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-disruption-fears-cpi-inflation-arista-applied-materials/"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -111,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,7 +132,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-14 14:30",
+      "date": "2026-02-15 06:39",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -133,36 +144,6 @@
       "category": "fixed_income",
       "date": "2026-02-13 18:20",
       "link": "https://www.cnbc.com/2026/02/13/what-a-credit-card-interest-rate-cap-would-mean-for-issuers-like-capital-one.html"
-    },
-    {
-      "headline": "Roku stock surges on earnings beat, record quarter for premium subscriptions",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Roku executives said in a shareholder letter that it marked \"our biggest quarter ever\" for net adds to premium subscriptions.",
-      "category": "corporate_earnings",
-      "date": "2026-02-13 16:20",
-      "link": "https://www.cnbc.com/2026/02/13/roku-stock-earnings-premium-subscriptions.html"
-    },
-    {
-      "headline": "Stock futures slip as traders await big consumer inflation report: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Major U.S. averages dropped on Thursday as fears around artificial intelligence disruption spread across the market.",
-      "category": "global_markets",
-      "date": "2026-02-13 12:27",
-      "link": "https://www.cnbc.com/2026/02/12/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities under the One, Big, Beautiful Bill",
-      "score": 7,
-      "source": "Irs.gov",
-      "sentiment": "neutral",
-      "impact": "IR-2026-23, Feb. 12, 2026 \u2014 The Department of the Treasury and the Internal Revenue Service today issued a notice providing guidance for determining whether electricity-producing qualified facilities, energy storage technologies, or eligible components are re\u2026",
-      "category": "fixed_income",
-      "date": "2026-02-12 21:36",
-      "link": "https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill"
     },
     {
       "headline": "Restaurant Brands shares fall despite earnings beat, strong international growth",
@@ -185,24 +166,54 @@
       "link": "https://www.cnbc.com/2026/02/11/mcdonalds-mcd-q4-2025-earnings.html"
     },
     {
-      "headline": "Scripps launches cost cutting, AI integration in latest effort to generate earnings growth",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "CEO Adam Symson said in an interview with CNBC the changes are intended to alleviate journalists from administrative tasks, but not replace them with AI.  ",
-      "category": "corporate_earnings",
-      "date": "2026-02-11 15:11",
-      "link": "https://www.cnbc.com/2026/02/11/scripps-cost-cutting-ai-integration-earnings.html"
+      "headline": "enVVeno Medical Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+      "score": 6,
+      "source": "Canton Repository",
+      "sentiment": "positive",
+      "impact": "enVVeno Medical Corporation announced it has regained compliance with Nasdaq's minimum bid price requirement of $1.00 per share, with its common stock closing at or above this price for 10 consecutive business days. Nasdaq has confirmed the matter is closed. The company also reported approximately $",
+      "category": "us_equities",
+      "date": "2026-02-15 04:28",
+      "link": "https://www.cantonrep.com/press-release/story/96913/envveno-medical-regains-compliance-with-nasdaq-minimum-bid-price-requirement/"
     },
     {
-      "headline": "It's Down 27% But Expedia Group, Inc. (NASDAQ:EXPE) Could Be Riskier Than It Looks",
+      "headline": "Equinix (EQIX) Is Up 12.7% After AI-Fueled Bookings Boost Q4 Results And 2026 Guidance",
       "score": 6,
       "source": "Simply Wall Street",
       "sentiment": "neutral",
-      "impact": "Expedia Group's stock (NASDAQ:EXPE) has fallen 27% in the last month, bringing its annual gain to 5.1%. Despite its P/E ratio of 20.1x being in line with the market, its strong forecast earnings growth of 28% per year suggests investors may be overlooking potential risks. The article indicates that ",
+      "impact": "Equinix (EQIX) surged 12.7% after reporting strong Q4 2025 results, including $2.42 billion in revenue and $265 million in net income, driven by record AI-related bookings. The company issued upbeat 2026 revenue guidance between $10.123 billion and $10.223 billion, reinforcing its position as a key ",
+      "category": "corporate_earnings",
+      "date": "2026-02-15 03:56",
+      "link": "https://simplywall.st/stocks/us/real-estate/nasdaq-eqix/equinix/news/equinix-eqix-is-up-127-after-ai-fueled-bookings-boost-q4-res"
+    },
+    {
+      "headline": "S&P 500\u2019s failed breakouts signal a darkening technical cloud",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Plus: Akamai, DoorDash and Alibaba are must-watch trades in a busy earnings calendar.",
       "category": "us_equities",
-      "date": "2026-02-14 13:03",
-      "link": "https://simplywall.st/stocks/us/consumer-services/nasdaq-expe/expedia-group/news/its-down-27-but-expedia-group-inc-nasdaqexpe-could-be-riskie"
+      "date": "2026-02-14 19:30",
+      "link": "https://www.marketwatch.com/story/these-are-high-probability-options-trades-for-next-weeks-busy-earnings-crush-32b47d47?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "3 signs you and your partner may be financially incompatible",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Most Americans think financial compatibility is important for successful relationships. Here are signs you and your partner could be incompatible, money-wise.",
+      "category": "global_markets",
+      "date": "2026-02-14 15:00",
+      "link": "https://www.cnbc.com/2026/02/14/signs-you-and-your-partner-are-financially-incompatible.html"
+    },
+    {
+      "headline": "Polymarket is back in the U.S. with a free grocery store\u2014what to know about it and other prediction markets",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Prediction markets such as Polymarket and Kalshi let users win money by correctly guessing the outcome of practically any event.",
+      "category": "global_markets",
+      "date": "2026-02-14 14:00",
+      "link": "https://www.cnbc.com/2026/02/14/how-prediction-markets-work.html"
     },
     {
       "headline": "Lunar New Year gives luxury brands a chance to win back big spenders in China",
@@ -215,26 +226,6 @@
       "link": "https://www.cnbc.com/2026/02/14/lunar-new-year-luxury-china.html"
     },
     {
-      "headline": "York Water (NASDAQ:YORW) Has Affirmed Its Dividend Of $0.228",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "neutral",
-      "impact": "The York Water Company (NASDAQ:YORW) has affirmed its next dividend payment of $0.228 per share, scheduled for April 15. While the company's earnings currently cover the dividend, the negative free cash flow raises concerns about future sustainability, despite a forecast 7.5% rise in EPS. York Water",
-      "category": "us_equities",
-      "date": "2026-02-14 12:44",
-      "link": "https://simplywall.st/stocks/us/utilities/nasdaq-yorw/york-water/news/york-water-nasdaqyorw-has-affirmed-its-dividend-of-0228"
-    },
-    {
-      "headline": "Short Interest in Direxion Daily BRKB Bull 2X Shares (NASDAQ:BRKU) Expands By 47.4%",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Short interest in Direxion Daily BRKB Bull 2X Shares (BRKU) surged by 47.4% in January, reaching 575,442 shares, representing 19.0% of its shares short and a days-to-cover ratio of 2.5. This increase occurs as institutional investors like Optiver Holding B.V. establish new positions and the fund rec",
-      "category": "us_equities",
-      "date": "2026-02-14 12:41",
-      "link": "https://www.marketbeat.com/instant-alerts/short-interest-in-direxion-daily-brkb-bull-2x-shares-nasdaqbrku-expands-by-474-2026-02-14/"
-    },
-    {
       "headline": "How the riptide around AI and stocks could seep into Fed decisions and the housing market",
       "score": 6,
       "source": "MarketWatch",
@@ -243,16 +234,6 @@
       "category": "us_monetary_policy",
       "date": "2026-02-14 12:30",
       "link": "https://www.marketwatch.com/story/how-the-riptide-around-ai-and-stocks-could-seep-into-fed-decisions-and-the-housing-market-fa6509ec"
-    },
-    {
-      "headline": "Central Securities Corp. (NYSEMKT:CET) Is About To Go Ex-Dividend, And It Pays A 5.7% Yield",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "neutral",
-      "impact": "Central Securities Corp. (NYSEMKT:CET) is nearing its ex-dividend date, offering a 5.7% yield with a US$1.50 per share payout. Despite the attractive yield and historical dividend growth, the company operated at a loss last year, raising concerns about the sustainability of its dividend payments. In",
-      "category": "us_equities",
-      "date": "2026-02-14 12:27",
-      "link": "https://simplywall.st/stocks/us/diversified-financials/nysemkt-cet/central-securities/news/central-securities-corp-nysemktcet-is-about-to-go-ex-dividend-and-it-pays-a-5-7-yield/amp"
     },
     {
       "headline": "U.S. economy suddenly seems on track for fabled soft landing: 2% inflation without a recession",
@@ -265,14 +246,34 @@
       "link": "https://www.marketwatch.com/story/u-s-economy-suddenly-seems-on-track-for-fabled-soft-landing-2-inflation-without-a-recession-a48a0008"
     },
     {
-      "headline": "Gas and electric bills are still painfully high for many Americans, even as inflation cools off",
+      "headline": "India relaxes wheat export restrictions to appease farmers",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "Billions of dollars in 2025 rate increases still haven\u2019t filtered into Americans\u2019 bills, according to one expert.",
+      "impact": "The government also cleared additional shipments of 500,000 tons each of wheat products and sugar, on top of earlier approvals, according to a statement by the food ministry",
       "category": "global_markets",
-      "date": "2026-02-13 20:25",
-      "link": "https://www.marketwatch.com/story/gas-and-electric-bills-are-still-painfully-high-for-many-americans-even-as-inflation-cools-off-26dedeaa"
+      "date": "2026-02-14 05:45",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-13/india-relaxes-wheat-export-restrictions-to-appease-farmers"
+    },
+    {
+      "headline": "Tillis suggests Warsh faces long Fed chair nomination process that could restrict his business life",
+      "score": 6,
+      "source": "CBS News",
+      "sentiment": "neutral",
+      "impact": "GOP Sen. Thom Tillis of North Carolina says he won't support the confirmation of any Fed nominee until the Justice Dept.'s investigation into chairman Jerome Powell is resolved.",
+      "category": "us_monetary_policy",
+      "date": "2026-02-13 21:27",
+      "link": "https://www.cbsnews.com/news/tillis-powell-investigation-kevin-warsh/"
+    },
+    {
+      "headline": "US Briefly Names Alibaba, Baidu as Firms Aiding China\u2019s Military",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "The Pentagon added Alibaba Group Holding Ltd., BYD Co., Baidu Inc. and TP-Link Technologies Co. to a list of companies that aid the Chinese military \u2013 before withdrawing it minutes later without explanation.",
+      "category": "asia_economy",
+      "date": "2026-02-13 20:52",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-13/us-to-put-alibaba-on-list-for-aiding-china-s-military-reuters"
     }
   ]
 }
