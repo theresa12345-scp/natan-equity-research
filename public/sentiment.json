@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-02-18T06:51:25.011768",
+  "timestamp": "2026-02-18T14:50:04.584750",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 6.9,
-    "bullish": 13,
-    "neutral": 9,
-    "bearish": 3,
-    "high_priority": 8,
+    "avg_relevance": 7.1,
+    "bullish": 12,
+    "neutral": 8,
+    "bearish": 5,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,14 +16,12 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 2,
+    "Financial Times": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "AD HOC NEWS": 1,
-    "MarketBeat": 1,
-    "Meyka": 1,
-    "TradingView": 1,
+    "MarketWatch": 3,
+    "CNBC": 8,
     "Seeking Alpha": 1,
-    "CNBC": 8
+    "Intellectia AI": 1
   },
   "top_signals": [
     {
@@ -33,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -73,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Federal Reserve set to loosen US bank rules in attempt to boost mortgage lending",
+      "score": 8,
+      "source": "Financial Times",
+      "sentiment": "positive",
+      "impact": "Central bank plans to ease capital requirements in an effort to shift home lending back to banks, top official says",
+      "category": "us_monetary_policy",
+      "date": "2026-02-16 18:30",
+      "link": "https://www.ft.com/content/b36ca89c-39d6-47b6-9f62-0389ec8dda9d"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -113,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -123,7 +131,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-18 06:51",
+      "date": "2026-02-18 14:50",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -137,54 +145,84 @@
       "link": "https://www.marketwatch.com/story/has-inflation-really-slowed-not-according-to-this-new-fed-study-a1456c57"
     },
     {
-      "headline": "F5 Inc. Stock After Earnings: Hidden Value or Value Trap for 2026?",
-      "score": 6,
-      "source": "AD HOC NEWS",
+      "headline": "S&P 500 is little changed to start shortened week as software shares slide: Live updates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The S&P 500 has declined two weeks in a row.",
+      "category": "us_equities",
+      "date": "2026-02-17 14:46",
+      "link": "https://www.cnbc.com/2026/02/16/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq set to retreat as tech stocks continue to reel",
+      "score": 7,
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "This article analyzes F5 Inc. (NASDAQ: FFIV) stock performance after its recent earnings report, questioning whether it represents a hidden value or a value trap for investors in 2026. The company, which provides multi-cloud application delivery and security solutions, shows solid profitability and ",
-      "category": "corporate_earnings",
-      "date": "2026-02-18 05:32",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/f5-inc-stock-after-earnings-hidden-value-or-value-trap-for-2026/68589758"
-    },
-    {
-      "headline": "Short Interest in Old National Bancorp (NASDAQ:ONB) Decreases By 13.8%",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Old National Bancorp (NASDAQ:ONB) experienced a 13.8% decrease in short interest as of January 30th, totaling 17,433,745 shares. This represents 4.5% of the stock and a short-interest ratio of 5.1 days. Despite an insider selling a significant portion of their shares, institutional investors have in",
+      "impact": "Stocks are mixed early Tuesday as investors return from a three-day break.",
       "category": "us_equities",
-      "date": "2026-02-18 04:57",
-      "link": "https://www.marketbeat.com/instant-alerts/short-interest-in-old-national-bancorp-nasdaqonb-decreases-by-138-2026-02-17/"
+      "date": "2026-02-17 12:55",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-set-to-retreat-as-tech-stocks-continue-to-reel"
     },
     {
-      "headline": "OSS (One Stop Systems, NASDAQ) down 4.04% after hours 17 Feb 2026: AI edge demand offers upside",
-      "score": 6,
-      "source": "Meyka",
+      "headline": "World\u2019s largest miner BHP profits from pivot towards copper",
+      "score": 7,
+      "source": "Financial Times",
       "sentiment": "positive",
-      "impact": "One Stop Systems (OSS) stock fell 4.04% in after-hours trading on February 17, 2026, closing at $8.21 USD, following sustained interest due to its positioning in AI and edge-compute hardware. Despite mixed analyst signals and current losses reflected in its negative EPS and P/E, Meyka AI projects a ",
-      "category": "us_equities",
-      "date": "2026-02-18 04:27",
-      "link": "https://meyka.com/blog/oss-one-stop-systems-nasdaq-down-404-after-hours-17-feb-2026-ai-edge-demand-offers-upside-1702/"
+      "impact": "Red metal accounts for more than half of underlying core earnings",
+      "category": "commodities",
+      "date": "2026-02-16 23:34",
+      "link": "https://www.ft.com/content/40d04677-2137-465c-a7c5-4b82a3e51a83"
     },
     {
-      "headline": "Rush Enterprises (NASDAQ:RUSHA) Exceeds Q4 CY2025 Expectations",
+      "headline": "As Walmart and Target head in different directions, all eyes are on their new CEOs",
       "score": 6,
-      "source": "TradingView",
-      "sentiment": "positive",
-      "impact": "Rush Enterprises (NASDAQ:RUSH.A) reported Q4 CY2025 results, with revenue exceeding market expectations at $1.77 billion despite an 11.8% year-on-year decline. The company's GAAP EPS of $0.81 beat analyst consensus by 17.1%. For the full year 2025, Rush Enterprises achieved revenues of $7.4 billion ",
-      "category": "us_equities",
-      "date": "2026-02-18 04:27",
-      "link": "https://www.tradingview.com/news/stockstory:5f027bad2094b:0-rush-enterprises-nasdaq-rusha-exceeds-q4-cy2025-expectations/"
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The two big-box retailers are contending with the same economic backdrop, yet Target is trying to prove it can make a comeback.",
+      "category": "global_markets",
+      "date": "2026-02-18 14:41",
+      "link": "https://www.cnbc.com/2026/02/18/walmart-target-earnings-new-ceos-furner-fiddelke.html"
     },
     {
-      "headline": "Tesla to integrate Grok AI chatbot into cars across the UK and Europe amid regulatory scrutiny (TSLA:NASDAQ)",
+      "headline": "FDA chief Marty Makary says 'everything should be over-the-counter' unless drug is unsafe or addictive",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Makary said the FDA is looking at prescription drugs like nausea medications and vaginal estrogen, and hopes to make changes this year.",
+      "category": "global_markets",
+      "date": "2026-02-18 13:56",
+      "link": "https://www.cnbc.com/2026/02/18/fda-chief-marty-makary-more-drugs-should-be-over-the-counter.html"
+    },
+    {
+      "headline": "Oil jumps more than 2% after Vance says Iran ignored key U.S. demand, military strikes on the table",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of crude supplies in the Middle East.",
+      "category": "commodities",
+      "date": "2026-02-18 13:53",
+      "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html"
+    },
+    {
+      "headline": "Federal Realty Investment Trust: A DC-Area Retail REIT With So Much Winning (NYSE:FRT)",
       "score": 6,
       "source": "Seeking Alpha",
       "sentiment": "positive",
-      "impact": "Tesla announced it will integrate xAI's Grok AI chatbot into its in-car infotainment systems in the UK and eight other European markets. This move comes as Tesla faced weaker European sales in 2025 and amidst ongoing regulatory scrutiny. The integration aims to enhance the in-car experience for user",
-      "category": "us_equities",
-      "date": "2026-02-18 04:15",
-      "link": "https://seekingalpha.com/news/4552987-tesla-to-integrate-grok-ai-chatbot-into-cars-across-the-uk-and-europe-amid-regulatory-scrutiny"
+      "impact": "Federal Realty Investment Trust (FRT) receives a \"buy\" rating due to strong leasing activity, high occupancy rates, and a robust FFO growth outlook. The company demonstrates a resilient dividend performance with ample coverage, although its debt-to-equity ratio is higher than peers. While the immedi",
+      "category": "us_monetary_policy",
+      "date": "2026-02-18 13:40",
+      "link": "https://seekingalpha.com/article/4871356-federal-realty-investment-trust-a-dc-area-retail-reit-with-so-much-winning"
+    },
+    {
+      "headline": "Moody's Q4 Earnings Exceed Expectations",
+      "score": 6,
+      "source": "Intellectia AI",
+      "sentiment": "positive",
+      "impact": "Moody's reported strong Q4 earnings, with non-GAAP EPS of $3.64 and revenue of $1.89 billion, both surpassing analyst expectations. The company experienced significant growth across its Decision Solutions, Research and Insights, and Data & Information segments. Analysts like Stifel and BofA have opt",
+      "category": "corporate_earnings",
+      "date": "2026-02-18 13:34",
+      "link": "https://intellectia.ai/news/stock/moodys-q4-earnings-exceed-expectations"
     },
     {
       "headline": "What the 10-year Treasury\u2019s move toward 4% says about AI anxiety in markets",
@@ -235,46 +273,6 @@
       "category": "global_markets",
       "date": "2026-02-17 20:21",
       "link": "https://www.cnbc.com/2026/02/17/capitol-shotgun-vest-police-chief.html"
-    },
-    {
-      "headline": "We're trimming a parabolic mover \u2014 adhering to one of our core investment rules",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "We're making our first trim of this stock since initiating the position last October, locking in a gain of roughly 55% in the process.",
-      "category": "global_markets",
-      "date": "2026-02-17 20:11",
-      "link": "https://www.cnbc.com/2026/02/17/were-trimming-a-parabolic-mover-adhering-to-one-of-our-core-investment-rules.html"
-    },
-    {
-      "headline": "Big investor gets into BlackRock stock \u2014 but not for its traditional area of dominance",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2026-02-17 19:41",
-      "link": "https://www.cnbc.com/2026/02/17/big-investor-gets-into-blackrock-stock-but-not-for-its-traditional-area-of-dominance.html"
-    },
-    {
-      "headline": "We're scooping up more shares of this recently banged-up megacap AI leader",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "We're stepping in again as the stock continued to pull back from their February highs.",
-      "category": "global_markets",
-      "date": "2026-02-17 18:07",
-      "link": "https://www.cnbc.com/2026/02/17/were-scooping-up-more-shares-of-this-recently-banged-up-megacap-ai-leader.html"
-    },
-    {
-      "headline": "Anthropic releases Claude Sonnet 4.6, continuing breakneck pace of AI model releases",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Claude Sonnet 4.6 is more consistent with coding and is better at following coding instructions, Anthropic said.",
-      "category": "global_markets",
-      "date": "2026-02-17 17:55",
-      "link": "https://www.cnbc.com/2026/02/17/anthropic-ai-claude-sonnet-4-6-default-free-pro.html"
     }
   ]
 }
