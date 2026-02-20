@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-02-19T14:51:50.243830",
+  "timestamp": "2026-02-20T06:42:49.477809",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 13,
-    "neutral": 9,
-    "bearish": 3,
-    "high_priority": 9,
+    "avg_relevance": 7.1,
+    "bullish": 12,
+    "neutral": 12,
+    "bearish": 1,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -15,12 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
-    "The Wall Street Journal": 1,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
     "CNBC": 8,
-    "Investing.com Nigeria": 1,
-    "Realtor.com News": 1,
+    "Investor's Business Daily": 1,
+    "Trefis": 1,
+    "Meyka": 1,
+    "TipRanks": 1,
     "MarketWatch": 3
   },
   "top_signals": [
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +102,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Palo Alto Networks Lifts Revenue Outlook as Second-Quarter Profit Jumps",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-02-17 23:15",
-      "link": "https://www.wsj.com/business/earnings/palo-alto-networks-lifts-revenue-outlook-as-second-quarter-profit-jumps-420bcff9"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +112,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,8 +122,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-20 06:42",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Amazon surpasses Walmart in annual revenue for first time, as both chase AI-fueled growth",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The shuffle underscores the rivalry between the two retailers, particularly as Walmart expands its advertising and third-party marketplace businesses.",
+      "category": "corporate_earnings",
+      "date": "2026-02-19 22:51",
+      "link": "https://www.cnbc.com/2026/02/19/amazon-revenue-passes-walmart-earnings-reports.html"
     },
     {
       "headline": "Walmart reports strong holiday growth, but earnings outlook falls short of estimates",
@@ -141,138 +142,138 @@
       "sentiment": "positive",
       "impact": "It marks the first earnings report since new Walmart CEO John Furner took over in early February.",
       "category": "corporate_earnings",
-      "date": "2026-02-19 14:51",
+      "date": "2026-02-19 21:08",
       "link": "https://www.cnbc.com/2026/02/19/walmart-wmt-q4-2026-earnings.html"
     },
     {
-      "headline": "Southern Company beats revenue expectations, stock rises despite earnings miss",
-      "score": 7,
-      "source": "Investing.com Nigeria",
-      "sentiment": "positive",
-      "impact": "Southern Company reported fourth-quarter 2025 adjusted earnings of $0.55 per share, missing analyst expectations, but revenue surged to $7.0 billion, exceeding estimates. The company's shares rose 2.47% in pre-market trading, driven by the strong revenue performance and a positive 2026 outlook. For ",
-      "category": "corporate_earnings",
-      "date": "2026-02-19 13:51",
-      "link": "https://ng.investing.com/news/earnings/southern-company-beats-revenue-expectations-stock-rises-despite-earnings-miss-93CH-2349047"
-    },
-    {
-      "headline": "Stock futures rise ahead of Fed minutes as Nvidia shares gain: Live updates",
+      "headline": "Some crazy post-earnings stock swings cast a spotlight on the dangers of trading",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The major averages posted slim gains on Tuesday, kicking off a holiday-shortened week.",
-      "category": "us_monetary_policy",
-      "date": "2026-02-18 14:33",
-      "link": "https://www.cnbc.com/2026/02/17/stock-market-today-live-updates.html"
+      "sentiment": "neutral",
+      "impact": "We are seeing some of the most stupid moves during this earnings season, and the last 24 hours were among the dumbest.",
+      "category": "corporate_earnings",
+      "date": "2026-02-19 19:15",
+      "link": "https://www.cnbc.com/2026/02/19/cramer-crazy-post-earnings-stock-swings-highlight-the-dangers-of-trading.html"
     },
     {
-      "headline": "Apple Decouples From Nasdaq as AI \u2018Whack-a-Mole\u2019 Grips Market",
+      "headline": "Figma shares climb on earnings beat, but analysts note that AI risk remains",
       "score": 7,
-      "source": "Bloomberg",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "It\u2019s been nearly 20 years since Apple Inc. was this untethered from its tech peers, giving investors an appealing alternative to the artificial intelligence-fueled volatility that has gripped most other corners of the stock market in recent weeks.",
+      "impact": "Figma's revenue grew 40% year over year to $303.8 million during the period.",
+      "category": "corporate_earnings",
+      "date": "2026-02-19 16:12",
+      "link": "https://www.cnbc.com/2026/02/19/figma-stock-earnings-ai-risk.html"
+    },
+    {
+      "headline": "Dow Jones Futures: S&P 500 Rises To Resistance As Nvidia, ASML Lead; Carvana Dives Late, Walmart Due",
+      "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "neutral",
+      "impact": "Walmart earnings loom.",
       "category": "us_equities",
-      "date": "2026-02-18 09:39",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-18/apple-decouples-from-nasdaq-as-ai-whack-a-mole-grips-market"
+      "date": "2026-02-19 01:59",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-nvidia-asml-carvana-dives-walmart-earnings/"
     },
     {
-      "headline": "Federal Reserve Wants To Loosen Bank Rules To Boost Mortgage Lending",
-      "score": 7,
-      "source": "Realtor.com News",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2026-02-17 18:33",
-      "link": "https://www.realtor.com/news/real-estate-news/federal-reserve-banks-mortgage-lending-regulations/"
-    },
-    {
-      "headline": "Walmart\u2019s stock falls as the profit outlook wasn\u2019t good enough",
+      "headline": "CBOE Stock Surges 6.5% With A 5-day Winning Spree On Record Earnings",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Walmart\u2019s stock drops after quarterly revenue from its U.S. stores and the outlook for profits this year were below Wall Street\u2019s projections.",
+      "source": "Trefis",
+      "sentiment": "positive",
+      "impact": "CBOE stock has surged by 6.5%, marking a five-day winning streak. This significant increase is attributed to the company's record earnings performance. The article focuses on the current strong market performance of CBOE.",
       "category": "corporate_earnings",
-      "date": "2026-02-19 14:00",
-      "link": "https://www.marketwatch.com/story/walmarts-stock-falls-as-the-outlook-for-future-profits-wasnt-good-enough-10d2c334?mod=mw_rss_topstories"
+      "date": "2026-02-20 05:38",
+      "link": "https://www.trefis.com/data/companies/CBOE/no-login-required/BY7ParZp/CBOE-Stock-Surges-6-5-With-A-5-day-Winning-Spree-On-Record-Earnings"
     },
     {
-      "headline": "Wayfair posts first annual sales gain since 2020, outperforms overall furniture market",
+      "headline": "SYNA Synaptics NASDAQ closes $83.08 on 19 Feb 2026: AI growth, valuation tension",
       "score": 6,
-      "source": "CNBC",
+      "source": "Meyka",
+      "sentiment": "neutral",
+      "impact": "Synaptics (SYNA) closed at $83.08 on February 19, 2026, down 1.98%, as investors weighed its AI growth prospects against mixed fundamentals including negative EPS. Despite the company's strong positioning in edge AI with its Astra\u2122 and Veros\u2122 products, valuation metrics are mixed, and insider sales ",
+      "category": "us_equities",
+      "date": "2026-02-20 04:56",
+      "link": "https://meyka.com/blog/syna-synaptics-nasdaq-closes-8308-on-19-feb-2026-ai-growth-valuation-tension-2002/"
+    },
+    {
+      "headline": "Kentucky First Federal Bancorp Exits Regulatory Enforcement Agreement",
+      "score": 6,
+      "source": "TipRanks",
       "sentiment": "positive",
-      "impact": "Wayfair's growth comes during a challenging time for the furniture industry as tariffs, high interest rates and sluggish home sales are weighing on demand.",
-      "category": "global_markets",
-      "date": "2026-02-19 13:34",
-      "link": "https://www.cnbc.com/2026/02/19/wayfair-w-earnings-q4-2025.html"
-    },
-    {
-      "headline": "Why New Balance's 'dad shoes' are beating Nike as sales surge 19%",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "New Balance grew sales 19% to $9.2 billion in 2025 as its emphasis on street-wear styles and performance resonate with a wide range of shoppers.",
-      "category": "global_markets",
-      "date": "2026-02-19 13:30",
-      "link": "https://www.cnbc.com/2026/02/19/new-balance-2025-sales-jump-19percent-as-brand-takes-share-from-nike.html"
-    },
-    {
-      "headline": "Small furniture retailers face existential tariff threat, regardless of Supreme Court ruling",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "As retailers await a decision from the Supreme Court on the future of tariffs, small furniture businesses will see little relief as upholstery duties remain.",
-      "category": "global_markets",
-      "date": "2026-02-19 13:00",
-      "link": "https://www.cnbc.com/2026/02/19/supreme-court-tariffs-furniture-retailers-threat.html"
-    },
-    {
-      "headline": "United Airlines is paring back rewards for travelers who don't have its credit card in MileagePlus overhaul",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "United Airlines is overhauling its MileagePlus loyalty program to reward customers who have the carrier's credit card over those without it.",
-      "category": "fixed_income",
-      "date": "2026-02-19 12:55",
-      "link": "https://www.cnbc.com/2026/02/19/united-airlines-frequent-flyer-mileage-plus-program-credit-card.html"
-    },
-    {
-      "headline": "Why the Fed could deliver one final sting to your portfolio before Powell\u2019s exit in May",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Interest rates typically go up when a Fed chair steps down.",
+      "impact": "Kentucky First Federal Bancorp (KFFB) has been released from a regulatory enforcement agreement by the Office of the Comptroller of the Currency, effective February 19, 2026. This action removes the \"troubled condition\" classification and lifts associated capital constraints, improving the bank's op",
       "category": "us_monetary_policy",
-      "date": "2026-02-19 12:46",
-      "link": "https://www.marketwatch.com/story/why-the-fed-could-deliver-one-final-sting-to-your-portfolio-before-powells-exit-in-may-de2e8f28"
+      "date": "2026-02-20 04:26",
+      "link": "https://www.tipranks.com/news/company-announcements/kentucky-first-federal-bancorp-exits-regulatory-enforcement-agreement"
     },
     {
-      "headline": "Walmart\u2019s stock falls as the outlook for future profits wasn\u2019t good enough",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Walmart\u2019s stock drops after quarterly revenue from its U.S. stores and the outlook for profits this year were below Wall Street\u2019s projections.",
-      "category": "corporate_earnings",
-      "date": "2026-02-19 12:42",
-      "link": "https://www.marketwatch.com/story/walmarts-stock-falls-as-the-outlook-for-future-profits-wasnt-good-enough-10d2c334"
-    },
-    {
-      "headline": "This market\u2019s big problem: nobody knows the right price for stocks",
+      "headline": "Famed director James Cameron sends scathing letter to antitrust lawmaker over Netflix-WBD deal",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "In a column for Investing Club members, Jim Cramer writes that the dramatic multiple compression across the market is making investors' lives difficult.",
+      "impact": "James Cameron, award-winning director of \"Avatar\" and \"Titanic,\" calls Netflix's proposed acquisition of WBD assets \"disastrous\" for the theater business.",
       "category": "global_markets",
-      "date": "2026-02-19 11:17",
-      "link": "https://www.cnbc.com/2026/02/19/jim-cramer-on-the-software-sell-off-and-multiple-compression.html"
+      "date": "2026-02-19 23:00",
+      "link": "https://www.cnbc.com/2026/02/19/netflix-wbd-james-cameron-sends-scathing-letter-to-antitrust-lawmaker.html"
     },
     {
-      "headline": "As Walmart and Target head in different directions, all eyes are on their new CEOs",
+      "headline": "Nvidia options are priced for a perfect earnings outlook. These are your smarter trades.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Earnings reports will flood the market next week. Could this be the juice the S&P 500 needs?",
+      "category": "corporate_earnings",
+      "date": "2026-02-19 21:52",
+      "link": "https://www.marketwatch.com/story/nvidia-options-are-priced-for-a-perfect-earnings-outlook-these-are-your-smarter-trades-4cac5291"
+    },
+    {
+      "headline": "The S&P 500 is undergoing a historic shift that could reshape the stock market",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "After years of record highs on Wall Street powered by a narrow group of megacap tech leaders, 2026 begins with that base starting to crack.",
+      "category": "us_equities",
+      "date": "2026-02-19 21:12",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-is-undergoing-a-historic-shift-that-could-reshape-the-stock-market-66436b65"
+    },
+    {
+      "headline": "Healthy Returns: FDA chief Marty Makary on compounded GLP-1s, vaccines and China",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "The two big-box retailers are contending with the same economic backdrop, yet Target is trying to prove it can make a comeback.",
+      "impact": "Makary helms the FDA in the midst of a contentious stretch for the agency, defined by massive staff and budget cuts and sweeping changes to vaccine policy.",
+      "category": "asia_economy",
+      "date": "2026-02-19 19:52",
+      "link": "https://www.cnbc.com/2026/02/19/healthy-returns-fda-chief-marty-makary-on-glp-1-copies-vaccines-china.html"
+    },
+    {
+      "headline": "The NBA wants to embrace content creators without degrading its golden goose of live sports rights",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The NBA has embraced content creators, but all the money fueling professional sports leagues is in live rights, and YouTube could be a replacement.",
+      "category": "commodities",
+      "date": "2026-02-19 19:04",
+      "link": "https://www.cnbc.com/2026/02/19/nba-embraces-content-creators-tries-to-protect-live-sports-rights.html"
+    },
+    {
+      "headline": "What\u2019s behind a big jump in January property tech funding",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Property tech and adjacent companies raised approximately $1.7 billion globally last month, according to the Center for Real Estate Technology and Innovation.",
       "category": "global_markets",
-      "date": "2026-02-18 22:28",
-      "link": "https://www.cnbc.com/2026/02/18/walmart-target-earnings-new-ceos-furner-fiddelke.html"
+      "date": "2026-02-19 17:22",
+      "link": "https://www.cnbc.com/2026/02/19/whats-behind-a-big-jump-in-january-property-tech-funding.html"
+    },
+    {
+      "headline": "Wayfair\u2019s stock sinks, as investors worry expansion plans will hurt profits",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Wayfair\u2019s stock was suffering its worst postearnings reaction in nearly four years, after the company unexpectedly swung to a net loss for the latest quarter and warned that profit margins may narrow.",
+      "category": "corporate_earnings",
+      "date": "2026-02-19 16:25",
+      "link": "https://www.marketwatch.com/story/wayfairs-stock-sinks-as-investors-worry-expansion-plans-will-hurt-profits-6c362879"
     }
   ]
 }
