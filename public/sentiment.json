@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-02-23T06:54:15.531637",
+  "timestamp": "2026-02-23T14:51:37.448148",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
     "bullish": 9,
-    "neutral": 13,
-    "bearish": 3,
-    "high_priority": 9,
+    "neutral": 11,
+    "bearish": 5,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -15,14 +15,12 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 3,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
+    "MarketWatch": 4,
+    "Financial Times": 1,
     "CNBC": 8,
-    "Simply Wall Street": 1,
-    "Bloomberg.com": 1,
-    "Finviz": 1,
-    "MarketWatch": 2,
-    "Financial Times": 1
+    "Benzinga": 2
   },
   "top_signals": [
     {
@@ -32,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,18 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "US Treasury Secretary Bessent says tariff revenue to be \u2018virtually unchanged\u2019 in 2026",
-      "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Bessent says the Trump administration will use other mechanisms to replace the struck-down tariff measures, including authorities granted by Congress known as Section 122, 232 and 301 authorities",
-      "category": "fixed_income",
-      "date": "2026-02-21 05:15",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-20/bessent-says-tariff-revenue-to-be-virtually-unchanged-in-2026"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,8 +120,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-23 06:54",
+      "date": "2026-02-23 14:51",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Fed\u2019s Waller says next jobs report, not Supreme Court ruling, will be key for March interest rate decision",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "The February jobs report, and not the Supreme Court ruling overturning a large part of President Donald Trump\u2019s tariffs on imported goods, will be key to whether the Federal Reserve needs to cut interest rates in March, Federal Reserve Governor Christopher Waller said on Monday.",
+      "category": "us_monetary_policy",
+      "date": "2026-02-23 13:33",
+      "link": "https://www.marketwatch.com/story/feds-waller-says-next-jobs-report-not-supreme-court-ruling-will-impact-feds-march-rate-cut-decision-4ca7ca11"
+    },
+    {
+      "headline": "Earnings and AI fears drive \u2018extreme\u2019 churn in US stock market",
+      "score": 7,
+      "source": "Financial Times",
+      "sentiment": "negative",
+      "impact": "Gap between large moves in individual equities and subdued index performance hits highest since global financial crisis",
+      "category": "corporate_earnings",
+      "date": "2026-02-22 05:00",
+      "link": "https://www.ft.com/content/c79f74c2-a37b-477c-ab8b-e5713665b415"
     },
     {
       "headline": "Amazon surpasses Walmart in annual revenue for first time, as both chase AI-fueled growth",
@@ -146,44 +154,104 @@
       "link": "https://www.cnbc.com/2026/02/19/amazon-revenue-passes-walmart-earnings-reports.html"
     },
     {
-      "headline": "Will Higher Interest Costs And Insider Buying Shift Douglas Emmett's (DEI) Profitability Narrative?",
+      "headline": "Blizzard cripples East Coast airports, with flights canceled through Tuesday",
       "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "negative",
-      "impact": "Douglas Emmett (DEI) reported mixed fourth-quarter and full-year 2025 results, with a Q4 net loss but a full-year profit, primarily impacted by higher interest expenses. While analysts maintained \"Hold\" ratings and cut price targets, the CEO increased his shareholding, creating a tension between ope",
-      "category": "corporate_earnings",
-      "date": "2026-02-23 05:23",
-      "link": "https://simplywall.st/stocks/us/real-estate/nyse-dei/douglas-emmett/news/will-higher-interest-costs-and-insider-buying-shift-douglas"
-    },
-    {
-      "headline": "Qatar Wealth Fund Invests in Goldman Alums\u2019 Credit Firm 5C",
-      "score": 6,
-      "source": "Bloomberg.com",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Qatar's sovereign wealth fund, the Qatar Investment Authority, is investing hundreds of millions of dollars into 5C Investment Partners, a private credit firm founded by former Goldman Sachs partners Tom Connolly and Michael Koester. This capital injection will support 5C Investment Partners in expa",
-      "category": "fixed_income",
-      "date": "2026-02-23 05:01",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-23/qatar-wealth-fund-invests-in-goldman-alums-credit-firm-5c"
+      "impact": "American, Delta, JetBlue, United and others waived change and cancellation fees ahead of another massive winter storm.",
+      "category": "global_markets",
+      "date": "2026-02-23 14:46",
+      "link": "https://www.cnbc.com/2026/02/21/blizzard-prompts-airlines-waive-flight-change-fees.html"
     },
     {
-      "headline": "Keurig Dr Pepper Earnings: What To Look For From KDP",
+      "headline": "Airlines halt Puerto Vallarta flights after violence following Mexican cartel leader's killing",
       "score": 6,
-      "source": "Finviz",
-      "sentiment": "positive",
-      "impact": "Keurig Dr Pepper (NASDAQ:KDP) is set to report its earnings this Tuesday before market hours. The company had a strong previous quarter, beating revenue expectations with $4.31 billion, a 10.7% year-on-year increase. Analysts anticipate a 7.2% year-on-year revenue growth for the upcoming quarter and",
-      "category": "corporate_earnings",
-      "date": "2026-02-23 04:59",
-      "link": "https://finviz.com/news/318180/keurig-dr-pepper-earnings-what-to-look-for-from-kdp"
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "U.S. and Canadian airlines halted flights to Puerto Vallarta and Guadalajara in Mexico.",
+      "category": "global_markets",
+      "date": "2026-02-23 14:43",
+      "link": "https://www.cnbc.com/2026/02/23/puerto-vallarta-flights-mexico.html"
     },
     {
-      "headline": "Tariff costs and refunds take the spotlight as Home Depot, TJX and other retailers report earnings this week",
+      "headline": "Earnings Outlook For EOG Resources",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "neutral",
+      "impact": "EOG Resources (NYSE: EOG) is scheduled to release its quarterly earnings report on Tuesday, February 24, 2026. Analysts project an earnings per share (EPS) of $2.20, and investors will be looking for the company to surpass this estimate and provide positive guidance for the upcoming quarter. Histori",
+      "category": "corporate_earnings",
+      "date": "2026-02-23 14:01",
+      "link": "https://www.benzinga.com/insights/earnings/26/02/50778270/earnings-outlook-for-eog-resources"
+    },
+    {
+      "headline": "What to Expect from Bank of Nova Scotia's Earnings",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "positive",
+      "impact": "Bank of Nova Scotia (NYSE: BNS) is scheduled to release its quarterly earnings report on Tuesday, February 24, 2026. Analysts project an EPS of $1.42, and investors are hoping for positive guidance for the next quarter. The company's stock, currently trading at $77.29, has seen a 55.01% increase ove",
+      "category": "corporate_earnings",
+      "date": "2026-02-23 14:01",
+      "link": "https://www.benzinga.com/insights/earnings/26/02/50778291/what-to-expect-from-bank-of-nova-scotias-earnings"
+    },
+    {
+      "headline": "Eli Lilly launches new form of obesity drug Zepbound with a month\u2019s worth of doses in one pen",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Eli Lilly hopes the device can be more convenient for Zepbound users and lead to more people taking the drug.",
+      "category": "global_markets",
+      "date": "2026-02-23 14:00",
+      "link": "https://www.cnbc.com/2026/02/23/eli-lilly-launches-zepbound-obesity-drug-pen-one-month-doses.html"
+    },
+    {
+      "headline": "New Jeep Cherokee set to lead Stellantis' U.S. sales turnaround",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Cherokee rejoins the compact and midsize vehicle markets after a three-year hiatus and will seek to compete with the Toyota and Honda hybrid vehicles. ",
+      "category": "global_markets",
+      "date": "2026-02-23 14:00",
+      "link": "https://www.cnbc.com/2026/02/23/new-jeep-cherokee-set-to-lead-stellantis-us-sales-turnaround.html"
+    },
+    {
+      "headline": "Congress must enact Trump\u2019s tariffs now to steer the U.S. away from a massive revenue cliff",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "The Supreme Court struck down most of the Trump administration\u2019s tariffs, but uncertainty remains for store chains.",
+      "impact": "Tariffs need to become law or the federal budget will take a hit. Lawmakers have less than 150 days to decide.",
       "category": "corporate_earnings",
-      "date": "2026-02-23 01:57",
-      "link": "https://www.marketwatch.com/story/tariffs-costs-and-refunds-take-the-spotlight-as-home-depot-tjx-and-other-retailers-report-earnings-this-week-7f2a144a?mod=mw_rss_topstories"
+      "date": "2026-02-23 13:31",
+      "link": "https://www.marketwatch.com/story/congress-must-enact-trumps-tariffs-now-to-steer-the-u-s-away-from-a-massive-revenue-cliff-c147c999"
+    },
+    {
+      "headline": "The \u2018Magnificent Seven\u2019 is now the \u2018Lag 7.\u2019 How Big Tech\u2019s slump is dragging down the S&P 500.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "A breakdown of the \u201cMagnificent Seven\u201d and AI hyperscalers raises concern for the stock market and the economy",
+      "category": "us_equities",
+      "date": "2026-02-23 12:57",
+      "link": "https://www.marketwatch.com/story/the-magnificent-seven-is-now-the-lag-7-how-big-techs-slump-is-dragging-down-the-s-p-500-8d6c62e9"
+    },
+    {
+      "headline": "There\u2019s another AI-doom post doing the rounds. This time, the S&P 500 dives nearly 40%.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "A booming AI economy may be very bad for the broader economy, according to Citrini Research",
+      "category": "us_equities",
+      "date": "2026-02-23 11:45",
+      "link": "https://www.marketwatch.com/story/theres-another-ai-doom-post-doing-the-rounds-this-time-the-s-p-500-dives-nearly-40-13162b42"
+    },
+    {
+      "headline": "As American Girl turns 40, Mattel grapples with bringing dolls into a new era",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "American Girl marks its 40th anniversary after five quarters of sales growth, but revenue remains far below its peak as Mattel faces industry pressures. ",
+      "category": "global_markets",
+      "date": "2026-02-23 10:34",
+      "link": "https://www.cnbc.com/2026/02/22/american-girl-40th-anniversary-sales-mattel.html"
     },
     {
       "headline": "Is private equity the next market crisis? How we got here and what's next",
@@ -196,84 +264,14 @@
       "link": "https://www.cnbc.com/2026/02/22/jim-cramer-looks-at-whether-private-equity-the-next-market-crisis.html"
     },
     {
-      "headline": "As American Girl turns 40, Mattel grapples with bringing dolls into a new era",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "American Girl marks its 40th anniversary after five quarters of sales growth, but revenue remains far below its peak as Mattel faces industry pressures. ",
-      "category": "global_markets",
-      "date": "2026-02-22 17:07",
-      "link": "https://www.cnbc.com/2026/02/22/american-girl-40th-anniversary-sales-mattel.html"
-    },
-    {
-      "headline": "Here are the 5 big things we're watching in the stock market this week",
+      "headline": "DHS abruptly reverses suspension of TSA PreCheck",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Nvidia and Salesforce, key gauges of the AI and software trades, are set to report earnings.",
+      "impact": "The TSA said its PreCheck airport screening lanes are operational, hours after the DHS said the faster security checkpoint services would be paused.",
       "category": "global_markets",
-      "date": "2026-02-22 16:11",
-      "link": "https://www.cnbc.com/2026/02/22/here-are-the-5-big-things-were-watching-in-the-stock-market-this-week.html"
-    },
-    {
-      "headline": "\u2018Peanut butter\u2019 pay raises could cost companies their top performers, according to experts: 'It's such a shortsighted strategy'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "In an effort to cut costs, some companies are implementing \"peanut butter\" pay increases. According to experts, it could motivate top performers to leave.",
-      "category": "global_markets",
-      "date": "2026-02-22 15:00",
-      "link": "https://www.cnbc.com/2026/02/22/peanut-butter-pay-raises-could-cost-companies-their-top-performers-according-to-experts-its-such-a-shortsighted-strategy.html"
-    },
-    {
-      "headline": "Tariffs costs and refunds take the spotlight as Home Depot, TJX and other retailers report earnings this week",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The Supreme Court struck down most of the Trump administration\u2019s tariffs, but uncertainty remains for store chains.",
-      "category": "corporate_earnings",
-      "date": "2026-02-22 15:00",
-      "link": "https://www.marketwatch.com/story/tariffs-costs-and-refunds-take-the-spotlight-as-home-depot-tjx-and-other-retailers-report-earnings-this-week-7f2a144a"
-    },
-    {
-      "headline": "Under mounting toy pressures, Hasbro has a secret sauce that Mattel hasn't matched",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Hasbro's secret weapon has been its Wizards of the Coast division, which includes Dungeons & Dragons, Magic: The Gathering and the company's digital games. ",
-      "category": "global_markets",
-      "date": "2026-02-22 13:45",
-      "link": "https://www.cnbc.com/2026/02/21/hasbro-vs-mattel-toy-industry-pressures-make-digital-the-star.html"
-    },
-    {
-      "headline": "Centerview settles lawsuit over analyst\u2019s need for 8 hours\u2019 sleep",
-      "score": 6,
-      "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "Case brought by Kathryn Shiber fuelled debate about junior bankers\u2019 working hours",
-      "category": "global_markets",
-      "date": "2026-02-22 01:32",
-      "link": "https://www.ft.com/content/a5271651-825e-4007-a029-9e2c16b5d770"
-    },
-    {
-      "headline": "Airlines waive change fees ahead of another monster winter storm",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "American, Delta, JetBlue, United and others waived change and cancellation fees ahead of another massive winter storm.",
-      "category": "global_markets",
-      "date": "2026-02-21 17:25",
-      "link": "https://www.cnbc.com/2026/02/21/blizzard-prompts-airlines-waive-flight-change-fees.html"
-    },
-    {
-      "headline": "The 18 highest-paying college majors 5 years after graduation",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Engineering majors typically earn more than $75,000 within five years of graduating from college, placing them among the highest-paid graduates.",
-      "category": "global_markets",
-      "date": "2026-02-21 15:00",
-      "link": "https://www.cnbc.com/2026/02/21/highest-paying-college-majors.html"
+      "date": "2026-02-22 23:23",
+      "link": "https://www.cnbc.com/2026/02/22/tsa-airlines-weather-shutdown-blizzard-dhs.html"
     }
   ]
 }
