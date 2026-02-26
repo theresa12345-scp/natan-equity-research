@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-02-25T14:53:42.108660",
+  "timestamp": "2026-02-26T06:48:34.483818",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 12,
-    "neutral": 12,
-    "bearish": 1,
+    "avg_relevance": 7.0,
+    "bullish": 14,
+    "neutral": 9,
+    "bearish": 2,
     "high_priority": 8,
     "material_events": 4
   },
@@ -17,10 +17,11 @@
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 9,
-    "MarketWatch": 4,
-    "Federalreserve.gov": 1,
-    "ChartMill": 1
+    "MarketWatch": 3,
+    "CNBC": 8,
+    "MarketBeat": 2,
+    "Simply Wall St": 1,
+    "International Business Times AU": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -110,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,8 +121,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-02-25 14:53",
+      "date": "2026-02-26 06:48",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Steve Madden won\u2019t give profit guidance as planned due to Supreme Court tariff ruling",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The shoe designer\u2019s stock fell after it held off on providing a profit guidance like it said it would, citing uncertainties created by the Supreme Court\u2019s tariff decision.",
+      "category": "corporate_earnings",
+      "date": "2026-02-25 18:26",
+      "link": "https://www.marketwatch.com/story/steve-madden-wont-give-profit-guidance-as-planned-due-to-supreme-court-tariff-ruling-8810fb96"
+    },
+    {
+      "headline": "2 portfolio stocks report earnings after the close. Here's what we're looking for",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "corporate_earnings",
+      "date": "2026-02-25 17:09",
+      "link": "https://www.cnbc.com/2026/02/25/2-portfolio-stocks-report-earnings-after-the-close-heres-what-were-looking-for.html"
     },
     {
       "headline": "Lucid widely misses earnings expectations, forecasts slowing EV growth in 2026",
@@ -134,26 +155,6 @@
       "link": "https://www.cnbc.com/2026/02/24/lucid-lcid-q4-2025-results-.html"
     },
     {
-      "headline": "Lowe's earnings beat as sales jump more than 10% despite sluggish housing market",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Lowe's posted more than 10% sales growth in the fourth quarter at a time when housing turnover and home improvement demand are slow.",
-      "category": "corporate_earnings",
-      "date": "2026-02-25 11:26",
-      "link": "https://www.cnbc.com/2026/02/25/lowes-low-q4-2025-earnings.html"
-    },
-    {
-      "headline": "HP blames memory-price surge as it forecasts earnings at low end of guidance",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Computer maker HP blamed the surge in memory chip prices as it forecast earnings for the year to come in at the low end of previously issued guidance.",
-      "category": "corporate_earnings",
-      "date": "2026-02-25 10:58",
-      "link": "https://www.marketwatch.com/story/hp-blames-memory-price-surge-as-it-forecasts-earnings-at-low-end-of-guidance-dd12410a"
-    },
-    {
       "headline": "Home Depot tops earnings estimates for the first time in a year as demand for projects remains muted",
       "score": 7,
       "source": "CNBC",
@@ -164,84 +165,94 @@
       "link": "https://www.cnbc.com/2026/02/24/home-depot-hd-q4-2025-earnings-.html"
     },
     {
-      "headline": "S&P 500 is little changed as market tries to rebound from Monday's rout: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Investors are awaiting consumer confidence data and Home Depot earnings out Tuesday. They're also bracing for key earnings results from Nvidia later this week.",
-      "category": "us_equities",
-      "date": "2026-02-24 14:42",
-      "link": "https://www.cnbc.com/2026/02/23/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal",
-      "score": 7,
-      "source": "Federalreserve.gov",
+      "headline": "Short Interest in Spark I Acquisition Corporation (NASDAQ:SPKL) Expands By 409.9%",
+      "score": 6,
+      "source": "MarketBeat",
       "sentiment": "negative",
-      "impact": "Following earlier actions to remove reputation risk from its supervision of banks, the Federal Reserve Board on Monday requested comment on a proposal to codif",
-      "category": "us_monetary_policy",
-      "date": "2026-02-23 22:03",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260223a.htm"
-    },
-    {
-      "headline": "TJ Maxx parent\u2019s earnings show discount clothes and home goods are still in high demand",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "TJ Maxx parent company TJX reported a triple beat with its fourth-quarter results on Wednesday, but shares of the off-price apparel and home-fashions retailer slipped as the outlook disappointed.",
-      "category": "corporate_earnings",
-      "date": "2026-02-25 14:27",
-      "link": "https://www.marketwatch.com/story/tj-maxx-parents-earnings-show-discount-clothes-and-home-goods-are-still-in-high-demand-90fb804d"
-    },
-    {
-      "headline": "This \u2018red flag\u2019 interview response could knock you out of the running, career expert says: It sounds like \u2018a lot of drama\u2019",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A career expert shares her three-step process for answering this tough interview question.",
-      "category": "global_markets",
-      "date": "2026-02-25 14:15",
-      "link": "https://www.cnbc.com/2026/02/25/this-red-flag-interview-response-could-knock-you-out-of-the-running-career-expert.html"
-    },
-    {
-      "headline": "TJX Companies Inc (NYSE:TJX) Beats Q4 Estimates but Cautious Guidance Weighs on Shares",
-      "score": 6,
-      "source": "ChartMill",
-      "sentiment": "neutral",
-      "impact": "TJX Companies Inc. (NYSE:TJX) reported strong fourth-quarter fiscal 2026 results, exceeding Wall Street expectations with net sales of $17.74 billion and adjusted EPS of $1.43. Despite the strong performance, shares traded lower in pre-market due to conservative guidance for fiscal year 2027, which ",
+      "impact": "Short interest in Spark I Acquisition Corporation (NASDAQ:SPKL) surged by 409.9% to 515 shares as of February 13th, though this still represents only about 0.0% of shares outstanding. The company has a \"Sell\" rating from Weiss Ratings and an average \"Sell\" rating according to MarketBeat. Institution",
       "category": "us_equities",
-      "date": "2026-02-25 13:31",
-      "link": "https://www.chartmill.com/news/TJX/Chartmill-42836-TJX-Companies-Inc-NYSETJX-Beats-Q4-Estimates-but-Cautious-Guidance-Weighs-on-Shares"
+      "date": "2026-02-26 05:47",
+      "link": "https://www.marketbeat.com/instant-alerts/short-interest-in-spark-i-acquisition-corporation-nasdaqspkl-expands-by-4099-2026-02-25/"
     },
     {
-      "headline": "David Ellison has a rocky history at the box office. Buying Warner Bros. could fix that",
+      "headline": "Is Q4 2025 Earnings Pressure on Margins and Growth Altering The Investment Case For Monster Beverage (MNST)?",
+      "score": 6,
+      "source": "Simply Wall St",
+      "sentiment": "neutral",
+      "impact": "Monster Beverage reported its Q4 2025 earnings, with investors focusing on revenue trends and margin performance in its core energy drink business, alongside international growth and cost control. Despite previous analyst upgrades and a push towards 52-week highs, the report will determine if the co",
+      "category": "corporate_earnings",
+      "date": "2026-02-26 05:38",
+      "link": "https://simplywall.st/stocks/us/food-beverage-tobacco/nasdaq-mnst/monster-beverage/news/is-q4-2025-earnings-pressure-on-margins-and-growth-altering"
+    },
+    {
+      "headline": "Alphabet (GOOGL) Stock Steady Near $311 as AI Investments Surge Post-Q4 2025 Earnings Beat",
+      "score": 6,
+      "source": "International Business Times AU",
+      "sentiment": "positive",
+      "impact": "Alphabet's Class A shares traded steadily near $311 after the company announced blockbuster Q4 2025 results, featuring record revenues, explosive Google Cloud acceleration, and massive AI infrastructure commitments. The tech giant's Q4 revenue reached $113.8 billion, exceeding estimates, with Google",
+      "category": "corporate_earnings",
+      "date": "2026-02-26 05:31",
+      "link": "https://www.ibtimes.com.au/alphabet-googl-stock-steady-near-311-ai-investments-surge-post-q4-2025-earnings-beat-1862102"
+    },
+    {
+      "headline": "Synaptics (NASDAQ:SYNA) Insider Sells $62,972.04 in Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Synaptics insider Vikram Gupta recently sold 772 shares of the company's stock valued at $62,972.04, reducing his holding by 0.80%. This transaction follows other sales by Gupta in February and December. The company recently reported strong Q2 results, beating EPS and revenue estimates, and analysts",
+      "category": "us_equities",
+      "date": "2026-02-26 04:53",
+      "link": "https://www.marketbeat.com/instant-alerts/synaptics-nasdaqsyna-insider-sells-6297204-in-stock-2026-02-25/"
+    },
+    {
+      "headline": "Trade Desk\u2019s stock slides after earnings, as growth slowdown unnerves Wall Street even further",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The ad-tech provider said automotive and packaged-good clients are under pressure.",
+      "category": "us_equities",
+      "date": "2026-02-26 02:01",
+      "link": "https://www.marketwatch.com/story/trade-desks-stock-slides-as-growth-slowdown-unnerves-wall-street-even-further-9d99e55e?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "House Dems project midterm optimism at annual policy retreat following State of the Union",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Only five of Skydance's features to date \u2014 three of them starring Tom Cruise \u2014 have generated more than $200 million domestically.",
+      "impact": "House Democrats hammered home economic concerns ahead of 2026 elections at their annual policy conference, the day after President Trump's State of the Union.",
       "category": "global_markets",
-      "date": "2026-02-25 13:00",
-      "link": "https://www.cnbc.com/2026/02/25/paramount-wbd-david-ellison-box-office-history.html"
+      "date": "2026-02-25 21:53",
+      "link": "https://www.cnbc.com/2026/02/25/state-of-the-union-house-democrats-midterms-retreat.html"
     },
     {
-      "headline": "Small caps\u2019 \u2018recovery\u2019 is a myth built on unprofitable stocks. Here\u2019s what history says happens next.",
+      "headline": "Salesforce\u2019s stock falls as mixed earnings forecast fails to dispel AI gloom",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The Russell Microcap Index is surging \u2014 yet 57% of its members lost money last year. That never ends well.",
+      "sentiment": "negative",
+      "impact": "Salesforce announced a $50 billion share buyback and a new AI metric, but investors remain focused on the threat of AI disruption.",
       "category": "corporate_earnings",
-      "date": "2026-02-25 12:55",
-      "link": "https://www.marketwatch.com/story/small-caps-recovery-is-a-myth-built-on-unprofitable-stocks-heres-what-history-says-happens-next-46d163e3"
+      "date": "2026-02-25 21:26",
+      "link": "https://www.marketwatch.com/story/salesforces-stock-falls-as-mixed-earnings-forecast-fails-to-dispel-ai-gloom-d230d256"
     },
     {
-      "headline": "Circle gives crypto investors a reason to cheer by reporting a big jump in profits",
+      "headline": "Cava stock jumps 26% after surprise same-store sales growth, driven by menu prices",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Circle Internet\u2019s stock soars, as the stablecoin issuer reported a big jump in fourth-quarter profitability.",
+      "impact": "Cava CFO Tricia Tolivar said the company has been able to create a \"bridge\" in the increasingly K-shaped economy. ",
+      "category": "global_markets",
+      "date": "2026-02-25 21:02",
+      "link": "https://www.cnbc.com/2026/02/24/cava-q4-2025-earnings.html"
+    },
+    {
+      "headline": "We're boosting our price target on retail stock TJX after another knockout quarter",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The off-price retailer's annual sales topped $60 billion for the first time.",
       "category": "corporate_earnings",
-      "date": "2026-02-25 12:32",
-      "link": "https://www.marketwatch.com/story/circle-gives-crypto-investors-a-reason-to-cheer-by-reporting-a-big-jump-in-profits-f964ac5a"
+      "date": "2026-02-25 19:56",
+      "link": "https://www.cnbc.com/2026/02/25/were-boosting-our-price-target-on-tjx-after-another-knockout-quarter.html"
     },
     {
       "headline": "Restaurant reservation wars heat up as DoorDash enters the arena with Resy, OpenTable",
@@ -250,28 +261,18 @@
       "sentiment": "positive",
       "impact": "The still-simmering reservation wars of the last decade could fully reignite this year, as a shifting tech landscape pits the biggest players against each other.",
       "category": "global_markets",
-      "date": "2026-02-25 12:00",
+      "date": "2026-02-25 18:01",
       "link": "https://www.cnbc.com/2026/02/25/doordash-resy-opentable-restaurant-reservation-wars.html"
     },
     {
-      "headline": "These are the 2026 CNBC Changemakers: See the full list of women transforming business",
+      "headline": "Lowe's CEO says the housing market is under pressure, even as the retailer's sales jump more than 10%",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "CNBC reveals the 2026 Changemakers list, an annual list spotlighting women whose accomplishments have left an indelible mark on the business world.",
+      "sentiment": "positive",
+      "impact": "Lowe's posted more than 10% sales growth in the fourth quarter at a time when housing turnover and home improvement demand are slow.",
       "category": "global_markets",
-      "date": "2026-02-25 11:00",
-      "link": "https://www.cnbc.com/2026/02/25/changemakers-list-women-business-leadership.html"
-    },
-    {
-      "headline": "Panera Bread releases first-ever value menu with 'Mix & Match' deals",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Panera Bread is in the early stages of a turnaround, and affordability is a key part of CEO Paul Carbone's strategy for Panera.",
-      "category": "global_markets",
-      "date": "2026-02-25 11:00",
-      "link": "https://www.cnbc.com/2026/02/25/panera-bread-releases-first-ever-value-menu-with-mix-match-deals.html"
+      "date": "2026-02-25 18:01",
+      "link": "https://www.cnbc.com/2026/02/25/lowes-low-q4-2025-earnings.html"
     }
   ]
 }
