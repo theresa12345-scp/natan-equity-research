@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-03-01T14:27:35.801305",
+  "timestamp": "2026-03-02T06:44:45.629109",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 7,
+    "avg_relevance": 6.9,
+    "bullish": 10,
     "neutral": 12,
-    "bearish": 6,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -15,13 +15,14 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 7,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "Investor's Business Daily": 1,
-    "CNBC": 6,
-    "MarketBeat": 1,
+    "AD HOC NEWS": 2,
+    "Finviz - Stock Screener": 1,
+    "CNBC": 8,
     "MarketWatch": 1,
-    "The Wall Street Journal": 1
+    "Barron's": 1,
+    "Investor's Business Daily": 1
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +102,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -111,7 +112,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,38 +122,78 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-01 14:27",
+      "date": "2026-03-02 06:44",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Dow Jones Futures: Trump's Anthropic Move Hits Market ETFs; Don't Forget S&P 500's Hottest Stocks",
-      "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "neutral",
-      "impact": "The major indexes are below 50-day lines while equal-weight ETFs are at highs.",
-      "category": "us_equities",
-      "date": "2026-02-28 04:09",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-major-indexes-market-strength-sandisk-sp-500-stock/"
+      "headline": "Johnson Controls Stock Pops After Earnings: Smart Buy or Value Trap for 2026?",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Johnson Controls' stock recently jumped after surprising Wall Street with strong earnings and updated guidance, making it a key focus for investors interested in energy efficiency, commercial real estate, and infrastructure. Despite improved operational execution and strategic positioning in smart b",
+      "category": "corporate_earnings",
+      "date": "2026-03-02 04:51",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/johnson-controls-stock-pops-after-earnings-smart-buy-or-value-trap-for/68626358"
     },
     {
-      "headline": "FanDuel parent Flutter reports disappointing fourth-quarter earnings",
-      "score": 7,
+      "headline": "Avery Dennison Stock After Earnings: Quiet Outperformance Hiding in Plain Sight",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Avery Dennison (AVY) quietly exceeded Q4 earnings expectations, reflecting resilient demand in labeling and packaging, disciplined pricing, and improving margins. The company reaffirmed its full-year guidance, suggesting stability in its key markets like consumer packaged goods, retail, and logistic",
+      "category": "corporate_earnings",
+      "date": "2026-03-02 04:27",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/avery-dennison-stock-after-earnings-quiet-outperformance-hiding-in-plain/68626293"
+    },
+    {
+      "headline": "Sea Earnings: What To Look For From SE",
+      "score": 6,
+      "source": "Finviz - Stock Screener",
+      "sentiment": "positive",
+      "impact": "Sea Ltd (NYSE:SE) is set to announce its earnings on Tuesday before the bell, with analysts expecting a 29.2% year-on-year revenue increase. The company previously exceeded revenue expectations, reporting $6.07 billion, up 38.3% year-on-year. Despite a general underperformance of online marketplace ",
+      "category": "corporate_earnings",
+      "date": "2026-03-02 03:52",
+      "link": "https://finviz.com/news/326483/sea-earnings-what-to-look-for-from-se"
+    },
+    {
+      "headline": "How to think about everything presumably wrong with stocks and what to do about it",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "So, what's the plan?",
+      "category": "global_markets",
+      "date": "2026-03-01 23:20",
+      "link": "https://www.cnbc.com/2026/03/01/cramer-how-to-think-about-whats-presumably-wrong-with-stocks-and-what-to-do-about-it.html"
+    },
+    {
+      "headline": "U.S. crude oil set to top $70 a barrel when trading begins on fears of Iran supply disruption",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Flutter's 2026 revenue guidance of $17.75 billion to $19.05 billion was lower than analysts' projection.",
-      "category": "corporate_earnings",
-      "date": "2026-02-26 22:44",
-      "link": "https://www.cnbc.com/2026/02/26/fanduel-parent-flutter-flut-q4-2025-earnings.html"
+      "impact": "It is unclear who is governing Iran, the fourth-largest oil producer in OPEC, after U.S.-Israel strikes killed Ayatollah Ali Khamenei.",
+      "category": "commodities",
+      "date": "2026-03-01 18:28",
+      "link": "https://www.cnbc.com/2026/03/01/crude-oil-futures-iran.html"
     },
     {
-      "headline": "Home Depot & Lowe\u2019s: Buying the Earnings Dip",
+      "headline": "Here are the 5 big things we're watching in the stock market this week",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The week ahead promises to be jammed-packed with key jobs data and Club earnings reports.",
+      "category": "global_markets",
+      "date": "2026-03-01 15:44",
+      "link": "https://www.cnbc.com/2026/03/01/here-are-the-5-big-things-were-watching-in-the-stock-market-this-week.html"
+    },
+    {
+      "headline": "Has the retail industry rebounded? We\u2019ll find out this week from Target, Costco, Best Buy and others\u2019 earnings",
+      "score": 6,
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Despite surpassing analyst expectations for their fourth-quarter earnings, Home Depot (HD) and Lowe's (LOW) saw their stock prices dip due to cautious guidance regarding the future housing market. Both companies are strategically investing in professional contractor segments and distribution to offs",
+      "impact": "Some analysts felt the retail industry was due for a modest recovery in 2026. Results from some of the biggest chains this week will offer a sense of how that rebound is going.",
       "category": "corporate_earnings",
-      "date": "2026-03-01 13:41",
-      "link": "https://www.marketbeat.com/originals/home-depot-and-lowes-buying-the-earnings-dip/"
+      "date": "2026-03-01 15:00",
+      "link": "https://www.marketwatch.com/story/has-the-retail-industry-rebounded-well-find-out-this-week-from-target-costco-best-buy-and-others-earnings-4ea65430"
     },
     {
       "headline": "$100 oil? Prolonged Hormuz closure could spark a 1970s-style energy shock",
@@ -163,6 +204,36 @@
       "category": "commodities",
       "date": "2026-03-01 10:57",
       "link": "https://www.cnbc.com/2026/03/01/experts-weigh-potential-scenarios-for-oil-if-strait-of-hormuz-closes.html"
+    },
+    {
+      "headline": "Iran strikes disrupt thousands of flights; Dubai Airport damaged",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Tens of thousands have been stranded as the region functions as a global superconnector, linking any two points on the planet with one single stop in airports like Dubai, Doha or Abu Dhabi",
+      "category": "global_markets",
+      "date": "2026-03-01 04:13",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-01/iran-strikes-disrupt-thousands-of-flights-dubai-airport-damaged"
+    },
+    {
+      "headline": "Berkshire Hathaway\u2019s Earnings Are Nearly Here. Greg Abel\u2019s Letter Will Be Top of Mind for Investors.",
+      "score": 6,
+      "source": "Barron's",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "corporate_earnings",
+      "date": "2026-02-28 21:36",
+      "link": "https://www.barrons.com/articles/berkshire-hathaways-earnings-stock-price-2020a5d3"
+    },
+    {
+      "headline": "Stock Market Week: Reaction To Iran, Berkshire Earnings, Apple Event",
+      "score": 6,
+      "source": "Investor's Business Daily",
+      "sentiment": "neutral",
+      "impact": "The coming week's stock market action will largely revolve around investor response to Saturday's U.S.-Israeli attack on Iran.",
+      "category": "corporate_earnings",
+      "date": "2026-02-28 17:00",
+      "link": "https://www.investors.com/research/investing-action-plan/stock-market-week-reaction-to-iran-berkshire-earnings-apple-event/"
     },
     {
       "headline": "Worried about the job market or stuck in a toxic workplace? These 2 movies can feel like 'catharsis,' workplace psychologist says",
@@ -185,16 +256,6 @@
       "link": "https://www.cnbc.com/2026/02/28/cloud-storage-prices-apple-icloud-google-snap-shutterfly.html"
     },
     {
-      "headline": "What\u2019s at Stake for Oil Markets as Trump Strikes Iran",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "President Donald Trump\u2019s decision to strike Iran creates new risks for a significant chunk of the world\u2019s oil supply.",
-      "category": "commodities",
-      "date": "2026-02-28 13:20",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-28/iran-strikes-what-s-at-stake-for-oil-markets-as-trump-attacks-tehran"
-    },
-    {
       "headline": "NASA is sending its first Black and first female astronauts to the moon",
       "score": 6,
       "source": "CNBC",
@@ -213,66 +274,6 @@
       "category": "global_markets",
       "date": "2026-02-28 13:00",
       "link": "https://www.cnbc.com/2026/02/28/life-time-planet-fitness-earnings-show-k-shaped-economy.html"
-    },
-    {
-      "headline": "Any chance the Fed cuts rates this year is \u2018evaporating before our very eyes\u2019 as Iran tensions raise oil prices",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "With oil prices rising in response to growing tensions with Iran, the rationale for additional interest-rate cuts by the Federal Reserve is disappearing.",
-      "category": "us_monetary_policy",
-      "date": "2026-02-28 12:00",
-      "link": "https://www.marketwatch.com/story/any-chance-the-fed-cuts-rates-this-year-is-evaporating-before-our-very-eyes-as-iran-tensions-raise-oil-prices-18978691"
-    },
-    {
-      "headline": "Coal Power\u2019s Comeback Isn\u2019t Spurring New Investment",
-      "score": 6,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "global_markets",
-      "date": "2026-02-28 12:00",
-      "link": "https://www.wsj.com/business/energy-oil/coal-powers-comeback-isnt-spurring-new-investment-136c4a46"
-    },
-    {
-      "headline": "Bharat Biotech is said to mull $500 million IPO",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Deliberations are ongoing, and details of the deal including the size and timing may change, say people familiar with matter",
-      "category": "global_markets",
-      "date": "2026-02-28 04:50",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-27/indian-vaccine-maker-bharat-biotech-is-said-to-mull-500-million-ipo"
-    },
-    {
-      "headline": "OpenAI gives Pentagon access to models after Anthropic dustup",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "The startup also built safeguards to ensure its models behave as they should as part of the deployment, Altman said in a post on the social media platform X",
-      "category": "global_markets",
-      "date": "2026-02-28 04:48",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-28/openai-gives-pentagon-access-to-models-after-anthropic-dustup"
-    },
-    {
-      "headline": "NASA shakes up moon mission with more tests, scrapped upgrade",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "The changes announced on Friday mean that NASA is swapping the actual moon landing for an additional mission closer to Earth \u2014 while insisting the 2028 deadline for a lunar touchdown remains unchanged",
-      "category": "global_markets",
-      "date": "2026-02-28 04:25",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-27/nasa-overhauls-moon-mission-in-effort-to-cut-risks-and-costs"
-    },
-    {
-      "headline": "JPMorgan warns up to $150 billion of loans in CLOs face AI risk",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "To come up with their $40 billion-$150 billion estimate, the strategists looked at a simplified screen for CLO AI credit risk using market price and ratings information",
-      "category": "global_markets",
-      "date": "2026-02-28 04:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-27/jpmorgan-warns-up-to-150-billion-of-loans-in-clos-face-ai-risk"
     }
   ]
 }
