@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-03-03T14:48:34.702435",
+  "timestamp": "2026-03-04T06:35:31.000905",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 12,
+    "bullish": 13,
     "neutral": 9,
-    "bearish": 4,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -17,11 +17,11 @@
     "Reuters": 3,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 8,
-    "Simply Wall St": 1,
+    "CNBC": 7,
     "MarketWatch": 2,
-    "MarketBeat": 3,
-    "AlphaStreet News": 1
+    "TradingView": 2,
+    "Stock Titan": 1,
+    "Simply Wall St": 3
   },
   "top_signals": [
     {
@@ -31,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -111,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,8 +121,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-03 14:48",
+      "date": "2026-03-04 06:35",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Best Buy\u2019s holiday sales disappoint, but retailer shows progress in growing profits",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Best Buy beat fourth-quarter earnings expectations but missed Wall Street's revenue estimates.",
+      "category": "corporate_earnings",
+      "date": "2026-03-03 21:58",
+      "link": "https://www.cnbc.com/2026/03/03/best-buy-bby-q4-2026-earnings.html"
+    },
+    {
+      "headline": "New York Fed's Williams says tariff burden falls 'overwhelmingly' on U.S. businesses and consumers",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Williams said that not only were the tariffs being felt at home, but they also were keeping the Fed from reaching its 2% inflation goal.",
+      "category": "us_monetary_policy",
+      "date": "2026-03-03 14:56",
+      "link": "https://www.cnbc.com/2026/03/03/new-york-feds-williams-says-tariff-burden-falls-overwhelmingly-on-us-businesses-and-consumers.html"
     },
     {
       "headline": "Versant debut earnings report shows continued pay TV pressure, digital growth ",
@@ -133,26 +153,6 @@
       "category": "corporate_earnings",
       "date": "2026-03-03 14:33",
       "link": "https://www.cnbc.com/2026/03/03/versant-vsnt-debut-earnings-report-digital-growth.html"
-    },
-    {
-      "headline": "A Look At Viatris (VTRS) Valuation After Earnings, 2026 Guidance And MR-141 FDA Review",
-      "score": 7,
-      "source": "Simply Wall St",
-      "sentiment": "positive",
-      "impact": "Viatris (VTRS) saw increased attention and a significant share price increase following its Q4 2025 earnings, 2026 revenue guidance, affirmed dividend policy, and progress on an eye-care drug. Despite trading around $15.70, one valuation narrative suggests a fair value of $39.24, indicating it may b",
-      "category": "corporate_earnings",
-      "date": "2026-03-03 13:37",
-      "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-vtrs/viatris/news/a-look-at-viatris-vtrs-valuation-after-earnings-2026-guidanc"
-    },
-    {
-      "headline": "Best Buy\u2019s holiday sales disappoint, but retailer shows progress in growing profits",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Best Buy beat fourth-quarter earnings expectations but missed Wall Street's revenue estimates.",
-      "category": "corporate_earnings",
-      "date": "2026-03-03 12:53",
-      "link": "https://www.cnbc.com/2026/03/03/best-buy-bby-q4-2026-earnings.html"
     },
     {
       "headline": "Treasury yields rise as oil prices spike",
@@ -175,34 +175,94 @@
       "link": "https://www.cnbc.com/2026/03/02/versant-earnings-report-test-wall-street-cable-tv.html"
     },
     {
-      "headline": "`Mistakes were made,' Grassley tells Noem about Trump's immigration crackdown",
+      "headline": "ROE Stock Fund Price and Chart \u2014 NASDAQ:ROE",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "DHS Secretary Kristi Noem is testifying before the Senate Judiciary Committee after coming under fire for her leadership during a nationwide immigration sweep.",
+      "source": "TradingView",
+      "sentiment": "positive",
+      "impact": "The ROE Stock Fund (Astoria US Equal Weight Quality Kings ETF) tracks US large- and mid-cap stocks based on quality, valuation, dividend potential, and growth, aiming for an equally weighted and sector-optimized portfolio. The fund launched on August 1, 2023, has $223.10 million in assets under mana",
       "category": "us_equities",
-      "date": "2026-03-03 14:42",
-      "link": "https://www.cnbc.com/2026/03/03/dhs-noem-immigration-minneapolis-senate-judiciary-hearing.html"
+      "date": "2026-03-04 05:52",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-ROE/"
     },
     {
-      "headline": "Google employees call for military limits on AI amid Iran strikes, Anthropic fallout",
+      "headline": "Nuveen NASDAQ 100 Dynamic Overwrite (QQQX) plans virtual 2026 board elections",
       "score": 6,
-      "source": "CNBC",
+      "source": "Stock Titan",
       "sentiment": "neutral",
-      "impact": "Employees at Alphabet and OpenAI are pushing for stricter limits on the military's use of AI, as tensions rise following the blacklisting of Anthropic's models.",
-      "category": "global_markets",
-      "date": "2026-03-03 14:23",
-      "link": "https://www.cnbc.com/2026/03/03/anthropic-fallout-iran-war-tech-military-ai.html"
+      "impact": "Nuveen NASDAQ 100 Dynamic Overwrite Fund (QQQX) and several affiliated Nuveen closed-end funds will hold a virtual Annual Meeting of Shareholders on April 16, 2026, to elect Board Members. Shareholders of record as of February 9, 2026, are eligible to vote by mail, telephone, Internet, or electronic",
+      "category": "us_equities",
+      "date": "2026-03-04 05:52",
+      "link": "https://www.stocktitan.net/sec-filings/QQQX/def-14a-nuveen-nasdaq-100-dynamic-overwrite-fund-definitive-proxy-sta-9c6251992345.html"
     },
     {
-      "headline": "We're buying more of this megacap AI stock as the market heads for a lower open",
+      "headline": "A4EQ5K Bond Price and Chart \u2014 GETTEX:A4EQ5K",
+      "score": 6,
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "This article provides a detailed overview of the A4EQ5K Abbott Laboratories 3.7% 09-MAR-2029 bond, including its price chart and key terms. It lists the outstanding amount, face value, coupon rate, and maturity date, along with information about the issuer, Abbott Laboratories. The article also enco",
+      "category": "fixed_income",
+      "date": "2026-03-04 05:43",
+      "link": "https://www.tradingview.com/symbols/GETTEX-A4EQ5K/"
+    },
+    {
+      "headline": "Is PSA\u2019s Earnings Beat, Data Push and Texas Move Altering The Investment Case For Public Storage (PSA)?",
+      "score": 6,
+      "source": "Simply Wall St",
+      "sentiment": "positive",
+      "impact": "Public Storage (PSA) recently reported strong Q4 earnings and confident 2026 FFO guidance, alongside advancing a data science partnership and relocating its headquarters to North Texas. These developments suggest a strategic shift towards analytics, operational efficiency, and capital deployment in ",
+      "category": "corporate_earnings",
+      "date": "2026-03-04 05:38",
+      "link": "https://simplywall.st/stocks/us/real-estate/nyse-psa/public-storage/news/is-psas-earnings-beat-data-push-and-texas-move-altering-the"
+    },
+    {
+      "headline": "Ecolab (ECL) Valuation Check As Executive Reshuffle And Strong Earnings Draw Fresh Attention",
+      "score": 6,
+      "source": "Simply Wall St",
+      "sentiment": "neutral",
+      "impact": "Ecolab (ECL) is under fresh scrutiny following strong Q4 earnings and a significant leadership restructure. Despite recent share price gains, the current valuation of $298.46 is considered undervalued compared to an analyst target of $321.86, driven by anticipated margin improvements from digital in",
+      "category": "corporate_earnings",
+      "date": "2026-03-04 05:13",
+      "link": "https://simplywall.st/stocks/us/materials/nyse-ecl/ecolab/news/ecolab-ecl-valuation-check-as-executive-reshuffle-and-strong"
+    },
+    {
+      "headline": "Should Emerson\u2019s Upgraded EPS Guidance and US$250 Million Buyback Require Action From Emerson Electric (EMR) Investors?",
+      "score": 6,
+      "source": "Simply Wall St",
+      "sentiment": "positive",
+      "impact": "Emerson Electric recently reported strong quarterly results, exceeding earnings expectations, and raised its full-year EPS guidance. The company also announced a US$250 million share buyback as part of a larger plan to return US$10 billion to shareholders by 2028, signaling management's confidence i",
+      "category": "corporate_earnings",
+      "date": "2026-03-04 05:13",
+      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-emr/emerson-electric/news/should-emersons-upgraded-eps-guidance-and-us250-million-buyb"
+    },
+    {
+      "headline": "China's factory activity slumps more than expected in February as holiday disrupts production",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "This AI stock has a more visible path to victory than its hyperscaler peers.",
+      "impact": "China's factory activity faltered in February as manufacturers paused production and cargo shipment to celebrate an extended holiday.",
+      "category": "asia_economy",
+      "date": "2026-03-04 01:42",
+      "link": "https://www.cnbc.com/2026/03/04/china-factory-activity-february-pmi.html"
+    },
+    {
+      "headline": "CrowdStrike gives upbeat earnings outlook as AI raises the stakes around cyberthreats",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "CrowdStrike\u2019s CEO cited \u2018elevated demand\u2019 for the company\u2019s Falcon cybersecurity platform in the AI era.",
+      "category": "corporate_earnings",
+      "date": "2026-03-04 01:22",
+      "link": "https://www.marketwatch.com/story/crowdstrike-gives-upbeat-earnings-outlook-as-ai-raises-the-stakes-around-cyberthreats-087a4b2e?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Sam Altman tells OpenAI staffers that military's 'operational decisions' are up to the government",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "In an all-hands meetings with OpenAI employees on Tuesday, CEO Sam Altman said his company doesn't get to choose how the military uses its technology.",
       "category": "global_markets",
-      "date": "2026-03-03 13:57",
-      "link": "https://www.cnbc.com/2026/03/03/were-buying-more-of-this-ai-stock-as-the-market-indicates-a-lower-open.html"
+      "date": "2026-03-03 22:57",
+      "link": "https://www.cnbc.com/2026/03/03/sam-altman-tells-openai-staff-operational-decisions-up-to-government.html"
     },
     {
       "headline": "Target says it's on track to end its sales slump after another lackluster quarter",
@@ -211,68 +271,8 @@
       "sentiment": "negative",
       "impact": "The big-box retailer Target posted its fiscal fourth-quarter results as it hosted an investor meeting at its Minneapolis headquarters.",
       "category": "corporate_earnings",
-      "date": "2026-03-03 13:51",
+      "date": "2026-03-03 21:53",
       "link": "https://www.cnbc.com/2026/03/03/target-tgt-q4-2025-earnings.html"
-    },
-    {
-      "headline": "CrowdStrike (NASDAQ:CRWD) Now Covered by Wells Fargo & Company",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Wells Fargo & Company has initiated coverage on CrowdStrike (NASDAQ:CRWD) with an \"overweight\" rating and a $450.00 price target, suggesting a potential upside of 16.93%. This new coverage adds to a largely positive analyst consensus for the cybersecurity firm, which has a \"Moderate Buy\" rating and ",
-      "category": "us_equities",
-      "date": "2026-03-03 13:50",
-      "link": "https://www.marketbeat.com/instant-alerts/crowdstrike-nasdaqcrwd-now-covered-by-wells-fargo-company-2026-03-03/"
-    },
-    {
-      "headline": "Fortinet (NASDAQ:FTNT) Coverage Initiated at Wells Fargo & Company",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Wells Fargo & Company has initiated coverage on Fortinet (NASDAQ:FTNT) with an \"underweight\" rating and a $64.00 price target, suggesting a potential 19.17% downside. This new rating contrasts with other recent analyst reports, which include \"neutral,\" \"hold,\" and \"strong-buy\" ratings, leading to an",
-      "category": "us_equities",
-      "date": "2026-03-03 13:49",
-      "link": "https://www.marketbeat.com/instant-alerts/fortinet-nasdaqftnt-coverage-initiated-at-wells-fargo-company-2026-03-03/"
-    },
-    {
-      "headline": "Expedia Group (NASDAQ:EXPE) Price Target Cut to $245.00 by Analysts at Mizuho",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Mizuho analysts have lowered their price target for Expedia Group (NASDAQ:EXPE) from $270.00 to $245.00, maintaining a \"neutral\" rating. Despite this cut, other firms like Royal Bank of Canada, Wedbush, Bank of America, HSBC, and The Goldman Sachs Group have revised their price targets or ratings. T",
-      "category": "us_equities",
-      "date": "2026-03-03 13:48",
-      "link": "https://www.marketbeat.com/instant-alerts/expedia-group-nasdaqexpe-price-target-cut-to-24500-by-analysts-at-mizuho-2026-03-03/"
-    },
-    {
-      "headline": "Target Corp Q4 2025 Earnings Results",
-      "score": 6,
-      "source": "AlphaStreet News",
-      "sentiment": "positive",
-      "impact": "Target Corporation reported Q4 and full-year 2025 financial results, marking a transitional year with solid earnings despite a modest sales decline. The company outlined a return to growth strategy for fiscal 2026, showing improved margins and positive trends in February sales and traffic. This posi",
-      "category": "corporate_earnings",
-      "date": "2026-03-03 13:41",
-      "link": "https://news.alphastreet.com/target-corp-q4-2025-earnings-results/?utm_source=rss&utm_medium=rss&utm_campaign=target-corp-q4-2025-earnings-results"
-    },
-    {
-      "headline": "Japanese homebuilders go on a U.S. shopping spree",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Japanese companies now own 33 homebuilders that operate in the U.S. Once the most recent deals are closed, they will have close to 6% of U.S. market share. ",
-      "category": "global_markets",
-      "date": "2026-03-03 13:22",
-      "link": "https://www.cnbc.com/2026/03/03/japanese-homebuilders-go-on-a-us-shopping-spree.html"
-    },
-    {
-      "headline": "Trump has less than 30 days to end the Iran conflict or he\u2019ll lose his inflation battle",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Markets expect a \u201cVenezuela II\u201d scenario in which the bad guy falls, order returns and oil drifts lower.",
-      "category": "global_markets",
-      "date": "2026-03-03 13:10",
-      "link": "https://www.marketwatch.com/story/trump-has-less-than-30-days-to-end-the-iran-conflict-or-hell-lose-his-inflation-battle-7fed86f9"
     }
   ]
 }
