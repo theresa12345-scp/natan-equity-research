@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-04T14:39:28.135101",
+  "timestamp": "2026-03-05T06:38:55.658565",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 8,
-    "neutral": 12,
-    "bearish": 5,
-    "high_priority": 8,
+    "avg_relevance": 7.2,
+    "bullish": 9,
+    "neutral": 13,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
-    "Bloomberg": 2,
+    "Reuters": 8,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "CNBC": 8,
-    "MarketWatch": 1,
-    "MoneyDJ\u7406\u8ca1\u7db2": 1,
-    "Stock Titan": 1
+    "CNBC": 6,
+    "Simply Wall St": 1,
+    "intelligentinvestor.com.au": 1,
+    "AD HOC NEWS": 1
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Global Bonds on Knife-Edge as Iran War Revives Inflation Threat",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "The US-Israeli war on Iran is rekindling inflation concerns across financial markets, sapping the outlook for global bonds that had just posted their best start to a year since the pandemic.",
+      "category": "fixed_income",
+      "date": "2026-03-03 12:27",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-03/global-bonds-on-knife-edge-as-iran-war-revives-inflation-threat"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,7 +130,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-04 14:39",
+      "date": "2026-03-05 06:38",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -128,30 +138,30 @@
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The dispute centers on whether crypto firms like Coinbase can offer yields on stablecoins, which banks warn will siphon trillions of dollars from the industry.",
+      "impact": "The dispute centers on whether crypto firms like Coinbase can offer yields on stablecoins, which banks warn will siphon trillions of dollars from the industry. ",
       "category": "fixed_income",
-      "date": "2026-03-04 14:26",
+      "date": "2026-03-04 19:24",
       "link": "https://www.cnbc.com/2026/03/04/trump-crypto-banks-stablecoin-yield.html"
     },
     {
-      "headline": "Adidas shares slump on weak profit guidance as tariffs and exchange rates bite",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The German sporting-goods retailer announced a \u20ac400 million hit from tariffs and exchange rate changes.",
-      "category": "corporate_earnings",
-      "date": "2026-03-04 12:49",
-      "link": "https://www.marketwatch.com/story/shares-in-adidas-slump-on-weak-profit-guidance-as-tariffs-exchange-rate-bites-f711a372?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Treasury Secretary Bessent says U.S. will make 'series of announcements' to support oil trade in the Gulf",
+      "headline": "A tech stock's long-awaited breakout \u2014 plus, our hopes for Broadcom's earnings",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Bessent sought to calm concerns about a potential energy shock, arguing that oil markets are well supplied even as tensions escalate in the Middle East.",
-      "category": "fixed_income",
-      "date": "2026-03-04 12:44",
-      "link": "https://www.cnbc.com/2026/03/04/treasury-secretary-bessent-says-us-will-make-series-of-announcements-to-support-oil-trade-in-the-gulf.html"
+      "sentiment": "neutral",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "corporate_earnings",
+      "date": "2026-03-04 17:33",
+      "link": "https://www.cnbc.com/2026/03/04/a-tech-stocks-long-awaited-breakout-our-hopes-for-broadcoms-earnings.html"
+    },
+    {
+      "headline": "Best Buy\u2019s holiday sales disappoint, but retailer shows progress in growing profits",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Best Buy beat fourth-quarter earnings expectations but missed Wall Street's revenue estimates.",
+      "category": "corporate_earnings",
+      "date": "2026-03-03 21:58",
+      "link": "https://www.cnbc.com/2026/03/03/best-buy-bby-q4-2026-earnings.html"
     },
     {
       "headline": "Versant debut earnings report shows continued pay TV pressure, digital growth ",
@@ -164,16 +174,6 @@
       "link": "https://www.cnbc.com/2026/03/03/versant-vsnt-debut-earnings-report-digital-growth.html"
     },
     {
-      "headline": "Best Buy\u2019s holiday sales disappoint, but retailer shows progress in growing profits",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Best Buy beat fourth-quarter earnings expectations but missed Wall Street's revenue estimates.",
-      "category": "corporate_earnings",
-      "date": "2026-03-03 12:01",
-      "link": "https://www.cnbc.com/2026/03/03/best-buy-bby-q4-2026-earnings.html"
-    },
-    {
       "headline": "Versant is about to test Wall Street\u2019s appetite for cable TV in its first earnings report as a public company",
       "score": 7,
       "source": "CNBC",
@@ -184,94 +184,94 @@
       "link": "https://www.cnbc.com/2026/03/02/versant-earnings-report-test-wall-street-cable-tv.html"
     },
     {
-      "headline": "Disney launches its Adventure cruise ship \u2014 a new foothold in Southeast Asia",
+      "headline": "Assessing Welltower (WELL) Valuation After Strong Senior Housing Earnings And Bullish Analyst Outlook",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The Disney Adventure sets sail from Singapore this month. The company's global aspirations coincide with a sharp decline in international visitors to the U.S.",
-      "category": "asia_economy",
-      "date": "2026-03-04 14:00",
-      "link": "https://www.cnbc.com/2026/03/04/disney-adventure-cruise-ship-foothold-asia.html"
+      "source": "Simply Wall St",
+      "sentiment": "positive",
+      "impact": "Welltower (WELL) has seen renewed investor attention following strong Q4 FY2025 earnings, reporting 9.6% same-store revenue growth and improved senior housing metrics. While the company has shown significant share price momentum, analysts are divided on its valuation, with a \"most popular narrative\"",
+      "category": "corporate_earnings",
+      "date": "2026-03-05 05:05",
+      "link": "https://simplywall.st/stocks/us/real-estate/nyse-well/welltower/news/assessing-welltower-well-valuation-after-strong-senior-housi"
     },
     {
-      "headline": "BondBloxx BBB\u8a55\u7d1a10\u5e74\u4ee5\u4e0a\u516c\u53f8\u50b5\u5238ETF-BBBL-ETF\u76f8\u95dc\u5206\u6790",
+      "headline": "Simplify Interest Rate Hedge ETF (NYSE: PFIX) - Dividends",
       "score": 6,
-      "source": "MoneyDJ\u7406\u8ca1\u7db2",
+      "source": "intelligentinvestor.com.au",
       "sentiment": "neutral",
-      "impact": "This article provides a correlation analysis for the BondBloxx BBB-Rated 10+ Year Corporate Bond ETF (BBBL-ETF). It lists various ETFs and their correlation coefficients with BBBL, focusing on both positively and negatively correlated funds. The data helps investors understand how BBBL's performance",
-      "category": "fixed_income",
-      "date": "2026-03-04 13:53",
-      "link": "https://www.moneydj.com/etf/x/basic/basic0014.xdjhtm?etfid=bbbl&b=2"
-    },
-    {
-      "headline": "Westfield reports 0 shares in Bicycle Therapeutics (NASDAQ: BCYC)",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "Westfield Capital Management Company, L.P. filed an Amendment No. 2 to a Schedule 13G, reporting that it beneficially owned 0 shares of Bicycle Therapeutics plc (NASDAQ: BCYC) common stock as of December 31, 2025. The filing indicates no voting or dispositive power held by Westfield for BCYC shares.",
+      "impact": "This article provides a detailed list of past and upcoming dividend distributions for the Simplify Interest Rate Hedge ETF (PFIX). It includes information such as the distribution type, share price at the time, ex-dividend date, and payment date for numerous dividends ranging from 2024 to 2026. The ",
       "category": "us_equities",
-      "date": "2026-03-04 13:53",
-      "link": "https://www.stocktitan.net/sec-filings/BCYC/schedule-13g-a-bicycle-therapeutics-plc-amended-passive-investment-di-e89d30997557.html"
+      "date": "2026-03-05 04:52",
+      "link": "https://www.intelligentinvestor.com.au/shares/nyse-pfix/simplify-interest-rate-hedge-etf/dividends"
     },
     {
-      "headline": "US kills Iranian leader of Trump assassination plot, Pentagon says - Reuters",
+      "headline": "CSX Stock After Earnings: Rail Giant Quietly Repricing Risk",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "neutral",
+      "impact": "CSX Corporation's latest earnings report indicates a quiet repricing of rail risk and long-term cash flows by Wall Street. The rail giant, a direct reflection of the US economy, has reset expectations on volume, pricing, and margins due to a tricky freight market. While facing modest revenue pressur",
+      "category": "corporate_earnings",
+      "date": "2026-03-05 04:31",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/csx-stock-after-earnings-rail-giant-quietly-repricing-risk/68636639"
+    },
+    {
+      "headline": "Iran launches wave of missiles at Israel; US Republicans block measure to halt US air campaign - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNZG9GNmpWbEZQTDU2Ul9jQzE0Tkw0anFFQ3Fackh1R1k4VVNzWVNKZ203Sk1nZzRJLXNUWmFRZUI0MzEtcmJjVGNzZ0VTcFdTYXRxbkpiY0d6UV9qQ2FhaUJQVWlwYkhXM0l1WVdwYWJJRU55NGxoX09fNkctZjBmUUFNdlpMWlU5ckU4WS1uVGI5VlU1c2MwZDdxTjJIZVNNbnJ3dm0zRnNoMVpfODlzRTdpcmRoQ09TYm",
+      "category": "global_markets",
+      "date": "2026-03-05 03:58",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZG9GNmpWbEZQTDU2Ul9jQzE0Tkw0anFFQ3Fackh1R1k4VVNzWVNKZ203Sk1nZzRJLXNUWmFRZUI0MzEtcmJjVGNzZ0VTcFdTYXRxbkpiY0d6UV9qQ2FhaUJQVWlwYkhXM0l1WVdwYWJJRU55NGxoX09fNkctZjBmUUFNdlpMWlU5ckU4WS1uVGI5VlU1c2MwZDdxTjJIZVNNbnJ3dm0zRnNoMVpfODlzRTdpcmRoQ09TYm1iRmZwWE9MeW5TbmJIdUhn?oc=5"
+    },
+    {
+      "headline": "Iranian sailors recovering in Sri Lankan hospital after US submarine attack, authorities say - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPN2tzc0Y5WWdBNExlSkNjSnFtZVV4MWtWNDBBSWRlZUVvcm5BWmg5Ym9UVTRaazQxMVg3bmVuZ01qcTQwOTB4cDhuWkg3R3p2ZGNsSzBmV3Vid2lFcE1nZU1KcHpzWlRyNlFzMWpSVE0wRDJsSmo4UnFqXzBSMTdQSEc5cWNpLUl4Umh1eUdvdDBLT0poOXhFTGFOSTBrdWlCYlZR?oc=5\" target=\"_blank\">US kill",
+      "impact": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPMzY2TkdyWnY0LWxPVk8tQ0N6OWlZc2RTbGh6aEtUUmlubmdhVkJoOURhNFJtbWxwZUZSWVZOSXljd3IxNmt3dlh5V3RneFR5SWxBQi12eWdZX0trWWsteXlwNUh0WElxSHg5clhWbkFMMDc5ajR4R0RmRkdKX1hkeS1FbnFYSHFMTGxhS2FSTXQ2WDJxdFdsM2VsTFhIaFN2ZG5rMzI1bnZoeEsySld3ZlBySW83OHpWWW",
       "category": "global_markets",
-      "date": "2026-03-04 13:32",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN2tzc0Y5WWdBNExlSkNjSnFtZVV4MWtWNDBBSWRlZUVvcm5BWmg5Ym9UVTRaazQxMVg3bmVuZ01qcTQwOTB4cDhuWkg3R3p2ZGNsSzBmV3Vid2lFcE1nZU1KcHpzWlRyNlFzMWpSVE0wRDJsSmo4UnFqXzBSMTdQSEc5cWNpLUl4Umh1eUdvdDBLT0poOXhFTGFOSTBrdWlCYlZR?oc=5"
+      "date": "2026-03-05 03:51",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMzY2TkdyWnY0LWxPVk8tQ0N6OWlZc2RTbGh6aEtUUmlubmdhVkJoOURhNFJtbWxwZUZSWVZOSXljd3IxNmt3dlh5V3RneFR5SWxBQi12eWdZX0trWWsteXlwNUh0WElxSHg5clhWbkFMMDc5ajR4R0RmRkdKX1hkeS1FbnFYSHFMTGxhS2FSTXQ2WDJxdFdsM2VsTFhIaFN2ZG5rMzI1bnZoeEsySld3ZlBySW83OHpWWWE5SEpsdS13YVZzOUE?oc=5"
     },
     {
-      "headline": "U.S. crude oil retreats for the first session since Iran war began as Bessent pledges support",
+      "headline": "Pakistani man says Iran forced him into plot to kill Trump, media say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPMDdIUG9fMXlBMTVIWHQ5M1UtVUJPNU9aaG5LVTdRcVNuTW9tZ1p3M0o5YkQ0NXRtcm9LYjZwSlFFSVYzYkp0Szg2bDQ2YkNLQmh0WkxXdFVWSHF1ejZWQTZZVE9RYjg1WU9sNHlET295REpaNHFTSTlSQXlJaFZJN2Etb2ctd0NPcEQtcEZncVdEd0RUSHlJOFVDYVZJcGc1dW95RjE2VElPMGtiNkNJ?oc=5\" target=",
+      "category": "global_markets",
+      "date": "2026-03-05 03:18",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMDdIUG9fMXlBMTVIWHQ5M1UtVUJPNU9aaG5LVTdRcVNuTW9tZ1p3M0o5YkQ0NXRtcm9LYjZwSlFFSVYzYkp0Szg2bDQ2YkNLQmh0WkxXdFVWSHF1ejZWQTZZVE9RYjg1WU9sNHlET295REpaNHFTSTlSQXlJaFZJN2Etb2ctd0NPcEQtcEZncVdEd0RUSHlJOFVDYVZJcGc1dW95RjE2VElPMGtiNkNJ?oc=5"
+    },
+    {
+      "headline": "Pentagon identifies two soldiers killed in Iran war - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQWW41XzI4SlJTaHkyakdfWHFnbVlMMlQwcDljNzdRMFBySTA4eWNTMlJxRkN1am1hQ0RwYkxObTZUTHgzNTB6NGJLU053TXNGRnRNaU15Q0l4cmQ2RWVnUEN2RFZUWVRJeVZtckVvSkJ2LTVmMVZhWjd2MF9PTU01ZHRJQjhNaG5QMzVxTjc0SEFCeVRB?oc=5\" target=\"_blank\">Pentagon identifies two sol",
+      "category": "global_markets",
+      "date": "2026-03-05 03:09",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWW41XzI4SlJTaHkyakdfWHFnbVlMMlQwcDljNzdRMFBySTA4eWNTMlJxRkN1am1hQ0RwYkxObTZUTHgzNTB6NGJLU053TXNGRnRNaU15Q0l4cmQ2RWVnUEN2RFZUWVRJeVZtckVvSkJ2LTVmMVZhWjd2MF9PTU01ZHRJQjhNaG5QMzVxTjc0SEFCeVRB?oc=5"
+    },
+    {
+      "headline": "Broadcom's custom AI chip business stays hot and gives the bulls a much-needed win",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The oil market has calmed after President Donald Trump said the U.S. would insure tankers  and provide naval escorts if necessary.",
+      "impact": "Shares of Broadcom rose about 5% in extended trading after its earnings report underscored the strength of its custom chip business.",
+      "category": "global_markets",
+      "date": "2026-03-05 01:54",
+      "link": "https://www.cnbc.com/2026/03/04/broadcoms-custom-ai-chip-business-stays-hot-and-gives-the-bulls-a-much-needed-win-.html"
+    },
+    {
+      "headline": "Oil leaps 3% on supply concerns as Iran conflict widens - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQTk9USTU0R1pQbWI3SEVmeXZ3ZkU4d0hINks1WFhaWGJsVC1RTXlCbldHdHVidVc3OXBDZnBiaFpMeFhMTUtLTEdHd0xFRFVqem1CMFNRU1ZnZjZGb3lXY2FIbk52X003YXh2eEU3TlZOVzlTSmw5a3VQc3pEMmU1VUIwTzZlSlpMdzVJb2xBQnJnZw?oc=5\" target=\"_blank\">Oil leaps 3% on supply concer",
       "category": "commodities",
-      "date": "2026-03-04 13:22",
-      "link": "https://www.cnbc.com/2026/03/04/crude-oil-prices-today-iran-war.html"
-    },
-    {
-      "headline": "Big investors have been fleeing for-sale housing market, even before Trump ordered ban",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "President Donald Trump wants to ban big investors from buying single-family rental homes, but investors have already been selling due to high home prices.",
-      "category": "global_markets",
-      "date": "2026-03-04 12:55",
-      "link": "https://www.cnbc.com/2026/03/04/institutional-investors-housing-market.html"
-    },
-    {
-      "headline": "Exclusive: US carried out strike on Iranian warship off Sri Lanka coast, officials say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNNi15blNOd080aURvM2hwLVlEWDVCa2hFVURjbTRDczZxeklkdjdTeGVrUm9raEJvNE1fSlBuM2RxOGZ1NHRhcl9ILWFVSjFEZDJUdlF3dDlhQnhSZFFuUkVZT3BVM3JhY1FXLWlnQkxXcWRVakU0cUFUdzlKZ183YUk2czhJTkhVTVpXaF85OEVMS2luOU84ZGduY29lcjhGTVg4SEItVWpsOWtXNVpaQ0tIY0xZeS1mNj",
-      "category": "global_markets",
-      "date": "2026-03-04 12:53",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNi15blNOd080aURvM2hwLVlEWDVCa2hFVURjbTRDczZxeklkdjdTeGVrUm9raEJvNE1fSlBuM2RxOGZ1NHRhcl9ILWFVSjFEZDJUdlF3dDlhQnhSZFFuUkVZT3BVM3JhY1FXLWlnQkxXcWRVakU0cUFUdzlKZ183YUk2czhJTkhVTVpXaF85OEVMS2luOU84ZGduY29lcjhGTVg4SEItVWpsOWtXNVpaQ0tIY0xZeS1mNjJXUTA0cExSM3M1?oc=5"
-    },
-    {
-      "headline": "Turkey says NATO defences destroyed missile fired from Iran over Mediterranean - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOcWlvZ0dwTnhWYVBCcTZKZF8tT2xWWUJ1cndvTmhTNFpKUDZmMUtHZzd4TkVqNGdtRVBSMjQ1bklQRXJMdmt6YnotaVFpTHRRUDRpdzdva0FvMkNDSTh4MUZzZFNsQmc4T0Y0dEc3RGo1dGdybkVkcUJoYW9QUVdmS2FJeVJZY3QtY21Tajg5NjJ2Tjh3aU00MUhUV1hDc0F0YWZueDNZTmZFM0lvTmx3Zk9Ea2xwdw?oc=",
-      "category": "global_markets",
-      "date": "2026-03-04 11:50",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcWlvZ0dwTnhWYVBCcTZKZF8tT2xWWUJ1cndvTmhTNFpKUDZmMUtHZzd4TkVqNGdtRVBSMjQ1bklQRXJMdmt6YnotaVFpTHRRUDRpdzdva0FvMkNDSTh4MUZzZFNsQmc4T0Y0dEc3RGo1dGdybkVkcUJoYW9QUVdmS2FJeVJZY3QtY21Tajg5NjJ2Tjh3aU00MUhUV1hDc0F0YWZueDNZTmZFM0lvTmx3Zk9Ea2xwdw?oc=5"
-    },
-    {
-      "headline": "Turkey says NATO defences destroyed incoming missile from Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPSXVOUzZEcFo4ZXQ1MGpGWm1ONktneEgtTHdrU1UxRVFHTDROcjRqUHBxZWtXakZ6LXdodktSOXJJSEwzQWZKMWdKRTRUZFEzODhHNHpuTG50U2JST0JkemF0dWlDLW5Hb2FTUnBIaXU4YTdTNG9acFE5bHNKQTZKRlN4SWJ2UlNVcGZLRXFCN3BsVFllRV80VThGVUwzVDNfNklQMHBiaGVHalgybXpLcEFNWXhEdHJ0cU",
-      "category": "global_markets",
-      "date": "2026-03-04 11:50",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSXVOUzZEcFo4ZXQ1MGpGWm1ONktneEgtTHdrU1UxRVFHTDROcjRqUHBxZWtXakZ6LXdodktSOXJJSEwzQWZKMWdKRTRUZFEzODhHNHpuTG50U2JST0JkemF0dWlDLW5Hb2FTUnBIaXU4YTdTNG9acFE5bHNKQTZKRlN4SWJ2UlNVcGZLRXFCN3BsVFllRV80VThGVUwzVDNfNklQMHBiaGVHalgybXpLcEFNWXhEdHJ0cUFqNW1KeG1XQ2JNZkE?oc=5"
+      "date": "2026-03-05 01:53",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTk9USTU0R1pQbWI3SEVmeXZ3ZkU4d0hINks1WFhaWGJsVC1RTXlCbldHdHVidVc3OXBDZnBiaFpMeFhMTUtLTEdHd0xFRFVqem1CMFNRU1ZnZjZGb3lXY2FIbk52X003YXh2eEU3TlZOVzlTSmw5a3VQc3pEMmU1VUIwTzZlSlpMdzVJb2xBQnJnZw?oc=5"
     }
   ]
 }
