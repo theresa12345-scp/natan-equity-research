@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-12T14:53:37.727941",
+  "timestamp": "2026-03-13T06:39:39.242798",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 12,
+    "avg_relevance": 7.0,
+    "bullish": 8,
     "neutral": 12,
-    "bearish": 1,
-    "high_priority": 10,
+    "bearish": 5,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,16 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
+    "Reuters": 11,
     "Bloomberg": 2,
-    "CNBC": 6,
+    "CNBC": 1,
     "Caixin/S&P Global": 1,
-    "The Globe and Mail": 1,
-    "Investor's Business Daily": 1,
-    "TipRanks": 1,
-    "Simply Wall St": 1,
+    "Investing.com": 1,
     "MarketBeat": 1,
-    "Barchart.com": 1
+    "Stocktwits": 1,
+    "MarketWatch": 3
   },
   "top_signals": [
     {
@@ -33,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -73,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -113,18 +111,8 @@
       "sentiment": "negative",
       "impact": "Dick's Sporting Goods' merger with Foot Locker led to a 60% increase in sales but a substantial decline in companywide profits. ",
       "category": "corporate_earnings",
-      "date": "2026-03-12 13:18",
+      "date": "2026-03-12 18:18",
       "link": "https://www.cnbc.com/2026/03/12/dicks-sporting-goods-dks-earnings-q4-2025.html"
-    },
-    {
-      "headline": "S&P 500 futures are little changed as traders monitor oil prices, await inflation data: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Stock futures oscillated around the flatline after a bout of volatile trading over the previous session.",
-      "category": "us_equities",
-      "date": "2026-03-11 10:24",
-      "link": "https://www.cnbc.com/2026/03/10/stock-market-today-live-updates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -133,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -143,138 +131,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-12 14:53",
+      "date": "2026-03-13 06:39",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Salesforce Taps Bonds for Buybacks as Investors Demand More Yield",
+      "headline": "Earnings call transcript: Open Lending Q4 2025 revenue miss impacts stock",
       "score": 7,
-      "source": "The Globe and Mail",
-      "sentiment": "neutral",
-      "impact": "Salesforce (CRM) is conducting a $25 billion bond sale primarily to fund share buybacks, marking one of its largest debt offerings. Despite the significant issuance, investor demand was weaker than expected, leading to higher yields for buyers compared to previous offerings, reflecting concerns abou",
-      "category": "fixed_income",
-      "date": "2026-03-12 13:16",
-      "link": "https://www.theglobeandmail.com/investing/markets/stocks/BAC/pressreleases/713279/salesforce-taps-bonds-for-buybacks-as-investors-demand-more-yield/"
+      "source": "Investing.com",
+      "sentiment": "negative",
+      "impact": "Open Lending (LPRO) reported a Q4 2025 revenue miss, hitting $19.3 million against an anticipated $21.92 million, causing its stock to drop 9.02% in after-hours trading. Despite this, EPS met expectations at $0.01, and the company achieved a net income of $1.7 million, a significant improvement from",
+      "category": "corporate_earnings",
+      "date": "2026-03-13 04:51",
+      "link": "https://m.investing.com/news/transcripts/earnings-call-transcript-open-lending-q4-2025-revenue-miss-impacts-stock-93CH-4558666?ampMode=1"
     },
     {
-      "headline": "India\u2019s consumer inflation rises to 3.2% in February as oil risks loom",
+      "headline": "Trump demands Fed cut rates. His Iran war has investors betting otherwise - Reuters",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "India's inflation for February is within central bank's comfort level range but policy action is unlikely due to rising global energy prices",
-      "category": "commodities",
-      "date": "2026-03-12 10:41",
-      "link": "https://www.cnbc.com/2026/03/12/india-february-inflation-cpi-oil-hormuz-risk.html"
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Trump demands Fed cut rates. His Iran war has investors betting otherwise\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-03-12 22:09",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNkJCd3EzTW5OUUkwMlNuNFlBMml5ZkZNZFpHNGdzSjgzVnVMT0ZxMFczemgwZ0JfWHdxQ0dQamxOUFZvcG42LW80NXhpNnZmUUw3LTJ4N1pxQTFLbE1yVDRnZVQzYlQxWURIbmZBek56Tk1KUUw3aVpUS0tZYk04aTlCQXNEN25lT2ZmR2E3cF9NQU1IT2QzQU5ZUFo3TWtranVrM01hTVJQZU1HZ1BCclhjSE5QdXdC?oc=5"
     },
     {
-      "headline": "Dow Jones Futures Fall, Oracle Jumps On Earnings; Oil Swings With Reserves Release Plan Due",
-      "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "positive",
-      "impact": "The IEA reportedly will propose a record release in crude reserves to ease prices.",
-      "category": "us_equities",
-      "date": "2026-03-11 12:01",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-price-swings-ai-stocks-oracle-earnings/"
-    },
-    {
-      "headline": "Flights are already getting more expensive after jet fuel spike. When should you book?",
+      "headline": "Exclusive: With Iran war exit elusive, Trump aides vie to affect outcome - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Some airlines are already raising fares after a historic surge in jet-fuel costs.",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Exclusive: With Iran war exit elusive, Trump aides vie to affect outcome\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-12 14:36",
-      "link": "https://www.cnbc.com/2026/03/12/airfare-prices-jet-fuel-iran-war.html"
+      "date": "2026-03-13 05:02",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMGNvdWxQazMxelV6UklsTUloWlB3SC03cHFkOXVZdmJRMkpLYkFlVHpYODlMOTN5aHVKaUpkQnZ2UUFOazJudzVOQktqYmxFQ2pHeUNNTVBPZEFJeXRVa3NfWEpEZDBMb1o0QXZDOTY1Uk1uTjVnT2M4LUZ0dWc4a2h4WXRYeDB6VkxLOF80NjR6a3M1alpCQVJJQUVsSVJnd3FiNA?oc=5"
     },
     {
-      "headline": "Wearable Devices Posts 2025 Revenue Growth and Bolsters Cash as Mudra Wearables Scale Commercially",
-      "score": 6,
-      "source": "TipRanks",
-      "sentiment": "positive",
-      "impact": "Wearable Devices Ltd. reported full-year 2025 results showing 23.9% revenue growth and a 28.5% rise in Mudra sales, alongside raising $24.4 million in cash, ending with $18.4 million despite an $8.1 million net loss. The company focused on global commercialization, expanding into Asia, launching dev",
-      "category": "corporate_earnings",
-      "date": "2026-03-12 13:38",
-      "link": "https://www.tipranks.com/news/company-announcements/wearable-devices-posts-2025-revenue-growth-and-bolsters-cash-as-mudra-wearables-scale-commercially"
-    },
-    {
-      "headline": "Dollar Tree Multi Price Shift Attracts Wealthier Shoppers But Raises Profit Questions",
-      "score": 6,
-      "source": "Simply Wall St",
-      "sentiment": "neutral",
-      "impact": "Dollar Tree is expanding its pricing strategy beyond the traditional single price point, now offering items up to $7. This move has attracted 3 million new households, with 60% of these from higher-income brackets ($100,000+), indicating a significant shift in its customer base. While the stock has ",
-      "category": "corporate_earnings",
-      "date": "2026-03-12 13:33",
-      "link": "https://simplywall.st/stocks/us/consumer-retailing/nasdaq-dltr/dollar-tree/news/dollar-tree-multi-price-shift-attracts-wealthier-shoppers-bu"
-    },
-    {
-      "headline": "American Electric Power (NASDAQ:AEP) Given New $139.00 Price Target at JPMorgan Chase & Co.",
+      "headline": "First Trust Multi-Asset Diversified Income Index Fund (NASDAQ:MDIV) Short Interest Up 102.3% in February",
       "score": 6,
       "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "JPMorgan Chase & Co. has raised its price target for American Electric Power (NASDAQ:AEP) to $139.00 from $125.00, maintaining a \"neutral\" rating. This adjustment indicates a potential upside of 5.90% from the stock's previous close. The firm's decision aligns with generally favorable analyst sentim",
-      "category": "us_equities",
-      "date": "2026-03-12 13:28",
-      "link": "https://www.marketbeat.com/instant-alerts/american-electric-power-nasdaqaep-given-new-13900-price-target-at-jpmorgan-chase-co-2026-03-12/"
-    },
-    {
-      "headline": "Is Xcel Energy Stock Outperforming the Nasdaq?",
-      "score": 6,
-      "source": "Barchart.com",
-      "sentiment": "positive",
-      "impact": "Xcel Energy Inc. (XEL) has shown mixed performance compared to the Nasdaq Composite ($NASX). While XEL shares have risen 8.5% over the past three months and 9.7% YTD, outperforming Nasdaq's declines, its 52-week return of 17.9% lags Nasdaq's 30.3%. Analysts maintain a \"Strong Buy\" rating for XEL, pr",
-      "category": "us_equities",
-      "date": "2026-03-12 13:25",
-      "link": "https://www.barchart.com/story/news/713492/is-xcel-energy-stock-outperforming-the-nasdaq"
-    },
-    {
-      "headline": "Amid Middle East conflict and new tax incentives, more family offices look to Hong Kong",
-      "score": 6,
-      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Hong Kong's latest proposed incentives for family offices include tax breaks on gold and bitcoin.",
-      "category": "global_markets",
-      "date": "2026-03-12 13:00",
-      "link": "https://www.cnbc.com/2026/03/12/middle-east-conflict-new-tax-breaks-family-offices-hong-kong.html"
+      "impact": "Short interest in First Trust Multi-Asset Diversified Income Index Fund (NASDAQ:MDIV) saw a significant increase of 102.3% in February, reaching 46,147 shares. This represents about 0.2% of the company's shares outstanding, with a short-interest ratio of 0.8 days. Several institutional investors als",
+      "category": "us_equities",
+      "date": "2026-03-13 04:37",
+      "link": "https://www.marketbeat.com/instant-alerts/first-trust-multi-asset-diversified-income-index-fund-nasdaqmdiv-short-interest-up-1023-in-february-2026-03-12/"
     },
     {
-      "headline": "Bombing won't overthrow ruling clerics, Iran dissidents say - Reuters",
+      "headline": "Eastman Kodak Stock Rallies After-Hours As Q4 Revenue Jumps On Strong Segment Performance",
+      "score": 6,
+      "source": "Stocktwits",
+      "sentiment": "positive",
+      "impact": "Eastman Kodak's shares rallied nearly 12% after reporting strong fourth-quarter revenue in 2025, reaching $290 million, a 9% increase year-over-year. This growth was primarily driven by its Advanced Materials & Chemicals and Print segments. The company ended the year with a cash balance of $337 mill",
+      "category": "corporate_earnings",
+      "date": "2026-03-13 03:52",
+      "link": "https://stocktwits.com/news-articles/markets/equity/eastman-kodak-stock-rallies-after-hours-as-q4-revenue-jumps-on-strong-segment-performance/cZduNn2RIaE/amp"
+    },
+    {
+      "headline": "Trump says he thinks Iran's new supreme leader is alive but 'damaged' - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Bombing won't overthrow ruling clerics, Iran dissidents say\u00a0\u00a0Reuters",
+      "impact": "Trump says he thinks Iran's new supreme leader is alive but 'damaged'\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-12 12:42",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcndiSkVRbjJGTTdwSFpvOUtwODA4OVJjQ0pmbGI2V1k0YllRclNIUEFoTkVSYVR3aHlwMXl0bkFmaVdySkM1YnJ6WjNWNzhva1Rwc0YzYzNGSWtKcmUySVVleDFBOGxjUnJuRzZSOTBXWThFMngwQmhka2VUV29Na2pNMUg0dHdkanQ0U1NVWVlYYlhQT1pXU1JRU0lfY3N3ZmIyWXliNkdNcktKWVphUQ?oc=5"
+      "date": "2026-03-13 03:41",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTzRhRnNrYUJ6R1QyQVFqVVQ5VmNxV2M1Q281eTZjekh5dXlaNGxPa1NvTEpJWHRZNDdfcnIySEFWR2tfdS1zMTBGcWNSbkJhYXFwejJjaU1aY08tdWNnekpaS09LU050eEhVbHBGRUhNRHFXVjVLV19xV0JCclhBZEVlWEppMkNMTzV3b0hEdjNQcFpuRGtiei10Qzd4T2UwR0JRb2JXdw?oc=5"
     },
     {
-      "headline": "Nintendo has jumped 18% this week as a surprise Pok\u00e9mon hit drove hope it could boost Switch 2 sales",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "\"Pok\u00e9mon Pokopia\" is only available on the Switch 2, with Nintendo's share price rally this week built on hopes this might drive sales of the flagship console.",
-      "category": "global_markets",
-      "date": "2026-03-12 11:58",
-      "link": "https://www.cnbc.com/2026/03/12/pokemon-pokopia-nintendo-share-price-rise-switch-2.html"
-    },
-    {
-      "headline": "Poland says foiled cyberattack on nuclear centre may have come from Iran - Reuters",
+      "headline": "Asian stocks slide as Iran war keeps oil near $100, dents rate-cut bets - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Poland says foiled cyberattack on nuclear centre may have come from Iran\u00a0\u00a0Reuters",
+      "sentiment": "negative",
+      "impact": "Asian stocks slide as Iran war keeps oil near $100, dents rate-cut bets\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-03-12 10:55",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYnhnVkF1My1SQkt1UDRJRjE0MTRIb21mdmRrSG42RGs0M2lRaGVSWm5YMjBLN01Nc0VIZWliZFNtdHFSZDhsWUJFSTAxOVdBRUpOaG1aMjdBRnVEU1lkZVhfZ0JjQ3I5Z3Jya210NEJIRENSUHZEdXB1NHVCNVM5TXo2OTZxd3RLbTJPLW9WV0x1U19EeVRocHNYd0x3VllCUEQxZkF4ZnFSZw?oc=5"
+      "date": "2026-03-13 02:02",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zN2lIVmZmR0pnVG5kTVpkVUVaRjVYUVI0eEZsd0c3V3I2eUdzbk9iT3diaWpuMkppMUxDSE5EOW5BWS1sZWo4bDRYZXpUT3EtQWVEQmE0dmk0NVBqbjVQRTl3WGM4ajU4QzNvQmNOam5ZODRxNXF2MWQ4SQ?oc=5"
     },
     {
-      "headline": "Israeli military says it targeted site used in Iran's nuclear programme - Reuters",
+      "headline": "Both sides trade strikes and threats as the Iran war approaches the two-week mark - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Israeli military says it targeted site used in Iran's nuclear programme\u00a0\u00a0Reuters",
+      "impact": "Both sides trade strikes and threats as the Iran war approaches the two-week mark\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-12 10:53",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOW4xbURhdldGcWJPV0cwZ3d2MWl1TlhmSG4zWnpPd0s1dWd6LVJxdzNsbWtPU2NBejZLNzVrTjZ5Nk41XzdnMTNjNk9sMmdWT2ZMeWIydTUtZjVZSkVESUpJZjJtSGhMYWU0VzZGNWg3QkVIb21zN0VtNVBkMGV5WXVtTGVRYUxuY1lJWHVOd1JlbFVQMWZINEpDeVpmOHhPZDhQWG84VWFUVnZ0cXFkYlFkalZWVjczM25UeHFB?oc=5"
+      "date": "2026-03-13 00:49",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ29TOHJ2WnZZdnRxTERSTFBOMHl6dXEyMy1GR1pSVlFpZVhlMWdhZXJaVlFnWTAtYUtrYXlKckNlSGFYcUlna19BUW9sVGxfVXRhRHp1d1FoNFFqOVlyQkpqdzVMYnNOd21MRXNGUDljaVJjWlJLdExQLVgybHRDZTVMOGZQaEZ0bWRxV2pMeDdSS2NWaHc0TzlLeHdDNmo0Q0Z4LQ?oc=5"
+    },
+    {
+      "headline": "Iran-backed Iraqi group claims responsibility for downing US military aircraft - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran-backed Iraqi group claims responsibility for downing US military aircraft\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-03-13 00:49",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZU1hcE02U3ZveFhYUFBfVlRXeXNZMGp5eDd6MGh1c1FJU0hhb3NId2wzVzhZUXNIVGdpUFNZbFVvZEFONTZtQmpvQWwwNUhzX3lzdzh2dkRlZEUtckRfUFFuVnhCNnU1UmRVanRvYXF4UGxxMVhSd1ZYRFQ2dTA1OFpvYnRoTkMxTVhBdXh6MjhCT3dEbWptV21nc1hTUFcwbjJMa1NvZnhNaXdiejFCcnBBZll1aTdNXzNjbXhGQUtMM1hRV0VF?oc=5"
+    },
+    {
+      "headline": "Dollar climbs with no end in sight for Iran war; yen at 20-month low - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Dollar climbs with no end in sight for Iran war; yen at 20-month low\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-13 00:34",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcktUUkJRSnJnRjdNUV9tYm0wbktmaGkySlQ4VHB0TlVwTTEySUVySFVvcTdXWk44NURJNjl0WGRkeV96a05yRFc2UFRYRHRBeVg3eVlEVTgtZzBlUXVXeVV0a3ZoWEk0aWh3UmdYZ25GSFF6dnpjelFSWE5vRlFKdlMteGg5ZGc5LU1TRF9rVFNheG0zRDVzdmVKbDB5dU9NVFNpakUtUVFSa0VHWHZyYzBuWlM?oc=5"
+    },
+    {
+      "headline": "Why Adobe\u2019s stock is falling despite an earnings beat",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Adobe\u2019s longtime CEO is stepping down, and the lack of acceleration on a key metric signaled that AI isn\u2019t driving significant financial benefits yet.",
+      "category": "corporate_earnings",
+      "date": "2026-03-13 00:29",
+      "link": "https://www.marketwatch.com/story/why-adobes-stock-is-falling-despite-an-earnings-beat-b6a67617?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Ulta Beauty says it\u2019s \u2018increasingly mindful\u2019 of effects that global conflicts have on shoppers, as profit forecast sinks stock",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Shares of Ulta Beauty slid after hours on Thursday after the cosmetics retailer forecast a profit and same-store sales for this year that were below Wall Street\u2019s estimates, adding that it expects more selective consumer spending and that it was \u201cincreasingly mindful\u201d of conflicts abroad.",
+      "category": "corporate_earnings",
+      "date": "2026-03-13 00:27",
+      "link": "https://www.marketwatch.com/story/ulta-beauty-says-its-increasingly-mindful-of-effects-that-global-conflicts-have-on-shoppers-as-profit-forecast-sinks-stock-b03cc1c3?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Several French soldiers wounded, one officer dead in Iraq after drone attack - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Several French soldiers wounded, one officer dead in Iraq after drone attack\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-12 22:53",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTUkyX0tRQkdNMkJNRmFhOGNkTmc4YTg1VVo0M1JTNW5uaWx5TWVsUHRkemtiZVM0WWw3UmFoZmxTUlgtLVZiMllaNHZnTGpra3hqNjdrU2VuN0xRVEl6RGFQdHhlM0xIT0lhSm9UclR5ZTZkUjN2c2RWdkEwZzEyRnMzVTRPRmZ6alVZTDdRRkJZNm95VllMSUdDMUZUSVRiWkZwYnlR?oc=5"
+    },
+    {
+      "headline": "The S&P 500 just broke a major support. Another 10% decline is likely.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "This is a good time to take risk off the table \u2014 and these stock-market charts prove it.",
+      "category": "us_equities",
+      "date": "2026-03-12 22:40",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8?mod=mw_rss_topstories"
     }
   ]
 }
