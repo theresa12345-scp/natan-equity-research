@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-13T06:39:39.242798",
+  "timestamp": "2026-03-13T14:45:49.795175",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
+    "avg_relevance": 7.2,
     "bullish": 8,
     "neutral": 12,
     "bearish": 5,
@@ -14,14 +14,17 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 11,
-    "Bloomberg": 2,
-    "CNBC": 1,
+    "Reuters": 5,
+    "Bloomberg": 3,
+    "CNBC": 3,
     "Caixin/S&P Global": 1,
-    "Investing.com": 1,
-    "MarketBeat": 1,
-    "Stocktwits": 1,
-    "MarketWatch": 3
+    "MarketWatch": 3,
+    "Bloomberg.com": 1,
+    "The Wall Street Journal": 1,
+    "Proactive financial news": 1,
+    "MLQ.ai": 1,
+    "TradingView": 1,
+    "Meyka": 1
   },
   "top_signals": [
     {
@@ -31,7 +34,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +44,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +54,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +64,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +74,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +84,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +94,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +104,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -109,9 +112,9 @@
       "score": 8,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Dick's Sporting Goods' merger with Foot Locker led to a 60% increase in sales but a substantial decline in companywide profits. ",
+      "impact": "Dick's Sporting Goods' merger with Foot Locker led to a 60% increase in sales but a substantial decline in companywide profits.",
       "category": "corporate_earnings",
-      "date": "2026-03-12 18:18",
+      "date": "2026-03-12 11:02",
       "link": "https://www.cnbc.com/2026/03/12/dicks-sporting-goods-dks-earnings-q4-2025.html"
     },
     {
@@ -121,7 +124,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,18 +134,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-13 06:39",
+      "date": "2026-03-13 14:45",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Earnings call transcript: Open Lending Q4 2025 revenue miss impacts stock",
+      "headline": "The Fed\u2019s favorite price gauge shows sticky inflation \u2014 and little chance of improvement soon",
       "score": 7,
-      "source": "Investing.com",
-      "sentiment": "negative",
-      "impact": "Open Lending (LPRO) reported a Q4 2025 revenue miss, hitting $19.3 million against an anticipated $21.92 million, causing its stock to drop 9.02% in after-hours trading. Despite this, EPS met expectations at $0.01, and the company achieved a net income of $1.7 million, a significant improvement from",
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The core PCE price index has risen 3.1% in the past year. The Iran conflict will push it even higher.",
+      "category": "us_monetary_policy",
+      "date": "2026-03-13 13:58",
+      "link": "https://www.marketwatch.com/story/feds-favorite-price-gauge-shows-sticky-inflation-and-little-chance-of-improvement-soon-a0dcf9dd?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Schwab Forecasts Revenue Growth of 16% for the First Quarter",
+      "score": 7,
+      "source": "Bloomberg.com",
+      "sentiment": "positive",
+      "impact": "Charles Schwab Corp. anticipates a 16% revenue growth for the first quarter, driven by sustained retail investor engagement despite economic uncertainties and the conflict in the Middle East. This short-term projection surpasses the full-year forecast of 9.5% to 10.5% provided in January, even as tr",
       "category": "corporate_earnings",
-      "date": "2026-03-13 04:51",
-      "link": "https://m.investing.com/news/transcripts/earnings-call-transcript-open-lending-q4-2025-revenue-miss-impacts-stock-93CH-4558666?ampMode=1"
+      "date": "2026-03-13 13:16",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-13/schwab-forecasts-revenue-growth-of-16-for-the-first-quarter"
     },
     {
       "headline": "Trump demands Fed cut rates. His Iran war has investors betting otherwise - Reuters",
@@ -155,124 +168,114 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNkJCd3EzTW5OUUkwMlNuNFlBMml5ZkZNZFpHNGdzSjgzVnVMT0ZxMFczemgwZ0JfWHdxQ0dQamxOUFZvcG42LW80NXhpNnZmUUw3LTJ4N1pxQTFLbE1yVDRnZVQzYlQxWURIbmZBek56Tk1KUUw3aVpUS0tZYk04aTlCQXNEN25lT2ZmR2E3cF9NQU1IT2QzQU5ZUFo3TWtranVrM01hTVJQZU1HZ1BCclhjSE5QdXdC?oc=5"
     },
     {
-      "headline": "Exclusive: With Iran war exit elusive, Trump aides vie to affect outcome - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "headline": "War Cost Sinks Long-Term Government Bonds on Deficit Worries",
+      "score": 7,
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "Exclusive: With Iran war exit elusive, Trump aides vie to affect outcome\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-13 05:02",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMGNvdWxQazMxelV6UklsTUloWlB3SC03cHFkOXVZdmJRMkpLYkFlVHpYODlMOTN5aHVKaUpkQnZ2UUFOazJudzVOQktqYmxFQ2pHeUNNTVBPZEFJeXRVa3NfWEpEZDBMb1o0QXZDOTY1Uk1uTjVnT2M4LUZ0dWc4a2h4WXRYeDB6VkxLOF80NjR6a3M1alpCQVJJQUVsSVJnd3FiNA?oc=5"
+      "impact": "Investors are growing worried that the Iran war will drive up expenditures and swell budget deficits in countries around the world, sparking a selloff in long-term government bonds.",
+      "category": "fixed_income",
+      "date": "2026-03-12 14:04",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-12/war-spending-sinks-long-term-government-bonds-on-deficit-worries"
     },
     {
-      "headline": "First Trust Multi-Asset Diversified Income Index Fund (NASDAQ:MDIV) Short Interest Up 102.3% in February",
-      "score": 6,
-      "source": "MarketBeat",
+      "headline": "UiPath Guides for Slower Full-Year Revenue Growth",
+      "score": 7,
+      "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "Short interest in First Trust Multi-Asset Diversified Income Index Fund (NASDAQ:MDIV) saw a significant increase of 102.3% in February, reaching 46,147 shares. This represents about 0.2% of the company's shares outstanding, with a short-interest ratio of 0.8 days. Several institutional investors als",
-      "category": "us_equities",
-      "date": "2026-03-13 04:37",
-      "link": "https://www.marketbeat.com/instant-alerts/first-trust-multi-asset-diversified-income-index-fund-nasdaqmdiv-short-interest-up-1023-in-february-2026-03-12/"
-    },
-    {
-      "headline": "Eastman Kodak Stock Rallies After-Hours As Q4 Revenue Jumps On Strong Segment Performance",
-      "score": 6,
-      "source": "Stocktwits",
-      "sentiment": "positive",
-      "impact": "Eastman Kodak's shares rallied nearly 12% after reporting strong fourth-quarter revenue in 2025, reaching $290 million, a 9% increase year-over-year. This growth was primarily driven by its Advanced Materials & Chemicals and Print segments. The company ended the year with a cash balance of $337 mill",
+      "impact": "The company\u2019s shares fell in after-hours trading as worries about software stocks linger",
       "category": "corporate_earnings",
-      "date": "2026-03-13 03:52",
-      "link": "https://stocktwits.com/news-articles/markets/equity/eastman-kodak-stock-rallies-after-hours-as-q4-revenue-jumps-on-strong-segment-performance/cZduNn2RIaE/amp"
+      "date": "2026-03-11 23:05",
+      "link": "https://www.wsj.com/business/earnings/uipath-profit-revenue-rise-as-ai-adoption-spreads-912e83a0"
     },
     {
-      "headline": "Trump says he thinks Iran's new supreme leader is alive but 'damaged' - Reuters",
+      "headline": "A BofA strategist sees parallels between European Central Bank rate-hike expectations and the global financial crisis",
       "score": 6,
-      "source": "Reuters",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Trump says he thinks Iran's new supreme leader is alive but 'damaged'\u00a0\u00a0Reuters",
+      "impact": "The probability of an increase by June has risen to 75% amid ongoing conflict in the Middle East.",
       "category": "global_markets",
-      "date": "2026-03-13 03:41",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTzRhRnNrYUJ6R1QyQVFqVVQ5VmNxV2M1Q281eTZjekh5dXlaNGxPa1NvTEpJWHRZNDdfcnIySEFWR2tfdS1zMTBGcWNSbkJhYXFwejJjaU1aY08tdWNnekpaS09LU050eEhVbHBGRUhNRHFXVjVLV19xV0JCclhBZEVlWEppMkNMTzV3b0hEdjNQcFpuRGtiei10Qzd4T2UwR0JRb2JXdw?oc=5"
+      "date": "2026-03-13 14:20",
+      "link": "https://www.marketwatch.com/story/a-bofa-strategist-sees-parallels-between-european-central-bank-rate-hike-expectations-and-the-global-financial-crisis-d46e2c47?mod=mw_rss_topstories"
     },
     {
-      "headline": "Asian stocks slide as Iran war keeps oil near $100, dents rate-cut bets - Reuters",
+      "headline": "Blackstone\u2019s BREIT is a major seller in January commercial real estate deals",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Blackstone appears to be rebalancing its real estate investment trust portfolio, selling off legacy holdings.",
+      "category": "global_markets",
+      "date": "2026-03-13 14:10",
+      "link": "https://www.cnbc.com/2026/03/13/blackstone-breit-commercial-real-estate.html"
+    },
+    {
+      "headline": "GDP grew at a tepid 0.7% pace in the fourth quarter. The future is foggy, too.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Iran conflict and the Supreme Court\u2019s tariff ruling add to uncertainty around the economy.",
+      "category": "corporate_earnings",
+      "date": "2026-03-13 13:48",
+      "link": "https://www.marketwatch.com/story/gdp-grew-at-a-tepid-0-7-pace-in-the-fourth-quarter-the-future-is-foggy-too-39d5a867?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Ulta Beauty shares slide on disappointing guidance",
+      "score": 6,
+      "source": "Proactive financial news",
       "sentiment": "negative",
-      "impact": "Asian stocks slide as Iran war keeps oil near $100, dents rate-cut bets\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-03-13 02:02",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zN2lIVmZmR0pnVG5kTVpkVUVaRjVYUVI0eEZsd0c3V3I2eUdzbk9iT3diaWpuMkppMUxDSE5EOW5BWS1sZWo4bDRYZXpUT3EtQWVEQmE0dmk0NVBqbjVQRTl3WGM4ajU4QzNvQmNOam5ZODRxNXF2MWQ4SQ?oc=5"
+      "impact": "Ulta Beauty's shares dropped after the company issued weaker-than-expected guidance for fiscal 2026, despite strong fourth-quarter results that surpassed Wall Street estimates. The conservative outlook is attributed to competitive pressures, inflationary costs, and more selective consumer spending o",
+      "category": "corporate_earnings",
+      "date": "2026-03-13 13:37",
+      "link": "https://www.proactiveinvestors.com/companies/news/1088861/ulta-beauty-shares-slide-on-disappointing-guidance-1088861.html"
     },
     {
-      "headline": "Both sides trade strikes and threats as the Iran war approaches the two-week mark - Reuters",
+      "headline": "Dow Inc. Jumps 9.3% on Citigroup Upgrade and Oil Price Surge, but Earnings Outlook Remains Weak",
       "score": 6,
-      "source": "Reuters",
+      "source": "MLQ.ai",
       "sentiment": "neutral",
-      "impact": "Both sides trade strikes and threats as the Iran war approaches the two-week mark\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-13 00:49",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ29TOHJ2WnZZdnRxTERSTFBOMHl6dXEyMy1GR1pSVlFpZVhlMWdhZXJaVlFnWTAtYUtrYXlKckNlSGFYcUlna19BUW9sVGxfVXRhRHp1d1FoNFFqOVlyQkpqdzVMYnNOd21MRXNGUDljaVJjWlJLdExQLVgybHRDZTVMOGZQaEZ0bWRxV2pMeDdSS2NWaHc0TzlLeHdDNmo0Q0Z4LQ?oc=5"
-    },
-    {
-      "headline": "Iran-backed Iraqi group claims responsibility for downing US military aircraft - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran-backed Iraqi group claims responsibility for downing US military aircraft\u00a0\u00a0Reuters",
+      "impact": "Dow Inc. (DOW) shares surged 9.3% after a Citigroup upgrade to Buy with a $40 price target and a rise in oil prices due to Middle East tensions. Despite this rally, the company faces a challenging fundamental outlook with projected quarterly losses and declining revenues, and analysts have lowered E",
       "category": "us_equities",
-      "date": "2026-03-13 00:49",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZU1hcE02U3ZveFhYUFBfVlRXeXNZMGp5eDd6MGh1c1FJU0hhb3NId2wzVzhZUXNIVGdpUFNZbFVvZEFONTZtQmpvQWwwNUhzX3lzdzh2dkRlZEUtckRfUFFuVnhCNnU1UmRVanRvYXF4UGxxMVhSd1ZYRFQ2dTA1OFpvYnRoTkMxTVhBdXh6MjhCT3dEbWptV21nc1hTUFcwbjJMa1NvZnhNaXdiejFCcnBBZll1aTdNXzNjbXhGQUtMM1hRV0VF?oc=5"
+      "date": "2026-03-13 13:36",
+      "link": "https://mlq.ai/news/dow-inc-jumps-93-on-citigroup-upgrade-and-oil-price-surge-but-earnings-outlook-remains-weak/"
     },
     {
-      "headline": "Dollar climbs with no end in sight for Iran war; yen at 20-month low - Reuters",
+      "headline": "VinFast Auto Ltd expected to post a loss of 36 cents a share - Earnings Preview",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Dollar climbs with no end in sight for Iran war; yen at 20-month low\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-13 00:34",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcktUUkJRSnJnRjdNUV9tYm0wbktmaGkySlQ4VHB0TlVwTTEySUVySFVvcTdXWk44NURJNjl0WGRkeV96a05yRFc2UFRYRHRBeVg3eVlEVTgtZzBlUXVXeVV0a3ZoWEk0aWh3UmdYZ25GSFF6dnpjelFSWE5vRlFKdlMteGg5ZGc5LU1TRF9rVFNheG0zRDVzdmVKbDB5dU9NVFNpakUtUVFSa0VHWHZyYzBuWlM?oc=5"
-    },
-    {
-      "headline": "Why Adobe\u2019s stock is falling despite an earnings beat",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Adobe\u2019s longtime CEO is stepping down, and the lack of acceleration on a key metric signaled that AI isn\u2019t driving significant financial benefits yet.",
-      "category": "corporate_earnings",
-      "date": "2026-03-13 00:29",
-      "link": "https://www.marketwatch.com/story/why-adobes-stock-is-falling-despite-an-earnings-beat-b6a67617?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Ulta Beauty says it\u2019s \u2018increasingly mindful\u2019 of effects that global conflicts have on shoppers, as profit forecast sinks stock",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Shares of Ulta Beauty slid after hours on Thursday after the cosmetics retailer forecast a profit and same-store sales for this year that were below Wall Street\u2019s estimates, adding that it expects more selective consumer spending and that it was \u201cincreasingly mindful\u201d of conflicts abroad.",
-      "category": "corporate_earnings",
-      "date": "2026-03-13 00:27",
-      "link": "https://www.marketwatch.com/story/ulta-beauty-says-its-increasingly-mindful-of-effects-that-global-conflicts-have-on-shoppers-as-profit-forecast-sinks-stock-b03cc1c3?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Several French soldiers wounded, one officer dead in Iraq after drone attack - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Several French soldiers wounded, one officer dead in Iraq after drone attack\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-12 22:53",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTUkyX0tRQkdNMkJNRmFhOGNkTmc4YTg1VVo0M1JTNW5uaWx5TWVsUHRkemtiZVM0WWw3UmFoZmxTUlgtLVZiMllaNHZnTGpra3hqNjdrU2VuN0xRVEl6RGFQdHhlM0xIT0lhSm9UclR5ZTZkUjN2c2RWdkEwZzEyRnMzVTRPRmZ6alVZTDdRRkJZNm95VllMSUdDMUZUSVRiWkZwYnlR?oc=5"
-    },
-    {
-      "headline": "The S&P 500 just broke a major support. Another 10% decline is likely.",
-      "score": 6,
-      "source": "MarketWatch",
+      "source": "TradingView",
       "sentiment": "negative",
-      "impact": "This is a good time to take risk off the table \u2014 and these stock-market charts prove it.",
-      "category": "us_equities",
-      "date": "2026-03-12 22:40",
-      "link": "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-major-support-another-10-decline-is-likely-8c890fb8?mod=mw_rss_topstories"
+      "impact": "VinFast Auto Ltd is anticipated to report a loss of 36 cents per share. This information comes from a Refinitiv earnings preview. The report also mentions the company's stock symbol, VFS, and notes its connection to Vietnamese stocks.",
+      "category": "corporate_earnings",
+      "date": "2026-03-13 13:15",
+      "link": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4011AR:0-vinfast-auto-ltd-expected-to-post-a-loss-of-36-cents-a-share-earnings-preview/"
+    },
+    {
+      "headline": "URC.TO pre-market: Uranium Royalty earnings 18 Mar 2026 could support CAD 6.14",
+      "score": 6,
+      "source": "Meyka",
+      "sentiment": "neutral",
+      "impact": "Uranium Royalty Corp. (URC.TO) is trading at CAD 5.30 in pre-market ahead of its earnings release on March 18, 2026. Meyka AI projects a yearly price of CAD 6.14, implying a 15.94% upside, assigning a \"HOLD\" rating due to strong balance-sheet metrics and sector exposure, despite high earnings multip",
+      "category": "corporate_earnings",
+      "date": "2026-03-13 13:09",
+      "link": "https://meyka.com/blog/urcto-pre-market-uranium-royalty-earnings-18-mar-2026-could-support-cad-614-1303/"
+    },
+    {
+      "headline": "Iran's new supreme leader wounded, likely disfigured, Hegseth says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran's new supreme leader wounded, likely disfigured, Hegseth says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-13 12:17",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcm5rNmlsRFJxSXRxWndmTjJrS2lCU2JZOXBtZXFiUzNIRk9zNks4cElHY2lJU09rWGtUbkh5M1lSdzcyQ3F5b1dHU1JScGJWeFpma3B3Tkxqb293ek1BR2NDTml2WmFXbG01QTBVWlRBWm5KeGdzRkNKWGNvbjBNNC1jUmhnZEdBbnNoTHJoQ3ZLUjdobUZjWVQyQkJ1Sm0wa3cyNzViS3I?oc=5"
+    },
+    {
+      "headline": "The biggest names missing from the list of America's top philanthropists",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "MacKenzie Scott and many of America's richest are absent from the latest Philanthropy 50 ranking.",
+      "category": "global_markets",
+      "date": "2026-03-13 11:30",
+      "link": "https://www.cnbc.com/2026/03/13/philanthropy-charity-wealthy.html"
     }
   ]
 }
