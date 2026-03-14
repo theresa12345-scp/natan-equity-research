@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-14T06:34:56.143537",
+  "timestamp": "2026-03-14T14:32:33.416016",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 8,
-    "neutral": 13,
-    "bearish": 4,
-    "high_priority": 11,
+    "bullish": 7,
+    "neutral": 12,
+    "bearish": 6,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 12,
+    "Reuters": 9,
     "Bloomberg": 2,
-    "CNBC": 2,
     "Financial Times": 1,
+    "CNBC": 4,
     "Caixin/S&P Global": 1,
-    "AD HOC NEWS": 2,
-    "Insider Monkey": 1
+    "MarketWatch": 1,
+    "Investing.com": 1,
+    "Simply Wall Street": 1,
+    "Trefis": 1
   },
   "top_signals": [
     {
@@ -30,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +102,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "S&P 500 futures edge up ahead of key inflation data; traders monitor oil prices and Iran war: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Dow Jones Industrial Average fell more than 700 points on Thursday, notching its lowest closing level in 2026.",
-      "category": "us_equities",
-      "date": "2026-03-13 04:39",
-      "link": "https://www.cnbc.com/2026/03/12/stock-market-today-live-updates.html"
     },
     {
       "headline": "Federal Reserve to loosen capital requirements for big US banks",
@@ -140,7 +132,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -150,8 +142,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-14 06:34",
+      "date": "2026-03-14 14:32",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "S&P 500 and Nasdaq face a lost decade as 2000 dot-com bubble parallels turn real",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "\u201cThis time is different\u201d are the four most dangerous words in investing.",
+      "category": "us_equities",
+      "date": "2026-03-14 14:31",
+      "link": "https://www.marketwatch.com/story/s-p-500-and-nasdaq-face-a-lost-decade-as-2000-dot-com-bubble-parallels-turn-real-58ce1b70?mod=mw_rss_topstories"
     },
     {
       "headline": "Lured by profits, some shipowners brave mines and missiles to sneak oil past Iran - Reuters",
@@ -164,6 +166,86 @@
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVF3UXpWbWItSWkzVi1kLWVlaVE4bUExQ25oa2FpMkJHcHZIQzhJX2ZvZHBYVDhoSHNtQVpCZnpVUnpXSnNQUlB4bm13ckxva2o4SWpmMzdhU1BxVThKSEV1WWc5UWhkU2FWcWtULUVHcFBUNEdVRjhkSERfblpaNVhxcjlkWndxRzNoanhZVVYxbDhzMmZRX1JIVTRQcjU1dkYtM0NGaDd2TDRNbHE1NkpJaXVJYzFpMm9US3lwcERtWTQ?oc=5"
     },
     {
+      "headline": "Trump urges Powell to cut rates immediately as bond traders scale back Fed easing",
+      "score": 7,
+      "source": "Investing.com",
+      "sentiment": "negative",
+      "impact": "Trump urges Powell to cut rates immediately as bond traders scale back Fed easing",
+      "category": "us_monetary_policy",
+      "date": "2026-03-12 19:26",
+      "link": "https://www.investing.com/news/economy-news/trump-urges-powell-to-cut-rates-immediately-as-bond-traders-scale-back-fed-easing-4558012"
+    },
+    {
+      "headline": "Kalshi co-founder Luana Lopes Lara on the biggest prediction markets risks she has ever taken",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Luana Lopes Lara, co-founder of prediction markets startup Kalshi, tells CNBC about the biggest bets she ever made on the way to billionaire status.",
+      "category": "global_markets",
+      "date": "2026-03-14 13:45",
+      "link": "https://www.cnbc.com/2026/03/14/kalshi-prediction-markets-bet-luana-lopes-lara.html"
+    },
+    {
+      "headline": "How Strong Q4 Results And Upbeat 2026 Guidance At Republic Services (RSG) Has Changed Its Investment Story",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Republic Services (RSG) reported strong Q4 2025 results and provided optimistic 2026 guidance, leading to positive analyst ratings and increased institutional investment. This reinforces the company's long-term business model rooted in essential waste services and expansion into higher-margin enviro",
+      "category": "corporate_earnings",
+      "date": "2026-03-14 12:42",
+      "link": "https://simplywall.st/stocks/us/commercial-services/nyse-rsg/republic-services/news/how-strong-q4-results-and-upbeat-2026-guidance-at-republic-s"
+    },
+    {
+      "headline": "COO Stock Falls -17% With A 9-day Losing Streak On Revenue Shock",
+      "score": 6,
+      "source": "Trefis",
+      "sentiment": "negative",
+      "impact": "The article reports that the COO stock has experienced a significant -17% drop, extending its losing streak to nine consecutive days. This sharp decline is attributed to a \"revenue shock\" that has impacted the company's financial performance.",
+      "category": "corporate_earnings",
+      "date": "2026-03-14 12:24",
+      "link": "https://www.trefis.com/data/companies/COO/no-login-required/2Usirgq8/COO-Stock-Falls-17-With-A-9-day-Losing-Streak-On-Revenue-Shock"
+    },
+    {
+      "headline": "Berkshire Hathaway will start repurchasing its own shares\u2014what buybacks mean for investors",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Large U.S. firms spent about $1 trillion on their own shares in 2025, according to Morningstar estimates.",
+      "category": "global_markets",
+      "date": "2026-03-14 12:00",
+      "link": "https://www.cnbc.com/2026/03/14/what-stock-buybacks-mean-for-investors.html"
+    },
+    {
+      "headline": "A Paramount-Warner Bros. movie slate could rule the 2027 box office, but is it sustainable?",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Paramount CEO David Ellison has said he wants to make 30 movies a year and has franchises like Godzilla-Kong, Superman and Sonic the Hedgehog to lean on.",
+      "category": "global_markets",
+      "date": "2026-03-14 11:00",
+      "link": "https://www.cnbc.com/2026/03/14/paramount-wbd-2027-movie-slate.html"
+    },
+    {
+      "headline": "India seeks passage for more vessels stranded around Strait of Hormuz after a few sail through - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "India seeks passage for more vessels stranded around Strait of Hormuz after a few sail through\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-14 10:46",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSjk5YnRVZTRMTE4tUVZyUEdFM3RzY09GNEpjbHJCQlRoU1NUQ0d0aUZUMnllT0NscllVam1JczBWWGNlbm1lWkZUYUx1bWp0V3prdVFsNlB6X0xFNHphMTVPTzJob25OWjMtN0NybjRVMWVLTmlPRnJ0YTQ4U0pid1FOYUl6bjk0V1lONHZGN3V4X1kyTXdaRXJyU3BWYTgyaUM4Q3p4SVhUU1ZSZmVKT3ZOWmc?oc=5"
+    },
+    {
+      "headline": "Some oil loading operations suspended after fire in UAE's Fujairah, sources say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Some oil loading operations suspended after fire in UAE's Fujairah, sources say\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-03-14 09:22",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSHlZVXQ2V3h4UVlRaVg2bDJaNmZiWHktTVFkQXNCU0Z3V3ZZQTlvSUxZaExEa1Bfdy04MDZCQjdoSEl3ZVd1Z1dOYmlNN3hUNWdRQlFUSkIwLTY3UWp5ejdrLURMa01qRndiMlFVLWdUREloUkoyd1JnQnZLRXVHaGU4bVRKVUhzVTdCVlo5RkhRcHdPQmp6a0NnSHJ1OWdNck44SS1NNU9zUzJIMVdKVWVkSjZnZW9OanM5MHAxU2xQdmlDdDlR?oc=5"
+    },
+    {
       "headline": "Kharg Island, struck by US, is key hub for Iran oil exports - Reuters",
       "score": 6,
       "source": "Reuters",
@@ -172,36 +254,6 @@
       "category": "commodities",
       "date": "2026-03-14 05:29",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQckhQZUZ6czRqRUd3djdWaUtvZlZ2cjRkOVZxUmp2N3ZHbFZmNTI2dEpJYXJFOGtkQklSdUJxSkZQa1B2aWV5dXhEalRxdFhWckJ6VEJ4TEFhSW1vSWNrclhaLTgtZHp0YUVJRlFSaVRJSTJxT0F1RnV0NHM0RkJtWkJIZlZmcW12RWo1RmJVTl92TFlVSUhuV0ZUVlEwUHhkRjNPaXdFNGw?oc=5"
-    },
-    {
-      "headline": "KeyCorp Stock (ISIN: US4932671088) Shows Stability Amid Volatility, Attracting DACH Yield Hunters",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "KeyCorp stock (ISIN: US4932671088) is presented as a stable investment opportunity for European investors, particularly those in the DACH region, due to its solid fundamentals, attractive 3.97% dividend yield, and low-risk rating. The article highlights the regional bank's resilience in a volatile m",
-      "category": "fixed_income",
-      "date": "2026-03-14 05:29",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/keycorp-stock-isin-us4932671088-shows-stability-amid-volatility/68674735"
-    },
-    {
-      "headline": "Illinois Tool Works Stock Falls Amid Mixed Analyst Views and Strong FY2026 Guidance",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "Illinois Tool Works (ITW) shares fell 2.2% despite the company reporting stronger-than-expected Q4 results with $2.72 EPS and raising its FY2026 EPS guidance to $11.00-$11.40, significantly above consensus. Analysts maintain a \"Reduce\" consensus rating with a target of $276, reflecting mixed sentime",
-      "category": "corporate_earnings",
-      "date": "2026-03-14 05:13",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/illinois-tool-works-stock-falls-amid-mixed-analyst-views-and-strong-fy2026/68674609"
-    },
-    {
-      "headline": "Lumentum Holdings (LITE) Sees Strong Analyst Optimism Following Earnings & NVIDIA Deal",
-      "score": 6,
-      "source": "Insider Monkey",
-      "sentiment": "positive",
-      "impact": "Lumentum Holdings Inc. (LITE) is experiencing strong analyst optimism following its Q2 2026 earnings report and an investment from NVIDIA. Barclays, Rosenblatt, and Morgan Stanley have all raised their price targets for LITE, with Rosenblatt specifically citing NVIDIA's $2 billion investment to secu",
-      "category": "corporate_earnings",
-      "date": "2026-03-14 04:52",
-      "link": "https://www.insidermonkey.com/blog/lumentum-holdings-lite-sees-strong-analyst-optimism-following-earnings-nvidia-deal-1715881/"
     },
     {
       "headline": "US embassy in Iraq's Baghdad hit in missiles attack, security sources say - Reuters",
@@ -222,56 +274,6 @@
       "category": "global_markets",
       "date": "2026-03-14 03:40",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaEpuNGtxZUdiVHJqTVBtaUtWNGQ0TTZkR0oweEE1VDJaV2taMHdUZDltYTIzcFlzeWJYQWE3TFZCRUhSajF1enpfb05kdDFfc3EtMUJqZWxTbnNlM3ZTS0s2R0VGOEFGMVFSYi0zMTVXUmFKUEhGM0tTVnJXU05UalpxSFlEc1lZVUpTRUhkR3Y2N3FQQlNQNkZWY1UtYXZJMm9XYXVfMFlPSmtFY2pwaXh3TWlxSVNBQzYwdzBB?oc=5"
-    },
-    {
-      "headline": "Trump threatens to strike Iran's Kharg Island oil network if shipping lanes remain blocked - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump threatens to strike Iran's Kharg Island oil network if shipping lanes remain blocked\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-03-14 03:30",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRW1mNms0NWp5clJ0VVQyUDk3dDVfTXEwUUxpWDhNQUFtb0wyNVZ6WXM0MVhrd2NJanVtZUxsQTFrQ2xxcWxSUldqQUZLQm9MWTVRR2ZJOEpmQ2JkaEFNYS04Q0N5WlFTUXFOc0VhMGlicFFKMlRiSlU5eENvRDRJZWVMblZ4ekNPYkhYamVhTHZtMl93QkhEQVlEVVJ2WHQxMnlzQW1ob05QczNiNTVTdlpoQThCbmEwNkNzYnlwYnhwRExWOF9Ta000VVI?oc=5"
-    },
-    {
-      "headline": "Five US Air Force refueling planes hit in Iranian strike on Saudi Arabia, WSJ reports - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Five US Air Force refueling planes hit in Iranian strike on Saudi Arabia, WSJ reports\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-13 23:25",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNay1OYk1XSDBJU0RfNGZMLXRMWUN2VE5KcHhpSDJNV1NYVzB1NVRkQTMxcnEtWnJWYkpkNlN5S0Jac0E3cURTOTdXdDh2dFRqY2tLV0l1NHhDUUE0RkhYblNCWE01dEdSQ0Rmd0hycnBTcDk3NGJJR0lWUmVtZTRiSm5jU0E1MWFjMV8wTnZzY3RMR05uMTl5d2VyeEF6YUd6Y3o0c0YwOUJtbmh6b1c0bHpfaE9wd0w0SkdKSQ?oc=5"
-    },
-    {
-      "headline": "Under the Iron Dome: Iranian strikes pierce Israel's missile shield - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Under the Iron Dome: Iranian strikes pierce Israel's missile shield\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-13 22:53",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbVB2OFkzRklQZVphUTJUdmJ4cnlhUHN2T2VSUGpPWnBmSDZXT3RPWVZFWDdmaUNPTUZ0aEVnX1F2WXlKWHVjRnp6Vy1ZMzZkcnAtS0V2NFRPRXo1NnlZaDRYb2ZMTlE3bmhNMFpWYlRScmNnTmp2dDRiMlh3enlfQTdSSnBkZmFsZDJxbXNXVjczM08zNUYzUXk3Z2JoWHlWc2N6NkJ3RThRdw?oc=5"
-    },
-    {
-      "headline": "Iran war puts many in US on high alert, but synagogue attack shows limits - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran war puts many in US on high alert, but synagogue attack shows limits\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-13 22:21",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeXAzOHc4ZUlGU2N4eGtyem94Q2pUYmpYbjhYdGt1OTlrQ3ZlVml4WGQyemR1bkJXQkpCV0FMY3Btb2JtS3duNnFKbUNVZTRlRFZsc1lsTTVkNWhVcDdUUXRWS2RhSVBuZm5uQ1VTb1E0cVJvalJEME1uSW1QTlF6aFBfZ0Y4UG9CREJYVHBkT3N3Y2xRNEFiWTNJZXZxVnJoZ2ZTZGE4ODVVMldMeGFSYkhQNUlLUjA?oc=5"
-    },
-    {
-      "headline": "Targeting tankers: Photos of Iranian strikes on oil shipping - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Targeting tankers: Photos of Iranian strikes on oil shipping\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-03-13 21:57",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUZQTkZvMmxMcE00ZVV3aFZlZTgtdWFDNWdUUzRJcF9rOUJIYlhSU2V3SldUVEJLNmttV0F6ZDIxRDgyT1BwYndDRzhhRXFITk91dXlLZHZQcHRaXzhrbEM0SmZzc0FrREVQaUt2b1RLTi14ai1WdVBRNDhFaVp2T3dnR3ZVMHluR2NiZlVxUHpNOWp0U3NIRGtONk80amNFenFxU21XRjZKQQ?oc=5"
     }
   ]
 }
