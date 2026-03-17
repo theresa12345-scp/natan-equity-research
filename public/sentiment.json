@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-16T15:04:03.546152",
+  "timestamp": "2026-03-17T06:53:00.295010",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 12,
-    "neutral": 11,
-    "bearish": 2,
-    "high_priority": 8,
+    "avg_relevance": 7.3,
+    "bullish": 9,
+    "neutral": 13,
+    "bearish": 3,
+    "high_priority": 12,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
-    "Bloomberg": 3,
+    "Reuters": 12,
+    "Bloomberg": 4,
+    "Defense World": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "Bloomberg.com": 1,
-    "Seeking Alpha": 1,
-    "MarketWatch": 1,
-    "AD HOC NEWS": 2,
-    "Blockonomi": 1
+    "AD HOC NEWS": 1,
+    "Insider Monkey": 1,
+    "Bloomberg.com": 1
   },
   "top_signals": [
     {
@@ -32,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,8 +100,48 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "iShares International Treasury Bond ETF (NASDAQ:IGOV) Sees Large Growth in Short Interest",
+      "score": 8,
+      "source": "Defense World",
+      "sentiment": "positive",
+      "impact": "Short interest in iShares International Treasury Bond ETF (NASDAQ:IGOV) rose significantly by 33.5% in February, reaching 394,189 shares, which represents about 1.6% of the company's shares. This increase indicates growing bearish sentiment among investors, with a short-interest ratio of 0.8 days. M",
+      "category": "us_equities",
+      "date": "2026-03-17 05:31",
+      "link": "https://www.defenseworld.net/2026/03/17/ishares-international-treasury-bond-etf-nasdaqigov-sees-large-growth-in-short-interest.html"
+    },
+    {
+      "headline": "Australia central bank hikes rates in tight call as Iran war stokes inflation risk - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Australia central bank hikes rates in tight call as Iran war stokes inflation risk\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-17 03:52",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV1FwMXNsdzBiU01ZdXJMSkVvMEc3MF9VRDNFX3lJNmV0eDQ3bUNHOF9wXzJpYnRlYm9wNmphQTBmU1BsWFF4VktnVGZvU2hzSk11T20wbjVETkZEMkN0WjFYODhlcDNJRjdrYU5oSEJNcVpPMUtUaVB0VnJvNV9ScFhDTVJQNUxKTXBvdFBMY1FSc0ZiRzdKa29KaTN2dkNMNkJzd2ZWbm1RdDNOcmRpcXhOQXNmX1JV?oc=5"
+    },
+    {
+      "headline": "Bond investors, wary of Iran war, turn risk-averse ahead of Fed meeting - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Bond investors, wary of Iran war, turn risk-averse ahead of Fed meeting\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-03-16 16:49",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONEMzcEdhdFVkdXVEMlZKc1VsZnpjZHhZaVh4cDdVYmZKY1RsY29VLXBRQzRtcnhZcHYxcDF0UmhncG9BX2xRZ1hjdWZQT2cwOENIemtvcTNKZnNGQzNnTVRkNm1MTjFKVXpMczFrQnR5VlZaQ3ljVG8zWlJ3NnVQQkpNSDlTLU5sMUFTWWFDQXVVRUpiS0xSdWJIcldmRkx0MjkxUFFBSHFKM2NO?oc=5"
+    },
+    {
+      "headline": "Trump\u2019s War Jolts Global Central Banks From Fed to ECB to BOJ",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Central banks from Washington to London to Jakarta are about to make their first assessments of economic damage after more than two weeks of conflict between the US and Iran.",
+      "category": "us_monetary_policy",
+      "date": "2026-03-15 19:07",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-14/trump-s-war-jolts-global-central-banks-from-fed-to-ecb-to-boj"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -112,7 +150,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,158 +160,118 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-16 15:04",
+      "date": "2026-03-17 06:52",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Bessent says Treasury is not intervening in oil commodities markets and has no authority to do so",
+      "headline": "Centene Corp. Stock Falls 40% as Q4 Earnings Miss and 2026 Guidance Crumbles\u2014Is the Rebound Real?",
       "score": 7,
-      "source": "CNBC",
+      "source": "AD HOC NEWS",
       "sentiment": "negative",
-      "impact": "Bessent addressed rumors that the Treasury Department or some other arm of government might step in to try to lower oil prices.",
-      "category": "fixed_income",
-      "date": "2026-03-16 12:28",
-      "link": "https://www.cnbc.com/2026/03/16/bessent-says-treasury-is-not-intervening-in-oil-commodities-markets-and-has-no-authority-to-do-so.html"
+      "impact": "Centene Corp. (NYSE: CNC) experienced a significant 47.8% stock decline from its 52-week high after reporting a Q4 2025 loss and issuing disappointing 2026 EPS guidance of $3.00, far below the $6.86 consensus. This collapse reflects deeper structural issues in Medicaid economics and managed-care pro",
+      "category": "corporate_earnings",
+      "date": "2026-03-17 05:23",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/centene-corp-stock-falls-40-percent-as-q4-earnings-miss-and-2026/68698824"
     },
     {
-      "headline": "Iran War Brings Fuel Risk to Indonesia Ahead of Eid Travel Surge",
+      "headline": "Oil Supplies in Focus Ahead of Stock, Bond Open: Markets Wrap",
       "score": 7,
       "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "President Prabowo Subianto\u2019s administration has already faced market turmoil, a tumbling currency and civil unrest. Now Jakarta is grappling with fuel prices that have spiked across the region as a war in the Persian Gulf upends supply \u2014 just as more than 100\u2026",
-      "category": "indonesia_financials",
-      "date": "2026-03-15 05:03",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-15/iran-war-brings-fuel-risk-to-indonesia-ahead-of-eid-travel-surge"
+      "sentiment": "positive",
+      "impact": "US and European stock index futures rose after crude oil gave up part of its early surge as President Donald Trump raised pressure on nations to help reopen the Strait of Hormuz and said the US was talking to Iran.",
+      "category": "fixed_income",
+      "date": "2026-03-16 01:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-15/oil-supplies-in-focus-ahead-of-stock-bond-open-markets-wrap"
     },
     {
-      "headline": "Public Storage Strikes $10.5 Billion Deal for National Storage",
+      "headline": "Morgan Stanley Lifts Johnson Controls (JCI) View Following Latest Results",
+      "score": 6,
+      "source": "Insider Monkey",
+      "sentiment": "positive",
+      "impact": "Morgan Stanley has increased its price target for Johnson Controls International plc (NYSE:JCI) to $140 from $130, reiterating an Overweight rating following strong fiscal Q1 2026 results. The company reported significant growth in orders, revenue, and adjusted EPS, along with meaningful margin expa",
+      "category": "indonesia_equities",
+      "date": "2026-03-17 05:15",
+      "link": "https://www.insidermonkey.com/blog/morgan-stanley-lifts-johnson-controls-jci-view-following-latest-results-1718149/"
+    },
+    {
+      "headline": "Morgan Stanley Says South Africa to Stay on Prolonged Rate Hold",
       "score": 6,
       "source": "Bloomberg.com",
-      "sentiment": "positive",
-      "impact": "Public Storage Corp. has agreed to acquire National Storage Affiliates Trust in an all-stock deal valued at approximately $10.5 billion, including debt. This acquisition will expand Public Storage's presence across the US, following a period of consolidation in the self-storage sector after its pand",
-      "category": "global_markets",
-      "date": "2026-03-16 14:30",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-16/public-storage-strikes-10-5-billion-deal-for-national-storage"
-    },
-    {
-      "headline": "Microsoft Is On Sale: 5 Reasons To Buy Now (NASDAQ:MSFT)",
-      "score": 6,
-      "source": "Seeking Alpha",
-      "sentiment": "positive",
-      "impact": "Microsoft Corporation is rated a Strong Buy with a target of $600, representing a 52% upside. The company trades at a forward P/E of 21.5x, a 26% discount to its five-year average, despite strong EPS growth. Microsoft's AAA credit rating supports aggressive expansion in AI and data centers, while ro",
-      "category": "us_equities",
-      "date": "2026-03-16 14:24",
-      "link": "https://seekingalpha.com/article/4882726-microsoft-is-on-sale-5-reasons-to-buy-now"
-    },
-    {
-      "headline": "Trump has 15 days to end the Iran war or markets face a brutal April repricing \u2014 from oil to the S&P 500",
-      "score": 6,
-      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Wall Street bets on a March end to the Iran conflict \u2014 but Tehran is playing for a November U.S. regime change.",
-      "category": "us_equities",
-      "date": "2026-03-16 14:15",
-      "link": "https://www.marketwatch.com/story/trump-has-15-days-to-end-the-iran-war-or-markets-face-a-brutal-april-repricing-from-oil-to-the-s-p-500-995fd2fa?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Federal Realty stock holds steady as retail REIT navigates market valuation gap",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Federal Realty Investment Trust (FRT) shows strong operational performance with 40.5% earnings growth, yet its stock trades at a significant discount to fair value, creating a potential opportunity for investors. The company's focus on high-quality, open-air shopping centers in affluent areas provid",
-      "category": "us_monetary_policy",
-      "date": "2026-03-16 14:06",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/federal-realty-stock-holds-steady-as-retail-reit-navigates-market/68695017"
-    },
-    {
-      "headline": "He manages the best-performing stock mutual fund of the past 25 years\u2014here's his top advice for investors",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Michael Lippert runs Baron Opportunity, a mutual fund which aims to invest in fast-growing stocks benefitting from technological trends.",
+      "impact": "Morgan Stanley predicts South Africa will maintain high interest rates for an extended period, largely due to surging oil prices stemming from the Middle East conflict. Economist Andrea Masia suggests the central bank will keep rates unchanged through most of 2026, with an easing cycle resuming in N",
       "category": "global_markets",
-      "date": "2026-03-16 14:03",
-      "link": "https://www.cnbc.com/2026/03/16/michael-lippert-baron-opportunity-fund-investing-advice.html"
+      "date": "2026-03-17 04:44",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-17/morgan-stanley-says-south-africa-to-stay-on-prolonged-rate-hold"
     },
     {
-      "headline": "We're buying more of these 2 stocks to take advantage of a deeply oversold market",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Our trusted momentum indicator is signaling that we need to do some buying.",
-      "category": "global_markets",
-      "date": "2026-03-16 14:02",
-      "link": "https://www.cnbc.com/2026/03/16/were-buying-more-of-these-2-stocks-to-take-advantage-of-a-deeply-oversold-market.html"
-    },
-    {
-      "headline": "FedEx Corp. stock draws analyst upgrade as logistics giant pursues margin recovery",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "FedEx Corp. has received a renewed \"buy\" rating from Barclays with a $450 target price, reflecting confidence in its margin recovery efforts through cost discipline and network automation. The company is actively focusing on operational efficiency, digital platform enhancements, and fleet modernizat",
-      "category": "us_monetary_policy",
-      "date": "2026-03-16 14:02",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/fedex-corp-stock-draws-analyst-upgrade-as-logistics-giant-pursues-margin/68695001"
-    },
-    {
-      "headline": "DocuSign (DOCU) Stock Q4 Earnings: Key Metrics to Watch Before Tuesday\u2019s Report",
-      "score": 6,
-      "source": "Blockonomi",
-      "sentiment": "negative",
-      "impact": "DocuSign (DOCU) is set to release its Q4 fiscal 2026 earnings on Tuesday, March 17, with analysts projecting earnings per share of $0.95 and revenue of $827.33 million. Billings, a critical forward-looking indicator, is expected to be between $992M and $1,002M. Despite a 32% year-to-date stock decli",
-      "category": "corporate_earnings",
-      "date": "2026-03-16 13:54",
-      "link": "https://blockonomi.com/docusign-docu-stock-q4-earnings-key-metrics-to-watch-before-tuesdays-report/"
-    },
-    {
-      "headline": "10 high-paying careers where women make up the majority of workers\u2014most pay more than $100,000",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Women make up 50% or more of the workforce in these high-paying fields, according to Resume Genius.",
-      "category": "global_markets",
-      "date": "2026-03-16 13:45",
-      "link": "https://www.cnbc.com/2026/03/16/10-high-paying-careers-where-women-make-up-the-majority-of-workers.html"
-    },
-    {
-      "headline": "Iran war hits refined fuels harder than crude and importers need to act - Reuters",
+      "headline": "Trump criticises allies over rejection of Hormuz request, as Iran and Israel trade airstrikes - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran war hits refined fuels harder than crude and importers need to act\u00a0\u00a0Reuters",
+      "impact": "Trump criticises allies over rejection of Hormuz request, as Iran and Israel trade airstrikes\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-16 13:12",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSnlYcTBheUxQWkstRERjVkdrZWlBaEwwQ3NvMUoydFBnLWY5X3ZiamxmcXBFYnl4QVdCSHhpSThDdnEwM3pKSlBtMVZIQmp1cE44Z0RDWEFMUFV5TVFBcVlKZWJuTXBwNWR4cExBRDNfdklGUXg4WXB5M09wQmVqRkVZU21NYWdscXNtVE1kcVprZlFhVFVuamMzVW5makRRWHB0U21EWlR3WGxubnFsTU9McUxYWXpkYUE2Sw?oc=5"
+      "date": "2026-03-17 03:40",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTVhHMjJPUHhnUVdGdEtLWTZ3MUgwanJydGkyZkJ5bWI3WnFKVS0zREVmRGF4RzBhU1FUT1VEWjJLUXZ5VFBRaUtzdGtONGY3MHdlZDV2SkU5Yzc4cWEwdmJuY2sxSVl5NEtITXpRMFotTHltQkRIX2ZobHZVQ1NmZFp2bExPbjhuZW1WUm1WLW5DMlBkVjVNYjhWMWE4emR4MnhNb3k4ajlVU1l3YWtuQnY4eng4bWI0Zkhv?oc=5"
     },
     {
-      "headline": "Your guide to leadership training: How to become the boss everyone wants to hire or work for",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Become a leader people want to follow by learning how to build trust, communicate effectively with your team and foster their growth to deliver results",
-      "category": "global_markets",
-      "date": "2026-03-16 13:05",
-      "link": "https://www.cnbc.com/2026/03/16/leadership-training-course-how-to-becom-great-boss-manager.html"
-    },
-    {
-      "headline": "Exclusive: As India seeks Hormuz safe passage, Tehran asks for return of seized tankers, sources say - Reuters",
+      "headline": "Trump was warned of likely Iranian retaliation on Gulf allies, sources say - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Exclusive: As India seeks Hormuz safe passage, Tehran asks for return of seized tankers, sources say\u00a0\u00a0Reuters",
+      "impact": "Trump was warned of likely Iranian retaliation on Gulf allies, sources say\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-16 13:04",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZWtxbjBIaEZzbDlhVnJseS1PYzQzaHZsckk4WEdPTjdmSU14ZGxGMG93TFV4OXhKalJLRVBPYV9obWRDREFRcjFWZjEyalVNSmhnc1BFczZpZWVFZXRIaXZGQmlRSTRhSjRPUDVLQzQ2Y0dJamNQQ3plY0N0ZEJFeVdrS2lvNDRneUFlS0tkY1RpNjR0c2hmYm5yMENFWTRRWXp3Q0JaYWVxRllmdVRuOWlZZmN0Z3FTb1JWSHhYVnNqNlE?oc=5"
+      "date": "2026-03-17 02:49",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT1o3eDFZNnVCNk93VThlQl8zbTVfME1xVm5ad3VEOUpWNW9CZWU4MEdmZXlNWEppby1fQzZ5NFpEbjRTaWRlVmQ1QXU2bzhNcGJsSWxVUEdDeDM0Q0YzYkExbnFtcmJGZG5YV1c1Q2JXVW03cGVENkRlbXphM2huZk93bVNjc0hsR1BUeVF3VzdRR2dqa1lZQndab2t3R21xZklCYlJMcVVVWTNna0E2VHl6ZVlhMXVFQjIzUUZR?oc=5"
     },
     {
-      "headline": "Peloton is launching bikes and treadmills for gyms, accelerating commercial strategy",
+      "headline": "Oil climbs over 2% as Iran war halts supply - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Peloton is launching commercial gym-ready Bikes and Treads, expanding into gyms globally as it seeks new growth beyond its at-home fitness business.",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Oil climbs over 2% as Iran war halts supply\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-03-17 01:13",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYUlKYTU2aFpGNy1pVWdCemdfckwtMlVCZk52d0xsa3ljSmUwMXlTZXA3Q0g3QjJ4V3ktcUtTOHVONi1UUjZNbXVfRmJIdjlyQmNfd2hHM0pmaVpXT2lUWHJRMklpUTZRMkhPUlNyQmtjMklvZkVraWpJdEV0dzAtQXlmdjZfZ3YyQlN6VnExMWNNVG1lTHUzWEtLbDhnUXkzMk9Pa0lBdw?oc=5"
+    },
+    {
+      "headline": "UAE air traffic operations return to normal - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "UAE air traffic operations return to normal\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-16 13:00",
-      "link": "https://www.cnbc.com/2026/03/16/peloton-launches-bike-and-tread-for-gyms.html"
+      "date": "2026-03-17 01:07",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQkFhVUdVNm01UjdUeTN6ajd1d1pCdjRaY2xxZUt5UHppTUZNbkl0U1NOTnA1T3ZpNlQ5a1dRTmNvSk5RNjAzM1RSaXFVZzVUQkdHR1FmMzdwbWhQc1VOQ2p5NFRwd0k5dWZKcXBaMmd1QWN4aVpJYXBEa010cFFBWjhPQWJhTm5RYUZrSWl2YVBhaHlCYzRLNUIyRmhMRmFoOEpLd3JlU004YmR1Ti1qN1dvX2RWUDJZREs3bnFTV1llMWRB?oc=5"
+    },
+    {
+      "headline": "Rubio tells US diplomats to push allies to blacklist Iran's Revolutionary Guards and Hezbollah - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Rubio tells US diplomats to push allies to blacklist Iran's Revolutionary Guards and Hezbollah\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-16 22:57",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVG4wVkxOVUwtZVdYWGdLUnRVTUhvV05JcmNJRHhQWVU2S1RiSVNneFhObkJ0SjJtZ3BkckRkUldnelcwWERReGVpR3BuVG5NUXMtTE5fdmFJalNlNTEtT1Q1bUUzMUJMaGJKQ0tZM2RKT2hiZElsRGxlSkVpNkQwblpHMHNrU1Z4bC12QXM1LXBGVDg2dnNzNEVoRVYxSlVrTTlWeTM3dGtncUFEdXJtUDRKMUcydw?oc=5"
+    },
+    {
+      "headline": "US average diesel prices cross $5 a gallon as Middle East War tests global economy - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US average diesel prices cross $5 a gallon as Middle East War tests global economy\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-16 22:56",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTkpMdnJMYWpSZ21TbUhyc3B5ei13OEZhNm9KdmkxVF95Q1pOMzFMTjBFTHFxQVNINURxMlVYY0ZJQ0tnRW82RS01MmxhRXF1UEE3LXJ0QVNYTGRnLUwwVTJOc01renplV3JVOHpwQ09xRkhjX2ZWODc1RjVmSFQ1SUN5ZlZKNFk3eTJkak5IMnFNcHloU3dFQzdHOUgxNDhlcGkyNXZxVkQtaTFHbnFRUHZTVkNFZmphbmdGYXREOVFNXzRJMG5z?oc=5"
+    },
+    {
+      "headline": "Vance says he trusts Trump on Iran war, plays down differences - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Vance says he trusts Trump on Iran war, plays down differences\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-03-16 22:17",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWnR5aFJBcHJGaVhwdVlyTmJoMmlaWnNnVElEM2hyaHhGRHVVZEJPazQtVDF5dVZYZGZrNV84cjF4cTBiZW9kVEJ1b0t4YjRVMlJFV3QxZnNNal90VkNBR2xTelBCdF81S3RUcS01blUwUXU1Uy1ua2V5WG50eXJQM0ZCbldWZnpjNjAwSkFZWWFzb3ZNSS1nQnVtQnVacjhVbFE?oc=5"
     }
   ]
 }
