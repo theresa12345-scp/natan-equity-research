@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-03-18T06:51:50.256653",
+  "timestamp": "2026-03-18T15:07:14.290843",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 9,
-    "neutral": 13,
-    "bearish": 3,
+    "bullish": 11,
+    "neutral": 10,
+    "bearish": 4,
     "high_priority": 10,
     "material_events": 4
   },
@@ -14,12 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 11,
+    "Reuters": 6,
     "Bloomberg": 2,
-    "CNBC": 4,
+    "CNBC": 7,
     "Caixin/S&P Global": 1,
-    "AD HOC NEWS": 1,
-    "MarketWatch": 2
+    "MarketWatch": 2,
+    "TipRanks": 1,
+    "Barchart.com": 1,
+    "Meyka": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Fed to still cut rates this year, even as high oil prices spark an uptick in inflation: CNBC Fed Survey",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The 32 respondents, including fund managers, analysts and economists, see oil prices on average at $88 a barrel six months from now.",
+      "category": "us_monetary_policy",
+      "date": "2026-03-18 12:17",
+      "link": "https://www.cnbc.com/2026/03/18/cnbc-fed-survey-elevated-oil-but-a-rate-cut.html"
     },
     {
       "headline": "Airlines raise revenue guidance despite rising fuel costs, citing growth in demand",
@@ -113,23 +125,13 @@
       "link": "https://www.cnbc.com/2026/03/17/airline-guidance-iran-war-oil.html"
     },
     {
-      "headline": "The Fed issues its latest interest rate decision Wednesday. Here's what to expect",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Federal Reserve has little choice but to stay on the sidelines this week.",
-      "category": "us_monetary_policy",
-      "date": "2026-03-17 18:58",
-      "link": "https://www.cnbc.com/2026/03/17/the-fed-issues-its-latest-interest-rate-decision-wednesday-heres-what-to-expect.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -139,28 +141,8 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-18 06:51",
+      "date": "2026-03-18 15:07",
       "link": "https://www.reuters.com/business/energy/"
-    },
-    {
-      "headline": "IDEX Corporation Stock (ISIN: US45167R1041) Edges Higher After Q4 Earnings Beat and Solid 2026 Guidance",
-      "score": 7,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "IDEX Corporation reported strong Q4 earnings, with EPS of $2.10 against estimates of $2.04 and revenue of $899.1 million versus $882 million expected, leading to a slight increase in its stock price. The industrial manufacturer also provided a solid full-year 2026 outlook, signaling resilience despi",
-      "category": "corporate_earnings",
-      "date": "2026-03-18 05:28",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/idex-corporation-stock-isin-us45167r1041-edges-higher-after-q4-earnings/68772500"
-    },
-    {
-      "headline": "Fed likely to hold rates steady as Iran war shocks policy debate - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Fed likely to hold rates steady as Iran war shocks policy debate\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-03-18 05:05",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeGFJZ2Nzck85cDFZYW9yY3g3SjNQd1dXdDlwZ3pKbGRPdUVSbXJ6RXZlV283aFpLdXhmWlRTX2RmODZwU2dqOFJwQW51Vkl4TFo0bzVyclVDcnd4WVcxNnBLMnhlYXBGaFd6U0dZMmh4elMtV1JlRW5YTXpzYW1Wa29vWUFreURBXzBxTzg5U21fNERRZ3B0Qm5EaFFGYzNNQlJnOVlR?oc=5"
     },
     {
       "headline": "Lululemon reports weak guidance as proxy battle, tariffs weigh on bottom line",
@@ -169,108 +151,128 @@
       "sentiment": "negative",
       "impact": "Lululemon topped fourth-quarter estimates but gave weaker-than-expected sales and earnings forecasts for 2026.",
       "category": "corporate_earnings",
-      "date": "2026-03-17 22:38",
+      "date": "2026-03-18 11:38",
       "link": "https://www.cnbc.com/2026/03/17/lululemon-lulu-earnings-q4-2025.html"
     },
     {
-      "headline": "UAE central bank launches resilience package amid Iran crisis - Reuters",
+      "headline": "Fed likely to leave rates unchanged as Iran war shocks policy debate - Reuters",
       "score": 7,
       "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "UAE central bank launches resilience package amid Iran crisis\u00a0\u00a0Reuters",
+      "sentiment": "neutral",
+      "impact": "Fed likely to leave rates unchanged as Iran war shocks policy debate\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-03-18 05:05",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeGFJZ2Nzck85cDFZYW9yY3g3SjNQd1dXdDlwZ3pKbGRPdUVSbXJ6RXZlV283aFpLdXhmWlRTX2RmODZwU2dqOFJwQW51Vkl4TFo0bzVyclVDcnd4WVcxNnBLMnhlYXBGaFd6U0dZMmh4elMtV1JlRW5YTXpzYW1Wa29vWUFreURBXzBxTzg5U21fNERRZ3B0Qm5EaFFGYzNNQlJnOVlR?oc=5"
+    },
+    {
+      "headline": "UAE central bank support package lifts lenders shaken by Iran war - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "UAE central bank support package lifts lenders shaken by Iran war\u00a0\u00a0Reuters",
       "category": "global_markets",
       "date": "2026-03-17 21:08",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZUdiZmREZ2FMdk9rSlgzZFZJYjNudGNvUE5SRTRvMDNKX0tRcExkSmJBUkRicE9MZlpfVXlWdHNpTUY4TFdKMU9NUG94aU8zSnIyUExoMkI3WWc3aVhvWDdqMUxhNlY1QkRZUmJPdVVBTWpZd2lyLXlhTXg0SFJ3QXl5d0RnREdMZlZjVzExTk1KVElRQ21Pck9jYTR5NFNhLUpKbDBhV3lFRndpT1M0eUlJNWJjQQ?oc=5"
     },
     {
-      "headline": "S&P 500 futures are little changed after major averages rebound on easing oil prices: Live updates",
+      "headline": "S&P 500 rises as market continues rebound from Iran conflict turmoil: Live updates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Each of the 11 S&P sectors closed higher in Monday's regular session, led by gains in tech.",
+      "impact": "Wall Street built on the momentum seen in the previous session amid developments in the Iran war.",
       "category": "us_equities",
-      "date": "2026-03-17 01:49",
+      "date": "2026-03-17 14:28",
       "link": "https://www.cnbc.com/2026/03/16/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Iran executes man accused of spying for Israel, Mizan reports - Reuters",
+      "headline": "Disney embarks on new chapter as Josh D'Amaro takes over as CEO ",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Bob Iger is stepping aside as Josh D'Amaro, who previously served as chairman of Disney's experiences division, takes over as CEO. ",
+      "category": "global_markets",
+      "date": "2026-03-18 14:45",
+      "link": "https://www.cnbc.com/2026/03/18/disney-josh-damaro-ceo-new-chapter.html"
+    },
+    {
+      "headline": "Macy's store revamp shows progress, but company expects sales to fall this year",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Iran executes man accused of spying for Israel, Mizan reports\u00a0\u00a0Reuters",
+      "impact": "Macy's posted solid fourth-quarter results as it tries to revamp some stores and close others.",
       "category": "global_markets",
-      "date": "2026-03-18 03:58",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmJKaTliaUtKaG1vNXNuSkI0THZiT3BLdkxjMGNRMUkybTE5bFZiVGlGN3JxU3Ezb0RWNkMyaXhRM1huUlplUE1lUG5NU2UxdFZab01FMmVma2N3LU1oMHMzeFZBay1lSWVmTjRBVE95ZGtNTmhQQzNnN1dfVHhVWndDaWRRa3pneEtFTktpcFQzdE5HT3lYR1VvbEw4U1cwNkRncFYyNDlZc1E?oc=5"
+      "date": "2026-03-18 14:32",
+      "link": "https://www.cnbc.com/2026/03/18/macys-m-q4-2025-earnings-.html"
     },
     {
-      "headline": "Projectile hits near Iran's Bushehr nuclear plant, no damage or injuries reported - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Projectile hits near Iran's Bushehr nuclear plant, no damage or injuries reported\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-18 01:55",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeFpFMDNySzdoTW5RLXhldkRDdmRrRmtiTGpWRWpuUlhtNXNqSXYzeVBQVGlYNEcxSVdHYUxhSWpwZDlDZkdybHA5Q203V2FqRmIzSXFaTzhXeERidC04a3RhZGI0VW5UYk9nc09WZUVwR21UYkZ3dHdwQ19hWVJSd2lJeWRTM1JpSUZnS1ZyU0w0X1BoTGJYcEZQUDNyWDdEbXdaSHVwSXFoN0EtWW80NHNiVHdCNFRyQUFhaWp3?oc=5"
-    },
-    {
-      "headline": "Australia says Iranian projectile hits UAE airbase, all personnel safe - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Australia says Iranian projectile hits UAE airbase, all personnel safe\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-18 01:21",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT3hqeHJKQ1ZCWXZjTE42QmlTSTVaZ01tZjVURmNfODdWTEtGRjNpbWZrRnFJLUUxTDcxckxCbjJYTDA1ak5tWkYzY0FzWFRpZmtCS05TUXFQUEVUT2lJSU16LThBS1NBNjV0RE44Z1BBUjdPR1R0MTR0NWdhT00yNzVuOHdXWDJEdWJqQjF5c2RIV1hNQ21IdXRHRVBybC0zcEhBZTdheEZyZW5hQkdtTUFhYmhydkt4TTl1dTFTMG42UQ?oc=5"
-    },
-    {
-      "headline": "The \u2018smart money\u2019 on Wall Street hates these bonds \u2014 but they may be a golden buying opportunity for you",
+      "headline": "This commodities strategy can protect you from inflation, scarcity and even price declines",
       "score": 6,
       "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "A dynamic commodities strategy can enhance an investment portfolio\u2019s returns over the long term.",
+      "category": "global_markets",
+      "date": "2026-03-18 14:31",
+      "link": "https://www.marketwatch.com/story/this-commodities-strategy-can-protect-you-from-inflation-scarcity-and-even-price-declines-931d645f?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Steel Dynamics Issues Strong First-Quarter 2026 Earnings Outlook",
+      "score": 6,
+      "source": "TipRanks",
+      "sentiment": "positive",
+      "impact": "Steel Dynamics (STLD) has issued a strong first-quarter 2026 earnings guidance, projecting $2.73 to $2.77 per diluted share, significantly higher than previous quarters. This positive outlook is attributed to robust demand in steel and fabrication operations, improved metals recycling, and progress ",
+      "category": "corporate_earnings",
+      "date": "2026-03-18 14:26",
+      "link": "https://www.tipranks.com/news/company-announcements/steel-dynamics-issues-strong-first-quarter-2026-earnings-outlook"
+    },
+    {
+      "headline": "Is Everest Group Stock Underperforming the S&P 500?",
+      "score": 6,
+      "source": "Barchart.com",
       "sentiment": "neutral",
-      "impact": "Three important \u2014 and potentially useful \u2014 things leap out of the latest BofA fund-manager survey.",
+      "impact": "Everest Group (EG) has been underperforming the S&P 500 across various timeframes, including the past three months, 52 weeks, and year-to-date. The company's strategic shift towards high-margin global wholesale and specialty lines aims for long-term profitability, despite reporting mixed Q4 results ",
       "category": "us_equities",
-      "date": "2026-03-18 01:15",
-      "link": "https://www.marketwatch.com/story/the-smart-money-on-wall-street-hates-these-bonds-but-they-may-be-a-golden-buying-opportunity-for-you-ae48d8d8?mod=mw_rss_topstories"
+      "date": "2026-03-18 14:22",
+      "link": "https://www.barchart.com/story/news/821251/is-everest-group-stock-underperforming-the-s-p-500"
     },
     {
-      "headline": "With watchful eye on Iran war, crypto dodges UAE disruption - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "With watchful eye on Iran war, crypto dodges UAE disruption\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-18 00:04",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYmhKNXJONG9MNERPR2lKaE1VcGtmLU9UanItNHpkR3IxUTRUcWVncmEydDhGaXg5dVJRMXN6NlhGdUdCUmhBV2ZTSjhVQlRBeWxTZlNTbUQxR3JEYWVhdDZvWlZYanU4N2I5MnBoaldYVzU2bDNPcTdtalRYSnBuTW8wMEt5bHdLaU41M1FmV2oyY0dEYXl0QzJDaXM1S2E1ZWROcXJway01cmZINHc?oc=5"
-    },
-    {
-      "headline": "Top Japan firms offer big pay hikes, focus on Iran conflict ahead - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Top Japan firms offer big pay hikes, focus on Iran conflict ahead\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-17 23:09",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ2NvOXRWeGgwZFplVV9uSDMySHV4UThleTBQZzFKSmVRMERGTzZIV3dYYXRpN0VJR2RXTjJaQm1XWF95aWxyRUlySGVqUmFNQnNnQk9SX2tYUllKbklQNUJZaGo1V0hNbE1jTmI5TmhVd2pZNTdRYUFhWC1CcWx0bGpwQllWdGRPbDVrTlVJTVZ3SjlBYURzU0NfNXRiWFk1S0FyMXAweW93eWtoQ0NYOS1IWGdYdlBOV1lkWkgzSjhSUQ?oc=5"
-    },
-    {
-      "headline": "Why Nvidia\u2019s stock is shrugging off a $1 trillion revenue forecast",
+      "headline": "Wholesale prices surge again and show inflation flowing through pipeline of the economy",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "There are questions about how much upside is really implied by Nvidia\u2019s new outlook. In the meantime, investors may be looking for clearer growth opportunities elsewhere.",
-      "category": "corporate_earnings",
-      "date": "2026-03-17 22:31",
-      "link": "https://www.marketwatch.com/story/why-nvidias-stock-is-shrugging-off-a-1-trillion-revenue-forecast-74a729d6?mod=mw_rss_topstories"
+      "impact": "The cost of wholesale goods and services surged in February for the third month in a row, underscoring the challenge faced by the Federal Reserve in vanquishing inflation even before the recent spike in oil prices.",
+      "category": "global_markets",
+      "date": "2026-03-18 14:17",
+      "link": "https://www.marketwatch.com/story/wholesale-prices-surge-again-and-show-inflation-flowing-through-pipeline-of-the-economy-ed46d9a3?mod=mw_rss_topstories"
     },
     {
-      "headline": "Russia's Rosatom condemns strike on territory of Iran's Bushehr nuclear plant - Reuters",
+      "headline": "TER (Teradyne, NASDAQ) $298.52 intraday 18 Mar 2026: AI robotics lift; targets ahead",
+      "score": 6,
+      "source": "Meyka",
+      "sentiment": "positive",
+      "impact": "Teradyne (NASDAQ: TER) is trading at $298.52 intraday on March 18, 2026, driven by strong demand for AI-driven robotics and semiconductor test equipment. While the stock shows robust fundamentals like solid cash generation and revenue growth, its valuation metrics, including a trailing PE of 86.28, ",
+      "category": "us_equities",
+      "date": "2026-03-18 14:02",
+      "link": "https://meyka.com/blog/ter-teradyne-nasdaq-29852-intraday-18-mar-2026-ai-robotics-lift-targets-ahead-1803/"
+    },
+    {
+      "headline": "Iran warns of strikes on Gulf oil facilities 'in coming hours', state media reports - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Russia's Rosatom condemns strike on territory of Iran's Bushehr nuclear plant\u00a0\u00a0Reuters",
+      "impact": "Iran warns of strikes on Gulf oil facilities 'in coming hours', state media reports\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-03-18 13:02",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOERtcm5ZVjYwcFpBbFNrQU5uSlUzQVBSMkdiT3p5S2w1Qy1NeDNQZUJscDRZSDlIdDBZYjJvbkQ0RjNVRGk2Um53SnpNdTNsRkdPd2JwalhMTWpYc1I3TFAyQ3N3ZTc0cno1dnA3X2IxNHhuYnhVbzd6UUVXWHpVT09PTzhwYkltdm9leVloczQ0RjBKLWQ0NVNFSnRlR1NPM0VqeTk4c1FzdUFMNWI2MkRUUUVjeGxZc0c1a2NGU0FfdkZOZEI5MA?oc=5"
+    },
+    {
+      "headline": "WNBA and players' union reach verbal agreement on landmark new CBA deal",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The verbal agreement marks the end of a prolonged and often contentious battle that threatened the start of the WNBA season.",
       "category": "global_markets",
-      "date": "2026-03-17 22:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWs2Wm50RmVmRHBaRXBCYVZTbDVHeDhKVXJHX1gzU1ZHdWpjV2d3VkY1VWRaeDl2RVhGLWlnLVJ5cEI4dlVnVEJkNmV1cTliLVZrb3hlUDl0bnpEZWNzcHRnZHJvdEpSTTkybUlpU1licElwZ2dFQUxfUWhOWDhzbXB0RndSbWhfOUxWM2dIbDg4UVk4azdZeDgzWDBqR1lTajBtTS1mWF9jX2ZtdmFxRg?oc=5"
+      "date": "2026-03-18 12:25",
+      "link": "https://www.cnbc.com/2026/03/18/wnba-players-reach-verbal-cba-deal.html"
     }
   ]
 }
