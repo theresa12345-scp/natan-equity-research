@@ -1,29 +1,27 @@
 {
-  "timestamp": "2026-03-19T06:46:06.753796",
+  "timestamp": "2026-03-19T14:52:12.972779",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 11,
-    "neutral": 10,
-    "bearish": 4,
-    "high_priority": 11,
-    "material_events": 5
+    "avg_relevance": 7.3,
+    "bullish": 10,
+    "neutral": 12,
+    "bearish": 3,
+    "high_priority": 10,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 4,
     "Reuters": 6,
-    "Bloomberg": 3,
+    "Bloomberg": 2,
+    "CNBC": 8,
     "Caixin/S&P Global": 1,
+    "The Wall Street Journal": 1,
     "Financial Times": 1,
-    "Associated Press": 1,
-    "AD HOC NEWS": 2,
-    "Bitget": 1,
-    "MarketBeat": 1,
-    "Stock Titan": 1
+    "MarketWatch": 1,
+    "TradingView": 1
   },
   "top_signals": [
     {
@@ -33,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,18 +61,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Stock futures are flat as traders look ahead to Federal Reserve interest rate decision: Live updates",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The three major averages posted back-to-back gains on Tuesday, even as oil prices ended the session higher. Traders are now awaiting the Fed's policy decision.",
-      "category": "us_monetary_policy",
-      "date": "2026-03-18 01:49",
-      "link": "https://www.cnbc.com/2026/03/17/stock-market-today-live-updates.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -83,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -93,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -103,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -113,18 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Inflation dominates Powell's remarks, pressures stocks. Plus, big earnings tonight",
+      "headline": "Dow falls 400 points after hot inflation reading, Fed decision looms: Live updates",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "sentiment": "positive",
+      "impact": "The three major averages posted back-to-back gains on Tuesday, even as oil prices ended the session higher. Traders are now awaiting the Fed's policy decision.",
       "category": "us_monetary_policy",
-      "date": "2026-03-18 19:25",
-      "link": "https://www.cnbc.com/2026/03/18/inflation-dominates-powells-remarks-pressures-stocks-plus-big-earnings-tonight.html"
+      "date": "2026-03-18 14:36",
+      "link": "https://www.cnbc.com/2026/03/17/stock-market-today-live-updates.html"
     },
     {
       "headline": "Airlines raise revenue guidance despite rising fuel costs, citing growth in demand",
@@ -143,7 +131,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -153,8 +141,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-19 06:46",
+      "date": "2026-03-19 14:52",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Micron falls more than 5% despite blockbuster earnings. Here's what market watchers are saying",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Wednesday's blockbuster earnings were not enough to stop shares in Micron Technology from falling 5.5% in pre-market trading.",
+      "category": "corporate_earnings",
+      "date": "2026-03-19 11:04",
+      "link": "https://www.cnbc.com/2026/03/19/micron-falls-blockbuster-earnings-chips-ai.html"
+    },
+    {
+      "headline": "Pakistan's delivery riders race for Eid, but Iran war squeezes earnings - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Pakistan's delivery riders race for Eid, but Iran war squeezes earnings\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-03-19 06:03",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU29oYUV2UlJ0Q1gzVHBqLUFxb0hDMW0xOWF2WUFiRXhJWWl3bm1vcmlucWtRdEhvTHFTaGZ4c1E3VE1lUDZoa1ZFMFJGSjM0eWhiQllpb1htUWZoX2ZKY1FZUHY5TFhGYnZvd1NzVWNKaFhwcmtkMS16R3NDR3B2NF96Yk5rTEtRek5ORW1GbXBPRVhQNXk3WERFQWR6a1VEVmtPdUdvY2xQZTFBTWlTRUtCdkdQbXc?oc=5"
     },
     {
       "headline": "Investors face cloudier Fed rate view as Iran war grips markets - Reuters",
@@ -167,24 +175,24 @@
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaU0xMU8zZlBtcHM3UGhON2p2T09JR2syckhGN0U5bDlxWlFvNDltdmVmWXVHR2JPenE5OFM5QTMtS2pncGxWSkV4a2tnQS1zbjBFcnNMWHRyZUVTcjZST2llbnpDbGhoZDZDdGczVEpkWkpSNU8ySmRueW1TZWJSazNuc2lwN09CaUlmdjY3RnBfLTl2bkRtLWQ3dHJnMFV6aDVlM2Q3VUo?oc=5"
     },
     {
-      "headline": "ECB to talk tough as Iran war raises inflation fears - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "ECB to talk tough as Iran war raises inflation fears\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-18 23:02",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWVFZVllvME1SczNCSk0xMUVmVVctZ0g1Q3ItRFRXNmFyWWxkVjE5aWhpa094LWFnVGgxWEU0WDJDTkRpUVhZY041TmFhVk1pZzFEbDVnOFNiMEhiaUlLdUhiRzhTc0FWLTMxcE56VWkyYnh6bXByTVdhNnBWUmlzV1pWUzgtMkRpMU56R2ZmUlV4NUJyRzhOT3VqZnY1c0d5?oc=5"
-    },
-    {
-      "headline": "BOJ holds rates steady, warns of Iran war impact on inflation outlook - Reuters",
+      "headline": "Gold extends losing streak on expectations of tighter policy from central banks - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "BOJ holds rates steady, warns of Iran war impact on inflation outlook\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-18 21:03",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZGFRaWJ4MFZnclpyaDdObmFvaXBFeDJIRVQ0MjlLSVpTQl9RS2EyY2RoUGg1MkYwQjA2NGxPMGxtSjJYQ3VMSGFkb1ZrNkxQT1ZHdm1vWGdxNDc4M2ZKWWVkR3BoTEFUOWhFYlZaTXM4Q2RPaWxTM2c1aTlSTE1hZ0kwZzB2TGJ2OUdYWlAyWkRvb2pVWEdsenVRcWstVFpQQURYYzdoamJiVGp4ajZXYU9vWUpBQWNS?oc=5"
+      "impact": "Gold extends losing streak on expectations of tighter policy from central banks\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-03-19 02:59",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeU43eHJZa2tJVHhJUFA2U2lMb3EzS0hlT1BpMHNybzdaWHhsSDFfdFVuQXV4RWJvZi1teVNpSzdwVExoak9lNEd4Wk9DclRxSm9iTW8zTzlBUG5zbjlqaGdNd2dJcUo5Ry1aR3BaMmtVcVVzYl9RcXJKTDdHWkE3QTRXSS1QTm81bFYzWDZUNDl2WWg2WndPTnh6Z0kzZjU3NEZ3eTlibE1HTS13clhCc1Bucw?oc=5"
+    },
+    {
+      "headline": "Fed Meeting Today: Dow Futures Rise, Brent Crude Remains Above $100 \u2014 Live Updates",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Live updates on markets and the top finance, economics and business stories as the Federal Reserve meets in Washington. Jerome Powell is set to speak. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
+      "category": "us_monetary_policy",
+      "date": "2026-03-18 12:07",
+      "link": "https://www.wsj.com/livecoverage/fed-interest-rate-decision-inflation-03-18-2026"
     },
     {
       "headline": "Lululemon reports weak guidance as proxy battle, tariffs weigh on bottom line",
@@ -207,74 +215,64 @@
       "link": "https://www.ft.com/content/d4c3f857-eb50-47c5-a109-050a8c2f2346?syn-25a6b1a6\\\\u003d1"
     },
     {
-      "headline": "Asian Stocks Gain Before Fed, Oil Holds Near $103: Markets Wrap",
-      "score": 7,
-      "source": "Bloomberg",
+      "headline": "Why Micron\u2019s stock is sliding despite Nvidia-like earnings performance",
+      "score": 6,
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "A rally in global stocks extended into a third day, as investors looked past near-term geopolitical tensions and sought signs of stability even as the war in Iran continued to roil energy markets and fuel inflation concerns. Oil dropped.",
-      "category": "us_monetary_policy",
-      "date": "2026-03-18 01:03",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-17/stock-market-today-dow-s-p-live-updates-"
+      "impact": "Micron Technology is crushing expectations to a degree that\u2019s reminiscent of Nvidia\u2019s breakout performances at the beginning of the artificial-intelligence boom three years ago, a Deutsche Bank analyst noted.",
+      "category": "corporate_earnings",
+      "date": "2026-03-19 14:44",
+      "link": "https://www.marketwatch.com/story/why-microns-stock-is-sliding-despite-nvidia-like-earnings-performance-fa9729f7?mod=mw_rss_topstories"
     },
     {
-      "headline": "How many rate cuts? Iran war upends Federal Reserve\u2019s next steps",
-      "score": 7,
-      "source": "Associated Press",
+      "headline": "Uber to invest up to $1.25 billion in EV maker Rivian in deal to launch 50,000 robotaxis",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Uber plans to invest up to $1.25 billion in Rivian as part of a deal to deploy up to 50,000 robotaxis in several countries through 2031.",
+      "category": "global_markets",
+      "date": "2026-03-19 14:31",
+      "link": "https://www.cnbc.com/2026/03/19/uber-rivian-robotaxi.html"
+    },
+    {
+      "headline": "JPMorgan Chase taps A'ja Wilson, Tom Brady for new athlete wealth management push",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "JPMorgan's move reflects growing competition among banks and wealth managers to serve athletes, who are increasingly becoming entrepreneurs and investors.",
+      "category": "global_markets",
+      "date": "2026-03-19 14:20",
+      "link": "https://www.cnbc.com/2026/03/18/jpmorgan-athlete-wealth-management-tom-brady-dwyane-wade.html"
+    },
+    {
+      "headline": "Major League Baseball names Polymarket exclusive prediction market partner",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Major League Baseball is partnering with Polymarket to offer exclusive rights and data.",
+      "category": "global_markets",
+      "date": "2026-03-19 14:15",
+      "link": "https://www.cnbc.com/2026/03/19/mlb-polymarket-prediction-markets.html"
+    },
+    {
+      "headline": "Crypto.com lays off 12% of workforce in latest company to cite AI in job cuts",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "CEO Kris Marszalek said the layoffs were in \"roles that do not adapt in our new world\" as the company integrates enterprise-wide AI.",
+      "category": "global_markets",
+      "date": "2026-03-19 14:12",
+      "link": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
+    },
+    {
+      "headline": "Technical Analysis of GraniteShares 2x Long BABA Daily ETF (NASDAQ:BABX)",
+      "score": 6,
+      "source": "TradingView",
       "sentiment": "negative",
-      "impact": "The Iran war has scrambled the Federal Reserve\u2019s outlook on inflation and unemployment and will likely further delay interest rate cuts this year, putting off any relief for consumers struggling with high borrowing costs for home and car purchases. The spike \u2026",
-      "category": "us_monetary_policy",
-      "date": "2026-03-17 17:09",
-      "link": "https://apnews.com/article/fed-interest-rates-jerome-powell-1b3a287688c864a681fd0bd73560890f"
-    },
-    {
-      "headline": "Gentex Corp Stock (ISIN: US37253A1034) Holds Steady Amid Auto Sector Volatility as Q4 Earnings Loom",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Gentex Corp's stock (ISIN: US37253A1034) is holding steady despite automotive market volatility, with investors keenly awaiting its Q4 earnings report. The company, a key supplier of automotive vision systems and ADAS technologies, is drawing attention from European investors due to its resilience a",
-      "category": "corporate_earnings",
-      "date": "2026-03-19 05:45",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/gentex-corp-stock-isin-us37253a1034-holds-steady-amid-auto-sector/68849051"
-    },
-    {
-      "headline": "Chart Industries Sees $430M Volume Spike, Climbing to 282nd Place as Earnings Remain Uncertain and Institutions Take Positions",
-      "score": 6,
-      "source": "Bitget",
-      "sentiment": "neutral",
-      "impact": "Chart Industries (GTLS) experienced a significant trading volume increase to $430 million, rising to 282nd in market activity despite a 0.09% stock decline. This surge was influenced by an optimistic pre-market earnings outlook and growing institutional investment, even as recent earnings missed ana",
-      "category": "corporate_earnings",
-      "date": "2026-03-19 05:39",
-      "link": "https://www.bitget.com/amp/news/detail/12560605278565"
-    },
-    {
-      "headline": "ICICI Bank Ltd (ADR) Stock (ISIN: US45104G1040) Faces Pressure Amid Q3 Profit Dip and Technical Sell",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "negative",
-      "impact": "ICICI Bank Ltd (ADR) shares are under pressure due to a 4% year-over-year dip in Q3 FY26 net profit, despite strong net interest income growth. Technical indicators show \"strong sell\" signals, but analysts predict a 15-20% upside potential over the long term, driven by India's banking sector recover",
-      "category": "corporate_earnings",
-      "date": "2026-03-19 05:38",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/icici-bank-ltd-adr-stock-isin-us45104g1040-faces-pressure-amid-q3/68849518"
-    },
-    {
-      "headline": "HireQuest (HQI) Expected to Announce Earnings on Thursday",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "HireQuest (NASDAQ:HQI) is set to release its Q4 2025 earnings after market close on Thursday, March 26th, with analysts anticipating $0.12 EPS and $7.412 million in revenue. The company recently declared a quarterly dividend of $0.06 per share and authorized a $20 million share buyback program. Insi",
-      "category": "corporate_earnings",
-      "date": "2026-03-19 05:20",
-      "link": "https://www.marketbeat.com/instant-alerts/hirequest-hqi-expected-to-announce-earnings-on-thursday-2026-03-19/"
-    },
-    {
-      "headline": "Flywire (NASDAQ: FLYW) CEO exercises options for 14,087 shares",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "Flywire Corp CEO Michael Massaro exercised employee stock options to acquire 14,087 shares of Voting Common Stock at $3.95 per share. This transaction was a derivative exercise, not an open-market purchase. Following the exercise, Massaro directly holds 2,816,035 shares of Flywire common stock, with",
+      "impact": "This article provides a technical analysis of the GraniteShares 2x Long BABA Daily ETF (NASDAQ:BABX) based on various indicators. It summarizes oscillator and moving average signals, presenting an overall \"strong sell\" rating for the ETF across different timeframes. The analysis emphasizes that this",
       "category": "us_equities",
-      "date": "2026-03-19 05:08",
-      "link": "https://www.stocktitan.net/sec-filings/FLYW/form-4-flywire-corp-insider-trading-activity-a3aa104de247.html"
+      "date": "2026-03-19 14:09",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-BABX/technicals/"
     }
   ]
 }
