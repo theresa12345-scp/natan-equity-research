@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-20T06:42:08.903928",
+  "timestamp": "2026-03-20T14:46:47.560556",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 12,
+    "avg_relevance": 7.4,
+    "bullish": 9,
     "neutral": 8,
-    "bearish": 5,
-    "high_priority": 10,
+    "bearish": 8,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,14 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
-    "Bloomberg": 2,
+    "Reuters": 7,
+    "Bloomberg": 3,
     "CNBC": 5,
+    "Yahoo Entertainment": 1,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 1,
-    "Stock Titan": 1,
-    "MoneyDJ\u7406\u8ca1\u7db2": 1,
-    "MarketWatch": 1
+    "MarketWatch": 2,
+    "MarketBeat": 1,
+    "TradingView": 1
   },
   "top_signals": [
     {
@@ -31,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -113,6 +113,16 @@
       "category": "us_monetary_policy",
       "date": "2026-03-19 22:26",
       "link": "https://www.cnbc.com/2026/03/19/fedex-fdx-q3-2026-earnings.html"
+    },
+    {
+      "headline": "Live updates: Interest rates steady, Federal Reserve forecasts one rate cut in 2026",
+      "score": 8,
+      "source": "Yahoo Entertainment",
+      "sentiment": "negative",
+      "impact": "The Federal Reserve kept interest rates unchanged at the end of its two-day policy meeting on Wednesday.",
+      "category": "us_monetary_policy",
+      "date": "2026-03-19 08:00",
+      "link": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html"
     },
     {
       "headline": "Airlines raise revenue guidance despite rising fuel costs, citing growth in demand",
@@ -131,7 +141,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -141,38 +151,68 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-20 06:42",
+      "date": "2026-03-20 14:46",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Oil prices retreat, bonds struggle on hawkish rate repricing as Iran war rages - Reuters",
+      "headline": "Why Britain\u2019s bond market is in free fall as key yield reaches 17-year high",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Bond markets across the globe are under pressure, but the U.K. government bond market is under attack like no other.",
+      "category": "fixed_income",
+      "date": "2026-03-20 13:22",
+      "link": "https://www.marketwatch.com/story/why-britains-bond-market-is-in-free-fall-as-key-yield-reaches-17-year-high-0c300105?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Fed\u2019s Waller says he doesn\u2019t support rate hikes, sees inflation cooling in second half of the year",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Market development reported by MarketWatch.",
+      "category": "us_monetary_policy",
+      "date": "2026-03-20 13:09",
+      "link": "https://www.marketwatch.com/story/feds-waller-says-he-doesnt-support-rate-hikes-sees-inflation-cooling-in-second-half-of-the-year-3ca9f671"
+    },
+    {
+      "headline": "Iran conflict could flip China's deflation into 'bad inflation' - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Oil prices retreat, bonds struggle on hawkish rate repricing as Iran war rages\u00a0\u00a0Reuters",
+      "impact": "Iran conflict could flip China's deflation into 'bad inflation'\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-03-20 05:05",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPREJoblFTaldtZ1lIM1pJR3pwRjN2dlVpZk1ZRGhVcTFZaXg3eEFlMk5UVzU2anlXNEZvMjFYNE5FbDFtQmhMZ0tabFRlNloxTWNYOVVXSkpmRnhIT0JYdXVqOFFvVGRvYmt6YmhVMGxjM2JORWtCWTFjV1QwZUZ5UV9QUVpLeHBaal9NT1FUYm80V0dUSjEyR29BbHNKMEVCWEpacmdkcVFkNEpyUHZfUEJSZmhqZw?oc=5"
+    },
+    {
+      "headline": "Stocks edge higher, bonds under pressure as Iran war spurs hawkish rate rethink - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Stocks edge higher, bonds under pressure as Iran war spurs hawkish rate rethink\u00a0\u00a0Reuters",
       "category": "fixed_income",
       "date": "2026-03-20 02:19",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaGwtQzBNN2x4bU5Ta2RuNnFJVjFkMW1HMndZT0VCN0gwLWtQRjdmMjVpcFJHZEhQb0c3dmxRTWxpTFRqNzI4Y25PbFRYcVZfUjFtcHBZaW1fUm0tZEZxWXNOMnFteHZmMFlBY0hyTHRHVzZ4RWpwMF9jSXlaQnRxMlJGaw?oc=5"
     },
     {
-      "headline": "Trump signals DOJ should continue Powell probe, complicating Warsh Fed nom",
+      "headline": "Bank of Japan keeps rates steady as expected, warns Iran war may push up inflation",
       "score": 7,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Powell has accused the DOJ of investigating him in retaliation for his refusal to lower interest rates as much or as quickly as Trump has demanded.",
-      "category": "us_monetary_policy",
-      "date": "2026-03-19 16:25",
-      "link": "https://www.cnbc.com/2026/03/19/trump-powell-warsh-fed-doj-pirro.html"
+      "impact": "The Bank of Japan kept its rates steady at 0.75% as expected, but noted that inflation risks now are tilted to the upside due to the Iran war.",
+      "category": "global_markets",
+      "date": "2026-03-19 02:54",
+      "link": "https://www.cnbc.com/2026/03/19/bank-of-japan-keeps-rates-steady-as-expected-warns-iran-war-may-push-up-inflation.html"
     },
     {
-      "headline": "Fed Meeting Today: Dow Futures Rise, Brent Crude Remains Above $100 \u2014 Live Updates",
+      "headline": "Gold Holds Steady Near $5,000 as Traders Weigh Fed Rate-Cut Path",
       "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Live updates on markets and the top finance, economics and business stories as the Federal Reserve meets in Washington. Jerome Powell is set to speak. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Gold declined for a sixth day, its longest losing streak since late 2024, as Federal Reserve Chair Jerome Powell said higher energy prices will push up overall inflation.",
       "category": "us_monetary_policy",
-      "date": "2026-03-18 12:07",
-      "link": "https://www.wsj.com/livecoverage/fed-interest-rate-decision-inflation-03-18-2026"
+      "date": "2026-03-18 20:04",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-17/gold-holds-steady-near-5-000-as-traders-weigh-fed-rate-cut-path"
     },
     {
       "headline": "Lululemon reports weak guidance as proxy battle, tariffs weigh on bottom line",
@@ -185,94 +225,54 @@
       "link": "https://www.cnbc.com/2026/03/17/lululemon-lulu-earnings-q4-2025.html"
     },
     {
-      "headline": "Mortgage refinance demand plunges 19% after interest rates shoot higher",
-      "score": 7,
+      "headline": "Nexstar, Tegna merger closes after winning regulatory approval",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Mortgage rates shot higher last week, as the war with Iran stoked fears over inflation. That caused a major drop in refinance demand, but buyer demand improved.",
+      "impact": "Nexstar has closed its $6.2 billion acquisition of Tegna after winning approval from the Federal Communications Commission and Department of Justice.",
       "category": "global_markets",
-      "date": "2026-03-18 11:00",
-      "link": "https://www.cnbc.com/2026/03/18/mortgage-refinance-demand-plunges-19percent-after-interest-rates-shoot-higher.html"
+      "date": "2026-03-20 14:23",
+      "link": "https://www.cnbc.com/2026/03/20/nexstar-tegna-merger-closes-after-winning-regulatory-approval-.html"
     },
     {
-      "headline": "Liu Jia at Haoxi Health (NASDAQ: HAO) files initial Form 3 report",
+      "headline": "Analysts Set Expectations for Avanos Medical FY2026 Earnings",
       "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "Haoxi Health Technology Ltd director Liu Jia has submitted an initial insider ownership report on Form 3. The filing indicates Liu Jia is a director of the company but shows no reported transactions, share purchases, sales, or derivative positions for the reporting person. The document also provides",
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Zacks Research has reduced its FY2026 EPS estimate for Avanos Medical to $1.07, maintaining a \"Hold\" rating. This is notably lower than the consensus analyst estimate of $1.32 and the company's own guidance of $0.90-$1.10. Despite beating recent quarterly earnings expectations, the company reported ",
+      "category": "corporate_earnings",
+      "date": "2026-03-20 13:10",
+      "link": "https://www.marketbeat.com/instant-alerts/analysts-set-expectations-for-avanos-medical-fy2026-earnings-2026-03-20/"
+    },
+    {
+      "headline": "Technical Analysis of GraniteShares 2x Long AMD Daily ETF (NASDAQ:AMDL)",
+      "score": 6,
+      "source": "TradingView",
+      "sentiment": "negative",
+      "impact": "This article provides a technical analysis of the GraniteShares 2x Long AMD Daily ETF (NASDAQ:AMDL) based on various indicators like oscillators, moving averages, and pivots. It offers a \"sell\" rating for AMDL, noting that market conditions change constantly and encourages users to consider addition",
       "category": "us_equities",
-      "date": "2026-03-20 06:09",
-      "link": "https://www.stocktitan.net/sec-filings/HAO/form-3-haoxi-health-technology-ltd-initial-statement-of-beneficial-ow-bafba9fbc569.html"
+      "date": "2026-03-20 13:09",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-AMDL/technicals/"
     },
     {
-      "headline": "YieldMax Dorsey Wright\u7cbe\u9078\u4e94\u6536\u76caETF-FEAT-ETF\u57fa\u672c\u8cc7\u6599",
-      "score": 6,
-      "source": "MoneyDJ\u7406\u8ca1\u7db2",
-      "sentiment": "positive",
-      "impact": "This article provides detailed fundamental information for the YieldMax Dorsey Wright Featured 5 Income ETF (FEAT). It covers key data such as the issuing company, exchange, inception date, market capitalization, pricing, investment style, dividend frequency, and management fees. The ETF tracks the ",
-      "category": "fixed_income",
-      "date": "2026-03-20 04:40",
-      "link": "https://www.moneydj.com/etf/x/basic/basic0004.xdjhtm?etfid=feat&topc="
-    },
-    {
-      "headline": "Rupee hits record low as Iran war-spurred economic risks mount - Reuters",
+      "headline": "Removing sanctions on Iran oil will bring supply to ports, US energy secretary says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Rupee hits record low as Iran war-spurred economic risks mount\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-20 03:36",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc1psYlltUVh5ckFhNXBZQ1JsZVBKRDBEWEVQb1I2MHBHcXJwcUJuTG1Pb3lfTmtiNkJhOVAtSHdGbWVIbEF1emVrWjNWNzJCNTFJTmo3d20tTUZnTTF3ZnVVektkdGwtNHVKYm9ZNHFVVjVrUlJjYmFBbHNvMnNGMXZhTG01V21Xck0xSi1SVFdjamFweW5WUzdxcDAxV3IzbGNTTHM5Um4waDg?oc=5"
-    },
-    {
-      "headline": "EU eyes energy tax cuts, subsidies to ease Iran war impact - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "EU eyes energy tax cuts, subsidies to ease Iran war impact\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-20 01:04",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWGF4dklHZzNLMk9GQzhqOE1LZ3NKVGc4UHhrRkR6cEQzVGQ1Uy1XRHU1TFF2TVlGb2d0M2RzVUpjWTB4MnFkeXZyWjBzd0NJQjd3a3prMy1HX1hRaFBrSXQyTk1rY3Iydk9venFiS1ZBOGFBckR1TjZNSkdxUjBPNFUtdkhKb0psNTk5NU1zRU5qMkp4YVU5Z2Z3bVlOc2F3UXNXVHowSjRNYW5YVFN3WkxVaHg0eVdyU0QzS2xFbTlCdG8xUkh4cG9n?oc=5"
-    },
-    {
-      "headline": "FedEx is upbeat about shipping demand despite surging fuel costs \u2014 and the stock is rallying",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Shares of FedEx rose in extended trading Thursday after the package-delivery giant said it expected slightly better sales and profits for this year, even as the Iran war threatens larger shipping disruptions and drives fuel prices higher.",
-      "category": "us_monetary_policy",
-      "date": "2026-03-20 00:28",
-      "link": "https://www.marketwatch.com/story/fedex-is-getting-more-upbeat-about-the-year-despite-surging-fuel-costs-6b48ed2e?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "UAE says it dismantled 'terrorist network' funded by Iran and Hezbollah - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "UAE says it dismantled 'terrorist network' funded by Iran and Hezbollah\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-19 22:44",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMV9iRVVwc24tb0hieW5ZNG5nV2pBSWRLSHJQZWkzZWRDYWdyczhieFhxb2pPOFBVbTJJclJSZ09YOWhVQkVseV9wTmdTRW5wM0lPbmd2LVpKcnpfbGNnQTlrY1hHdXBMeEdpWDhYeW5nZy1wYXVTdURMc05JSVl4YzZxYXBXOTFTWVIyQnJPQ0E1bm4ybDdoME9BZlBPS2NVVEdLS2s2UU9GNXFENDVjTmFOTEFIN2gtQUNj?oc=5"
-    },
-    {
-      "headline": "Israel launches new wave of attacks on Iran as crisis deepens - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Israel launches new wave of attacks on Iran as crisis deepens\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-19 21:58",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ0RuYWhOaFhBc09ybTZKMW5FZG1YdzMwcHpKUEtPdGl1RkNSanUyZDVnVHZMS2dROXo5MjRBVE14Z0MzTURqcjBFOWRFSzVMUGpjUThPcm0yUzFBSlNmU1ZFQS1vbWtzWkRza0pHOHk5NzYxdFg4Q0xEN2cxNzNaNFpuNTVJQU1aOEZwcDctcXBXVnowVWtkb256bjZMcDdndmZUajlXR2VEaW00NFpxbUZ3a3hMdkJQMlg0?oc=5"
-    },
-    {
-      "headline": "Prices for oil, fuel cargoes smash record highs as Iran war chokes Middle East supply - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Prices for oil, fuel cargoes smash record highs as Iran war chokes Middle East supply\u00a0\u00a0Reuters",
+      "impact": "Removing sanctions on Iran oil will bring supply to ports, US energy secretary says\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-03-19 21:26",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVldKaVdkWXZRVFZIMXlJNy0wUjEwOXBQRGpLUlZJZU1KU0NleE9LZFNabUpRU01POWthLTZqdWNzSUhXb0RHLUh1d2V2RVgtMTlyX1RSN2Uwd3JweTZiWmNiTDJ5a21TT3hVREV3Rm5sMjJrYlRTLXNsdDhnZ3FRdXZkajB2bXYySFlVcnptYmkxMmFXejFmWERfa25xMFFNSTJVYm1kTUs4QVVxOGZIQlp5em9WZjBqeEFHMEZ4T1N0UFk1eGZpcg?oc=5"
+      "date": "2026-03-20 11:26",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV2xiUDNnNFhKU05US0lXUWFoZWFrRXVuUzlER2xlcU9RRUd2QnkyVzk0Zm9vTjRtdTdwWUktdk5ZMzV5aUtEclk5VTFza1JuZTBHMkZ2cjhYc3pReE9ORnFsUXFZNVBzMWxxOFFob290UEpIUC03NnRZa0h5UU0wNnFFYnFCWTFhZ2NhdWRPODdVa1ZlZDk5Ul8zWmUwY1RLb0k4YlZzSUNiZnpsQXFCLVp6aks1N3hncUtqcU5RaktBaUg0LUZobXBR?oc=5"
+    },
+    {
+      "headline": "Which economies will hurt most from the Iran war? - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Which economies will hurt most from the Iran war?\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-20 11:09",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQelIzc1paaWFaa1JBRjlJWlJiTU9GRzc5WTFoNlBfbXgtOUh0bkQtLXotNzlXR0dUVmREM2ZlWURlMG9WUV9HQ2tRVXVTbUJiSDhQM0xCblRGSXBOekhEX0Q1TEZJVU1BY21wM21fRzYtN3l4ZVhua1MwTS1lTWlXMjliWlhXcGJqSmJYTjdaQkpPWmtkY3dVZjNZZw?oc=5"
     }
   ]
 }
