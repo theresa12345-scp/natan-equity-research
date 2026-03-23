@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-22T14:32:00.909426",
+  "timestamp": "2026-03-23T06:58:45.838288",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 9,
-    "neutral": 10,
-    "bearish": 6,
-    "high_priority": 10,
+    "bullish": 11,
+    "neutral": 11,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
-    "Bloomberg": 3,
-    "CNBC": 5,
+    "Reuters": 10,
+    "Bloomberg": 2,
+    "CNBC": 3,
     "Caixin/S&P Global": 1,
-    "Sahm": 1,
-    "The Globe and Mail": 1,
-    "Simply Wall Street": 1
+    "TradingView": 1,
+    "Seeking Alpha": 1,
+    "MarketBeat": 1,
+    "AD HOC NEWS": 2
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +101,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Bond Market\u2019s Big 2026 Fed Bet Flipped on Its Head by Oil Surge",
-      "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Bond traders are scrambling for a new strategy after the oil-driven inflation shock triggered by the war in Iran scuppered the popular bet on interest-rate cuts from the Federal Reserve.",
-      "category": "us_monetary_policy",
-      "date": "2026-03-20 19:13",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/bond-market-s-big-2026-fed-bet-flipped-on-its-head-by-oil-surge"
     },
     {
       "headline": "FedEx beats on top and bottom lines, raises guidance on strong performance",
@@ -130,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,8 +131,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-22 14:31",
+      "date": "2026-03-23 06:58",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Asia shares slide, yields up as Gulf war intensifies - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Asia shares slide, yields up as Gulf war intensifies\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-03-22 23:36",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aNk9icE5ZbUdtSjNmSUFJN0FVbzM2TTFydVo5TmM0R244YUE4LVcweThWRFBhZFBmbzRmekUtMjEtNUg2NFpsZDkyZVNmLTR3c2t1T1JNbVJPQUVQcnlDZUxsUWJiS3hXa1BGWVU3TUlIR0Ji?oc=5"
+    },
+    {
+      "headline": "Treasury's Bessent says US has 'plenty' of funds for Iran war - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Treasury's Bessent says US has 'plenty' of funds for Iran war\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-03-22 15:12",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRUtRR0JwcGR3QVZ5SHp0NkFYbWc3SU5JblBISmtfNTF5Slhva1dSWFZSWDdIelVNR2VmZ01VU2FfTURUbXU3d2JURktmRExqSVlaS3N3XzF4SzNndjJ0Z1NNQWZJbFlXT3ZPSm9lNlpmRXYzU2hrRmJlYjM5N0pQXzg0Uktzck1fWVBOY0E1NDk2bjVpbXlJM0hWVFVlSE0tcTkycmdn?oc=5"
     },
     {
       "headline": "The price of menstrual products is skyrocketing from inflation, tariffs",
@@ -154,124 +165,114 @@
       "link": "https://www.cnbc.com/2026/03/22/menstrual-products-tampons-feminine-care-prices-inflation.html"
     },
     {
-      "headline": "ICE agents will be deployed to U.S. airports on Monday: Homan",
+      "headline": "Price to earnings ratio of MDJM Ltd. \u2013 OTC:UOKAF",
       "score": 6,
-      "source": "CNBC",
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "The shutdown at the Department of Homeland Security has caused massive pileups at airport security lines.",
-      "category": "global_markets",
-      "date": "2026-03-22 13:43",
-      "link": "https://www.cnbc.com/2026/03/22/ice-agents-will-be-deployed-to-us-airports-on-monday-homan.html"
-    },
-    {
-      "headline": "I\u2019m a psychologist who studies couples: People in emotionally secure relationships do 5 things every day\u2014that most neglect",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Emotional security comes down to how a couple handles conflict, independence, boredom and doubt over time. Mark Travers, a psychologist who studies couples, shares the habits of people in emotionally secure relationships.",
-      "category": "global_markets",
-      "date": "2026-03-22 12:46",
-      "link": "https://www.cnbc.com/2026/03/22/psychologist-who-studies-couples-people-in-emotionally-secure-relationships-do-5-things-every-day.html"
-    },
-    {
-      "headline": "Intuitive Machines (LUNR) Q4 Loss Of US$19.9 Million Tests Profitability Narrative",
-      "score": 6,
-      "source": "Sahm",
-      "sentiment": "negative",
-      "impact": "Intuitive Machines (LUNR) reported a Q4 2025 net loss of US$19.9 million and a full-year net loss of US$83.9 million on US$210.1 million in revenue. The article analyzes the bull and bear cases for the company, noting the significant improvement from the previous Q4's loss but also highlighting conc",
+      "impact": "This article displays the price to earnings ratio for MDJM Ltd. (OTC:UOKAF). It briefly presents the company's stock information and links to its financial overview on TradingView. The page provides general market data and educational resources offered by TradingView.",
       "category": "corporate_earnings",
-      "date": "2026-03-22 12:40",
-      "link": "https://www.sahmcapital.com/news/content/intuitive-machines-lunr-q4-loss-of-us199-million-tests-profitability-narrative-2026-03-20"
+      "date": "2026-03-23 05:39",
+      "link": "https://www.tradingview.com/symbols/OTC-UOKAF/financials-statistics-and-ratios/price-earnings/"
     },
     {
-      "headline": "The Fed Has Stopped Cutting Rates. Why Investors Should Stay the Course With Realty Income Stock.",
+      "headline": "Morning Bid: Of course Trump would have a COUNTDOWN - Reuters",
       "score": 6,
-      "source": "The Globe and Mail",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Morning Bid: Of course Trump would have a COUNTDOWN\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-03-23 05:32",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GcVlMalJtTDFBbWNocC1MaWhIRjJYVzQ1V2NCdWRkeHVOWE1zRWpvNXg2bGlMcFFaN0Jmd1JEeDlYbDZzTnBlQ3B6eGc5T2N6Zm9jamFiVzVsZnRLMUlUbW96OHhKREdROVdEeXl5R3BVY1BLQklETHBKdlRuTGc?oc=5"
+    },
+    {
+      "headline": "AMD in talks to sell 10,000 AI chips to Korea's Upstage (AMD:NASDAQ)",
+      "score": 6,
+      "source": "Seeking Alpha",
       "sentiment": "positive",
-      "impact": "Despite the Federal Reserve halting interest rate cuts, investors should consider holding onto Realty Income (NYSE: O) stock. The real estate investment trust (REIT) continues to expand, acquire capital at favorable rates, and offers a generous 5.1% monthly dividend yield. Its strong client base and",
-      "category": "us_monetary_policy",
-      "date": "2026-03-22 12:38",
-      "link": "https://www.theglobeandmail.com/investing/markets/stocks/DG/pressreleases/885825/the-fed-has-stopped-cutting-rates-why-investors-should-stay-the-course-with-realty-income-stock/"
+      "impact": "Korean AI startup Upstage is negotiating with Advanced Micro Devices (AMD) to purchase 10,000 of its latest AI accelerators. This move aims to expand large-scale computing capabilities within Korea. Upstage CEO Sung Kim has reportedly discussed the procurement of AMD's MI355 chips.",
+      "category": "us_equities",
+      "date": "2026-03-23 05:30",
+      "link": "https://seekingalpha.com/news/4567183-amd-in-talks-to-sell-10000-ai-chips-to-koreas-upstage"
     },
     {
-      "headline": "Soft Quarter and Inflation Pressures Might Change The Case For Investing In Texas Roadhouse (TXRH)",
+      "headline": "Microchip Technology (NASDAQ:MCHP) Cut to \"Hold\" at Wall Street Zen",
       "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "negative",
-      "impact": "Texas Roadhouse (TXRH) reported a softer-than-expected quarter, with revenue, EBITDA, and EPS falling below analyst forecasts due to continued commodity inflation. This earnings miss raises concerns about the company's ability to offset rising input costs through operational excellence in a competit",
-      "category": "corporate_earnings",
-      "date": "2026-03-22 12:22",
-      "link": "https://simplywall.st/stocks/us/consumer-services/nasdaq-txrh/texas-roadhouse/news/soft-quarter-and-inflation-pressures-might-change-the-case-f"
-    },
-    {
-      "headline": "Trump and Iran step up threats over energy targets as war escalates - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Trump and Iran step up threats over energy targets as war escalates\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-22 10:53",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQem5pR05BaElqUUtXclhzMzM1Q0JScmpvckhjUGJ6TV96TDg3OTFIaEVxUHFGN2RqdnplY3ZhLW5iSGVsUDdSNFU3REFzemJIZEwzQ0JRaTNqbmxUUk1BTEkyZnMwOEJKZUhQcWg2WWx4d0JlSDJlbGVES19NWVVCb1ZVOFRVT1BfaktFWmRCODVZYkc1SUh5NWUxNzRycTFVWU8wMkhlcUY0ZHZ2cGJWUWZB?oc=5"
+      "impact": "Wall Street Zen has downgraded Microchip Technology (NASDAQ:MCHP) from a \"buy\" to a \"hold\" rating, despite other firms maintaining or raising their price targets, and a consensus \"Moderate Buy\" rating across analysts. The company beat its Q3 EPS estimates and reported a 15.6% year-over-year revenue ",
+      "category": "us_equities",
+      "date": "2026-03-23 05:09",
+      "link": "https://www.marketbeat.com/instant-alerts/microchip-technology-nasdaqmchp-cut-to-hold-at-wall-street-zen-2026-03-23/"
     },
     {
-      "headline": "Philippines allows temporary use of dirtier fuel amid Middle East crisis - Reuters",
+      "headline": "Automatic Data Processing Inc stock faces analyst downgrades and insider sales amid market cap dip to $84 billion on Nasdaq",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "negative",
+      "impact": "Automatic Data Processing Inc (ADP) stock is experiencing selling pressure on Nasdaq, attributed to recent analyst target cuts and institutional stake reductions. Despite beating Q4 earnings estimates, analysts like Stifel Nicolaus, Morgan Stanley, and Wells Fargo have lowered price targets, reflect",
+      "category": "us_equities",
+      "date": "2026-03-23 05:05",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/automatic-data-processing-inc-stock-faces-analyst-downgrades-and-insider/68964192"
+    },
+    {
+      "headline": "Alphabet Inc. (Class C) stock holds steady amid AI momentum and analyst upgrades on NASDAQ",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "neutral",
+      "impact": "Alphabet Inc. (Class C) stock (GOOG) traded steadily on NASDAQ, closing at $300.99 USD amidst strong AI and cloud computing advancements. Analysts project significant upside with an average twelve-month target of $345.71 USD, citing AI and cloud catalysts. The stock continues to attract global inves",
+      "category": "us_equities",
+      "date": "2026-03-23 04:44",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/alphabet-inc-class-c-stock-holds-steady-amid-ai-momentum-and-analyst/68964023"
+    },
+    {
+      "headline": "Iran threatens to retaliate against Gulf energy and water after Trump ultimatum - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Iran threatens to retaliate against Gulf energy and water after Trump ultimatum\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-23 01:24",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUkxjcFRYWkhFN25iZm80N1I4bkZkelJac28ydVBURXFPNDdVNUVtSlpzOFlBN0ZvMHlJd3I3MVpZZlpRMXRtUXpKUFdEbFRENkk0a2Q2bGwtMzNmN2hKUHd2V0NZUTQ1RmNlNUpJXzBHaTFUckd4cEN3UVMxbjFsR0M4R3B0dF9mV25FeFZlNUItb0xUMjR2X0xZX3ZZTXRkV1hJa19jam5TejZUVTBOaHJaR1RFY1dUbE9oZU1uQWpyQkN3?oc=5"
+    },
+    {
+      "headline": "Dollar rises as escalating Middle East war spurs haven demand - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Dollar rises as escalating Middle East war spurs haven demand\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-23 00:13",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZFE2Sk5HVG8yUU42Q25VcGlEQlhoWUZ2MGo2bXljbFNrQ3Q1TFJka01MWjFpU0YyYWdIM2dmSkpQYmFZZEVzYTRPeXhkdVYxcE5lam5MemRmLS1hVGtXRUVkdVRuNmdSNGFjVmNuZE1lbmdZeGt5TVVNNGdyeFNoRmh1UFAwRTRGSklhNGJBVnJ6UXVTWjhMQmtKTW9jWmU3ODNmOTFsTkRzQnNUT05yOWc3MlI4ZEFKSUNERTMtUnU4OGs?oc=5"
+    },
+    {
+      "headline": "UK's Starmer calls emergency meeting on economy as Iran war risks mount - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Philippines allows temporary use of dirtier fuel amid Middle East crisis\u00a0\u00a0Reuters",
+      "impact": "UK's Starmer calls emergency meeting on economy as Iran war risks mount\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-22 09:54",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQakJtUlVWdzVKS205TlNmeXZuVHpETEp3Y3FnNFBBcGhBUklWX3RfNmxuVVB4dV9FR0pGQmFOVnRCREFRTFR0emt4bjZraTZsaEJCNjVIS0FObFNVSUxHREh4LW1jS2FUbGNwcUxlRTZzWUJJOFhRaVlVLXhGSmNGZGp4R0dKMFBvLU5sUzZTWnM5TkV3cGlsVEhjWFZlaGVUQXYtUVp1N0NQekVDdzUtaExDVEtKRzVkSW9BV0lB?oc=5"
+      "date": "2026-03-22 22:35",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOLUJvQ3prd2tIMlpfTHJnQTdHTUNWcm5fdFpONzRfYTZTekU3eVNZX3pXamF5RkRteUYxUWJrNFY1TlRyRGp5SEJYWUZlX2xJWV92dTRGOFRYcm5FSWltaUQ1eF9wT3B6WGEzU2lyNGdmeXd6RnNsUTRNN3Q0YWo5d2NjZVNTOVdoLW90MTFZWTFlS1c5ZkZKSVJ1cFRNUmo1azRyVnp3Y041RzBxaFBYSmhBUEN2ZElDTWtaMGJ3Rjhuel9vZkZUVnk2R05MWG9SMGFsb2Y2MA?oc=5"
     },
     {
-      "headline": "Britain sees no evidence that Iran is targeting Europe with missiles - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Britain sees no evidence that Iran is targeting Europe with missiles\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-22 09:06",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONXpodHQxMjYxNmJGN2ljbkZTbGVRckEtQUJkQ0NNRFBDUmxaNWRyekFlZW9WM21lSnhmUVFqMUtuckFic01neFlwb21hY3VDbGVxaUQxVklMNFgwVjg1LVlqTFRRSUlaV2NEVXZVa2pPUkdTMFB6eTIxaFl5bS1jYmVPUl9PM1RTXzRGUXBGZkppUXFIanNiWm9EZGRianhYd0tUMjNLZ2pyVUMxaEE?oc=5"
-    },
-    {
-      "headline": "From satellites to space data centers: Why low earth orbit is attracting billions in investment",
+      "headline": "Here are 4 big things we're watching in the stock market this week",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Big Tech companies including Nvidia and Elon Musk's SpaceX are making large bets on a new layer of critical infrastructure that's emerging above our heads.",
+      "impact": "The Iran war and rising oil prices will remain front and center.",
       "category": "global_markets",
-      "date": "2026-03-22 07:10",
-      "link": "https://www.cnbc.com/2026/03/22/why-low-earth-orbit-is-attracting-billions-in-investment.html"
+      "date": "2026-03-22 22:29",
+      "link": "https://www.cnbc.com/2026/03/22/here-are-4-big-things-were-watching-in-the-stock-market-this-week.html"
     },
     {
-      "headline": "Iran says Hormuz open to all but \u2018enemy-linked\u2019 ships - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran says Hormuz open to all but \u2018enemy-linked\u2019 ships\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-22 06:56",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWDVFUmlkOTcxUnBFQWNBZEloZjl4OFJUYVpaU0VCT2dBWFJaZ2dISTczd1ItSXRoMTRlSzRfLUl0UDlMYXFkV2MyT0g5WXVrNHcxZ2w3VXlCQkk5YllvSS1lVFM3RS1nVmNud2w3RVRjdGd3V3Jjcl82MUNLRk80bFJqVTBlaTA5UlN1ZHVJMlBlOE1tVkRkYzA2WUc2Tm1aQy1yaEJFQVJ1b2J5R3ZaZmh3aw?oc=5"
-    },
-    {
-      "headline": "Exclusive: Patriot missile involved in Bahrain blast likely US-operated, analysis finds - Reuters",
+      "headline": "Oil whipsaws as war risks to energy facilities counter prospect of eased Iran sanctions - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Exclusive: Patriot missile involved in Bahrain blast likely US-operated, analysis finds\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-22 06:05",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZFhvU2lnRDFSOFdDYloyOUtQT2ZWd1NRaXA5T216cUhJUV9DdTBGLWF1RHZlWmEyVENkbDk3blgtYllyQTlhVWNIdmsyUnNYMFdsaEhHTXIwbk82bmFDVE9KOUY5VnY3NHh5RmU2cmNLbGhqODJMbG95eDVGQzVlNmJfVWpvaWJZMmxERlo0REdiYmU5NnlaNjJYakcyYnNrZlFaWHV1WXBhdFE2WDZJTnZqQ2Zzd2RQQ1dXRDllbGpGNGVT?oc=5"
-    },
-    {
-      "headline": "Patriot missile involved in Bahrain blast likely US-operated, analysis finds - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Patriot missile involved in Bahrain blast likely US-operated, analysis finds\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-22 06:00",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVRPMjI0TE44aUItVE1kckZmMTJEVTFDb055MG40RWVhVkhGX0lHV0tuN29NU0lKZUl4cGdINko1Z0RDTC1lZjItUldqQnVJRm5tSWl6UjVrRWg3OFdGTy1tSjAxRWs0UEhxcWZvaTFrR0xXRXY0WC1wTXZUYlE2aDhpSFRmbUdWYUJ3UFFUd0dpRWtSRXBocVhIQncwRnhEZjY5SHZZaUJ3ZFZVV0drSzhjMV9MUWdfc0FwUTNvZU0?oc=5"
+      "impact": "Oil whipsaws as war risks to energy facilities counter prospect of eased Iran sanctions\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-03-22 22:11",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTHJVbUZ1OTc0S20tOFBzc0ItN2ZYcFRJa1RrenFMdGZGZlc3bVd2Rml4eGdTM2dtNlJUWEozTFg3WTdXUk5Qak42bzdiOHd4NU1jeVo1YmNtVE1SekNxbVRqS1FYV3dWd0RGQzAzQWJnMHdaNGpvQ1FzLTcxX2E5ZENJWjQxYUFkRHFqb2ZiYVdnTHp6cmduUTNJeUs5ZGJnSGh2dTMwbDBRdUs5TWRCTWFXMks5NWpLMGNFZF9R?oc=5"
     }
   ]
 }
