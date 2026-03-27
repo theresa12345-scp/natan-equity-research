@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-26T15:08:25.439832",
+  "timestamp": "2026-03-27T06:57:14.286294",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 10,
-    "neutral": 14,
-    "bearish": 1,
-    "high_priority": 8,
+    "bullish": 8,
+    "neutral": 11,
+    "bearish": 6,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -17,7 +17,12 @@
     "Reuters": 10,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 8
+    "CNBC": 3,
+    "AlphaStreet": 1,
+    "MarketBeat": 1,
+    "Seeking Alpha": 1,
+    "AD HOC NEWS": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -27,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -37,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -47,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -57,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -67,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -77,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -87,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -97,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Fed's Cook says the balance of risks has shifted toward inflation due to Iran war - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Fed's Cook says the balance of risks has shifted toward inflation due to Iran war\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-03-26 22:05",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUGYxOVVzNGEwb1g2LWJsT01QNlJFVDNMUGhMV08yTjRFTEZWeVBJR3R5UUFwVjduQTRubGprUWh4ZGdhSmdranpjUnpqRS01US1OUDZkWG52bmx3ODgzVXVWUU9vWVlPMWNvRURiRUpFaGl0VkxqdDhqWEhtbU4yUGV6NW1qczE2SlNLYUl0S3h1RVVYZWVFdTJYVUdMdUNBUFF0QWFxbUpUUXFraWgtOGtQWk1QRXV3cVRF?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -107,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -117,58 +132,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-26 15:08",
+      "date": "2026-03-27 06:57",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "OECD: Iran war erases global growth upgrade, fans inflation - Reuters",
+      "headline": "Nasdaq confirms correction, Wall Street slumps on Middle East uncertainty - Reuters",
       "score": 7,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "OECD: Iran war erases global growth upgrade, fans inflation\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-26 13:52",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVW5Ob1pLVWZxV0hZUkNtMDJ6RlpEenRLaVBaNTVDaEJ5Wms4b3pGYTZyVjZaTVkzTDR6VXJvX2ZEcUgxSGV1NmIzQndpSFlHMDVxZmlvVmdMX2czR2lLdm56dGVZNlg5cmhwUG5VMF9CV3NJMmwySW9zYWlhTklPd21WVDVReGF0c3BwcVBkV3liVTZtZG5SS2ZvSkpTVWV6MHBmVHRIRWU?oc=5"
+      "sentiment": "negative",
+      "impact": "Nasdaq confirms correction, Wall Street slumps on Middle East uncertainty\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-03-26 23:24",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNamV4N1ZHTU9NQW0xQ0tFZjkwUWM5LUtGbDY0NGdnS3JhYTZ0eU1JU3YyYUxOOE1pYXJDSlZUNEdjcTlTbGgwWkJkNmh4c0ZnWjFXbVpDTkhMSUpUUnRBNWo3czY1R0hvNWJFTnJkZGI2ejNIdV9WZkhkbHdhZ3VMMlFxV0FyUVRuYnc3VEN4S3dLUFBpZ3A2ZEdyUFl3OVE5RTIyMHA2U3E3U05tOUotcEp5R2U?oc=5"
     },
     {
-      "headline": "Iran oil shock sets US Treasury seismograph twitching - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran oil shock sets US Treasury seismograph twitching\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-03-26 07:09",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdEhwWGtQWGZReWxnbVF5azU1ZnJyTnBpV010VHlmMjMxYUp6dG1kNHViT2pTY1pLYUFUQkhUWjJNRGlfRGlUQzY2RW9pak4tVHk5Q09KRHRhMERDT3BmcmdQU01SeUJzTlN3Y1RNMExUcGI2Y1B3RWQ5QjBWR09VTjM0WGdCN2phWnJhWUlReEVib1lOYlJ0NExvNGxKNHQwRFE?oc=5"
-    },
-    {
-      "headline": "South Korea to carry out bond buyback, expand fuel tax breaks to cushion blow from Iran conflict - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "South Korea to carry out bond buyback, expand fuel tax breaks to cushion blow from Iran conflict\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-03-26 06:10",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaHlwTnJHeElyd2Z4UzBEWUlYY2V2VXcxR2RNWWhOVW5xRVQzRzgyUXh4YWhZbmdNM3F4QnlGRHdUb3VhTjFQb3VfU3o3QVI1Um9YelZ5blJUNC1CNEJyY3NfV2RnM2tIRU95dXlKME5PanBQc2UtYjFqZE5NSnEwQjNRcElNZFRYd2lYUGhJR2R5bzZjOTBuRlVBTXRIRDQ0MnlCdDhhUzRhZVhyUEh6MXB0ZENPMDRkbEZJZl9QeXJwM0w3cGlv?oc=5"
-    },
-    {
-      "headline": "Stocks and bonds skid as Iran crisis reignites oil price surge - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Stocks and bonds skid as Iran crisis reignites oil price surge\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-03-26 02:13",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CUDZ1ZEFoT1N5X3pEbnFqZnBkbllpZS0xSlg4MUtVelN4c3VibGhrSjZIQXRDY2QyY0w2TUtTTGxvdUU4WHFrblJQdk80VlV1OG5lNm1oVThudFc2SVYza2EtUVo5SS1sd0dtMmMzZkxJazhwdDF6eVdFQTlZVEU?oc=5"
-    },
-    {
-      "headline": "FedEx launches same-day delivery with OneRail as Amazon, Walmart boost their speeds",
+      "headline": "Arm jumps 16% as company expects revenue windfall from new chip, a 'significant shift'",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "FedEx announced it's partnering with last-mile delivery company OneRail to bring same-day delivery to all of its customers.",
-      "category": "us_monetary_policy",
-      "date": "2026-03-24 16:01",
-      "link": "https://www.cnbc.com/2026/03/24/fedex-same-day-delivery-onerail.html"
+      "sentiment": "neutral",
+      "impact": "Arm said it expects its new chip to generate six times more revenue in 2031 than the $4 billion it made in 2025.",
+      "category": "corporate_earnings",
+      "date": "2026-03-25 10:34",
+      "link": "https://www.cnbc.com/2026/03/25/arm-stock-chip-revenue-agi-cpu.html"
     },
     {
       "headline": "Home flippers see smallest profits since the Great Recession, real estate data firm says",
@@ -181,94 +166,114 @@
       "link": "https://www.cnbc.com/2026/03/24/home-flippers-see-smallest-profits-since-great-recession-data-firm-says.html"
     },
     {
-      "headline": "Olaplex to be acquired by German company Henkel in $1.4 billion deal",
+      "headline": "Commercial Metals Company (CMC) Q2 2026 Earnings Recap",
       "score": 6,
-      "source": "CNBC",
+      "source": "AlphaStreet",
       "sentiment": "neutral",
-      "impact": "Olaplex announced on Thursday that it is being acquired by Germany's Henkel in a $1.4 billion deal after the company had a disappointing public run.",
-      "category": "global_markets",
-      "date": "2026-03-26 15:01",
-      "link": "https://www.cnbc.com/2026/03/26/olaplex-acquired-henkel.html"
+      "impact": "Commercial Metals Company (CMC) reported strong Q2 2026 earnings with an adjusted EPS of $1.16 on revenue of $2.13B, marking a significant recovery and explosive year-over-year growth. Despite the strong performance, the stock declined 2.5%, suggesting investor skepticism about the sustainability of",
+      "category": "corporate_earnings",
+      "date": "2026-03-27 06:10",
+      "link": "https://news.alphastreet.com/commercial-metals-company-cmc-q2-2026-earnings-recap/"
     },
     {
-      "headline": "Major outgoing CEOs are citing AI as a factor in their decisions to step down",
+      "headline": "Beyond Meat (BYND) to Release Earnings on Tuesday",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Coca-Cola CEO James Quincey and former Walmart CEO Doug McMillon have told CNBC that the next wave of artificial intelligence is a reason for their departures.",
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Beyond Meat (BYND) is scheduled to release its quarterly earnings after the market closes on Tuesday, March 31st. Analysts anticipate a loss of ($0.12) per share and revenue of $62.997 million. The stock is currently trading near its one-year low, with a \"Strong Sell\" consensus rating from analysts,",
+      "category": "corporate_earnings",
+      "date": "2026-03-27 05:21",
+      "link": "https://www.marketbeat.com/instant-alerts/beyond-meat-bynd-to-release-earnings-on-tuesday-2026-03-27/"
+    },
+    {
+      "headline": "Baozun: Look Past Mixed Results (NASDAQ:BZUN)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "Baozun (BZUN) received a 'Buy' rating despite mixed 4Q25 results, which saw revenue outperform but earnings fall short. Management projects a significant 63% CAGR for operating income to CNY550 million by FY2028. The stock is currently considered attractively valued with a PEG ratio of 0.14x, sugges",
       "category": "us_equities",
-      "date": "2026-03-26 14:53",
-      "link": "https://www.cnbc.com/2026/03/26/coca-cola-james-quincey-walmart-doug-mcmillon-artificial-intelligence-step-down.html"
+      "date": "2026-03-27 05:16",
+      "link": "https://seekingalpha.com/article/4886454-baozun-look-past-mixed-results"
     },
     {
-      "headline": "Israel took Iran's Araqchi, Qalibaf off hit list after Pakistan request to US, Pakistani source says - Reuters",
+      "headline": "Otis Worldwide Corp Stock: Steady Elevator Leader with Reliable Service Revenue Driving Long-Term Value for Investors",
       "score": 6,
-      "source": "Reuters",
+      "source": "AD HOC NEWS",
       "sentiment": "neutral",
-      "impact": "Israel took Iran's Araqchi, Qalibaf off hit list after Pakistan request to US, Pakistani source says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-26 13:09",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONWRqbGduSHA3LXJPTjA3dmpwdzhkSFQwUzRuODRqNzIydkZPeHhnOC1oZk5Ic0VibVd5VlNuY3NqUHkxYzliZ0phWlVyZGlWR0N6Qmd3bmFacE9wRmV1Z0hFSUNMZUE4ZFV3WE5DUTd3TUlod09YVHBmREJxRlN0c2M4SkFrVjZ2TlZwQ1QzS3FFeHJQaVJfQ0t4ZWdaZ1hacG9EUVc3S0FDRkFUZ0puMW5WNndRTWZUU01BUEhRWEFYZ3l4WmpF?oc=5"
+      "impact": "Otis Worldwide Corp (OTIS) is highlighted as a steady leader in the elevator and escalator industry, with its extensive service contracts providing reliable, recurring revenue. The article notes Otis's strong market position, conservative investment appeal due to predictable cash flows, and focus on",
+      "category": "corporate_earnings",
+      "date": "2026-03-27 05:16",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/otis-worldwide-corp-stock-steady-elevator-leader-with-reliable-service/69001772"
     },
     {
-      "headline": "Tom Brady says he's asked NFL about potential comeback: 'They don't like that idea very much'",
+      "headline": "Trump pauses plans to attack Iranian energy infrastructure, as Nasdaq falls into a correction",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Tom Brady has asked the NFL about its policy of allowing minority owners to return as players, but he has no plans on returning the field, he told CNBC.",
-      "category": "global_markets",
-      "date": "2026-03-26 12:55",
-      "link": "https://www.cnbc.com/2026/03/26/tom-brady-nfl-potential-comeback.html"
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "The U.S. president said he would pause attacking Iran\u2019s energy infrastructure for another 10 days late Thursday as stocks tumbled.",
+      "category": "us_equities",
+      "date": "2026-03-27 02:36",
+      "link": "https://www.marketwatch.com/story/nasdaq-falls-into-correction-territory-and-trump-pauses-plans-to-attack-iranian-energy-infrastructure-27732ce3?mod=mw_rss_topstories"
     },
     {
-      "headline": "Meta's court defeats add to Zuckerberg's recent woes, represent 'watershed event' for social media",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Meta suffered stinging defeats in two separate trials involving child safety that underscore shifting public sentiment toward the social media industry.",
-      "category": "global_markets",
-      "date": "2026-03-26 12:10",
-      "link": "https://www.cnbc.com/2026/03/26/meta-lawsuit-decision-zuckerberg-woes.html"
-    },
-    {
-      "headline": "Iran allowing Malaysian vessels to pass in Strait, PM says after talks with regional leaders - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran allowing Malaysian vessels to pass in Strait, PM says after talks with regional leaders\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-26 12:07",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeXR5aExCcUpTM2dVcHhhZ2Jtcl85R3dsTnl4aFdOdy1RME81Y0hwTDVHeWVFMmVRRURpRHIwYVpsaFF3cjRoYWpYLVRxYTRlb21BMEFNdFc4M1VMZVZreWFza3lEclRaM0ZiZXZxRWx4S0YtMWp5RXl6Y2NZMnRhOEJpNFVTQ08waDNnQXJwTmdKdU95MTlVYW5OSXVmc2x2b3FoVlpqWFZTc19QVnBzZWgwOVRxVXlRekhvZkpJLXhVZjN2WEp2MkhJVWo?oc=5"
-    },
-    {
-      "headline": "Family offices make opportunistic bets on real estate as investors sit on sidelines",
+      "headline": "Target faces a new boycott over ICE response as retailer presses ahead with turnaround",
       "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Investment firms of ultra-wealthy families are snapping up bargains in multifamily and commercial real estate.",
+      "impact": "It is unclear if and how much the AFT boycott could hurt Target, which is trying to win back shoppers and return to sales growth.",
       "category": "global_markets",
-      "date": "2026-03-26 11:44",
-      "link": "https://www.cnbc.com/2026/03/26/family-offices-make-opportunistic-bets-on-real-estate.html"
+      "date": "2026-03-27 02:09",
+      "link": "https://www.cnbc.com/2026/03/26/target-aft-boycott-ice-minneapolis.html"
     },
     {
-      "headline": "Iran war cools early summer tourist interest in Cyprus, Greece - Reuters",
+      "headline": "Oil prices on track for steepest weekly fall in 6 months - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Oil prices on track for steepest weekly fall in 6 months\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-03-27 01:12",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPT3JQcW42VTUxV2dTekoyZUMzVzRlZExaSWVFNjFJc2NGNmFyNmVISWZZdTlBeWFfb05RRzN1WGVlQ3RJUnhfbnBPR3VKclJXR3FPLWk0c0VkQjhrNjdmVGVqQTE2bjI1N0J0aUVVX3hCRHdUWlhITDlNc1pTd3dZZzJKbVktOVdMcS1sTW01cjNTSXNRSmhWck9ZRk9WWGlVVGM5MkRyQmVhSGNNaXp3?oc=5"
+    },
+    {
+      "headline": "Trump weighs sending another 10,000 ground troops to the Middle East, WSJ reports - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran war cools early summer tourist interest in Cyprus, Greece\u00a0\u00a0Reuters",
+      "impact": "Trump weighs sending another 10,000 ground troops to the Middle East, WSJ reports\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-26 11:21",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWnRuMTNoN3hTbUdwWGxaaXo0ekVITFVlbTRtcTJPOW9XYk1iMU51QkUwRDhaZVdaZ2xWS1RrRlY3OC1KSHZBYUwwZG9WOVlIVGlFZGVMMGJsbElaYWx3RWhmalVyWkdNZzhWWlB2eTI2emtuSHN0dHFVaEttbXhfcm9FSmhSblFlR2tEMU5RZDloakJ3NHlnMkZUaEVQQ0JhUWJrZ1FGbVRIa00?oc=5"
+      "date": "2026-03-27 00:24",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTWpQOHFsdDR6cG1NOHpmYmhrWnc4Q1cwYy1wQVNaSV9Ha2VFZTRONFdHLXlYdzRlMldxMVE3aGIwMlczVlpmcVdURVBoM2dkSTg3Q0hSZkJGdVRGYlU5YUhPRkRnWGxST2NqdEU2QnFaQ1pfRXBmT0w4YVZtQ3dVVXpidWd0UUh6clhsc05WZGhvLXZLNXZQOW5DOElBYmtFSkc1dkRrWmg1dnZPNjFYTE1YYkk?oc=5"
     },
     {
-      "headline": "A Google AI breakthrough is pressuring memory chip stocks from Samsung to Micron",
+      "headline": "Exclusive: China's top chipmaker has supplied chipmaking tech to Iran military, US officials say - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Exclusive: China's top chipmaker has supplied chipmaking tech to Iran military, US officials say\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-03-27 00:15",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMUpLdzhWN2MxdnN1SmZPZ2tHNWpXaHQ1Mml1c0l5aHBLUFVtRDdwaG5JMTFKTGFMWnM2SFN2NDI1MUpvcm81eHQxenAxdlNyMV9jV1ZsdmJRUjhrclpFY2paUmZoT0g2Uk02X1N0cF8zZVZjVlpnVXlfaDhueDRaRmxGbTc0bUlDQlJTZE1BZGRTYjlqWTktTEM0bW8xY1B0NFFqUVNMVi1zRnFWUXVnWkJ2cjEtQ1NEZk9qNnJsYXBfbjBpTGl4aUdpYlNqWWJF?oc=5"
+    },
+    {
+      "headline": "Drones and mines: taking Kharg Island would pose risks for US troops - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "SK Hynix, Samsung and Micron shares fell as investors fear fewer memory chips may be required in the future.",
+      "impact": "Drones and mines: taking Kharg Island would pose risks for US troops\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-26 10:58",
-      "link": "https://www.cnbc.com/2026/03/26/google-ai-turboquant-memory-chip-stocks-samsung-micron.html"
+      "date": "2026-03-27 00:03",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeFRRYkN2R0o5a3QzQUpzM0R3RlBNR243YlJrV05QWGhKanB4RGc5S21PQnB2SlVXS1pIYVJSN0Myb0xqTjQ2bW1NLWdudE40dGctOWxMZ29vWTlvU2NpbXdGVlM1RHAwbUdsUnh3Nk5qQU9TWXlWQlA2dFNmWVE0WjJWV0pxV09XNVdVUldwa2NjT0YzVVI4WlBVOXRMSWZOMmRIVTRLSnhsOGtCS3BJc3RvNA?oc=5"
+    },
+    {
+      "headline": "At CPAC, Republicans close ranks behind Trump on Iran war - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "At CPAC, Republicans close ranks behind Trump on Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-26 23:56",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYVNTRHhnM0F1MDFnNEhsbEtKRHNGM19hNEdpZFRIbk9Xc3QwQ1FaVkkyYkhXR2doX0oxSFIxTFhxM21TM3J5Yl9IdFVIcWx4ZmZaN0ZfU1BGVXN3UGJzdDhoRDJpRHVvcWF6UkNSWVJkQ2ViY1hLbmlLWXRQT1gwd0NvdlhVVVBLZnprYnpCVGRHZXl1NG1EN0NHcw?oc=5"
     }
   ]
 }
