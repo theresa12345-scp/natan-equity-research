@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-31T07:02:11.825149",
+  "timestamp": "2026-03-31T15:05:54.566368",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 12,
-    "neutral": 11,
-    "bearish": 2,
-    "high_priority": 9,
+    "avg_relevance": 7.0,
+    "bullish": 8,
+    "neutral": 16,
+    "bearish": 1,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 12,
+    "Reuters": 9,
     "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "MarketBeat": 1,
-    "Stock Titan": 2,
-    "Bloomberg.com": 1,
-    "CNBC": 1
+    "CNBC": 3,
+    "MarketWatch": 1,
+    "Benzinga": 1,
+    "Simply Wall Street": 1,
+    "Stock Titan": 2
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +101,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Luxury carmakers' gold-leafed Gulf profits under threat from Iran war - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Luxury carmakers' gold-leafed Gulf profits under threat from Iran war\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-03-30 16:48",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUl93QW8wYmwzTHA3MnhVcmEzTkJ3N25VcEhoZTluT1JlX3lueUNDUTJqdmtvQ3BuM0pYYVc1bENPVHBpUklCSm9vOGRUaUg1UjJzTDMxMHdvWkZjeFBFQW9PUnIyclVDUXRuRVhBM1k0RU5TbmxFSGxEQlhLemo4RXE1d2RZOWdRQWRwWXRYSjU1TW93cHdPWFlwbEY4U1JTNDAyRnFFdzhLeDc3MzJyTG9wbEFzR2N3?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -120,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,148 +121,158 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-03-31 07:02",
+      "date": "2026-03-31 15:05",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Annexon (NASDAQ:ANNX) Releases Earnings Results, Hits Expectations",
-      "score": 7,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Annexon (NASDAQ:ANNX) announced earnings per share of ($0.32), meeting analyst expectations. The stock saw a slight dip to $4.96. Insider transactions were mixed with a director purchasing shares and an EVP selling, while hedge funds increased their holdings.",
-      "category": "us_equities",
-      "date": "2026-03-31 06:09",
-      "link": "https://www.marketbeat.com/instant-alerts/annexon-nasdaqannx-releases-earnings-results-hits-expectations-2026-03-30/"
-    },
-    {
-      "headline": "Global bonds stagger toward steep monthly losses as war's economic toll mounts - Reuters",
+      "headline": "Indonesia to limit fuel sales to counter Iran war impact - Reuters",
       "score": 7,
       "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Global bonds stagger toward steep monthly losses as war's economic toll mounts\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-03-30 20:09",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSWRMdGlxdk45V24tQ3BiUjVYbHpBT1FBdmV5eU9BUlN0VDdDZHJPa2o4RTNWMFh5cUVESW5OdkJtcVo2Q0VaekZTalFSb2hpeEcyLTdQZ295WEl1ci1PTkdGU0dpMi1UeXJkU0NjN0xyU1hfbDBQemJuemR1dVN0T09lb2djeVllYl9Kd0JaVFZhY0diWXNTLWJZc016dlpULXZWX2ItS3duUFBQSHhrX0tkczdVbmJ3ZzBnUjZ3eWkyQlNxVHVoMTd3SlM?oc=5"
+      "sentiment": "neutral",
+      "impact": "Indonesia to limit fuel sales to counter Iran war impact\u00a0\u00a0Reuters",
+      "category": "indonesia_economy",
+      "date": "2026-03-31 13:44",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1kxVThrNHpDUHRGeUZoV2QyMFJoVUZ2ZjA2RVI3aTlfWFpNaF81UVNtakprNmdYVEpHcHlJb0pzeVZGS3hNeWlBVG8wZXFndHZvRWpJVlFRUVdvd2ZJbEN4S0pXN2pFei1MaDhfYmRyN05aSFF1bWlWUEMxUWp4Q0xacWtUMHR4aDJXTFFrbDhDNTlScGhDWjFRS1kxSGMydjdYcnZucFpFLTRXWGZwMmZLNV9iSl85UzIxdlVkM0tPbmhuMlhn?oc=5"
     },
     {
-      "headline": "JPMorgan, Pimco Say Bond Market Is Underestimating Slowdown Risk",
+      "headline": "S&P 500 heads for worst quarter since 2022 as Iran war, rate worries rattle Wall Street - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "S&P 500 heads for worst quarter since 2022 as Iran war, rate worries rattle Wall Street\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-03-31 10:29",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTElCdG1OWTJhT05aNjBjVVc1UXJUUHlvbmVSX1lXa0szUGN1eTlZaTVxTlNJdnh3STE4cV9wTHA1dVVzV2dac3l5Y216UzlISm5kQ2pTTzRESkJHNmJZcTR3c1N4Z1loeUdBZjVjUnVKR25wMGNGTjZtYnRQbFNLMzdoRWRjTDRCSUpYYm9TWG1RbzRzMDU4WTZEb2Q1cWZhdi1kNUEzYkVQZjZUeVVNaUFFb1ZvOUZ5dXhBMi1sMEJKRzZ5Qk1KMVRLTQ?oc=5"
+    },
+    {
+      "headline": "Exclusive: German institutes cut 2026, 2027 growth forecasts, raise inflation outlook, sources say - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Exclusive: German institutes cut 2026, 2027 growth forecasts, raise inflation outlook, sources say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-31 06:48",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZDIxZmpkczNRZFRlQXlfQ3M5b1NjeVl4QnRiM25zckplT2UtdHlqMGF3VmNOYXg1S2gwWHNObnA5SnFPY1dmNGxJT1MxWWVJT19hcDBnWDJyR18wS3psclJMdWdEaEF1R1o2NHRhaVhtcUJkUm9sc0s0UjRzM1dBSGF5eWswMnJRTEZoX3U3T1BQdy1OZTJ3aDFEMTBsS1NzdnZOUDBjWFQ3bkUyMlAtT05ERjRIcHhGRDVYUTlB?oc=5"
+    },
+    {
+      "headline": "Government Bonds Rally Around the World on Slowdown Concerns",
       "score": 7,
       "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Sovereign bonds rose around the world as concern the Middle East conflict will derail global economic growth revives demand for beaten-down government debt.",
+      "category": "us_equities",
+      "date": "2026-03-30 04:44",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-30/bonds-everywhere-are-rallying-as-global-slowdown-fears-intensify"
+    },
+    {
+      "headline": "'Project Hail Mary' is the box office proof point Amazon MGM has been waiting for",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Amazon and MGM promised to spend around\u00a0$1 billion each year on theatrical releases, a figure that would fund between 12 and 15 films annually.",
+      "category": "global_markets",
+      "date": "2026-03-31 14:33",
+      "link": "https://www.cnbc.com/2026/03/31/project-hail-mary-box-office-amazon-mgm.html"
+    },
+    {
+      "headline": "These 20 stocks in the S&P 500 fell hardest during March",
+      "score": 6,
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "Some of Wall Street\u2019s biggest bond-fund managers say financial markets are underestimating the risk that the US war in Iran will cause a sharp slowdown in an already sputtering economy.",
+      "impact": "These stocks saw significant declines in the month.",
       "category": "us_equities",
-      "date": "2026-03-29 19:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-29/jpmorgan-pimco-say-bond-market-is-underestimating-slowdown-risk"
+      "date": "2026-03-31 14:33",
+      "link": "https://www.marketwatch.com/story/these-20-stocks-in-the-s-p-500-fell-hardest-during-march-cdd8d670?mod=mw_rss_topstories"
     },
     {
-      "headline": "BEAM (NASDAQ: BEAM) insider schedules 25,000-share sale after option exercise",
+      "headline": "Why Is Apellis Stock Skyrocketing Tuesday? - Apellis Pharmaceuticals (NASDAQ:APLS), Biogen (NASDAQ:BIIB)",
       "score": 6,
-      "source": "Stock Titan",
+      "source": "Benzinga",
       "sentiment": "neutral",
-      "impact": "An insider at Beam Therapeutics Inc. (NASDAQ: BEAM) has scheduled the sale of 25,000 shares after exercising stock options, as indicated by a Rule 144 SEC filing. The filing also notes previous sales by John M. Evans on January 29 and January 30, 2026, each involving 25,000 shares for a total of $73",
+      "impact": "Apellis Pharmaceuticals' stock is skyrocketing after Biogen announced its intent to acquire the company for $41 per share in cash, totaling approximately $5.6 billion. This acquisition is expected to bolster Biogen's immunology and rare disease portfolio, particularly with Apellis's FDA-approved the",
       "category": "us_equities",
-      "date": "2026-03-31 06:40",
-      "link": "https://www.stocktitan.net/sec-filings/BEAM/144-beam-therapeutics-inc-sec-filing-4f468ea228f9.html"
+      "date": "2026-03-31 14:16",
+      "link": "https://www.benzinga.com/m-a/26/03/51569831/biogen-lands-two-fast-growing-drugs-in-blockbuster-apellis-deal"
     },
     {
-      "headline": "Aprea Therapeutics (Nasdaq: APRE) secures $30M and reports WEE1 trial response",
+      "headline": "Is Bristol Myers Squibb (BMY) Price Near US$60 Supported By Cash Flow And Earnings Models",
       "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "positive",
-      "impact": "Aprea Therapeutics has secured approximately $30 million in gross proceeds through an oversubscribed private placement, extending its cash runway into Q1 2028. The company also reported positive clinical data from its Phase 1 ACESOT-1051 trial for WEE1 inhibitor APR-1051, showing a confirmed partial",
-      "category": "us_equities",
-      "date": "2026-03-31 06:38",
-      "link": "https://www.stocktitan.net/sec-filings/APRE/8-k-aprea-therapeutics-inc-reports-material-event-6ee07861fa10.html"
-    },
-    {
-      "headline": "Goldman Still Sees Gold at $5,400 By Year-End Despite Downturn",
-      "score": 6,
-      "source": "Bloomberg.com",
-      "sentiment": "positive",
-      "impact": "Goldman Sachs maintains its bullish outlook on gold, projecting the precious metal will reach $5,400 per ounce by the end of 2026, despite a recent 13% decline since the Iran war began. Analysts cite ongoing central bank purchases and anticipated US interest rate cuts as key factors supporting this ",
-      "category": "us_equities",
-      "date": "2026-03-31 06:05",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-31/goldman-still-sees-gold-at-5-400-by-year-end-despite-downturn"
-    },
-    {
-      "headline": "Brent crude set for record monthly gain; shares tentative as Iran war rages - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Brent crude set for record monthly gain; shares tentative as Iran war rages\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-03-31 05:14",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSFpFa2w2RThZdlhMcVJrdmpGcWFHd3JwamR6c3RWRmhXZGNkMm93N3p2N2VKY0lHbjI2Z3BwcW9ZUGZoZ0cteEFVeUV0LVFkVmhBWUhtRUt0Z045OWxWbEF4NWtjczdXazdFMHdaOVA1b1piTUtPUWZBNDFXMlR2RUJNOA?oc=5"
-    },
-    {
-      "headline": "Giant oil tanker off Dubai hit by Iranian strike after Trump's latest threats - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "Simply Wall Street",
       "sentiment": "neutral",
-      "impact": "Giant oil tanker off Dubai hit by Iranian strike after Trump's latest threats\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-03-31 05:09",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeTZaSk9nelRiZUdKVzVicVE0TTV5RDN6YWwxZ1pLckI5WU5pU1R5OE81OW5jM3QxUFpuVW1kN1ZCal83VXJBZGZScWlZSFhkUVIwVFRyUHA0bkZxOHBrU0xHX0F0d3ZwQWlIM3ZYZk1KcWtVd1dMN1ZtcUJDNkY0OW1taVN5VWc3TmVyNVBuczItZHBzRmJacHZlSkJOOFZwUDgtVmZsUy16RmIzYzFyMkR4OFV6VVFDRHRYRlBiUV9iWWthS3JYckFsVzk?oc=5"
+      "impact": "This article analyzes Bristol-Myers Squibb's (BMY) stock price of US$59.73 using Discounted Cash Flow (DCF) and Price-to-Earnings (P/E) ratio models. The DCF analysis suggests the stock is undervalued by 50.5%, with an estimated intrinsic value of US$120.67 per share. Comparing BMY's P/E of 17.29x t",
+      "category": "corporate_earnings",
+      "date": "2026-03-31 14:10",
+      "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-bmy/bristol-myers-squibb/news/is-bristol-myers-squibb-bmy-price-near-us60-supported-by-cas"
     },
     {
-      "headline": "China's top airlines cautious on outlook as Iran war raises fuel costs - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "China's top airlines cautious on outlook as Iran war raises fuel costs\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-03-31 04:21",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWNUaVhSYzJfZ1RHTjRwVENQa1gyUFhqS0pjVXF3Z2w2c3hvc1hGOFJGaUpUVTFIbUwyMEYxT0ZfRF9YV2t5UjNfUUdyT3EwR0lFSTktQy13d2kyWnNkeUE4clh2dk96RnRrYnBWWDNjVGRnNWhyYm1oTGJUMENyZXY4SWRsamZiVVZ5djFYMy1UWHhSaWF4R0h3UVJMVTJIY3cwR3VoeVNkcmdvdVgzVg?oc=5"
-    },
-    {
-      "headline": "Korean Air to shift to emergency mode in April amid rising oil prices from Iran war - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Korean Air to shift to emergency mode in April amid rising oil prices from Iran war\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-03-31 03:11",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc0RjWlVUcFhfNGVLa1J3blZJWWVwNWRuUzJaQUxic3BhbE5lSnFlZElzTTVmOWRIVWV4Znl4Z3lPdTNwSDhRY2c4dmNqNXRNQjZvX3IybHBqbjdpU3paM2dzUUplR2kzSWhmYm83MFFiTEF6TDR4V1ZDQ3BPV0JXV2lfM0Z2cFd5VXFKS21hRkdKd2FJcGJiYTFITTVReXZweE05QzRmRGFaS0Q4WEJtNHc3V25lUnBxc2NqQ1h4WHJTUQ?oc=5"
-    },
-    {
-      "headline": "Oil prices extend gains as Trump threatens to escalate Mideast war, Iran targets Kuwaiti tanker",
+      "headline": "McCormick buys Unilever's food business in deal that values it at nearly $45 billion",
       "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Oil prices extended gains as Trump threatened further escalation of attacks on Iran, including its energy infrastructure and desalination plants.",
-      "category": "commodities",
-      "date": "2026-03-31 01:59",
-      "link": "https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html"
+      "impact": "McCormick will pay a combination of cash and equity to expand further into condiments and spreads.",
+      "category": "global_markets",
+      "date": "2026-03-31 14:10",
+      "link": "https://www.cnbc.com/2026/03/31/mccormick-buys-unilever-food-business.html"
     },
     {
-      "headline": "Trump tells aides he is willing to end Iran war without reopening Hormuz, WSJ reports - Reuters",
+      "headline": "Intercont (Cayman) (NASDAQ: NCT) enacts 25-for-1 reverse share split to meet bid rule",
+      "score": 6,
+      "source": "Stock Titan",
+      "sentiment": "neutral",
+      "impact": "Intercont (Cayman) Limited (NASDAQ: NCT) is implementing a 25-for-1 reverse share split, effective April 2, 2026, to regain compliance with Nasdaq's minimum $1.00 bid price requirement. This consolidation will reduce the total number of authorized ordinary shares from 1,000,000,000 to 40,000,000 and",
+      "category": "us_equities",
+      "date": "2026-03-31 14:09",
+      "link": "https://www.stocktitan.net/sec-filings/NCT/6-k-intercont-cayman-ltd-current-report-foreign-issuer-7af419eaa110.html"
+    },
+    {
+      "headline": "Perpetua Resources (NASDAQ: PPTA) files shelf to sell Common, debt and other securities",
+      "score": 6,
+      "source": "Stock Titan",
+      "sentiment": "neutral",
+      "impact": "Perpetua Resources Corp. (PPTA) has filed an S-3 shelf registration statement, allowing it to offer an indeterminate amount of common shares, preferred shares, debt securities, warrants, subscription receipts, and units over time. The filing also includes a resale prospectus for currently held commo",
+      "category": "us_equities",
+      "date": "2026-03-31 14:05",
+      "link": "https://www.stocktitan.net/sec-filings/PPTA/s-3asr-perpetua-resources-corp-sec-filing-bba8d13dd6d4.html"
+    },
+    {
+      "headline": "Iran war shock drives steepest hike yet in oil price forecasts - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump tells aides he is willing to end Iran war without reopening Hormuz, WSJ reports\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-31 01:24",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZXNITjhzcXlrdmxzT242U0d3RXFOLUh6MmozTU1OR3J0ZnZzMDhJX0N5QTBXNmtGQktMRWQxRU5HUVZaVDdnMjIwSUNMVHpobjBlVGx0cUhCMFNoTVRvVC1nZmZxR0tuTHlBLXVEQmNDUmJ0bkhYSW5PQ1RPeXFJTnplVkUtSWJWWE1FUnVKNThEY3AxVFkzWHFlRjZOUWljQ1g4Y0o0T3lvbkEtcXNBb2pvcGMxbGFyN0E?oc=5"
-    },
-    {
-      "headline": "Oil whipsaws as traders weigh Iran de-escalation report against prolonged Hormuz closure - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Oil whipsaws as traders weigh Iran de-escalation report against prolonged Hormuz closure\u00a0\u00a0Reuters",
+      "impact": "Iran war shock drives steepest hike yet in oil price forecasts\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-03-31 01:12",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQi1nS0NzRzRGWnJFTUx6ZTJGN0lPWW1ISHhvWi0wcUhZNHpmOHdrSnNrQlNwXy11UzFsYVZ1MjFpWmRrZjlJaDBhWkM2Q0hxZjB3d00yNkdjOVFuOW1DNEN6MDVrRTY1RXVzbFZDMnJJWTZkU00wemd5eUZFZWtON2J4WWwwMzRuNkIwRWVsTEpjUXl4YzN3UWxBWDJEcDVYckFidVVyVDZrdVVjMTNDbjZmcng?oc=5"
+      "date": "2026-03-31 13:49",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT3N3WV8xRFZaQjhiSXE5NVllN0tkcDJLS1F4YjFhaS10SzNXS3BKbWlOOHhPMnFmSXgyb3VoMEIzQ0FkV1g0ZmYtYWtGSXB3R1NPZHhZamYtYzBFMUwxR0xvalY4cFFxbmNpRU9YNWNCdDNpeUZjZmItTlZjNE8yREpFUlM4eEVtVHBCRlBDMWdmNVB3emlsNEpCbV9IZEJvS0FrOFZJc0ZPeUZlN1QzcA?oc=5"
     },
     {
-      "headline": "US pump prices hit $4 a gallon as Iran war wreaks havoc on global energy supply - Reuters",
+      "headline": "Infiniti hopes new SUV can turn around fortunes in the U.S.",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Infiniti is releasing a new midsize SUV, the QX65, in an effort to turn around sales in the U.S. market.",
+      "category": "global_markets",
+      "date": "2026-03-31 13:41",
+      "link": "https://www.cnbc.com/2026/03/26/inifiniti-qx65-suv-nissan.html"
+    },
+    {
+      "headline": "Countries need to step up on Strait of Hormuz, says Hegseth - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US pump prices hit $4 a gallon as Iran war wreaks havoc on global energy supply\u00a0\u00a0Reuters",
+      "impact": "Countries need to step up on Strait of Hormuz, says Hegseth\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-31 00:38",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaVJQWk1ua0p3YmduWEZmZEFUeFliaG1NZ1dhelYtbEJ3WUpzMncyR3Nic3JkZmVpWWFGQW9kc0xZMkJuNlMzOU1vU051VlBjeFZNMEpmZUlNeFlCSnlHQWtEV0ZUVlljbmF2RVIyZzBjb0Q2Ym9DaHRLd1M1V0R1dUJIdWp5ZDZzc3N0RzBoaXZBSFd0cjl1c3RPRUNISktuakY0NjNjc3BiNHR6anlwVXN1SmlpeFBQSjQyWWZ4cw?oc=5"
+      "date": "2026-03-31 13:35",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLWlILVQ4WW1OUE1rZ1VFUS1DcVJrUS05dlUxdEY2MWtNLTJlLXIyb0xGWEhmNHlna3MyODVjT2kyZVFKZmRCQ0tLMjhRUUdBcjJ2b3d4MG81Z2todEwxWEIxdEktWXU0Uk5XUFQ4YjRyOWVkdFYzT0FLcWthSGNLbFZlSE9yQ1AyM09pX2UyRlV6N2xfV21pLVZJLUV2d1RN?oc=5"
+    },
+    {
+      "headline": "France refused Israel use of its air space to transfer US weapons for Iran war - sources - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "France refused Israel use of its air space to transfer US weapons for Iran war - sources\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-03-31 12:34",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTy1kWVVzSmFtQU5rX2lUcERsQUphZFZZckZHZW8xRzdiYXVUSDd0RFNEV1RfYmpYOTQwakR0ZkVsMjVUTTVmQ1JhS1podXA3aUhJVGJrcUtycURqS2dCMWVMUlBsVlhsVWp6OVppOXhWZmM4czVabF9wZHd6eGJmRFhyUnFISlh2ck9vTEMySF9LS0lnOTBULTZxRDhzVU1sTGV1MmRoOGstVm9zN00wdE4ybWlDeDVaMEQ5RjZVdUl5QQ?oc=5"
     }
   ]
 }
