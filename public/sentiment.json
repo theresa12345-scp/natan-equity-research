@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-04-01T07:08:45.111511",
+  "timestamp": "2026-04-01T15:08:21.504529",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 9,
-    "neutral": 14,
-    "bearish": 2,
+    "bullish": 13,
+    "neutral": 9,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,11 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 14,
+    "Reuters": 8,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 3,
-    "Stock Titan": 1
+    "CNBC": 7,
+    "The Wall Street Journal": 1,
+    "MarketWatch": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -28,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -108,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,48 +120,118 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-01 07:08",
+      "date": "2026-04-01 15:08",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Women are making strides in education and employment. But an investing glass ceiling remains",
+      "headline": "German institutes cut growth forecast as Iran war drives inflation higher - Reuters",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Women haven't broken through the glass ceiling when it comes to participation in the stock market. Societal norms and ongoing pay disparities are to blame.",
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "German institutes cut growth forecast as Iran war drives inflation higher\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-03-31 17:57",
-      "link": "https://www.cnbc.com/2026/03/31/women-stock-market-investing-gap.html"
+      "date": "2026-04-01 13:30",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN0JuN3dMdXNmZk52M084eS1yQUNkN0s3UVNfSmlFV1pNV0poSzV3S1otd0ZaZ2t0eUduWHhpdVNUcVJLQ3V4cUZFZWdaZEtxS0ZKZ1VVczdvVGlFQWxoTEE3d2dCbTJSRnFIVk9UVkdGYmFHNlhBbHdvWmxvbHJfT2xpbUtDQjBfd3pFWXhxUWN2WEdtZVhrVl9OZ1I3T3MzeUN5UHBCanAtYWxzZDE3bFo0WkR0RkJkZTQ3dWFB?oc=5"
     },
     {
-      "headline": "S&P 500 heads for worst quarter since 2022 as Iran war, rate worries rattle Wall Street - Reuters",
+      "headline": "Prices may rise more this year than the Fed predicts, global forecasting group says\u2014what that means for your money",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Long-term investors should keep an eye on inflation, which erodes the value of your savings over time, experts say.",
+      "category": "us_monetary_policy",
+      "date": "2026-04-01 12:30",
+      "link": "https://www.cnbc.com/2026/04/01/oecd-predicts-higher-inflation-than-fedwhat-that-means-for-your-money.html"
+    },
+    {
+      "headline": "UK food inflation heading towards 10% due to Iran war, industry says - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "S&P 500 heads for worst quarter since 2022 as Iran war, rate worries rattle Wall Street\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-03-31 16:41",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTElCdG1OWTJhT05aNjBjVVc1UXJUUHlvbmVSX1lXa0szUGN1eTlZaTVxTlNJdnh3STE4cV9wTHA1dVVzV2dac3l5Y216UzlISm5kQ2pTTzRESkJHNmJZcTR3c1N4Z1loeUdBZjVjUnVKR25wMGNGTjZtYnRQbFNLMzdoRWRjTDRCSUpYYm9TWG1RbzRzMDU4WTZEb2Q1cWZhdi1kNUEzYkVQZjZUeVVNaUFFb1ZvOUZ5dXhBMi1sMEJKRzZ5Qk1KMVRLTQ?oc=5"
+      "impact": "UK food inflation heading towards 10% due to Iran war, industry says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-01 09:31",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQXzZoNng5aWNjWHJ2dmhsbkFlUkZWc0FySERkRnBPd3NFVDJDcHpCU0NXV0lfY055a0tLZUdIbS1odUoyTFd3bHhaMmZvN3llNVp0SlhXUjhELVdPLVRaR1dJRzBuRER6cFBUQWVLT3lPWlpQbFlTVlpQWGFBSWllbGRlMHFqV2lYR3NTdGpnUkR6YTdBdWNNTnhnd0xmTXFkQkN5QWd0MFBvN1c4?oc=5"
     },
     {
-      "headline": "Stock futures slip as oil prices resume their climb; S&P 500 creeps closer to correction territory: Live updates",
+      "headline": "War Means Profits for LNG Producers, but Long-Term Challenges",
       "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Liquefied natural gas\u2019s reputation as a secure and affordable fuel is taking a hit",
+      "category": "corporate_earnings",
+      "date": "2026-03-31 09:30",
+      "link": "https://www.wsj.com/finance/commodities-futures/war-means-profits-for-lng-producers-but-long-term-challenges-30a6f257"
+    },
+    {
+      "headline": "Intel shares jump 9% after buying back Ireland chip fab in sign of renewed strength",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The semiconductor company will now wholly own Fab 34 after spending $14.2 billion to repurchase the 49% stake it sold to Apollo Global Management two years ago.",
+      "category": "global_markets",
+      "date": "2026-04-01 14:55",
+      "link": "https://www.cnbc.com/2026/04/01/intel-stock-ireland-stake-chip-factory.html"
+    },
+    {
+      "headline": "Wall Street gains as Iran war resolution hopes lift sentiment - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Wall Street gains as Iran war resolution hopes lift sentiment\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-04-01 14:35",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcTdIT01VWG5hRkZza3JnUHVuRUJnUXJTOWYyU2pHOWpOUUFQWjlOTktJcDNqR3I1OWY4WXdyd1htSjRkVHhYaDkyYUFUOWg3Q2daTXBYRTR6RzVBVlR2d3IwblR3NWFxWDVxME9wRVdrdHpBZlhaenBGOHpJZW9ubFd2QlN6ZlY4QUMtamRnU2hSU05XQ1M2TEhpYV8xa2xZaEtHNHVrYUxOLXlFaS0xbGl1Sm5kUQ?oc=5"
+    },
+    {
+      "headline": "The S&P 500 typically gains in April \u2014 but this year it\u2019s no sure bet for the bulls",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Between tax season and early sell-in-May activity, investors shouldn\u2019t count on an April rally.",
+      "category": "us_equities",
+      "date": "2026-04-01 14:30",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-typically-gains-in-april-but-this-year-its-no-sure-bet-for-the-bulls-d784dbaf?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "'I hate customer-service chatbots': The consumer-AI refund relationship is off to a rocky start",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The broad market S&P 500 fell for a third consecutive session on Monday as oil prices rose once again.",
-      "category": "us_equities",
-      "date": "2026-03-31 00:19",
-      "link": "https://www.cnbc.com/2026/03/30/stock-market-today-live-updates.html"
+      "impact": "Generative AI is designed to please humans, but maybe not in the case of customer service chatbots dealing with angry consumers looking for refunds.",
+      "category": "global_markets",
+      "date": "2026-04-01 14:24",
+      "link": "https://www.cnbc.com/2026/04/01/ai-chatbot-customer-service-complaints-refunds.html"
     },
     {
-      "headline": "Adaptive Biotech (NASDAQ: ADPT) COO sells 57,180 shares in 10b5-1 plan",
+      "headline": "Huntington Bancshares (NASDAQ:HBAN) Price Target Lowered to $19.00 at Wolfe Research",
       "score": 6,
-      "source": "Stock Titan",
+      "source": "MarketBeat",
       "sentiment": "negative",
-      "impact": "Julie Rubinstein, President and COO of Adaptive Biotechnologies (ADPT), sold 57,180 shares of common stock in open-market transactions in late March. These sales, conducted under a pre-arranged Rule 10b5-1 trading plan adopted on November 18, 2025, followed the exercise of stock options for 44,166 s",
+      "impact": "Wolfe Research has lowered its price target for Huntington Bancshares (NASDAQ:HBAN) to $19.00 from $21.00, while maintaining an \"outperform\" rating, suggesting a roughly 19% upside. This adjustment comes as HBAN missed recent quarterly earnings expectations, reporting $0.37 EPS against a $0.40 conse",
       "category": "us_equities",
-      "date": "2026-04-01 06:40",
-      "link": "https://www.stocktitan.net/sec-filings/ADPT/form-4-adaptive-biotechnologies-corp-insider-trading-activity-bd513e4cbd04.html"
+      "date": "2026-04-01 14:20",
+      "link": "https://www.marketbeat.com/instant-alerts/huntington-bancshares-nasdaqhban-price-target-lowered-to-1900-at-wolfe-research-2026-04-01/"
+    },
+    {
+      "headline": "Disney shares are trading at a discount. Raymond James says it's time to buy",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Raymond James has upgraded Disney to outperform from market perform, setting a $115 price target, believing the stock is trading at an attractive valuation despite macro fears and expected theme park attendance headwinds. The firm anticipates benefits from new cruise ships, a Disneyland Paris expans",
+      "category": "global_markets",
+      "date": "2026-04-01 14:05",
+      "link": "https://www.cnbc.com/2026/04/01/disney-shares-are-trading-at-a-discount-raymond-james-says-its-time-to-buy.html"
+    },
+    {
+      "headline": "US to leave Iran 'pretty quickly' and return if needed, Trump tells Reuters - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US to leave Iran 'pretty quickly' and return if needed, Trump tells Reuters\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-01 13:47",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQkNNSHlXV2dyc2dEWng3bm84T3dGdEhpdTVqNFFoQXNydDhsUzdYRkVYT1FmNUsxQlhWR1p1bHFRendVVGFrb0RJdVB2Zjhydno2MHFId05HYmtKb1Vfei1Ha0dLYW0wWU8xSlRIRHU3dWRQSXN2OVFNT0VFTlIyaHEwYlUyR1BFWFV1VXp2bGlLcE9NZGJXbExUbzE2eHVldVFGWWVSSl9vX0NneURyeFp0WjFER0VzOFZ3?oc=5"
     },
     {
       "headline": "Nike shares fall 9% on weak outlook, expected 20% sales decline in China ",
@@ -168,108 +240,38 @@
       "sentiment": "negative",
       "impact": "Nike has shown some gains in North America, its largest market, amid its turnaround, but the strength was offset by weakness in China.",
       "category": "asia_economy",
-      "date": "2026-04-01 06:13",
+      "date": "2026-04-01 13:46",
       "link": "https://www.cnbc.com/2026/03/31/nike-nke-earnings-q3-2026.html"
     },
     {
-      "headline": "Airline Emirates says Iranian nationals barred from entering or transiting UAE - Reuters",
+      "headline": "UK's Starmer calls for closer Europe ties as Iran war strains US relations - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Airline Emirates says Iranian nationals barred from entering or transiting UAE\u00a0\u00a0Reuters",
+      "impact": "UK's Starmer calls for closer Europe ties as Iran war strains US relations\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-01 04:30",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3RhLURtQXF6c2hFXzBnSUlEQXZrZkE1Ym9mU1pYZ0lNZ0hGcjJYR3pTZWF6aklzQW9fOEoydTE3RDBxNkRCbGVtb2c1dFlRaFRzeFdSbXlHRWQyWGZSaWg4TkpPUHpxZ05yODhQYUhVbGVodUJ2bG4wY2dxWVhnWjhmUGJVM1pxTHVLaTBsMjBVZDdQU2V6UU1vanBoekVYeEZVR3MtWmRlRjJWalRMNW82VzJQYjJQUXdJRkltQURFR0d0VVE?oc=5"
+      "date": "2026-04-01 13:26",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY1NvTkdHTjhWWkNGczJQdWhfZ3ZYTnV3QVRla18xSmxHRWU4M0ZvSkQwUmhveGl6ZERLZFRpbDh5N1dGMzJmVGUzdXEyN0wzM0pxcjl3Wks5TE9mMEJ6MUN5eFloNFlVNWgxX3paUV9CUXFxcDdqUUYzeDJ5OTRhME9kSmh3QVg0TC1hUFNVbFZmaVRrSXltZ1Q4UXN5TDExenRlb2pjeGJJeFBqUm5weQ?oc=5"
     },
     {
-      "headline": "Kuwait says Iran drone attack sets airport fuel tanks ablaze, no casualties - Reuters",
+      "headline": "NFL approves sale of 3.5% of Las Vegas Raiders at over $11 billion valuation",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Kuwait says Iran drone attack sets airport fuel tanks ablaze, no casualties\u00a0\u00a0Reuters",
+      "impact": "The National Football League has approved the sale of 7% of the Las Vegas Raiders at a valuation of more than $11 billion.",
       "category": "global_markets",
-      "date": "2026-04-01 02:52",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMVgzNGJoVTc2X2RBUUViamFfTFZLbjhvOUMzVmNlWjVwWmF1ZkU0MTJYVnZQN04ySEZpb0JnektYOXJpeFNDNnV5SVkzUDRGZXZZelMxV1JHYXB1aVBCX1BrcWFGNC1ubUM3bVdIZnIwUHJSekZhRjVPVmlaQmZVN3dYWHJfZ3FjVnRfQ3VRODY1OTd6ZjNYcEtCLVVXdnVwZnlhSkZZMFA4Zks5MXVaT1VCMFlPblZJN0pKT2d3UEtjaC1mc0V3?oc=5"
+      "date": "2026-04-01 13:26",
+      "link": "https://www.cnbc.com/2026/03/31/nfl-approves-sale-of-3point5percent-of-las-vegas-raiders-at-over-11-billion-valuation.html"
     },
     {
-      "headline": "Indian shares open higher on expectations Iran war could end soon - Reuters",
+      "headline": "Apartment rents weaken further as war and job cuts weigh on demand",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Indian shares open higher on expectations Iran war could end soon\u00a0\u00a0Reuters",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "March rents were down 1.7% on an annual basis, the largest drop since Apartment List began tracking in 2017 and larger than the early months of Covid. ",
       "category": "global_markets",
-      "date": "2026-04-01 02:33",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS3lfcmhzS2NaeWQ1ZVFmX0pMRDV1U29MNGJUR0ExZWhCU2JKTFUybEMwTUxUX3BkbHVCZWo2UkhHUUNGeVZ2QWNENS1qemFuNnh6OXJjSnpQbC12akVRODBBZktrbDQzQm1UeEkyQlFGeXVGS1VSNWNIRTdSVkZONWxHNm9jTWM1ZGhfT0lEZnF1cFRSYWgzNEMtYjRvU3FzajZ6SktzYzBIeU0?oc=5"
-    },
-    {
-      "headline": "Asia's factory activity slows on cost pressure from Iran war - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Asia's factory activity slows on cost pressure from Iran war\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-04-01 02:18",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNS1VLVJHRzhhRDEwRk1qZGkzZmloVmQ3aC0yRTlKTGRpWk5jMTNCRlY4Ny1mQ0ZzMmYxUk5HQXVGWmRFOHVvQl96WVM3Z05MNjA3OVlOWG5Yc3dsb3pzRHRNSlQtUDFxSm9KS0N2XzFGMGhVdGNvWWJoZHl2NnM4ZGFrUzlLSlFDYzFTcVhsUjJPX1lzR1poLXhvSDcweXVjWWFRVkJnR0VUaGJ6ZlBtaDdNa1c?oc=5"
-    },
-    {
-      "headline": "Rubio says US can see 'finish line' on Iran war - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Rubio says US can see 'finish line' on Iran war\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-01 02:01",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaktmc3BjWWpxV1poQmZET0JLMVFab0NrMlJFQUVlWmkzRENFZDR0eDRYcWVHS2pMel93YndBRHk2X0hkSUZOeEUyRTctTUZDQVN0Q0xOdUJXVlZKNFV3UHBleEF1VXZrV0ozbUdNM2ZRNndGWXhEQjJhYXRqNUs2bDNmLWNueHR3T2dwS2VxWlB4Qk9uWTNZazFrQzc?oc=5"
-    },
-    {
-      "headline": "Asia markets rally on optimism Iran war could end soon - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Asia markets rally on optimism Iran war could end soon\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-04-01 01:21",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5VW9TZlFwYjJuQzY5Ui01ZGxTaWpZVGw0emx5UHlNanE4LXNUOGJtRVg3UDhOLWg3RkF3anN4SnVldkQ0OHFJVmpsbzRMcUhnSnFiSWZtODVIcHY2ME9SMHFyQzEyQWxmVUg5ZEk0R1dZZWctRjlkUkFxYw?oc=5"
-    },
-    {
-      "headline": "Argentina designates Iran's IRGC a terrorist organization, aligning with US - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Argentina designates Iran's IRGC a terrorist organization, aligning with US\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-01 01:18",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMjJfZndsaUY5WW5kY1JxOUstTGJOS3JSMUFYb1hadjBDWnZJSUlORVhlMG9sS2J6eHFzU2w1eWpQM0Z4cGp6bFdLbmRkZGl3cUE2djM0aDYxbjRPTVBuYWZWVHlWVWJMb21kWWE2dGxmanprdVJmaGcxcE9OV2ppNlBvQTdmdEJoNWlRUXNGdGRpbl8tSkZYRU9lWHEyYnF2RGktNkZnTTlWQzliRHZvZ3V0SEVtOW9QSjdSVnFKMGlyWFU?oc=5"
-    },
-    {
-      "headline": "Dollar holds firm as Middle East ceasefire hopes rise - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Dollar holds firm as Middle East ceasefire hopes rise\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-01 00:45",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQakNoaGo5QjdtQWJuTTlUNldLYTJHbllBMmV6TDRCdWZxYjhqblFKeEVmVjM4S3pBc0lmZGlhUEd5TUthSEtuandLVDExUTZfRVN5RjZseDZoQUVkQ3ZqTFhRd0YzdGJOMVJ0MnJBMnB2ekE4T1hTcDcybXhSM01vZzViVWg0NlhZZWVkb294dkZrRWk2Z1VKTEE2aHpwSHlmYllPX0s1SDd0YXRrUzlmYw?oc=5"
-    },
-    {
-      "headline": "US eyes a swift end to war as fresh attacks hit Gulf states and Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US eyes a swift end to war as fresh attacks hit Gulf states and Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-31 23:31",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUWNIcFhzTVphcmZFN3RseUw4ZlFOSFpPZnZ2RGh5RGw3bVZmSUpoR1VjR1hmeFk1NGExWEQxUTk2TUd3bnY4ZHZpUlpCSmNwZDQtT3BMRHZOOFFwcWlidkdGcHZ0Rm9DeFJzb3ZXNlBXSnJjV1JpRmRzTlNETHNqUnRzWm5ISFdzSXV0Vk44WXpqQURWbWZrRWxwZkdQV1huZTR2Sm53?oc=5"
-    },
-    {
-      "headline": "Trump says U.S. could end Iran war in two to three weeks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says U.S. could end Iran war in two to three weeks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-03-31 23:12",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaHhsRkpySzlWbTkzQnZwTmRRZ2FiQ3V0NGVlOWJkcldneU9fZUczU19uYmNqNGF0R3V4SkdXMEJzQjVHQngxQTFqdmxmS1VWVnNhZThEcTRjZjB1b3l4UkZOV05zaS1SeFJkQ1JrUURCNEJHZWs3TFNtTmVibV9ZU3pZcVZnU0ktUzBQWTJ6c0MzLTdHdkUtWlYwYkRGUE92Y3Z4VGhjMWY?oc=5"
+      "date": "2026-04-01 13:25",
+      "link": "https://www.cnbc.com/2026/04/01/apartment-rents-weaken-further-as-war-and-job-cuts-weigh-on-demand.html"
     }
   ]
 }
