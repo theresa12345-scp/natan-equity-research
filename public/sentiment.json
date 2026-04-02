@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-02T07:00:55.358183",
+  "timestamp": "2026-04-02T14:59:41.166385",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 9,
+    "bullish": 11,
     "neutral": 11,
-    "bearish": 5,
-    "high_priority": 8,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,16 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
+    "Reuters": 5,
     "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "AD HOC NEWS": 2,
-    "The Wall Street Journal": 1,
-    "Seeking Alpha": 1,
-    "TradingView": 1,
-    "Barchart.com": 2,
-    "MarketBeat": 1,
-    "CNBC": 6
+    "CNBC": 6,
+    "Federalreserve.gov": 1,
+    "MarketBeat": 4,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -33,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -73,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Bond Traders Caught in Inflation-Growth Tug-of-War as Oil Swings",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Treasuries mostly rose as oil prices near multiyear highs kept alive the prospect of a Federal Reserve interest-rate cut this year to offset the economic consequences of the US war in Iran.",
+      "category": "fixed_income",
+      "date": "2026-03-31 20:52",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-31/bond-traders-caught-in-inflation-growth-tug-of-war-as-oil-swings"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -113,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -123,158 +130,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-02 07:00",
+      "date": "2026-04-02 14:59",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Illinois Tool Works Stock: Diversified Industrial Leader Faces Analyst Caution Amid Solid Earnings Guidance",
+      "headline": "S&P 500 futures rise after major averages post best session since May: Live updates",
       "score": 7,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "Illinois Tool Works (ITW) exhibits resilience with diversified segments and a strong FY2026 EPS outlook of $11.00\u2013$11.40. Despite outperforming recent earnings and revenue forecasts, some analysts have lowered price targets, signaling caution for North American investors. The company's 80/20 simplif",
-      "category": "corporate_earnings",
-      "date": "2026-04-02 05:07",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/illinois-tool-works-stock-diversified-industrial-leader-faces-analyst/69053865"
-    },
-    {
-      "headline": "Stock Market Today: Nasdaq Leads Rally Built on Hope the Iran War May End Soon",
-      "score": 7,
-      "source": "The Wall Street Journal",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Indexes surge to biggest one-day gain since May",
+      "impact": "Tuesday concluded both a losing month and quarter for all three major indexes.",
       "category": "us_equities",
-      "date": "2026-04-01 03:46",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-03-31-2026"
+      "date": "2026-04-01 10:20",
+      "link": "https://www.cnbc.com/2026/03/31/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Nike slides 9% after issuing soft guidance during its earnings call (NKE:NYSE)",
+      "headline": "Brief remarks by Governor Barr on stablecoins",
       "score": 7,
-      "source": "Seeking Alpha",
-      "sentiment": "negative",
-      "impact": "Nike (NKE) stock slides after weak guidance: FQ4 sales seen down 2%-4% and China revenue -20%.",
-      "category": "us_equities",
-      "date": "2026-04-01 01:27",
-      "link": "https://seekingalpha.com/news/4571030-nike-slides-9-percent-after-issuing-soft-guidance-during-its-earnings-call"
-    },
-    {
-      "headline": "Iran War Threatens to Wreck Trump Dream of Lower Interest Rates",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Treasury Secretary Scott Bessent\u2019s benchmark financial asset \u2014 10-year US Treasuries \u2014 are poised to mark their biggest monthly tumble since Donald Trump returned to the White House, casting a shadow over the economic outlook as the administration struggles t\u2026",
-      "category": "global_markets",
-      "date": "2026-03-31 20:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-31/iran-war-threatens-to-wreck-trump-dream-of-lower-interest-rates"
-    },
-    {
-      "headline": "S&P 500 Surges Over 2% on Trump\u2019s Iran War End Hopes, SPY ETF Leads Rally Amid Falling Oil Prices",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "The S&P 500 and SPY ETF experienced a significant rally on April 1, 2026, driven by President Trump's optimistic announcement regarding the potential end of the conflict with Iran within two to three weeks. This news led to a sharp decline in oil prices, benefiting U.S. investors by reducing geopoli",
-      "category": "us_equities",
-      "date": "2026-04-02 06:23",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/s-and-p-500-surges-over-2-percent-on-trump-s-iran-war-end-hopes-spy/69054385"
-    },
-    {
-      "headline": "BMO5771732 Bond Price and Chart \u2014 FINRA:BMO5771732",
-      "score": 6,
-      "source": "TradingView",
+      "source": "Federalreserve.gov",
       "sentiment": "neutral",
-      "impact": "This article provides the price and chart information for the BMO5771732 bond, issued by the Bank of Montreal with a maturity date of March 17, 2026, and listed under FINRA. The market for this bond is currently closed with no trades shown. Users can sign up for advanced bond data, including coupon ",
+      "impact": "Thank you for the opportunity to be part of this discussion.  Last year, Congress passed the Guiding and Establishing National Innovation for U.S. Stablecoins",
+      "category": "us_monetary_policy",
+      "date": "2026-03-31 19:00",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260331a.htm"
+    },
+    {
+      "headline": "Blue Owl caps private credit funds redemptions at 5% after steep request levels",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Blue Owl attributed the higher-than-usual requests to \"heightened market concerns around AI-related disruption to software companies.\"",
       "category": "fixed_income",
-      "date": "2026-04-02 05:53",
-      "link": "https://www.tradingview.com/symbols/FINRA-BMO5771732/"
+      "date": "2026-04-02 14:50",
+      "link": "https://www.cnbc.com/2026/04/02/blue-owl-private-credit-funds-redemptions-requests.html"
     },
     {
-      "headline": "What You Need to Know Ahead of HCA Healthcare\u2019s Earnings Release",
+      "headline": "Regional sports networks are faltering even as ratings soar",
       "score": 6,
-      "source": "Barchart.com",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "HCA Healthcare, Inc. (HCA) is set to release its fiscal first-quarter earnings for FY2026 on April 24, with analysts expecting an 11.5% increase in EPS to $7.19 per share. The company has consistently beaten EPS estimates in the past four quarters and its shares have outperformed the broader market,",
-      "category": "corporate_earnings",
-      "date": "2026-04-02 05:39",
-      "link": "https://www.barchart.com/story/news/1105933/what-you-need-to-know-ahead-of-hca-healthcares-earnings-release"
+      "impact": "A group of regional sports networks is set to wind down, marking the demise of a once lucrative business that's faced significant pressure.",
+      "category": "global_markets",
+      "date": "2026-04-02 14:40",
+      "link": "https://www.cnbc.com/2026/04/02/regional-sports-networks-are-faltering-even-as-ratings-soar.html"
     },
     {
-      "headline": "Xenon Pharmaceuticals Target of Unusually High Options Trading (NASDAQ:XENE)",
+      "headline": "Inside Wealth: Family offices stall deal-making during Iran conflict",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "While global uncertainty has weighed on deal count, family offices and corporate investors are still piling into megadeals.",
+      "category": "global_markets",
+      "date": "2026-04-02 14:18",
+      "link": "https://www.cnbc.com/2026/04/02/family-offices-stall-deal-making-during-iran-conflict.html"
+    },
+    {
+      "headline": "CSX (NASDAQ:CSX) Given New $40.00 Price Target at BMO Capital Markets",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "negative",
-      "impact": "Xenon Pharmaceuticals (NASDAQ:XENE) experienced unusually high options trading on Wednesday, with put options increasing by 2,362%, indicating potential bearish sentiment or hedging. Despite recent insider selling totaling $19.6 million over 90 days, analysts broadly rate the stock as a \"Buy\" with a",
+      "impact": "BMO Capital Markets has reduced its price target for CSX (NASDAQ:CSX) to $40.00 from $41.00, maintaining a \"market perform\" rating, which suggests a slight downside from its current share price. This adjustment follows CSX missing its Q4 earnings and revenue estimates, with revenue declining 0.9% ye",
       "category": "us_equities",
-      "date": "2026-04-02 05:39",
-      "link": "https://www.marketbeat.com/instant-alerts/xenon-pharmaceuticals-target-of-unusually-high-options-trading-nasdaqxene-2026-04-02/"
+      "date": "2026-04-02 14:03",
+      "link": "https://www.marketbeat.com/instant-alerts/csx-nasdaqcsx-given-new-4000-price-target-at-bmo-capital-markets-2026-04-02/"
     },
     {
-      "headline": "What to Expect From Colgate-Palmolive\u2019s Q1 2026 Earnings Report",
-      "score": 6,
-      "source": "Barchart.com",
-      "sentiment": "neutral",
-      "impact": "Colgate-Palmolive (CL), a global consumer staples company, is set to release its Q1 2026 earnings report on Friday, April 24, with analysts predicting an adjusted EPS of $0.95, up 4.4% year-over-year. Despite lagging behind the S&P 500 in share performance over the last year and a recent downgrade f",
-      "category": "corporate_earnings",
-      "date": "2026-04-02 05:37",
-      "link": "https://www.barchart.com/story/news/1105922/what-to-expect-from-colgate-palmolives-q1-2026-earnings-report"
-    },
-    {
-      "headline": "Tiger Woods won't captain 2027 Ryder Cup team as golf future remains uncertain",
+      "headline": "Starbucks to award bonuses to baristas, expand tipping to promote turnaround efforts",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The latest developments leave Woods at least temporarily at the fringes of the sport that made him a household name. ",
+      "sentiment": "positive",
+      "impact": "Starbucks is in the middle of a turnaround focused on improving both the customer and employee experience.",
       "category": "global_markets",
-      "date": "2026-04-01 21:21",
-      "link": "https://www.cnbc.com/2026/04/01/tiger-woods-golf-future-uncertain-recovery-crash.html"
+      "date": "2026-04-02 13:59",
+      "link": "https://www.cnbc.com/2026/04/02/starbucks-to-award-bonuses-to-baristas-expand-tipping.html"
     },
     {
-      "headline": "Walmart-owned Sam's Club raises its annual membership fee to $60 ",
+      "headline": "First Western Financial (NASDAQ:MYFW) Price Target Lowered to $25.00 at Piper Sandler",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Sam's Club is hiking membership fees as its annual sales and membership grow and as high gas prices call attention to one of its key perks.",
-      "category": "global_markets",
-      "date": "2026-04-01 20:46",
-      "link": "https://www.cnbc.com/2026/04/01/sam.html"
-    },
-    {
-      "headline": "Wall Street loses patience with Nike as turnaround drags, China weakness deepens ",
-      "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "negative",
-      "impact": "Nike warned that its turnaround is taking longer than it expected, leading three Wall Street banks to downgrade the stock as investors lose patience.",
+      "impact": "Piper Sandler has lowered its price target for First Western Financial (NASDAQ:MYFW) to $25.00 from $26.00, maintaining a \"neutral\" rating. This new target suggests a potential upside of approximately 3.1%, although the company missed its recent quarterly earnings and revenue estimates. Despite sign",
       "category": "us_equities",
-      "date": "2026-04-01 20:32",
-      "link": "https://www.cnbc.com/2026/04/01/nike-q3-2026-turnaround-drags-china-sales-slump.html"
+      "date": "2026-04-02 13:47",
+      "link": "https://www.marketbeat.com/instant-alerts/first-western-financial-nasdaqmyfw-price-target-lowered-to-2500-at-piper-sandler-2026-04-02/"
     },
     {
-      "headline": "Eli Lilly opposes push to pass Trump's drug pricing deals into law, CEO says",
+      "headline": "Moderna (NASDAQ:MRNA) Price Target Raised to $48.00 at Barclays",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Eli Lilly opposes the White House's push to codify \"most favored nation\" drug pricing into law, CEO Dave Ricks said in an interview with CNBC. ",
-      "category": "global_markets",
-      "date": "2026-04-01 18:23",
-      "link": "https://www.cnbc.com/2026/04/01/eli-lilly-opposes-trump-mfn-drug-pricing-law-ceo-ricks-says.html"
+      "impact": "Barclays has increased its price target for Moderna (NASDAQ:MRNA) from $25.00 to $48.00, while maintaining an \"equal weight\" rating, despite this new target implying a slight downside from its previous close. Other analysts have varying ratings, leading to a MarketBeat consensus of \"Reduce\" with a t",
+      "category": "us_equities",
+      "date": "2026-04-02 13:47",
+      "link": "https://www.marketbeat.com/instant-alerts/moderna-nasdaqmrna-price-target-raised-to-4800-at-barclays-2026-04-02/"
     },
     {
-      "headline": "FDA approves Eli Lilly's GLP-1 pill, opening the next phase of the weight loss drug market",
+      "headline": "Expand Energy (NASDAQ:EXE) Given Sector Weight Rating at KeyCorp",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "KeyCorp reaffirmed a \"sector weight\" rating for Expand Energy (NASDAQ:EXE), while other analysts maintain a consensus \"Buy\" rating with an average target price of $131.48. The company recently reported strong earnings, exceeding expectations with $2.00 EPS and $3.27 billion in revenue, leading to in",
+      "category": "us_equities",
+      "date": "2026-04-02 13:46",
+      "link": "https://www.marketbeat.com/instant-alerts/expand-energy-nasdaqexe-given-sector-weight-rating-at-keycorp-2026-04-02/"
+    },
+    {
+      "headline": "The S&P 500 could hit bottom by May \u2014 and 6,000 is the stock market\u2019s correction floor",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Strong one-day rallies are far more common in weak markets.",
+      "category": "us_equities",
+      "date": "2026-04-02 13:41",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-could-hit-bottom-by-may-and-6-000-is-the-stock-markets-correction-floor-ab151500?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "SNAPSHOT Wall St opens lower after Trump's comments dent Iran resolution hopes - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "The FDA approval of Eli Lilly's GLP-1 pill Foundayo comes nearly three months after Novo Nordisk's oral version of Wegovy hit the market.",
+      "impact": "SNAPSHOT Wall St opens lower after Trump's comments dent Iran resolution hopes\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-01 16:40",
-      "link": "https://www.cnbc.com/2026/04/01/eli-lilly-glp-1-pill-foundayo-approved-for-obesity.html"
+      "date": "2026-04-02 13:32",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORzZMOVRDU0NuWFBVVHF2MEtHZWVrMEpRRU9OTzRiRk1sYkF1YmFaelI1S2dWa0pBZ0NOZmVXS20tZ3Vrek1kUnhUNE9ObjhMbExSU1J3Z0dpdkVQLXQtZ3A0RU9Bd0ktcTNER1FCdnRRZU9LT0RDR21ELTRVLUVtdGxJOW1iNzduYk5QMG91NTNGSDVVeFhSZzJoS2ZiMVdlTmVKU2NqQml4N1VDb054eEtfNA?oc=5"
     },
     {
-      "headline": "Visa launches new AI tools to manage the charge dispute process",
+      "headline": "UK to host talks with 35 countries on reopening Strait of Hormuz - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "UK to host talks with 35 countries on reopening Strait of Hormuz\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-02 13:18",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVVNRbmdDQlNNM0t6Z3ptMlVkZTFTNXV0Sk82SjFfaHVxXzFGeF9uYmgxNzFNcjZJYmRQTlVDdkNwNzluejlRdmNKdDlLQlVlcTNQbnVqSFBFQ0pobF9RVkZOSFBwV3ZhU0tNZGp0d0dFVVFhbFc4UEhPd3NIOVRzSVVQTDdsNnhJbGR4UnFZbjlHeXJuOWtKc0xEUWx1MXJpSzUzYVNxVQ?oc=5"
+    },
+    {
+      "headline": "Coca-Cola unveils ad campaign with 13 restaurant chains to boost drink sales as diner traffic falls",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Visa's new tools are part of a larger push by major banks and financial institutions to incorporate AI into their businesses.",
+      "sentiment": "positive",
+      "impact": "The restaurant industry has been struggling with declining traffic and sluggish sales growth.",
       "category": "global_markets",
-      "date": "2026-04-01 15:26",
-      "link": "https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html"
+      "date": "2026-04-02 13:12",
+      "link": "https://www.cnbc.com/2026/04/02/coca-cola-ad-campaign-dominos-wendys-wingstop.html"
     }
   ]
 }
