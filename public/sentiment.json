@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-03T06:57:55.147041",
+  "timestamp": "2026-04-03T14:48:39.215939",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 6,
-    "neutral": 15,
+    "bullish": 9,
+    "neutral": 12,
     "bearish": 4,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 8,
     "Bloomberg": 2,
+    "MarketWatch": 1,
     "Caixin/S&P Global": 1,
-    "Meyka": 1,
-    "CNBC": 2,
-    "Financial Times": 1,
-    "National Today": 1,
-    "MarketBeat": 2,
-    "MarketWatch": 1
+    "CNBC": 4,
+    "PR Newswire": 1,
+    "Stock Titan": 2,
+    "AD HOC NEWS": 1,
+    "Seeking Alpha": 1
   },
   "top_signals": [
     {
@@ -32,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Stock futures and bitcoin slip, Treasury yields climb, as hot jobs report raises more questions about Fed rate cuts",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Stock futures have slipped while Treasury yields pressed higher during Friday\u2019s holiday trading session after a hotter-than-expected jobs report raised more questions about whether the Federal Reserve will deliver an interest-rate cut this year.",
+      "category": "us_monetary_policy",
+      "date": "2026-04-03 13:30",
+      "link": "https://www.marketwatch.com/story/stock-futures-and-bitcoin-slip-treasury-yields-climb-as-hot-jobs-report-raises-more-questions-about-fed-rate-cuts-921ff82f?mod=mw_rss_topstories"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -112,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,28 +132,8 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-03 06:57",
+      "date": "2026-04-03 14:48",
       "link": "https://www.reuters.com/business/energy/"
-    },
-    {
-      "headline": "Sky Quarry (SKYQ) NASDAQ close $5.10 on 02 Apr 2026: Apr 7 earnings could reset valuation",
-      "score": 7,
-      "source": "Meyka",
-      "sentiment": "negative",
-      "impact": "Sky Quarry Inc. (SKYQ) stock closed at $5.10 on April 2, 2026, after a significant intraday jump and high trading volume. The company is set to report Q1 earnings on April 7, 2026, which is expected to be a major catalyst for its future stock performance. Despite the recent price surge, the article ",
-      "category": "us_equities",
-      "date": "2026-04-03 04:40",
-      "link": "https://meyka.com/blog/sky-quarry-skyq-nasdaq-close-510-on-02-apr-2026-apr-7-earnings-could-reset-valuation-0204/"
-    },
-    {
-      "headline": "BOJ to raise rates with eye on Iran war fallout, central bank official says - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "BOJ to raise rates with eye on Iran war fallout, central bank official says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-03 04:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZFAyb1FPMU1naGdONTc0WEJXM08wMC1FRFd0N2VEaUNEVGQxcE45MUlrUDlfQWU0SzVkQUZQUi1Bc3BsMVdUZTAtaDUwLVBicVdVTjBQaWNXOEZfMnBpSl8xbDZnRWhrYUszWWZndFRFYVVMMmpXZEROU29uZUFObVIxMzI5NDhqNlQzRF90bHoxb2FOU3FrdzNDTHUwcHBJT3RYamZNa2YtNVB0QTFIeEo0TzdMVncwMkpRV1Zn?oc=5"
     },
     {
       "headline": "Cramer\u2019s week ahead: Two key economic reports and earnings from Levi's, Delta",
@@ -176,104 +166,114 @@
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTFNpMkVWRG5kdlhnTmxFdkF0RWx0MUZDQ20ybEpnSG1ZSE8yWFF4NU93SHk0OS1tZG1kRmMydzlTRmhIc1VZRWJBYlRBZVdMdy1wZ0RkNjF0RVNVVmJCQzFnN0NZOU92QWxNb0ZSM3hxeC1EeEtEa3VycUZZWm5yMGlNY2dMbXpmT2tvOG9WeEs1TjBKZHc?oc=5"
     },
     {
-      "headline": "US Treasury calls in regulators for talks on private credit risks",
-      "score": 7,
-      "source": "Financial Times",
+      "headline": "Trump's anger over Iran thrusts NATO into fresh crisis - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Discussions will include American and international insurance watchdogs",
-      "category": "fixed_income",
-      "date": "2026-04-02 00:58",
-      "link": "https://www.ft.com/content/09f4fa70-d3e6-4abc-bc95-234afe7111f4?syn-25a6b1a6\\\\u003d1"
+      "impact": "Trump's anger over Iran thrusts NATO into fresh crisis\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-03 14:11",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS2liSDZHMVVtSHozdTMyejFlbDNQMVBSVU5JR09Vb3FxUV9QVDRaUDdxdGxhcGxPaEU4WE0tN2l2XzZILXVSck9lcF9UTDFWMGstcXhidklfOC04bUVCM1dtUDhKQjlfMnNtcFNRYjFVek9ONHhfOERBa0JyZnpsWFd3REtWSGxnYTcwdnhRbFFmTHNGSHRqZkZERU84S2tSTThDUG9tUHdiQ3pZb0lUVV9EY3BETU0?oc=5"
     },
     {
-      "headline": "Unity Bancorp Projected to Post Earnings on Friday",
+      "headline": "US fighter jet shot down over Iran, search underway for crew, US official says - Reuters",
       "score": 6,
-      "source": "National Today",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Unity Bancorp is expected to release its Q1 2026 earnings before the market opens on Friday, April 10, with analysts forecasting earnings of $1.37 per share and revenue of $33.59 million. This report is crucial for investors as it provides insight into the bank's financial health and reflects broade",
-      "category": "corporate_earnings",
-      "date": "2026-04-03 06:01",
-      "link": "https://nationaltoday.com/us/pa/morrisville-pa/news/2026/04/03/unity-bancorp-projected-to-post-earnings-on-friday/"
-    },
-    {
-      "headline": "WaFd (WAFD) Projected to Post Quarterly Earnings on Friday",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "WaFd (NASDAQ:WAFD) is projected to release its Q2 2026 earnings before market open on Friday, April 10th, with analysts expecting $0.75 EPS and $190.51 million in revenue. The company last reported EPS of $0.75, missing estimates slightly, and analysts forecast earnings of $3.00 per share for both t",
-      "category": "corporate_earnings",
-      "date": "2026-04-03 05:21",
-      "link": "https://www.marketbeat.com/instant-alerts/wafd-wafd-projected-to-post-quarterly-earnings-on-friday-2026-04-03/"
-    },
-    {
-      "headline": "Travere Therapeutics (NASDAQ:TVTX) CEO Eric Dube Sells 60,000 Shares",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Travere Therapeutics (NASDAQ:TVTX) CEO Eric Dube sold 60,000 shares of the company's stock on April 1st for $1.856 million, reducing his stake by 12.17%. The sale was pre-arranged under a Rule 10b5-1 plan. Despite this insider selling, the stock maintains a \"Moderate Buy\" consensus rating from analy",
+      "impact": "US fighter jet shot down over Iran, search underway for crew, US official says\u00a0\u00a0Reuters",
       "category": "us_equities",
-      "date": "2026-04-03 05:09",
-      "link": "https://www.marketbeat.com/instant-alerts/travere-therapeutics-nasdaqtvtx-ceo-eric-dube-sells-60000-shares-2026-04-02/"
+      "date": "2026-04-03 14:09",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTGlIcmp6ajhocl9IYVNsSVE1TmFlaUUwSFJ5RkREMWhhNlhfN3NqeTgxa2lJZ1pjenY0blE2ZU1kV25USHd6VUY4UGJ0ekRZVUltU1k5NzUtSm5iVUU3cVk0Mmt1Z25XeE1LSHdKRlhHYXhUdm5jemVGTDZVQ1pVeEIxbWhYRGdfMTI5c1dfMXF1bkp3NkZYWmhMLUJuTF9udTFsUHNXd1Z0OEpNQVVGc3ZaR0FCbGtwU2FrNmMtRG5OTDVI?oc=5"
     },
     {
-      "headline": "Trump vows to hit more Iranian infrastructure as nations seek to open Hormuz - Reuters",
+      "headline": "NeuroSense Therapeutics Announces Receipt of Nasdaq Notifications Regarding Minimum Bid Price and Market Value Requirements",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump vows to hit more Iranian infrastructure as nations seek to open Hormuz\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-03 04:27",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWUQxejBWTi1ieGdGUmhOZ0ZRWHpfS0JwTng4SVFVVkVFQ3pycnYwcTU1N2JER0RrVmE1Q05nNUdNd2t6RHQwcHl5STVVMHlTR0ExVWx4Y1RNMjBxNUF5bkVSU05IenNJQTItR3VDSkVkYUlqZjJMSmtaWktzXzVzSjJHWkx0eWhOMGRsNmRRVXI2WnJyVElQbzBTdE1xLUxjOFVhNFBiS2tTbHJOVmRxUlVGRzlNdU9EWXZMTkd3?oc=5"
-    },
-    {
-      "headline": "Trump threatens to strike Iran's bridges and electric power plants - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump threatens to strike Iran's bridges and electric power plants\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-03 03:35",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUS1DNHpZcG9LNUdON3hHamVsbmU0bVZEMnpFQUc2QjN2SnZ6YVRuZ1RScWJDMUxyNVB5WUp3aUtYbTVNVHM1d0xSUFBCd2JmZjBTVUpZWW1YMmtld1lYYTMwOEliQkpIWTJxdnN5YXViWjFrazY5ZjNhTmtrOU9peGtpNzRmWkI4RDI0WHMtT19kOFgtUTdIeERNN1RMRmIwQ2NxWkkydm5nQmNWZDRoRmR3?oc=5"
-    },
-    {
-      "headline": "Pam Bondi was just fired by Trump. Here\u2019s how the stock market has fared since her infamous \u2018Dow is over 50,000\u2019 comment.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Spoiler: Not great",
+      "source": "PR Newswire",
+      "sentiment": "negative",
+      "impact": "NeuroSense Therapeutics has received two notifications from Nasdaq indicating non-compliance with minimum bid price ($1.00 per share) and market value of listed securities ($35 million) requirements. These notifications do not immediately affect the trading of the company's shares. NeuroSense has 18",
       "category": "us_equities",
-      "date": "2026-04-03 02:21",
-      "link": "https://www.marketwatch.com/story/pam-bondi-was-just-fired-by-trump-heres-how-the-stock-market-has-fared-since-her-infamous-dow-is-over-50-000-comment-694a261c?mod=mw_rss_topstories"
+      "date": "2026-04-03 14:02",
+      "link": "https://www.prnewswire.com/news-releases/neurosense-therapeutics-announces-receipt-of-nasdaq-notifications-regarding-minimum-bid-price-and-market-value-requirements-302733781.html"
     },
     {
-      "headline": "US experts say American strikes on Iran may amount to war crimes - Reuters",
+      "headline": "IMNM (NASDAQ: IMNM) Form 144/A: 65,000 shares proposed sale via Fidelity",
+      "score": 6,
+      "source": "Stock Titan",
+      "sentiment": "neutral",
+      "impact": "Immunome Inc. (NASDAQ: IMNM) has filed a Form 144/A with the SEC, notifying a proposed sale of 65,000 shares of common stock through Fidelity Brokerage Services LLC. The filing indicates a total value of $1,425,084.64 for the shares, with the transaction expected on April 2, 2026. Prior acquisitions",
+      "category": "us_equities",
+      "date": "2026-04-03 13:49",
+      "link": "https://www.stocktitan.net/sec-filings/IMNM/144-a-immunome-inc-sec-filing-ba853710c8d9.html"
+    },
+    {
+      "headline": "Nasdaq flags NeuroSense (NRSN) for bid price and $35M value shortfall",
+      "score": 6,
+      "source": "Stock Titan",
+      "sentiment": "negative",
+      "impact": "NeuroSense Therapeutics Ltd. (NRSN) has received two notifications from Nasdaq indicating non-compliance with its minimum bid price of $1.00 and market value of listed securities of $35 million for 30 consecutive business days. The company has 180 calendar days, until September 29, 2026, to regain c",
+      "category": "us_equities",
+      "date": "2026-04-03 13:27",
+      "link": "https://www.stocktitan.net/sec-filings/NRSN/6-k-neuro-sense-therapeutics-ltd-current-report-foreign-issuer-1499d5dd815c.html"
+    },
+    {
+      "headline": "Iran leaders join crowds on Tehran's streets to project control in wartime - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US experts say American strikes on Iran may amount to war crimes\u00a0\u00a0Reuters",
+      "impact": "Iran leaders join crowds on Tehran's streets to project control in wartime\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-02 23:51",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMjVNem01Ujl1TGY5aGhPdXM0QkdJbDFxbWdOb2s4QUVvRFYyT2d2WGlPTkpyYnB0LTc0Qy1GVEhPYlZaem5pNWF1ei1WcU9SZDc4Y3NyNFZmdnR2Vjh1ckVOcDZxQmpnSW9hMVFaMTdjMjk0MzRIRi1Ic1FsVEtTVWxQY2VFc0ZrWmpKSkNVY05OUXhxRkxYUm11QWl6T1hqWFB2dkhkeFBFOWpiNnpqVlN3?oc=5"
+      "date": "2026-04-03 13:04",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMTlvY0ZNbVFubm1ocWIxUXFCTmxIcXc1QU83c1phNDdkTFlSVVRmWW5aa1QyM0tYUjJHdEpqYUk5VVZwaXJQOU5VTFJSWWxoUU1lTktsMHVmRmdBS2RLR21SMXE3UXoxLW0ySkw3cVhJRlNWVU5yazZYeWRBaHdsb0drR1RBRmF1WVJIb08xS2VmNFRVeUptcVhFblZ2TDRyVTJTU3hiR09NQkhTUkpRc0tnTWxjMmFrQWpj?oc=5"
     },
     {
-      "headline": "A year after 'Liberation Day,' Trump sets new drug tariffs, adjusts metals duties - Reuters",
+      "headline": "World food price rise set to continue if Iran war lasts, FAO says - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "A year after 'Liberation Day,' Trump sets new drug tariffs, adjusts metals duties\u00a0\u00a0Reuters",
+      "sentiment": "positive",
+      "impact": "World food price rise set to continue if Iran war lasts, FAO says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-02 23:31",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWFZKb2ppb3RHdXNXbnBJZzR4WGc5dHJ3ZkVvVlVMYVFwUjN4TkxQR203bEtjTlo3d3NnTDBaSXZSZzMxUkY5QVlWMFF2V3NGM2VOMk0zMk14NkVfWDVyNF96QlVMQ2tHb0oyWm5nRm9pQmpOYTdoWTJQUTdXMHZOR1RLT0RJaldfT3NMRmNJXzhMcHhMM1p2dHVzaEtHaGtBME54MGJUbW5MdDFNX2tkZkktOGNiLTQ3ZjRiTw?oc=5"
+      "date": "2026-04-03 13:01",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM05VYlNLd1VKSlViMnZCMXhId3F1ellMZjFKUDZIbnY4VjE3RDJFWkRNQWJKbTFTUkQ5S0lTSnI1NE9WWDdoNVYwYVdXYU56ZEpQUW9NTklwNnRZeE5QRm9BYVF2SkNRMkRoRUJXQlVCNG5sc1hHSWJRV20wTUFwNE1Xd0VXRGt2VElMVUMtVHdmVWRVeldzUDEwWHhaTjFmUW1NNjNWamhzQQ?oc=5"
     },
     {
-      "headline": "Iran war exposes frailties of 'no-hire' US economy - Reuters",
+      "headline": "These master's degrees lead to fast-growing, in-demand jobs\u2014but offer low ROI",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Iran war exposes frailties of 'no-hire' US economy\u00a0\u00a0Reuters",
+      "impact": "Getting a master's degrees in social work and psychology may not deliver the best return on investment. But job placement and fulfillment may come easier.",
       "category": "global_markets",
-      "date": "2026-04-02 23:30",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcXVuUHhnRU93UmlKZFhmWmNpZ05yMnA2SUVyQTdHM0FybmRzN0dMNkZrWWdORElJQzdzN3hTREJodlRhRUtFX3c3RzRXUnhFNzNGSjB2WDk0R2lBYWE0TTFMYlA2dUhWTGdiaWZGR1ZqT1UzWE1yYThuYW1jWjdpaFAtSzZWamJDY2RXN1NKOWRwMWo1SDlN?oc=5"
+      "date": "2026-04-03 13:00",
+      "link": "https://www.cnbc.com/2026/04/03/masters-degrees-low-roi.html"
+    },
+    {
+      "headline": "The cost to fly private is up as much as 20% with fuel prices soaring",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Deep-pocketed travelers are less likely to get priced out as airfares rise, but they have to navigate unexpected fees related to the Iran war and rising fuel costs.",
+      "category": "global_markets",
+      "date": "2026-04-03 13:00",
+      "link": "https://www.cnbc.com/2026/04/03/private-jet-travel-costs-rise-fuel-prices.html"
+    },
+    {
+      "headline": "PayPal Holdings Inc stock: Trading near 2017 levels despite revenue growth",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "neutral",
+      "impact": "PayPal Holdings Inc shares are trading around $45, a level last seen in 2017, despite significant revenue growth since then. This disconnect presents a potential value play for North American investors, though concerns about branded checkout performance and competitive pressures exist. Analysts offe",
+      "category": "corporate_earnings",
+      "date": "2026-04-03 12:44",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/paypal-holdings-inc-stock-trading-near-2017-levels-despite-revenue-growth/69064415"
+    },
+    {
+      "headline": "United Airlines hikes checked bag fee by $10 as fuel prices climbs (UAL:NASDAQ)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "United Airlines (UAL) has increased its checked bag fee by $10, making it $45 for the first bag on most domestic flights. This move follows a surge in jet fuel prices, marking United as the second U.S. carrier to implement such a raise due to the escalating fuel costs. The increase comes amidst broa",
+      "category": "us_equities",
+      "date": "2026-04-03 12:38",
+      "link": "https://seekingalpha.com/news/4572440-united-airlines-hikes-checked-bag-fee-by-10-as-fuel-prices-climbs"
     }
   ]
 }
