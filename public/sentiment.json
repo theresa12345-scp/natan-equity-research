@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-03T14:48:39.215939",
+  "timestamp": "2026-04-04T06:49:06.418072",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 9,
-    "neutral": 12,
-    "bearish": 4,
-    "high_priority": 9,
+    "avg_relevance": 7.0,
+    "bullish": 10,
+    "neutral": 10,
+    "bearish": 5,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 8,
+    "Reuters": 11,
     "Bloomberg": 2,
-    "MarketWatch": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 4,
-    "PR Newswire": 1,
-    "Stock Titan": 2,
-    "AD HOC NEWS": 1,
-    "Seeking Alpha": 1
+    "The Wall Street Journal": 1,
+    "Insider Monkey": 1,
+    "MarketBeat": 2,
+    "MSN": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -32,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,18 +101,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Stock futures and bitcoin slip, Treasury yields climb, as hot jobs report raises more questions about Fed rate cuts",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Stock futures have slipped while Treasury yields pressed higher during Friday\u2019s holiday trading session after a hotter-than-expected jobs report raised more questions about whether the Federal Reserve will deliver an interest-rate cut this year.",
-      "category": "us_monetary_policy",
-      "date": "2026-04-03 13:30",
-      "link": "https://www.marketwatch.com/story/stock-futures-and-bitcoin-slip-treasury-yields-climb-as-hot-jobs-report-raises-more-questions-about-fed-rate-cuts-921ff82f?mod=mw_rss_topstories"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,148 +121,158 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-03 14:48",
+      "date": "2026-04-04 06:49",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Cramer\u2019s week ahead: Two key economic reports and earnings from Levi's, Delta",
+      "headline": "Trump proposes \"historic\" defense spending budget, eyes 10% cut to other federal programs - reuters.com",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "CNBC's Jim Cramer outlined what investors should watch in the week ahead, including Middle East developments, major earnings and key inflation data.",
-      "category": "corporate_earnings",
-      "date": "2026-04-02 22:23",
-      "link": "https://www.cnbc.com/2026/04/02/cramers-week-ahead-key-economic-reports-earnings-from-levis-delta.html"
-    },
-    {
-      "headline": "Federal commission sues 3 states over prediction market regulation",
-      "score": 7,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "The Commodity Futures Trading Commission said it was suing Arizona, Connecticut and Illinois over its ability to exclusively regulate prediction markets.",
+      "impact": "Trump proposes \"historic\" defense spending budget, eyes 10% cut to other federal programs\u00a0\u00a0reuters.com",
       "category": "us_monetary_policy",
-      "date": "2026-04-02 17:52",
-      "link": "https://www.cnbc.com/2026/04/02/prediction-market-lawsuit-regulation-arizona-coonecticut-illinois.html"
+      "date": "2026-04-03 19:00",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMVA1Ym02OGJuQkdHMnFmTGd3cjNKdVFYY2xYQkx6S1JlRERLVnV2d19QR0xLRUlkb2c5bE1uUHpkZnVRSUM2RjlRbXUxVkt6empwVnF5Z2UzUWYxU0x5Q1J3T3pDSmVfTExGX05zdTEtSE1xcE9CRVZDOThGUUpwVVZ0R2VhSGk0R1JBblhPVjRFWXRaWWpBZVhPTTI5TU02ZHF3NG5ERHB1TXdRWGY5dkdOVXZHTmg2RzI1UmptdTFTZw?oc=5"
     },
     {
-      "headline": "Trump fires Pam Bondi as US attorney general - Reuters",
+      "headline": "Stock Market Today: Dow, Nasdaq Slip; Oil Rises After Trump Iran Address \u2014 Live Updates",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump fires Pam Bondi as US attorney general\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-04-02 17:06",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTFNpMkVWRG5kdlhnTmxFdkF0RWx0MUZDQ20ybEpnSG1ZSE8yWFF4NU93SHk0OS1tZG1kRmMydzlTRmhIc1VZRWJBYlRBZVdMdy1wZ0RkNjF0RVNVVmJCQzFnN0NZOU92QWxNb0ZSM3hxeC1EeEtEa3VycUZZWm5yMGlNY2dMbXpmT2tvOG9WeEs1TjBKZHc?oc=5"
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Live updates on markets and the top finance, economics and business stories. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
+      "category": "us_equities",
+      "date": "2026-04-02 20:25",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-04-02-2026"
     },
     {
-      "headline": "Trump's anger over Iran thrusts NATO into fresh crisis - Reuters",
+      "headline": "Downed planes spell new peril for Trump as Tehran hunts missing US pilot - reuters.com",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Trump's anger over Iran thrusts NATO into fresh crisis\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-03 14:11",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS2liSDZHMVVtSHozdTMyejFlbDNQMVBSVU5JR09Vb3FxUV9QVDRaUDdxdGxhcGxPaEU4WE0tN2l2XzZILXVSck9lcF9UTDFWMGstcXhidklfOC04bUVCM1dtUDhKQjlfMnNtcFNRYjFVek9ONHhfOERBa0JyZnpsWFd3REtWSGxnYTcwdnhRbFFmTHNGSHRqZkZERU84S2tSTThDUG9tUHdiQ3pZb0lUVV9EY3BETU0?oc=5"
+      "impact": "Downed planes spell new peril for Trump as Tehran hunts missing US pilot\u00a0\u00a0reuters.com",
+      "category": "us_equities",
+      "date": "2026-04-04 05:48",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWVZhSm5OVWlJdjQ4V09wQTk0ZjZjM3ZwbVNFQldGLUtQdVVmRVktdUVucUtQMGRmUExxalNMbXBWcFBUSXZZQ0xYR19kNFQxWml2eFdrZjhfMzVCbWc0YmJ4Z0pVRWdzbl9LbnBXRlA4V3JLalVXc00tS1RxQ1J0UVBKSmNobFJoSUJvbF85dHMzcmMyMkdweE16Z0JFWEhXdTNoVHlYVUNqRDlUWGpfMEFXd1ZCUHFnOTFPaw?oc=5"
     },
     {
-      "headline": "US fighter jet shot down over Iran, search underway for crew, US official says - Reuters",
+      "headline": "Erste Group Sees Profit Growth Ahead, Upgrades Verizon (VZ) to Buy",
+      "score": 6,
+      "source": "Insider Monkey",
+      "sentiment": "positive",
+      "impact": "Erste Group upgraded Verizon Communications Inc. (VZ) to Buy from Hold, citing Verizon's significantly higher profitability compared to competitors and expected operating profit growth over the next two years. The article also notes a recent federal judge's preliminary injunction granted to Verizon ",
+      "category": "corporate_earnings",
+      "date": "2026-04-04 05:11",
+      "link": "https://www.insidermonkey.com/blog/erste-group-sees-profit-growth-ahead-upgrades-verizon-vz-to-buy-1732004/"
+    },
+    {
+      "headline": "Wall Street Zen Upgrades TOYO (NASDAQ:TOYO) to \"Strong-Buy\"",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Wall Street Zen has upgraded TOYO (NASDAQ:TOYO) from a \"hold\" to a \"strong-buy\" rating. Analyst sentiment for TOYO is generally positive, with a \"Moderate Buy\" consensus and an average target price of $16.50, based on recent \"buy\" and \"hold\" ratings from various firms. TOYO Co., Ltd. specializes in ",
+      "category": "us_equities",
+      "date": "2026-04-04 05:09",
+      "link": "https://www.marketbeat.com/instant-alerts/wall-street-zen-upgrades-toyo-nasdaqtoyo-to-strong-buy-2026-04-04/"
+    },
+    {
+      "headline": "Insider Selling: Sight Sciences (NASDAQ:SGHT) CTO Sells 8,168 Shares of Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Sight Sciences (NASDAQ: SGHT) CTO David Badawi sold 8,168 shares of the company's stock on April 2nd at an average price of $3.48, totaling approximately $28,424. This sale reduced his position by 0.41% to 1,990,290 shares. The company's stock has a 12-month range of $2.03-$9.24 and a \"Hold\" consens",
+      "category": "us_equities",
+      "date": "2026-04-04 04:39",
+      "link": "https://www.marketbeat.com/instant-alerts/insider-selling-sight-sciences-nasdaqsght-cto-sells-8168-shares-of-stock-2026-04-03/"
+    },
+    {
+      "headline": "iShares Broad USD Investment Grade Corporate Bond ETF declares monthly distribution of $0.2045",
+      "score": 6,
+      "source": "MSN",
+      "sentiment": "neutral",
+      "impact": "The iShares Broad USD Investment Grade Corporate Bond ETF (NYSEARCA:BNDX) has declared a monthly distribution of $0.2045 per share. The ex-dividend date is set for April 4, 2026, and the payment will be made on April 10, 2026. This announcement provides key financial details for investors in BNDX.",
+      "category": "fixed_income",
+      "date": "2026-04-04 04:10",
+      "link": "https://www.msn.com/en-us/money/topstocks/ishares-broad-usd-investment-grade-corporate-bond-etf-declares-monthly-distribution-of-02045/ar-AA1NGosH?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1"
+    },
+    {
+      "headline": "Exclusive: US intelligence warns Iran unlikely to ease Hormuz Strait chokehold soon, sources say - reuters.com",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US fighter jet shot down over Iran, search underway for crew, US official says\u00a0\u00a0Reuters",
+      "impact": "Exclusive: US intelligence warns Iran unlikely to ease Hormuz Strait chokehold soon, sources say\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-04-03 21:45",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbG8zWFFHOEFjb1dqT1JQVGJTVVFCUklqOGVjWjV5dTl6UFh1QUZuVElKQXFkd3FIYW1KcnhUdlYyc0RJQmlqRW5IZXNrdm5NZE44SUEwSHpsbUh1Rjg1ZVhkdWtXbS0yZVNYajk4Nm9BeHhld19xMzd2M1FuTUJZYXIyM3RJUW5EeUQ2Z0V1R2txM1hhSHI1ZlpidjB2YTBHdXUwWVVIN3YyNFdmOGl1bFBRTnl0MmdZTnV1dHlYaWhUNGlLb3lOd0dPOA?oc=5"
+    },
+    {
+      "headline": "US fighter jet shot down over Iran, search underway for crew member, US officials say - reuters.com",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US fighter jet shot down over Iran, search underway for crew member, US officials say\u00a0\u00a0reuters.com",
       "category": "us_equities",
-      "date": "2026-04-03 14:09",
+      "date": "2026-04-03 21:44",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTGlIcmp6ajhocl9IYVNsSVE1TmFlaUUwSFJ5RkREMWhhNlhfN3NqeTgxa2lJZ1pjenY0blE2ZU1kV25USHd6VUY4UGJ0ekRZVUltU1k5NzUtSm5iVUU3cVk0Mmt1Z25XeE1LSHdKRlhHYXhUdm5jemVGTDZVQ1pVeEIxbWhYRGdfMTI5c1dfMXF1bkp3NkZYWmhMLUJuTF9udTFsUHNXd1Z0OEpNQVVGc3ZaR0FCbGtwU2FrNmMtRG5OTDVI?oc=5"
     },
     {
-      "headline": "NeuroSense Therapeutics Announces Receipt of Nasdaq Notifications Regarding Minimum Bid Price and Market Value Requirements",
+      "headline": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?",
       "score": 6,
-      "source": "PR Newswire",
-      "sentiment": "negative",
-      "impact": "NeuroSense Therapeutics has received two notifications from Nasdaq indicating non-compliance with minimum bid price ($1.00 per share) and market value of listed securities ($35 million) requirements. These notifications do not immediately affect the trading of the company's shares. NeuroSense has 18",
-      "category": "us_equities",
-      "date": "2026-04-03 14:02",
-      "link": "https://www.prnewswire.com/news-releases/neurosense-therapeutics-announces-receipt-of-nasdaq-notifications-regarding-minimum-bid-price-and-market-value-requirements-302733781.html"
-    },
-    {
-      "headline": "IMNM (NASDAQ: IMNM) Form 144/A: 65,000 shares proposed sale via Fidelity",
-      "score": 6,
-      "source": "Stock Titan",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Immunome Inc. (NASDAQ: IMNM) has filed a Form 144/A with the SEC, notifying a proposed sale of 65,000 shares of common stock through Fidelity Brokerage Services LLC. The filing indicates a total value of $1,425,084.64 for the shares, with the transaction expected on April 2, 2026. Prior acquisitions",
-      "category": "us_equities",
-      "date": "2026-04-03 13:49",
-      "link": "https://www.stocktitan.net/sec-filings/IMNM/144-a-immunome-inc-sec-filing-ba853710c8d9.html"
+      "impact": "\u201cWe have no experience with Treasurys .\u201d",
+      "category": "fixed_income",
+      "date": "2026-04-03 21:20",
+      "link": "https://www.marketwatch.com/story/my-wife-and-i-buy-promotional-cds-with-our-tax-refund-check-is-now-a-bad-time-to-switch-to-treasurys-e19841aa?mod=mw_rss_topstories"
     },
     {
-      "headline": "Nasdaq flags NeuroSense (NRSN) for bid price and $35M value shortfall",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "negative",
-      "impact": "NeuroSense Therapeutics Ltd. (NRSN) has received two notifications from Nasdaq indicating non-compliance with its minimum bid price of $1.00 and market value of listed securities of $35 million for 30 consecutive business days. The company has 180 calendar days, until September 29, 2026, to regain c",
-      "category": "us_equities",
-      "date": "2026-04-03 13:27",
-      "link": "https://www.stocktitan.net/sec-filings/NRSN/6-k-neuro-sense-therapeutics-ltd-current-report-foreign-issuer-1499d5dd815c.html"
-    },
-    {
-      "headline": "Iran leaders join crowds on Tehran's streets to project control in wartime - Reuters",
+      "headline": "Israel strikes Beirut, US warns Iran may hit Lebanese universities - reuters.com",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran leaders join crowds on Tehran's streets to project control in wartime\u00a0\u00a0Reuters",
+      "impact": "Israel strikes Beirut, US warns Iran may hit Lebanese universities\u00a0\u00a0reuters.com",
       "category": "global_markets",
-      "date": "2026-04-03 13:04",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMTlvY0ZNbVFubm1ocWIxUXFCTmxIcXc1QU83c1phNDdkTFlSVVRmWW5aa1QyM0tYUjJHdEpqYUk5VVZwaXJQOU5VTFJSWWxoUU1lTktsMHVmRmdBS2RLR21SMXE3UXoxLW0ySkw3cVhJRlNWVU5yazZYeWRBaHdsb0drR1RBRmF1WVJIb08xS2VmNFRVeUptcVhFblZ2TDRyVTJTU3hiR09NQkhTUkpRc0tnTWxjMmFrQWpj?oc=5"
+      "date": "2026-04-03 20:05",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYWNaQW1NT01rcDMzN2RKbFhkUTlnaUlXNXFWWTNOX1laUWNlVEVab1NwenZpN3pfNjJKVXkzMzFuUEV4ZDN0eldqRXZLLWw4U3NPNnZPbHJGeVNfaURNLWlLenFwenJmaEI4UVZHcFNNMFVvSjUxOWJRTUUyMWRpc2daeDM1N0hGZ3lGdXZxZDN4UFNnZnNJS0JIYktsS1VfQzBXNkxNRVd1Zk9HZTdDd0I2WUV3djJheXEw?oc=5"
     },
     {
-      "headline": "World food price rise set to continue if Iran war lasts, FAO says - Reuters",
+      "headline": "Jobs data, Iran war add to inflation fears for retirees",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "The U.S. Treasury bond market is getting increasingly worried about inflation.",
+      "category": "global_markets",
+      "date": "2026-04-03 18:54",
+      "link": "https://www.marketwatch.com/story/jobs-data-iran-war-add-to-inflation-fears-for-retirees-20175428?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Second US Air Force plane crashed in Persian Gulf region, New York Times reports - reuters.com",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Second US Air Force plane crashed in Persian Gulf region, New York Times reports\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-04-03 18:50",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUG0tRnJ1LTVVSGZQRTJ3UVRIZF9VcmhEZERFZDFHQ01KOExyYTFZZ2Zqa2Y1aF9QdjFQTlFwX19HbE5ELThCT0tOVmpxZTBIVzQ0SVJ6em1ISlg4ODFPdEtKN2JHRWtrN1Y3N05Hc0RncW9tT1MxVkd1d1o1TlVEOWxUX2NMLXhjREE1VmxJak1oWlRPRF9uUk1Mei1KRElDU1B1dEs0VVBERmNXd2w3dGo3TTBzc3o3dWtFTkhuemR2anBIdVpNR053?oc=5"
+    },
+    {
+      "headline": "US labor market posts largest jobs gain in 15 months, but clouds brewing from Iran war - reuters.com",
       "score": 6,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "World food price rise set to continue if Iran war lasts, FAO says\u00a0\u00a0Reuters",
+      "impact": "US labor market posts largest jobs gain in 15 months, but clouds brewing from Iran war\u00a0\u00a0reuters.com",
       "category": "global_markets",
-      "date": "2026-04-03 13:01",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM05VYlNLd1VKSlViMnZCMXhId3F1ellMZjFKUDZIbnY4VjE3RDJFWkRNQWJKbTFTUkQ5S0lTSnI1NE9WWDdoNVYwYVdXYU56ZEpQUW9NTklwNnRZeE5QRm9BYVF2SkNRMkRoRUJXQlVCNG5sc1hHSWJRV20wTUFwNE1Xd0VXRGt2VElMVUMtVHdmVWRVeldzUDEwWHhaTjFmUW1NNjNWamhzQQ?oc=5"
+      "date": "2026-04-03 18:44",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS0l5NnFuYWdhSVl3OGxYSXhMdWlTTXZqbFlUSjMwVjFrX3lCY0xXVUdCdlpLOW9CMUw1ZW1pc1RENmlIdkw5Mmd4UHp4NDZmZmlSWDZSUXkwVnV2dkdUY3gxMVVqLVc2cTRuVXRGOUx1MDNWX1Y0OEtpaG91MDNlb010YWkybll1OFZuY3dhR1hqZHpCY0VPekpxTlZ5bzBRM2tOVkh5M1ZpaDFO?oc=5"
     },
     {
-      "headline": "These master's degrees lead to fast-growing, in-demand jobs\u2014but offer low ROI",
+      "headline": "Tehran rejected 48-hour ceasefire proposal from US, Iranian media, citing source, says - reuters.com",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Getting a master's degrees in social work and psychology may not deliver the best return on investment. But job placement and fulfillment may come easier.",
+      "impact": "Tehran rejected 48-hour ceasefire proposal from US, Iranian media, citing source, says\u00a0\u00a0reuters.com",
       "category": "global_markets",
-      "date": "2026-04-03 13:00",
-      "link": "https://www.cnbc.com/2026/04/03/masters-degrees-low-roi.html"
-    },
-    {
-      "headline": "The cost to fly private is up as much as 20% with fuel prices soaring",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Deep-pocketed travelers are less likely to get priced out as airfares rise, but they have to navigate unexpected fees related to the Iran war and rising fuel costs.",
-      "category": "global_markets",
-      "date": "2026-04-03 13:00",
-      "link": "https://www.cnbc.com/2026/04/03/private-jet-travel-costs-rise-fuel-prices.html"
-    },
-    {
-      "headline": "PayPal Holdings Inc stock: Trading near 2017 levels despite revenue growth",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "PayPal Holdings Inc shares are trading around $45, a level last seen in 2017, despite significant revenue growth since then. This disconnect presents a potential value play for North American investors, though concerns about branded checkout performance and competitive pressures exist. Analysts offe",
-      "category": "corporate_earnings",
-      "date": "2026-04-03 12:44",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/paypal-holdings-inc-stock-trading-near-2017-levels-despite-revenue-growth/69064415"
-    },
-    {
-      "headline": "United Airlines hikes checked bag fee by $10 as fuel prices climbs (UAL:NASDAQ)",
-      "score": 6,
-      "source": "Seeking Alpha",
-      "sentiment": "positive",
-      "impact": "United Airlines (UAL) has increased its checked bag fee by $10, making it $45 for the first bag on most domestic flights. This move follows a surge in jet fuel prices, marking United as the second U.S. carrier to implement such a raise due to the escalating fuel costs. The increase comes amidst broa",
-      "category": "us_equities",
-      "date": "2026-04-03 12:38",
-      "link": "https://seekingalpha.com/news/4572440-united-airlines-hikes-checked-bag-fee-by-10-as-fuel-prices-climbs"
+      "date": "2026-04-03 18:35",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdElPWHpkVnlyZ1V3SElmdk5IYks2LWl3THF6aVBDbm40M3RKQTl6Y3ZXYkVkdDhSZ0RjRXVRU19MbGVhNmJNX0FTZnlPV1lERFJRakhyZUtzOFp4RWtuNklxckoyUUtHV0xNSkU0czd6bjhMNDM1YjFnQTV3dWxlTzh5cXFhNVRHM1cxM2NfWld6WDUyMzNvSlFTZGx4UjYyeTRRX290M2dUcWxBQjFsTlBxbDBuZGFuZ1UzQnE2X1E1RGlfdzJ6UjVVa2U?oc=5"
     }
   ]
 }
