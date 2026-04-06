@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-05T14:37:33.415564",
+  "timestamp": "2026-04-06T07:17:56.708883",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
     "bullish": 7,
-    "neutral": 13,
-    "bearish": 5,
-    "high_priority": 9,
+    "neutral": 16,
+    "bearish": 2,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,10 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 14,
-    "Bloomberg": 3,
+    "Reuters": 16,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1,
-    "Yahoo Finance Singapore": 1,
-    "Simply Wall Street": 1
+    "CNBC": 2
   },
   "top_signals": [
     {
@@ -29,7 +27,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +37,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +47,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +57,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +67,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +77,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +87,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,18 +97,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook",
-      "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Bond traders ended the week betting that the Federal Reserve will keep interest rates steady this year, on signs of a stabilizing US labor market and uncertainty about the economic impact of war in the Middle East.",
-      "category": "us_monetary_policy",
-      "date": "2026-04-03 16:55",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -119,7 +107,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,148 +117,158 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-05 14:37",
+      "date": "2026-04-06 07:17",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Delta kicks off an earnings season focused on surging gas prices and the Iran war",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "When Delta Air Lines kicks off the first-quarter earnings season on Wednesday, the air carrier\u2019s results and forecast will offer a deeper look at how well U.S. customers and companies can withstand surging oil and fuel prices due to the war in Iran.",
-      "category": "corporate_earnings",
-      "date": "2026-04-05 14:00",
-      "link": "https://www.marketwatch.com/story/delta-kicks-off-an-earnings-season-focused-on-surging-gas-prices-and-the-iran-war-4a4226fc?mod=mw_rss_topstories"
+      "headline": "Gold falls as Iran war, robust US jobs data dim Fed rate-cut hopes - reuters.com",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold falls as Iran war, robust US jobs data dim Fed rate-cut hopes\u00a0\u00a0reuters.com",
+      "category": "us_monetary_policy",
+      "date": "2026-04-06 03:18",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdkRTdjQzQjlESGtxSjVISEVvRXdtbUtwcDBxY0I4dnpseV9CQ3phb29mcEk5Zm1GZTN4ak52ZFJiWkNsTmxmT1lVQ3FhRWsyNzhPYzFGUkRiNGp0TVhQQ3BHVEpyQ3UwamtEM2hOeUEwSFUtMEhRSWN2NGZQaVRaS1lYR1BhQmE4MVFjLXdFMnRMbFJkbEViODJfUkF4bFdXRnROTHVmWGRzZFQ0WDQ4?oc=5"
     },
     {
-      "headline": "Tanker loaded with Iraqi crude passes through Hormuz, shipping data shows - Reuters",
+      "headline": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "A Senate committee will consider Kevin Warsh's nomination even as one of its members still plans to block it.",
+      "category": "us_monetary_policy",
+      "date": "2026-04-04 13:04",
+      "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html"
+    },
+    {
+      "headline": "UAE says the use of Hormuz must be guaranteed in any US-Iran deal - reuters.com",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Tanker loaded with Iraqi crude passes through Hormuz, shipping data shows\u00a0\u00a0Reuters",
+      "impact": "UAE says the use of Hormuz must be guaranteed in any US-Iran deal\u00a0\u00a0reuters.com",
       "category": "global_markets",
-      "date": "2026-04-05 13:13",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObzM0R3hqdmpGMGtLdjg1bDhJZmtqM2VFRnVEY1h2M2NMNXJCYy1raHY5RDZqMHdDMUZvUVNJbmQ5cGNZTm5zd0NwM2FDZWQ0N2tvMjlMdmc3MFJLSDJOMThJVFVjbU5NcVVXN0ExOGtPbjMzZkZralBIMzRCRERmR0hDWXpPd2NibVVoT3pDQ3UwdEh4eXJaaTFLYmhVLW96eHBLZ3hhdC05S0dFdE9QeXhTNlU0VTZvSU5QUWhVcU8tUQ?oc=5"
+      "date": "2026-04-06 05:53",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTllPQXVoc2Q4eGRzOGpTRzNNV3F4alV0Z0Y2VWFWMmlBUERhN3hReW9wYV9PZ0MtX0FDclVIQjBfWmZBd3U0cHY4aE01M25jMzV2R2FPOUZmclhlQ0x0bHhPM2tZcncwY3lxUVRRcXFmTDlRZEU5c1VNZTR4MXFzeUFFb2I3alF3WWFCRmNoQWpKUDdKcDNmV09Qa3RHeFh6NnlEazFHcw?oc=5"
     },
     {
-      "headline": "Trump threatens to hit Iran infrastructure on Tuesday if Strait remains blocked - Reuters",
+      "headline": "North Korea distancing itself from Iran to leave door open for US talks, Seoul says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump threatens to hit Iran infrastructure on Tuesday if Strait remains blocked\u00a0\u00a0Reuters",
+      "impact": "North Korea distancing itself from Iran to leave door open for US talks, Seoul says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-05 13:11",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3pCRHpvWFotR0dkUGg2a1Z5LUx3RWYwZ1BpLUw2SVNsb1pQdXROdFhjUWZXeERuNUFveE5rd0xrTEpwWWNhU3QwWFFSZHg1aDFoSmp6LWdCTXhsQXhjZjJ2VExZdDlCSWZkUTdFVnNhZEZDeUlfN3h5YnAwM3ZhVE00dEtMMy1lMmlzcHRjVGZ5ZG45Zzg3NmZ3VDlBVzdJcmd6WkJnMzlvZnpv?oc=5"
+      "date": "2026-04-06 05:26",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU1BKeHFTYk8zbjBQYzZMa09oMGs3Y1hCekx2VTNScWRxeG9NajNaNUxGUExHczN5Zm44bjduNW00SnhsTFFTQVlJRTkyemtEVHZmeExqR1FseXpBVkhoZFpKTnNSUFFISEpnalNwN2NBekpxLW5OQWY2dlliMWRfLW1IaUdxbGVKRnRvcU9KMHZSUDN5dXBpdEZqckFtWHNXRVNvMW96MkJmYjR4VnFkN0htYXBzdGZaV2c?oc=5"
     },
     {
-      "headline": "OPEC+ agrees in principle on theoretical oil output hike amid Iran war paralysis, sources say - Reuters",
+      "headline": "Trump vows 'hell' for Iran if Strait stays shut, says a deal is possible - reuters.com",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "OPEC+ agrees in principle on theoretical oil output hike amid Iran war paralysis, sources say\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-04-05 13:10",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0w1SHNLQ1k1UGtoeDZfXzZ6N3pwVzNzc2tkZ2xCdmpjazMwQktBeEpzMXZLYTB0NzJZakNtdUdKV2FENkc0eW9nZHZseWQzTVNObWpidElWby1UTGhCaTlSZ2tSWU4weXlHNEppMlBXNUR0YXotR3dMbUgxdzlHSXdoM3REd2NQRG1COFlTeVlwRXZzR3RCckh6Q2pyTWRKTmExVkJjWXRpZlZBNUUzcExkdDYxdGxuRXB6QlZQTjF3MWlVdFpF?oc=5"
+      "impact": "Trump vows 'hell' for Iran if Strait stays shut, says a deal is possible\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-04-06 03:41",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb1NVOGlScVVMZU1ST3hlMjZVOXJCVkNsN0t6YmM2aDd0SUdDT1NWVVdhTEY2RXNVYUlxUzV5ZXJiMlJEWTZjRFBIZ0Z4N2pKeFU1SnV3czNuOGpJY1dOMGVwZnlvbWRTd0dycEQwekU4YllaZV85c3B2UUZHRlN0eUVIQkpaTXVRSDdLR1U1UjUtUG01SUI5WENsamJuWjZYdjRpU0VYYnlJVFdna09pbFpSVllVOEk3SGFaR2g4WlRmbW5J?oc=5"
     },
     {
-      "headline": "YieldMax HOOD Option Income Strategy ETF (HOOY) stock price, news, quote and history",
+      "headline": "Indian shares extend losing run as Iran war drags on - reuters.com",
       "score": 6,
-      "source": "Yahoo Finance Singapore",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "This Yahoo Finance page provides detailed information on the YieldMax HOOD Option Income Strategy ETF (HOOY), including its current stock price, historical data, performance metrics, and key financial figures. The ETF aims to provide indirect exposure to HOOD and has significant net assets. The page",
-      "category": "fixed_income",
-      "date": "2026-04-05 12:39",
-      "link": "https://sg.finance.yahoo.com/quote/HOOY/"
+      "impact": "Indian shares extend losing run as Iran war drags on\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-04-06 02:39",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOG5MTjh3SUJaNUVHVVRwcTlzWTVkUkZNVm5OOGZEWHRLVnJoV3luN3lyU0ItOThnVUNiOTZtdDhiekFmazlHWDkwS21fazloOEVyUVY2UzMxbllOTEc2WUR4WGZ4NkhrVTNycVU4SzZXWUM4emtta0lFTnVoeWJfMHVvejVDNWFleVIyeHNkSmMzRDYxQmJFSkdmZDA0YlRjYnd6UU8zR2UyV2xOUGZTMmNXZVJOc00?oc=5"
     },
     {
-      "headline": "A Look At Duke Energy (DUK) Valuation After Plant Approval Earnings Beat And Asset Sale",
+      "headline": "US, Iran and mediators make push for 45-day ceasefire, Axios reports - reuters.com",
       "score": 6,
-      "source": "Simply Wall Street",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US, Iran and mediators make push for 45-day ceasefire, Axios reports\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-04-06 02:16",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLXdSNWp1SGppajdvZGVFQ3U3U2JfZTBocXFiLUFNdVEyUkVqXzh5ZUpIUjFaWTdvendlZ0RxZnFYMGZLbXFHU3h0RjRoNzlxUWg4QUZYNk5hd0RZLXhPRHZ5MVBXRjR6M2R0WDZvWmc1d2psNnFydXRrcmkzQ00zNm5xZW1fUjhhczBac2VWOFduUFRnQUdmdG9xR2Jtc2ZKUWtiX1pVN3pYUzR3UmtVV0pB?oc=5"
+    },
+    {
+      "headline": "Markets on edge as Trump threatens strikes on Iranian infrastructure - reuters.com",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Markets on edge as Trump threatens strikes on Iranian infrastructure\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-04-06 01:19",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAzSkt0MXdoRmJTYzZsckdKcDFhdV9jNjF0MXlZTFpOVVlab2xWR193NExqRDdhWWpFNjFSaktTcUxjUENpelZyZS1wV2lQMmg5ZF9Sdy13eFEzS1hVcDl6ZHBYUmdpbGhwUE1Edm5qU2xtWDZmZEhnZzVpZw?oc=5"
+    },
+    {
+      "headline": "Dollar steady as traders weigh escalating Iran war, ceasefire hopes - reuters.com",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Dollar steady as traders weigh escalating Iran war, ceasefire hopes\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-04-06 01:11",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRm1ZXzAydjFIUk5NanVGMXNwWkdjd0F4dWFSODVaNXh1TVZOR2t5MFlWQ2FTd0RtTmYyNTFfVURBRlVzTUpFTjBvcU4xM0lVTEV5ajJsTWE5UXAxOXJST1VRMlpDal9rYlR6cHpuamM4R2ZIQ29zckhmaHlIYVRBZ0hWODVmSXVHeWlYOEpGRS1yZ181QUd1QUJTR3hYSmVxMk1yNVJnMDZVUFU?oc=5"
+    },
+    {
+      "headline": "Trump invokes religious rhetoric in praise of Iran rescue, drawing criticism - reuters.com",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump invokes religious rhetoric in praise of Iran rescue, drawing criticism\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-04-05 22:42",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYndIdVpnSEpCc01GbVhjLWZQeHRGS2lNRXp0ZE9saFlyY2NfTE8yb2s2NGg5Yk9tUHFEYl9ZTkYyMWgtZWU1eXJ0YXZhVjBFWHdWbEVieWcwY19LUEFOX0RLSk0yb0RuUDZIQVNxd2NLYnBpN2I0ZlNicUxpd3VwaGczMVVtTW9JdGtXQWJjVVhmNnFEMVROQ1l3QW1Wemh6V3VRb3VVaDZkbUgtTzF4WVJXaWVvY1QybldPcno4MjNjbWMzZy1F?oc=5"
+    },
+    {
+      "headline": "Oil prices rise as US-Israeli war with Iran continues to disrupt supply - reuters.com",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Duke Energy (DUK) is gaining attention following the approval of a new natural gas plant in South Carolina, the sale of its Tennessee gas business, and better-than-expected earnings. While analysts value DUK at $138.29, suggesting it's slightly undervalued, Simply Wall St's DCF model estimates a fai",
-      "category": "corporate_earnings",
-      "date": "2026-04-05 12:20",
-      "link": "https://simplywall.st/stocks/us/utilities/nyse-duk/duke-energy/news/a-look-at-duke-energy-duk-valuation-after-plant-approval-ear"
+      "impact": "Oil prices rise as US-Israeli war with Iran continues to disrupt supply\u00a0\u00a0reuters.com",
+      "category": "commodities",
+      "date": "2026-04-05 22:26",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQTFnY2M0NTVsQmJCTWJMbnJpekFQekJ4MkMzMnBVRHRuX2QzSTJ2N3RMN01QbVd3UkFvX0phNW1kbVg3dGRoS19USFRvSWhPTndPYVlJUUpDcjhfZ2ZzckstLWVwbEtocnRNZm1oZUFwQldRX0EzT2VQMHpVc2dDODdqOUF6dE9GNllRaTZPWEEzU2haS0dWZnAxR0pGSHVENU9vRW9kdm1uYUNOUVRrTXh3Uk5NQTZtbnczd0lkWGVuUQ?oc=5"
     },
     {
-      "headline": "Israeli intelligence helped US airman rescue mission in Iran, official says - Reuters",
+      "headline": "How a perilous US rescue mission in Iran nearly went off course - reuters.com",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Israeli intelligence helped US airman rescue mission in Iran, official says\u00a0\u00a0Reuters",
+      "impact": "How a perilous US rescue mission in Iran nearly went off course\u00a0\u00a0reuters.com",
       "category": "global_markets",
-      "date": "2026-04-05 10:51",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPczEtMEcydVlaY3FLdndQN2tLZUdjekVDYmJmeEZIa0pkSW5Fc0Yxd19DendCVW5ZUzgyQ01Mc0tXaDFCX0lHUEtnQThjYXJwVFJiRXVmYXJnSUNtZWlXV0VxdENMeXhxX0dfSEU4U0p3SXJpMXdSamxZb3FuX0ptbzdrX21kSDRIekZOVXQwc2had3pNV2RaYVUySklEeXhsdm9aNzJpbjZleXJnbVNBalA5TmxTbEM3bERqNzRhOXBYVEU?oc=5"
+      "date": "2026-04-05 21:22",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZlB6OWpEQUtjb2V2MkhwVU1KYWRLSWpzT2tzUlVSMzdtUzNHekN4UHlVVmZUZjFGSzMwM0RSZGZfMjgyZkdoaG9kM2VsZzJXSUJuQlAzZjg0Zi1yN2hYTkxIRTFLRnhLaVYyZDhZbnpwTjM1Z25jdmc5U3JpUnk3V3B1OE9BUGlWTFdyYUhsTjJhTk9vMGk5Rk9JYUtPV2NzMVhTSGVFRldXT2Z5SEhCSGQ0LW9IQVVaYjQtekdn?oc=5"
     },
     {
-      "headline": "Kuwait Petroleum Corp reports damage at units after Iran drone attack - Reuters",
+      "headline": "Ukraine, Syria agree to cooperate on security, Zelenskiy says - reuters.com",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Kuwait Petroleum Corp reports damage at units after Iran drone attack\u00a0\u00a0Reuters",
+      "impact": "Ukraine, Syria agree to cooperate on security, Zelenskiy says\u00a0\u00a0reuters.com",
       "category": "global_markets",
-      "date": "2026-04-05 10:39",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZVBjZS1ibjRmNHEwdkdBT3R0U0dadm5aMVR2dVFvUGFXQjF0ZlpBMzNwMWZNTkV1UHRHNHdjY1FpLVpzUFNBaXExeWpwYUI1QzdoLUJNeDRrTU14UFVmMWswSXZoWndyNklrYVVDWkFvbmYyUmZveXhRZFluNjVHUmtGOTFCVXRuVXpoT3RjX0MyUTZtUWNMa21RejRORWUtbVRsbGdhRWUwcjlaSGdkSHl2QXM1STk3NXFNWA?oc=5"
+      "date": "2026-04-05 21:12",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2lDeXFpejNWNGpTajREYWREeGFCOTBhM09ja0ctd0plbTVCQWtSLV9kSFNmMkhYckNVSnA2aXVqb2UyZHc4dHgxVkp5cmVpS1dFbE1GcmZ4ZThWNFk5cHhkc1JHRVhZZldLWmp0c0J6UUhzeTB0WGlYTlJVT3JEc01FNmJadE9xLVRFaE9WUVlqWlNld1RBQjV3TjlPVDRqV0dzUUln?oc=5"
     },
     {
-      "headline": "Iran says several 'enemy aircraft' destroyed during US pilot rescue mission - Reuters",
+      "headline": "The mega IPOs of SpaceX, Anthropic and OpenAI alone can't fix this stock market",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Iran says several 'enemy aircraft' destroyed during US pilot rescue mission\u00a0\u00a0Reuters",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "We have three big headwinds draggins stocks down, and one long-shot solution.",
       "category": "global_markets",
-      "date": "2026-04-05 06:28",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYzVScW5LSmV5c2R2MG1YVVVZbmgwS0EzZ21yWWo5enZpb2xJSXRDd0t6VDBZemx6NERsRzFGdDg5cW9RWDdoTHVZMGliV1F5dWQzQWpYVmIwUnRteWIta3o4SldBWGs4OHZkT2JTMVVoQy1OYmFCc080ejR3dE5tSTVBazNlTHlWZENUMkFNdVBIcnBkWkZTc3NYa3FBVUtZZjJLa3l1TjRDaUdoT2ZEVjg2bm5IckJVUDZqLXp4b25mQmJHcUlLdGhfNG1ldw?oc=5"
+      "date": "2026-04-05 17:16",
+      "link": "https://www.cnbc.com/2026/04/05/cramer-ipos-of-spacex-anthropic-and-openai-alone-cant-fix-this-market.html"
     },
     {
-      "headline": "Iran executes two men involved in January protests judiciary news outlet says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Iran executes two men involved in January protests judiciary news outlet says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-05 05:31",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLUlWaGlGNDg3VDE5eGViOHlxd21yVU9LVXhHenpLUjlqaDY5ckhmNlRqS2U0Qy01aTZKVUdHbE1DNWdoYmtQNEdLdE0tVXlDNDhabGxDQXJZVG1OQUtPeVh1bktkTW8zNjkxaVh6cXVRX3R3OG5weHdTVHozTTdwcVl6NUR4cHBDSzEycTZPYXdoNlc3VDhZODg5T1F0bmVLa3Z0bk1Eay1BcTJqQ1owQ2NEMXhrWU96ekZ3U3VaVy1zS0laT2F3?oc=5"
-    },
-    {
-      "headline": "High-stakes US special forces mission rescues airman from Iran after F-15 crash - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "High-stakes US special forces mission rescues airman from Iran after F-15 crash\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-05 04:11",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ3pvVXR4VlhVWDJPUkJaZVlrbkdzVjA5bVhkcWJST2VLZk8tTVd5VUNaTFJmVG1YRkpNWmZ4V0M2aFI2cmQtS1BSSWlMci1iTmJRZ1Z0VjJoaUdOMktaM1B1NEpubVEtUDJIZ2RLeG1pSERWMlZoNjNyeXM0UWxFR3FRX0ZwNXV0amRHSEpCcU54c3M4NVRsTXRSaUNyU00wX3NpenlpSHZ0bko5V2hOVV9LSnNjZw?oc=5"
-    },
-    {
-      "headline": "Satellite firm Planet Labs to indefinitely withhold Iran war images - Reuters",
+      "headline": "Trump gives Iran until Tuesday night to open Strait of Hormuz, WSJ reports - reuters.com",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Satellite firm Planet Labs to indefinitely withhold Iran war images\u00a0\u00a0Reuters",
+      "impact": "Trump gives Iran until Tuesday night to open Strait of Hormuz, WSJ reports\u00a0\u00a0reuters.com",
       "category": "global_markets",
-      "date": "2026-04-05 00:35",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ0o3SFpCQXJGTEFuY1BnWHNOS0xUNkQ2YUxWSU53T01vN09vRHVueWdUTTRoZVJoUmFWcTRMMUJSbld3eTlpb2VZVDhxOElrbU4yZGFyUTRGRlpFbFp5QTM1amFDSkFHdHRNanc5ZTR6bXNIbUJWZkNIWXJiNlpONXAxSzJOV3ZkSUh2RXhqTjBUZU9yVTJJQUQ3Y050UUdOX3VpMWZnNHQwTlVHcl9jYlhZcFphT1U3RlVBb2IxaWM?oc=5"
-    },
-    {
-      "headline": "US snatches airman from Iran as Trump, Israel ratchet up pressure - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US snatches airman from Iran as Trump, Israel ratchet up pressure\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-04 22:13",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMTZTQzJkN0xHZUhpanpfYlJFMmM5aFgtUjRzemtaM2lMdXoxU1FfSlQ1elhWM0VySktNQ0puRWJQTkpvR2pRcWhsXzg0RHpENnpxdzJpN1VpNEIzVnNuNWNpZHptUW1WcDZ1aXJwZjJDdFNxc1BoUDZWZTBfaUJtWC1RcXBhT1gtYzdaTkhNV0tmT2laNTZHejk0UFJJYjJFREpHVG1IcHI2WlI5Z0xVOFBfTVZSUlR3VjJ2SzhlS2pKQUxpNkJNTXRCeTJqR1JjZ08wWWxB?oc=5"
-    },
-    {
-      "headline": "Iran says it hit Israel-linked vessel in Hormuz strait - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran says it hit Israel-linked vessel in Hormuz strait\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-04 22:12",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaDR0NGUycEFhMWVqd1g4dUtLY1lyeWhIV1JnckZwdy1oOFA2R0ZMdG4tMXpOaEdqTzA0SnFRQm0wdHdJU0VSM3NZSWZzV1AwSVlUQzB6WnFYbEotY0ZFRk1lTzd4enU1X2FjWlVvcnlmOEdiemI5NUFRdWtNZUh2TXh1c1pybVV5M3BITkU3NXM5cDZfRFJNM2xoWWdTc3M5OE9GY1ViS2s?oc=5"
+      "date": "2026-04-05 16:49",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbTU1cDlRT2tQNUMtdkM5VTNJWGR6aTV5MXF3ZzZpcnB6bHFGLXVicFJLUExkUW1nOER1cVZDX2EwbUI2RGtlOGdwLUtLcXdpaG1mbGdZU1B6Y1lqTTNBM1VkSGpPUHNEZ3NiLUxlX2lTX1pUTEZ1MGVWcmNEX3ZBaVFhT2ZrVndqdGpldHRXOE9hMW5La29RMVN6ZC0zMEtBUXhFem1iZHJNa3VIZllPTVdDZVhJM1VxRmcydmdn?oc=5"
     }
   ]
 }
