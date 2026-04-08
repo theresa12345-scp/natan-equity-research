@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-08T07:06:46.598198",
+  "timestamp": "2026-04-08T15:13:47.196406",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
+    "avg_relevance": 7.1,
     "bullish": 12,
-    "neutral": 10,
-    "bearish": 3,
-    "high_priority": 9,
+    "neutral": 12,
+    "bearish": 1,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
+    "Reuters": 12,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 3,
-    "Samsung.com": 1,
-    "Associated Press": 1,
-    "ChartMill": 1,
-    "Simply Wall Street": 1,
-    "MarketBeat": 2
+    "CNBC": 5,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -32,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,18 +98,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Iran war may boost inflation, but not expectations, per Dallas Fed research - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Iran war may boost inflation, but not expectations, per Dallas Fed research\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-04-07 20:13",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWXFWVW9ZYXpUNzRUS0dTS3NYRDk5ZWFyMGlRaVRjZlR0ZDc5ejlfQlJfcVpmclBCMFhFSDFWQ1JDeG43bDZ1Z2FOcDg0VTFDYVhOSmVuX1ZyUWpKZW1wTndUaE5vaG9oN2p5Z01hNWZ6amZDS2J2RkV4RXhMNWpfbHBMZW1wTWV1TnRmRGgyNTV6dUtNLXlvNHBYY0VyXzd0TlJCb2NYQWdaby01cVh2MEVxcVk?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +108,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,8 +118,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-08 07:06",
+      "date": "2026-04-08 15:13",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Markets shift back towards potential Fed rate cut this year with Iran ceasefire in place",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Odds for a reduction jumped Wednesday morning, hitting about 43%, according to the CME Group.",
+      "category": "us_monetary_policy",
+      "date": "2026-04-08 13:21",
+      "link": "https://www.cnbc.com/2026/04/08/markets-shift-back-towards-potential-fed-rate-cut-this-year-with-iran-ceasefire-in-place.html"
+    },
+    {
+      "headline": "Exxon signals Q1 upstream profit bump from Iran war, downstream boost in later quarters - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Exxon signals Q1 upstream profit bump from Iran war, downstream boost in later quarters\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-04-08 10:57",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPX1RmT1F5U052R1hxNUw1Qk5HLW5MQmV0V05naXBhM3VyNjZPajB0ZGx1TFhRYzR2d3RqWUhfcUFDYzNjT2o0Sk1VcU15S1BYVGVVUG9JT0Q1UmFEQWMwVWxKckV2ZlE2MmFyNzZWWVhhTGtmWkkwQllyYXloNHpVUU52dnFudUdTeEtOZE5xMlYzSk1lM1hOVUxnVThqRks1ZGtCWWNZajVlMXh4b3oyc2tTN2U5V2M2bUlSd3F1ZGdzM25TVW9TMy1n?oc=5"
+    },
+    {
+      "headline": "US bank profits to rise on deals, but Iran war fuels outlook uncertainty - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US bank profits to rise on deals, but Iran war fuels outlook uncertainty\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-04-08 10:12",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeE96cldzVEJ3a0M1MVR3Zkt6TFVINS1FcFlHZkR2eW1ZcDFlUTVlMjJsbUFvRUx1MjJSZHp0TzJPNTJDTzFBNHV0dnNrUk1FRk15eTFlMDZGSFR6OU91SnVoQVlmRTU2aHp2OUk0dkl5eDl0aVZEamNvamJWX1p2NDBWcjRpTDhkbEVieFFRNWs0TzJiZVJKN2VQZl9qSDN2bnJudFNVSnpWblpOSTNULWwyR1Q?oc=5"
     },
     {
       "headline": "Levi Strauss revenue jumps again, with DTC making up more than half of sales for the first time",
@@ -146,134 +162,114 @@
       "link": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html"
     },
     {
-      "headline": "Levi Strauss beats expectations on the top and bottom lines, raises guidance",
+      "headline": "Samsung shares rise after profit seen jumping 8-fold on AI chip boom",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Levi Strauss beat expectations on the top and bottom lines but its guidance doesn't take into account recent tariff rollbacks from the Supreme Court.",
+      "impact": "Samsung Electronics forecast record first-quarter operating profit that came in far above analyst estimates on booming demand for AI memory chips.",
       "category": "corporate_earnings",
-      "date": "2026-04-07 20:10",
-      "link": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html"
+      "date": "2026-04-07 02:19",
+      "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html"
     },
     {
-      "headline": "Goolsbee says stagflationary shock of Iran war puts Fed in a bind - Reuters",
-      "score": 7,
-      "source": "Reuters",
+      "headline": "These stocks in the S&P 500 are rising the most after Trump\u2019s cease-fire announcement",
+      "score": 6,
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Goolsbee says stagflationary shock of Iran war puts Fed in a bind\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-04-07 18:41",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb0xPNFkzYjZUbExTWWtNRDZPd0lCUVdDVTVrOXdYQ3NPc3BRTFM4LUFJbFFxZ1JVRTBuMExJNVRUaEVyQmZOQ0hRNWtxUVVZMTZRMV90YzdVZjdTejU3X214ZThpQVJ2WVZYUXUtNVZNZXJickprUHhRQWtLbHhJeTI5ZElhWldqcW42NHNIaEpRWUVib0RITFdkWTlrbFNqeUtMZA?oc=5"
-    },
-    {
-      "headline": "S&P 500 futures tumble as Trump\u2019s deadline to reopen Strait of Hormuz nears: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "S&P 500 futures tumble as Trump\u2019s deadline to reopen Strait of Hormuz nears: Live updates",
+      "impact": "Travel-related companies and semiconductor manufacturers dominated the list of top U.S. stock performers early Wednesday.",
       "category": "us_equities",
-      "date": "2026-04-07 04:31",
-      "link": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html"
+      "date": "2026-04-08 14:49",
+      "link": "https://www.marketwatch.com/story/these-stocks-in-the-s-p-500-are-rising-the-most-after-trumps-cease-fire-announcement-86f29ef1?mod=mw_rss_topstories"
     },
     {
-      "headline": "Samsung Electronics Announces Earnings Guidance for First Quarter 2026",
-      "score": 7,
-      "source": "Samsung.com",
-      "sentiment": "positive",
-      "impact": "Samsung Electronics today announced its earnings guidance for the first quarter of 2026. Consolidated Sales: Approximately\u00a0133\u00a0trillion Korean won Consolidated Operating Profit: Approximately 57.2\u00a0trillion Korean won The above estimates are based on K-IFRS. P\u2026",
-      "category": "corporate_earnings",
-      "date": "2026-04-06 22:45",
-      "link": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-first-quarter-2026"
-    },
-    {
-      "headline": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns",
-      "score": 7,
-      "source": "Associated Press",
-      "sentiment": "neutral",
-      "impact": "A top Federal Reserve official said Monday that an interest rate hike could be appropriate if inflation remains persistently above the central bank\u2019s 2% target, the latest sign that some policymakers are moving away from a bias toward reducing borrowing costs\u2026",
-      "category": "us_monetary_policy",
-      "date": "2026-04-06 22:44",
-      "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d"
-    },
-    {
-      "headline": "SUGP Technical Analysis | Trend, Signals & Chart Patterns | SU GROUP HOLDINGS LTD-A (NASDAQ:SUGP)",
-      "score": 6,
-      "source": "ChartMill",
-      "sentiment": "negative",
-      "impact": "The technical analysis for SU GROUP HOLDINGS LTD-A (SUGP) indicates a poor performance with an overall technical rating of 0 out of 10. Both long and short-term trends are negative, and the stock is lagging behind the market and its industry peers. Despite the negative technical rating, there is a p",
-      "category": "us_equities",
-      "date": "2026-04-08 06:41",
-      "link": "https://www.chartmill.com/stock/quote/SUGP/technical-analysis"
-    },
-    {
-      "headline": "Raymond James Upgrade And Earnings Beat Might Change The Case For Investing In CVR Energy (CVI)",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "Raymond James upgraded CVR Energy (CVI) to Market Perform following an earnings beat in Q4 2025, signaling increased confidence in the company. While this suggests improved sentiment, CVR Energy's investment narrative still involves navigating volatile refining and fertilizer markets, significant re",
-      "category": "corporate_earnings",
-      "date": "2026-04-08 06:25",
-      "link": "https://simplywall.st/stocks/us/energy/nyse-cvi/cvr-energy/news/raymond-james-upgrade-and-earnings-beat-might-change-the-cas"
-    },
-    {
-      "headline": "Israel backs Trump's two-week pause on Iran strikes, says Lebanon excluded - Reuters",
+      "headline": "Relief at truce gives way to alarm as Israel pounds Lebanon and Iran hits neighbours - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Israel backs Trump's two-week pause on Iran strikes, says Lebanon excluded\u00a0\u00a0Reuters",
+      "impact": "Relief at truce gives way to alarm as Israel pounds Lebanon and Iran hits neighbours\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-08 06:02",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORkVCVG9QTEZxTFM5R252SjFLZFFhMi1JdFdNY1ozakZVWFVEQlBYOWo0bHkzOEVXdkE5RVZHSkd4QzRFTkpoNzRJbmQzQkV4Y2VwNi1MV0xGend0Y2R6YUhlcGRyTV9NdjJXbkJZbGJSb1FLWlFCYlFTaXU1eUZ3ZzJ0YzFfM182ZUtrVmFFenBqQVRIb0NIQ2R6LWd2Z1hTRkFLMXluWUc0WjFBMGd4SWdKeml3Ukk5OHB0YlBvdVVfLWFMLVZJag?oc=5"
-    },
-    {
-      "headline": "Gulf states eye cheap Ukrainian interceptor drone as Iranian attacks drain missile stocks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Gulf states eye cheap Ukrainian interceptor drone as Iranian attacks drain missile stocks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-08 05:58",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUDRjUEFsNWQ2TF9nSTNaV2RQYUFwaGZGTnhMellnWGtaU3ZVcTkzSG5WLXlaMk5LM00wQm9LR2hXQ3Z2N01HTHIwT2xJVTdnZ280VnhMS1JEcDhxdUJRVE5EN29FV2Q2ZF9uWG9FQmhnQ1o2cEVlOWFQdVZqUFV3T1ZMM0wxY0cxR0RHVXRjSEhKNUc5b1o3OV93UDNENURhWEozbW9RUlNkVGVpeDlKQnZ4ZFZSeTdXQWhrSUJqVktOV3Z4d25Zc2hhVjZ1QQ?oc=5"
-    },
-    {
-      "headline": "J.B. Hunt Transport Services (JBHT) Expected to Announce Earnings on Wednesday",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "J.B. Hunt Transport Services (NASDAQ:JBHT) is expected to release its Q1 2026 earnings after market close on Wednesday, April 15th. Analysts anticipate earnings per share of $1.68 and revenue of $3.0062 billion for the quarter. The company recently increased its quarterly dividend to $0.45 per share",
-      "category": "corporate_earnings",
-      "date": "2026-04-08 05:49",
-      "link": "https://www.marketbeat.com/instant-alerts/jb-hunt-transport-services-jbht-expected-to-announce-earnings-on-wednesday-2026-04-08/"
-    },
-    {
-      "headline": "Bank of America (BAC) Expected to Announce Quarterly Earnings on Wednesday",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Bank of America (BAC) is anticipated to release its Q1 2026 earnings before market open on Wednesday, April 15th, with analysts projecting $0.996 EPS and $29.72 billion in revenue. The company recently paid a $0.28 quarterly dividend and has a consensus \"Moderate Buy\" rating with an average target p",
-      "category": "corporate_earnings",
-      "date": "2026-04-08 05:49",
-      "link": "https://www.marketbeat.com/instant-alerts/bank-of-america-bac-expected-to-announce-quarterly-earnings-on-wednesday-2026-04-08/"
-    },
-    {
-      "headline": "Trump agrees to two-week ceasefire, Iran says safe passage through Hormuz possible - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump agrees to two-week ceasefire, Iran says safe passage through Hormuz possible\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-08 04:26",
+      "date": "2026-04-08 14:31",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLVZ2aXNYWERoaVZBdWlxUWpCX3BMQlVCWjd3ZEpQZ2dKN21aR3lwMGdDWkVSM0Z3T2JvVzA4ZjZMcXFRSWtrUjJ3cno0MHFwQ0phWkdGdkIzY0Z5RFhkNlBpQTRsSjNUTk10emVzaEZ3NlhxQjU5Tkxsa3NTRU5VQUVMamkwUU9GeVR2WTA3MUt4dTM0QjFVQ1hESXliT0s2ZEtPVHNkVnBKb1lrWXdqdlZBRTBEVGJLVGlRVzhvNXdscFUwanloQTVwb1VOUQ?oc=5"
     },
     {
-      "headline": "Trump says US won 'total and complete victory' after ceasefire deal with Iran, AFP reports - Reuters",
+      "headline": "Airline and travel industries see no immediate relief from Iran ceasefire - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump says US won 'total and complete victory' after ceasefire deal with Iran, AFP reports\u00a0\u00a0Reuters",
+      "impact": "Airline and travel industries see no immediate relief from Iran ceasefire\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-08 04:11",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMHE2RENzZUxZb3NCYmpidGFWQndlSzNMNElXekRvRnR5eHJRdlVJQ1E4T0hOS1ZLSEtrYWtSa1l5NUo4LXV1TWt1UThSNHVwU1FaYUdpQ0drcndkQ1VvNkpWVF9zVzZPVmI5X0lJbzRYZGNDUk1XOUJjcVkwVnh4cjluWGVEQ1ZIVm9LYWpUQjVrOFFTaXJHTmszc1hhSEZVS2dfWThadXNIQWxEMTk2X0I3TlUxVllEbmNjRll3NHdjcHNsdmZ3Vg?oc=5"
+      "date": "2026-04-08 14:26",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYWE4eVNxc1BETTJKaG5UdzVUY2dFVGJFeGxTS2RFeVF2dzQzT0g1OW5TLXdHUjhaYlFGR0FZMEhRYXBicGxyUjJZNmRUZVVESTRuRmhSdF9qSmxjVUExdXc4U21wWmZiRV9YQVZPQ3dOakVwWTV1WU1xWXliNlBWbkdOZHNpVlc5cFpROUlldDFSNzhSQzhFUVFOZkJ6YVBnclgyTTNHSDRtbXg4WXpVeHYxYXFQbUpiMnYxSDlmUF84SWdCVi1GVGlVemg?oc=5"
+    },
+    {
+      "headline": "Delta CEO says airline will 'meaningfully' cut growth plans, sees $300 million boost from its refinery",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Delta is scaling back its flight plans as fuel costs grow to reduce its expenses.",
+      "category": "global_markets",
+      "date": "2026-04-08 14:20",
+      "link": "https://www.cnbc.com/2026/04/08/delta-air-lines-q1-2026-earnings.html"
+    },
+    {
+      "headline": "The U.S. housing markets where million-dollar listings are standard",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Nearly all of active listings in Nantucket, Massachusetts, cost at least $1 million.",
+      "category": "global_markets",
+      "date": "2026-04-08 14:10",
+      "link": "https://www.cnbc.com/2026/04/08/us-housing-markets-million-dollar-listing.html"
+    },
+    {
+      "headline": "Israel pounds Lebanon with heaviest airstrikes of the war as Hezbollah pauses attacks - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israel pounds Lebanon with heaviest airstrikes of the war as Hezbollah pauses attacks\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-08 13:52",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYnlTSjZwS0l0RGROMkRsOEx2RHMxMnRjUGw5a211NkQ1WTdoRHBTS0hHZXczcTJ4NlBHSHllYTY2Z24wdHdFRUNDSEtkUElXWHI2SE9WMUxpbTVBQXBrUko5TENjNFZ5ZEJKSFl4ZDFQTWlfMVVHM25QMDRqWVNOOHUtY3VQMWRWQU85M3pYa0R5U0VFR21NWEhmYUNJSWVCMWFGSnRVZTNaQ0NjaGdacjExWHcwUWpSVnA4bGRJcVptT2c2?oc=5"
+    },
+    {
+      "headline": "Global energy stocks plunge as US-Iran ceasefire hits oil - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Global energy stocks plunge as US-Iran ceasefire hits oil\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-04-08 13:46",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWnJ6SjZaRWFydzFkR0o4dkpGcC1PdnJLTWsyM090VXE2QllhNmtYSjJvSUhjQ0pMaktYdTFBYkhOa2ZWS3dyaWFId2dlMkVzRHMzN2s3Q1AyV2JhaWkyRVU1SkRGMkEwU0oydE1Da0QzSkZxOGdvTGVodVd2NVI5MkhYaF9VLUJ2Vlc3cm5FR2VlMGRLcDhvZTFka0swYTFlZGJDTWxXblJ3Zw?oc=5"
+    },
+    {
+      "headline": "US military says it's ready to resume fighting if diplomacy fails - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US military says it's ready to resume fighting if diplomacy fails\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-08 13:41",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVTJBU2FkcURpU0lPYUw1MnRJOU1tQ1h3OGo3R1FDRGNNQ1JVLURCSkc3V0p4MmJwOTVMYU1zZ21XMGtSd1NOaHQxTWRzRFlaY1kzTzVZVVdYMFYzUWlBaDlMcHdQWWxyRGlwYl8wRWIxRV9KZ1RjczRfalFoYU9fcGpjcG1PZmNpLW9PcnpXMWl4dw?oc=5"
+    },
+    {
+      "headline": "Wall Street opens higher after US-Iran ceasefire - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Wall Street opens higher after US-Iran ceasefire\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-04-08 13:38",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXN1Q3ZqM2RJWXFYbG5vMTJ2dnpGb3B6dGZ3LUx0SmlDd2FQaThhb2hvaC1xSjdJci1acG4tMUhrSXZrZnhNbFJUdElVVW5rWnFVdzNkajV3QVJGNkRoczdPS1ZDejc1RDlhYXhIaXFmOXJnOGIwM2pSNXM2S0dRaHpaVFB4ei1jWkU4TTNsdXBpdWw2NzViaEN3?oc=5"
+    },
+    {
+      "headline": "Iran to approach peace talks with US with caution, Iranian ambassador to UN says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran to approach peace talks with US with caution, Iranian ambassador to UN says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-08 13:36",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSGZpRlZfR2cwdEs3MnF4TGRBNDFLaGNqS3hYMjJwaVh5dU9yWHF4YXREQ0RJREdfME9GUHg5R0ZId3ZINVgyUHBwSjRicFlZeld5NC1vQTJxRm92Umo3d1o1Z1RJVEdHWmptZ2lqamNHR2R2c0I1YVJKTE9RTEFocWNvLWFzRzVva2hXWW8xZ2RSY0hKbDdsTGYzU3RsWUdNTDRyRkRWSS1naTZsMjhudkNoVHAzREpmLU9RRktscFhwVkM3RWpN?oc=5"
     }
   ]
 }
