@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-07T15:13:20.028902",
+  "timestamp": "2026-04-08T07:06:46.598198",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 9,
-    "neutral": 13,
+    "avg_relevance": 7.2,
+    "bullish": 12,
+    "neutral": 10,
     "bearish": 3,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 8,
+    "Reuters": 9,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
+    "CNBC": 3,
+    "Samsung.com": 1,
+    "Associated Press": 1,
+    "ChartMill": 1,
     "Simply Wall Street": 1,
-    "CNBC": 5,
-    "MarketWatch": 1,
-    "MarketBeat": 1,
-    "National Today": 1,
-    "International Business Times Australia": 1
+    "MarketBeat": 2
   },
   "top_signals": [
     {
@@ -32,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Iran war may boost inflation, but not expectations, per Dallas Fed research - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Iran war may boost inflation, but not expectations, per Dallas Fed research\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-04-07 20:13",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWXFWVW9ZYXpUNzRUS0dTS3NYRDk5ZWFyMGlRaVRjZlR0ZDc5ejlfQlJfcVpmclBCMFhFSDFWQ1JDeG43bDZ1Z2FOcDg0VTFDYVhOSmVuX1ZyUWpKZW1wTndUaE5vaG9oN2p5Z01hNWZ6amZDS2J2RkV4RXhMNWpfbHBMZW1wTWV1TnRmRGgyNTV6dUtNLXlvNHBYY0VyXzd0TlJCb2NYQWdaby01cVh2MEVxcVk?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -112,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,158 +132,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-07 15:13",
+      "date": "2026-04-08 07:06",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "A Look At Ecolab\u2019s Valuation As Earnings Strength And Raised 2026 Guidance Support Investor Confidence",
-      "score": 7,
-      "source": "Simply Wall Street",
-      "sentiment": "neutral",
-      "impact": "Ecolab recently reported 15% adjusted EPS growth for 2025 and 3% organic sales growth in Q4, while also providing updated 2026 guidance and reaffirming its quarterly dividend. Despite mixed short-term stock performance, the company's shares have shown strong long-term momentum with 1-year and 3-year",
-      "category": "corporate_earnings",
-      "date": "2026-04-07 14:21",
-      "link": "https://simplywall.st/stocks/us/materials/nyse-ecl/ecolab/news/a-look-at-ecolabs-valuation-as-earnings-strength-and-raised"
-    },
-    {
-      "headline": "House Democrats call on federal regulator to crack down on offshore prediction market war bets",
+      "headline": "Levi Strauss revenue jumps again, with DTC making up more than half of sales for the first time",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Prediction markets like Kalshi and Polymarket have exploded in popularity recently, raising questions about how to properly regulate the platforms.",
-      "category": "us_monetary_policy",
-      "date": "2026-04-07 12:00",
-      "link": "https://www.cnbc.com/2026/04/07/kalshi-polymarket-prediction-markets-cftc-war-bets.html"
+      "sentiment": "positive",
+      "impact": "Levi Strauss beat estimates on the top and bottom lines and raised its guidance, which doesn't take into account President Donald Trump's latest tariff rates.",
+      "category": "corporate_earnings",
+      "date": "2026-04-07 21:24",
+      "link": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html"
     },
     {
-      "headline": "Iran war may boost already rising support for euro in Bulgaria, central banker says - Reuters",
+      "headline": "Levi Strauss beats expectations on the top and bottom lines, raises guidance",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Levi Strauss beat expectations on the top and bottom lines but its guidance doesn't take into account recent tariff rollbacks from the Supreme Court.",
+      "category": "corporate_earnings",
+      "date": "2026-04-07 20:10",
+      "link": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html"
+    },
+    {
+      "headline": "Goolsbee says stagflationary shock of Iran war puts Fed in a bind - Reuters",
       "score": 7,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Iran war may boost already rising support for euro in Bulgaria, central banker says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-07 05:43",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdmtFSHJxTms0OFQ5aElPRXdDeGJ3ODRzMmplc0ZfbmVoMmtWcWJzWHVtNzEwRU9WQTQ2cnpOWVZyaFhRbEZQNEdxQVdNYk5VUTBxc3BidVBNQ1V1R1ZtQ2NtcVlhUmxUcDd6bWNrU1NLSUlNTUhaUzRJQXhrZHphSXF2dEI4WFE1eXBKaVdURVlRenREci1LSGZqeFFtSlJMSGFUb2Q4cW12a1hZZ0NSbl82dUZyU016Xy1zYV9fQTVUM3FUQVlB?oc=5"
+      "sentiment": "neutral",
+      "impact": "Goolsbee says stagflationary shock of Iran war puts Fed in a bind\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-04-07 18:41",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb0xPNFkzYjZUbExTWWtNRDZPd0lCUVdDVTVrOXdYQ3NPc3BRTFM4LUFJbFFxZ1JVRTBuMExJNVRUaEVyQmZOQ0hRNWtxUVVZMTZRMV90YzdVZjdTejU3X214ZThpQVJ2WVZYUXUtNVZNZXJickprUHhRQWtLbHhJeTI5ZElhWldqcW42NHNIaEpRWUVib0RITFdkWTlrbFNqeUtMZA?oc=5"
     },
     {
-      "headline": "Jet fuel supply concerns grow as war on Iran drags on, airlines cut flights",
-      "score": 6,
+      "headline": "S&P 500 futures tumble as Trump\u2019s deadline to reopen Strait of Hormuz nears: Live updates",
+      "score": 7,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Fuel prices have nearly doubled in the U.S. since the United States and Israel attacked Iran.",
-      "category": "global_markets",
-      "date": "2026-04-07 14:54",
-      "link": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html"
+      "impact": "S&P 500 futures tumble as Trump\u2019s deadline to reopen Strait of Hormuz nears: Live updates",
+      "category": "us_equities",
+      "date": "2026-04-07 04:31",
+      "link": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html"
     },
     {
-      "headline": "These healthcare stocks offer value and rapid profit growth",
-      "score": 6,
-      "source": "MarketWatch",
+      "headline": "Samsung Electronics Announces Earnings Guidance for First Quarter 2026",
+      "score": 7,
+      "source": "Samsung.com",
       "sentiment": "positive",
-      "impact": "An increase in the expected Medicare Advantage payment rates for 2027 could be a catalyst for the industry.",
+      "impact": "Samsung Electronics today announced its earnings guidance for the first quarter of 2026. Consolidated Sales: Approximately\u00a0133\u00a0trillion Korean won Consolidated Operating Profit: Approximately 57.2\u00a0trillion Korean won The above estimates are based on K-IFRS. P\u2026",
       "category": "corporate_earnings",
-      "date": "2026-04-07 14:29",
-      "link": "https://www.marketwatch.com/story/healthcare-stocks-are-on-fire-and-these-offer-value-and-rapid-profit-growth-237f3052?mod=mw_rss_topstories"
+      "date": "2026-04-06 22:45",
+      "link": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-first-quarter-2026"
     },
     {
-      "headline": "Tractor Supply (NASDAQ:TSCO) Now Covered by Bank of America",
+      "headline": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns",
+      "score": 7,
+      "source": "Associated Press",
+      "sentiment": "neutral",
+      "impact": "A top Federal Reserve official said Monday that an interest rate hike could be appropriate if inflation remains persistently above the central bank\u2019s 2% target, the latest sign that some policymakers are moving away from a bias toward reducing borrowing costs\u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-04-06 22:44",
+      "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d"
+    },
+    {
+      "headline": "SUGP Technical Analysis | Trend, Signals & Chart Patterns | SU GROUP HOLDINGS LTD-A (NASDAQ:SUGP)",
+      "score": 6,
+      "source": "ChartMill",
+      "sentiment": "negative",
+      "impact": "The technical analysis for SU GROUP HOLDINGS LTD-A (SUGP) indicates a poor performance with an overall technical rating of 0 out of 10. Both long and short-term trends are negative, and the stock is lagging behind the market and its industry peers. Despite the negative technical rating, there is a p",
+      "category": "us_equities",
+      "date": "2026-04-08 06:41",
+      "link": "https://www.chartmill.com/stock/quote/SUGP/technical-analysis"
+    },
+    {
+      "headline": "Raymond James Upgrade And Earnings Beat Might Change The Case For Investing In CVR Energy (CVI)",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Raymond James upgraded CVR Energy (CVI) to Market Perform following an earnings beat in Q4 2025, signaling increased confidence in the company. While this suggests improved sentiment, CVR Energy's investment narrative still involves navigating volatile refining and fertilizer markets, significant re",
+      "category": "corporate_earnings",
+      "date": "2026-04-08 06:25",
+      "link": "https://simplywall.st/stocks/us/energy/nyse-cvi/cvr-energy/news/raymond-james-upgrade-and-earnings-beat-might-change-the-cas"
+    },
+    {
+      "headline": "Israel backs Trump's two-week pause on Iran strikes, says Lebanon excluded - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israel backs Trump's two-week pause on Iran strikes, says Lebanon excluded\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-08 06:02",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORkVCVG9QTEZxTFM5R252SjFLZFFhMi1JdFdNY1ozakZVWFVEQlBYOWo0bHkzOEVXdkE5RVZHSkd4QzRFTkpoNzRJbmQzQkV4Y2VwNi1MV0xGend0Y2R6YUhlcGRyTV9NdjJXbkJZbGJSb1FLWlFCYlFTaXU1eUZ3ZzJ0YzFfM182ZUtrVmFFenBqQVRIb0NIQ2R6LWd2Z1hTRkFLMXluWUc0WjFBMGd4SWdKeml3Ukk5OHB0YlBvdVVfLWFMLVZJag?oc=5"
+    },
+    {
+      "headline": "Gulf states eye cheap Ukrainian interceptor drone as Iranian attacks drain missile stocks - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gulf states eye cheap Ukrainian interceptor drone as Iranian attacks drain missile stocks\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-08 05:58",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUDRjUEFsNWQ2TF9nSTNaV2RQYUFwaGZGTnhMellnWGtaU3ZVcTkzSG5WLXlaMk5LM00wQm9LR2hXQ3Z2N01HTHIwT2xJVTdnZ280VnhMS1JEcDhxdUJRVE5EN29FV2Q2ZF9uWG9FQmhnQ1o2cEVlOWFQdVZqUFV3T1ZMM0wxY0cxR0RHVXRjSEhKNUc5b1o3OV93UDNENURhWEozbW9RUlNkVGVpeDlKQnZ4ZFZSeTdXQWhrSUJqVktOV3Z4d25Zc2hhVjZ1QQ?oc=5"
+    },
+    {
+      "headline": "J.B. Hunt Transport Services (JBHT) Expected to Announce Earnings on Wednesday",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "J.B. Hunt Transport Services (NASDAQ:JBHT) is expected to release its Q1 2026 earnings after market close on Wednesday, April 15th. Analysts anticipate earnings per share of $1.68 and revenue of $3.0062 billion for the quarter. The company recently increased its quarterly dividend to $0.45 per share",
+      "category": "corporate_earnings",
+      "date": "2026-04-08 05:49",
+      "link": "https://www.marketbeat.com/instant-alerts/jb-hunt-transport-services-jbht-expected-to-announce-earnings-on-wednesday-2026-04-08/"
+    },
+    {
+      "headline": "Bank of America (BAC) Expected to Announce Quarterly Earnings on Wednesday",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Bank of America has initiated coverage on Tractor Supply (NASDAQ:TSCO) with a \"neutral\" rating and a $47 price target, suggesting a 7.27% upside. This follows a recent earnings miss where Tractor Supply reported lower than expected EPS and revenue, causing its stock to fall by 3.5%. Despite this, th",
-      "category": "us_equities",
-      "date": "2026-04-07 14:27",
-      "link": "https://www.marketbeat.com/instant-alerts/tractor-supply-nasdaqtsco-now-covered-by-bank-of-america-2026-04-07/"
-    },
-    {
-      "headline": "Chipotle Earnings Forecast Dip in Q1 2026",
-      "score": 6,
-      "source": "National Today",
-      "sentiment": "negative",
-      "impact": "Analysts are forecasting a 17.2% year-over-year decline in Chipotle's earnings per share for its fiscal Q1 2026, to $0.24, despite the company consistently surpassing Wall Street expectations in previous quarters. The report, scheduled for April 29, 2026, will shed light on how the fast-casual chain",
+      "impact": "Bank of America (BAC) is anticipated to release its Q1 2026 earnings before market open on Wednesday, April 15th, with analysts projecting $0.996 EPS and $29.72 billion in revenue. The company recently paid a $0.28 quarterly dividend and has a consensus \"Moderate Buy\" rating with an average target p",
       "category": "corporate_earnings",
-      "date": "2026-04-07 14:27",
-      "link": "https://nationaltoday.com/us/ca/newport-beach/news/2026/04/07/chipotle-earnings-forecast-dip-in-q1-2026/"
+      "date": "2026-04-08 05:49",
+      "link": "https://www.marketbeat.com/instant-alerts/bank-of-america-bac-expected-to-announce-quarterly-earnings-on-wednesday-2026-04-08/"
     },
     {
-      "headline": "Alphabet Shares Dip 0.47% as Investors Weigh AI Spending vs. Antitrust Risks Ahead of Q1 Earnings",
-      "score": 6,
-      "source": "International Business Times Australia",
-      "sentiment": "neutral",
-      "impact": "Alphabet Inc. Class C shares experienced a modest dip of 0.47% as investors balanced the company's significant AI investments against ongoing antitrust pressures and broader market caution. The company is committing massive capital expenditures to AI infrastructure, which could impact near-term marg",
-      "category": "corporate_earnings",
-      "date": "2026-04-07 14:17",
-      "link": "https://www.ibtimes.com.au/alphabet-shares-dip-047-investors-weigh-ai-spending-vs-antitrust-risks-ahead-q1-earnings-1865691"
-    },
-    {
-      "headline": "Iran has attacked Saudi Arabia's Jubail petrochemical complex, IRGC says - Reuters",
+      "headline": "Trump agrees to two-week ceasefire, Iran says safe passage through Hormuz possible - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran has attacked Saudi Arabia's Jubail petrochemical complex, IRGC says\u00a0\u00a0Reuters",
+      "impact": "Trump agrees to two-week ceasefire, Iran says safe passage through Hormuz possible\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-07 13:54",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSEM5cWZjVWlTaUJjcDVPV3JtVnlWcEt5OWJqYTdmbHczbktFYkRSUjRZb055dGRZeXMwcExBLVAzSVNVUmxpWlc0YTdwTVdJMk1TLVcydUJ3c1RXUGZwM2ktV1R3UTA4dHBqZ0VWN2M4clYtdkxaUlNQQ2dFaFRHaW41b0xVRjdlS2ZDZmswYUR4Ym9sMTFiZkx1bU81SUt4V2tCN2VFaWhpV0FrZ19iZURvQlJSa0RDdTNfMHNFMGxIb2hTMzhr?oc=5"
+      "date": "2026-04-08 04:26",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLVZ2aXNYWERoaVZBdWlxUWpCX3BMQlVCWjd3ZEpQZ2dKN21aR3lwMGdDWkVSM0Z3T2JvVzA4ZjZMcXFRSWtrUjJ3cno0MHFwQ0phWkdGdkIzY0Z5RFhkNlBpQTRsSjNUTk10emVzaEZ3NlhxQjU5Tkxsa3NTRU5VQUVMamkwUU9GeVR2WTA3MUt4dTM0QjFVQ1hESXliT0s2ZEtPVHNkVnBKb1lrWXdqdlZBRTBEVGJLVGlRVzhvNXdscFUwanloQTVwb1VOUQ?oc=5"
     },
     {
-      "headline": "Phia founders say some of their earliest hires came from their DMs\u2014here's the 3-sentence pitch that gets their attention",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Phoebe Gates and Sophia Kianni, co-founders of AI-powered shopping agent Phia, say they've found some of their earliest hires via their social media inboxes.",
-      "category": "global_markets",
-      "date": "2026-04-07 13:45",
-      "link": "https://www.cnbc.com/2026/04/07/phia-founders-made-early-hires-from-direct-messages-the-3-sentence-pitch-that-works.html"
-    },
-    {
-      "headline": "Wall St opens lower ahead of Trump's Iran deadline - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Wall St opens lower ahead of Trump's Iran deadline\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-07 13:35",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUndxdEZZYkw0UTcxeDlIdDFmU29YYVRRRFRxWG83Y3M5bmtYQUI1d1VYNXFYdGZfYjFhcHhiZXpYSElWcTJrazFUTi1YQVB0WUdnYm5xbkx0aUREV25zRDFfaVJHYXppbnpoTzRTclJjd3U5SzBVN2dqemVvX1VpWF9jQlVIamVzdmt3Yi1GYnB0WU02Nm9EQUMwbzJXWTE3TXRrcjBGQnBNcjlaUTJZ?oc=5"
-    },
-    {
-      "headline": "Efforts to facilitate talks between US, Iran ongoing, Pakistani sources say - Reuters",
+      "headline": "Trump says US won 'total and complete victory' after ceasefire deal with Iran, AFP reports - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Efforts to facilitate talks between US, Iran ongoing, Pakistani sources say\u00a0\u00a0Reuters",
+      "impact": "Trump says US won 'total and complete victory' after ceasefire deal with Iran, AFP reports\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-07 13:15",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMHlxMUhLSmtud0VaTFRhZWNqYTN3YjA4UHlkeDB6dl9DS241NElqck52eElVb0g3emxQT3FjcTB6NUlIRldIUzI0UHB1SnVhUmI4R3I0RHFJYWNWTWRBSmRvUTdwZkJOU3VTUmIxVVV5bDRfUnlFZm96Y2dNRW1hQkdnd1dtcG82NzNTVGdxcjdEOVplMVVISkJhS3FSazJndTFTemdxTXRvaHViTzF5aENWelpxTUNDb3M3YkhFOW1LWms?oc=5"
-    },
-    {
-      "headline": "US hits military targets on Iran's Kharg Island, Vance says no change to strategy - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US hits military targets on Iran's Kharg Island, Vance says no change to strategy\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-07 12:57",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQnllNW1Zd0hZZEJ5WF9ZV2RVRS1nZlNUS2lWN2pZMGM2WFBWNXlxNk9INVF0ZFd2S2RiUFdUQkVjSjltYkN5VmZxanBTdU9xUmFQRFc0M0JHUlNpVjJIWHpFSWhMbVo1QzM5YmtOMXdtbGl4UUJSMGE4YVk1MU9uT1JueHgwU3NPOHBUQzFNSF8tblJpOS1ZNG9kRGgwNGtmM1hVSWduMjZlSmRiVXJGN0FGWktYUy10?oc=5"
-    },
-    {
-      "headline": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Trump administration will increase average Medicare Advantage payments by 2.48%, or more than $13 billion, in 2027.",
-      "category": "global_markets",
-      "date": "2026-04-07 12:44",
-      "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html"
-    },
-    {
-      "headline": "Delta raises checked bag fees $10 amid jet fuel price surge, joining other carriers",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Delta is joining United and JetBlue in raising checked bag fees.",
-      "category": "global_markets",
-      "date": "2026-04-07 12:41",
-      "link": "https://www.cnbc.com/2026/04/07/delta-checked-bag-fees.html"
+      "date": "2026-04-08 04:11",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMHE2RENzZUxZb3NCYmpidGFWQndlSzNMNElXekRvRnR5eHJRdlVJQ1E4T0hOS1ZLSEtrYWtSa1l5NUo4LXV1TWt1UThSNHVwU1FaYUdpQ0drcndkQ1VvNkpWVF9zVzZPVmI5X0lJbzRYZGNDUk1XOUJjcVkwVnh4cjluWGVEQ1ZIVm9LYWpUQjVrOFFTaXJHTmszc1hhSEZVS2dfWThadXNIQWxEMTk2X0I3TlUxVllEbmNjRll3NHdjcHNsdmZ3Vg?oc=5"
     }
   ]
 }
