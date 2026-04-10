@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-09T15:24:37.376931",
+  "timestamp": "2026-04-10T07:15:48.073489",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 11,
-    "neutral": 12,
+    "avg_relevance": 7.2,
+    "bullish": 9,
+    "neutral": 14,
     "bearish": 2,
     "high_priority": 8,
     "material_events": 4
@@ -14,12 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
+    "Reuters": 10,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 9,
-    "The Wall Street Journal": 1,
-    "MarketWatch": 2
+    "CNBC": 3,
+    "Axios": 1,
+    "MarketBeat": 3,
+    "National Today": 1
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -109,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,8 +120,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-09 15:24",
+      "date": "2026-04-10 07:15",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "US consumer inflation expected to have surged in March amid Iran war - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US consumer inflation expected to have surged in March amid Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-10 04:07",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT0xMYzVjbXA1dkd6NFVtTkhhTWtQb2h3WEp3aEZXOV9YbjdwZHVDUE5Qd0RWbUZjcy12VUgtTy1tTXZhS0V1MjI4UXlGQmV2R0E0c3psMTlaaGFRR0hoSXItNXo1R2JmTk1oVW5fdE1uWlVxNERtZG10R2NZcldqdnBhS18waWVabTB3cGFEbDlCSFBVM1lKVDgtbXhCOTEzOUcxVUxjSXNZYmc?oc=5"
+    },
+    {
+      "headline": "Keir Starmer: 'I'm fed up' with Trump and Putin affecting UK energy costs",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Iran effectively closed the Strait of Hormuz during the war with U.S. and Israel, creating an oil supply crunch and sending global energy prices soaring.",
+      "category": "us_monetary_policy",
+      "date": "2026-04-09 19:29",
+      "link": "https://www.cnbc.com/2026/04/09/keir-starmer-fed-up-trump-putin-uk-energy-costs.html"
+    },
+    {
+      "headline": "US labor market holds steady; inflation firmer before Iran war - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US labor market holds steady; inflation firmer before Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-09 16:47",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcUtyZllvWGFQOGoxQW1WTmZBb0J6U1ktUjVSSGNTNUdzTjdBdDVLb0xMUk9kV2p5enFrU1BtZFQxU0pmQWpfWUZLNXRzRnBXZDNnU3FfLUlSN0llU3MyRkd2Z3RSd0czdktlLURJSDgyTlNPS1R3cFVHOTBtWk9uWHowQTZUMHF1RkotenQzWnFUcGZ5WEg4?oc=5"
     },
     {
       "headline": "Exclusive: Iran war doubles Russia's main oil revenue to $9 bln in April, Reuters calculations show - Reuters",
@@ -133,24 +164,24 @@
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZnkwOWotSUd6QS0tWFNRQ3pybElMRF9IanZnVE9hU1ZoVENKSU5CUDF6clF6a3NSTjdGa2pGQUpOLTdiS3FoNTl5VF9fUlo3d3AxZ1JJTnpmWkxjQ0tPeWxCTTdpN25BQVAwSFgyam9jTXBkb2lRU3lzemtZRC1BczVscUpGaU9sU2JDWk9vRlc1NGUzM0NBeFNtWnJuRm4zSGNlcG91ck1kNzhKNG5RSDBGbUhBdmFKaURETm1tem4xc3MtX0VjSVBrNA?oc=5"
     },
     {
+      "headline": "Fed minutes show willingness to consider interest rate increases",
+      "score": 7,
+      "source": "Axios",
+      "sentiment": "negative",
+      "impact": "Even as many officials see rate cuts down the line, the prospect of increasing rates highlights the uncertainty about the path of borrowing costs this year.",
+      "category": "us_monetary_policy",
+      "date": "2026-04-09 02:22",
+      "link": "https://www.axios.com/2026/04/08/fed-interest-rates-fomc-march"
+    },
+    {
       "headline": "Constellation Brands, U.S. maker of Modelo and Corona, withdraws 2028 guidance due to uncertainty",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "Constellation Brands withdrew its previously issued fiscal 2028 outlook on Wednesday and reported \"subdued\" demand across its categories.",
       "category": "corporate_earnings",
-      "date": "2026-04-09 13:05",
+      "date": "2026-04-08 20:54",
       "link": "https://www.cnbc.com/2026/04/08/constellation-brands-stz-q4-2026-earnings.html"
-    },
-    {
-      "headline": "Elon Musk Asks for OpenAI\u2019s Nonprofit to Get Any Damages From His Lawsuit",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "corporate_earnings",
-      "date": "2026-04-08 00:04",
-      "link": "https://www.wsj.com/tech/ai/elon-musk-asks-for-openais-nonprofit-to-get-any-damages-from-his-lawsuit-76089f6f"
     },
     {
       "headline": "Levi Strauss revenue jumps again, with DTC making up more than half of sales for the first time",
@@ -163,114 +194,84 @@
       "link": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html"
     },
     {
-      "headline": "CNBC Sport: Amazon debuts Masters coverage, becoming the tournament's fourth-ever media partner",
+      "headline": "Rep. Byron Donalds Buys PayPal Holdings, Inc. (NASDAQ:PYPL) Shares",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Amazon will have two hours of exclusive Masters coverage Thursday and Friday in its debut year as a media partner for the prestigious golf tournament.",
-      "category": "global_markets",
-      "date": "2026-04-09 15:10",
-      "link": "https://www.cnbc.com/2026/04/09/amazon-masters-coverage-media-partner-streaming.html"
+      "impact": "Representative Byron Donalds (Republican-Florida) recently purchased between $1,001 and $15,000 worth of PayPal Holdings, Inc. (NASDAQ:PYPL) stock on March 13th, as disclosed in an April 8th filing. This transaction occurred in his \"MORAN WEALTH IRA\" account. PayPal has a \"Hold\" consensus rating fro",
+      "category": "us_equities",
+      "date": "2026-04-10 06:08",
+      "link": "https://www.marketbeat.com/instant-alerts/rep-byron-donalds-buys-paypal-holdings-inc-nasdaqpypl-shares-2026-04-10/"
     },
     {
-      "headline": "Here are some bargain bank stocks heading into earnings season",
+      "headline": "O'Reilly Automotive (NASDAQ:ORLY) Stock Unloaded Rep. Jonathan L. Jackson",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "A close look at valuations for the largest U.S. banks highlights opportunities for long-term investors.",
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Representative Jonathan L. Jackson (Democratic-Illinois) sold between $15,001 and $50,000 of O'Reilly Automotive (NASDAQ:ORLY) shares on March 19 through a \"MORGAN STANLEY TRUST ACCOUNT\". O'Reilly Automotive recently reported quarterly EPS of $0.71, missing estimates by $0.01, with revenue of $4.41 ",
+      "category": "us_equities",
+      "date": "2026-04-10 06:08",
+      "link": "https://www.marketbeat.com/instant-alerts/oreilly-automotive-nasdaqorly-stock-unloaded-rep-jonathan-l-jackson-2026-04-10/"
+    },
+    {
+      "headline": "Rep. Richard McCormick Sells Analog Devices, Inc. (NASDAQ:ADI) Shares",
+      "score": 6,
+      "source": "National Today",
+      "sentiment": "neutral",
+      "impact": "Representative Richard McCormick recently sold between $1,001 and $15,000 worth of shares in Analog Devices, Inc. (NASDAQ:ADI) from his Roth IRA account on March 19th. This transaction, publicly disclosed on April 7th, provides transparency into the financial activities of an elected official. While",
+      "category": "us_equities",
+      "date": "2026-04-10 05:12",
+      "link": "https://nationaltoday.com/us/ga/suwanee/news/2026/04/10/rep-richard-mccormick-sells-analog-devices-inc-nasdaq-adi-shares/"
+    },
+    {
+      "headline": "Fifth Third Bancorp (FITB) to Release Earnings on Friday",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Fifth Third Bancorp (FITB) is scheduled to release its Q1 2026 earnings before market open on Friday, April 17th. Analysts anticipate an EPS of ($0.0355) and revenue of $2.9081 billion. The company recently declared a quarterly dividend of $0.40 per share, and stock analysts have a consensus \"Modera",
       "category": "corporate_earnings",
-      "date": "2026-04-09 15:01",
-      "link": "https://www.marketwatch.com/story/here-are-some-bargain-bank-stocks-heading-into-earnings-season-d0e6b3da?mod=mw_rss_topstories"
+      "date": "2026-04-10 05:11",
+      "link": "https://www.marketbeat.com/instant-alerts/fifth-third-bancorp-fitb-to-release-earnings-on-friday-2026-04-10/"
     },
     {
-      "headline": "Kia plans to launch U.S. pickup truck by 2030",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Kia plans to release a pickup truck for American consumers in the coming years, as the South Korean automaker plots continued growth globally.",
-      "category": "global_markets",
-      "date": "2026-04-09 15:01",
-      "link": "https://www.cnbc.com/2026/04/09/kia-pickup-truck.html"
-    },
-    {
-      "headline": "Hormuz at near standstill as Iran warns ships to keep to its waters - Reuters",
+      "headline": "China's factories snap years-long deflation spell on Iran war price shock - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Hormuz at near standstill as Iran warns ships to keep to its waters\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-09 14:39",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbTJQR3N1VWw2dXc3bm5YbUQ1NkQwakVtMHNkbUtjVWU1VDlRWTdiSHhVNndZQk1nd3RXZm5RdjJnNE1OMmRZaFhNeF9TaWc2V2lNX1lLMmM3R080RTRlaVBfajZMQ09QQWVvcnRwWDkzQmFCSEZOMjE4LU9LWkxtaHQ4MlY4UFZJRUU2R3lGcU5Tdm1jTEgzMWdfYW00UG5xRjhWcks0aGZEcWFsam1VYWZSS3JUNzJVaWdsbXh3MFRNWWhPaTVhcmJOVU1OZw?oc=5"
+      "impact": "China's factories snap years-long deflation spell on Iran war price shock\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-04-10 02:06",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS2hLT2FuVTBnTlFRZWdNV0NuRW56VUxLVHFjUTI1X21xMmdtMDVOci1TYzgyZFZWYnl6Slp1dUtKZFdvSi1mWHBxRnJXNUllMGFmMnFndUtpcV9fby1TajRSQmtORHJTUEZHUHdFc3NsUWN6TGlsOEdPbGtEY0ZXNG9HSVlPb3g3WUJlLVc2MlM2S1NFa256Vkw3SExLRWM0RGNIanRaTTJoQQ?oc=5"
     },
     {
-      "headline": "Disney plans layoffs of as many as 1,000 employees",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Disney is planning a new phase of cost cutting, including as many as 1,000 layoffs, under new CEO Josh D'Amaro, according to a person familiar with the matter. ",
-      "category": "global_markets",
-      "date": "2026-04-09 14:38",
-      "link": "https://www.cnbc.com/2026/04/09/disney-layoffs-ceo-josh-damaro.html"
-    },
-    {
-      "headline": "American Airlines makes bag fees even more expensive for basic economy tickets",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "American Airlines is joining Delta, United, Southwest and JetBlue in raising its checked bag fees as the industry deals with high jet fuel prices.",
-      "category": "global_markets",
-      "date": "2026-04-09 14:35",
-      "link": "https://www.cnbc.com/2026/04/09/american-airlines-bag-fees-basic-economy.html"
-    },
-    {
-      "headline": "Student loan forgiveness for public servants could be pricier to access, after new changes",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "It may be pricier now for some student borrowers to access Public Service Loan Forgiveness, after new changes quietly rolled out by the Education Department.",
-      "category": "global_markets",
-      "date": "2026-04-09 14:20",
-      "link": "https://www.cnbc.com/2026/04/09/public-service-loan-forgiveness-may-be-pricier-to-access-after-changes.html"
-    },
-    {
-      "headline": "Your grocery bill will be the next casualty of the Iran war. Make these investment moves now to counter food inflation.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Four food-supply chokeholds are squeezing investor portfolios. Here\u2019s what to do before your grocery bill proves it in October.",
-      "category": "global_markets",
-      "date": "2026-04-09 14:12",
-      "link": "https://www.marketwatch.com/story/you-think-iran-is-only-about-oil-no-its-also-about-your-dinner-table-636de6a5?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Why young Americans are buying $200 notebooks from a store in Paris",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Notebooks made by Paris-based Louise Carmen have become a status symbol for a swath of young Americans, amid journaling's post-pandemic popularity.",
-      "category": "global_markets",
-      "date": "2026-04-09 13:59",
-      "link": "https://www.cnbc.com/2026/04/09/louise-carmen-notebooks-young-americans-journaling-trend.html"
-    },
-    {
-      "headline": "Chevron sees Iran war oil boost, warns hedging to weigh - Reuters",
+      "headline": "Ceasefire sends dollar on weekly drop; US-Iran talks in focus - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Chevron sees Iran war oil boost, warns hedging to weigh\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-04-09 13:29",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVThwNEgxZDdtNjlCeGhlcndOR2l0U05SV2VtbUhxeXdjVDQ0ZXJrRTdnT2NvYjYxcXo4UUZRekJJYThwTldyeHpyNy0wdldXRk5DQ0VMeF92LVp1cmlfR3hXaDJDNVZKTjlsS3RtQXZVNHZzNlFmT2I5YkJ5Z0tlcDhVY1VPR3pIeTIwQ0lTOU44XzRRLXlfVERxTzFjMmpMU3ZhOXNHYnR2cE5OOGZwVTdOQkRNbmd1Vlhpag?oc=5"
+      "sentiment": "negative",
+      "impact": "Ceasefire sends dollar on weekly drop; US-Iran talks in focus\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-10 01:26",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcTBueU9NQ0psWHZaZnNkNGthMG9Qc1VjZjZJUWJoQmI3c25jYnZaMHFXbVRYcy0wdDA3clpTWXRrSEt3dEdqRW5uLXZual9ybGRUYUY5R0ZBbXd5ak5FVmdTN0VBQWZYVmpMdTZ5UHNsOVZOUkdGMk9rdlJJNjJoX0doanExclNPTTlfQ2ZuTC1rQ2JBNHFqYjg5VFVUYUQwNHFBRGx3?oc=5"
     },
     {
-      "headline": "The Strait of Hormuz is not open as Iran controls access after ceasefire, UAE oil CEO says",
+      "headline": "Stocks shaky as Israeli attacks on Lebanon tests Iran ceasefire - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Sultan Ahmed Al Jaber demanded a full reopening of the Strait, warning that the oil supply disruption will increase if Iran maintains control of the passage.",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Stocks shaky as Israeli attacks on Lebanon tests Iran ceasefire\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-10 01:23",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MZ1daUm9fTmVBRlFTMU9oX3BLNjhQaHFwdy1rRzhQaTVhMG56TlhVaTdzUE1EUlVGU2stVmZkVXgzZUs1TlBDdUZLTjltMGxNMjAzS240U3BuYUM4Z3M5WWlKbWY3WVh1NEJ5RzFNNTJuamgtTXZwbDV2WXFEN0U?oc=5"
+    },
+    {
+      "headline": "US-Iran ceasefire deal shows strain ahead of talks with oil flows squeezed - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US-Iran ceasefire deal shows strain ahead of talks with oil flows squeezed\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-04-09 13:26",
-      "link": "https://www.cnbc.com/2026/04/09/iran-war-oil-strait-hormuz-tanker-ship-uae.html"
+      "date": "2026-04-10 01:12",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSjVnU2MyTVRjaWpYcWNnS3pGQUNLUkxaYTlPOHVvdVBudl9DYmE0WEhBaXUyeDlQZ3RDeXFiQTUweU9oZ0NYWl8waGF4LWpCTHFPcmRyMTIwNy1VOFJMekpnVkRjeWQ5LTNhYlR6Tkd4c3EzV3E1ZG5USjViSDZjV3FPRHNFX011OGVGX1ViU0IyZ2tMVzJlOUgxckVnOTF6Rk1JS0RYUzF3MUVmSnBFVGg0aTVhSWZFRm5kUmlDX2hrcnNo?oc=5"
     }
   ]
 }
