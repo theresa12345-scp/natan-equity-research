@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-11T14:38:40.405207",
+  "timestamp": "2026-04-12T07:03:44.569836",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 8,
-    "neutral": 16,
+    "avg_relevance": 7.1,
+    "bullish": 13,
+    "neutral": 11,
     "bearish": 1,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
-    "Bloomberg": 2,
+    "Reuters": 8,
+    "Bloomberg": 4,
+    "MarketWatch": 2,
     "Caixin/S&P Global": 1,
-    "ChartMill": 1,
-    "The Wall Street Journal": 1,
-    "CNBC": 5,
-    "Simply Wall Street": 1
+    "Investor's Business Daily": 1,
+    "CNBC": 2,
+    "MarketBeat": 2,
+    "IndexBox": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Interest rates are headed lower \u2014 real yields suggest a half-point Fed cut is coming",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "The Iran cease-fire may be the \u2018green light\u2019 the Fed needs.",
+      "category": "us_monetary_policy",
+      "date": "2026-04-11 17:53",
+      "link": "https://www.marketwatch.com/story/interest-rates-are-headed-lower-real-yields-suggest-a-half-point-fed-cut-is-coming-b5fd1e22?mod=mw_rss_topstories"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,38 +131,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-11 14:38",
+      "date": "2026-04-12 07:03",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Euronet Worldwide Inc. (NASDAQ:EEFT): A Value Case of High Profitability and Low Valuation",
+      "headline": "Fed Seeks Details on US Banks\u2019 Exposure to Private Credit Firms",
       "score": 7,
-      "source": "ChartMill",
+      "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "Euronet Worldwide Inc. (NASDAQ:EEFT) is presented as a compelling value investment opportunity, marked by a high fundamental valuation rating (9/10) due to low P/E and forward P/E ratios compared to its industry, signifying undervaluation. The company demonstrates strong profitability with high ROE ",
-      "category": "us_equities",
-      "date": "2026-04-11 12:11",
-      "link": "https://www.chartmill.com/news/EEFT/Chartmill-45257-Euronet-Worldwide-Inc-NASDAQEEFT-A-Value-Case-of-High-Profitability-and-Low-Valuation"
-    },
-    {
-      "headline": "CPI Report Today: Dow Futures Waver as Investors Await Inflation Data \u2014 Live Updates",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-04-10 11:52",
-      "link": "https://www.wsj.com/livecoverage/cpi-inflation-data-stock-market-04-10-2026"
-    },
-    {
-      "headline": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "President Trump's nomination of Kevin Warsh as Federal Reserve chair already faced a hurdle by Sen. Thom Tillis over a probe of current chair Jerome Powell.",
+      "impact": "The Federal Reserve is asking major US banks for details about their exposure to private credit following a surge in redemptions from the funds and a rise in troubled loans in the industry, according to people with knowledge of the matter.",
       "category": "us_monetary_policy",
-      "date": "2026-04-10 02:13",
-      "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html"
+      "date": "2026-04-10 22:30",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-10/fed-seeks-details-on-us-banks-exposure-to-private-credit-firms"
+    },
+    {
+      "headline": "Iran War Hits US Economy With More Inflation, Record-Low Sentiment",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "The war in Iran has fueled the biggest jump in US inflation in nearly four years and sent consumer sentiment tumbling to a record low. Economists say that\u2019s just the beginning.",
+      "category": "global_markets",
+      "date": "2026-04-10 17:18",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-10/iran-war-hits-us-economy-with-cpi-surge-record-low-consumer-sentiment"
+    },
+    {
+      "headline": "Dow Jones Futures: Trump, Iran Issue Threats; Nvidia Chipmaker Beats Views, CPI Inflation Due",
+      "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "positive",
+      "impact": "Nvidia chipmaker Taiwan Semi reports booming Q1 sales.",
+      "category": "us_equities",
+      "date": "2026-04-10 12:02",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-war-talks-cpi-inflation-nvidia-chipmaker-taiwan-semiconductor/"
     },
     {
       "headline": "Constellation Brands, U.S. maker of Modelo and Corona, withdraws 2028 guidance due to uncertainty",
@@ -164,114 +175,104 @@
       "link": "https://www.cnbc.com/2026/04/08/constellation-brands-stz-q4-2026-earnings.html"
     },
     {
-      "headline": "Americans weigh in on the Iran war, gas prices and their fears - Reuters",
+      "headline": "National Energy Services Reunited (NASDAQ:NESR) Raised to \"Strong-Buy\" at Wall Street Zen",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Americans weigh in on the Iran war, gas prices and their fears\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-11 13:24",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTEFEbVhyc2hHNG9OUFhtWHU2Yl92YTVEZkR3aFVOcmhfdDQtbWs2UFBmOC05XzRCbXFLYXFjYkUydkVISm5JX1UxcGhsMmduNTRYSTRCSTRNY0xaX1AtRU4wLVQ3ZG9KSkRIOUpSZFhwVHl6Zjk3M1NVQlFWTXJZTExrcXhOUWZuYW83UDZUNGl1NFVZOWs4?oc=5"
-    },
-    {
-      "headline": "How to help kids form healthy relationships with money: They 'end up in much better financial shape' as adults, psychologist says",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Amid rising costs and a tighter economic climate, more parents are teaching their kids financial literacy lessons that could serve them well later in life.",
-      "category": "global_markets",
-      "date": "2026-04-11 13:05",
-      "link": "https://www.cnbc.com/2026/04/11/how-to-help-kids-form-healthy-relationships-with-money-psychologist.html"
-    },
-    {
-      "headline": "Pakistani five-star hotel becomes unlikely site for US-Iran talks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Pakistani five-star hotel becomes unlikely site for US-Iran talks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-11 12:35",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0FGeTlkdlV6NGFyT1diSVhTdThBeFVUQ0VDNGVWVU1tRXhFWDhMOHRjR0U1OUZWYUFfemFuOFBCdVNQWW13OEdIRTAyU05pTFo3Y0Y5dWZzbVZGVjZQcHlJc1A5NG5jUnBuR09uTDZCYXc3QVNnU2pFSm9rbzJWRjg1ZlplZktqa25qMjU4Y1A1VEdCcEk1bWR4cVVvMG53NEw2ZFdGa3RrYUExWmo2SnBNdUF0Qk0?oc=5"
-    },
-    {
-      "headline": "Is Now The Time To Put ECB Bancorp (NASDAQ:ECBK) On Your Watchlist?",
-      "score": 6,
-      "source": "Simply Wall Street",
+      "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "ECB Bancorp (NASDAQ:ECBK) shows promising signs for investors, with strong EPS growth of 40% per year over the last three years and solid revenue growth of 22% to US$32 million. Insiders have also demonstrated confidence by purchasing US$119k worth of stock and holding a meaningful 8.8% stake in the",
+      "impact": "Wall Street Zen has upgraded National Energy Services Reunited (NASDAQ:NESR) from \"buy\" to \"strong-buy.\" This follows NESR's recent outperformance in quarterly earnings, with EPS of $0.32 against a $0.25 consensus and a 15.9% year-over-year revenue increase. The stock currently holds an average \"Buy",
       "category": "us_equities",
-      "date": "2026-04-11 12:30",
-      "link": "https://simplywall.st/stocks/us/banks/nasdaq-ecbk/ecb-bancorp/news/is-now-the-time-to-put-ecb-bancorp-nasdaqecbk-on-your-watchl"
+      "date": "2026-04-12 05:15",
+      "link": "https://www.marketbeat.com/instant-alerts/national-energy-services-reunited-nasdaqnesr-raised-to-strong-buy-at-wall-street-zen-2026-04-12/"
     },
     {
-      "headline": "From Boston to Denver, US drivers cut back as Iran war pushes fuel costs higher - Reuters",
+      "headline": "Fidelity Yield Enhanced Equity ETF ETF Price, Holdings, & News (BATS:FYEE)",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "This article provides an overview of the Fidelity Yield Enhanced Equity ETF (FYEE), detailing its current price, key statistics, expenses, and top holdings. It also includes recent news headlines related to the ETF and answers frequently asked questions about its performance and major shareholders.",
+      "category": "fixed_income",
+      "date": "2026-04-12 05:09",
+      "link": "https://www.marketbeat.com/stocks/BATS/FYEE/"
+    },
+    {
+      "headline": "IPG Photonics, Kennametal, WEX: Profits Mask Underlying Challenges - News and Statistics",
+      "score": 6,
+      "source": "IndexBox",
+      "sentiment": "neutral",
+      "impact": "A StockStory analysis reveals that despite current profitability, IPG Photonics, Kennametal, and WEX face potential financial challenges. IPG Photonics has seen declining sales and deepening operating margin losses, while Kennametal battles sales declines and lagging EPS growth. WEX, despite a stron",
+      "category": "corporate_earnings",
+      "date": "2026-04-12 04:38",
+      "link": "https://www.indexbox.io/blog/stockstory-analysis-3-profitable-companies-facing-potential-financial-challenges/"
+    },
+    {
+      "headline": "US-Iran peace talks end without agreement, Vance leaves Pakistan - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "From Boston to Denver, US drivers cut back as Iran war pushes fuel costs higher\u00a0\u00a0Reuters",
+      "impact": "US-Iran peace talks end without agreement, Vance leaves Pakistan\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-11 12:27",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcGN0NHR3YzdiWXVmNnViaGNhd3R3R1E0eHZGNldpMU4yWWROUTdvbVN2UnI0ZjRBei05YnJ1ZnBFRFh0Z25meWg3T2dmZnU1YURWTF90Vlh3eTVlTEhnY0xrSVBDSmlYWjFwblQ1YWZzVDhvOHg1Q2tLcmtFNzE5Vnp3MGl4eGNqeWlyRTBfRjQ1NVVKYXMwcVpaeGpQSmJZYzgtOGlXVDliN0pNWndEWW1IVmlvdnV0dUxn?oc=5"
+      "date": "2026-04-11 23:21",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMjB6Z0FIdjZ3alpsY0IwMkFGNUdoY0RYQUVqMjJ4TWdfVmFaV0ZtUUJJaV9NUzFwQXlSbnFGMzdSNG15MlB5UG5qZzhqX1JuLUJKZ2hQSTZJQ3owREZmY1cyTVAxbWdiSElUTG4xb25VN25Udm9FOXpuUlRvSlJKVXJlOVhpY2Q4aW82OWppY041RzJPeW9FQ0RkcFd6VEhz?oc=5"
     },
     {
-      "headline": "Iran in touch with Lebanon to ensure ceasefire commitments respected, foreign ministry says - Reuters",
+      "headline": "Pope Leo urges end to 'madness of war' as US, Iran start talks - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran in touch with Lebanon to ensure ceasefire commitments respected, foreign ministry says\u00a0\u00a0Reuters",
+      "impact": "Pope Leo urges end to 'madness of war' as US, Iran start talks\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-11 12:21",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdUVHZ2trM0hIOVZOR21RQ2Izdk11ZGVZQnJmODNUQkxFTi15SWlpZFJFY1ZDcHhrWDRiRTBMTWdvdHpzd1hQUHBNODZCV0thd0J1R25aTjY5RG10SHdvX2Fkb2RsbS00REtDQWt3Q1lHekpyV2J3MzNsOHJmMzduaElIU1BKU25iYlVtbWxRZ0NSOTh6QTBEQkFSWjlJVjV0cE5jNWxJeVVESDdxN1NuaDM4MF8wR1Rab0Fqd3RUVF90eWJEakNDS05iNVc1V0k?oc=5"
+      "date": "2026-04-11 21:14",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZXpPT0NLSDVfcjcxQTBGUTB6M3Q2VEhhYmtKa0w1Y2NTSlBaVWEwdEJoLWJCYVJuV0tzaEFnb0VwUXNuWVZlZmpTR2xOTHVHMllPeFZHNmkwVVJfaFFuSWNMT0NuLVV3S2J3VG13X0VQd1J5aFN2NWp0REVxalM1b2Nsb2Zad0Q0N1BZZ25pbkJhM096SjhR?oc=5"
     },
     {
-      "headline": "Battles brew over in-state tuition for undocumented students",
+      "headline": "Here are some bargain bank stocks heading into earnings season",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "A close look at valuations for the largest U.S. banks highlights opportunities for long-term investors.",
+      "category": "corporate_earnings",
+      "date": "2026-04-11 18:55",
+      "link": "https://www.marketwatch.com/story/here-are-some-bargain-bank-stocks-heading-into-earnings-season-d0e6b3da?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "US military 'setting conditions' to clear mines from Strait of Hormuz - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US military 'setting conditions' to clear mines from Strait of Hormuz\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-11 16:58",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?oc=5"
+    },
+    {
+      "headline": "Pakistan sends fighter jets to Saudi Arabia under mutual defence pact - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Pakistan sends fighter jets to Saudi Arabia under mutual defence pact\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-11 16:13",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdkY1emFRQ1NpMERkM1JEdG81bzYwTWN5TXFrN21UR2oteC05RHA5OVg3VVExTkYtQ1UtTWViempVMUVLSkoyTUxHRk5yRXl3ck1MNmNfYnhQUkI3Mzl3NFhzVWx6X19TZTJJNHd3cGw5Nmg2TVJxZWM5VjUwc3AwY2FGN1FmNTk1bVliWEdHYUJrMGxHWWJmbGJDZUxIdFc5b042YThEZ2lDbW9yUGNsamJ6MVQ4dkxRaW9MWEJVN0IxOE9DVHc?oc=5"
+    },
+    {
+      "headline": "Stocks gain on Iran ceasefire, plus 3 more things that drove last week's market",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "In some states, undocumented students have access to in-state college tuition if they meet certain requirements. Now, many of those laws are being challenged.",
+      "sentiment": "positive",
+      "impact": "Although the market rally cooled on Friday, the S&P 500 still ended the week 3.6% higher.",
       "category": "global_markets",
-      "date": "2026-04-11 12:20",
-      "link": "https://www.cnbc.com/2026/04/11/battles-brew-over-in-state-tuition-for-undocumented-students.html"
+      "date": "2026-04-11 15:34",
+      "link": "https://www.cnbc.com/2026/04/11/stocks-gain-on-iran-ceasefire-plus-3-things-that-drove-last-weeks-market.html"
     },
     {
-      "headline": "How Kodak is trying to turn around its business after teetering on bankruptcy",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Photography company Eastman Kodak has seen its fair share of financial struggles, but CEO Jim Continenza is determined to fuel its success.",
-      "category": "global_markets",
-      "date": "2026-04-11 12:00",
-      "link": "https://www.cnbc.com/2026/04/11/kodak-film-business-ceo-jim-continenza.html"
-    },
-    {
-      "headline": "France's Macron says discussed Iran ceasefire, Ukraine with Turkey's Erdogan - Reuters",
+      "headline": "Iraqi parliament elects Nizar Amedi as country's new president - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "France's Macron says discussed Iran ceasefire, Ukraine with Turkey's Erdogan\u00a0\u00a0Reuters",
+      "impact": "Iraqi parliament elects Nizar Amedi as country's new president\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-11 11:55",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQzFjcjJ6RTB3cGZic3A0X3NDZmNEc1JkQURHSVktdWU3VzBISEVrdWJ1SWNnQ2NWMXk1MjlSUTFsR2x6dWNuVWZiWTVfUWtUS3FCVjJEcjkzdWV3TGlxVFJGRnpWZUxIbVBPUWhNX1lubVdGMkdnTEwyNDFyelR4UTU1N1VwN05hNWdndjFfM3BOcGd2RUlWUTU4SEsyZlpFNkVGTFR0bG5IT0wxUUJZSjllTUF5XzR1SWtvWlpFZnZWcklIMGc?oc=5"
-    },
-    {
-      "headline": "Exclusive: Iranian source says US has agreed to unfreeze Iranian funds, Washington denies it - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Exclusive: Iranian source says US has agreed to unfreeze Iranian funds, Washington denies it\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-11 10:39",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0tYN2FaMjhaN1FlWGJOM25HaUhEOERsaS04VWdHdWEtNmFsMW1peXM4NEpXeUtmX2lLejFaM1lLelpIUUs3VFI0LUdCX09VcFM5WlgtNDBiNW5CM2dGa3BqV1NzeHp3dHA3VFVDTzlELUpsREJPTDktY0poVXhWZUJKUUxNR2dReF9GbVNzVzZuUGNRM21NbTZhS29xREZ2ZHlUWEVHZFlScHdtQjBteHlkV2V5Q0hmMGZUM0dLb1pyV05qWFlr?oc=5"
-    },
-    {
-      "headline": "What are the main talking points at the US-Iran negotiations in Pakistan? - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "What are the main talking points at the US-Iran negotiations in Pakistan?\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-11 09:34",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdEFzTC1aZ0xlbmwzT2xGZUdpaXRkVEE2aXk1akpEd2I0dy01c08xcFcxRFFZU0owbTI2WnJRZXk4ZTlOUVZIb2E4YzFxT0htUFBzVGZ4dEN2U2pVRDlSY1BTLU1FWlpsLTNEdXJrSVZyeld5WWhvVmkzU2RSbVIxMF9pZkhMRlZVTGdJV0JZLWg5dDZWX2c0eGRNN0hObzhNSWlWdnVJSVNlaWZrTnFiOFVHNA?oc=5"
+      "date": "2026-04-11 15:16",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM0JHTW5uYnpXakRYVFk0MjNwUDUwRGJ2c2x4bEdfX0VLNzNjbjRrQXFFNzUyR0FDSGp2MXJRcHJ0ZlUwUkhsdVpmMEZCSG5DTHEyVFlQTTRnQ3BBMEtTX0Rrc2lfb2R5Vmc5OFZIaVVRSnhhcG5kTTk2VndJV00yVC1uTlZLZ0NLN3R3QVFaUnpXME9aZW5rWFBUZTFSZE1Tdjk0X1lQUWE1T0tNN2I3cGh3?oc=5"
     }
   ]
 }
