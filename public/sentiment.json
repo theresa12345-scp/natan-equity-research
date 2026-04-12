@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-12T07:03:44.569836",
+  "timestamp": "2026-04-12T14:42:22.393526",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 13,
-    "neutral": 11,
+    "avg_relevance": 6.9,
+    "bullish": 10,
+    "neutral": 14,
     "bearish": 1,
-    "high_priority": 9,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,14 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 8,
-    "Bloomberg": 4,
-    "MarketWatch": 2,
+    "Reuters": 12,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "Investor's Business Daily": 1,
-    "CNBC": 2,
-    "MarketBeat": 2,
-    "IndexBox": 1
+    "Tipranks.com": 1,
+    "The Globe and Mail": 1,
+    "CNBC": 3,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -31,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Interest rates are headed lower \u2014 real yields suggest a half-point Fed cut is coming",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The Iran cease-fire may be the \u2018green light\u2019 the Fed needs.",
-      "category": "us_monetary_policy",
-      "date": "2026-04-11 17:53",
-      "link": "https://www.marketwatch.com/story/interest-rates-are-headed-lower-real-yields-suggest-a-half-point-fed-cut-is-coming-b5fd1e22?mod=mw_rss_topstories"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,85 +120,95 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-12 07:03",
+      "date": "2026-04-12 14:42",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Fed Seeks Details on US Banks\u2019 Exposure to Private Credit Firms",
+      "headline": "TSMC (TSM) Stock Surges as Q1 Revenue Jumps 35% \u2014 Still a Buy Before Earnings?",
       "score": 7,
-      "source": "Bloomberg",
+      "source": "Tipranks.com",
       "sentiment": "positive",
-      "impact": "The Federal Reserve is asking major US banks for details about their exposure to private credit following a surge in redemptions from the funds and a rise in troubled loans in the industry, according to people with knowledge of the matter.",
-      "category": "us_monetary_policy",
-      "date": "2026-04-10 22:30",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-10/fed-seeks-details-on-us-banks-exposure-to-private-credit-firms"
-    },
-    {
-      "headline": "Iran War Hits US Economy With More Inflation, Record-Low Sentiment",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "The war in Iran has fueled the biggest jump in US inflation in nearly four years and sent consumer sentiment tumbling to a record low. Economists say that\u2019s just the beginning.",
-      "category": "global_markets",
-      "date": "2026-04-10 17:18",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-10/iran-war-hits-us-economy-with-cpi-surge-record-low-consumer-sentiment"
-    },
-    {
-      "headline": "Dow Jones Futures: Trump, Iran Issue Threats; Nvidia Chipmaker Beats Views, CPI Inflation Due",
-      "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "positive",
-      "impact": "Nvidia chipmaker Taiwan Semi reports booming Q1 sales.",
-      "category": "us_equities",
-      "date": "2026-04-10 12:02",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-war-talks-cpi-inflation-nvidia-chipmaker-taiwan-semiconductor/"
-    },
-    {
-      "headline": "Constellation Brands, U.S. maker of Modelo and Corona, withdraws 2028 guidance due to uncertainty",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Constellation Brands withdrew its previously issued fiscal 2028 outlook on Wednesday and reported \"subdued\" demand across its categories.",
+      "impact": "Taiwan Semiconductor Manufacturing Co., or TSMC ($TSM), is set to report its first-quarter 2026 earnings on Thursday, April 16. While the company has already reported strong revenue for the quarter,",
       "category": "corporate_earnings",
-      "date": "2026-04-09 13:05",
-      "link": "https://www.cnbc.com/2026/04/08/constellation-brands-stz-q4-2026-earnings.html"
+      "date": "2026-04-10 16:16",
+      "link": "https://www.tipranks.com/news/tsmc-q1-revenue-surges-35-is-tsm-stock-still-a-buy-ahead-of-earnings"
     },
     {
-      "headline": "National Energy Services Reunited (NASDAQ:NESR) Raised to \"Strong-Buy\" at Wall Street Zen",
+      "headline": "Choosing an ETF for Bond Exposure: Fidelity's FIGB vs. Vanguard's VGIT",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Wall Street Zen has upgraded National Energy Services Reunited (NASDAQ:NESR) from \"buy\" to \"strong-buy.\" This follows NESR's recent outperformance in quarterly earnings, with EPS of $0.32 against a $0.25 consensus and a 15.9% year-over-year revenue increase. The stock currently holds an average \"Buy",
-      "category": "us_equities",
-      "date": "2026-04-12 05:15",
-      "link": "https://www.marketbeat.com/instant-alerts/national-energy-services-reunited-nasdaqnesr-raised-to-strong-buy-at-wall-street-zen-2026-04-12/"
-    },
-    {
-      "headline": "Fidelity Yield Enhanced Equity ETF ETF Price, Holdings, & News (BATS:FYEE)",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "This article provides an overview of the Fidelity Yield Enhanced Equity ETF (FYEE), detailing its current price, key statistics, expenses, and top holdings. It also includes recent news headlines related to the ETF and answers frequently asked questions about its performance and major shareholders.",
+      "source": "The Globe and Mail",
+      "sentiment": "neutral",
+      "impact": "This article compares two bond-focused ETFs, Fidelity's FIGB and Vanguard's VGIT, to help investors choose based on their priorities. While FIGB offers broader diversification and a slightly higher yield, it comes with a significantly higher expense ratio and lower liquidity. VGIT, on the other hand",
       "category": "fixed_income",
-      "date": "2026-04-12 05:09",
-      "link": "https://www.marketbeat.com/stocks/BATS/FYEE/"
+      "date": "2026-04-12 13:24",
+      "link": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/1263275/choosing-an-etf-for-bond-exposure-fidelity-s-figb-vs-vanguard-s-vgit/"
     },
     {
-      "headline": "IPG Photonics, Kennametal, WEX: Profits Mask Underlying Challenges - News and Statistics",
-      "score": 6,
-      "source": "IndexBox",
-      "sentiment": "neutral",
-      "impact": "A StockStory analysis reveals that despite current profitability, IPG Photonics, Kennametal, and WEX face potential financial challenges. IPG Photonics has seen declining sales and deepening operating margin losses, while Kennametal battles sales declines and lagging EPS growth. WEX, despite a stron",
-      "category": "corporate_earnings",
-      "date": "2026-04-12 04:38",
-      "link": "https://www.indexbox.io/blog/stockstory-analysis-3-profitable-companies-facing-potential-financial-challenges/"
-    },
-    {
-      "headline": "US-Iran peace talks end without agreement, Vance leaves Pakistan - Reuters",
+      "headline": "Trump says US to start blockading the Strait of Hormuz immediately - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US-Iran peace talks end without agreement, Vance leaves Pakistan\u00a0\u00a0Reuters",
+      "impact": "Trump says US to start blockading the Strait of Hormuz immediately\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-12 13:10",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX3I3U21xU29jUFBkX2loNlFCQ3NsaGhrMHByU2VCTGxuaVowU1JZVEUxNFBhempjenlHRFNOUlpNTml2cXItZGZxMGoyNzlDazhfbmN4d3ItN3otbDBqQkhKeTRwdk9FVTdlRVVJR1VYM1RSeU12MHJJRk1vMVVDRXA1NldxTzRULTJOd3JNZkxNOHJMYXh0OWVCNjU4cmo2?oc=5"
+    },
+    {
+      "headline": "This morning routine is key to a successful day, says mental performance coach\u2014and it only takes 4 minutes",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Start the day strong by focusing on gratitude and purpose, says mental performance coach Cindra Kamphoff.",
+      "category": "global_markets",
+      "date": "2026-04-12 12:46",
+      "link": "https://www.cnbc.com/2026/04/12/this-4-minute-morning-routine-is-key-to-a-successful-day-mental-performance-coach.html"
+    },
+    {
+      "headline": "Couples who are 'emotionally secure' regularly talk about 8 things, says Harvard-trained psychologist",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Building a trusting relationship is the goal for most couples. Harvard-trained psychologist Dr. Cortney Warren shares eight things emotionally secure couples talk about to have a happy and successful relationship.",
+      "category": "global_markets",
+      "date": "2026-04-12 12:36",
+      "link": "https://www.cnbc.com/2026/04/12/harvard-psychologist-couples-who-are-emotionally-secure-regularly-talk-about-8-things.html"
+    },
+    {
+      "headline": "ADNOC CEO says Strait of Hormuz not Iran\u2019s to control - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "ADNOC CEO says Strait of Hormuz not Iran\u2019s to control\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-12 12:11",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEFZZXlhaHJDZG9qYmx6T1NSM0JyZTF0cDVKX0VwN29lbURodTNsN2lEVF9WZTd3Z25KWVo5U25RdDFDRWQwUHYtbVBFVURjUTBsY0p2SjB3Z281VTlndnNBOWtyYWRjbzd6T0pjSHBocENVaUdySThNQjllUVRVSVZ4SGw2RzY2UnR2X1hDbEJKbDJCOW5WZU1tM3ZqR0E?oc=5"
+    },
+    {
+      "headline": "Iran aims to restore majority of refining capability within two months, oil ministry official says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran aims to restore majority of refining capability within two months, oil ministry official says\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-04-12 11:32",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSktOaDJJa2VRS3hkeTZtcWsxb2g2MVM2dzl5bDBRRV9naHhnbVNJbjROa0taM2ZTcElmQTJEQXdSRGl4ZDAwcFhjQmcxbVBZTEhVX1I2RzhMV3E3YWdORE5oZ2loSXM0TUlXRHotTTFxTm1JTUgtVHpZeEZiekhXTERvMXVGLWdfX0MybHdleWk5ckpOZVhvaElJUTViWkdsT1Rob29ZR3JoS3lTNC1aRGtnWjF4eFVkdy12dGJDWkFPMTY3aDZJUQ?oc=5"
+    },
+    {
+      "headline": "Gulf stocks slide as US-Iran talks falter, ceasefire doubts resurface - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gulf stocks slide as US-Iran talks falter, ceasefire doubts resurface\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-12 08:50",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlZ5X19tUWI2blRNMGlsdjczRTE4RlZzNWZNNGpYc1ZpTU4tdlVDNTN1Szh0enJreDZ0Z2JpTklhWndPeWY4ODhTbU5qUE1ZeWxQWVh1VzYySG1OcFVUOE15UjdRbk1MUE9GT3Y1aGFGb0RoNmRkd2NOa0hnWHNjalczVWRIQWxZN01mZXRiVmRFYTczb3hwY2p5c3JJQUJjNlVmMk0zNGJtbkd3VXNGVmppMTF4U1pLMUxv?oc=5"
+    },
+    {
+      "headline": "Trump vows to blockade Strait of Hormuz after Iran peace talks stumble - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Trump vows to blockade Strait of Hormuz after Iran peace talks stumble\u00a0\u00a0Reuters",
       "category": "global_markets",
       "date": "2026-04-11 23:21",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMjB6Z0FIdjZ3alpsY0IwMkFGNUdoY0RYQUVqMjJ4TWdfVmFaV0ZtUUJJaV9NUzFwQXlSbnFGMzdSNG15MlB5UG5qZzhqX1JuLUJKZ2hQSTZJQ3owREZmY1cyTVAxbWdiSElUTG4xb25VN25Udm9FOXpuUlRvSlJKVXJlOVhpY2Q4aW82OWppY041RzJPeW9FQ0RkcFd6VEhz?oc=5"
@@ -245,6 +244,16 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?oc=5"
     },
     {
+      "headline": "US military says two of its ships crossed through Strait of Hormuz - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US military says two of its ships crossed through Strait of Hormuz\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-11 16:55",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb1pxSEdYT01ocEZVcmV5dF9hZ3JxQlZOSVJEbUZYTWgxYXhsN212OG9KOXpaaEZ4ZjYzZXhSV2JPVW5jeE1PZy1PWEFkeU9GTUFlLTBkZ0o2R21iU0pkSGo5aDlLUXBqMEtVRTNDZUljZHhnSGR6Nkw4SVNRalJseE1weUxjTF9QcGFJSDZQV0VVdTdiRHc2NmxmcXVIR19YZTBQd2hQQ0g2aDNfREZWbkxkeWY?oc=5"
+    },
+    {
       "headline": "Pakistan sends fighter jets to Saudi Arabia under mutual defence pact - Reuters",
       "score": 6,
       "source": "Reuters",
@@ -263,16 +272,6 @@
       "category": "global_markets",
       "date": "2026-04-11 15:34",
       "link": "https://www.cnbc.com/2026/04/11/stocks-gain-on-iran-ceasefire-plus-3-things-that-drove-last-weeks-market.html"
-    },
-    {
-      "headline": "Iraqi parliament elects Nizar Amedi as country's new president - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iraqi parliament elects Nizar Amedi as country's new president\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-11 15:16",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM0JHTW5uYnpXakRYVFk0MjNwUDUwRGJ2c2x4bEdfX0VLNzNjbjRrQXFFNzUyR0FDSGp2MXJRcHJ0ZlUwUkhsdVpmMEZCSG5DTHEyVFlQTTRnQ3BBMEtTX0Rrc2lfb2R5Vmc5OFZIaVVRSnhhcG5kTTk2VndJV00yVC1uTlZLZ0NLN3R3QVFaUnpXME9aZW5rWFBUZTFSZE1Tdjk0X1lQUWE1T0tNN2I3cGh3?oc=5"
     }
   ]
 }
