@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-13T15:17:17.407663",
+  "timestamp": "2026-04-14T07:18:06.423176",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 10,
-    "neutral": 13,
-    "bearish": 2,
-    "high_priority": 8,
+    "bullish": 11,
+    "neutral": 11,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
-    "Bloomberg": 2,
+    "Reuters": 12,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1,
-    "CNBC": 5,
-    "MarketBeat": 2
+    "MarketBeat": 4,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -29,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +98,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Bond Traders Snap Back to Inflation as Higher-for-Longer Sets In",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "An increasingly fragile ceasefire between the US and Iran is returning the bond market\u2019s focus to inflation and reinforcing expectations that interest rates will stay higher for longer.",
+      "category": "fixed_income",
+      "date": "2026-04-12 19:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-12/bond-traders-snap-back-to-inflation-as-higher-for-longer-sets-in"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -109,7 +118,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,38 +128,88 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-13 15:17",
+      "date": "2026-04-14 07:18",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Exclusive: Luxury brands face profit squeeze as Iran conflict shrinks UAE mall sales, sources say - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Exclusive: Luxury brands face profit squeeze as Iran conflict shrinks UAE mall sales, sources say\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-04-13 11:05",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZGQ2c1RKWXhPWl93U3BJR0NUS3hJaXY4aG04d3ctME93OWx6WmxsWHFnSDZERmdvMUNaU1BiT2hpVUxueV9JLUlWXzdkMTh4SlVXdjNJU2NkZzBjdUcyZnhzOTFfcXBvb3kwTERqMzFudkdQT2Q5cUxDMmx5dUlrVjdnRTVVeVRsemFWa2xMMGlJUFFSeVRpeE5DRG1vTktCSWswMEdXRUNNUjdiN1k1TU1QY0xGcFRhWnMyRkFJZUNfa0RwaWc?oc=5"
-    },
-    {
-      "headline": "China poised for Q1 GDP growth rebound but Iran war dims 2026 outlook: Reuters poll - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "China poised for Q1 GDP growth rebound but Iran war dims 2026 outlook: Reuters poll\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-04-13 08:32",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRFY1V3k1VU5NbDBNZS1OV09rTDA3OEtxZmRndWRUaGFtaDBxZ1JOYmU0RWZ1QzJhM3JucGc0NE9xdm5MTFhFLXNVWWVXSXVOak8tMGRnbk5vdjBUYThWaEpEdDNUbC1zcjVFZ19wOEhiM3gtSDlobGhVNHJ2VnhuaWdwUGtjMy1CLXlQSDIxZUNkV2FsWlZVTGJmX0t1djVIWFpJTW1sVjd0U1AxLWc?oc=5"
-    },
-    {
-      "headline": "European chemical firms, hit hard by Iran war, to report falling Q1 earnings - Reuters",
+      "headline": "Singapore tightens monetary policy as Iran war fuels inflation risks - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "European chemical firms, hit hard by Iran war, to report falling Q1 earnings\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-04-13 06:04",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1JlN2FvLUFxZGZGeFBpZGc3VlhfaEpUbUdKQ0RlRjJ3eTlWWFdEYkNYSEczTVNUX0VnZWFPME1jUGpwaEVUa0hDQUgzYlBKeW1Fd2hKY2FoT3dpWERzdUUxXzlYLUlSOGZpWTBnUlJUczNGVGt0Y3dYaU8wd1hMZFlkNVBEZW5HTnpaS0VUWGo3Z08xdEt1TFVVRUFMZG9wWVpqdGNBZ1haQUpQWlZ5eFptbVZWdnc?oc=5"
+      "impact": "Singapore tightens monetary policy as Iran war fuels inflation risks\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-14 00:20",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb0V3Tmc1RjNXTFRLYUxkSVZ6WFNCdGdWX1R3Zm9pNGVPVHJuRjFqZEhjWExGLUhNbXl0NEhVUGJ1T3YyQWtLUldfOFNIdS1VTUE2RklJakFSNlpYT1hNMnJEaVExWVktTFJ4aTI2TEs5ZGZGWmNOQ0FVaHdXRjJBeWVuZWZxNUx6SmRyZHFnb1NNUWZwRVVWR1d0cS1OWjlSWlpIYmNDLU9BMS1aT3V5aw?oc=5"
+    },
+    {
+      "headline": "United Airlines Holdings Inc (NASDAQ:UAL) Given Consensus Recommendation of \"Buy\" by Brokerages",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "United Airlines Holdings Inc (NASDAQ:UAL) has received a consensus \"Buy\" recommendation from seventeen brokerages, with an average 1-year price target of $131.19. The company recently surpassed quarterly earnings estimates and provided optimistic guidance for Q1 and FY 2026. Institutional investors ",
+      "category": "us_equities",
+      "date": "2026-04-14 06:34",
+      "link": "https://www.marketbeat.com/instant-alerts/united-airlines-holdings-inc-nasdaqual-given-consensus-recommendation-of-buy-by-brokerages-2026-04-14/"
+    },
+    {
+      "headline": "Costco Wholesale Corporation (NASDAQ:COST) Receives Consensus Rating of \"Moderate Buy\" from Brokerages",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Costco Wholesale Corporation (NASDAQ:COST) has received a consensus \"Moderate Buy\" rating from thirty-four analysts, with an average 12-month price target of $1,043.13. Recent positive drivers include higher gas prices, a membership fee increase, and accelerating international sales. The company rec",
+      "category": "us_equities",
+      "date": "2026-04-14 06:34",
+      "link": "https://www.marketbeat.com/instant-alerts/costco-wholesale-corporation-nasdaqcost-receives-consensus-rating-of-moderate-buy-from-brokerages-2026-04-14/"
+    },
+    {
+      "headline": "Kraft Heinz Company (NASDAQ:KHC) Receives Consensus Rating of \"Reduce\" from Brokerages",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Kraft Heinz Company (NASDAQ:KHC) has received a consensus \"Reduce\" rating from twenty-one brokerage firms, with an average 12-month price target of $23.53. The company recently beat quarterly EPS estimates but saw a revenue decline and issued FY-2026 EPS guidance below some analyst forecasts. Despit",
+      "category": "us_equities",
+      "date": "2026-04-14 06:30",
+      "link": "https://www.marketbeat.com/instant-alerts/kraft-heinz-company-nasdaqkhc-receives-consensus-rating-of-reduce-from-brokerages-2026-04-14/"
+    },
+    {
+      "headline": "Microchip Technology Incorporated (NASDAQ:MCHP) Given Average Recommendation of \"Moderate Buy\" by Brokerages",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Microchip Technology Incorporated (NASDAQ:MCHP) has received an average \"Moderate Buy\" rating from 26 brokerages, with an average 12-month price target of $86.00. Despite recent strong earnings that beat estimates and a 15.6% revenue increase year-over-year, the company has a negative net margin and",
+      "category": "us_equities",
+      "date": "2026-04-14 06:30",
+      "link": "https://www.marketbeat.com/instant-alerts/microchip-technology-incorporated-nasdaqmchp-given-average-recommendation-of-moderate-buy-by-brokerages-2026-04-14/"
+    },
+    {
+      "headline": "US begins Iran port blockade, oil prices ease on hopes for dialogue - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US begins Iran port blockade, oil prices ease on hopes for dialogue\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-04-14 04:09",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOXA0bTBHblBiMUJyaU1FdmxCWVZuc0hwWUk0MzdEQklTWC04MXFSZlE3U2RGRzRORVpaNEIzLUVERkRVUVpTRUZCNUlXUlltXzZYUFRHNDF2MS1Xd005RXhjd2IwLVBySWM1eThBTVl6blJoWHJ6SXFqcl9WeGZBYTdRSUFVOE9NTF9nTmp6dFVXYldkQl9uQXQ0OTktNkIwMWdyUFk4cjdEVmUyX0VrQzhCejQ?oc=5"
+    },
+    {
+      "headline": "US-sanctioned tankers pass Strait of Hormuz despite US blockade, data shows - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US-sanctioned tankers pass Strait of Hormuz despite US blockade, data shows\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-14 03:42",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa0ZDQ3dmc1dUeUd5WHByYUpEemJmM1NsVy14TW1xNl81ekItMjQ2VEJrUnJUUE1OaXpCdHItSWlrTmlWOTRlWFN3c2oxb3lJc2ozTkNRc0ZidVEtZ0RqUFFhRVg3bzVjSTNuYk9ZX1dJb3NpMW1jV25KRXFfTXExbXN6OXdidzVUTVlhSFB6RTczcmtlM3VCZlp4RU1wZi11MlBZN295bzFVTG8xcFFIb0o0X3JBMDFpaXhmdGFWbXF0d1pmYTYxZElSQTg?oc=5"
+    },
+    {
+      "headline": "China's export engine stutters as Iran war chills global demand - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "China's export engine stutters as Iran war chills global demand\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-04-14 03:27",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLXhzMWhMLWxBWlF0NWZkb0RLQ3gtNXVYZmRVRng0MUw2clZ6dGVFbFdpeHR2UllHYmRmUHBWT29fNjA3aEQ2bDRzLUN6WGJTM19FVjdRMjQ3VGlLbjZKOEpLV1pRQmpJWnZ3ODRETWRvN2dqcHNYM1lCVUl4TVBEZ2t1SFAwbTd4RXVNVnZrOE9ZVnF4a0J3bnloNWJseGhWTGFJWEJtMnRGbmhX?oc=5"
     },
     {
       "headline": "Goldman Sachs has the top rank among the S&P 500 by this remarkable statistic",
@@ -159,118 +218,58 @@
       "sentiment": "neutral",
       "impact": "The investment bank has consistently rewarded its shareholders.",
       "category": "us_equities",
-      "date": "2026-04-13 14:56",
+      "date": "2026-04-14 02:23",
       "link": "https://www.marketwatch.com/story/goldman-sachs-has-the-top-rank-among-the-s-p-500-by-this-remarkable-statistic-cedc206c?mod=mw_rss_topstories"
     },
     {
-      "headline": "Goldman Sachs tops estimates on record equities trading \u2014 here's why the stock is falling",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Goldman Sachs posted record equities trading revenue for the first quarter, helping propel the overall firm to its second-highest quarterly revenue.",
-      "category": "commodities",
-      "date": "2026-04-13 14:30",
-      "link": "https://www.cnbc.com/2026/04/13/goldman-sachs-gs-earnings-1q-2026.html"
-    },
-    {
-      "headline": "How Kodak is trying to turn around its business after teetering on bankruptcy",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Photography company Eastman Kodak has seen its fair share of financial struggles, but CEO Jim Continenza is determined to fuel its success.",
-      "category": "global_markets",
-      "date": "2026-04-13 14:24",
-      "link": "https://www.cnbc.com/2026/04/11/kodak-film-business-ceo-jim-continenza.html"
-    },
-    {
-      "headline": "Revolution Medicines says its potential breakthrough pancreatic cancer drug succeeds in late-stage trial",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Revolution Medicines' drug for pancreatic cancer succeeded in a highly anticipated Phase 3 trial, the company said. ",
-      "category": "global_markets",
-      "date": "2026-04-13 14:17",
-      "link": "https://www.cnbc.com/2026/04/13/pancreatic-cancer-drug-daraxonrasib-from-revolution-medicines-succeeds-in-trial.html"
-    },
-    {
-      "headline": "US to enforce blockade in Gulf of Oman, Arabian Sea, note to seafarers says - Reuters",
+      "headline": "South Korea's Lee warns Iran war to keep oil price high, orders quick aid rollout - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US to enforce blockade in Gulf of Oman, Arabian Sea, note to seafarers says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-13 14:13",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS0szdHBSYkhSUGpQeEpwN2thWDdKdGI1ZkZhWmhkcjliLUhuWGJIbXpWdWhET2lyY0xZZG44LU1qYUhTdm5vTHBOUjNnZndIOWJXLW1aQy1fQzhKZEt6MXVwd2s3X2tBNEM5WC1ya2tjZG52cm5oODYzZWVXS3g5NlE5QWNjZFRDQjVxT01PQlI0clo0NjljeWwwNGw4MnRBaDdRZVRyLUhTelh4R1MwTEVFWQ?oc=5"
+      "impact": "South Korea's Lee warns Iran war to keep oil price high, orders quick aid rollout\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-04-14 02:18",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMWN6OG43dndENDM2ZktFVklycDNuLWx3NE55Tl93U29jSjNZVTdkcG5pQjlhT2ZHc2U1c0N4dWpHSFMwMXVTelFwYm9VODVKTHFHUUhOMVdVaE5qOHE2QXNtWTlHcDBYMkpqU1M0bzlTa1VDMGNWVHZQNzEyektpZ1FWeTROdzRpM3NkeXJwby1idndjNnVDWHBJNGpnNVZCa01Ua3FyMWpQWnBheVdPWFdtSzV4NWhVNzdqTUN4VG9yMjdsTFFwZzlHQmJhTmtn?oc=5"
     },
     {
-      "headline": "Barclays Lowers Gen Digital (NASDAQ:GEN) Price Target to $26.00",
+      "headline": "Stocks rebound, oil and dollar slip on hopes of US-Iran resolution - Reuters",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Barclays has reduced its price target for Gen Digital (NASDAQ:GEN) from $32.00 to $26.00, maintaining an \"equal weight\" rating, indicating a potential upside of 42.66% from its last close. Despite beating Q4 earnings estimates with $0.64 EPS and 25.8% year-over-year revenue growth, the cybersecurity",
-      "category": "us_equities",
-      "date": "2026-04-13 14:02",
-      "link": "https://www.marketbeat.com/instant-alerts/barclays-lowers-gen-digital-nasdaqgen-price-target-to-2600-2026-04-13/"
+      "impact": "Stocks rebound, oil and dollar slip on hopes of US-Iran resolution\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-04-14 01:36",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWmhRTmVMQUVCRTFCTjNOZ25hYVZuN1NiNTc4SVpxQ001VGR4ZFM0TzJqUHQ4S0E0ZXg4YVBZeGE3c2FZTnkxU2JHeXFBOWpRU2RRdzdRUFZQTnhjTFlOTE5FRVdwc3FidUo3RDR4MHRCV25Od1Y3ekRDa2hWYVlKcHEyaw?oc=5"
     },
     {
-      "headline": "ASML (NASDAQ:ASML) Earns Buy Rating from JPMorgan Chase & Co.",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "JPMorgan Chase & Co. has reiterated a \"Buy\" rating on ASML's stock, with other analysts generally maintaining positive outlooks and an average target price of $1,482.50. The company, a leader in photolithography systems for semiconductor manufacturing, has a market capitalization of $576.1 billion a",
-      "category": "us_equities",
-      "date": "2026-04-13 13:59",
-      "link": "https://www.marketbeat.com/instant-alerts/asml-nasdaqasml-earns-buy-rating-from-jpmorgan-chase-co-2026-04-13/"
-    },
-    {
-      "headline": "OPEC lowers second-quarter global oil demand forecast on Iran war - Reuters",
+      "headline": "Australian business, consumer confidence crashes on worries about fallout from Iran war - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "OPEC lowers second-quarter global oil demand forecast on Iran war\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-04-13 13:55",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV0ZvZVctYXdQbFZqa3VYZDJzYnlIQTJwTkdxa2xTel85MWZoUExRNjBTbWJfSFowanFiV25BMWlzVXNadHgzcUdYY3ZScXJCREFxdUc4VlQ5SE5HcVd3SkJjazJEOHNMT3R4VTcxaWV6MTV2WV9rOWJ2b3hndUJoWE1YOVRoQ2wyQVZKR3pBODRmVVY1WjhOTmNCcmpmMzNDOWU5VlpNRkg0d3lKa3Q5blRLcjA?oc=5"
+      "impact": "Australian business, consumer confidence crashes on worries about fallout from Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-14 01:32",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ2l0TkpoSkZ1bGlBaWxGakh6NFZiSW1OMy1SU0FCYTZlNTlaalB1RERUX2xINHBCTW1QT2JOdjdBOEgycDRSYk9tYTFKODFrMDdhZmxXNU40elZSNllOQ0prel9RUkR5UWY1NkVrTll3Tk5DREYxU3hBTVRIaUozR2FMTXRSQXFrU0pIVi1yZW13aWZLZG5LQ3RBdldEWHRJTmk0OS1ycW5KcjQ3NHhFMENmQUxaTmlKT21McXFBbnRqNEotZ1ZqQQ?oc=5"
     },
     {
-      "headline": "Wall St subdued at open as failed US-Iran talks unsettle investors - Reuters",
+      "headline": "Safe-haven dollar sinks slowly as traders hope for Mideast breakthrough - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Wall St subdued at open as failed US-Iran talks unsettle investors\u00a0\u00a0Reuters",
+      "impact": "Safe-haven dollar sinks slowly as traders hope for Mideast breakthrough\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-13 13:36",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnlHODRfWHZBSmRTd0hYTjBoVndLOTk4dm8tS1Q5WmVlQVZ5NEtoYU9wUFZKdXdMOXlYc0d4RU5jMEFyTUthSTZaMTlGMEJEaHdtNWh1YndGQnlRWjhQMnJzVmZFNTFhZ2FQX3JESzhxc1NaMXRiclVmNHlaZkIwT3dhWTJ6eFgtZ3ZQVDBZV2FoQ3RPWlRCbm5ZSDNSX2tqV0NjWE9EM0JLaENHRTNj?oc=5"
+      "date": "2026-04-14 00:52",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOHRVTkxBaVhqdlNsU0RlMlc4aTFqdUdlMlZWVlBteF8yeUtJSGJIM2hFV3F0SzVtYzNUMWVMWllnQ2tkdWJXb08zYklfRWU4QnY3UzdOUmJjRUpzOXFUSlVrY0VnX0tyQ19kZU9tRHJwWEZTY2F6bmpnS1RkZGtLcTIxR0JMNzQ1VUNzaFNIckluYnYzNlJHWkFUNDZ5aXk5emc?oc=5"
     },
     {
-      "headline": "We're pocketing gains in this rallying chipmaker to right-size the position",
+      "headline": "Wall Street indexes gain as investors hold out hope for US-Iran resolution - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "The stock's 18% rally last week made it our largest position in the portfolio.",
-      "category": "global_markets",
-      "date": "2026-04-13 13:00",
-      "link": "https://www.cnbc.com/2026/04/13/were-pocketing-gains-in-this-rallying-chipmaker-to-right-size-position.html"
-    },
-    {
-      "headline": "Delta Air Lines unveils first new Delta One suite in premium cabin arms race",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Delta and other carriers are ramping up premium seats on board.",
-      "category": "global_markets",
-      "date": "2026-04-13 13:00",
-      "link": "https://www.cnbc.com/2026/04/13/delta-one-suite.html"
-    },
-    {
-      "headline": "Iran denies charging toll for Indian tankers transiting Hormuz strait - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran denies charging toll for Indian tankers transiting Hormuz strait\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-13 12:44",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLUstUGtfd0NjSUxuY3l0dm12aHRacG1IM2g3d0Q3VmNkWlFRbWhnM3VIODBQUDBCcThwQnRjY0xWVy0zejNYOEpCbEN4WTN0RDJnUWFGaTJGNnZkeVBaTGg5YmpqWENDekNxWmVNOXZ3cmNGTW5LOWp0VTEtMUVJcXhSWk9vWGxCZUEwWXZJbmwwZnRyM2lqY0liVWJsd1RncnFjbHplUEwyVW5QZGsxRzI5T0FDRFBWMm93UnBadXBVUQ?oc=5"
+      "impact": "Wall Street indexes gain as investors hold out hope for US-Iran resolution\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-04-13 22:45",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnlHODRfWHZBSmRTd0hYTjBoVndLOTk4dm8tS1Q5WmVlQVZ5NEtoYU9wUFZKdXdMOXlYc0d4RU5jMEFyTUthSTZaMTlGMEJEaHdtNWh1YndGQnlRWjhQMnJzVmZFNTFhZ2FQX3JESzhxc1NaMXRiclVmNHlaZkIwT3dhWTJ6eFgtZ3ZQVDBZV2FoQ3RPWlRCbm5ZSDNSX2tqV0NjWE9EM0JLaENHRTNj?oc=5"
     }
   ]
 }
