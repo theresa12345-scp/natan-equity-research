@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-23T07:22:16.302622",
+  "timestamp": "2026-04-23T15:56:58.659188",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 14,
-    "neutral": 9,
-    "bearish": 2,
-    "high_priority": 9,
+    "avg_relevance": 7.4,
+    "bullish": 12,
+    "neutral": 10,
+    "bearish": 3,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,14 +14,16 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 8,
+    "Reuters": 7,
     "Bloomberg": 2,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "CNBC": 2,
+    "MSN": 1,
+    "Yahoo Entertainment": 1,
+    "Investor's Business Daily": 1,
+    "Investing.com": 1,
     "MarketWatch": 1,
-    "Federalreserve.gov": 1,
-    "Stock Titan": 1,
-    "MarketBeat": 5
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -31,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,8 +103,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Comcast beats revenue, earnings expectations as broadband losses improve ",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Comcast\u2019s first-quarter earnings were lifted by NBC\u2019s sports slate in February as well as fewer broadband customer losses than prior quarters.",
+      "category": "corporate_earnings",
+      "date": "2026-04-23 13:56",
+      "link": "https://www.cnbc.com/2026/04/23/comcast-cmcsa-earnings-q1-2026.html"
     },
     {
       "headline": "S&P, Nasdaq close at records on Iran ceasefire extension, earnings - Reuters",
@@ -121,7 +133,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,18 +143,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-23 07:22",
+      "date": "2026-04-23 15:56",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Gold falls on oil-driven inflation fears; US-Iran developments in focus - Reuters",
+      "headline": "SLB Q1 earnings preview: Earnings seen falling despite steady revenue growth",
+      "score": 7,
+      "source": "MSN",
+      "sentiment": "negative",
+      "impact": "This article provides an earnings preview for SLB's (formerly Schlumberger) Q1 results. Analysts expect a year-over-year decline in earnings per share despite a projected increase in revenue. Investors will be looking for insights into the company's performance in international markets, digital solu",
+      "category": "corporate_earnings",
+      "date": "2026-04-23 15:03",
+      "link": "https://www.msn.com/en-us/money/markets/slb-q1-earnings-preview-earnings-seen-falling-despite-steady-revenue-growth/ar-AA21zwZR?ocid=finance-verthp-feeds"
+    },
+    {
+      "headline": "Wall St opens lower on Middle East impasse, mixed earnings - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Gold falls on oil-driven inflation fears; US-Iran developments in focus\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-04-23 02:46",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUhzZnR5V2FWcF8tblZRUTZPSktlVDB1RmwtTElEWGdiMHg5VnE2QVJiSUdFb1lLLXk4TV9iVGNsbmppcjBYZzIyVWRXTlB2aGNkdTVwN2RSRFl3NS1pWVVyVk9SdzlXVFRGaGRXWWtmUnBIb0tiRWg4ZTFNWG5EWHYtN184cTgza1BfdU9pS3MwWGRCRmtsLWJ3aTczWndpRURQeXdrZUFsWUVhcGc?oc=5"
+      "impact": "Wall St opens lower on Middle East impasse, mixed earnings\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-04-23 13:36",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc09RTW5BS211ZlFNcWU3bEN5YkZwUWdNcUd4NEhpeldpUEhOa2tpaFNuenNwSjR0azBNZ0xoS1hRNW12RTlnLW53SGJuRE5zTG0zOVhma3gwYXZfSFJZdl9tVjgta0N2VlQzU2FlZ1RFZE95czZmRUhrNzFMZ0hGRk4zVklOZE9DM28wMFhmSzV2bmZfZ3ZUamZWVE1kSVVBbTNr?oc=5"
+    },
+    {
+      "headline": "American Airlines cuts 2026 earnings projections after surge in jet fuel",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "American Airlines cut its 2026 earnings forecast, becoming the latest airline to lower its outlook after a surge in fuel costs added billions to its expenses.",
+      "category": "corporate_earnings",
+      "date": "2026-04-23 13:35",
+      "link": "https://www.cnbc.com/2026/04/23/american-airlines-aal-q1-2026-earnings.html"
+    },
+    {
+      "headline": "Southwest Airlines forecasts quarterly earnings below estimates on higher fuel",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The airline reported that revenue in its first-quarter period rose nearly 13% to $7.25 billion. ",
+      "category": "corporate_earnings",
+      "date": "2026-04-23 12:34",
+      "link": "https://www.cnbc.com/2026/04/22/southwest-airlines-luv-q1-2026-earnings.html"
+    },
+    {
+      "headline": "Iran war boosts European logistics profits as shipping chaos persists - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Iran war boosts European logistics profits as shipping chaos persists\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-04-23 06:01",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZkY5cUptVkUxVjR6UDJYU0tKaXY0TG82NkNsM3pwbW5wa1g3VjdzOUg3bGl0Wl9GdFBsaGpJRFROR2VzcER2YXMxVHh2SXdtT2JoY21xQjh0cXhXNnpxQmttOGVVWUpkdjl3d052T2psR1JHbjlZWDZ3dnpnbEg1cEZyUUVoczZLRWxmYS0xM3dwRUZ4U0pSbEc0cUdud21zdGV5VDJMR1prSU1EdlZLVQ?oc=5"
     },
     {
       "headline": "Japan's Nikkei reverses below 60,000 level as profit-taking steps in - Reuters",
@@ -155,124 +207,74 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVXozdksyZnNOQjV0bl9PcUJDc1BrVkluTUNQSlN5WlBUVlNUYWJuTXVUY1N1TGlCNWduVXV4aFhKLVRPWWtjLXhuamotdnlpcGgxaFNSRDZ2SnZLMk1QQVJJeXo0UTl2MjRacU53RXlwdHpNYXh6ZkRkVW43MmtsZlBjTk40VWJReU9GQWR3UC1RS0FEeXBTajJDQkJxQ1RCUndiRnlVSjBFSnp6TEd3?oc=5"
     },
     {
-      "headline": "Southwest Airlines forecasts quarterly earnings below estimates on higher fuel",
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq rise, oil climbs after Trump extends US-Iran ceasefire",
       "score": 7,
-      "source": "CNBC",
+      "source": "Yahoo Entertainment",
       "sentiment": "positive",
-      "impact": "The airline reported that revenue in its first-quarter period rose nearly 13% to $7.25 billion. ",
-      "category": "corporate_earnings",
-      "date": "2026-04-22 22:16",
-      "link": "https://www.cnbc.com/2026/04/22/southwest-airlines-luv-q1-2026-earnings.html"
+      "impact": "Major gauges climbed after a fragile extension of the ceasefire between the US and Iran was announced.",
+      "category": "us_equities",
+      "date": "2026-04-22 16:12",
+      "link": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-wednesday-april-22-dow-sp-500-nasdaq-trump-us-iran-ceasefire-230429476.html"
     },
     {
-      "headline": "These investments promise high yield with bond-like safety. But what looks too good to be true often is.",
+      "headline": "AT&T Earnings Top Views, Revenue In-Line Amid 'Convergence' Push",
       "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "neutral",
+      "impact": "Wireless phone subscriber additions topped consensus.",
+      "category": "corporate_earnings",
+      "date": "2026-04-22 11:45",
+      "link": "https://www.investors.com/news/technology/att-stock-att-earnings-news-q12026/"
+    },
+    {
+      "headline": "What $1 million buys you in real estate around the world ",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Luxury real estate in most major markets around the world continues to become more expensive, as the wealthy grow wealthier and more mobile. ",
+      "category": "global_markets",
+      "date": "2026-04-23 15:35",
+      "link": "https://www.cnbc.com/2026/04/23/luxury-real-estate.html"
+    },
+    {
+      "headline": "Starbucks' loyalty program changes are drawing value-conscious customers",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Starbucks made some major changes to its long-standing loyalty program last month.",
+      "category": "global_markets",
+      "date": "2026-04-23 15:00",
+      "link": "https://www.cnbc.com/2026/04/23/starbucks-loyalty-changes-are-drawing-value-conscious-customers.html"
+    },
+    {
+      "headline": "Earnings call transcript: Union Pacific beats Q1 2026 forecasts, stock rises",
+      "score": 6,
+      "source": "Investing.com",
+      "sentiment": "positive",
+      "impact": "Union Pacific (UNP) significantly surpassed Q1 2026 earnings forecasts, reporting an EPS of $2.93 against an expectation of $2.85, and revenue of $6.22 billion, slightly above the $6.21 billion forecast. This strong performance, driven by operational efficiency and strategic pricing, led to a 5.81% ",
+      "category": "corporate_earnings",
+      "date": "2026-04-23 14:58",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-union-pacific-beats-q1-2026-forecasts-stock-rises-93CH-4633222"
+    },
+    {
+      "headline": "U.S. inflation picture is the worst in almost 4 years",
+      "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "When dentists start getting cold calls about private credit, you know the fad has peaked.",
-      "category": "fixed_income",
-      "date": "2026-04-22 22:12",
-      "link": "https://www.marketwatch.com/story/when-dentists-start-getting-cold-calls-about-private-credit-you-know-the-fad-has-peaked-67f1ef78?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "European stocks slip as Middle East tensions persist; earnings watched - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "European stocks slip as Middle East tensions persist; earnings watched\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-04-22 16:15",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUC1oeWx6eEVXM19hVjdUblJza3V1cDRfWGJhaFFZcTFkSUtzbnJTNXhvTlcxVzFIVDRaVUdTVnphX2M3QmpaMkhSb3dnNjVWeC1hNzctQlV2YVNzMlRzNFEwejRhZ2tyNEpwTjBkbk1OTGFoYWRNcENTeG5KMzBJWElQd25COTgyM1p1QlYwallmNnJSWDQ1c2tHbkI4UDh2Wm14YUVhWnhiYUlrR3pGdUdtT2FIbTMwdTJvVGFvdTI?oc=5"
-    },
-    {
-      "headline": "Germany halves 2026 growth forecast, raises inflation outlook amid Iran war - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Germany halves 2026 growth forecast, raises inflation outlook amid Iran war\u00a0\u00a0Reuters",
+      "impact": "S&P Global surveys show that companies are willing to pay more for scarce supplies, in an echo of the pandemic.",
       "category": "global_markets",
-      "date": "2026-04-22 15:37",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRm9BZ0ZpT2c5anl6VWk0Rkg3N2VFN2pqTHM0ZGp0elZnSTFZUDJIempPZ2hmRmZ6cEhuNnp5V3dBdHhwN055WnNWTnJNTndZNk1GTk9mRzVuOFRTRVJuMjJMRDJLS0Nma2dhZExtTUd6ejkzbEVPbzJkRjQwOUk2ZVZzRzNEVkhzUm92eTBpQ2FxeDVtRjBsa3JCNmpQVUNid0tiZDdkendGc2UyTmdqNEl2dmdwei0tQUNpUE5n?oc=5"
+      "date": "2026-04-23 14:58",
+      "link": "https://www.marketwatch.com/story/u-s-inflation-picture-is-the-worst-in-almost-4-years-f3a3b03a?mod=mw_rss_topstories"
     },
     {
-      "headline": "Speech by Governor Waller on modernizing reserve bank operations",
-      "score": 7,
-      "source": "Federalreserve.gov",
+      "headline": "American Electric Power (NASDAQ:AEP) Price Target Cut to $138.00 by Analysts at BMO Capital Markets",
+      "score": 6,
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Thank you, David and thank you to Brookings for having me speak today.  1     Whenever anyone hears the words \"Federal Reserve\" they immediately think about mo",
-      "category": "us_monetary_policy",
-      "date": "2026-04-21 18:35",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260421a.htm"
-    },
-    {
-      "headline": "UPS and FedEx have begun filing for some tariff refunds",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "UPS and FedEx have begun filing requests for some tariff refunds through the government's refund process, but those funds could take months to reach customers.",
-      "category": "us_monetary_policy",
-      "date": "2026-04-21 17:17",
-      "link": "https://www.cnbc.com/2026/04/21/ups-fedex-tariff-refunds-ieepa.html"
-    },
-    {
-      "headline": "Director at FuelCell Energy (NASDAQ: FCEL) exercises 23,859 RSUs",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "FuelCell Energy director Natica von Althann exercised 23,859 Restricted Stock Units (RSUs) which converted into common shares on a one-for-one basis at a stated price of $0.00 per share on April 21, 2026. This compensation-related conversion was not an open-market purchase or sale. Following this tr",
+      "impact": "BMO Capital Markets has reduced its price target for American Electric Power (NASDAQ:AEP) to $138.00 from $141.00, maintaining a \"market perform\" rating. Other analysts have also adjusted their targets, with a consensus \"Moderate Buy\" rating and an average price target of $138.18. The company recent",
       "category": "us_equities",
-      "date": "2026-04-23 06:39",
-      "link": "https://www.stocktitan.net/sec-filings/FCEL/form-4-fuelcell-energy-inc-insider-trading-activity-3396fd3c8eaf.html"
-    },
-    {
-      "headline": "Caesars Entertainment, Inc. (NASDAQ:CZR) Given Average Rating of \"Hold\" by Analysts",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Caesars Entertainment, Inc. (NASDAQ:CZR) has received an average rating of \"Hold\" from seventeen analysts, with a consensus 12-month price target of $32.93. Despite reporting a quarterly EPS miss of ($1.23) against estimates of ($0.18), the company's revenue of $2.92 billion slightly exceeded expect",
-      "category": "us_equities",
-      "date": "2026-04-23 06:35",
-      "link": "https://www.marketbeat.com/instant-alerts/caesars-entertainment-inc-nasdaqczr-given-average-rating-of-hold-by-analysts-2026-04-23/"
-    },
-    {
-      "headline": "Rep. Maria Elvira Salazar Purchases Shares of Honeywell International Inc. (NASDAQ:HON)",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Rep. Maria Elvira Salazar recently purchased between $15,001 and $50,000 worth of Honeywell International Inc. (NASDAQ:HON) shares on March 24th. This transaction was part of several recent trades by the Representative, including purchases in United Rentals, FedEx, GE Aerospace, Amgen, Boeing, Cisco",
-      "category": "us_equities",
-      "date": "2026-04-23 06:09",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-maria-elvira-salazar-purchases-shares-of-honeywell-international-inc-nasdaqhon-2026-04-23/"
-    },
-    {
-      "headline": "Rep. Maria Elvira Salazar Buys Cisco Systems, Inc. (NASDAQ:CSCO) Stock",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Representative Maria Elvira Salazar (Republican-Florida) recently purchased between $1,001 and $15,000 worth of Cisco Systems (NASDAQ: CSCO) stock on March 19th in her UBS IRA account. This purchase follows Cisco's strong performance, including an earnings beat, 9.7% year-over-year revenue growth, a",
-      "category": "us_equities",
-      "date": "2026-04-23 06:09",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-maria-elvira-salazar-buys-cisco-systems-inc-nasdaqcsco-stock-2026-04-23/"
-    },
-    {
-      "headline": "Rep. Maria Elvira Salazar Purchases Shares of Cisco Systems, Inc. (NASDAQ:CSCO)",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Representative Maria Elvira Salazar recently purchased between $15,001 and $50,000 worth of Cisco Systems (CSCO) stock on March 19th, among several other stocks including Honeywell, Amgen, and FedEx. Cisco Systems has seen its stock hit a 52-week high, driven by AI and networking demand, and recentl",
-      "category": "us_equities",
-      "date": "2026-04-23 06:09",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-maria-elvira-salazar-purchases-shares-of-cisco-systems-inc-nasdaqcsco-2026-04-23/"
-    },
-    {
-      "headline": "Extreme Networks, Inc. (NASDAQ:EXTR) Given Average Recommendation of \"Moderate Buy\" by Brokerages",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "MarketBeat reports that Extreme Networks (NASDAQ:EXTR) has received an average \"Moderate Buy\" rating from eight analysts, with a consensus 12-month target price of $22.67. The company recently exceeded Q2 EPS and revenue estimates and provided positive guidance for future quarters. Insider activity ",
-      "category": "us_equities",
-      "date": "2026-04-23 06:09",
-      "link": "https://www.marketbeat.com/instant-alerts/extreme-networks-inc-nasdaqextr-given-average-recommendation-of-moderate-buy-by-brokerages-2026-04-23/"
+      "date": "2026-04-23 14:55",
+      "link": "https://www.marketbeat.com/instant-alerts/american-electric-power-nasdaqaep-price-target-cut-to-13800-by-analysts-at-bmo-capital-markets-2026-04-23/"
     }
   ]
 }
