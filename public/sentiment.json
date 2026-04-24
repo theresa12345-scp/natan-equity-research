@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-24T07:48:49.117581",
+  "timestamp": "2026-04-24T15:10:35.367097",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 9,
-    "neutral": 11,
-    "bearish": 5,
-    "high_priority": 9,
+    "avg_relevance": 7.4,
+    "bullish": 11,
+    "neutral": 7,
+    "bearish": 7,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "CNBC": 4,
+    "CNBC": 6,
     "Caixin/S&P Global": 1,
-    "StockStory": 2,
-    "MarketBeat": 5
+    "MarketWatch": 2,
+    "Investor's Business Daily": 1,
+    "Investing.com Australia": 1
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "S&P 500 and Nasdaq rise on fresh hopes of US-Iran talks, Intel boost - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "S&P 500 and Nasdaq rise on fresh hopes of US-Iran talks, Intel boost\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-04-24 14:06",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeFI0QnNnNVVVckNHY3RrNk9MQTd1aS1ZRzFVZ2FzZEIycjhqSjdndzdyYkdXdGNPSThqc1lrSURHeUdQQk9JLW1KTHlUWkZweGxibG1YRVJhN2F6b0dhb0loZGo1NUtWU3FOeVNIcG1oWDY2QnppRXdVTkh5LTE4MkZoaGxWNmFTQ3JoQkxGWWRVb0c2TjRSTnMxUzA3cHp5ZDc2N1d1Z2tMOThqcFE?oc=5"
     },
     {
       "headline": "Comcast beats revenue, earnings expectations as broadband losses improve ",
@@ -113,13 +124,23 @@
       "link": "https://www.cnbc.com/2026/04/23/comcast-cmcsa-earnings-q1-2026.html"
     },
     {
+      "headline": "Stocks fall, S&P 500 and Nasdaq pull back from all-time highs: Live updates",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Stocks declined Thursday, giving back some of the gains that took the S&P 500 and Nasdaq Composite to fresh record highs in the previous session.",
+      "category": "us_equities",
+      "date": "2026-04-23 13:49",
+      "link": "https://www.cnbc.com/2026/04/22/stock-market-today-live-updates.html"
+    },
+    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,8 +150,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-24 07:48",
+      "date": "2026-04-24 15:10",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Procter & Gamble earnings beat estimates as sales grow 7%",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The company reiterated its full-year forecast for earnings and sales.",
+      "category": "corporate_earnings",
+      "date": "2026-04-24 14:23",
+      "link": "https://www.cnbc.com/2026/04/24/procter-gamble-pg-q3-2026-earnings.html"
+    },
+    {
+      "headline": "Gold set for weekly loss as inflation concerns linger on US-Iran uncertainty - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold set for weekly loss as inflation concerns linger on US-Iran uncertainty\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-04-24 13:20",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSEFIY0JLcmhrNFBuMl8xVktiWk1URGhzb18zQnBUXzB1aTJaMTU2cHFMbmRsam1EMFZHTHd1UVJ4eWVrRTkwaUM5U3lEdDhLc3FwQWhEQzVrd05WTVk4b1lqLTVsekE3VjRDUy1ka0k4NGVMZFRsOVJoQ3JzMG9pbDFHSmg5dGQySUFlS1h6aURnQndyZnhKbkczcDRnXzRJRmtkcmhpVnROdE5f?oc=5"
+    },
+    {
+      "headline": "Fitch says no immediate downgrade if Indonesia's deficit tops 3% due to Iran war impact - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Fitch says no immediate downgrade if Indonesia's deficit tops 3% due to Iran war impact\u00a0\u00a0Reuters",
+      "category": "indonesia_economy",
+      "date": "2026-04-24 03:17",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUnJmMnM5ZjVfVS1EQUp5YVNoc3N4MzlUYTVKMXpmMmRJXzlQWFlWY01zeFhIcjlxTXlxYW9ZenU5MDVEd0tEREtKR1hBWnpIRi1LMk9kWnhkdkhUTGxTWE5tQ001UWhoVHM0dmZkR2pqc3g5Ulk5c2RPNTBVaGxPc05VSnZfVXMwQkp4RFY5bTdmNzN4NHZZNjZwMlRoc1lSQVlYcEpldml0UVpWdTg3NXhJYTNEVklOUTdqdUpfeEt0d3VvWktXNEhR?oc=5"
     },
     {
       "headline": "Stocks close lower on fading hopes for quick Iran deal, mixed quarterly earnings - Reuters",
@@ -143,124 +194,54 @@
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc09RTW5BS211ZlFNcWU3bEN5YkZwUWdNcUd4NEhpeldpUEhOa2tpaFNuenNwSjR0azBNZ0xoS1hRNW12RTlnLW53SGJuRE5zTG0zOVhma3gwYXZfSFJZdl9tVjgta0N2VlQzU2FlZ1RFZE95czZmRUhrNzFMZ0hGRk4zVklOZE9DM28wMFhmSzV2bmZfZ3ZUamZWVE1kSVVBbTNr?oc=5"
     },
     {
-      "headline": "London's FTSE 100 closes lower as investors monitor Iran conflict, earnings - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "London's FTSE 100 closes lower as investors monitor Iran conflict, earnings\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-04-23 16:21",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ1hFd1hFWExvekg2QVFiWk5ldEZXMTNiS3dmbEMyQVFGdGo0SEhsVWFHNHhzN0VOUHgyRGhUa3B3Q2hpNkxBNFhhVVA0RHgyZDNuOVVpR19zQlFGY2N0N09pSDdwMUt2SWdjalk3MDNpcm9ZSnhaRy1vZ0FRUk02ZmpjSzVtV2lPdlY1QkpZZ2hEUTdEYWItMS1odUFhMjFhRENuS1RLRDdzOUg3a3R3N0dUUzZKbnotWWRONQ?oc=5"
-    },
-    {
       "headline": "American Airlines cuts 2026 earnings projections after surge in jet fuel",
       "score": 7,
       "source": "CNBC",
       "sentiment": "negative",
       "impact": "American Airlines cut its 2026 earnings forecast, becoming the latest airline to lower its outlook after a surge in fuel costs added billions to its expenses.",
       "category": "corporate_earnings",
-      "date": "2026-04-23 13:35",
+      "date": "2026-04-23 11:09",
       "link": "https://www.cnbc.com/2026/04/23/american-airlines-aal-q1-2026-earnings.html"
     },
     {
-      "headline": "Southwest Airlines forecasts quarterly earnings below estimates on higher fuel",
+      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq set to decline as Trump says 'no time frame' for ending war; Intel results on tap; Tesla shares slip",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Follow all the latest U.S. market action for Thursday after the S&P 500 and Nasdaq each finished at record highs on Wednesday. Tesla shares were dropping in premarket trading, after reporting quarterly earnings after the closing bell on Wednesday.",
+      "category": "us_equities",
+      "date": "2026-04-23 11:03",
+      "link": "https://www.marketwatch.com/livecoverage/s-p-500-nasdaq-dow-jones-record-highs-close-donald-trump-cease-fire-iran-war-no-timeline"
+    },
+    {
+      "headline": "SK Hynix posts record first-quarter profit, in line with estimates as memory prices climb",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "The airline reported that revenue in its first-quarter period rose nearly 13% to $7.25 billion. ",
+      "impact": "SK Hynix posted yet another quarter of record profit and revenue, as prices for its products continue to surge amid strong AI demand.",
       "category": "corporate_earnings",
-      "date": "2026-04-23 12:34",
-      "link": "https://www.cnbc.com/2026/04/22/southwest-airlines-luv-q1-2026-earnings.html"
+      "date": "2026-04-22 22:55",
+      "link": "https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html"
     },
     {
-      "headline": "The 5 Most Interesting Analyst Questions From Fifth Third Bancorp\u2019s Q1 Earnings Call",
-      "score": 6,
-      "source": "StockStory",
-      "sentiment": "neutral",
-      "impact": "Fifth Third Bancorp's Q1 earnings showed strong sales growth following the Comerica acquisition, though revenue and adjusted operating income missed analyst estimates. Management addressed integration risks, margin drivers, loan utilization, deposit strategies, and potential revenue synergies during",
-      "category": "corporate_earnings",
-      "date": "2026-04-24 07:09",
-      "link": "https://stockstory.org/us/stocks/nasdaq/fitb/news/earnings-call/the-5-most-interesting-analyst-questions-from-fifth-third-bancorps-q1-earnings-call"
-    },
-    {
-      "headline": "The 5 Most Interesting Analyst Questions From Regions Financial\u2019s Q1 Earnings Call",
-      "score": 6,
-      "source": "StockStory",
-      "sentiment": "neutral",
-      "impact": "Regions Financial's Q1 earnings showed revenue growth but missed sales expectations, while non-GAAP profit surpassed estimates. Management highlighted strong loan growth, stable deposits, and improved credit metrics as key drivers. The article details the most interesting analyst questions from the ",
-      "category": "corporate_earnings",
-      "date": "2026-04-24 06:59",
-      "link": "https://stockstory.org/us/stocks/nyse/rf/news/earnings-call/the-5-most-interesting-analyst-questions-from-regions-financials-q1-earnings-call"
-    },
-    {
-      "headline": "European stocks poised for negative open as ceasefire optimism fades",
-      "score": 6,
-      "source": "CNBC",
+      "headline": "Stock Market Today: S&P 500, Nasdaq Score Record Highs On War Ceasefire; Tesla Shares Jump (Live Coverage)",
+      "score": 7,
+      "source": "Investor's Business Daily",
       "sentiment": "positive",
-      "impact": "Futures data pointed to a broadly negative open in Europe on Friday, as uncertainty over a potential U.S.-Iran peace deal weighs on investor sentiment.",
-      "category": "global_markets",
-      "date": "2026-04-24 06:27",
-      "link": "https://www.cnbc.com/2026/04/24/european-stocks-iran-ceasefire-optimism-fades-.html"
-    },
-    {
-      "headline": "Fulgent Genetics (FLGT) to Release Earnings on Friday",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Fulgent Genetics (FLGT) is scheduled to release its Q1 2026 earnings before the market opens on Friday, May 1st. Analysts anticipate an EPS of ($0.3854) and revenue of $68.48 million for the quarter, with FY 2026 guidance set at -1.45 EPS. The company previously topped EPS estimates but reported neg",
-      "category": "corporate_earnings",
-      "date": "2026-04-24 06:10",
-      "link": "https://www.marketbeat.com/instant-alerts/fulgent-genetics-flgt-to-release-earnings-on-friday-2026-04-24/"
-    },
-    {
-      "headline": "Moderna (MRNA) Expected to Announce Earnings on Friday",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Moderna (MRNA) is slated to release its Q1 2026 earnings before market open on Friday, May 1st, with analysts forecasting a loss of ($2.03) EPS and $251.0 million in revenue. The company faces ongoing financial challenges, including negative margins and projected yearly losses, despite potential boo",
-      "category": "corporate_earnings",
-      "date": "2026-04-24 06:03",
-      "link": "https://www.marketbeat.com/instant-alerts/moderna-mrna-expected-to-announce-earnings-on-friday-2026-04-24/"
-    },
-    {
-      "headline": "Italy's Eni raises share buyback to 2.8 billion euros",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Italian energy group Eni has significantly increased its share buyback program to 2.8 billion euros, a nearly 90% rise, while also improving its 2026 cash flow guidance. This announcement comes after the company reported a slight decrease in first-quarter adjusted net profit, which was 1.3 billion e",
-      "category": "global_markets",
-      "date": "2026-04-24 05:49",
-      "link": "https://www.reuters.com/business/energy/italys-eni-raises-share-buyback-28-billion-euros-2026-04-24/"
-    },
-    {
-      "headline": "Union Pacific (NYSE:UNP) Sets New 1-Year High Following Strong Earnings",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Union Pacific (NYSE:UNP) stock hit a new 52-week high after reporting stronger-than-expected Q1 earnings, with EPS of $2.93 and revenue of $6.22 billion, surpassing consensus estimates. Management reiterated its pursuit of the Norfolk Southern acquisition and affirmed annual guidance, despite a warn",
+      "impact": "Stock Market Today: The Dow Jones index rises after President Donald Trump extends the U.S.-Iran ceasefire. Tesla earnings are due late.",
       "category": "us_equities",
-      "date": "2026-04-24 05:44",
-      "link": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-sets-new-1-year-high-following-strong-earnings-2026-04-24/"
+      "date": "2026-04-22 20:35",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-tesla-earnings-tsla-stock/"
     },
     {
-      "headline": "Church & Dwight (CHD) to Release Quarterly Earnings on Friday",
+      "headline": "Pirro drops probe into Fed\u2019s Powell, paving way for Warsh confirmation",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Church & Dwight (NYSE:CHD) is scheduled to release its Q1 2026 earnings before market open on Friday, May 1st. Analysts anticipate earnings of $0.93 per share and revenue of $1.4549 billion. The company reported strong Q4 2025 results, beating analyst estimates, and recently increased its quarterly ",
-      "category": "corporate_earnings",
-      "date": "2026-04-24 05:40",
-      "link": "https://www.marketbeat.com/instant-alerts/church-dwight-chd-to-release-quarterly-earnings-on-friday-2026-04-24/"
-    },
-    {
-      "headline": "GrafTech International (EAF) to Release Earnings on Friday",
-      "score": 6,
-      "source": "MarketBeat",
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "GrafTech International (EAF) is scheduled to release its Q1 2026 earnings before market open on Friday, May 1st, with analysts expecting a loss of ($1.3033) per share and revenue of $120.667 million. The company missed previous estimates and analysts project continued losses for the current and next",
-      "category": "corporate_earnings",
-      "date": "2026-04-24 05:35",
-      "link": "https://www.marketbeat.com/instant-alerts/graftech-international-eaf-to-release-earnings-on-friday-2026-04-24/"
+      "impact": "President Donald Trump\u2019s Department of Justice on Friday said that it\u2019s backing down in a standoff over the leadership of the Federal Reserve, and that announcement is expected to pave the way for Trump\u2019s nominee for Fed chair, Kevin Warsh, to take over for current Fed Chair Jerome Powell as Powell\u2019",
+      "category": "us_monetary_policy",
+      "date": "2026-04-24 14:49",
+      "link": "https://www.marketwatch.com/story/pirro-drops-probe-into-feds-powell-paving-way-for-warsh-confirmation-b77bc126?mod=mw_rss_topstories"
     },
     {
       "headline": "Exclusive: Pentagon email floats suspending Spain from NATO, other steps over Iran rift, source says - Reuters",
@@ -269,8 +250,28 @@
       "sentiment": "neutral",
       "impact": "Exclusive: Pentagon email floats suspending Spain from NATO, other steps over Iran rift, source says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-24 05:03",
+      "date": "2026-04-24 14:41",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM2RUTmM1S2o5X3BON3RZa25LVHBPMVFBVkdXRFg4NUhVaTQ5eHhBcTdPdnN4TDBzTnc2VVpNekUweDhXdjY3WjEyb2hhd0FNcHpHeW0ybmc5dVQ1aTVJZ3NRczljSU10SnpPdjhQV1NxdkhYVmx4SU9NczJCdzdfaU5sZkJ0XzlDNUJKc0xZNU9IaXFPV0V1TE1RWTBrd3RsMG9XY3FQTXlPMXNhNEZhQW1YTEtZQzVQT0VF?oc=5"
+    },
+    {
+      "headline": "FDA fast-tracks psychedelic drug research following Trump executive order",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "It's a big shift toward supporting psychedelic-based medicines for treatment-resistant depression, PTSD and substance use disorders, the FDA said.",
+      "category": "global_markets",
+      "date": "2026-04-24 14:32",
+      "link": "https://www.cnbc.com/2026/04/24/fda-psychedelic-drug-research-trump.html"
+    },
+    {
+      "headline": "Earnings call transcript: Northern Trust beats Q1 2026 expectations with strong EPS",
+      "score": 6,
+      "source": "Investing.com Australia",
+      "sentiment": "positive",
+      "impact": "Northern Trust (NTRS) significantly exceeded Q1 2026 earnings expectations with an EPS of $2.71 against a forecast of $2.32, and revenue of $2.21 billion, surpassing the anticipated $2.12 billion. This strong performance, driven by growth in trust fees and net interest income, led to a 5.56% increas",
+      "category": "corporate_earnings",
+      "date": "2026-04-24 14:21",
+      "link": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-northern-trust-beats-q1-2026-expectations-with-strong-eps-93CH-4383645"
     }
   ]
 }
