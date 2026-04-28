@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-04-27T15:50:28.521924",
+  "timestamp": "2026-04-28T08:07:37.023256",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
+    "avg_relevance": 7.4,
     "bullish": 12,
-    "neutral": 13,
-    "bearish": 0,
-    "high_priority": 8,
-    "material_events": 4
+    "neutral": 12,
+    "bearish": 1,
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
@@ -17,9 +17,9 @@
     "Reuters": 8,
     "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "Investing.com": 3,
-    "CNBC": 5,
-    "Benzinga": 1
+    "CNBC": 4,
+    "MarketWatch": 1,
+    "MarketBeat": 4
   },
   "top_signals": [
     {
@@ -29,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,8 +59,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "S&P 500, Nasdaq, close slightly higher in cautious start to a heavy earnings week - Reuters",
+      "score": 9,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "S&P 500, Nasdaq, close slightly higher in cautious start to a heavy earnings week\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-04-27 22:19",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTEs3OVpOYnhkaGZjal9qUlRkLWlyTFdYQUduUENEcFdwNDBZLVhSUWRBbnI1cUxPblpnaVk0NURRUFY1aVhlRno3VTBXWWU1ckM2VTFQd3RzQzczV3hiZVgwRVAzaXZjY1U4Yk9pRE1WZzRPOWRHam16M2RlQzVqTmlsRWQ2VEhuU1p1LUd6ZkNKeHh4R2lmUXBOa3ZXUGlHaHk0?oc=5"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -69,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +109,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -109,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,28 +129,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-27 15:50",
+      "date": "2026-04-28 08:07",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "S&P Global faces earnings test as bond issuance rebounds",
+      "headline": "BP quarterly profit more than doubles to $3.2 billion, driven by Iran war trading boon - Reuters",
       "score": 7,
-      "source": "Investing.com",
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "S&P Global is set to report its first-quarter earnings, with analysts anticipating a rebound driven by increased bond issuance, expecting earnings of $4.82 per share on $4.08 billion in revenue. Investors are closely watching the performance of the company's Ratings and Indices segments, as well as ",
-      "category": "us_equities",
-      "date": "2026-04-27 15:00",
-      "link": "https://www.investing.com/news/earnings/sp-global-faces-earnings-test-as-bond-issuance-rebounds-93CH-4639403"
+      "impact": "BP quarterly profit more than doubles to $3.2 billion, driven by Iran war trading boon\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-04-28 06:06",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSllpY284Nm5nTk5hN0dGZ1RKXzFCLVg5UkQ5TjNsLUtEbzlmMFJzUWF2VlpCaFpNM0RZSXYyZ1lQQVdwU2gxYUVXLVdZbzRKVW5ndm05dFhHeHRwSGNnWlRVVWQwY0tlWXlMQm16R2dJNFY2dGl5cWhFenVHOUJRRU1YTDdkd2RjOGZBRUdnUXhFNkE5eVE?oc=5"
     },
     {
-      "headline": "Wall Street indexes enter earnings-heavy week on cautious footing - Reuters",
+      "headline": "General Motors is set to report earnings before the bell. Here's what Wall Street expects",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Aside from earnings and any change to GM's 2026 guidance, investors are monitoring impact from the Iran war, tariffs and EV write-downs.",
+      "category": "us_equities",
+      "date": "2026-04-28 04:01",
+      "link": "https://www.cnbc.com/2026/04/28/general-motors-gm-earnings-q1-2026.html"
+    },
+    {
+      "headline": "Gold hits three-week low with US-Iran talks, central bank decisions in focus - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Wall Street indexes enter earnings-heavy week on cautious footing\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-04-27 14:28",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTEs3OVpOYnhkaGZjal9qUlRkLWlyTFdYQUduUENEcFdwNDBZLVhSUWRBbnI1cUxPblpnaVk0NURRUFY1aVhlRno3VTBXWWU1ckM2VTFQd3RzQzczV3hiZVgwRVAzaXZjY1U4Yk9pRE1WZzRPOWRHam16M2RlQzVqTmlsRWQ2VEhuU1p1LUd6ZkNKeHh4R2lmUXBOa3ZXUGlHaHk0?oc=5"
+      "impact": "Gold hits three-week low with US-Iran talks, central bank decisions in focus\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-04-28 01:32",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGNpbTBCYzQ2NWNmX3k1azB3TGczbV9nb3hsM1lQR2l5dTlxUkxQdjZjZks2T0xZM1Q4MEtSX3psV3lRT3ZIbU41VS1fSUF5MTBtV1liTUl3QW5HUGhHZ2ZKWi1GVHlTOC1zMW1obTFOamZ0OGdRRFlTNDA0SFZtQkZ6VUg3U1Z6R1Zvemw4RGhYRmhVLXBQWUM1c1AwMl9qaHFISEJ2RTI2NTA?oc=5"
+    },
+    {
+      "headline": "Higher inflation is on the way. The Fed needs to make this clear before it raises rates.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Fed\u2019s communication should help investors manage risk \u2014 including the possibility that rates may rise.",
+      "category": "us_monetary_policy",
+      "date": "2026-04-28 00:20",
+      "link": "https://www.marketwatch.com/story/higher-inflation-is-on-the-way-the-fed-needs-to-make-this-clearer-before-it-raises-rates-142c6884?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "US treasury chief says businesses working with Iranian airlines risk sanctions - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "US treasury chief says businesses working with Iranian airlines risk sanctions\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-04-27 20:26",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYXhJQW5WeC1iQWtQYnhibTJlbVd0YUxRS3Z2b0hNb3g4NXpYWjhlWnpVYTl2RjdUUlpTWVExNFlGVVlic2FrMUU3Rm5nUXJ6ZUZaX0FCSnAyOWstM1ViRGJnQWlJSms0Y1ZLWE41UWJsRzN4Rk9qRkYtN3BlM2JtalVkRXpCUjNTWk1vVEF1SE9ZeEVlUzJ3QkRCeXkwdGVTaW9BN09BQ05YZ2JyeWZfaUdqd0dvZnhCOHdkSE1fRXNqWGxsT25BWjhvVUM?oc=5"
     },
     {
       "headline": "This bank CEO let his AI clone handle an earnings call \u2014 now he's signing an OpenAI deal",
@@ -149,128 +189,88 @@
       "sentiment": "neutral",
       "impact": "It's part of Customers Bank CEO Sam Sidhu's effort to get ahead in the industry's race to transform itself using AI agents as a new digital workforce",
       "category": "corporate_earnings",
-      "date": "2026-04-27 13:30",
+      "date": "2026-04-27 18:45",
       "link": "https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html"
     },
     {
-      "headline": "The bullish signals ahead of this week's Mag-7 earnings",
+      "headline": "Procter & Gamble earnings beat estimates as sales grow 7%",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Calls are trading more expensive than puts in the five names that report this week, and call volume outpaces put volume in all but Alphabet.",
+      "impact": "The company reiterated its full-year forecast for earnings and sales.",
       "category": "corporate_earnings",
-      "date": "2026-04-27 11:31",
-      "link": "https://www.cnbc.com/2026/04/27/the-bullish-signals-ahead-of-this-weeks-mag-7-earnings.html"
+      "date": "2026-04-27 17:20",
+      "link": "https://www.cnbc.com/2026/04/24/procter-gamble-pg-q3-2026-earnings.html"
     },
     {
-      "headline": "China's industrial profit growth quickens even as Iran war heightens risks - Reuters",
+      "headline": "What Cramer would do with this 'overhyped' stock ahead of Tuesday earnings",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "China's industrial profit growth quickens even as Iran war heightens risks\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-04-27 01:40",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSmJsR1BjbHcySjZMeGVMd3I5cWkyY0lkQlNNUkFBeWYzdjZLWDFmbUJoQU41aUF1VUhNalZ5WUFGbl9wQktzMFJvSnluWm9WYl82QXJKcVg5OEFFUFV5WkVJLVRvRV9FbVdFeFdwUTcycFV0bktPejBMdHpqX0dVM2tlS3dzV2p4WUxxb3pVZjd3ZHZLVTR3NVR5T1RrVk51NnkzRmdDc2xxQVpPV2c?oc=5"
-    },
-    {
-      "headline": "Gold eases as focus turns to key central bank meetings - Reuters",
-      "score": 7,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Gold eases as focus turns to key central bank meetings\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-04-27 01:26",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXFycW01cUZWX3pld1pTbUEwTFNldzNlRlpzTjRLdHBQdmdRbTVUMEZlRUtpT1p2ektIRkdDWkpjT2lTYWNkNTRveFBpZHJDVUNUOGMxbVhOelZDdlVYbVpHdS1QWE8zOHpPbnFrcmgyaTYtcGo2a2UtWWM0SDg2VkQ0NVVoNWRMYXZXXzktelZOYWt3LW8xUnAxQUM5Z0RKR1Ewd0VjQUg4bnlINUd6RDNzb1ZmVjdV?oc=5"
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "corporate_earnings",
+      "date": "2026-04-27 16:00",
+      "link": "https://www.cnbc.com/2026/04/27/heres-what-cramer-would-do-with-this-overhyped-stock-ahead-tuesday-earnings.html"
     },
     {
-      "headline": "Dollar dips as traders eye US-Iran talks, central banks - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Dollar dips as traders eye US-Iran talks, central banks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-04-27 01:17",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWlM4RlNXbkFxNVJ6WVBIMDhNVnpLeEtFaVhBWG9fVWtfQzdCSGRycDExQkhCR3JkREhHVC13ZS1yX3VKQklJbWhmUEw4aHVNN18xNVlFdEpsbkx3R19IQ1AtTXdGLW9oZkNxYUlPNGVrdTExM1kzVW8tcDM0MnFHTTVtbTB3c1BYdWxJcFY0dlBWUVFSdGk0YUtqN2NZTXNZ?oc=5"
-    },
-    {
-      "headline": "Big Tech\u2019s $16 Trillion Earnings Week Is Make-Or-Break for Rally",
+      "headline": "China\u2019s Industrial Profits Surge as Reflation Offsets Cost Shock",
       "score": 7,
       "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "Wall Street\u2019s biggest technology stocks have carried the S&P 500 to record highs even as the war in Iran continues. Now, earnings from a handful of them this week will give investors a read on whether this rally\u2019s sustainable.",
-      "category": "corporate_earnings",
-      "date": "2026-04-26 13:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-26/big-tech-s-16-trillion-earnings-week-is-make-or-break-for-rally"
+      "impact": "China\u2019s industrial firms ended the first quarter with faster growth in earnings, an acceleration that hid a widening split between companies under pressure from higher costs and others benefiting from rising oil prices and the global artificial intelligence b\u2026",
+      "category": "asia_economy",
+      "date": "2026-04-27 01:43",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-27/china-s-industrial-profits-surge-as-reflation-offsets-cost-shock"
     },
     {
-      "headline": "Clock ticks on Spirit Airlines as bondholders weigh Trump bailout. Here's what could happen next",
-      "score": 7,
-      "source": "CNBC",
+      "headline": "Criteo (NASDAQ:CRTO) Stock Passes Below Two Hundred Day Moving Average - What's Next?",
+      "score": 6,
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "President Trump has said the government could buy Spirit.",
-      "category": "fixed_income",
-      "date": "2026-04-24 21:00",
-      "link": "https://www.cnbc.com/2026/04/24/spirit-airlines-trump-bailout.html"
+      "impact": "Criteo's stock (NASDAQ:CRTO) has fallen below its 200-day moving average of $19.56, closing at $19.31 with a \"Hold\" consensus rating and a target price of $30.45. Despite this technical weakness, a company director recently increased their stake by 23.15%, buying 5,000 shares at $17.81. Institutiona",
+      "category": "us_equities",
+      "date": "2026-04-28 07:03",
+      "link": "https://www.marketbeat.com/instant-alerts/criteo-nasdaqcrto-stock-passes-below-two-hundred-day-moving-average-whats-next-2026-04-28/"
     },
     {
-      "headline": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse - Reuters",
+      "headline": "Synopsys, Inc. (NASDAQ:SNPS) Receives Average Recommendation of \"Hold\" from Analysts",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Synopsys, Inc. (NASDAQ:SNPS) has an average \"Hold\" recommendation from seventeen analysts, with one \"sell\", eight \"hold\", and eight \"buy\" ratings, and an average one-year price target of $531.00. The company recently surpassed earnings expectations, reporting an EPS of $3.77 against a $3.56 consensu",
+      "category": "us_equities",
+      "date": "2026-04-28 06:55",
+      "link": "https://www.marketbeat.com/instant-alerts/synopsys-inc-nasdaqsnps-receives-average-recommendation-of-hold-from-analysts-2026-04-28/"
+    },
+    {
+      "headline": "Teradyne, Inc. (NASDAQ:TER) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Teradyne, Inc. (NASDAQ:TER) has received a \"Moderate Buy\" consensus recommendation from sixteen brokerages, with ten analysts issuing a buy rating and six a hold. The average one-year price target is $324.53, significantly below the stock's opening price of $402.01. The company recently reported str",
+      "category": "us_equities",
+      "date": "2026-04-28 06:53",
+      "link": "https://www.marketbeat.com/instant-alerts/teradyne-inc-nasdaqter-receives-consensus-recommendation-of-moderate-buy-from-brokerages-2026-04-28/"
+    },
+    {
+      "headline": "APA Corporation (NASDAQ:APA) Given Average Rating of \"Hold\" by Brokerages",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "APA Corporation (NASDAQ:APA) has received a consensus \"Hold\" rating from 31 brokerage firms, with an average 12-month price target of $39.50. Despite some analysts raising their price targets, other banks maintain \"underperform\" ratings, indicating mixed views on the stock. The company recently repo",
+      "category": "us_equities",
+      "date": "2026-04-28 06:53",
+      "link": "https://www.marketbeat.com/instant-alerts/apa-corporation-nasdaqapa-given-average-rating-of-hold-by-brokerages-2026-04-28/"
+    },
+    {
+      "headline": "Somalia's malnourished children hit hard by Iran war - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-04-27 15:02",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZVNYUGpiS2s3d0JQSGc2RTFWb0NFdlFTX1pVaE1Qbi1ySE5UTmJzQ1g0b0hMM2gzWGgxa0tBRko2cUd3bGNQNFNMbi1hbWI3REJXNy1UZ0EtQmpaMk1IaUVDbjV2TjNKNFV2Y1VlYW9sXzd2OGlJSVROZERMS3JCRDdpSnRoUDRyVVVSc3haWHQ4VDc2NDZXQXNjbjkyUk5UNlNCRzBVQmFFNGduSGVyZ3dnMDM4cUFqMGZLaDIxdlVvaHNSblY1bnN2Yw?oc=5"
-    },
-    {
-      "headline": "25% of Gen Z women think they must choose between love and career: It's 'the greatest challenge for women,' says expert",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Many Gen Z women believe to build their careers properly, they must put romantic relationships on hold, according to a new survey.",
+      "impact": "Somalia's malnourished children hit hard by Iran war\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-27 14:53",
-      "link": "https://www.cnbc.com/2026/04/27/25percent-of-gen-z-women-think-they-must-choose-between-love-and-career.html"
-    },
-    {
-      "headline": "United Airlines CEO confirms he approached American Airlines about merger",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "United CEO Scott Kirby said American rejected the idea, \"and without a willing partner, something this big simply can't get done.\"",
-      "category": "global_markets",
-      "date": "2026-04-27 14:51",
-      "link": "https://www.cnbc.com/2026/04/27/united-airlines-merger-with-american-airlines-ceo-airline-confirms.html"
-    },
-    {
-      "headline": "Brown & Brown earnings on deck as property rate pressures test",
-      "score": 6,
-      "source": "Investing.com",
-      "sentiment": "neutral",
-      "impact": "Brown & Brown Inc. is set to release its first-quarter earnings, with analysts anticipating EPS of $1.36 and revenue of $1.89 billion. Investors will be closely watching for signs that commercial property insurance rate declines are stabilizing and for updates on the integration of the Accession Ris",
-      "category": "corporate_earnings",
-      "date": "2026-04-27 14:50",
-      "link": "https://www.investing.com/news/earnings/brown--brown-earnings-on-deck-as-property-rate-pressures-test-93CH-4639364"
-    },
-    {
-      "headline": "Norfolk Southern Analysts Boost Their Forecasts Following Upbeat Q1 Earnings",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "Norfolk Southern (NYSE: NSC) reported better-than-expected Q1 earnings, with adjusted diluted EPS surpassing estimates despite a slight decline from the prior year. Following these results, Evercore ISI Group and BMO Capital analysts raised their price targets for the company. President and CEO Mark",
-      "category": "corporate_earnings",
-      "date": "2026-04-27 14:49",
-      "link": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/04/52066045/norfolk-southern-analysts-boost-their-forecasts-following-upbeat-q1-earnings"
-    },
-    {
-      "headline": "Ecolab set to report earnings as $4.75B data center bet looms",
-      "score": 6,
-      "source": "Investing.com",
-      "sentiment": "positive",
-      "impact": "Ecolab is preparing to report Q1 earnings, with analysts expecting adjusted EPS of $1.70 and revenue of $4.03 billion. Investors will focus on the company's organic growth and the impact of its $4.75 billion investment in AI data center cooling through its acquisition of CoolIT Systems. The market i",
-      "category": "corporate_earnings",
-      "date": "2026-04-27 14:48",
-      "link": "https://www.investing.com/news/earnings/ecolab-set-to-report-earnings-as-475b-data-center-bet-looms-93CH-4639357"
+      "date": "2026-04-28 06:03",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcm5sVFNMX3NPek1ocFFFWHRCNWRtZTlxOFA2YnhkSklONVpoNEk5cGZla2NHUnR3MndYS194TkgwbTR6b0tUdWJ2clRiRU8tZERHT3RzR0JjMVZoZ294LVJRUXdJd0stRTVJMlZZMUJ1UC1oSkxQZVNSbHZSMkM5UGRsSmV2OFB0cXJGeWRfVUJfbVFXdnhWZ1hWaWM?oc=5"
     }
   ]
 }
