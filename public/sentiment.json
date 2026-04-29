@@ -1,25 +1,26 @@
 {
-  "timestamp": "2026-04-28T16:08:05.948871",
+  "timestamp": "2026-04-29T08:00:50.242000",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.6,
-    "bullish": 12,
-    "neutral": 11,
+    "avg_relevance": 7.3,
+    "bullish": 10,
+    "neutral": 13,
     "bearish": 2,
-    "high_priority": 12,
-    "material_events": 5
+    "high_priority": 10,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "CNBC": 9,
+    "CNBC": 5,
+    "Investor's Business Daily": 1,
     "Caixin/S&P Global": 1,
-    "Investing.com": 1,
-    "MarketBeat": 1
+    "The Wall Street Journal": 1,
+    "MarketBeat": 3
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,18 +60,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "S&P 500, Nasdaq, close slightly higher in cautious start to a heavy earnings week - Reuters",
-      "score": 9,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "S&P 500, Nasdaq, close slightly higher in cautious start to a heavy earnings week\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-04-27 22:19",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTEs3OVpOYnhkaGZjal9qUlRkLWlyTFdYQUduUENEcFdwNDBZLVhSUWRBbnI1cUxPblpnaVk0NURRUFY1aVhlRno3VTBXWWU1ckM2VTFQd3RzQzczV3hiZVgwRVAzaXZjY1U4Yk9pRE1WZzRPOWRHam16M2RlQzVqTmlsRWQ2VEhuU1p1LUd6ZkNKeHh4R2lmUXBOa3ZXUGlHaHk0?oc=5"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -79,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -89,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -99,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -109,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -119,28 +110,18 @@
       "sentiment": "neutral",
       "impact": "Aside from earnings and any change to GM's 2026 guidance, investors are monitoring impact from the Iran war, tariffs and EV write-downs.",
       "category": "us_equities",
-      "date": "2026-04-28 15:52",
+      "date": "2026-04-28 20:13",
       "link": "https://www.cnbc.com/2026/04/28/general-motors-gm-earnings-q1-2026.html"
     },
     {
-      "headline": "Spotify stock plummets after earnings beat expectations as guidance disappoints",
+      "headline": "Dow Jones Futures: Nasdaq, S&P 500 Set More Record Highs; Micron, Nvidia, Sandisk, Alphabet Are Big Winners",
       "score": 8,
-      "source": "CNBC",
+      "source": "Investor's Business Daily",
       "sentiment": "positive",
-      "impact": "The Swedish audiostreamer's soft guidance overshadowed an earnings beat.",
-      "category": "corporate_earnings",
-      "date": "2026-04-28 12:57",
-      "link": "https://www.cnbc.com/2026/04/28/spotify-stock-spot-earnings-beat-guidance.html"
-    },
-    {
-      "headline": "Treasury yields rise as U.S.-Iran peace talks hit an impasse",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 rose more than 2 basis points at 4.356%.",
-      "category": "fixed_income",
-      "date": "2026-04-28 09:07",
-      "link": "https://www.cnbc.com/2026/04/28/treasury-yields-us-iran-peace-talks-at-impasse.html"
+      "impact": "Dow Jones Futures: The Nasdaq and S&P 500 set more record highs Monday. Micron, Sandisk, Nvidia and Alphabet were big winners.",
+      "category": "us_equities",
+      "date": "2026-04-27 23:45",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-iran-news-nvidia-alphabet/"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -149,7 +130,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -159,8 +140,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-04-28 16:08",
+      "date": "2026-04-29 08:00",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Stocks retreat on Iran, AI concerns as Fed meeting looms - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Stocks retreat on Iran, AI concerns as Fed meeting looms\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-04-29 01:53",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9od0NpclZ4VU9xb3Q5Qm9fNFk3ejI5a3ZrWmlTMmpqb0lWT0g3ZExrdmh6MnlfZTRabkVXS1hENXlEakN6QVJFaE1COWk1N0xfdTV1d2EyUS1uTjlsUnV3SVdoTU00RWtidE1NRDFBOVhaY2JQVEJyQkRfZw?oc=5"
+    },
+    {
+      "headline": "Red-hot Corning shares slide on earnings. Why that's a gift to investors",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The stock's massive rally in 2026 established a high bar for Tuesday's results.",
+      "category": "corporate_earnings",
+      "date": "2026-04-28 19:20",
+      "link": "https://www.cnbc.com/2026/04/28/red-hot-corning-shares-slide-on-earnings-why-thats-a-gift-to-investors.html"
+    },
+    {
+      "headline": "Iran war's boost to biofuels lifts US agriculture giants' earnings - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Iran war's boost to biofuels lifts US agriculture giants' earnings\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-04-28 18:24",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdWo0WjRnVGtnOExUVG1jbnVUMERMVnZHU0lQdjY4ZXZ0VDh6YUlLX2dBb3dPY19hc0JTZk9yMHVfVkE1Ry0zaG5vMEZwTlc1YUNuczhCakNxeVNPMGxKOG5hbWxOOTFiMmxQRjk5NjBFNU9xUkNvMHFjWmh2b0Q1NHJoNWpwdnNpRUdRUndjNHhlUDhqTjZ6Y2t6Ujlxc1BndEQ0UGZuNThaQWpjV2tNTjlGNHFyQ1JpcEwtRlhHRF9McDdoX3c?oc=5"
+    },
+    {
+      "headline": "Gold falls as Middle East tensions keep oil soaring, Fed meeting in focus - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gold falls as Middle East tensions keep oil soaring, Fed meeting in focus\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-04-28 17:55",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGNpbTBCYzQ2NWNmX3k1azB3TGczbV9nb3hsM1lQR2l5dTlxUkxQdjZjZks2T0xZM1Q4MEtSX3psV3lRT3ZIbU41VS1fSUF5MTBtV1liTUl3QW5HUGhHZ2ZKWi1GVHlTOC1zMW1obTFOamZ0OGdRRFlTNDA0SFZtQkZ6VUg3U1Z6R1Zvemw4RGhYRmhVLXBQWUM1c1AwMl9qaHFISEJ2RTI2NTA?oc=5"
     },
     {
       "headline": "Jamie Dimon warns of 'some kind of bond crisis' ahead as global debt risks build",
@@ -183,94 +204,74 @@
       "link": "https://www.cnbc.com/2026/04/28/coca-cola-ko-q1-2026-earnings.html"
     },
     {
-      "headline": "IDEX earnings up next: Can order momentum offset revenue decline?",
+      "headline": "OpenAI Misses Key Revenue, User Targets in High-Stakes Sprint Toward IPO",
       "score": 7,
-      "source": "Investing.com",
-      "sentiment": "negative",
-      "impact": "IDEX Corporation is set to release its first-quarter results, with analysts expecting a slight increase in earnings per share but a decline in revenue year-over-year. Investors will be focusing on the company's order momentum, execution of growth platforms, and margin performance to see if it can ma",
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "The company\u2019s CFO and board have questioned the wisdom of massive data-center spending in the face of slowing growth",
       "category": "corporate_earnings",
-      "date": "2026-04-28 15:11",
-      "link": "https://www.investing.com/news/earnings/idex-earnings-up-next-can-order-momentum-offset-revenue-decline-93CH-4642192"
+      "date": "2026-04-28 01:00",
+      "link": "https://www.wsj.com/tech/ai/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-94a95273"
     },
     {
-      "headline": "PACCAR (NASDAQ:PCAR) Posts Quarterly Earnings Results, Beats Estimates By $0.02 EPS",
-      "score": 7,
+      "headline": "Cognyte Software (NASDAQ:CGNT) Stock Crosses Above 200 Day Moving Average - Should You Sell?",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Cognyte Software (NASDAQ:CGNT) shares have recently crossed above their 200-day moving average, trading at $9.55 with a 200-day MA of $8.57. Analysts have a \"Moderate Buy\" consensus rating with a $13.50 price target, and the company recently beat EPS estimates while institutional ownership stands at",
+      "category": "us_equities",
+      "date": "2026-04-29 06:59",
+      "link": "https://www.marketbeat.com/instant-alerts/cognyte-software-nasdaqcgnt-stock-crosses-above-200-day-moving-average-should-you-sell-2026-04-29/"
+    },
+    {
+      "headline": "Check Point Software Technologies Ltd. (NASDAQ:CHKP) Given Consensus Rating of \"Hold\" by Brokerages",
+      "score": 6,
       "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "PACCAR (NASDAQ:PCAR) reported its quarterly earnings, exceeding analyst estimates by $0.02 with an EPS of $1.15, although revenue fell short of expectations at $6.23 billion. The company experienced a 9.8% year-over-year revenue decline and saw its stock trade down during Tuesday's midday. Several a",
+      "impact": "Check Point Software Technologies Ltd. (NASDAQ:CHKP) has received a consensus \"Hold\" rating from twenty-three research firms, with an average one-year price target of $199.32. Analysts like Barclays and Truist have recently cut their price targets, despite the company beating quarterly EPS estimates",
       "category": "us_equities",
-      "date": "2026-04-28 15:08",
-      "link": "https://www.marketbeat.com/instant-alerts/paccar-nasdaqpcar-posts-quarterly-earnings-results-beats-estimates-by-002-eps-2026-04-28/"
+      "date": "2026-04-29 06:45",
+      "link": "https://www.marketbeat.com/instant-alerts/check-point-software-technologies-ltd-nasdaqchkp-given-consensus-rating-of-hold-by-brokerages-2026-04-29/"
     },
     {
-      "headline": "Toyota suppliers feeling profit pressure from Iran war - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Toyota suppliers feeling profit pressure from Iran war\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-04-28 10:43",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLXhXRm42aXJqZFRHN29tT3Z0TGZtbkRPSDFqbVBhdFEteW5ESEhJOFQzRXFqUF9RRjFDMmY2NC15TzhOa19pWk54U1FLWm5uS2cwS0FjZTdhVzBiWFpxVTNNaVVDaTM1UFZTWkFhMnZBeVJGbkhrUWQ2UHRmOFF3XzVXQTVqbDlaOThyeDZUem1JNUZ2dTZrMHZWSjdvcnZQQk9KLTRpQUExU2VNVWNPeER1bUF6QQ?oc=5"
-    },
-    {
-      "headline": "Coca-Cola is about to report earnings. Here's what to expect",
-      "score": 7,
-      "source": "CNBC",
+      "headline": "Cracker Barrel Old Country Store, Inc. (NASDAQ:CBRL) Receives Consensus Rating of \"Hold\" from Brokerages",
+      "score": 6,
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Shares of Coke have risen just 6% over the last year, hurt by concerns about the broader economy.",
-      "category": "corporate_earnings",
-      "date": "2026-04-28 10:25",
-      "link": "https://www.cnbc.com/2026/04/28/coca-cola-ko-q1-2026-earnings.html"
-    },
-    {
-      "headline": "Starbucks' turnaround enters a new phase: Investors want stronger profits served",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "CEO Brian Niccol has sales going in the right direction. Now, investors want to see profits follow suit.",
-      "category": "corporate_earnings",
-      "date": "2026-04-28 10:12",
-      "link": "https://www.cnbc.com/2026/04/28/starbucks-brian-niccol-turnaround-investing-club.html"
-    },
-    {
-      "headline": "BP quarterly profit beats expectations at $3.2 billion, driven by Iran war trading boon - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "BP quarterly profit beats expectations at $3.2 billion, driven by Iran war trading boon\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-04-28 06:06",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSllpY284Nm5nTk5hN0dGZ1RKXzFCLVg5UkQ5TjNsLUtEbzlmMFJzUWF2VlpCaFpNM0RZSXYyZ1lQQVdwU2gxYUVXLVdZbzRKVW5ndm05dFhHeHRwSGNnWlRVVWQwY0tlWXlMQm16R2dJNFY2dGl5cWhFenVHOUJRRU1YTDdkd2RjOGZBRUdnUXhFNkE5eVE?oc=5"
-    },
-    {
-      "headline": "S&P 500 futures edge lower as Iran peace talks stall, oil rises: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Heightened geopolitical tensions are front and center heading into a pivotal week for stocks.",
+      "impact": "Cracker Barrel Old Country Store, Inc. (NASDAQ:CBRL) has received a consensus \"Hold\" rating from thirteen brokerages, with an average 1-year price target of $37.75. The company recently reported better-than-expected Q1 earnings per share of $0.25 against an estimated -$0.10, though revenue was down ",
       "category": "us_equities",
-      "date": "2026-04-27 14:09",
-      "link": "https://www.cnbc.com/2026/04/26/stock-market-today-live-updates.html"
+      "date": "2026-04-29 06:42",
+      "link": "https://www.marketbeat.com/instant-alerts/cracker-barrel-old-country-store-inc-nasdaqcbrl-receives-consensus-rating-of-hold-from-brokerages-2026-04-29/"
     },
     {
-      "headline": "This bank CEO let his AI clone handle an earnings call \u2014 now he's signing an OpenAI deal",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "It's part of Customers Bank CEO Sam Sidhu's effort to get ahead in the industry's race to transform itself using AI agents as a new digital workforce",
-      "category": "corporate_earnings",
-      "date": "2026-04-27 12:00",
-      "link": "https://www.cnbc.com/2026/04/27/openai-partners-with-customers-bank-in-push-to-automate-finance.html"
-    },
-    {
-      "headline": "UAE leaves OPEC in major blow to global oil producers' group - Reuters",
+      "headline": "Gold steady as markets await Powell's comments on Iran war impact - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "UAE leaves OPEC in major blow to global oil producers' group\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-04-28 15:56",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZWEyNjA0NWVRbFNPSGE2Vzd2NGlWcXlvcU44RTdmOVBiMlQwR09xVC1ibkdCREI1QkVORmNaR2Y3VEZOanB4ZjA5TWhCMmpnaUg5UmRwMU1KLXRJTVNoN3ZuQW13aUpiUGdEVzRUbkgwRXRFNEtDMHltS0VoQk56VWFsbTB1V0FROHhDNG11WmtfSjZyekg3WA?oc=5"
+      "impact": "Gold steady as markets await Powell's comments on Iran war impact\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-04-29 06:32",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa28tUzNNX3Jya0JvSlVmOXFUMXc1dk01a210RUFFSFE5OGNmQm1hdnJYUF9ldkxyTFJxbFFzQl80X051RkVZWFotX3NMWlk4WmdrYUtxUWRFRU52OUlUbEZZYXl2VHNzVFBhaFdfbXh1MUdpeVRzQ1plZ1lwbklyRkVzVTBKNkM4Z3RQQV9WLUY0eUwwNUpYeFBCU1hwVGdrVnYxOFpzYV9mdw?oc=5"
+    },
+    {
+      "headline": "CNBC Daily Open: UAE leaves OPEC adrift",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Markets grapple with the UAE's shock OPEC exit, while also contending with a host of earnings reports and a Fed decision later today.",
+      "category": "global_markets",
+      "date": "2026-04-29 06:23",
+      "link": "https://www.cnbc.com/2026/04/29/cnbc-daily-open-uae-leaves-opec-adrift.html"
+    },
+    {
+      "headline": "Trump says King Charles does not want Iran to have nuclear weapon - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump says King Charles does not want Iran to have nuclear weapon\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-04-29 02:23",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdlZGS1E0bE5KX3l4dEl6YW5aOXRadS13ckhISUJPem00aFV0RUo2NDJ4WVVicUtxTExiQmI5RkFvNUV4YURIWUVaUU5oYk1qT1c4MlcweVd0Y0VKRjhxM0tEZVZYZXdtZWdnY2VCbXFxbG5PQTFlOHVIT1VheFlHZWNIUE1XTkl6UlZheEN3UnY3Z1NZNWd6d09mQ2Z2TmdFTElLSDhtVGRpTEZ3WkRYTQ?oc=5"
     }
   ]
 }
