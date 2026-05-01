@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-01T08:01:59.607482",
+  "timestamp": "2026-05-01T14:58:45.313814",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 12,
-    "neutral": 11,
+    "avg_relevance": 7.2,
+    "bullish": 13,
+    "neutral": 10,
     "bearish": 2,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,13 +15,14 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 6,
-    "Bloomberg": 2,
+    "Bloomberg": 3,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "CNBC": 2,
-    "MarketBeat": 2,
-    "Stock Titan": 5,
-    "www.marketscreener.com": 1,
-    "MarketWatch": 2
+    "Investing.com Australia": 1,
+    "Google News": 1,
+    "The Wall Street Journal": 1,
+    "StockStory": 1,
+    "MarketBeat": 2
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "European Central Bank keeps rates on hold in the face of inflation threat",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The ECB's governing council opted to hold its benchmark deposit facility rate at 2% on Thursday.",
+      "category": "global_markets",
+      "date": "2026-04-30 12:17",
+      "link": "https://www.cnbc.com/2026/04/30/european-central-bank-april-2026-rate-decision-inflation-stagflation-risk-iran-war.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -111,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,8 +132,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-01 08:01",
+      "date": "2026-05-01 14:58",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Atlassian stock soars 28% after earnings show strong cloud, data center growth",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Atlassian's stock has been hit hard in the \"SaaS-pocalypse\" sweeping software names as AI threatens to disrupt their business models.",
+      "category": "corporate_earnings",
+      "date": "2026-05-01 13:57",
+      "link": "https://www.cnbc.com/2026/05/01/atlassian-team-q3-stock-2026-earnings.html"
+    },
+    {
+      "headline": "NAPCO Security earnings in focus as recurring revenue model gains traction",
+      "score": 7,
+      "source": "Investing.com Australia",
+      "sentiment": "positive",
+      "impact": "NAPCO Security Technologies Inc. is scheduled to report its fiscal third-quarter results. Analysts are bullish on the stock, with a mean price target of $49.67, driven by the company's annual recurring revenue model and strong demand for its StarLink communicators which replace aging telephone and c",
+      "category": "corporate_earnings",
+      "date": "2026-05-01 13:50",
+      "link": "https://au.investing.com/news/earnings/napco-security-earnings-in-focus-as-recurring-revenue-model-gains-traction-93CH-4400607"
+    },
+    {
+      "headline": "Exxon beats first-quarter earnings estimate, output hit by Iran war - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Exxon beats first-quarter earnings estimate, output hit by Iran war\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-05-01 12:58",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWnc1S3VOZEI5bVhCUjFLbGQ0LWZmLTFRYl9iU3pMTjl2WjNRRjRDZlN6dDFabEtYaFBrNExOQXlaSlM1dnFncjdzeWNWT2JiNXV6NW9wTW5fWUNBMkVNOWRUQkVLYVdHSWxiNWhTTHpQTEhCRHN6NldMbllwc0tLN0VjUm5yTnYzd1hGVW9YT3d2MlRiSWt1MDhyZmhRUDlQVmM0TnhMN25wM3c1MjFnR090aU1PU1VXTjQxMVl3?oc=5"
     },
     {
       "headline": "Trump administration finalizes federal student loan caps\u2014what it means for borrowers",
@@ -135,144 +176,104 @@
       "link": "https://www.cnbc.com/2026/04/30/grad-school-loan-caps-final-rule.html"
     },
     {
-      "headline": "India central bank's FX forward book balloons to over $100 billion as Iran war pummels rupee - Reuters",
+      "headline": "Stock Market Today: Indexes Mixed at End of Strong Month; Caterpillar Powers Dow; Nasdaq Falls as Investors Digest Big Tech Earnings",
       "score": 7,
+      "source": "Google News",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-04-30 14:35",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa1pUWkRhdGhReWZzRDRCT1p1VjRKUTBtZml5LVV5MFU3Ullfb3p4ak0yaVhid0xYbGQ2ZmhpbHhOYm1PWkgxNnZ0eUEyX2F4ZTE2TS1oVmJrRGZEUk9iNjZVSzZXbTZkR3NXejFwODdNcnh5cmxmcjI5MWg3SGtUQ2hUODFLV3Z6QnBIZjV4LXc?oc=5"
+    },
+    {
+      "headline": "U.S. Debt Tops 100% of GDP",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "global_markets",
+      "date": "2026-04-30 12:59",
+      "link": "https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7"
+    },
+    {
+      "headline": "Bessent Says Powell Staying On Is \u2018Violation\u2019 of All Fed Norms",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Treasury Secretary Scott Bessent criticized Jerome Powell for his decision to stay on the Federal Reserve Board after he steps down as the US central bank\u2019s chair, saying it amounts to a break with Fed tradition.",
+      "category": "us_monetary_policy",
+      "date": "2026-04-29 21:06",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-29/bessent-says-powell-staying-on-is-violation-of-all-fed-norms"
+    },
+    {
+      "headline": "Organon (NYSE:OGN) Misses Q1 CY2026 Revenue Estimates",
+      "score": 6,
+      "source": "StockStory",
+      "sentiment": "negative",
+      "impact": "Organon (NYSE:OGN) reported a miss on Wall Street's revenue and earnings expectations for Q1 CY2026, with sales declining 3.5% year-on-year to $1.46 billion and adjusted EPS coming in 16.8% below consensus at $0.71. The company has shown a struggle with consistent revenue growth and decreasing profi",
+      "category": "us_equities",
+      "date": "2026-05-01 14:09",
+      "link": "https://stockstory.org/us/stocks/nyse/ogn/news/earnings/organon-nyseogn-misses-q1-cy2026-revenue-estimates"
+    },
+    {
+      "headline": "KeyCorp Increases Roku (NASDAQ:ROKU) Price Target to $150.00",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "KeyCorp has raised its price target for Roku (NASDAQ:ROKU) to $150 from $140, maintaining an \"overweight\" rating and suggesting a nearly 29% upside. This comes after Roku surpassed Q1 estimates with $0.57 EPS and $1.25 billion in revenue, leading management to increase its annual platform revenue ou",
+      "category": "us_equities",
+      "date": "2026-05-01 14:01",
+      "link": "https://www.marketbeat.com/instant-alerts/keycorp-increases-roku-nasdaqroku-price-target-to-15000-2026-05-01/"
+    },
+    {
+      "headline": "LKQ Corporation (NASDAQ:LKQ) Declares Quarterly Dividend of $0.30",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "LKQ Corporation (NASDAQ:LKQ) has declared a quarterly dividend of $0.30 per share, with shareholders of record on May 21 set to be paid on June 4. The company reported quarterly earnings of $0.67 EPS, matching estimates, and revenue of $3.47 billion, exceeding analyst expectations. With a payout rat",
+      "category": "us_equities",
+      "date": "2026-05-01 13:49",
+      "link": "https://www.marketbeat.com/instant-alerts/lkq-corporation-nasdaqlkq-declares-quarterly-dividend-of-030-2026-05-01/"
+    },
+    {
+      "headline": "Iran sends proposal for negotiations with US to mediator Pakistan - Reuters",
+      "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "India central bank's FX forward book balloons to over $100 billion as Iran war pummels rupee\u00a0\u00a0Reuters",
+      "impact": "Iran sends proposal for negotiations with US to mediator Pakistan\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-30 13:24",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMHRkVDFzeGRONm9RenJOMGNwaTVYU2tyTkctaTh3VnpsNFQtTmE1SXhxbHhIVTYxRlV2M2MwcFVGRDB2ZTdqX0tGcXNUaC1iUGM0VWFIREtRYTNjNk9mX3c1aEZlSEtyWXNXeWpiVENaSnBSYTI4ZnVNZzVrUjlnRDB2cGkzZGVVTmF4YTBFeW5FUzBTOF9rOXhtQnhsNDR6dmtaNUFreTlnMmlEcGw4UnFMWnJYc0ljaENrOWF3NUVoNmdX?oc=5"
+      "date": "2026-05-01 13:35",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOXFST3AwNjc5YVJPejQtWGdQNDY1QWY0Y0g4ODl6UzZSbmRKcnVNOW1vVUpZREw0a1pfWUFLYnFDUlJjd2wweUhiWkZrLXByUC1hTDBlaVBJYVlSNkdWV2FiVjRhVFh6eUJJMWx1MXlhbllaUWQtbFRiR1IxNEI0NVo5QklSSmJscjRXQTRaM0wzTVVvTlpycG01cW9aNzJBMGJsNjRONGh0U1JrcXFSZ3RMUVNZdVNyMW9ocEVyNnQ?oc=5"
     },
     {
-      "headline": "Bank of England holds rates and spells out inflation risks from Iran war - Reuters",
-      "score": 7,
+      "headline": "One of Iran\u2019s most powerful families founded its largest crypto exchange. It\u2019s used by the IRGC to move millions - Reuters",
+      "score": 6,
       "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Bank of England holds rates and spells out inflation risks from Iran war\u00a0\u00a0Reuters",
+      "sentiment": "neutral",
+      "impact": "One of Iran\u2019s most powerful families founded its largest crypto exchange. It\u2019s used by the IRGC to move millions\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-04-30 11:15",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQUxLemtDVGZyamRweGVXaUZxY1g3UExMRWcydjBMQUxTTk1DSkg1LWdaTXNHNEJTYTN4WU9ZSlZXZjdnd1hGY1FjSnhtSDRCRUN5MmRSSk1pVUNBZGc0TF9BRnJpMWFld3F1VnplelBQWHhqLTM0anpmazJpMTFGNDBpSFJtbEZLWTJzRGUtb1FTX0tzcmZoeGRMZ1prZHRvbERzdG5kQ24?oc=5"
+      "date": "2026-05-01 12:53",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSFR0S1ktaEpwVHFOdnlaNk44X05Zd3dVTUZ1cEd5SC00TUVPX1FHVF9pZmszcU9QbjFaeXh0dmdnckdKcU9IcTlsZjR4V0tvaXRncThDVHVBNDlZRTVkaEhoNE1sUUZHZndjbHNGcWlYNzBONXQta3NKcElwNFEzNThpUkowdndVMUhqaTBnRm1vQmFDWG9rNEhEOFF4bi1FYnIwX3BBZGg0aXpyRkF1RjB4N25MNEV5T3BvWXIxdEgxLVJSTWFKZVlfMA?oc=5"
     },
     {
-      "headline": "Yum Brands earnings top estimates, fueled by Taco Bell's 8% same-store sales growth",
-      "score": 7,
+      "headline": "Markets are underpricing the risk of Middle East pullback in AI, says tech investor Jack Selby ",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Middle East investors account for roughly a quarter of global AI investments over the next 5 years, said Jack Selby, managing director of Thiel Capital. ",
+      "category": "global_markets",
+      "date": "2026-05-01 12:41",
+      "link": "https://www.cnbc.com/2026/04/30/investor-jack-selby-markets-underpricing-middle-east-ai-pullback-risk.html"
+    },
+    {
+      "headline": "Smoothie King plots expansion as wellness trends boost sales",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Taco Bell's same-store sales increased 8% in the quarter, fueling the company's outperformance.",
-      "category": "corporate_earnings",
-      "date": "2026-04-29 15:19",
-      "link": "https://www.cnbc.com/2026/04/29/yum-brands-yum-q1-2026-earnings.html"
-    },
-    {
-      "headline": "Coastal Financial (NASDAQ:CCB) Price Target Cut to $120.00 by Analysts at TD Cowen",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "TD Cowen has lowered its price target for Coastal Financial (NASDAQ:CCB) from $145.00 to $120.00, while maintaining a \"buy\" rating, indicating a potential upside of 58.9% from its current share price. This revision follows Coastal Financial's Q1 earnings report, which missed analyst expectations wit",
-      "category": "us_equities",
-      "date": "2026-05-01 07:40",
-      "link": "https://www.marketbeat.com/instant-alerts/coastal-financial-nasdaqccb-price-target-cut-to-12000-by-analysts-at-td-cowen-2026-04-30/"
-    },
-    {
-      "headline": "Cable One (NYSE: CABO) Q1 2026 profit surges on asset sale gains",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "Cable One (CABO) reported a significant jump in net income for Q1 2026 to $35.8 million, up from $2.6 million in Q1 2025, primarily due to a $26.6 million gain from selling fiber-to-the-tower contract rights and lower equity investment losses. Despite this profit surge, total revenues declined by 7.",
-      "category": "us_equities",
-      "date": "2026-05-01 07:40",
-      "link": "https://www.stocktitan.net/sec-filings/CABO/8-k-cable-one-inc-reports-material-event-bd63b37f8546.html"
-    },
-    {
-      "headline": "23,000 shares proposed for sale \u2014 Popular (NASDAQ: BPOP) Form 144 notice",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "A Form 144 notice indicates a proposed sale of 23,000 shares of Popular (NASDAQ: BPOP) common stock by Popular Securities, LLC, on behalf of Alfonso F. Ballester. These shares were acquired through inheritance, and the filing also reveals a prior sale of 2,360 shares by Alejandro M. Ballester for $3",
-      "category": "us_equities",
-      "date": "2026-05-01 07:39",
-      "link": "https://www.stocktitan.net/sec-filings/BPOP/144-popular-inc-sec-filing-0484b427bf3e.html"
-    },
-    {
-      "headline": "Reading International (NASDAQ: RDI) expands 2025 governance and pay disclosures",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "Reading International, Inc. (NASDAQ: RDI) filed an Amendment No. 2 to its 2025 annual report, providing detailed disclosures on directors, executive officers, corporate governance, compensation, equity plans, security ownership, and related-party transactions. The report highlights the company's con",
-      "category": "us_equities",
-      "date": "2026-05-01 07:39",
-      "link": "https://www.stocktitan.net/sec-filings/RDI/10-k-a-reading-international-inc-amends-annual-report-1a3540806a72.html"
-    },
-    {
-      "headline": "Bank7 Corp. (NASDAQ:BSVN) Sees Significant Decline in Short Interest",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Bank7 Corp. (NASDAQ:BSVN) experienced a significant 18.1% decline in short interest in April, dropping to 39,425 shares. The company recently surpassed earnings expectations, reporting an EPS of $1.25 against an estimated $1.01 and revenue of $26.16 million versus $23.63 million. Analysts generally ",
-      "category": "us_equities",
-      "date": "2026-05-01 07:39",
-      "link": "https://www.marketbeat.com/instant-alerts/bank7-corp-nasdaqbsvn-sees-significant-decline-in-short-interest-2026-04-30/"
-    },
-    {
-      "headline": "Vanguard holds 5.09% of Transcat (NASDAQ: TRNS) \u2014 475,732 shares",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "Vanguard Capital Management reported a beneficial ownership of 475,732 shares, or 5.09%, of Transcat Inc (NASDAQ: TRNS) common stock as of March 31, 2026, as disclosed in a Schedule 13G filing. Vanguard exercises sole dispositive power over all these shares and sole voting power over 68,571 shares. ",
-      "category": "us_equities",
-      "date": "2026-05-01 07:39",
-      "link": "https://www.stocktitan.net/sec-filings/TRNS/schedule-13g-transcat-inc-passive-investment-disclosure-5-365e773f1d72.html"
-    },
-    {
-      "headline": "Braiin (Nasdaq: BRAI) starts trading on 3-for-1 split-adjusted basis",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "neutral",
-      "impact": "Braiin Limited initiated a three-for-one forward stock split, with shares trading on a split-adjusted basis from April 29, 2026. This split aims to lower the per-share trading price, making the stock more accessible to retail investors, without altering the company's market capitalization or shareho",
-      "category": "us_equities",
-      "date": "2026-05-01 07:39",
-      "link": "https://www.stocktitan.net/sec-filings/BRAI/6-k-braiin-ltd-current-report-foreign-issuer-5bbfa47ebaf0.html"
-    },
-    {
-      "headline": "Transcript : Broadstone Net Lease, Inc., Q1 2026 Earnings Call, Apr 30, 2026",
-      "score": 6,
-      "source": "www.marketscreener.com",
-      "sentiment": "positive",
-      "impact": "This article provides the transcript for Broadstone Net Lease, Inc.'s First Quarter 2026 Earnings Conference Call held on April 30, 2026. Prior to the call summary, the article highlights recent news regarding Broadstone Net Lease, including their Q1 2026 adjusted FFO and revenue performance, as wel",
-      "category": "corporate_earnings",
-      "date": "2026-05-01 07:38",
-      "link": "https://www.marketscreener.com/news/transcript-broadstone-net-lease-inc-q1-2026-earnings-call-apr-30-2026-ce7f58d8d188f223"
-    },
-    {
-      "headline": "The S&P 500\u2019s newest member is this under-the-radar software stock",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Veeva Systems\u2019 stock is soaring upon news that it will soon join the benchmark index.",
-      "category": "us_equities",
-      "date": "2026-05-01 04:02",
-      "link": "https://www.marketwatch.com/story/the-s-p-500s-newest-member-is-this-under-the-radar-software-stock-b828bd5e?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "US official says Iran war truce 'terminated' hostilities for war powers deadline - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US official says Iran war truce 'terminated' hostilities for war powers deadline\u00a0\u00a0Reuters",
+      "impact": "Smoothie King's system-wide sales have climbed 64% over the last five years.",
       "category": "global_markets",
-      "date": "2026-05-01 01:07",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNemtpZUFjR001YzFHcWRuLWowQmVid2hmYWR2UzJpUTR2UnR5aWRTdUhzNWNtOUZMS0lhc29jamFZODZWa25ZejhkZlpneXY1bVNnSjhPT3dyMDk1MXV4M1FscE8xUTEwakF6NU9CWERuSzJDLVFuSEpRVGdhbjAwUF91dm42RS1ORkw4ZzNpV1NpakVKVndra05YaUxvQi1taVkzOHFKTS00QzFWbzhSX2Z1UXAzWlV4OGlacWRQSFpKY3FzdWtIRzhJTkNlN1E?oc=5"
-    },
-    {
-      "headline": "The memory trade is faltering as Western Digital\u2019s stock slides in the face of earnings beat",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Investors are panning upbeat results from Western Digital and Sandisk after massive one-year stock rallies.",
-      "category": "corporate_earnings",
-      "date": "2026-05-01 00:25",
-      "link": "https://www.marketwatch.com/story/the-memory-trade-is-faltering-as-western-digitals-stock-slides-in-the-face-of-earnings-beat-9b99694e?mod=mw_rss_topstories"
+      "date": "2026-05-01 12:30",
+      "link": "https://www.cnbc.com/2026/05/01/smoothie-king-plots-expansion-as-wellness-trends-boost-sales.html"
     }
   ]
 }
