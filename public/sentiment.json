@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-03T07:47:50.802414",
+  "timestamp": "2026-05-03T14:51:57.816490",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
     "bullish": 11,
-    "neutral": 12,
-    "bearish": 2,
+    "neutral": 11,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,14 +14,16 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "Reuters": 6,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 3,
+    "MarketWatch": 4,
+    "The Wall Street Journal": 1,
     "Investor's Business Daily": 1,
-    "MarketBeat": 4,
+    "TIKR.com": 1,
     "Simply Wall Street": 1,
-    "CNBC": 2
+    "CNBC": 3,
+    "Intellectia AI": 1
   },
   "top_signals": [
     {
@@ -31,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +103,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -111,7 +113,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,8 +123,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-03 07:47",
+      "date": "2026-05-03 14:51",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "S&P 500 profits haven\u2019t been this rich in at least 15 years \u2014 but there\u2019s more to the story",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Three Big Tech companies have had an outsize impact on first-quarter profit performance.",
+      "category": "us_equities",
+      "date": "2026-05-03 14:00",
+      "link": "https://www.marketwatch.com/story/s-p-500-profits-havent-been-this-rich-in-at-least-15-years-but-theres-more-to-the-story-c3ccaf3b?mod=mw_rss_topstories"
     },
     {
       "headline": "Higher inflation is on the way. The Fed needs to make this clear before it raises rates.",
@@ -135,6 +147,16 @@
       "link": "https://www.marketwatch.com/story/higher-inflation-is-on-the-way-the-fed-needs-to-make-this-clearer-before-it-raises-rates-142c6884?mod=mw_rss_topstories"
     },
     {
+      "headline": "Berkshire Profits More Than Double on Gains in Insurance, Railroad, Energy Businesses",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "corporate_earnings",
+      "date": "2026-05-02 12:46",
+      "link": "https://www.wsj.com/business/earnings/berkshire-hathaway-earnings-q1-2026-brk-b-stock-f9148eb1"
+    },
+    {
       "headline": "Stock Market Today: Nasdaq, S&P Make History; Buffett's Berkshire Reports Earnings Saturday (Live Coverage)",
       "score": 7,
       "source": "Investor's Business Daily",
@@ -145,54 +167,104 @@
       "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-apple-earnings-roblox-sandisk-westen-digital/"
     },
     {
-      "headline": "First Solar, Inc. (NASDAQ:FSLR) Given Consensus Recommendation of \"Moderate Buy\" by Brokerages",
+      "headline": "ResMed Stock Fell 8% This Week. Here\u2019s What a Strong Earnings Beat Means for the Recovery Case",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "First Solar, Inc. (NASDAQ:FSLR) has received a \"Moderate Buy\" consensus rating from 32 analysts, with an average 12-month price target of $245.47. The company recently reported a strong Q1 beat, exceeding EPS and revenue expectations, and reaffirmed its full-year 2026 guidance, citing strong booking",
-      "category": "us_equities",
-      "date": "2026-05-03 06:53",
-      "link": "https://www.marketbeat.com/instant-alerts/first-solar-inc-nasdaqfslr-given-consensus-recommendation-of-moderate-buy-by-brokerages-2026-05-03/"
+      "source": "TIKR.com",
+      "sentiment": "negative",
+      "impact": "ResMed (RMD) shares dropped 7.7% despite reporting a strong fiscal Q3 2026 earnings beat with adjusted EPS of $2.86 and 11% revenue growth. Investor concerns about GLP1 weight loss drugs impacting sleep apnea treatment demand and a CFO transition (though planned) are weighing on the stock. Despite t",
+      "category": "corporate_earnings",
+      "date": "2026-05-03 14:04",
+      "link": "https://www.tikr.com/blog/resmed-stock-fell-8-this-week-heres-what-a-strong-earnings-beat-means-for-the-recovery-case"
     },
     {
-      "headline": "Expedia Group (EXPE) Valuation In Focus As Earnings Optimism And Gen Z Partnership Draw Investor Attention",
+      "headline": "\u2018The numbers don\u2019t lie\u2019: If I had invested my Social Security in the S&P 500 I\u2019d have $4 million. Is the system broken?",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "\u201cI do better than many citizens because I\u2019ve contributed at the highest level.\u201d",
+      "category": "us_equities",
+      "date": "2026-05-03 13:45",
+      "link": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "L3Harris Technologies, Inc. Just Beat Earnings Expectations: Here's What Analysts Think Will Happen Next",
       "score": 6,
       "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "Expedia Group (EXPE) is gaining investor attention due to optimistic earnings forecasts and a new Gen Z-focused creator partnership. Despite an 11.78% one-month share price return, an analysis from Simply Wall St suggests Expedia is undervalued by 27.2% with a narrative fair value of $345.94, even t",
+      "sentiment": "neutral",
+      "impact": "L3Harris Technologies, Inc. ([NYSE: LHX](https://simplywall.st/stocks/us/aerospace-defense/nyse-lhx/l3harris-technologies#stock-report)) exceeded first-quarter revenue and earnings per share estimates. Despite the strong performance, analysts have not significantly altered their expectations for the",
       "category": "corporate_earnings",
-      "date": "2026-05-03 06:49",
-      "link": "https://simplywall.st/stocks/us/consumer-services/nasdaq-expe/expedia-group/news/expedia-group-expe-valuation-in-focus-as-earnings-optimism-a"
+      "date": "2026-05-03 13:35",
+      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-lhx/l3harris-technologies/news/l3harris-technologies-inc-just-beat-earnings-expectations-he"
     },
     {
-      "headline": "Automatic Data Processing, Inc. (NASDAQ:ADP) Given Consensus Rating of \"Hold\" by Analysts",
+      "headline": "Healthcare cost surge makes generous parental paid leave benefits a target of workplace cuts",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Automatic Data Processing, Inc. (NASDAQ:ADP) has received a consensus \"Hold\" rating from fifteen analysts, with an average one-year price target of $254.40. The company recently reported strong Q3 earnings, beating expectations and raising its FY-2026 EPS guidance, and announced a $6.00 billion shar",
-      "category": "us_equities",
-      "date": "2026-05-03 06:29",
-      "link": "https://www.marketbeat.com/instant-alerts/automatic-data-processing-inc-nasdaqadp-given-consensus-rating-of-hold-by-analysts-2026-05-03/"
+      "impact": "As healthcare costs soar and companies search for savings, generous paid parental leave is a benefit being cut, with recent examples from Zoom and Deloitte.",
+      "category": "global_markets",
+      "date": "2026-05-03 13:23",
+      "link": "https://www.cnbc.com/2026/05/03/healthcare-costs-parental-paid-leave-employee-benefits-cuts.html"
     },
     {
-      "headline": "Johnson Controls International (NYSE:JCI) Upgraded by Wall Street Zen to Buy Rating",
+      "headline": "Cisco: Safe, Strong Dividend Growth And A High Yield",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Intellectia AI",
       "sentiment": "positive",
-      "impact": "Wall Street Zen has upgraded Johnson Controls International (NYSE:JCI) from a \"hold\" to a \"buy\" rating. This upgrade comes after JCI surpassed quarterly earnings and revenue estimates and provided positive FY 2026 guidance. Despite this, the broader Street consensus remains a \"Hold\" with an average ",
-      "category": "indonesia_equities",
-      "date": "2026-05-03 05:18",
-      "link": "https://www.marketbeat.com/instant-alerts/johnson-controls-international-nysejci-upgraded-by-wall-street-zen-to-buy-rating-2026-05-03/"
+      "impact": "This article analyzes Cisco (CSCO) as a strong investment for dividend growth and high yield, written by Senior Investment Analyst Emily J. Thompson. Wall Street analysts currently forecast a potential fall in CSCO's stock price, with a mixed rating from BWG Global and an Overweight rating with a ra",
+      "category": "fixed_income",
+      "date": "2026-05-03 13:10",
+      "link": "https://intellectia.ai/news/stock/brookfield-renewables-strong-growth-and-high-dividend-yield"
     },
     {
-      "headline": "U.S. GoldMining (NASDAQ:USGO) Downgraded by Wall Street Zen to Sell",
+      "headline": "\u2018We\u2019re all worried the honey pot will run dry\u2019: Does the U.S. government borrow from my Social Security to fund federal programs?",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "There are many suggestions floating around Washington D.C. on how to fix the program\u2019s imminent funding issues.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-03 13:06",
+      "link": "https://www.marketwatch.com/story/were-worried-the-honey-pot-will-run-dry-does-the-trump-administration-use-my-social-security-to-fund-federal-programs-1cd01b8f?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Fewer features, more value: Why some Americans are buying simpler cars",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Cloth seats, manual controls and analog gauges are back as buyers look for cars with sticker prices closer to $30,000.",
+      "category": "global_markets",
+      "date": "2026-05-03 13:00",
+      "link": "https://www.cnbc.com/2026/05/03/why-some-americans-are-buying-simpler-cars.html"
+    },
+    {
+      "headline": "Hezbollah pays steep price in battle to reverse its fortunes - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Hezbollah pays steep price in battle to reverse its fortunes\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-03 11:01",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOW44VFRZOE1Sa2czY01kaFRUM3RHYnFnNEpHX3Q0S3NmcjZ2Z0ZMbzdVS0ZIUWg3bkhaNWlKdDktRGFrN2FCekNLOTlPejRubkVDRGJ2UEVEUzdCOEhPNjdXbVNsNllWcHVTSEE4MTVFOTVWem1JbjVVdHk3TFNnTXRzUzBkVFhnMy1ULXVhejZhbmgzREpXc2sySmhYbWZlZzh0YzJQMWpDWGh3S2c?oc=5"
+    },
+    {
+      "headline": "Slovakia's PM Fico to attend Victory Day parade in Moscow, Russian TV says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Slovakia's PM Fico to attend Victory Day parade in Moscow, Russian TV says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-03 10:35",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWm5ZNUN3cmxaNFBmcXk0cFU4SVFfd0FzdWMxZ3hEazl2eEZpamdpSEdlWWNaQjZic0dGMTQwd29OMDlVd2UtR2xmVmV5VkdvNWNUUl9UV2M0ZEpxMHJtLTM5YkhOSDYzX21FRHpDOVA2Ymp0cmRQRjVDdFpJVUpHQ0ltUThDNW91d3F3VEIwQkI5V0U2UVJsQmxSb2ZkR1dDaDNUSzRhUUdfY25t?oc=5"
+    },
+    {
+      "headline": "Iran executes man convicted over killing of security officer in 2022 unrest - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "U.S. GoldMining (NASDAQ:USGO) was downgraded from a \"hold\" to a \"sell\" rating by Wall Street Zen, though analyst opinions are mixed with HC Wainwright maintaining a \"buy\" rating and a target of $30.75. The stock currently trades around $13.23, holding an average \"Hold\" rating and an average target p",
-      "category": "us_equities",
-      "date": "2026-05-03 05:16",
-      "link": "https://www.marketbeat.com/instant-alerts/us-goldmining-nasdaqusgo-downgraded-by-wall-street-zen-to-sell-2026-05-03/"
+      "impact": "Iran executes man convicted over killing of security officer in 2022 unrest\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-03 07:17",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTjR5MVc5U1lSbUF5U1NwWXYxY0JPYld2SGdhZVN5a2RoOUZ1aFI0aWh6N1BwRHVjSm5oNW9WVW8zNnlEeXBmM3cwT0F0RFFlQWxjRjVjV2JJY2FGbENrWnY0WjlHTXprMnFzb3liR0R6bWhMTnN6ZFFlRkEyR1RuUVdJZEJGUnRsRTF2MFN5SVBqbnVqQ3Bxc1Q0ek9Oak5NZ1dIRHBaanhlWHlNWnJ4emV1QWpaUlVpcWZmbkZtbGE?oc=5"
     },
     {
       "headline": "Spirit Airlines shuts down after failing to reach a bailout deal, ending discount travel era",
@@ -203,76 +275,6 @@
       "category": "us_equities",
       "date": "2026-05-02 23:07",
       "link": "https://www.cnbc.com/2026/05/01/spirit-airlines-trump-bailout.html"
-    },
-    {
-      "headline": "Germany says US troop drawdown should spur Europe, but top Republicans worried - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Germany says US troop drawdown should spur Europe, but top Republicans worried\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-05-02 23:03",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeng2WUI0R1hXdmJicTZHd21sUXBER3lWbExOeHNPQnQ2U2t2UDNYNlBIZ1RzWTlYeEJqM0tha1pJanl1SU5CcHhUUzcyTEVvdjcwTDNycTFUWHFMaXEySkhhazBNOUkzZHdmZE5FRHBGWXZyZm44b3ppRFd5UG1yLW1OdDhNNnR0YTJOYUU3ZFh5SGhMU0hXV1ZWTlJhQmQzWlB4Tkd3Ty1NSmU0aERIcEtwaXlJQmFkdktWbG5YZXBFbnlPS1AyRTItWVo0RkNkVDJ6amlB?oc=5"
-    },
-    {
-      "headline": "Trump says there is possibility US could restart strikes on Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says there is possibility US could restart strikes on Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-02 22:41",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS3BPYWlZX3JROTNwdmo0b3dEcFVOMkNMMlFFb1NCeFlQYVpxMFFSbXZVYXRTUXJLdkZBT1dPbU55RHVTM0NJSDdBQVlrcUFFNTR4ZjhoT2RaT3ZDOEs2M1BWUG9Ycm9LVDBFSXluS215bWlkNjJscWxuS0hKMUVBTUVDaGxxM080ajdmcWtXWUh3akhtTFZlV2lhM0lnUWhkckVObmlR?oc=5"
-    },
-    {
-      "headline": "\u2018The numbers don\u2019t lie\u2019: If I had invested my Social Security in the S&P 500 I\u2019d have $4 million. Is the system broken?",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "\u201cI do better than many citizens because I\u2019ve contributed at the highest level.\u201d",
-      "category": "us_equities",
-      "date": "2026-05-02 21:00",
-      "link": "https://www.marketwatch.com/story/the-numbers-dont-lie-if-i-had-invested-my-social-security-in-the-s-p-500-id-have-4-million-is-the-system-broken-d41b1779?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "\u2018We\u2019re all worried the honey pot will run dry\u2019: Does the U.S. government borrow from my Social Security to fund federal programs?",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "There are many suggestions floating around Washington D.C. on how to fix the program\u2019s imminent funding issues.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-02 20:45",
-      "link": "https://www.marketwatch.com/story/were-worried-the-honey-pot-will-run-dry-does-the-trump-administration-use-my-social-security-to-fund-federal-programs-1cd01b8f?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Trump says US could restart Iran strikes 'if they misbehave' - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says US could restart Iran strikes 'if they misbehave'\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-02 17:56",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNUozQmZGUTZjZElkcVg4NGRnUVJCSlluVnZiSTk5bXBaUlp6ekJtb2dOMWduY2xRUlIxNC1BdnhzY1JzMTl5emVTOGhjN1YyOThpNG9XYVFYeTFmX25CZmk4cThSZDY0NFlRNnNJNHZ1Mk5STnM0YTZZSVZHV0NiWjF5eGQybHVobVJyMDJfNlVUZThYeEtMajRHNWJlandILXJDelBsTlBNWXZQT3JJeHpmUHlhNE55a193NlZaOC0?oc=5"
-    },
-    {
-      "headline": "Air India CEO search narrows to Singapore Air exec Kannan and insider Aggarwal, sources say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Air India CEO search narrows to Singapore Air exec Kannan and insider Aggarwal, sources say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-02 13:44",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX1p6NVBtc2ZPUThhZ2RkbXZQSS01MWNwWHE5MEJFRUZFWUotMno5SHJrc0UtdEtMMC15VlJVVGdPd3ZKOGFvRDBaNE1ZTEpVcDlJV1F2cTVDemlNQzVPdkoySUVlTUt2MHlJdnJtTnBTWkN1dFVpcm11cHRmSVZvbVZwQ0VkYzBMWHgwVEZYdy03SDM1NDVmSWMyUWlOaWRuczhFRzNySmgwazZkLThDc0FReUpuUmstUmVNeVlFdlR4Znc4ZWZrblY5ZzhNUWM?oc=5"
-    },
-    {
-      "headline": "The U.S.-Iran war is coming for your credit score and mortgage application",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The U.S.-Iran war and Strait of Hormuz closure have caused a global economic ripple effect, your credit score included as banks and lenders get tighter.",
-      "category": "fixed_income",
-      "date": "2026-05-02 13:17",
-      "link": "https://www.cnbc.com/2026/05/02/us-iran-war-credit-score-loans-mortgage-rates.html"
     }
   ]
 }
