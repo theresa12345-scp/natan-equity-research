@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-04T16:02:38.343061",
+  "timestamp": "2026-05-05T07:54:18.945855",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 7,
-    "neutral": 15,
-    "bearish": 3,
-    "high_priority": 8,
+    "bullish": 13,
+    "neutral": 10,
+    "bearish": 2,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,16 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "Caixin/S&P Global": 1,
     "CNBC": 3,
+    "Caixin/S&P Global": 1,
+    "MarketBeat": 3,
+    "Yahoo Entertainment": 1,
     "The Wall Street Journal": 1,
-    "Investing.com Nigeria": 1,
-    "MarketBeat": 1,
-    "Investing.com": 1,
-    "TipRanks": 1,
-    "Investing.com Canada": 1
+    "Minichart": 1,
+    "Barchart.com": 1
   },
   "top_signals": [
     {
@@ -33,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -73,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Paramount earnings, revenue beat expectations as streaming business offers a boost",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Paramount Skydance said it added streaming subscribers during the first quarter even as it instituted its first price hike since 2024. ",
+      "category": "corporate_earnings",
+      "date": "2026-05-04 20:48",
+      "link": "https://www.cnbc.com/2026/05/04/paramount-skydance-psky-earnings-q1-2026.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -113,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -123,68 +132,68 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-04 16:02",
+      "date": "2026-05-05 07:54",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "We're adding to our position in a stock that has gotten cheaper since earnings",
+      "headline": "Diamondback Energy (NASDAQ:FANG) Reaches New 1-Year High After Strong Earnings",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The company's earnings report wasn't perfect, but the long-term story is still intact.",
-      "category": "corporate_earnings",
-      "date": "2026-05-04 15:21",
-      "link": "https://www.cnbc.com/2026/05/04/were-adding-to-our-position-in-a-stock-that-has-gotten-cheaper-since-earnings.html"
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Diamondback Energy (NASDAQ:FANG) reached a new 52-week high after reporting strong first-quarter earnings, beating analyst estimates for both EPS and revenue. The company raised production guidance and increased its quarterly dividend, signaling confidence in future cash generation. Despite this pos",
+      "category": "us_equities",
+      "date": "2026-05-05 05:32",
+      "link": "https://www.marketbeat.com/instant-alerts/diamondback-energy-nasdaqfang-reaches-new-1-year-high-after-strong-earnings-2026-05-05/"
     },
     {
-      "headline": "S&P 500, Dow tick lower as US-Iran tensions unsettle investors - Reuters",
+      "headline": "Gold rebounds from five-week low but inflation fears cap gains - Reuters",
       "score": 7,
       "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "S&P 500, Dow tick lower as US-Iran tensions unsettle investors\u00a0\u00a0Reuters",
+      "sentiment": "neutral",
+      "impact": "Gold rebounds from five-week low but inflation fears cap gains\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-05 01:51",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR0J6Zk84cEp1ZDlmd3pzSXFMVEpwS1p1TVJBNWE3WmN1NmNLU2x5OE8wanBkV3dsRWtXUUl1US1VcHF0SzB1OGpUaWdjSHEwR2ZQWTVjOXlVM2tfNzNXbjlDS1FnUTk5NWNOMks0SWFhTDhHd2xhR2p2X0RZZG9jUEpxVE8zYUdSZWNKOUJfMUlfSDFSTjQ2TWtITE1sdVZNNTdNdFVyX25uQnNYSmk4ckUwUWxZZjFl?oc=5"
+    },
+    {
+      "headline": "S&P 500 falls from record high on Middle East worries - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "S&P 500 falls from record high on Middle East worries\u00a0\u00a0Reuters",
       "category": "us_equities",
-      "date": "2026-05-04 14:12",
+      "date": "2026-05-04 23:24",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMFZzU0o4cVloeVB2Q3hOb0wzeHhFMDlGMkxsT3FFZDhLdjJnei1qcFp1NDFFaXhyZzRtTTRoVFBWbzZHSUo0aXZIQkV3b2pfMUloTUliaWg3RXBlSTVlN3daSHhQNEdqWDNXb1Uwa2prVXMtdFVOZ0EzMk5sLWlzSTFEa0JoNGt6LXJiRWRmUVRYbVVhTzNhZ3pNbnMwd0E?oc=5"
     },
     {
-      "headline": "Dollar rises, European stocks and bonds fall after reports of U.S. warship being hit missiles - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Dollar rises, European stocks and bonds fall after reports of U.S. warship being hit missiles\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-04 10:27",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOV9uTkN4ekk1WUlJdGpLdHlpUDZvZVo1clp3RmVSSS1WZTdHaHM2dmdHSWttOVA0TlJVZHNMTDY5QzlnYlY5dFZlUEIwTllKcGJGLWF4ZGp2UG93NzhNTUxkT21XLUF1ZHBVMGxuY2hlM3owQ0FYTHpZYmdPY2VVajVkQklpZnl5bTRSdFB5TmZBWkIyMjMwcUFUdkFrWWE5UnBkNVZncnpwYmZQeWR6LS1mcHNFT1dYcm5ZT3VZRFI?oc=5"
-    },
-    {
-      "headline": "Gold slips as Iran risks support dollar, keep inflation fears in focus - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Gold slips as Iran risks support dollar, keep inflation fears in focus\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-05-04 01:40",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZV9RZUw2TkhabGxXQVlGdUNxNkQ4UHVKaUZqSmNFSUFtRXZyYmdZcE1mMmhoQV9ZWHZDRGxfMFdKYTRLeUhZdWxZOTV4SUJFelNBY2prTmw1eVhub3JvZWdFelcxRFY2amJJZnVQVUlNamJkQWwwVThyRnpYalJISlFPVzI0Ym4tZDhmd1k4bFo1NnhDUDVhSFlfQnRWLVRwU2h3U1FkNDBGQzJaYjZpQg?oc=5"
-    },
-    {
-      "headline": "Indian rupee, bonds set to sway to oil prices as US-Iran stalemate drags - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Indian rupee, bonds set to sway to oil prices as US-Iran stalemate drags\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-04 01:31",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLXlFLUM5Q0R4WjY4SGtUMXc0RXBYZjRPQ2kzYUd6VmVTNE5CT2drMlVkcDVjVXkyYVQ1am5IWi1rYWcxVXhqRC1tZHdsUUpmdXk3Z0FmQWkyZjZ5SWZmTm0xMmhBR3lraFNyMGdkOEVBc0lmSkkwa2cwZmE2V2NmSXVKdVJ0RHJRQ2QyeGJ6SVJuYWR1TlcyQmFKell6UXF1aEwxZTFKdmMybHRnbzl3?oc=5"
-    },
-    {
-      "headline": "Big Tech earnings show how big, smart spending can be rewarded by the market",
+      "headline": "What's behind Eli Lilly's down-and-up day after last week's post-earnings surge",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "It's obvious from this quarter that the bubble talk has been proven wrong.",
-      "category": "corporate_earnings",
-      "date": "2026-05-03 19:20",
-      "link": "https://www.cnbc.com/2026/05/03/big-tech-earnings-show-how-big-smart-spending-can-be-rewarded-by-the-market.html"
+      "sentiment": "positive",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "us_equities",
+      "date": "2026-05-04 18:29",
+      "link": "https://www.cnbc.com/2026/05/04/whats-behind-eli-lillys-down-and-up-day-after-last-weeks-surge.html"
+    },
+    {
+      "headline": "UPS, FedEx stocks sink after Amazon expands logistics network to other businesses",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "UPS and FedEx stocks sank Monday after Amazon announced it was opening up its supply chain network to outside companies.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-04 16:39",
+      "link": "https://www.cnbc.com/2026/05/04/ups-fedex-amazon-logistics.html"
+    },
+    {
+      "headline": "Fed\u2019s Kashkari warns Iran war raises inflation risks, rate cuts uncertain",
+      "score": 7,
+      "source": "Yahoo Entertainment",
+      "sentiment": "negative",
+      "impact": "Investing.com -- Federal Reserve Bank of Minneapolis President Neel Kashkari said Sunday that the prolonged Iran conflict increases risks of elevated...",
+      "category": "us_monetary_policy",
+      "date": "2026-05-03 19:43",
+      "link": "https://finance.yahoo.com/economy/policy/articles/fed-kashkari-warns-iran-war-194307063.html"
     },
     {
       "headline": "Why Jerome Powell Decided to Stay at the Fed",
@@ -197,84 +206,74 @@
       "link": "https://www.wsj.com/economy/central-banking/jerome-powell-federal-reserve-decision-89f4ff22"
     },
     {
-      "headline": "Rockwell Automation earnings in focus as margin question looms By Investing.com",
-      "score": 6,
-      "source": "Investing.com Nigeria",
-      "sentiment": "neutral",
-      "impact": "Rockwell Automation (ROK) is set to announce its second-quarter fiscal 2026 results, with analysts expecting significant year-over-year gains in earnings and revenue. The key focus for investors will be on the company's ability to sustain margin expansion amidst macro uncertainty and the ongoing org",
-      "category": "corporate_earnings",
-      "date": "2026-05-04 15:35",
-      "link": "https://ng.investing.com/news/earnings/rockwell-automation-earnings-in-focus-as-margin-question-looms-93CH-2479678"
-    },
-    {
-      "headline": "Pangaea Logistics Solutions (PANL) Projected to Post Earnings on Monday",
+      "headline": "Fastenal Company (NASDAQ:FAST) Given Consensus Rating of \"Hold\" by Analysts",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Pangaea Logistics Solutions (PANL) is slated to release its Q1 2026 earnings after market close on Monday, May 11th, with analysts forecasting earnings of $0.05 per share and revenue of $165.79 million. The company recently traded down 2.1% to $7.56 and has a consensus \"Hold\" rating from analysts wi",
-      "category": "corporate_earnings",
-      "date": "2026-05-04 15:33",
-      "link": "https://www.marketbeat.com/instant-alerts/pangaea-logistics-solutions-panl-projected-to-post-earnings-on-monday-2026-05-04/"
+      "impact": "Analysts have issued a \"Hold\" consensus rating for Fastenal Company (NASDAQ:FAST) based on reports from thirteen firms, with an average 12-month price target of $49.77. The company recently reported quarterly EPS of $0.30, in line with expectations, and revenue of $2.20 billion, representing a 12.4%",
+      "category": "us_equities",
+      "date": "2026-05-05 06:41",
+      "link": "https://www.marketbeat.com/instant-alerts/fastenal-company-nasdaqfast-given-consensus-rating-of-hold-by-analysts-2026-05-05/"
     },
     {
-      "headline": "Public Service Enterprise earnings up next amid nuclear deal uncertainty",
+      "headline": "The Campbell's Company (NASDAQ:CPB) Receives Average Rating of \"Reduce\" from Brokerages",
       "score": 6,
-      "source": "Investing.com",
-      "sentiment": "neutral",
-      "impact": "Public Service Enterprise Group (PEG) is set to release its first-quarter earnings, with investors keenly awaiting clarity on potential nuclear power sales to data centers, a prospect that has fueled its valuation but now faces analyst skepticism. While the company is expected to report strong Q1 ea",
-      "category": "corporate_earnings",
-      "date": "2026-05-04 15:23",
-      "link": "https://www.investing.com/news/earnings/public-service-enterprise-earnings-up-next-amid-nuclear-deal-uncertainty-93CH-4656789"
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "The Campbell's Company (NASDAQ:CPB) has received a consensus \"Reduce\" rating from 22 brokerages, with an average 12-month target price of $26.06. This sentiment follows the company missing quarterly EPS estimates and reporting a 4.5% year-over-year revenue decline. Despite a 7.6% dividend yield, the",
+      "category": "us_equities",
+      "date": "2026-05-05 06:33",
+      "link": "https://www.marketbeat.com/instant-alerts/the-campbells-company-nasdaqcpb-receives-average-rating-of-reduce-from-brokerages-2026-05-05/"
     },
     {
-      "headline": "Strong Earnings Will Outweigh Iran War Fears, Says Morgan Stanley",
+      "headline": "Willow Lane Acquisition Corp. Shareholders Approve Merger with Boost Run Holdings; New Boost Run Inc. to Trade on Nasdaq as BRUN",
       "score": 6,
-      "source": "TipRanks",
+      "source": "Minichart",
       "sentiment": "positive",
-      "impact": "Morgan Stanley believes that robust corporate earnings, particularly from the S&P 500, will overshadow concerns related to the U.S.-Iran conflict. Earnings estimates for S&P 500 companies have risen, and reported first-quarter results have beaten estimates significantly, with strength extending beyo",
-      "category": "corporate_earnings",
-      "date": "2026-05-04 15:11",
-      "link": "https://www.tipranks.com/news/strong-earnings-will-outweigh-iran-war-fears-says-morgan-stanley"
+      "impact": "Willow Lane Acquisition Corp. shareholders have approved the merger with Boost Run Holdings, an enterprise AI and high-performance computing infrastructure provider. The combined entity, Boost Run Inc., will trade on Nasdaq under the symbols \"BRUN\" and \"BRUNW\", with approximately $134.5 million rema",
+      "category": "us_equities",
+      "date": "2026-05-05 06:31",
+      "link": "https://www.minichart.com.sg/2026/05/05/willow-lane-acquisition-corp-shareholders-approve-merger-with-boost-run-holdings-new-boost-run-inc-to-trade-on-nasdaq-as-brun/"
     },
     {
-      "headline": "IQVIA earnings up next: Can pharma strength offset AI concerns? By Investing.com",
+      "headline": "The 5 Most Interesting Analyst Questions From S&P Global\u2019s Q1 Earnings Call",
       "score": 6,
-      "source": "Investing.com Canada",
-      "sentiment": "neutral",
-      "impact": "IQVIA Holdings Inc. is set to release its first-quarter earnings, with analysts anticipating earnings of $2.82 per share on $4.1 billion in revenue. Investors will be keenly watching whether strengthening pharmaceutical demand can outweigh concerns regarding the potential disruption of artificial in",
-      "category": "corporate_earnings",
-      "date": "2026-05-04 15:11",
-      "link": "https://ca.investing.com/news/earnings/iqvia-earnings-up-next-can-pharma-strength-offset-ai-concerns-93CH-4606924"
+      "source": "Barchart.com",
+      "sentiment": "positive",
+      "impact": "S&P Global (SPGI) reported strong first-quarter results, surpassing analyst estimates for revenue, adjusted EPS, and adjusted EBITDA, primarily driven by growth in Ratings and Indices and increased demand for subscription products. The article highlights key analyst questions from the earnings call,",
+      "category": "us_equities",
+      "date": "2026-05-05 06:08",
+      "link": "https://www.barchart.com/story/news/1702118/the-5-most-interesting-analyst-questions-from-sp-globals-q1-earnings-call"
     },
     {
-      "headline": "Fire, explosion hit South Korean-run vessel in Strait of Hormuz, Seoul says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Fire, explosion hit South Korean-run vessel in Strait of Hormuz, Seoul says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-04 15:01",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeFBqaE4zOHBMRUw5MVQ5SkZRZGptd1Z0SXprcXdJcHZ4dk9oaFVfOElQOENfWm16c3BaSWROWWJQRkktSXRmTG9LUV9ORDM4bGhEUF84UkgzdVdfTHRBd0UxSk04blZFQzdmVmZuRUVQSG80al9vOVJWZVdTeVFDNU5qYkJOWDhGN2FyU1RWWG5Ha3Rydk1sYmVTa0ttRXprYktIWUlPYVdNQnhDM0R6OGhVWEozQjVpUUo3cHg4SFNQVnlRMG9SazJWVQ?oc=5"
-    },
-    {
-      "headline": "Bret Taylor's Sierra raises nearly $1 billion months after last capital push",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Sierra's $950 million Series E funding round was led by Tiger and Google's GV, with participation from Benchmark, Sequoia, Greenoaks and others.",
-      "category": "global_markets",
-      "date": "2026-05-04 14:50",
-      "link": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html"
-    },
-    {
-      "headline": "Bessent urges China to step up diplomacy on Iran ahead of Trump-Xi summit - Reuters",
+      "headline": "Morning Bid: Freedom? What freedom? - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Bessent urges China to step up diplomacy on Iran ahead of Trump-Xi summit\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-05-04 14:41",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRjBZMDJTMXdidVVidUhfQnBncmRXUVc4aXRNVm9hN09udHNOOXhYM1FVZ2JWVnZQT1JfdWVSd2tSeU5NU2NJVUl6Vi1fQ2NzVERkNWtHNkZZNk9lSDRGZzhWZ2NESTZpc3F3RVhyOXhlWVFXcXg3QTBLaEVUenU2MDNEQ2ZOYUZ4RDlKRVBNaG5mVXlhd054VWJDX3dqVTJTNXVOV0NLa3Z3SDZPM250NHlVR1J3ZHc?oc=5"
+      "impact": "Morning Bid: Freedom? What freedom?\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-05 04:32",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jVXVtQmdxNjRLRkdxOHpQTkE0M1hPS011SXZjeFpQc01XOXhYbXE1Tjd3Ukd0TkwzUDJPNkFKbW1SMDByUHloUThkQjgxblZDSHVRaTVuUnNOZGplM3l2X1Btc3pRMUppTjZVcW05bnhBTlNrajhZN21PbDZtV1k?oc=5"
+    },
+    {
+      "headline": "South Korea to probe ship fire in Strait of Hormuz, Trump blames Iranian attack - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "South Korea to probe ship fire in Strait of Hormuz, Trump blames Iranian attack\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-05 03:47",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSWNFbjJxYWppRk8zN2pzWlM4c0FsTGV6V2VXR1A1RksyYmlTMktEMXgxZ3lGZ1hRMU1nYmZJQ3UyRkJfWi0yZGZZUk4tUUpDRTRDeUp1Q0hyQ2xLVDIxVVh4SGJsY2hDNkpZeTZjb1RSOWpDNHd1VGZKeTNBVS05U2xsdmxqWVpWNVcxZ1lZX2RFZlVhbGZjbFZfQmNkVnFnSGNSMFlpNmtOTUswVXdueC1hT3ZiZE5sZHdMamZHaVJIZw?oc=5"
+    },
+    {
+      "headline": "Rupee hits record low as fresh US-Iran tensions intensify economic worries - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Rupee hits record low as fresh US-Iran tensions intensify economic worries\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-05 03:42",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZl91cm9Xd3FTOXB0VnE2SHVGOFRxU2NwT2RhSXhqOGhPajdVc0ptVXBnRzFHQTU5RWplem96SS1qaVRZdWxQMXVuZFgtSENES0ZwZFllSk9sYmhWZGZIdkVVbVNrYko2Tmw4bVAwTmRmZ0dVSjhIWHo2Slp5dFk0VXBTQ1FyTkJMQUxLMHNQVUJpbWQ5SGhVUEM2RklXbDZJZlFHcEtwUHo3MENwT3AwVHVveVpqejFTWGZIYkdR?oc=5"
     }
   ]
 }
