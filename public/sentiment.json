@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-06T08:08:10.343084",
+  "timestamp": "2026-05-06T16:02:17.779693",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.4,
-    "bullish": 13,
+    "bullish": 11,
     "neutral": 11,
-    "bearish": 1,
-    "high_priority": 11,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
-    "Bloomberg": 2,
-    "MarketWatch": 1,
-    "CNBC": 4,
+    "Reuters": 3,
+    "Bloomberg": 5,
     "Caixin/S&P Global": 1,
-    "FXStreet": 1,
-    "MarketBeat": 2
+    "CNBC": 6,
+    "Sharecast.com": 1,
+    "Zacks Investment Research": 2,
+    "MarketBeat": 1,
+    "Barron's": 1,
+    "Investor's Business Daily": 1
   },
   "top_signals": [
     {
@@ -30,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,38 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Betting on long Treasury bonds when yields near 5% has been a slam-dunk trade over the past few years. Is this time different?",
+      "headline": "Key US Yield at 5% Highlights Mounting Pressure in Bond Market",
       "score": 8,
-      "source": "MarketWatch",
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "\u201cThere is not a \u2018break-the-glass\u2019 solution,\u201d says former Treasury Secretary Steven Mnuchin of backup plans if the U.S. can\u2019t finance its debt.",
+      "impact": "The yield on 30-year US government debt hovered around 5% after breaching the key level for the first time this year \u2014 suggesting pressure in the world\u2019s biggest bond market isn\u2019t letting up.",
       "category": "fixed_income",
-      "date": "2026-05-05 22:48",
-      "link": "https://www.marketwatch.com/story/betting-on-long-treasury-bonds-when-yields-near-5-has-been-a-slam-dunk-trade-over-the-past-few-years-is-this-time-different-cd4def81?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "S&P 500 and Nasdaq notch records as AI chip stocks surge - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "S&P 500 and Nasdaq notch records as AI chip stocks surge\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-05-05 22:29",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXJmbTJ1QXlUbzNTS1ZhOXF6RHZmZjJGekJSRzZHRWRYQ05FSmEzMnlCaHJpbG0zSVB5WGRTNzUyYWtzY0JtSVNkRWdpWVo0Z2VrM1JLSW02UzRLWXQwaEhoMWgzYnNLdkhRdktMbGJlRnFxY2s5SzNDYkF3Y3ExVWdHTjJuMy1qT200WVo1WmxlT2hnYXJPWmpPTTlXWXhPTnI3N0dn?oc=5"
-    },
-    {
-      "headline": "Paramount earnings, revenue beat expectations as streaming business offers a boost",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Paramount Skydance said it added streaming subscribers during the first quarter even as it instituted its first price hike since 2024. ",
-      "category": "corporate_earnings",
-      "date": "2026-05-04 20:48",
-      "link": "https://www.cnbc.com/2026/05/04/paramount-skydance-psky-earnings-q1-2026.html"
+      "date": "2026-05-05 15:14",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-05/key-us-yield-at-5-highlights-mounting-pressure-in-bond-market"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -140,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -150,28 +132,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-06 08:08",
+      "date": "2026-05-06 16:02",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Disney reports earnings before the bell. Here's what to expect",
+      "headline": "Restaurant Brands International earnings top estimates, fueled by Burger King turnaround",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Disney's second-quarter earnings report comes less than two months after Josh D'Amaro took the helm as CEO. ",
+      "impact": "Restaurant Brands International reported quarterly earnings and revenue that topped Wall Street's estimates.",
       "category": "corporate_earnings",
-      "date": "2026-05-06 04:01",
-      "link": "https://www.cnbc.com/2026/05/06/disney-dis-earnings-q2-2026.html"
+      "date": "2026-05-06 15:41",
+      "link": "https://www.cnbc.com/2026/05/06/restaurant-brands-international-qsr-q1-2026-earnings.html"
     },
     {
-      "headline": "South Korea inflation near two-year high, raising likelihood of rate hikes - Reuters",
+      "headline": "CVS Health lifts full-year earnings guidance",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "South Korea inflation near two-year high, raising likelihood of rate hikes\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-05 23:02",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelhHNFY5OF9TaXVXbkJFcUFaaFl3WGlUMFNObnZFX2NDbzJlM1o1LXVuSkxPdTdQN29IWHk1V0lzRVNfa0ZlZmF0dkFxaDB1NlhvUENISU5VLTVWSkhaUEZTWloyVTdLeF9iSTVyb2pXbVpRYlhjQ19qZjQ4TUFXd21JNkdseElscnpXM0N6T2xHNjdQTkd1QzF4WDJuVTNmbmlaSG1faDZkUQ?oc=5"
+      "source": "Sharecast.com",
+      "sentiment": "positive",
+      "impact": "CVS Health has raised its full-year earnings guidance after reporting better-than-expected first-quarter results, driven by strong growth across all operating segments and improved adjusted operating income in its healthcare benefits segment. The company's total revenue increased by 6.2% to $100.4 b",
+      "category": "corporate_earnings",
+      "date": "2026-05-06 15:37",
+      "link": "https://www.sharecast.com/news/international-companies/cvs-health-lifts-full-year-earnings-guidance--22427554.html"
+    },
+    {
+      "headline": "Electronic Arts Q4 Earnings Miss Estimates, Revenues Increase Y/Y",
+      "score": 7,
+      "source": "Zacks Investment Research",
+      "sentiment": "positive",
+      "impact": "Electronic Arts (EA) reported Q4 fiscal 2026 earnings of $1.59 per share, missing the Zacks Consensus Estimate, despite a 12% year-over-year revenue increase to $2.12 billion. The company saw strong performance from Battlefield 6 and Apex Legends, and expanded its gross margin to 82.8%. EA also anno",
+      "category": "corporate_earnings",
+      "date": "2026-05-06 15:33",
+      "link": "https://www.zacks.com/stock/news/2916126/electronic-arts-q4-earnings-miss-estimates-revenues-increase-yy"
+    },
+    {
+      "headline": "DaVita Stock Up Following Q1 Earnings & Revenue Beat, Margins Expand",
+      "score": 7,
+      "source": "Zacks Investment Research",
+      "sentiment": "positive",
+      "impact": "DaVita Inc. (DVA) reported strong first-quarter 2026 results, surpassing consensus estimates for both adjusted EPS and revenue. The company saw significant year-over-year growth in earnings and revenue, along with expanded gross and adjusted operating margins. Following these positive results, DaVit",
+      "category": "corporate_earnings",
+      "date": "2026-05-06 15:31",
+      "link": "https://www.zacks.com/stock/news/2916165/davita-stock-up-following-q1-earnings-revenue-beat-margins-expand"
+    },
+    {
+      "headline": "Bio-Techne (NASDAQ:TECH) Shares Down 10.8% on Disappointing Earnings",
+      "score": 7,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Bio-Techne (NASDAQ:TECH) shares fell 10.8% after reporting disappointing earnings, with EPS of $0.53 missing estimates by $0.02 and revenue of $311.42 million also missing consensus and declining 1.5% year-over-year. Despite the miss, analysts largely maintain a \"Moderate Buy\" rating with a consensu",
+      "category": "us_equities",
+      "date": "2026-05-06 15:31",
+      "link": "https://www.marketbeat.com/instant-alerts/bio-techne-nasdaqtech-shares-down-108-on-disappointing-earnings-2026-05-06/"
     },
     {
       "headline": "EV maker Lucid suspends production guidance amid incoming CEO's business review",
@@ -180,98 +192,88 @@
       "sentiment": "neutral",
       "impact": "Lucid Group said it will make moves to better align its production with customer demand for its luxury all-electric vehicles.",
       "category": "corporate_earnings",
-      "date": "2026-05-05 22:52",
+      "date": "2026-05-06 14:35",
       "link": "https://www.cnbc.com/2026/05/05/lucid-lcid-q1-2026.html"
     },
     {
-      "headline": "Marathon Petroleum profit beats estimates as Iran war boosts refining margins - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Marathon Petroleum profit beats estimates as Iran war boosts refining margins\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-05-05 17:22",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaTJNaDcyNFpURFppT0FIVXVsNFVtRkJWNkplT1NZWnpHeEx2T2h6TjVBUkdodC16MlJ1ODhZcTFlS29lcFN5eFVjLU1jb2R0T2lkUmRYbF9jRWl2alB2dkVRVmZ3TW82NFpyY01wRHFITDE5TnFDcnJQUDhtLV9ZdDZuS0lTeHM2cE1SWTlYZjBUYXFzTWhzYnFfS19aZm45ZVMzeTd0R3BMYjlEM3RnQkYzY2xPUXRyOEFDSGRCRjJkQ2dMcWRKbQ?oc=5"
-    },
-    {
-      "headline": "European shares rise on positive earnings bump; focus on Mideast tensions - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "European shares rise on positive earnings bump; focus on Mideast tensions\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-05-05 16:26",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTTVvTGlWclRoSHkyVjR3eVh4MlJUS294UlpLRTZrQmt6OG1LMkFaLVpydTU1QXIwZEdCQUdESDhXeUhvWi1iRnRQbnlXQmlTd09EVjhRV01fY0hZYXY0UHNma2JnNVJFcGpkdVZPRkU0NEU5N1FyQlRTdkxaLWI3YWZKLUxNcDR6LVJGb2lBOG1HWGdNa1pFOU8yckVMV19EOGpPc09ILTdnRkIx?oc=5"
-    },
-    {
-      "headline": "We're buying the post-earnings dip in an AI industrial stock with a bright future",
+      "headline": "Disney pops 7% after streaming, parks drive revenue beat in first report under CEO Josh D'Amaro",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "We are buyers of this weakness because we have a longer-term view.",
+      "sentiment": "positive",
+      "impact": "Disney revenue topped analyst expectations when the media giant reported its fiscal second-quarter earnings on Wednesday.",
       "category": "corporate_earnings",
-      "date": "2026-05-05 14:05",
-      "link": "https://www.cnbc.com/2026/05/05/were-buying-the-post-earnings-dip-in-an-ai-industrial-stock-with-a-bright-future.html"
+      "date": "2026-05-06 13:52",
+      "link": "https://www.cnbc.com/2026/05/06/disney-dis-earnings-q2-2026.html"
     },
     {
-      "headline": "ADP Employment Report set to signal US job market remained resilient in April",
-      "score": 6,
-      "source": "FXStreet",
-      "sentiment": "positive",
-      "impact": "The ADP Employment Report for April is anticipated to show a significant acceleration in US private-sector job gains, with forecasts indicating 99K new jobs, up from 62K in March. This strong employment data is crucial as the Federal Reserve pivots towards a hawkish stance due to escalating inflatio",
-      "category": "global_markets",
-      "date": "2026-05-06 07:30",
-      "link": "https://www.fxstreet.com/news/adp-employment-report-expected-to-show-private-sector-job-gains-accelerated-in-april-202605060730"
-    },
-    {
-      "headline": "Lam Research Corporation (NASDAQ:LRCX) Given Average Rating of \"Moderate Buy\" by Brokerages",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Lam Research Corporation (NASDAQ:LRCX) has received an average rating of \"Moderate Buy\" from 34 brokerages, with 26 recommending a \"buy\" and eight a \"hold.\" The company recently exceeded Q1 earnings estimates and raised its near-term guidance, leading to several analyst price target increases. Despi",
+      "headline": "Stock Market Today: Dow, S&P 500, Nasdaq Rise; Trump, Iran Fears; Palantir, Intel, AMD, More Movers",
+      "score": 7,
+      "source": "Barron's",
+      "sentiment": "neutral",
+      "impact": "The Dow, S&P 500, and Nasdaq are rising as the stock market shrugs off fears about escalating tensions between the U.S. and Iran.",
       "category": "us_equities",
-      "date": "2026-05-06 07:20",
-      "link": "https://www.marketbeat.com/instant-alerts/lam-research-corporation-nasdaqlrcx-given-average-rating-of-moderate-buy-by-brokerages-2026-05-06/"
+      "date": "2026-05-05 14:13",
+      "link": "https://www.barrons.com/livecoverage/stock-market-news-today-050526"
     },
     {
-      "headline": "Valley National Bancorp (NASDAQ:VLY) Given Consensus Recommendation of \"Moderate Buy\" by Brokerages",
-      "score": 6,
-      "source": "MarketBeat",
+      "headline": "Shopify Operating Profit Light As Revenue Edges By Estimates. Shares Fall.",
+      "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "neutral",
+      "impact": "Shopify stock fell as Q1 operating profit missed consensus while sales slightly beat.",
+      "category": "corporate_earnings",
+      "date": "2026-05-05 11:28",
+      "link": "https://www.investors.com/news/technology/shopify-stock-shop-shopify-earnings-q12026/"
+    },
+    {
+      "headline": "HSBC Profit Misses on Charges Related to the UK, Middle East",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "HSBC Holdings Plc reported profit that missed estimates, weighed down by an unexpected charge related to the collapse of UK mortgage lender Market Financial Solutions Ltd. and rising economic risks stemming from the conflict in the Middle East.",
+      "category": "corporate_earnings",
+      "date": "2026-05-05 07:48",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-05/hsbc-profit-misses-on-charges-related-to-the-uk-middle-east"
+    },
+    {
+      "headline": "Australia hikes rates again and warns inflation will stay higher for longer",
+      "score": 7,
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Seventeen analysts have given Valley National Bancorp (NASDAQ:VLY) an average recommendation of \"Moderate Buy,\" with an average 12-month price target of $15.17. The company recently beat Q1 earnings estimates with EPS of $0.29 and revenue of $540.4 million, and it pays a quarterly dividend of $0.11,",
-      "category": "us_equities",
-      "date": "2026-05-06 07:19",
-      "link": "https://www.marketbeat.com/instant-alerts/valley-national-bancorp-nasdaqvly-given-consensus-recommendation-of-moderate-buy-by-brokerages-2026-05-06/"
-    },
-    {
-      "headline": "Iran says it wants a 'comprehensive agreement' with US - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran says it wants a 'comprehensive agreement' with US\u00a0\u00a0Reuters",
+      "impact": "Inflation had picked up materially in the second half of 2025, and the conflict in the Middle East had resulted in sharply higher fuel and commodity prices.",
       "category": "global_markets",
-      "date": "2026-05-06 07:14",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYy04enE2RGhod3NneGVSTEo4STVXQThRT1FlQmE3YlpZSWtFejhyWHJwTnZEczB1VzVjWmdyRXpfZXFQRFYyUlR0WXBOWkludjExaV9YVWFOQlhJOHJrSndhdVZQZlVCMjMtbUp1bDFzOUhaN1NfVlFZTlhDeGY5b2hwcHRYQldpZUs2SkxjSVZIbzhjVGpOOFc5TERvNzA?oc=5"
+      "date": "2026-05-05 04:33",
+      "link": "https://www.cnbc.com/2026/05/05/australia-central-bank-rate-hike-inflation-rba.html"
     },
     {
-      "headline": "Iran foreign minister meets Chinese counterpart week before Trump's Beijing trip - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "headline": "FedEx, UPS Shares Sink on \u2018Watershed\u2019 Amazon Logistics Move",
+      "score": 7,
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "Iran foreign minister meets Chinese counterpart week before Trump's Beijing trip\u00a0\u00a0Reuters",
+      "impact": "US transportation stocks plunged Monday after Amazon.com Inc. announced expanded logistics offerings that will turn it into a major competitor for parcel carriers and air freight companies, and also impact truckers and third-party brokers.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-04 20:22",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-04/fedex-ups-shares-tumble-on-amazon-s-watershed-logistics-move"
+    },
+    {
+      "headline": "Apollo CEO Rowan warns of market correction, slams \u2018egregious\u2019 practices at rival insurers",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Apollo CEO Marc Rowan warned that markets face an elevated risk of unexpected shocks, saying he is positioning the firm defensively for an expected correction. ",
       "category": "global_markets",
-      "date": "2026-05-06 03:18",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPb0VDMHNmUDVwaE91azZpc0U3TjIzTTZQTDExSFh3X2NfNEpCZ0NEeGxtUVJrM29WN2dzRUlUNEhsLWd5eUVJclFMT2hfcTF1cTIxdkREeGVaM3NJXzltTzRjQ09xaXRhaE5mbzN6Uk1UYlFNMmxveGNxSUtSYmNjVG9lM1dYMGh0bzhvRk5rNFJyc1dKdURva21GMDJ1WkNDTU9GVHFhclFOQjRVdm9vYTI2dDBnR0hPNlJpRnNoZw?oc=5"
+      "date": "2026-05-06 15:57",
+      "link": "https://www.cnbc.com/2026/05/06/apollo-ceo-rowan-market-correction-rival-insurers.html"
     },
     {
-      "headline": "Gold jumps on weaker dollar, Middle East peace hopes - Reuters",
+      "headline": "Wearable patches: How Barri\u00e8re is trying to disrupt the supplement industry",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Gold jumps on weaker dollar, Middle East peace hopes\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-05-06 02:44",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVDNKM3paNGhVSDBIQUQzZjQ0NnBvQlJpZUtGdDZnY1VTdXdtbnc3VDZDNW4xaDNPM2t6VUl1b01DWnRGZ1N6azVDXzdOcGZrVUxBU3FsSVVNaEhXOEVxNHlVVnp4eWhhakhXLXhpTDlaZHd3V1ZtTmxjRnk2NjJKMmh1MFdyTy03RDRfSTVlaEtOZGsycF85dTdSWDA?oc=5"
+      "impact": "Supplement patch company Barri\u00e8re is launching the first-ever lactose intolerance patch in 1,700 Walmart stores, the company told CNBC exclusively.",
+      "category": "global_markets",
+      "date": "2026-05-06 15:49",
+      "link": "https://www.cnbc.com/2026/05/06/supplements-wearable-patches-barrire.html"
     }
   ]
 }
