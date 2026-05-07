@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-07T08:15:42.684385",
+  "timestamp": "2026-05-07T16:07:19.504857",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.5,
-    "bullish": 15,
+    "avg_relevance": 7.4,
+    "bullish": 16,
     "neutral": 9,
-    "bearish": 1,
-    "high_priority": 11,
+    "bearish": 0,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,10 +16,11 @@
     "Federal Reserve": 1,
     "Reuters": 8,
     "Bloomberg": 2,
-    "Yahoo Entertainment": 1,
-    "CNBC": 8,
     "Caixin/S&P Global": 1,
-    "Simply Wall Street": 1
+    "CNBC": 6,
+    "Investor's Business Daily": 2,
+    "marketscreener.com": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -113,33 +114,13 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ3V5RlZkMXFBanpJNkJ0YVlKRkxYamlXOF9kbjl4RDJtZjctOTd2cHZucnI4ckdCbXZ3LUhCQjdnckU4SVZwVU9jeE54Zzk0dy03RGlBMFFLZVRreHdBemhuOFpnY2dIWVVCdTZva3JFWHViN2dlclF1TnYwSWZSMlp4RjFWZHZKa1cxanM2SG5xVHZzN0VxNG5sQUF0UENxbERpdGpKbXFzakVn?oc=5"
     },
     {
-      "headline": "Stock market today: S&P 500, Nasdaq, Dow futures rise as tech earnings continue to impress",
-      "score": 8,
-      "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "Major gauge futures soared following a series of record closes from US indexes.",
-      "category": "us_equities",
-      "date": "2026-05-06 07:11",
-      "link": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-may-6-fresh-records-231128701.html"
-    },
-    {
-      "headline": "Super Micro stock jumps 18% on guidance beat as revenue more than doubles",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Super Micro pointed to progress in U.S. manufacturing in issuing a stronger-than-expected quarterly forecast.",
-      "category": "corporate_earnings",
-      "date": "2026-05-05 20:38",
-      "link": "https://www.cnbc.com/2026/05/05/super-micro-smci-q3-earnings-report-2026.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -149,28 +130,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-07 08:15",
+      "date": "2026-05-07 16:07",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "McDonald's is about to report earnings. Here's what to expect",
+      "headline": "Peloton stock rises as higher subscription prices help company drive a profitable quarter",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Shares of McDonald's have fallen 10% over the last year, hurt by concerns about the broader economy. ",
+      "sentiment": "positive",
+      "impact": "Peloton CEO Peter Stern told CNBC that the company believes raising prices on its subscriptions was a value-driven move.",
       "category": "corporate_earnings",
-      "date": "2026-05-07 04:01",
-      "link": "https://www.cnbc.com/2026/05/07/mcdonalds-mcd-q1-2026-earnings.html"
+      "date": "2026-05-07 15:31",
+      "link": "https://www.cnbc.com/2026/05/07/peloton-pton-earnings-q3-2026.html"
     },
     {
-      "headline": "Indian shares tepid as oil slide counters profit-taking; autos climb - Reuters",
+      "headline": "Indian shares pause as oil slide counters profit-taking - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Indian shares tepid as oil slide counters profit-taking; autos climb\u00a0\u00a0Reuters",
+      "impact": "Indian shares pause as oil slide counters profit-taking\u00a0\u00a0Reuters",
       "category": "commodities",
       "date": "2026-05-07 02:45",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSTJocEc2SU9haTh4RGE2a1lkQlpTM3JfbG1MYnVwV3RyeE9sd0FoaTVqOEZfODQySkxCRm1YLWY3ckM4QkM3a0RPTmNZQVdNUWZHdDN3aEdydUtISVpqQjRMQTNmd210THFXU3JUNWFnd2lqcC1yemplV2xOYXhNVUxaN1RlM2JiaGpQX0JzTjBQOTFFZzF5T21zY0lFaFRHUnc?oc=5"
+    },
+    {
+      "headline": "Gold extends gains as US-Iran peace hopes ease inflation concerns - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gold extends gains as US-Iran peace hopes ease inflation concerns\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-07 01:23",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa21wcmpORlVhZVFvRWs3QmduODVRMU9TenpJWXNIX1dpVUFFNzRleEQ0OVFGdkx1dXRkSmN5dXpSNlB1SmZrQ1d5V2czZVZZR3ZLcy1LLUlGRzVOS3Vib01ESGtiTlpDakVjdXFmR2NfWUFWdFhkWWZrWkpSQS1vQlZvbE5UcEVBQjEwQk9jVDFub0RnRjRvSWd2SUhzMWFnRmZITA?oc=5"
     },
     {
       "headline": "Japan's Nikkei blazes past 63,000 on earnings, Iran peace optimism; JGBs rally - Reuters",
@@ -203,14 +194,14 @@
       "link": "https://www.cnbc.com/2026/05/06/snap-q1-earnings-report-2026.html"
     },
     {
-      "headline": "Europe's STOXX 600 up over 2% on Iran deal optimism; earnings in focus - Reuters",
+      "headline": "Dow rises 500 points as oil retreats on Iran deal progress; AMD jumps after earnings: Live updates",
       "score": 7,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Europe's STOXX 600 up over 2% on Iran deal optimism; earnings in focus\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-05-06 16:36",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNDdLQjFwcElkWkczVXpvZi1YRFNVaXlMaFJtejhUblNSYWxqVzBkYlk4UEVsOXE0MWlMZElnQk5lZGJKd2V1T0NKTUZXTFI3QXpZX1gzX215RXBoQlM1U0hXNUhoMWhySUhkQy1tMzNNOXhIdllfLWtHYVN2V1NNUXA1ZFl1cEEybG15Ql9RdDZWZ1ZGbmttQkM3LWoxLUhnRGFEWThFMXBwcTd4WDJOaFBLSU1mOTdY?oc=5"
+      "impact": "Buoyed by solid earnings and lower oil prices, the S&P 500 and Nasdaq Composite both reached new intraday and closing highs on Tuesday.",
+      "category": "us_equities",
+      "date": "2026-05-06 15:50",
+      "link": "https://www.cnbc.com/2026/05/05/stock-market-today-live-updates.html"
     },
     {
       "headline": "Restaurant Brands International earnings top estimates, fueled by Burger King turnaround",
@@ -223,54 +214,64 @@
       "link": "https://www.cnbc.com/2026/05/06/restaurant-brands-international-qsr-q1-2026-earnings.html"
     },
     {
-      "headline": "EV maker Lucid suspends production guidance amid incoming CEO's business review",
+      "headline": "Disney Stock Surges On Earnings Beat, Streaming Profits Boom",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Lucid Group said it will make moves to better align its production with customer demand for its luxury all-electric vehicles.",
-      "category": "corporate_earnings",
-      "date": "2026-05-06 14:35",
-      "link": "https://www.cnbc.com/2026/05/05/lucid-lcid-q1-2026.html"
-    },
-    {
-      "headline": "Wegovy pill sales smash forecasts after launch as Novo Nordisk hikes guidance",
-      "score": 7,
-      "source": "CNBC",
+      "source": "Investor's Business Daily",
       "sentiment": "positive",
-      "impact": "Novo Nordisk raised its outlook for 2026 after a strong performance from its newly launched Wegovy pill.",
+      "impact": "Disney cleared Q2 estimates early Wednesday, driven by solid revenue growth and a spike in profits for Disney+, Hulu. Disney stock pops.",
       "category": "corporate_earnings",
-      "date": "2026-05-06 06:09",
-      "link": "https://www.cnbc.com/2026/05/06/wegovy-glp1-weight-loss-novo-nordisk-earnings-stock-nvo-ozempic.html"
+      "date": "2026-05-06 13:42",
+      "link": "https://www.investors.com/news/disney-earnings-q2-2026-dis-stock-streaming-disney-parks-experiences-dow-jones-warner-bros-paramount-wbd/"
     },
     {
-      "headline": "Disney reports earnings before the bell. Here's what to expect",
+      "headline": "Stock Market Today: Nasdaq, S&P 500 End At Record Highs As Techs Rise; Intel Shares Surge (Live Coverage)",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Disney's second-quarter earnings report comes less than two months after Josh D'Amaro took the helm as CEO.",
-      "category": "corporate_earnings",
-      "date": "2026-05-06 04:01",
-      "link": "https://www.cnbc.com/2026/05/06/disney-dis-earnings-q2-2026.html"
+      "source": "Investor's Business Daily",
+      "sentiment": "positive",
+      "impact": "Stock Market Today: The Dow Jones index rose Tuesday as oil prices fell. Palantir stock dropped after its earnings report.",
+      "category": "us_equities",
+      "date": "2026-05-05 20:54",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-tensions-palantir-stock-pltr/"
     },
     {
-      "headline": "What Fair Isaac (FICO)'s Higher 2026 Guidance and Scores Momentum Means For Shareholders",
+      "headline": "How startup Propy is deploying $100 million to put real estate deals on the blockchain",
       "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "Fair Isaac Corporation (FICO) reported strong Q2 2026 results with revenue of US$691.68 million and net income of US$264.46 million, leading to raised full-year 2026 guidance. The company's Scores segment and B2B solutions show strong momentum, reinforcing its central role in credit decisioning. Des",
-      "category": "corporate_earnings",
-      "date": "2026-05-07 07:17",
-      "link": "https://simplywall.st/stocks/us/software/nyse-fico/fair-isaac/news/what-fair-isaac-ficos-higher-2026-guidance-and-scores-moment"
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Propy, a Miami-based blockchain technology company that launched in 2017, has been trying to modernize the closing process for residential homes.",
+      "category": "global_markets",
+      "date": "2026-05-07 15:57",
+      "link": "https://www.cnbc.com/2026/05/07/startup-propy-real-estate-deals-blockchain.html"
     },
     {
-      "headline": "Trump sees swift end to war as Iran reviews US peace proposal - Reuters",
+      "headline": "Earnings Flash (MMS) Maximus, Inc. Posts Q2 Adjusted EPS $2.07 per Share, vs. FactSet Est of $1.97",
+      "score": 6,
+      "source": "marketscreener.com",
+      "sentiment": "positive",
+      "impact": "Maximus, Inc. (MMS) reported its Q2 adjusted EPS of $2.07 per share, surpassing FactSet's estimate of $1.97. The company's adjusted earnings have risen, although revenue for the fiscal second quarter reportedly fell. Maximus also revised its fiscal 2026 adjusted earnings outlook upwards.",
+      "category": "corporate_earnings",
+      "date": "2026-05-07 15:39",
+      "link": "https://www.marketscreener.com/news/earnings-flash-mms-maximus-inc-posts-q2-adjusted-eps-2-07-per-share-vs-factset-est-of-1-97-ce7f58d3dc8df620"
+    },
+    {
+      "headline": "Travis Franklin Buys 9,400 Shares of Midland States Bancorp (NASDAQ:MSBI) Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Midland States Bancorp (NASDAQ:MSBI) Director Travis Franklin recently purchased 9,400 shares of the company's stock for approximately $249,006. This transaction comes as Midland States Bancorp exceeded Q1 earnings expectations with $0.79 EPS and $81.1 million in revenue. The company also declared a",
+      "category": "us_equities",
+      "date": "2026-05-07 15:39",
+      "link": "https://www.marketbeat.com/instant-alerts/travis-franklin-buys-9400-shares-of-midland-states-bancorp-nasdaqmsbi-stock-2026-05-06/"
+    },
+    {
+      "headline": "ConocoPhillips gets Norway's nod to restart fields, boost Europe gas supply",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump sees swift end to war as Iran reviews US peace proposal\u00a0\u00a0Reuters",
+      "sentiment": "positive",
+      "impact": "Norway's energy ministry has approved ConocoPhillips' plans to redevelop oil and gas fields in the Greater Ekofisk area. This project, which involves an investment of approximately 20 billion Norwegian crowns, is expected to deliver 90-120 million barrels of oil equivalent in recoverable gas and con",
       "category": "global_markets",
-      "date": "2026-05-07 04:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVW03RmZ6aF9hQjdpSlhWdVZwVl90c0UzLTBpSXlGVFFHVi1MaXJQU21yQXgwZ1BmeEplUlFWSE1mdS0wMTdzQm9uaEFmSmNzcGo0V2hxdFpSUzVJWEdkdFIyLUlTeTduT2FKV2xwOG94V1FCYjNjWnFGUGo0V2pHLWQ0dUFQTzVsS3ExaVlDSVhrNXN1V09LZjFFVzc3UTg3M05RTjN3?oc=5"
+      "date": "2026-05-07 15:23",
+      "link": "https://www.reuters.com/sustainability/boards-policy-regulation/conocophillips-gets-norways-nod-restart-fields-boost-europe-gas-supply-2026-05-07/"
     }
   ]
 }
