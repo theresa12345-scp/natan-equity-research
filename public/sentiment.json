@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-10T14:56:21.602580",
+  "timestamp": "2026-05-11T08:58:20.686845",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 11,
-    "neutral": 11,
-    "bearish": 3,
-    "high_priority": 8,
+    "avg_relevance": 7.2,
+    "bullish": 12,
+    "neutral": 7,
+    "bearish": 6,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,16 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
+    "Reuters": 14,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "Investor's Business Daily": 1,
-    "Simply Wall Street": 2,
     "MarketWatch": 1,
-    "GuruFocus": 1,
-    "Moomoo": 1,
-    "Seeking Alpha": 1
+    "Fortune": 1,
+    "AD HOC NEWS": 2
   },
   "top_signals": [
     {
@@ -33,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -73,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,8 +99,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Goldman Sachs delays Fed cut outlook to December 2026 as Iran war drives US inflation - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Goldman Sachs delays Fed cut outlook to December 2026 as Iran war drives US inflation\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-05-11 05:32",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmowSnVOelhFSkZuUkVCMEN2TDl4NWRidHB2ak5jQkVHcUxRd2RoNW9mMkJlNTNLU0FkeWpvdGtSd0hKV2doZXdZN2NyeVdyOTJXSWVaYmkyeF9rb005d1lPYWZGLXQtRTdObUJFMWw3b1lBUDhVYUZJcEQxclIteTdzNW5PeHhGZUhZNGVjNkVZQ2NGMzZkNWNsb09hS1ZNV2RwamRncDg3STBiMGRVNmxpNkt2S1o3QTQyTW9Qc25oUQ?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -113,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -123,158 +129,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-10 14:56",
+      "date": "2026-05-11 08:58",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "S&P 500 extends winning streak to 6 weeks. What drove the stock market gains",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Investors cheered positive earnings, economic data, and a high-profile AI partnership.",
-      "category": "us_equities",
-      "date": "2026-05-09 20:18",
-      "link": "https://www.cnbc.com/2026/05/09/sp-500-extends-winning-streak-to-6-weeks-what-drove-the-stock-market-gains.html"
-    },
-    {
-      "headline": "More than 300 foreigners arrested in Jakarta raid on online gambling operation - Reuters",
+      "headline": "Gold falls on oil-driven inflation worries as US\u2013Iran peace talks falter - Reuters",
       "score": 7,
       "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "More than 300 foreigners arrested in Jakarta raid on online gambling operation\u00a0\u00a0Reuters",
-      "category": "indonesia_economy",
-      "date": "2026-05-09 10:32",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX19uN096Z3BDX1d2Q2FwSlBlUmNmN0x6b0RNaUp0aU9TeFFiNWdIaXgwVXlFWE84aWd3b0s2bVA5SnA0R2YwQTBtejhPYUdQOEt1ZGctZ25YYUwxV3VqVkM3VWE0MHJGdVV6N0xBZ09VMzJUNmNwOTZLQ3BLRmFWRHFCM2NFR2JMZ1JyUWt4LVU2QzNDTFlVYmtUR2JNTTJ3d3lEeEkwemlOVXpqSXBkX1lqWFpOOW5STmZoaQ?oc=5"
-    },
-    {
-      "headline": "Stock Market Today: Nasdaq, S&P 500 Score Record Closes On Iran Hopes; Nvidia Hits Highs (Live Coverage)",
-      "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "positive",
-      "impact": "Stock Market Today: The Dow Jones index rises Friday but lags the Nasdaq's jump. Chip stocks including Qualcomm spring higher.",
-      "category": "us_equities",
-      "date": "2026-05-08 20:36",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-april-jobs-report/"
-    },
-    {
-      "headline": "Peloton stock rises as higher subscription prices help company drive a profitable quarter",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Peloton CEO Peter Stern told CNBC that the company believes raising prices on its subscriptions was a value-driven move.",
-      "category": "corporate_earnings",
-      "date": "2026-05-07 20:01",
-      "link": "https://www.cnbc.com/2026/05/07/peloton-pton-earnings-q3-2026.html"
-    },
-    {
-      "headline": "At 103 years old, I\u2019m the \u2018world\u2019s oldest doctor\u2019: My 3 rules for a long, happy life are so simple\u2014I tell it to 'all my patients'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Dr. Howard Tucker left behind an impressive legacy. At 103, he was named the oldest doctor in the world \u2014 and quite possibly the happiest. Shortly before passing away, he shared his rules for living a long, happy and healthy life. They're very simple, he says.",
-      "category": "global_markets",
-      "date": "2026-05-10 13:34",
-      "link": "https://www.cnbc.com/2026/05/10/at-103-years-old-im-the-worlds-oldest-doctor-my-3-rules-for-a-long-happy-life-are-simple.html"
-    },
-    {
-      "headline": "Why Global Industrial (GIC) Is Down 8.7% After Q1 Revenue Growth But Stagnant Margins And What's Next",
-      "score": 6,
-      "source": "Simply Wall Street",
       "sentiment": "negative",
-      "impact": "Global Industrial Company (GIC) saw its stock drop by 8.7% despite reporting Q1 2026 net sales of US$350.4 million and net income of US$16.6 million. Investors were concerned about stagnant margins and weaker long-run profitability metrics, overshadowing the 9.2% revenue growth. The company maintain",
-      "category": "us_equities",
-      "date": "2026-05-10 13:32",
-      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-gic/global-industrial/news/why-global-industrial-gic-is-down-87-after-q1-revenue-growth"
+      "impact": "Gold falls on oil-driven inflation worries as US\u2013Iran peace talks falter\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-11 07:44",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS1R4YmxvUWpZMGJaX3FrMXY2aGNsNG1TZ1JFc08weHF0cXRWd0s5a04xV2xEamNKNWFrT1VXWEZnRHIyZlczejVDblEzS1Z6N2NmTG14aVVkcHJQOUtreDd3TTZKUWtkSmp1aXRuckNFaXdJbThub1RPV3E0aDc4OHNPZnYweWt4MWR4UG1nU0NEMXpaU2V4OUhLNE5JdDVJQlZWREFFRUtqV2N4MVlnbDB0cw?oc=5"
     },
     {
-      "headline": "Iran sends its response to US proposal aimed at ending the war, IRNA says - Reuters",
-      "score": 6,
+      "headline": "China's factory inflation hits 45-month high on energy price shock - Reuters",
+      "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran sends its response to US proposal aimed at ending the war, IRNA says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-10 13:13",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRTVYY01aTFVfdnI2Z0pyRWhRcGI4X3dlTlJLX2RzaWdTZnZMRkFHRjNTb3FCR25IZW1SNE83al92N1VRR2E1UXpES3djcF9SS2N3VHdib3dqcWRGOXZzVkN5R0JLTVNRb3hCcFhvUFVSTmlweFZsVTZNVmlJNTJTRExmVm00Zlk2T2RDZ0lEeW1KaWlWLVNfTGZVZUM5Wk9uNS0yZDhBTTJ0QUJ5Qk5uOC1DRklTYUFa?oc=5"
+      "impact": "China's factory inflation hits 45-month high on energy price shock\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-05-11 01:46",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNHBjRHlkdlRLWGN2eHNKT0pQRC1HSVBCQkpwWFZJMG9ITk1KWWZaMUVCYUpVcTVfcXpYOGFqWlFYSU1PZ0J5czRlMjdaajJoS19nWEEtVS1lN2c2LXF1SHBYYmRtRXR3LXBXUjlWdHN3bW9TWldSVjlqQWFocVV4d3Mtc2xHNDRFTzczd3V1WHM1RnlGb05oZUU2Wm56czNkMVNHZ3MtT0lSTU9qVnc?oc=5"
     },
     {
-      "headline": "With Netflix new ad-free standard plan at $20, streaming's tipping point into old TV is getting closer",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The economics of streaming are nearing the point where cheaper plans with ads make as much if not more money for services like Netflix.",
-      "category": "global_markets",
-      "date": "2026-05-10 13:00",
-      "link": "https://www.cnbc.com/2026/05/10/netflix-20-dollar-streaming-plan-price.html"
-    },
-    {
-      "headline": "\u2018The S&P 500 seems to be doing particularly well\u2019: I\u2019m 66. Is this a good time to invest $100,000 in the stock market?",
-      "score": 6,
+      "headline": "Powell\u2019s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
+      "score": 7,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "\u201cI own my home and I have no debt.\u201d",
-      "category": "us_equities",
-      "date": "2026-05-10 13:00",
-      "link": "https://www.marketwatch.com/story/the-s-p-500-seems-to-be-doing-particularly-well-im-66-is-this-a-good-time-to-invest-100-000-in-the-stock-market-46fb8ff8?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Meet the YouTube whisperers, a booming class of advisors behind MrBeast and other million-dollar channels",
-      "score": 6,
-      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "A burgeoning group of YouTube strategists are charging big money to YouTubers who want to expand their popularity.",
-      "category": "global_markets",
-      "date": "2026-05-10 13:00",
-      "link": "https://www.cnbc.com/2026/05/10/youtube-advisors-mrbeast-top-creators-platform-viewership.html"
+      "impact": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-10 22:00",
+      "link": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89?mod=mw_rss_topstories"
     },
     {
-      "headline": "Lumentum Holdings Joins Nasdaq-100, Replacing CoStar Group (CSGP)",
-      "score": 6,
-      "source": "GuruFocus",
-      "sentiment": "negative",
-      "impact": "Lumentum Holdings (LITE) has been announced as CoStar Group Inc's (CSGP) replacement in the Nasdaq-100 Index, effective May 18, 2026. This change is expected to increase investor interest in Lumentum and prompt a reevaluation of CoStar Group, which currently shows a high P/E ratio of 546.17x despite",
-      "category": "us_equities",
-      "date": "2026-05-10 12:38",
-      "link": "https://www.gurufocus.com/news/8847699/lumentum-holdings-joins-nasdaq100-replacing-costar-group-csgp"
-    },
-    {
-      "headline": "Is There Now An Opportunity In Axon Enterprise, Inc. (NASDAQ:AXON)?",
-      "score": 6,
-      "source": "Moomoo",
-      "sentiment": "neutral",
-      "impact": "NULL",
-      "category": "us_equities",
-      "date": "2026-05-10 12:37",
-      "link": "https://www.moomoo.com/news/post/69701939/is-there-now-an-opportunity-in-axon-enterprise-inc-nasdaq"
-    },
-    {
-      "headline": "Cytokinetics: Aficamten Has Momentum, But The Stock Is Too Expensive (NASDAQ:CYTK)",
-      "score": 6,
-      "source": "Seeking Alpha",
-      "sentiment": "negative",
-      "impact": "Cytokinetics has launched Myqorzo in the US, with promising early prescribing demand and positive Phase 3 trial results for aficamten in non-obstructive HCM. The company also has a strong cash position after a recent equity offering. However, the author finds the stock currently overvalued and sugge",
-      "category": "us_equities",
-      "date": "2026-05-10 12:30",
-      "link": "https://seekingalpha.com/article/4902162-cytokinetics-aficamten-has-momentum-but-the-stock-is-too-expensive"
-    },
-    {
-      "headline": "Assessing Everest Group (EG) Valuation After Q1 Profit Beat And Margin-Focused Strategy",
-      "score": 6,
-      "source": "Simply Wall Street",
+      "headline": "Aramco Q1 profit jumps 25% as Hormuz risks push pipeline to full capacity - Reuters",
+      "score": 7,
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Everest Group's (EG) shares are being re-evaluated after the company reported strong Q1 2026 profits, exceeding consensus estimates. Despite mixed short-to-medium-term stock performance, the company's focus on margin-expanding strategies in property catastrophe reinsurance suggests a potentially und",
+      "impact": "Aramco Q1 profit jumps 25% as Hormuz risks push pipeline to full capacity\u00a0\u00a0Reuters",
       "category": "corporate_earnings",
-      "date": "2026-05-10 12:27",
-      "link": "https://simplywall.st/stocks/us/insurance/nyse-eg/everest-group/news/assessing-everest-group-eg-valuation-after-q1-profit-beat-an"
+      "date": "2026-05-10 05:22",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdjlXbUFMYVMyd29pSmpOWU02UDNoelpfdmZPZ191VVdOcG55a1ZqYXlwTjQwV2IyZXcwcXBMRURCVkVpUFdOZVkzM2oxOHVrUk15MGprV1l3MWYwZVdLTktZS0pYR3U0dE16N21wcTgxWllXMjdRTEk2YlJmckpENFNQenVvbENtX19xVmMtVDV3UG9OZFFPRkpZWFpDZw?oc=5"
     },
     {
-      "headline": "Target is trying to win back busy families from Walmart, starting with the baby aisle",
+      "headline": "The federal government must issue more debt than it expected as cash flow weakens, and 'the bond market is shouting'",
+      "score": 7,
+      "source": "Fortune",
+      "sentiment": "negative",
+      "impact": "\"In fact, analysts who have tracked the relationship between Fed policy and long-term yields going back to 1990 describe it as unprecedented.\"",
+      "category": "us_monetary_policy",
+      "date": "2026-05-09 22:37",
+      "link": "https://fortune.com/2026/05/09/us-debt-treasury-bonds-government-borrowing-cash-flow-yields-fed/"
+    },
+    {
+      "headline": "Norfolk Southern Corp. stock (US6558441084): Shares rise on Q1 earnings beat and rail sector momentu",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Target is refreshing its baby category as part of a broader effort to offer better products and more convenience to compete with Walmart and Amazon. ",
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Norfolk Southern Corp. (NSC) shares have climbed over 13% in the past month, driven by a stronger-than-expected Q1 2026 earnings report and improved sentiment in the U.S. rail sector. The company reported adjusted EPS of $2.65, surpassing analyst expectations despite flat year-over-year revenue, and",
+      "category": "corporate_earnings",
+      "date": "2026-05-11 07:51",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/norfolk-southern-corp-stock-us6558441084-shares-rise-on-q1-earnings/69303111"
+    },
+    {
+      "headline": "A.O. Smith Corp. stock (US0003711006): Q1 2026 results and guidance cut weigh on shares",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "negative",
+      "impact": "A.O. Smith Corp. reported weaker Q1 2026 sales and earnings, compelling the company to reduce its full-year EPS guidance. This performance downturn, influenced by headwinds in China, elevated input costs, and weather disruptions, led to a decline in the stock price. The company maintains a strong ba",
+      "category": "corporate_earnings",
+      "date": "2026-05-11 07:39",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/a-o-smith-corp-stock-us0003711006-q1-2026-results-and-guidance-cut/69303075"
+    },
+    {
+      "headline": "Iran executes man convicted of spying for CIA and Mossad - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Iran executes man convicted of spying for CIA and Mossad\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-10 12:00",
-      "link": "https://www.cnbc.com/2026/05/10/target.html"
+      "date": "2026-05-11 05:34",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcml1VEZEdmU2cEVldGpYYVp6eE01NFBnYk1SVGM0dWNMWHc2c1JzbXJFXzlRcWV1Yy1ZQ2dud012QWJmM2QxUDNMa3JBV3JZVmxaRjh1bTN4aE1abGR0VEMzMl9nTUFwR2RKbVRjc1JOOHlBVzZWbDJPOXFCSVRUV0FxVDVDZjJqSllmdXlMZ0wwS1BPVTF0YkcxZHlsOGhG?oc=5"
+    },
+    {
+      "headline": "Dollar gains as Trump says Iran peace offer 'unacceptable' - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Dollar gains as Trump says Iran peace offer 'unacceptable'\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-11 04:41",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcTZ6NW1CNXZSaHpYd2tlQUtjRlFuYmZOc3hkVzlGMVRKVlFXMUwtNG40VC1jSURSVTd2cEVCV2ZXMHNHTGM0YU11OFBfMEtaQXBIN3dyQVhVc1Rmdng4SDAwYU1GUlZWZVRIYzc5S1ROQUJLcmpraHpVU1V1TnpLNm9kVXAtM1ZKUk9aQzQ5OEdPNnZRV0U4ZGlONFMtUmdVcXA0M2xpU2FYQThteFJvLUV4bUU?oc=5"
+    },
+    {
+      "headline": "India stocks, rupee fall as Modi urges fuel saving amid crude spike - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "India stocks, rupee fall as Modi urges fuel saving amid crude spike\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-11 04:33",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUXFsaDA2c2NXQ1UzaE91eW1RUXhNUjlMWWRSaEVKVjY4V3JwcWpjaG81dkpQOVRnMmE3aXhqU0d3cmh0ZFplckVMbDNaRXFvdDR3TVpXc0o5dHY0ZnZnUThseUJlWkd1UDRaWm90eG5tTXpLWHB5RG9uT1lwMzEzaDM3b2o1STJ0LTRHNVl1cmIwcWtxRWc3cnZZU2RXVklaR1VBSzNnMkNPRnpFajdwaTFLTW0?oc=5"
+    },
+    {
+      "headline": "Morning Bid: Peace progress stalls, AI rally does not - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Morning Bid: Peace progress stalls, AI rally does not\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-11 04:33",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kRDNVWFgxQWllSzNPQzJMbjA3cGpDUFl4N00zcWJBUFk0WVBOUVdXa0tMZ3VZTmtibVdhSmlUT2tDZmFRVDhnb0dpRi1rYXhpXzZ5aUZSZUo1azhQSnZfVHZubnVmTkVJZzB2aUc4SWJtMHMzV2ZHQzBQY1pjZzQ?oc=5"
+    },
+    {
+      "headline": "Trump rejects 'unacceptable' Iran response to peace plan, oil prices jump - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Trump rejects 'unacceptable' Iran response to peace plan, oil prices jump\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-11 01:33",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTFIeHh6enp1TW1pNmRpVy1pZ1ZtaVFvNTF2emxOOUg3VXV1RWE3SkFqb3pwY28yS0pBTDF3MjRFSVNRclFhTWtCZlN0SmQ1MDV2YUZJSXJhdXRUdldyM3VZbEkzYnIxUXlvSk1JREJwVURVVGJhcV9vcEU2WnlLcVZKaXZQX0Fac1VEWW1VZjlwdDNNWHp5ZENCNTROaEhsVFRuQ2ZUd0gwTmc?oc=5"
+    },
+    {
+      "headline": "Netanyahu wants to wean Israel off US military support, he tells CBS - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Netanyahu wants to wean Israel off US military support, he tells CBS\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-10 23:59",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSktrM1p1d3dWLXUwYm8zXzNnVHBJUndwQWdpNl9XYWdUUjBGVW05TTlHUi1WVTNUeldHdkd1TW5Pd3B1WXc5M3ZOV2wtMG5hWjFLc2wwY0daQUF2VmJjMm1DMURYR2FheHl6V09udlgtYm1URk8tclpkNW5TblU2ZjhPTE9sLUR5eWxiLVN0Y0xUbHlyd0xUdlVER1lyWU5ndms1bTl4Mkk4Tkl5R25vekU5d2dKZ2dPQ2c?oc=5"
+    },
+    {
+      "headline": "UK jobs market cools as Iran war hits outlook, REC survey shows - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "UK jobs market cools as Iran war hits outlook, REC survey shows\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-10 23:03",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQ2Z5Z0w3TXJ6WWdGbjhCWkRTVkFJd25QanIydVU5UHBEYzFYUDhwUzByNGE5ZjlWNnJqQm8xLWZFQkVLaDRYeFlsSm8wMDNLQTZMWjBwQnc2dmFOTlZkYXRIYS1waTJleUhiX2d0UldudFYxV0tEUG4tMjZ5SnJEQjNnaWo4YThua1FHVVlJbDBKSXBJdkh6ZWVMYVh1czhUdUVjN3d4ZEQ5NFVCT2REUGtiMFVVaVo0Z3c?oc=5"
     }
   ]
 }
