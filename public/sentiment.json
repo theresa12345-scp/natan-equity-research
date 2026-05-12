@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-11T16:33:31.833127",
+  "timestamp": "2026-05-12T08:26:19.804679",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 12,
-    "neutral": 10,
-    "bearish": 3,
-    "high_priority": 10,
+    "avg_relevance": 7.1,
+    "bullish": 10,
+    "neutral": 13,
+    "bearish": 2,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
-    "Bloomberg": 2,
-    "Financial Times": 1,
+    "Reuters": 11,
+    "Bloomberg": 3,
+    "Yahoo Entertainment": 1,
     "Caixin/S&P Global": 1,
-    "AD HOC NEWS": 3,
-    "Simply Wall Street": 2,
-    "CNBC": 5,
+    "MarketWatch": 1,
     "Fortune": 1,
-    "MarketWatch": 1
+    "StockStory": 1,
+    "Investing.com Canada": 1,
+    "Crypto Briefing": 1
   },
   "top_signals": [
     {
@@ -32,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,28 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "BofA and Goldman push back Fed rate\u2011cut expectations on inflation risks, jobs data - Reuters",
+      "headline": "Bond Traders Brace for Inflation Data as Fed\u2019s Powell Era Ends",
       "score": 8,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "BofA and Goldman push back Fed rate\u2011cut expectations on inflation risks, jobs data\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-05-11 05:29",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmowSnVOelhFSkZuUkVCMEN2TDl4NWRidHB2ak5jQkVHcUxRd2RoNW9mMkJlNTNLU0FkeWpvdGtSd0hKV2doZXdZN2NyeVdyOTJXSWVaYmkyeF9rb005d1lPYWZGLXQtRTdObUJFMWw3b1lBUDhVYUZJcEQxclIteTdzNW5PeHhGZUhZNGVjNkVZQ2NGMzZkNWNsb09hS1ZNV2RwamRncDg3STBiMGRVNmxpNkt2S1o3QTQyTW9Qc25oUQ?oc=5"
-    },
-    {
-      "headline": "Iran war could prompt Federal Reserve to raise rates, Pimco says",
-      "score": 8,
-      "source": "Financial Times",
+      "source": "Yahoo Entertainment",
       "sentiment": "neutral",
-      "impact": "Bond giant and Franklin Templeton warn in interviews with FT against cuts in borrowing costs",
+      "impact": "(Bloomberg) -- Investors are awaiting a key US inflation report to gauge how long a Federal Reserve under Kevin Warsh can afford to hold interest rates...",
       "category": "us_monetary_policy",
-      "date": "2026-05-10 13:00",
-      "link": "https://www.ft.com/content/ba919246-ff50-4b8d-931c-43ee8d37795d?syn-25a6b1a6\\\\u003d1"
+      "date": "2026-05-10 19:00",
+      "link": "https://finance.yahoo.com/economy/policy/articles/bond-traders-brace-inflation-data-190000813.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -132,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -142,138 +132,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-11 16:33",
+      "date": "2026-05-12 08:26",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Atmos Energy Corp. stock (US0495601058): Q2 earnings beat and raised guidance",
-      "score": 7,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Atmos Energy Corp. reported strong Q2 2026 results, surpassing EPS estimates by nearly 3% and increasing operating income by 21.6%. The company raised its fiscal year 2026 EPS guidance and boosted its quarterly dividend by 14.9%, reflecting operational strength and a stable, regulated business model",
-      "category": "corporate_earnings",
-      "date": "2026-05-11 15:50",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/atmos-energy-corp-stock-us0495601058-q2-earnings-beat-and-raised/69306875"
-    },
-    {
-      "headline": "Why InnovAge (INNV) Is Down 7.3% After Raising 2026 Revenue Guidance Amid Wider Legal Losses",
-      "score": 7,
-      "source": "Simply Wall Street",
-      "sentiment": "negative",
-      "impact": "InnovAge (INNV) shares fell 7.3% despite the company reporting increased revenue and raising its fiscal 2026 revenue guidance to US$950 million\u2013US$975 million. The stock drop is attributed to a wider net loss of US$29.46 million, largely driven by higher legal and litigation expenses including settl",
-      "category": "us_equities",
-      "date": "2026-05-11 15:39",
-      "link": "https://simplywall.st/stocks/us/healthcare/nasdaq-innv/innovage-holding/news/why-innovage-innv-is-down-73-after-raising-2026-revenue-guid"
-    },
-    {
-      "headline": "\u2018The haters will hate\u2019: Dan Ives predicts Nasdaq 30,000 as AI rally expands",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "A solid tech earnings season has seen investor jitters earlier this year evaporate",
-      "category": "us_equities",
-      "date": "2026-05-11 12:53",
-      "link": "https://www.cnbc.com/2026/05/11/the-haters-will-hate-dan-ives-predicts-nasdaq-rally.html"
-    },
-    {
-      "headline": "Gold ticks up as markets digest US-Iran updates, await inflation data - Reuters",
+      "headline": "US consumer inflation expected to have increased further in April amid Iran war - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Gold ticks up as markets digest US-Iran updates, await inflation data\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-05-11 03:07",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS1R4YmxvUWpZMGJaX3FrMXY2aGNsNG1TZ1JFc08weHF0cXRWd0s5a04xV2xEamNKNWFrT1VXWEZnRHIyZlczejVDblEzS1Z6N2NmTG14aVVkcHJQOUtreDd3TTZKUWtkSmp1aXRuckNFaXdJbThub1RPV3E0aDc4OHNPZnYweWt4MWR4UG1nU0NEMXpaU2V4OUhLNE5JdDVJQlZWREFFRUtqV2N4MVlnbDB0cw?oc=5"
+      "impact": "US consumer inflation expected to have increased further in April amid Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-12 04:05",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazJLUlB0MFZIdGRtOTJtcXZEVTJfOEFqcDVUWWJBSjdudTZCLXNZSGNRWFFRU1pFZlYxUTc2SXpJOXEzMHpYX2syMUZJYTZ2S1hIUDBIdkluaDhna0RfQldJWWFRYVg5UVN6MjNfUXRkXzhOQ25UQ2JBeFpkTF9TUDAtMklZT1lnWFhtLW9CMmxCSjR1UXFPOENKU3R2VkJHM2dReGtnQ1ZjLTkxX2RncV9HcmhxMnI2Q0E?oc=5"
     },
     {
-      "headline": "The federal government must issue more debt than it expected as cash flow weakens, and 'the bond market is shouting'",
+      "headline": "China\u2019s Factory Inflation Hits Post-Covid High After Cost Shock",
       "score": 7,
-      "source": "Fortune",
-      "sentiment": "negative",
-      "impact": "\"In fact, analysts who have tracked the relationship between Fed policy and long-term yields going back to 1990 describe it as unprecedented.\"",
-      "category": "us_monetary_policy",
-      "date": "2026-05-09 22:37",
-      "link": "https://fortune.com/2026/05/09/us-debt-treasury-bonds-government-borrowing-cash-flow-yields-fed/"
-    },
-    {
-      "headline": "JPMorgan Chase-led bank group reins in credit line to troubled KKR private credit fund as losses mount",
-      "score": 6,
-      "source": "CNBC",
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "A JPMorgan Chase-led group of banks has cut the credit line for FS KKR Capital Corp., a private credit fund co-managed by KKR, by 14% amid deepening losses and rising non-accrual loans. Concurrently, KKR announced a $300 million support package for the fund, injecting equity and buying shares from e",
-      "category": "fixed_income",
-      "date": "2026-05-11 16:07",
-      "link": "https://www.cnbc.com/2026/05/11/kkr-private-credit-fund-fsk-jpmorgan-chase-credit.html"
-    },
-    {
-      "headline": "IDEX Corporation stock (US45167R1041): Q1 earnings beat lifts shares",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "IDEX Corporation reported strong Q1 2026 earnings, beating EPS estimates with $2.00 versus $1.78 expected, and achieving revenue of $886.9 million. The company provided full-year EPS guidance of $8.35-$8.55, reflecting confidence in its diversified industrial business model. Its focus on specialized",
-      "category": "corporate_earnings",
-      "date": "2026-05-11 15:56",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/idex-corporation-stock-us45167r1041-q1-earnings-beat-lifts-shares/69306919"
-    },
-    {
-      "headline": "Trump invites Elon Musk, Tim Cook, Larry Fink and other CEOs to join China trip for Xi summit",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Trump invited Tesla's Elon Musk, Apple's Tim Cook and Blackrock's Larry Fink to join his China trip for talks with Xi Jinping on trade, AI and geopolitics.",
+      "impact": "China\u2019s factory prices grew at the fastest pace since the pandemic four years ago as the fallout from the Iran war sharply raises costs and leaves profits under pressure.",
       "category": "asia_economy",
-      "date": "2026-05-11 15:54",
-      "link": "https://www.cnbc.com/2026/05/11/trump-ceos-elon-musk-tim-cook-larry-fink-xi-china-summit.html"
+      "date": "2026-05-11 02:01",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-11/china-s-factory-inflation-soars-near-4-year-high-after-cost-jolt"
     },
     {
-      "headline": "AI is \u2018absolutely useless\u2019 at forecasting inflation. This proven model is 12 times more accurate.",
-      "score": 6,
+      "headline": "Powell\u2019s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
+      "score": 7,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "A \u201clow-tech\u201d tool from the Cleveland Fed consistently outperforms generative AI, which has struggled to provide reliable forecasts.",
-      "category": "global_markets",
-      "date": "2026-05-11 15:47",
-      "link": "https://www.marketwatch.com/story/ai-is-absolutely-useless-at-forecasting-inflation-this-proven-model-is-12-times-more-accurate-d176f411?mod=mw_rss_topstories"
+      "impact": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end",
+      "category": "us_monetary_policy",
+      "date": "2026-05-10 22:00",
+      "link": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89"
     },
     {
-      "headline": "The wealthy keep buying Manhattan real estate despite potential pied-\u00e0-terre tax",
-      "score": 6,
-      "source": "CNBC",
+      "headline": "Market guru Yardeni sees S&P 500 hitting 8,250 this year as earnings bolster 'Roaring 2020s'",
+      "score": 7,
+      "source": "Fortune",
       "sentiment": "neutral",
-      "impact": "Real estate sales in Manhattan worth $4 million or more increased in the past month, according to Olshan Realty.",
-      "category": "global_markets",
-      "date": "2026-05-11 15:43",
-      "link": "https://www.cnbc.com/2026/05/11/luxury-real-estate-manhattan-mamdani-pied-a-terre-tax.html"
+      "impact": "\"Our key assumption is that the economy will remain resilient, and so will earnings.\"",
+      "category": "us_equities",
+      "date": "2026-05-10 20:13",
+      "link": "https://fortune.com/2026/05/10/stock-market-outlook-yardeni-sp500-price-target-hike-8250-earnings-roaring-2020s/"
     },
     {
-      "headline": "Jazz Pharmaceuticals (JAZZ) Is Up 8.5% After Q1 Profit Rebound And Ziihera Priority Review \u2013 Has The Bull Case Changed?",
+      "headline": "Bristol-Myers Squibb (BMY): Buy, Sell, or Hold Post Q1 Earnings?",
       "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "Jazz Pharmaceuticals experienced an 8.5% rise after reporting a significant rebound in Q1 2026 profits and receiving Priority Review from the FDA for its oncology drug, Ziihera. The company swung from a net loss to a net income of US$293.1 million, with earnings per share reaching US$4.43. This posi",
+      "source": "StockStory",
+      "sentiment": "negative",
+      "impact": "Bristol-Myers Squibb (BMY) has seen an impressive stock run, outperforming the S&P 500. However, the company's long-term revenue growth and EPS have been disappointing, with future revenue projections also signaling a downturn. Despite a reasonable valuation, StockStory analysts are cautious due to ",
       "category": "corporate_earnings",
-      "date": "2026-05-11 15:40",
-      "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-jazz/jazz-pharmaceuticals/news/jazz-pharmaceuticals-jazz-is-up-85-after-q1-profit-rebound-a"
+      "date": "2026-05-12 07:35",
+      "link": "https://stockstory.org/us/stocks/nyse/bmy/news/buy-or-sell/bristol-myers-squibb-bmy-buy-sell-or-hold-post-q1-earnings-2"
     },
     {
-      "headline": "AMETEK stock (US0311001004): Recent price dip and strong earnings beat",
+      "headline": "Earnings call transcript: Diamondback Energy beats Q1 2026 forecasts, stock dips",
       "score": 6,
-      "source": "AD HOC NEWS",
+      "source": "Investing.com Canada",
       "sentiment": "positive",
-      "impact": "AMETEK Inc. (US0311001004) saw its shares dip by 0.90% to $232.40 on May 8, 2026, despite a strong earnings per share beat of $1.97, surpassing analyst expectations. The company, which specializes in electronic instruments and electromechanical devices, maintains robust financial health, driven by i",
+      "impact": "Diamondback Energy exceeded Q1 2026 earnings and revenue forecasts, reporting EPS of $4.23 against a forecast of $3.58, and revenue of $4.24 billion against $3.74 billion expected. Despite these strong financial results and exceeding oil production targets at over 520,000 barrels per day, the stock ",
       "category": "corporate_earnings",
-      "date": "2026-05-11 15:30",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ametek-stock-us0311001004-recent-price-dip-and-strong-earnings-beat/69306756"
+      "date": "2026-05-12 07:34",
+      "link": "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-diamondback-energy-beats-q1-2026-forecasts-stock-dips-93CH-4628772"
     },
     {
-      "headline": "The No. 1 most underrated communication skill\u2014it's a simple but 'powerful' technique that can save a conversation, says expert",
+      "headline": "Lumentum joins NASDAQ-100 index, replacing CoStar Group on May 18",
       "score": 6,
-      "source": "CNBC",
+      "source": "Crypto Briefing",
       "sentiment": "neutral",
-      "impact": "Sometimes the most important skill is \"knowing when not to say the thing you're about to say\" and pivoting, says negotiation expert Kwame Christian.",
+      "impact": "Lumentum Holdings, an optical components maker for AI data centers, will join the NASDAQ-100 Index on May 18, replacing CoStar Group due to its significantly lower market capitalization. Lumentum's stock has surged over 1,200% since early 2024, driven by demand for AI and cloud computing infrastruct",
+      "category": "us_equities",
+      "date": "2026-05-12 07:20",
+      "link": "https://cryptobriefing.com/lumentum-joins-nasdaq-100-index-2/"
+    },
+    {
+      "headline": "The battle for Hormuz risks sparking the next Iran clash - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "The battle for Hormuz risks sparking the next Iran clash\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-11 15:25",
-      "link": "https://www.cnbc.com/2026/05/11/the-no-1-most-underappreciated-communication-skill-says-expert-it-can-save-a-conversation.html"
+      "date": "2026-05-12 06:02",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWW9ZbndFVWMwc0FrNHJkbm9TS3B2YVFwRjROVzI4enZRajl6alR3T3R1R1FMRXlsaVV3QnM5d0xpQjdta0tONTRBalVQRXY3a3pKajZHYTN2MHNfQ2NpZUdTUGh2VmJEa3M2ZHE0U1BUc1hCU2E3cGdtUnR4WWQydVZ6d3RpNjUtMW1fT0VQT2ZzVUItdUZoRzlHVXBtS2hITE9BQWRfMlpkTi1HQ0UwNW14aw?oc=5"
+    },
+    {
+      "headline": "Snacks giant Calbee, crunched by Iran-related ink shortage, switches to monotone packaging - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Snacks giant Calbee, crunched by Iran-related ink shortage, switches to monotone packaging\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-12 03:46",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNmxJRXB6OXRtN1NRdmlFQVZ0OUg1WXRPM2FIc1VBN1J5RjQwVmNJNEg5aWw0ZVh0cWRSankxY2JBUFZ0RmNKaFQzejh0SmxQSGI4WVhVQkVyQ2tnXy1pNmZPa1g0emJaMGhQemxTSHhnaV9tUVZlbzluZmY4UnNiaU9QclB6UFhuUGpHcDhkakdER1NNQ2ZxUlJOZFVrZ0RiTS00MV9oUHBvN0c5NWVLQmJYcV9JQ05OOVlobzZtUFY3cXBlOXE1NU1B?oc=5"
+    },
+    {
+      "headline": "US top diplomat discusses Iran, Strait of Hormuz with UK and Australia - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US top diplomat discusses Iran, Strait of Hormuz with UK and Australia\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-12 03:33",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHdTckV5RzMwSjhydndNeEotaThVSXMyX1NCUnV2ZEZGcE9KWnd6bU5Xd2tCZW5vNnN5SnJORDdjTUF3aFpFSjFER3RGcjF3V2U0Z1R1UkY3NHYxNGJfNjJYb2laVWVZV2lxZTdkNzN0M3NPUGZReVBUSXBPQlJiaXlzbUd6bE05SDRHYjNtSllwR0huQXRUaHFfQW5ab01LWHNCOHZUcXhleFlQTjVrcEFyb0RnYUx4?oc=5"
+    },
+    {
+      "headline": "Peace deal hopes fade after Trump rejects 'garbage' Iran counterproposal - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Peace deal hopes fade after Trump rejects 'garbage' Iran counterproposal\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-12 03:32",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYjI0ek5ZYzN4WXRWbDlpVERUd1VlZ3BfVlo3RkpKYTZKRy0zelR1VTc4NUZxc3RVenFGdFJ2QUMxekFuOEM4TkllY1JvQ3dfdEx6Z0lYY1N6Z0VGSWJGdHBiNWVFVDF5YTZlRGdwdzdta2dteDZsZW16Tnh4TExPRXZBZFFTLXFJX1ZydXhqX0RVaVpnS0oxLTR3RDF5dGpvZHgwbkQzbkdtNjJjRTd1aQ?oc=5"
+    },
+    {
+      "headline": "Indian shares extend fall, rupee at record low as Mideast deal optimism fades - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Indian shares extend fall, rupee at record low as Mideast deal optimism fades\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-12 02:29",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMV8xdXh1d1g2cWJUY3NfcmxFYzZRR2lXSTc1cE1xeWNPZ2lNcVRReXZzU2Q5RnFPQnEzT0lXaFBOaWlDNFZoUWszNFd1bjRLUEtCdVF0M2pmUW5ra3c2V0tXanVVRjd5eUE4QjYyVWFWSEFfTkhnZU51THgwOXhsV3VUeEszaVlqdy1sUkl2TURWZm1xcmNrVnlsMHBwdUdXa2x5RWtpZS1Rc0xGejMtanVlNG0?oc=5"
+    },
+    {
+      "headline": "Stung by Iran war, Trump heads to China in need of wins - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Stung by Iran war, Trump heads to China in need of wins\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-05-12 02:08",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWXJoaFY0MUR6eVlvalkxTlBhMC0zeUdTR1JyZk41TnRLeFZFMFZyclZUS3ZlZEw3N1VFOThIWnRhRm9SSExid25MYU91X3N4Q2hqMG0wMnV2NVFTQWxVLUdmX09laWN6anE4SGFBRFpPRTd4WXVzTC1fQWxQQi1TVzI0Y1EtQnhROEhYRzNicFRGUFVKV0JDYTdyNWpsSmdXZWxsS1RmMk1obGRj?oc=5"
+    },
+    {
+      "headline": "China's commodity imports show Hormuz impact as oil slides, metals rise - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "China's commodity imports show Hormuz impact as oil slides, metals rise\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-12 01:48",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbWVsMjc1UnFvcEhpcXNJNWVmdWtkbTVhc2RLSEVjRXRzN3JTb19FdWRBcnhoWWJraGxXRGItbjl5Mlg5bllnN2NkaEtDT2x0NnV5U0VxeTVHSUFqQnl0QmQtS0F2RUVWWGI0b0VzY291ZldWcVA4dV93Zk1UVTFJMXNFZWExWW02bnFUMjc0SmJnTksxOG1HZFp0Y3V6UWk2WGh6ZTZWS0lpNi00OWllLXpLbnpWeTZFWHBjbm5TTXh0X01weEtHYVE0RUdTWTQy?oc=5"
     }
   ]
 }
