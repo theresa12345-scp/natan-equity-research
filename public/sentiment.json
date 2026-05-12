@@ -1,28 +1,27 @@
 {
-  "timestamp": "2026-05-12T08:26:19.804679",
+  "timestamp": "2026-05-12T16:21:59.111549",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 10,
-    "neutral": 13,
+    "avg_relevance": 7.2,
+    "bullish": 11,
+    "neutral": 12,
     "bearish": 2,
-    "high_priority": 9,
-    "material_events": 4
+    "high_priority": 10,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 11,
-    "Bloomberg": 3,
+    "MarketWatch": 3,
+    "Reuters": 9,
+    "Bloomberg": 2,
     "Yahoo Entertainment": 1,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1,
-    "Fortune": 1,
-    "StockStory": 1,
-    "Investing.com Canada": 1,
-    "Crypto Briefing": 1
+    "Seeking Alpha": 1,
+    "The Wall Street Journal": 1,
+    "CNBC": 3
   },
   "top_signals": [
     {
@@ -32,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,8 +61,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "High inflation is pushing yields to 5% on Treasury bonds",
+      "score": 9,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Investors were ditching U.S. government debt early Tuesday as higher energy prices from the Iran war pinch Americans\u2019 pocketbooks and push up the cost of living.",
+      "category": "fixed_income",
+      "date": "2026-05-12 15:44",
+      "link": "https://www.marketwatch.com/story/high-inflation-is-pushing-yields-to-5-on-treasury-bonds-679d5a81?mod=mw_rss_topstories"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -72,7 +81,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,7 +111,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -112,7 +121,7 @@
       "sentiment": "neutral",
       "impact": "(Bloomberg) -- Investors are awaiting a key US inflation report to gauge how long a Federal Reserve under Kevin Warsh can afford to hold interest rates...",
       "category": "us_monetary_policy",
-      "date": "2026-05-10 19:00",
+      "date": "2026-05-11 10:02",
       "link": "https://finance.yahoo.com/economy/policy/articles/bond-traders-brace-inflation-data-190000813.html"
     },
     {
@@ -122,7 +131,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,8 +141,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-12 08:26",
+      "date": "2026-05-12 16:21",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Fortinet: Efficient, Profitable, Resilient And Versatile Cyber-GARP (NASDAQ:FTNT)",
+      "score": 7,
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "Fortinet (FTNT) recently reported a significant 32% EPS beat in Q1 FY2026, leading to a 25% stock surge and raised full-year guidance, indicating strong business momentum. The company benefits from its vertically integrated hardware-software model, delivering high efficiency and profitability, and i",
+      "category": "us_equities",
+      "date": "2026-05-12 15:33",
+      "link": "https://seekingalpha.com/article/4903102-fortinet-efficient-profitable-resilient-and-versatile-cyber-garp"
     },
     {
       "headline": "US consumer inflation expected to have increased further in April amid Iran war - Reuters",
@@ -146,134 +165,114 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazJLUlB0MFZIdGRtOTJtcXZEVTJfOEFqcDVUWWJBSjdudTZCLXNZSGNRWFFRU1pFZlYxUTc2SXpJOXEzMHpYX2syMUZJYTZ2S1hIUDBIdkluaDhna0RfQldJWWFRYVg5UVN6MjNfUXRkXzhOQ25UQ2JBeFpkTF9TUDAtMklZT1lnWFhtLW9CMmxCSjR1UXFPOENKU3R2VkJHM2dReGtnQ1ZjLTkxX2RncV9HcmhxMnI2Q0E?oc=5"
     },
     {
-      "headline": "China\u2019s Factory Inflation Hits Post-Covid High After Cost Shock",
+      "headline": "Rupee's rough patch worsens on oil, outflow strain; central bank likely steps in - Reuters",
       "score": 7,
-      "source": "Bloomberg",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "China\u2019s factory prices grew at the fastest pace since the pandemic four years ago as the fallout from the Iran war sharply raises costs and leaves profits under pressure.",
-      "category": "asia_economy",
-      "date": "2026-05-11 02:01",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-11/china-s-factory-inflation-soars-near-4-year-high-after-cost-jolt"
+      "impact": "Rupee's rough patch worsens on oil, outflow strain; central bank likely steps in\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-12 03:36",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd0xvUlNtejlVYUMtdWMtYkowcmdIOVJkT2pBTlE5UnBMLURGRXZPcEVnaGNha0RoWDBnaXVvS2t0aVlGaEM1MTdqTi0zTHRFY0l3RXdRV2FYS3FIWjZobF9vNERsMFZuVW9DRE9vRzA2Uk85OE1NX1p3TGpLTnVBMUQ4YkR3Q0hOUTRWbkdVQnpmMmViaV9xeUx3dHpoemF2WUlVckpKVzc5d1Nmam9ROUJjWlFGOHF6?oc=5"
     },
     {
-      "headline": "Powell\u2019s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
+      "headline": "Stock Market Today: Dow, Nasdaq Open Lower; Oil Climbs \u2014 Live Updates",
       "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Live updates on markets and the top finance, economics and business stories. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
+      "category": "us_equities",
+      "date": "2026-05-11 14:39",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-11-2026"
+    },
+    {
+      "headline": "The summer box office is off to a hot start as weekend ticket sales top $160 million",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The summer box office is off to a sizzling start, thanks in part to strong week-after-week performance from returning titles.",
+      "category": "global_markets",
+      "date": "2026-05-12 15:36",
+      "link": "https://www.cnbc.com/2026/05/12/summer-box-office-weekend-ticket-sales.html"
+    },
+    {
+      "headline": "Social Security\u2019s COLA could rise in 2027, boosted by Iran war impact and inflation",
+      "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end",
-      "category": "us_monetary_policy",
-      "date": "2026-05-10 22:00",
-      "link": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89"
+      "impact": "Surging gasoline and energy prices, as well as the cost of groceries, have pushed the forecast for the cost-of-living adjustment higher.",
+      "category": "global_markets",
+      "date": "2026-05-12 15:18",
+      "link": "https://www.marketwatch.com/story/social-securitys-cola-could-rise-in-2027-boosted-by-war-impact-and-inflation-b5db35a6?mod=mw_rss_topstories"
     },
     {
-      "headline": "Market guru Yardeni sees S&P 500 hitting 8,250 this year as earnings bolster 'Roaring 2020s'",
-      "score": 7,
-      "source": "Fortune",
-      "sentiment": "neutral",
-      "impact": "\"Our key assumption is that the economy will remain resilient, and so will earnings.\"",
-      "category": "us_equities",
-      "date": "2026-05-10 20:13",
-      "link": "https://fortune.com/2026/05/10/stock-market-outlook-yardeni-sp500-price-target-hike-8250-earnings-roaring-2020s/"
-    },
-    {
-      "headline": "Bristol-Myers Squibb (BMY): Buy, Sell, or Hold Post Q1 Earnings?",
-      "score": 6,
-      "source": "StockStory",
-      "sentiment": "negative",
-      "impact": "Bristol-Myers Squibb (BMY) has seen an impressive stock run, outperforming the S&P 500. However, the company's long-term revenue growth and EPS have been disappointing, with future revenue projections also signaling a downturn. Despite a reasonable valuation, StockStory analysts are cautious due to ",
-      "category": "corporate_earnings",
-      "date": "2026-05-12 07:35",
-      "link": "https://stockstory.org/us/stocks/nyse/bmy/news/buy-or-sell/bristol-myers-squibb-bmy-buy-sell-or-hold-post-q1-earnings-2"
-    },
-    {
-      "headline": "Earnings call transcript: Diamondback Energy beats Q1 2026 forecasts, stock dips",
-      "score": 6,
-      "source": "Investing.com Canada",
-      "sentiment": "positive",
-      "impact": "Diamondback Energy exceeded Q1 2026 earnings and revenue forecasts, reporting EPS of $4.23 against a forecast of $3.58, and revenue of $4.24 billion against $3.74 billion expected. Despite these strong financial results and exceeding oil production targets at over 520,000 barrels per day, the stock ",
-      "category": "corporate_earnings",
-      "date": "2026-05-12 07:34",
-      "link": "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-diamondback-energy-beats-q1-2026-forecasts-stock-dips-93CH-4628772"
-    },
-    {
-      "headline": "Lumentum joins NASDAQ-100 index, replacing CoStar Group on May 18",
-      "score": 6,
-      "source": "Crypto Briefing",
-      "sentiment": "neutral",
-      "impact": "Lumentum Holdings, an optical components maker for AI data centers, will join the NASDAQ-100 Index on May 18, replacing CoStar Group due to its significantly lower market capitalization. Lumentum's stock has surged over 1,200% since early 2024, driven by demand for AI and cloud computing infrastruct",
-      "category": "us_equities",
-      "date": "2026-05-12 07:20",
-      "link": "https://cryptobriefing.com/lumentum-joins-nasdaq-100-index-2/"
-    },
-    {
-      "headline": "The battle for Hormuz risks sparking the next Iran clash - Reuters",
+      "headline": "Wall St falls as hot CPI, Iran tensions weigh on sentiment - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "The battle for Hormuz risks sparking the next Iran clash\u00a0\u00a0Reuters",
+      "impact": "Wall St falls as hot CPI, Iran tensions weigh on sentiment\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-12 06:02",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWW9ZbndFVWMwc0FrNHJkbm9TS3B2YVFwRjROVzI4enZRajl6alR3T3R1R1FMRXlsaVV3QnM5d0xpQjdta0tONTRBalVQRXY3a3pKajZHYTN2MHNfQ2NpZUdTUGh2VmJEa3M2ZHE0U1BUc1hCU2E3cGdtUnR4WWQydVZ6d3RpNjUtMW1fT0VQT2ZzVUItdUZoRzlHVXBtS2hITE9BQWRfMlpkTi1HQ0UwNW14aw?oc=5"
+      "date": "2026-05-12 14:35",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeDRSdFhfX2dwTkYzSGtmMkZZSzY3enF2bjVVdEhkdm9DbnBIZVJ3V3ZhM1g1VzQwc1E1NGRxa2ZFMkphR01EYTJjLWhPcFFSZWhkT21Qa1VIckpYOUtoN1NudTdvMXVENUs5SzhlUkV0dkZRcElYcEdjLUR5ODJ6b3p1Rzc4Uk5RZU5RSElxLTlUWS1BazZHUEowUzd5TUFwVFJj?oc=5"
     },
     {
-      "headline": "Snacks giant Calbee, crunched by Iran-related ink shortage, switches to monotone packaging - Reuters",
+      "headline": "\u2018She is very angry with me\u2019: My daughter, 30, has issues with drugs. Should I take half the profit from the sale of her house?",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Snacks giant Calbee, crunched by Iran-related ink shortage, switches to monotone packaging\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-12 03:46",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNmxJRXB6OXRtN1NRdmlFQVZ0OUg1WXRPM2FIc1VBN1J5RjQwVmNJNEg5aWw0ZVh0cWRSankxY2JBUFZ0RmNKaFQzejh0SmxQSGI4WVhVQkVyQ2tnXy1pNmZPa1g0emJaMGhQemxTSHhnaV9tUVZlbzluZmY4UnNiaU9QclB6UFhuUGpHcDhkakdER1NNQ2ZxUlJOZFVrZ0RiTS00MV9oUHBvN0c5NWVLQmJYcV9JQ05OOVlobzZtUFY3cXBlOXE1NU1B?oc=5"
-    },
-    {
-      "headline": "US top diplomat discusses Iran, Strait of Hormuz with UK and Australia - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US top diplomat discusses Iran, Strait of Hormuz with UK and Australia\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-12 03:33",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHdTckV5RzMwSjhydndNeEotaThVSXMyX1NCUnV2ZEZGcE9KWnd6bU5Xd2tCZW5vNnN5SnJORDdjTUF3aFpFSjFER3RGcjF3V2U0Z1R1UkY3NHYxNGJfNjJYb2laVWVZV2lxZTdkNzN0M3NPUGZReVBUSXBPQlJiaXlzbUd6bE05SDRHYjNtSllwR0huQXRUaHFfQW5ab01LWHNCOHZUcXhleFlQTjVrcEFyb0RnYUx4?oc=5"
-    },
-    {
-      "headline": "Peace deal hopes fade after Trump rejects 'garbage' Iran counterproposal - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Peace deal hopes fade after Trump rejects 'garbage' Iran counterproposal\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-12 03:32",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYjI0ek5ZYzN4WXRWbDlpVERUd1VlZ3BfVlo3RkpKYTZKRy0zelR1VTc4NUZxc3RVenFGdFJ2QUMxekFuOEM4TkllY1JvQ3dfdEx6Z0lYY1N6Z0VGSWJGdHBiNWVFVDF5YTZlRGdwdzdta2dteDZsZW16Tnh4TExPRXZBZFFTLXFJX1ZydXhqX0RVaVpnS0oxLTR3RDF5dGpvZHgwbkQzbkdtNjJjRTd1aQ?oc=5"
-    },
-    {
-      "headline": "Indian shares extend fall, rupee at record low as Mideast deal optimism fades - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Indian shares extend fall, rupee at record low as Mideast deal optimism fades\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-12 02:29",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMV8xdXh1d1g2cWJUY3NfcmxFYzZRR2lXSTc1cE1xeWNPZ2lNcVRReXZzU2Q5RnFPQnEzT0lXaFBOaWlDNFZoUWszNFd1bjRLUEtCdVF0M2pmUW5ra3c2V0tXanVVRjd5eUE4QjYyVWFWSEFfTkhnZU51THgwOXhsV3VUeEszaVlqdy1sUkl2TURWZm1xcmNrVnlsMHBwdUdXa2x5RWtpZS1Rc0xGejMtanVlNG0?oc=5"
+      "impact": "\u201cMy thought is to invest it on her behalf for someday, when she gets her life together.\u201d",
+      "category": "corporate_earnings",
+      "date": "2026-05-12 14:15",
+      "link": "https://www.marketwatch.com/story/she-is-very-angry-with-me-my-daughter-has-drug-issues-should-i-take-half-the-profit-from-the-sale-of-her-house-e99a23d4?mod=mw_rss_topstories"
     },
     {
-      "headline": "Stung by Iran war, Trump heads to China in need of wins - Reuters",
+      "headline": "Stanford professor teaches his classes \u2018tech-free\u2019\u2014here\u2019s the skill he wants his students to build",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "\"Just as we must be responsible for our bodies in an era of office work, we must now keep our minds active,\" says Jamil Zaki, director of the Stanford Social Neuroscience Lab.",
+      "category": "global_markets",
+      "date": "2026-05-12 14:00",
+      "link": "https://www.cnbc.com/2026/05/12/stanford-professor-teaches-tech-free-classesthe-skill-he-wants-students-to-build.html"
+    },
+    {
+      "headline": "At TV upfronts, AI is in and corporate shuffles are reshaping the lineup",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Advertisers will be hearing about the slate of live events in the coming year \u2014 and how AI is being integrated. Plus, media consolidation reshapes the lineup. ",
+      "category": "global_markets",
+      "date": "2026-05-12 13:56",
+      "link": "https://www.cnbc.com/2026/05/11/tv-upfronts-ai-data-industry-shifts.html"
+    },
+    {
+      "headline": "Evolving drone war in southern Lebanon clouds Iran peace prospects - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Stung by Iran war, Trump heads to China in need of wins\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-05-12 02:08",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWXJoaFY0MUR6eVlvalkxTlBhMC0zeUdTR1JyZk41TnRLeFZFMFZyclZUS3ZlZEw3N1VFOThIWnRhRm9SSExid25MYU91X3N4Q2hqMG0wMnV2NVFTQWxVLUdmX09laWN6anE4SGFBRFpPRTd4WXVzTC1fQWxQQi1TVzI0Y1EtQnhROEhYRzNicFRGUFVKV0JDYTdyNWpsSmdXZWxsS1RmMk1obGRj?oc=5"
+      "impact": "Evolving drone war in southern Lebanon clouds Iran peace prospects\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-12 13:40",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcVVyaElQQXltV0NzUDhueUxxTU9Zd2JNNDlJOEtRSlAzY3dGaU1jTTRMUlBNaEJNemFacnZkbEJPUWpNUmhpd2ppN2xncVVQeXE5TUNBS2hMU0xhNjBaZzVjZzJTOHJEYndpRTVJaWpHQmMwdHF5SUNjckttdWxwb0dvZ0hIMm1FRUdpaEFTSEFXMzVnZ1BRMnJJZjFJeDFCMWFqUUlieFBNMVVySzgzWnlWRF9KdlRW?oc=5"
     },
     {
-      "headline": "China's commodity imports show Hormuz impact as oil slides, metals rise - Reuters",
+      "headline": "US war in Iran has cost $29 billion so far, Pentagon says - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "China's commodity imports show Hormuz impact as oil slides, metals rise\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-05-12 01:48",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbWVsMjc1UnFvcEhpcXNJNWVmdWtkbTVhc2RLSEVjRXRzN3JTb19FdWRBcnhoWWJraGxXRGItbjl5Mlg5bllnN2NkaEtDT2x0NnV5U0VxeTVHSUFqQnl0QmQtS0F2RUVWWGI0b0VzY291ZldWcVA4dV93Zk1UVTFJMXNFZWExWW02bnFUMjc0SmJnTksxOG1HZFp0Y3V6UWk2WGh6ZTZWS0lpNi00OWllLXpLbnpWeTZFWHBjbm5TTXh0X01weEtHYVE0RUdTWTQy?oc=5"
+      "sentiment": "neutral",
+      "impact": "US war in Iran has cost $29 billion so far, Pentagon says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-12 13:38",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU2EtR0tSX2d2UjN4SmlxWnVKRzllTkFjdHRiV3B4VDVOQ3U0WmN5ZHpodk8yS05SR0cxWW5idjhFd2drVk1STENFaENRZk5LRmhZdmxwX2RaRlUzMDd2NHFtRkVSM3hsQi1lNzlGbDRqeXBjX1JCalZDa2ZnczBIODFwRHZNcHZfX2FsTnBaZkYtZ28wRVVpRjhGM2V5bTNB?oc=5"
+    },
+    {
+      "headline": "Most Gulf markets retreat on dwindling hopes for quick end to Iran war - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Most Gulf markets retreat on dwindling hopes for quick end to Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-12 13:25",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMVJFSFNmd3d0Z0VHWVhvZTFkNEFTa0lrZ2N0cHU0OS12MlVlYjRoRHQ1bV9wSjM2eHRaNC1oOVUwZlN2ZEoyWmlKWklFWEVDSTJKdkp3ZzRVNXkzT3hld1BuZzlVWXFoUmtELVZXZEJlSHUzOE9kcVhUaVVkS3ZmMVpSdEFmQ1JPdXRzRS1pVnROSjRBRGFKU016Yl94N2w2YklfRVp4WkxwUXNnODZ4Rg?oc=5"
     }
   ]
 }
