@@ -1,27 +1,25 @@
 {
-  "timestamp": "2026-05-13T16:21:49.522788",
+  "timestamp": "2026-05-14T08:27:50.011931",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 17,
-    "neutral": 6,
-    "bearish": 2,
-    "high_priority": 11,
-    "material_events": 5
+    "avg_relevance": 7.3,
+    "bullish": 14,
+    "neutral": 10,
+    "bearish": 1,
+    "high_priority": 10,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "Reuters": 10,
     "Bloomberg": 3,
-    "Yahoo Entertainment": 1,
+    "CNBC": 4,
     "Caixin/S&P Global": 1,
-    "AD HOC NEWS": 4,
-    "MarketWatch": 1,
-    "CNBC": 3,
-    "AlphaStreet": 1
+    "MarketWatch": 2,
+    "Artemis.bm": 1
   },
   "top_signals": [
     {
@@ -31,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,18 +59,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "S&P 500, Nasdaq end lower as inflation, Iran tensions weigh - Reuters",
-      "score": 9,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "S&P 500, Nasdaq end lower as inflation, Iran tensions weigh\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-05-12 23:09",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeDRSdFhfX2dwTkYzSGtmMkZZSzY3enF2bjVVdEhkdm9DbnBIZVJ3V3ZhM1g1VzQwc1E1NGRxa2ZFMkphR01EYTJjLWhPcFFSZWhkT21Qa1VIckpYOUtoN1NudTdvMXVENUs5SzhlUkV0dkZRcElYcEdjLUR5ODJ6b3p1Rzc4Uk5RZU5RSElxLTlUWS1BazZHUEowUzd5TUFwVFJj?oc=5"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -81,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -91,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -101,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -111,28 +99,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "European stocks rise, oil prices steady, government bond yields still high - Reuters",
+      "headline": "Cisco's stock pops 11% on earnings beat, strong guidance",
       "score": 8,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "European stocks rise, oil prices steady, government bond yields still high\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-13 01:27",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WQ2g4TE51V0FmWDBZOFVjQVhDbVphVXVWQzVmV1RLY01taHBramJiaVNPTUdHZVZTQWtwWExtM2NUSW9fVkVLN2p4UzRMWUNla01KWnNYQVdLR3hlMUhxWlZqZEhQQnIxaThhVXQxNk44Sks1VXZHSkhEVQ?oc=5"
+      "impact": "Cisco's AI story has finally started resonating with Wall Street, with the stock hitting a record late last year and continuing to rally in 2026.",
+      "category": "corporate_earnings",
+      "date": "2026-05-13 20:13",
+      "link": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html"
     },
     {
-      "headline": "Stock market today: Nasdaq, S&P 500 futures fall, Dow stalls as Wall Street braces for CPI inflation data",
+      "headline": "10-year Treasury yield hits new high for the year after very hot producer prices reading",
       "score": 8,
-      "source": "Yahoo Entertainment",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "A rally in tech stocks lost steam as Wall Street awaited the April consumer inflation report, expected to provide clues tp how the war in Iran is affecting...",
-      "category": "us_equities",
-      "date": "2026-05-12 09:24",
-      "link": "https://finance.yahoo.com/economy/live/stock-market-today-nasdaq-sp-500-dow-fall-as-wall-street-weighs-cpi-inflation-print-224350708.html"
+      "impact": "Treasury yields climbed after a hotter-than-expected reading on the producer price index.",
+      "category": "fixed_income",
+      "date": "2026-05-13 15:54",
+      "link": "https://www.cnbc.com/2026/05/13/treasury-yields-fall-as-investors-digest-hotter-than-expected-cpi-data.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -141,7 +129,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -151,18 +139,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-13 16:21",
+      "date": "2026-05-14 08:27",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Pfizer stock (US7170811035): Q1 earnings beat estimates with $14.5B revenue",
+      "headline": "20 stocks in the S&P 500 of companies with soaring sales and improving profit margins",
       "score": 7,
-      "source": "AD HOC NEWS",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Pfizer reported stronger-than-expected Q1 2026 results, with revenue of $14.5 billion surpassing forecasts and EPS at $0.47, covering its quarterly dividend. The company showcased resilience in its key products despite ongoing patent challenges and continues to focus on oncology, vaccines, and inter",
-      "category": "corporate_earnings",
-      "date": "2026-05-13 15:30",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/pfizer-stock-us7170811035-q1-earnings-beat-estimates-with-14-5b/69325867"
+      "impact": "This earnings season\u2019s big winners include makers of AI-oriented hardware, but the list also includes some surprises.",
+      "category": "us_equities",
+      "date": "2026-05-14 00:43",
+      "link": "https://www.marketwatch.com/story/20-stocks-in-the-s-p-500-of-companies-with-soaring-sales-and-improving-profit-margins-eb74005a?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "This stock is our favorite way to hedge against the pickup in inflation",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2026-05-13 18:13",
+      "link": "https://www.cnbc.com/2026/05/13/this-stock-is-our-favorite-way-to-hedge-against-the-pickup-in-inflation.html"
     },
     {
       "headline": "India's Tata Motors warns of costs from Iran war after profit surge - Reuters",
@@ -175,16 +173,6 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYlJvZ21PZWkyQzIzRUhmUDJKcEQ0dGxRdTExdHBoSVJXYk9tZFR1SnhfcGtab1RUai1GQVBFNExyVk5remprVno1ZGc3RS1ZRVJtMTNEdTZLTURrdFM4UklLVVJSNng1OXpld2dIQS1iVWpHQ2pwU2R3bDBzcklsOGR3WFJialVKYmxnVzdZREY5UFl0dHFFMHloMEZqTzFiRWtJeWFPUQ?oc=5"
     },
     {
-      "headline": "20 stocks in the S&P 500 of companies with soaring sales and improving profit margins",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "This earnings season\u2019s big winners include makers of AI-oriented hardware, but the list also includes some surprises.",
-      "category": "us_equities",
-      "date": "2026-05-13 14:36",
-      "link": "https://www.marketwatch.com/story/20-stocks-in-the-s-p-500-of-companies-with-soaring-sales-and-improving-profit-margins-eb74005a?mod=mw_rss_topstories"
-    },
-    {
       "headline": "Nissan predicts profit above $1 billion this fiscal year, modest Iran war hit - Reuters",
       "score": 7,
       "source": "Reuters",
@@ -195,14 +183,14 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWGhpdENxOVcyMExfTWs0aTZyREJxX01vaEF0NkxyMVBqZ3hzdU12NGpPREhzYXhfcnRiLXpkekNzS1NLTXYySWZuRzlTNlBWeFJ4dVZRUVlMaVVIbnJjYkttTXA3SERmLVJ4bWJmUGp3VVJoSXZ1VVRFTlVOSEVjRHltZ2tTcWMxTWNRNkMtLV81QXM4eFpoajNFazF1RFBPLWc?oc=5"
     },
     {
-      "headline": "FedEx CEO brushes off Amazon's new logistics service that recently sent shares tumbling",
+      "headline": "Stock futures broadly higher as Wall Street awaits another April inflation report: Live updates",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "FedEx CEO Raj Subramaniam argued that Amazon's recent supply chain services announcement does not pose a threat to Fedex.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-12 22:58",
-      "link": "https://www.cnbc.com/2026/05/12/fed-ex-ceo-jim-cramer-amazon-logistics.html"
+      "sentiment": "positive",
+      "impact": "April's producer price index, another key inflation report, will be released at 8:30 a.m. on Wednesday morning.",
+      "category": "us_equities",
+      "date": "2026-05-13 08:32",
+      "link": "https://www.cnbc.com/2026/05/12/stock-market-today-live-updates.html"
     },
     {
       "headline": "UK 30-Year Yields Jump to Highest Since 1998 on Starmer Pressure",
@@ -215,64 +203,74 @@
       "link": "https://www.bloomberg.com/news/articles/2026-05-12/gilts-slump-with-uk-prime-minister-under-pressure-to-stand-down"
     },
     {
-      "headline": "Stock futures are little changed as traders await inflation reading, monitor Iran war developments: Live updates",
-      "score": 7,
-      "source": "CNBC",
+      "headline": "Travelers targets its largest cat bond sponsorship ever, now up to $750m reinsurance",
+      "score": 6,
+      "source": "Artemis.bm",
       "sentiment": "positive",
-      "impact": "Economists polled by Dow Jones are calling for headline CPI to have gained 3.7% from a year earlier.",
+      "impact": "Travelers is aiming to secure between $600 million and $750 million in multi-peril reinsurance protection through its Long Point Re IV Ltd. (Series 2026-1) catastrophe bond, which would be its largest cat bond sponsorship to date. This upsizing reflects Travelers' growing risk transfer needs and com",
+      "category": "fixed_income",
+      "date": "2026-05-14 07:32",
+      "link": "https://www.artemis.bm/news/travelers-targets-its-largest-cat-bond-sponsorship-ever-now-up-to-750m-reinsurance/"
+    },
+    {
+      "headline": "Stressed crude oil market looks to Xi-Trump summit for Iran help - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Stressed crude oil market looks to Xi-Trump summit for Iran help\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-14 06:15",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb3hmRVBZX1pVY09UblFUVEZoTE05eVBmWkpkMGhvSlVIZldtM093X0R4X21OQmx3UU05Zmg0enFKaGZKV2RqLUl4TEx2NjFZWGc2WXY0V1ZxbEpZeUtzeWtJa3hDWFZUVkpuamR3NXMzN0xyOElJbHRvWnl4Zl9sY3lPc1NyTjJJM190TVVqVDdzUHVMTHc2ODVCLWlHcjB6S2V2dGI2VFBBR091aDFlbzNJNzQxRFBwUmJQUi1GZzd6ZkJD?oc=5"
+    },
+    {
+      "headline": "Iran war overshadows Trump's China visit as peace talks stall - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran war overshadows Trump's China visit as peace talks stall\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-05-14 03:56",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbFd0ejg3MHE1NzY3MmdESTZ4bkxtNGtpQkFxZnhTSlVmLWVXSTZRRkRXbVBRNVlmS3FtbEk2NS1uaGFIX3Mxazc0UzFFbkJkbHdtQm9BS2NzSTFWTEVYQkxidUFZWE1MSEFiRlB0M3hYUFNRQm10eWN1dGhIei1URkYtRE5rS05pMFo5dmpZN3d6azVES2NiaWswZGMzZUl1SzVLejlWRzg?oc=5"
+    },
+    {
+      "headline": "As Iran war jolts Air India, Lufthansa and Cathay pounce on fast-growing market - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "As Iran war jolts Air India, Lufthansa and Cathay pounce on fast-growing market\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-11 23:49",
-      "link": "https://www.cnbc.com/2026/05/11/stock-market-today-live-updates.html"
+      "date": "2026-05-14 01:32",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTVlMeXRCMkViOHg2cWhxU0Rmekd1U3ZQNFNnWGV1XzQwWGZtOXlHWWVKdlA1cmRuUVdoeGozLVNremFVZG5GXzJTTWdQSENzRkRuVGhZM1M0X2k3MVdhWGN3ajdBNEMwYVAwY0FGc1NXdGUyVFlxblNvTXAzUGprcHY5ay1OZ1dtamRjVGFqNzJWT0ZMN2QteWw2ZzR3VzdWWk9Zd2gxbkFsc1JRNEVMNnlZdHZISDg?oc=5"
     },
     {
-      "headline": "Thermo Fisher Sci. stock (US8835561023): Recent earnings beat and price gain",
+      "headline": "Gold prices steady as Trump-Xi meeting, Iran war draw focus - Reuters",
       "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Thermo Fisher Scientific (TMO) reported Q1 earnings of $5.44 per share, surpassing estimates by 4.62%, leading to a 0.37% stock price increase to $429.33 USD in after-market trading. The company is a dominant force in the life sciences tools and services sector, benefiting from rising R&D spending a",
-      "category": "corporate_earnings",
-      "date": "2026-05-13 15:58",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/thermo-fisher-sci-stock-us8835561023-recent-earnings-beat-and-price/69324958"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gold prices steady as Trump-Xi meeting, Iran war draw focus\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-14 01:10",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUl2UmU0WTRldHg1dEV4NnEtRmxXRlhKN1ctUXpWWFVlZno4bmJaR3dXWVl6NXJBX1E0d2F1b0hPMlhQOEtWRmUtU2NiV2hSaEJTZzdtTmtpc24xUVpWZFYwb3JMQmZTNUdJLWhtSkJjak90QWd1b3ZCM0xzZkpRYVZNd25xNm52SEVVYUV3eFJySTBGT2I0Rg?oc=5"
     },
     {
-      "headline": "Why this unheralded AI stock can go higher despite its recent massive rally",
+      "headline": "Inflation will likely be higher for longer. Your retirement plan isn\u2019t built for that.",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "impact": "Official CPI masks double-digit spikes in healthcare, insurance and energy. Meanwhile, an outdated strategy quietly drains your portfolio.",
       "category": "global_markets",
-      "date": "2026-05-13 15:53",
-      "link": "https://www.cnbc.com/2026/05/13/jim-cramer-this-unheralded-stock-qnity-has-become-one-of-the-investing-clubs-top-performers.html"
+      "date": "2026-05-13 23:34",
+      "link": "https://www.marketwatch.com/story/why-3-8-inflation-actually-feels-like-an-8-hit-to-your-retirement-savings-9e0ba615?mod=mw_rss_topstories"
     },
     {
-      "headline": "Global-E Online Delivers 50.0% Q1 2026 Upside, Revenue Up 33%",
+      "headline": "Xi warns Trump that mishandling of Taiwan could lead to conflict - Reuters",
       "score": 6,
-      "source": "AlphaStreet",
-      "sentiment": "positive",
-      "impact": "Global-E Online (GLBE) reported strong Q1 2026 results, with non-GAAP EPS of $0.27, exceeding Wall Street estimates by 50.0%. The cross-border e-commerce platform generated $252.1 million in revenue, a 33.0% increase year-over-year, and achieved an adjusted net income of $46.9 million. Despite the p",
-      "category": "corporate_earnings",
-      "date": "2026-05-13 15:31",
-      "link": "https://news.alphastreet.com/global-e-online-delivers-50-0-q1-2026-upside-revenue-up-33/"
-    },
-    {
-      "headline": "Nucor Corporation stock (US6703461052): Q1 2026 revenue jumps 21% to $9.5B",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Nucor Corporation reported a strong first quarter in 2026, with revenue climbing 21% year-over-year to $9.50 billion, exceeding analyst expectations. Earnings per share also surpassed projections, reaching $3.23. The company, a leading US steel producer, attributed its success to recovery in core bu",
-      "category": "corporate_earnings",
-      "date": "2026-05-13 15:31",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nucor-corporation-stock-us6703461052-q1-2026-revenue-jumps-21-percent/69325875"
-    },
-    {
-      "headline": "Carrier Global Corp. stock (US1442851009): Q1 2026 earnings beat estimates",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Carrier Global Corp. reported stronger-than-expected Q1 2026 earnings, with revenue reaching $5.34 billion, a 2.36% year-over-year increase, driven largely by demand for data center cooling solutions. The company's focus on sustainable technologies and its position in the growing HVAC sector, partic",
-      "category": "corporate_earnings",
-      "date": "2026-05-13 15:17",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/carrier-global-corp-stock-us1442851009-q1-2026-earnings-beat-estimates/69325742"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Xi warns Trump that mishandling of Taiwan could lead to conflict\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-13 22:32",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS3lkbXo1Qi03THB1M3ZabG5xUFNTNzloZl96QTUyTGItdm5WMWd4eVhWTEtDd0plRHBmYTVYUU94bXAtN3AxYzQ1aUdUR203NmM5YjFfZGNaT3F5a01BcnJxTTVRUUsyU1d5b01zRU9nNDNNLU54ZkNkckxDS0J2NTI0MGU1OGp0X3VVRFlxNHJkU3ZvMkF2Y1lrdEE2TDhUX3VoS2cxdWZ5Zw?oc=5"
     }
   ]
 }
