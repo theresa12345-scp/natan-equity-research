@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-15T08:38:19.140300",
+  "timestamp": "2026-05-15T16:04:05.651235",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 11,
-    "neutral": 12,
-    "bearish": 2,
-    "high_priority": 11,
+    "avg_relevance": 7.2,
+    "bullish": 8,
+    "neutral": 13,
+    "bearish": 4,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 8,
-    "Bloomberg": 3,
-    "CNBC": 3,
-    "The Wall Street Journal": 1,
+    "Reuters": 6,
+    "Bloomberg": 2,
+    "CNBC": 5,
+    "The Wall Street Journal": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "AD HOC NEWS": 3
+    "MarketWatch": 3,
+    "AD HOC NEWS": 2
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Bessent sees 'substantial disinflation' ahead as Warsh takes over the Fed",
+      "headline": "30-year Treasury yield tops 5.1%, highest in nearly a year",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Bessent said the energy-fed inflation surge recently is likely to reverse as the U.S. is \"going to keep pumping.\"",
-      "category": "us_monetary_policy",
-      "date": "2026-05-14 14:20",
-      "link": "https://www.cnbc.com/2026/05/14/bessent-sees-substantial-disinflation-ahead-as-warsh-takes-over-the-fed.html"
+      "sentiment": "neutral",
+      "impact": "Treasuries spiked on Friday as inflation signals continue to muddy interest rate expectations under the new Federal Reserve chair Kevin Warsh.",
+      "category": "fixed_income",
+      "date": "2026-05-15 12:10",
+      "link": "https://www.cnbc.com/2026/05/15/treasury-yields-surge-as-inflation-data-points-to-tricky-rates-path.html"
     },
     {
       "headline": "Boston Fed\u2019s Collins Flags Rate-Hike Scenario as Inflation Risks Tilt Higher",
@@ -124,23 +124,13 @@
       "link": "https://www.wsj.com/economy/central-banking/boston-feds-collins-flags-rate-hike-scenario-as-inflation-risks-tilt-higher-0406efe6"
     },
     {
-      "headline": "Treasury Buyers Get 5% Long Bond for First Time Since 2007",
-      "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "Investors snagged 5% yields on 30-year Treasuries for the first time since 2007, as surging energy prices push inflation \u2014 and expectations for more of it \u2014 higher.",
-      "category": "fixed_income",
-      "date": "2026-05-13 17:16",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-13/treasury-buyers-get-5-long-bond-rate-for-first-time-since-2007"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -150,28 +140,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-15 08:38",
+      "date": "2026-05-15 16:04",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Nvidia earnings alone won\u2019t rescue the S&P 500 from its new sell signal",
+      "headline": "Powell\u2019s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
       "score": 7,
       "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Overbought warnings come ahead of a massive tech and retail earnings lineup.",
-      "category": "us_equities",
-      "date": "2026-05-15 03:11",
-      "link": "https://www.marketwatch.com/story/nvidia-earnings-alone-wont-rescue-the-s-p-500-from-its-new-sell-signal-5a41acc3?mod=mw_rss_topstories"
+      "sentiment": "positive",
+      "impact": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-15 13:52",
+      "link": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89?mod=mw_rss_topstories"
     },
     {
-      "headline": "The bond market is already hiking rates as Kevin Warsh takes over as Fed\u2019s new chair",
+      "headline": "European shares tumble on Iran war-linked inflation woes - Reuters",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "There is a perception that new Fed chairs are tested by market turmoil.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-14 22:11",
-      "link": "https://www.marketwatch.com/story/the-bond-market-is-already-hiking-rates-as-kevin-warsh-takes-over-as-feds-new-chair-7a74acbd?mod=mw_rss_topstories"
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "European shares tumble on Iran war-linked inflation woes\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-15 09:14",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRF9pUjcwaWlSdFRUVTJMZWJPZ2YtdWtkV3JuWmxjX3pRN2tiQVoySVNhR3ZuR3pRY2VTSjlZNXM5N25pZ1hxbk1kczdscU1JblpaOS1hZ1Y1MUlWeTFwb1dtOE40UWpCa0NTRXlfRElKcFNtbjdWWTV6bFk5UmludjBYQzliTTRnaDR2aEpIWnl2RUV3d2tyLXRHZjVxU21jS3hyZll4bXVhbW5VV3c?oc=5"
     },
     {
       "headline": "Fed Governor Miran submits resignation, throws support behind Warsh as new chair",
@@ -194,84 +184,94 @@
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1zc2VpQW9EdnRUWDJzY0FwZEhsUXZxUDNPU1dJRHJTRG1Vam9meWp1SUhHTnd4TmRmclR4VmxOTE1sWDkxNWUxS3VCaFBzS2JWcm9QNm42QVhhUnh5NnhtM0hBMVd1OUhneFdtY2hMOUZ1MkUzNUVz?oc=5"
     },
     {
-      "headline": "S&P 500 futures are little changed after tech-driven rally leads index to new record: Live updates",
+      "headline": "How Eight Tumultuous Years Pushed Jerome Powell and the Fed to the Limit",
       "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-14 12:22",
+      "link": "https://www.wsj.com/economy/central-banking/how-eight-tumultuous-years-pushed-jerome-powell-and-the-fed-to-the-limit-96388c46"
+    },
+    {
+      "headline": "Chinese EVs are coming to Canada, and some dealers can't wait to sell them",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Canada is allowing 49,000 Chinese-made electric vehicles to be imported for retail sales annually at a tariff rate of 6.1%.",
+      "category": "global_markets",
+      "date": "2026-05-15 15:49",
+      "link": "https://www.cnbc.com/2026/05/15/chinese-evs-canada.html"
+    },
+    {
+      "headline": "We're snapping up this retail stock that has fallen 10% from its April high",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Our general rule of thumb is that a 10% pullback in a high-quality company like TJX represents an opportunity to nibble on shares.",
+      "category": "global_markets",
+      "date": "2026-05-15 15:25",
+      "link": "https://www.cnbc.com/2026/05/15/were-snapping-up-this-retail-stock-thats-fallen-10percent-from-april-.html"
+    },
+    {
+      "headline": "FirstEnergy stock (US3377381088): Q1 earnings update and regulatory overhang",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "neutral",
+      "impact": "FirstEnergy (FE) reported higher first-quarter 2026 earnings, driven by increased transmission revenues and distribution rate adjustments, and reaffirmed its full-year EPS guidance. The utility continues to invest in grid modernization, focusing on regulated transmission and distribution assets. How",
+      "category": "corporate_earnings",
+      "date": "2026-05-15 15:20",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/firstenergy-stock-us3377381088-q1-earnings-update-and-regulatory/69343459"
+    },
+    {
+      "headline": "Centene stock (US15133V1035): Earnings, Medicaid dynamics and outlook for US healthcare investors",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "neutral",
+      "impact": "Centene Corp. (US15133V1035) has released its latest quarterly results and affirmed its 2025 guidance, navigating the financial impacts of Medicaid redeterminations and changes in Medicare Advantage. The company's business model relies on managing government-sponsored healthcare programs, primarily ",
+      "category": "corporate_earnings",
+      "date": "2026-05-15 15:07",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/centene-stock-us15133v1035-earnings-medicaid-dynamics-and-outlook-for/69343378"
+    },
+    {
+      "headline": "5 tests Kevin Warsh will face as Fed chair",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Wall Street and Washington will be watching to see how he reacts to political pressure and whether he can get the central bank on board with the major changes he favors.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-15 14:40",
+      "link": "https://www.marketwatch.com/story/5-tests-kevin-warsh-will-face-on-the-first-day-as-fed-chair-f5bc4a7e?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Stocks tumble, bond rout deepens as Trump\u2019s China visit fails to pry open Strait of Hormuz",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Hopes for an end to the Iran conflict faded after President Trump failed to secure a commitment from China to help pressure Iran to reopen the Strait of Hormuz.",
+      "category": "fixed_income",
+      "date": "2026-05-15 14:28",
+      "link": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Starbucks to lay off 300 U.S. employees, shutter some regional support offices",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "A rally in the technology sector drove the S&P 500 and Nasdaq Composite to new intraday and closing records on Wednesday.",
-      "category": "us_equities",
-      "date": "2026-05-14 01:54",
-      "link": "https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Fifth Third Bancorp stock (US3167731005): solid earnings, dividend focus and regional banking risks",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Fifth Third Bancorp reported resilient profitability and stable deposit trends for Q1 2026, while maintaining its dividend despite a challenging rate and credit environment for regional banks. The article analyzes the bank's core business model, revenue drivers, and competitive position within the U",
-      "category": "corporate_earnings",
-      "date": "2026-05-15 07:50",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/fifth-third-bancorp-stock-us3167731005-solid-earnings-dividend-focus/69340608"
-    },
-    {
-      "headline": "Koninklijke Philips N.V. stock (NL0000009538): earnings beat keeps turnaround story in focus",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Koninklijke Philips N.V. (PHG) surpassed quarterly profit expectations, reinforcing its ongoing turnaround efforts despite persistent legal and regulatory issues related to past product recalls. The company's strategic shift to healthcare technology, focusing on diagnostic imaging, image-guided ther",
-      "category": "corporate_earnings",
-      "date": "2026-05-15 07:43",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/koninklijke-philips-n-v-stock-nl0000009538-earnings-beat-keeps/69340562"
-    },
-    {
-      "headline": "Progressive Corp stock (US7433151039): Q1 earnings beat but share price lags 2025 highs",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "Progressive Corp (US7433151039) reported strong Q1 earnings, beating analyst estimates with an EPS of $4.80, yet its stock price remains significantly below its 52-week high of $289.96. Despite improved operating results, the stock closed at $196.93 on May 14, 2026, underperforming the broader marke",
-      "category": "corporate_earnings",
-      "date": "2026-05-15 07:41",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/progressive-corp-stock-us7433151039-q1-earnings-beat-but-share-price/69340540"
-    },
-    {
-      "headline": "Trump says he and China's Xi agree Iran cannot have nuclear weapons - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says he and China's Xi agree Iran cannot have nuclear weapons\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-05-15 06:18",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeFFlcklCYWQwZUZGc2xjSF9QWjJvMU1PWFVtakpUVDljdTFCMzJqN2lULXMycUVxS2V2Q0I4X3h3ZndCczNqZ2JKTEFwdW1tTlBMMGlJRWRiT05jT3otM1BtT3F6YmxNQ1hEM1hjVnZPTEdXX1JlWk9lWWJLd3BvQlozTDFDQnQtbFU5ZUZzakE4Q0RPTHA5QWVmbXluVkFSRVQtZjlmdkRNUHVhR29v?oc=5"
-    },
-    {
-      "headline": "Airlines cancel flights in response to Middle East conflict - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Airlines cancel flights in response to Middle East conflict\u00a0\u00a0Reuters",
+      "impact": "Starbucks said the moves will help the coffee chain return to profitable growth.",
       "category": "global_markets",
-      "date": "2026-05-15 05:22",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUktYcUtESEg4Vkt6a2d5akRkeFI2Njd0dkR1UnhaLU5EbVFuQkJnMnkyaWRnWFlkQlVBY1BtWFRRVWpfS1RPMjRfclZidFBVaWJwb0c2Y2UxV2p5azA5M3FyWjRJLXlMcVRsd3JIdWZsZXpXVDV5WVdJRHFFUUFzWF9pQkxsbURWQ0p4bnl3MkxtTVFrVUxEX3dhdGNKM2MyNkhhOVNMTmhLRGNEYnJSWHRKTG5zdw?oc=5"
+      "date": "2026-05-15 14:17",
+      "link": "https://www.cnbc.com/2026/05/15/starbucks-to-lay-off-300-us-employees-close-some-regional-offices.html"
     },
     {
-      "headline": "Trump says he and Xi agree to keep Iran from having nuclear arms - Reuters",
+      "headline": "Iran has 'no trust' in US, will negotiate only if it is serious, Araqchi says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump says he and Xi agree to keep Iran from having nuclear arms\u00a0\u00a0Reuters",
+      "impact": "Iran has 'no trust' in US, will negotiate only if it is serious, Araqchi says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-15 04:25",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUVdSWHU5UjhERVU3S3dMRkJWLWIwbkQyZFdkLXJWME5qMTJKUFFyaVFBdTJWME5SX1h1aUgyY3lQdTIwZWJ4UjJubEtjMDB0akYxd3JHWkRybUZFSzRhaERLb3JDc0g0VkRMcDBzeHB3YlFSeU5GTE1wYkFjTjdUVl9fUFZ5RDUxbnhxWDctRXJXbW1qak0xRW13V1NWZkU3Y1E?oc=5"
-    },
-    {
-      "headline": "Trump says he won't be much more patient with Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says he won't be much more patient with Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-15 03:22",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUUVsZHdDbE0yTnNpVkw0aXJFTkpZR2tidzVDbVRXRlNYamd4ZHFOVDZXRnQ2Um1UQkt2Z1pjRllfSXdrdzNjVlBRUzlCOWRfdldaMDkyWjBmaF8wM0xrNm1nNWN0Sk9QX1NKaFZRSkJybXN5ZlBhX2lzU2t3dTFGcF8xQzJjTTRBaUFUM0tFZ3gtRDgxVTJMLW5XVV9ab0p6SV94bUJn?oc=5"
+      "date": "2026-05-15 13:00",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaFBtX0tMLXo3MzhfMEVRSmJKQzc0bEszUzB0WnkwS3REZ052U0JqeDVRSzlCaTljODNzb2xWb1dhTlRfbkVna25iRklIby1wWXJBS1pvd3dhYzl2bkktZ1N6aXJCcVo1bi1LSTNXMDVyQ05rcXNQTVNjRDFGejRxQ3I0d1h3ZjlfejlyVnNtbG9kY2VTZS1qSXBUWER3NzBBMjBxVUpLNmF6b2k3RW1qeDRTT1NqZHBGVWc?oc=5"
     }
   ]
 }
