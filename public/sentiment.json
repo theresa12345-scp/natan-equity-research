@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-16T07:49:48.616867",
+  "timestamp": "2026-05-16T14:59:25.067891",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 10,
-    "neutral": 11,
-    "bearish": 4,
+    "avg_relevance": 7.4,
+    "bullish": 13,
+    "neutral": 9,
+    "bearish": 3,
     "high_priority": 11,
     "material_events": 4
   },
@@ -14,13 +14,17 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
-    "Bloomberg": 2,
+    "Reuters": 5,
+    "Bloomberg": 3,
     "CNBC": 2,
+    "Yahoo Entertainment": 1,
     "Caixin/S&P Global": 1,
+    "Investing.com Australia": 1,
     "Federalreserve.gov": 1,
-    "MarketWatch": 3,
-    "MarketBeat": 3
+    "MarketWatch": 1,
+    "Simply Wall Street": 1,
+    "AD HOC NEWS": 4,
+    "Capital.com": 1
   },
   "top_signals": [
     {
@@ -30,7 +34,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +44,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +54,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +64,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +74,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +84,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +94,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +104,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "With inflation spiking and Treasury yields surging, Warsh is likely to confront a Federal Open Market Committee in no mood to ease.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-16 13:41",
+      "link": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html"
     },
     {
       "headline": "Yields surge to one-year high as oil prices and inflation data rattle markets - Reuters",
@@ -114,24 +128,14 @@
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTWdKYkxGQjZyRUxLOGpWbXA2eUhubEVKOHB0QVdKdTA2N1pIaXlXQ1ZtQ29fcng5cFF0cXhZRGY3V21uOXE3ajNmUUJ5X2NsbEtKTmFFZDhNNnVMZFk1Y1poRU5WQkFzMDZETUtZVHN3b1lRaG1fcFNJSzFXendSMEpFUF9FcWhwdVRzSkpkQXpFU2l1b3g4aG1CdzJoVWVKb1psREhuTGlEdTlldTFBanJicUpSS2ZleXJ1Y2NoOEpsZw?oc=5"
     },
     {
-      "headline": "30-year Treasury yield tops 5.1%, highest in nearly a year",
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures fall as yields rise, Trump-Xi summit ends",
       "score": 8,
-      "source": "CNBC",
+      "source": "Yahoo Entertainment",
       "sentiment": "neutral",
-      "impact": "Treasuries spiked on Friday as inflation signals continue to muddy interest rate expectations under the new Federal Reserve chair Kevin Warsh.",
-      "category": "fixed_income",
-      "date": "2026-05-15 12:10",
-      "link": "https://www.cnbc.com/2026/05/15/treasury-yields-surge-as-inflation-data-points-to-tricky-rates-path.html"
-    },
-    {
-      "headline": "Global bonds battered as flaring inflation spooks investors - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Global bonds battered as flaring inflation spooks investors\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-15 06:40",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRVF0cC1lVXEtTWsyazNaMHlnSVRZZlBmMTNJUTJIN3JmbXJLdjJlLXJoSEp3ODdVdzF1bHdkSWkzUUlWdEZVcldHc21RWGdkNGJOS3VkWHMyblRJdE43STQ5SHd4eG8zZEtOelRxRU9YUGEyOHlXMmRLUVBZemZ6LXpfVDhpUUl3MTY2R0RHdWMtZC1vaUZ5WVYtSmhPWGs5?oc=5"
+      "impact": "Inflation worries are preying on investors as they weigh the outcomes of the Trump-Xi summit in China.",
+      "category": "us_equities",
+      "date": "2026-05-15 09:58",
+      "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-fall-as-yields-rise-trump-xi-summit-ends-224527041.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -140,7 +144,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -150,8 +154,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-16 07:49",
+      "date": "2026-05-16 14:59",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Earnings call transcript: Beam Global Q1 2026 reveals revenue miss By Investing.com",
+      "score": 7,
+      "source": "Investing.com Australia",
+      "sentiment": "negative",
+      "impact": "Beam Global reported a challenging Q1 2026, missing revenue forecasts significantly with only $3.1 million against an anticipated $8.13 million, leading to a net loss of $6.9 million. The stock reacted negatively, dropping over 6%. Despite the Q1 shortfall, the company's backlog grew by 50%, and Q2 ",
+      "category": "corporate_earnings",
+      "date": "2026-05-16 13:38",
+      "link": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-beam-global-q1-2026-reveals-revenue-miss-93CH-4440330"
     },
     {
       "headline": "Can the S&P 500 hold on for a 7th weekly gain? Plus, Friday's best and worst stocks",
@@ -174,6 +188,16 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRF9pUjcwaWlSdFRUVTJMZWJPZ2YtdWtkV3JuWmxjX3pRN2tiQVoySVNhR3ZuR3pRY2VTSjlZNXM5N25pZ1hxbk1kczdscU1JblpaOS1hZ1Y1MUlWeTFwb1dtOE40UWpCa0NTRXlfRElKcFNtbjdWWTV6bFk5UmludjBYQzliTTRnaDR2aEpIWnl2RUV3d2tyLXRHZjVxU21jS3hyZll4bXVhbW5VV3c?oc=5"
     },
     {
+      "headline": "Global Bond Selloff Worsens as Rising Oil Prices Spook Investors",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Investors shed government bonds around the world, propelling borrowing costs to multi-year highs from Japan to the US amid intensifying fears that war-driven inflation will force central banks to pursue higher interest rates.",
+      "category": "fixed_income",
+      "date": "2026-05-15 10:37",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst"
+    },
+    {
       "headline": "Speech by Governor Barr on the balance sheet",
       "score": 7,
       "source": "Federalreserve.gov",
@@ -194,84 +218,64 @@
       "link": "https://www.marketwatch.com/story/the-bond-market-is-already-hiking-rates-as-kevin-warsh-takes-over-as-feds-new-chair-7a74acbd"
     },
     {
-      "headline": "Liquidia (NASDAQ:LQDA) Raised to Strong-Buy at Wall Street Zen",
+      "headline": "A Look At Henry Schein (HSIC) Valuation After Solid Q1 Update And Reaffirmed Guidance",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "Liquidia (NASDAQ:LQDA) has been upgraded to a \"strong-buy\" rating by Wall Street Zen, contributing to a generally bullish outlook from analysts. The company recently surpassed earnings and revenue expectations, driven by significant growth in revenue and increasing commercial adoption of its product",
-      "category": "us_equities",
-      "date": "2026-05-16 06:09",
-      "link": "https://www.marketbeat.com/instant-alerts/liquidia-nasdaqlqda-raised-to-strong-buy-at-wall-street-zen-2026-05-16/"
-    },
-    {
-      "headline": "Copart (CPRT) to Release Quarterly Earnings on Thursday",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Copart (CPRT) is slated to release its Q3 2026 earnings on Thursday, May 21st, with analysts predicting $0.42 EPS and $1.1979 billion in revenue. The company's previous quarter missed expectations, contributing to a current \"Hold\" rating and a consensus price target of $44.40, while the stock trades",
+      "impact": "Henry Schein (HSIC) is currently trading at a discount to its estimated intrinsic value and analyst targets despite solid Q1 results and reaffirmed guidance. The company's focus on high-margin businesses like Specialty Products and Technology is expected to drive earnings growth, contributing to a \"",
       "category": "corporate_earnings",
-      "date": "2026-05-16 05:38",
-      "link": "https://www.marketbeat.com/instant-alerts/copart-cprt-to-release-quarterly-earnings-on-thursday-2026-05-16/"
+      "date": "2026-05-16 13:56",
+      "link": "https://simplywall.st/stocks/us/healthcare/nasdaq-hsic/henry-schein/news/a-look-at-henry-schein-hsic-valuation-after-solid-q1-update"
     },
     {
-      "headline": "Analog Devices (NASDAQ:ADI) Cut to \"Hold\" at Wall Street Zen",
+      "headline": "Applied Materials, Inc. stock (US0382221051): Analyst upgrades follow record Q2 earnings and higher outlook",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "AD HOC NEWS",
       "sentiment": "positive",
-      "impact": "Wall Street Zen has downgraded Analog Devices (NASDAQ:ADI) from \"buy\" to \"hold,\" despite the company's strong fundamentals and generally positive analyst outlook. The semiconductor company recently surpassed earnings and revenue expectations, and most analysts still maintain a \"buy\" or \"strong buy\" ",
-      "category": "us_equities",
-      "date": "2026-05-16 05:11",
-      "link": "https://www.marketbeat.com/instant-alerts/analog-devices-nasdaqadi-cut-to-hold-at-wall-street-zen-2026-05-16/"
+      "impact": "Applied Materials, Inc. reported record Q2 FY2026 results and an upgraded outlook, leading to multiple analyst price target increases, mostly around the $500 mark. The company's strong performance is driven by its dominant position in semiconductor manufacturing equipment and a growing services segm",
+      "category": "corporate_earnings",
+      "date": "2026-05-16 13:56",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/applied-materials-inc-stock-us0382221051-analyst-upgrades-follow/69350447"
     },
     {
-      "headline": "Trump's geopolitical brinkmanship has hit a wall with Iran - Reuters",
+      "headline": "Alphabet Inc. Class C stock (US02079K1079): Google parent\u2019s AI and ad engine in focus after latest earnings",
       "score": 6,
-      "source": "Reuters",
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "This article analyzes Alphabet Inc.'s Class C shares following its latest quarterly earnings report, highlighting the company's focus on AI, cloud services, and YouTube as key growth drivers. It details Alphabet's core business model, major revenue streams, competitive landscape, and regulatory chal",
+      "category": "corporate_earnings",
+      "date": "2026-05-16 13:40",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/alphabet-inc-class-c-stock-us02079k1079-google-parent-s-ai-and-ad/69350349"
+    },
+    {
+      "headline": "Vanguard Total Bond Market Index Fund ETF Shares (BND) Stock Price Quote Today & Current Price Chart",
+      "score": 6,
+      "source": "Capital.com",
       "sentiment": "neutral",
-      "impact": "Trump's geopolitical brinkmanship has hit a wall with Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-16 05:03",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZG82ZDhaS3UxcVRGSEpHTFVsb25nSVB0bVA0UEdYQlhrLWU4dmFlbUFiRDdScEtESkxtbHdqaWpnQ3BCcUZHanhNaGVEdERaTG5ia2RCWmpyZ0JZeC1KQUxCNVNHS1RhMWphNXBuT2ExUm5nOWtCaG1sNjh0YmVlY21iX1VrX2JGbE9Ka1g2WE9OaVh1YnA0dE5lMERxd1AxZURWV2JVcUdMV2lpMlE?oc=5"
-    },
-    {
-      "headline": "US accuses Iraqi man of helping Iran-backed militia's plans for attacks in US, Europe\u200b - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US accuses Iraqi man of helping Iran-backed militia's plans for attacks in US, Europe\u200b\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-16 03:24",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcnhoTVUwY09tRnJua2hpTUJ0LXVEWjRRRVNlNTJTUVhJOE95N3U2NXRSQ3FZOUhWYlRmUG4tM2ZuUGRhdndzUGhqREdWOHZHZUlac2p0V3paU3Q1b1kwZmk0SFpsOEdVZlZSR3Jlb1VRRlZ2OHdhNXhrX1U1Z2xaaFVTenM3MGdUd2FQTm1BRFpHM2NGOTRLRTZDbWxISEZ6Z1BybEJsZGxTM3lPZUFVSVVuX1g4TXBUdWFIM2F1cEptRm9U?oc=5"
-    },
-    {
-      "headline": "China's U.N. ambassador criticizes US Hormuz resolution - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "China's U.N. ambassador criticizes US Hormuz resolution\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-05-15 22:53",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVUpaaUtBM3FTT1pYdjJMWEhlRllFbEpmTTZjTGpBX1pLUDVZbjYxdXB5Y0t6ZGRVcGxNM09QdG9TdVl5cXg2MC0wUjhNSWxFUjRKR3JyYXl3WE5aMTJyNllfSGx6ZUI3OV9Bc0pfYjR4NE9HdVlhX3NWbWhBVFVKTWpOWGFDYzQ1ZGJ5c0lUU2MzNVVzU1Nxb19oMnF0NjZ4Y0E?oc=5"
-    },
-    {
-      "headline": "Stocks and bonds get swept up in a selloff, as Trump\u2019s China visit fails to pry open the Strait of Hormuz",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Fears of a 2022-style inflation problem are bubbling back up, but there\u2019s also hope for a Trump pivot on the Iran conflict.",
+      "impact": "This article provides details on the Vanguard Total Bond Market Index Fund ETF Shares (BND), an ETF designed to offer broad exposure to the U.S. investment-grade bond market by tracking a benchmark index. It includes current stock price, trading conditions, key statistics, and a description of the f",
       "category": "fixed_income",
-      "date": "2026-05-15 20:57",
-      "link": "https://www.marketwatch.com/story/stocks-tumble-bond-rout-deepens-as-trumps-china-visit-fails-to-reopen-strait-of-hormuz-8501c294?mod=mw_rss_topstories"
+      "date": "2026-05-16 13:40",
+      "link": "https://capital.com/en-ae/markets/shares/vanguard-total-bond-market-index-fund-etf-shares-share-price"
     },
     {
-      "headline": "This \u2018safe haven\u2019 bond is projected to pay 5.1% this year \u2014 with almost no risk",
+      "headline": "Amgen Inc. stock (US0311621009): focus on latest earnings and drug pipeline developments",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The April 2032 inflation-protected U.S. TIPS bond looks like a pretty good deal.",
-      "category": "fixed_income",
-      "date": "2026-05-15 20:36",
-      "link": "https://www.marketwatch.com/story/this-safe-haven-bond-is-projected-to-pay-5-1-this-year-with-almost-no-risk-ae3fb8fe?mod=mw_rss_topstories"
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Amgen Inc. recently released its quarterly earnings and provided updates on its expanding drug portfolio, including the integration of Horizon Therapeutics. The article analyzes Amgen's core business model, key revenue drivers, financial performance, and future outlook, highlighting its position as ",
+      "category": "corporate_earnings",
+      "date": "2026-05-16 13:33",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/amgen-inc-stock-us0311621009-focus-on-latest-earnings-and-drug/69350295"
+    },
+    {
+      "headline": "Honeywell International Inc. stock (US4385161066): Q1 earnings beat and steady dividend attract inve",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Honeywell International Inc. reported better-than-expected Q1 2026 earnings of $2.45 per share and modest revenue growth, reinforcing its image as a resilient industrial and aerospace group. The company also confirmed a quarterly dividend of $1.19 per share, annualizing to $4.76, providing a stable ",
+      "category": "corporate_earnings",
+      "date": "2026-05-16 13:32",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/honeywell-international-inc-stock-us4385161066-q1-earnings-beat-and/69350292"
     }
   ]
 }
