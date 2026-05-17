@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-17T08:10:04.094422",
+  "timestamp": "2026-05-17T14:59:24.135706",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.6,
-    "bullish": 11,
+    "bullish": 12,
     "neutral": 10,
-    "bearish": 4,
-    "high_priority": 13,
+    "bearish": 3,
+    "high_priority": 14,
     "material_events": 6
   },
   "sources": {
@@ -16,12 +16,11 @@
     "Federal Reserve": 1,
     "Bloomberg": 5,
     "CNBC": 4,
-    "Reuters": 7,
+    "Reuters": 6,
+    "TheStreet": 1,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1,
-    "Financial Times": 1,
-    "Simply Wall Street": 1,
-    "MarketBeat": 1
+    "MarketWatch": 2,
+    "AD HOC NEWS": 2
   },
   "top_signals": [
     {
@@ -31,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -91,7 +90,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -101,7 +100,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -111,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -121,7 +120,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -133,6 +132,16 @@
       "category": "us_monetary_policy",
       "date": "2026-05-16 13:41",
       "link": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html"
+    },
+    {
+      "headline": "\u2018Unhinged\u2019 bond yields resets Fed rate-cut odds",
+      "score": 8,
+      "source": "TheStreet",
+      "sentiment": "neutral",
+      "impact": "Bond traders send a strong message to new Fed Chair Warsh.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-16 06:03",
+      "link": "https://www.thestreet.com/fed/unhinged-bond-yields-reset-fed-rate-cut-odds-as-inflation-risks-spook-traders"
     },
     {
       "headline": "Global bonds battered as flaring inflation spooks investors - Reuters",
@@ -161,7 +170,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -171,8 +180,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-17 08:10",
+      "date": "2026-05-17 14:59",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Nvidia is getting some help as it props up S&P 500 earnings growth",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Micron is expected to be the second-largest contributor to the index\u2019s overall earnings growth \u2014 behind Nvidia, whose impact will likely diminish.",
+      "category": "us_equities",
+      "date": "2026-05-17 14:00",
+      "link": "https://www.marketwatch.com/story/nvidia-is-getting-some-help-as-it-props-up-s-p-500-earnings-growth-1f3a8a52?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Colgate-Palmolive Co stock (US1845021021): solid growth and guidance debate after latest earnings",
+      "score": 7,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Colgate-Palmolive Co reported strong double-digit organic sales growth in its latest quarter but maintained its full-year guidance, leading to a brief stock price pullback. This reaction highlights elevated investor expectations for defensive consumer staples. Despite this, institutional investors a",
+      "category": "corporate_earnings",
+      "date": "2026-05-17 13:52",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/colgate-palmolive-co-stock-us1845021021-solid-growth-and-guidance/69356883"
     },
     {
       "headline": "April\u2019s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
@@ -183,16 +212,6 @@
       "category": "us_monetary_policy",
       "date": "2026-05-16 17:38",
       "link": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Trump Fed nominees oppose terms of keeping Jay Powell as temporary chair",
-      "score": 7,
-      "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "The central bank said the incumbent would remain chair pro tempore until Kevin Warsh is sworn in as early as next week",
-      "category": "us_monetary_policy",
-      "date": "2026-05-15 22:35",
-      "link": "https://www.ft.com/content/9baac6fa-a302-4621-bc71-23a60e704703?syn-25a6b1a6\\\\u003d1"
     },
     {
       "headline": "The Global Bond Rout Catches Up With Wall Street\u2019s Risk Rally",
@@ -215,64 +234,44 @@
       "link": "https://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst"
     },
     {
-      "headline": "Can the S&P 500 hold on for a 7th weekly gain? Plus, Friday's best and worst stocks",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "us_equities",
-      "date": "2026-05-15 18:31",
-      "link": "https://www.cnbc.com/2026/05/15/can-the-sp-500-hold-on-for-a-7th-weekly-gain-plus-fridays-best-and-worst-stocks.html"
-    },
-    {
-      "headline": "STOXX 600 logs weekly losses on Iran war-linked inflation woes - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "STOXX 600 logs weekly losses on Iran war-linked inflation woes\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-15 16:46",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRF9pUjcwaWlSdFRUVTJMZWJPZ2YtdWtkV3JuWmxjX3pRN2tiQVoySVNhR3ZuR3pRY2VTSjlZNXM5N25pZ1hxbk1kczdscU1JblpaOS1hZ1Y1MUlWeTFwb1dtOE40UWpCa0NTRXlfRElKcFNtbjdWWTV6bFk5UmludjBYQzliTTRnaDR2aEpIWnl2RUV3d2tyLXRHZjVxU21jS3hyZll4bXVhbW5VV3c?oc=5"
-    },
-    {
-      "headline": "Stephen Miran exits the Fed. How he set the stage for Kevin Warsh.",
-      "score": 7,
+      "headline": "Here are the 3 big things we're watching in the stock market for the week ahead",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The outgoing Fed governor shares big ideas with the incoming chair.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-15 15:29",
-      "link": "https://www.cnbc.com/2026/05/15/stephen-miran-exits-the-fed-how-he-set-the-stage-for-kevin-warsh.html"
+      "impact": "Nvidia's earnings report and Google's developer conference will keep the AI boom front and center.",
+      "category": "global_markets",
+      "date": "2026-05-17 14:06",
+      "link": "https://www.cnbc.com/2026/05/17/3-big-things-were-watching-in-the-stock-market-for-the-week-ahead.html"
     },
     {
-      "headline": "A Look At Nabors Industries (NBR) Valuation After Oil Price Boost And Q1 2026 Earnings Beat",
+      "headline": "Old Dominion Freight Line stock (US6826801036): revenue beat, volume momentum and valuation debate",
       "score": 6,
-      "source": "Simply Wall Street",
+      "source": "AD HOC NEWS",
       "sentiment": "positive",
-      "impact": "Nabors Industries (NBR) saw its stock rise following an increase in oil prices and better-than-expected Q1 2026 earnings. Despite a 90.02% year-to-date return, the company is considered 47.7% overvalued, with a fair value estimated at $71.25 compared to its current share price of $105.27. Key risks ",
-      "category": "commodities",
-      "date": "2026-05-17 07:37",
-      "link": "https://simplywall.st/stocks/us/energy/nyse-nbr/nabors-industries/news/a-look-at-nabors-industries-nbr-valuation-after-oil-price-bo"
+      "impact": "Old Dominion Freight Line surprised the market with better-than-expected quarterly revenue and improving freight volumes, with the stock price recently moving above $200. The company's core business model focuses on less-than-truckload freight across the US, emphasizing service quality, on-time perf",
+      "category": "corporate_earnings",
+      "date": "2026-05-17 13:31",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/old-dominion-freight-line-stock-us6826801036-revenue-beat-volume/69356707"
     },
     {
-      "headline": "10,300 Shares in Johnson Controls International plc $JCI Bought by Abacus Wealth Partners LLC",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Abacus Wealth Partners LLC recently acquired a new stake of 10,300 shares in Johnson Controls International (NYSE:JCI) during the fourth quarter, valued at approximately $1.233 million. This purchase highlights continued institutional interest in JCI, with a significant majority (90.05%) of its shar",
-      "category": "indonesia_equities",
-      "date": "2026-05-17 07:17",
-      "link": "https://www.marketbeat.com/instant-alerts/filing-10300-shares-in-johnson-controls-international-plc-jci-bought-by-abacus-wealth-partners-llc-2026-05-17/"
-    },
-    {
-      "headline": "Trump says Iran war is worth the economic pain. These rural voters agree. - Reuters",
+      "headline": "UAE reports drone strike at nuclear power plant as Iran war deadlock endures - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump says Iran war is worth the economic pain. These rural voters agree.\u00a0\u00a0Reuters",
+      "impact": "UAE reports drone strike at nuclear power plant as Iran war deadlock endures\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-16 23:48",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmxMdlNJMXdlUF9ZOFk0RW1tYlpwSkdiREhNRWVfUnZER1dCQnFIUjNIZElVazZVako3N0tDek1tQzU5V18teTFTWW9nSUVKaG85bldoSDRjWHFubjVZTk1fTDBEQklZV3RsNlJ2Z294MFcwbXk4Vy02T0hQbldzbG1tcUpueTAzV0NBa0lkUUowOThPX3AyRXZ6MVU5dksydktzMDAyWHJkeG04ZWFOT3JvTUJENDduX3Fj?oc=5"
+      "date": "2026-05-17 13:30",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ0p3bmFPRU5fWHFVZ2dfeVZsWDBfekhCN3I4d3V6aEpnN1dJdHdBa0RIVlYzcXdpVUVRVGZXY25EVjJVWndxaVdhM2ZVZDBiVVNEeHhCTWlla0RESXU2VGVFREI5OHJ3bFhMamZBZllRSnc1Snh6czJ4bk9sWmFTSTVSdVNLZmVYM18zT2p3YWlDWE1TbjdJc0ZHSXJKQjhLWU92YnA3bGVRbHduMktycE5Fb011UGJvall1MlgwY3VzWE5jYXJ4Tk9rd2V5dw?oc=5"
+    },
+    {
+      "headline": "Americans are leaving the U.S. in record numbers and spending hundreds to learn how to do it",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Expatsi's \"Move Abroad Con\" attracted hundreds of Americans hoping to move overseas.",
+      "category": "global_markets",
+      "date": "2026-05-17 13:30",
+      "link": "https://www.cnbc.com/2026/05/17/americans-are-leaving-the-united-states-in-record-numbers-spending-hundreds-to-learn-how.html"
     }
   ]
 }
