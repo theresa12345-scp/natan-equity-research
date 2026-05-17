@@ -1,30 +1,27 @@
 {
-  "timestamp": "2026-05-16T14:59:25.067891",
+  "timestamp": "2026-05-17T08:10:04.094422",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 13,
-    "neutral": 9,
-    "bearish": 3,
-    "high_priority": 11,
-    "material_events": 4
+    "avg_relevance": 7.6,
+    "bullish": 11,
+    "neutral": 10,
+    "bearish": 4,
+    "high_priority": 13,
+    "material_events": 6
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
-    "Bloomberg": 3,
-    "CNBC": 2,
-    "Yahoo Entertainment": 1,
+    "Bloomberg": 5,
+    "CNBC": 4,
+    "Reuters": 7,
     "Caixin/S&P Global": 1,
-    "Investing.com Australia": 1,
-    "Federalreserve.gov": 1,
     "MarketWatch": 1,
+    "Financial Times": 1,
     "Simply Wall Street": 1,
-    "AD HOC NEWS": 4,
-    "Capital.com": 1
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -34,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -44,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -54,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -64,8 +61,28 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Stocks fall as inflation jitters lift bond yields: Markets wrap",
+      "score": 9,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Global equities fell, with the S&P 500 down 1%, led by a decline in technology shares; US 10-year yields surpassed 4.5%, and Japan\u2019s 30-year yield reached 4% for the first time",
+      "category": "fixed_income",
+      "date": "2026-05-16 04:37",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-14/asian-stocks-to-rise-as-ai-rally-spurs-wall-street-markets-wrap"
+    },
+    {
+      "headline": "Traders now see next Fed interest rate move as a hike following inflation surge",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The fed funds futures market is pricing in an increase as soon as December.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-15 17:40",
+      "link": "https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -74,7 +91,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -84,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -94,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -104,7 +121,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -118,6 +135,16 @@
       "link": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html"
     },
     {
+      "headline": "Global bonds battered as flaring inflation spooks investors - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Global bonds battered as flaring inflation spooks investors\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-05-15 23:06",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRVF0cC1lVXEtTWsyazNaMHlnSVRZZlBmMTNJUTJIN3JmbXJLdjJlLXJoSEp3ODdVdzF1bHdkSWkzUUlWdEZVcldHc21RWGdkNGJOS3VkWHMyblRJdE43STQ5SHd4eG8zZEtOelRxRU9YUGEyOHlXMmRLUVBZemZ6LXpfVDhpUUl3MTY2R0RHdWMtZC1vaUZ5WVYtSmhPWGs5?oc=5"
+    },
+    {
       "headline": "Yields surge to one-year high as oil prices and inflation data rattle markets - Reuters",
       "score": 8,
       "source": "Reuters",
@@ -128,23 +155,13 @@
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTWdKYkxGQjZyRUxLOGpWbXA2eUhubEVKOHB0QVdKdTA2N1pIaXlXQ1ZtQ29fcng5cFF0cXhZRGY3V21uOXE3ajNmUUJ5X2NsbEtKTmFFZDhNNnVMZFk1Y1poRU5WQkFzMDZETUtZVHN3b1lRaG1fcFNJSzFXendSMEpFUF9FcWhwdVRzSkpkQXpFU2l1b3g4aG1CdzJoVWVKb1psREhuTGlEdTlldTFBanJicUpSS2ZleXJ1Y2NoOEpsZw?oc=5"
     },
     {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures fall as yields rise, Trump-Xi summit ends",
-      "score": 8,
-      "source": "Yahoo Entertainment",
-      "sentiment": "neutral",
-      "impact": "Inflation worries are preying on investors as they weigh the outcomes of the Trump-Xi summit in China.",
-      "category": "us_equities",
-      "date": "2026-05-15 09:58",
-      "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-fall-as-yields-rise-trump-xi-summit-ends-224527041.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -154,18 +171,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-16 14:59",
+      "date": "2026-05-17 08:10",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Earnings call transcript: Beam Global Q1 2026 reveals revenue miss By Investing.com",
+      "headline": "April\u2019s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
       "score": 7,
-      "source": "Investing.com Australia",
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Bond markets won\u2019t wait for the central bank to combat inflation.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-16 17:38",
+      "link": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Trump Fed nominees oppose terms of keeping Jay Powell as temporary chair",
+      "score": 7,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "The central bank said the incumbent would remain chair pro tempore until Kevin Warsh is sworn in as early as next week",
+      "category": "us_monetary_policy",
+      "date": "2026-05-15 22:35",
+      "link": "https://www.ft.com/content/9baac6fa-a302-4621-bc71-23a60e704703?syn-25a6b1a6\\\\u003d1"
+    },
+    {
+      "headline": "The Global Bond Rout Catches Up With Wall Street\u2019s Risk Rally",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Wall Street\u2019s hard-charging risk rally just ran into the bond market.",
+      "category": "us_equities",
+      "date": "2026-05-15 20:30",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-15/the-global-bond-rout-catches-up-with-wall-street-s-risk-rally"
+    },
+    {
+      "headline": "Global Bond Selloff Worsens as Rising Oil Prices Spook Investors",
+      "score": 7,
+      "source": "Bloomberg",
       "sentiment": "negative",
-      "impact": "Beam Global reported a challenging Q1 2026, missing revenue forecasts significantly with only $3.1 million against an anticipated $8.13 million, leading to a net loss of $6.9 million. The stock reacted negatively, dropping over 6%. Despite the Q1 shortfall, the company's backlog grew by 50%, and Q2 ",
-      "category": "corporate_earnings",
-      "date": "2026-05-16 13:38",
-      "link": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-beam-global-q1-2026-reveals-revenue-miss-93CH-4440330"
+      "impact": "Government bond markets tumbled around the world, sending yields surging from Japan to the US on intensifying fears that the war-driven price shock will force central banks to raise interest rates to contain the impact.",
+      "category": "fixed_income",
+      "date": "2026-05-15 20:26",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst"
     },
     {
       "headline": "Can the S&P 500 hold on for a 7th weekly gain? Plus, Friday's best and worst stocks",
@@ -188,94 +235,44 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRF9pUjcwaWlSdFRUVTJMZWJPZ2YtdWtkV3JuWmxjX3pRN2tiQVoySVNhR3ZuR3pRY2VTSjlZNXM5N25pZ1hxbk1kczdscU1JblpaOS1hZ1Y1MUlWeTFwb1dtOE40UWpCa0NTRXlfRElKcFNtbjdWWTV6bFk5UmludjBYQzliTTRnaDR2aEpIWnl2RUV3d2tyLXRHZjVxU21jS3hyZll4bXVhbW5VV3c?oc=5"
     },
     {
-      "headline": "Global Bond Selloff Worsens as Rising Oil Prices Spook Investors",
+      "headline": "Stephen Miran exits the Fed. How he set the stage for Kevin Warsh.",
       "score": 7,
-      "source": "Bloomberg",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Investors shed government bonds around the world, propelling borrowing costs to multi-year highs from Japan to the US amid intensifying fears that war-driven inflation will force central banks to pursue higher interest rates.",
-      "category": "fixed_income",
-      "date": "2026-05-15 10:37",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst"
-    },
-    {
-      "headline": "Speech by Governor Barr on the balance sheet",
-      "score": 7,
-      "source": "Federalreserve.gov",
-      "sentiment": "neutral",
-      "impact": "Thank you for the opportunity to speak to you today.  1      There has been a lot of discussion of late about reducing the size of the balance sheet of the Fed",
+      "impact": "The outgoing Fed governor shares big ideas with the incoming chair.",
       "category": "us_monetary_policy",
-      "date": "2026-05-14 23:02",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260514a.htm"
+      "date": "2026-05-15 15:29",
+      "link": "https://www.cnbc.com/2026/05/15/stephen-miran-exits-the-fed-how-he-set-the-stage-for-kevin-warsh.html"
     },
     {
-      "headline": "The bond market is already hiking rates as Kevin Warsh takes over as Fed\u2019s new chair",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "There is a perception that new Fed chairs are tested by market turmoil",
-      "category": "us_monetary_policy",
-      "date": "2026-05-14 22:11",
-      "link": "https://www.marketwatch.com/story/the-bond-market-is-already-hiking-rates-as-kevin-warsh-takes-over-as-feds-new-chair-7a74acbd"
-    },
-    {
-      "headline": "A Look At Henry Schein (HSIC) Valuation After Solid Q1 Update And Reaffirmed Guidance",
+      "headline": "A Look At Nabors Industries (NBR) Valuation After Oil Price Boost And Q1 2026 Earnings Beat",
       "score": 6,
       "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "Henry Schein (HSIC) is currently trading at a discount to its estimated intrinsic value and analyst targets despite solid Q1 results and reaffirmed guidance. The company's focus on high-margin businesses like Specialty Products and Technology is expected to drive earnings growth, contributing to a \"",
-      "category": "corporate_earnings",
-      "date": "2026-05-16 13:56",
-      "link": "https://simplywall.st/stocks/us/healthcare/nasdaq-hsic/henry-schein/news/a-look-at-henry-schein-hsic-valuation-after-solid-q1-update"
+      "impact": "Nabors Industries (NBR) saw its stock rise following an increase in oil prices and better-than-expected Q1 2026 earnings. Despite a 90.02% year-to-date return, the company is considered 47.7% overvalued, with a fair value estimated at $71.25 compared to its current share price of $105.27. Key risks ",
+      "category": "commodities",
+      "date": "2026-05-17 07:37",
+      "link": "https://simplywall.st/stocks/us/energy/nyse-nbr/nabors-industries/news/a-look-at-nabors-industries-nbr-valuation-after-oil-price-bo"
     },
     {
-      "headline": "Applied Materials, Inc. stock (US0382221051): Analyst upgrades follow record Q2 earnings and higher outlook",
+      "headline": "10,300 Shares in Johnson Controls International plc $JCI Bought by Abacus Wealth Partners LLC",
       "score": 6,
-      "source": "AD HOC NEWS",
+      "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "Applied Materials, Inc. reported record Q2 FY2026 results and an upgraded outlook, leading to multiple analyst price target increases, mostly around the $500 mark. The company's strong performance is driven by its dominant position in semiconductor manufacturing equipment and a growing services segm",
-      "category": "corporate_earnings",
-      "date": "2026-05-16 13:56",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/applied-materials-inc-stock-us0382221051-analyst-upgrades-follow/69350447"
+      "impact": "Abacus Wealth Partners LLC recently acquired a new stake of 10,300 shares in Johnson Controls International (NYSE:JCI) during the fourth quarter, valued at approximately $1.233 million. This purchase highlights continued institutional interest in JCI, with a significant majority (90.05%) of its shar",
+      "category": "indonesia_equities",
+      "date": "2026-05-17 07:17",
+      "link": "https://www.marketbeat.com/instant-alerts/filing-10300-shares-in-johnson-controls-international-plc-jci-bought-by-abacus-wealth-partners-llc-2026-05-17/"
     },
     {
-      "headline": "Alphabet Inc. Class C stock (US02079K1079): Google parent\u2019s AI and ad engine in focus after latest earnings",
+      "headline": "Trump says Iran war is worth the economic pain. These rural voters agree. - Reuters",
       "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "This article analyzes Alphabet Inc.'s Class C shares following its latest quarterly earnings report, highlighting the company's focus on AI, cloud services, and YouTube as key growth drivers. It details Alphabet's core business model, major revenue streams, competitive landscape, and regulatory chal",
-      "category": "corporate_earnings",
-      "date": "2026-05-16 13:40",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/alphabet-inc-class-c-stock-us02079k1079-google-parent-s-ai-and-ad/69350349"
-    },
-    {
-      "headline": "Vanguard Total Bond Market Index Fund ETF Shares (BND) Stock Price Quote Today & Current Price Chart",
-      "score": 6,
-      "source": "Capital.com",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "This article provides details on the Vanguard Total Bond Market Index Fund ETF Shares (BND), an ETF designed to offer broad exposure to the U.S. investment-grade bond market by tracking a benchmark index. It includes current stock price, trading conditions, key statistics, and a description of the f",
-      "category": "fixed_income",
-      "date": "2026-05-16 13:40",
-      "link": "https://capital.com/en-ae/markets/shares/vanguard-total-bond-market-index-fund-etf-shares-share-price"
-    },
-    {
-      "headline": "Amgen Inc. stock (US0311621009): focus on latest earnings and drug pipeline developments",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Amgen Inc. recently released its quarterly earnings and provided updates on its expanding drug portfolio, including the integration of Horizon Therapeutics. The article analyzes Amgen's core business model, key revenue drivers, financial performance, and future outlook, highlighting its position as ",
-      "category": "corporate_earnings",
-      "date": "2026-05-16 13:33",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/amgen-inc-stock-us0311621009-focus-on-latest-earnings-and-drug/69350295"
-    },
-    {
-      "headline": "Honeywell International Inc. stock (US4385161066): Q1 earnings beat and steady dividend attract inve",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Honeywell International Inc. reported better-than-expected Q1 2026 earnings of $2.45 per share and modest revenue growth, reinforcing its image as a resilient industrial and aerospace group. The company also confirmed a quarterly dividend of $1.19 per share, annualizing to $4.76, providing a stable ",
-      "category": "corporate_earnings",
-      "date": "2026-05-16 13:32",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/honeywell-international-inc-stock-us4385161066-q1-earnings-beat-and/69350292"
+      "impact": "Trump says Iran war is worth the economic pain. These rural voters agree.\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-16 23:48",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmxMdlNJMXdlUF9ZOFk0RW1tYlpwSkdiREhNRWVfUnZER1dCQnFIUjNIZElVazZVako3N0tDek1tQzU5V18teTFTWW9nSUVKaG85bldoSDRjWHFubjVZTk1fTDBEQklZV3RsNlJ2Z294MFcwbXk4Vy02T0hQbldzbG1tcUpueTAzV0NBa0lkUUowOThPX3AyRXZ6MVU5dksydktzMDAyWHJkeG04ZWFOT3JvTUJENDduX3Fj?oc=5"
     }
   ]
 }
