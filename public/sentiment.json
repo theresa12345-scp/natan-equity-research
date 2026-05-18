@@ -1,26 +1,27 @@
 {
-  "timestamp": "2026-05-17T14:59:24.135706",
+  "timestamp": "2026-05-18T09:40:31.054410",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.6,
-    "bullish": 12,
+    "avg_relevance": 7.2,
+    "bullish": 11,
     "neutral": 10,
-    "bearish": 3,
-    "high_priority": 14,
-    "material_events": 6
+    "bearish": 4,
+    "high_priority": 10,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Bloomberg": 5,
-    "CNBC": 4,
-    "Reuters": 6,
-    "TheStreet": 1,
+    "Reuters": 12,
+    "Bloomberg": 2,
+    "CNBC": 1,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "AD HOC NEWS": 2
+    "AD HOC NEWS": 2,
+    "MarketWatch": 1,
+    "IndexBox": 1,
+    "Simply Wall Street": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,28 +61,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Stocks fall as inflation jitters lift bond yields: Markets wrap",
-      "score": 9,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Global equities fell, with the S&P 500 down 1%, led by a decline in technology shares; US 10-year yields surpassed 4.5%, and Japan\u2019s 30-year yield reached 4% for the first time",
-      "category": "fixed_income",
-      "date": "2026-05-16 04:37",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-14/asian-stocks-to-rise-as-ai-rally-spurs-wall-street-markets-wrap"
-    },
-    {
-      "headline": "Traders now see next Fed interest rate move as a hike following inflation surge",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The fed funds futures market is pricing in an increase as soon as December.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-15 17:40",
-      "link": "https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -90,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -100,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -110,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -120,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Global bond rout deepens as inflation fears trigger rate-hike bets - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Global bond rout deepens as inflation fears trigger rate-hike bets\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-05-18 02:49",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWDlTTnVuVXpnMU43anJOZGlhdVhDRnNrbnRaUzhOeF8tR2JpRUNvMm5vTks5SHpqektQdHhjVENxVnZhTGEydldTZjRlTlo2c3ZlRjR4Um5JOFNMUlhxbWJNcDVWVVR5NnZaMWFVMENNYmgzMV9JMHlHR1VhSlUtSHhwRlFTLUJTZ2RqZzB1ZFEyNXpURlotZFFVdw?oc=5"
     },
     {
       "headline": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates",
@@ -134,43 +125,13 @@
       "link": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html"
     },
     {
-      "headline": "\u2018Unhinged\u2019 bond yields resets Fed rate-cut odds",
-      "score": 8,
-      "source": "TheStreet",
-      "sentiment": "neutral",
-      "impact": "Bond traders send a strong message to new Fed Chair Warsh.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-16 06:03",
-      "link": "https://www.thestreet.com/fed/unhinged-bond-yields-reset-fed-rate-cut-odds-as-inflation-risks-spook-traders"
-    },
-    {
-      "headline": "Global bonds battered as flaring inflation spooks investors - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Global bonds battered as flaring inflation spooks investors\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-15 23:06",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRVF0cC1lVXEtTWsyazNaMHlnSVRZZlBmMTNJUTJIN3JmbXJLdjJlLXJoSEp3ODdVdzF1bHdkSWkzUUlWdEZVcldHc21RWGdkNGJOS3VkWHMyblRJdE43STQ5SHd4eG8zZEtOelRxRU9YUGEyOHlXMmRLUVBZemZ6LXpfVDhpUUl3MTY2R0RHdWMtZC1vaUZ5WVYtSmhPWGs5?oc=5"
-    },
-    {
-      "headline": "Yields surge to one-year high as oil prices and inflation data rattle markets - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Yields surge to one-year high as oil prices and inflation data rattle markets\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-15 19:31",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTWdKYkxGQjZyRUxLOGpWbXA2eUhubEVKOHB0QVdKdTA2N1pIaXlXQ1ZtQ29fcng5cFF0cXhZRGY3V21uOXE3ajNmUUJ5X2NsbEtKTmFFZDhNNnVMZFk1Y1poRU5WQkFzMDZETUtZVHN3b1lRaG1fcFNJSzFXendSMEpFUF9FcWhwdVRzSkpkQXpFU2l1b3g4aG1CdzJoVWVKb1psREhuTGlEdTlldTFBanJicUpSS2ZleXJ1Y2NoOEpsZw?oc=5"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -180,8 +141,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-17 14:59",
+      "date": "2026-05-18 09:40",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Hershey Company stock (US4278661081): earnings beat, dividend and guidance keep investors watching",
+      "score": 7,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Hershey Company reported better-than-expected quarterly earnings and reaffirmed its full-year guidance for 2026, leading to continued investor interest despite mixed recent stock performance. The company's revenue of $3.10 billion and diluted EPS of $2.35 surpassed analyst expectations, driven by st",
+      "category": "corporate_earnings",
+      "date": "2026-05-18 09:02",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/hershey-company-stock-us4278661081-earnings-beat-dividend-and-guidance/69364574"
+    },
+    {
+      "headline": "F5 Inc. stock (US3156161024): Earnings beat and raised guidance keep momentum alive",
+      "score": 7,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "F5 Inc. significantly exceeded investor expectations for its fiscal Q2 2026 earnings and raised its full-year guidance, driving a 42% stock increase in 2026. The company focuses on application security and networking, transitioning towards software and subscription-based offerings for more predictab",
+      "category": "corporate_earnings",
+      "date": "2026-05-18 08:52",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/f5-inc-stock-us3156161024-earnings-beat-and-raised-guidance-keep/69364518"
+    },
+    {
+      "headline": "U.S. Treasury Secretary Bessent: will call on G7 to follow sanctions regime on Iran - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "U.S. Treasury Secretary Bessent: will call on G7 to follow sanctions regime on Iran\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-05-18 06:55",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcmQyb1VFMWl5dUZNaFkyS2dlTnVKcndqVVdLRGZKV3htS21pSGo4bE5aMFhhcXZxRTR5dVZuSzVOQWRHSGZVQ05QbUVScGpMZnBJcThRMjItbUJiMXBjOWhjdmNrQzJMZ0VWMWRReVNjdnkwaUpvXzZJSEJIcG1LQ1hGNDlmT3dpa1RaTHdKZi1jM1lqTzZ0M1ozQThZQ2RaaFktVjdGUUJ4akVKdHlwXzNPY3BuelhtaWlr?oc=5"
     },
     {
       "headline": "Nvidia is getting some help as it props up S&P 500 earnings growth",
@@ -190,88 +181,98 @@
       "sentiment": "positive",
       "impact": "Micron is expected to be the second-largest contributor to the index\u2019s overall earnings growth \u2014 behind Nvidia, whose impact will likely diminish.",
       "category": "us_equities",
-      "date": "2026-05-17 14:00",
+      "date": "2026-05-17 19:25",
       "link": "https://www.marketwatch.com/story/nvidia-is-getting-some-help-as-it-props-up-s-p-500-earnings-growth-1f3a8a52?mod=mw_rss_topstories"
     },
     {
-      "headline": "Colgate-Palmolive Co stock (US1845021021): solid growth and guidance debate after latest earnings",
-      "score": 7,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Colgate-Palmolive Co reported strong double-digit organic sales growth in its latest quarter but maintained its full-year guidance, leading to a brief stock price pullback. This reaction highlights elevated investor expectations for defensive consumer staples. Despite this, institutional investors a",
-      "category": "corporate_earnings",
-      "date": "2026-05-17 13:52",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/colgate-palmolive-co-stock-us1845021021-solid-growth-and-guidance/69356883"
-    },
-    {
-      "headline": "April\u2019s inflation spike leaves Warsh and the Fed zero excuses not to raise rates",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Bond markets won\u2019t wait for the central bank to combat inflation.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-16 17:38",
-      "link": "https://www.marketwatch.com/story/warsh-faces-rate-pressure-as-aprils-inflation-spike-leaves-the-fed-with-zero-excuses-9610ddb6?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "The Global Bond Rout Catches Up With Wall Street\u2019s Risk Rally",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Wall Street\u2019s hard-charging risk rally just ran into the bond market.",
-      "category": "us_equities",
-      "date": "2026-05-15 20:30",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-15/the-global-bond-rout-catches-up-with-wall-street-s-risk-rally"
-    },
-    {
-      "headline": "Global Bond Selloff Worsens as Rising Oil Prices Spook Investors",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Government bond markets tumbled around the world, sending yields surging from Japan to the US on intensifying fears that the war-driven price shock will force central banks to raise interest rates to contain the impact.",
-      "category": "fixed_income",
-      "date": "2026-05-15 20:26",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst"
-    },
-    {
-      "headline": "Here are the 3 big things we're watching in the stock market for the week ahead",
+      "headline": "Thousands march in London's 'Unite the Kingdom' far-right rally - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Nvidia's earnings report and Google's developer conference will keep the AI boom front and center.",
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Thousands march in London's 'Unite the Kingdom' far-right rally\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-17 14:06",
-      "link": "https://www.cnbc.com/2026/05/17/3-big-things-were-watching-in-the-stock-market-for-the-week-ahead.html"
+      "date": "2026-05-18 09:11",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTEd5UkVESGt3aUk2MHdiZVZpMTdXelFfcGplaGZTNC1xR0N6S25WNi1zZTQwc2lvMEJyMGdGODZRNTdNMjBfUV9fbGk5UGtlNmstS1NLUzhDWDVLNWRwMmtvYTd5N2FIWG9VazA1QzRaRlIzejlUeTg0UjJJdS05bEZyeF9heGZjTVBPQy1hLW1wYzRDT2oyZTFNUzFGRzQ?oc=5"
     },
     {
-      "headline": "Old Dominion Freight Line stock (US6826801036): revenue beat, volume momentum and valuation debate",
+      "headline": "Heavy Transportation Equipment Q1 Earnings: Mixed Results for PACCAR, Douglas Dynamics, and Greenbrier",
       "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Old Dominion Freight Line surprised the market with better-than-expected quarterly revenue and improving freight volumes, with the stock price recently moving above $200. The company's core business model focuses on less-than-truckload freight across the US, emphasizing service quality, on-time perf",
+      "source": "IndexBox",
+      "sentiment": "neutral",
+      "impact": "The Q1 earnings for the heavy transportation equipment sector showed mixed results, with twelve firms reporting satisfactory performance. PACCAR experienced an 8.9% revenue decline, missing analyst expectations, while Douglas Dynamics saw a 19.8% revenue increase, beating estimates. Greenbrier was n",
       "category": "corporate_earnings",
-      "date": "2026-05-17 13:31",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/old-dominion-freight-line-stock-us6826801036-revenue-beat-volume/69356707"
+      "date": "2026-05-18 09:10",
+      "link": "https://www.indexbox.io/blog/heavy-transportation-equipment-q1-earnings-mixed-results-for-paccar-douglas-dynamics-and-greenbrier/"
     },
     {
-      "headline": "UAE reports drone strike at nuclear power plant as Iran war deadlock endures - Reuters",
+      "headline": "Phillips 66 (PSX) Valuation Check After Earnings Beat And Boardroom Changes",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Phillips 66 (PSX) has reported strong first-quarter earnings and revenue, exceeding forecasts, alongside significant boardroom changes. The stock has seen a 12.68% return over 30 days and a 48.08% total shareholder return over one year, with its current trading price of US$176.20 indicating a potent",
+      "category": "corporate_earnings",
+      "date": "2026-05-18 08:47",
+      "link": "https://simplywall.st/stocks/us/energy/nyse-psx/phillips-66/news/phillips-66-psx-valuation-check-after-earnings-beat-and-boar"
+    },
+    {
+      "headline": "Investors bet on stability after Trump-Xi summit as Iran war concerns linger - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Investors bet on stability after Trump-Xi summit as Iran war concerns linger\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-18 08:17",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV3hPV2RDUHJZZlNpUEtXZWZUeXQ2YUpQNXU1aHJicDBNRXVUb2loUXBDSGxYeURtd19ON3dLekFvNVJoenpJSTNHRjVtMWNua29NYXZkeTdxYjc1azZ6WjY0UjR1aktKSWRyUGZ3eXoxTDRNb2lGaHg0Q1dnUGVvalpRQWpsdjF3aFNES1RmU1ZhOTFEVC12STdZd2VYSGt2VkdRTlRUQWJURnFqcmh2a0hLcWdTVGowUnMzSW1CMHpOZXc?oc=5"
+    },
+    {
+      "headline": "How Trump\u2019s crypto venture and Iran\u2019s top exchange tapped into the same industry networks - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "UAE reports drone strike at nuclear power plant as Iran war deadlock endures\u00a0\u00a0Reuters",
+      "impact": "How Trump\u2019s crypto venture and Iran\u2019s top exchange tapped into the same industry networks\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-17 13:30",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ0p3bmFPRU5fWHFVZ2dfeVZsWDBfekhCN3I4d3V6aEpnN1dJdHdBa0RIVlYzcXdpVUVRVGZXY25EVjJVWndxaVdhM2ZVZDBiVVNEeHhCTWlla0RESXU2VGVFREI5OHJ3bFhMamZBZllRSnc1Snh6czJ4bk9sWmFTSTVSdVNLZmVYM18zT2p3YWlDWE1TbjdJc0ZHSXJKQjhLWU92YnA3bGVRbHduMktycE5Fb011UGJvall1MlgwY3VzWE5jYXJ4Tk9rd2V5dw?oc=5"
+      "date": "2026-05-18 08:16",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVVFzRWZEcDlEbnBoYnk4RXlKalFfNjBiOFRKZXpPRW1Sc1VYZm9QNUlST29TX3RQTlQwdlRVMkJ1OTEyR2N1cFowRm1OQzVlVm1lc3YtMlFBTXV6d2gzOVpBbEN5Qy0xX1pnRW9lQVhPby1pc2JaekFHYVh2RVhhS0NnRHBGYmlubFRVTWZTUExHSmlMbEo2SUhqVF9LNEF0bXpMbllpOHZlYWprUHRlaXdrc0ZGNXJuS0UxWEo3SWp2a21LR29jbEtR?oc=5"
     },
     {
-      "headline": "Americans are leaving the U.S. in record numbers and spending hundreds to learn how to do it",
+      "headline": "Revised Iranian proposal to end war shared with US, Pakistani source says - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Expatsi's \"Move Abroad Con\" attracted hundreds of Americans hoping to move overseas.",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Revised Iranian proposal to end war shared with US, Pakistani source says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-17 13:30",
-      "link": "https://www.cnbc.com/2026/05/17/americans-are-leaving-the-united-states-in-record-numbers-spending-hundreds-to-learn-how.html"
+      "date": "2026-05-18 08:16",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOakpsZkRTa3dDcTltOXJiUktHZEJsQTNYWlppMzl3Q3lzV01WN01FVC1xaEdfUVdndHV3UTgzc2JlSTQzUmFMR0ZPX2E5b1pRaEQ2Tk9PdEtFTmFCcWtJdTRZNUo2cFFkYWViOWppUGlreWF5SEpVUnFEbG1OMkdZdWZXVk54cTM1eUtVMnBjSFJuWjdlNXpvdDR1WG8zSERTZS14bXd2VWRGWmU4ZlJuTU5pRHo4QWE3WlNhS2pYVGxmdw?oc=5"
+    },
+    {
+      "headline": "Opaque oil deals around Hormuz test the petrodollar - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Opaque oil deals around Hormuz test the petrodollar\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-18 07:21",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcWM4R0xuLW8wczNqU3M3UTRpMnA3SWlOazNrU0ZJYU9hRVh6Z3hUT0xiX2dFSWhHamV5WktVcl9FVkNPeWVncldOTk9PNWNsQks2RHlIMm9LYmk3T3NQbFdMVVJ6LUZEYU51ZlhZXzhCV1pjNktVUm5QeWloeW9SeV9RdDhWNEhERTVNTjBydDU3UFVNQjRCZUhxOWpJZlBsU09zTS1lY1hEbTZYMHRIZEc0QVBXb1U?oc=5"
+    },
+    {
+      "headline": "Ryanair flags weakness in summer fares, but risk of fuel shortage recedes - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Ryanair flags weakness in summer fares, but risk of fuel shortage recedes\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-18 07:17",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYkdsa0J4dWRlRVdaUXJGNXd4Y0tSQVVzUXluMjBjYUd0MXJJUEJCZUE1bUtCb1NOQXY4VUhPeFM3WnVwcXJCLTVTenNlM1dwOGlILXQyV3RMb2o4TFBieHQ5TE5zRlYxRW01ZmlfSllzakh2b2tSV3VQVmRFUmJ6MDFUdEtCWjJWc2piVnQ3RnJTSTRFc29mWGhURV9WWXRyN1FjQ2x4enY2amxfd3luUm9GeF90dElOYUtlU2NmcW1NV3BrWnptUA?oc=5"
+    },
+    {
+      "headline": "Iran war saddles global companies with $25 billion bill - and counting - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran war saddles global companies with $25 billion bill - and counting\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-18 05:04",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSmNDdUhsZDZ4WjM1dUVybktMRmFOUkYtSHdwSDdzTW1zbDBoWWs3cU4wa3ZickFzZ1UxVlh6b3U4OWZXNnVRa1hYTWM5TXhFMjVQUWZkWk11cTdCUHlncXRfWkdDTUdQeHdRNFpFdHVxSWNyc2UzdlFwTnYzZkZ6eGN5MU95dGJ3MDhVb1NBaFNxeWE5SVJyZTZSQktFalY4dDdFRDQwazg3YnVzOEdWU3JB?oc=5"
     }
   ]
 }
