@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-21T08:56:11.339002",
+  "timestamp": "2026-05-21T16:39:40.241956",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.5,
+    "avg_relevance": 7.4,
     "bullish": 9,
-    "neutral": 13,
-    "bearish": 3,
-    "high_priority": 12,
+    "neutral": 14,
+    "bearish": 2,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 8,
     "Bloomberg": 3,
     "CNBC": 4,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "AD HOC NEWS": 1
+    "Investor's Business Daily": 1,
+    "Yahoo Entertainment": 1,
+    "AD HOC NEWS": 1,
+    "Investing.com": 2
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,18 +101,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "S&P 500 futures fall as traders await Nvidia\u2019s earnings: Live updates",
+      "headline": "S&P 500 rises as oil falls and traders await Nvidia\u2019s earnings: Live updates",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "impact": "Chipmaker and AI darling Nvidia will report first-quarter earnings after Wednesday's closing bell.",
       "category": "us_equities",
-      "date": "2026-05-20 05:34",
+      "date": "2026-05-20 14:21",
       "link": "https://www.cnbc.com/2026/05/19/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "India\u2019s treasury-bill yields surge on rate-hike expectation",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Yield on the 364-day treasury bill rose 21 basis points to 5.9750% Wednesday, the most in nearly four years, according to data compiled by Bloomberg",
+      "category": "fixed_income",
+      "date": "2026-05-20 13:05",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-20/india-s-treasury-bill-yields-surge-on-rate-hike-expectation"
     },
     {
       "headline": "Indonesia's Prabowo announces 2027 fiscal deficit target of 1.8% to 2.4% of GDP - Reuters",
@@ -123,33 +135,13 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNFA4NHJBbEpSQjdBVWczbG9qMlY0aVU4VFVIaElrdmhkWi1hS3BremlpZ0YzczJtcDNSZHlPM1ctLWkzWTNhaHVHNXpiY1B5SWFYNTFtOXpVTFFBQURBM0NNZEtodGtpVk5ZakRwR0dCVHo5YVRqMlkwbmxjX2JmME1pMlJVNlNVd29Rak5TejlhZTVpMTl1el9MdDYza1ZlTFpLQ0Z5WlRvalZSNjlQTE1hc01maGh5UWxGaA?oc=5"
     },
     {
-      "headline": "Rupee hits record low near 97/USD on oil, US Treasury yield strain - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Rupee hits record low near 97/USD on oil, US Treasury yield strain\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-20 03:35",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcnJWb2twbUxjXzhOTTJfMnJEWklqOHNfY3ZzNlM5NFhSbVd5WUxLdGpwYjQ5VEJTQ1c0ZDBBMFNxbW93WDFTTEdUMkxOTnY5a2l6RFg4VjI0QnBRSnFXOEtWSjF4Z0tNQkNQRENlbEN0ZHlySGpHSDhEZUpQWXhKMXVSY3pQRXZrRGxVeFJaUUd3eUhVUnJ6QVNiSnduRndFZllobXhKYzd5d0J4OGMwUXRqTFd0ZEJQTTJnRQ?oc=5"
-    },
-    {
-      "headline": "Bond yields, oil fall amid hopes for Iran deal; stocks up with Nvidia results ahead - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Bond yields, oil fall amid hopes for Iran deal; stocks up with Nvidia results ahead\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-20 02:07",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbm1LU2ZBQUh2VnBuakxGMkh1VTV1RHNCS1pnRDV4QVVwTV9GWFNXZUpyZkllVjhqVEE4eU4tcXF5MW5LdWM3NkJrQ1p4ZXBxQ3g4TFhCS2tZakliQzg3ODlVcGczZ1RWOGxlUFcxN0pEcHFXN2VtUzI3cEV4UVByN19vVQ?oc=5"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -159,18 +151,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-21 08:56",
+      "date": "2026-05-21 16:39",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Walmart to report first-quarter earnings before the bell. Here's what Wall Street expects",
+      "headline": "Traders are making big moves ahead of these earnings reports due Thursday",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Walmart's fiscal first-quarter earnings report will offer Wall Street a unique view into the health of the U.S. economy ",
-      "category": "us_equities",
-      "date": "2026-05-21 04:01",
-      "link": "https://www.cnbc.com/2026/05/21/walmart-wmt-earnings-q1-2027.html"
+      "impact": "With Nvidia earnings in the rearview mirror, traders have a handful of earnings before and after the bell to trade on Thursday.",
+      "category": "corporate_earnings",
+      "date": "2026-05-21 10:05",
+      "link": "https://www.cnbc.com/2026/05/21/traders-are-making-big-moves-ahead-of-these-earnings-reports-due-thursday.html"
     },
     {
       "headline": "Trump blinks as big, bad bond market bares its teeth - Reuters",
@@ -181,6 +173,16 @@
       "category": "fixed_income",
       "date": "2026-05-20 13:09",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnZtN1lXbHppUkRDczZZLUhfaDdCQmRlTTNRN2VYekhzWWhuV19mSloyY2M5bGVNeUc1eEVUSnVVRHhVY3pDbl9Pa0MtQ2JTNXhnZ1BRdTdrc2h3ZmRnVV9QZS1kTzNtTXgxdVZVcVJqY3JHWHRLYkRrNHRodEhDVHJyLVhIV0N0cGVhRWRLOHBNRDBPUVhnbjFwVDBVdHczWFdLdEVRdkxHRnhKcFl1LW1kb3VJZDd0?oc=5"
+    },
+    {
+      "headline": "Stock Market Today: Dow Rises Ahead Of Fed Minutes; Nvidia Shares Rally With Earnings Due (Live Coverage)",
+      "score": 7,
+      "source": "Investor's Business Daily",
+      "sentiment": "positive",
+      "impact": "Stock Market Today: The Dow Jones index rises Wednesday as Nvidia stock rallies ahead of earnings. Astera Labs hits a new high.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-20 12:46",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-2/"
     },
     {
       "headline": "UK inflation dips in only temporary relief from Iran war impact - Reuters",
@@ -203,6 +205,16 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMGloY1NkaG12OHhldFNOZ2tJcjkteXdvTmJwajlIejRyaklPMHVPVmRuTmZnaV9leE9MVkVqaUM3b0RRMnU2N3pfaGg2SXBTUXdmTmFoNEZ0WTBHTzdSZzdVWkFvbUVlTU9MbFJVZXRWRmszSjdVbnJzcnlyM0ZPWTB5bnFEdDFIbTRUVXVDb3hzYkI1RjBIZll5bTJwZ28wZWNiQnFTMzRFNG5lOHc?oc=5"
     },
     {
+      "headline": "Global Long Bond Yields Hit Highest in Almost Two Decades",
+      "score": 7,
+      "source": "Yahoo Entertainment",
+      "sentiment": "negative",
+      "impact": "(Bloomberg) -- The selloff in longer-maturity government bonds has pushed up yields to levels last seen during the global financial crisis, and market...",
+      "category": "fixed_income",
+      "date": "2026-05-20 09:18",
+      "link": "https://finance.yahoo.com/markets/articles/global-long-bond-yields-climb-044921396.html"
+    },
+    {
       "headline": "Qatar Airways works to rebuild global network after Iran war hits profit - Reuters",
       "score": 7,
       "source": "Reuters",
@@ -213,64 +225,54 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZzhzVVRVak1KRjdyT2wzRTRKODdxdjRxX2hweWM2ZFU2enhoZ3JlMDc2bDJOQ1JBd2pGRVlBVjV4djRPaGo3ZEF3aGd5ZkdObmVVclVhQUs2MTcwRUs5SG0zUW5nUnptRFdPS2Vid1hHNFpveDF6U3lqMVpJdFRvYk1DZUdVSFIzbURiaXhXYXd2b0IzMFJna2pqb0llaDFvVTFmS2tHZll5cVV0cXZORg?oc=5"
     },
     {
-      "headline": "Asian Stocks to Track US Drop on Inflation Fears: Markets Wrap",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "US stocks found some footing as the selloff in bonds eased and traders awaited earnings from Nvidia Corp., the world\u2019s most valuable company and a linchpin of the artificial-intelligence trade.",
-      "category": "asia_economy",
-      "date": "2026-05-20 05:57",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-19/asian-stocks-to-track-us-drop-on-inflation-fears-markets-wrap"
-    },
-    {
-      "headline": "Trump says he\u2019ll let Warsh \u2018do what he wants to do\u2019 with interest rates. It\u2019s a remark that Fed watchers have been bracing for.",
-      "score": 7,
-      "source": "MarketWatch",
+      "headline": "Stellantis unveils $70 billion turnaround plan, targets positive cash flow by 2028",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The president\u2019s remark comes in the wake of his long and unprecedented pressure campaign on the U.S. central bank",
-      "category": "us_monetary_policy",
-      "date": "2026-05-19 16:26",
-      "link": "https://www.marketwatch.com/story/trump-says-hell-let-warsh-do-what-he-wants-to-do-with-interest-rates-its-a-remark-that-fed-watchers-have-been-bracing-for-2b014504"
+      "impact": "Stellantis CEO Antonio Filosa unveiled a new five-year strategic plan Thursday worth 60 billion euros ($69.7 billion).",
+      "category": "global_markets",
+      "date": "2026-05-21 16:36",
+      "link": "https://www.cnbc.com/2026/05/21/stellantis-investor-day.html"
     },
     {
-      "headline": "Cencora stock (US15135B1017): transformation story after name change and solid earnings",
+      "headline": "Walmart issues worse-than-expected outlook as high gas prices hit shoppers, shares drop 7%",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Walmart's CFO, John David Rainey, said higher tax returns helped offset the effect of elevated gas prices in the first quarter.",
+      "category": "global_markets",
+      "date": "2026-05-21 16:06",
+      "link": "https://www.cnbc.com/2026/05/21/walmart-wmt-earnings-q1-2027.html"
+    },
+    {
+      "headline": "UnitedHealth Group Incorporated stock (US91324P1021): Shares slide after Medicare and earnings press",
       "score": 6,
       "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Cencora, formerly AmerisourceBergen, is undergoing a strategic transformation with solid earnings and guidance, maintaining its position as a key pharmaceutical distributor. The company focuses on logistics, specialty pharmaceutical services, and manufacturer support, showing continued demand and st",
+      "sentiment": "negative",
+      "impact": "UnitedHealth Group's stock remains volatile due to investor reassessment of growth in managed care, Medicare-related pressure, and earnings outlook. The company operates through UnitedHealthcare, its insurance platform, and Optum, which provides pharmacy and care services, giving it exposure to vari",
       "category": "corporate_earnings",
-      "date": "2026-05-21 07:59",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cencora-stock-us15135b1017-transformation-story-after-name-change-and/69389011"
+      "date": "2026-05-21 15:53",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/unitedhealth-group-incorporated-stock-us91324p1021-shares-slide-after/69392669"
     },
     {
-      "headline": "Your bond portfolio is facing a \u2018termite\u2019 infestation far worse than Jamie Dimon\u2019s \u2018cockroaches\u2019",
+      "headline": "Dollar Tree shares may move 9.3% on upcoming earnings release",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "Investing.com",
       "sentiment": "neutral",
-      "impact": "JP Morgan Chase CEO warned of credit-market  \u2018cockroaches.\u2019 But opaque AI loans and excessive leverage \u2014 \u2018credit termites\u2019 \u2014 are hollowing out the economy.",
-      "category": "fixed_income",
-      "date": "2026-05-21 01:55",
-      "link": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories"
+      "impact": "Dollar Tree (NASDAQ:DLTR) shares are projected to move 9.3% around its upcoming earnings release on May 28, according to options data. This prediction is based on trading activity, though the stock has historically moved more than the implied forecast in only one of the past eight earnings announcem",
+      "category": "corporate_earnings",
+      "date": "2026-05-21 15:43",
+      "link": "https://www.investing.com/news/stock-market-news/dollar-tree-shares-may-move-93-on-upcoming-earnings-release-93CH-4704577"
     },
     {
-      "headline": "E.l.f. Beauty to walk back some tariff price increases amid high gas prices and consumer 'suffering'",
+      "headline": "Burlington Stores shares may swing 8.5% on earnings release",
       "score": 6,
-      "source": "CNBC",
+      "source": "Investing.com",
       "sentiment": "neutral",
-      "impact": "E.l.f. Beauty raised prices by $1 last August to offset the impact of tariffs. It's now planning to walk back some of that amid a consumer pullback.",
-      "category": "global_markets",
-      "date": "2026-05-20 21:36",
-      "link": "https://www.cnbc.com/2026/05/20/elf-beauty-elf-earnings-q4-2026.html"
-    },
-    {
-      "headline": "Sinkhole shuts runway at LaGuardia Airport, delaying flights, Port Authority warns",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Port Authority said travelers should expect delays and cancellations, with thunderstorms expected also expected to roll in Wednesday.",
-      "category": "global_markets",
-      "date": "2026-05-20 20:50",
-      "link": "https://www.cnbc.com/2026/05/20/laguardia-airport-lga-flights.html"
+      "impact": "Burlington Stores Inc. stock could experience an 8.5% fluctuation when the company announces its earnings on May 28, according to options data. This prediction is based on past earnings reports where the actual stock movement has sometimes exceeded or fallen short of the implied move from options. F",
+      "category": "corporate_earnings",
+      "date": "2026-05-21 15:39",
+      "link": "https://www.investing.com/news/stock-market-news/burlington-stores-shares-may-swing-85-on-earnings-release-93CH-4704568"
     }
   ]
 }
