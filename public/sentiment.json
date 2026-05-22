@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-21T16:39:40.241956",
+  "timestamp": "2026-05-22T08:48:53.474672",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 9,
-    "neutral": 14,
+    "avg_relevance": 7.1,
+    "bullish": 7,
+    "neutral": 16,
     "bearish": 2,
-    "high_priority": 11,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,14 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 8,
+    "Reuters": 4,
     "Bloomberg": 3,
-    "CNBC": 4,
     "Caixin/S&P Global": 1,
-    "Investor's Business Daily": 1,
-    "Yahoo Entertainment": 1,
-    "AD HOC NEWS": 1,
-    "Investing.com": 2
+    "CNBC": 10,
+    "Axios": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -31,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +99,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "S&P 500 rises as oil falls and traders await Nvidia\u2019s earnings: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Chipmaker and AI darling Nvidia will report first-quarter earnings after Wednesday's closing bell.",
-      "category": "us_equities",
-      "date": "2026-05-20 14:21",
-      "link": "https://www.cnbc.com/2026/05/19/stock-market-today-live-updates.html"
     },
     {
       "headline": "India\u2019s treasury-bill yields surge on rate-hike expectation",
@@ -125,23 +113,13 @@
       "link": "https://www.bloomberg.com/news/articles/2026-05-20/india-s-treasury-bill-yields-surge-on-rate-hike-expectation"
     },
     {
-      "headline": "Indonesia's Prabowo announces 2027 fiscal deficit target of 1.8% to 2.4% of GDP - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Indonesia's Prabowo announces 2027 fiscal deficit target of 1.8% to 2.4% of GDP\u00a0\u00a0Reuters",
-      "category": "indonesia_economy",
-      "date": "2026-05-20 04:20",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNFA4NHJBbEpSQjdBVWczbG9qMlY0aVU4VFVIaElrdmhkWi1hS3BremlpZ0YzczJtcDNSZHlPM1ctLWkzWTNhaHVHNXpiY1B5SWFYNTFtOXpVTFFBQURBM0NNZEtodGtpVk5ZakRwR0dCVHo5YVRqMlkwbmxjX2JmME1pMlJVNlNVd29Rak5TejlhZTVpMTl1el9MdDYza1ZlTFpLQ0Z5WlRvalZSNjlQTE1hc01maGh5UWxGaA?oc=5"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -151,7 +129,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-21 16:39",
+      "date": "2026-05-22 08:48",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -165,6 +143,26 @@
       "link": "https://www.cnbc.com/2026/05/21/traders-are-making-big-moves-ahead-of-these-earnings-reports-due-thursday.html"
     },
     {
+      "headline": "Walmart to report first-quarter earnings before the bell. Here's what Wall Street expects",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Walmart's fiscal first-quarter earnings report will offer Wall Street a unique view into the health of the U.S. economy",
+      "category": "us_equities",
+      "date": "2026-05-21 04:01",
+      "link": "https://www.cnbc.com/2026/05/21/walmart-wmt-earnings-q1-2027.html"
+    },
+    {
+      "headline": "Most Fed officials see rate hikes if inflation stays high, minutes show",
+      "score": 7,
+      "source": "Axios",
+      "sentiment": "negative",
+      "impact": "The fallout from the Iran war is stoking quicker price increases just as Kevin Warsh is about become Fed chair.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-20 19:05",
+      "link": "https://www.axios.com/2026/05/20/fed-rates-minutes-warsh"
+    },
+    {
       "headline": "Trump blinks as big, bad bond market bares its teeth - Reuters",
       "score": 7,
       "source": "Reuters",
@@ -175,104 +173,104 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnZtN1lXbHppUkRDczZZLUhfaDdCQmRlTTNRN2VYekhzWWhuV19mSloyY2M5bGVNeUc1eEVUSnVVRHhVY3pDbl9Pa0MtQ2JTNXhnZ1BRdTdrc2h3ZmRnVV9QZS1kTzNtTXgxdVZVcVJqY3JHWHRLYkRrNHRodEhDVHJyLVhIV0N0cGVhRWRLOHBNRDBPUVhnbjFwVDBVdHczWFdLdEVRdkxHRnhKcFl1LW1kb3VJZDd0?oc=5"
     },
     {
-      "headline": "Stock Market Today: Dow Rises Ahead Of Fed Minutes; Nvidia Shares Rally With Earnings Due (Live Coverage)",
-      "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "positive",
-      "impact": "Stock Market Today: The Dow Jones index rises Wednesday as Nvidia stock rallies ahead of earnings. Astera Labs hits a new high.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-20 12:46",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-2/"
-    },
-    {
-      "headline": "UK inflation dips in only temporary relief from Iran war impact - Reuters",
-      "score": 7,
-      "source": "Reuters",
+      "headline": "IMAX has held \u2018preliminary talks\u2019 with potential buyers, source says",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "UK inflation dips in only temporary relief from Iran war impact\u00a0\u00a0Reuters",
+      "impact": "IMAX has held \"preliminary talks\" through intermediaries, but no official pitches have been made directly by the company, a source told CNBC.",
       "category": "global_markets",
-      "date": "2026-05-20 11:29",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PSERGbXJ1eWRPN2ZXYzJtTVBIZk1jblJaYUF1eVpwakk4TWh1ODNvR3AtS29tWmJwRHFrcVY1VC11NjJWMW1UcjA0Y2FVRU5qUWlDeEtXd1k5cnBNMHdnMjJIekh1SGhUMDh0NFl6QWNxSENtWWZDVmN0YnA?oc=5"
+      "date": "2026-05-21 23:04",
+      "link": "https://www.cnbc.com/2026/05/21/imax-preliminary-talks-potential-buyers.html"
     },
     {
-      "headline": "Russia's oil and gas revenue seen up 39% y/y in May thanks to Iran war - Reuters",
-      "score": 7,
-      "source": "Reuters",
+      "headline": "Your bond portfolio is facing a \u2018termite\u2019 infestation far worse than Jamie Dimon\u2019s \u2018cockroaches\u2019",
+      "score": 6,
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Russia's oil and gas revenue seen up 39% y/y in May thanks to Iran war\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-05-20 10:07",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMGloY1NkaG12OHhldFNOZ2tJcjkteXdvTmJwajlIejRyaklPMHVPVmRuTmZnaV9leE9MVkVqaUM3b0RRMnU2N3pfaGg2SXBTUXdmTmFoNEZ0WTBHTzdSZzdVWkFvbUVlTU9MbFJVZXRWRmszSjdVbnJzcnlyM0ZPWTB5bnFEdDFIbTRUVXVDb3hzYkI1RjBIZll5bTJwZ28wZWNiQnFTMzRFNG5lOHc?oc=5"
-    },
-    {
-      "headline": "Global Long Bond Yields Hit Highest in Almost Two Decades",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "negative",
-      "impact": "(Bloomberg) -- The selloff in longer-maturity government bonds has pushed up yields to levels last seen during the global financial crisis, and market...",
+      "impact": "JP Morgan Chase CEO warned of credit-market  \u2018cockroaches.\u2019 But opaque AI loans and excessive leverage \u2014 \u2018credit termites\u2019 \u2014 are hollowing out the economy.",
       "category": "fixed_income",
-      "date": "2026-05-20 09:18",
-      "link": "https://finance.yahoo.com/markets/articles/global-long-bond-yields-climb-044921396.html"
+      "date": "2026-05-21 22:33",
+      "link": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories"
     },
     {
-      "headline": "Qatar Airways works to rebuild global network after Iran war hits profit - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Qatar Airways works to rebuild global network after Iran war hits profit\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-05-20 06:11",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZzhzVVRVak1KRjdyT2wzRTRKODdxdjRxX2hweWM2ZFU2enhoZ3JlMDc2bDJOQ1JBd2pGRVlBVjV4djRPaGo3ZEF3aGd5ZkdObmVVclVhQUs2MTcwRUs5SG0zUW5nUnptRFdPS2Vid1hHNFpveDF6U3lqMVpJdFRvYk1DZUdVSFIzbURiaXhXYXd2b0IzMFJna2pqb0llaDFvVTFmS2tHZll5cVV0cXZORg?oc=5"
+      "headline": "The bond market just flipped the script on investors \u2014 Wall Street is acting like nothing\u2019s wrong",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "When credit and stocks disagree, credit is the one telling the truth.",
+      "category": "us_equities",
+      "date": "2026-05-21 22:30",
+      "link": "https://www.marketwatch.com/story/the-bond-market-just-flipped-the-script-on-investors-wall-street-is-acting-like-nothings-wrong-f321cc5b?mod=mw_rss_topstories"
     },
     {
-      "headline": "Stellantis unveils $70 billion turnaround plan, targets positive cash flow by 2028",
+      "headline": "Will Elon Musk eventually merge SpaceX with Tesla? Speculation is building",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Analysts speculate that Elon Musk will merge his two companies but traders on prediction markets are not so certain.",
+      "category": "global_markets",
+      "date": "2026-05-21 19:20",
+      "link": "https://www.cnbc.com/2026/05/21/will-elon-musk-eventually-merge-spacex-with-tesla-speculation-builds.html"
+    },
+    {
+      "headline": "Traders think this legacy tech stock is the ultimate quantum play",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Options traders stormed into the stock, trading almost 200,000 contracts, on pace for 15 times the daily average of the past 30 days.",
+      "category": "global_markets",
+      "date": "2026-05-21 18:42",
+      "link": "https://www.cnbc.com/2026/05/21/traders-think-this-legacy-tech-stock-is-the-ultimate-quantum-play.html"
+    },
+    {
+      "headline": "Stellantis unveils $70 billion turnaround plan, targets positive cash flow by 2027",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "Stellantis CEO Antonio Filosa unveiled a new five-year strategic plan Thursday worth 60 billion euros ($69.7 billion).",
       "category": "global_markets",
-      "date": "2026-05-21 16:36",
+      "date": "2026-05-21 18:31",
       "link": "https://www.cnbc.com/2026/05/21/stellantis-investor-day.html"
     },
     {
-      "headline": "Walmart issues worse-than-expected outlook as high gas prices hit shoppers, shares drop 7%",
+      "headline": "SpaceX, OpenAI valuations would mean they leapfrog Berkshire Hathaway on first day of trading",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Walmart's CFO, John David Rainey, said higher tax returns helped offset the effect of elevated gas prices in the first quarter.",
+      "impact": "Traders on prediction market Polymarket think SpaceX, OpenAI and Anthropic on their first day of trading will surpass valuations of at least $1.4 trillion.",
       "category": "global_markets",
-      "date": "2026-05-21 16:06",
-      "link": "https://www.cnbc.com/2026/05/21/walmart-wmt-earnings-q1-2027.html"
+      "date": "2026-05-21 18:26",
+      "link": "https://www.cnbc.com/2026/05/21/spacex-openai-valuations-to-leapfrog-berkshire-hathaway-traders-say.html"
     },
     {
-      "headline": "UnitedHealth Group Incorporated stock (US91324P1021): Shares slide after Medicare and earnings press",
+      "headline": "Oura, smart ring maker, confidentially files for IPO",
       "score": 6,
-      "source": "AD HOC NEWS",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Oura, the maker of the health and wellness tracking smart ring, has confidentially filed for an IPO with the SEC.",
+      "category": "global_markets",
+      "date": "2026-05-21 18:25",
+      "link": "https://www.cnbc.com/2026/05/21/oura-smart-ring-ipo-filing.html"
+    },
+    {
+      "headline": "How Walmart's gas price warning shapes our retail outlook \u2014 plus, Honeywell's quantum connection",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "UnitedHealth Group's stock remains volatile due to investor reassessment of growth in managed care, Medicare-related pressure, and earnings outlook. The company operates through UnitedHealthcare, its insurance platform, and Optum, which provides pharmacy and care services, giving it exposure to vari",
-      "category": "corporate_earnings",
-      "date": "2026-05-21 15:53",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/unitedhealth-group-incorporated-stock-us91324p1021-shares-slide-after/69392669"
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2026-05-21 18:13",
+      "link": "https://www.cnbc.com/2026/05/21/how-walmarts-gas-price-warning-shapes-our-retail-outlook-plus-honeywells-quantum-connection.html"
     },
     {
-      "headline": "Dollar Tree shares may move 9.3% on upcoming earnings release",
+      "headline": "Stellantis targets 35% North American sales increase, led by Ram Trucks and Chrysler revival",
       "score": 6,
-      "source": "Investing.com",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Dollar Tree (NASDAQ:DLTR) shares are projected to move 9.3% around its upcoming earnings release on May 28, according to options data. This prediction is based on trading activity, though the stock has historically moved more than the implied forecast in only one of the past eight earnings announcem",
-      "category": "corporate_earnings",
-      "date": "2026-05-21 15:43",
-      "link": "https://www.investing.com/news/stock-market-news/dollar-tree-shares-may-move-93-on-upcoming-earnings-release-93CH-4704577"
-    },
-    {
-      "headline": "Burlington Stores shares may swing 8.5% on earnings release",
-      "score": 6,
-      "source": "Investing.com",
-      "sentiment": "neutral",
-      "impact": "Burlington Stores Inc. stock could experience an 8.5% fluctuation when the company announces its earnings on May 28, according to options data. This prediction is based on past earnings reports where the actual stock movement has sometimes exceeded or fallen short of the implied move from options. F",
-      "category": "corporate_earnings",
-      "date": "2026-05-21 15:39",
-      "link": "https://www.investing.com/news/stock-market-news/burlington-stores-shares-may-swing-85-on-earnings-release-93CH-4704568"
+      "impact": "Stellantis said at an investor day Thursday that it plans to increase its North American sales by 35% by 2030.",
+      "category": "global_markets",
+      "date": "2026-05-21 16:54",
+      "link": "https://www.cnbc.com/2026/05/21/stellantis-north-american-sales-ram-chrysler.html"
     }
   ]
 }
