@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-23T08:05:44.663342",
+  "timestamp": "2026-05-23T15:03:44.919054",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 10,
-    "neutral": 11,
-    "bearish": 4,
-    "high_priority": 11,
+    "bullish": 11,
+    "neutral": 13,
+    "bearish": 1,
+    "high_priority": 10,
     "material_events": 5
   },
   "sources": {
@@ -14,11 +14,16 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 12,
+    "CNBC": 4,
     "Reuters": 3,
     "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2
+    "MarketWatch": 4,
+    "Insider Monkey": 1,
+    "GuruFocus": 2,
+    "Seeking Alpha": 1,
+    "Pluang": 1,
+    "ChartMill": 1
   },
   "top_signals": [
     {
@@ -28,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -78,7 +83,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -88,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -98,7 +103,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -108,28 +113,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "How Bond Yield Surge Will Impact Economies, Markets",
-      "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "A prolonged period of elevated long-term bond yields is ramping up borrowing costs around the world. That\u2019s because investors are demanding more and more compensation for holding government debt after the war in Iran ignited fresh inflation fears and concerns\u2026",
-      "category": "fixed_income",
-      "date": "2026-05-21 14:14",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-21/bond-yield-spike-what-it-means-for-economies-and-markets"
-    },
-    {
-      "headline": "Fed officials see rate hike ahead if inflation stays elevated, minutes show",
+      "headline": "Dow jumps 300 points to record as Wall Street heads for winning week, Treasury yields ease: Live updates",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A majority of officials anticipated that interest rate increases would be necessary if the Iran war continued to aggravate inflation.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-20 18:01",
-      "link": "https://www.cnbc.com/2026/05/20/fed-officials-see-rate-hike-ahead-if-inflation-stays-elevated-minutes-show.html"
+      "sentiment": "positive",
+      "impact": "Volatility picked up this week in the stock and bond markets.",
+      "category": "us_equities",
+      "date": "2026-05-22 13:36",
+      "link": "https://www.cnbc.com/2026/05/21/stock-market-today-live-updates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -138,7 +133,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -148,8 +143,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-23 08:05",
+      "date": "2026-05-23 15:03",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Kevin Warsh\u2019s Fed isn\u2019t cutting interest rates any time soon. But a hike isn\u2019t yet on the table, either.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The Federal Reserve isn\u2019t going to reduce borrowing costs anytime soon because of resurgent inflation, but a rate hike is  also off the table for now as the regime of new Chair Kevin Warsh gets underway.",
+      "category": "us_monetary_policy",
+      "date": "2026-05-23 13:00",
+      "link": "https://www.marketwatch.com/story/kevin-warshs-fed-isnt-cutting-interest-rates-any-time-soon-but-a-hike-isnt-yet-on-the-table-either-aee28c06?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Copart, Inc. (NASDAQ:CPRT) Q3 2026 Earnings Call Transcript",
+      "score": 7,
+      "source": "Insider Monkey",
+      "sentiment": "positive",
+      "impact": "Copart, Inc. (NASDAQ:CPRT) reported strong Q3 2026 earnings, exceeding expectations with EPS of $0.43 against projected $0.4063. The company discussed trends in its insurance and non-insurance businesses, highlighting the impact of rising total loss frequency, diversified buyer networks, and interna",
+      "category": "us_equities",
+      "date": "2026-05-23 12:07",
+      "link": "https://www.insidermonkey.com/blog/copart-inc-nasdaqcprt-q3-2026-earnings-call-transcript-1767982/"
+    },
+    {
+      "headline": "$50 Trillion Safe-Haven Debt Market Upended by Iran War Inflation",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Investors in the safe haven of G7 debt want protection as the conflict in the Middle East threatens another bout of inflation.",
+      "category": "global_markets",
+      "date": "2026-05-21 21:00",
+      "link": "https://www.bloomberg.com/news/features/2026-05-21/iran-war-upends-inflation-bets-in-50-trillion-debt-market-safe-haven"
     },
     {
       "headline": "Traders are making big moves ahead of these earnings reports due Thursday",
@@ -162,114 +187,94 @@
       "link": "https://www.cnbc.com/2026/05/21/traders-are-making-big-moves-ahead-of-these-earnings-reports-due-thursday.html"
     },
     {
-      "headline": "Two top Walmart executives leave company under new CEO John Furner",
+      "headline": "Analog Devices (ADI) Reports Record Revenue and Strong Q3 Guidan",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Tom Ward, chief operating officer of Walmart's warehouse chain Sam's Club, is retiring, and Cedric Clark, Walmart's EVP of U.S. store operations, is leaving.",
-      "category": "global_markets",
-      "date": "2026-05-22 22:19",
-      "link": "https://www.cnbc.com/2026/05/22/walmart-executives-depart-under-ceo-john-furner.html"
+      "source": "GuruFocus",
+      "sentiment": "neutral",
+      "impact": "Analog Devices (ADI) reported record fiscal Q2 2026 revenue of $3.62 billion, a 37% year-over-year increase, and non-GAAP EPS of $3.09, exceeding expectations due to strong demand in industrial and data center sectors. The company provided optimistic Q3 guidance, projecting $3.9 billion in revenue a",
+      "category": "corporate_earnings",
+      "date": "2026-05-23 14:06",
+      "link": "https://www.gurufocus.com/news/8878914/analog-devices-adi-reports-record-revenue-and-strong-q3-guidance"
     },
     {
-      "headline": "The oil shock meets the Fed \u2018curse\u2019: What Kevin Warsh means for your portfolio",
+      "headline": "The bond market just flipped the script on investors \u2014 Wall Street is acting like nothing\u2019s wrong",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "When credit and stocks disagree, credit is the one telling the truth.",
+      "category": "us_equities",
+      "date": "2026-05-23 14:01",
+      "link": "https://www.marketwatch.com/story/the-bond-market-just-flipped-the-script-on-investors-wall-street-is-acting-like-nothings-wrong-f321cc5b?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Spirit's collapse, high fuel prices test limits of summer vacation spending",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The unofficial start of the summer travel season on Memorial Day weekend will show just how much travelers want to fly and how much they're willing to pay.",
+      "category": "global_markets",
+      "date": "2026-05-23 14:01",
+      "link": "https://www.cnbc.com/2026/05/23/summer-travel-gas-airfare.html"
+    },
+    {
+      "headline": "Annuity payouts are the highest they\u2019ve been in years. Thanks, inflation.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "A silver lining to the cloud of high interest rates.",
+      "category": "global_markets",
+      "date": "2026-05-23 13:49",
+      "link": "https://www.marketwatch.com/story/annuity-payouts-are-the-highest-theyve-been-in-years-thanks-inflation-d4d3f565?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Apple Is Priced Like Everything Has To Go Right: It Just Might (NASDAQ:AAPL)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "The author is bullish on Apple, citing strong iPhone 17 cycle performance and renewed growth in China. However, they emphasize the importance of Apple's upcoming WWDC event delivering concrete plans for Siri's AI integration, particularly given Apple's current valuation of 35x earnings. A clean Siri",
+      "category": "us_equities",
+      "date": "2026-05-23 13:23",
+      "link": "https://seekingalpha.com/article/4908297-apple-is-priced-like-everything-has-to-go-right-it-just-might"
+    },
+    {
+      "headline": "Defiance S&P 500 Target Income ETF rated Hold due to limited income in flat markets and higher costs.",
+      "score": 6,
+      "source": "Pluang",
+      "sentiment": "negative",
+      "impact": "The Defiance S&P 500 Target Income ETF (SPYT) has received a Hold rating, primarily because its daily covered call strategy offers limited income generation in stagnant markets and its higher operating expenses reduce its overall performance compared to similar ETFs. While SPYT aims for 20% annual i",
+      "category": "us_equities",
+      "date": "2026-05-23 13:09",
+      "link": "https://pluang.com/en/news-feed/spyt-etf-covered-call-yang-tidak-mengejar-premium"
+    },
+    {
+      "headline": "CONTINUUM WEALTH ADVISORS, LLC's iShares 0-5 Year TIPS Bond ETF(STIP) Holding History",
+      "score": 6,
+      "source": "GuruFocus",
+      "sentiment": "positive",
+      "impact": "The article details CONTINUUM WEALTH ADVISORS, LLC's historical holdings in the iShares 0-5 Year TIPS Bond ETF (STIP). As of March 31, 2026, the firm holds 137,889 shares valued at $14.26 million, representing 5.92% of their portfolio. The firm has made two purchases and eleven sales of STIP since 2",
+      "category": "fixed_income",
+      "date": "2026-05-23 13:09",
+      "link": "https://www.gurufocus.com/guru-portfolio/CONTINUUM%20WEALTH%20ADVISORS,%20LLC/STIP"
+    },
+    {
+      "headline": "The oil shock meets the Fed \u2018curse\u2019: What Kevin Warsh\u2019s swearing-in means for your portfolio",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
       "impact": "Market downturns typically tag new central-bank leaders. And Warsh faces a tough choice between crushing demand or saving the bull market.",
       "category": "us_monetary_policy",
-      "date": "2026-05-22 20:33",
+      "date": "2026-05-23 12:59",
       "link": "https://www.marketwatch.com/story/the-new-fed-chair-curse-and-100-plus-oil-are-already-testing-kevin-warsh-and-the-stock-market-718b919d?mod=mw_rss_topstories"
     },
     {
-      "headline": "Kevin Warsh walks into a trap where the Fed can\u2019t cut rates even if it wants to",
+      "headline": "INCYTE CORP (NASDAQ:INCY) Shows Rare Alignment of High Growth Momentum and Technical Breakout Setup",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Kevin Warsh is becoming Federal Reserve chair at a pivotal moment for the U.S. economy \u2014 forcing him to be something other than the disruptor he hoped to be.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-22 20:01",
-      "link": "https://www.marketwatch.com/story/kevin-warsh-walks-into-a-trap-where-the-fed-cant-cut-rates-even-if-it-wants-to-8475e97c?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Disney's 'Star Wars: The Mandalorian and Grogu' tallies lowest Thursday preview sales in franchise history",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Disney's \"Star Wars: The Mandalorian and Grogu\" tallied $12 million in Thursday night previews, the lowest collection of advanced tickets in franchise history.",
-      "category": "global_markets",
-      "date": "2026-05-22 18:48",
-      "link": "https://www.cnbc.com/2026/05/22/disneys-star-wars-the-mandalorian-and-grogu-box-office-preview.html"
-    },
-    {
-      "headline": "Stocks continue surging to record highs. Here's how to hedge",
-      "score": 6,
-      "source": "CNBC",
+      "source": "ChartMill",
       "sentiment": "positive",
-      "impact": "The rally back to records has made buying protection more affordable.",
-      "category": "global_markets",
-      "date": "2026-05-22 17:59",
-      "link": "https://www.cnbc.com/2026/05/22/stocks-continue-surging-to-record-highs-heres-how-to-hedge.html"
-    },
-    {
-      "headline": "Arm shares extend weekly rally to almost 50%, and Starbucks pulls the plug on an AI project",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2026-05-22 17:32",
-      "link": "https://www.cnbc.com/2026/05/22/arm-shares-extend-weekly-rally-to-almost-50percent-and-starbucks-pulls-the-plug-on-an-ai-project.html"
-    },
-    {
-      "headline": "Trump said he'd 'remember' companies that didn't apply for tariff refunds. Many of them are anyway",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Walmart confirmed to CNBC it has sought a tariff refund and plans to use any money it receives back to invest in lower prices for shoppers. ",
-      "category": "asia_economy",
-      "date": "2026-05-22 16:56",
-      "link": "https://www.cnbc.com/2026/05/22/trump-tariff-refunds-walmart-home-depot-target-apply.html"
-    },
-    {
-      "headline": "Wall Street thinks IMAX is ripe for a sale. Here's who could buy it",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A source told CNBC that IMAX has held \"preliminary talks\" through intermediaries, but no official pitches have been made by the company.",
+      "impact": "Incyte Corp. (NASDAQ: INCY) is highlighted as an investment opportunity due to a rare alignment of strong high growth momentum fundamentals and a promising technical breakout setup. The company exhibits impressive EPS and sales growth, consistently beating analyst estimates, alongside expanding prof",
       "category": "us_equities",
-      "date": "2026-05-22 16:26",
-      "link": "https://www.cnbc.com/2026/05/22/imax-sale-talks-potential-buyers-wall-street-analysts.html"
-    },
-    {
-      "headline": "Egg prices are plunging due to oversupply \u2014 and producers say margins are taking a hit as costs rise",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Egg prices are plunging from oversupply after avian flu shortages, but producers say persistent feed, fuel and labor costs are squeezing margins.",
-      "category": "global_markets",
-      "date": "2026-05-22 15:59",
-      "link": "https://www.cnbc.com/2026/05/22/egg-prices-fall-due-to-oversupply-after-bird-flu-shortages.html"
-    },
-    {
-      "headline": "The Club's top 10 things to watch in the stock market Friday",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Stocks are poised to extend yesterday's gains.",
-      "category": "global_markets",
-      "date": "2026-05-22 13:20",
-      "link": "https://www.cnbc.com/2026/05/22/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html"
-    },
-    {
-      "headline": "What the AvalonBay, Equity Residential megamerger means for the apartment industry and rents",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The deal will create one of the largest real estate companies in the U.S., with more than 180,000 rental apartments.\u00a0",
-      "category": "global_markets",
-      "date": "2026-05-22 12:55",
-      "link": "https://www.cnbc.com/2026/05/22/avalonbay-equity-residential-apartment-merger.html"
+      "date": "2026-05-23 12:30",
+      "link": "https://www.chartmill.com/news/INCY/Chartmill-48973-INCYTE-CORP-NASDAQINCY-Shows-Rare-Alignment-of-High-Growth-Momentum-and-Technical-Breakout-Setup"
     }
   ]
 }
