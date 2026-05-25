@@ -1,30 +1,23 @@
 {
-  "timestamp": "2026-05-24T15:07:09.808615",
+  "timestamp": "2026-05-25T09:49:05.518823",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 14,
-    "neutral": 11,
-    "bearish": 0,
-    "high_priority": 9,
-    "material_events": 5
+    "avg_relevance": 7.0,
+    "bullish": 9,
+    "neutral": 13,
+    "bearish": 3,
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 2,
-    "Reuters": 3,
-    "Bloomberg": 3,
+    "Reuters": 17,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "Investor's Business Daily": 2,
-    "\u5bcc\u9014\u725b\u725b": 1,
-    "Simply Wall Street": 3,
-    "AD HOC NEWS": 2,
-    "MarketBeat": 1,
-    "Yahoo Finance": 1
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -34,7 +27,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -44,7 +37,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -54,7 +47,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -64,18 +57,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Surge in 'risk-free' treasury yields sends bond investors in search of better opportunities",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Treasury yield surge shows bond market is not 'risk free' after all, but there's opportunity for fixed-income investors in intermediates, BBBs and high yield.",
-      "category": "fixed_income",
-      "date": "2026-05-22 15:10",
-      "link": "https://www.cnbc.com/2026/05/22/treasury-yields-bonds-investing-fed-rate-hikes.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -84,7 +67,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -94,7 +77,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -104,7 +87,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -114,7 +97,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -124,7 +107,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -134,8 +117,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-24 15:07",
+      "date": "2026-05-25 09:49",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "US-Iran deal optimism offers Indian rupee, bonds a breather - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US-Iran deal optimism offers Indian rupee, bonds a breather\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-05-25 01:41",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSFY3bmNaMFhkS2xlZ000NXZzeWRsV0dQSXZYd2g4dHNzbE1OOUhiMTVheG81Y202Ul9VX0poRnRZVERfZHhaT3kwbTZYMlNJT1JUYXdMbnNSUUhzWHNPa3VoazVXcWlIR3M0OVdCQjBJWEM4RUIzVXpmUU8ydmFsZTY2Umpwbk9QcGV6MXVpN3BFY3laOHBWZm1XYWMzTUh6R0lQYmVScw?oc=5"
     },
     {
       "headline": "This bond strategy can protect your portfolio even if interest rates go up",
@@ -148,134 +141,134 @@
       "link": "https://www.marketwatch.com/story/this-bond-strategy-can-protect-your-portfolio-even-if-interest-rates-go-up-9e9418cb?mod=mw_rss_topstories"
     },
     {
-      "headline": "Bulls push the S&P 500 back near records \u2014 here\u2019s what drove the market last week",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The combination of higher oil prices and bond market volatility nearly snapped the S&P 500's winning streak.",
-      "category": "us_equities",
-      "date": "2026-05-23 17:21",
-      "link": "https://www.cnbc.com/2026/05/23/bulls-push-sp-500-back-near-records-what-drove-the-market-last-week.html"
-    },
-    {
-      "headline": "S&P 500 is set for longest weekly rally since 2023: Markets Wrap",
-      "score": 7,
-      "source": "Bloomberg",
+      "headline": "Iran and US play down hopes for imminent breakthrough in war - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Two-year yields hit the highest since February 2025 as Federal Reserve Governor Christopher Waller supports making clear the next rate move is just as likely to be a raise as a cut",
+      "impact": "Iran and US play down hopes for imminent breakthrough in war\u00a0\u00a0Reuters",
       "category": "us_equities",
-      "date": "2026-05-23 05:20",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-21/asian-stocks-to-rise-on-optimism-over-iran-talks-markets-wrap"
+      "date": "2026-05-25 08:33",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVngxZVRLZ1JuQXprdzRzMDIwazZnY2tvWExLS2ZlNkhEMWYxeVF4YTVldGFYSEt4dVU1NEo5bng1Sm9EUFFZNzN3bTJZR1Z1akRjd1o2emJhU0J3TGMtZVZfcWI4ejdyNWhvd1hXRmRPVkFXYmFKUWl0YVM4Q2pyeHJmQW1jSWxsaDdfVXBORmFWQjcwamxWSXFHYlE4ZDFtcGo1SlRzT3RwSHJ3?oc=5"
     },
     {
-      "headline": "Stock Market Today: S&P 500, Nasdaq Score Weekly Wins As Dow Logs Record High (Live Coverage)",
-      "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "positive",
-      "impact": "Stock Market Today: The Dow Jones index rises Friday as bond yields slip. AMD stock rallies. The Nasdaq advances.",
-      "category": "us_equities",
-      "date": "2026-05-22 20:43",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-survey-amd-stock/"
-    },
-    {
-      "headline": "Stock Market Week Ahead: Marvell, Dell And The Fed's Inflation Gauge",
-      "score": 7,
-      "source": "Investor's Business Daily",
+      "headline": "Iran says conclusions reached on many topics in potential U.S. memorandum but no deal imminent - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "The major indexes are right at highs with several leaders near buy points.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-22 15:45",
-      "link": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-marvell-dell-costco-earnings-fed-inflation-gauge/"
+      "impact": "Iran says conclusions reached on many topics in potential U.S. memorandum but no deal imminent\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 07:47",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMjBpbDBUX3k2cW1VQzN4NWhBUDRCdlZZbmtCVHpodXItREI4WENia18zRmNzblZ4RTAtd19LaDY3N1YwVFVGUGY5a0dIZklkMmFRRnBpaU5zTjZMVjFaMUVVQlRQNGFiSjZ3aHFRT0diY3p3TlhCOU1YWHZRUnRtcjd1Nkxic19vb3ZlU0tITEZxbXZrbTM5eEYyc3ozeWJKQXNId0xNcV9YWVBYa0J1czM0R3p1NjdTbDVZUDhvdFUtSDJtS2c?oc=5"
     },
     {
-      "headline": "There's A Lot To Like About Expedia Group's (NASDAQ:EXPE) Upcoming US$0.48 Dividend",
+      "headline": "Global tensions set to stalk Singapore's flagship defence summit - Reuters",
       "score": 6,
-      "source": "\u5bcc\u9014\u725b\u725b",
-      "sentiment": "positive",
-      "impact": "Expedia Group (NASDAQ:EXPE) is set to pay a US$0.48 dividend, with the ex-dividend date on May 28th. The company's dividend payout is well-covered by both profits (14% payout ratio) and free cash flow (5.0% payout), indicating sustainability. Additionally, Expedia Group has demonstrated strong earni",
-      "category": "us_equities",
-      "date": "2026-05-24 14:33",
-      "link": "https://news.futunn.com/en/post/73561446/there-s-a-lot-to-like-about-expedia-group-s"
-    },
-    {
-      "headline": "A Look At VinFast Auto (NasdaqGS:VFS) Valuation As Factory Sales And EV Upgrades Target Lower Debt",
-      "score": 6,
-      "source": "Simply Wall Street",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "VinFast Auto is planning to sell two factories in Vietnam to reduce approximately US$6.9 billion in debt, while also launching upgraded electric SUVs and expanding global aftermarket support. Despite a recent 18.12% drop in its 30-day share price, the stock is trading below the US$6.30 analyst price",
-      "category": "us_equities",
-      "date": "2026-05-24 14:24",
-      "link": "https://simplywall.st/stocks/us/automobiles/nasdaq-vfs/vinfast-auto/news/a-look-at-vinfast-auto-nasdaqgsvfs-valuation-as-factory-sale"
+      "impact": "Global tensions set to stalk Singapore's flagship defence summit\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 05:44",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTEtOU1lzOEJjMW1jZWlES2M5X1ZVZGh3emhWdkl1ZU9TemoxUm1BSkdEQ25QYTg4WVpsWS1fSnQ3cnRBcUJxUldrdUYzcXJvX0JJQ2s5UHVXVjM3am1tZ2dRYmp6ZElCOUVtV05JRlRxYjJmb3poVEtpckp5UkpyYUd4NndHQUQ0UFFVdkpKaGtGX3hJOXZFV0JJNHlkWEpYWmI2VGFUZUxkbllu?oc=5"
     },
     {
-      "headline": "Verisign stock (US92343E1029): domain specialist under investor scrutiny after latest earnings",
+      "headline": "Australia's spy chief says antisemitism was left unchecked after Gaza war - Reuters",
       "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Verisign, primarily known for operating the .com and .net domain registries, recently released its quarterly earnings for Q1 2026, showing steady growth. The company's business model relies on fixed fees for domain registrations and renewals, providing stable revenue. This article examines Verisign'",
-      "category": "corporate_earnings",
-      "date": "2026-05-24 14:23",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/verisign-stock-us92343e1029-domain-specialist-under-investor-scrutiny/69412095"
-    },
-    {
-      "headline": "Is It Smart To Buy Expedia Group, Inc. (NASDAQ:EXPE) Before It Goes Ex-Dividend?",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "Expedia Group (NASDAQ:EXPE) is set to trade ex-dividend in the next three days, with a payment of US$0.48 per share, contributing to a 0.9% trailing yield. The company's dividend appears sustainable, as it pays out only 14% of its profit after tax and 5.0% of its free cash flow. With strong earnings",
-      "category": "us_equities",
-      "date": "2026-05-24 14:11",
-      "link": "https://simplywall.st/stocks/us/consumer-services/nasdaq-expe/expedia-group/news/is-it-smart-to-buy-expedia-group-inc-nasdaqexpe-before-it-go"
-    },
-    {
-      "headline": "First Trust Growth Strength ETF ETF Price, Holdings, & News (NASDAQ:FTGS) $FTGS",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "The First Trust Growth Strength ETF (FTGS) tracks an equal-weighted index of 50 large-cap US companies known for strong market positions and growth potential. The ETF, launched in October 2022 and managed by First Trust, has seen its stock price increase by 2.2% this year, trading at $36.13 as of Ma",
-      "category": "us_equities",
-      "date": "2026-05-24 14:09",
-      "link": "https://www.marketbeat.com/stocks/NASDAQ/FTGS/"
-    },
-    {
-      "headline": "Expedia Group, Inc. (NASDAQ:EXPE) Passed Our Checks, And It's About To Pay A US$0.48 Dividend",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "positive",
-      "impact": "Expedia Group, Inc. (NASDAQ:EXPE) is set to pay a US$0.48 dividend, with the ex-dividend date in 3 days. The company's dividend looks sustainable as it only paid out 14% of its profit and 5.0% of its free cash flow last year. With earnings growing by 61% annually over the past five years and a histo",
-      "category": "us_equities",
-      "date": "2026-05-24 13:56",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-inc-nasdaq-expe-135700906.html"
-    },
-    {
-      "headline": "Deere (DE) Is Down 5.8% After Profit Mix Shifts Away From Large Ag Equipment - Has The Bull Case Changed?",
-      "score": 6,
-      "source": "Simply Wall Street",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Deere (DE) recently reported Q2 fiscal results showing a shift in profit mix away from large agricultural equipment towards Construction & Forestry and Small Agriculture & Turf. Despite reaffirmed full-year net income guidance, the stock is down 5.8%, prompting a reevaluation of its investment narra",
-      "category": "us_equities",
-      "date": "2026-05-24 13:35",
-      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-de/deere/news/deere-de-is-down-58-after-profit-mix-shifts-away-from-large"
+      "impact": "Australia's spy chief says antisemitism was left unchecked after Gaza war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 05:10",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORkFGc21aWE40Rzc5dFRYYTVaaWR2YjlzN1NBaTYydkx0WjJ4clA0SDhyX19TbWd5MGE0ZVFzbG1uN3RHS0hMNGxoNG9Rdk9jbFJRT0hEaDZVUW9MM21QUExMekw4UUZ6VEJYRTNOdkMxSjQ3cWdVeF9ySk5MM2JnUENTNExJbGhaVHJpOGxIYm9udXdsZWtpTEkxMDZ4TS1RSFJkclhURlI3Qk5rTjF4cHRaSFdjZzU5ZUxRVVJVSE02NzNWdnc?oc=5"
     },
     {
-      "headline": "Pentair plc stock (IE00BLS0VV05): Buyback and earnings keep focus on cash returns",
+      "headline": "Morning Bid: Will they or won't they? - Reuters",
       "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Pentair plc is being closely watched by U.S. investors following its May 1 earnings report and a new $500 million share repurchase authorization announced on May 16. The company, which provides water and flow solutions, is seen as a way to track broader themes like water infrastructure and building ",
-      "category": "corporate_earnings",
-      "date": "2026-05-24 13:04",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/pentair-plc-stock-ie00bls0vv05-buyback-and-earnings-keep-focus-on-cash/69411807"
-    },
-    {
-      "headline": "Stocks are riding an earnings hot streak \u2014 but investors are facing a summer that\u2019s rife with risks",
-      "score": 6,
-      "source": "MarketWatch",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "The U.S. stock market has arrived at the unofficial start to summer with major benchmarks sitting at record highs. But a few factors could make for a bumpy ride in the months ahead.",
-      "category": "corporate_earnings",
-      "date": "2026-05-24 13:00",
-      "link": "https://www.marketwatch.com/story/stocks-are-riding-an-earnings-hot-streak-but-investors-are-facing-a-summer-thats-rife-with-risks-67a700e4?mod=mw_rss_topstories"
+      "impact": "Morning Bid: Will they or won't they?\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 04:33",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxcVpIbFh2UlBNU3B1SW9HaVNodzdwTzdSRThsWE5XaGoxQkpEaGZWNU9HZ2xxY3d2QkJweW9FcE1zQnlRczFYSEtjdHJ6S2FPZVloR0FHaC01MGlGQXFON1RRMlJ0QnRlRUpsQXRoVXZpNFB6YUVRNnBTOUtCSFk?oc=5"
+    },
+    {
+      "headline": "Iran executes man involved in January protests, state media reports - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Iran executes man involved in January protests, state media reports\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 04:29",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNHlXRF91dGxvb0tDWlQ2YnJoNlhnTDV6M1d2Smd2dG1pYmxoVWIxYk5LR01PcnMyU1BHVXdrSFlTRUtFVWNicm41c0JaRTNJeHA0MmM4eHJXX2tZODg2cER2aUI2N3ZPNzFobmw5OXJxTEx5VkwzTWVfODU3aWpBaW1JbVduUjlvazlscDc3Y2o5RGs5MWloR3BTaGY1cTZrZFRTaUs2N1p1TVdGeG5KYllDVEJrcDZH?oc=5"
+    },
+    {
+      "headline": "Indian shares advance on US-Iran peace deal optimism - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Indian shares advance on US-Iran peace deal optimism\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 04:18",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUDJNTkZLb3RNd25CY2pZUnhPUzlCZWNqM3VwZEhJY3NYekhVUENwcExqRjZsbjQwbk5vdWpveVFhdXE3ZXkzczFsV2ZESkdHNWdUR2ppNzN3bEZlbkJDSVFPZTl3MjhyYW1CNVJDeWZXVzRsUHlsVjZYVGdaVmxwWk84VUZkcDhqZ3lIWHJ2WGU2NlM5N1Y2djVwb1pYNVRYcFBJ?oc=5"
+    },
+    {
+      "headline": "Pakistan Shi'ites deported from UAE return to lost jobs, frozen savings - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Pakistan Shi'ites deported from UAE return to lost jobs, frozen savings\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 04:10",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYW9kajQ4andENGk3VVgtbFF3SU5IUmZscHo3TVNYZm5JMnBVNFdIaURzRHJVT3RtVkhLOEtfWmd0OGZLNFlrTlVqMXFyNDVpbWUxODl1R3lwbUdBR0lRb045VkhmYktwd2pHbHJvazcybXBqV0pfNEpfNWtDY1FYZEVXcUdKRUdxWUswZTJPblluajVFN3NYbVZwNzFjV2l2OHplZTVQS0FsVFJMSUszLS1vam5Eclk?oc=5"
+    },
+    {
+      "headline": "Rubio says US will either have a good agreement with Iran or deal with it 'another way' - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Rubio says US will either have a good agreement with Iran or deal with it 'another way'\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 04:01",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQXJPbzB5am5ZdHNqZkJRREdQZ0hwcUI5SmpIR2szdERaa0ZoZG94RmQ2RjkzcXpuRUt6MldxNTUtZ3BneGdpTTFNUUxnUllZekZ0UnllRkl5ejFJSU01NGhJWF9PRDJvWUJYSkQ3c0FUVWplUHdod1BSVTk1NC0xdXA4ekx5a3Y0YV9xMk5oVWpQS3pXMzBXLVRWX2lDZWthTkZpUTFjMVl6MTd2b3VqT09BcTFNSkwyNmJMVUQwemFSbXdWT2UyWnZBLUxBdw?oc=5"
+    },
+    {
+      "headline": "Rupee gains to two-week high, forward premiums dip as oil prices slump - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Rupee gains to two-week high, forward premiums dip as oil prices slump\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-25 02:57",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFp2MXF2S29RSzlOZ2FwWUhtOHEzdWh1UDFodHNtRTNaWmpYeEZqTVRkakVEMUw4Q1o0UThlaHJNUDBkRzVReS1aVmZNLWJoM3hwZGY4Q0Q3a0gwRDBsYXFVWEwzUDVDTzRyUUFRa2otYmhiRU1rVWZWZUIzbHh0QXhVdElBbkRjVXRKNDREZU1EbFZFd1JKTlZfN25fcUdkaGlXOVdQUkVHQTc1OWZ5ZlcxbWdNd3pmcElJajFn?oc=5"
+    },
+    {
+      "headline": "Gold rises as dollar, oil ease on US-Iran deal prospects - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Gold rises as dollar, oil ease on US-Iran deal prospects\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-25 01:19",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDVQTzQ1X3VQMUVSTFg1QXJHaHV3Vy1ZTnlOLUV0YjJfenBZbVlDSm96dk4zQU93UWlvbHllYmZ3OC1ULTJaa2VRdk4wV1lQZlkxbWVXdkxycWVQamJjTzRsdThTek1lT1dmR0tDbmt6MDd3cmE3NlVtZERtMzkxdzRPa0ZYM1oxZVFQaGJBUHhKbVJWdWxKVGFaQzEyWmVYZ2tmZS10SWhMbjFLcVZlblJtQzlQQWc?oc=5"
+    },
+    {
+      "headline": "Indian retailers raise fuel prices a fourth time to rein in losses - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Indian retailers raise fuel prices a fourth time to rein in losses\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 01:03",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa19GczZNaFNNeXB4Rk9obUdYOGNyWmRnR0MzQjhfc3pIQ0JOM2E4MThSVzVmeTBkanExbldWa0RZMzcteXlabk8xbTB0QVE2TW03UjBGQzNCSnJMUGF6OTRHYzAxVWVKOTk0UHV3Z0xhbl9Ydmw0WF83MFUzTmVpRndhdFlXZUtMVG5rYnc4c053VVB2d2p4Zk1UZGZKakRnc0hMM3J1MzFsZks4bHN6Qmh3?oc=5"
+    },
+    {
+      "headline": "Dollar softer as signs of deal to reopen Hormuz spur risk appetite - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Dollar softer as signs of deal to reopen Hormuz spur risk appetite\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-25 00:27",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2MyQzZBN2lETDBCcDFEZk1HNFRKQ2dzaUxoT3g3ZmFMM2lQMzlBLVhrN09Zb0FZQlRzejZmN3hseEp6VlhuSGp0c25OakpJRWtEcEYxVThfNGpBdGZQTlFqY25kaTZSU3VXdTZVT1BXMHFSWm44WmpJdzRpY2RMejE2a1o3U042Q2Qtc3dleUI1YW45UTVEdm9zUUpBMXhoT2dyeTNuMEJNOEt5S0ExRUxR?oc=5"
     }
   ]
 }
