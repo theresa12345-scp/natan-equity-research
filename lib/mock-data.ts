@@ -121,11 +121,13 @@ export interface SectionTab {
   active?: boolean;
 }
 
+// `active` is derived from current pathname in TopBar.tsx; the field on the
+// data is retained for type compat but is ignored at render time.
 export const SECTION_TABS: SectionTab[] = [
   { num: "01", label: "MKTS", href: "/" },
-  { num: "02", label: "PORT", href: "/" },
+  { num: "02", label: "PORT", href: "/idx/portfolio" },
   { num: "03", label: "SCRN", href: "/" },
-  { num: "04", label: "QRES", href: "/", active: true },
+  { num: "04", label: "QRES", href: "/" },
   { num: "05", label: "RISK", href: "/" },
   { num: "06", label: "EXEC", href: "/" },
 ];

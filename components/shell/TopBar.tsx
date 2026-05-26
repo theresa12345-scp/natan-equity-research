@@ -1,8 +1,22 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import CommandBar from "./CommandBar";
 import { SECTION_TABS, SESSION } from "@/lib/mock-data";
 
+function isTabActive(tabHref: string, pathname: string): boolean {
+  if (tabHref === "/") {
+    // Workstation tabs that don't yet route are never "active" so we don't
+    // light up MKTS / SCRN / QRES / RISK / EXEC on the landing page.
+    return false;
+  }
+  return pathname === tabHref || pathname.startsWith(`${tabHref}/`);
+}
+
 export default function TopBar(): JSX.Element {
+  const pathname = usePathname();
+
   return (
     <header
       className="flex items-center"
@@ -102,52 +116,55 @@ export default function TopBar(): JSX.Element {
         style={{ gap: 0, flexShrink: 0 }}
         aria-label="Workstation sections"
       >
-        {SECTION_TABS.map((tab) => (
-          <Link
-            key={tab.num}
-            href={tab.href}
-            className="hover:brightness-125"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 5,
-              padding: "0 10px",
-              height: 38,
-              fontSize: 10,
-              letterSpacing: "0.08em",
-              textTransform: "uppercase",
-              color: tab.active ? "#f5f5f5" : "#888",
-              borderBottom: tab.active
-                ? "2px solid #ff2e88"
-                : "2px solid transparent",
-              cursor: "pointer",
-              lineHeight: 1,
-            }}
-          >
-            <span
-              className="num"
+        {SECTION_TABS.map((tab) => {
+          const active = isTabActive(tab.href, pathname);
+          return (
+            <Link
+              key={tab.num}
+              href={tab.href}
+              className="hover:brightness-125"
               style={{
-                color: tab.active ? "#ff2e88" : "#555",
-                fontSize: 9.5,
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 5,
+                padding: "0 10px",
+                height: 38,
+                fontSize: 10,
+                letterSpacing: "0.08em",
+                textTransform: "uppercase",
+                color: active ? "#f5f5f5" : "#888",
+                borderBottom: active
+                  ? "2px solid #ff2e88"
+                  : "2px solid transparent",
+                cursor: "pointer",
+                lineHeight: 1,
               }}
             >
-              {tab.num}
-            </span>
-            <span>{tab.label}</span>
-            {tab.active ? (
               <span
-                aria-hidden="true"
+                className="num"
                 style={{
-                  width: 5,
-                  height: 5,
-                  background: "#ff2e88",
-                  display: "inline-block",
-                  marginLeft: 2,
+                  color: active ? "#ff2e88" : "#555",
+                  fontSize: 9.5,
                 }}
-              />
-            ) : null}
-          </Link>
-        ))}
+              >
+                {tab.num}
+              </span>
+              <span>{tab.label}</span>
+              {active ? (
+                <span
+                  aria-hidden="true"
+                  style={{
+                    width: 5,
+                    height: 5,
+                    background: "#ff2e88",
+                    display: "inline-block",
+                    marginLeft: 2,
+                  }}
+                />
+              ) : null}
+            </Link>
+          );
+        })}
       </nav>
 
       {/* Vertical divider */}
