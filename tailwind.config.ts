@@ -1,5 +1,8 @@
 import type { Config } from "tailwindcss";
 
+// Note: @theme block in app/globals.css is the source of truth for design
+// tokens. This file defines content paths and is kept for Magic-generated
+// component compatibility.
 const config: Config = {
   content: [
     "./app/**/*.{ts,tsx}",
