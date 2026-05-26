@@ -65,3 +65,16 @@ a {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Main layout grid — collapse right rail on narrow viewports */
+.main-grid {
+  grid-template-columns: 1fr 280px;
+}
+@media (max-width: 1024px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+  .right-rail {
+    display: none;
+  }
+}

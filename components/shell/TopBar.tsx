@@ -3,19 +3,18 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import CommandBar from "./CommandBar";
+import RegimeBadge from "@/components/primitives/RegimeBadge";
+import { useCommandPalette } from "./ShellChrome";
 import { SECTION_TABS, SESSION } from "@/lib/mock-data";
 
 function isTabActive(tabHref: string, pathname: string): boolean {
-  if (tabHref === "/") {
-    // Workstation tabs that don't yet route are never "active" so we don't
-    // light up MKTS / SCRN / QRES / RISK / EXEC on the landing page.
-    return false;
-  }
+  if (tabHref === "/") return false;
   return pathname === tabHref || pathname.startsWith(`${tabHref}/`);
 }
 
 export default function TopBar(): JSX.Element {
   const pathname = usePathname();
+  const cmd = useCommandPalette();
 
   return (
     <header
@@ -25,12 +24,24 @@ export default function TopBar(): JSX.Element {
         background: "#000",
         borderBottom: "1px solid #2a2a2a",
         paddingLeft: 10,
-        paddingRight: 10,
-        gap: 12,
+        paddingRight: 8,
+        gap: 8,
+        minWidth: 0,
+        overflow: "hidden",
       }}
     >
-      {/* Brand block */}
-      <div className="flex items-center" style={{ gap: 8, flexShrink: 0 }}>
+      {/* Brand block — clickable home link */}
+      <Link
+        href="/"
+        className="flex items-center hover:brightness-125"
+        aria-label="Go to home"
+        style={{
+          gap: 8,
+          flexShrink: 0,
+          textDecoration: "none",
+          color: "inherit",
+        }}
+      >
         <span
           aria-hidden="true"
           style={{
@@ -61,58 +72,62 @@ export default function TopBar(): JSX.Element {
         >
           {SESSION.product}
         </span>
-        <span
-          className="num"
-          style={{
-            fontSize: 9.5,
-            color: "#666",
-            marginLeft: 6,
-            letterSpacing: "0.04em",
-          }}
-        >
-          {SESSION.version}
-        </span>
-        <span
-          className="num"
-          style={{
-            fontSize: 9.5,
-            color: "#555",
-            marginLeft: 4,
-            letterSpacing: "0.04em",
-          }}
-        >
-          · {SESSION.timestamp}
-        </span>
-      </div>
+      </Link>
 
-      {/* Vertical divider */}
+      {/* version + timestamp — desktop only */}
+      <span
+        className="num hidden xl:inline"
+        style={{
+          fontSize: 9.5,
+          color: "#666",
+          letterSpacing: "0.04em",
+          flexShrink: 0,
+        }}
+      >
+        {SESSION.version}
+      </span>
+      <span
+        className="num hidden 2xl:inline"
+        style={{
+          fontSize: 9.5,
+          color: "#555",
+          letterSpacing: "0.04em",
+          flexShrink: 0,
+        }}
+      >
+        · {SESSION.timestamp}
+      </span>
+
       <span
         aria-hidden="true"
+        className="hidden sm:inline-block"
         style={{
           width: 1,
           alignSelf: "stretch",
           background: "#1d1d1d",
+          flexShrink: 0,
         }}
       />
 
       {/* Command bar (flex: 1 to fill) */}
-      <div style={{ flex: 1, minWidth: 0 }}>
+      <div style={{ flex: 1, minWidth: 80 }}>
         <CommandBar />
       </div>
 
-      {/* Vertical divider */}
       <span
         aria-hidden="true"
+        className="hidden md:inline-block"
         style={{
           width: 1,
           alignSelf: "stretch",
           background: "#1d1d1d",
+          flexShrink: 0,
         }}
       />
 
-      {/* Section tabs */}
+      {/* Section tabs — hide below md */}
       <nav
-        className="flex items-center"
+        className="hidden md:flex items-center"
         style={{ gap: 0, flexShrink: 0 }}
         aria-label="Workstation sections"
       >
@@ -127,7 +142,7 @@ export default function TopBar(): JSX.Element {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: 5,
-                padding: "0 10px",
+                padding: "0 8px",
                 height: 38,
                 fontSize: 10,
                 letterSpacing: "0.08em",
@@ -149,7 +164,7 @@ export default function TopBar(): JSX.Element {
               >
                 {tab.num}
               </span>
-              <span>{tab.label}</span>
+              <span className="hidden lg:inline">{tab.label}</span>
               {active ? (
                 <span
                   aria-hidden="true"
@@ -167,18 +182,60 @@ export default function TopBar(): JSX.Element {
         })}
       </nav>
 
-      {/* Vertical divider */}
       <span
         aria-hidden="true"
+        className="hidden sm:inline-block"
         style={{
           width: 1,
           alignSelf: "stretch",
           background: "#1d1d1d",
+          flexShrink: 0,
         }}
       />
 
-      {/* User / session block */}
-      <div className="flex items-center" style={{ gap: 6, flexShrink: 0 }}>
+      {/* ⌘K trigger */}
+      <button
+        type="button"
+        onClick={cmd.open}
+        aria-label="Open command palette"
+        className="num hover:brightness-125"
+        style={{
+          background: "transparent",
+          border: "1px solid #2a2a2a",
+          color: "#888",
+          padding: "3px 8px",
+          fontSize: 9.5,
+          letterSpacing: "0.08em",
+          cursor: "pointer",
+          flexShrink: 0,
+          lineHeight: 1,
+          height: 22,
+        }}
+      >
+        ⌘K
+      </button>
+
+      {/* Regime badge — desktop+ only */}
+      <span className="hidden md:inline-block" style={{ flexShrink: 0 }}>
+        <RegimeBadge market="IDX" />
+      </span>
+
+      <span
+        aria-hidden="true"
+        className="hidden xl:inline-block"
+        style={{
+          width: 1,
+          alignSelf: "stretch",
+          background: "#1d1d1d",
+          flexShrink: 0,
+        }}
+      />
+
+      {/* User block — only on wide screens */}
+      <div
+        className="hidden xl:flex items-center"
+        style={{ gap: 6, flexShrink: 0 }}
+      >
         <span
           aria-hidden="true"
           style={{

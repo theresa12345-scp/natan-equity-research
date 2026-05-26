@@ -42,14 +42,13 @@ export default function RootLayout({
             <TickerTape />
 
             <div
-              className="grid"
-              style={{
-                gridTemplateColumns: "1fr 280px",
-                minHeight: 0,
-              }}
+              className="grid main-grid"
+              style={{ minHeight: 0 }}
             >
-              <main className="overflow-auto">{children}</main>
-              <RightRail />
+              <main className="overflow-auto min-w-0">{children}</main>
+              <aside className="right-rail">
+                <RightRail />
+              </aside>
             </div>
 
             <StatusBar />

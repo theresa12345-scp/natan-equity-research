@@ -1,8 +1,23 @@
 "use client";
 
-import { useEffect, useState, type ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  type ReactNode,
+} from "react";
 import CommandPalette from "@/components/shell/CommandPalette";
-import RegimeBadge from "@/components/primitives/RegimeBadge";
+
+interface CmdContextValue {
+  open: () => void;
+}
+
+const CmdContext = createContext<CmdContextValue>({ open: () => {} });
+
+export function useCommandPalette(): CmdContextValue {
+  return useContext(CmdContext);
+}
 
 interface ShellChromeProps {
   children: ReactNode;
@@ -23,39 +38,9 @@ export default function ShellChrome({ children }: ShellChromeProps): JSX.Element
   }, []);
 
   return (
-    <>
-      <div
-        style={{
-          position: "fixed",
-          top: 6,
-          right: 12,
-          zIndex: 80,
-          display: "flex",
-          gap: 8,
-          alignItems: "center",
-        }}
-      >
-        <RegimeBadge market="IDX" />
-        <button
-          type="button"
-          onClick={() => setPaletteOpen(true)}
-          aria-label="Open command palette (⌘K)"
-          className="num hover:brightness-125"
-          style={{
-            background: "transparent",
-            border: "1px solid #2a2a2a",
-            color: "#888",
-            padding: "3px 8px",
-            fontSize: 9.5,
-            letterSpacing: "0.08em",
-            cursor: "pointer",
-          }}
-        >
-          ⌘K
-        </button>
-      </div>
+    <CmdContext.Provider value={{ open: () => setPaletteOpen(true) }}>
       {children}
       <CommandPalette open={paletteOpen} onClose={() => setPaletteOpen(false)} />
-    </>
+    </CmdContext.Provider>
   );
 }
