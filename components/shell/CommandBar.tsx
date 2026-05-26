@@ -3,40 +3,46 @@
 import { useState, type ChangeEvent, type KeyboardEvent } from "react";
 
 interface CommandBarProps {
-  value: string;
-  onChange: (v: string) => void;
-  onSubmit: () => void;
+  value?: string;
+  onSubmit?: (v: string) => void;
+  placeholder?: string;
+  className?: string;
 }
 
 export default function CommandBar({
-  value,
-  onChange,
+  value: controlledValue,
   onSubmit,
+  placeholder = "BBCA IJ <EQUITY> DES · type ticker, command, or query…",
+  className = "",
 }: CommandBarProps): JSX.Element {
+  const [internal, setInternal] = useState<string>(controlledValue ?? "");
   const [isFocused, setIsFocused] = useState<boolean>(false);
+  const value = controlledValue ?? internal;
+
+  function handleChange(e: ChangeEvent<HTMLInputElement>): void {
+    setInternal(e.target.value);
+  }
+
+  function fire(): void {
+    if (onSubmit) onSubmit(value);
+  }
 
   function handleKeyDown(e: KeyboardEvent<HTMLInputElement>): void {
     if (e.key === "Enter") {
       e.preventDefault();
-      onSubmit();
+      fire();
     }
   }
 
   return (
     <div
-      className="flex items-center"
-      style={{
-        height: 22,
-        width: "100%",
-        background: "#000",
-        borderBottom: "1px solid #2a2a2a",
-      }}
+      className={`flex items-center ${className}`}
+      style={{ height: 22, minWidth: 0 }}
     >
       <span
         className="num"
         aria-hidden="true"
         style={{
-          paddingLeft: 10,
           paddingRight: 6,
           fontSize: 11,
           color: isFocused ? "#ff5fa3" : "#ff2e88",
@@ -51,11 +57,11 @@ export default function CommandBar({
       <input
         type="text"
         value={value}
-        onChange={(e: ChangeEvent<HTMLInputElement>) => onChange(e.target.value)}
+        onChange={handleChange}
         onKeyDown={handleKeyDown}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
-        placeholder="type a ticker, command, or query…"
+        placeholder={placeholder}
         spellCheck={false}
         autoComplete="off"
         aria-label="Command input"
@@ -73,23 +79,15 @@ export default function CommandBar({
         }}
       />
 
-      <span
-        aria-hidden="true"
-        style={{
-          width: 1,
-          alignSelf: "stretch",
-          background: "#1d1d1d",
-        }}
-      />
-
       <button
         type="button"
-        onClick={onSubmit}
+        onClick={fire}
         aria-label="Submit command"
         className="hover:brightness-110"
         style={{
           height: 22,
           padding: "0 8px",
+          marginLeft: 8,
           background: "transparent",
           border: "1px solid #ff2e88",
           color: "#ff2e88",
@@ -105,7 +103,7 @@ export default function CommandBar({
 
       <div
         className="flex items-center"
-        style={{ gap: 4, paddingLeft: 8, paddingRight: 10 }}
+        style={{ gap: 4, marginLeft: 8 }}
       >
         {/* TODO: platform-detect Ctrl/⌘ for Windows users in V2 */}
         {(["↵", "F1", "⌘K"] as const).map((label) => (
