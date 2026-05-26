@@ -7,10 +7,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# dependencies
 node_modules
+/.pnp
+.pnp.js
+
+# build output
+.next/
+out/
 dist
 dist-ssr
 *.local
+
+# test artifacts
+coverage
 
 # Editor directories and files
 .vscode/*
@@ -24,3 +34,7 @@ dist-ssr
 *.sw?
 .vercel
 .env*.local
+
+# next-env (auto-generated)
+next-env.d.ts
+*.tsbuildinfo
