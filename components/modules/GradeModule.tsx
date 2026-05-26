@@ -342,23 +342,11 @@ export default function GradeModule({
                   textTransform: "uppercase",
                 }}
               >
-                Verdict · {aggregate.horizon}
-              </div>
-              <div
-                style={{
-                  fontSize: 13,
-                  color: verdictColor(aggregate.verdictTone),
-                  fontWeight: 600,
-                  letterSpacing: "0.04em",
-                  marginTop: 6,
-                  textTransform: "uppercase",
-                }}
-              >
-                {aggregate.verdict}
+                Targets · {aggregate.horizon}
               </div>
               <div
                 className="num"
-                style={{ fontSize: 11, color: "#d8d8d8", marginTop: 6 }}
+                style={{ fontSize: 11, color: "#d8d8d8", marginTop: 8 }}
               >
                 TGT{" "}
                 <span style={{ color: "#00d97e" }}>
@@ -381,8 +369,7 @@ export default function GradeModule({
                 className="num"
                 style={{ fontSize: 10, color: "#7a7a7a", marginTop: 4 }}
               >
-                R/R {aggregate.rrRatio.toFixed(2)}× · POS{" "}
-                {aggregate.positionSize.toFixed(1)}%
+                R/R {aggregate.rrRatio.toFixed(2)}×
               </div>
             </div>
           </div>
@@ -438,21 +425,29 @@ export default function GradeModule({
               textTransform: "uppercase",
             }}
           >
-            Investment Thesis · N. LUU
+            Research Overview · Composite Analysis
           </span>
         </div>
-        <p
+        <div
           style={{
             padding: "14px 16px",
             fontSize: 11.5,
             color: "#d8d8d8",
             lineHeight: 1.65,
-            maxWidth: "62ch",
-            margin: 0,
+            maxWidth: "68ch",
           }}
         >
-          {thesis}
-        </p>
+          {thesis.split(/\n\n+/).map((para, i) => (
+            <p
+              key={i}
+              style={{
+                margin: i === 0 ? 0 : "10px 0 0",
+              }}
+            >
+              {para}
+            </p>
+          ))}
+        </div>
 
         <div
           className="flex items-center"

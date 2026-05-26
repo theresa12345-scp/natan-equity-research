@@ -11,6 +11,7 @@ import {
   buildGenericKPIs,
   buildGenericDcfCapm,
   buildGenericComps,
+  generateThesis,
 } from "@/lib/ticker-renderer";
 import * as NVDA from "@/lib/mock-nvda";
 
@@ -159,7 +160,7 @@ function renderGeneric(r: UniverseRow): JSX.Element {
         { label: "SENT 7D", value: "—", tone: "neutral" },
         { label: "MOMENTUM", value: pillars.find((p) => p.name.includes("Momentum"))?.letter ?? "—", tone: "neutral" },
       ]}
-      thesis={`${r.name} is auto-rendered from universe data. Featured deep-dive analysis is currently available for NVDA. All grades and metrics on this page are computed from snapshot fundamentals via the 8-pillar composite per METHODOLOGY.md §2 — US-aware weights with Carhart (1997) momentum INCLUDED. Phase 4 will replace static snapshots with live yahoo-finance2 feeds.`}
+      thesis={generateThesis(r, pillars)}
       gradeHistory={Array.from({ length: 12 }).map((_, i) => ({
         month: `M-${11 - i}`,
         score: Math.max(20, Math.min(95, grade.score + Math.cos(i * 0.7) * 6)),

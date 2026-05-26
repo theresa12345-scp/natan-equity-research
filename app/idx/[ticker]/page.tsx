@@ -12,6 +12,7 @@ import {
   buildGenericKPIs,
   buildGenericDcfCapm,
   buildGenericComps,
+  generateThesis,
 } from "@/lib/ticker-renderer";
 
 // Featured imports (BBCA, MYOR)
@@ -234,7 +235,7 @@ function renderGeneric(r: UniverseRow): JSX.Element {
         { label: "SENT 7D", value: "—", tone: "neutral" },
         { label: "PEAD", value: "—", tone: "neutral" },
       ]}
-      thesis={`${r.name} is auto-rendered from universe data. Featured deep-dive analysis (bespoke thesis, curated news, expert pillar breakdown) is currently available for BBCA, MYOR, and NVDA. All grades and metrics on this page are computed from snapshot fundamentals via the 8-pillar composite per METHODOLOGY.md §2 — sector-relative z-scoring with EM weights per Li, Wei & Zhang (2023). Phase 4 will replace static snapshots with live yahoo-finance2 feeds.`}
+      thesis={generateThesis(r, pillars)}
       gradeHistory={Array.from({ length: 12 }).map((_, i) => ({
         month: `M-${11 - i}`,
         score: Math.max(20, Math.min(95, grade.score + Math.sin(i) * 6)),
