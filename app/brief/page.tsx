@@ -1,15 +1,10 @@
-import {
-  BRIEF_META,
-  BRIEF_CHART_OF_DAY,
-  OVERNIGHT_WRAP,
-  IDEA_OF_DAY,
-  TODAYS_CATALYSTS,
-  WATCHLIST_MOVERS,
-  SECTOR_RUNDOWN,
-  MACRO_DRIVERS,
-  SIDEBAR_FLOWS,
-} from "@/lib/mock-brief";
+import { buildBrief } from "@/lib/brief/build";
+import type { BriefDocument } from "@/lib/brief/types";
 import TickerLink from "@/components/primitives/TickerLink";
+
+// Revalidate every 6 hours. Vercel Cron also rebuilds at 06:30 WIB +
+// 08:00 EDT; this revalidate is the safety net.
+export const revalidate = 21600;
 
 function tone(v: number): string {
   if (v > 0) return "#00d97e";
@@ -26,19 +21,17 @@ function PanelHead({ title, meta }: { title: string; meta?: string }): JSX.Eleme
   );
 }
 
-function ChartOfDay(): JSX.Element {
-  const total = BRIEF_CHART_OF_DAY.series.reduce((s, x) => s + x.value, 0);
-  let cum = 0;
+function ChartOfDay({ brief }: { brief: BriefDocument }): JSX.Element {
+  const total = brief.chartOfDay.series.reduce((s, x) => s + x.value, 0);
   return (
     <div style={{ padding: "16px 18px" }}>
       <div style={{ fontSize: 17, color: "#f5f5f5", fontWeight: 500, letterSpacing: "-0.01em", lineHeight: 1.4, maxWidth: "68ch" }}>
-        {BRIEF_CHART_OF_DAY.headline}
+        {brief.chartOfDay.headline}
       </div>
 
-      {/* Stacked bar of AI-cluster vs rest */}
       <div style={{ marginTop: 18, marginBottom: 14 }}>
         <div style={{ display: "flex", height: 30, border: "1px solid #2a2a2a" }}>
-          {BRIEF_CHART_OF_DAY.series.map((s) => {
+          {brief.chartOfDay.series.map((s) => {
             const pct = (s.value / total) * 100;
             return (
               <div
@@ -63,7 +56,7 @@ function ChartOfDay(): JSX.Element {
           })}
         </div>
         <div className="flex items-center" style={{ marginTop: 8, gap: 14, fontSize: 10 }}>
-          {BRIEF_CHART_OF_DAY.series.map((s) => (
+          {brief.chartOfDay.series.map((s) => (
             <span key={s.label} style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "#d8d8d8" }}>
               <span aria-hidden="true" style={{ width: 10, height: 10, background: s.color }} />
               {s.label}
@@ -73,13 +66,13 @@ function ChartOfDay(): JSX.Element {
       </div>
 
       <p style={{ fontSize: 12, color: "#d8d8d8", lineHeight: 1.7, maxWidth: "72ch", margin: 0 }}>
-        {BRIEF_CHART_OF_DAY.takeaway}
+        {brief.chartOfDay.takeaway}
       </p>
       <p
         className="num"
         style={{ fontSize: 9.5, color: "#7a7a7a", marginTop: 12, fontStyle: "italic", letterSpacing: "0.02em" }}
       >
-        source · {BRIEF_CHART_OF_DAY.sourceLabel}
+        source · {brief.chartOfDay.sourceLabel}
       </p>
     </div>
   );
@@ -90,7 +83,7 @@ function ImpactBadge({ impact }: { impact: "high" | "medium" | "low" }): JSX.Ele
     high: { fg: "#ff2e88", bg: "rgba(255,46,136,0.08)" },
     medium: { fg: "#c4831f", bg: "rgba(196,131,31,0.08)" },
     low: { fg: "#7a7a7a", bg: "rgba(122,122,122,0.08)" },
-  };
+  } as const;
   const c = colors[impact];
   return (
     <span
@@ -110,7 +103,30 @@ function ImpactBadge({ impact }: { impact: "high" | "medium" | "low" }): JSX.Ele
   );
 }
 
-export default function BriefPage(): JSX.Element {
+function SourceChip({ source }: { source: BriefDocument["source"] }): JSX.Element {
+  const color = source === "live" ? "#00d97e" : source === "mixed" ? "#c4831f" : "#7a7a7a";
+  const label = source === "live" ? "LIVE" : source === "mixed" ? "MIXED" : "FALLBACK";
+  return (
+    <span
+      className="num"
+      style={{
+        fontSize: 8.5,
+        color,
+        letterSpacing: "0.14em",
+        border: `1px solid ${color}`,
+        padding: "1px 5px",
+        fontWeight: 600,
+      }}
+      title={`Data source: ${source}`}
+    >
+      {label}
+    </span>
+  );
+}
+
+export default async function BriefPage(): Promise<JSX.Element> {
+  const brief = await buildBrief();
+
   return (
     <div>
       {/* Header */}
@@ -123,12 +139,13 @@ export default function BriefPage(): JSX.Element {
           Daily Brief
         </h1>
         <span style={{ fontSize: 11, color: "#7a7a7a", marginLeft: 8 }}>
-          {BRIEF_META.edition} · {BRIEF_META.date}
+          {brief.meta.edition} · {brief.date}
         </span>
+        <SourceChip source={brief.source} />
         <div className="ml-auto flex items-center num" style={{ gap: 14, fontSize: 10, letterSpacing: "0.06em" }}>
-          <span style={{ color: "#7a7a7a" }}>JKT <span style={{ color: "#d8d8d8" }}>{BRIEF_META.jktTime}</span></span>
-          <span style={{ color: "#7a7a7a" }}>NY <span style={{ color: "#d8d8d8" }}>{BRIEF_META.estTime}</span></span>
-          <span style={{ color: "#666" }}>· {BRIEF_META.author}</span>
+          <span style={{ color: "#7a7a7a" }}>JKT <span style={{ color: "#d8d8d8" }}>{brief.meta.jktTime}</span></span>
+          <span style={{ color: "#7a7a7a" }}>NY <span style={{ color: "#d8d8d8" }}>{brief.meta.estTime}</span></span>
+          <span style={{ color: "#666" }}>· {brief.meta.author}</span>
         </div>
       </div>
 
@@ -138,14 +155,14 @@ export default function BriefPage(): JSX.Element {
           {/* Chart of the Day */}
           <section style={{ borderBottom: "1px solid #2a2a2a" }}>
             <PanelHead title="Chart of the Day" meta="one chart · one takeaway" />
-            <ChartOfDay />
+            <ChartOfDay brief={brief} />
           </section>
 
           {/* Overnight Wrap */}
           <section style={{ borderBottom: "1px solid #2a2a2a" }}>
             <PanelHead title="Overnight Wrap" meta="US close → Asia open" />
             <div className="grid" style={{ gridTemplateColumns: "repeat(4, minmax(0, 1fr))" }}>
-              {OVERNIGHT_WRAP.map((w, i) => (
+              {brief.overnightWrap.map((w, i) => (
                 <div
                   key={w.label}
                   style={{
@@ -172,18 +189,18 @@ export default function BriefPage(): JSX.Element {
             <PanelHead title="Idea of the Day" meta="composite-screen pick" />
             <div style={{ padding: "14px 18px" }}>
               <div className="flex items-baseline" style={{ gap: 10 }}>
-                <TickerLink ticker={IDEA_OF_DAY.ticker} market={IDEA_OF_DAY.exchange === "IDX" ? "IDX" : "US"} size="md" bold />
-                <span style={{ fontSize: 9, color: "#7a7a7a", border: "1px solid #2a2a2a", padding: "1px 5px", letterSpacing: "0.08em" }}>{IDEA_OF_DAY.exchange}</span>
-                <h2 style={{ fontSize: 14, color: "#f5f5f5", margin: 0, fontWeight: 500 }}>{IDEA_OF_DAY.title}</h2>
+                <TickerLink ticker={brief.ideaOfDay.ticker} market={brief.ideaOfDay.exchange === "IDX" ? "IDX" : "US"} size="md" bold />
+                <span style={{ fontSize: 9, color: "#7a7a7a", border: "1px solid #2a2a2a", padding: "1px 5px", letterSpacing: "0.08em" }}>{brief.ideaOfDay.exchange}</span>
+                <h2 style={{ fontSize: 14, color: "#f5f5f5", margin: 0, fontWeight: 500 }}>{brief.ideaOfDay.title}</h2>
                 <span className="num ml-auto" style={{ fontSize: 13, color: "#ff2e88", fontWeight: 700 }}>
-                  +{IDEA_OF_DAY.composite.toFixed(2)}σ
+                  +{brief.ideaOfDay.composite.toFixed(2)}σ
                 </span>
               </div>
               <p style={{ fontSize: 11.5, color: "#d8d8d8", lineHeight: 1.65, marginTop: 10, marginBottom: 12, maxWidth: "70ch" }}>
-                {IDEA_OF_DAY.prose}
+                {brief.ideaOfDay.prose}
               </p>
               <div className="flex" style={{ gap: 8 }}>
-                {IDEA_OF_DAY.pillars.map((p) => (
+                {brief.ideaOfDay.pillars.map((p) => (
                   <div
                     key={p.name}
                     className="num"
@@ -206,7 +223,7 @@ export default function BriefPage(): JSX.Element {
 
           {/* Today's Catalysts */}
           <section style={{ borderBottom: "1px solid #2a2a2a" }}>
-            <PanelHead title="Today's Catalysts" meta={`${TODAYS_CATALYSTS.length} scheduled`} />
+            <PanelHead title="Today's Catalysts" meta={`${brief.todaysCatalysts.length} scheduled`} />
             <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 11 }}>
               <thead>
                 <tr style={{ background: "#050505" }}>
@@ -216,7 +233,7 @@ export default function BriefPage(): JSX.Element {
                 </tr>
               </thead>
               <tbody>
-                {TODAYS_CATALYSTS.map((c, i) => (
+                {brief.todaysCatalysts.map((c, i) => (
                   <tr key={i} style={{ height: 24, background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a" }}>
                     <td className="num" style={{ padding: "0 10px", color: "#b8b8b8", whiteSpace: "nowrap" }}>{c.time}</td>
                     <td style={{ padding: "0 10px", color: "#ff2e88", fontSize: 9.5, letterSpacing: "0.1em", fontWeight: 600 }}>{c.region}</td>
@@ -241,7 +258,7 @@ export default function BriefPage(): JSX.Element {
                 </tr>
               </thead>
               <tbody>
-                {SECTOR_RUNDOWN.map((s, i) => (
+                {brief.sectorRundown.map((s, i) => (
                   <tr key={s.sector} style={{ height: 22, background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a" }}>
                     <td style={{ padding: "0 10px", color: "#d8d8d8" }}>{s.sector}</td>
                     <td className="num" style={{ padding: "0 10px", textAlign: "right", color: tone(s.idx) }}>{s.idx >= 0 ? "+" : ""}{s.idx.toFixed(2)}%</td>
@@ -257,7 +274,7 @@ export default function BriefPage(): JSX.Element {
           <section style={{ borderBottom: "1px solid #2a2a2a" }}>
             <PanelHead title="Macro Drivers" meta="what to watch" />
             <div>
-              {MACRO_DRIVERS.map((m) => (
+              {brief.macroDrivers.map((m) => (
                 <div
                   key={m.label}
                   className="grid"
@@ -276,7 +293,7 @@ export default function BriefPage(): JSX.Element {
           <section style={{ borderBottom: "1px solid #2a2a2a" }}>
             <PanelHead title="Watchlist · last close" meta="movers" />
             <div>
-              {WATCHLIST_MOVERS.map((w) => (
+              {brief.watchlistMovers.map((w) => (
                 <div
                   key={w.ticker}
                   style={{ padding: "8px 12px", borderBottom: "1px solid #111" }}
@@ -297,7 +314,7 @@ export default function BriefPage(): JSX.Element {
           <section style={{ borderBottom: "1px solid #2a2a2a" }}>
             <PanelHead title="Flows · positioning" />
             <div>
-              {SIDEBAR_FLOWS.map((f) => (
+              {brief.sidebarFlows.map((f) => (
                 <div
                   key={f.label}
                   className="grid items-baseline"
@@ -320,18 +337,36 @@ export default function BriefPage(): JSX.Element {
           </section>
 
           <section>
-            <PanelHead title="Format Notes" />
+            <PanelHead title="Provenance" />
+            <div>
+              {Object.entries(brief.sourceDetail).map(([k, v]) => (
+                <div
+                  key={k}
+                  className="grid items-baseline"
+                  style={{ gridTemplateColumns: "1fr auto", height: 22, padding: "0 12px", borderBottom: "1px solid #111", gap: 8 }}
+                >
+                  <span style={{ fontSize: 10, color: "#888" }}>{k}</span>
+                  <span
+                    className="num"
+                    style={{
+                      fontSize: 9,
+                      color: v === "live" ? "#00d97e" : "#7a7a7a",
+                      letterSpacing: "0.12em",
+                      textTransform: "uppercase",
+                      fontWeight: 600,
+                    }}
+                  >
+                    {v}
+                  </span>
+                </div>
+              ))}
+            </div>
             <div style={{ padding: "10px 14px", fontSize: 10, color: "#7a7a7a", lineHeight: 1.55 }}>
               <p style={{ margin: "0 0 6px" }}>
-                One chart per day. One paragraph of interpretation. The Daily Brief format follows{" "}
-                <span style={{ color: "#d8d8d8" }}>Apollo Daily Spark</span> (Torsten Slok) for chart-of-day cadence and{" "}
-                <span style={{ color: "#d8d8d8" }}>BRI Danareksa Equity Snapshot</span> for the idea-of-day + sector summary layout.
-              </p>
-              <p style={{ margin: "0 0 6px" }}>
-                Composite signal cited from the 8-pillar MF v2.1; CPCV-validated, DSR-corrected. Not investment advice.
+                Format follows <span style={{ color: "#d8d8d8" }}>Apollo Daily Spark</span> (Torsten Slok) + <span style={{ color: "#d8d8d8" }}>BRI Danareksa Equity Snapshot</span>.
               </p>
               <p style={{ margin: 0, fontStyle: "italic" }}>
-                Phase 4 auto-emits this at 06:30 WIB / 08:00 EDT via Celery + LLM-assisted prose.
+                Vercel Cron rebuilds 06:30 WIB + 08:00 EDT. Page revalidate 6h safety net.
               </p>
             </div>
           </section>

@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/build-brief",
+      "schedule": "30 23 * * *"
+    },
+    {
+      "path": "/api/cron/build-brief",
+      "schedule": "0 12 * * 1-5"
+    }
+  ]
+}
