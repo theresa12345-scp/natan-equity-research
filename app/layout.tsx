@@ -21,7 +21,7 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en" className={`${GeistSans.variable} ${jetbrains.variable}`}>
-      <body className="bg-surface-0 text-fg min-h-screen">
+      <body className={`${GeistSans.className} bg-surface-0 text-fg min-h-screen`}>
         <div className="grid min-h-screen" style={{ gridTemplateRows: "auto auto 1fr auto" }}>
           {/* TopBar slot — Phase 2 */}
           <header
