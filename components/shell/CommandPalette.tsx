@@ -7,11 +7,11 @@ import { COMMAND_TARGETS } from "@/lib/command-targets";
 
 const FUNCTIONS: Array<{ label: string; href: string; keywords: string[] }> = [
   { label: "Markets · IDX overview", href: "/markets", keywords: ["markets", "mkts", "ihsg"] },
-  { label: "Portfolio · holdings", href: "/idx/portfolio", keywords: ["portfolio", "port", "holdings"] },
+  { label: "Portfolio · hypothetical tracking", href: "/idx/portfolio", keywords: ["portfolio", "port", "holdings"] },
   { label: "Screener · multi-factor", href: "/screener", keywords: ["screener", "scrn", "screen"] },
   { label: "Research · CPCV / DSR", href: "/research", keywords: ["research", "qres", "cpcv"] },
   { label: "Risk · stress + factor exposure", href: "/risk", keywords: ["risk", "stress", "var"] },
-  { label: "Execution · blotter", href: "/execution", keywords: ["execution", "exec", "blotter", "fills"] },
+  { label: "Backtest · strategy workbench", href: "/backtest", keywords: ["backtest", "strategy", "cpcv", "dsr"] },
 ];
 
 const SCENARIOS: Array<{ label: string; href: string; keywords: string[] }> = [

@@ -19,84 +19,46 @@ import {
 } from "@/lib/mock-myor";
 
 const TABS: ModuleTab[] = [
-  { key: "grade", label: "Grade" },
-  { key: "dcf", label: "DCF" },
-  { key: "comps", label: "Comps" },
-  { key: "algo", label: "Algo & Factors" },
-  { key: "news", label: "News & Sent" },
-  { key: "audit", label: "Audit" },
+  { key: "grade", label: "Grade" }, { key: "dcf", label: "DCF" }, { key: "comps", label: "Comps" },
+  { key: "algo", label: "Algo & Factors" }, { key: "news", label: "News & Sent" }, { key: "audit", label: "Audit" },
 ];
+
+function ScoreInterpretation(): JSX.Element {
+  return (
+    <div style={{ padding: "14px 16px", borderTop: "1px solid #2a2a2a", background: "#050505" }}>
+      <div style={{ fontSize: 9.5, color: "#ff2e88", letterSpacing: "0.14em", fontWeight: 600, textTransform: "uppercase", marginBottom: 10 }}>Score Interpretation · research framing</div>
+      <div className="grid" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 10 }}>
+        <div className="num" style={{ fontSize: 11, color: "#d8d8d8" }}><span style={{ color: "#666" }}>Composite Z-Score</span> <span style={{ color: "#ff2e88", fontWeight: 600 }}>+0.84</span> <span style={{ color: "#666", fontSize: 9.5 }}>(7th decile within Consumer Staples)</span></div>
+        <div style={{ fontSize: 11, color: "#d8d8d8" }}><span style={{ color: "#666" }}>Statistical Significance</span> <span className="num" style={{ color: "#00d97e" }}>p &lt; 0.10</span></div>
+        <div style={{ fontSize: 11, color: "#d8d8d8", gridColumn: "1 / -1" }}><span style={{ color: "#666" }}>Factor Tilt</span> Quality + Growth elevated; Valuation modest premium</div>
+        <div style={{ fontSize: 11, color: "#d8d8d8" }}><span style={{ color: "#666" }}>Regime Sensitivity</span> Stable across regimes (β_regime = 0.42)</div>
+        <div style={{ fontSize: 11, color: "#d8d8d8" }}><span style={{ color: "#666" }}>Peer Percentile</span> <span className="num" style={{ color: "#ff2e88", fontWeight: 600 }}>68th</span> <span style={{ color: "#666", fontSize: 9.5 }}>within Consumer Staples</span></div>
+      </div>
+    </div>
+  );
+}
 
 export default function MYORPage(): JSX.Element {
   const [active, setActive] = useState<string>("grade");
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
       <SecurityHeader
-        ticker={MYOR_IDENTITY.ticker}
-        exchange={MYOR_IDENTITY.exchange}
-        name={MYOR_IDENTITY.name}
-        sector={MYOR_IDENTITY.sector}
-        industry={MYOR_IDENTITY.industry}
-        indices={MYOR_IDENTITY.indices}
+        ticker={MYOR_IDENTITY.ticker} exchange={MYOR_IDENTITY.exchange} name={MYOR_IDENTITY.name}
+        sector={MYOR_IDENTITY.sector} industry={MYOR_IDENTITY.industry} indices={MYOR_IDENTITY.indices}
         kpis={MYOR_KPIS}
-        grade={{
-          letter: MYOR_GRADE.letter,
-          score: MYOR_GRADE.score,
-          max: MYOR_GRADE.max,
-          verdict: MYOR_GRADE.verdict,
-          verdictTone: MYOR_GRADE.verdictTone,
-        }}
-        meta={[
-          { label: "RUPS", value: MYOR_IDENTITY.rups },
-          { label: "NEXT ER", value: MYOR_IDENTITY.nextEarnings },
-          { label: "FY END", value: MYOR_IDENTITY.fiscalYearEnd },
-        ]}
+        grade={{ letter: MYOR_GRADE.letter, score: MYOR_GRADE.score, max: MYOR_GRADE.max, verdict: MYOR_GRADE.verdict, verdictTone: MYOR_GRADE.verdictTone }}
+        meta={[{ label: "RUPS", value: MYOR_IDENTITY.rups }, { label: "NEXT ER", value: MYOR_IDENTITY.nextEarnings }, { label: "FY END", value: MYOR_IDENTITY.fiscalYearEnd }]}
       />
       <ModuleTabs tabs={TABS} active={active} onChange={setActive} />
       <div style={{ minHeight: 0, overflow: "auto" }}>
-        {active === "grade" && (
-          <GradeModule
-            pillars={MYOR_PILLARS}
-            drivers={MYOR_DRIVERS}
-            aggregate={{
-              letter: MYOR_GRADE.letter, score: MYOR_GRADE.score, max: MYOR_GRADE.max,
-              verdict: MYOR_GRADE.verdict, verdictTone: MYOR_GRADE.verdictTone,
-              horizon: MYOR_GRADE.horizon, targetPx: MYOR_GRADE.targetPx,
-              targetUpsidePct: MYOR_GRADE.targetUpsidePct, downsidePx: MYOR_GRADE.downsidePx,
-              downsideDeltaPct: MYOR_GRADE.downsideDeltaPct, rrRatio: MYOR_GRADE.rrRatio,
-              positionSize: MYOR_GRADE.positionSize,
-            }}
-            thesis={MYOR_THESIS}
-            history={MYOR_GRADE_HISTORY}
-            pxFormatter={(n) => `Rp ${n.toLocaleString("en-US", { maximumFractionDigits: 0 })}`}
-            ticker={MYOR_IDENTITY.ticker}
-            name={MYOR_IDENTITY.name}
-            ciLow="B−"
-            ciHigh="B+"
-          />
-        )}
-        {active === "dcf" && (
-          <DCFModule capm={MYOR_DCF_CAPM} terminal={MYOR_DCF_TERMINAL} output={MYOR_DCF_OUTPUT}
-            projection={MYOR_DCF_PROJECTION} sensitivity={MYOR_DCF_SENSITIVITY}
-            currency="IDR" unitLabel="Rp triliun" />
-        )}
-        {active === "comps" && (
-          <CompsModule rows={MYOR_COMPS} peerAvg={MYOR_COMPS_PEER_AVG} delta={MYOR_COMPS_DELTA}
-            prose={MYOR_COMPS_PROSE} columns={MYOR_COMPS_COLUMNS} />
-        )}
-        {active === "algo" && (
-          <AlgoModule factors={MYOR_FACTORS} composite={MYOR_COMPOSITE_Z} overlays={MYOR_OVERLAYS}
-            backtest={MYOR_BACKTEST_STATS} equityCurve={MYOR_EQUITY_CURVE}
-            factorFramework="Fama-French 5 · momentum excluded · staples calibration" />
-        )}
-        {active === "news" && (
-          <NewsModule sentiment={MYOR_SENTIMENT} history={MYOR_SENT_HISTORY}
-            sources={MYOR_SOURCES} feed={MYOR_NEWS} />
-        )}
-        {active === "audit" && (
-          <AuditModule citations={MYOR_AUDIT_CITATIONS} biasControls={MYOR_BIAS_CONTROLS}
-            repro={MYOR_REPRO} limitations={MYOR_LIMITATIONS} />
-        )}
+        {active === "grade" && (<><GradeModule pillars={MYOR_PILLARS} drivers={MYOR_DRIVERS} aggregate={MYOR_GRADE} thesis={MYOR_THESIS} history={MYOR_GRADE_HISTORY}
+          pxFormatter={(n) => `Rp ${n.toLocaleString("en-US", { maximumFractionDigits: 0 })}`}
+          ticker={MYOR_IDENTITY.ticker} name={MYOR_IDENTITY.name} ciLow="B−" ciHigh="B+" /><ScoreInterpretation /></>)}
+        {active === "dcf" && (<DCFModule capm={MYOR_DCF_CAPM} terminal={MYOR_DCF_TERMINAL} output={MYOR_DCF_OUTPUT} projection={MYOR_DCF_PROJECTION} sensitivity={MYOR_DCF_SENSITIVITY} currency="IDR" unitLabel="Rp triliun" />)}
+        {active === "comps" && (<CompsModule rows={MYOR_COMPS} peerAvg={MYOR_COMPS_PEER_AVG} delta={MYOR_COMPS_DELTA} prose={MYOR_COMPS_PROSE} columns={MYOR_COMPS_COLUMNS} />)}
+        {active === "algo" && (<AlgoModule factors={MYOR_FACTORS} composite={MYOR_COMPOSITE_Z} overlays={MYOR_OVERLAYS} backtest={MYOR_BACKTEST_STATS} equityCurve={MYOR_EQUITY_CURVE} factorFramework="Fama-French 5 · momentum excluded · staples calibration" />)}
+        {active === "news" && (<NewsModule sentiment={MYOR_SENTIMENT} history={MYOR_SENT_HISTORY} sources={MYOR_SOURCES} feed={MYOR_NEWS} />)}
+        {active === "audit" && (<AuditModule citations={MYOR_AUDIT_CITATIONS} biasControls={MYOR_BIAS_CONTROLS} repro={MYOR_REPRO} limitations={MYOR_LIMITATIONS} />)}
       </div>
     </div>
   );

@@ -20,17 +20,17 @@ export interface PortfolioKpi {
 
 export const PORTFOLIO_KPIS: PortfolioKpi[] = [
   {
-    label: "TOTAL AUM · IDR",
+    label: "NOTIONAL TRACKING · IDR",
     value: "Rp 412.47 mrd",
-    sub: "≈ USD 23.25M @ 17,742 · CASH 4.81%",
+    sub: "hypothetical equal-weighted at inception",
   },
   {
-    label: "DAY P&L",
-    value: "+Rp 3.84 mrd",
+    label: "DAY HYP RETURN",
+    value: "+0.93%",
     valueTone: "pos",
     subParts: [
-      { text: "+0.93%", tone: "pos" },
-      { text: " · vs IHSG +0.84% · α +9bps" },
+      { text: "vs IHSG +0.84%", tone: "neutral" },
+      { text: " · α +9bps", tone: "pos" },
     ],
   },
   {
@@ -120,7 +120,7 @@ export const PORTFOLIO_INDEX_BREAKDOWN: IndexBreakdown[] = [
 export const PORTFOLIO_META = {
   sectionNumber: "02",
   title: "Portfolio Overview",
-  subtitle: "Meridian ID Long-Only · KSEI Sub-Acct #IDX-04829-A",
+  subtitle: "Meridian Research Tracking · Hypothetical Equal-Weighted Long Sleeve",
   benchmark: "IHSG TR",
   inception: "2021-04-12",
   positions: 28,

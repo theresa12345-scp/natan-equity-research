@@ -5,6 +5,26 @@
 
 ---
 
+## 0. Use Case & Scope
+
+Meridian is a quantitative research and methodology terminal, **not** an execution management system. Its purpose is to support:
+
+- Factor research and backtesting on IDX and US equity universes
+- Methodology audit and reproducibility (CPCV, DSR, PBO disclosed per backtest)
+- Security-level fundamental and quantitative analysis
+- Portfolio simulation (hypothetical tracking, not real trading)
+
+Meridian does **NOT** provide:
+
+- Order entry, routing, or execution
+- Real-time trading signals or buy/sell recommendations
+- Position sizing for live capital deployment
+- Brokerage integration or FIX connectivity
+
+All grades, scores, and analytics are research outputs interpreted via statistical significance and factor exposures, not transaction triggers. Position-sizing rules in §6 are presented as theoretical research frameworks (Kelly criterion, max-DD constraints) for academic discussion, not as deployment guidance.
+
+---
+
 ## 1. Investment Philosophy
 
 Meridian is an institutional-grade equity research workstation covering Indonesian (IDX) and US equities. The composite scoring model is built on three principles:
@@ -151,7 +171,9 @@ Two-state Hamilton (1989) Markov-switching model on weekly returns of IHSG (IDX)
 
 ---
 
-## 6. Position Sizing from Grade
+## 6. Theoretical Position Sizing Framework (Research Only)
+
+The following sizing rules are presented for completeness in factor research. Meridian does not produce trade recommendations; these constructs exist to allow comparison of grade outputs to standard Kelly-fraction risk budgets in academic and practitioner literature.
 
 | Grade × Conviction | Max single-name weight |
 |---|---|

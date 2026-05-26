@@ -102,13 +102,13 @@ function PortfolioHeader(): JSX.Element {
           <span style={{ color: "#d8d8d8", marginLeft: 4 }}>{m.benchmark}</span>
         </span>
         <span style={{ color: "#7a7a7a" }}>
-          INCEPTION{" "}
+          TRACKING SINCE{" "}
           <span style={{ color: "#d8d8d8", marginLeft: 4 }}>
             {m.inception}
           </span>
         </span>
         <span style={{ color: "#7a7a7a" }}>
-          POSISI{" "}
+          NAMES{" "}
           <span style={{ color: "#d8d8d8", marginLeft: 4 }}>{m.positions}</span>
         </span>
       </div>
@@ -239,7 +239,7 @@ function SubHeader({
 // ---------------- holdings ----------------
 
 function HoldingsActions(): JSX.Element {
-  const labels = ["EXPORT", "REBALANCE", "+ ADD"] as const;
+  const labels = ["EXPORT"] as const;
   return (
     <>
       {labels.map((l, i) => (

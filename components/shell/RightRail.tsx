@@ -110,10 +110,10 @@ export default function RightRail(): JSX.Element {
         })}
       </div>
 
-      {/* AL Alerts */}
+      {/* SG Signals · 7D */}
       <SectionHeader
-        abbr="AL"
-        title="Alerts"
+        abbr="SG"
+        title="Signals · 7D"
         meta={`${ALERTS.length} active`}
       />
       <div>

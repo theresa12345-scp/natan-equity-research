@@ -49,17 +49,32 @@ export const ALERTS: AlertItem[] = [
   {
     ts: "14:18",
     ticker: "BREN",
-    body: "intraday breakout +4.81% on 2.4× ADTV. Momentum overlay would flag — composite ignores (excluded factor).",
+    body: "Composite z-score crossed +1.5σ (momentum overlay would flag — composite excludes momentum per Li-Wei-Zhang 2023). Outside top decile.",
   },
   {
     ts: "13:42",
     ticker: "BBRI",
-    body: "foreign net −Rp 412 mrd 5d. Flow z dropped to −1.42, sentiment z −0.84. Value trap silhouette confirmed.",
+    body: "Flow z-score: −1.42 (5d). Sentiment z: −0.84. Composite-Quality divergence flagged.",
   },
   {
     ts: "11:08",
     ticker: "DNTR",
-    body: "policy paper leaked re: cement & cement-adj. SMGR + INTP catalysts both flagged for review at 16:00.",
+    body: "Cement sector: SMGR + INTP show coordinated factor flips on Quality pillar (1d). Sector-level review flagged.",
+  },
+  {
+    ts: "10:42",
+    ticker: "BBCA",
+    body: "Q1 SUE +1.84σ (PEAD horizon: T+5 to T+60). Composite tilt unchanged; signal queued for next rebalance.",
+  },
+  {
+    ts: "09:18",
+    ticker: "UNIV",
+    body: "Quality pillar IC dropped from +0.18 to +0.04 (15d rolling). Factor decay monitored; not yet at rejection threshold.",
+  },
+  {
+    ts: "08:42",
+    ticker: "REGIME",
+    body: "Regime model posterior shift: Risk-Off probability rose from 0.21 to 0.34 (5d). Low-Vol pillar weight not yet auto-rebalanced.",
   },
 ];
 
@@ -129,7 +144,7 @@ export const SECTION_TABS: SectionTab[] = [
   { num: "03", label: "SCRN", href: "/screener" },
   { num: "04", label: "QRES", href: "/research" },
   { num: "05", label: "RISK", href: "/risk" },
-  { num: "06", label: "EXEC", href: "/execution" },
+  { num: "06", label: "BACKTEST", href: "/backtest" },
 ];
 
 export const SESSION = {

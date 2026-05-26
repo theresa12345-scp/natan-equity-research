@@ -47,11 +47,11 @@ interface SectionTile {
 
 const TILES: SectionTile[] = [
   { num: "01", label: "Markets", blurb: "IHSG +0.84% · LQ45 +0.92%", href: "/markets", stat: "FIN +1.82% · ENG +3.42%", statTone: "pos" },
-  { num: "02", label: "Portfolio", blurb: "AUM Rp 412.47 mrd · Day +0.93%", href: "/idx/portfolio", stat: "α +9bps vs IHSG TR", statTone: "pos" },
+  { num: "02", label: "Portfolio", blurb: "Hypothetical tracking · Day +0.93%", href: "/idx/portfolio", stat: "α +9bps vs IHSG TR", statTone: "pos" },
   { num: "03", label: "Screener", blurb: "24 / 184 eligible · top decile", href: "/screener", stat: "Top signal: BMRI +2.41z", statTone: "pos" },
   { num: "04", label: "Research", blurb: "CPCV μ 0.904 · DSR 99.7%", href: "/research", stat: "9/9 paths positive", statTone: "pos" },
   { num: "05", label: "Risk", blurb: "Beta 1.08 · Vol 18.4%", href: "/risk", stat: "VaR 95% −2.84%", statTone: "neg" },
-  { num: "06", label: "Execution", blurb: "12 orders · 8 filled today", href: "/execution", stat: "Slip −2.4bp vs VWAP", statTone: "pos" },
+  { num: "06", label: "Backtest", blurb: "Strategy workbench · 5 saved", href: "/backtest", stat: "Sharpe 0.91 · DSR 0.997", statTone: "pos" },
 ];
 
 const SAVED_SCREENS = [
