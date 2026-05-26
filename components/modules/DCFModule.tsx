@@ -1,3 +1,5 @@
+import ReverseDCFPanel from "./ReverseDCFPanel";
+
 interface CapmRow {
   label: string;
   value: string;
@@ -406,6 +408,16 @@ export default function DCFModule({
             </tbody>
           </table>
         </div>
+
+        {/* Reverse DCF — Mauboussin "what's priced in" */}
+        <ReverseDCFPanel
+          marketPrice={output.market}
+          intrinsicAtBase={output.intrinsic}
+          baseCAGR={9.2}
+          ke={11.41}
+          terminalGrowth={4.0}
+          currency={currency}
+        />
       </section>
     </div>
   );
