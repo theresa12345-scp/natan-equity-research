@@ -1,38 +1,96 @@
+"use client";
+
+import { useState } from "react";
+import SecurityHeader from "@/components/shell/SecurityHeader";
+import ModuleTabs, { type ModuleTab } from "@/components/shell/ModuleTabs";
+import GradeModule from "@/components/modules/GradeModule";
+import DCFModule from "@/components/modules/DCFModule";
+import CompsModule from "@/components/modules/CompsModule";
+import AlgoModule from "@/components/modules/AlgoModule";
+import NewsModule from "@/components/modules/NewsModule";
+import AuditModule from "@/components/modules/AuditModule";
+import {
+  NVDA_IDENTITY, NVDA_KPIS, NVDA_GRADE, NVDA_PILLARS, NVDA_DRIVERS, NVDA_THESIS, NVDA_GRADE_HISTORY,
+  NVDA_DCF_CAPM, NVDA_DCF_TERMINAL, NVDA_DCF_OUTPUT, NVDA_DCF_PROJECTION, NVDA_DCF_SENSITIVITY,
+  NVDA_COMPS, NVDA_COMPS_COLUMNS, NVDA_COMPS_PEER_AVG, NVDA_COMPS_DELTA, NVDA_COMPS_PROSE,
+  NVDA_FACTORS, NVDA_COMPOSITE_Z, NVDA_OVERLAYS, NVDA_BACKTEST_STATS, NVDA_EQUITY_CURVE,
+  NVDA_SENTIMENT, NVDA_SENT_HISTORY, NVDA_SOURCES, NVDA_NEWS,
+  NVDA_AUDIT_CITATIONS, NVDA_BIAS_CONTROLS, NVDA_REPRO, NVDA_LIMITATIONS,
+} from "@/lib/mock-nvda";
+
+const TABS: ModuleTab[] = [
+  { key: "grade", label: "Grade" },
+  { key: "dcf", label: "DCF" },
+  { key: "comps", label: "Comps" },
+  { key: "algo", label: "Algo & Factors" },
+  { key: "news", label: "News & Sent" },
+  { key: "audit", label: "Audit" },
+];
+
 export default function NVDAPage(): JSX.Element {
+  const [active, setActive] = useState<string>("grade");
   return (
-    <div className="px-8 py-10">
-      <div
-        className="num mb-2"
-        style={{
-          fontSize: 9,
-          color: "var(--fg-4)",
-          letterSpacing: "0.12em",
+    <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
+      <SecurityHeader
+        ticker={NVDA_IDENTITY.ticker}
+        exchange={NVDA_IDENTITY.exchange}
+        name={NVDA_IDENTITY.name}
+        sector={NVDA_IDENTITY.sector}
+        industry={NVDA_IDENTITY.industry}
+        indices={NVDA_IDENTITY.indices}
+        kpis={NVDA_KPIS}
+        grade={{
+          letter: NVDA_GRADE.letter, score: NVDA_GRADE.score, max: NVDA_GRADE.max,
+          verdict: NVDA_GRADE.verdict, verdictTone: NVDA_GRADE.verdictTone,
         }}
-      >
-        NASDAQ · UNITED STATES · INFORMATION TECHNOLOGY
-      </div>
-      <h1
-        className="num mb-1"
-        style={{
-          fontSize: 28,
-          color: "var(--mag)",
-          letterSpacing: "-0.01em",
-          fontWeight: 600,
-        }}
-      >
-        NVDA
-      </h1>
-      <div style={{ fontSize: 13, color: "var(--fg-2)" }}>NVIDIA Corporation</div>
-      <div
-        className="num"
-        style={{
-          fontSize: 10,
-          color: "var(--fg-3)",
-          marginTop: 24,
-          letterSpacing: "0.08em",
-        }}
-      >
-        ROUTE LOADED — MODULE CONTENT PENDING (Phase 2)
+        meta={[
+          { label: "RUPS", value: NVDA_IDENTITY.rups },
+          { label: "NEXT ER", value: NVDA_IDENTITY.nextEarnings },
+          { label: "FY END", value: NVDA_IDENTITY.fiscalYearEnd },
+        ]}
+      />
+      <ModuleTabs tabs={TABS} active={active} onChange={setActive} />
+      <div style={{ minHeight: 0, overflow: "auto" }}>
+        {active === "grade" && (
+          <GradeModule
+            pillars={NVDA_PILLARS}
+            drivers={NVDA_DRIVERS}
+            aggregate={{
+              letter: NVDA_GRADE.letter, score: NVDA_GRADE.score, max: NVDA_GRADE.max,
+              verdict: NVDA_GRADE.verdict, verdictTone: NVDA_GRADE.verdictTone,
+              horizon: NVDA_GRADE.horizon, targetPx: NVDA_GRADE.targetPx,
+              targetUpsidePct: NVDA_GRADE.targetUpsidePct, downsidePx: NVDA_GRADE.downsidePx,
+              downsideDeltaPct: NVDA_GRADE.downsideDeltaPct, rrRatio: NVDA_GRADE.rrRatio,
+              positionSize: NVDA_GRADE.positionSize,
+            }}
+            thesis={NVDA_THESIS}
+            history={NVDA_GRADE_HISTORY}
+            pxFormatter={(n) => `$${n.toFixed(2)}`}
+          />
+        )}
+        {active === "dcf" && (
+          <DCFModule capm={NVDA_DCF_CAPM} terminal={NVDA_DCF_TERMINAL} output={NVDA_DCF_OUTPUT}
+            projection={NVDA_DCF_PROJECTION} sensitivity={NVDA_DCF_SENSITIVITY}
+            currency="USD" unitLabel="$ billions" />
+        )}
+        {active === "comps" && (
+          <CompsModule rows={NVDA_COMPS} peerAvg={NVDA_COMPS_PEER_AVG} delta={NVDA_COMPS_DELTA}
+            prose={NVDA_COMPS_PROSE} columns={NVDA_COMPS_COLUMNS} />
+        )}
+        {active === "algo" && (
+          <AlgoModule factors={NVDA_FACTORS} composite={NVDA_COMPOSITE_Z} overlays={NVDA_OVERLAYS}
+            backtest={NVDA_BACKTEST_STATS} equityCurve={NVDA_EQUITY_CURVE}
+            factorFramework="Fama-French 5 + momentum · Carhart 1997 (US-valid)" />
+        )}
+        {active === "news" && (
+          <NewsModule sentiment={NVDA_SENTIMENT} history={NVDA_SENT_HISTORY}
+            sources={NVDA_SOURCES} feed={NVDA_NEWS} />
+        )}
+        {active === "audit" && (
+          <AuditModule citations={NVDA_AUDIT_CITATIONS} biasControls={NVDA_BIAS_CONTROLS}
+            repro={NVDA_REPRO} limitations={NVDA_LIMITATIONS}
+            extraNote="US framework: 5-factor + momentum (Carhart 1997). IDX framework: 5-factor with momentum excluded per Wirjanto et al. 2023." />
+        )}
       </div>
     </div>
   );
