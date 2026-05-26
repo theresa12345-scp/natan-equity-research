@@ -1,8 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import Select from "@/components/primitives/Select";
+import MonthlyReturnsHeatmap from "@/components/charts/MonthlyReturnsHeatmap";
+import DrawdownChart from "@/components/charts/DrawdownChart";
+import RollingSharpeChart from "@/components/charts/RollingSharpeChart";
+import AnnualReturnsChart from "@/components/charts/AnnualReturnsChart";
 import {
-  PERFORMANCE_STATS,
   EQUITY_CURVE,
   ANNOTATIONS,
   CPCV_BARS,
@@ -12,6 +16,11 @@ import {
   PILLAR_SLIDERS_US,
   BACKTEST_AUDIT,
 } from "@/lib/mock-backtest";
+import {
+  EXTENDED_STATS,
+  TOP_DRAWDOWNS,
+  STRATEGY_OPTIONS,
+} from "@/lib/mock-backtest-ext";
 
 function tone(v: number): string {
   if (v > 0) return "#00d97e";
@@ -19,18 +28,19 @@ function tone(v: number): string {
   return "#7a7a7a";
 }
 
-function PanelHead({ title, meta }: { title: string; meta?: string }): JSX.Element {
+function PanelHead({ title, meta, right }: { title: string; meta?: string; right?: React.ReactNode }): JSX.Element {
   return (
     <div className="flex items-center" style={{ height: 28, padding: "0 12px", borderBottom: "1px solid #1d1d1d", background: "#050505", gap: 10 }}>
       <span style={{ fontSize: 9.5, color: "#ff2e88", letterSpacing: "0.14em", fontWeight: 600, textTransform: "uppercase" }}>{title}</span>
       {meta ? <span style={{ fontSize: 10, color: "#7a7a7a" }}>{meta}</span> : null}
+      {right ? <div className="ml-auto">{right}</div> : null}
     </div>
   );
 }
 
 function EquityCurveChart(): JSX.Element {
   const w = 580;
-  const h = 240;
+  const h = 220;
   const pad = { l: 42, r: 16, t: 18, b: 28 };
   const innerW = w - pad.l - pad.r;
   const innerH = h - pad.t - pad.b;
@@ -64,7 +74,7 @@ function EquityCurveChart(): JSX.Element {
           </g>
         );
       })}
-      {[2014, 2016, 2018, 2020, 2022, 2024].map((yr, i) => (
+      {[2014, 2016, 2018, 2020, 2022, 2024].map((yr) => (
         <text key={yr} x={pad.l + ((yr - 2014) / 12) * innerW} y={h - 8} textAnchor="middle" style={{ fontSize: 9, fill: "#666", fontFamily: "var(--font-jetbrains)" }}>{yr}</text>
       ))}
       <g transform={`translate(${pad.l}, ${pad.t + 4})`}>
@@ -112,10 +122,21 @@ function CPCVHistogram(): JSX.Element {
   );
 }
 
+const VIEW_TABS = [
+  { key: "returns", label: "RETURNS" },
+  { key: "risk", label: "RISK" },
+  { key: "attribution", label: "ATTRIBUTION" },
+  { key: "strategies", label: "STRATEGIES" },
+  { key: "audit", label: "AUDIT" },
+] as const;
+type ViewKey = (typeof VIEW_TABS)[number]["key"];
+
 export default function BacktestPage(): JSX.Element {
+  const [strategy, setStrategy] = useState<string>("mf-v21");
   const [universe, setUniverse] = useState<string>("LQ45");
-  const [weights, setWeights] = useState(PILLAR_SLIDERS_IDX);
   const [region, setRegion] = useState<"IDX" | "US">("IDX");
+  const [weights, setWeights] = useState(PILLAR_SLIDERS_IDX);
+  const [view, setView] = useState<ViewKey>("returns");
 
   function switchRegion(r: "IDX" | "US"): void {
     setRegion(r);
@@ -129,27 +150,15 @@ export default function BacktestPage(): JSX.Element {
         <span className="num" style={{ fontSize: 9, color: "#ff2e88", letterSpacing: "0.08em", fontWeight: 600 }}>06</span>
         <h1 style={{ fontSize: 22, color: "#f5f5f5", fontWeight: 500, margin: 0, letterSpacing: "-0.01em" }}>Backtest Workbench</h1>
         <span style={{ fontSize: 11, color: "#7a7a7a", marginLeft: 8 }}>Multi-Factor Composite · CPCV-Validated · DSR-Corrected</span>
-        <div className="ml-auto flex items-center" style={{ gap: 8 }}>
-          <select
-            defaultValue="Multi-Factor v2.1"
-            className="num"
-            style={{
-              height: 26, background: "#050505", border: "1px solid #2a2a2a",
-              color: "#d8d8d8", padding: "0 8px", fontSize: 11, outline: "none",
-            }}
-          >
-            <option>Multi-Factor v2.1</option>
-            <option>Quality-Only IDX</option>
-            <option>Value-Only IDX</option>
-            <option>S&P 500 Multi-Factor</option>
-          </select>
+        <div className="ml-auto flex items-center" style={{ gap: 10, minWidth: 0 }}>
+          <Select value={strategy} options={STRATEGY_OPTIONS} onChange={setStrategy} width={260} />
           <button
             type="button"
             className="hover:brightness-110"
             style={{
-              height: 26, padding: "0 12px", background: "#ff2e88", color: "#000",
+              height: 26, padding: "0 14px", background: "#ff2e88", color: "#000",
               border: "1px solid #ff2e88", fontSize: 10, letterSpacing: "0.1em",
-              fontWeight: 700, textTransform: "uppercase", cursor: "pointer",
+              fontWeight: 700, textTransform: "uppercase", cursor: "pointer", flexShrink: 0,
             }}
           >
             RUN BACKTEST
@@ -159,7 +168,6 @@ export default function BacktestPage(): JSX.Element {
 
       {/* Strategy builder */}
       <div className="grid" style={{ gridTemplateColumns: "1fr 1fr 1fr", borderBottom: "1px solid #2a2a2a" }}>
-        {/* Universe */}
         <section style={{ borderRight: "1px solid #2a2a2a" }}>
           <PanelHead title="Universe" meta="point-in-time" />
           <div style={{ padding: "12px 14px", display: "flex", flexDirection: "column", gap: 8 }}>
@@ -169,6 +177,7 @@ export default function BacktestPage(): JSX.Element {
                   key={u}
                   type="button"
                   onClick={() => setUniverse(u)}
+                  className="hover:brightness-125"
                   style={{
                     height: 22, padding: "0 8px", background: "transparent",
                     border: `1px solid ${universe === u ? "#ff2e88" : "#2a2a2a"}`,
@@ -194,7 +203,6 @@ export default function BacktestPage(): JSX.Element {
           </div>
         </section>
 
-        {/* Factor weights */}
         <section style={{ borderRight: "1px solid #2a2a2a" }}>
           <PanelHead title={`Factor Weights · ${region}`} meta="composite" />
           <div className="flex" style={{ gap: 4, padding: "8px 14px 6px", borderBottom: "1px solid #111" }}>
@@ -227,7 +235,6 @@ export default function BacktestPage(): JSX.Element {
           </div>
         </section>
 
-        {/* Constraints */}
         <section>
           <PanelHead title="Rebalance & Constraints" />
           <div style={{ padding: "12px 14px", display: "flex", flexDirection: "column", gap: 8 }}>
@@ -252,113 +259,223 @@ export default function BacktestPage(): JSX.Element {
             <div style={{ marginTop: 4 }}>
               <div style={{ fontSize: 8.5, color: "#666", letterSpacing: "0.08em", marginBottom: 4, textTransform: "uppercase" }}>Transaction costs (read-only)</div>
               <div className="num" style={{ fontSize: 10.5, color: "#b8b8b8", lineHeight: 1.5 }}>
-                {region === "IDX" ? "IDX 18bps + 0.1% PPh sales tax" : "US 5bps"}
+                {region === "IDX" ? "IDX 18bps + 0.1% PPh sales tax + 0.04% levy" : "US 5bps + SEC fee · slippage by ADV"}
               </div>
             </div>
           </div>
         </section>
       </div>
 
-      {/* Results 2x2 */}
-      <div className="grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
-        <section style={{ borderRight: "1px solid #2a2a2a", borderBottom: "1px solid #2a2a2a" }}>
-          <PanelHead title="Equity Curve · 12 years" meta="Composite v2.1 vs IHSG TR" />
-          <div style={{ padding: "12px 14px" }}>
-            <EquityCurveChart />
-          </div>
-        </section>
-        <section style={{ borderBottom: "1px solid #2a2a2a" }}>
-          <PanelHead title="CPCV Path Sharpe Distribution" meta="n=9 paths" />
-          <div style={{ padding: "12px 14px" }}>
-            <CPCVHistogram />
-            <p style={{ fontSize: 10.5, color: "#888", marginTop: 8, fontStyle: "italic", lineHeight: 1.5 }}>
-              μ = 0.904 ± 0.040 · σ/μ = 4.4% · 100% paths &gt; 0 · Strategy robust, not path-dependent.
-            </p>
-          </div>
-        </section>
+      {/* View sub-tabs */}
+      <div className="flex items-center" style={{ height: 32, background: "#000", borderBottom: "1px solid #2a2a2a", padding: "0 8px" }} role="tablist">
+        {VIEW_TABS.map((t) => {
+          const active = t.key === view;
+          return (
+            <button
+              key={t.key}
+              type="button"
+              role="tab"
+              aria-selected={active}
+              onClick={() => setView(t.key)}
+              className="hover:brightness-125"
+              style={{
+                padding: "0 14px", height: 32, background: "transparent", border: "none",
+                borderBottom: active ? "1px solid #ff2e88" : "1px solid transparent",
+                color: active ? "#f5f5f5" : "#7a7a7a", fontSize: 10.5,
+                letterSpacing: "0.1em", fontWeight: active ? 600 : 400, cursor: "pointer",
+              }}
+            >
+              {t.label}
+            </button>
+          );
+        })}
+      </div>
 
-        <section style={{ borderRight: "1px solid #2a2a2a", borderBottom: "1px solid #2a2a2a" }}>
-          <PanelHead title="Performance Statistics" />
-          <div>
-            {PERFORMANCE_STATS.map((s, i) => (
-              <div key={s.label} className="grid items-baseline" style={{ gridTemplateColumns: "180px 100px 1fr", padding: "0 14px", height: 24, borderBottom: i < PERFORMANCE_STATS.length - 1 ? "1px solid #111" : "none", gap: 10 }}>
-                <span style={{ fontSize: 11, color: "#d8d8d8" }}>{s.label}</span>
-                <span className="num" style={{ fontSize: 11.5, color: s.tone === "pos" ? "#00d97e" : s.tone === "neg" ? "#ff4d4f" : "#f5f5f5", fontWeight: 600 }}>{s.value}</span>
-                <span className="num" style={{ fontSize: 10, color: "#7a7a7a" }}>{s.sub}</span>
+      {/* RETURNS view */}
+      {view === "returns" && (
+        <>
+          <div className="grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
+            <section style={{ borderRight: "1px solid #2a2a2a", borderBottom: "1px solid #2a2a2a" }}>
+              <PanelHead title="Equity Curve · 12 years" meta="Composite v2.1 vs IHSG TR · cumulative growth of $1" />
+              <div style={{ padding: "12px 14px" }}>
+                <EquityCurveChart />
               </div>
-            ))}
+            </section>
+            <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+              <PanelHead title="Drawdown · underwater curve" meta="peak-to-trough · pct" />
+              <div style={{ padding: "12px 14px" }}>
+                <DrawdownChart />
+              </div>
+            </section>
           </div>
-        </section>
 
-        <section style={{ borderBottom: "1px solid #2a2a2a" }}>
-          <PanelHead title="Factor Attribution · Isolated Long-Decile" />
-          <div>
-            {ISOLATED_FACTORS.map((f) => (
-              <div key={f.factor} className="grid items-center" style={{ gridTemplateColumns: "180px 1fr 50px", height: 28, padding: "0 14px", borderBottom: "1px solid #111", gap: 8 }}>
-                <span style={{ fontSize: 11, color: f.excluded ? "#666" : "#d8d8d8", fontStyle: f.excluded ? "italic" : "normal" }}>{f.factor}</span>
-                <div style={{ height: 8, background: "#0a0a0a", position: "relative" }}>
-                  <div style={{ position: "absolute", inset: 0, width: `${f.sr * 100}%`, background: f.excluded ? "#666" : "#00d97e", opacity: f.excluded ? 0.3 : 0.8 }} />
+          <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+            <PanelHead title="Monthly Returns · year × month" meta="green=gain · red=loss · column-right=annual" />
+            <MonthlyReturnsHeatmap />
+          </section>
+
+          <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+            <PanelHead title="Annual Returns · vs benchmark" meta="composite v2.1 vs IHSG TR" />
+            <div style={{ padding: "12px 14px" }}>
+              <AnnualReturnsChart />
+            </div>
+          </section>
+        </>
+      )}
+
+      {/* RISK view */}
+      {view === "risk" && (
+        <>
+          <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+            <PanelHead title="Performance & Risk Statistics" meta="24 metrics · institutional standard" />
+            <div className="grid" style={{ gridTemplateColumns: "repeat(4, minmax(0, 1fr))" }}>
+              {EXTENDED_STATS.map((s, i) => (
+                <div key={s.label} style={{
+                  padding: "10px 14px",
+                  borderRight: (i + 1) % 4 === 0 ? "none" : "1px solid #1d1d1d",
+                  borderBottom: "1px solid #111",
+                }}>
+                  <div style={{ fontSize: 8.5, color: "#666", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 5 }}>{s.label}</div>
+                  <div className="num" style={{ fontSize: 16, color: s.tone === "pos" ? "#00d97e" : s.tone === "neg" ? "#ff4d4f" : "#f5f5f5", fontWeight: 500, letterSpacing: "-0.01em" }}>{s.value}</div>
+                  <div className="num" style={{ fontSize: 9.5, color: "#7a7a7a", marginTop: 3 }}>{s.sub}</div>
                 </div>
-                <span className="num" style={{ fontSize: 11, color: f.excluded ? "#666" : "#00d97e", textAlign: "right" }}>+{f.sr.toFixed(2)}</span>
-              </div>
-            ))}
-            <div className="grid items-center" style={{ gridTemplateColumns: "180px 1fr 50px", height: 32, padding: "0 14px", borderTop: "2px solid #ff2e88", background: "rgba(255,46,136,0.05)", gap: 8 }}>
-              <span style={{ fontSize: 11, color: "#ff2e88", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase" }}>Composite (CPCV)</span>
-              <div style={{ height: 10, background: "#0a0a0a", position: "relative" }}>
-                <div style={{ position: "absolute", inset: 0, width: "90%", background: "#ff2e88" }} />
-              </div>
-              <span className="num" style={{ fontSize: 12, color: "#ff2e88", textAlign: "right", fontWeight: 700 }}>+0.90</span>
-            </div>
-            <p style={{ padding: "10px 14px", fontSize: 10.5, color: "#888", fontStyle: "italic", margin: 0, lineHeight: 1.5 }}>
-              Single-factor SR appears positive for Momentum but DSR vs K=8 trials shows insignificant — Li, Wei & Zhang (2023, PBFJ 82:102175) confirms IDX momentum factor is not statistically distinguishable from null.
-            </p>
-          </div>
-        </section>
-      </div>
-
-      {/* Saved strategies */}
-      <section style={{ borderBottom: "1px solid #2a2a2a" }}>
-        <PanelHead title="Saved Strategies" meta="click to load" />
-        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 11 }}>
-          <thead>
-            <tr style={{ background: "#050505" }}>
-              {["#", "NAME", "UNIVERSE", "SHARPE", "DSR", "MAX DD", "CAGR", "SAVED"].map((h, i) => (
-                <th key={h} style={{ padding: "6px 12px", textAlign: i < 3 ? "left" : "right", fontSize: 9, color: "#555", letterSpacing: "0.1em", fontWeight: 500, borderBottom: "1px solid #1d1d1d" }}>{h}</th>
               ))}
-            </tr>
-          </thead>
-          <tbody>
-            {SAVED_STRATEGIES.map((s, i) => (
-              <tr key={i} className="hover:bg-[#0a0a0a]" style={{ height: 24, background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a", cursor: "pointer" }}>
-                <td className="num" style={{ padding: "0 12px", color: "#666", fontSize: 10 }}>{String(i + 1).padStart(2, "0")}</td>
-                <td style={{ padding: "0 12px", color: i === 0 ? "#ff2e88" : "#d8d8d8", fontWeight: i === 0 ? 600 : 400 }}>{s.name}</td>
-                <td style={{ padding: "0 12px", color: "#888", fontSize: 10.5 }}>{s.universe}</td>
-                <td className="num" style={{ padding: "0 12px", textAlign: "right", color: "#f5f5f5" }}>{s.sharpe.toFixed(2)}</td>
-                <td className="num" style={{ padding: "0 12px", textAlign: "right", color: s.dsr >= 0.95 ? "#00d97e" : "#c4831f" }}>{s.dsr.toFixed(2)}</td>
-                <td className="num" style={{ padding: "0 12px", textAlign: "right", color: "#ff4d4f" }}>{s.mdd.toFixed(1)}%</td>
-                <td className="num" style={{ padding: "0 12px", textAlign: "right", color: "#00d97e" }}>+{s.cagr.toFixed(1)}%</td>
-                <td className="num" style={{ padding: "0 12px", textAlign: "right", color: "#7a7a7a", fontSize: 10 }}>{s.saved}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </section>
+            </div>
+          </section>
 
-      {/* Audit */}
-      <details>
-        <summary style={{ padding: "10px 14px", borderBottom: "1px solid #2a2a2a", cursor: "pointer", listStyle: "none" }}>
-          <span style={{ fontSize: 9.5, color: "#ff2e88", letterSpacing: "0.14em", fontWeight: 600, textTransform: "uppercase" }}>Audit · Methodology · Reproducibility</span>
-        </summary>
-        <div>
+          <div className="grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
+            <section style={{ borderRight: "1px solid #2a2a2a", borderBottom: "1px solid #2a2a2a" }}>
+              <PanelHead title="Rolling 36-Month Sharpe" meta="magenta dashed = 1.0 reference" />
+              <div style={{ padding: "12px 14px" }}>
+                <RollingSharpeChart />
+              </div>
+            </section>
+            <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+              <PanelHead title="Top 5 Drawdowns · 2014-2025" meta="peak / trough / recovery" />
+              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 10.5 }}>
+                <thead>
+                  <tr style={{ background: "#050505" }}>
+                    {["#", "PEAK", "TROUGH", "RECOVERY", "DEPTH", "LEN d", "REC d", "TRIGGER"].map((h, i) => (
+                      <th key={h} style={{ padding: "6px 8px", textAlign: i === 0 || i === 7 ? "left" : i < 4 ? "left" : "right", fontSize: 9, color: "#555", letterSpacing: "0.08em", fontWeight: 500, borderBottom: "1px solid #1d1d1d" }}>{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {TOP_DRAWDOWNS.map((d) => (
+                    <tr key={d.rank} style={{ height: 22 }}>
+                      <td className="num" style={{ padding: "0 8px", color: "#666", fontSize: 10 }}>{d.rank}</td>
+                      <td className="num" style={{ padding: "0 8px", color: "#b8b8b8" }}>{d.peakDate}</td>
+                      <td className="num" style={{ padding: "0 8px", color: "#b8b8b8" }}>{d.troughDate}</td>
+                      <td className="num" style={{ padding: "0 8px", color: "#b8b8b8" }}>{d.recoveryDate}</td>
+                      <td className="num" style={{ padding: "0 8px", textAlign: "right", color: "#ff4d4f", fontWeight: 600 }}>{d.depthPct.toFixed(1)}%</td>
+                      <td className="num" style={{ padding: "0 8px", textAlign: "right", color: "#7a7a7a" }}>{d.lengthDays}</td>
+                      <td className="num" style={{ padding: "0 8px", textAlign: "right", color: "#7a7a7a" }}>{d.recoveryDays}</td>
+                      <td style={{ padding: "0 8px", color: "#d8d8d8", fontSize: 10 }}>{d.trigger}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </section>
+          </div>
+        </>
+      )}
+
+      {/* ATTRIBUTION view */}
+      {view === "attribution" && (
+        <div className="grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
+          <section style={{ borderRight: "1px solid #2a2a2a", borderBottom: "1px solid #2a2a2a" }}>
+            <PanelHead title="CPCV Path Sharpe Distribution" meta="n=9 paths · embargo 1%" />
+            <div style={{ padding: "12px 14px" }}>
+              <CPCVHistogram />
+              <p style={{ fontSize: 10.5, color: "#888", marginTop: 8, fontStyle: "italic", lineHeight: 1.5 }}>
+                μ = 0.904 ± 0.040 · σ/μ = 4.4% · 100% paths &gt; 0 · Strategy robust, not path-dependent.
+              </p>
+            </div>
+          </section>
+          <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+            <PanelHead title="Factor Attribution · isolated long-decile" />
+            <div>
+              {ISOLATED_FACTORS.map((f) => (
+                <div key={f.factor} className="grid items-center" style={{ gridTemplateColumns: "180px 1fr 50px", height: 28, padding: "0 14px", borderBottom: "1px solid #111", gap: 8 }}>
+                  <span style={{ fontSize: 11, color: f.excluded ? "#666" : "#d8d8d8", fontStyle: f.excluded ? "italic" : "normal" }}>{f.factor}</span>
+                  <div style={{ height: 8, background: "#0a0a0a", position: "relative" }}>
+                    <div style={{ position: "absolute", inset: 0, width: `${f.sr * 100}%`, background: f.excluded ? "#666" : "#00d97e", opacity: f.excluded ? 0.3 : 0.8 }} />
+                  </div>
+                  <span className="num" style={{ fontSize: 11, color: f.excluded ? "#666" : "#00d97e", textAlign: "right" }}>+{f.sr.toFixed(2)}</span>
+                </div>
+              ))}
+              <div className="grid items-center" style={{ gridTemplateColumns: "180px 1fr 50px", height: 32, padding: "0 14px", borderTop: "2px solid #ff2e88", background: "rgba(255,46,136,0.05)", gap: 8 }}>
+                <span style={{ fontSize: 11, color: "#ff2e88", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase" }}>Composite (CPCV)</span>
+                <div style={{ height: 10, background: "#0a0a0a", position: "relative" }}>
+                  <div style={{ position: "absolute", inset: 0, width: "90%", background: "#ff2e88" }} />
+                </div>
+                <span className="num" style={{ fontSize: 12, color: "#ff2e88", textAlign: "right", fontWeight: 700 }}>+0.90</span>
+              </div>
+              <p style={{ padding: "10px 14px", fontSize: 10.5, color: "#888", fontStyle: "italic", margin: 0, lineHeight: 1.5 }}>
+                Single-factor SR appears positive for Momentum but DSR vs K=8 trials shows insignificant — Li, Wei &amp; Zhang (2023, PBFJ 82:102175) confirms IDX momentum factor is not statistically distinguishable from null.
+              </p>
+            </div>
+          </section>
+        </div>
+      )}
+
+      {/* STRATEGIES view */}
+      {view === "strategies" && (
+        <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+          <PanelHead title="Saved Strategies" meta="click to load" />
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 11 }}>
+            <thead>
+              <tr style={{ background: "#050505" }}>
+                {["#", "NAME", "UNIVERSE", "SHARPE", "DSR", "MAX DD", "CAGR", "SAVED"].map((h, i) => (
+                  <th key={h} style={{ padding: "6px 12px", textAlign: i < 3 ? "left" : "right", fontSize: 9, color: "#555", letterSpacing: "0.1em", fontWeight: 500, borderBottom: "1px solid #1d1d1d" }}>{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {SAVED_STRATEGIES.map((s, i) => (
+                <tr key={i} className="hover:bg-[#0a0a0a]" style={{ height: 26, background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a", cursor: "pointer" }}>
+                  <td className="num" style={{ padding: "0 12px", color: "#666", fontSize: 10 }}>{String(i + 1).padStart(2, "0")}</td>
+                  <td style={{ padding: "0 12px", color: i === 0 ? "#ff2e88" : "#d8d8d8", fontWeight: i === 0 ? 600 : 400 }}>{s.name}</td>
+                  <td style={{ padding: "0 12px", color: "#888", fontSize: 10.5 }}>{s.universe}</td>
+                  <td className="num" style={{ padding: "0 12px", textAlign: "right", color: "#f5f5f5" }}>{s.sharpe.toFixed(2)}</td>
+                  <td className="num" style={{ padding: "0 12px", textAlign: "right", color: s.dsr >= 0.95 ? "#00d97e" : "#c4831f" }}>{s.dsr.toFixed(2)}</td>
+                  <td className="num" style={{ padding: "0 12px", textAlign: "right", color: "#ff4d4f" }}>{s.mdd.toFixed(1)}%</td>
+                  <td className="num" style={{ padding: "0 12px", textAlign: "right", color: "#00d97e" }}>+{s.cagr.toFixed(1)}%</td>
+                  <td className="num" style={{ padding: "0 12px", textAlign: "right", color: "#7a7a7a", fontSize: 10 }}>{s.saved}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+      )}
+
+      {/* AUDIT view */}
+      {view === "audit" && (
+        <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+          <PanelHead title="Methodology · Reproducibility · Costs" meta="institutional disclosure" />
           {BACKTEST_AUDIT.map((a) => (
-            <div key={a.tag} style={{ padding: "10px 14px", borderBottom: "1px solid #111", display: "grid", gridTemplateColumns: "100px 1fr 1fr", gap: 14 }}>
-              <span style={{ fontSize: 9.5, color: "#ff2e88", letterSpacing: "0.14em", fontWeight: 600, border: "1px solid #ff2e88", padding: "1px 5px", background: "rgba(255,46,136,0.05)", alignSelf: "start", justifySelf: "start" }}>{a.tag}</span>
-              <span style={{ fontSize: 11, color: "#d8d8d8" }}>{a.desc}</span>
+            <div key={a.tag} style={{ padding: "12px 14px", borderBottom: "1px solid #111", display: "grid", gridTemplateColumns: "120px 1fr 1fr", gap: 14 }}>
+              <span style={{ fontSize: 9.5, color: "#ff2e88", letterSpacing: "0.14em", fontWeight: 600, border: "1px solid #ff2e88", padding: "2px 6px", background: "rgba(255,46,136,0.05)", alignSelf: "start", justifySelf: "start" }}>{a.tag}</span>
+              <span style={{ fontSize: 11.5, color: "#d8d8d8", lineHeight: 1.45 }}>{a.desc}</span>
               <span className="num" style={{ fontSize: 10, color: "#7a7a7a", fontStyle: "italic" }}>{a.cite}</span>
             </div>
           ))}
-        </div>
-      </details>
+          <div style={{ padding: "14px 16px" }}>
+            <div
+              style={{
+                padding: "12px 14px",
+                border: "1px solid #c4831f",
+                background: "rgba(196,131,31,0.05)",
+              }}
+            >
+              <div style={{ fontSize: 9.5, color: "#c4831f", letterSpacing: "0.14em", fontWeight: 600, textTransform: "uppercase", marginBottom: 6 }}>Live performance discount</div>
+              <p style={{ fontSize: 11, color: "#d8d8d8", lineHeight: 1.55, margin: 0 }}>
+                Paper-tested on point-in-time 2014–2025 data. Live performance typically achieves 50–70% of backtest Sharpe after slippage, borrow costs, regime shift, and capacity constraints. Expected live Sharpe: <span className="num" style={{ color: "#ff2e88", fontWeight: 600 }}>0.55–0.65</span>. Methodology &amp; code at <span className="num" style={{ color: "#ff2e88" }}>github.com/nluu/idx-factor-backtest</span>.
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
     </div>
   );
 }
