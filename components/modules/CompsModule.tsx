@@ -1,3 +1,5 @@
+import TickerLink from "@/components/primitives/TickerLink";
+
 interface CompRow {
   ticker: string;
   issuer: string;
@@ -132,16 +134,13 @@ export default function CompsModule({
                     borderLeft: isSubject ? "2px solid #ff2e88" : "2px solid transparent",
                   }}
                 >
-                  <td
-                    className="num"
-                    style={{
-                      padding: "0 8px",
-                      color: isSubject ? "#ff2e88" : "#f5f5f5",
-                      fontWeight: isSubject ? 600 : 500,
-                      fontSize: 11,
-                    }}
-                  >
-                    {r.ticker}
+                  <td style={{ padding: "0 8px" }}>
+                    <TickerLink
+                      ticker={r.ticker}
+                      market={r.ticker.includes(" ") ? "US" : "IDX"}
+                      size="sm"
+                      bold={isSubject}
+                    />
                   </td>
                   <td style={{ padding: "0 8px", color: "#d8d8d8", whiteSpace: "nowrap" }}>
                     {r.issuer}

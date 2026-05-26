@@ -69,6 +69,10 @@ export default function MYORPage(): JSX.Element {
             thesis={MYOR_THESIS}
             history={MYOR_GRADE_HISTORY}
             pxFormatter={(n) => `Rp ${n.toLocaleString("en-US", { maximumFractionDigits: 0 })}`}
+            ticker={MYOR_IDENTITY.ticker}
+            name={MYOR_IDENTITY.name}
+            ciLow="B−"
+            ciHigh="B+"
           />
         )}
         {active === "dcf" && (

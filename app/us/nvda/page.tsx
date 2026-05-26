@@ -66,6 +66,10 @@ export default function NVDAPage(): JSX.Element {
             thesis={NVDA_THESIS}
             history={NVDA_GRADE_HISTORY}
             pxFormatter={(n) => `$${n.toFixed(2)}`}
+            ticker={NVDA_IDENTITY.ticker}
+            name={NVDA_IDENTITY.name}
+            ciLow="B"
+            ciHigh="A−"
           />
         )}
         {active === "dcf" && (

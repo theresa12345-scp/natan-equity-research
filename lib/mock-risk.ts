@@ -29,11 +29,93 @@ export const SECTOR_CONCENTRATION = [
   { sector: "Utilities", port: 0.0, bench: 2.8, delta: -2.8 },
 ];
 
-export const STRESS_SCENARIOS = [
-  { name: "IDR -10% vs USD", impact: -8.42, tone: "neg" as const, prob: "Tail" },
-  { name: "BI rate +200bp", impact: -12.84, tone: "neg" as const, prob: "Low" },
-  { name: "Commodity reversal -20%", impact: -4.21, tone: "neg" as const, prob: "Med" },
-  { name: "Foreign outflow $1B 5d", impact: -6.42, tone: "neg" as const, prob: "Med" },
-  { name: "Sovereign downgrade", impact: -15.84, tone: "neg" as const, prob: "Tail" },
-  { name: "BI rate -100bp surprise", impact: 4.84, tone: "pos" as const, prob: "Low" },
+export interface StressHolding {
+  ticker: string;
+  weight: number;       // portfolio weight pct
+  benchWeight: number;  // benchmark weight pct
+  portReturn: number;   // hypothetical return under scenario
+  benchReturn: number;  // benchmark return under scenario for same sector
+}
+
+export interface StressScenario {
+  id: string;
+  name: string;
+  impact: number;
+  tone: "pos" | "neg";
+  prob: "Low" | "Med" | "High" | "Tail";
+  holdings: StressHolding[];
+}
+
+// Per-holding modeled returns under each scenario; aggregates feed
+// Brinson-Fachler attribution: allocation = (wp - wb) * Rb;
+// selection = wb * (Rp - Rb).
+const PORTFOLIO_HOLDINGS_SHORT = [
+  { ticker: "BBCA", weight: 10.42, benchWeight: 8.42 },
+  { ticker: "BBRI", weight: 8.91, benchWeight: 6.84 },
+  { ticker: "BMRI", weight: 7.84, benchWeight: 5.92 },
+  { ticker: "TLKM", weight: 6.42, benchWeight: 4.21 },
+  { ticker: "ASII", weight: 5.84, benchWeight: 3.84 },
+  { ticker: "ICBP", weight: 4.92, benchWeight: 2.18 },
+  { ticker: "UNVR", weight: 3.84, benchWeight: 1.94 },
+  { ticker: "MYOR", weight: 3.42, benchWeight: 0.84 },
+  { ticker: "SMGR", weight: 3.21, benchWeight: 1.21 },
+  { ticker: "INTP", weight: 2.84, benchWeight: 0.94 },
+  { ticker: "ADRO", weight: 2.62, benchWeight: 1.42 },
+  { ticker: "PGAS", weight: 2.41, benchWeight: 1.84 },
 ];
+
+function withReturns(scale: number, individualNoise: number[]): StressHolding[] {
+  return PORTFOLIO_HOLDINGS_SHORT.map((h, i) => ({
+    ...h,
+    portReturn: scale + (individualNoise[i] ?? 0),
+    benchReturn: scale * 0.85 + (individualNoise[i] ?? 0) * 0.6,
+  }));
+}
+
+export const STRESS_SCENARIOS: StressScenario[] = [
+  { id: "idr-shock", name: "IDR −10% vs USD", impact: -8.42, tone: "neg", prob: "Tail",
+    holdings: withReturns(-8.4, [-3.2, -2.4, -2.8, -1.8, -4.2, -1.2, -2.1, -1.4, 0.4, -0.2, -2.8, -1.4]) },
+  { id: "birate-up", name: "BI rate +200bp", impact: -12.84, tone: "neg", prob: "Low",
+    holdings: withReturns(-12.8, [-3.4, -4.8, -4.2, -2.1, -2.8, -1.2, -0.4, -0.8, -2.4, -2.8, -1.4, -0.4]) },
+  { id: "commodity-rev", name: "Commodity reversal −20%", impact: -4.21, tone: "neg", prob: "Med",
+    holdings: withReturns(-4.2, [-0.8, -1.2, -1.4, -0.4, -2.1, 0.2, 0.4, 0.6, -1.8, -1.4, -4.8, -3.2]) },
+  { id: "foreign-out", name: "Foreign outflow $1B 5d", impact: -6.42, tone: "neg", prob: "Med",
+    holdings: withReturns(-6.4, [-2.8, -3.2, -2.4, -1.4, -2.1, -1.2, -0.8, -0.4, -1.8, -1.2, -2.4, -1.8]) },
+  { id: "2008-gfc", name: "2008 GFC −38%", impact: -38.40, tone: "neg", prob: "Tail",
+    holdings: withReturns(-38.4, [-12.4, -14.2, -13.4, -8.4, -16.2, -4.2, -2.1, -3.4, -8.2, -10.4, -18.4, -8.2]) },
+  { id: "2013-taper", name: "2013 Taper Tantrum", impact: -15.84, tone: "neg", prob: "Tail",
+    holdings: withReturns(-15.8, [-8.4, -6.2, -5.4, -3.8, -7.2, -1.4, -0.8, -1.2, -3.4, -2.8, -4.2, -2.4]) },
+  { id: "sov-downgrade", name: "Sovereign downgrade", impact: -15.84, tone: "neg", prob: "Tail",
+    holdings: withReturns(-15.8, [-8.4, -5.2, -6.4, -2.8, -3.4, -1.2, -0.8, -1.4, -2.8, -3.2, -1.8, -0.8]) },
+  { id: "birate-down", name: "BI rate −100bp surprise", impact: 4.84, tone: "pos", prob: "Low",
+    holdings: withReturns(4.8, [2.1, 3.2, 2.8, 1.4, 0.8, 0.4, 0.2, 0.6, 0.8, 0.4, 1.2, 0.8]) },
+];
+
+export interface AttributionRow {
+  ticker: string;
+  weight: number;
+  scenarioReturn: number;
+  allocEffect: number;
+  selectionEffect: number;
+  total: number;
+}
+
+// Brinson-Fachler (1985, JPM Spring:73-76):
+// Allocation Effect (i) = (wp_i - wb_i) * Rb_i
+// Selection Effect (i)  = wb_i * (Rp_i - Rb_i)
+// Interaction folded into Selection.
+export function brinsonFachler(s: StressScenario): AttributionRow[] {
+  return s.holdings.map((h) => {
+    const wDelta = (h.weight - h.benchWeight) / 100;
+    const allocEffect = wDelta * h.benchReturn;
+    const selectionEffect = (h.benchWeight / 100) * (h.portReturn - h.benchReturn);
+    return {
+      ticker: h.ticker,
+      weight: h.weight,
+      scenarioReturn: h.portReturn,
+      allocEffect,
+      selectionEffect,
+      total: allocEffect + selectionEffect,
+    };
+  });
+}

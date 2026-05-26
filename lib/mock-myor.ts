@@ -43,15 +43,27 @@ export const MYOR_GRADE = {
   positionSize: 3.0,
 };
 
+// 8-pillar EM-aware weights per Li, Wei & Zhang (2023) PBFJ 82:102175.
+// TODO: replace with lib/grade/pillars.ts computation against MYOR fundamentals once ported.
 export const MYOR_PILLARS = [
-  { name: "Technical", weight: 20, score: 64, letter: "C+", tone: "amber" as const },
-  { name: "Sentiment", weight: 15, score: 68, letter: "B−", tone: "pos" as const },
-  { name: "Valuation", weight: 15, score: 58, letter: "C+", tone: "amber" as const },
-  { name: "Quality", weight: 15, score: 88, letter: "A−", tone: "pos" as const },
-  { name: "Growth", weight: 10, score: 82, letter: "B+", tone: "pos" as const },
-  { name: "Financial Health", weight: 10, score: 84, letter: "B+", tone: "pos" as const },
-  { name: "Liquidity", weight: 10, score: 78, letter: "B+", tone: "pos" as const },
-  { name: "Analyst", weight: 5, score: 72, letter: "B", tone: "mag" as const },
+  { name: "Valuation", weight: 20, score: 58, letter: "C+", tone: "amber" as const,
+    raw: { pe: 22.4, pbv: 3.84, evEbitda: 14.8, divYield: 1.84 }, pctRank: 28, contribution: 11.6 },
+  { name: "Quality", weight: 20, score: 88, letter: "A−", tone: "pos" as const,
+    raw: { roe: 21.8, gpoa: 4.84, brandMoat: "strong" }, pctRank: 84, contribution: 17.6 },
+  { name: "Profitability", weight: 15, score: 84, letter: "B+", tone: "pos" as const,
+    raw: { grossMargin: 28.4, opMargin: 14.2, fcfConv: 0.84 }, pctRank: 78, contribution: 12.6 },
+  { name: "Financial Health", weight: 10, score: 82, letter: "B+", tone: "pos" as const,
+    raw: { piotroskiF: 7, altmanZ: 3.84, debtToEbitda: 1.42 }, pctRank: 76, contribution: 8.2 },
+  { name: "Low-Vol / Defensive", weight: 10, score: 78, letter: "B+", tone: "pos" as const,
+    raw: { beta: 0.84, realizedVol: 21.8 }, pctRank: 72, contribution: 7.8 },
+  { name: "Sentiment", weight: 10, score: 68, letter: "B−", tone: "pos" as const,
+    raw: { score7d: 0.32, indoBert: 0.42, n: 18 }, pctRank: 62, contribution: 6.8 },
+  { name: "Growth", weight: 5, score: 82, letter: "B+", tone: "pos" as const,
+    raw: { rev3yCagr: 9.2, eps3yCagr: 8.4 }, pctRank: 78, contribution: 4.1 },
+  { name: "Momentum (ST reversal)", weight: 5, score: 54, letter: "C+", tone: "amber" as const,
+    raw: { ret1m: 0.18, ret3m: 1.18, stReversal: 0.21 }, pctRank: 48, contribution: 2.7 },
+  { name: "Liquidity", weight: 5, score: 72, letter: "B", tone: "mag" as const,
+    raw: { adtv: 28, amihud: 0.0084 }, pctRank: 64, contribution: 3.6 },
 ];
 
 export const MYOR_DRIVERS = [
@@ -229,11 +241,11 @@ export const MYOR_NEWS = [
 
 export const MYOR_AUDIT_CITATIONS = [
   { tag: "CPCV", title: "Combinatorial Purged Cross-Validation", citation: "López de Prado (2018), Adv. in Financial Machine Learning, ch. 12" },
-  { tag: "DSR", title: "Deflated Sharpe Ratio", citation: "Bailey & López de Prado (2014), JPM 40(5)" },
+  { tag: "DSR", title: "Deflated Sharpe Ratio", citation: "Bailey & López de Prado (2014), JPM 40(5):94-107" },
   { tag: "PBO", title: "Probability of Backtest Overfitting", citation: "Bailey, Borwein, López de Prado, Zhu (2017)" },
-  { tag: "FACTORS", title: "IDX 152-factor Bayesian study", citation: "Wirjanto et al. (2023), Pac-Basin FJ 81, 102127" },
+  { tag: "FACTORS", title: "IDX 152-factor Bayesian study", citation: "Li, Wei & Zhang (2023), Pacific-Basin Finance Journal 82, Article 102175" },
+  { tag: "QMJ", title: "Quality Minus Junk", citation: "Asness, Frazzini, Pedersen (2019), Rev. Acc. Studies 24(1):34-112" },
   { tag: "ERP", title: "Country Risk Premium model", citation: "Damodaran (2026), NYU Stern country risk dataset" },
-  { tag: "STAPLES", title: "Consumer Staples factor calibration", citation: "Asness, Frazzini, Pedersen (2019), JFE 134" },
 ];
 
 export const MYOR_BIAS_CONTROLS = [

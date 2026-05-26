@@ -42,16 +42,48 @@ export const BBCA_GRADE = {
   positionSize: 5.0,
 };
 
-// 8-pillar decomposition per METHODOLOGY.md §2
+// 8-pillar decomposition per METHODOLOGY.md §2 — EM-aware weights per
+// Li, Wei & Zhang (2023) Pacific-Basin Finance Journal 82:102175.
+// IDX framework: Quality+Profitability+Valuation = 55% of weight.
+// Momentum is reframed as short-term reversal at 5% (NOT 12-1 trend) —
+// Li-Wei-Zhang find IDX momentum factor is not statistically significant.
 export const BBCA_PILLARS = [
-  { name: "Technical", weight: 20, score: 68, letter: "B", tone: "mag" as const },
-  { name: "Sentiment", weight: 15, score: 74, letter: "B+", tone: "pos" as const },
-  { name: "Valuation", weight: 15, score: 62, letter: "C+", tone: "amber" as const },
-  { name: "Quality", weight: 15, score: 94, letter: "A", tone: "pos" as const },
-  { name: "Growth", weight: 10, score: 78, letter: "B+", tone: "pos" as const },
-  { name: "Financial Health", weight: 10, score: 91, letter: "A−", tone: "pos" as const },
-  { name: "Liquidity", weight: 10, score: 96, letter: "A", tone: "pos" as const },
-  { name: "Analyst", weight: 5, score: 88, letter: "A−", tone: "pos" as const },
+  { name: "Valuation", weight: 20, score: 62, letter: "C+", tone: "amber" as const,
+    raw: { pe: 19.4, pbv: 4.62, evEbitda: 14.2, pfcf: 21.8, divYield: 2.94 },
+    winsorized: { peZ: -0.84, pbvZ: -1.21, evEbitdaZ: -0.62 },
+    pctRank: 32, contribution: 12.4 },
+  { name: "Quality", weight: 20, score: 94, letter: "A", tone: "pos" as const,
+    raw: { roe: 22.8, gpoa: 6.18, casaRatio: 81.4, niStability5y: 0.94 },
+    winsorized: { qmjZ: 2.84 },
+    pctRank: 94, contribution: 18.8 },
+  { name: "Profitability", weight: 15, score: 91, letter: "A−", tone: "pos" as const,
+    raw: { nim: 5.84, opMargin: 47.2, fcfConv: 1.18 },
+    winsorized: { profZ: 2.41 },
+    pctRank: 88, contribution: 13.6 },
+  { name: "Financial Health", weight: 10, score: 88, letter: "A−", tone: "pos" as const,
+    raw: { piotroskiF: 8, altmanZ: 4.21, npl: 1.84, tier1: 22.4 },
+    winsorized: { healthZ: 1.84 },
+    pctRank: 84, contribution: 8.8 },
+  { name: "Low-Vol / Defensive", weight: 10, score: 84, letter: "A−", tone: "pos" as const,
+    raw: { beta: 1.05, realizedVol: 18.4, mddTtm: -18.4 },
+    winsorized: { babZ: 1.42 },
+    pctRank: 78, contribution: 8.4 },
+  { name: "Sentiment", weight: 10, score: 76, letter: "B", tone: "pos" as const,
+    raw: { score7d: 0.51, indoBert: 0.62, foreignFlow5d: 84, n: 42 },
+    winsorized: { sentZ: 1.21 },
+    pctRank: 72, contribution: 7.6 },
+  { name: "Growth", weight: 5, score: 71, letter: "B−", tone: "mag" as const,
+    raw: { rev3yCagr: 9.4, eps3yCagr: 11.2, expGrowth: 0.94 },
+    winsorized: { growthZ: 0.84 },
+    pctRank: 68, contribution: 3.6 },
+  { name: "Momentum (ST reversal)", weight: 5, score: 42, letter: "C−", tone: "neg" as const,
+    raw: { ret1m: 2.81, ret3m: -4.21, stReversal: -0.42 },
+    winsorized: { stRevZ: -0.62 },
+    pctRank: 32, contribution: 2.1 },
+  { name: "Liquidity", weight: 5, score: 96, letter: "A+", tone: "pos" as const,
+    raw: { adtv: 327, amihud: 0.0021, lotSize: 100 },
+    winsorized: { liqZ: 2.41 },
+    pctRank: 96, contribution: 4.8 },
 ];
 
 export const BBCA_DRIVERS = [
@@ -279,11 +311,11 @@ export const BBCA_NEWS: NewsRow[] = [
 
 export const BBCA_AUDIT_CITATIONS = [
   { tag: "CPCV", title: "Combinatorial Purged Cross-Validation", citation: "López de Prado (2018), Adv. in Financial Machine Learning, ch. 12" },
-  { tag: "DSR", title: "Deflated Sharpe Ratio", citation: "Bailey & López de Prado (2014), JPM 40(5)" },
+  { tag: "DSR", title: "Deflated Sharpe Ratio", citation: "Bailey & López de Prado (2014), JPM 40(5):94-107" },
   { tag: "PBO", title: "Probability of Backtest Overfitting", citation: "Bailey, Borwein, López de Prado, Zhu (2017)" },
-  { tag: "FACTORS", title: "IDX 152-factor Bayesian study", citation: "Wirjanto et al. (2023), Pac-Basin FJ 81, 102127" },
+  { tag: "FACTORS", title: "IDX 152-factor Bayesian study", citation: "Li, Wei & Zhang (2023), Pacific-Basin Finance Journal 82, Article 102175" },
+  { tag: "QMJ", title: "Quality Minus Junk", citation: "Asness, Frazzini, Pedersen (2019), Rev. Acc. Studies 24(1):34-112" },
   { tag: "ERP", title: "Country Risk Premium model", citation: "Damodaran (2026), NYU Stern country risk dataset" },
-  { tag: "PEAD", title: "Post-Earnings Announcement Drift · EM", citation: "Ho, Le, Nguyen (2024), Pac-Basin FJ 78" },
 ];
 
 export const BBCA_BIAS_CONTROLS = [

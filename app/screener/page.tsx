@@ -1,4 +1,5 @@
 import { SCREENER_ROWS, SCREENER_WEIGHTS, SCREENER_OVERLAY_WEIGHTS } from "@/lib/mock-screener";
+import TickerLink from "@/components/primitives/TickerLink";
 
 function tone(v: number): string {
   if (v > 0) return "#00d97e";
@@ -115,7 +116,7 @@ export default function ScreenerPage(): JSX.Element {
                 return (
                   <tr key={r.ticker + r.rank} style={{ height: 22, background: isAlt ? "rgba(255,46,136,0.04)" : i % 2 === 0 ? "#0d0d0d" : "#0a0a0a", borderLeft: isAlt ? "2px solid #ff2e88" : "2px solid transparent" }}>
                     <td className="num" style={{ padding: "0 8px", textAlign: "right", color: "#666", fontSize: 10 }}>{String(r.rank).padStart(3, "0")}</td>
-                    <td className="num" style={{ padding: "0 8px", color: "#ff2e88", fontWeight: 500 }}>{r.ticker}</td>
+                    <td style={{ padding: "0 8px" }}><TickerLink ticker={r.ticker} market="IDX" size="sm" /></td>
                     <td style={{ padding: "0 8px", color: "#d8d8d8", whiteSpace: "nowrap" }}>{r.emiten}</td>
                     <td style={{ padding: "0 8px", color: "#7a7a7a", fontSize: 10 }}>{r.sect}</td>
                     <td className="num" style={{ padding: "0 8px", textAlign: "right", color: "#ff2e88", fontWeight: 600 }}>{r.compZ >= 0 ? "+" : ""}{r.compZ.toFixed(2)}</td>

@@ -6,6 +6,7 @@ import TopBar from "@/components/shell/TopBar";
 import TickerTape from "@/components/shell/TickerTape";
 import RightRail from "@/components/shell/RightRail";
 import StatusBar from "@/components/shell/StatusBar";
+import ShellChrome from "@/components/shell/ShellChrome";
 
 const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
@@ -32,26 +33,28 @@ export default function RootLayout({
       <body
         className={`${GeistSans.className} bg-surface-0 text-fg min-h-screen`}
       >
-        <div
-          className="grid min-h-screen"
-          style={{ gridTemplateRows: "auto auto 1fr auto" }}
-        >
-          <TopBar />
-          <TickerTape />
-
+        <ShellChrome>
           <div
-            className="grid"
-            style={{
-              gridTemplateColumns: "1fr 280px",
-              minHeight: 0,
-            }}
+            className="grid min-h-screen"
+            style={{ gridTemplateRows: "auto auto 1fr auto" }}
           >
-            <main className="overflow-auto">{children}</main>
-            <RightRail />
-          </div>
+            <TopBar />
+            <TickerTape />
 
-          <StatusBar />
-        </div>
+            <div
+              className="grid"
+              style={{
+                gridTemplateColumns: "1fr 280px",
+                minHeight: 0,
+              }}
+            >
+              <main className="overflow-auto">{children}</main>
+              <RightRail />
+            </div>
+
+            <StatusBar />
+          </div>
+        </ShellChrome>
       </body>
     </html>
   );

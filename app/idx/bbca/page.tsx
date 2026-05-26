@@ -104,6 +104,10 @@ export default function BBCAPage(): JSX.Element {
             pxFormatter={(n) =>
               `Rp ${n.toLocaleString("en-US", { maximumFractionDigits: 0 })}`
             }
+            ticker={BBCA_IDENTITY.ticker}
+            name={BBCA_IDENTITY.name}
+            ciLow="B+"
+            ciHigh="A"
           />
         ) : null}
 

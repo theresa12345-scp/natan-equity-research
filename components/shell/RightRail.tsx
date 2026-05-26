@@ -1,4 +1,5 @@
 import { QUOTE_WATCH, ALERTS, SAVED_SCREENS } from "@/lib/mock-data";
+import TickerLink from "@/components/primitives/TickerLink";
 
 function deltaColor(pct: number): string {
   if (pct > 0) return "#00d97e";
@@ -90,17 +91,7 @@ export default function RightRail(): JSX.Element {
                 gap: 8,
               }}
             >
-              <span
-                className="num"
-                style={{
-                  fontSize: 10.5,
-                  color: "#f5f5f5",
-                  letterSpacing: "0.03em",
-                  fontWeight: 500,
-                }}
-              >
-                {q.symbol}
-              </span>
+              <TickerLink ticker={q.symbol} market="IDX" size="sm" />
               <span
                 className="num text-right"
                 style={{ fontSize: 10.5, color: "#d8d8d8" }}
@@ -145,17 +136,7 @@ export default function RightRail(): JSX.Element {
               >
                 {a.ts}
               </span>
-              <span
-                className="num"
-                style={{
-                  fontSize: 10,
-                  color: "#ff2e88",
-                  fontWeight: 600,
-                  letterSpacing: "0.04em",
-                }}
-              >
-                {a.ticker}
-              </span>
+              <TickerLink ticker={a.ticker} market="IDX" size="xs" />
             </div>
             <div
               style={{

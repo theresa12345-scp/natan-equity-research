@@ -1,9 +1,18 @@
+"use client";
+
+import { useState } from "react";
+import ScoreDerivationDrawer from "./ScoreDerivationDrawer";
+
 interface Pillar {
   name: string;
   weight: number;
   score: number;
   letter: string;
   tone: "mag" | "pos" | "amber" | "neg";
+  raw?: Record<string, number | string | undefined>;
+  winsorized?: Record<string, number | undefined>;
+  pctRank?: number;
+  contribution?: number;
 }
 
 interface Driver {
@@ -40,6 +49,10 @@ interface GradeModuleProps {
   thesis: string;
   history: GradeHistoryPoint[];
   pxFormatter?: (n: number) => string;
+  ticker?: string;
+  name?: string;
+  ciLow?: string;
+  ciHigh?: string;
 }
 
 function pillarColor(tone: Pillar["tone"]): string {
@@ -223,7 +236,13 @@ export default function GradeModule({
   thesis,
   history,
   pxFormatter = (n) => n.toLocaleString("en-US"),
+  ticker = "",
+  name = "",
+  ciLow,
+  ciHigh,
 }: GradeModuleProps): JSX.Element {
+  const [drawerOpen, setDrawerOpen] = useState<boolean>(false);
+
   return (
     <div
       className="grid"
@@ -291,17 +310,28 @@ export default function GradeModule({
                   / {aggregate.max}
                 </span>
               </div>
-              <div
+              <button
+                type="button"
+                onClick={() => setDrawerOpen(true)}
+                className="hover:brightness-125"
+                aria-label="Open score derivation drawer"
                 style={{
                   fontSize: 22,
                   color: "#ff2e88",
                   fontWeight: 700,
                   marginTop: 2,
                   letterSpacing: "-0.02em",
+                  background: "transparent",
+                  border: "none",
+                  padding: 0,
+                  cursor: "pointer",
+                  textDecoration: "underline",
+                  textDecorationColor: "rgba(255,46,136,0.4)",
+                  textUnderlineOffset: 3,
                 }}
               >
                 {aggregate.letter}
-              </div>
+              </button>
             </div>
             <div>
               <div
@@ -450,6 +480,18 @@ export default function GradeModule({
           <GradeHistoryChart data={history} />
         </div>
       </section>
+
+      <ScoreDerivationDrawer
+        open={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+        ticker={ticker}
+        name={name}
+        pillars={pillars}
+        aggregate={aggregate}
+        positionCap={aggregate.positionSize}
+        ciLow={ciLow}
+        ciHigh={ciHigh}
+      />
     </div>
   );
 }

@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { FILLS, EXEC_STATS, type Fill } from "@/lib/mock-execution";
+import { FILLS, EXEC_STATS, fillSlippageBp, type Fill } from "@/lib/mock-execution";
+import TickerLink from "@/components/primitives/TickerLink";
 
 function tone(side: Fill["side"]): string {
   return side === "BUY" ? "#00d97e" : "#ff4d4f";
@@ -49,29 +50,47 @@ export default function ExecutionPage(): JSX.Element {
         {/* Fills table */}
         <section style={{ borderRight: "1px solid #2a2a2a" }}>
           <PanelHead title="Fills · today" meta="all venues · gross" />
+          <div style={{ overflowX: "auto" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 11 }}>
             <thead>
               <tr style={{ background: "#050505" }}>
-                {["TS", "TICKER", "SIDE", "QTY", "PX", "NOTIONAL · jt", "VENUE", "STATUS"].map((c, i) => (
-                  <th key={c} style={{ padding: "6px 10px", textAlign: i < 3 ? "left" : "right", fontSize: 9, color: "#555", letterSpacing: "0.1em", fontWeight: 500, borderBottom: "1px solid #1d1d1d" }}>{c}</th>
+                {["TS", "TICKER", "SIDE", "QTY", "PX", "NOT · jt", "VWAP", "ARR PX", "SLIP bp", "REAL P&L", "UNRL P&L", "STATUS"].map((c, i) => (
+                  <th key={c} style={{ padding: "6px 10px", textAlign: i < 3 ? "left" : "right", fontSize: 9, color: "#555", letterSpacing: "0.1em", fontWeight: 500, borderBottom: "1px solid #1d1d1d", whiteSpace: "nowrap" }}>{c}</th>
                 ))}
               </tr>
             </thead>
             <tbody>
-              {FILLS.map((f, i) => (
+              {FILLS.map((f, i) => {
+                const slip = fillSlippageBp(f);
+                const pnlColor = (v: number): string => v > 0 ? "#00d97e" : v < 0 ? "#ff2e88" : "#7a7a7a";
+                return (
                 <tr key={i} style={{ height: 22, background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a" }}>
                   <td className="num" style={{ padding: "0 10px", color: "#7a7a7a" }}>{f.ts}</td>
-                  <td className="num" style={{ padding: "0 10px", color: "#ff2e88", fontWeight: 500 }}>{f.ticker}</td>
+                  <td style={{ padding: "0 10px" }}>
+                    <TickerLink ticker={f.ticker} market="IDX" size="sm" />
+                  </td>
                   <td style={{ padding: "0 10px", color: tone(f.side), fontWeight: 600, letterSpacing: "0.08em" }}>{f.side}</td>
                   <td className="num" style={{ padding: "0 10px", textAlign: "right", color: "#d8d8d8" }}>{f.qty.toLocaleString()}</td>
                   <td className="num" style={{ padding: "0 10px", textAlign: "right", color: "#f5f5f5" }}>{f.px.toLocaleString()}</td>
                   <td className="num" style={{ padding: "0 10px", textAlign: "right", color: "#d8d8d8" }}>{f.notional.toFixed(2)}</td>
-                  <td className="num" style={{ padding: "0 10px", textAlign: "right", color: "#888" }}>{f.venue}</td>
+                  <td className="num" style={{ padding: "0 10px", textAlign: "right", color: "#b8b8b8" }}>{f.vwap.toLocaleString()}</td>
+                  <td className="num" style={{ padding: "0 10px", textAlign: "right", color: "#b8b8b8" }}>{f.arrivalPx.toLocaleString()}</td>
+                  <td className="num" title="vs arrival price benchmark" style={{ padding: "0 10px", textAlign: "right", color: pnlColor(-slip) }}>
+                    {slip >= 0 ? "+" : ""}{slip.toFixed(1)}
+                  </td>
+                  <td className="num" style={{ padding: "0 10px", textAlign: "right", color: pnlColor(f.realizedPnlJt) }}>
+                    {f.realizedPnlJt === 0 ? "—" : `${f.realizedPnlJt >= 0 ? "+" : ""}${f.realizedPnlJt.toFixed(2)}`}
+                  </td>
+                  <td className="num" style={{ padding: "0 10px", textAlign: "right", color: pnlColor(f.unrealizedPnlJt) }}>
+                    {f.unrealizedPnlJt === 0 ? "—" : `${f.unrealizedPnlJt >= 0 ? "+" : ""}${f.unrealizedPnlJt.toFixed(2)}`}
+                  </td>
                   <td className="num" style={{ padding: "0 10px", textAlign: "right", color: statusColor(f.status), fontWeight: 600, fontSize: 10, letterSpacing: "0.08em" }}>{f.status}</td>
                 </tr>
-              ))}
+              );
+              })}
             </tbody>
           </table>
+          </div>
         </section>
 
         {/* Order entry stub */}

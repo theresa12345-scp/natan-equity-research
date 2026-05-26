@@ -43,15 +43,27 @@ export const NVDA_GRADE = {
   positionSize: 2.5,
 };
 
+// US-aware 8-pillar weights — Momentum INCLUDED per Carhart (1997).
+// Validity per Fama-French 5 (2015) + Carhart momentum baseline.
 export const NVDA_PILLARS = [
-  { name: "Technical · momentum", weight: 20, score: 88, letter: "A−", tone: "pos" as const },
-  { name: "Sentiment", weight: 15, score: 74, letter: "B+", tone: "pos" as const },
-  { name: "Valuation", weight: 15, score: 38, letter: "D+", tone: "neg" as const },
-  { name: "Quality", weight: 15, score: 96, letter: "A+", tone: "pos" as const },
-  { name: "Growth", weight: 10, score: 98, letter: "A+", tone: "pos" as const },
-  { name: "Financial Health", weight: 10, score: 92, letter: "A−", tone: "pos" as const },
-  { name: "Liquidity", weight: 10, score: 98, letter: "A+", tone: "pos" as const },
-  { name: "Analyst", weight: 5, score: 84, letter: "B+", tone: "mag" as const },
+  { name: "Valuation", weight: 15, score: 38, letter: "D+", tone: "neg" as const,
+    raw: { peFwd: 32.8, ps: 21.4, evEbitda: 38.4, pfcf: 48.2 }, pctRank: 8, contribution: 5.7 },
+  { name: "Quality", weight: 15, score: 96, letter: "A+", tone: "pos" as const,
+    raw: { roe: 98.4, gpoa: 0.74, operatingLeverage: "max" }, pctRank: 98, contribution: 14.4 },
+  { name: "Profitability", weight: 10, score: 98, letter: "A+", tone: "pos" as const,
+    raw: { grossMargin: 74.8, opMargin: 62.1, fcfConv: 0.92 }, pctRank: 99, contribution: 9.8 },
+  { name: "Financial Health", weight: 10, score: 92, letter: "A", tone: "pos" as const,
+    raw: { piotroskiF: 9, altmanZ: 8.42, netCash: 32.4 }, pctRank: 94, contribution: 9.2 },
+  { name: "Low-Vol / Defensive", weight: 10, score: 56, letter: "C", tone: "amber" as const,
+    raw: { beta: 1.84, realizedVol: 38.4, mddTtm: -32.4 }, pctRank: 38, contribution: 5.6 },
+  { name: "Sentiment", weight: 10, score: 84, letter: "A−", tone: "pos" as const,
+    raw: { score7d: 0.42, finBert: 0.62, n: 38 }, pctRank: 82, contribution: 8.4 },
+  { name: "Growth", weight: 10, score: 94, letter: "A", tone: "pos" as const,
+    raw: { rev3yCagr: 28.4, eps3yCagr: 84.2 }, pctRank: 96, contribution: 9.4 },
+  { name: "Momentum (Carhart 12-1)", weight: 15, score: 88, letter: "A−", tone: "pos" as const,
+    raw: { ret12m1: 84.2, decileRank: 9 }, pctRank: 92, contribution: 13.2 },
+  { name: "Liquidity", weight: 5, score: 100, letter: "A+", tone: "pos" as const,
+    raw: { adv: 38400, amihud: 0.000018 }, pctRank: 100, contribution: 5.0 },
 ];
 
 export const NVDA_DRIVERS = [
@@ -232,11 +244,11 @@ export const NVDA_NEWS = [
 
 export const NVDA_AUDIT_CITATIONS = [
   { tag: "CPCV", title: "Combinatorial Purged Cross-Validation", citation: "López de Prado (2018), Adv. in Financial Machine Learning, ch. 12" },
-  { tag: "DSR", title: "Deflated Sharpe Ratio", citation: "Bailey & López de Prado (2014), JPM 40(5)" },
-  { tag: "MOMENTUM", title: "Carhart 4-factor model — momentum INCLUDED for US", citation: "Carhart (1997), JF 52(1)" },
-  { tag: "FF5", title: "Fama-French 5-factor model", citation: "Fama & French (2015), JFE 116" },
-  { tag: "ERP", title: "Country Risk Premium · US base", citation: "Damodaran (2026), NYU Stern country risk dataset" },
-  { tag: "PEAD", title: "Post-Earnings Announcement Drift · US", citation: "Bernard & Thomas (1989), JF 44(2)" },
+  { tag: "DSR", title: "Deflated Sharpe Ratio", citation: "Bailey & López de Prado (2014), JPM 40(5):94-107" },
+  { tag: "MOMENTUM", title: "Carhart 4-factor — momentum INCLUDED for US", citation: "Carhart (1997), Journal of Finance 52(1)" },
+  { tag: "FF5", title: "Fama-French 5-factor model", citation: "Fama & French (2015), JFE 116(1):1-22" },
+  { tag: "QMJ", title: "Quality Minus Junk", citation: "Asness, Frazzini, Pedersen (2019), Rev. Acc. Studies 24(1):34-112" },
+  { tag: "HXZ", title: "q-factor model — alternate to FF5", citation: "Hou, Xue & Zhang (2015), RFS 28(3):650-705" },
 ];
 
 export const NVDA_BIAS_CONTROLS = [

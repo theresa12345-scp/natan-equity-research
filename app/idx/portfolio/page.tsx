@@ -10,6 +10,7 @@ import {
   type ValueTone,
   type SubSpan,
 } from "@/lib/mock-portfolio";
+import TickerLink from "@/components/primitives/TickerLink";
 
 // ---------------- formatters & tone helpers ----------------
 
@@ -293,16 +294,11 @@ function HoldingRow({ row, idx }: { row: HoldingRow; idx: number }): JSX.Element
       style={{ background: bg, height: 18 }}
     >
       <td
-        className="num"
         style={{
           padding: "0 8px",
-          color: "#f5f5f5",
-          fontSize: 11,
-          letterSpacing: "0.03em",
-          fontWeight: 500,
         }}
       >
-        {row.kode}
+        <TickerLink ticker={row.kode} market="IDX" />
       </td>
       <td
         style={{
