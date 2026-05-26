@@ -241,7 +241,7 @@ function HoldingsActions(): JSX.Element {
   const labels = ["EXPORT", "REBALANCE", "+ ADD"] as const;
   return (
     <>
-      {labels.map((l) => (
+      {labels.map((l, i) => (
         <button
           key={l}
           type="button"
@@ -249,6 +249,7 @@ function HoldingsActions(): JSX.Element {
           style={{
             height: 22,
             padding: "0 8px",
+            marginLeft: i === 0 ? 0 : 6,
             background: "transparent",
             border: "1px solid #2a2a2a",
             color: "#b8b8b8",
@@ -272,7 +273,7 @@ const COL_HEADERS: Array<{
   width?: string;
 }> = [
   { label: "KODE", align: "left", width: "58px" },
-  { label: "EMITEN", align: "left" },
+  { label: "EMITEN", align: "left", width: "180px" },
   { label: "WT %", align: "right", width: "54px" },
   { label: "LOT", align: "right", width: "56px" },
   { label: "COST BASIS", align: "right", width: "78px" },
@@ -311,7 +312,6 @@ function HoldingRow({ row, idx }: { row: HoldingRow; idx: number }): JSX.Element
           whiteSpace: "nowrap",
           overflow: "hidden",
           textOverflow: "ellipsis",
-          maxWidth: 0,
         }}
       >
         {row.emiten}
