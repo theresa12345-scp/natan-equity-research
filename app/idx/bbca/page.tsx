@@ -3,6 +3,7 @@
 import { useState } from "react";
 import SecurityHeader from "@/components/shell/SecurityHeader";
 import ModuleTabs, { type ModuleTab } from "@/components/shell/ModuleTabs";
+import VerdictCard from "@/components/modules/VerdictCard";
 import GradeModule from "@/components/modules/GradeModule";
 import DCFModule from "@/components/modules/DCFModule";
 import CompsModule from "@/components/modules/CompsModule";
@@ -77,6 +78,15 @@ export default function BBCAPage(): JSX.Element {
         kpis={BBCA_KPIS}
         grade={{ letter: BBCA_GRADE.letter, score: BBCA_GRADE.score, max: BBCA_GRADE.max, verdict: BBCA_GRADE.verdict, verdictTone: BBCA_GRADE.verdictTone }}
         meta={[{ label: "RUPS", value: BBCA_IDENTITY.rups }, { label: "NEXT ER", value: BBCA_IDENTITY.nextEarnings }, { label: "FY END", value: BBCA_IDENTITY.fiscalYearEnd }]}
+      />
+      <VerdictCard
+        letter={BBCA_GRADE.letter}
+        score={BBCA_GRADE.score}
+        max={BBCA_GRADE.max}
+        compositeZ={2.18}
+        pctRankLabel="92nd %ile · LQ45 Financials"
+        pillars={BBCA_PILLARS}
+        regimeSensitivity="Risk-On lean (β_regime 0.84)"
       />
       <ModuleTabs tabs={TABS} active={active} onChange={setActive} />
       <div style={{ minHeight: 0, overflow: "auto" }}>

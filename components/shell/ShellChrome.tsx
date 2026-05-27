@@ -8,6 +8,7 @@ import {
   type ReactNode,
 } from "react";
 import CommandPalette from "@/components/shell/CommandPalette";
+import WatchlistChip from "@/components/shell/WatchlistChip";
 
 interface CmdContextValue {
   open: () => void;
@@ -41,6 +42,7 @@ export default function ShellChrome({ children }: ShellChromeProps): JSX.Element
     <CmdContext.Provider value={{ open: () => setPaletteOpen(true) }}>
       {children}
       <CommandPalette open={paletteOpen} onClose={() => setPaletteOpen(false)} />
+      <WatchlistChip />
     </CmdContext.Provider>
   );
 }

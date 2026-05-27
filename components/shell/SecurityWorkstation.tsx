@@ -3,6 +3,7 @@
 import { useState } from "react";
 import SecurityHeader from "@/components/shell/SecurityHeader";
 import ModuleTabs, { type ModuleTab } from "@/components/shell/ModuleTabs";
+import VerdictCard from "@/components/modules/VerdictCard";
 import GradeModule from "@/components/modules/GradeModule";
 import DCFModule from "@/components/modules/DCFModule";
 import CompsModule from "@/components/modules/CompsModule";
@@ -144,6 +145,16 @@ export default function SecurityWorkstation({
           ...(identity.fiscalYearEnd ? [{ label: "FY END", value: identity.fiscalYearEnd }] : []),
           ...(isGeneric ? [{ label: "RENDER", value: "AUTO" }] : []),
         ]}
+      />
+
+      <VerdictCard
+        letter={grade.letter}
+        score={grade.score}
+        max={grade.max}
+        compositeZ={scoreInterpretation.compositeZ}
+        pctRankLabel={`${scoreInterpretation.peerPercentile} · ${identity.sector}`}
+        pillars={pillars}
+        regimeSensitivity={scoreInterpretation.regimeSensitivity}
       />
 
       <ModuleTabs tabs={TABS} active={active} onChange={setActive} />

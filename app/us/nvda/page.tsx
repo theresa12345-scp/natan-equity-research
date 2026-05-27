@@ -3,6 +3,7 @@
 import { useState } from "react";
 import SecurityHeader from "@/components/shell/SecurityHeader";
 import ModuleTabs, { type ModuleTab } from "@/components/shell/ModuleTabs";
+import VerdictCard from "@/components/modules/VerdictCard";
 import GradeModule from "@/components/modules/GradeModule";
 import DCFModule from "@/components/modules/DCFModule";
 import CompsModule from "@/components/modules/CompsModule";
@@ -48,6 +49,15 @@ export default function NVDAPage(): JSX.Element {
         kpis={NVDA_KPIS}
         grade={{ letter: NVDA_GRADE.letter, score: NVDA_GRADE.score, max: NVDA_GRADE.max, verdict: NVDA_GRADE.verdict, verdictTone: NVDA_GRADE.verdictTone }}
         meta={[{ label: "RUPS", value: NVDA_IDENTITY.rups }, { label: "NEXT ER", value: NVDA_IDENTITY.nextEarnings }, { label: "FY END", value: NVDA_IDENTITY.fiscalYearEnd }]}
+      />
+      <VerdictCard
+        letter={NVDA_GRADE.letter}
+        score={NVDA_GRADE.score}
+        max={NVDA_GRADE.max}
+        compositeZ={1.42}
+        pctRankLabel="84th %ile · S&P 500 Semis"
+        pillars={NVDA_PILLARS}
+        regimeSensitivity="Strong Risk-On bias (β_regime 1.42)"
       />
       <ModuleTabs tabs={TABS} active={active} onChange={setActive} />
       <div style={{ minHeight: 0, overflow: "auto" }}>

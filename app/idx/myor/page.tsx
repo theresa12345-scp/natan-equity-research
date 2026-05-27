@@ -3,6 +3,7 @@
 import { useState } from "react";
 import SecurityHeader from "@/components/shell/SecurityHeader";
 import ModuleTabs, { type ModuleTab } from "@/components/shell/ModuleTabs";
+import VerdictCard from "@/components/modules/VerdictCard";
 import GradeModule from "@/components/modules/GradeModule";
 import DCFModule from "@/components/modules/DCFModule";
 import CompsModule from "@/components/modules/CompsModule";
@@ -48,6 +49,15 @@ export default function MYORPage(): JSX.Element {
         kpis={MYOR_KPIS}
         grade={{ letter: MYOR_GRADE.letter, score: MYOR_GRADE.score, max: MYOR_GRADE.max, verdict: MYOR_GRADE.verdict, verdictTone: MYOR_GRADE.verdictTone }}
         meta={[{ label: "RUPS", value: MYOR_IDENTITY.rups }, { label: "NEXT ER", value: MYOR_IDENTITY.nextEarnings }, { label: "FY END", value: MYOR_IDENTITY.fiscalYearEnd }]}
+      />
+      <VerdictCard
+        letter={MYOR_GRADE.letter}
+        score={MYOR_GRADE.score}
+        max={MYOR_GRADE.max}
+        compositeZ={0.84}
+        pctRankLabel="68th %ile · Consumer Staples"
+        pillars={MYOR_PILLARS}
+        regimeSensitivity="Stable across regimes (β_regime 0.42)"
       />
       <ModuleTabs tabs={TABS} active={active} onChange={setActive} />
       <div style={{ minHeight: 0, overflow: "auto" }}>

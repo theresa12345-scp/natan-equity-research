@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { COMMAND_TARGETS } from "@/lib/command-targets";
 
 const FUNCTIONS: Array<{ label: string; href: string; keywords: string[] }> = [
+  { label: "Top Picks · leaderboard", href: "/picks", keywords: ["picks", "leaderboard", "top", "rank", "best"] },
   { label: "Daily Brief · morning digest", href: "/brief", keywords: ["brief", "daily", "morning", "spark"] },
   { label: "Catalyst Calendar · 30d forward", href: "/calendar", keywords: ["calendar", "catalyst", "events", "earnings", "fed", "bi-rate"] },
   { label: "Markets · IDX overview", href: "/markets", keywords: ["markets", "mkts", "ihsg"] },
