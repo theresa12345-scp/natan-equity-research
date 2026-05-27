@@ -48,6 +48,7 @@ interface SectionTile {
 const TILES: SectionTile[] = [
   { num: "00", label: "Daily Brief", blurb: "Apollo Spark + BRIDS · auto-compiled 06:30 WIB", href: "/brief", stat: "Chart of the Day · NVDA AMC", statTone: "pos" },
   { num: "08", label: "Top Picks", blurb: "Universe leaderboard · ~580 tickers ranked", href: "/picks", stat: "Filter by region / sector / Z-score", statTone: "pos" },
+  { num: "09", label: "Flow", blurb: "Smart-money · Congress + 13F + Insider", href: "/flow", stat: "Cluster watch · AVGO 4 · NVDA 5", statTone: "pos" },
   { num: "07", label: "Calendar", blurb: "30d forward catalysts · US + IDX", href: "/calendar", stat: "26 events · 6 high impact", statTone: "neutral" },
   { num: "01", label: "Markets", blurb: "IHSG +0.84% · LQ45 +0.92%", href: "/markets", stat: "FIN +1.82% · ENG +3.42%", statTone: "pos" },
   { num: "02", label: "Portfolio", blurb: "Hypothetical tracking · Day +0.93%", href: "/idx/portfolio", stat: "α +9bps vs IHSG TR", statTone: "pos" },
