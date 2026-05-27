@@ -82,17 +82,18 @@ export interface SavedScreen {
   name: string;
   count: number;
   active?: boolean;
+  slug?: string;
 }
 
 export const SAVED_SCREENS: SavedScreen[] = [
-  { name: "Multi-Factor v2.1", count: 24, active: true },
-  { name: "PEAD · SUE Top Decile", count: 11 },
-  { name: "Cross-Cohort Flow", count: 17 },
-  { name: "Low-Vol Defensive", count: 28 },
-  { name: "Danantara Catalyst", count: 9 },
-  { name: "Energy Beta Long", count: 14 },
-  { name: "Value Trap Avoidance", count: 38 },
-  { name: "SOE Bank Specifically", count: 4 },
+  { name: "Multi-Factor v2.1", count: 24, active: true, slug: "multi-factor-v21" },
+  { name: "PEAD · SUE Top Decile", count: 11, slug: "pead-sue-top-decile" },
+  { name: "Cross-Cohort Flow", count: 17, slug: "cross-cohort-flow" },
+  { name: "Low-Vol Defensive", count: 28, slug: "low-vol-defensive" },
+  { name: "Danantara Catalyst", count: 9, slug: "danantara-catalyst" },
+  { name: "Energy Beta Long", count: 14, slug: "energy-beta-long" },
+  { name: "Value Trap Avoidance", count: 38, slug: "value-trap-avoidance" },
+  { name: "SOE Bank Specifically", count: 4, slug: "soe-bank-specifically" },
 ];
 
 export interface StatusItem {

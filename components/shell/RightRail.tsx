@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { QUOTE_WATCH, ALERTS, SAVED_SCREENS } from "@/lib/mock-data";
 import TickerLink from "@/components/primitives/TickerLink";
 
@@ -156,8 +157,9 @@ export default function RightRail(): JSX.Element {
       <SectionHeader abbr="SV" title="Saved Screens" />
       <div>
         {SAVED_SCREENS.map((s) => (
-          <div
+          <Link
             key={s.name}
+            href={s.slug ? `/screener?screen=${s.slug}` : "/screener"}
             className="grid items-center hover:bg-[#0a0a0a]"
             style={{
               gridTemplateColumns: "1fr auto",
@@ -168,6 +170,8 @@ export default function RightRail(): JSX.Element {
               borderLeft: s.active
                 ? "2px solid #ff2e88"
                 : "2px solid transparent",
+              textDecoration: "none",
+              color: "inherit",
             }}
           >
             <span
@@ -188,7 +192,7 @@ export default function RightRail(): JSX.Element {
             >
               {s.count}
             </span>
-          </div>
+          </Link>
         ))}
       </div>
 
