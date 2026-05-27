@@ -209,49 +209,7 @@ export default function RightRail(): JSX.Element {
         })}
       </div>
 
-      {/* SG Signals · 7D */}
-      <SectionHeader
-        abbr="SG"
-        title="Signals · 7D"
-        meta={`${ALERTS.length} active`}
-      />
-      <div>
-        {ALERTS.map((a) => (
-          <div
-            key={a.ts + a.ticker}
-            style={{
-              padding: "8px 10px",
-              borderBottom: "1px solid #111",
-            }}
-          >
-            <div className="flex items-baseline" style={{ gap: 6 }}>
-              <span
-                className="num"
-                style={{
-                  fontSize: 9.5,
-                  color: "#666",
-                  letterSpacing: "0.04em",
-                }}
-              >
-                {a.ts}
-              </span>
-              <TickerLink ticker={a.ticker} market="IDX" size="xs" />
-            </div>
-            <div
-              style={{
-                fontSize: 10.5,
-                color: "#d8d8d8",
-                lineHeight: 1.45,
-                marginTop: 3,
-              }}
-            >
-              {a.body}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* FL Flow Signals */}
+      {/* FL Flow Signals — placed above SG so smart-money surface is always visible */}
       <SectionHeader abbr="FL" title="Flow Signals" meta={`${flowSignals.length} live`} />
       <div>
         {flowSignals.map((s) => (
@@ -304,6 +262,48 @@ export default function RightRail(): JSX.Element {
               {s.secondary}
             </div>
           </Link>
+        ))}
+      </div>
+
+      {/* SG Signals · 7D */}
+      <SectionHeader
+        abbr="SG"
+        title="Signals · 7D"
+        meta={`${ALERTS.length} active`}
+      />
+      <div>
+        {ALERTS.map((a) => (
+          <div
+            key={a.ts + a.ticker}
+            style={{
+              padding: "8px 10px",
+              borderBottom: "1px solid #111",
+            }}
+          >
+            <div className="flex items-baseline" style={{ gap: 6 }}>
+              <span
+                className="num"
+                style={{
+                  fontSize: 9.5,
+                  color: "#666",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                {a.ts}
+              </span>
+              <TickerLink ticker={a.ticker} market="IDX" size="xs" />
+            </div>
+            <div
+              style={{
+                fontSize: 10.5,
+                color: "#d8d8d8",
+                lineHeight: 1.45,
+                marginTop: 3,
+              }}
+            >
+              {a.body}
+            </div>
+          </div>
         ))}
       </div>
 

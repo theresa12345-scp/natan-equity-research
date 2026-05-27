@@ -128,7 +128,7 @@ export default function TopBar(): JSX.Element {
       {/* Section tabs — hide below md */}
       <nav
         className="hidden md:flex items-center"
-        style={{ gap: 0, flexShrink: 0 }}
+        style={{ gap: 0, flexShrink: 0, overflow: "hidden" }}
         aria-label="Workstation sections"
       >
         {SECTION_TABS.map((tab) => {
@@ -138,14 +138,15 @@ export default function TopBar(): JSX.Element {
               key={tab.num}
               href={tab.href}
               className="hover:brightness-125"
+              title={`${tab.num} ${tab.label}`}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                gap: 5,
-                padding: "0 8px",
+                gap: 4,
+                padding: "0 6px",
                 height: 38,
                 fontSize: 10,
-                letterSpacing: "0.08em",
+                letterSpacing: "0.06em",
                 textTransform: "uppercase",
                 color: active ? "#f5f5f5" : "#888",
                 borderBottom: active
@@ -164,13 +165,13 @@ export default function TopBar(): JSX.Element {
               >
                 {tab.num}
               </span>
-              <span className="hidden lg:inline">{tab.label}</span>
+              <span className="hidden 2xl:inline">{tab.label}</span>
               {active ? (
                 <span
                   aria-hidden="true"
                   style={{
-                    width: 5,
-                    height: 5,
+                    width: 4,
+                    height: 4,
                     background: "#ff2e88",
                     display: "inline-block",
                     marginLeft: 2,

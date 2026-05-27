@@ -25,11 +25,11 @@ export default function FlowPage(): JSX.Element {
     const diff = Math.floor((r - t) / (1000 * 60 * 60 * 24));
     return diff >= 0 && diff <= days;
   };
-  const congress7d = CONGRESS_STUB.filter((c) => within(c.tradeDate, 7));
-  const congressNet7d =
-    congress7d.filter((c) => c.transactionType === "Buy")
+  const congress30d = CONGRESS_STUB.filter((c) => within(c.tradeDate, 30));
+  const congressNet30d =
+    congress30d.filter((c) => c.transactionType === "Buy")
       .reduce((s, c) => s + (c.amountMin + c.amountMax) / 2, 0) -
-    congress7d.filter((c) => c.transactionType === "Sale")
+    congress30d.filter((c) => c.transactionType === "Sale")
       .reduce((s, c) => s + (c.amountMin + c.amountMax) / 2, 0);
   const adds = THIRTEEN_F_STUB.filter(
     (p) => p.isNew || (p.sharesChangeQoQ != null && p.sharesChangeQoQ > 0),
@@ -38,11 +38,11 @@ export default function FlowPage(): JSX.Element {
     THIRTEEN_F_STUB.filter(
       (p) => p.isExit || (p.sharesChangeQoQ != null && p.sharesChangeQoQ < 0),
     ).length + NOTABLE_EXITS.length;
-  const form47d = FORM4_STUB.filter((f) => within(f.transactionDate, 7));
-  const insiderNet7d =
-    form47d.filter((f) => f.txnCode === "P" && !f.is10b51)
+  const form430d = FORM4_STUB.filter((f) => within(f.transactionDate, 30));
+  const insiderNet30d =
+    form430d.filter((f) => f.txnCode === "P" && !f.is10b51)
       .reduce((s, f) => s + f.valueUsd, 0) -
-    form47d.filter((f) => f.txnCode === "S" && !f.is10b51)
+    form430d.filter((f) => f.txnCode === "S" && !f.is10b51)
       .reduce((s, f) => s + f.valueUsd, 0);
 
   // Cluster tickers (≥3 distinct P-code buyers in 30d)
@@ -66,12 +66,12 @@ export default function FlowPage(): JSX.Element {
       institutions={TRACKED_INSTITUTIONS}
       politicianLeaderboard={POLITICIAN_LEADERBOARD}
       kpis={{
-        congressTrades7d: congress7d.length,
-        congressNetUsd7d: congressNet7d,
+        congressTrades30d: congress30d.length,
+        congressNetUsd30d: congressNet30d,
         instAdds: adds,
         instExits: exits,
         clusters30d: clusters7d,
-        insiderNetUsd7d: insiderNet7d,
+        insiderNetUsd30d: insiderNet30d,
       }}
       meta={{
         congressAsOf: CONGRESS_STUB.reduce(

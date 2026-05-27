@@ -31,12 +31,12 @@ interface FlowClientProps {
   institutions: TrackedInstitution[];
   politicianLeaderboard: PoliticianLeaderRow[];
   kpis: {
-    congressTrades7d: number;
-    congressNetUsd7d: number;
+    congressTrades30d: number;
+    congressNetUsd30d: number;
     instAdds: number;
     instExits: number;
     clusters30d: number;
-    insiderNetUsd7d: number;
+    insiderNetUsd30d: number;
   };
   meta: {
     congressAsOf: string;
@@ -168,12 +168,12 @@ function KPIStrip({
   meta: FlowClientProps["meta"];
 }): JSX.Element {
   const cells: Array<{ label: string; value: string; sub?: string; tone?: "pos" | "neg" | "neutral"; disabled?: boolean }> = [
-    { label: "CONGRESS · 7D", value: String(k.congressTrades7d), sub: "trades disclosed" },
-    { label: "CONGRESS NET $ · 7D", value: fmtUsdM(k.congressNetUsd7d), tone: k.congressNetUsd7d > 0 ? "pos" : "neg", sub: "buys − sales" },
+    { label: "CONGRESS · 30D", value: String(k.congressTrades30d), sub: "trades disclosed" },
+    { label: "CONGRESS NET $ · 30D", value: fmtUsdM(k.congressNetUsd30d), tone: k.congressNetUsd30d > 0 ? "pos" : "neg", sub: "buys − sales" },
     { label: "INST. ADDS · Q", value: String(k.instAdds), sub: "13F adds + new" },
     { label: "INST. EXITS · Q", value: String(k.instExits), sub: "trims + closes" },
     { label: "FORM 4 CLUSTERS · 30D", value: String(k.clusters30d), sub: "≥3 P-buyers" },
-    { label: "INSIDER NET $ · 7D", value: fmtUsdM(k.insiderNetUsd7d), tone: k.insiderNetUsd7d > 0 ? "pos" : "neg", sub: "P − S, ex-10b5-1" },
+    { label: "INSIDER NET $ · 30D", value: fmtUsdM(k.insiderNetUsd30d), tone: k.insiderNetUsd30d > 0 ? "pos" : "neg", sub: "P − S, ex-10b5-1" },
     { label: "UNUSUAL OPTIONS · 24H", value: "—", sub: "Checkpoint 3", disabled: true },
     { label: "DARK POOL · 24H", value: "—", sub: "Checkpoint 3", disabled: true },
   ];
@@ -862,7 +862,6 @@ function Heatmap13F({
                 padding: "5px 6px",
                 textAlign: "center",
                 fontSize: 8.5,
-                color: "#555",
                 letterSpacing: "0.06em",
                 fontWeight: 500,
                 borderBottom: "1px solid #1d1d1d",
@@ -870,7 +869,7 @@ function Heatmap13F({
                 fontFamily: "var(--font-jetbrains)",
               }}
             >
-              {t}
+              <TickerLink ticker={t} market="US" size="xs" />
             </th>
           ))}
         </tr>
