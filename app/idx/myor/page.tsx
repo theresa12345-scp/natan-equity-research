@@ -10,6 +10,11 @@ import CompsModule from "@/components/modules/CompsModule";
 import AlgoModule from "@/components/modules/AlgoModule";
 import NewsModule from "@/components/modules/NewsModule";
 import AuditModule from "@/components/modules/AuditModule";
+import FlowModule from "@/components/modules/FlowModule";
+import { CONGRESS_STUB } from "@/lib/flow/stubs/congress";
+import { FORM4_STUB, FORM4_AS_OF } from "@/lib/flow/stubs/form4";
+import { THIRTEEN_F_STUB, THIRTEEN_F_AS_OF, THIRTEEN_F_PERIOD_END } from "@/lib/flow/stubs/thirteen-f";
+import { flowForTicker } from "@/lib/flow/aggregators";
 import {
   MYOR_IDENTITY, MYOR_KPIS, MYOR_GRADE, MYOR_PILLARS, MYOR_DRIVERS, MYOR_THESIS, MYOR_GRADE_HISTORY,
   MYOR_DCF_CAPM, MYOR_DCF_TERMINAL, MYOR_DCF_OUTPUT, MYOR_DCF_PROJECTION, MYOR_DCF_SENSITIVITY,
@@ -21,8 +26,20 @@ import {
 
 const TABS: ModuleTab[] = [
   { key: "grade", label: "Grade" }, { key: "dcf", label: "DCF" }, { key: "comps", label: "Comps" },
-  { key: "algo", label: "Algo & Factors" }, { key: "news", label: "News & Sent" }, { key: "audit", label: "Audit" },
+  { key: "algo", label: "Algo & Factors" }, { key: "news", label: "News & Sent" },
+  { key: "flow", label: "Flow" },
+  { key: "audit", label: "Audit" },
 ];
+
+const FLOW_META = {
+  congressAsOf: CONGRESS_STUB.reduce(
+    (max, c) => (c.filingDate > max ? c.filingDate : max),
+    "1900-01-01",
+  ),
+  form4AsOf: FORM4_AS_OF,
+  thirteenFAsOf: THIRTEEN_F_AS_OF,
+  thirteenFPeriodEnd: THIRTEEN_F_PERIOD_END,
+};
 
 function ScoreInterpretation(): JSX.Element {
   return (
@@ -41,6 +58,7 @@ function ScoreInterpretation(): JSX.Element {
 
 export default function MYORPage(): JSX.Element {
   const [active, setActive] = useState<string>("grade");
+  const flowDetail = flowForTicker(MYOR_IDENTITY.ticker, CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB);
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
       <SecurityHeader
@@ -68,6 +86,7 @@ export default function MYORPage(): JSX.Element {
         {active === "comps" && (<CompsModule rows={MYOR_COMPS} peerAvg={MYOR_COMPS_PEER_AVG} delta={MYOR_COMPS_DELTA} prose={MYOR_COMPS_PROSE} columns={MYOR_COMPS_COLUMNS} />)}
         {active === "algo" && (<AlgoModule factors={MYOR_FACTORS} composite={MYOR_COMPOSITE_Z} overlays={MYOR_OVERLAYS} backtest={MYOR_BACKTEST_STATS} equityCurve={MYOR_EQUITY_CURVE} factorFramework="Fama-French 5 · momentum excluded · staples calibration" />)}
         {active === "news" && (<NewsModule sentiment={MYOR_SENTIMENT} history={MYOR_SENT_HISTORY} sources={MYOR_SOURCES} feed={MYOR_NEWS} />)}
+        {active === "flow" && (<FlowModule detail={flowDetail} meta={FLOW_META} />)}
         {active === "audit" && (<AuditModule citations={MYOR_AUDIT_CITATIONS} biasControls={MYOR_BIAS_CONTROLS} repro={MYOR_REPRO} limitations={MYOR_LIMITATIONS} />)}
       </div>
     </div>

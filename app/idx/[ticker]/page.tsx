@@ -18,6 +18,7 @@ import {
 // Featured imports (BBCA, MYOR)
 import * as BBCA from "@/lib/mock-bbca";
 import * as MYOR from "@/lib/mock-myor";
+import { buildFlowForTickerProp } from "@/lib/flow/aggregators";
 
 const STANDARD_AUDIT_CITATIONS = [
   { tag: "CPCV", title: "Combinatorial Purged Cross-Validation", citation: "López de Prado (2018), Adv. in Financial Machine Learning, ch. 12" },
@@ -123,6 +124,7 @@ function renderFeaturedBBCA(): JSX.Element {
         repro: BBCA.BBCA_REPRO,
         limitations: BBCA.BBCA_LIMITATIONS,
       }}
+      flow={buildFlowForTickerProp(BBCA.BBCA_IDENTITY.ticker)}
       pxFormatter={fmtIDR}
       ciLow="B+"
       ciHigh="A"
@@ -193,6 +195,7 @@ function renderFeaturedMYOR(): JSX.Element {
         repro: MYOR.MYOR_REPRO,
         limitations: MYOR.MYOR_LIMITATIONS,
       }}
+      flow={buildFlowForTickerProp(MYOR.MYOR_IDENTITY.ticker)}
       pxFormatter={fmtIDR}
       ciLow="B−"
       ciHigh="B+"
@@ -334,6 +337,7 @@ function renderGeneric(r: UniverseRow): JSX.Element {
           ? "US framework: 5-factor + momentum (Carhart 1997). IDX framework: 5-factor with momentum excluded per Li, Wei & Zhang 2023."
           : undefined,
       }}
+      flow={buildFlowForTickerProp(r.ticker)}
       pxFormatter={fmtIDR}
       scoreInterpretation={{
         compositeZ: (grade.score - 50) / 20,

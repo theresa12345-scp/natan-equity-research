@@ -10,6 +10,11 @@ import CompsModule from "@/components/modules/CompsModule";
 import AlgoModule from "@/components/modules/AlgoModule";
 import NewsModule from "@/components/modules/NewsModule";
 import AuditModule from "@/components/modules/AuditModule";
+import FlowModule from "@/components/modules/FlowModule";
+import { CONGRESS_STUB } from "@/lib/flow/stubs/congress";
+import { FORM4_STUB, FORM4_AS_OF } from "@/lib/flow/stubs/form4";
+import { THIRTEEN_F_STUB, THIRTEEN_F_AS_OF, THIRTEEN_F_PERIOD_END } from "@/lib/flow/stubs/thirteen-f";
+import { flowForTicker } from "@/lib/flow/aggregators";
 import {
   BBCA_IDENTITY, BBCA_KPIS, BBCA_GRADE, BBCA_PILLARS, BBCA_DRIVERS, BBCA_THESIS, BBCA_GRADE_HISTORY,
   BBCA_DCF_CAPM, BBCA_DCF_TERMINAL, BBCA_DCF_OUTPUT, BBCA_DCF_PROJECTION, BBCA_DCF_SENSITIVITY,
@@ -25,8 +30,19 @@ const TABS: ModuleTab[] = [
   { key: "comps", label: "Comps" },
   { key: "algo", label: "Algo & Factors" },
   { key: "news", label: "News & Sent" },
+  { key: "flow", label: "Flow" },
   { key: "audit", label: "Audit" },
 ];
+
+const FLOW_META = {
+  congressAsOf: CONGRESS_STUB.reduce(
+    (max, c) => (c.filingDate > max ? c.filingDate : max),
+    "1900-01-01",
+  ),
+  form4AsOf: FORM4_AS_OF,
+  thirteenFAsOf: THIRTEEN_F_AS_OF,
+  thirteenFPeriodEnd: THIRTEEN_F_PERIOD_END,
+};
 
 function ScoreInterpretation(): JSX.Element {
   return (
@@ -65,6 +81,7 @@ function ScoreInterpretation(): JSX.Element {
 
 export default function BBCAPage(): JSX.Element {
   const [active, setActive] = useState<string>("grade");
+  const flowDetail = flowForTicker(BBCA_IDENTITY.ticker, CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB);
 
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
@@ -102,6 +119,7 @@ export default function BBCAPage(): JSX.Element {
         {active === "comps" && (<CompsModule rows={BBCA_COMPS} peerAvg={BBCA_COMPS_PEER_AVG} delta={BBCA_COMPS_DELTA} prose={BBCA_COMPS_PROSE} columns={BBCA_COMPS_COLUMNS} />)}
         {active === "algo" && (<AlgoModule factors={BBCA_FACTORS} composite={BBCA_COMPOSITE_Z} overlays={BBCA_OVERLAYS} backtest={BBCA_BACKTEST_STATS} equityCurve={BBCA_EQUITY_CURVE} factorFramework="Fama-French 5 · momentum excluded · Li, Wei & Zhang 2023" />)}
         {active === "news" && (<NewsModule sentiment={BBCA_SENTIMENT} history={BBCA_SENT_HISTORY} sources={BBCA_SOURCES} feed={BBCA_NEWS} />)}
+        {active === "flow" && (<FlowModule detail={flowDetail} meta={FLOW_META} />)}
         {active === "audit" && (<AuditModule citations={BBCA_AUDIT_CITATIONS} biasControls={BBCA_BIAS_CONTROLS} repro={BBCA_REPRO} limitations={BBCA_LIMITATIONS} />)}
       </div>
     </div>

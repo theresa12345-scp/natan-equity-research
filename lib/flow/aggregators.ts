@@ -183,6 +183,146 @@ function gradeFromZ(z: number): SmartMoneyGrade {
   return "F";
 }
 
+// ── Per-ticker flow detail (drives the security-page Flow tab) ──
+export type FlowVerdict = "BULLISH" | "MILDLY BULLISH" | "NEUTRAL" | "MILDLY BEARISH" | "BEARISH";
+
+export interface TickerFlowDetail {
+  ticker: string;
+  hasData: boolean;
+  smc: SMCResult | null;
+  agg: TickerFlowAgg | null;
+  verdict: FlowVerdict;
+  synthesis: string;
+  congressForTicker: CongressTrade[];
+  positionsForTicker: Position13F[];
+  form4ForTicker: Form4Txn[];
+}
+
+function verdictFromZ(z: number): FlowVerdict {
+  if (z >= 0.75) return "BULLISH";
+  if (z >= 0.25) return "MILDLY BULLISH";
+  if (z >= -0.25) return "NEUTRAL";
+  if (z >= -0.75) return "MILDLY BEARISH";
+  return "BEARISH";
+}
+
+function leanFromAgg(agg: TickerFlowAgg): FlowVerdict {
+  // Used when a ticker has no SMC slot (not in computed universe).
+  const congressLean = agg.congressNetUsd90d > 0 ? 1 : agg.congressNetUsd90d < 0 ? -1 : 0;
+  const instLean = agg.inst13FNetHolderDelta > 0 ? 1 : agg.inst13FNetHolderDelta < 0 ? -1 : 0;
+  const insiderLean = agg.form4ClusterSize30d >= 3 ? 1 : agg.form4NetUsd30d < 0 ? -1 : 0;
+  const score = congressLean + instLean + insiderLean;
+  if (score >= 2) return "BULLISH";
+  if (score === 1) return "MILDLY BULLISH";
+  if (score === 0) return "NEUTRAL";
+  if (score === -1) return "MILDLY BEARISH";
+  return "BEARISH";
+}
+
+export function flowForTicker(
+  ticker: string,
+  congress: CongressTrade[],
+  positions: Position13F[],
+  form4: Form4Txn[],
+  smcUniverse?: SMCResult[],
+): TickerFlowDetail {
+  const congressForTicker = congress
+    .filter((c) => c.ticker === ticker)
+    .sort((a, b) => b.tradeDate.localeCompare(a.tradeDate));
+  const positionsForTicker = positions
+    .filter((p) => p.ticker === ticker)
+    .sort((a, b) => b.valueUsd - a.valueUsd);
+  const form4ForTicker = form4
+    .filter((f) => f.ticker === ticker)
+    .sort((a, b) => b.transactionDate.localeCompare(a.transactionDate));
+
+  const hasData =
+    congressForTicker.length > 0 ||
+    positionsForTicker.length > 0 ||
+    form4ForTicker.length > 0;
+
+  if (!hasData) {
+    return {
+      ticker,
+      hasData: false,
+      smc: null,
+      agg: null,
+      verdict: "NEUTRAL",
+      synthesis: "No tracked smart-money disclosures for this security.",
+      congressForTicker,
+      positionsForTicker,
+      form4ForTicker,
+    };
+  }
+
+  const agg = aggregateTicker(ticker, congress, positions, form4);
+  const smc = smcUniverse?.find((s) => s.ticker === ticker) ?? null;
+  const verdict = smc ? verdictFromZ(smc.smcZ) : leanFromAgg(agg);
+
+  const cBuys = congressForTicker.filter(
+    (c) => c.transactionType === "Buy" && withinWindow(c.tradeDate, CONGRESS_WINDOW_DAYS),
+  ).length;
+  const instAdds = agg.inst13FAdds;
+  const cluster = agg.form4ClusterSize30d;
+  const parts: string[] = [];
+  parts.push(`${cBuys} congress buy${cBuys === 1 ? "" : "s"} (90d)`);
+  parts.push(`${instAdds} institutional add${instAdds === 1 ? "" : "s"} (latest Q)`);
+  if (cluster >= 3) parts.push(`${cluster}-insider cluster (30d)`);
+  else if (cluster > 0) parts.push(`${cluster} insider buy${cluster === 1 ? "" : "s"} (30d)`);
+  else parts.push("no insider cluster (30d)");
+
+  const synthesis = `Net smart-money read: ${verdict} · ${parts.join(" · ")}`;
+
+  return {
+    ticker,
+    hasData: true,
+    smc,
+    agg,
+    verdict,
+    synthesis,
+    congressForTicker,
+    positionsForTicker,
+    form4ForTicker,
+  };
+}
+
+// ── Convenience: one-shot Flow workstation prop (detail + meta) ──
+import { CONGRESS_STUB } from "./stubs/congress";
+import { FORM4_STUB, FORM4_AS_OF } from "./stubs/form4";
+import {
+  THIRTEEN_F_STUB,
+  THIRTEEN_F_AS_OF,
+  THIRTEEN_F_PERIOD_END,
+} from "./stubs/thirteen-f";
+
+export interface FlowWorkstationProp {
+  detail: TickerFlowDetail;
+  meta: {
+    congressAsOf: string;
+    form4AsOf: string;
+    thirteenFAsOf: string;
+    thirteenFPeriodEnd: string;
+  };
+}
+
+export function buildFlowForTickerProp(ticker: string): FlowWorkstationProp {
+  const tickers = unionTickers(CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB);
+  const smc = computeSMC(tickers, CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB);
+  const detail = flowForTicker(ticker, CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB, smc);
+  return {
+    detail,
+    meta: {
+      congressAsOf: CONGRESS_STUB.reduce(
+        (max, c) => (c.filingDate > max ? c.filingDate : max),
+        "1900-01-01",
+      ),
+      form4AsOf: FORM4_AS_OF,
+      thirteenFAsOf: THIRTEEN_F_AS_OF,
+      thirteenFPeriodEnd: THIRTEEN_F_PERIOD_END,
+    },
+  };
+}
+
 // ── Universe helper — union of tickers across all three sources ──
 export function unionTickers(
   congress: CongressTrade[],

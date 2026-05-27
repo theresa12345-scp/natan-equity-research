@@ -10,6 +10,8 @@ import CompsModule from "@/components/modules/CompsModule";
 import AlgoModule from "@/components/modules/AlgoModule";
 import NewsModule from "@/components/modules/NewsModule";
 import AuditModule from "@/components/modules/AuditModule";
+import FlowModule from "@/components/modules/FlowModule";
+import type { TickerFlowDetail } from "@/lib/flow/aggregators";
 
 interface SecurityWorkstationProps {
   identity: {
@@ -79,6 +81,15 @@ interface SecurityWorkstationProps {
     limitations: string;
     extraNote?: string;
   };
+  flow: {
+    detail: TickerFlowDetail;
+    meta: {
+      congressAsOf: string;
+      form4AsOf: string;
+      thirteenFAsOf: string;
+      thirteenFPeriodEnd: string;
+    };
+  };
   pxFormatter: (n: number) => string;
   ciLow?: string;
   ciHigh?: string;
@@ -98,6 +109,7 @@ const TABS: ModuleTab[] = [
   { key: "comps", label: "Comps" },
   { key: "algo", label: "Algo & Factors" },
   { key: "news", label: "News & Sent" },
+  { key: "flow", label: "Flow" },
   { key: "audit", label: "Audit" },
 ];
 
@@ -114,6 +126,7 @@ export default function SecurityWorkstation({
   factors,
   news,
   audit,
+  flow,
   pxFormatter,
   ciLow,
   ciHigh,
@@ -241,6 +254,9 @@ export default function SecurityWorkstation({
         {active === "news" && (
           <NewsModule sentiment={news.sentiment} history={news.history}
             sources={news.sources} feed={news.feed} />
+        )}
+        {active === "flow" && (
+          <FlowModule detail={flow.detail} meta={flow.meta} />
         )}
         {active === "audit" && (
           <AuditModule citations={audit.citations} biasControls={audit.biasControls}

@@ -14,6 +14,7 @@ import {
   generateThesis,
 } from "@/lib/ticker-renderer";
 import * as NVDA from "@/lib/mock-nvda";
+import { buildFlowForTickerProp } from "@/lib/flow/aggregators";
 
 const STANDARD_AUDIT_CITATIONS = [
   { tag: "CPCV", title: "Combinatorial Purged Cross-Validation", citation: "López de Prado (2018), Adv. in Financial Machine Learning, ch. 12" },
@@ -118,6 +119,7 @@ function renderFeaturedNVDA(): JSX.Element {
         limitations: NVDA.NVDA_LIMITATIONS,
         extraNote: "US framework: 5-factor + momentum (Carhart 1997). IDX framework: 5-factor with momentum excluded per Li, Wei & Zhang 2023.",
       }}
+      flow={buildFlowForTickerProp(NVDA.NVDA_IDENTITY.ticker)}
       pxFormatter={fmtUSD}
       ciLow="B"
       ciHigh="A−"
@@ -249,6 +251,7 @@ function renderGeneric(r: UniverseRow): JSX.Element {
         limitations: `Auto-rendered US page. Numbers derive from snapshot fundamentals. Featured deep-dive currently available for NVDA only. Phase 4 will swap in yahoo-finance2.`,
         extraNote: "US framework: 5-factor + momentum (Carhart 1997).",
       }}
+      flow={buildFlowForTickerProp(r.ticker)}
       pxFormatter={fmtUSD}
       scoreInterpretation={{
         compositeZ: (grade.score - 50) / 20,

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import SecurityHeader from "@/components/shell/SecurityHeader";
 import ModuleTabs, { type ModuleTab } from "@/components/shell/ModuleTabs";
 import VerdictCard from "@/components/modules/VerdictCard";
@@ -10,6 +10,11 @@ import CompsModule from "@/components/modules/CompsModule";
 import AlgoModule from "@/components/modules/AlgoModule";
 import NewsModule from "@/components/modules/NewsModule";
 import AuditModule from "@/components/modules/AuditModule";
+import FlowModule from "@/components/modules/FlowModule";
+import { CONGRESS_STUB } from "@/lib/flow/stubs/congress";
+import { FORM4_STUB, FORM4_AS_OF } from "@/lib/flow/stubs/form4";
+import { THIRTEEN_F_STUB, THIRTEEN_F_AS_OF, THIRTEEN_F_PERIOD_END } from "@/lib/flow/stubs/thirteen-f";
+import { computeSMC, flowForTicker, unionTickers } from "@/lib/flow/aggregators";
 import {
   NVDA_IDENTITY, NVDA_KPIS, NVDA_GRADE, NVDA_PILLARS, NVDA_DRIVERS, NVDA_THESIS, NVDA_GRADE_HISTORY,
   NVDA_DCF_CAPM, NVDA_DCF_TERMINAL, NVDA_DCF_OUTPUT, NVDA_DCF_PROJECTION, NVDA_DCF_SENSITIVITY,
@@ -21,8 +26,20 @@ import {
 
 const TABS: ModuleTab[] = [
   { key: "grade", label: "Grade" }, { key: "dcf", label: "DCF" }, { key: "comps", label: "Comps" },
-  { key: "algo", label: "Algo & Factors" }, { key: "news", label: "News & Sent" }, { key: "audit", label: "Audit" },
+  { key: "algo", label: "Algo & Factors" }, { key: "news", label: "News & Sent" },
+  { key: "flow", label: "Flow" },
+  { key: "audit", label: "Audit" },
 ];
+
+const FLOW_META = {
+  congressAsOf: CONGRESS_STUB.reduce(
+    (max, c) => (c.filingDate > max ? c.filingDate : max),
+    "1900-01-01",
+  ),
+  form4AsOf: FORM4_AS_OF,
+  thirteenFAsOf: THIRTEEN_F_AS_OF,
+  thirteenFPeriodEnd: THIRTEEN_F_PERIOD_END,
+};
 
 function ScoreInterpretation(): JSX.Element {
   return (
@@ -41,6 +58,11 @@ function ScoreInterpretation(): JSX.Element {
 
 export default function NVDAPage(): JSX.Element {
   const [active, setActive] = useState<string>("grade");
+  const flowDetail = useMemo(() => {
+    const tickers = unionTickers(CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB);
+    const smc = computeSMC(tickers, CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB);
+    return flowForTicker(NVDA_IDENTITY.ticker, CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB, smc);
+  }, []);
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
       <SecurityHeader
@@ -67,6 +89,7 @@ export default function NVDAPage(): JSX.Element {
         {active === "comps" && (<CompsModule rows={NVDA_COMPS} peerAvg={NVDA_COMPS_PEER_AVG} delta={NVDA_COMPS_DELTA} prose={NVDA_COMPS_PROSE} columns={NVDA_COMPS_COLUMNS} />)}
         {active === "algo" && (<AlgoModule factors={NVDA_FACTORS} composite={NVDA_COMPOSITE_Z} overlays={NVDA_OVERLAYS} backtest={NVDA_BACKTEST_STATS} equityCurve={NVDA_EQUITY_CURVE} factorFramework="Fama-French 5 + momentum · Carhart 1997 (US-valid)" />)}
         {active === "news" && (<NewsModule sentiment={NVDA_SENTIMENT} history={NVDA_SENT_HISTORY} sources={NVDA_SOURCES} feed={NVDA_NEWS} />)}
+        {active === "flow" && (<FlowModule detail={flowDetail} meta={FLOW_META} />)}
         {active === "audit" && (<AuditModule citations={NVDA_AUDIT_CITATIONS} biasControls={NVDA_BIAS_CONTROLS} repro={NVDA_REPRO} limitations={NVDA_LIMITATIONS}
           extraNote="US framework: 5-factor + momentum (Carhart 1997). IDX framework: 5-factor with momentum excluded per Li, Wei & Zhang 2023." />)}
       </div>
