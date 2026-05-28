@@ -39,6 +39,24 @@ export interface BriefDocument {
     jktTime: string;
     estTime: string;
   };
+  yesterdaysCall: {
+    ticker: string;
+    exchange: "IDX" | "US";
+    claim: string;
+    actualMovePct: number; // realized 1d move
+    benchmarkMovePct: number;
+    alphaPct: number; // claim − benchmark
+    hit: boolean; // claim direction matched realized
+    prose: string;
+  };
+  todaysQuestion: {
+    question: string;
+    probability: number; // 0–100
+    basis: string;
+    watchTrigger: string;
+    refTicker?: string;
+    refExchange?: "IDX" | "US";
+  };
   chartOfDay: {
     headline: string;
     takeaway: string;
@@ -53,6 +71,24 @@ export interface BriefDocument {
     composite: number;
     prose: string;
     pillars: { name: string; score: number }[];
+  };
+  smartMoneyDigest: {
+    items: {
+      kind: "CONGRESS" | "13F" | "INSIDER" | "SMC";
+      ticker: string;
+      exchange: "US" | "IDX";
+      primary: string;
+      secondary: string;
+      tone: "pos" | "neg" | "neutral";
+    }[];
+  };
+  modelPortfolioUpdate: {
+    weightedZ: number;
+    portfolioBeta: number;
+    portfolioVol: number;
+    adds: { ticker: string; name: string; fromPct: number; toPct: number; driftBps: number }[];
+    trims: { ticker: string; name: string; fromPct: number; toPct: number; driftBps: number }[];
+    note: string;
   };
   todaysCatalysts: {
     time: string;

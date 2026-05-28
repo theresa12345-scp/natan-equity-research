@@ -152,6 +152,72 @@ export default async function BriefPage(): Promise<JSX.Element> {
       <div className="grid" style={{ gridTemplateColumns: "1fr 280px" }}>
         {/* Main column */}
         <div style={{ borderRight: "1px solid #2a2a2a", minWidth: 0 }}>
+          {/* Yesterday's call vs outcome — calibration stamp at the top */}
+          <section style={{ borderBottom: "1px solid #2a2a2a", background: brief.yesterdaysCall.hit ? "rgba(0,217,126,0.04)" : "rgba(255,77,79,0.04)" }}>
+            <PanelHead title="Yesterday's Call · vs realized" meta="calibration stamp" />
+            <div style={{ padding: "12px 18px" }}>
+              <div className="flex items-baseline" style={{ gap: 10, flexWrap: "wrap" }}>
+                <TickerLink ticker={brief.yesterdaysCall.ticker} market={brief.yesterdaysCall.exchange} size="md" bold />
+                <span style={{ fontSize: 12, color: "#f5f5f5", fontWeight: 500 }}>{brief.yesterdaysCall.claim}</span>
+                <span
+                  className="num"
+                  style={{
+                    fontSize: 9.5,
+                    color: brief.yesterdaysCall.hit ? "#00d97e" : "#ff4d4f",
+                    border: `1px solid ${brief.yesterdaysCall.hit ? "#00d97e" : "#ff4d4f"}`,
+                    padding: "1px 6px",
+                    letterSpacing: "0.14em",
+                    fontWeight: 600,
+                    marginLeft: 4,
+                  }}
+                >
+                  {brief.yesterdaysCall.hit ? "HIT" : "MISS"}
+                </span>
+                <div className="ml-auto flex items-baseline num" style={{ gap: 14, fontSize: 11 }}>
+                  <span style={{ color: "#7a7a7a", letterSpacing: "0.06em" }}>REALIZED <span style={{ color: tone(brief.yesterdaysCall.actualMovePct), fontWeight: 600 }}>{brief.yesterdaysCall.actualMovePct >= 0 ? "+" : ""}{brief.yesterdaysCall.actualMovePct.toFixed(2)}%</span></span>
+                  <span style={{ color: "#7a7a7a", letterSpacing: "0.06em" }}>BENCH <span style={{ color: "#d8d8d8" }}>{brief.yesterdaysCall.benchmarkMovePct >= 0 ? "+" : ""}{brief.yesterdaysCall.benchmarkMovePct.toFixed(2)}%</span></span>
+                  <span style={{ color: "#7a7a7a", letterSpacing: "0.06em" }}>α <span style={{ color: tone(brief.yesterdaysCall.alphaPct), fontWeight: 600 }}>{brief.yesterdaysCall.alphaPct >= 0 ? "+" : ""}{brief.yesterdaysCall.alphaPct.toFixed(2)}%</span></span>
+                </div>
+              </div>
+              <p style={{ fontSize: 11.5, color: "#d8d8d8", lineHeight: 1.55, margin: "10px 0 0", maxWidth: "78ch" }}>
+                {brief.yesterdaysCall.prose}
+              </p>
+            </div>
+          </section>
+
+          {/* Today's binary question */}
+          <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+            <PanelHead title="Today's Question · one binary call" meta="explicit probability · confidence band" />
+            <div style={{ padding: "12px 18px" }}>
+              <div className="flex items-baseline" style={{ gap: 12, flexWrap: "wrap" }}>
+                <span style={{ fontSize: 15, color: "#f5f5f5", fontWeight: 500, letterSpacing: "-0.01em" }}>
+                  {brief.todaysQuestion.question}
+                </span>
+                <span
+                  className="num ml-auto"
+                  style={{
+                    fontSize: 22,
+                    color: "#ff2e88",
+                    fontWeight: 700,
+                    letterSpacing: "-0.01em",
+                  }}
+                >
+                  {brief.todaysQuestion.probability}%
+                </span>
+              </div>
+              <div style={{ marginTop: 10, height: 6, background: "#0a0a0a", border: "1px solid #1d1d1d", position: "relative" }}>
+                <div style={{ position: "absolute", inset: 0, width: `${brief.todaysQuestion.probability}%`, background: "#ff2e88", opacity: 0.65 }} />
+                <div style={{ position: "absolute", left: "50%", top: -2, bottom: -2, width: 1, background: "#444" }} />
+              </div>
+              <p style={{ fontSize: 11.5, color: "#d8d8d8", lineHeight: 1.55, margin: "10px 0 4px", maxWidth: "78ch" }}>
+                <span style={{ color: "#7a7a7a" }}>Basis · </span>{brief.todaysQuestion.basis}
+              </p>
+              <p style={{ fontSize: 11, color: "#888", lineHeight: 1.45, margin: 0, fontStyle: "italic" }}>
+                Watch · {brief.todaysQuestion.watchTrigger}
+              </p>
+            </div>
+          </section>
+
           {/* Chart of the Day */}
           <section style={{ borderBottom: "1px solid #2a2a2a" }}>
             <PanelHead title="Chart of the Day" meta="one chart · one takeaway" />
@@ -218,6 +284,93 @@ export default async function BriefPage(): Promise<JSX.Element> {
                   </div>
                 ))}
               </div>
+            </div>
+          </section>
+
+          {/* Smart-money 24h digest — pulled from /flow */}
+          <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+            <PanelHead title="Smart Money · 24h digest" meta="congress · 13F · insider · SMC composite" />
+            <div className="grid" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}>
+              {brief.smartMoneyDigest.items.map((item, i) => {
+                const toneColor = item.tone === "pos" ? "#00d97e" : item.tone === "neg" ? "#ff4d4f" : "#7a7a7a";
+                return (
+                  <div
+                    key={item.kind + item.ticker}
+                    style={{
+                      padding: "10px 14px",
+                      borderRight: (i + 1) % 2 === 0 ? "none" : "1px solid #1d1d1d",
+                      borderBottom: i < brief.smartMoneyDigest.items.length - 2 ? "1px solid #1d1d1d" : "none",
+                      borderLeft: `2px solid ${toneColor}`,
+                    }}
+                  >
+                    <div className="flex items-baseline" style={{ gap: 6 }}>
+                      <span className="num" style={{ fontSize: 9, color: "#666", letterSpacing: "0.1em", fontWeight: 600 }}>
+                        {item.kind}
+                      </span>
+                      <TickerLink ticker={item.ticker} market={item.exchange} size="sm" bold />
+                    </div>
+                    <div style={{ fontSize: 11.5, color: "#d8d8d8", marginTop: 4, lineHeight: 1.35 }}>
+                      {item.primary}
+                    </div>
+                    <div className="num" style={{ fontSize: 10, color: "#7a7a7a", marginTop: 2, letterSpacing: "0.04em" }}>
+                      {item.secondary}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+
+          {/* Model portfolio update — score-driven rebalance signals */}
+          <section style={{ borderBottom: "1px solid #2a2a2a" }}>
+            <PanelHead
+              title="Model Portfolio · today's rebalance signals"
+              meta={`weighted Z ${brief.modelPortfolioUpdate.weightedZ >= 0 ? "+" : ""}${brief.modelPortfolioUpdate.weightedZ.toFixed(2)}σ · β ${brief.modelPortfolioUpdate.portfolioBeta.toFixed(2)} · σ ${(brief.modelPortfolioUpdate.portfolioVol * 100).toFixed(1)}%`}
+            />
+            <div style={{ padding: "10px 14px" }}>
+              <p style={{ fontSize: 11.5, color: "#d8d8d8", margin: "0 0 10px", lineHeight: 1.55 }}>
+                {brief.modelPortfolioUpdate.note}
+              </p>
+              {(brief.modelPortfolioUpdate.adds.length > 0 || brief.modelPortfolioUpdate.trims.length > 0) ? (
+                <div className="grid" style={{ gridTemplateColumns: "1fr 1fr", gap: 12 }}>
+                  <div>
+                    <div className="num" style={{ fontSize: 9, color: "#00d97e", letterSpacing: "0.14em", fontWeight: 600, marginBottom: 6, textTransform: "uppercase" }}>
+                      Add · {brief.modelPortfolioUpdate.adds.length}
+                    </div>
+                    {brief.modelPortfolioUpdate.adds.length === 0 ? (
+                      <div style={{ fontSize: 10.5, color: "#666", fontStyle: "italic" }}>none</div>
+                    ) : (
+                      brief.modelPortfolioUpdate.adds.map((a) => (
+                        <div key={a.ticker} className="flex items-baseline" style={{ gap: 6, fontSize: 11, height: 22 }}>
+                          <TickerLink ticker={a.ticker} market="IDX" size="sm" />
+                          <span style={{ color: "#888", fontSize: 10.5 }}>{a.name}</span>
+                          <span className="num ml-auto" style={{ color: "#888" }}>
+                            {a.fromPct.toFixed(2)}% → <span style={{ color: "#00d97e", fontWeight: 600 }}>{a.toPct.toFixed(2)}%</span>
+                          </span>
+                        </div>
+                      ))
+                    )}
+                  </div>
+                  <div>
+                    <div className="num" style={{ fontSize: 9, color: "#ff4d4f", letterSpacing: "0.14em", fontWeight: 600, marginBottom: 6, textTransform: "uppercase" }}>
+                      Trim · {brief.modelPortfolioUpdate.trims.length}
+                    </div>
+                    {brief.modelPortfolioUpdate.trims.length === 0 ? (
+                      <div style={{ fontSize: 10.5, color: "#666", fontStyle: "italic" }}>none</div>
+                    ) : (
+                      brief.modelPortfolioUpdate.trims.map((t) => (
+                        <div key={t.ticker} className="flex items-baseline" style={{ gap: 6, fontSize: 11, height: 22 }}>
+                          <TickerLink ticker={t.ticker} market="IDX" size="sm" />
+                          <span style={{ color: "#888", fontSize: 10.5 }}>{t.name}</span>
+                          <span className="num ml-auto" style={{ color: "#888" }}>
+                            {t.fromPct.toFixed(2)}% → <span style={{ color: "#ff4d4f", fontWeight: 600 }}>{t.toPct.toFixed(2)}%</span>
+                          </span>
+                        </div>
+                      ))
+                    )}
+                  </div>
+                </div>
+              ) : null}
             </div>
           </section>
 
