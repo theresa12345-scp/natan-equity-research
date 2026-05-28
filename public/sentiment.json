@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-27T17:21:31.119077",
+  "timestamp": "2026-05-28T09:44:57.163813",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 9,
-    "neutral": 13,
-    "bearish": 3,
-    "high_priority": 10,
+    "avg_relevance": 7.2,
+    "bullish": 13,
+    "neutral": 7,
+    "bearish": 5,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -16,10 +16,12 @@
     "Federal Reserve": 1,
     "Reuters": 7,
     "Bloomberg": 3,
-    "CNBC": 8,
     "Caixin/S&P Global": 1,
-    "Ad Hoc News": 1,
-    "MarketWatch": 1
+    "CNBC": 5,
+    "Financial Times": 1,
+    "Ad Hoc News": 2,
+    "ChartMill": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,28 +101,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Treasury yields fall as investors remain optimistic on Iran peace deal prospects despite U.S. strikes",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 fell more than 2 basis points to 4.465%.",
-      "category": "fixed_income",
-      "date": "2026-05-27 09:31",
-      "link": "https://www.cnbc.com/2026/05/27/treasury-yields-investor-optimism-ceasefire-prospects-rise.html"
-    },
-    {
-      "headline": "Treasury yields slide after Memorial Day break as traders weigh Iran peace prospects",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 fell more than 6 basis points to 4.510%.",
-      "category": "fixed_income",
-      "date": "2026-05-26 09:19",
-      "link": "https://www.cnbc.com/2026/05/26/treasury-yields-us-strikes-on-iran-oil-bonds.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -129,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -139,8 +121,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-27 17:21",
+      "date": "2026-05-28 09:44",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Gold hits two-month low as US-Iran tension stokes inflation and rate hike fears - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold hits two-month low as US-Iran tension stokes inflation and rate hike fears\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-05-28 01:38",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcGk4TXB1amNOZ3NwU3NjcWFXUkZVMk93OUtMX0xSZWVvWE9aMDEyUkFEa1k1WWlIdkFfd0hYNUlReEtuMnhmQnViX2ZZVFdDMUdlZzBvT2VXTVVhQzhqY25YNXhYa3gtbnRQWXBmd1dKT1kwYWZOdnRUd2lJTHkwMUQ2X2dnRTVLNDFhbno1dVNBcWZwd3RiODNORnEzMU1OSTV2cFYxYVlUTXQxNWNN?oc=5"
+    },
+    {
+      "headline": "Abercrombie shares jump 12% on earnings beat even as Iran conflict hits sales",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Abercrombie & Fitch saw sales in Europe, Middle East and Africa decline by 10%, thanks in large part to the conflict in the Middle East. ",
+      "category": "corporate_earnings",
+      "date": "2026-05-27 18:05",
+      "link": "https://www.cnbc.com/2026/05/27/abercrombie-fitch-anf-earnings-q1-2026.html"
     },
     {
       "headline": "Abercrombie shares jump 13% on earnings beat even as Iran conflict hits sales",
@@ -173,24 +175,24 @@
       "link": "https://www.cnbc.com/2026/05/27/dicks-sporting-goods-dks-earnings-q1-2026.html"
     },
     {
-      "headline": "US bonds about to bite stocks - Reuters",
+      "headline": "Stock futures are little changed after the S&P 500 closes at another record: Live updates",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US bonds about to bite stocks\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-27 06:05",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSzlLYUdYX2lKZ2N4MzdwNDlxendQeDRqdDhsY3hPU2RmalVQbEU5ZlNFYkEwS3VsN29YUTBvYmJ5c1N1UjN1dE9BdHZFczhJWFhXUEtLVFZfYXpaNXRydXpiQVlMQmVweUFWcmRFRG5oYUJ4cHFvQVVLUGFjYTZHMlVYVnY4Y1pFZW8wZ0dmVGJUQXdnc29tczN1Zw?oc=5"
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The S&P 500 and Nasdaq Composite rose to fresh intraday and closing records on Tuesday.",
+      "category": "us_equities",
+      "date": "2026-05-27 08:23",
+      "link": "https://www.cnbc.com/2026/05/26/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Gold falls to two-month low as war-driven inflation fuels rate-hike bets - Reuters",
+      "headline": "Samsung workers set for $400,000 bonus after deal to share AI profits",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Gold falls to two-month low as war-driven inflation fuels rate-hike bets\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-05-27 01:20",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVZfYzNvRXo1cFItQS1KWHIxUHZ0eC1Cck8wZklZcGtFVC1Fal9GSjR2VnBYN1NxdTBsYWpwQ0Y4cjNtMkJKSkM1NnhvaURtdUFPTGg3Ym9nX0YwRHJXZnU4ODBObjhFQll0c3kwWEJYcUlTWWxwMGVjVk9MdUstNC1GSWZkYV9XUWJoNTQyUzktZTJibDdnMDFMOTVwZzJ3U1pYVGNDWVBPSXppSDZqVA?oc=5"
+      "source": "Financial Times",
+      "sentiment": "positive",
+      "impact": "Agreement with union ends wrangling over how to share spoils of boom at memory-chip maker",
+      "category": "corporate_earnings",
+      "date": "2026-05-27 02:09",
+      "link": "https://www.ft.com/content/1b7625e7-e9ab-4660-aff5-c1e333c31a5c"
     },
     {
       "headline": "US Consumer Confidence Eases as Inflation Worries Mount",
@@ -203,74 +205,74 @@
       "link": "https://www.bloomberg.com/news/articles/2026-05-26/us-consumer-confidence-eases-as-inflation-worries-mount"
     },
     {
-      "headline": "Revvity stock (US76155R1086): New share repurchase plan sets tone after recent earnings",
+      "headline": "Alliant Energy Corp. stock (US0188021085): earnings dip keeps utilities investors alert",
       "score": 6,
       "source": "Ad Hoc News",
-      "sentiment": "positive",
-      "impact": "Revvity has initiated a new share repurchase program following its latest quarterly earnings report, signaling its capital allocation priorities. The company specializes in diagnostics and life-science tools, with its business model relying on instrument sales and recurring consumables for healthcar",
+      "sentiment": "negative",
+      "impact": "Alliant Energy Corp. reported mixed financial results for Q1 2024, with earnings per share and revenue declining year-over-year, which has put pressure on the stock. The article examines the company's regulated utility business model, its core drivers, and how it navigates infrastructure investments",
       "category": "corporate_earnings",
-      "date": "2026-05-27 16:31",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/revvity-stock-us76155r1086-new-share-repurchase-plan-sets-tone-after/69427275"
+      "date": "2026-05-28 08:51",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/alliant-energy-corp-stock-us0188021085-earnings-dip-keeps-utilities/69431641"
     },
     {
-      "headline": "'Greetings after 88 days': Iranians reconnect after long internet shutdown - Reuters",
+      "headline": "First Hawaiian Inc (NASDAQ:FHB) Shows Technical Breakout Setup with Perfect 10 Rating",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "'Greetings after 88 days': Iranians reconnect after long internet shutdown\u00a0\u00a0Reuters",
+      "source": "ChartMill",
+      "sentiment": "positive",
+      "impact": "First Hawaiian Inc (NASDAQ:FHB) exhibits a strong technical breakout setup with a ChartMill Technical Rating of 8 out of 10 and a perfect Setup Rating of 10. The stock shows positive long-term and short-term trends, trading above all key moving averages, and has a clear consolidation pattern despite",
       "category": "us_equities",
-      "date": "2026-05-27 16:10",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZDh6MDBWTjJVR0x2SkthXzBlbXZHcEc5c0RpbjNDc0JWTjdzS3M3dHFXdnhfSDNjb1pnMTlrbUowMW1BVUQxdndoRGJJQklSYTNxNno2QWdwcGtudWpFdVJDYURzRmNURDVJNXJXSm9CeUhhZGR5UXRIX2syeWZTVmo0OTJZeDYzbGNEb2pZR1lNX3l4WmxJWkZtRU9kNElIc1l6bmFRZnZHaUxLTExwZnN4ZV9SdFBlN3BSQ1RnQzJDeVE?oc=5"
+      "date": "2026-05-28 08:50",
+      "link": "https://www.chartmill.com/news/FHB/Chartmill-49133-First-Hawaiian-Inc-NASDAQFHB-Shows-Technical-Breakout-Setup-with-Perfect-10-Rating"
     },
     {
-      "headline": "Jamie Dimon says JPMorgan Chase could spend $20 billion on acquisition: 'We are on the lookout'",
+      "headline": "Constant Guidance Financial LLC Cuts Stock Holdings in The PNC Financial Services Group, Inc $PNC",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A $20 billion deal would be among the largest in JPMorgan's history and could invite regulatory scrutiny given its position as the largest U.S. bank by assets.",
-      "category": "global_markets",
-      "date": "2026-05-27 15:51",
-      "link": "https://www.cnbc.com/2026/05/27/jamie-dimon-jpmorgan-chase-acquisition-target-size.html"
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Constant Guidance Financial LLC significantly reduced its stake in The PNC Financial Services Group, Inc. by 91.3% in the fourth quarter, selling 15,479 shares and retaining 1,481 shares valued at $309,000. Despite this reduction, institutional investors collectively own 83.53% of the stock. Recent ",
+      "category": "corporate_earnings",
+      "date": "2026-05-28 08:45",
+      "link": "https://www.marketbeat.com/instant-alerts/filing-constant-guidance-financial-llc-cuts-stock-holdings-in-the-pnc-financial-services-group-inc-pnc-2026-05-28/"
     },
     {
-      "headline": "\u2018We have always bonded over hating billionaires\u2019: I got a well-paid job. Now my friend says I\u2019m ultrawealthy. How do I respond?",
+      "headline": "Archer-Daniels-Midland stock (US0394831020): Earnings probe, leadership change and what it means for investors",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "\u201cI don\u2019t want to make it awkward.\u201d",
-      "category": "fixed_income",
-      "date": "2026-05-27 15:28",
-      "link": "https://www.marketwatch.com/story/we-have-always-bonded-over-hating-billionaires-i-got-a-well-paid-job-now-my-friend-says-im-ultrawealthy-how-do-i-respond-087aa4dd?mod=mw_rss_topstories"
+      "source": "Ad Hoc News",
+      "sentiment": "negative",
+      "impact": "Archer-Daniels-Midland (ADM) is navigating the aftermath of an internal accounting probe in its Nutrition segment, a CEO transition, and weaker earnings. The company reported lower first-quarter 2024 revenue and earnings per share, with the Nutrition unit's financial reporting under scrutiny, leadin",
+      "category": "corporate_earnings",
+      "date": "2026-05-28 08:42",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/archer-daniels-midland-stock-us0394831020-earnings-probe-leadership/69431579"
     },
     {
-      "headline": "Healthy Returns: Eli Lilly makes a new push into vaccines \u2013 here\u2019s what to know",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The drugmaker announced it will buy three privately held vaccine makers in deals worth almost $4 billion combined.",
-      "category": "global_markets",
-      "date": "2026-05-27 14:57",
-      "link": "https://www.cnbc.com/2026/05/27/eli-lilly-makes-a-new-push-into-vaccines-heres-what-to-know.html"
-    },
-    {
-      "headline": "Boeing CEO says company met requirements to increase 737 Max production to 47 jets per month",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Boeing CEO Kelly Ortberg said the company has met FAA requirements to ramp up its production of 737 Max aircraft to 47 per month.",
-      "category": "global_markets",
-      "date": "2026-05-27 14:41",
-      "link": "https://www.cnbc.com/2026/05/27/boeing-ortberg-737-max-production.html"
-    },
-    {
-      "headline": "Iran war splits global markets into clear winners and losers - Reuters",
+      "headline": "Morning Bid: The US-Iran ceasefire is unravelling - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran war splits global markets into clear winners and losers\u00a0\u00a0Reuters",
+      "impact": "Morning Bid: The US-Iran ceasefire is unravelling\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-27 14:32",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU3JBNm9iSW1POHNTQjJuVUFsOWFMSEU2T1ZLSEpQRHhPNkc3WWV5WEM2Z1ZBd1BTeTl3ZzVITEg4VjFsd0hGb1pzRG94N1E0STQwUTRVZnh6cDRYUGVuRUxJODAwelh4V0FJVmdBbFd1SWF4RnNSb1JaR3VvQW5JQl96bVBHLVpD?oc=5"
+      "date": "2026-05-28 04:36",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sd29STjJKTTBfWEN4NXUwdjI2YmVYOTJEVU16QzlfWWlhNDY5dVd5SlJuTk5wTEh0d1BoSjFadzRTd0I0V3daeGVJZjh0c1d1cTNFUkV1UmpwUWRtN056c1ZSNFBzS0Z1eDR5RWFTNWdsT3UwVm52SU5zNjdSbHc?oc=5"
+    },
+    {
+      "headline": "Iran and US trade air strikes after Trump dismisses report of Hormuz deal - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Iran and US trade air strikes after Trump dismisses report of Hormuz deal\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-28 04:25",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMDAxUGdSUGJhV19NajdXRE5yZGtxMFRVYnpEb1I3ZEMwZlZsUnBvdlJyb3RlbG4tX0dLMXFEN25ZeER4N3pOblRJYjJGS3NyR1JEZFNlR3VsN1gxd3MxMnhTVHU5VVVadWxCV1VBcFNiRHAtczFfX3FIMW9GZEJRTHFWMzIya1ZQa0ZSMUVQQXhLWVJVSUMzTVNFOGVBNUxKMEhvQW92eWZwaW8zMFpPbDRTYjlxa3NTTVNTaQ?oc=5"
+    },
+    {
+      "headline": "Iran's IRGC say they targeted US airbase after strike near Bandar Abbas - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran's IRGC say they targeted US airbase after strike near Bandar Abbas\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-28 03:20",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY01FaGpRUl9JM2hqakNvTVNiUV91Ri00WjFlZU5mUTRJcDZManY4RjFWZWc3TlkxcnRCY1JFbm9oVGF4UjkyV29qWXdhdXVOSDlpS21RMXQxYWFFa2JaWmxQRVBqUnVWb2ZlUjVNR1ZnR3R0VU9uaWRNOGhnWFFkYk1xQWVfbWdjTXZjMEVmbGRCOGdibU9BV0JXLXVUaktLbkN1Wk5OakNSMHNDVU5uQ3VPb2U4Smp2QmJmS3JCcFU1UQ?oc=5"
     }
   ]
 }
