@@ -1,4 +1,5 @@
 import TickerLink from "@/components/primitives/TickerLink";
+import { CitationCluster } from "@/components/primitives/CitationChip";
 import {
   buildIdxScoreSheet,
   buildModelPortfolio,
@@ -438,6 +439,12 @@ function MethodologyFooter({ model }: { model: ModelPortfolio }): JSX.Element {
         Drift simulated by trailing 1m return; signal fires at ±200bps band.
         Rebalance discipline: monthly review on the 1st; signals tracked daily.
         Hypothetical model · paper P&L only · no real positions.
+      </div>
+      <div style={{ marginTop: 10 }}>
+        <CitationCluster
+          label="founded on"
+          ids={["frazzini-pedersen-2014", "asness-frazzini-pedersen-2019", "novy-marx-2013", "li-wei-zhang-2023"]}
+        />
       </div>
     </div>
   );

@@ -1,7 +1,35 @@
+import Link from "next/link";
+
 interface Citation {
   tag: string;
   title: string;
   citation: string;
+  citationId?: string;
+}
+
+// Map existing tag strings to citation IDs in lib/data/citations.ts so
+// every audit row deep-links to /sources#cite-<id>.
+const TAG_TO_CITATION_ID: Record<string, string> = {
+  CPCV: "lopez-de-prado-2018",
+  DSR: "bailey-lopez-de-prado-2014",
+  PBO: "bailey-borwein-lopez-de-prado-zhu-2017",
+  FACTORS: "li-wei-zhang-2023",
+  ERP: "damodaran-ctryprem",
+  MOMENTUM: "carhart-1997",
+  FF5: "fama-french-2015",
+  QMJ: "asness-frazzini-pedersen-2019",
+  HXZ: "hou-xue-zhang-2015",
+  PIOTROSKI: "piotroski-2000",
+  "NOVY-MARX": "novy-marx-2013",
+  BAB: "frazzini-pedersen-2014",
+  PEAD: "bernard-thomas-1989",
+  ACCRUALS: "sloan-1996",
+  MSCORE: "beneish-1999",
+  MOAT: "mauboussin-moat",
+};
+
+function resolveCitationId(c: Citation): string | undefined {
+  return c.citationId ?? TAG_TO_CITATION_ID[c.tag.toUpperCase()];
 }
 
 interface BiasControl {
@@ -67,41 +95,59 @@ export default function AuditModule({
       {/* Column 1: Methodology citations */}
       <section style={{ borderRight: "1px solid #2a2a2a", minWidth: 0 }}>
         <SectionHeader title="Methodology · Citations" />
-        {citations.map((c) => (
-          <div
-            key={c.tag}
-            style={{ padding: "10px 12px", borderBottom: "1px solid #111" }}
-          >
-            <div className="flex items-baseline" style={{ gap: 8 }}>
-              <span
-                style={{
-                  fontSize: 9.5,
-                  color: "#ff2e88",
-                  letterSpacing: "0.14em",
-                  fontWeight: 600,
-                  border: "1px solid #ff2e88",
-                  padding: "1px 5px",
-                  background: "rgba(255,46,136,0.05)",
-                }}
-              >
-                {c.tag}
-              </span>
-              <span style={{ fontSize: 11, color: "#d8d8d8" }}>{c.title}</span>
-            </div>
-            <p
-              className="num"
+        {citations.map((c) => {
+          const cid = resolveCitationId(c);
+          const tagChip = (
+            <span
               style={{
-                fontSize: 10,
-                color: "#7a7a7a",
-                margin: "5px 0 0",
-                fontStyle: "italic",
-                lineHeight: 1.45,
+                fontSize: 9.5,
+                color: "#ff2e88",
+                letterSpacing: "0.14em",
+                fontWeight: 600,
+                border: "1px solid #ff2e88",
+                padding: "1px 5px",
+                background: "rgba(255,46,136,0.05)",
+                textDecoration: "none",
               }}
             >
-              {c.citation}
-            </p>
-          </div>
-        ))}
+              {c.tag}
+            </span>
+          );
+          return (
+            <div
+              key={c.tag}
+              style={{ padding: "10px 12px", borderBottom: "1px solid #111" }}
+            >
+              <div className="flex items-baseline" style={{ gap: 8 }}>
+                {cid ? (
+                  <Link
+                    href={`/sources#cite-${cid}`}
+                    title="View citation on /sources"
+                    className="hover:brightness-125"
+                    style={{ display: "inline-flex", textDecoration: "none" }}
+                  >
+                    {tagChip}
+                  </Link>
+                ) : (
+                  tagChip
+                )}
+                <span style={{ fontSize: 11, color: "#d8d8d8" }}>{c.title}</span>
+              </div>
+              <p
+                className="num"
+                style={{
+                  fontSize: 10,
+                  color: "#7a7a7a",
+                  margin: "5px 0 0",
+                  fontStyle: "italic",
+                  lineHeight: 1.45,
+                }}
+              >
+                {c.citation}
+              </p>
+            </div>
+          );
+        })}
       </section>
 
       {/* Column 2: Bias controls */}

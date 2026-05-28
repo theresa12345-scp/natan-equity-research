@@ -1,3 +1,5 @@
+import { CitationCluster } from "@/components/primitives/CitationChip";
+
 interface FactorScore {
   factor: string;
   z: number;
@@ -335,6 +337,16 @@ export default function AlgoModule({
         <SectionHeader title="Equity Curve · vs benchmark" />
         <div style={{ padding: "12px" }}>
           <EquityCurve data={equityCurve} />
+        </div>
+        <div style={{ padding: "10px 12px", borderTop: "1px solid #1d1d1d", background: "#050505" }}>
+          <CitationCluster
+            label="founded on"
+            ids={
+              factorFramework.includes("momentum excluded") || factorFramework.includes("Li")
+                ? ["fama-french-2015", "li-wei-zhang-2023", "lopez-de-prado-2018", "bailey-lopez-de-prado-2014"]
+                : ["fama-french-2015", "carhart-1997", "novy-marx-2013", "lopez-de-prado-2018", "bailey-lopez-de-prado-2014"]
+            }
+          />
         </div>
       </section>
     </div>

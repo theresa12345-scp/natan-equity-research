@@ -1,6 +1,7 @@
 import type { TickerFlowDetail, FlowVerdict } from "@/lib/flow/aggregators";
 import { PARTY_COLOR } from "@/lib/flow/config";
 import type { SmartMoneyGrade } from "@/lib/flow/types";
+import { CitationCluster } from "@/components/primitives/CitationChip";
 
 interface FlowModuleProps {
   detail: TickerFlowDetail;
@@ -419,6 +420,12 @@ export default function FlowModule({ detail, meta }: FlowModuleProps): JSX.Eleme
         <div style={{ fontSize: 10.5, color: "#888", lineHeight: 1.55 }}>
           Cluster = ≥3 distinct P-code (open-market) buyers in a 30d window, excluding Rule 10b5-1 prearranged plans.
           Congress window 90d (STOCK Act 45d max filing lag). 13F filed within 45d of quarter-end. Cross-sectional z computed across the full SMC universe ({smc ? "in-universe" : "ex-universe"}); contributions weighted 33% / 33% / 34% (Checkpoint-1; options 0% pending Unusual Whales integration).
+        </div>
+        <div style={{ marginTop: 10 }}>
+          <CitationCluster
+            label="founded on"
+            ids={["cohen-malloy-pomorski-2012", "cohen-frazzini-malloy-2010", "bernard-thomas-1989"]}
+          />
         </div>
       </div>
     </div>

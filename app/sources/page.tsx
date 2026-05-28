@@ -19,8 +19,10 @@ import {
   dataClassSummary,
   type DataClass,
 } from "@/lib/data/providers";
+import { fetchEdgarSnapshot, fmtEdgarValue, type EdgarSnapshot } from "@/lib/data/fetchers/edgar";
+import { fetchFREDSeries } from "@/lib/fetchers/fred";
 
-export const revalidate = 86400;
+export const revalidate = 21600;
 
 // ── colour mappings ──────────────────────────────────────────────
 
@@ -357,10 +359,12 @@ function CategorySection({ cat }: { cat: keyof typeof CATEGORY_LABELS }): JSX.El
 function CitationRow({ c, i }: { c: Citation; i: number }): JSX.Element {
   return (
     <div
+      id={`cite-${c.id}`}
       style={{
         padding: "10px 14px",
         borderBottom: "1px solid #111",
         background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a",
+        scrollMarginTop: 80,
       }}
     >
       <div className="flex items-baseline" style={{ gap: 8, flexWrap: "wrap" }}>
@@ -494,12 +498,166 @@ function MethodologyFooter(): JSX.Element {
   );
 }
 
+// ── Live Provider Probes — actually hit EDGAR + FRED at render time ──
+
+interface FredProbe {
+  series: string;
+  label: string;
+  ok: boolean;
+  latestValue: number | null;
+  latestDate: string | null;
+  error?: string;
+}
+
+async function probeFred(seriesId: string, label: string): Promise<FredProbe> {
+  if (!process.env.FRED_API_KEY) {
+    return { series: seriesId, label, ok: false, latestValue: null, latestDate: null, error: "FRED_API_KEY not set" };
+  }
+  const obs = await fetchFREDSeries(seriesId, 1);
+  if (obs.length === 0) {
+    return { series: seriesId, label, ok: false, latestValue: null, latestDate: null, error: "no observations returned" };
+  }
+  return { series: seriesId, label, ok: obs[0].value != null, latestValue: obs[0].value, latestDate: obs[0].date };
+}
+
+function LiveProbes({
+  edgar,
+  fred,
+}: {
+  edgar: EdgarSnapshot | null;
+  fred: FredProbe[];
+}): JSX.Element {
+  const edgarOk = edgar && edgar.source === "live" && edgar.metrics.length > 0;
+  const fredAnyOk = fred.some((p) => p.ok);
+  return (
+    <section>
+      <PanelHead
+        title="Live Provider Probes · runtime evidence"
+        meta="SEC EDGAR + FRED — executed at render time · 6h cache"
+      />
+      <div className="grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
+        {/* EDGAR probe */}
+        <div style={{ padding: "12px 14px", borderRight: "1px solid #1d1d1d", borderBottom: "1px solid #1d1d1d" }}>
+          <div className="flex items-baseline" style={{ gap: 8 }}>
+            <span style={{ fontSize: 10, color: "#ff2e88", letterSpacing: "0.08em", fontWeight: 600, textTransform: "uppercase" }}>
+              SEC EDGAR · companyfacts
+            </span>
+            <span
+              className="num ml-auto"
+              style={{
+                fontSize: 9,
+                color: edgarOk ? "#00d97e" : "#ff4d4f",
+                border: `1px solid ${edgarOk ? "#00d97e" : "#ff4d4f"}`,
+                padding: "1px 5px",
+                letterSpacing: "0.12em",
+                fontWeight: 600,
+              }}
+            >
+              {edgarOk ? "LIVE" : "FALLBACK"}
+            </span>
+          </div>
+          {edgar ? (
+            <>
+              <div className="num" style={{ fontSize: 10, color: "#888", marginTop: 4, letterSpacing: "0.04em" }}>
+                {edgar.ticker} · CIK {edgar.cik || "—"} · {edgar.entityName || "—"}
+              </div>
+              {edgarOk ? (
+                <div className="grid" style={{ gridTemplateColumns: "1fr 1fr", gap: 4, marginTop: 8 }}>
+                  {edgar.metrics.slice(0, 8).map((m) => (
+                    <div
+                      key={m.concept}
+                      className="grid items-baseline"
+                      style={{ gridTemplateColumns: "1fr auto", gap: 4, fontSize: 10.5, height: 18 }}
+                    >
+                      <span style={{ color: "#888" }}>{m.label}</span>
+                      <span className="num" style={{ color: "#d8d8d8" }}>{fmtEdgarValue(m)}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div style={{ fontSize: 10, color: "#888", marginTop: 6, fontStyle: "italic" }}>
+                  {edgar.errors?.join(" · ") ?? "no metrics returned"}
+                </div>
+              )}
+              {edgarOk && edgar.metrics[0] ? (
+                <div className="num" style={{ fontSize: 9, color: "#666", marginTop: 6, letterSpacing: "0.04em" }}>
+                  latest filing · {edgar.metrics[0].form} · FY{edgar.metrics[0].fy} {edgar.metrics[0].fp} · filed {edgar.metrics[0].filed}
+                </div>
+              ) : null}
+            </>
+          ) : (
+            <div style={{ fontSize: 10, color: "#888", marginTop: 6, fontStyle: "italic" }}>
+              No EDGAR probe response.
+            </div>
+          )}
+        </div>
+
+        {/* FRED probe */}
+        <div style={{ padding: "12px 14px", borderBottom: "1px solid #1d1d1d" }}>
+          <div className="flex items-baseline" style={{ gap: 8 }}>
+            <span style={{ fontSize: 10, color: "#ff2e88", letterSpacing: "0.08em", fontWeight: 600, textTransform: "uppercase" }}>
+              FRED · St. Louis Fed
+            </span>
+            <span
+              className="num ml-auto"
+              style={{
+                fontSize: 9,
+                color: fredAnyOk ? "#00d97e" : "#ffa940",
+                border: `1px solid ${fredAnyOk ? "#00d97e" : "#ffa940"}`,
+                padding: "1px 5px",
+                letterSpacing: "0.12em",
+                fontWeight: 600,
+              }}
+            >
+              {fredAnyOk ? "LIVE" : "FALLBACK"}
+            </span>
+          </div>
+          <div className="num" style={{ fontSize: 10, color: "#888", marginTop: 4, letterSpacing: "0.04em" }}>
+            FRED_API_KEY · {process.env.FRED_API_KEY ? "set" : "not set (graceful fallback)"}
+          </div>
+          <div className="grid" style={{ gridTemplateColumns: "1fr 1fr", gap: 4, marginTop: 8 }}>
+            {fred.map((p) => (
+              <div
+                key={p.series}
+                className="grid items-baseline"
+                style={{ gridTemplateColumns: "1fr auto auto", gap: 6, fontSize: 10.5, height: 18 }}
+              >
+                <span style={{ color: "#888" }}>{p.label}</span>
+                <span className="num" style={{ color: p.ok ? "#d8d8d8" : "#666" }}>
+                  {p.latestValue != null ? p.latestValue.toFixed(2) : "—"}
+                </span>
+                <span className="num" style={{ color: p.ok ? "#00d97e" : "#ff4d4f", fontSize: 9, letterSpacing: "0.1em" }}>
+                  {p.ok ? "OK" : "—"}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ── page ─────────────────────────────────────────────────────────
 
-export default function SourcesPage(): JSX.Element {
+export default async function SourcesPage(): Promise<JSX.Element> {
+  // Live probes — single-flight, cached 6h.
+  const [edgar, fredObs] = await Promise.all([
+    fetchEdgarSnapshot("NVDA"),
+    Promise.all([
+      probeFred("DGS10", "UST 10Y"),
+      probeFred("DFF", "Fed Funds"),
+      probeFred("CPIAUCSL", "CPI · all-urban"),
+      probeFred("BAMLH0A0HYM2", "HY OAS"),
+      probeFred("UNRATE", "Unemployment"),
+      probeFred("ICSA", "Jobless claims"),
+    ]),
+  ]);
+
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
       <PageHeader />
+      <LiveProbes edgar={edgar} fred={fredObs} />
       <ProviderRouterStrip />
       {CATEGORY_ORDER.map((cat) => (
         <CategorySection key={cat} cat={cat} />

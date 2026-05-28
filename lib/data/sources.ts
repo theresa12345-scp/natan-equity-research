@@ -51,9 +51,9 @@ export const SOURCES: SourceRecord[] = [
     sustainability: "stable",
     useCases:
       "10-K / 10-Q / 8-K / 13F / Form 4 / S-1 + XBRL company facts for every US issuer",
-    status: "planned",
+    status: "live",
     edgeRank: 1,
-    wrapper: "sec-edgar-api, edgartools",
+    wrapper: "lib/data/fetchers/edgar.ts",
     tosNote: "UA header MUST be 'Name email@domain' — missing = 403.",
   },
   {
@@ -93,10 +93,10 @@ export const SOURCES: SourceRecord[] = [
     sustainability: "tightened",
     useCases:
       "fed funds, yield curve (DGS10, DGS2), CPIAUCSL, UNRATE, PAYEMS, ICSA, BAMLH0A0HYM2 HY OAS",
-    status: "planned",
+    status: "live",
     edgeRank: 1,
-    wrapper: "fredapi (Python), fredr (R)",
-    tosNote: "API v2 launched Nov 4 2025; key now enforced.",
+    wrapper: "lib/fetchers/fred.ts",
+    tosNote: "API v2 launched Nov 4 2025; key now enforced. Set FRED_API_KEY env var.",
   },
   {
     id: "fiscaldata",
