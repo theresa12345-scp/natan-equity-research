@@ -51,11 +51,12 @@ const TILES: SectionTile[] = [
   { num: "09", label: "Flow", blurb: "Smart-money · Congress + 13F + Insider", href: "/flow", stat: "Cluster watch · AVGO 4 · NVDA 5", statTone: "pos" },
   { num: "07", label: "Calendar", blurb: "30d forward catalysts · US + IDX", href: "/calendar", stat: "26 events · 6 high impact", statTone: "neutral" },
   { num: "01", label: "Markets", blurb: "IHSG +0.84% · LQ45 +0.92%", href: "/markets", stat: "FIN +1.82% · ENG +3.42%", statTone: "pos" },
-  { num: "02", label: "Portfolio", blurb: "Hypothetical tracking · Day +0.93%", href: "/idx/portfolio", stat: "α +9bps vs IHSG TR", statTone: "pos" },
+  { num: "02", label: "Portfolio", blurb: "Model · score-driven weights · top-28", href: "/idx/portfolio", stat: "ADD/TRIM signals · ±200bps band", statTone: "pos" },
   { num: "03", label: "Screener", blurb: "24 / 184 eligible · top decile", href: "/screener", stat: "Top signal: BMRI +2.41z", statTone: "pos" },
   { num: "04", label: "Research", blurb: "CPCV μ 0.904 · DSR 99.7%", href: "/research", stat: "9/9 paths positive", statTone: "pos" },
   { num: "05", label: "Risk", blurb: "Beta 1.08 · Vol 18.4%", href: "/risk", stat: "VaR 95% −2.84%", statTone: "neg" },
   { num: "06", label: "Backtest", blurb: "Strategy workbench · 5 saved", href: "/backtest", stat: "Sharpe 0.91 · DSR 0.997", statTone: "pos" },
+  { num: "11", label: "Sources", blurb: "Free Edge catalog · 40+ sources · academic citations", href: "/sources", stat: "Provenance · citations · ToS audit", statTone: "neutral" },
 ];
 
 const SAVED_SCREENS = [

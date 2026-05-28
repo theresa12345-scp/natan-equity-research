@@ -11,11 +11,12 @@ const FUNCTIONS: Array<{ label: string; href: string; keywords: string[] }> = [
   { label: "Daily Brief · morning digest", href: "/brief", keywords: ["brief", "daily", "morning", "spark"] },
   { label: "Catalyst Calendar · 30d forward", href: "/calendar", keywords: ["calendar", "catalyst", "events", "earnings", "fed", "bi-rate"] },
   { label: "Markets · IDX overview", href: "/markets", keywords: ["markets", "mkts", "ihsg"] },
-  { label: "Portfolio · hypothetical tracking", href: "/idx/portfolio", keywords: ["portfolio", "port", "holdings"] },
+  { label: "Portfolio · model · score-driven weights", href: "/idx/portfolio", keywords: ["portfolio", "port", "holdings", "model", "rebalance"] },
   { label: "Screener · multi-factor", href: "/screener", keywords: ["screener", "scrn", "screen"] },
   { label: "Research · CPCV / DSR", href: "/research", keywords: ["research", "qres", "cpcv"] },
   { label: "Risk · stress + factor exposure", href: "/risk", keywords: ["risk", "stress", "var"] },
   { label: "Backtest · strategy workbench", href: "/backtest", keywords: ["backtest", "strategy", "cpcv", "dsr"] },
+  { label: "Sources · Free Edge catalog + citations", href: "/sources", keywords: ["sources", "src", "data", "edge", "edgar", "fred", "ksei", "bps", "citations", "damodaran", "piotroski", "novy-marx", "fama-french", "provenance", "tos"] },
 ];
 
 const SCENARIOS: Array<{ label: string; href: string; keywords: string[] }> = [
