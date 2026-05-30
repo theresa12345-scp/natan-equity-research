@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-29T17:35:04.819202",
+  "timestamp": "2026-05-30T08:16:31.290078",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 10,
-    "neutral": 13,
+    "bullish": 12,
+    "neutral": 11,
     "bearish": 2,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 8,
+    "Reuters": 12,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 5,
-    "The Wall Street Journal": 1,
-    "CBS News": 1,
-    "MarketWatch": 1,
-    "Ad Hoc News": 1,
-    "Benzinga": 1
+    "CNBC": 4,
+    "Investor's Business Daily": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -32,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,8 +99,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "S&P 500 and Nasdaq hit record closing highs as US and Iran agree to extend ceasefire - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "S&P 500 and Nasdaq hit record closing highs as US and Iran agree to extend ceasefire\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-05-29 15:19",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZW5OZjgtYlBYcWVNMFJIbW5ab2Y0UldIWVFkU0VHekpyUkRCMW5HWGVqTEpuSHJJT2p3cEF0NlNUSUNCNmJOWDM3V21QQXQySVZGbFNtWjNid1BzVWw4YnNjV01MSVRxakhHSEJVaDVwWkV3Sko5alU3SW9sYlpuWl9QU1pqaXdQYlVvRkhBRkN4STIzRzVr?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -112,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -122,7 +129,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-05-29 17:35",
+      "date": "2026-05-30 08:16",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -156,24 +163,14 @@
       "link": "https://www.cnbc.com/2026/05/28/gap-gap-earnings-q1-2026.html"
     },
     {
-      "headline": "Key US inflation measure posts largest annual increase in three years - Reuters",
+      "headline": "Dow Jones Futures: Stock Market Hits Highs On U.S.-Iran Deal; Dell Surges On Earnings",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Key US inflation measure posts largest annual increase in three years\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-05-28 20:52",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42UDdTXzBaWFpQZFVPSzJ1cFJ5bXhVTE1vdlIzOHpWRHpoQzFKcDBodVNkd0tUanRkcTZGNUJpcXA3NXdFcFhYeGxEcDh1QlFHUGVGLUNjR0t3ODFtVFlkMjBRU0tWQmxqcFhyX2dVc05EYlJFS3lrYl9rTXpWUDg?oc=5"
-    },
-    {
-      "headline": "US imposes fresh sanctions on Iran's military oil sales, Treasury says - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US imposes fresh sanctions on Iran's military oil sales, Treasury says\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-05-28 20:26",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTGN5U0hILU5zdG9XalBqazFVZGtCQXZmTnY5SlZ3Y1g2d293c0tGaXM0QnpXUkRGNWxMclNJSl96YmFPYnNRd3V0aEhKSDd0eEtBcmlTX1B6VXNRZlNic0ZRMGF5dmtsU3RZdDczS1FTWFRCS2FnTEZfMkxZRnhENHVEMDh0N2VtYjl4WXhIUGV0RnVJNk80TGNBdm1xbTQzUG1pNmhySjcwVXAyNVYtSjVTaw?oc=5"
+      "source": "Investor's Business Daily",
+      "sentiment": "positive",
+      "impact": "Five stocks in buy areas.",
+      "category": "us_equities",
+      "date": "2026-05-28 20:48",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-u-s-iran-deal-dell-netapp-earnings/"
     },
     {
       "headline": "Best Buy stock climbs 15% on earnings beat as retailer aims to reinvigorate sales",
@@ -186,94 +183,94 @@
       "link": "https://www.cnbc.com/2026/05/28/best-buy-bby-q1-2027-earnings.html"
     },
     {
-      "headline": "U.S. GDP Growth Revised Lower for First Quarter",
-      "score": 7,
-      "source": "The Wall Street Journal",
+      "headline": "Pentagon chief says U.S. ready to restart strikes on Iran if no deal - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "corporate_earnings",
-      "date": "2026-05-28 14:09",
-      "link": "https://www.wsj.com/economy/q1-gross-domestic-product-revision-e1a6ff93"
+      "impact": "Pentagon chief says U.S. ready to restart strikes on Iran if no deal\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-30 03:52",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMDJGOWhzbXNmcjJKZV9ldldtcUliNDM5RUduV3loQVpDYlowVGlhd1g4S2t3RzhYOVpTS3pDUXlYT0tnZ21jVGxGNTR3MVRvZF9GMW5SYWpVUnJyRnd0dldUZlVWbmxQRzRuZjUzV0lqNGpNc0tSZ0RqOU5PeGNZQXl3dG1WWHVGRWVXTnpOT196X193YlFsZGROWk53akFuM2RNWDhtMVl4YVpPS0dZemNYcTNDZw?oc=5"
     },
     {
-      "headline": "The first inflation report under new Fed chief Kevin Warsh shows prices at highest in nearly 3 years",
-      "score": 7,
-      "source": "CBS News",
+      "headline": "TSX extends monthly gain, led by tech and metal mining shares - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "The personal consumption expenditures price index, the Federal Reserve's preferred gauge of inflation, jumped due to higher energy costs.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-28 14:05",
-      "link": "https://www.cbsnews.com/news/pce-report-today-inflation-kevin-warsh-federal-reserve/"
+      "impact": "TSX extends monthly gain, led by tech and metal mining shares\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-29 21:39",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNFd6d2x0YUxYOWtKV0RWZmc4WkRZR3Nua0QxVmxOQm5rUUcwd18zeGVaSW8yZllQWXV5UE1YS20wODVHaG1VOXp6NzBVY3F5Z0NIWkhNbVU1bS1KdDB4cGRoMmp4Ty0yYU50SFNpWlJTYms4WE1iSzFlcWh3Ti1EMkJDZTlESE1wdmg1WVVpeXpQY2VPOHVRSGJ0YXFnYW9ldVQzSVVEWExqZnhueHluMGl0TWZwcmQ1V2VIVQ?oc=5"
     },
     {
-      "headline": "These S&P 500 stocks have soared the most during the AI-driven May rally",
+      "headline": "These S&P 500 stocks soared the most during the AI-driven May rally",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
       "impact": "Even stocks in the beleaguered software industry have been on fire.",
       "category": "us_equities",
-      "date": "2026-05-29 17:06",
+      "date": "2026-05-29 20:43",
       "link": "https://www.marketwatch.com/story/these-s-p-500-stocks-have-soared-the-most-during-the-ai-driven-may-rally-570ad48f?mod=mw_rss_topstories"
     },
     {
-      "headline": "As SpaceX IPO nears, traders think it's a near-certainty Musk becomes the first trillionaire",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "With buzz about a record-shattering IPO for SpaceX, traders are confident Elon Musk will advance to trillionaire status before 2027.",
-      "category": "global_markets",
-      "date": "2026-05-29 16:32",
-      "link": "https://www.cnbc.com/2026/05/29/as-spacex-ipo-nears-traders-think-musk-will-be-the-first-trillionaire.html"
-    },
-    {
-      "headline": "Erie Indemnity Co. stock (US29530P1021): valuation in focus after Q1 2026 earnings miss",
-      "score": 6,
-      "source": "Ad Hoc News",
-      "sentiment": "negative",
-      "impact": "Erie Indemnity Co. (ERIE) shares are under pressure after reporting Q1 2026 earnings per share of $2.88, missing the consensus estimate of $3.06. This earnings miss, along with the upcoming Q2 earnings expected in early August, has put the stock's valuation metrics in focus. The company, which funct",
-      "category": "corporate_earnings",
-      "date": "2026-05-29 16:29",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/erie-indemnity-co-stock-us29530p1021-valuation-in-focus-after-q1-2026/69443420"
-    },
-    {
-      "headline": "Trump to decide imminently on Iran deal, says Hormuz Strait must open - Reuters",
+      "headline": "US issues new Iran-related counter-terrorism sanctions - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump to decide imminently on Iran deal, says Hormuz Strait must open\u00a0\u00a0Reuters",
+      "impact": "US issues new Iran-related counter-terrorism sanctions\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-05-29 15:59",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVE5ESU5VTnpnd09UZ3VvYnJ5WmtPOUR1STFHREZuSXBjTmZob2tEUUZUTUZsOWZyaDlCbk9OdVZlM2ZaRUZyMnNvUG83QVl3d3EzbFlZZ3UyaThBaTRXRXBPRktIb0cxWEhrUUdqVHl0NlVBZUFYS3VkTkJlbU1ISUhpdFVKUTFSMklXWHY3TXBXWFptWkNvTWlhMXROQy14RlNvTUh5eFlTUm1ueUNMTnQ1U0p4REp5OTUwaVo2QkhVZw?oc=5"
+      "date": "2026-05-29 20:31",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVm1lQTd2R3dIUWlPenlFSkpzM0tiUC1RcGQ1eTVTNWY2blplYnpiaUVxc0lzNXZ0TE1NbjlwYXotcE1GVEktaHJVMmFseEt3aU45dThXQldxb29XRDBzaXBibkVWVFh6T3Q2TnpYWnMxUFAzTEo3UFI1NFdjaVFGNTB1R2N2R0lTWEtNUEo2NFNsbHUxUnpfSFNtUThGNW9Ib2cyd3NJN2hpekJX?oc=5"
     },
     {
-      "headline": "Kalshi is moving beyond prediction markets and into one of crypto's biggest trading lanes",
+      "headline": "Iran's strongest card in nuclear talks: its highly enriched uranium - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Kalshi said offshore perpetuals grew from $28 trillion in annual volume in 2023 to more than $90 trillion in 2025.",
-      "category": "global_markets",
-      "date": "2026-05-29 15:58",
-      "link": "https://www.cnbc.com/2026/05/29/kalshi-is-moving-beyond-prediction-markets-and-into-one-of-cryptos-biggest-trading-lanes.html"
-    },
-    {
-      "headline": "Transcript: Silvercorp Metals Q4 2026 Earnings Conference Call",
-      "score": 6,
-      "source": "Benzinga",
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Silvercorp Metals reported record Q3 FY2026 revenue of $126 million, a 3.51% increase year-over-year, and significant growth in cash flow from operating activities, reaching $133 million. Despite a net income loss due to a non-cash charge on derivative liabilities, adjusted net income stood at $47.9",
-      "category": "corporate_earnings",
-      "date": "2026-05-29 15:56",
-      "link": "https://www.benzinga.com/insights/news/26/05/52878222/transcript-silvercorp-metals-q4-2026-earnings-conference-call"
+      "impact": "Iran's strongest card in nuclear talks: its highly enriched uranium\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-29 18:54",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLVB1eHR2RnVCbmhWRnllZXpzUE9qNXFCeW5BNU5DQ3Uwcy1MVTUxbURrSC1rTUVGakxlZjktLURZZFEtYzFPbjU4TExmYlVFYnBQZ1VrSVRlLW14TUhnd01mbWIxamhkQzloeTZMQkNKSHlabkE2QUhyakNXcWNvSmdZQW1KM2RfYlRQLUJneFBDS25oZ011Um5WQlU5SjA3TGtKeG5IOA?oc=5"
     },
     {
-      "headline": "Disney's ABC files early broadcast licenses renewal. FCC Chair vows to 'follow the facts'",
+      "headline": "What the Blue Origin rocket explosion means for Amazon's satellite ambitions",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Disney said it filed renewals for eight broadcast station licenses \"under protest,\" after the FCC launched an early review years ahead of schedule. ",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "category": "global_markets",
-      "date": "2026-05-29 15:46",
-      "link": "https://www.cnbc.com/2026/05/28/disney-fcc-broadcast-licenses-renewal.html"
+      "date": "2026-05-29 18:48",
+      "link": "https://www.cnbc.com/2026/05/29/what-the-blue-origin-explosion-means-for-amazons-satellite-ambitions.html"
+    },
+    {
+      "headline": "UN places Israel and Russia on sexual violence blacklist - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "UN places Israel and Russia on sexual violence blacklist\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-29 18:40",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNTkxUVZfQW5WRzlpYWxBTXdnVG84b3REbktTUjlrUVVWWklBZGdTRFpfY0xMSXd5amwyaU52WXM2M2FYRF9Tb2d3NS1QNm1CSWFuY0JXYmJVOEM2ODd3aWU4c2FSc2llU2lxeWFhQkFMVGJJWU5KckE3NUVBb1ZLck14bXlyZVZRdzNrV1R5dXh4c3dQSUxNS2dqcDVDMU81dmJPQVhmSkhodmh5RTRHZ1g1azctRGJocnV6cVJmeHYxdEM1?oc=5"
+    },
+    {
+      "headline": "Tokens or humans? The new corporate trade-off",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "AI is costing far more than companies expected, forcing CFOs into a new trade-off between tokens and humans and posing a risk the market hasn't priced in.",
+      "category": "global_markets",
+      "date": "2026-05-29 18:24",
+      "link": "https://www.cnbc.com/2026/05/29/-tokens-or-humans-the-new-corporate-trade-off.html"
+    },
+    {
+      "headline": "European shares secure monthly gains on Middle East peace hopes - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "European shares secure monthly gains on Middle East peace hopes\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-05-29 16:35",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMjZUVms4QnpTeVk4cmgtYkJBYUE5SHBLczRSN19vdlEwSnlVc3kxZWh3QlhWdTlEX0NPMTAxbkdMblBJQTFNYlRsdGduM19FdFFNZ04wcDUyOHZlaTdHTHBpTGhNWTZlRFMwX0tlUlJxdzZiaF9rV3BoMkRSZWZIa19JcUdWb2VjMkVGNXlLTmZWUXc1dEJPc3VpaEMzT1hHUjdwUS1WSG9CMXVZa184?oc=5"
     }
   ]
 }
