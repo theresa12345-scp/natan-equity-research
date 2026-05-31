@@ -106,7 +106,7 @@ export default function BBCAPage(): JSX.Element {
         regimeSensitivity="Risk-On lean (β_regime 0.84)"
       />
       <ModuleTabs tabs={TABS} active={active} onChange={setActive} />
-      <div style={{ minHeight: 0, overflow: "auto" }}>
+      <div key={active} className="mrdn-tab-content" style={{ minHeight: 0, overflow: "auto" }}>
         {active === "grade" && (
           <>
             <GradeModule pillars={BBCA_PILLARS} drivers={BBCA_DRIVERS} aggregate={BBCA_GRADE} thesis={BBCA_THESIS} history={BBCA_GRADE_HISTORY}

@@ -78,7 +78,7 @@ export default function MYORPage(): JSX.Element {
         regimeSensitivity="Stable across regimes (β_regime 0.42)"
       />
       <ModuleTabs tabs={TABS} active={active} onChange={setActive} />
-      <div style={{ minHeight: 0, overflow: "auto" }}>
+      <div key={active} className="mrdn-tab-content" style={{ minHeight: 0, overflow: "auto" }}>
         {active === "grade" && (<><GradeModule pillars={MYOR_PILLARS} drivers={MYOR_DRIVERS} aggregate={MYOR_GRADE} thesis={MYOR_THESIS} history={MYOR_GRADE_HISTORY}
           pxFormatter={(n) => `Rp ${n.toLocaleString("en-US", { maximumFractionDigits: 0 })}`}
           ticker={MYOR_IDENTITY.ticker} name={MYOR_IDENTITY.name} ciLow="B−" ciHigh="B+" /><ScoreInterpretation /></>)}

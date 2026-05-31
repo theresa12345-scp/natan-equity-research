@@ -155,6 +155,8 @@ function EquityCurve({ data }: { data: EquityPoint[] }): JSX.Element {
   const ptsBench = data.map((d, i) => `${x(i)},${y(d.bench)}`).join(" ");
 
   const yTicks = [100, 200, 300, 400, 500].filter((v) => v >= min && v <= max);
+  // Approximate path length for stroke-dashoffset draw-in.
+  const stratLen = (data.length - 1) * xStep * 1.4;
 
   return (
     <svg viewBox={`0 0 ${w} ${h}`} width="100%" role="img" aria-label="12-year equity curve">
@@ -178,8 +180,22 @@ function EquityCurve({ data }: { data: EquityPoint[] }): JSX.Element {
           </text>
         </g>
       ))}
-      <polyline fill="none" stroke="#7a7a7a" strokeWidth={1.2} points={ptsBench} />
-      <polyline fill="none" stroke="#ff2e88" strokeWidth={1.6} points={ptsStrat} />
+      <polyline
+        fill="none"
+        stroke="#7a7a7a"
+        strokeWidth={1.2}
+        points={ptsBench}
+        className="mrdn-draw"
+        style={{ strokeDasharray: `${stratLen.toFixed(0)} ${stratLen.toFixed(0)}`, strokeDashoffset: stratLen.toFixed(0), animationDuration: "800ms" }}
+      />
+      <polyline
+        fill="none"
+        stroke="#ff2e88"
+        strokeWidth={1.6}
+        points={ptsStrat}
+        className="mrdn-draw"
+        style={{ strokeDasharray: `${stratLen.toFixed(0)} ${stratLen.toFixed(0)}`, strokeDashoffset: stratLen.toFixed(0), animationDuration: "900ms" }}
+      />
       {data.map((d, i) =>
         i % 2 === 0 ? (
           <text

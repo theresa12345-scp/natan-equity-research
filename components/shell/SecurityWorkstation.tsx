@@ -172,7 +172,7 @@ export default function SecurityWorkstation({
 
       <ModuleTabs tabs={TABS} active={active} onChange={setActive} />
 
-      <div style={{ minHeight: 0, overflow: "auto" }}>
+      <div key={active} className="mrdn-tab-content" style={{ minHeight: 0, overflow: "auto" }}>
         {active === "grade" && (
           <>
             <GradeModule

@@ -82,7 +82,7 @@ export default function NVDAPage(): JSX.Element {
         regimeSensitivity="Strong Risk-On bias (β_regime 1.42)"
       />
       <ModuleTabs tabs={TABS} active={active} onChange={setActive} />
-      <div style={{ minHeight: 0, overflow: "auto" }}>
+      <div key={active} className="mrdn-tab-content" style={{ minHeight: 0, overflow: "auto" }}>
         {active === "grade" && (<><GradeModule pillars={NVDA_PILLARS} drivers={NVDA_DRIVERS} aggregate={NVDA_GRADE} thesis={NVDA_THESIS} history={NVDA_GRADE_HISTORY}
           pxFormatter={(n) => `$${n.toFixed(2)}`} ticker={NVDA_IDENTITY.ticker} name={NVDA_IDENTITY.name} ciLow="B" ciHigh="A−" /><ScoreInterpretation /></>)}
         {active === "dcf" && (<DCFModule capm={NVDA_DCF_CAPM} terminal={NVDA_DCF_TERMINAL} output={NVDA_DCF_OUTPUT} projection={NVDA_DCF_PROJECTION} sensitivity={NVDA_DCF_SENSITIVITY} currency="USD" unitLabel="$ billions" />)}

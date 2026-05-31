@@ -1,5 +1,6 @@
 import TickerLink from "@/components/primitives/TickerLink";
 import { CitationCluster } from "@/components/primitives/CitationChip";
+import Sparkline, { deterministicWalk } from "@/components/primitives/Sparkline";
 import {
   buildIdxScoreSheet,
   buildModelPortfolio,
@@ -196,6 +197,7 @@ const COL_HEADERS: Array<{ label: string; align: "left" | "right"; width?: strin
   { label: "β", align: "right", width: "50px" },
   { label: "LAST", align: "right", width: "68px" },
   { label: "YTD", align: "right", width: "60px" },
+  { label: "SPARK", align: "left", width: "72px" },
   { label: "SECTOR", align: "left", width: "108px" },
 ];
 
@@ -268,6 +270,19 @@ function HoldingsTable({ holdings }: { holdings: ModelHolding[] }): JSX.Element 
               <td className="num" style={{ padding: "0 8px", textAlign: "right", color: tone(row.ytdReturn ?? 0), fontSize: 11 }}>
                 {row.ytdReturn != null ? fmtPct(row.ytdReturn, 1) : "—"}
               </td>
+              <td style={{ padding: "0 4px" }}>
+                <Sparkline
+                  values={deterministicWalk(
+                    row.ticker,
+                    24,
+                    (row.ytdReturn ?? 0) / 100,
+                    row.annualVol / 12,
+                  )}
+                  width={64}
+                  height={16}
+                  showAreaFill
+                />
+              </td>
               <td style={{ padding: "0 8px", color: "#b8b8b8", fontSize: 10.5, whiteSpace: "nowrap" }}>
                 {row.sector}
               </td>
@@ -301,7 +316,7 @@ function Donut({ segments }: { segments: SectorAllocation[] }): JSX.Element {
 
   return (
     <svg width={240} height={240} viewBox="-120 -120 240 240" role="img" aria-label="Sector allocation">
-      <g transform="rotate(-90)">
+      <g className="mrdn-sweep" style={{ transformOrigin: "center" }}>
         {segments.map((seg, i) => {
           const portion = seg.pct / sum;
           const len = portion * circ;

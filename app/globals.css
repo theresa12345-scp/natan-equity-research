@@ -78,3 +78,90 @@ a {
     display: none;
   }
 }
+
+/* ────────────────────────────────────────────────────────────────
+   Motion utilities — institutional terminal vocabulary.
+   Hard edges, short durations, no bounce. All gated by
+   prefers-reduced-motion above.
+   ──────────────────────────────────────────────────────────────── */
+
+@keyframes mrdn-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(1.35); }
+}
+@keyframes mrdn-fade-in {
+  from { opacity: 0; transform: translateY(2px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes mrdn-flash-mag {
+  0% { background: rgba(255, 46, 136, 0.45); }
+  100% { background: transparent; }
+}
+@keyframes mrdn-flash-pos {
+  0% { background: rgba(0, 217, 126, 0.30); }
+  100% { background: transparent; }
+}
+@keyframes mrdn-flash-neg {
+  0% { background: rgba(255, 77, 79, 0.30); }
+  100% { background: transparent; }
+}
+@keyframes mrdn-draw {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes mrdn-sweep-rotate {
+  from { transform: rotate(-90deg) scale(0.92); opacity: 0; }
+  to { transform: rotate(-90deg) scale(1); opacity: 1; }
+}
+@keyframes mrdn-bar-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.mrdn-pulse {
+  animation: mrdn-pulse 1.6s ease-in-out infinite;
+  transform-origin: center;
+}
+.mrdn-fade-in {
+  animation: mrdn-fade-in 200ms ease-out both;
+}
+.mrdn-flash-mag { animation: mrdn-flash-mag 700ms ease-out both; }
+.mrdn-flash-pos { animation: mrdn-flash-pos 700ms ease-out both; }
+.mrdn-flash-neg { animation: mrdn-flash-neg 700ms ease-out both; }
+
+.mrdn-draw {
+  animation: mrdn-draw 600ms ease-out both;
+}
+.mrdn-sweep {
+  transform-origin: 50% 50%;
+  animation: mrdn-sweep-rotate 700ms cubic-bezier(0.2, 0.7, 0.3, 1) both;
+}
+.mrdn-bar {
+  transform-origin: left center;
+  animation: mrdn-bar-grow 500ms cubic-bezier(0.2, 0.8, 0.3, 1) both;
+}
+
+/* Smooth row hover transitions across the app — no jarring instant swap. */
+tbody tr,
+.row-hover {
+  transition: background-color 90ms ease-out;
+}
+
+/* Smooth scroll for in-page anchor jumps (e.g., /sources#cite-*). */
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+/* Focus ring — keyboard nav, no rounded glow. */
+:focus-visible {
+  outline: 1px solid var(--color-mag);
+  outline-offset: 1px;
+}
+
+/* Tab content slot — opacity + 2px nudge on key change. Applied via key. */
+.mrdn-tab-content {
+  animation: mrdn-fade-in 160ms ease-out both;
+}
+

@@ -21,6 +21,7 @@ import {
 } from "@/lib/data/providers";
 import { fetchEdgarSnapshot, fmtEdgarValue, type EdgarSnapshot } from "@/lib/data/fetchers/edgar";
 import { fetchFREDSeries } from "@/lib/fetchers/fred";
+import Pulse from "@/components/primitives/Pulse";
 
 export const revalidate = 21600;
 
@@ -543,7 +544,7 @@ function LiveProbes({
               SEC EDGAR · companyfacts
             </span>
             <span
-              className="num ml-auto"
+              className="num ml-auto flex items-center"
               style={{
                 fontSize: 9,
                 color: edgarOk ? "#00d97e" : "#ff4d4f",
@@ -551,8 +552,10 @@ function LiveProbes({
                 padding: "1px 5px",
                 letterSpacing: "0.12em",
                 fontWeight: 600,
+                gap: 4,
               }}
             >
+              {edgarOk ? <Pulse color="#00d97e" size={6} /> : null}
               {edgarOk ? "LIVE" : "FALLBACK"}
             </span>
           </div>
@@ -599,7 +602,7 @@ function LiveProbes({
               FRED · St. Louis Fed
             </span>
             <span
-              className="num ml-auto"
+              className="num ml-auto flex items-center"
               style={{
                 fontSize: 9,
                 color: fredAnyOk ? "#00d97e" : "#ffa940",
@@ -607,8 +610,10 @@ function LiveProbes({
                 padding: "1px 5px",
                 letterSpacing: "0.12em",
                 fontWeight: 600,
+                gap: 4,
               }}
             >
+              {fredAnyOk ? <Pulse color="#00d97e" size={6} /> : null}
               {fredAnyOk ? "LIVE" : "FALLBACK"}
             </span>
           </div>

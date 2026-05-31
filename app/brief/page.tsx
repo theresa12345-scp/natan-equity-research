@@ -1,6 +1,7 @@
 import { buildBrief } from "@/lib/brief/build";
 import type { BriefDocument } from "@/lib/brief/types";
 import TickerLink from "@/components/primitives/TickerLink";
+import Pulse from "@/components/primitives/Pulse";
 
 // Revalidate every 6 hours. Vercel Cron also rebuilds at 06:30 WIB +
 // 08:00 EDT; this revalidate is the safety net.
@@ -108,7 +109,7 @@ function SourceChip({ source }: { source: BriefDocument["source"] }): JSX.Elemen
   const label = source === "live" ? "LIVE" : source === "mixed" ? "MIXED" : "FALLBACK";
   return (
     <span
-      className="num"
+      className="num flex items-center"
       style={{
         fontSize: 8.5,
         color,
@@ -116,9 +117,11 @@ function SourceChip({ source }: { source: BriefDocument["source"] }): JSX.Elemen
         border: `1px solid ${color}`,
         padding: "1px 5px",
         fontWeight: 600,
+        gap: 4,
       }}
       title={`Data source: ${source}`}
     >
+      {source === "live" || source === "mixed" ? <Pulse color={color} size={6} /> : null}
       {label}
     </span>
   );

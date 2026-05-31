@@ -154,6 +154,7 @@ export default function TopBar(): JSX.Element {
                   : "2px solid transparent",
                 cursor: "pointer",
                 lineHeight: 1,
+                transition: "color 140ms ease-out, border-color 140ms ease-out",
               }}
             >
               <span
@@ -161,6 +162,7 @@ export default function TopBar(): JSX.Element {
                 style={{
                   color: active ? "#ff2e88" : "#555",
                   fontSize: 9.5,
+                  transition: "color 140ms ease-out",
                 }}
               >
                 {tab.num}
