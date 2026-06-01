@@ -2,9 +2,10 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import TickerLink from "@/components/primitives/TickerLink";
 import { CitationCluster } from "@/components/primitives/CitationChip";
+import Sparkline, { deterministicWalk } from "@/components/primitives/Sparkline";
 import { THEMES, themeBySlug } from "@/lib/themes/catalog";
 import { buildThemeBasket } from "@/lib/themes/engine";
-import type { ThemeBasketRow, RelevanceTier } from "@/lib/themes/types";
+import type { ThemeBasket, ThemeBasketRow, RelevanceTier } from "@/lib/themes/types";
 
 export const dynamicParams = false;
 export const revalidate = 3600;
@@ -98,7 +99,7 @@ export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
         style={{ gridTemplateColumns: "repeat(5, minmax(0, 1fr))", borderBottom: "1px solid #2a2a2a" }}
       >
         {[
-          { label: "CONSTITUENTS", value: String(basket.totalNames), sub: `${basket.coreNames} core · ${basket.inUniverseNames} in universe`, tone: "#f5f5f5" },
+          { label: "CONSTITUENTS", value: String(basket.totalNames), sub: `${basket.coreNames} core · ${basket.inUniverseNames}/${basket.totalNames} have live data`, tone: "#f5f5f5" },
           {
             label: "BASKET Z",
             value: `${basket.weightedZ >= 0 ? "+" : ""}${basket.weightedZ.toFixed(2)}σ`,
@@ -145,6 +146,13 @@ export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
         ))}
       </div>
 
+      {/* Sector exposure bar + tier distribution */}
+      <PanelHead title="Exposure · sectors and tiers" meta="basket-weighted share" />
+      <div style={{ padding: "12px 14px" }}>
+        <SectorExposureBar basket={basket} />
+        <TierExposureBar basket={basket} />
+      </div>
+
       {/* Seedwords */}
       <PanelHead title="Seedwords · keyword set" meta={`${theme.seedwords.length} terms · curated`} />
       <div style={{ padding: "10px 14px" }}>
@@ -176,7 +184,7 @@ export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
       <div
         className="grid items-center"
         style={{
-          gridTemplateColumns: "70px 1fr 90px 80px 70px 70px 90px 80px 110px",
+          gridTemplateColumns: "70px 1fr 70px 70px 60px 60px 80px 76px 110px 100px",
           height: 24,
           padding: "0 14px",
           background: "#050505",
@@ -195,6 +203,7 @@ export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
         <span style={{ textAlign: "right" }}>Z</span>
         <span style={{ textAlign: "right" }}>Rel %</span>
         <span>Tier</span>
+        <span>Spark</span>
         <span>Sector</span>
         <span>Source</span>
       </div>
@@ -297,13 +306,146 @@ export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
   );
 }
 
+// Sector exposure as a horizontal stacked bar (institutional standard:
+// Bloomberg basket detail + ETFdb theme pages).
+const SECTOR_PALETTE = [
+  "#ff2e88", "#5ec4e0", "#00d97e", "#c4831f",
+  "#9a2a2c", "#b8b8b8", "#7a7a7a", "#555555",
+];
+
+function SectorExposureBar({ basket }: { basket: ThemeBasket }): JSX.Element {
+  const map = new Map<string, number>();
+  basket.rows.forEach((r) => {
+    if (r.sector && r.basketWeight > 0) {
+      map.set(r.sector, (map.get(r.sector) ?? 0) + r.basketWeight);
+    }
+  });
+  const segments = Array.from(map.entries())
+    .map(([sector, weight]) => ({ sector, weight }))
+    .sort((a, b) => b.weight - a.weight);
+  const total = segments.reduce((s, x) => s + x.weight, 0) || 1;
+
+  if (segments.length === 0) {
+    return (
+      <div style={{ fontSize: 10.5, color: "#666", fontStyle: "italic" }}>
+        No sector data — constituents not yet in the universe loader.
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ marginBottom: 14 }}>
+      <div className="num" style={{ fontSize: 9, color: "#666", letterSpacing: "0.08em", marginBottom: 6, textTransform: "uppercase" }}>
+        Sector exposure
+      </div>
+      <div
+        style={{
+          display: "flex",
+          height: 16,
+          border: "1px solid #1d1d1d",
+          background: "#0a0a0a",
+        }}
+        title={segments.map((s) => `${s.sector} ${((s.weight / total) * 100).toFixed(1)}%`).join(" · ")}
+      >
+        {segments.map((seg, i) => (
+          <div
+            key={seg.sector}
+            style={{
+              width: `${(seg.weight / total) * 100}%`,
+              background: SECTOR_PALETTE[i] ?? "#444",
+              borderRight: i < segments.length - 1 ? "1px solid #000" : "none",
+            }}
+          />
+        ))}
+      </div>
+      <div
+        className="flex items-center"
+        style={{ marginTop: 8, gap: 12, flexWrap: "wrap", fontSize: 10.5 }}
+      >
+        {segments.map((seg, i) => (
+          <span
+            key={seg.sector}
+            style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "#d8d8d8" }}
+          >
+            <span
+              aria-hidden="true"
+              style={{ width: 8, height: 8, background: SECTOR_PALETTE[i] ?? "#444" }}
+            />
+            {seg.sector}
+            <span className="num" style={{ color: "#888", marginLeft: 3 }}>
+              {((seg.weight / total) * 100).toFixed(1)}%
+            </span>
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function TierExposureBar({ basket }: { basket: ThemeBasket }): JSX.Element {
+  const core = basket.rows.filter((r) => r.tier === "Core");
+  const sig = basket.rows.filter((r) => r.tier === "Significant");
+  const peri = basket.rows.filter((r) => r.tier === "Peripheral");
+  const wCore = core.reduce((s, r) => s + r.basketWeight, 0);
+  const wSig = sig.reduce((s, r) => s + r.basketWeight, 0);
+  const wPeri = peri.reduce((s, r) => s + r.basketWeight, 0);
+  const total = wCore + wSig + wPeri || 1;
+
+  return (
+    <div>
+      <div className="num" style={{ fontSize: 9, color: "#666", letterSpacing: "0.08em", marginBottom: 6, textTransform: "uppercase" }}>
+        Tier purity · MSCI ≥50% pure-play / Bloomberg Tier 1
+      </div>
+      <div
+        style={{
+          display: "flex",
+          height: 16,
+          border: "1px solid #1d1d1d",
+          background: "#0a0a0a",
+        }}
+      >
+        <div style={{ width: `${(wCore / total) * 100}%`, background: "#ff2e88" }} />
+        <div style={{ width: `${(wSig / total) * 100}%`, background: "#5ec4e0" }} />
+        <div style={{ width: `${(wPeri / total) * 100}%`, background: "#7a7a7a" }} />
+      </div>
+      <div
+        className="flex items-center"
+        style={{ marginTop: 8, gap: 14, fontSize: 10.5 }}
+      >
+        <span style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "#d8d8d8" }}>
+          <span aria-hidden="true" style={{ width: 8, height: 8, background: "#ff2e88" }} />
+          Core ({core.length})
+          <span className="num" style={{ color: "#888", marginLeft: 3 }}>
+            {((wCore / total) * 100).toFixed(0)}%
+          </span>
+        </span>
+        <span style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "#d8d8d8" }}>
+          <span aria-hidden="true" style={{ width: 8, height: 8, background: "#5ec4e0" }} />
+          Significant ({sig.length})
+          <span className="num" style={{ color: "#888", marginLeft: 3 }}>
+            {((wSig / total) * 100).toFixed(0)}%
+          </span>
+        </span>
+        <span style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "#d8d8d8" }}>
+          <span aria-hidden="true" style={{ width: 8, height: 8, background: "#7a7a7a" }} />
+          Peripheral ({peri.length})
+          <span className="num" style={{ color: "#888", marginLeft: 3 }}>
+            {((wPeri / total) * 100).toFixed(0)}%
+          </span>
+        </span>
+      </div>
+    </div>
+  );
+}
+
 function ConstituentRow({ r, i }: { r: ThemeBasketRow; i: number }): JSX.Element {
+  const trend = r.ytdReturn ?? 0;
   return (
     <div
       className="grid items-center hover:bg-[#1a1a1a]"
       style={{
-        gridTemplateColumns: "70px 1fr 90px 80px 70px 70px 90px 80px 110px",
-        height: 26,
+        gridTemplateColumns: "70px 1fr 70px 70px 60px 60px 80px 76px 110px 100px",
+        height: 28,
         padding: "0 14px",
         borderBottom: "1px solid #111",
         background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a",
@@ -370,6 +512,14 @@ function ConstituentRow({ r, i }: { r: ThemeBasketRow; i: number }): JSX.Element
         }}
       >
         {r.tier.toUpperCase()}
+      </span>
+      <span style={{ display: "inline-flex", alignItems: "center" }}>
+        <Sparkline
+          values={deterministicWalk(r.ticker, 24, trend / 100, 0.025)}
+          width={72}
+          height={16}
+          showAreaFill
+        />
       </span>
       <span
         style={{

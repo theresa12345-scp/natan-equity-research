@@ -14,6 +14,7 @@ export interface Citation {
   keyFinding: string;
   appliesTo: string[]; // app concept tags the citation justifies
   category: CiteCategory;
+  shortLabel?: string; // override "lastname Year" chip text (for institutional authors)
 }
 
 export const CITATIONS: Citation[] = [
@@ -273,6 +274,7 @@ export const CITATIONS: Citation[] = [
   {
     id: "morningstar-thematic-2022",
     authors: "Morningstar Research",
+    shortLabel: "Morningstar",
     year: 2022,
     title: "Global Thematic Funds Landscape",
     venue: "Morningstar Research Services · annual study",
@@ -296,6 +298,7 @@ export const CITATIONS: Citation[] = [
   {
     id: "msci-thematic-relevance",
     authors: "MSCI Inc.",
+    shortLabel: "MSCI",
     year: 2025,
     title: "MSCI Thematic Indexes Methodology",
     venue: "MSCI Methodology · annual review (May)",
@@ -308,6 +311,7 @@ export const CITATIONS: Citation[] = [
   {
     id: "bloomberg-thematic-protocol",
     authors: "Bloomberg Intelligence",
+    shortLabel: "Bloomberg",
     year: 2024,
     title: "Bloomberg Thematic Protocol + Thematic Benchmark Indices",
     venue: "BI THEM<GO> / BI BSKT<GO> · 468 indices across 33 baskets (launched Oct 29 2024)",

@@ -416,6 +416,83 @@ export const THEMES: Theme[] = [
   },
 
   {
+    slug: "us-reshoring",
+    name: "US Reshoring & Supply-Chain",
+    category: "Defense & Geopolitics",
+    region: "US",
+    benchmark: "S&P 500",
+    blurb: "CHIPS Act + IRA tax credits + nearshoring beneficiaries",
+    definition:
+      "Reshoring + nearshoring of strategic manufacturing — semiconductors (CHIPS Act $52B), critical minerals, batteries, pharma, defense industrial base. Beneficiaries span fab equipment, industrial REITs, US-domiciled producers, and logistics infrastructure.",
+    seedwords: [
+      "reshoring", "nearshoring", "onshoring", "CHIPS Act",
+      "Inflation Reduction Act", "IRA", "domestic manufacturing",
+      "industrial policy", "supply chain resilience", "critical minerals",
+      "DPA Title III", "Buy American",
+    ],
+    constituents: [
+      { ticker: "CAT", region: "US", relevancePct: 45, tier: "Significant", source: "analyst-tagged", rationale: "Caterpillar — industrial machinery for US-fab buildout + infrastructure cycle." },
+      { ticker: "ETN", region: "US", relevancePct: 70, tier: "Core", source: "analyst-tagged", rationale: "Eaton — electrical infrastructure; ~70% datacenter + reshoring tied." },
+      { ticker: "ROK", region: "US", relevancePct: 85, tier: "Core", source: "analyst-tagged", rationale: "Rockwell Automation — factory-floor industrial automation; reshoring-pure-play." },
+      { ticker: "PWR", region: "US", relevancePct: 60, tier: "Core", source: "analyst-tagged", rationale: "Quanta Services — electrical infrastructure / grid build-out." },
+      { ticker: "NUE", region: "US", relevancePct: 50, tier: "Core", source: "analyst-tagged", rationale: "Nucor — US steel; IRA + 25% steel tariff beneficiary." },
+      { ticker: "EMR", region: "US", relevancePct: 55, tier: "Core", source: "analyst-tagged", rationale: "Emerson Electric — process automation + Aspen Tech." },
+      { ticker: "AMAT", region: "US", relevancePct: 40, tier: "Significant", source: "analyst-tagged", rationale: "Applied Materials — CHIPS Act direct beneficiary for US fab buildout." },
+    ],
+    methodology: {
+      scoringFormula: "Domestic-revenue share + capacity expansion announced + CHIPS/IRA funding receipt.",
+      dataProvenance: "10-K + DoC CHIPS Office awards + IRA Section 48C/45X filings + earnings transcripts.",
+      eligibilityFloorPct: 25,
+      weighting: "score-vol",
+      rebalanceCadence: "Semi-annual.",
+      lastReview: "2026-05-28",
+      limitations:
+        "Cycle tied to fiscal policy continuity — election risk. Many names trade on backlog/capex announcements, not realised revenue.",
+    },
+    citationIds: ["msci-thematic-relevance", "bloomberg-thematic-protocol", "ben-david-franzoni-kim-moussawi-2023"],
+    riskNote:
+      "Fiscal-policy-dependent (CHIPS/IRA continuity). Multiples have re-rated on policy hype; mean-reversion risk if subsidies are clawed back.",
+  },
+
+  {
+    slug: "us-robotics-automation",
+    name: "Robotics & Automation",
+    category: "Disruptive Technology",
+    region: "US",
+    benchmark: "S&P 500",
+    blurb: "Industrial robotics + warehouse automation + humanoid bets",
+    definition:
+      "Industrial robotics, warehouse automation, surgical robotics, and emerging humanoid platforms. Cuts across capital-goods, semis (vision/control silicon), and software. ARK identifies robotics as one of five innovation platforms.",
+    seedwords: [
+      "robotics", "industrial robot", "humanoid", "robot arm",
+      "warehouse automation", "AGV", "AMR", "machine vision",
+      "surgical robot", "automation", "RaaS",
+    ],
+    constituents: [
+      { ticker: "ISRG", region: "US", relevancePct: 95, tier: "Core", source: "analyst-tagged", rationale: "Intuitive Surgical — da Vinci platform; pure-play surgical robotics." },
+      { ticker: "ABB", region: "US", relevancePct: 55, tier: "Core", source: "analyst-tagged", rationale: "ABB Ltd ADR — industrial robotics + electrification (~55% automation revenue)." },
+      { ticker: "ROK", region: "US", relevancePct: 90, tier: "Core", source: "analyst-tagged", rationale: "Rockwell Automation — factory automation pure-play." },
+      { ticker: "EMR", region: "US", relevancePct: 60, tier: "Core", source: "analyst-tagged", rationale: "Emerson Electric — process automation + Aspen Tech software." },
+      { ticker: "TER", region: "US", relevancePct: 80, tier: "Core", source: "analyst-tagged", rationale: "Teradyne — semi test + Universal Robots collaborative arms." },
+      { ticker: "TSLA", region: "US", relevancePct: 22, tier: "Significant", source: "analyst-tagged", rationale: "Tesla — Optimus humanoid bet; option value on the platform." },
+      { ticker: "NVDA", region: "US", relevancePct: 18, tier: "Peripheral", source: "analyst-tagged", rationale: "NVIDIA — Isaac robotics stack; small but strategic exposure." },
+    ],
+    methodology: {
+      scoringFormula: "Robotics/automation segment revenue share. Pure-play (≥80%) = Core; significant cohort = Significant.",
+      dataProvenance: "10-K + GICS 2010/2020/4520 cross-map + IFR (International Federation of Robotics) data.",
+      eligibilityFloorPct: 15,
+      weighting: "relevance",
+      rebalanceCadence: "Quarterly.",
+      lastReview: "2026-05-28",
+      limitations:
+        "Humanoid robots remain pre-revenue (TSLA Optimus, FIGR). High capex / long-cycle business at index level. Capital-goods cyclicality.",
+    },
+    citationIds: ["msci-thematic-relevance", "bloomberg-thematic-protocol", "ben-david-franzoni-kim-moussawi-2023"],
+    riskNote:
+      "Humanoid names trade on demo videos, not earnings. Industrial-automation cohort is capital-goods cyclical.",
+  },
+
+  {
     slug: "us-nuclear-uranium",
     name: "Nuclear & Uranium Revival",
     category: "Energy & Materials",

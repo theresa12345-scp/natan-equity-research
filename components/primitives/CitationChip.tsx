@@ -17,7 +17,11 @@ export default function CitationChip({
   const c = citation(id);
   if (!c) return null;
   const fontSize = size === "sm" ? 9.5 : 9;
-  const lastName = c.authors.split(",")[0].split(" ").pop() ?? "—";
+  // Institutional authors ("Bloomberg Intelligence", "MSCI Inc.",
+  // "Morningstar Research") use an explicit shortLabel; otherwise pull
+  // the lead author's lastname.
+  const lastName =
+    c.shortLabel ?? c.authors.split(",")[0].split(" ").pop() ?? "—";
   const label = `${lastName} ${c.year}`;
   const tooltip = `${c.title} · ${c.venue}\n${c.keyFinding}`;
 
