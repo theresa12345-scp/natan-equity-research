@@ -14,6 +14,27 @@ const SUBMISSIONS = (cik: string): string =>
 const COMPANY_FACTS = (cik: string): string =>
   `https://data.sec.gov/api/xbrl/companyfacts/CIK${cik.padStart(10, "0")}.json`;
 
+// Hard request timeout — SEC sometimes blocks Vercel build IPs and lets
+// connections hang. Without this, the entire build can stall past the
+// 60s static-generation cap on any page that awaits this fetcher.
+const FETCH_TIMEOUT_MS = 8000;
+
+async function fetchWithTimeout(
+  url: string,
+  init: RequestInit & { next?: { revalidate?: number } },
+): Promise<Response | null> {
+  const controller = new AbortController();
+  const t = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, { ...init, signal: controller.signal });
+    return res;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(t);
+  }
+}
+
 interface SECTickerRow {
   cik_str: number;
   ticker: string;
@@ -25,11 +46,11 @@ let tickerMapCache: Map<string, { cik: string; name: string }> | null = null;
 async function loadTickerMap(): Promise<Map<string, { cik: string; name: string }>> {
   if (tickerMapCache) return tickerMapCache;
   try {
-    const res = await fetch(TICKER_MAP_URL, {
+    const res = await fetchWithTimeout(TICKER_MAP_URL, {
       headers: { "User-Agent": UA, Accept: "application/json" },
       next: { revalidate: 86400 },
     });
-    if (!res.ok) return new Map();
+    if (!res || !res.ok) return new Map();
     const j = (await res.json()) as Record<string, SECTickerRow>;
     const map = new Map<string, { cik: string; name: string }>();
     for (const row of Object.values(j)) {
@@ -133,11 +154,11 @@ export async function fetchEdgarSnapshot(
     };
   }
   try {
-    const res = await fetch(COMPANY_FACTS(ref.cik), {
+    const res = await fetchWithTimeout(COMPANY_FACTS(ref.cik), {
       headers: { "User-Agent": UA, Accept: "application/json" },
       next: { revalidate: 21600 }, // 6h cache
     });
-    if (!res.ok) {
+    if (!res || !res.ok) {
       return {
         ticker,
         cik: ref.cik,
@@ -146,7 +167,7 @@ export async function fetchEdgarSnapshot(
         metrics: [],
         source: "fallback",
         fetchedAt: new Date().toISOString(),
-        errors: [`SEC companyfacts ${res.status}`],
+        errors: [res ? `SEC companyfacts ${res.status}` : "SEC companyfacts timeout/network error"],
       };
     }
     const j = (await res.json()) as CompanyFactsRaw;

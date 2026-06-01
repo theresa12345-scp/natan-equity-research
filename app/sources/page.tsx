@@ -23,7 +23,12 @@ import { fetchEdgarSnapshot, fmtEdgarValue, type EdgarSnapshot } from "@/lib/dat
 import { fetchFREDSeries } from "@/lib/fetchers/fred";
 import Pulse from "@/components/primitives/Pulse";
 
-export const revalidate = 21600;
+// Force-dynamic: this page hits SEC EDGAR + FRED at render time and we
+// don't want Next.js to attempt prerender during build (those external
+// services can block Vercel build IPs / hang past the 60s static-gen cap
+// and fail the deployment). Render on request with the fetcher's own
+// cache + the LIVE/FALLBACK chips on the page.
+export const dynamic = "force-dynamic";
 
 // ── colour mappings ──────────────────────────────────────────────
 

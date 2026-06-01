@@ -23,7 +23,14 @@ export async function fetchFREDSeries(
   }
   try {
     const url = `${BASE}?series_id=${seriesId}&api_key=${key}&file_type=json&limit=${limit}&sort_order=desc`;
-    const res = await fetch(url, { next: { revalidate: 21600 } });
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
+    let res: Response;
+    try {
+      res = await fetch(url, { next: { revalidate: 21600 }, signal: controller.signal });
+    } finally {
+      clearTimeout(timeout);
+    }
     if (!res.ok) {
       console.warn(`[brief] FRED ${seriesId} status ${res.status}`);
       return [];
