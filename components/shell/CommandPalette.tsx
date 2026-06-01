@@ -17,6 +17,7 @@ const FUNCTIONS: Array<{ label: string; href: string; keywords: string[] }> = [
   { label: "Risk · stress + factor exposure", href: "/risk", keywords: ["risk", "stress", "var"] },
   { label: "Backtest · strategy workbench", href: "/backtest", keywords: ["backtest", "strategy", "cpcv", "dsr"] },
   { label: "Sources · Free Edge catalog + citations", href: "/sources", keywords: ["sources", "src", "data", "edge", "edgar", "fred", "ksei", "bps", "citations", "damodaran", "piotroski", "novy-marx", "fama-french", "provenance", "tos"] },
+  { label: "Themes · 12 baskets · IDX + US discovery lens", href: "/themes", keywords: ["themes", "thematic", "basket", "nickel", "ev", "danantara", "soe", "digital banks", "ai", "datacenter", "semiconductors", "glp-1", "obesity", "cybersecurity", "defense", "nuclear", "uranium", "palm oil", "geothermal"] },
 ];
 
 const SCENARIOS: Array<{ label: string; href: string; keywords: string[] }> = [

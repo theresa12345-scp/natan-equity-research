@@ -151,6 +151,7 @@ export const SECTION_TABS: SectionTab[] = [
   { num: "08", label: "PICKS", href: "/picks" },
   { num: "09", label: "FLOW", href: "/flow" },
   { num: "11", label: "SRC", href: "/sources" },
+  { num: "12", label: "THEM", href: "/themes" },
 ];
 
 export const SESSION = {

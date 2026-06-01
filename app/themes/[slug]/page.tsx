@@ -1,0 +1,393 @@
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import TickerLink from "@/components/primitives/TickerLink";
+import { CitationCluster } from "@/components/primitives/CitationChip";
+import { THEMES, themeBySlug } from "@/lib/themes/catalog";
+import { buildThemeBasket } from "@/lib/themes/engine";
+import type { ThemeBasketRow, RelevanceTier } from "@/lib/themes/types";
+
+export const dynamicParams = false;
+export const revalidate = 3600;
+
+export function generateStaticParams(): { slug: string }[] {
+  return THEMES.map((t) => ({ slug: t.slug }));
+}
+
+function tone(z: number | null): string {
+  if (z == null) return "#666";
+  if (z > 0.3) return "#00d97e";
+  if (z < -0.3) return "#ff4d4f";
+  return "#b8b8b8";
+}
+
+function tierColor(t: RelevanceTier): string {
+  if (t === "Core") return "#ff2e88";
+  if (t === "Significant") return "#5ec4e0";
+  return "#7a7a7a";
+}
+
+function PanelHead({ title, meta }: { title: string; meta?: string }): JSX.Element {
+  return (
+    <div
+      className="flex items-center"
+      style={{
+        height: 28,
+        padding: "0 14px",
+        borderTop: "1px solid #2a2a2a",
+        borderBottom: "1px solid #2a2a2a",
+        background: "#050505",
+        gap: 10,
+      }}
+    >
+      <span
+        style={{
+          fontSize: 9.5,
+          color: "#ff2e88",
+          letterSpacing: "0.14em",
+          fontWeight: 600,
+          textTransform: "uppercase",
+        }}
+      >
+        {title}
+      </span>
+      {meta ? (
+        <span className="num ml-auto" style={{ fontSize: 9.5, color: "#666", letterSpacing: "0.06em" }}>
+          {meta}
+        </span>
+      ) : null}
+    </div>
+  );
+}
+
+interface PageProps {
+  params: { slug: string };
+}
+
+export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
+  const theme = themeBySlug(params.slug);
+  if (!theme) notFound();
+  const basket = buildThemeBasket(theme);
+
+  const benchmark = theme.benchmark;
+  const region = theme.region;
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
+      {/* Header */}
+      <div style={{ padding: "20px 14px", borderBottom: "1px solid #2a2a2a" }}>
+        <div className="num" style={{ fontSize: 9, color: "#666", letterSpacing: "0.14em", textTransform: "uppercase" }}>
+          <Link href="/themes" className="hover:text-[#ff2e88]" style={{ color: "#7a7a7a", textDecoration: "none" }}>
+            ← THEMES
+          </Link>
+          <span style={{ marginLeft: 8, color: "#444" }}>·</span>
+          <span style={{ marginLeft: 8 }}>{theme.category}</span>
+          <span style={{ marginLeft: 8, color: "#444" }}>·</span>
+          <span style={{ marginLeft: 8 }}>{theme.region}</span>
+        </div>
+        <h1 style={{ fontSize: 28, color: "#f5f5f5", fontWeight: 500, letterSpacing: "-0.01em", margin: "6px 0 4px" }}>
+          {theme.name}
+        </h1>
+        <p style={{ fontSize: 12, color: "#888", margin: "8px 0 0", maxWidth: "92ch", lineHeight: 1.55 }}>
+          {theme.definition}
+        </p>
+      </div>
+
+      {/* KPI strip */}
+      <div
+        className="grid"
+        style={{ gridTemplateColumns: "repeat(5, minmax(0, 1fr))", borderBottom: "1px solid #2a2a2a" }}
+      >
+        {[
+          { label: "CONSTITUENTS", value: String(basket.totalNames), sub: `${basket.coreNames} core · ${basket.inUniverseNames} in universe`, tone: "#f5f5f5" },
+          {
+            label: "BASKET Z",
+            value: `${basket.weightedZ >= 0 ? "+" : ""}${basket.weightedZ.toFixed(2)}σ`,
+            sub: `${theme.methodology.weighting} weighting`,
+            tone: tone(basket.weightedZ),
+          },
+          {
+            label: "AVG RELEVANCE",
+            value: `${basket.avgRelevance.toFixed(0)}%`,
+            sub: `floor ${theme.methodology.eligibilityFloorPct}% · pure-play ≥50%`,
+            tone: "#ff2e88",
+          },
+          {
+            label: "TOP SECTOR",
+            value: basket.topSector ?? "—",
+            sub: `vs ${benchmark}`,
+            tone: "#f5f5f5",
+          },
+          {
+            label: "LAST REVIEW",
+            value: theme.methodology.lastReview,
+            sub: `cadence: ${theme.methodology.rebalanceCadence.toLowerCase()}`,
+            tone: "#f5f5f5",
+          },
+        ].map((k, i) => (
+          <div
+            key={k.label}
+            style={{
+              padding: 14,
+              borderRight: i < 4 ? "1px solid #1d1d1d" : "none",
+              minWidth: 0,
+            }}
+          >
+            <div style={{ fontSize: 8.5, color: "#666", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 6 }}>
+              {k.label}
+            </div>
+            <div className="num" style={{ fontSize: 18, color: k.tone, fontWeight: 500, letterSpacing: "-0.01em", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+              {k.value}
+            </div>
+            <div className="num" style={{ marginTop: 4, fontSize: 10, color: "#888", lineHeight: 1.35 }}>
+              {k.sub}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Seedwords */}
+      <PanelHead title="Seedwords · keyword set" meta={`${theme.seedwords.length} terms · curated`} />
+      <div style={{ padding: "10px 14px" }}>
+        <div className="flex items-center" style={{ flexWrap: "wrap", gap: 6 }}>
+          {theme.seedwords.map((s) => (
+            <span
+              key={s}
+              className="num"
+              style={{
+                fontSize: 10,
+                color: "#d8d8d8",
+                border: "1px solid #2a2a2a",
+                padding: "2px 7px",
+                background: "#0a0a0a",
+                letterSpacing: "0.02em",
+              }}
+            >
+              {s}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Constituents */}
+      <PanelHead
+        title="Constituents · basket leaderboard"
+        meta={`${basket.totalNames} names · sorted by basket weight ▾`}
+      />
+      <div
+        className="grid items-center"
+        style={{
+          gridTemplateColumns: "70px 1fr 90px 80px 70px 70px 90px 80px 110px",
+          height: 24,
+          padding: "0 14px",
+          background: "#050505",
+          borderBottom: "1px solid #2a2a2a",
+          fontSize: 9,
+          color: "#555",
+          letterSpacing: "0.1em",
+          textTransform: "uppercase",
+          gap: 8,
+        }}
+      >
+        <span>Ticker</span>
+        <span>Name</span>
+        <span style={{ textAlign: "right" }}>Wt %</span>
+        <span style={{ textAlign: "right" }}>Score</span>
+        <span style={{ textAlign: "right" }}>Z</span>
+        <span style={{ textAlign: "right" }}>Rel %</span>
+        <span>Tier</span>
+        <span>Sector</span>
+        <span>Source</span>
+      </div>
+      {basket.rows.map((r, i) => (
+        <ConstituentRow key={r.ticker} r={r} i={i} />
+      ))}
+
+      {/* Rationale block — full prose per constituent */}
+      <PanelHead title="Rationale · per-constituent" meta="analyst-tagged · why this name belongs" />
+      <div>
+        {basket.rows.map((r, i) => (
+          <div
+            key={r.ticker}
+            style={{
+              padding: "8px 14px",
+              borderBottom: "1px solid #111",
+              background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a",
+            }}
+          >
+            <div className="flex items-baseline" style={{ gap: 8 }}>
+              <TickerLink ticker={r.ticker} market={r.region === "GLOBAL" ? "US" : r.region} size="sm" />
+              <span
+                className="num"
+                style={{
+                  fontSize: 9,
+                  color: tierColor(r.tier),
+                  border: `1px solid ${tierColor(r.tier)}`,
+                  padding: "1px 5px",
+                  letterSpacing: "0.08em",
+                  fontWeight: 600,
+                }}
+              >
+                {r.tier.toUpperCase()} · {r.relevancePct}%
+              </span>
+              <span className="num" style={{ fontSize: 10, color: "#666", letterSpacing: "0.04em" }}>
+                {r.source}
+              </span>
+            </div>
+            <div style={{ fontSize: 11.5, color: "#d8d8d8", marginTop: 4, lineHeight: 1.45 }}>
+              {r.rationale}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Methodology */}
+      <PanelHead title="Methodology · reproducible from public data" />
+      <div style={{ padding: "12px 14px" }}>
+        <div className="grid" style={{ gridTemplateColumns: "200px 1fr", rowGap: 8, columnGap: 14, fontSize: 11 }}>
+          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Scoring formula</span>
+          <span style={{ color: "#d8d8d8", lineHeight: 1.5 }}>{theme.methodology.scoringFormula}</span>
+
+          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Data provenance</span>
+          <span style={{ color: "#d8d8d8", lineHeight: 1.5 }}>{theme.methodology.dataProvenance}</span>
+
+          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Eligibility floor</span>
+          <span className="num" style={{ color: "#d8d8d8" }}>{theme.methodology.eligibilityFloorPct}% relevance</span>
+
+          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Weighting</span>
+          <span className="num" style={{ color: "#d8d8d8" }}>{theme.methodology.weighting}</span>
+
+          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Rebalance</span>
+          <span style={{ color: "#d8d8d8" }}>{theme.methodology.rebalanceCadence}</span>
+
+          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Last review</span>
+          <span className="num" style={{ color: "#d8d8d8" }}>{theme.methodology.lastReview}</span>
+
+          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Limitations</span>
+          <span style={{ color: "#b8b8b8", lineHeight: 1.5 }}>{theme.methodology.limitations}</span>
+        </div>
+        <div style={{ marginTop: 12 }}>
+          <CitationCluster label="founded on" ids={theme.citationIds} />
+        </div>
+      </div>
+
+      {/* Honest risk callout */}
+      <div
+        style={{
+          padding: "12px 14px",
+          borderTop: "1px solid #2a2a2a",
+          borderLeft: "2px solid #ff4d4f",
+          background: "rgba(255,77,79,0.04)",
+        }}
+      >
+        <div className="num" style={{ fontSize: 9, color: "#ff4d4f", letterSpacing: "0.14em", fontWeight: 600, marginBottom: 6, textTransform: "uppercase" }}>
+          Theme-specific risk
+        </div>
+        <div style={{ fontSize: 11.5, color: "#d8d8d8", lineHeight: 1.55 }}>{theme.riskNote}</div>
+        <div style={{ fontSize: 10.5, color: "#888", lineHeight: 1.55, marginTop: 10 }}>
+          <span style={{ color: "#ff4d4f", fontWeight: 600 }}>Class-wide caveat. </span>
+          Peer-reviewed evidence — Ben-David, Franzoni, Kim &amp; Moussawi (2023, <em>RFS</em> 36(3): 987–1042) —
+          finds specialized thematic ETFs lose ~30% risk-adjusted over their first five years (~ −3.1%/yr after
+          fees), driven by overvaluation at launch rather than fees or hedging demand. Morningstar's 10-year
+          survivorship study (2022) found nearly 60% of US thematic funds shuttered and only 22% both survived
+          and beat the Morningstar Global Markets Index; 15-year survive-and-outperform rate ~10%. Treat this
+          surface as a discovery and research lens, not a buy signal.
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ConstituentRow({ r, i }: { r: ThemeBasketRow; i: number }): JSX.Element {
+  return (
+    <div
+      className="grid items-center hover:bg-[#1a1a1a]"
+      style={{
+        gridTemplateColumns: "70px 1fr 90px 80px 70px 70px 90px 80px 110px",
+        height: 26,
+        padding: "0 14px",
+        borderBottom: "1px solid #111",
+        background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a",
+        gap: 8,
+      }}
+    >
+      <TickerLink ticker={r.ticker} market={r.region === "GLOBAL" ? "US" : r.region} size="sm" />
+      <span
+        style={{
+          fontSize: 11,
+          color: "#d8d8d8",
+          whiteSpace: "nowrap",
+          overflow: "hidden",
+          textOverflow: "ellipsis",
+        }}
+      >
+        {r.name}
+      </span>
+      <span
+        className="num"
+        style={{
+          fontSize: 11,
+          color: "#f5f5f5",
+          textAlign: "right",
+          fontWeight: 500,
+        }}
+      >
+        {(r.basketWeight * 100).toFixed(2)}
+      </span>
+      <span
+        className="num"
+        style={{
+          fontSize: 11,
+          color: r.score == null ? "#666" : r.score >= 75 ? "#ff2e88" : "#d8d8d8",
+          textAlign: "right",
+          fontWeight: r.score != null && r.score >= 75 ? 600 : 400,
+        }}
+      >
+        {r.score == null ? "—" : r.score.toFixed(0)}
+      </span>
+      <span
+        className="num"
+        style={{ fontSize: 11, color: tone(r.compositeZ), textAlign: "right" }}
+      >
+        {r.compositeZ == null ? "—" : `${r.compositeZ >= 0 ? "+" : ""}${r.compositeZ.toFixed(2)}`}
+      </span>
+      <span
+        className="num"
+        style={{ fontSize: 11, color: "#ff2e88", textAlign: "right", fontWeight: 600 }}
+      >
+        {r.relevancePct}%
+      </span>
+      <span
+        className="num"
+        style={{
+          fontSize: 9.5,
+          color: tierColor(r.tier),
+          border: `1px solid ${tierColor(r.tier)}`,
+          padding: "1px 5px",
+          letterSpacing: "0.08em",
+          fontWeight: 600,
+          justifySelf: "start",
+          alignSelf: "center",
+        }}
+      >
+        {r.tier.toUpperCase()}
+      </span>
+      <span
+        style={{
+          fontSize: 10.5,
+          color: "#b8b8b8",
+          whiteSpace: "nowrap",
+          overflow: "hidden",
+          textOverflow: "ellipsis",
+        }}
+      >
+        {r.sector ?? "—"}
+      </span>
+      <span
+        className="num"
+        style={{ fontSize: 9.5, color: "#7a7a7a", letterSpacing: "0.04em" }}
+      >
+        {r.source}
+      </span>
+    </div>
+  );
+}

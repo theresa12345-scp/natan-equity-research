@@ -256,6 +256,66 @@ export const CITATIONS: Citation[] = [
     appliesTo: ["regime model", "Brief macro drivers"],
     category: "regime",
   },
+
+  // ── Thematic investing — methodology + critique ────────────────
+  {
+    id: "ben-david-franzoni-kim-moussawi-2023",
+    authors: "Ben-David, I., Franzoni, F., Kim, B. & Moussawi, R.",
+    year: 2023,
+    title: "Competition for attention in the ETF space",
+    venue: "Review of Financial Studies 36(3): 987–1042 (NBER WP 28369)",
+    url: "https://academic.oup.com/rfs/article/36/3/987/6620834",
+    keyFinding:
+      "Specialized thematic ETFs lose ~30% risk-adjusted over their first five years (~ −6%/yr early, −3.1%/yr after fees), driven by overvaluation at launch — issuers cater to extrapolative beliefs by launching themes at peak hype. Dec 2019: thematic ETFs were ~18% of US ETF assets but ~35% of industry fee revenue.",
+    appliesTo: ["Themes module", "thematic risk disclosure", "/themes caveat"],
+    category: "factor",
+  },
+  {
+    id: "morningstar-thematic-2022",
+    authors: "Morningstar Research",
+    year: 2022,
+    title: "Global Thematic Funds Landscape",
+    venue: "Morningstar Research Services · annual study",
+    keyFinding:
+      "Over the 10 years through end-2021, nearly 60% of US thematic funds shuttered and only 22% both survived and beat the Morningstar Global Markets Index. Over 15 years only ~10% survived-and-outperformed (~91% failure rate). Largest investor behavior gap of any equity group (2.6% in sector funds).",
+    appliesTo: ["Themes module", "thematic risk disclosure", "/themes caveat"],
+    category: "factor",
+  },
+  {
+    id: "hoberg-phillips-2016",
+    authors: "Hoberg, G. & Phillips, G.",
+    year: 2016,
+    title: "Text-based network industries and endogenous product differentiation",
+    venue: "Journal of Political Economy 124(5): 1423–1465",
+    url: "https://hobergphillips.tuck.dartmouth.edu/",
+    keyFinding:
+      "Text-based Network Industry Classifications (TNIC) built from cosine similarity of 10-K business-description text across ~50,000 filings. Firms occupy positions on a unit-sphere 'product space'; industries update annually. Academic backbone for theme-from-filing-text.",
+    appliesTo: ["Themes module", "relevance scoring", "text-derived membership"],
+    category: "methodology",
+  },
+  {
+    id: "msci-thematic-relevance",
+    authors: "MSCI Inc.",
+    year: 2025,
+    title: "MSCI Thematic Indexes Methodology",
+    venue: "MSCI Methodology · annual review (May)",
+    url: "https://www.msci.com/",
+    keyFinding:
+      "Direct route: revenue counts 100% if segment name matches theme keyword. Indirect route: SIC-mapped revenue discounted for uncertainty. Eligibility >25% relevance, pure-play ≥50%. Reviewed semi-annually; seedwords reviewed annually each May.",
+    appliesTo: ["Themes module", "relevance scoring", "tier thresholds"],
+    category: "data",
+  },
+  {
+    id: "bloomberg-thematic-protocol",
+    authors: "Bloomberg Intelligence",
+    year: 2024,
+    title: "Bloomberg Thematic Protocol + Thematic Benchmark Indices",
+    venue: "BI THEM<GO> / BI BSKT<GO> · 468 indices across 33 baskets (launched Oct 29 2024)",
+    keyFinding:
+      "Revenue-tied tiers: assessment 1 = >50% revenue, 2 = 20–50%, 3 = <20%. Companies sorted Gold/Silver/Bronze (combined value 2–4 = Gold). Quarterly rebalance, equal-weighted baskets, theme purity score.",
+    appliesTo: ["Themes module", "relevance scoring", "tier thresholds", "rebalance cadence"],
+    category: "data",
+  },
 ];
 
 // Lookup helpers
