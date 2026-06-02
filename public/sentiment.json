@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-06-02T10:04:15.705520",
+  "timestamp": "2026-06-02T18:05:43.444946",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 10,
-    "neutral": 12,
-    "bearish": 3,
-    "high_priority": 10,
-    "material_events": 4
+    "bullish": 12,
+    "neutral": 11,
+    "bearish": 2,
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 12,
+    "MarketWatch": 3,
+    "Reuters": 9,
     "Bloomberg": 2,
-    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 2,
-    "Associated Press": 1,
-    "MarketWatch": 2
+    "CNBC": 3,
+    "Ad Hoc News": 2,
+    "Business Wire": 1
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,8 +60,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Stock Market Today: Dow falls 200 points as oil prices and Treasury yields climb; S&P 500 and Nasdaq rise as software's comeback continues",
+      "score": 9,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Follow all the latest U.S. market action for Monday here.",
+      "category": "us_equities",
+      "date": "2026-06-01 16:31",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-near-record-highs-us-iran-peace-deal"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -70,7 +80,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +100,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,28 +110,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Gold gains on easing Treasury yields amid Mideast uncertainty - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Gold gains on easing Treasury yields amid Mideast uncertainty\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-06-02 01:12",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWVVWNVNodVFSeXdsWW9GZ1o4WnJKc0pqbkN4NGhBVkVOV3RqcXRQMDJfZHVHUUk4YWpGZFB5TGhCNmxBdXE0U20tRW0zMlNjYlBuenpIcVdoa0txQjNzb3lCNnZhWGpfOWZPUTM0WFBMVTdxM0dRUWVacnJzNjJsc3Fhb3hNWXZRLVUySkg2eHU2U3VEVG9zY3BLQXFva1lFeVhqLVhHQnFJZUhO?oc=5"
-    },
-    {
-      "headline": "Kevin Warsh Wants the Fed to Think About Inflation Differently",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2026-05-31 21:12",
-      "link": "https://www.wsj.com/economy/central-banking/kevin-warsh-wants-the-fed-to-think-about-inflation-differently-64272e0a"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -130,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,138 +130,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-02 10:04",
+      "date": "2026-06-02 18:05",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "South Korea inflation hits two-year high, imminent rate hike in play - Reuters",
+      "headline": "This winning high-yield bond strategy limits risk while seeking under-the-radar opportunities",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "South Korea inflation hits two-year high, imminent rate hike in play\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-01 23:15",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnlYOTdwUGhWaW9KMGdIcFZEOEhyd2VabGJFdWQwSGE5UTdrTTRnSmtsVGY3amRBeVI2TXhJazd4QmhqbHROVUhtZzVsWUJwNzJ2V0Z2VVZsSkx0ZnBKMlpfdVB6R2JtTzY0d0xyZ3M2ak1GcVQ2NDAyYWxZc2ktUWZfaVoza0Y4bE44TXprdks4eF82a3NtUk1vdkRMbkZzSmJXeHRNQmNLbmM?oc=5"
-    },
-    {
-      "headline": "FedEx Freight CEO says the spinoff will help the company 'leapfrog' competitors",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "FedEx Freight CEO John Smith said the company's separation from FedEx will allow it to invest more aggressively in growth initiatives.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-01 22:48",
-      "link": "https://www.cnbc.com/2026/06/01/fedex-freight-ceo-says-the-spinoff-will-help-the-company-leapfrog-competitors.html"
-    },
-    {
-      "headline": "We're giving newly spun FedEx Freight a buy rating and raising our price target on another",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-01 19:02",
-      "link": "https://www.cnbc.com/2026/06/01/were-giving-fedex-freight-a-buy-rating-raising-our-price-target-on-another.html"
-    },
-    {
-      "headline": "Trump is facing a new inflation warning from the bond market, adding to his midterm challenges",
-      "score": 7,
-      "source": "Associated Press",
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "The world is getting more uptight about lending money to President Donald Trump\u2019s government. The energy price spike triggered by the Iran war has seeped into the price of bonds that help fund the U.S. government. That's caused interest rates to climb in ways\u2026",
+      "impact": "Hunter Hayes of Intrepid Capital described an \u201cincredibly healthy\u201d market for high-yield bonds and a conservative approach to investing in the space.",
       "category": "fixed_income",
-      "date": "2026-06-01 04:01",
-      "link": "https://apnews.com/article/trump-interest-rates-debt-deficit-8deb3ed0c013a9c43a58e857ad1d615d"
+      "date": "2026-06-02 16:17",
+      "link": "https://www.marketwatch.com/story/this-winning-high-yield-bond-strategy-limits-risk-while-seeking-under-the-radar-opportunities-c9bb8b77?mod=mw_rss_topstories"
     },
     {
-      "headline": "Gold is an awkward asset for central banks to hold. It\u2019s now moved ahead of U.S. debt anyway.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The debt of the world\u2019s biggest economy is no longer the primary reserve asset for central banks worldwide.",
-      "category": "commodities",
-      "date": "2026-06-02 09:56",
-      "link": "https://www.marketwatch.com/story/gold-is-an-awkward-asset-for-central-banks-to-hold-its-now-moved-ahead-of-u-s-debt-anyway-b06733d3?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Euro zone firms struggle to raise prices despite Iran war shock - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Euro zone firms struggle to raise prices despite Iran war shock\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-02 05:31",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU1dNWHhQcDI1NnFQQTZxQVdFY1RXMnBhU0JDUVFjbzhDUk9rOHdUdmRFTEl4NVZLV256YUp4b0RsbkxUUzhOaGpPUkJDemIzVnh0SzJBdl8xVzNxQ2JaNTZadnlIM1A0a09CSW12NTQ5eE50ckZKWDZRQjMtc3g4d2E4X1FFYzVxczRoc2hELXNMS25TOUhHb1g5RFVRaF91ZnFwLVpZRER4ZTkxUTV2WnB2UQ?oc=5"
-    },
-    {
-      "headline": "Rupee slips on weak stocks, importer hedging but state-run banks cushion - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Rupee slips on weak stocks, importer hedging but state-run banks cushion\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-02 03:04",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMm43Vkg0czR1SVpOUGlrX3cyLVI0TXMwNERpMkpObWZLQjA1UGFKS2REcXZEdFQzUzJNZE5FTldRTzFmQlB0QTBqTHdhOFlJVjFGdUVQY2dXcXpJNkp0RkNpR0tQUXJrZjBNZUdmT3hSS3E3YmhZeWQtYl9hTmFpOFZ3eXZZWmpraFFiNFRBM0xDMkFBRXRrOWVLRXh5RGJNRUVXQjJXRjJmalhFNjJFVVFCb25SNDhmZGhVbG9lQjI?oc=5"
-    },
-    {
-      "headline": "Indian shares extend selloff as Mideast conflict persists, outflows weigh - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Indian shares extend selloff as Mideast conflict persists, outflows weigh\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-02 02:27",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRVRBMG5hd0lkV1NwQUpSWWtfdWF3WU5DR0xSblF2T01qdzlOTmI1MDFzczdzRXVfTVRzX2Y5TUVxamJqNlExUGVodEFnR3NNemxkMndGalZjQUlTeEVLeFhYdGpuNFYwekFBWEVPc3FTQTFpVEJvcFlIaGkzOTZEYmRBVWRWRUYyeUpFZzFCMVhReWQtb0NqR1VmQWx2UnNCcXpfR3BIbTdxX09qU3ZV?oc=5"
-    },
-    {
-      "headline": "Dollar stuck in narrow band as traders eye Middle East, US data - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Dollar stuck in narrow band as traders eye Middle East, US data\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-02 00:52",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONzZFYldJT0Y0WEZISVdrQzkyS2xOSEdaUm1QMXZjYXYzbmNBekpoMmgxcXJIUTBZQ05nTW1MRlVwa0ZzX3FZZk83di1qTTRuek0ydWFNS05OODBaX1RpdHk1eHRDa0Z1SHlrTjRMT1RJcVgyTzR6UldVV2pZLVVwaFJkcUpBOGxZMlo2TFBwQ0theEtkUmxRdUJ1UnROSzVsWS1WSXRwSlFrZzNV?oc=5"
-    },
-    {
-      "headline": "Oil falls over 1% after Trump says talks with Iran ongoing - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Oil falls over 1% after Trump says talks with Iran ongoing\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-02 00:43",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMkZaWGJPbHBSQnUxdWZ6U3l6a3otSGFQSVNoTmpQNWJORWEtZ1dXeE42NGp2c2s4anV6UVFYenhsNHcycHh5UnhYUTJLRFlIbS1ONElzNzBCT2RsX0ROZVh4RXk3SmhKQmc0UXlFa1l4Sm5admU2LUNkdWxaZENkSmN3ZHJnbU1UYTJDbHZUdUJiNFFJZ3lfOTJmTnFKV21LQXZxcE1sWUF3TGZ5N3A4ZFROTTU?oc=5"
-    },
-    {
-      "headline": "Asia stocks slide as Middle East anxiety offsets AI optimism - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "headline": "Victoria's Secret shares spike 40% after big earnings beat, raised sales outlook",
+      "score": 7,
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Asia stocks slide as Middle East anxiety offsets AI optimism\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-06-02 00:38",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMEdoZ1Q1dzhvd1BRTU5aOF8yeWhTbUZla1A1MzZucXd1ai1Ud0xSemdBOTUwNXVPc3NRU3p6NmE1YlhUYkVZWW1ZRFg5MHh2Q1ZtaTdZUERPNU5Xb2doMk95ODlvczhLX2RPOE5qTGxyaVZZdjNBcXVmQUEzcWhHc1N2UQ?oc=5"
-    },
-    {
-      "headline": "HPE\u2019s stock soars toward record gain as earnings show a networking bonanza",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The artificial-intelligence buildout is driving intense demand for networking and servers, and Hewlett Packard Enterprise is reaping the rewards.",
+      "impact": "Victoria's Secret has been in the midst of a turnaround under CEO Hillary Super, who said the company is winning over young shoppers across all incomes.",
       "category": "corporate_earnings",
-      "date": "2026-06-02 00:21",
-      "link": "https://www.marketwatch.com/story/hpes-stock-soars-toward-record-gain-as-earnings-show-a-networking-bonanza-2bde2d3a?mod=mw_rss_topstories"
+      "date": "2026-06-02 15:01",
+      "link": "https://www.cnbc.com/2026/06/02/victorias-secret-vsxy-earnings-q1-2026.html"
     },
     {
-      "headline": "Unions threaten to stop Inpex Ichthys LNG loadings from next week - Reuters",
+      "headline": "Like Dell, now HPE surges on a massive guidance hike. Yes, business is that good",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Betting against this trade, at least for now, may well be your ticket to the graveyard.",
+      "category": "corporate_earnings",
+      "date": "2026-06-02 14:12",
+      "link": "https://www.cnbc.com/2026/06/02/like-dell-now-hpe-surges-on-a-massive-guidance-hike-yes-business-is-that-good.html"
+    },
+    {
+      "headline": "Iran war puts RBI in razor-edge policy bind over inflation, growth and rupee - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Iran war puts RBI in razor-edge policy bind over inflation, growth and rupee\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-02 08:22",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2t2Vm5yYTNMMW5kSUEwWjVpUU5qdWNScmdLQnBDOF9iN3BqcS1sYUlfS2o5Nk1Nakd6Rk5FSmRqOE9nY0h0cW1HVVRsaTJHRTgxRDIzY0ZBQjRDb3F4YjV1OE1kbFU4SnhWTHJCTGRUTG5EWUtVREp5TTJHZUtESDA2WnFlZ1NtcVFDbTVNVUM1bDFMREt5QjhXU19Fa0NSVWV5VjJYVXpnN2owMndaUEFjbXlZTHVybkVmX2VYc0I?oc=5"
+    },
+    {
+      "headline": "AI frenzy stokes inflation heat too - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "AI frenzy stokes inflation heat too\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-02 06:13",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdXFvbjBVdll5VmplS3JBTTdQV2lvVDd2SXhxdlNwcWliZkthelpncTJLLVRNQ29hN2NuamU5RFdKSG41X3dDWVB0NXBSSXY4V2JxNkxPcVJteVptODFUbE4wel81Vi1qSlJLaDh0clpkeUpzYlFBdWIwZFpZV3V2R1h1aGdodXFtSEl4RVphV0hQMS1hb2VVVXFVSW55dDRCUmJpRnRPRQ?oc=5"
+    },
+    {
+      "headline": "Iran studying deal to halt war, as Trump says talks going on continuously - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Unions threaten to stop Inpex Ichthys LNG loadings from next week\u00a0\u00a0Reuters",
+      "impact": "Iran studying deal to halt war, as Trump says talks going on continuously\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-01 23:27",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM29STUEyUkFKSGE0clVVM1VjVjd5dVgzQnh2QVYtQ28xY3R5TzVyMnYtU3ZTclFJRUg3REswemh2ZUhKTGo4ZWdLZ0gxdVFVYmZIQTUtWkpqVG82WTBDVEZseTB6eHhsQmk4a1hKQWc4b1E5amtGeFk2SEQxZ1VRNnAwNGZqWkU0bXNIanpxeGNfM213eEkxRkZTZFpoa0dYdnpqUnlOZ2piREh3Qnl0Wlk4Z3hsU0EtdDFaMVNCeEtqaW1hVm9QMWhUUHFLU05I?oc=5"
+      "date": "2026-06-02 17:42",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcG1DSFVhQ3MxRlgtdV9LYlZndTBDX0VvZDZ4ZkZuZEV5QnhMYlhmd2phazdVMnBlUXRWXzUzWTZFSXZfSDhNMzF2VTVwdlZiMU9aMEVVVVhyWEk1QmFNWjJRSFNfWTFzOGNMXzk1ZnJSOE5EZDJycERabElIeEQ1SjQxWE9CejBZT2FDY1FnLVdFaGlvR0FQeVVkM3JSanNmdkE?oc=5"
+    },
+    {
+      "headline": "Goldman Sachs CEO David Solomon says markets are in 'greed' mode as AI companies seek billions",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Goldman Sachs CEO David Solomon's comments come as investors prepare for what will be one of the busiest periods for equity issuance in years.",
+      "category": "commodities",
+      "date": "2026-06-02 17:39",
+      "link": "https://www.cnbc.com/2026/06/02/goldman-ceo-david-solomon-greed-mode-ai-firms-ipos.html"
+    },
+    {
+      "headline": "Israel strikes south Lebanon after stepping back from Beirut attack - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israel strikes south Lebanon after stepping back from Beirut attack\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-02 17:34",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN1dIT2RKU2Z4cFA1OUZ1WlloWFJmRVB5ajNzQkstZEVISUF6bEswTnY3Ml9tVWZuNnFySGdWWW1ibWllQWgzdUExWV9mZGNrYjg1RV9CZ0xzZ2NaQjRyMTNMTk5uZ2c5Uk5FY2kxRkFNX19VV0Z3ejRzU3dGSDY1a2F3VDU4dUhEZ0JqQ2x2YlczS3BuVi1NbzJXVjBXZ1M3YkF2cEJoNHZRSU1IRGxodGRnMEs?oc=5"
+    },
+    {
+      "headline": "Fastenal Co. stock (US3119001044): shares steady around USD 44 ahead of next earnings catalyst",
+      "score": 6,
+      "source": "Ad Hoc News",
+      "sentiment": "neutral",
+      "impact": "Fastenal Co. (FAST) stock is trading steadily around USD 44 on Nasdaq as investors await the next quarterly earnings report. The industrial distributor's shares closed at USD 43.99, reflecting a modest three-day decline, with market participants holding back from aggressive repositioning. Fastenal's",
+      "category": "corporate_earnings",
+      "date": "2026-06-02 17:22",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/fastenal-co-stock-us3119001044-shares-steady-around-usd-44-ahead-of/69472591"
+    },
+    {
+      "headline": "The S&P 500 has only risen this quickly 4 times since WWII. Once, a historic stock-market crash followed.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The S&P 500 has overcome worries about artificial intelligence and the fallout from the war in Iran to stage one of its strongest two-month showings on record.",
+      "category": "us_equities",
+      "date": "2026-06-02 17:00",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-has-only-risen-this-quickly-4-times-since-wwii-once-a-historic-stock-market-crash-followed-ed41ab2d?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Simulations Plus, Inc. (SLP) Securities Fraud Investigation: Johnson Fistel Investigates Investor Losses Following Revenue Outlook Revision, Impairment Charge, and Auditor Dispute",
+      "score": 6,
+      "source": "Business Wire",
+      "sentiment": "negative",
+      "impact": "Johnson Fistel, PLLP is investigating potential securities fraud claims against Simulations Plus, Inc. (NASDAQ: SLP) following investor losses. The investigation stems from a revised fiscal 2025 revenue outlook, a significant impairment charge, and a dispute with its former auditor, Grant Thornton L",
+      "category": "corporate_earnings",
+      "date": "2026-06-02 16:59",
+      "link": "https://www.businesswire.com/news/home/20260602248191/en/Simulations-Plus-Inc.-SLP-Securities-Fraud-Investigation-Johnson-Fistel-Investigates-Investor-Losses-Following-Revenue-Outlook-Revision-Impairment-Charge-and-Auditor-Dispute"
+    },
+    {
+      "headline": "Hasbro Inc. stock (US4267811090): focus on dividend and upcoming earnings on NYSE",
+      "score": 6,
+      "source": "Ad Hoc News",
+      "sentiment": "positive",
+      "impact": "Hasbro Inc. (HAS) shares are trading on the NYSE, with investors closely watching its dividend profile and upcoming earnings report. The company offers an annual dividend of USD 2.80 per share, yielding approximately 3.3%, with the most recent ex-dividend date on June 1, 2026. Investors are evaluati",
+      "category": "us_equities",
+      "date": "2026-06-02 16:34",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/hasbro-inc-stock-us4267811090-focus-on-dividend-and-upcoming-earnings/69472325"
+    },
+    {
+      "headline": "Britons held in Iran lose appeal against 10-year prison term, family says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Britons held in Iran lose appeal against 10-year prison term, family says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-02 15:58",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ253SE9MNE5OWEVXMW8wQmlzUUVPRDJwODI4ZlhDaWR2VVZWQ2Y3enFiM2FETWJrbnRJY0VrWFNFaWRyRkRDaW5uMlRXeFQ2Ry1aQk9EekYzc2NOMHBMclk3Y3dqZ3o1TTlOWkpCLVUzRE9GYXloUHhyMEZHQ2p3VndUSzY3MXo4eUVTZFliMzhSNXNGSTdzbi1FWEQzNjFtUlFOSWZZaFRJMFZDRXc5Y1M4MjZKMkk?oc=5"
+    },
+    {
+      "headline": "Rubio: US has not offered Iran sanctions relief to reopen strait - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Rubio: US has not offered Iran sanctions relief to reopen strait\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-02 15:50",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnhHX3pib0VOUmUzRkNhT1VGQVRRVnBVeVc1eVgta1dMNDVGRVVTZ0Jtb21oYUIyYjg1b3BoY28zMHd1dVQza1hPa3pWMFBzRktIOVVmdG5zVGFHaHdRZjJrdWVNUVJ1cEZPa0d6S2FiVDFOb1haX1I0ZlRLcjNJQjFRNk9MUWlodkxpOVhwM3RtdzE0Q1B4QklrNklVTDQ?oc=5"
     }
   ]
 }
