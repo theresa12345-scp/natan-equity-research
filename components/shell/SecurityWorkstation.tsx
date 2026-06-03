@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import SecurityHeader from "@/components/shell/SecurityHeader";
 import ModuleTabs, { type ModuleTab } from "@/components/shell/ModuleTabs";
+import { usePersistedTab } from "@/lib/hooks/usePersistedTab";
 import VerdictCard from "@/components/modules/VerdictCard";
 import GradeModule from "@/components/modules/GradeModule";
 import DCFModule from "@/components/modules/DCFModule";
@@ -133,7 +133,10 @@ export default function SecurityWorkstation({
   scoreInterpretation,
   isGeneric = false,
 }: SecurityWorkstationProps): JSX.Element {
-  const [active, setActive] = useState<string>("grade");
+  const [active, setActive] = usePersistedTab(
+    `security:${identity.ticker}`,
+    "grade",
+  );
 
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>

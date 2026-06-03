@@ -165,3 +165,53 @@ html {
   animation: mrdn-fade-in 160ms ease-out both;
 }
 
+/* Sticky table headers — long lists keep column labels visible as you
+   scroll the body. Real terminals do this on every leaderboard. */
+.mrdn-sticky-head th,
+.mrdn-sticky-head > thead th,
+.mrdn-sticky-head > div[role="row"]:first-child {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #050505;
+}
+
+/* Cross-component ticker hover sync — when hovering any element with
+   [data-ticker], every other element with the same ticker on the page
+   gets a subtle magenta wash. Bloomberg-signature behaviour. Driven
+   purely by `:has()` so no JS needed.
+   Skipped where `:has` isn't supported (Safari < 15.4 / FF < 121) —
+   graceful degradation to the default hover. */
+@supports selector(:has(*)) {
+  [data-ticker]:hover {
+    color: #ff5fa3;
+  }
+  body:has([data-ticker="AAPL"]:hover) [data-ticker="AAPL"],
+  body:has([data-ticker="AMD"]:hover) [data-ticker="AMD"],
+  body:has([data-ticker="AMZN"]:hover) [data-ticker="AMZN"],
+  body:has([data-ticker="AVGO"]:hover) [data-ticker="AVGO"],
+  body:has([data-ticker="GOOGL"]:hover) [data-ticker="GOOGL"],
+  body:has([data-ticker="META"]:hover) [data-ticker="META"],
+  body:has([data-ticker="MSFT"]:hover) [data-ticker="MSFT"],
+  body:has([data-ticker="NVDA"]:hover) [data-ticker="NVDA"],
+  body:has([data-ticker="ORCL"]:hover) [data-ticker="ORCL"],
+  body:has([data-ticker="TSLA"]:hover) [data-ticker="TSLA"],
+  body:has([data-ticker="BBCA"]:hover) [data-ticker="BBCA"],
+  body:has([data-ticker="BBRI"]:hover) [data-ticker="BBRI"],
+  body:has([data-ticker="BMRI"]:hover) [data-ticker="BMRI"],
+  body:has([data-ticker="BBNI"]:hover) [data-ticker="BBNI"],
+  body:has([data-ticker="MYOR"]:hover) [data-ticker="MYOR"],
+  body:has([data-ticker="UNVR"]:hover) [data-ticker="UNVR"],
+  body:has([data-ticker="ICBP"]:hover) [data-ticker="ICBP"],
+  body:has([data-ticker="TLKM"]:hover) [data-ticker="TLKM"],
+  body:has([data-ticker="ADRO"]:hover) [data-ticker="ADRO"],
+  body:has([data-ticker="PGAS"]:hover) [data-ticker="PGAS"],
+  body:has([data-ticker="BREN"]:hover) [data-ticker="BREN"],
+  body:has([data-ticker="AMMN"]:hover) [data-ticker="AMMN"],
+  body:has([data-ticker="SMGR"]:hover) [data-ticker="SMGR"] {
+    background: rgba(255, 46, 136, 0.10);
+    outline: 1px solid #ff2e88;
+    outline-offset: -1px;
+  }
+}
+

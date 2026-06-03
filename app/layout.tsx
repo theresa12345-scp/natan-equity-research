@@ -7,6 +7,8 @@ import TickerTape from "@/components/shell/TickerTape";
 import RightRail from "@/components/shell/RightRail";
 import StatusBar from "@/components/shell/StatusBar";
 import ShellChrome from "@/components/shell/ShellChrome";
+import NavigationProgressBar from "@/components/shell/NavigationProgressBar";
+import { Suspense } from "react";
 
 const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
@@ -33,6 +35,9 @@ export default function RootLayout({
       <body
         className={`${GeistSans.className} bg-surface-0 text-fg min-h-screen`}
       >
+        <Suspense fallback={null}>
+          <NavigationProgressBar />
+        </Suspense>
         <ShellChrome>
           <div
             className="grid min-h-screen"

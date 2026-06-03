@@ -31,6 +31,7 @@ export default function TickerLink({
     <Link
       href={resolved}
       className={`num hover:underline ${className}`}
+      data-ticker={ticker.toUpperCase()}
       style={{
         color: "#ff2e88",
         fontWeight: bold ? 600 : 500,
@@ -38,6 +39,8 @@ export default function TickerLink({
         textUnderlineOffset: 2,
         letterSpacing: "0.02em",
         fontSize,
+        padding: "0 2px",
+        margin: "0 -2px",
       }}
     >
       {ticker}

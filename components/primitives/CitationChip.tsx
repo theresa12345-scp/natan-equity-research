@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { citation } from "@/lib/data/citations";
+import Tooltip from "@/components/primitives/Tooltip";
 
 interface CitationChipProps {
   id: string;
@@ -7,8 +8,9 @@ interface CitationChipProps {
   variant?: "outline" | "subtle";
 }
 
-// Magenta-outline chip linking to /sources#cite-<id>. Tooltip shows the
-// key finding. Falls back silently if id is unknown.
+// Magenta-outline chip linking to /sources#cite-<id>. Hover tooltip
+// shows the citation's title + venue + key finding. Falls back silently
+// if id is unknown.
 export default function CitationChip({
   id,
   size = "xs",
@@ -17,19 +19,31 @@ export default function CitationChip({
   const c = citation(id);
   if (!c) return null;
   const fontSize = size === "sm" ? 9.5 : 9;
-  // Institutional authors ("Bloomberg Intelligence", "MSCI Inc.",
-  // "Morningstar Research") use an explicit shortLabel; otherwise pull
-  // the lead author's lastname.
   const lastName =
     c.shortLabel ?? c.authors.split(",")[0].split(" ").pop() ?? "—";
   const label = `${lastName} ${c.year}`;
-  const tooltip = `${c.title} · ${c.venue}\n${c.keyFinding}`;
 
-  if (variant === "subtle") {
-    return (
+  const tooltipContent = (
+    <>
+      <div style={{ color: "#ff2e88", fontWeight: 600, fontSize: 10.5, marginBottom: 3, lineHeight: 1.35 }}>
+        {c.authors} ({c.year})
+      </div>
+      <div style={{ color: "#f5f5f5", fontSize: 10, marginBottom: 4, lineHeight: 1.4 }}>
+        {c.title}
+      </div>
+      <div style={{ color: "#7a7a7a", fontSize: 9.5, marginBottom: 6, fontStyle: "italic" }}>
+        {c.venue}
+      </div>
+      <div style={{ color: "#d8d8d8", fontSize: 10, lineHeight: 1.5 }}>
+        {c.keyFinding}
+      </div>
+    </>
+  );
+
+  const chip =
+    variant === "subtle" ? (
       <Link
         href={`/sources#cite-${id}`}
-        title={tooltip}
         className="num hover:brightness-125"
         style={{
           fontSize,
@@ -43,29 +57,32 @@ export default function CitationChip({
       >
         {label}
       </Link>
+    ) : (
+      <Link
+        href={`/sources#cite-${id}`}
+        className="num hover:brightness-125"
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          fontSize,
+          color: "#ff2e88",
+          border: "1px solid #ff2e88",
+          background: "rgba(255,46,136,0.05)",
+          padding: "1px 5px",
+          letterSpacing: "0.06em",
+          textDecoration: "none",
+          whiteSpace: "nowrap",
+          lineHeight: 1.3,
+        }}
+      >
+        {label}
+      </Link>
     );
-  }
+
   return (
-    <Link
-      href={`/sources#cite-${id}`}
-      title={tooltip}
-      className="num hover:brightness-125"
-      style={{
-        display: "inline-flex",
-        alignItems: "center",
-        fontSize,
-        color: "#ff2e88",
-        border: "1px solid #ff2e88",
-        background: "rgba(255,46,136,0.05)",
-        padding: "1px 5px",
-        letterSpacing: "0.06em",
-        textDecoration: "none",
-        whiteSpace: "nowrap",
-        lineHeight: 1.3,
-      }}
-    >
-      {label}
-    </Link>
+    <Tooltip content={tooltipContent} maxWidth={360}>
+      {chip}
+    </Tooltip>
   );
 }
 

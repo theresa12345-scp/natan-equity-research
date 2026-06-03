@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import CommandBar from "./CommandBar";
 import RegimeBadge from "@/components/primitives/RegimeBadge";
+import LiveClock from "@/components/primitives/LiveClock";
 import { useCommandPalette } from "./ShellChrome";
 import { SECTION_TABS, SESSION } from "@/lib/mock-data";
 
@@ -95,7 +96,7 @@ export default function TopBar(): JSX.Element {
           flexShrink: 0,
         }}
       >
-        · {SESSION.timestamp}
+        · <LiveClock />
       </span>
 
       <span

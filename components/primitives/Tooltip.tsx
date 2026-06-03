@@ -1,43 +1,86 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useState, useRef, type ReactNode } from "react";
 
 interface TooltipProps {
   content: ReactNode;
   children: ReactNode;
-  width?: number;
+  side?: "top" | "bottom";
+  delayMs?: number;
+  align?: "start" | "center" | "end";
+  maxWidth?: number;
+  inline?: boolean; // render trigger as inline span (default) vs block div
 }
 
-export default function Tooltip({ content, children, width = 240 }: TooltipProps): JSX.Element {
-  const [open, setOpen] = useState<boolean>(false);
+// Terminal-style tooltip: 250ms delay, no animation, hard edges, magenta
+// border, JetBrains Mono. Replaces HTML `title=` on chips and KPI labels.
+export default function Tooltip({
+  content,
+  children,
+  side = "top",
+  delayMs = 250,
+  align = "start",
+  maxWidth = 320,
+  inline = true,
+}: TooltipProps): JSX.Element {
+  const [open, setOpen] = useState(false);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function show(): void {
+    if (timer.current) clearTimeout(timer.current);
+    timer.current = setTimeout(() => setOpen(true), delayMs);
+  }
+  function hide(): void {
+    if (timer.current) clearTimeout(timer.current);
+    setOpen(false);
+  }
+
+  const placement = side === "top"
+    ? { bottom: "calc(100% + 6px)" }
+    : { top: "calc(100% + 6px)" };
+  const justify = align === "center"
+    ? { left: "50%", transform: "translateX(-50%)" }
+    : align === "end"
+      ? { right: 0 }
+      : { left: 0 };
+
+  const Wrapper = inline ? "span" : "div";
+
   return (
-    <div
-      style={{ position: "relative", display: "block" }}
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
+    <Wrapper
+      style={{ position: "relative", display: "inline-flex" }}
+      onMouseEnter={show}
+      onMouseLeave={hide}
+      onFocus={show}
+      onBlur={hide}
     >
       {children}
       {open ? (
-        <div
+        <span
           role="tooltip"
           style={{
             position: "absolute",
-            top: "100%",
-            left: 0,
-            marginTop: 4,
+            ...placement,
+            ...justify,
             background: "#000",
             border: "1px solid #ff2e88",
-            padding: "10px 12px",
-            zIndex: 50,
-            width,
-            opacity: 1,
-            transition: "opacity 100ms linear",
+            color: "#d8d8d8",
+            padding: "6px 10px",
+            fontSize: 10.5,
+            lineHeight: 1.5,
+            letterSpacing: "0.01em",
+            fontFamily: "var(--font-jetbrains, ui-monospace), monospace",
+            zIndex: 200,
+            maxWidth,
+            width: "max-content",
+            whiteSpace: "normal",
             pointerEvents: "none",
+            boxShadow: "0 0 0 1px #000 inset",
           }}
         >
           {content}
-        </div>
+        </span>
       ) : null}
-    </div>
+    </Wrapper>
   );
 }

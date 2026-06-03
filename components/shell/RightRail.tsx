@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { QUOTE_WATCH, ALERTS, SAVED_SCREENS } from "@/lib/mock-data";
 import TickerLink from "@/components/primitives/TickerLink";
+import LiveClock from "@/components/primitives/LiveClock";
 import { CONGRESS_STUB } from "@/lib/flow/stubs/congress";
 import { FORM4_STUB } from "@/lib/flow/stubs/form4";
 import { THIRTEEN_F_STUB } from "@/lib/flow/stubs/thirteen-f";
@@ -112,7 +113,7 @@ function SectionHeader({
 }: {
   abbr: string;
   title: string;
-  meta?: string;
+  meta?: React.ReactNode;
 }): JSX.Element {
   return (
     <div
@@ -174,7 +175,7 @@ export default function RightRail(): JSX.Element {
       }}
     >
       {/* QW Quote Watch */}
-      <SectionHeader abbr="QW" title="Quote Watch" meta="14:23 WIB" />
+      <SectionHeader abbr="QW" title="Quote Watch" meta={<LiveClock />} />
       <div>
         {QUOTE_WATCH.map((q) => {
           const tone = deltaColor(q.changePct);

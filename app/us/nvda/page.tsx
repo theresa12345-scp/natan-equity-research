@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
+import { usePersistedTab } from "@/lib/hooks/usePersistedTab";
 import SecurityHeader from "@/components/shell/SecurityHeader";
 import ModuleTabs, { type ModuleTab } from "@/components/shell/ModuleTabs";
 import VerdictCard from "@/components/modules/VerdictCard";
@@ -57,7 +58,7 @@ function ScoreInterpretation(): JSX.Element {
 }
 
 export default function NVDAPage(): JSX.Element {
-  const [active, setActive] = useState<string>("grade");
+  const [active, setActive] = usePersistedTab("security:NVDA", "grade");
   const flowDetail = useMemo(() => {
     const tickers = unionTickers(CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB);
     const smc = computeSMC(tickers, CONGRESS_STUB, THIRTEEN_F_STUB, FORM4_STUB);
