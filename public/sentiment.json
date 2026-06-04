@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-03T18:23:12.929090",
+  "timestamp": "2026-06-04T09:43:03.138914",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 12,
-    "neutral": 12,
-    "bearish": 1,
-    "high_priority": 8,
+    "avg_relevance": 7.3,
+    "bullish": 13,
+    "neutral": 9,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,14 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "Caixin/S&P Global": 1,
     "CNBC": 7,
-    "AD HOC NEWS": 2,
-    "Investor's Business Daily": 1,
-    "Quiver Quantitative": 1,
-    "Bloomberg.com": 1
+    "Caixin/S&P Global": 1,
+    "AD HOC NEWS": 1,
+    "The Wall Street Journal": 1,
+    "Investor's Business Daily": 1
   },
   "top_signals": [
     {
@@ -31,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Fed Chair Warsh makes first hires at central bank, including \u2018Project 2025\u2019 author",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The new Fed chair has made his first hires. One wrote the Fed chapter in conservative policy blueprint \"Project 2025.\"",
+      "category": "us_monetary_policy",
+      "date": "2026-06-03 00:14",
+      "link": "https://www.cnbc.com/2026/06/02/fed-chair-warsh-makes-first-hires-at-central-bank-including-project-2025-author.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -111,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,8 +130,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-03 18:23",
+      "date": "2026-06-04 09:43",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Xcel Energy Inc stock (US98389B1008): shares steady after Q1 2026 earnings and reaffirmed guidance",
+      "score": 7,
+      "source": "AD HOC NEWS",
+      "sentiment": "neutral",
+      "impact": "Xcel Energy Inc (US98389B1008) shares remained stable on the Nasdaq following the announcement of its Q1 2026 results and confirmation of its full-year EPS guidance. The company, a regulated utility, continues to focus on regulated growth, capital investment plans, and favorable rate case outcomes i",
+      "category": "corporate_earnings",
+      "date": "2026-06-04 09:00",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/xcel-energy-inc-stock-us98389b1008-shares-steady-after-q1-2026-earnings/69481753"
+    },
+    {
+      "headline": "Macy's posts strongest Q1 growth in four years, raises guidance despite consumer worries",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Macy's has been in the midst of a turnaround under CEO Tony Spring, who has worked to close underperforming stores and reinvest in ones worth keeping open.",
+      "category": "corporate_earnings",
+      "date": "2026-06-03 21:20",
+      "link": "https://www.cnbc.com/2026/06/03/macys-m-earnings-q1-2026.html"
+    },
+    {
+      "headline": "Broadcom stock slip on revenue miss",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Broadcom reported fiscal second-quarter results on Wednesday and missed estimates for revenue.",
+      "category": "corporate_earnings",
+      "date": "2026-06-03 20:29",
+      "link": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html"
     },
     {
       "headline": "What's behind Palo Alto's earnings sell-off \u2014 and how to proceed",
@@ -135,24 +174,24 @@
       "link": "https://www.cnbc.com/2026/06/03/whats-behind-palo-altos-earnings-sell-off-and-how-to-proceed.html"
     },
     {
-      "headline": "Starbucks Corp. stock (US8552441094): shares ease on Nasdaq as investors digest turnaround plan and Q2 earnings",
-      "score": 7,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "Starbucks Corp. shares saw a slight decline on the Nasdaq on June 3, 2026, as investors considered the company's Q2 FY 2026 earnings, updated fiscal-year outlook, and ongoing reinvestment initiatives in the US and China. The stock traded around USD 77 after the company reported approximately USD 9.4",
-      "category": "us_equities",
-      "date": "2026-06-03 17:03",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/starbucks-corp-stock-us8552441094-shares-ease-on-nasdaq-as-investors/69478749"
-    },
-    {
-      "headline": "Macy's posts strongest Q1 growth in four years, raises guidance despite consumer worries",
+      "headline": "Stock futures are little changed after S&P 500 closes at another record: Live updates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Macy's has been in the midst of a turnaround under CEO Tony Spring, who has worked to close underperforming stores and reinvest in ones worth keeping open.",
+      "impact": "The three major indexes rose to fresh record highs on Tuesday.",
+      "category": "us_equities",
+      "date": "2026-06-03 04:03",
+      "link": "https://www.cnbc.com/2026/06/02/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "GameStop Posts Higher Profit, Launches $2 Billion Buyback Program",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
       "category": "corporate_earnings",
-      "date": "2026-06-03 12:29",
-      "link": "https://www.cnbc.com/2026/06/03/macys-m-earnings-q1-2026.html"
+      "date": "2026-06-02 22:35",
+      "link": "https://www.wsj.com/business/earnings/gamestop-reports-higher-profit-launches-2-billion-buyback-program-a8ebdb52"
     },
     {
       "headline": "Ulta shares pop as beauty retailer beats Wall Street expectations and hikes earnings outlook",
@@ -175,104 +214,64 @@
       "link": "https://www.cnbc.com/2026/06/02/victorias-secret-vsxy-earnings-q1-2026.html"
     },
     {
-      "headline": "S&P 500 is little changed Tuesday as Alphabet slides: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "All three major indexes notched new intraday and closing highs on Monday.",
-      "category": "us_equities",
-      "date": "2026-06-02 14:28",
-      "link": "https://www.cnbc.com/2026/06/01/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "HPE Stock Surges On Fiscal Q2 Earnings Beat, Raised Guidance, Fiscal 2027 Outlook",
+      "headline": "Palo Alto Fiscal Q3 Earnings, Revenue, Key Metrics Top Wall Street Targets",
       "score": 7,
       "source": "Investor's Business Daily",
       "sentiment": "positive",
-      "impact": "HPE stock surged on a big fiscal Q2 earnings beat. HPE raised its 2026 full-year guidance and projected 8% to 12% sales growth in fiscal 2027.",
-      "category": "corporate_earnings",
-      "date": "2026-06-02 12:45",
-      "link": "https://www.investors.com/news/technology/hpe-stock-hpe-earnings-news-q12026/"
-    },
-    {
-      "headline": "Inflation hits 3.2% in the euro zone as Iran war pushes energy costs higher",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Energy costs in the region surged by an annual rate of 10.9% in May.",
-      "category": "global_markets",
-      "date": "2026-06-02 09:03",
-      "link": "https://www.cnbc.com/2026/06/02/inflation-euro-zone-iran-energy-costs.html"
-    },
-    {
-      "headline": "Ecolab Inc. stock (US2824031014): Shares ease after recent gains while investors watch post-earnings",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "Ecolab Inc. shares experienced a slight decline on the NYSE on June 3, 2026, after a strong performance following its latest quarterly results. The company reported earnings per share of $1.70 and revenue of $4.07 billion, representing a 10% year-over-year increase in sales. Investors are closely mo",
-      "category": "corporate_earnings",
-      "date": "2026-06-03 17:17",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ecolab-inc-stock-us2824031014-shares-ease-after-recent-gains-while/69478805"
-    },
-    {
-      "headline": "QMAG | FT Vest Nasdaq-100 Moderate Stock Data, Price & News",
-      "score": 6,
-      "source": "Quiver Quantitative",
-      "sentiment": "neutral",
-      "impact": "The Quiver Quantitative page for FT Vest Nasdaq-100 Moderate Buffer ETF - August (QMAG) provides real-time stock data, news, and various financial metrics. It includes details on institutional holdings, analyst ratings, and a \"Smart Score\" based on proprietary data. The page also offers tools for tr",
+      "impact": "Palo Alto stock popped amid fiscal Q3 earnings and revenue that beat Wall Street targets as key financial metrics also topped expectations.",
       "category": "us_equities",
-      "date": "2026-06-03 17:10",
-      "link": "https://www.quiverquant.com/stock/QMAG/"
+      "date": "2026-06-02 20:48",
+      "link": "https://www.investors.com/news/technology/palo-alto-stock-panw-palo-alto-earnings-news-q12026/"
     },
     {
-      "headline": "'Disrupted or dead': AI is crushing a generation of startups built before ChatGPT",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The AI boom that has funneled more than $250 billion into OpenAI and Anthropic has left hundreds of startups built before ChatGPT's arrival in 2022 stranded.",
-      "category": "global_markets",
-      "date": "2026-06-03 17:10",
-      "link": "https://www.cnbc.com/2026/06/01/ai-startup-valuations-pre-chatgpt.html"
-    },
-    {
-      "headline": "Hezbollah launches rockets at Israel, testing U.S.-mediated deal - Reuters",
+      "headline": "Gold rises on softer dollar, oil as markets weigh US-Iran peace optimism - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Hezbollah launches rockets at Israel, testing U.S.-mediated deal\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-03 17:03",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNejNUYzdtTjIxM1JOY1FzOFYxZnVKQjNIa2RyZk5QSXh4TFFSSjYtd2EydDkyS0FaR0E2bmw2ZEJVaFJab0pBUmg1OEVBQXJ3MnlmcDJ1cnRsYUR0UEV5OFVzRVp1LXJUeEtKenZHR0RuRkJoT3V5d0ZQQnZ2aXFLaDNPbEZ0VFhXcGc4alhwTkNrdkdUQUZZUWpScTltT0E0eEJ6NlVIZ2lBSTRu?oc=5"
-    },
-    {
-      "headline": "Anthropic Picks Morgan Stanley, Goldman Sachs to Lead IPO",
-      "score": 6,
-      "source": "Bloomberg.com",
       "sentiment": "positive",
-      "impact": "Anthropic PBC, developer of the Claude chatbot, has selected Morgan Stanley and Goldman Sachs Group Inc. to lead its initial public offering (IPO), with JPMorgan Chase & Co. also joining the deal. This move signals Anthropic's acceleration in preparing for a public listing, positioning it in a race ",
+      "impact": "Gold rises on softer dollar, oil as markets weigh US-Iran peace optimism\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-06-03 17:03",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-03/anthropic-said-to-pick-morgan-stanley-goldman-sachs-to-lead-ipo"
+      "date": "2026-06-04 08:03",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSjhKMVBpMWNDenNvOHdVMjYtaTN3NEZLeWVsR0MyLWtxNGY0WjV2Z1libmZLOFRscU5RaUhtWnZka0JHRWpYbDZpNTJIUzJzRkdpV2Z0YVRyTUctMEVqUWtHVG1VMVlPMmhNWlJNMGNRUlQ4eWtiYlhQVkhWdFE5dnJkdzR6STlEakQ5bTRHUFlHbXUyYVNfSnRKTFltSE53eU9QZ1E0X0pHUHJMNXlB?oc=5"
     },
     {
-      "headline": "Trump confirms he called Netanyahu crazy in phone call - Reuters",
+      "headline": "Iranian oil slips to discount on poor Chinese demand despite tighter supply - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump confirms he called Netanyahu crazy in phone call\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-03 16:05",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYXBGWXJkR0NIUGdJVW9WZjFkeEpvZkxxQXJCUGNfbVQzbF9OQkdEUEVab052cEpuYmNuM3drVWdaTUlmbG1wYzJsTEFFYU8xNm5qMXN5SjYzQ3BiMnowYWtLTTh2Y09Bdl9hMjljUGV2Q1FESnZfT1FMeWhaVnRjbERfY2o0anVINUhQMjd0VU96UDJGdU9lRzJpZE9ObnE3TndDUkEtekQ?oc=5"
+      "impact": "Iranian oil slips to discount on poor Chinese demand despite tighter supply\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-04 07:41",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc1MxVmxxOVpxN1RDa08zQXM1TjdWOGJQZmZZUldMcFhHeVVjUGw5NC05cmM5U1dqX2xUcHVoenpaX1Y3bGdmemRHcVk0QUlvemRYSTl0eXluVjBTZnJTc2dIT0RnQS1YZlZCeVFDRDhxT2l2UFRBME1INzBoaUdaMEhtZV8yWHg0c2VwNjNoM1Y5S3hfYzh5Q1dqSTlrSm5aRlc2b1RMQW15aWg1ZzhIYl9NRW53YmpRWFl3ODZB?oc=5"
     },
     {
-      "headline": "Resilient Saudi economy proves a draw for wartime Gulf business - Reuters",
+      "headline": "More oil escapes Hormuz, keeping traders guessing - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Resilient Saudi economy proves a draw for wartime Gulf business\u00a0\u00a0Reuters",
+      "impact": "More oil escapes Hormuz, keeping traders guessing\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-04 06:07",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQelotcDcwaGJYTDNsc0lKX2gtc1F5dVl0SUdZdWZqZ1ZBUGdLQmJHTWZ5WGxjUmxjZlJEa1VtaTdsX2V3Y0ptYmtwSkZhaExjQVdBTjBPTEM1bVp4dkt4MDlwTW5pTDhkN0ZvVFp0S2c2NkhDZ3IxTF9NVXAxbVlHcjdvanlVZGRxUDgzWjRlVUFtanVadF83MUxtOGFHNi15SUg0V2hXNEpKaHRpMm1kZGFfTGc2OWE2?oc=5"
+    },
+    {
+      "headline": "Taiwan beefs up anti-ship missile arsenal to counter threat of Chinese invasion - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Taiwan beefs up anti-ship missile arsenal to counter threat of Chinese invasion\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-03 15:46",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNkRkX3U5SnJIb1RTY3lqanlTLXkzLVk3eW5EY1U3TnU0WUZTaGUxaEdHbE9hVUd2d3hVYUZRTFZxOUxhbUVTT3B5Zm1CS3Jad3N6S1NXeUNuOEZnc3d4YnZxMUlfd0VGdmR5NGhWN05xbi1WLXFYYnFUaFdSOXo0Z2NsQWFINXg2ZmR6RkgyRVNDaExlS2oxZHlHMWhHdzFXaGF1QXZpUklkNm1OYlg3Mw?oc=5"
+      "date": "2026-06-04 06:02",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMGlHZS1SWEJvVzNoUW52UDRSOGZHYno5d0pjcGNHOUVSSmNjS2JLV3RPdnpYdE5XOVJUZE9BM1hTOWZqcjBpb0lleVd0MWlKeHdMUnNCczNabXB3QUdOWE94aFUtbTBxZUk3X29jX1pCS1RlYXhvcWZPUFd6dE5QT0pqdDBaQlM0a254MXROejByQTZscElyTF8yMC0zakpIdDdON2lFOEFOTzdlRXltb1dUT3hiRzFLcHZ2OVJWSXpHeVlzV2pFbVVXV09TZXFNenc?oc=5"
+    },
+    {
+      "headline": "Indian shares muted on Mideast jitters; traders eye RBI policy meeting - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Indian shares muted on Mideast jitters; traders eye RBI policy meeting\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-04 05:05",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUVotcUdyRVdLVnM3MWVzMkNRSGFwekdicC1SalB4Tm91WEVveHUzUHVWU2doTXQ5TEdhT0w0dlNDdHlsUmdObkYteHprNURhamJNNFhnUlA0eVhIOUhqR3g4THZ3VWktaW51Q2Y2X2ExS0NNUVZMcXlYbTdPOS1uelgwVTZaNW5JWmxhczNqRDhKRnlkQ3N6VzdEVFpId2JnZGpnWExpMGxXTHRDd3lraEln?oc=5"
     }
   ]
 }
