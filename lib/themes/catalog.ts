@@ -493,6 +493,160 @@ export const THEMES: Theme[] = [
   },
 
   {
+    slug: "us-ai-cooling",
+    name: "AI Datacenter Cooling",
+    category: "Disruptive Technology",
+    region: "US",
+    benchmark: "S&P 500",
+    blurb: "Liquid + immersion cooling for GPU racks · Blackwell/Rubin thermal density",
+    definition:
+      "The thermal-management layer of the AI buildout. Blackwell racks dissipate 120-140 kW (vs ~40 kW for prior generation); Vera Rubin NVL72 pushes higher still. Air-cooling is exhausted — liquid + immersion + rear-door heat exchangers + CDUs (coolant distribution units) become mandatory. Pure-plays here capture spend that doesn't show up in NVDA's revenue but is mathematically required for every GPU sold.",
+    seedwords: [
+      "liquid cooling", "immersion cooling", "datacenter cooling",
+      "CDU", "coolant distribution unit", "rear door heat exchanger",
+      "direct-to-chip", "two-phase cooling", "chiller plant",
+      "AI thermal", "hyperscale cooling",
+    ],
+    constituents: [
+      { ticker: "VRT", region: "US", relevancePct: 80, tier: "Core", source: "analyst-tagged", rationale: "Vertiv — pure-play DC infrastructure; liquid cooling + CDU + power chain. AI-tied bookings ~+40% YoY." },
+      { ticker: "MOD", region: "US", relevancePct: 70, tier: "Core", source: "analyst-tagged", rationale: "Modine — Airedale brand DC HVAC + chillers; Climate Solutions segment growing 30%+ YoY on hyperscaler orders." },
+      { ticker: "NVT", region: "US", relevancePct: 55, tier: "Core", source: "analyst-tagged", rationale: "nVent — liquid cooling + busways + electrical enclosures; pure-play DC tilt within infrastructure." },
+      { ticker: "SPXC", region: "US", relevancePct: 45, tier: "Significant", source: "analyst-tagged", rationale: "SPX Technologies — Marley cooling towers + Olsun transformers for DC; both legs hyperscaler-levered." },
+      { ticker: "TT", region: "US", relevancePct: 28, tier: "Significant", source: "analyst-tagged", rationale: "Trane Technologies — chiller plants + climate controls; DC mix rising but blended with commercial HVAC." },
+      { ticker: "SBGSY", region: "US", relevancePct: 32, tier: "Significant", source: "analyst-tagged", rationale: "Schneider Electric ADR — APC UPS + Galaxy + cooling; ~30% of revenue tied to AI/DC end-market." },
+      { ticker: "JCI", region: "US", relevancePct: 18, tier: "Peripheral", source: "analyst-tagged", rationale: "Johnson Controls — broader HVAC; smaller AI DC mix vs Trane/Modine but reorganization unlocks DC focus." },
+    ],
+    methodology: {
+      scoringFormula: "DC + AI-attributed revenue segment share + bookings growth from hyperscaler announcements + qualitative thermal-density positioning.",
+      dataProvenance: "10-K segment data + earnings transcripts + hyperscaler capex commentary + Dell'Oro / Synergy Research DC infrastructure tracker.",
+      eligibilityFloorPct: 15,
+      weighting: "relevance",
+      rebalanceCadence: "Quarterly post-earnings.",
+      lastReview: "2026-06-03",
+      limitations:
+        "Cooling spend is back-loaded vs GPU shipments — orders typically book 2-3 quarters after silicon. Power-grid bottleneck is binding before cooling demand fully realizes; can defer revenue. Pricing power weaker than NVDA's; competitive (Boyd, Schneider APC, Asetek for direct-to-chip).",
+    },
+    citationIds: ["msci-thematic-relevance", "bloomberg-thematic-protocol", "ben-david-franzoni-kim-moussawi-2023"],
+    riskNote:
+      "Cooling is a derivative bet on GPU shipments — if AI capex digestion arrives, this cohort de-rates faster than NVDA (no software moat, no install base lock-in). VRT trades at premium-to-peers multiple already.",
+  },
+
+  {
+    slug: "us-ai-power-grid",
+    name: "AI Power Grid & Electrical",
+    category: "Disruptive Technology",
+    region: "US",
+    benchmark: "S&P 500",
+    blurb: "Gas turbines + transformers + grid build · the binding constraint",
+    definition:
+      "Power, not silicon, is now the binding constraint on AI buildout. PJM failed its Dec 2025 capacity auction by 6,625 MW (first time ever); ERCOT large-load queue exceeds 230 GW; HV transformer lead times are 4-5 years. Hyperscalers are committing 10+ year PPAs and bringing turbines/grid build-out forward by half a decade. Picks-and-shovels exposure to that capex.",
+    seedwords: [
+      "data center power", "gas turbine", "grid infrastructure",
+      "transformer", "switchgear", "backup generator",
+      "power purchase agreement", "PPA", "load growth",
+      "transmission", "substation", "uprate", "interconnection queue",
+    ],
+    constituents: [
+      { ticker: "GEV", region: "US", relevancePct: 75, tier: "Core", source: "analyst-tagged", rationale: "GE Vernova — gas turbines + grid; ~$120B backlog; turbine slots sold out through 2028, hyperscaler-direct." },
+      { ticker: "ETN", region: "US", relevancePct: 70, tier: "Core", source: "analyst-tagged", rationale: "Eaton — electrical infrastructure; DC mix ~30% of revenue and rising. Overlaps with Reshoring theme." },
+      { ticker: "HUBB", region: "US", relevancePct: 60, tier: "Core", source: "analyst-tagged", rationale: "Hubbell — utility distribution transformers + switchgear; 4-5yr lead times = pricing power." },
+      { ticker: "GNRC", region: "US", relevancePct: 50, tier: "Core", source: "analyst-tagged", rationale: "Generac — backup generators for DC; commercial industrial segment 50%+ tied to DC." },
+      { ticker: "PWR", region: "US", relevancePct: 60, tier: "Core", source: "analyst-tagged", rationale: "Quanta Services — grid build-out + transmission lines; multi-year hyperscaler PPAs drive backlog. Overlaps Reshoring." },
+      { ticker: "FIX", region: "US", relevancePct: 65, tier: "Core", source: "analyst-tagged", rationale: "Comfort Systems USA — DC mechanical/electrical contractors; ~50% of revenue DC + advanced manufacturing." },
+      { ticker: "PRIM", region: "US", relevancePct: 55, tier: "Core", source: "analyst-tagged", rationale: "Primoris — utility-scale grid + power infrastructure; transmission + substation backlog ramping." },
+      { ticker: "MYRG", region: "US", relevancePct: 45, tier: "Significant", source: "analyst-tagged", rationale: "MYR Group — electrical infrastructure contractor; transmission/distribution rebuild cycle." },
+    ],
+    methodology: {
+      scoringFormula: "DC + grid-modernization attributed revenue + booked backlog tied to hyperscaler PPAs + transmission queue exposure.",
+      dataProvenance: "10-K segment + EIA Form 860/923 + hyperscaler PPA announcements (MSFT-CEG, META-X-Energy, GOOG-Kairos, AMZN-Talen) + PJM / ERCOT interconnection queue.",
+      eligibilityFloorPct: 25,
+      weighting: "score-vol",
+      rebalanceCadence: "Quarterly post-earnings.",
+      lastReview: "2026-06-03",
+      limitations:
+        "Utility regulatory friction can delay backlog conversion. Permitting / siting risk on transformer + transmission. Nuclear PPAs (CEG-TMI, AMZN-Talen) won't come online until 2027-2030 — near-term revenue is gas + grid only.",
+    },
+    citationIds: ["msci-thematic-relevance", "bloomberg-thematic-protocol", "ben-david-franzoni-kim-moussawi-2023"],
+    riskNote:
+      "Gas-turbine cycles historically book 18-24 months ahead of GDP — a tail-risk recession would compress new orders sharply. Permitting reform is a binary catalyst either direction.",
+  },
+
+  {
+    slug: "us-datacenter-reits",
+    name: "Datacenter REITs",
+    category: "Disruptive Technology",
+    region: "US",
+    benchmark: "S&P 500",
+    blurb: "Physical AI real estate · hyperscale + colo · power-constrained leasing",
+    definition:
+      "The physical real estate layer of the AI buildout — hyperscale build-to-suit, retail colocation, and interconnection. Cash-flow visibility from 10-15yr leases, but increasingly power-constrained: leasing premium attaches to sites with secured grid interconnection. Rate-sensitive but with secular tailwind that has historically broken the rate-correlation.",
+    seedwords: [
+      "data center REIT", "hyperscale", "colocation", "colo",
+      "interconnection", "build-to-suit", "edge data center",
+      "leased megawatts", "kW per cabinet", "rack density",
+    ],
+    constituents: [
+      { ticker: "EQIX", region: "US", relevancePct: 95, tier: "Core", source: "analyst-tagged", rationale: "Equinix — global #1 interconnection + colo; 270+ DCs in 73 markets. Network effect = pricing power." },
+      { ticker: "DLR", region: "US", relevancePct: 95, tier: "Core", source: "analyst-tagged", rationale: "Digital Realty — global hyperscale + colo; 300+ DCs. Direct hyperscaler exposure higher than EQIX." },
+      { ticker: "IRM", region: "US", relevancePct: 35, tier: "Significant", source: "analyst-tagged", rationale: "Iron Mountain — pivoting records-storage to DC + asset lifecycle; DC segment ~$1B+ run-rate, ramping." },
+      { ticker: "AMT", region: "US", relevancePct: 22, tier: "Significant", source: "analyst-tagged", rationale: "American Tower — mostly towers, but CoreSite acquisition gives ~$1B DC exposure; small but optionality." },
+    ],
+    methodology: {
+      scoringFormula: "DC-segment revenue share + leased MW capacity growth + interconnection density (only EQIX-relevant proxy).",
+      dataProvenance: "10-K segment data + supplemental disclosures + Synergy Research / Cushman & Wakefield DC market reports + hyperscaler lease announcements.",
+      eligibilityFloorPct: 20,
+      weighting: "market-cap",
+      rebalanceCadence: "Quarterly post-earnings.",
+      lastReview: "2026-06-03",
+      limitations:
+        "Rate-sensitive — historically DC REITs trade like long-duration bonds. The AI demand tailwind has broken this correlation since 2023, but a hawkish-Fed surprise re-engages it. Power-grid bottleneck caps near-term leasing velocity; cash-flow growth is back-loaded.",
+    },
+    citationIds: ["msci-thematic-relevance", "bloomberg-thematic-protocol", "ben-david-franzoni-kim-moussawi-2023"],
+    riskNote:
+      "Concentration risk: top 4 hyperscaler tenants drive >50% of DLR's backlog. Renegotiation cycles in 2027-29 are the watch point.",
+  },
+
+  {
+    slug: "us-ai-optical-networking",
+    name: "AI Optical & Networking",
+    category: "Disruptive Technology",
+    region: "US",
+    benchmark: "S&P 500",
+    blurb: "800G/1.6T interconnect · co-packaged optics · the GPU-fabric layer",
+    definition:
+      "The interconnect layer that stitches GPUs into a single compute fabric — switches, transceivers, retimers, optical components, silicon photonics. NVDA's networking segment ran $14.8B in Q1 FY27 (+199% YoY) — this theme captures the wallet share that goes outside of NVDA: scale-out (Ethernet/InfiniBand) + scale-up (NVLink/UALink) + optical components.",
+    seedwords: [
+      "800G", "1.6T", "optical transceiver", "co-packaged optics",
+      "CPO", "silicon photonics", "DSP", "retimer", "PCIe Gen6",
+      "AEC", "active electrical cable", "InfiniBand", "Spectrum-X",
+      "NVLink", "UALink", "Ultra Ethernet", "scale-out", "scale-up",
+    ],
+    constituents: [
+      { ticker: "ANET", region: "US", relevancePct: 85, tier: "Core", source: "analyst-tagged", rationale: "Arista — 800G/1.6T DC switches; Meta + MSFT primary customers; AI-back-end fabric leader for Ethernet." },
+      { ticker: "AVGO", region: "US", relevancePct: 50, tier: "Core", source: "analyst-tagged", rationale: "Broadcom — Tomahawk/Jericho switch silicon + AI ASIC (OAI partnership); networking ~$15B+ AI revenue. Overlaps AI-Datacenter." },
+      { ticker: "MRVL", region: "US", relevancePct: 65, tier: "Core", source: "analyst-tagged", rationale: "Marvell — Inphi DSPs + custom AI silicon (Trainium-adjacent); ~65% of revenue tied to AI/DC by FY27." },
+      { ticker: "COHR", region: "US", relevancePct: 70, tier: "Core", source: "analyst-tagged", rationale: "Coherent — optical components + transceivers; DC/AI mix >50% and growing." },
+      { ticker: "LITE", region: "US", relevancePct: 75, tier: "Core", source: "analyst-tagged", rationale: "Lumentum — DC laser/transceiver leader; AI mix 60%+ of optical revenue." },
+      { ticker: "CIEN", region: "US", relevancePct: 45, tier: "Significant", source: "analyst-tagged", rationale: "Ciena — coherent optical for hyperscale DCI; mix shifting from telco to cloud." },
+      { ticker: "ALAB", region: "US", relevancePct: 90, tier: "Core", source: "analyst-tagged", rationale: "Astera Labs — connectivity silicon for AI (Aries retimers, Scorpio fabric); pure-play AI infrastructure." },
+      { ticker: "CRDO", region: "US", relevancePct: 90, tier: "Core", source: "analyst-tagged", rationale: "Credo Technology — active electrical cables (AECs) + retimers for AI clusters; pure-play." },
+    ],
+    methodology: {
+      scoringFormula: "AI/DC-attributed revenue share + 800G/1.6T design wins + hyperscaler-named-customer disclosures + cross-check vs NVDA networking segment growth.",
+      dataProvenance: "10-K segment + earnings transcripts + LightCounting / Dell'Oro optical & DC switch market shares + hyperscaler design-win announcements.",
+      eligibilityFloorPct: 25,
+      weighting: "relevance",
+      rebalanceCadence: "Quarterly post-earnings.",
+      lastReview: "2026-06-03",
+      limitations:
+        "Pure-plays (ALAB, CRDO) trade at peer-leading multiples already — re-rating room is narrower than the underlying growth might suggest. Co-packaged optics (CPO) transition in 2027-28 could disrupt the pluggable-transceiver cohort (LITE, COHR) — directional but timing-uncertain.",
+    },
+    citationIds: ["msci-thematic-relevance", "bloomberg-thematic-protocol", "ben-david-franzoni-kim-moussawi-2023"],
+    riskNote:
+      "If hyperscalers standardize on Ultra Ethernet + UALink, NVDA's networking dominance (Spectrum-X / NVLink) compresses — net positive for ANET / AVGO, net negative for the NVDA-tied parts of the cohort. Watch UEC consortium milestones in 2H 2026.",
+  },
+
+  {
     slug: "us-nuclear-uranium",
     name: "Nuclear & Uranium Revival",
     category: "Energy & Materials",

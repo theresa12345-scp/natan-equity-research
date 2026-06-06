@@ -57,7 +57,7 @@ const TILES: SectionTile[] = [
   { num: "05", label: "Risk", blurb: "Beta 1.08 · Vol 18.4%", href: "/risk", stat: "VaR 95% −2.84%", statTone: "neg" },
   { num: "06", label: "Backtest", blurb: "Strategy workbench · 5 saved", href: "/backtest", stat: "Sharpe 0.91 · DSR 0.997", statTone: "pos" },
   { num: "11", label: "Sources", blurb: "Free Edge catalog · 40+ sources · academic citations", href: "/sources", stat: "Provenance · citations · ToS audit", statTone: "neutral" },
-  { num: "12", label: "Themes", blurb: "12 hand-curated · IDX + US · MSCI relevance + Bloomberg tiers", href: "/themes", stat: "Discovery lens · Ben-David caveat attached", statTone: "neutral" },
+  { num: "12", label: "Themes", blurb: "18 hand-curated · IDX + US · AI infra picks-and-shovels added", href: "/themes", stat: "Discovery lens · Ben-David caveat attached", statTone: "neutral" },
 ];
 
 const SAVED_SCREENS = [
