@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-06T08:23:51.297669",
+  "timestamp": "2026-06-06T15:18:26.496245",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
     "bullish": 8,
-    "neutral": 14,
-    "bearish": 3,
+    "neutral": 15,
+    "bearish": 2,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,11 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 12,
-    "Bloomberg": 2,
+    "Reuters": 11,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
     "MarketWatch": 2,
-    "CNBC": 4
+    "The Wall Street Journal": 1,
+    "CNBC": 2,
+    "Intellectia AI": 1
   },
   "top_signals": [
     {
@@ -28,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -108,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,28 +120,88 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-06 08:23",
+      "date": "2026-06-06 15:18",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "S&P 500 sees $1.8 trillion wipeout, Nasdaq tallies biggest point drop on record: What investors need to know about Friday\u2019s selloff",
+      "headline": "The blowout jobs report is bad news for stocks \u2014 but it shouldn\u2019t force the Fed\u2019s hand on interest rates",
       "score": 7,
       "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "A remarkable two-month sprint higher for major stock-market indexes encountered its first major hiccup on Friday as the Nasdaq Composite plummeted more than 1,121 points \u2014 the biggest one day point drop on record, according to Dow Jones Market Data.",
-      "category": "us_equities",
-      "date": "2026-06-05 22:27",
-      "link": "https://www.marketwatch.com/story/s-p-500-sees-1-8-trillion-wipeout-nasdaq-tallies-biggest-point-drop-on-record-heres-what-investors-need-to-know-about-fridays-selloff-4eb7b490?mod=mw_rss_topstories"
+      "sentiment": "negative",
+      "impact": "Rate hikes now will choke off the critical investments needed to lower prices.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-06 13:40",
+      "link": "https://www.marketwatch.com/story/the-blowout-jobs-report-is-bad-news-for-stocks-but-it-shouldnt-force-the-feds-hand-on-interest-rates-66eaa2b9?mod=mw_rss_topstories"
     },
     {
-      "headline": "Macy's posts strongest Q1 growth in four years, raises guidance despite consumer worries",
+      "headline": "Nick Timiraos | Hiring Rebound Gives Ammo to Fed Hawks",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-05 13:27",
+      "link": "https://www.wsj.com/livecoverage/may-jobs-report-stock-market-06-05-2026/card/hiring-rebound-gives-ammo-to-fed-hawks-DEdVjYZ3n4xfI66kyHPA"
+    },
+    {
+      "headline": "Traders Fully Price in Fed Rate Hike This Year After Jobs Data",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Bond traders fully priced in a Federal Reserve interest-rate hike by the end of this year after US job growth topped all forecasts in May, spurring yields higher in the $31 trillion Treasuries market.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-05 12:47",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-05/traders-fully-price-in-fed-rate-hike-this-year-after-jobs-data"
+    },
+    {
+      "headline": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Macy's has been in the midst of a turnaround under CEO Tony Spring, who has worked to close underperforming stores and reinvest in ones worth keeping open.",
+      "impact": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest win streak since 1985.",
+      "category": "us_equities",
+      "date": "2026-06-05 07:48",
+      "link": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "The Fed can\u2019t protect consumers from supply shocks and price gouging \u2014 but Congress can",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "As global disruptions drive up Americans\u2019 grocery and gasoline prices, lawmakers need to take a stand.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-06 14:40",
+      "link": "https://www.marketwatch.com/story/the-2-types-of-inflation-the-fed-cant-control-and-how-congress-must-protect-your-wallet-7ac2079a?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "How \u2018Backrooms\u2019 producer Peter Chernin thinks Hollywood needs to change",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Franchise fatigue could drive an entertainment industry sea change as the appetite for fresh ideas grows and younger audiences make up more box office sales.",
+      "category": "global_markets",
+      "date": "2026-06-06 13:00",
+      "link": "https://www.cnbc.com/2026/06/06/backrooms-peter-chernin-hollywood.html"
+    },
+    {
+      "headline": "HODU Stock News Today | Earnings, Events & Price Alerts",
+      "score": 6,
+      "source": "Intellectia AI",
+      "sentiment": "neutral",
+      "impact": "This page provides real-time news and event updates for HODU stock, including current pricing, market performance, and related financial news. It highlights a specific past article from Benzinga about Direxion ETFs and notes the absence of recent HODU events or earnings analysis.",
       "category": "corporate_earnings",
-      "date": "2026-06-03 21:20",
-      "link": "https://www.cnbc.com/2026/06/03/macys-m-earnings-q1-2026.html"
+      "date": "2026-06-06 12:39",
+      "link": "https://intellectia.ai/en/stock/HODU/news"
+    },
+    {
+      "headline": "Russia's Sechin says U.S. companies benefit from the closure of the Strait of Hormuz - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Russia's Sechin says U.S. companies benefit from the closure of the Strait of Hormuz\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-06 08:38",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSHJyOUJ0WVpCMVZ2MFNmNWEtQ1JuZW1LUW5obFNZZTlEZDBmcWE3S3ZYYXI0Q0Y5MHJLNjdGSjI1RnVRYmdtdmtqWGFIWmRINy1RdWMzdGMxTEROWENRQnJlMUxma2FkTHVNN1BDLW83QjdWWHhhdG9nZ3ktU1dGQk5KMFFyR09wZXM4bHhXSGxnWFZEMUJkb3BoRDNkc3FjUW5NODJyR2tRZlB5Q1ltN3RUcjY?oc=5"
     },
     {
       "headline": "US attacks Iranian sites after Iran launches drones, in latest Gulf flare-up - Reuters",
@@ -150,6 +212,16 @@
       "category": "global_markets",
       "date": "2026-06-06 00:02",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1o1RDBJVGVQai1scDRmSmlnaWxVZlZBaDZyZUswRHNMY0c1N25BM053RXdmWGV5aGJkalg3V0lpUnpVOEFpUWY5YTBCY0syV1dmejdaUVlJVXZkc0tNVTQ2RmlTVWlEUVlDYkZEYl9yQVZ1QWtLVzZYNl9RRTBzaENsNlBVMWJCYjJLd0ZtdGlpUTljLVBhV0JlVDFJRWJwdm9YQjhIZ3BqdHdua2Z6TFMzS0xXbHhuZTFuNC0yWDhHaUlWSFo2MQ?oc=5"
+    },
+    {
+      "headline": "US energy secretary says lower gas prices will ultimately take resolution with Iran - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "US energy secretary says lower gas prices will ultimately take resolution with Iran\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-05 23:51",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNc3FvTkdEREtLeURERnlZVDBVT0JwTFV1TWhGNnNmUVFmSzcwUW9uU2YyQVQxdjI1bWFEMzA0aEh0dS05UlhuS1AxX2VGZEFVZ2pHRURCOFVUdlc4a0VtMkVhRDd5ZlBGWkhLNmxaaFBRTERTR3l0SU9OekxXWkRHSExYVFNLR3h2dURSVkc2MnV6dVRrWjg3d3lqT0luNVI3bU5vYkRSTW9xWlNWc0hsbmNXV3h5SGNiZVEyd0draGJyNDVYZnYxZkRB?oc=5"
     },
     {
       "headline": "US strikes Iran radar sites after Iranian drone launch - Reuters",
@@ -182,24 +254,14 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWNoMWljcEVLeTNSU09PSGdTTllERnBWUXVqRlNrSGI2S3I1Y1VZdlRBY05FbXNlX0tudmZlalJKYV9VaVpJZHBRTWFqTThMQ01TakJDVXVnTGJ2OVBmNmxNdVRRRXNKRThuWnFDUzRDZlFyQkt4Uy1EUDlqVzVMNW56U0tvZzAtYmNoby1tdnpTaGNrWkV3eHk4TGhTUWdaVGg4S3dHakNRaTNpR2tFTnNiYTFmaDl0cjk3eU9R?oc=5"
     },
     {
-      "headline": "Marvell gets a spot in the S&P 500 \u2014 along with this data-center play",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The new additions beef up the IT sector\u2019s presence within the benchmark index.",
-      "category": "us_equities",
-      "date": "2026-06-05 21:27",
-      "link": "https://www.marketwatch.com/story/an-s-p-500-shakeup-is-hours-away-these-stocks-could-soon-earn-spots-in-the-index-a9b64d67?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Iran World Cup players granted visas to enter the US, says White House official - Reuters",
+      "headline": "Israeli forces shoot dead Palestinian baby, wound his parents in West Bank - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran World Cup players granted visas to enter the US, says White House official\u00a0\u00a0Reuters",
+      "impact": "Israeli forces shoot dead Palestinian baby, wound his parents in West Bank\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-05 20:49",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZU5Fb3BhUml4d0p4bk9yZjhvdUoydElaSjV4c3BvNUZHOURqVU82RENQd0FXak8teXBBcElyRzVrTjBHMWl6NGdiME1UdjVBbFFqMHBYWVo2bWNYMW15aUNLdnk5QmkzX1dLajNoTmJnQ1pjS3lzS1pVZnBNVWc0anBGa09MNDl4TG1yTDQ4RlFhNTRneTVwRHh1cXBjU01Xd09DWk03a2VuelpOTHo2WGNvWmYzdVNEYkMzNDFWdjl0Nmc?oc=5"
+      "date": "2026-06-05 21:39",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMWxYVWpjUC1mQkpudGNfVWdWSjRCQVVfSGs2Q0s0UFpfUWRkWkM2bnl2enltdEl0bjJ6TXR3eVh4MEZaNFVCdTY1TU9JdmtVRnFVUExLdEtfWHNPU2ZxNEIxQ3daV09xel8xU3BfSzVqelBXZk43M1Nnb1lvcFQyMFluVVdSQXRTUVUtQjhOdXBvZjRSVWowWDhneW51ekpoa0JtRWhsQnZNQ3Vmb2FhTlU4MVI0MXYwOS1xc2NPZF95RmpOZ0tlZUlUSQ?oc=5"
     },
     {
       "headline": "Witkoff, Kushner meet nuclear experts at national lab in Tennessee, source says - Reuters",
@@ -210,66 +272,6 @@
       "category": "global_markets",
       "date": "2026-06-05 20:01",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU0hDX051dHVaUU9zWm80VnU2Wk1jTk9iSjVFSGdfSnFLQVFHQjc5a2ZSMzNvcFprS051UTd5RkdZbTlXWXNJMTZlOTlwblBnVWlpOF9FZEFiYmktdVZDU05GbnVic0JRWUpwbXNpS3daV1hUeEFVV1NWQXpRTnpnYjYzNnhwbDdWU0Z4WDZDVjk5c1laUGp6SXNXVy1zZWM0NmFwbTEwM2t4eFJNSjVnVmd1cw?oc=5"
-    },
-    {
-      "headline": "US judge strikes down Trump policies targeting immigrants from 39 countries - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US judge strikes down Trump policies targeting immigrants from 39 countries\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-06-05 18:31",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMkstOFU0cXFkQ1dVbEZwNldfU3lLU2VHbzYwRE90Y2dOX0VYeTVPMWUxRUo1aVBqc3k2ZmFvNGFLMS1lNS1IMkk2MkhtZnNUS2xZNlhBM2w3ajZOWTZuTXYwNlZHbWRYbDIyRUo1ajRta3dCbFRCeDNDXzIyREVsTU0xTnQyUXdfQk9zMUtMWkdXT1hVUzdGdEV1eEp0MnlUSnNlcWtoSXRwRnlzbUtKMQ?oc=5"
-    },
-    {
-      "headline": "Iran World Cup squad still in visa limbo 10 days before first match, ambassador says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran World Cup squad still in visa limbo 10 days before first match, ambassador says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-05 18:23",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTlBnSE9GWlBqaU82S1FVVlNTLXFvRDBQNmJUNW4xdnIwQ25nYjVxNmUyN0kyLV9tMDhtUDNRN1c4dVJlRnBrU0xSMzlBY1I2akNJV0VlQ1pGdWpZUURwb2JNNDFOS000dEg4Si1lb2dmVmtNMHVFRko0REJEV1I0a0JoSXl3bk51ZW9BNk9wRUlRYmoycnNMNWYzUjR6dy1xVXh4S1FNbFBMdTVWSXlzZ21YcnRidHo4blJkX3JsWmdmVjdxbVNQVWlR?oc=5"
-    },
-    {
-      "headline": "As AI-related stocks dive, the market's winners have one thing in common",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2026-06-05 18:06",
-      "link": "https://www.cnbc.com/2026/06/05/as-ai-related-stocks-dive-the-markets-winners-have-one-thing-in-common.html"
-    },
-    {
-      "headline": "Trump wants Bill Pulte to fire big chunk of national intelligence office staff: WSJ",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "President Trump's comments are sure to roil members of Congress who criticized the appointment of Bill Pulte as acting national intelligence director.",
-      "category": "global_markets",
-      "date": "2026-06-05 17:25",
-      "link": "https://www.cnbc.com/2026/06/05/trump-bill-pulte-fire-intelligence-dni.html"
-    },
-    {
-      "headline": "As the largest World Cup ever kicks off, health officials are focused on more than Ebola",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Officials are more concerned about highly contagious diseases like measles and respiratory viruses, which can spread quickly through large, fast-moving crowds.",
-      "category": "global_markets",
-      "date": "2026-06-05 17:25",
-      "link": "https://www.cnbc.com/2026/06/04/world-cup-2026-health-officials-focused-on-ebola-measles.html"
-    },
-    {
-      "headline": "Trump's 'crazy' rebuke undercuts Netanyahu at a critical moment - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Trump's 'crazy' rebuke undercuts Netanyahu at a critical moment\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-05 17:12",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOVJhNXhDSC1NbGdmd1NJUnlTaGFMM3JxTnZFNUR6VVpDdXlMS2ZOLW05TW1YMXJhcUdGSVFfM1Q3VVNURUNVSnl4VVM3WnlFMGZuZjVOSUhQZkFCZjBBYVFBeEMzTVViNnFLZWtCWGdKMDFRTF8xZ0RVUlBPbDZBV2FFZVpCZmhHTG00RWNDRGtIS0N5TXI1RzRFY1ozQXR3SXpDNm9JX0ZPcUxQR0E?oc=5"
     }
   ]
 }
