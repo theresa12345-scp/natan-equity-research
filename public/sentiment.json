@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-07T08:44:57.417605",
+  "timestamp": "2026-06-07T15:24:48.638783",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 10,
+    "avg_relevance": 7.2,
+    "bullish": 11,
     "neutral": 13,
-    "bearish": 2,
+    "bearish": 1,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,11 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 11,
-    "Bloomberg": 4,
+    "Reuters": 8,
+    "Bloomberg": 5,
     "Caixin/S&P Global": 1,
-    "CNBC": 2,
-    "MarketWatch": 3
+    "MarketWatch": 2,
+    "The Wall Street Journal": 1,
+    "Seeking Alpha": 2,
+    "GuruFocus": 1,
+    "Crypto Briefing": 1
   },
   "top_signals": [
     {
@@ -28,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -108,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,8 +121,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-07 08:44",
+      "date": "2026-06-07 15:24",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "S&P 500 sees $1.8 trillion wipeout, Nasdaq tallies biggest point drop on record: What investors need to know about Friday\u2019s selloff",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "A remarkable two-month sprint higher for major stock-market indexes encountered its first major hiccup on Friday as the Nasdaq Composite plummeted more than 1,121 points \u2014 the biggest one day point drop on record, according to Dow Jones Market Data.",
+      "category": "us_equities",
+      "date": "2026-06-07 14:02",
+      "link": "https://www.marketwatch.com/story/s-p-500-sees-1-8-trillion-wipeout-nasdaq-tallies-biggest-point-drop-on-record-heres-what-investors-need-to-know-about-fridays-selloff-4eb7b490?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "S&P 500 companies can\u2019t stop talking about higher oil prices. But few say they\u2019ll actually hit profits.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Only seven companies cited oil prices as a reason for cutting or not updating their profit outlooks for the year.",
+      "category": "us_equities",
+      "date": "2026-06-07 14:00",
+      "link": "https://www.marketwatch.com/story/s-p-500-companies-cant-stop-talking-about-higher-oil-prices-but-few-say-theyll-actually-hit-profits-c3a4e4ea?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Global airlines slash 2026 profit forecast on fuel shock from Iran war - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Global airlines slash 2026 profit forecast on fuel shock from Iran war\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-06-07 13:46",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQenE5amZ2NmVSM2gzMXBWVjczMDdsZnRreUZObWlzUGJ2YVpBeU45cTNOdmt2Z1lOc1MtcmZqV2JSZ1RwaktBUzYyTDcwZVRjYnhiWk9xX2hQc3QxMUJ3NjVacWF2MTdwZ2hfOFozZEh3NzdyQWpza2xGRVNIYzAxV3hKaTJlM2dmTGxUdWRuR1RuaS1od2pWcEFpRXh6Tk5FV2lycE1Na2FaSjFlNlVGRDF6dEVfa09iZHN5dDhGTDFrSWM?oc=5"
     },
     {
       "headline": "Gold falls most in two months as jobs fuel Fed rate-hike bets",
@@ -132,144 +165,114 @@
       "link": "https://www.bloomberg.com/news/articles/2026-06-04/gold-steadies-as-uncertainty-surrounds-progress-in-us-iran-talks"
     },
     {
-      "headline": "Traders Fully Price in Fed Rate Hike This Year After Jobs Data",
+      "headline": "Nick Timiraos | Hiring Rebound Gives Ammo to Fed Hawks",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-06 03:09",
+      "link": "https://www.wsj.com/livecoverage/may-jobs-report-stock-market-06-05-2026/card/hiring-rebound-gives-ammo-to-fed-hawks-DEdVjYZ3n4xfI66kyHPA"
+    },
+    {
+      "headline": "SpaceX and Other Mega IPOs May Wait Years to Join the S&P 500",
       "score": 7,
       "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "Bond traders fully priced in a Federal Reserve interest-rate hike by the end of this year after US job growth topped all forecasts in May, spurring yields higher in the $31 trillion Treasuries market.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-05 19:50",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-05/traders-fully-price-in-fed-rate-hike-this-year-after-jobs-data"
+      "impact": "Mega-IPO candidates including SpaceX are expected to face a long road to entry to the S&P 500 Index, after the company that makes the rules rejected a proposal that included relaxing the requirement that they be profitable.",
+      "category": "us_equities",
+      "date": "2026-06-05 20:39",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-05/spacex-and-other-mega-ipos-may-wait-years-to-join-the-s-p-500"
     },
     {
-      "headline": "Hot jobs report puts Fed cuts further out of reach as Chair Warsh faces policy tests",
+      "headline": "Gold Erases This Year\u2019s Gains as Jobs Data Fuel Fed-Hike Bets",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Another big jobs report in May has swept aside the possibility of interest rate cuts anytime soon.",
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Gold erased its gains this year as robust US jobs data fueled bets that the Federal Reserve will likely raise interest rates this year, a headwind for the precious metal.",
       "category": "us_monetary_policy",
-      "date": "2026-06-05 17:44",
-      "link": "https://www.cnbc.com/2026/06/05/hot-jobs-report-puts-fed-cuts-further-out-of-reach-as-chair-warsh-faces-policy-tests.html"
+      "date": "2026-06-05 18:40",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-05/gold-erases-this-year-s-gains-as-jobs-data-fuel-fed-hike-bets"
     },
     {
-      "headline": "Israeli military says it intercepted two projectiles that crossed from Lebanon - Reuters",
+      "headline": "Trump says he would not unfreeze Iran's assets before peace deal is done - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Israeli military says it intercepted two projectiles that crossed from Lebanon\u00a0\u00a0Reuters",
+      "impact": "Trump says he would not unfreeze Iran's assets before peace deal is done\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-07 06:28",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRWM3a2NBbFRYb3ZxLUNNb3kwYVRtckcyZjVValRobHBhYjJ2TUZUWkFqbHNmUjI5VjROeVlSR0RmcjRkMGJoc2htWjlGWmFtcnhNSUtyOG5WRk1fbjNPZ1NEV0VuaVNDYUw4Tk1oSWJyendTbWdUOHc0V0Z2a0JiUjdiRHNBMTRFclBzNzhaODI3ak9QZGFNMnY5bzEzQTB2WXZ5eUNLZmNPMzJ6bjk0UVZLSjVsLUhkSHRUOE56czIwUTVDeVE?oc=5"
+      "date": "2026-06-07 13:59",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR0t2Sk5ISElDUHNqUWthaDlabUV5czBtSVVtQ05kOTJFVVFYRm01RWRnTkZ6U2JXdEUxVFJjdXpUYUhSbGdJVFRsdEhMYS1lNENNYjVMcWtJdnE4dExueWM5TzBLQlpVYmxQUjVObEN6dDUzcnpUeUpXV2h6cnFSeWllWElnMXlZdjN6MWg4S2NQamVfd2U4dDZaQjJlOFMwX2xwNTFvcWJ5VzNMR3RIY2EtMjBQeEIxYTFhdmlxOVBkbmc?oc=5"
     },
     {
-      "headline": "US eyes Iranian assets for Gulf allies' reconstruction, source says - Reuters",
+      "headline": "United CEO blasts Rolls-Royce over contract dispute, questions supplier commitment (UAL:NASDAQ)",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US eyes Iranian assets for Gulf allies' reconstruction, source says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-06 22:28",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ09pbXlqUEZwdUE4cVVKVEtySklkRGIwSmx6LXlNZm1qWnN1cE8wT1FkODFaUGtJVWh3UG1CRXRMM3JuUWpKQ3ZwOU82aGZpM0llWkZvNUhyLUx5dFJHeV9Bd1B0Rm9DQVdhWno2aG9IQWhxZFhlc2RSbGRlV3A4UklMVFhFZkxvSlBfS3pWaGljaE83RklTb0pIazNHejYydUFuT2ZoQTN5Y05LNU14bURUaWVOTGc?oc=5"
-    },
-    {
-      "headline": "Embraer sees airlines delaying decisions on plane purchase options due to Iran war - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Embraer sees airlines delaying decisions on plane purchase options due to Iran war\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-06 20:08",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVFQ3d19Vc0w5bmZneWpXbi1QMldBcm5BQkxrbG5HWGYxVDZ4QkVTZ1pzRVNnUTNGTWVFY09ZRTJpbDh2UjkxVzVxeDRXZ2toMllLeUNKbXk1a2VtWXIwaE5rc1pWREl1QkNwTUgwUS1WUEdneExFYWdxMG9zWkF5NU45b1J6Q05WOWxESzMtY0xoaC1KOE9HNTNsSUpRam9EZHBNcFlIcEQ3LVJBOFZMWnp4OWE1NkdCX1VKVjBMcnU2U3lhVWlEOVRGU3A?oc=5"
-    },
-    {
-      "headline": "Most robo-advisers will never profit from Wall Street\u2019s AI-generated stock picks",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Retail robo-advisors excel at tax-loss harvesting and portfolio discipline, but market-beating returns aren\u2019t part of the package.",
-      "category": "us_equities",
-      "date": "2026-06-06 18:50",
-      "link": "https://www.marketwatch.com/story/wall-street-keeps-its-ai-stock-picking-secrets-heres-what-robo-advisers-actually-do-93871e31?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Wall Street hated these 15 stocks. Then their earnings proved the analysts wrong.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Earnings beats mean a lot more when it happens to stocks the market gave up on.",
-      "category": "us_equities",
-      "date": "2026-06-06 17:20",
-      "link": "https://www.marketwatch.com/story/wall-street-hated-these-15-stocks-then-their-earnings-proved-the-analysts-wrong-fceb1c96?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Don\u2019t rule out a \u2018June swoon\u2019 \u2014 the S&P 500 is pushing its limits",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Even upbeat Oracle earnings next week might not be enough to rally the market.",
-      "category": "us_equities",
-      "date": "2026-06-06 16:53",
-      "link": "https://www.marketwatch.com/story/dont-rule-out-a-june-swoon-the-s-p-500-is-pushing-its-limits-3c067a6b?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Deferring jet orders over Iran war would be costly for Middle Eastern carriers, IATA VP says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Deferring jet orders over Iran war would be costly for Middle Eastern carriers, IATA VP says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-06 16:41",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR2hDc1JBd0IwRnMwSXAzMzBIdmxac0FnZ1Vhby1ucmxXcml1QTJ5ODM4V3A3MEEyS2RubXdlNXQ3UmVWNEQ2aGJVcWxpZHdReGZDRmFfRVhVX0FXQnBaUENJbnVXbThiR2c1UnJEZ1FFVHQ1bHFxbHJLS0F4ck01MnV0bkk5ZkZnSzZGc2lvS0NPcGdiUm9haEJHZUtMdlJfR3JDQUxKZDRnX3FSeWNKR1RRSHlNc1o2R1I2NWt5TTVKTFRuMVdlRXVzdklfRFYwT0NnYWtYVG1OQQ?oc=5"
-    },
-    {
-      "headline": "U.S.-Iran strikes, Wall Street fears, Paramount lawsuit and Cape Verde - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "Seeking Alpha",
       "sentiment": "negative",
-      "impact": "U.S.-Iran strikes, Wall Street fears, Paramount lawsuit and Cape Verde\u00a0\u00a0Reuters",
+      "impact": "United Airlines CEO Scott Kirby publicly criticized Rolls-Royce over an ongoing contract dispute, accusing the engine maker of failing to support the airline. This dispute highlights the significant leverage engine manufacturers hold due to limited supplier options for airlines, which can impact bar",
       "category": "us_equities",
-      "date": "2026-06-06 15:31",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcEhkXzdJbXZFNTY5ak41UEx0cjdaanRaZXNJR2lHd1Q5Mld3dEdJQlFtTm43VXhDcFZQWTVZWEdzR2lZMXloVkNkMFIxSWJ4QTRRV3JxYkpGaER1UExpZ0xCSlZNY3NaUHktdS1yQmJrYjZkZWdpU0JPSWVUdThrcHNfNEN1clVLRUFtYVo3Rko2NmNiaktfZGhMb2FMZ0QtMTAxelhqSy1KczQ?oc=5"
+      "date": "2026-06-07 13:31",
+      "link": "https://seekingalpha.com/news/4601232-united-ceo-blasts-rolls-royce-over-contract-dispute-questions-supplier-commitment"
     },
     {
-      "headline": "Lebanese army chief leaves for Pakistan at invitation of counterpart - Reuters",
+      "headline": "US resolution draft at IAEA demands Iran open up on sites, uranium stocks - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Lebanese army chief leaves for Pakistan at invitation of counterpart\u00a0\u00a0Reuters",
+      "impact": "US resolution draft at IAEA demands Iran open up on sites, uranium stocks\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-06 15:23",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY1U5T29MOExoZFRsZXlNODRKYjNNNk9ZMEtxQ3g0cE9aOXFKSU94OVJSTFRPZW1EODFiZmhoVXgtS3k5VUE1UHZIVzBTMjNQNU1wWWJqSnUtanN2a0p3ZWktNVlMTVhWSTJGMm1WZFhkYWVxNFQ4eWRJZW5WNFJ5cnliLXNjTHFPdHlRRXRsQlJRcDRjVzRTdmFGZVJuTnM4OTVPTVY5amhHazl0Zy13Z3Y2QQ?oc=5"
+      "date": "2026-06-07 13:20",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWUM3R3dKX21nNlNJX0RpUlpmRTlGWGc5THZwYXZjdXE2Z0M0dUVfaVpPTVhhajZZQTZIQ3JfTzNKMkZ6UUpMazRFbzFlSmRSdDFaVnRSbFl1OV9fSUs3QWU1S1RHMUJoVVQwbm9KejJnMXFOUXpudVhZaXd6a0lDV1pJYk5RdG1UaWhZOFE2b3poUU5RcFVnVmRPUFRNWmwtdi1jeGc4MXZmQWlkNVBQeGcyckRZSTh5SWRZ?oc=5"
     },
     {
-      "headline": "How \u2018Backrooms\u2019 producer Peter Chernin thinks Hollywood needs to change",
+      "headline": "FuelCell Energy (FCEL) Set to Release FQ2 2026 Earnings This Wee",
       "score": 6,
-      "source": "CNBC",
+      "source": "GuruFocus",
       "sentiment": "neutral",
-      "impact": "Franchise fatigue could drive an entertainment industry sea change as the appetite for fresh ideas grows and younger audiences make up more box office sales.",
-      "category": "global_markets",
-      "date": "2026-06-06 13:00",
-      "link": "https://www.cnbc.com/2026/06/06/backrooms-peter-chernin-hollywood.html"
+      "impact": "FuelCell Energy (FCEL) is scheduled to release its Q2 2026 financial results on June 8, 2026, prompting investor interest in its performance within the evolving alternative energy sector. The company, which specializes in high-temperature fuel cells and has a market cap of $917.05 million, currently",
+      "category": "corporate_earnings",
+      "date": "2026-06-07 13:07",
+      "link": "https://www.gurufocus.com/news/8904578/fuelcell-energy-fcel-set-to-release-fq2-2026-earnings-this-week"
     },
     {
-      "headline": "Israeli strike kills three Lebanese soldiers, military probes incident - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israeli strike kills three Lebanese soldiers, military probes incident\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-06 11:17",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNjRlR0psWGhoX1dwYXVZZEZXeUk2cUExSHgweGFYa0ZuNGR3RHU3ZWxybjlHRGYzY2tJby1lYVFuS21rdlhnZVU1QUVKS1JidDdfWVJ4SHhQeEx4UEx2V3lTM01ESkZxV01rOGVwQ0tJU1JXVFdGNVFFVVJ0VzZjeFJIOXlLbElBOFZjS3RQWEM5ZVhDMUNVcGFjTDBMYW16TnpuT1dwLXFDaGZzWGN4aV84NkVlVHFFbUpCVV82QTJkaVNM?oc=5"
-    },
-    {
-      "headline": "Russia's Sechin says US companies benefit from Strait of Hormuz closure - Reuters",
+      "headline": "Israel kills five in Gaza as Egypt hosts new ceasefire talks - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Russia's Sechin says US companies benefit from Strait of Hormuz closure\u00a0\u00a0Reuters",
+      "impact": "Israel kills five in Gaza as Egypt hosts new ceasefire talks\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-06 10:21",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSHJyOUJ0WVpCMVZ2MFNmNWEtQ1JuZW1LUW5obFNZZTlEZDBmcWE3S3ZYYXI0Q0Y5MHJLNjdGSjI1RnVRYmdtdmtqWGFIWmRINy1RdWMzdGMxTEROWENRQnJlMUxma2FkTHVNN1BDLW83QjdWWHhhdG9nZ3ktU1dGQk5KMFFyR09wZXM4bHhXSGxnWFZEMUJkb3BoRDNkc3FjUW5NODJyR2tRZlB5Q1ltN3RUcjY?oc=5"
+      "date": "2026-06-07 13:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVmdOMkE1X05ZRTdTNHpxVnVGcnFhTHR3Ukg5MmJkbDhvQ2JYdkk0MTBVc3BMdkxmZXVIMWJva3hkQk1vQVl2OXV0MExwWk9ENXFoS0JtZS00aEtvX2NWbzV0Mzdfakk5MmduRjh3UlU3OF9kU3dfTUQ1TUF3d3lNak9yLXdzdUNOV3NLUFl2UDhSVVNmR3AwRVN6Q2syME9rUUpwRnVjV0NzeU1K?oc=5"
+    },
+    {
+      "headline": "Incyte nears $2B deal for blood disorder drug developer Star Therapeutics: FT (INCY:NASDAQ)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "neutral",
+      "impact": "Incyte Corporation (INCY) is reportedly nearing a deal to acquire privately held Star Therapeutics for up to $2 billion, according to the Financial Times. This acquisition aims to strengthen Incyte's product pipeline, especially with Star's promising bleeding disorder treatment, VGA039. The move com",
+      "category": "us_equities",
+      "date": "2026-06-07 12:51",
+      "link": "https://seekingalpha.com/news/4601235-incyte-nears-2b-deal-for-blood-disorder-drug-developer-star-therapeutics-ft"
+    },
+    {
+      "headline": "Israeli military has struck 'terrorist' headquarters in Beirut, government says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israeli military has struck 'terrorist' headquarters in Beirut, government says\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-06-07 12:25",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRGxmNFFiT1M0RGNKMG9OMjhoYi1OZ0RsM19Eb2xrdktzYzAwYi1wRDVqTGRvWVFaSFBMR3ZkeFRQSkRmXzUtWHk0VVZmN1VtbVZtVndRMGNham5tMkh4RVJQbFE3ZUFpYWtTV0lqX3NvcjEwbENsd0UzWFJ5aGtLa0prM0RKSDU2VHpEYTNjZ2g0QjNSQ1JCQ1pHeTFjOUQweEMweGlnZWJuMXg3RUloZUNaY25qb0d1Q1ZQZ2s1M3BESUtEcmc?oc=5"
+    },
+    {
+      "headline": "Marvell Technology and Flex set to join S&P 500 in quarterly rebalance",
+      "score": 6,
+      "source": "Crypto Briefing",
+      "sentiment": "neutral",
+      "impact": "Marvell Technology and Flex Ltd. are set to join the S&P 500 index on June 22, 2026, replacing Pool Corp. and The Campbell's Company as part of the quarterly rebalance. This move is expected to create forced buying demand for both companies' stocks, as index funds and ETFs benchmarked to the S&P 500",
+      "category": "us_equities",
+      "date": "2026-06-07 12:10",
+      "link": "https://cryptobriefing.com/marvell-flex-join-sp500-index/"
     }
   ]
 }
