@@ -458,21 +458,22 @@ function RiskCallouts(): JSX.Element {
   return (
     <section>
       <PanelHead title="ToS · Sustainability · Risk Callouts" meta="from §12 of the playbook" />
-      <div>
+      <div className="grid" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}>
         {items.map((it, i) => (
           <div
             key={it.title}
             style={{
-              padding: "10px 14px",
-              borderBottom: i < items.length - 1 ? "1px solid #111" : "none",
+              padding: "8px 14px",
+              borderBottom: "1px solid #111",
+              borderRight: i % 2 === 0 ? "1px solid #1d1d1d" : "none",
               borderLeft: `2px solid ${it.tone}`,
               background: "#0d0d0d",
             }}
           >
-            <div style={{ fontSize: 11, color: "#f5f5f5", fontWeight: 600, letterSpacing: "0.02em" }}>
+            <div style={{ fontSize: 10.5, color: "#f5f5f5", fontWeight: 600, letterSpacing: "0.02em" }}>
               {it.title}
             </div>
-            <div style={{ fontSize: 10.5, color: "#b8b8b8", marginTop: 4, lineHeight: 1.5, maxWidth: "92ch" }}>
+            <div style={{ fontSize: 10, color: "#b8b8b8", marginTop: 3, lineHeight: 1.45 }}>
               {it.body}
             </div>
           </div>

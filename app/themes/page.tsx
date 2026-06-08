@@ -3,8 +3,11 @@ import TickerLink from "@/components/primitives/TickerLink";
 import { THEMES, THEME_CATEGORIES } from "@/lib/themes/catalog";
 import { buildThemeBasket } from "@/lib/themes/engine";
 import type { Theme, ThemeBasket } from "@/lib/themes/types";
+import { CitationCluster } from "@/components/primitives/CitationChip";
 
 export const revalidate = 3600;
+
+// ── primitives ──────────────────────────────────────────────────
 
 function tone(z: number): string {
   if (z > 0.3) return "#00d97e";
@@ -12,12 +15,18 @@ function tone(z: number): string {
   return "#b8b8b8";
 }
 
-function PanelHead({ title, meta }: { title: string; meta?: string }): JSX.Element {
+function PanelHead({
+  title,
+  meta,
+}: {
+  title: string;
+  meta?: React.ReactNode;
+}): JSX.Element {
   return (
     <div
       className="flex items-center"
       style={{
-        height: 28,
+        height: 24,
         padding: "0 14px",
         borderTop: "1px solid #2a2a2a",
         borderBottom: "1px solid #2a2a2a",
@@ -27,7 +36,7 @@ function PanelHead({ title, meta }: { title: string; meta?: string }): JSX.Eleme
     >
       <span
         style={{
-          fontSize: 9.5,
+          fontSize: 9,
           color: "#ff2e88",
           letterSpacing: "0.14em",
           fontWeight: 600,
@@ -37,7 +46,7 @@ function PanelHead({ title, meta }: { title: string; meta?: string }): JSX.Eleme
         {title}
       </span>
       {meta ? (
-        <span className="num ml-auto" style={{ fontSize: 9.5, color: "#666", letterSpacing: "0.06em" }}>
+        <span className="num ml-auto" style={{ fontSize: 9, color: "#666", letterSpacing: "0.06em" }}>
           {meta}
         </span>
       ) : null}
@@ -45,337 +54,228 @@ function PanelHead({ title, meta }: { title: string; meta?: string }): JSX.Eleme
   );
 }
 
+// ── header ──────────────────────────────────────────────────────
+
 function PageHeader(): JSX.Element {
+  const counts = THEME_CATEGORIES.map((cat) => ({
+    cat,
+    n: THEMES.filter((t) => t.category === cat).length,
+  }));
+  const us = THEMES.filter((t) => t.region === "US").length;
+  const idx = THEMES.filter((t) => t.region === "IDX").length;
+
   return (
-    <div style={{ padding: "20px 14px", borderBottom: "1px solid #2a2a2a" }}>
-      <div className="num" style={{ fontSize: 9, color: "#666", letterSpacing: "0.14em", textTransform: "uppercase" }}>
-        MERIDIAN · DISCOVERY LENS · 12
+    <div style={{ padding: "12px 14px", borderBottom: "1px solid #2a2a2a" }}>
+      <div className="flex items-baseline" style={{ gap: 12, flexWrap: "wrap" }}>
+        <span className="num" style={{ fontSize: 9, color: "#666", letterSpacing: "0.14em" }}>
+          12 · DISCOVERY LENS
+        </span>
+        <h1 style={{ fontSize: 20, color: "#f5f5f5", fontWeight: 500, letterSpacing: "-0.01em", margin: 0 }}>
+          Themes
+        </h1>
+        <span className="num" style={{ fontSize: 10, color: "#888" }}>
+          {THEMES.length} baskets · {us} US · {idx} IDX
+        </span>
+        <span className="num ml-auto" style={{ fontSize: 9.5, color: "#666", letterSpacing: "0.04em" }}>
+          {counts.map((c) => `${c.cat.split(" ")[0]} ${c.n}`).join(" · ")}
+        </span>
       </div>
-      <h1 style={{ fontSize: 26, color: "#f5f5f5", fontWeight: 500, letterSpacing: "-0.01em", margin: "6px 0 4px" }}>
-        Themes
-      </h1>
-      <p style={{ fontSize: 12, color: "#888", margin: 0, maxWidth: "82ch", lineHeight: 1.55 }}>
-        Hand-curated thematic baskets — IDX + US — built bottom-up from segment revenue + business-description text +
-        analyst-tagging. Each theme shows relevance tiers (Core / Significant / Peripheral), a composite-Z restricted
-        to constituents, and explicit methodology. <span style={{ color: "#ff2e88" }}>This is a research lens, not a
-        buy signal.</span> Ben-David et al. (2023, <em>RFS</em>) find specialized thematic ETFs lose ~30% risk-adjusted
-        over their first five years; Morningstar reports a ~91% 15-year failure rate. We surface themes with that
-        evidence attached.
+      <p
+        style={{
+          fontSize: 10.5,
+          color: "#7a7a7a",
+          margin: "6px 0 0",
+          lineHeight: 1.5,
+          maxWidth: "120ch",
+        }}
+      >
+        Hand-curated baskets · MSCI relevance + Bloomberg tiers · constituents from 10-K text + XBRL segments + analyst tagging.{" "}
+        <span style={{ color: "#ff2e88" }}>Research lens, not a buy signal.</span>{" "}
+        Ben-David et al. (2023) finds thematic ETFs underperform broad markets by ~6%/yr in their first 5 years
+        (~30% risk-adjusted destruction); Morningstar 91% 15-yr failure rate. Validate every idea on{" "}
+        <Link href="/research" className="hover:underline" style={{ color: "#ff2e88" }}>/research</Link> +{" "}
+        <Link href="/backtest" className="hover:underline" style={{ color: "#ff2e88" }}>/backtest</Link>{" "}
+        before sizing.
       </p>
     </div>
   );
 }
 
-function TierBar({ basket }: { basket: ThemeBasket }): JSX.Element {
-  const total = basket.rows.length || 1;
-  const core = basket.rows.filter((r) => r.tier === "Core").length;
-  const sig = basket.rows.filter((r) => r.tier === "Significant").length;
-  const peri = basket.rows.filter((r) => r.tier === "Peripheral").length;
-  return (
-    <div
-      style={{
-        display: "flex",
-        height: 4,
-        background: "#0a0a0a",
-        marginTop: 8,
-        marginBottom: 10,
-      }}
-      title={`${core} Core · ${sig} Significant · ${peri} Peripheral`}
-    >
-      <div style={{ width: `${(core / total) * 100}%`, background: "#ff2e88" }} />
-      <div style={{ width: `${(sig / total) * 100}%`, background: "#5ec4e0" }} />
-      <div style={{ width: `${(peri / total) * 100}%`, background: "#7a7a7a" }} />
-    </div>
-  );
-}
+// ── compact themes table — the main surface ─────────────────────
 
-function ThemeCard({ theme }: { theme: Theme }): JSX.Element {
-  const basket = buildThemeBasket(theme);
-  const zColor = tone(basket.weightedZ);
-  const coreCount = basket.coreNames;
-  // Top 3 by basket weight for the preview row
-  const topThree = basket.rows.slice(0, 3);
-  // Highest-Z constituent for the "top conviction" line
-  const topZ = [...basket.rows]
-    .filter((r) => r.compositeZ != null)
-    .sort((a, b) => (b.compositeZ ?? 0) - (a.compositeZ ?? 0))[0];
-
-  return (
-    <Link
-      href={`/themes/${theme.slug}`}
-      className="hover:bg-[#0a0a0a]"
-      style={{
-        display: "block",
-        padding: "14px 16px 12px",
-        textDecoration: "none",
-        color: "inherit",
-        borderRight: "1px solid #1d1d1d",
-        borderBottom: "1px solid #1d1d1d",
-        minHeight: 200,
-      }}
-    >
-      <div className="flex items-baseline" style={{ gap: 8, marginBottom: 4 }}>
-        <span
-          className="num"
-          style={{
-            fontSize: 9,
-            color: "#7a7a7a",
-            border: "1px solid #2a2a2a",
-            padding: "1px 5px",
-            letterSpacing: "0.08em",
-          }}
-        >
-          {theme.region}
-        </span>
-        <span
-          className="num"
-          style={{
-            fontSize: 9,
-            color: "#666",
-            letterSpacing: "0.04em",
-          }}
-        >
-          {theme.category}
-        </span>
-        <span
-          className="num ml-auto"
-          style={{
-            fontSize: 8.5,
-            color: zColor,
-            border: `1px solid ${zColor}`,
-            padding: "1px 5px",
-            letterSpacing: "0.08em",
-            fontWeight: 600,
-            background: "rgba(255,46,136,0.04)",
-          }}
-        >
-          {basket.weightedZ >= 0 ? "+" : ""}
-          {basket.weightedZ.toFixed(2)}σ
-        </span>
-      </div>
-      <div
-        style={{
-          fontSize: 15,
-          color: "#f5f5f5",
-          fontWeight: 500,
-          letterSpacing: "-0.01em",
-          lineHeight: 1.25,
-          marginBottom: 4,
-        }}
-      >
-        {theme.name}
-      </div>
-      <div style={{ fontSize: 11, color: "#888", lineHeight: 1.45 }}>
-        {theme.blurb}
-      </div>
-
-      {/* Tier distribution bar — core/significant/peripheral split */}
-      <TierBar basket={basket} />
-
-      {/* Top 3 ticker preview (avoids the user needing to click) */}
-      <div
-        className="flex items-center"
-        style={{ gap: 8, flexWrap: "wrap", marginBottom: 10 }}
-      >
-        {topThree.map((r) => (
-          <TickerLink
-            key={r.ticker}
-            ticker={r.ticker}
-            market={r.region === "GLOBAL" ? "US" : r.region}
-            size="xs"
-          />
-        ))}
-        {basket.rows.length > 3 ? (
-          <span
-            className="num"
-            style={{ fontSize: 9.5, color: "#666", letterSpacing: "0.04em" }}
-          >
-            +{basket.rows.length - 3} more
-          </span>
-        ) : null}
-      </div>
-
-      {/* Compact KPI row */}
-      <div
-        className="grid"
-        style={{
-          gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
-          gap: 8,
-          borderTop: "1px solid #1d1d1d",
-          paddingTop: 8,
-        }}
-      >
-        <div>
-          <div style={{ fontSize: 8, color: "#666", letterSpacing: "0.08em" }}>NAMES</div>
-          <div className="num" style={{ fontSize: 12, color: "#f5f5f5", marginTop: 2 }}>
-            {basket.totalNames}
-            <span style={{ color: "#666", fontSize: 9, marginLeft: 4 }}>
-              ({coreCount} core)
-            </span>
-          </div>
-        </div>
-        <div>
-          <div style={{ fontSize: 8, color: "#666", letterSpacing: "0.08em" }}>AVG REL</div>
-          <div className="num" style={{ fontSize: 12, color: "#ff2e88", marginTop: 2, fontWeight: 600 }}>
-            {basket.avgRelevance.toFixed(0)}%
-          </div>
-        </div>
-        <div>
-          <div style={{ fontSize: 8, color: "#666", letterSpacing: "0.08em" }}>TOP Z</div>
-          <div
-            className="num"
-            style={{
-              fontSize: 11,
-              color: "#f5f5f5",
-              marginTop: 2,
-              whiteSpace: "nowrap",
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-            }}
-            title={topZ ? `${topZ.ticker} ${topZ.compositeZ?.toFixed(2) ?? ""}σ` : ""}
-          >
-            {topZ ? (
-              <>
-                <span style={{ color: "#ff2e88", fontWeight: 600 }}>{topZ.ticker}</span>
-                <span style={{ color: tone(topZ.compositeZ ?? 0), marginLeft: 4 }}>
-                  {topZ.compositeZ != null
-                    ? `${topZ.compositeZ >= 0 ? "+" : ""}${topZ.compositeZ.toFixed(2)}`
-                    : "—"}
-                </span>
-              </>
-            ) : (
-              "—"
-            )}
-          </div>
-        </div>
-      </div>
-    </Link>
-  );
-}
-
-function CategorySection({ cat }: { cat: Theme["category"] }): JSX.Element {
-  const themes = THEMES.filter((t) => t.category === cat);
-  if (themes.length === 0) return <></>;
-  return (
-    <section>
-      <PanelHead title={cat} meta={`${themes.length} themes`} />
-      <div
-        className="grid"
-        style={{
-          gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
-        }}
-      >
-        {themes.map((t) => (
-          <ThemeCard key={t.slug} theme={t} />
-        ))}
-      </div>
-    </section>
-  );
-}
-
-function AllThemesTable(): JSX.Element {
-  // Compare-all table — Bloomberg BI BSKT<GO> + ETFdb convention.
+function ThemesTable(): JSX.Element {
   const rows = THEMES.map((t) => {
     const b = buildThemeBasket(t);
+    const topZ = [...b.rows]
+      .filter((r) => r.compositeZ != null)
+      .sort((a, b) => (b.compositeZ ?? 0) - (a.compositeZ ?? 0))[0];
     return {
-      slug: t.slug,
-      name: t.name,
-      region: t.region,
-      category: t.category,
-      total: b.totalNames,
-      core: b.coreNames,
-      basketZ: b.weightedZ,
-      avgRel: b.avgRelevance,
-      topSector: b.topSector,
-      weighting: t.methodology.weighting,
+      theme: t,
+      basket: b,
+      topThree: b.rows.slice(0, 3),
+      topZ,
     };
-  }).sort((a, b) => b.basketZ - a.basketZ);
+  }).sort((a, b) => b.basket.weightedZ - a.basket.weightedZ);
 
   return (
     <section>
       <PanelHead
-        title="All Themes · sortable comparison"
-        meta="ranked by basket Z ▾"
+        title="All Themes · sortable"
+        meta={`ranked by basket Z · ${rows.length} baskets`}
       />
       <div
         className="grid items-center"
         style={{
-          gridTemplateColumns: "1fr 50px 180px 60px 80px 80px 130px 100px",
-          height: 24,
+          gridTemplateColumns: "1fr 36px 110px 220px 40px 36px 56px 60px 50px 110px 90px",
+          height: 22,
           padding: "0 14px",
           background: "#050505",
           borderBottom: "1px solid #2a2a2a",
-          fontSize: 9,
+          fontSize: 8.5,
           color: "#555",
           letterSpacing: "0.1em",
           textTransform: "uppercase",
-          gap: 8,
+          gap: 6,
         }}
       >
         <span>Theme</span>
         <span>Reg</span>
         <span>Category</span>
-        <span style={{ textAlign: "right" }}>Names</span>
+        <span>Top 3 names</span>
+        <span style={{ textAlign: "right" }}>N</span>
+        <span style={{ textAlign: "right" }}>Core</span>
         <span style={{ textAlign: "right" }}>Basket Z</span>
         <span style={{ textAlign: "right" }}>Avg Rel</span>
-        <span>Top Sector</span>
+        <span>Tiers</span>
+        <span>Top sector</span>
         <span>Weighting</span>
       </div>
       {rows.map((r, i) => {
-        const zColor = tone(r.basketZ);
+        const zColor = tone(r.basket.weightedZ);
+        const core = r.basket.rows.filter((x) => x.tier === "Core").length;
+        const sig = r.basket.rows.filter((x) => x.tier === "Significant").length;
+        const peri = r.basket.rows.filter((x) => x.tier === "Peripheral").length;
+        const total = r.basket.rows.length || 1;
         return (
           <Link
-            key={r.slug}
-            href={`/themes/${r.slug}`}
+            key={r.theme.slug}
+            href={`/themes/${r.theme.slug}`}
             className="grid items-center hover:bg-[#1a1a1a]"
             style={{
-              gridTemplateColumns: "1fr 50px 180px 60px 80px 80px 130px 100px",
+              gridTemplateColumns: "1fr 36px 110px 220px 40px 36px 56px 60px 50px 110px 90px",
               height: 26,
               padding: "0 14px",
               borderBottom: "1px solid #111",
               background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a",
               fontSize: 11,
-              gap: 8,
+              gap: 6,
               textDecoration: "none",
               color: "inherit",
             }}
           >
-            <span style={{ color: "#d8d8d8", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-              {r.name}
+            <span
+              style={{
+                color: "#d8d8d8",
+                whiteSpace: "nowrap",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                fontWeight: 500,
+              }}
+              title={r.theme.blurb}
+            >
+              {r.theme.name}
             </span>
             <span
               className="num"
-              style={{ fontSize: 9, color: "#7a7a7a", letterSpacing: "0.06em" }}
+              style={{
+                fontSize: 9,
+                color: "#7a7a7a",
+                border: "1px solid #2a2a2a",
+                padding: "1px 3px",
+                letterSpacing: "0.06em",
+                justifySelf: "start",
+              }}
             >
-              {r.region}
+              {r.theme.region}
             </span>
             <span
               className="num"
-              style={{ fontSize: 9.5, color: "#888", letterSpacing: "0.04em" }}
+              style={{
+                fontSize: 9.5,
+                color: "#888",
+                whiteSpace: "nowrap",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+              }}
             >
-              {r.category}
+              {r.theme.category}
+            </span>
+            <span
+              style={{
+                display: "inline-flex",
+                gap: 6,
+                alignItems: "center",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+              }}
+            >
+              {r.topThree.map((row) => (
+                <TickerLink
+                  key={row.ticker}
+                  ticker={row.ticker}
+                  market={row.region === "GLOBAL" ? "US" : row.region}
+                  size="xs"
+                />
+              ))}
+              {r.basket.rows.length > 3 ? (
+                <span className="num" style={{ fontSize: 9, color: "#555" }}>
+                  +{r.basket.rows.length - 3}
+                </span>
+              ) : null}
             </span>
             <span className="num" style={{ textAlign: "right", color: "#d8d8d8" }}>
-              {r.total}
-              <span style={{ color: "#666", fontSize: 9, marginLeft: 3 }}>
-                ({r.core})
-              </span>
+              {r.basket.totalNames}
+            </span>
+            <span className="num" style={{ textAlign: "right", color: "#ff2e88", fontWeight: 600 }}>
+              {core}
             </span>
             <span
               className="num"
               style={{ textAlign: "right", color: zColor, fontWeight: 600 }}
             >
-              {r.basketZ >= 0 ? "+" : ""}
-              {r.basketZ.toFixed(2)}σ
+              {r.basket.weightedZ >= 0 ? "+" : ""}
+              {r.basket.weightedZ.toFixed(2)}σ
             </span>
             <span className="num" style={{ textAlign: "right", color: "#ff2e88", fontWeight: 600 }}>
-              {r.avgRel.toFixed(0)}%
+              {r.basket.avgRelevance.toFixed(0)}%
             </span>
-            <span style={{ color: "#b8b8b8", fontSize: 10.5, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-              {r.topSector ?? "—"}
+            <span
+              style={{
+                display: "flex",
+                height: 4,
+                alignSelf: "center",
+                background: "#0a0a0a",
+                border: "1px solid #1d1d1d",
+              }}
+              title={`${core} Core · ${sig} Significant · ${peri} Peripheral`}
+            >
+              <div style={{ width: `${(core / total) * 100}%`, background: "#ff2e88" }} />
+              <div style={{ width: `${(sig / total) * 100}%`, background: "#5ec4e0" }} />
+              <div style={{ width: `${(peri / total) * 100}%`, background: "#7a7a7a" }} />
+            </span>
+            <span
+              style={{
+                color: "#b8b8b8",
+                fontSize: 10,
+                whiteSpace: "nowrap",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+              }}
+            >
+              {r.basket.topSector ?? "—"}
             </span>
             <span className="num" style={{ fontSize: 9.5, color: "#7a7a7a", letterSpacing: "0.04em" }}>
-              {r.weighting}
+              {r.theme.methodology.weighting}
             </span>
           </Link>
         );
@@ -384,43 +284,84 @@ function AllThemesTable(): JSX.Element {
   );
 }
 
+// ── methodology footer — compact ────────────────────────────────
+
 function MethodologyFooter(): JSX.Element {
   return (
-    <div style={{ padding: "14px 14px", borderTop: "1px solid #2a2a2a", background: "#050505" }}>
-      <div className="num" style={{ fontSize: 9, color: "#666", letterSpacing: "0.08em", marginBottom: 6, textTransform: "uppercase" }}>
-        Methodology · /themes
-      </div>
-      <div style={{ fontSize: 10.5, color: "#888", lineHeight: 1.55, maxWidth: "100ch" }}>
-        Construction follows the MSCI thematic-relevance pattern (direct route: revenue counts 100% if segment matches
-        theme keyword; indirect route: SIC-mapped revenue discounted; eligibility &gt;25%, pure-play ≥50%) crossed with
-        Bloomberg revenue-tied tiers (Tier 1 &gt;50%, Tier 2 20–50%, Tier 3 &lt;20%). The score restricted to theme
-        constituents is identical to the composite Z shown on <Link href="/picks" style={{ color: "#ff2e88" }}>/picks</Link>{" "}
-        and per-ticker pages. Weighting choices: relevance (MSCI-style), equal (ARK / Global X), market-cap, or
-        score-vol (Meridian Conviction × inverse-vol). All Stage-1 memberships are <span style={{ color: "#ffa940" }}>analyst-tagged</span>;
-        Stage-2 will swap to SEC EDGAR full-text search + XBRL revenue segments + IDX iXBRL with a GICS guardrail.
-      </div>
-      <div style={{ fontSize: 10.5, color: "#888", lineHeight: 1.55, maxWidth: "100ch", marginTop: 8 }}>
-        <span style={{ color: "#ff4d4f", fontWeight: 600 }}>Honest caveat.</span> Thematic ETFs have historically
-        delivered the largest behavior gap in equity investing. The peer-reviewed evidence
-        (<Link href="/sources#cite-ben-david-franzoni-kim-moussawi-2023" style={{ color: "#ff2e88" }}>Ben-David, Franzoni, Kim &amp; Moussawi 2023</Link>{" "}
-        and{" "}
-        <Link href="/sources#cite-morningstar-thematic-2022" style={{ color: "#ff2e88" }}>Morningstar 2022</Link>) is
-        that thematic launches arrive at peak hype, underperform broad markets by 6%/yr in their first five years,
-        and survive-and-outperform only ~10% of the time over 15 years. Use /themes as a discovery and screening tool;
-        validate each idea on /research and /backtest before sizing.
+    <div style={{ padding: "10px 14px", borderTop: "1px solid #2a2a2a", background: "#050505" }}>
+      <div
+        className="grid"
+        style={{
+          gridTemplateColumns: "1fr 1fr",
+          gap: 18,
+          fontSize: 10,
+          color: "#888",
+          lineHeight: 1.55,
+        }}
+      >
+        <div>
+          <div
+            className="num"
+            style={{
+              fontSize: 8.5,
+              color: "#666",
+              letterSpacing: "0.1em",
+              marginBottom: 4,
+              textTransform: "uppercase",
+            }}
+          >
+            Construction
+          </div>
+          Direct route = 100% segment-revenue match; indirect route = SIC-mapped revenue, discounted. Eligibility{" "}
+          &gt;25%, pure-play ≥50% per MSCI; Bloomberg revenue tiers (T1 &gt;50%, T2 20-50%, T3 &lt;20%). Composite
+          Z restricted to constituents = same engine as{" "}
+          <Link href="/picks" className="hover:underline" style={{ color: "#ff2e88" }}>/picks</Link>.
+          Stage-1 memberships are{" "}
+          <span style={{ color: "#ff2e88" }}>analyst-tagged</span>; Stage-2 swaps to EDGAR full-text search + XBRL
+          revenue segments + IDX iXBRL with a GICS guardrail.
+        </div>
+        <div>
+          <div
+            className="num"
+            style={{
+              fontSize: 8.5,
+              color: "#666",
+              letterSpacing: "0.1em",
+              marginBottom: 4,
+              textTransform: "uppercase",
+            }}
+          >
+            Honest caveat — founded on
+          </div>
+          Thematic ETFs have historically delivered the largest behaviour gap in equity investing — peak-hype
+          launches, 6%/yr underperformance through five years (Ben-David, Franzoni, Kim &amp; Moussawi 2023),
+          ~91% 15-yr failure rate (Morningstar 2022). Use this surface as a discovery and screening tool, validate on{" "}
+          <Link href="/research" className="hover:underline" style={{ color: "#ff2e88" }}>/research</Link> +{" "}
+          <Link href="/backtest" className="hover:underline" style={{ color: "#ff2e88" }}>/backtest</Link>{" "}
+          before sizing.
+          <div style={{ marginTop: 8 }}>
+            <CitationCluster
+              ids={[
+                "msci-thematic-relevance",
+                "bloomberg-thematic-protocol",
+                "ben-david-franzoni-kim-moussawi-2023",
+                "morningstar-thematic-2022",
+              ]}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
 }
 
-export default function ThemesPage(): JSX.Element {
+// ── page ────────────────────────────────────────────────────────
+
+export default function ThemesHubPage(): JSX.Element {
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
       <PageHeader />
-      {THEME_CATEGORIES.map((cat) => (
-        <CategorySection key={cat} cat={cat} />
-      ))}
-      <AllThemesTable />
+      <ThemesTable />
       <MethodologyFooter />
     </div>
   );

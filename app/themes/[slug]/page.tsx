@@ -74,26 +74,30 @@ export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: 0 }}>
-      {/* Header */}
-      <div style={{ padding: "20px 14px", borderBottom: "1px solid #2a2a2a" }}>
-        <div className="num" style={{ fontSize: 9, color: "#666", letterSpacing: "0.14em", textTransform: "uppercase" }}>
-          <Link href="/themes" className="hover:text-[#ff2e88]" style={{ color: "#7a7a7a", textDecoration: "none" }}>
+      {/* Compact header */}
+      <div style={{ padding: "12px 14px", borderBottom: "1px solid #2a2a2a" }}>
+        <div className="flex items-baseline" style={{ gap: 8, flexWrap: "wrap" }}>
+          <Link href="/themes" className="num hover:text-[#ff2e88]" style={{ color: "#7a7a7a", textDecoration: "none", fontSize: 9, letterSpacing: "0.14em" }}>
             ← THEMES
           </Link>
-          <span style={{ marginLeft: 8, color: "#444" }}>·</span>
-          <span style={{ marginLeft: 8 }}>{theme.category}</span>
-          <span style={{ marginLeft: 8, color: "#444" }}>·</span>
-          <span style={{ marginLeft: 8 }}>{theme.region}</span>
+          <span className="num" style={{ fontSize: 9, color: "#444" }}>·</span>
+          <span className="num" style={{ fontSize: 9, color: "#7a7a7a", letterSpacing: "0.1em", textTransform: "uppercase" }}>
+            {theme.category}
+          </span>
+          <span className="num" style={{ fontSize: 9, color: "#444" }}>·</span>
+          <span className="num" style={{ fontSize: 9, color: "#7a7a7a", letterSpacing: "0.1em" }}>{theme.region}</span>
         </div>
-        <h1 style={{ fontSize: 28, color: "#f5f5f5", fontWeight: 500, letterSpacing: "-0.01em", margin: "6px 0 4px" }}>
-          {theme.name}
-        </h1>
-        <p style={{ fontSize: 12, color: "#888", margin: "8px 0 0", maxWidth: "92ch", lineHeight: 1.55 }}>
-          {theme.definition}
-        </p>
+        <div className="flex items-baseline" style={{ gap: 12, marginTop: 4, flexWrap: "wrap" }}>
+          <h1 style={{ fontSize: 20, color: "#f5f5f5", fontWeight: 500, letterSpacing: "-0.01em", margin: 0 }}>
+            {theme.name}
+          </h1>
+          <span style={{ fontSize: 11, color: "#888", lineHeight: 1.4 }} title={theme.definition}>
+            {theme.blurb}
+          </span>
+        </div>
       </div>
 
-      {/* KPI strip */}
+      {/* Compact KPI strip — 5 cells, 8px padding */}
       <div
         className="grid"
         style={{ gridTemplateColumns: "repeat(5, minmax(0, 1fr))", borderBottom: "1px solid #2a2a2a" }}
@@ -128,51 +132,55 @@ export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
           <div
             key={k.label}
             style={{
-              padding: 14,
+              padding: "8px 12px",
               borderRight: i < 4 ? "1px solid #1d1d1d" : "none",
               minWidth: 0,
             }}
           >
-            <div style={{ fontSize: 8.5, color: "#666", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 6 }}>
+            <div style={{ fontSize: 8, color: "#666", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 4 }}>
               {k.label}
             </div>
-            <div className="num" style={{ fontSize: 18, color: k.tone, fontWeight: 500, letterSpacing: "-0.01em", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+            <div className="num" style={{ fontSize: 15, color: k.tone, fontWeight: 500, letterSpacing: "-0.01em", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
               {k.value}
             </div>
-            <div className="num" style={{ marginTop: 4, fontSize: 10, color: "#888", lineHeight: 1.35 }}>
+            <div className="num" style={{ marginTop: 2, fontSize: 9, color: "#888", lineHeight: 1.3, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }} title={k.sub}>
               {k.sub}
             </div>
           </div>
         ))}
       </div>
 
-      {/* Sector exposure bar + tier distribution */}
-      <PanelHead title="Exposure · sectors and tiers" meta="basket-weighted share" />
-      <div style={{ padding: "12px 14px" }}>
-        <SectorExposureBar basket={basket} />
-        <TierExposureBar basket={basket} />
-      </div>
-
-      {/* Seedwords */}
-      <PanelHead title="Seedwords · keyword set" meta={`${theme.seedwords.length} terms · curated`} />
-      <div style={{ padding: "10px 14px" }}>
-        <div className="flex items-center" style={{ flexWrap: "wrap", gap: 6 }}>
-          {theme.seedwords.map((s) => (
-            <span
-              key={s}
-              className="num"
-              style={{
-                fontSize: 10,
-                color: "#d8d8d8",
-                border: "1px solid #2a2a2a",
-                padding: "2px 7px",
-                background: "#0a0a0a",
-                letterSpacing: "0.02em",
-              }}
-            >
-              {s}
-            </span>
-          ))}
+      {/* Exposure + Seedwords — side by side */}
+      <div className="grid" style={{ gridTemplateColumns: "60% 40%", borderBottom: "1px solid #2a2a2a" }}>
+        <div style={{ borderRight: "1px solid #2a2a2a" }}>
+          <PanelHead title="Exposure · sectors and tiers" meta="basket-weighted share" />
+          <div style={{ padding: "10px 14px" }}>
+            <SectorExposureBar basket={basket} />
+            <TierExposureBar basket={basket} />
+          </div>
+        </div>
+        <div>
+          <PanelHead title="Seedwords · curated set" meta={`${theme.seedwords.length} terms`} />
+          <div style={{ padding: "10px 14px" }}>
+            <div className="flex items-center" style={{ flexWrap: "wrap", gap: 4 }}>
+              {theme.seedwords.map((s) => (
+                <span
+                  key={s}
+                  className="num"
+                  style={{
+                    fontSize: 9.5,
+                    color: "#d8d8d8",
+                    border: "1px solid #2a2a2a",
+                    padding: "1px 5px",
+                    background: "#0a0a0a",
+                    letterSpacing: "0.02em",
+                  }}
+                >
+                  {s}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 
@@ -185,11 +193,11 @@ export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
         className="grid items-center"
         style={{
           gridTemplateColumns: "70px 1fr 70px 70px 60px 60px 80px 76px 110px 100px",
-          height: 24,
+          height: 22,
           padding: "0 14px",
           background: "#050505",
           borderBottom: "1px solid #2a2a2a",
-          fontSize: 9,
+          fontSize: 8.5,
           color: "#555",
           letterSpacing: "0.1em",
           textTransform: "uppercase",
@@ -211,95 +219,100 @@ export default function ThemeDetailPage({ params }: PageProps): JSX.Element {
         <ConstituentRow key={r.ticker} r={r} i={i} />
       ))}
 
-      {/* Rationale block — full prose per constituent */}
+      {/* Rationale — 2-column grid */}
       <PanelHead title="Rationale · per-constituent" meta="analyst-tagged · why this name belongs" />
-      <div>
+      <div className="grid" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}>
         {basket.rows.map((r, i) => (
           <div
             key={r.ticker}
             style={{
               padding: "8px 14px",
               borderBottom: "1px solid #111",
-              background: i % 2 === 0 ? "#0d0d0d" : "#0a0a0a",
+              borderRight: i % 2 === 0 ? "1px solid #1d1d1d" : "none",
+              background: i % 4 < 2 ? "#0d0d0d" : "#0a0a0a",
             }}
           >
-            <div className="flex items-baseline" style={{ gap: 8 }}>
+            <div className="flex items-baseline" style={{ gap: 6 }}>
               <TickerLink ticker={r.ticker} market={r.region === "GLOBAL" ? "US" : r.region} size="sm" />
               <span
                 className="num"
                 style={{
-                  fontSize: 9,
+                  fontSize: 8.5,
                   color: tierColor(r.tier),
                   border: `1px solid ${tierColor(r.tier)}`,
-                  padding: "1px 5px",
+                  padding: "0 4px",
                   letterSpacing: "0.08em",
                   fontWeight: 600,
                 }}
               >
                 {r.tier.toUpperCase()} · {r.relevancePct}%
               </span>
-              <span className="num" style={{ fontSize: 10, color: "#666", letterSpacing: "0.04em" }}>
-                {r.source}
-              </span>
             </div>
-            <div style={{ fontSize: 11.5, color: "#d8d8d8", marginTop: 4, lineHeight: 1.45 }}>
+            <div style={{ fontSize: 10.5, color: "#d8d8d8", marginTop: 3, lineHeight: 1.4 }}>
               {r.rationale}
             </div>
           </div>
         ))}
       </div>
 
-      {/* Methodology */}
+      {/* Methodology — compact 4-column key/value grid */}
       <PanelHead title="Methodology · reproducible from public data" />
-      <div style={{ padding: "12px 14px" }}>
-        <div className="grid" style={{ gridTemplateColumns: "200px 1fr", rowGap: 8, columnGap: 14, fontSize: 11 }}>
-          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Scoring formula</span>
-          <span style={{ color: "#d8d8d8", lineHeight: 1.5 }}>{theme.methodology.scoringFormula}</span>
-
-          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Data provenance</span>
-          <span style={{ color: "#d8d8d8", lineHeight: 1.5 }}>{theme.methodology.dataProvenance}</span>
-
-          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Eligibility floor</span>
-          <span className="num" style={{ color: "#d8d8d8" }}>{theme.methodology.eligibilityFloorPct}% relevance</span>
-
-          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Weighting</span>
-          <span className="num" style={{ color: "#d8d8d8" }}>{theme.methodology.weighting}</span>
-
-          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Rebalance</span>
-          <span style={{ color: "#d8d8d8" }}>{theme.methodology.rebalanceCadence}</span>
-
-          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Last review</span>
-          <span className="num" style={{ color: "#d8d8d8" }}>{theme.methodology.lastReview}</span>
-
-          <span style={{ color: "#666", letterSpacing: "0.06em", textTransform: "uppercase", fontSize: 9.5 }}>Limitations</span>
-          <span style={{ color: "#b8b8b8", lineHeight: 1.5 }}>{theme.methodology.limitations}</span>
+      <div style={{ padding: "10px 14px" }}>
+        <div
+          className="grid"
+          style={{
+            gridTemplateColumns: "repeat(4, minmax(0, 1fr))",
+            gap: "8px 18px",
+            fontSize: 10.5,
+          }}
+        >
+          {[
+            ["Scoring formula", theme.methodology.scoringFormula],
+            ["Data provenance", theme.methodology.dataProvenance],
+            ["Eligibility floor", `${theme.methodology.eligibilityFloorPct}% relevance`],
+            ["Weighting", theme.methodology.weighting],
+            ["Rebalance", theme.methodology.rebalanceCadence],
+            ["Last review", theme.methodology.lastReview],
+          ].map(([label, value]) => (
+            <div key={label} style={{ minWidth: 0 }}>
+              <div className="num" style={{ fontSize: 8.5, color: "#666", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 3 }}>
+                {label}
+              </div>
+              <div style={{ color: "#d8d8d8", lineHeight: 1.45 }}>{value}</div>
+            </div>
+          ))}
         </div>
         <div style={{ marginTop: 12 }}>
+          <div className="num" style={{ fontSize: 8.5, color: "#666", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 4 }}>
+            Limitations
+          </div>
+          <div style={{ fontSize: 10.5, color: "#b8b8b8", lineHeight: 1.5, marginBottom: 10 }}>
+            {theme.methodology.limitations}
+          </div>
           <CitationCluster label="founded on" ids={theme.citationIds} />
         </div>
       </div>
 
-      {/* Honest risk callout */}
+      {/* Honest risk callout — compact */}
       <div
         style={{
-          padding: "12px 14px",
+          padding: "10px 14px",
           borderTop: "1px solid #2a2a2a",
           borderLeft: "2px solid #ff4d4f",
           background: "rgba(255,77,79,0.04)",
         }}
       >
-        <div className="num" style={{ fontSize: 9, color: "#ff4d4f", letterSpacing: "0.14em", fontWeight: 600, marginBottom: 6, textTransform: "uppercase" }}>
-          Theme-specific risk
+        <div className="flex items-baseline" style={{ gap: 8, marginBottom: 4, flexWrap: "wrap" }}>
+          <span className="num" style={{ fontSize: 8.5, color: "#ff4d4f", letterSpacing: "0.14em", fontWeight: 600, textTransform: "uppercase" }}>
+            Theme-specific risk
+          </span>
+          <span style={{ fontSize: 11, color: "#d8d8d8", lineHeight: 1.5 }}>{theme.riskNote}</span>
         </div>
-        <div style={{ fontSize: 11.5, color: "#d8d8d8", lineHeight: 1.55 }}>{theme.riskNote}</div>
-        <div style={{ fontSize: 10.5, color: "#888", lineHeight: 1.55, marginTop: 10 }}>
+        <div style={{ fontSize: 10, color: "#7a7a7a", lineHeight: 1.5 }}>
           <span style={{ color: "#ff4d4f", fontWeight: 600 }}>Class-wide caveat. </span>
-          Peer-reviewed evidence — Ben-David, Franzoni, Kim &amp; Moussawi (2023, <em>RFS</em> 36(3): 987–1042) —
-          finds specialized thematic ETFs lose ~30% risk-adjusted over their first five years (~ −3.1%/yr after
-          fees), driven by overvaluation at launch rather than fees or hedging demand. Morningstar's 10-year
-          survivorship study (2022) found nearly 60% of US thematic funds shuttered and only 22% both survived
-          and beat the Morningstar Global Markets Index; 15-year survive-and-outperform rate ~10%. Treat this
-          surface as a discovery and research lens, not a buy signal.
+          Ben-David et al. (2023, <em>RFS</em> 36(3)): thematic ETFs lose ~30% risk-adjusted in first 5 years
+          (~ −3%/yr after fees) on overvaluation at launch. Morningstar (2022): ~91% 15-yr survive-and-outperform
+          failure rate. Use this as a discovery + screening lens, validate on /research + /backtest before sizing.
         </div>
       </div>
     </div>
