@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-09T16:32:09.562307",
+  "timestamp": "2026-06-10T09:40:09.188521",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
+    "avg_relevance": 7.2,
     "bullish": 10,
-    "neutral": 12,
-    "bearish": 3,
-    "high_priority": 8,
+    "neutral": 13,
+    "bearish": 2,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
-    "Bloomberg": 3,
+    "Reuters": 11,
+    "Bloomberg": 2,
+    "MarketWatch": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "Benzinga": 5,
-    "CNBC": 7
+    "CNBC": 3,
+    "Barchart.com": 1
   },
   "top_signals": [
     {
@@ -29,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +99,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-06-09 23:02",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWGJ1bl83a1ZCa082M2NZNkdvamdjX2pNODlzalRUN0NiaEMtbXl4QTdlNkhGZTE0T3QzVmxHcjJ4OE9YZnFPbm0xWDdIckNobWVFN0oyZUoxTXNUeUhrdUtWQnFNQ1NCcjJ0MGprRm80eG9lM2NzMUpPcWdKNlJDNmNqLU5jZlBrVjdsUEtSeWhqVEdzdTRnSmtFWFBhb3RTemVV?oc=5"
+    },
+    {
+      "headline": "Inflation could top 4% this week. The bond market wants Fed Chair Warsh to prove he\u2019ll fight it.",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Kevin Warsh, the new chair of the Federal Reserve, may need to defy President Trump and talk about rate hikes next week",
+      "category": "us_monetary_policy",
+      "date": "2026-06-08 20:52",
+      "link": "https://www.marketwatch.com/story/inflation-could-top-4-this-week-the-bond-market-wants-fed-chair-warsh-to-prove-hell-fight-it-fbb6b04b"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -109,7 +129,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,28 +139,98 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-09 16:31",
+      "date": "2026-06-10 09:40",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Inflation is set to hit the highest level since 2023 \u2014 and the Fed is back in the hot seat",
+      "headline": "China's factory-gate inflation at nearly 4-year high in May - Reuters",
       "score": 7,
-      "source": "MarketWatch",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "The rate of U.S. inflation is primed to top 4% for the first time in three years \u2014 and the negative repercussions are likely to be felt for the rest of the year.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-09 13:50",
-      "link": "https://www.marketwatch.com/story/inflation-is-set-to-top-4-for-the-first-time-since-2023-and-the-fed-is-back-in-the-hot-seat-0ae4efc7?mod=mw_rss_topstories"
+      "impact": "China's factory-gate inflation at nearly 4-year high in May\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-06-10 01:44",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZnlMRVVYaTJwMmxySXVZWndaOGNyanZHaWR4LUZWeFpEMEQ3el8xR3pueldSZ3lhOWZLOFZ6UkFMMnJwb0hUbWtEc191Wm4tNHJSZ01hYW1EbnlrRzVTb291eWJMbGZnLVJQVlFBdTEzTjN0dHIxU2N6VE00LU4wem1BQTJtdkw2d2IxMG93R0RmUmhsQmZ2N1Y2VEdzeUg5X0NoZjJrcmZVNjA5RGJJdFp4cnExaEdLWUFjY3hKb2FkVV9XcGdVTXI3ZVdkdw?oc=5"
     },
     {
-      "headline": "Indonesia\u2019s Foreign Reserves Suffer Longest Decline Since 2018",
+      "headline": "Dollar treads water as US-Iran tensions, inflation data in focus - Reuters",
       "score": 7,
-      "source": "Bloomberg",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Indonesia\u2019s foreign-exchange reserves fell for a fifth straight month in May, underscoring the cost of policymakers\u2019 efforts to steady the rupiah after its slide to a record low.",
-      "category": "indonesia_economy",
-      "date": "2026-06-08 03:02",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-08/idr-usd-indonesia-reserves-in-longest-streak-of-monthly-drop-since-2018"
+      "impact": "Dollar treads water as US-Iran tensions, inflation data in focus\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-10 00:51",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSDFFb2NhZFo3MVhIUFhKOVFMbW1TZ29rSmY3b3R3aC1PN3d5N01qMTJwU1JQSjBKLWJiLWUtdUQtamR0dENFMVhEX3VEdzh1c0ZLVFZvYWhMRnRMU19Sa0RrUTJmZkZFLW1ueTVRODd6UnVJUVFMaHhGck5NTlVSaW5SLUVOVkN4MGc4dEpfWWgwRm9hYXd5UHRqQkFkd0JPWUZjbnpDMHBRVGVwZnk4?oc=5"
+    },
+    {
+      "headline": "The May inflation numbers are due out Wednesday morning. Here's what to expect",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "If the Wall Street consensus is correct, the consumer price index is expected to show inflation running at a 4.2% annual rate.",
+      "category": "global_markets",
+      "date": "2026-06-09 18:54",
+      "link": "https://www.cnbc.com/2026/06/09/the-may-inflation-numbers-are-due-out-wednesday-morning-heres-what-to-expect.html"
+    },
+    {
+      "headline": "We're updating our rating on recently spun FedEx Freight after a strong run-up",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-09 18:17",
+      "link": "https://www.cnbc.com/2026/06/09/were-updating-our-rating-on-recently-spun-fedex-freight-after-run-up.html"
+    },
+    {
+      "headline": "We're booking more profits in a tech stock as the market wobbles ahead of a big IPO",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "We'll realize a gain of about 90% on shares bought in April.",
+      "category": "corporate_earnings",
+      "date": "2026-06-09 15:21",
+      "link": "https://www.cnbc.com/2026/06/09/were-booking-more-profits-in-a-tech-stock-as-the-market-wobbles-ahead-of-a-big-ipo.html"
+    },
+    {
+      "headline": "Global AI debt issuance to top $500 billion in 2026, Morgan Stanley says",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Morgan Stanley projects that global AI-related debt issuance will exceed $500 billion by 2026, reaching nearly $570 billion. This surge is attributed to hyperscalers like Alphabet, Amazon, Microsoft, and Meta increasingly relying on debt financing to cover massive AI-driven capital expenditure, whic",
+      "category": "global_markets",
+      "date": "2026-06-10 08:50",
+      "link": "https://www.reuters.com/business/global-ai-debt-issuance-top-500-billion-2026-morgan-stanley-says-2026-06-10/"
+    },
+    {
+      "headline": "Is Consolidated Edison Stock Underperforming the S&P 500?",
+      "score": 6,
+      "source": "Barchart.com",
+      "sentiment": "neutral",
+      "impact": "Consolidated Edison (ED) stock has significantly underperformed the S&P 500 Index over the past year and year-to-date, with the stock down 4.8% in three months compared to the S&P 500's 8.7% gain. Despite a revenue beat in Q1 FY2026, the company's adjusted EPS missed expectations, leading to a \"Hold",
+      "category": "us_equities",
+      "date": "2026-06-10 08:47",
+      "link": "https://www.barchart.com/story/news/2394075/is-consolidated-edison-stock-underperforming-the-s-p-500"
+    },
+    {
+      "headline": "Iran targets US bases in Jordan and the Gulf after Trump orders strikes near Hormuz - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran targets US bases in Jordan and the Gulf after Trump orders strikes near Hormuz\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-10 08:25",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS0dXSGJPLVM3VVFmRmYwcWloclNleWtLV0NrYVZfblNtdU5kY0RnOXNQSjBUQVZQS2RhR1RwQVhhT1oxVGdtVjJkdExKWG5uM3VFSTlPY0JhWms0S3RMdml0X0dVTEhuOTlEWUc3ZHlJVXl4dWFUeVFOT2xKWUhCbTh3aUVFeS1qaTNySWRBdWNMY1BhVWZUekZaUVNIZEVDVklnV1VISHpid0JObjVCU3V5bXFHaTgxaEN3M0UwOW1ac1Nz?oc=5"
+    },
+    {
+      "headline": "Oracle\u2019s stock has surged on AI hype. Now it has to deliver the earnings to match.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Oracle\u2019s fourth-quarter earnings call will deliver critical updates about the progress of its data-center build-out and the financial impact of its AI pivot.",
+      "category": "corporate_earnings",
+      "date": "2026-06-10 02:42",
+      "link": "https://www.marketwatch.com/story/oracles-stock-has-surged-on-ai-hype-now-it-has-to-deliver-the-earnings-to-match-3b56592b?mod=mw_rss_topstories"
     },
     {
       "headline": "This proposed federal budget cut could eliminate job training for 42,000 vulnerable seniors",
@@ -149,128 +239,38 @@
       "sentiment": "negative",
       "impact": "A job-training program for low-income older adults is set to lose funding under President Donald Trump\u2019s proposed budget for 2027 \u2014 just as more stringent work requirements for food aid and healthcare coverage go into effect.",
       "category": "us_monetary_policy",
-      "date": "2026-06-09 15:22",
+      "date": "2026-06-10 01:31",
       "link": "https://www.marketwatch.com/story/this-proposed-federal-budget-cut-could-eliminate-job-training-for-42-000-vulnerable-seniors-2520ac73?mod=mw_rss_topstories"
     },
     {
-      "headline": "Insider Selling: TITILOPE COLE Unloads $1.27M Of Datadog Stock - Datadog  ( NASDAQ:DDOG ) ",
+      "headline": "European shares resilient, oil edges up after fresh Iran-US strikes - Reuters",
       "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "It was reported on June 8, that TITILOPE COLE, Director at Datadog ( NASDAQ:DDOG ) executed a significant insider sell, according to an SEC filing. What Happened: A Form 4 filing with the U.S.",
-      "category": "us_equities",
-      "date": "2026-06-09 15:17",
-      "link": "https://www.benzinga.com/insights/news/26/06/53091398/insider-selling-titilope-cole-unloads-1-27m-of-datadog-stock"
-    },
-    {
-      "headline": "Board Member At Expand Energy Buys $225K of Stock - Expand Energy  ( NASDAQ:EXE ) ",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "On June 8, SHAMEEK KONAR, Board Member at Expand Energy ( NASDAQ:EXE ) executed a significant insider buy, as disclosed in the latest SEC filing. What Happened: KONAR made a significant move by purchasing 2,331 shares of Expand Energy as reported in a Form 4 filing with the U.S.",
-      "category": "us_equities",
-      "date": "2026-06-09 15:16",
-      "link": "https://www.benzinga.com/insights/news/26/06/53091393/board-member-at-expand-energy-buys-225k-of-stock"
-    },
-    {
-      "headline": "Positive Signal: BRIAN STECK Shows Faith, Buying $265K In Expand Energy Stock - Expand Energy  ( NASDAQ:EXE",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "Disclosed in the latest SEC filing, a significant insider purchase on June 8, involves BRIAN STECK, Board Member at Expand Energy ( NASDAQ:EXE ) . Tracking the Tuesday's morning session, Expand Energy shares are trading at $88.93, showing a down of 1.65%.",
-      "category": "us_equities",
-      "date": "2026-06-09 15:16",
-      "link": "https://www.benzinga.com/insights/news/26/06/53091385/positive-signal-brian-steck-shows-faith-buying-265k-in-expand-energy-stock"
-    },
-    {
-      "headline": "Full Transcript: JM Smucker Q4 2026 Earnings Call - JM Smucker  ( NYSE:SJM ) ",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "JM Smucker ( NYSE:SJM ) held its fourth-quarter earnings conference call on Tuesday. Below is the complete transcript from the call. This transcript is brought to you by Benzinga APIs. For real-time access to our entire catalog, please visit https://www.benzinga.com/apis/ for a consultation.",
-      "category": "us_equities",
-      "date": "2026-06-09 15:16",
-      "link": "https://www.benzinga.com/insights/news/26/06/53091360/full-transcript-jm-smucker-q4-2026-earnings-call"
-    },
-    {
-      "headline": "This House of Representative Just Bought Up To $375K In Biogen Stock - Biogen  ( NASDAQ:BIIB ) , IBM  ( NYSE:IB",
-      "score": 6,
-      "source": "Benzinga",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Records from June 8, 2026 indicate that Representative Maria Elvira Salazar of Florida made a purchase of Biogen ( NASDAQ:BIIB ) , valued between $115,010 and $375,000, with the transaction dated May 11, 2026 and filed in June. As of now, Biogen shares are trading up 1.41% at $195.34.",
-      "category": "us_equities",
-      "date": "2026-06-09 15:15",
-      "link": "https://www.benzinga.com/insights/government/26/06/53091307/this-house-of-representative-just-bought-up-to-375k-in-biogen-stock"
+      "impact": "European shares resilient, oil edges up after fresh Iran-US strikes\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-10 01:28",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMzdFYTBQUjA3YzBlRWNHdUp6OXBpbVlabUYwVWJXYzlJa0pHWTVuZ2M4YXlSeEtXZHJDMUotQUdUaXotdklnOXM5R0VEX3QwWVAybFdMSE1hQktPcU9Lc1czUjR0dlRwY1pvZFZDTndsUWRHWHhWOVhiVWs4SFdsVHdUcw?oc=5"
     },
     {
-      "headline": "Rivian is betting on its R2 EV to turn the automaker into a household name like Tesla",
+      "headline": "Gold falls to 11-week low as oil rises on fresh US-Iran hostilities - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "The R2 SUV is meant to transform Rivian from a niche EV manufacturer that sells luxury vehicles into a more mainstream brand like U.S. EV leader Tesla.",
-      "category": "global_markets",
-      "date": "2026-06-09 14:40",
-      "link": "https://www.cnbc.com/2026/06/09/rivian-r2-suv-tesla-competition.html"
+      "impact": "Gold falls to 11-week low as oil rises on fresh US-Iran hostilities\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-10 01:11",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLXRCSURfSXlOd0d0SlowNm9hUTlYUGVqZ1hFTnRtY3pha2RQRktxVVd5MEpIaW54cWN4Y1ZrVGVCZGkyanRmb29DZnNMWHJHbnRhWkhISE9ZQk45RnZ1blR2V0dVUFUtSHF5amF6VnZ4UWY0RTJWYkhHOVJaV0xnZms1V1AxaUE1LTB2QWJzQlNlbTdyZU9wdndKUWVvZw?oc=5"
     },
     {
-      "headline": "Novo and Lilly are competing to win the GLP-1 pill market as they prepare for Medicare coverage",
+      "headline": "Oil volatile on renewed US-Iran fighting; low stockpiles underpin prices - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Novo Nordisk and Eli Lilly bring their longtime rivalry to GLP-1 pills and prepare to make their pitch to seniors with Medicare.",
-      "category": "global_markets",
-      "date": "2026-06-09 14:17",
-      "link": "https://www.cnbc.com/2026/06/08/novo-nordisk-eli-lilly-obesity-pills-medicare-coverage.html"
-    },
-    {
-      "headline": "JPMorgan Chase plans to deploy more powerful AI agents this year",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "JPMorgan Chase's move suggests long-running AI agents are close to clearing the security and governance hurdles that have slowed adoption inside big companies.",
-      "category": "global_markets",
-      "date": "2026-06-09 14:00",
-      "link": "https://www.cnbc.com/2026/06/09/jpmorgan-chase-ai-agents.html"
-    },
-    {
-      "headline": "SpaceX employee group creates low-fee wealth management option with Choreo for post-IPO",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The deal marks a bold experiment in the wealth management industry that could shift the balance of power from advisory firms to wealthy groups of investors.",
-      "category": "global_markets",
-      "date": "2026-06-09 13:00",
-      "link": "https://www.cnbc.com/2026/06/09/spacex-employees-choreo-post-ipo.html"
-    },
-    {
-      "headline": "5 takeaways from airline CEOs' biggest annual gathering",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Airline CEOs met in Rio de Janeiro at IATA, the International Air Transport Association's annual meeting.",
-      "category": "global_markets",
-      "date": "2026-06-09 12:00",
-      "link": "https://www.cnbc.com/2026/06/09/iata-annual-meeting-airline-ceo-takeaways.html"
-    },
-    {
-      "headline": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
-      "category": "global_markets",
-      "date": "2026-06-08 19:14",
-      "link": "https://www.cnbc.com/2026/06/08/texas-screwworm-cases-food-supply-brooke-rollins.html"
-    },
-    {
-      "headline": "Airlines find the grass isn't always greener with new engines",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Airline CEOs complained that manufacturers aren't making enough of their engines and that they're falling short on reliability.",
-      "category": "global_markets",
-      "date": "2026-06-08 18:33",
-      "link": "https://www.cnbc.com/2026/06/08/airline-engines-ge-pratt-rtx.html"
+      "impact": "Oil volatile on renewed US-Iran fighting; low stockpiles underpin prices\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-10 00:33",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNGJ6NWZtUjUzMDg5TTZFYWY3SGhyUjEzcURaYnpPRkpZcmlsWVZVemw5aC1JNDY1NE82VlMyLTdhWmlDUkZyTTNMRTlfM1E1ZUVCSWJ3dDJyQ3RYbF9peF9zdjlIOFJ0bEJub0dJdTRxRjR4NFBaVmxZWHNkZFJUa3hBdEpJRVdHcnhYWlppZEN1MFJ4TDdyMlJBcFFPanlWU0Q3LTIySi1SUE9SRFdEbC1VSUM0em5HcF9xSFBrZ0o?oc=5"
     }
   ]
 }
