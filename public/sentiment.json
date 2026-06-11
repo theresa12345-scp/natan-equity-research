@@ -1,27 +1,25 @@
 {
-  "timestamp": "2026-06-10T17:22:34.291928",
+  "timestamp": "2026-06-11T10:06:26.486114",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 11,
-    "neutral": 12,
-    "bearish": 2,
+    "avg_relevance": 7.3,
+    "bullish": 10,
+    "neutral": 14,
+    "bearish": 1,
     "high_priority": 9,
-    "material_events": 4
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
+    "CNBC": 3,
+    "Reuters": 13,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 4,
-    "The Wall Street Journal": 1,
     "Simply Wall Street": 1,
-    "MarketBeat": 2,
-    "Seeking Alpha": 1
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -31,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,8 +59,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Treasury yields steady as investors monitor inflation data, U.S. strikes in Iran",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "U.S. Treasurys steadied Thursday, as investors monitored developments in the Middle East conflict ahead of further inflation data.",
+      "category": "fixed_income",
+      "date": "2026-06-11 08:47",
+      "link": "https://www.cnbc.com/2026/06/11/treasury-yields-flat-as-investors-monitor-inflation-data-us-strikes-in-iran.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -71,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +109,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-06-09 23:02",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWGJ1bl83a1ZCa082M2NZNkdvamdjX2pNODlzalRUN0NiaEMtbXl4QTdlNkhGZTE0T3QzVmxHcjJ4OE9YZnFPbm0xWDdIckNobWVFN0oyZUoxTXNUeUhrdUtWQnFNQ1NCcjJ0MGprRm80eG9lM2NzMUpPcWdKNlJDNmNqLU5jZlBrVjdsUEtSeWhqVEdzdTRnSmtFWFBhb3RTemVV?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,148 +129,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-10 17:22",
+      "date": "2026-06-11 10:06",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "We're booking profits in a market rotation winner \u2014 further padding our growing cash pile",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "We're making another sale on Wednesday to increase our cash pile and protect against future market volatility.",
-      "category": "corporate_earnings",
-      "date": "2026-06-10 16:59",
-      "link": "https://www.cnbc.com/2026/06/10/were-booking-profits-in-a-market-rotation-winner-padding-our-cash-pile.html"
-    },
-    {
-      "headline": "China's factory-gate inflation at nearly 4-year high in May - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "China's factory-gate inflation at nearly 4-year high in May\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-06-10 01:44",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZnlMRVVYaTJwMmxySXVZWndaOGNyanZHaWR4LUZWeFpEMEQ3el8xR3pueldSZ3lhOWZLOFZ6UkFMMnJwb0hUbWtEc191Wm4tNHJSZ01hYW1EbnlrRzVTb291eWJMbGZnLVJQVlFBdTEzTjN0dHIxU2N6VE00LU4wem1BQTJtdkw2d2IxMG93R0RmUmhsQmZ2N1Y2VEdzeUg5X0NoZjJrcmZVNjA5RGJJdFp4cnExaEdLWUFjY3hKb2FkVV9XcGdVTXI3ZVdkdw?oc=5"
-    },
-    {
-      "headline": "Gold trims losses on softer-than-expected US inflation data - Reuters",
+      "headline": "Indian shares fall on Iran war, hot US inflation; IT leads losses - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Gold trims losses on softer-than-expected US inflation data\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-10 01:11",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLXRCSURfSXlOd0d0SlowNm9hUTlYUGVqZ1hFTnRtY3pha2RQRktxVVd5MEpIaW54cWN4Y1ZrVGVCZGkyanRmb29DZnNMWHJHbnRhWkhISE9ZQk45RnZ1blR2V0dVUFUtSHF5amF6VnZ4UWY0RTJWYkhHOVJaV0xnZms1V1AxaUE1LTB2QWJzQlNlbTdyZU9wdndKUWVvZw?oc=5"
+      "impact": "Indian shares fall on Iran war, hot US inflation; IT leads losses\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-11 04:21",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYzdwTDdobDFGZ3dzME0wNm9IbDR3aWxxS2NfWU0zWWFDMVkzX21zeS1PMVVGb0dFMVFaZmxpWnpDS1VVMnVxT2xEUS1GQ1VNb2k0OTdNZzhjc216WWlpaHJVSnF2Nnk2d1M4SmJqa2tPNi0xY3F4bTFFbXQxV0drRHlLYmZFeXdxcGhJaHM2dDZPemhHNkR2bE1ldDBjTXZ1ZmJoQTB2a3BRcmo0Rnh4SlF6aXQ?oc=5"
     },
     {
-      "headline": "Dollar eases as US inflation data keeps rate hike at bay - Reuters",
+      "headline": "Gold rebounds from six-month low; US inflation data in focus - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Dollar eases as US inflation data keeps rate hike at bay\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-10 00:51",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSDFFb2NhZFo3MVhIUFhKOVFMbW1TZ29rSmY3b3R3aC1PN3d5N01qMTJwU1JQSjBKLWJiLWUtdUQtamR0dENFMVhEX3VEdzh1c0ZLVFZvYWhMRnRMU19Sa0RrUTJmZkZFLW1ueTVRODd6UnVJUVFMaHhGck5NTlVSaW5SLUVOVkN4MGc4dEpfWWgwRm9hYXd5UHRqQkFkd0JPWUZjbnpDMHBRVGVwZnk4?oc=5"
+      "impact": "Gold rebounds from six-month low; US inflation data in focus\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-11 01:05",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY0RQOFgzZFBuaHBaZ2wzd3gxeHhzU0hSX2tKYzBKaGhzeEo1NWtPc0NQTERGQ09KLWI5bDNTUTIyemNXZjRrTzJfWEZZMlh1VDZ4YUl2WlBtVjBIbXg5YjlGTzRQV2NlUmVUSUFpOTJMME5JRWRjS0Z5ajByRy1jSE5OUjZ4VEtvTlpFODJWMVRqWC12TEd1aUREWkpfLVJvN3NXeUFaU3ViRElTX3dkT3FNM2dNZw?oc=5"
     },
     {
-      "headline": "Stock Market Today: Nasdaq, Dow Open Higher; SpaceX, OpenAI IPOs in Focus \u2014 Live Updates",
+      "headline": "ECB set for 'insurance hike' as Iran war fans euro zone inflation - Reuters",
       "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Live updates on markets and the top finance, economics and business stories. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
-      "category": "us_equities",
-      "date": "2026-06-09 16:03",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-09-2026"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "ECB set for 'insurance hike' as Iran war fans euro zone inflation\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-10 22:01",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMk1XYmdRaTFQeG12VlV6M1FlbjVxQkZUVDBzM2FaRU91alFwdUhUanBOeDRyUU1iM1Rmd0h1cHFTdWtaZ3l6WkUxOUxBUUdCeThOa214YWR0Rk5rQ29qVThUR3hZeXRka3Vxdk5DUC1tYnlDR1N2MkNTUW90Ny1qM3JHSGh5dHM0ZlVpVlVaNTZhVlE5LWNwTTFDUHNvckI2MzBwMFQtQQ?oc=5"
     },
     {
-      "headline": "Property Play: Commercial real estate saw record lending competition in April, according to JLL",
-      "score": 6,
+      "headline": "US consumer inflation vaults above 4% as Iran war boosts energy prices - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US consumer inflation vaults above 4% as Iran war boosts energy prices\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-10 19:20",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWNSSWh5eDBlWmZCYkN5ZjVjSFNVaC1jVmUteC1pelBkR2ltcmpwYUhYa01sV3Y5dGpGUGNFMDZMeTFRT082Wk5yb1BiU3ZQMjZqR2ZpLV9zY25oOU5STURWR2xjZ0dDVTlhQnB4RFNuRTVxd3ZKbVlDVWpvT1pFMmp2Z2JNa2JlTGJsNFN3?oc=5"
+    },
+    {
+      "headline": "'I love the inflation,' Trump says as prices rise amid Iran war - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "'I love the inflation,' Trump says as prices rise amid Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-10 19:11",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMThfbFpQWmlCV2h0c0pXalROOTJxOVpwZFlKVzJMUVpmNGNfOEk5TjFUZUdKZ1pxMmJGY0ozZXR5Y19lcHBqUklkcjRWWVMzSExoWUprVEx3WWNRUlBDaUM2VkZSR2tFa2lCdTNpYUxidUtPMXFBTFctVkhmbzViWTg2NWlIX193Z3NMU2taTXNzb1ptMkhsQzBrdw?oc=5"
+    },
+    {
+      "headline": "China May wholesale inflation hits near 4-year high on Iran war-led higher input costs, AI boom",
+      "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Global credit activity among lenders as well as overall competitiveness of loan terms reached an all-time high in April, JLL found.",
-      "category": "global_markets",
-      "date": "2026-06-10 17:14",
-      "link": "https://www.cnbc.com/2026/06/10/jll-commercial-real-estate-record-lending-competition-april.html"
+      "impact": "The Middle East conflict has given China's economy a reflationary boost as energy and raw material disruptions deepened.",
+      "category": "asia_economy",
+      "date": "2026-06-10 01:43",
+      "link": "https://www.cnbc.com/2026/06/10/china-cpi-ppi-inflation-may-consumer-prices-producer-oil-iran-war-ai-tech-.html"
     },
     {
-      "headline": "Align Technology (ALGN) Is Up 6.8% After Earnings Beat And Digital Orthodontics Advances - What's Changed",
+      "headline": "The May inflation numbers are due out Wednesday morning. Here's what to expect",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "If the Wall Street consensus is correct, the consumer price index is expected to show inflation running at a 4.2% annual rate.",
+      "category": "global_markets",
+      "date": "2026-06-09 18:54",
+      "link": "https://www.cnbc.com/2026/06/09/the-may-inflation-numbers-are-due-out-wednesday-morning-heres-what-to-expect.html"
+    },
+    {
+      "headline": "Sound Group (Nasdaq:SOGP) - Stock Analysis",
       "score": 6,
       "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "Align Technology (ALGN) saw its stock rise by 6.8% after reporting Q1 2026 revenues and earnings per share that surpassed analyst expectations. The company is continuing to innovate with its Invisalign clear aligners and iTero intraoral scanners, which is increasing investor interest in its long-ter",
-      "category": "corporate_earnings",
-      "date": "2026-06-10 16:29",
-      "link": "https://simplywall.st/stocks/us/healthcare/nasdaq-algn/align-technology/news/align-technology-algn-is-up-68-after-earnings-beat-and-digit"
+      "impact": "Sound Group Inc. (Nasdaq:SOGP) is an AI-powered audio company in China with a market cap of US$48.3 million. The stock is currently trading at US$11.70, significantly below its estimated fair value of US$1.82k, indicating it is 99.4% undervalued. Recent performance includes a 596.4% increase over th",
+      "category": "us_equities",
+      "date": "2026-06-11 09:39",
+      "link": "https://simplywall.st/stocks/us/media/nasdaq-sogp/sound-group"
     },
     {
-      "headline": "Trump on Iran: We're going to be attacking them very hard - Reuters",
+      "headline": "Iran seeks funds as US talks edge to interim deal, sources say - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump on Iran: We're going to be attacking them very hard\u00a0\u00a0Reuters",
+      "impact": "Iran seeks funds as US talks edge to interim deal, sources say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-11 08:30",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdmRFM01CVXZFS0FoUHBWUmRlS29pUUdsZmVJU3lwSTI3V21ORGpPZUZJM3hVbFkwbmk1ZkYyZmxfSnVrWXoxaFRNOTlmMGkxOG1KSksxUzBWUjRHdHl6Y21YNDdRRTJDdTIzMXBJcml6NUxCaWVvQmN5LVFOVGdNc3pTX0t4ckt0RmFhbU9PeTk0RjlTYVowZ0NuY2lHdUVMVmlYQ19LeDJ4dWdE?oc=5"
+    },
+    {
+      "headline": "Iran and Ukraine loom over G7 as France accommodates Trump - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran and Ukraine loom over G7 as France accommodates Trump\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-11 08:09",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZlFGOXNhVXV4amNCaDFmMVI2eWtrZk5YUTVubnVyWjZYalhsd1M0M1lqY2xzaG55V3k5dS04aHpub29zVnpSUjZCU0NwWWNURFR5SXJFRnZudzNoZTQ2VlZ1QkliRndxbVZLZExMbHVuNHp2S2Z0LWhLcVZHRlBfcmVlT2tObl84NDV2MzItcDJVX3FMTmZLdmd0QXl4WXA0?oc=5"
+    },
+    {
+      "headline": "Indian refiners bolster crude, LPG supplies despite Iran conflict - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Indian refiners bolster crude, LPG supplies despite Iran conflict\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-11 06:44",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORG5tdGh0MXpDZEZ1SEVsOHh3WHVSR3o2SFNKU1gwRjJYM0xlVjN2S1BpX05pUHRIanJHQ1h1MVNEMGdydEpHaE1paEtEWm5Bb1FKZV96N2o5bjBsU3ROX1Jfa3U5UHJlQ3ptekNGN1FkYW9MRTJIQWNuYkJNc2dmbkd5Nll6WmlHZTBLUndQOE15NTZiX0NHaEFSek1HaVhyMEFQTEk2OEQwa1RiaXhfXzdVZVVROFU?oc=5"
+    },
+    {
+      "headline": "Markets are pricing in a rate hike by the European Central Bank \u2014 which one top economist sees as a \u2018mistake in the making\u2019",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The decision to raise interest rates would mark the central bank\u2019s first in almost three years.",
+      "category": "global_markets",
+      "date": "2026-06-11 06:36",
+      "link": "https://www.marketwatch.com/story/markets-are-pricing-in-a-rate-hike-by-the-european-central-bank-and-that-could-be-a-mistake-in-the-making-b99771ca?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Iron ore remains unaffected by Iran war, but China's May data baffles - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iron ore remains unaffected by Iran war, but China's May data baffles\u00a0\u00a0Reuters",
       "category": "asia_economy",
-      "date": "2026-06-10 16:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUdOeWRybkJaaDV4dzVCMFdsOUJSSHhBaHliNV9WajdMUXgxTGx2QldYLXF3akJSSW5meGpzcW53QnFqOWpKQVpkci1aTUY4WEtkYlFGNHk3b3B0ci0zSjYzOENmd2xzcEFzUVBFbi04dk5QdTF3dWRPTGVJemJ3cmprRURzeFQ2T1YtejUxUVFMMXBKWTJjU1ZXcDAxTEZPTnp0OTJ3?oc=5"
+      "date": "2026-06-11 05:58",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV1BoSm9OVEU1UFhPNndHNTRmTjRISFNsekVsWUJ4dGx4RkE5a3JmWDFsRDdSYVpiNy1Qd2dnRVo0YUtveW5RUEpna1NKcndHYllNWkN5TkVQbE9uUEtTS21ITzhJcVRnVERkU1J2dE5JdEZYeGQwcVNHbzQ2R2g0ZzQwaGFZaXNQcEZZd0owZHBfTHYyd3RQWFRTREdkdU5nOF9DRjVFLTJSV0Y3TnJjc0ZiQ2hWT3RHaUM5aTRlb242MkZrRHhsWGJTdWc?oc=5"
     },
     {
-      "headline": "How pandemic car shortages are still making new and used cars expensive",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Pandemic-era shortages are still pushing up used car prices, and automakers learned lessons from that time that stands to keep supply tight",
-      "category": "global_markets",
-      "date": "2026-06-10 15:54",
-      "link": "https://www.cnbc.com/2026/06/10/car-prices-shortages.html"
-    },
-    {
-      "headline": "Rep. Gilbert Ray Cisneros, Jr. Sells Roper Technologies, Inc. (NASDAQ:ROP) Stock",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Representative Gilbert Ray Cisneros, Jr. (Democratic-California) recently sold between $1,001 and $15,000 worth of Roper Technologies, Inc. (NASDAQ:ROP) stock on May 15, as disclosed in a June 8 filing. This transaction follows Roper Technologies' strong Q1 earnings, which surpassed analyst expectat",
-      "category": "us_equities",
-      "date": "2026-06-10 15:42",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-gilbert-ray-cisneros-jr-sells-roper-technologies-inc-nasdaqrop-stock-2026-06-10/"
-    },
-    {
-      "headline": "Rep. Gilbert Ray Cisneros, Jr. Sells Off Shares of PayPal Holdings, Inc. (NASDAQ:PYPL)",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Representative Gilbert Ray Cisneros, Jr. (D-California) recently sold between $1,001 and $15,000 worth of PayPal Holdings, Inc. (NASDAQ:PYPL) stock on May 15th, with the transaction disclosed on June 8th. The sale comes despite PayPal reporting strong quarterly results, beating EPS and revenue expec",
-      "category": "us_equities",
-      "date": "2026-06-10 15:38",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-gilbert-ray-cisneros-jr-sells-off-shares-of-paypal-holdings-inc-nasdaqpypl-2026-06-10/"
-    },
-    {
-      "headline": "Amazon says Graviton5 CPU is now generally available to customers (AMZN:NASDAQ)",
-      "score": 6,
-      "source": "Seeking Alpha",
-      "sentiment": "neutral",
-      "impact": "Amazon's in-house Graviton5 CPU is now generally available to customers. Despite this release, the tech giant's shares experienced a 1.8% decline in late morning trading, consistent with a broader sell-off in technology stocks. The new CPU aims to enhance Amazon's cloud offerings.",
-      "category": "us_equities",
-      "date": "2026-06-10 15:35",
-      "link": "https://seekingalpha.com/news/4602253-amazon-says-graviton5-cpu-is-now-generally-available-to-customers"
-    },
-    {
-      "headline": "We're paring another stock position to bring our cash weighting closer to 12%",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "This stock hasn't been a win, but it has quietly risen 10% since our last purchase.",
-      "category": "global_markets",
-      "date": "2026-06-10 15:29",
-      "link": "https://www.cnbc.com/2026/06/10/were-paring-another-stock-to-bring-our-cash-weighting-closer-to-12percent.html"
-    },
-    {
-      "headline": "German air show opens under shadow of Iran war, fighter project collapse - Reuters",
+      "headline": "US and Iran exchange fire for a second day, undermining shaky ceasefire - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "German air show opens under shadow of Iran war, fighter project collapse\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-06-10 15:25",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY19XWE1kZ1Z2U3JJWE1ZY2NNa0RraU16Ty1kU2c2TG5YQktkOEVHdTZ4V09ydjF2RVZRVnNPQ0U5WUJLS2hLS3Vhcy1zNVU1UEoyV2ZNYkl1eElQQXBfN2ppal9zaHY4eWlxZ0RuU3llZ09weW9EajM1aE96d1ZUUkNvemZ3aEl2Y1czaUFueE5IVEJtRW05Skw4Ymg1ckZILWdiRUE5TUFhT3NXSzkwRjNlMm42d1U?oc=5"
+      "impact": "US and Iran exchange fire for a second day, undermining shaky ceasefire\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-11 04:17",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOVE5bkkxajhqTThUeThITm81VlJnMkJ0emlrMGJ0anNFSG9lT3FXUjNPekRYUzh5STVHeWh1SmNrQzM0NmpNeWtrR183TkZ0NXFjMFhfeUJOVmtIclBJTG80ekZTa1B5TXhvZ091bWN1bVo2ckpNTUt5WjEyWmh3M3M1RzljSlVIakdFTENWa1RMejBweHhTWHZkSktGR3NNN3NMMm90QUpISVFEZTVmenRHMDY?oc=5"
     }
   ]
 }
