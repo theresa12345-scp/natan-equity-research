@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-12T09:56:34.905619",
+  "timestamp": "2026-06-12T16:45:39.198274",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 7,
+    "avg_relevance": 6.9,
+    "bullish": 8,
     "neutral": 14,
-    "bearish": 4,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,11 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 15,
+    "Reuters": 12,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 2,
-    "MarketWatch": 1
+    "CNBC": 4,
+    "WSJ": 1,
+    "Yahoo! Finance Canada": 1
   },
   "top_signals": [
     {
@@ -28,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,7 +99,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -108,7 +109,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,28 +119,128 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-12 09:56",
+      "date": "2026-06-12 16:45",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Oracle shares tumble on earnings. But there's a silver lining for our AI chip and power stocks",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Oracle investors didn't get what they wanted. But its earnings report was a good sign for other stocks in the AI trade.",
-      "category": "corporate_earnings",
-      "date": "2026-06-11 16:51",
-      "link": "https://www.cnbc.com/2026/06/11/oracle-shares-tumble-on-earnings-but-theres-a-silver-lining-for-our-ai-chip-and-power-stocks.html"
-    },
-    {
-      "headline": "CNBC Daily Open: Trump expresses 'love' for inflation print and anger at Iran",
+      "headline": "ECB hikes interest rates for first time since 2023 as Iran war ramps-up energy costs",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "U.S. inflation reached a three-year high of 4.2%, with Trump arguing that ending the war will resolve both the conflict and rising prices.",
+      "impact": "The European Central Bank also raised its inflation forecasts and cut its growth outlook.",
       "category": "global_markets",
-      "date": "2026-06-11 01:27",
-      "link": "https://www.cnbc.com/2026/06/11/cnbc-daily-open-trump-expresses-love-for-inflation-print-and-anger-at-iran.html"
+      "date": "2026-06-11 12:16",
+      "link": "https://www.cnbc.com/2026/06/11/ecb-hikes-interest-rates.html"
+    },
+    {
+      "headline": "Evangelicals divided on Trump's war in Iran, immigration crackdown, Reuters/Ipsos poll finds - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Evangelicals divided on Trump's war in Iran, immigration crackdown, Reuters/Ipsos poll finds\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-06-12 16:05",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT0dib1FyU09lU3JwWjY0RnhkdHF4QVJuNXB1QVBQY25Tbkk5UXZuSEQ1LUt2Q1JGY0gxMGVlWTJXbnhFUEdDbXpkeG9ELWpkdXJuaWJJRWQ1amd3WkUyejFKMjBLUmN2LWJMeTlLUW9KQzA0cTV3ci1CNDEzbFVubHBxcXh1R3ZJUGJjYmRXQ1pOdTByaUVRNFBwZ2NtZWtIdW5HSDM1UWtSWVJqVTVuellnNEg1cl96OVFqd1p3?oc=5"
+    },
+    {
+      "headline": "Exxon Mobil evaluates potential buyout of Australia Woodside Energy, Bloomberg News reports",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Exxon Mobil is reportedly evaluating several acquisition targets, including Australia's Woodside Energy Group, according to Bloomberg News. A potential buyout of Woodside would enhance Exxon's position in liquefied natural gas (LNG), a sector identified as a key growth area for major energy companie",
+      "category": "global_markets",
+      "date": "2026-06-12 15:36",
+      "link": "https://www.reuters.com/business/energy/exxon-mobil-evaluates-potential-buyout-australia-woodside-energy-bloomberg-news-2026-06-12/"
+    },
+    {
+      "headline": "BlackRock Private-Credit Fund Faces 13% Redemption Requests",
+      "score": 6,
+      "source": "WSJ",
+      "sentiment": "negative",
+      "impact": "Investors in BlackRock's flagship private-credit fund requested to redeem 13.3% of shares in the second quarter, an increase from 9.3% in the prior period. BlackRock will cap repurchases at 5% of shares, as previously stated, cashing out investors on a prorated basis. This elevated redemption reques",
+      "category": "fixed_income",
+      "date": "2026-06-12 15:23",
+      "link": "https://www.wsj.com/finance/investing/blackrock-private-credit-fund-faces-13-redemption-requests-5cba8e89"
+    },
+    {
+      "headline": "CVS Health (CVS): Buy, Sell, or Hold Post Q1 Earnings?",
+      "score": 6,
+      "source": "Yahoo! Finance Canada",
+      "sentiment": "neutral",
+      "impact": "Despite a strong 20% outperformance against the S&P 500 in the last six months, CVS Health (CVS) is not recommended by analysts due to lackluster revenue growth, limited projected revenue upside, and declining earnings per share (EPS). While the stock trades at a reasonable 12.9x forward P/E, analys",
+      "category": "corporate_earnings",
+      "date": "2026-06-12 15:17",
+      "link": "https://ca.finance.yahoo.com/news/cvs-health-cvs-buy-sell-151720833.html"
+    },
+    {
+      "headline": "Some U.S. states still don't know if the World Cup will benefit them financially\u2014just look at New Jersey",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Millions are expected to attend 2026 World Cup matches across North America. For at least one host state, New Jersey, the tournament also brings mounting costs.",
+      "category": "asia_economy",
+      "date": "2026-06-12 15:12",
+      "link": "https://www.cnbc.com/2026/06/12/2026-world-cup-host-states-new-jersey-costs-financial-benefits.html"
+    },
+    {
+      "headline": "Beyond SpaceX: Here's where family offices see buying opportunities in the space economy",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Personal investment firms of the ultra-rich are interested in space startups even without Elon Musk's name attached.",
+      "category": "global_markets",
+      "date": "2026-06-12 14:50",
+      "link": "https://www.cnbc.com/2026/06/11/spacex-billionaire-investing.html"
+    },
+    {
+      "headline": "Trump says Iran's leaked deal terms are untrue - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump says Iran's leaked deal terms are untrue\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-12 14:26",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZVNLdko5VzdSeXBlazJGaW0wQk8wMjFsT210VFB4OUdhd3ZpWTdocDllY2RwR1hWdlhoYzRZYkQ5OFc4TUE4WWJmN0ZrRlIyVllaeFBZMGwtdk52TU1wdkhFckd0cEFRVDBqalN3T2FhanpySWJWRzBTZmNCeHpHbk5FX1lsd09abWJBamVpVnFhMUxIWVpobjdiWHhOZWtW?oc=5"
+    },
+    {
+      "headline": "Hezbollah confident any US-Iran deal will include Lebanon, politician says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Hezbollah confident any US-Iran deal will include Lebanon, politician says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-12 13:25",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlVCNTN3WktKbE5sV2g4djN3dWkwbzhIRlR1alYtdkw0ODZVWEVwNGdwbEVvbXJ6LW1rVnR5NHR5ZXJ3NWpMbV8yXzhrMXZhVUp4M0x3cG1pRXc2SjZyTlZCa0xaNW9NU0EtQU02ME9CQy10OWxNdU5SS1c3djh2Q1A2ejdXc2JMSUg1cGVQS1MtRTh2ZGVrTEZOWTN0UzZkaFZhWnd6VlpuYlJVb0dJdDV2Y1NwbC1DTlpIWXVydDBKM1g5UWc?oc=5"
+    },
+    {
+      "headline": "Iranian-American fans face uneasy World Cup as war rages - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iranian-American fans face uneasy World Cup as war rages\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-12 12:38",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTkxLcl8xb1c0UEs2TXJLQmRLbUp3enQ4emIxeElMaGFqRkxMcnpaa2V2ckxtS3Q0WVBFbWtZalJZdTdvSGl1WC10eUlFYVlqMWNoNWJjSHlxNWFjclFrbE1qWFlfeldzM0xsM3hhOF9uVzdhZ09WQUVreTVkLU5tZ3VrSHlvOEZtMU5QbF90QVNUbUVLd0IyQXAtVWN5TWlBWm9QSWVR?oc=5"
+    },
+    {
+      "headline": "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "SpaceX has achieved its goal of becoming the largest IPO on record.",
+      "category": "global_markets",
+      "date": "2026-06-12 11:22",
+      "link": "https://www.cnbc.com/2026/06/12/spacex-moonshots-valuation-westly-tesla.html"
+    },
+    {
+      "headline": "European stocks rally as oil falls on hopes for US-Iran deal - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "European stocks rally as oil falls on hopes for US-Iran deal\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-12 07:41",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2NwbnhSejZzNkxual9ZYm1wRmRmVjVHTlYwQjlVYmdZaW8yQlFVbVBaVWR5c1RXaTNyMGZXdVV0c2J2eV9STWRlaEExTndPVkZIc2g2WVpxdHdmZE9aT0txYTg5WXk5LWdpRmRyN29FMnNaeEhBb3FPOVc5NU1XQ3h0czRRNWxmdnRPTmVlWWowYVFOdFdtTE0yd0JJTHpmWDc0?oc=5"
     },
     {
       "headline": "UK economy began to feel fallout from Iran war in April, data shows - Reuters",
@@ -162,114 +263,14 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeVptY3pRQnZwZWticGdhV3dBc0hmZzlvanVBdXp0MFlmcVFDNWlOU2NubENld21zOXhRSm9IUWFFOUgtTWhGaDdaM180b09nN014V1Fnb0VuTDcwNVp5MWxxOHVoWVRqLVZWWGxuQ1luNEZ5LUd6aUtQcGEtTGppMWpXV3VjUVM2dFF3ZFRWY3FTTHlWSU5LNnVhNkxrNWVBN2M1S1ZhcmNkTG1jcmtTQzhjOA?oc=5"
     },
     {
-      "headline": "Trump says Iran war deal close as Strait of Hormuz tensions linger - Reuters",
+      "headline": "Trump bristles over memorandum text that appears to favour Iran - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump says Iran war deal close as Strait of Hormuz tensions linger\u00a0\u00a0Reuters",
+      "impact": "Trump bristles over memorandum text that appears to favour Iran\u00a0\u00a0Reuters",
       "category": "global_markets",
       "date": "2026-06-12 05:06",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMXk5cUo1M00yVjgxUGh5ZHl5SWdsUFcxZWhQUUF4MUhZY3pzNGZUbUU1SEtHUEh0dnZJM1Y4TFU0SzloMWNlQ1VqcjBZZ09raU1QdnFXallaeTBVMEZsNGhsOVVDcFNUZ2tjY29zX3hYYjJ6ZzAtZU1FSURnY0J3TktmSEk2eGFpd1Njek1SUG1mbkJrVmltN3RMQVk5WFpOOUxuMEVLUHRuVE50alhrTGk0VGs?oc=5"
-    },
-    {
-      "headline": "India rupee surges as oil nosedives on rising bets of US-Iran peace deal - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "India rupee surges as oil nosedives on rising bets of US-Iran peace deal\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-12 02:43",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVnp0bHQ1RVV4dE9lSW9XS2YtaXg4VEMxVU4tcGVrXzFaT0lVQjI4TjVKZU1aUWxFZ0JVcEVkR1IweUJVU1h1NXBNU0lPVm9ORnFRRk0teFkyM1JWZEJNQUpybVdsclU3ZU5rclJrWmh2QW96RjA5akZHTzRGMFlvT1JkZEh3YVNYdnpDNndqZHh3dFdMS0cwRnZQSWY2X0R0RlhWbU9ZM0Q?oc=5"
-    },
-    {
-      "headline": "Rocket Lab and these four stocks are joining the Nasdaq 100, with SpaceX waiting in the wings",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The Nasdaq 100 could imminently include SpaceX, but first it\u2019s getting a shakeup that will usher in another space-technology company and four flashy AI plays.",
-      "category": "us_equities",
-      "date": "2026-06-12 01:56",
-      "link": "https://www.marketwatch.com/story/rocket-lab-and-these-four-stocks-are-joining-the-nasdaq-100-with-spacex-waiting-in-the-wings-0e8cc71b?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Dollar steadies as traders weigh prospects for Iran ceasefire - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Dollar steadies as traders weigh prospects for Iran ceasefire\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-12 01:06",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONC04MExBWDdBT2lMaDd6aXBldkN4VWRjV0N3TlEyLVVzQmloWDhGNTZLU2k0b2xUUW5KRjRMdmVobFZMc2l0TmY2dEhpamVwbWlmeEpnb1l0RkZnWEFZbTNXYWFBY0piNmZwTlZMNWJGenkxV3BpdGlrbWJKWjlNWlloOEhla3l3aVVTOWd5d0tacndjSFF5ZUJqNFF4T1lnUE8zYmJiTU5sZXpIbFVKU3B5aw?oc=5"
-    },
-    {
-      "headline": "Oil extends losses as Trump calls off planned strikes on Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Oil extends losses as Trump calls off planned strikes on Iran\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-12 01:04",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWg3TG5xNExlOE40WERlbU5TdUMwQlNZSC1TYUVKZV9HN1M3LUNoRGlCdkQ4cmRhQ1UtUkdJSDBrMzN4dGlHOWZ0b18yTFo2SHR1UTBGYkoxTS11aGNMTHAzRGFtMVNSQzRRZUtwLXRxWGsyN3FwVm9XY2stOHN4X21BOU91THhlb0JIakhjVGNEWmpQTkxzZzhONlhlUzRGS1dZdWQtOXAzZWs?oc=5"
-    },
-    {
-      "headline": "Wall Street indexes jump, Trump says strikes against Iran canceled - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Wall Street indexes jump, Trump says strikes against Iran canceled\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-06-11 22:51",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWlhSNlNaTm02QnN2dzg4bUw0U3UwR29UTUxLRXNCamhCMWtMbHlibEhLYjM4ZXE0SGUwWG9Jd2E0SjlWYk1MYkFMbktVSGFXd2xoM3RhR08tRUZZWDdwcm1VMTl0XzhxRjdfTGpHWVczaUZtcU0zb2E5SlVwTzhtZDlqb3ZtVG14RFBkbElXbTF5WWxIQjVmcEROWVJEUFlzOHhV?oc=5"
-    },
-    {
-      "headline": "Iran-born engineer wins bail ahead of U.S. trial tied to deadly drone strike - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran-born engineer wins bail ahead of U.S. trial tied to deadly drone strike\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-11 21:43",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWmFjbHNPWW5PX1VQTzg0bjZqMEtrTHV4SzdRU1RvQnc0Wm82OTNNSVh0YXF3QzdCczgwRjU2ZWNkOEVfY21lZlVzakZhZ0QtVWJfMS1hUjdVVmpEUHhwdDlrRHlabklyLXpTWGVYa3pJZmRicFNaLWc5U21pbUZQZEw0ZU0yOUFqQWxhdE55eFVnWVlDTlU3eHVqVHRFYnJfOC12eVJxdGVncFN6Mm1tLXBSTy1oQThHWVVjYThB?oc=5"
-    },
-    {
-      "headline": "Iran players conduct first open practice at Tijuana camp - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran players conduct first open practice at Tijuana camp\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-11 21:32",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUWU5QjJnNGtNeWkxUmJNWjJweVlTNEtZdFBtUTNDYVM2d1lEaUhfVEdSYUtjam0yWHVTbHFoZUJzaUdKazFLdEc5M1NBdGhyUXJYaWI3RjZiOWVNWTJXY21uUXRkVGgzc2VwMEF6TEZJVnFEeS1Edm9pN3hTYklOZGpGbVNZTWFNbzVZYkVqeWptbVRKekdSWGU3YkJ5X2pBc1FiSUZn?oc=5"
-    },
-    {
-      "headline": "Iran says no final decision made on possible US agreement, IRNA says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran says no final decision made on possible US agreement, IRNA says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-11 20:58",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa2YzOHNaUl90Rm1KZWVEX1YtazdTdG9HbEJkaHJmT1NFSncyTkxvN1p3OEw2TFlNUERwelRldzJib0ZpWXJHbjhSMTFLV1RrM0dEYl8zTlloSzBld0hRalhfMFNrLTdUd19QdEhnUG1iRWVHSWx3UVdkQUpMeWZtSFFvU20wRy1ZNHZZUW5EVF9IZ0paVmNNT0hzeTY5Tlk4R1l1N1ZweWNGeFc0VGlkZjdQZ09VaFJwdlE?oc=5"
-    },
-    {
-      "headline": "Trump says he believes Iran's supreme leader has approved deal with US - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says he believes Iran's supreme leader has approved deal with US\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-11 20:21",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeGM4QkFuXy1va1B3a0pYYnNxWmU1U1U4VDRPRm9pZEg5aGw3Wjljb0RRWnV5OGtud2xNZE5rUkJiVFZXYWlDN0RtLW5PQ1VRcWU0NmxlNWtjMktFVmdKNy13MEt0Zi1ycmQtY19ZVTFGVUhvVWFkUThPYmpuRWdta2dMSkVRNkJXYk5XMGVfMW1oMVVaZnhLd0FFQVVCVWk5aldnTnp3SUlWR0g2MTdCQWQ4Sm5Ba1N4N1ZGdThoMHc?oc=5"
-    },
-    {
-      "headline": "Trump says 'great' Iran settlement will trigger opening of Strait of Hormuz - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says 'great' Iran settlement will trigger opening of Strait of Hormuz\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-11 20:18",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQakItaGt5Nk9kbUd6UXhQS1V6Vlp5MjVOSlhwYjlOQXllMjEySkFqcWRKU3NxeEFFQnhTWnptM0NlSnkwWVd1bG5hODN3UHB1MGhIVGlXS1UzUHlINXdWVHYwSjJlOFk2OFBjQzFPWXpvdHFScDFFQWR1Zkt3X1RmeHpVZGVpUmg5bVVoNjVzMUVKRXRnSlo3U3JBOHVnZUhqVlBUSUotNHVzZw?oc=5"
     }
   ]
 }
