@@ -1,24 +1,26 @@
 {
-  "timestamp": "2026-06-13T08:46:52.789233",
+  "timestamp": "2026-06-13T15:42:51.989562",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
+    "avg_relevance": 7.0,
     "bullish": 8,
-    "neutral": 15,
-    "bearish": 2,
-    "high_priority": 9,
-    "material_events": 5
+    "neutral": 16,
+    "bearish": 1,
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "MarketWatch": 1,
-    "Reuters": 13,
+    "Reuters": 10,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 4
+    "CNBC": 5,
+    "Foreign Policy Journal": 1,
+    "Seeking Alpha": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -28,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,18 +60,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq rise after latest wholesale inflation data and as tech sector rebounds ahead of SpaceX IPO; Oracle shares slide after earnings results; U.S. and Iran exchange strikes for second day",
-      "score": 9,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-06-11 15:31",
-      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-jones-s-p-500-nasdaq-spacex-ipo-us-iran-exchange-strikes"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -78,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -88,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -98,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -108,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -118,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -128,7 +120,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-13 08:46",
+      "date": "2026-06-13 15:42",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -152,21 +144,101 @@
       "link": "https://www.cnbc.com/2026/06/12/fedexs-yearslong-turnaround-is-facing-a-big-test-after-executing-on-a-major-catalyst.html"
     },
     {
-      "headline": "ECB hikes interest rates for first time since 2023 as Iran war ramps up energy costs",
-      "score": 7,
-      "source": "CNBC",
+      "headline": "Zacks Names Quanta Services (NYSE: PWR) Bull Of The Day While Lululemon (NASDAQ: LULU) Earns Bear Status",
+      "score": 6,
+      "source": "Foreign Policy Journal",
       "sentiment": "neutral",
-      "impact": "The European Central Bank also raised its inflation forecasts and cut its growth outlook.",
-      "category": "global_markets",
-      "date": "2026-06-11 12:16",
-      "link": "https://www.cnbc.com/2026/06/11/ecb-hikes-interest-rates.html"
+      "impact": "Zacks Equity Research has named Quanta Services (NYSE: PWR) as its \"Bull of the Day\" due to its strong growth, record backlog, and positive outlook benefiting from the AI energy infrastructure boom. Conversely, lululemon athletica inc. (NASDAQ: LULU) received \"Bear of the Day\" status, facing signifi",
+      "category": "us_equities",
+      "date": "2026-06-13 14:33",
+      "link": "https://www.foreignpolicyjournal.com/2026/06/13/zacks-names-quanta-services-nyse-pwr-bull-of-the-day-while-lululemon-nasdaq-lulu-earns-bear-status/"
     },
     {
-      "headline": "Iran peace deal looms while new military action flares near Strait of Hormuz - Reuters",
+      "headline": "This 28-year-old paid off her law school loans selling stickers and coloring books",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Elyse Burns started selling her art on Etsy when she turned 18. Now she's paid off her student loans and did nearly $5 million last year.",
+      "category": "global_markets",
+      "date": "2026-06-13 14:00",
+      "link": "https://www.cnbc.com/2026/06/13/paid-off-law-school-student-loans-art-business.html"
+    },
+    {
+      "headline": "Evergy Stock: Data Center Load Is Real, But Already Priced In (NASDAQ:EVRG)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "neutral",
+      "impact": "Evergy (EVRG) has secured five large data center Energy Service Agreements (ESAs), significantly boosting its projected retail load growth to 7-8% through 2030 and targeting 6-8%+ adjusted EPS growth. While this move makes the utility stock more dynamic, its current valuation of 19.5x forward non-GA",
+      "category": "us_equities",
+      "date": "2026-06-13 13:34",
+      "link": "https://seekingalpha.com/article/4914780-evergy-data-center-load-is-real-but-already-priced-in?source=google_editors_picks"
+    },
+    {
+      "headline": "Iran says signing of Islamabad memorandum will not take place on Sunday - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran peace deal looms while new military action flares near Strait of Hormuz\u00a0\u00a0Reuters",
+      "impact": "Iran says signing of Islamabad memorandum will not take place on Sunday\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-13 13:08",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM0QyenI2aldGY2QzNVRVbnJ5ejkxZmY3VXpTa2o4QkM5dDRTVVoyeEZMampXN3BVc1A2ODIzUmt3cGdVbl9XVkRJam5tVHl4c0xtbkdEcFo0QzdDemZEaEd0dWtSWjM2RG95YmI2bG5Zc2o1SlpKNTI2SDdvMzd3eDV6QkJiamFBUjBVblZ1dm5XS0ZIRDRnOVRQZGEzRURmMm1mM3psMmQ0bXZPUU9oeklCNDREc2hMeXRv?oc=5"
+    },
+    {
+      "headline": "Funeral for Iran's late Supreme Leader Khamenei to begin July 4, burial set for July 9 - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Funeral for Iran's late Supreme Leader Khamenei to begin July 4, burial set for July 9\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-13 12:46",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWWljdFRvWXh3cEM0ODgyOFF1LUVuSTJFSklLNXlPVWxyZks4d0pKQmVVY1RBX0lNSHZ3Vzk1MlZOZHl0bTRRdFAteDEtLWptUnpiMEY2djh4cDNYZHFheFUwaFVCa0hpdU1YMWd4UDFwTnc1Z1kzcGZQNF9SUDVTZGI0VUE3VzRzQWM1OFU0RXJKQXBpMjQxZDNoMldScWNYQnlzaGE4aGtxaFo3RlY3RmJyMnJGdG4xTW9nSHJKM2tPZDN2UUZaX0QzYw?oc=5"
+    },
+    {
+      "headline": "Defaults in debt markets are starting again, warns Pimco. Here\u2019s the bond giant\u2019s game plan.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Investors should increasingly seek out fixed income to anchor portfolios as equity valuations look stretched, says Pimco.",
+      "category": "fixed_income",
+      "date": "2026-06-13 12:00",
+      "link": "https://www.marketwatch.com/story/defaults-in-debt-markets-are-starting-again-warns-pimco-heres-the-bond-giants-game-plan-16559c6d?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Rivian CEO taking different approach than Elon Musk for humanoid robotics company",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Rivian CEO RJ Scaringe started a robotics company late last year called Mind Robotics that he says has has raised more than $1 billion.",
+      "category": "global_markets",
+      "date": "2026-06-13 12:00",
+      "link": "https://www.cnbc.com/2026/06/13/rivian-humanoid-robots.html"
+    },
+    {
+      "headline": "Drugmakers race to find a place in the next wave of obesity drugs  ",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Drugmakers are betting they can crack into the obesity drug market that Novo Nordisk and Eli Lilly currently dominate.",
+      "category": "global_markets",
+      "date": "2026-06-13 12:00",
+      "link": "https://www.cnbc.com/2026/06/13/glp-1s-lilly-novo-pfizer-look-to-new-weight-loss-drugs.html"
+    },
+    {
+      "headline": "Pakistan PM says US-Iran peace deal signing expected within 24 hours - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Pakistan PM says US-Iran peace deal signing expected within 24 hours\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-13 11:19",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRkRJSW8xc3RxTVJ0QnN0VnpIcHNGQUFnNGtKbDQ0bXY3b0F0TWs5U1ZoTVFvMnlQeHlWdDVHRjJobjl0RHd4RGd5LW1US3E5aWs1THNRRTRFbnVzTjZiUUMwb0gzZFlOTU0wWFI2SmRtVm1XcHJRQkR6QkxldVBnS01wclpLb01FMU9xOENLazdEdjdGWWwwYU9TRmUxUnpDRnlodU9qNzZEWXBHMjVQdTFEM29mWER1MUVhcl9Ic3g?oc=5"
+    },
+    {
+      "headline": "Mediator Pakistan says US and Iran expected to sign initial deal within 24 hours - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Mediator Pakistan says US and Iran expected to sign initial deal within 24 hours\u00a0\u00a0Reuters",
       "category": "global_markets",
       "date": "2026-06-13 01:33",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOFNVaW1EQjcyVjlOZGtnLTdLXzctb2RqaXlFY0RfQ2FscHk3Y2NvYUkzZms3TGk1NHhoaGJGY21fV3hDa2VYYm4zRnVOTHpMYXJhOXk0UUdycFJMNlRNQ09SRFhXRTZvS2JiMDhtNlkzc2pIMWVrdm1mWGp0OUlIdHYwbGVDOGhUeW5FeFQ5ekdiY0RobFZjTDkyVnJONEhXM01TX1FKcE5INUg2RDlxWHpBa3RNRDEyX1J2SGlHd1pEVl9ZLUMw?oc=5"
@@ -178,7 +250,7 @@
       "sentiment": "neutral",
       "impact": "Exclusive: US forces shoot down Iranian attack drones, source says\u00a0\u00a0Reuters",
       "category": "us_equities",
-      "date": "2026-06-13 00:41",
+      "date": "2026-06-13 00:40",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLVpqblpRT0R6RGd1RUJmVjhfQi12S3JhbUJwM2dsM2hVSGRtMy02UkZYZTdseUI4YzRyMEFzOGpqNTdiRGkwdVB2R0oyX0otZDFQXzhENzYyVnpvMnNVUWZ4U0N5MzZETmp0OG5RcmdfWGV5elVlZktyeXVObThKNUlIa1N2dUtTdDUweGxwV0ZDeC1QeW9rd3p5RWhVVFRRRVdLYTJhQ2JxbnFt?oc=5"
     },
     {
@@ -200,76 +272,6 @@
       "category": "us_equities",
       "date": "2026-06-12 23:01",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeXNKNzNQRjdTSU90RjJ6d0JSM1FNVHRUQ1Q3VTM1VTlRSWZfVkoxcU9DRzQxRkE5R2JNdk9QelpoS3RoS29rNGVJTzNpWnVydDdweHhlcEVpd2hWNFVKcV9JUWNpODNzdGVSVlRTUVNKenhMdWpIZGd2RlRwWlBSNS1lWkNfRkRUdFBlUzNYemNtclNFcTdRR2Q4eWMyaERXV3dLc1VMQWQwdVAyUzVvNQ?oc=5"
-    },
-    {
-      "headline": "Paramount-WBD merger wins approval from DOJ",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The DOJ approval is an important milestone for the roughly $110 billion deal, though it could still face legal challenges from state attorneys general.",
-      "category": "global_markets",
-      "date": "2026-06-12 22:54",
-      "link": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html"
-    },
-    {
-      "headline": "Exclusive: UAE to unlock billions of dollars for Iran, sources say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Exclusive: UAE to unlock billions of dollars for Iran, sources say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-12 22:40",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdU8xSkdDSVRGOXhzQTVoemlTUi1GaFEyMzFNSUFXdGdQd21pbUNENTdfX01KaGFXdGQ5RklfMVNiSDlBRzRvb0xZVkU1dVd6Q0NTakI1WmxVaXZMMlVtUHVEZ2I1d3NkbExTQXU4RlRSQVhueHE0RU9sbTg5VjJWU0VwUjRMeGJtRmhXbzBQM013T3p4Y05JU2JnZkt1d0k?oc=5"
-    },
-    {
-      "headline": "Iran team chief slams FIFA\u2019s 'lack of coordination' on visa issues - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran team chief slams FIFA\u2019s 'lack of coordination' on visa issues\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-12 21:37",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUHRxMTh1ODhKYUFzZk5Gd1dWY1IxSVpCTm1Oa1BybHMwbFA4S0xXWUhvbzZMMm54YjFScjdiZ0xMSjY0TFlYMXE3aEl6czdrWVdYN05YdnA0MEpPc0d5NnlvaEl5UDJZVW5KNUY1SFNERUxZbm1SYjdsQWJZbm5YUU1mWDZ5TklhNWJtU1lRQ2RCQjlwOXFrVHdwNTJabnJxVXhOdGlXZ0VoNVk?oc=5"
-    },
-    {
-      "headline": "Brent falls to lowest since March on expected peace deal - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Brent falls to lowest since March on expected peace deal\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-12 19:53",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWg3TG5xNExlOE40WERlbU5TdUMwQlNZSC1TYUVKZV9HN1M3LUNoRGlCdkQ4cmRhQ1UtUkdJSDBrMzN4dGlHOWZ0b18yTFo2SHR1UTBGYkoxTS11aGNMTHAzRGFtMVNSQzRRZUtwLXRxWGsyN3FwVm9XY2stOHN4X21BOU91THhlb0JIakhjVGNEWmpQTkxzZzhONlhlUzRGS1dZdWQtOXAzZWs?oc=5"
-    },
-    {
-      "headline": "Since March, Trump has repeatedly said the Iran war will end soon - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Since March, Trump has repeatedly said the Iran war will end soon\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-12 19:50",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbXdqTDl6UFBIS2llelo4cy1oak03OGhGUm1aeXUwRkRoS1FjNFl2RDlrZWhTOEhYVWh2OEdOWmNiRzRDQmloQmlBOHZhallUQlA5aDdueDdEZ1BWdlVVeTg5VFJXZTd0cTRLYWt3UGEyS3daMEMzS1RhcFQzQ2dMTWFtdUFtU28zeF9KVk45TWpNemMyTzZ0Wkt6bEx6TURMQWc1UA?oc=5"
-    },
-    {
-      "headline": "Iran's Araqchi says no nuclear talks unless interim deal is implemented - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran's Araqchi says no nuclear talks unless interim deal is implemented\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-12 19:49",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZW1EWW5tX21JUEswcDNaWkVhMXlvLUYtcTI0V2lHUlc4WlMwLWstZVVCZ2hPQUlLNTVjWV9veHRINy1SbzRvSGJpNmFZSjJKclp2TGhlel9EX3BkTkp0aUpnNjc2WGJqTGJ1RWJuelNCTU5wR1hCZkI1RDBHdW9kUVJMVFN3NDA4c1JrMDhtZmFibzJ6UmhsU1JiVERjcy1DRDQ3V0ZPQm5VRkx5RUxBQVhnbV9vM2NNNHc1M0c0UVQ3Zw?oc=5"
-    },
-    {
-      "headline": "Main provisions of the 2015 Iran nuclear deal abandoned by Trump - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Main provisions of the 2015 Iran nuclear deal abandoned by Trump\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-12 19:15",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYWF5dHdWaVdpUDJyTGhITHFvbGZUT21ORWtPbk1wRzk5X0RQWkZTN1p2TmRnS04teFdrTDZlRE9mNEh2TzdHd3VMZW85M25YZHhvbklwX2Q4OE9lQnBRbmY4NlFYSG5iSWhYWHpFQnM5UVBXOHRiX1dXc0FCSWpBa29oaGxXVTdvc3BmNk1qZE43TFFyRXNoNXFjRXRrRFN5XzM2Y0syVGVVZTF1eFlWQg?oc=5"
     }
   ]
 }
