@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-19T10:12:21.791449",
+  "timestamp": "2026-06-19T16:32:12.794966",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 7,
-    "neutral": 16,
-    "bearish": 2,
-    "high_priority": 9,
+    "avg_relevance": 7.2,
+    "bullish": 9,
+    "neutral": 12,
+    "bearish": 4,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
-    "Bloomberg": 3,
+    "Reuters": 9,
+    "Bloomberg": 4,
     "Caixin/S&P Global": 1,
-    "CNBC": 4,
-    "MarketWatch": 1,
-    "TradingView": 2
+    "CNBC": 3,
+    "The Wall Street Journal": 1,
+    "T. Rowe Price": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,18 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Fed\u2019s Warsh Rocks Bond Market in Debut, Sparks Surge in Rate-Hike Bets",
-      "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "Traders piled into betting on interest-rate hikes as soon as next month after Kevin Warsh used his debut press conference as Federal Reserve chairman to make clear the central bank won\u2019t tolerate high inflation.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-17 22:17",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-17/warsh-rocks-bond-market-in-debut-sparks-surge-in-rate-hike-bets"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -119,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,8 +120,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-19 10:12",
+      "date": "2026-06-19 16:32",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Gold slips as hawkish Fed signals lift dollar, boost rate hike bets - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Gold slips as hawkish Fed signals lift dollar, boost rate hike bets\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-06-18 20:30",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa254NGd0TnM3NEliRVJYV2J3blZ4NzZ0b1dhMEMzSE9YWG9qQ2xmSzE3WHN1cEV1WXVrVGkzcUhFQVVnZXVtT2cyejY3UzdLM3JtRVlzaVpWNzNDZXdzOHlveGk3Wm13aXpaQVVTVnZYT0xZRmxHcXJtNTlsOEFYeXJaWEdKeHR0MWVnT3hJNkRYbFVCUEJEM0RCbjd6QQ?oc=5"
     },
     {
       "headline": "US Treasury imposes sanctions on Lebanese officials, others for aiding Hezbollah - Reuters",
@@ -143,24 +144,44 @@
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcnd4QjhkclBlbnVhMzZNeXM4cF9ocHhzY3E4c2hlWWlsWGhuWTdPRzlZWFo3Yzh0WllCNFE3V1JERExSdHZRMElQZkl6V05HNGIyLVgtN1p6OEdNTFVydVNxMTE1Q0hFZXY3NHdYQkhRRTBUNnFmZ0hMdHdUd1RNRUF3NlVmOE9Vb1RIQ1hTU25rVUZOdFc1YmFZWTl6b3VnMlVQMURGWm1wSWY3QkFVRHkzYm9sdmFQSEZfS3NPSkVxS1lX?oc=5"
     },
     {
-      "headline": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-18 17:24",
-      "link": "https://www.cnbc.com/2026/06/18/markets-are-set-for-a-much-more-hawkish-warsh-fed-than-expected.html"
-    },
-    {
-      "headline": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates",
+      "headline": "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "category": "us_monetary_policy",
-      "date": "2026-06-18 06:18",
+      "date": "2026-06-18 12:42",
       "link": "https://www.cnbc.com/2026/06/17/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Stock Market Today: Nasdaq Set to Rebound, Gasoline Prices Fall Below $4 \u2014 Live Updates",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-06-18 11:45",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-18-2026"
+    },
+    {
+      "headline": "US Treasuries Rebound After Warsh\u2019s Debut at Fed Stoked Selloff",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "US Treasuries recovered from a selloff after the new Federal Reserve Chairman Kevin Warsh positioned himself as a credible figure to fight inflation.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-18 10:49",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-18/us-treasuries-rebound-after-warsh-s-debut-at-fed-stoked-selloff"
+    },
+    {
+      "headline": "Goldman\u2019s Kaplan Says Fed May Hike by Fall, Sees Risk of More",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "The Federal Reserve may need to raise interest rates as soon as September if inflation remains elevated, according to Rob Kaplan, vice chairman at Goldman Sachs Group Inc. and former Dallas Fed president.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-18 09:07",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-18/goldman-s-kaplan-says-fed-may-hike-by-fall-sees-risk-of-more"
     },
     {
       "headline": "CarMax shares fall after used car retailer reports earnings beats, CEO details turnaround plan",
@@ -173,104 +194,84 @@
       "link": "https://www.cnbc.com/2026/06/17/carmax-kmx-q1-earnings.html"
     },
     {
-      "headline": "The Fed\u2019s new hawkish reality just forced Goldman Sachs to slash its gold forecast by $500",
+      "headline": "Are higher interest rates here to stay?",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "T. Rowe Price",
       "sentiment": "neutral",
-      "impact": "Strategists at the investment bank see gold rising to $4,900 a tonne by the end of the year instead of $5,400.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-19 10:03",
-      "link": "https://www.marketwatch.com/story/the-feds-new-hawkish-reality-just-forced-goldman-sachs-to-slash-its-gold-forecast-by-500-c166d99f?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Lebanon hostilities escalate, weighing on US-Iran deal - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Lebanon hostilities escalate, weighing on US-Iran deal\u00a0\u00a0Reuters",
+      "impact": "This article examines whether the recent rise in interest rates is a temporary spike or a more permanent shift. The author argues that while geopolitical events like the Middle East conflict have accelerated rate increases through their impact on oil prices and inflation expectations, deeper structu",
       "category": "global_markets",
-      "date": "2026-06-19 09:31",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDU0b09vektQdnBEbFN3LXFOMjFUQk0ybEdGV3EyZnpibE13akNnNzVVVHZjRkZIX1ZjYjBUM0ZHTTNSdTVWWTJPTGpGQkJhMndMWDFqYnQ2Zjg2eEVPWm41Q0otVmhvRHZTOUo1MEx5Zi0zd3JINUZXb25fVFBONHJhUHNoT3VPTWxlYWFfVDlwY0htS0FfMnpBWkIwSWoxNm9HTFZieGF0RmtsMjRmZQ?oc=5"
+      "date": "2026-06-19 15:38",
+      "link": "https://www.troweprice.com/en/dk/institutional/insights/are-higher-interest-rates-here-to-stay"
     },
     {
-      "headline": "C6427623 Bond Price and Chart \u2014 FINRA:C6427623",
-      "score": 6,
-      "source": "TradingView",
-      "sentiment": "neutral",
-      "impact": "This article provides details on the C6427623 bond issued by Citigroup Global Markets Holdings Inc., due June 29, 2029, with a 4.6% coupon. It includes key financial terms such as outstanding amount, face value, minimum denomination, and ISIN. The bond's issuer, Citigroup Global Markets Holdings Inc",
-      "category": "fixed_income",
-      "date": "2026-06-19 09:06",
-      "link": "https://www.tradingview.com/symbols/FINRA-C6427623/"
-    },
-    {
-      "headline": "C6427622 Bond Price and Chart \u2014 FINRA:C6427622",
-      "score": 6,
-      "source": "TradingView",
-      "sentiment": "neutral",
-      "impact": "This article provides detailed information on the Citigroup Inc. 5.5% 26-JUN-2041 bond, identified by FINRA:C6427622. It includes key terms such as outstanding amount, face value, coupon rate, maturity date, and issuer details. The article also describes Citigroup Inc.'s various segments and operati",
-      "category": "fixed_income",
-      "date": "2026-06-19 09:06",
-      "link": "https://www.tradingview.com/symbols/FINRA-C6427622/"
-    },
-    {
-      "headline": "Brent heading for over 8% weekly loss as traders weigh US-Iran truce outlook - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Brent heading for over 8% weekly loss as traders weigh US-Iran truce outlook\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-19 08:59",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcG8wSGhHblhWdlppN2pVNUt0WFExeHM3a2xOS19weUVYRmEtSnQtVlRMNnBxY0hoZkF4b181N0FmTTQyNkFfYTduYUJHSGlreF9vSC1Ib1RPRFU1RERHRngtYWUwTEt0ZkpPSFdlOHBZMF9BN1JMenpYTzcwZ0RzOENHQ2Q1VTc2R0poVWdaTUNLc1lJbjMzRmttWW9LOC1FMWtHU0ZlTQ?oc=5"
-    },
-    {
-      "headline": "US-Iran peace talks postponed, clouding prospects for lasting truce - Reuters",
+      "headline": "Lebanon ceasefire agreed after US-Iran talks in Switzerland scrapped - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US-Iran peace talks postponed, clouding prospects for lasting truce\u00a0\u00a0Reuters",
+      "impact": "Lebanon ceasefire agreed after US-Iran talks in Switzerland scrapped\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-19 07:55",
+      "date": "2026-06-19 14:55",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGlIRzVkQXRyMi1KZ2xpUGFScEtiNlk2M2VjV0t2M0xsY1NYcFJfQXNxSTFDSXFjaXZmNDVMWkVvU00zX0tXTE80MXpFUlVUeE8xOW1USzJtTERYV09YRU4zbnRic1NwaG1WRHVRT2s2TTl4NkgxMjNVMEtsS0pyQl9ldURhQVkwTzdzcG5sajE3bzhSS1h5NWpoWDJZd05HdTFodHd6azZjN2JLT25xaA?oc=5"
     },
     {
-      "headline": "No UN sanctions lifting on Iran without France's approval, foreign minister says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "No UN sanctions lifting on Iran without France's approval, foreign minister says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-19 07:45",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTFpEdmJrUXJmcHhZcmRrYTk1SlgzOE1fTjlCWjBiZHNkN204RVlRbllNUVppeGhnaHNKX05TYVhILVM1TEZWcm0zRnMxdUlYMGR2UWxaUzlqcVZWMll0SUlETU4zcmZCLWFYOWhzNWl4SDNaYXY2ZVRIMmlNNFIzUTM1bHlnVHRIS09pMzJEcU45bEN3N3pSZkVLUHZJZ0ZOal9MTzhiN0dEMkI3NTNQT2x6WXlET2ZjY2VoUU0wTnFLTDg2bWZkVA?oc=5"
-    },
-    {
-      "headline": "EXCLUSIVE: Iran's Revolutionary Guards set up covert Iraqi cells to attack Gulf neighbors, sources say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "EXCLUSIVE: Iran's Revolutionary Guards set up covert Iraqi cells to attack Gulf neighbors, sources say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-19 06:03",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdVVhdU1ZeHBCU08wQ0tpY3l4MXNnQWVaeFRzakJETHVFV2Q0Y2c3eTc3WjRKaVJBWTNUNkpncjh1WmQ0eFM2LTc0YzZfZzYyZlFwOW9TQ0V5S2cxalFaTWlDUlhrMDBaWU9uV3o5WXZsQjVSREFrQlNHQXNGX2lSbU1FSllXR2pKWFM1M3M2amJjZ0EtUXQtNDRTbWVtMFBuUDU3MUJKdTlDcWhZZ0pNQWRQa210ZVBmNXJmNnM5REM2NGt3eXpn?oc=5"
-    },
-    {
-      "headline": "U.S.-Iran accord hits early snag after Swiss talks fail to proceed as planned",
+      "headline": "29-year-old making $250k in tech went 'undercover' at a coffee chain before opening her own matcha cafe",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Analysts reckon a lasting resolution to the Middle East conflict will take some time to materialize.",
+      "impact": "Michelle Yeung wasn't happy in tech, despite earning $250,000 a year. Before opening Matcha House, she spent months learning the business.",
       "category": "global_markets",
-      "date": "2026-06-19 05:56",
-      "link": "https://www.cnbc.com/2026/06/19/us-iran-talks-switzerland-canceled-interim-deal-markets.html"
+      "date": "2026-06-19 14:00",
+      "link": "https://www.cnbc.com/2026/06/19/29-year-old-software-engineer-worked-undercover-at-a-coffee-chain.html"
     },
     {
-      "headline": "US-Iran peace talks in Geneva called off, clouding prospects for lasting truce - Reuters",
+      "headline": "For Vance, Iran talks could shape political rise - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "For Vance, Iran talks could shape political rise\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-19 13:47",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQWlnWFI3SUZDeUtiRU9JdURpYTJhMkM0Qzdzay01VGNKbFBXRDdNZURuX2h4TFNrdGVhYlF0QVcxaHY0cG5FNTIxSVRpVG9yOENHbnF1M2ZJRkpYb01kdUg5YWlhRHljMXhBcll5d2xNLTVaQXZQZDh2LWZhcU9TREVLYnl5MDUtdVQtdVlqOUQyQQ?oc=5"
+    },
+    {
+      "headline": "Israel, Hezbollah agree to ceasefire starting on Friday -U.S. official - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US-Iran peace talks in Geneva called off, clouding prospects for lasting truce\u00a0\u00a0Reuters",
+      "impact": "Israel, Hezbollah agree to ceasefire starting on Friday -U.S. official\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-19 05:55",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLW9pazRsVVhsZUZKVDZfWDF6SFhUdDFJMkJ6Snk5bDgtN3JpMC1WUTBmdWN1N09Hby1TOGRndFRhSW1kUUJRTjd5dXVqMWdnbUdwXzFiREp4WVhGN2l1aE5BaFd0RThIUXU3WjRqN190R2xRMFRZZ2IxN19ZSFNIQXhXRmZmdndmcExjLWJOamVpRnZRSnd3aW1jREY4UXNaMVVTR2VpYU9YRVR0RE1EQW81bTFad3FsamZ3bFczLUszSU0?oc=5"
+      "date": "2026-06-19 13:18",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNVlqdUp2WDdfZkNqcDlJbkVnTTh5aTZITlJaYkVUd0NEQl81b3ZodFZleFV3em5mRldLdWUySURpd2N5ZGlQREdRWDlUcUZCVHdmQnhNN3VvS21NRDFuQmZMb3UtSEFSaHY2YVlxV2NkMGRQVTA4SllfczlrVGVCaE1ibkhXNmlsZl9xQlcwTG1vYXRIQmp4bFpoZkFkZDNRTk9KdDlsbGg3NWs5cFFoVUk0NWZZUQ?oc=5"
+    },
+    {
+      "headline": "Oil shipments rise in Hormuz although questions grow over Iran's transit terms - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Oil shipments rise in Hormuz although questions grow over Iran's transit terms\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-19 12:26",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONmxOVHFxZFJqT0MyRms0akxNMzFSVG45ZDFFVHFjZkZrMmh0anBuak5MYjlwWWw3Vy04LWl1b3oxbnZHSGRqQ2V0cWN5WUhxbHpZdXRCQmdpZGpsUk40RWl3dlVyTWtTUTRQOUtjbHM4NUJtTlpwZWtMMmx3REpQMWl6OWJEYzVhSHpIVkVicGVSdzdiaHd6WkU4ZENSaWZlUVVVUFNXYTktZDRDSVdZMmRuWXhPWFBBS2RLMk01OEo0eWFy?oc=5"
+    },
+    {
+      "headline": "Fed watching is looking very different now. Two charts can help you in the Warsh era.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Kevin Warsh is forcing Wall Street to do the heavy lifting. Use these benchmarks to find your footing.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-19 12:10",
+      "link": "https://www.marketwatch.com/story/fed-watching-is-looking-very-different-now-two-charts-can-help-you-in-the-warsh-era-d2372c15?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "\u2018I became invisible when I turned 60\u2019: The hidden crisis of late-career unemployment",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "A job loss is devastating at any age. After 50, it can completely shatter your finances.",
+      "category": "global_markets",
+      "date": "2026-06-19 12:00",
+      "link": "https://www.marketwatch.com/story/i-became-invisible-when-i-turned-60-the-hidden-crisis-of-late-career-unemployment-5bf76c00?mod=mw_rss_topstories"
     }
   ]
 }
