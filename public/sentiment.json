@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-22T11:34:58.339588",
+  "timestamp": "2026-06-22T18:13:13.577620",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 6.9,
+    "avg_relevance": 7.1,
     "bullish": 8,
-    "neutral": 16,
-    "bearish": 1,
-    "high_priority": 8,
+    "neutral": 14,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,14 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 13,
-    "Bloomberg": 2,
+    "Reuters": 9,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "CNBC": 1,
-    "TechStock\u00b2": 1,
-    "GlobeNewswire": 1,
-    "MarketWatch": 1,
-    "Investing.com": 1
+    "CNBC": 7,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -31,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,8 +98,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "S&P 500, Nasdaq fall as megacap tech drags; Iran developments watched - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "S&P 500, Nasdaq fall as megacap tech drags; Iran developments watched\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-06-22 16:52",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDQxcFBhNUJhWlNpLXhmbHBEcUMxSG00alpWU2t3bGpwWU82RUFLZmVFWklDZWpJSjg0a2dYdm14bkoxN3BYanhxUTMyZGprZ25rVlpCXzNQV3NaQmlUcVMydlp5eEdUQ1FMWU92ckNXWjhzTWt5R3NvNTV0UmFtbkhjTExKRm1hWlNPWThBemtwMExrWm9jcFFac2VHZVpmMmFYRGx1dWc?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -111,7 +118,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -121,8 +128,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-22 11:34",
+      "date": "2026-06-22 18:13",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "SpaceX makes bond sale days after record IPO, discloses over $100 billion cash pile",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "SpaceX on Monday unveiled a senior unsecured notes offering and said it held about $100.8 billion in cash.",
+      "category": "fixed_income",
+      "date": "2026-06-22 13:27",
+      "link": "https://www.cnbc.com/2026/06/22/spacex-spcx-bond-sale-ipo.html"
+    },
+    {
+      "headline": "Soaring Profits in EM Build the Case for a Raging Bull Market",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "For the first time in four years, companies in emerging markets are beating profit estimates, giving investors a fresh reason to believe the bull market is just getting started.",
+      "category": "asia_economy",
+      "date": "2026-06-21 12:30",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-21/soaring-profits-in-em-build-the-case-for-a-raging-bull-market"
     },
     {
       "headline": "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
@@ -135,44 +162,94 @@
       "link": "https://www.cnbc.com/2026/06/21/how-kevin-warsh-has-set-out-to-remake-the-fed.html"
     },
     {
-      "headline": "Western Digital (NASDAQ: WDC) rises as storage shortage plays out",
+      "headline": "'Reward for failure': Investor support for Target Chair Brian Cornell falls to lowest level ever",
       "score": 6,
-      "source": "TechStock\u00b2",
-      "sentiment": "neutral",
-      "impact": "Western Digital (NASDAQ: WDC) shares surged by 4.86% as investors capitalized on the perceived AI storage scarcity and anticipated the completion of the Sandisk share exchange. The market is betting on durable hard-drive pricing and strong gross margins, driven by customer demand and a shift towards",
-      "category": "us_equities",
-      "date": "2026-06-22 10:58",
-      "link": "https://ts2.tech/en/western-digital-nasdaq-wdc-rises-as-storage-shortage-plays-out/"
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Target Chair Brian Cornell built the retailer into a $100 billion-plus giant, but recent struggles and underperformance have fueled investor calls for change.",
+      "category": "global_markets",
+      "date": "2026-06-22 17:55",
+      "link": "https://www.cnbc.com/2026/06/22/target-brian-cornell-shareholder-support.html"
     },
     {
-      "headline": "YieldMax\u00ae ETFs Announces Distributions on MSST, NVIT, and TEST",
+      "headline": "Final Trades: Vistra, CRH, Rockwell Automation and Generac Holdings",
       "score": 6,
-      "source": "GlobeNewswire",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "YieldMax\u00ae ETFs announced distributions for its Performance & Distribution Target 25\u2122 ETFs: MSST, NVIT, and TEST. These weekly distributions have ex-dividend and record date of June 23, 2026, and payment date of June 24, 2026, with a target annual income level of 25%. While aiming for current income,",
-      "category": "fixed_income",
-      "date": "2026-06-22 10:54",
-      "link": "https://www.globenewswire.com/news-release/2026/06/22/3315149/0/en/yieldmax-etfs-announces-distributions-on-msst-nvit-and-test.html"
+      "impact": "The article from CNBC's \"Halftime Report\" highlights the top stock picks from its Investment Committee. The featured \"Final Trades\" include Vistra (VST), CRH (CRH), Rockwell Automation (ROK), and Generac Holdings (GNRC). The content of the article is primarily a brief announcement for a video segmen",
+      "category": "global_markets",
+      "date": "2026-06-22 17:19",
+      "link": "https://www.cnbc.com/video/2026/06/22/final-trades-vistra-crh-rockwell-automation-and-generac-holdings.html"
     },
     {
-      "headline": "A major test is coming for the stock market, and Morgan Stanley warns that the Fed won\u2019t rescue investors",
+      "headline": "Alan Greenspan\u2019s legacy as Fed chair: the \u2018Greenspan put\u2019 and a shift to overprotecting markets",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "The stock market faces two key headwinds after the new Fed chief said he won\u2019t come riding to the rescue.",
+      "impact": "Greenspan, who died at age 100, opened the door to issues that still bedevil the Fed.",
       "category": "us_monetary_policy",
-      "date": "2026-06-22 10:54",
-      "link": "https://www.marketwatch.com/story/a-major-test-is-coming-for-the-stock-market-and-morgan-stanley-warns-the-fed-wont-rescue-investors-2ae93faa?mod=mw_rss_topstories"
+      "date": "2026-06-22 15:42",
+      "link": "https://www.marketwatch.com/story/former-federal-reserve-chairman-alan-greenspan-dies-a7a4030d?mod=mw_rss_topstories"
     },
     {
-      "headline": "BofA now sees no Fed rate cuts until 2028",
+      "headline": "Lucid to lay off roughly 18% of U.S. workforce, COO Marc Winterhoff leaves",
       "score": 6,
-      "source": "Investing.com",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Lucid Group is cutting its U.S. workforce by 18% as part of a cost-savings plan. It also said COO Marc Winterhoff is departing effective immediately.",
+      "category": "global_markets",
+      "date": "2026-06-22 15:37",
+      "link": "https://www.cnbc.com/2026/06/22/lucid-layoffs-evs.html"
+    },
+    {
+      "headline": "Rubio heads to UAE, Kuwait, Bahrain to discuss Iran deal with Gulf allies - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Bank of America has revised its Federal Reserve outlook, now predicting three interest rate hikes this year, totaling 75 basis points, with no rate cuts anticipated until 2028. This shift is driven by persistent inflation and a resilient labor market, with BofA analysts suggesting that a significant",
-      "category": "us_monetary_policy",
-      "date": "2026-06-22 10:36",
-      "link": "https://www.investing.com/news/economy-news/bofa-now-sees-no-fed-rate-cuts-until-2028-4752098"
+      "impact": "Rubio heads to UAE, Kuwait, Bahrain to discuss Iran deal with Gulf allies\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-22 15:04",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa3pPeDA3VWswbEdsWVBhVWxMcE54bWlTbTd3RXJiajBUeDR6cTFqMlVhTHQ4YndKeTRkRDE0Vmxpd1F4ZkgyakNPSHdrQnRuQXpvZk5wLWRRa1hRRVo2a053cFdZOUM4SWZtOFUwQVpkSTJNeHpRcFdIM3BVUnlhMnFyUExELTVhbEc2WTlBd1BzM0ZNZjNmT3JnVm5sNzBWT19NY1BKZ1ZmZFcwckFxXzNrSDhFZl90clA3Sg?oc=5"
+    },
+    {
+      "headline": "US authorizes Iranian oil sales amid talks on final peace deal - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US authorizes Iranian oil sales amid talks on final peace deal\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-22 14:46",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYzdZaTNrdXFNYWlPV2hKM1g2TDZkUFRmM3pMTE5HZzc1NnRuY1Y1cEdkLWl4bWpWOWFHdmZnMDN0cS0zdFdOeVIzalM0cGN1Yk1PV1lmc0I1NElkUjI5cWtKQzVvdHVqZFFNUm9nT01BZDdlYXFJdnVPM2NiMF9mUFduSFhlcUZWUjV0RVJtY0NFcFVmSElZSXk0V1IxN3ZrLXc?oc=5"
+    },
+    {
+      "headline": "The Club's top 10 things to watch in the stock market Monday",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Abbvie makes a move in M&A, and SpaceX is started with a hold rating at KeyBanc.",
+      "category": "global_markets",
+      "date": "2026-06-22 13:21",
+      "link": "https://www.cnbc.com/2026/06/22/the-clubs-top-10-things-to-watch-in-the-stock-market-monday.html"
+    },
+    {
+      "headline": "UPS to invest $48 million in temperature-controlled facilities amid healthcare boom",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "UPS is announcing a new investment in healthcare logistics as demand for the temperature-controlled category booms, CNBC has learned exclusively.",
+      "category": "global_markets",
+      "date": "2026-06-22 13:08",
+      "link": "https://www.cnbc.com/2026/06/22/ups-healthcare-logistics-investment.html"
+    },
+    {
+      "headline": "Oil tanker traffic picks up through Hormuz - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Oil tanker traffic picks up through Hormuz\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-22 12:31",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaHlxenJFdEF1NHdsVVVwWm0yaFNYX0ZtRWxNRkZFd0dmNF9senMxQ2h6S0hrTjdsSldRMm5UbjBDckZnT1dhdktteW43WXduTkstWThMUWsyTnZ3WnVZMnM1SGF6dGRWd2FpRVlTOUg0bXB3SFFNUmF2SUVEclNDWWRYLXNWbTc0bEpwUzV4TGxiSndjaXluUjNQYXQ?oc=5"
     },
     {
       "headline": "Airline ticket prices may stay high as carriers bank fuel relief from Iran deal - Reuters",
@@ -193,86 +270,6 @@
       "category": "global_markets",
       "date": "2026-06-22 09:16",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUd1TkUtQ2RTNmZWcDNhUkRKNzdzeE40NVhQRVIwSElGdHRwc2JyXzV6cTE4Wkw3WmxTWDQ2emFyQkxqZDNkdTlOdDUwN1ZYZmpmTFdtZDFqYkpBS0xQQjNySkxMalJlZ0VsUFFYbERCQUkxMl9hM1ByUVB5VXpVWFo2Si0wQzFyUUZELUlRSndYOFJDR0h4NnZMVmpFTDU2cnhwTmdOUks4UmtPNWs5ZGJZcno0eU0?oc=5"
-    },
-    {
-      "headline": "European shares muted as investors weigh U.S.-Iran talks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "European shares muted as investors weigh U.S.-Iran talks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-22 07:29",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDFvY2xfY0xGSDhHVGV3VHdkSmdoeWtyVkdqenNCR2dvbWtBVFhqZlkxcEMwbzRIbFdNMnZqTFd5YnNjN0dyT20zdWpEek5SMTdHMlBEaGdaX2ZoeVFNQi1wcTNHWkFTMjBZcWZtQXJ4SEZ0MDlXcjA2cGxNTWNIRFV4TzdYRVZGVlV3QUpzNkVLcm9ENGI2SG93NWp6MmF5SlZQNA?oc=5"
-    },
-    {
-      "headline": "Iran war triggers global race to build oil reserves - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran war triggers global race to build oil reserves\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-22 06:06",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ2VKQXhDQ0hnaDQtUUhLb21EZUhxSUVsQnBwUXBQMUMxYzRNWHM3ZkZmUDJubXFQZDBzY3JzTU1fdmtxNTBEN3RzazFRa2FHTWtfNnk1R3F1eVFmWkFyVG1sX3VPejFSNWZoU3NYZUJQZFlTWHZVZlhfd2FLcEJwUXpjVWhXYWJYOEgxZTROMFZQTDhMT3hfaTVyTGZGSHlnRXBkT1hQc0pvR2w4ZC1FdXRfQ1pYak54?oc=5"
-    },
-    {
-      "headline": "Iran leave note of thanks in LA locker room after draw with Belgium - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran leave note of thanks in LA locker room after draw with Belgium\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-22 04:17",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmdpVk8ySmlSOWJRQjJ3YXI5VGFKcm5DUkZab05LcjBXS2t4bG9yaFdORHJxcXRRc0Q5cGFPbG1tTlVfY3FSX1JwRXRMNEZydWxsVlZCMEN6MXRQTUhlZ00ydnBVMXZtZFRzTWp2WjBfM1ZBYlVHTFpQNVFGRVFvS1plRXY1ZXZBNHQtdjF5SEZ4NTRLRXVxQVFtYWJOdzVwRU5wS2p3ZkdmZWlOaUotZg?oc=5"
-    },
-    {
-      "headline": "Rupee snaps six-session winning streak as firmer dollar pinches - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Rupee snaps six-session winning streak as firmer dollar pinches\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-22 03:14",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa2NHT184T1JKOE9jMlk2cnZ0VEFZTVA2X2ZNZ0M2V0JXSGJiSTBBT29JS1Vlejl3eWdqMHY1QlcydVl5WjVUblVsMll0X2hLS2J4Ylg3QjZINnRXZFJHUloybUIxdFNmYzBuX2pfckdSc0FpOHVpZ24wTWdPOFZCcHFMM2Nja0tyX2xjLUNiWFN6V3JCWDlMRjRnY2xCNUNOaVdr?oc=5"
-    },
-    {
-      "headline": "Indian shares rise on Mideast peace hopes; Reliance gets Jio IPO boost - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Indian shares rise on Mideast peace hopes; Reliance gets Jio IPO boost\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-22 02:28",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnl3WUZuRzA2cHZxX3Bsal8yQlJxUEtFM2NDUk9NcXVXNWZfdVVTazhJTkEzd0k1S3hCc0x2U0dDbnBsQlNPaE9hRFZwV3RzVkJId3UxVmJYbjBPci1hU1JJMTF6M1Njd3dJOEdTVndxcXRINFFLMzVaaHhNMUcweFl5bEZkNExuUXl6OGZLRzA2ZXhxdTNQeFFKaTdEWDI4U0FDOHRB?oc=5"
-    },
-    {
-      "headline": "Gold rises after three-session loss on encouraging US-Iran peace talks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Gold rises after three-session loss on encouraging US-Iran peace talks\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-22 01:35",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWG14bzR3eVBkdmFpZ0VoT0tBUzRBbG0wZVUzWW9wN0hqbDV5SDlYUl9WRWxSZE9sZGsxc2ZCVEhHVDdhQUp0LW5MME0zOTRQM2NCb0h0eGlzZzFNODFVc1NBSFdVYkZCNzg3UnZiYUhpOWRCb0tfUFZaNVlrRDFRX0c2c1M1b3B2U3BROWwwQnlXT2N4LTZJOTRpbUVxdFhycXhQNkp5MzYyQQ?oc=5"
-    },
-    {
-      "headline": "Dollar gains as investors watch US-Iran talks; yen nears 40-year low - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Dollar gains as investors watch US-Iran talks; yen nears 40-year low\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-22 01:11",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVjRxZXNFeklzd3pqbW9WcEQ2Z3AydlJET29VdmV3TUpqaWN2ZjRCaXp5WmpSN0RCcjlPQXl1SkktazBHOGRoSzVOMHI4ZmtlcmFQU3p2akRncGZ6cDl0MllKOFJIZ3VGMzA0anp2YmFNX0RqZ3FuTVN5cmtkQ3FTdW16VDl5eUFZTUVzZFpDRmltX1hoWFhvbzNYbHdYeUZyUFU2S1ZvSEpMYS01OS13NXlhcw?oc=5"
-    },
-    {
-      "headline": "Stocks waver, oil falls as traders weigh fragile Iran peace talks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Stocks waver, oil falls as traders weigh fragile Iran peace talks\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-22 00:45",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVUJKVXNjdDQ1Qk4wVGUxU0VYY2FROHplR3N5UW0zT0JjZUgyQnN5MDltTHRxVWtwQktOdUdEcXh1YUY3OTNOUnNWMmNoMXNnRmZTNlI4NzFMeHRoR2Zmd1dwTlJSUldqUkVQcXJfVThwYnhSR0tPMnBUbm5jTW8tQTU3cmtmdw?oc=5"
     }
   ]
 }
