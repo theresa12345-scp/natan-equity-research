@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-23T08:58:42.293022",
+  "timestamp": "2026-06-23T16:27:21.846168",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 8,
-    "neutral": 11,
-    "bearish": 6,
+    "bullish": 9,
+    "neutral": 14,
+    "bearish": 2,
     "high_priority": 9,
     "material_events": 4
   },
@@ -14,10 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 13,
+    "Reuters": 8,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
     "CNBC": 4,
+    "CBS News": 1,
+    "Associated Press": 1,
+    "MarketWatch": 1,
+    "TradingView": 1,
+    "Seeking Alpha": 1,
     "AD HOC NEWS": 1
   },
   "top_signals": [
@@ -28,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,7 +103,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -118,7 +123,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -128,18 +133,8 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-23 08:58",
+      "date": "2026-06-23 16:27",
       "link": "https://www.reuters.com/business/energy/"
-    },
-    {
-      "headline": "Gold falls as dollar holds firm on Fed rate-hike expectations - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Gold falls as dollar holds firm on Fed rate-hike expectations\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-06-23 01:31",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUVBUOEYtdFRVZ0FwQ2pUYXpSUFQ1YjhZdHh6RjU2ZzV5RzdRUGtjajlLRTBIUDBoYk5ZcXcwNTE5UmZZVnR5aDVHR2MzVG5UUlE5TEVnTGo0VnplM2FuZnk3SnpQNmJ2ZnpSZ1A4RWhVcU5DUnBMUUh3YXFTUkktZGJXV25TSzBOODNaYm93ckJ0NUZDOF9pazlHRQ?oc=5"
     },
     {
       "headline": "'We'll see' \u2014 Trump hedges on guarantee Iran won't use oil profits to rebuild military",
@@ -152,124 +147,134 @@
       "link": "https://www.cnbc.com/2026/06/22/trump-iran-war-oil-profits-rebuild-military.html"
     },
     {
-      "headline": "SpaceX makes bond sale days after record IPO, discloses over $100 billion cash pile",
+      "headline": "Alan Greenspan, chair of Federal Reserve under 4 U.S. presidents, dies at age 100",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "SpaceX on Monday unveiled a senior unsecured notes offering and said it held about $100.8 billion in cash.",
-      "category": "fixed_income",
-      "date": "2026-06-22 13:27",
-      "link": "https://www.cnbc.com/2026/06/22/spacex-spcx-bond-sale-ipo.html"
-    },
-    {
-      "headline": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
-      "category": "global_markets",
-      "date": "2026-06-22 02:48",
-      "link": "https://www.cnbc.com/2026/06/21/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "D.R. Horton steady on Wall Street, analyst focus on housing cycle and S&P 500 peers",
-      "score": 6,
-      "source": "AD HOC NEWS",
+      "source": "CBS News",
       "sentiment": "neutral",
-      "impact": "D.R. Horton is attracting significant analyst attention as a key player in the U.S. homebuilding sector, particularly due to its S&P 500 listing. Analysts are examining how rising interest rates influence housing demand, margins, and capital allocation across the industry, with a focus on factors li",
-      "category": "us_equities",
-      "date": "2026-06-23 07:50",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/d-r-horton-steady-on-wall-street-analyst-focus-on-housing-cycle-and-s/69608702"
+      "impact": "Alan Greenspan's lengthy reign at the Federal Reserve coincided with a period of stability from the mid-1980s until 2007.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-22 15:55",
+      "link": "https://www.cbsnews.com/news/alan-greenspan-dies-age-100-federal-reserve-chairman/"
     },
     {
-      "headline": "New Lebanon-Israel talks to begin, in shadow of US-Iran deal - Reuters",
+      "headline": "Warsh\u2019s gamble: A quieter Federal Reserve could mean volatile markets, higher rates",
+      "score": 7,
+      "source": "Associated Press",
+      "sentiment": "positive",
+      "impact": "The Federal Reserve has for decades moved steadily from a remote, opaque government agency that shared little about what it did or why to a more transparent institution willing to explain how it makes decisions and what it thinks about the economy. New chair \u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-06-22 14:32",
+      "link": "https://apnews.com/article/warsh-federal-reserve-greenspan-inflation-economy-448828f7cc01932cc234ff47dd80be27"
+    },
+    {
+      "headline": "SpaceX succumbs to gravity as the stock briefly dips below its debut price on Nasdaq",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The stock hit a new low before recovering to trade in positive territory.",
+      "category": "us_equities",
+      "date": "2026-06-23 15:59",
+      "link": "https://www.marketwatch.com/story/spacex-succumbs-to-gravity-as-its-stock-price-briefly-dips-below-its-ipo-trading-debut-a06e4321?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "United Bancorp, Inc. Financial Statements \u2013 NASDAQ:UBCP",
+      "score": 6,
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "This page provides financial information for United Bancorp, Inc. (UBCP) on TradingView. It indicates that the company is a bank holding company performing commercial and retail banking, founded in 1983 and headquartered in Martins Ferry, OH. The data shows no market capitalization, revenue, or net ",
+      "category": "us_equities",
+      "date": "2026-06-23 15:39",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-UBCP/financials-overview/"
+    },
+    {
+      "headline": "We're adding to our position in an industrial giant with a major catalyst nearing",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "We want to own more of the stock ahead of its long-awaited breakup.",
+      "category": "global_markets",
+      "date": "2026-06-23 15:29",
+      "link": "https://www.cnbc.com/2026/06/23/were-adding-to-our-position-in-an-industrial-giant-with-a-major-catalyst-nearing-.html"
+    },
+    {
+      "headline": "DexCom, Insulet gain news Buys at Deutsche Bank (DXCM:NASDAQ)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "Deutsche Bank has initiated coverage of Insulet (PODD) and DexCom (DXCM) with Buy ratings, leading to gains for the MedTech companies. This positive analyst action comes despite a recent sharp sell-off for these diabetes device makers.",
+      "category": "us_equities",
+      "date": "2026-06-23 15:23",
+      "link": "https://seekingalpha.com/news/4606181-dexcom-insulet-gain-news-buys-deutsche-bank"
+    },
+    {
+      "headline": "New Lebanon-Israel talks begin in shadow of US-Iran deal - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "New Lebanon-Israel talks to begin, in shadow of US-Iran deal\u00a0\u00a0Reuters",
+      "impact": "New Lebanon-Israel talks begin in shadow of US-Iran deal\u00a0\u00a0Reuters",
       "category": "us_equities",
-      "date": "2026-06-23 06:04",
+      "date": "2026-06-23 14:55",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcmJNcndwcjlhZk9ySnNxNk4xLWZwOUVPTnBuVlBSeTJ5bVVDdkJtbks5amdvSjdYUzRpczBiUG1yWlVLT1FWcWZ4QWtpQmIwWHo3a3B1UVo1RzM5U3BHSzhVcllOUDlFWk5LRHp1aEVyWW5YdVFsNXdqNlZtUmdyU0k1amlRaVFNZ2gydVhBZkIxU0NVQXNDem1IdnVwbDAtRmkwNm1fWQ?oc=5"
     },
     {
-      "headline": "Rubio faces tough task of selling Iran reset to wary Gulf allies - Reuters",
+      "headline": "Uniti Group focuses on fiber REIT strategy, shares trade in a tight Nasdaq range",
       "score": 6,
-      "source": "Reuters",
+      "source": "AD HOC NEWS",
       "sentiment": "neutral",
-      "impact": "Rubio faces tough task of selling Iran reset to wary Gulf allies\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-23 05:12",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNHdEMXJ0TXlpSEFqc2dPd2FPa2RmR1ktRVVQTl9PZEJhODNHaXhHc2c1dkNsMWNyVkJVRXZSR1JCcTFYV216UEpRdkNVdFVaUzlhZEF4bEJXMDdvNnJEOExpQ1Z3N0x1bHVPQW1oSG9LVWpIVmUteDZ6ekYtclk3c0JuWk9OYnM2d0lzV2g4dnZOYXNESXpLOFMtNUh4bFhLbXYweXR2QlhVeElrUHVpYTlB?oc=5"
+      "impact": "Uniti Group, a communications infrastructure REIT, is focusing on its U.S. fiber and tower strategy, underpinned by long-term leases with major carriers. Its shares trade on Nasdaq in a tight range, recently around $11-$12, with mixed technical signals. Analysts view Uniti cautiously compared to lar",
+      "category": "us_equities",
+      "date": "2026-06-23 14:43",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/uniti-group-focuses-on-fiber-reit-strategy-shares-trade-in-a-tight-nasdaq/69611399"
     },
     {
-      "headline": "US waives Iran sanctions, Trump says he will 'do what I have to' if Tehran misbehaves - Reuters",
+      "headline": "Highly successful people do 5 things to get luckier in life, says Stanford leadership expert: 'Good luck isn't random or rare'",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "US waives Iran sanctions, Trump says he will 'do what I have to' if Tehran misbehaves\u00a0\u00a0Reuters",
+      "impact": "Stanford University educator Tina Seelig shares what the luckiest people do every day to find success.",
       "category": "global_markets",
-      "date": "2026-06-23 05:02",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcS1OdmpfbHlfTkxhM2xVM0cwWHVDeWhRUTNiY284YkViREtCTWpoSmRJVGpVdFBVWnpaS1BpZEFHcjd1Y2s0VDZ1Z25oOUQzY1FtQ1ZTOGlKRE1JRm1Ma3k0RUZoN0RCTlBjTV84eUtfZ05Cdk1lSzd3aXV3QkJtVklEa3FIYk92MkUzTW5YMm82Wmd0TmpYMEF5dnBnUmU2M0RKamprTjRJcnd1Z292dE1nM1A0ekFiS1M3YVhGZUQ3T0pQ?oc=5"
+      "date": "2026-06-23 13:45",
+      "link": "https://www.cnbc.com/2026/06/23/the-most-successful-people-do-5-things-to-get-luckier-in-life-stanford-leadership-expert.html"
     },
     {
-      "headline": "India's LPG imports from US set to cross 1 million tons in June, sources say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "India's LPG imports from US set to cross 1 million tons in June, sources say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-23 04:45",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3JLRDU0WWNNQVM2V2h5WkwwYXVHRGJrRWhZalhfR1NwQ3JQWGptNWxXd04tVHc4T3FjYkJaRG0wVERoUi1vTnFXVWtvaWRlYUdsMGMxeHltb2RBN3U2N252a01wTTJabFI1azBCb0tlbnNXVXhxcHZvMWpydG83ZmpwYVNDZWl4QkplM1d1a1RVRUh0cXpLUmlBYmtKX2YxR2JiN2xxV1JuYjFYWkZWQkZxUUJMZw?oc=5"
-    },
-    {
-      "headline": "India pivots to Russian crude and coal to mitigate Iran war fallout - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "India pivots to Russian crude and coal to mitigate Iran war fallout\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-23 02:26",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmg5eThzVGtyeGJTQkhoNVhXOFo2bDBfMEluWUlHaWlBUE9vSi1KcFFySFB5aGg5V3lIT1d3LS1Oa0Q4a09aOTFiRGM2c0FrVmFNVWJRaUJBaU9teGRmYkVKSHRRU2xsRGE1cGpOVHMyUUpVNGRZSEtXRXRNWEJ5X2JLSnp3cDU4OGN5aG5uQzdFRWg3QUMxcjhpNEhYdkhxYVBVNmdzdGgySkhXcXNyYzFoVl8zRURXc2paRVowWUNNUXh0?oc=5"
-    },
-    {
-      "headline": "Oil falls 1% as investors focus on Hormuz flows after peace talks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Oil falls 1% as investors focus on Hormuz flows after peace talks\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-23 00:35",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORGVfZjVpeWcwVGgyVzhLV2tRWk5MS25BWWFual9TakpqRHJIQWtpNjFjVFVVS0U1ckYyOWg0QWJuQm5aLU5xV0ZXQ0dfOExaN0cwQWk5cWZzSXdoUkdybTE4VlZnZjJuS3NrTHM5Q01IUjVwSzNGYUstWmlxZTJpNUNGcll6WEpLR2FoMGVoLXZaVml1QV81QlZ0YXVRdHRKVkxGN24yckhoTUdtbGpqQg?oc=5"
-    },
-    {
-      "headline": "Ro Khanna challenges Elon Musk to televised debate after online DOGE battle",
+      "headline": "The Club's top 10 things to watch in the stock market Tuesday",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Rep. Ro Khanna, D-Calif., has been a critic of the Elon-Musk-led Department of Government Efficiency cuts.",
+      "impact": "The Nasdaq is set for a sharply lower open, as the plunge in South Korean stocks bleeds into the U.S.",
       "category": "global_markets",
-      "date": "2026-06-22 23:22",
-      "link": "https://www.cnbc.com/2026/06/22/ro-khanna-challenges-elon-musk-to-televised-debate-after-doge-battle.html"
+      "date": "2026-06-23 13:05",
+      "link": "https://www.cnbc.com/2026/06/23/the-clubs-top-10-things-to-watch-in-the-stock-market-tuesday.html"
     },
     {
-      "headline": "Report: Egypt denied flight to Seattle ahead of final World Cup group match - Reuters",
+      "headline": "Israel smuggled Starlink systems into Iran, former PM says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Report: Egypt denied flight to Seattle ahead of final World Cup group match\u00a0\u00a0Reuters",
+      "impact": "Israel smuggled Starlink systems into Iran, former PM says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-22 22:18",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWU5rSEJMU3hiM1FHX0RmYjMxZ1VEbEVvVWtTX0VvYWx5R2hFbHdZV2Vsc3B0ZEF5NHUzRjRhOFd5b3Vocjh0MDBxNF9rWUhmbW41YU91NlZ2THJYcUViTG1HR3VldTZ0UXVPWENHM1BLcWtQelk2TlltbnU2NENQWjZ1S3N5OVR6ZU82bWNUT3lnRkVUcm9icmZ1WmY3aWczTWNMMnlDX1VQNmRxZ1gzQTRSZzhYU3RxcGtvU0pVVzI?oc=5"
+      "date": "2026-06-23 12:54",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQai1DN2ktaXF3TEJzaFE4U1hfa1dQUXV3MUtqT0ZwRTJ4amJqVGMybFFLWDhtaEtMNG9TN3dLMnZfY2JLcVdSbk1VQ2hjUU5ELUtsSFdhVlhHRE9DOXRQYXZjNFFTY2xtS3FibWZ0aWRMcmZfRmx0ME9VX0ZfbFIxWUVwNmtNalVSNmFsODV3anpUQmU0cl8zZ2VSTExValAxUDRUZmRaQ3N0aXpqZk5FYUk1TEI0Mkk?oc=5"
     },
     {
-      "headline": "Trump: 'I will do what I have to do' if Iran does not stick to deal - Reuters",
+      "headline": "Only Iran will control its unfrozen assets, Iranian envoy says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump: 'I will do what I have to do' if Iran does not stick to deal\u00a0\u00a0Reuters",
+      "impact": "Only Iran will control its unfrozen assets, Iranian envoy says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-22 21:51",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMWlPQmY1RnVVZlNjT1l4eFRRTnBnd1NPZzdLdU9EU3gybERGNHlJeFRpNTVxMzliRS1MMzBOMW03NU5GeHVmMEN1Zm0xeHY2cjVSV05FbmdTdFl6cXhvbzZnZ25NdVJQQmhxZ3FjLUZWVUFnNGF6RFZwT00wMjVHbXBTNkNUWFdLMTgtNWRFV3AzdXlqRWdOT0NVTFVZbFhDbnc?oc=5"
+      "date": "2026-06-23 11:56",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaW1VREU5TWRaNHlGMFh6SXR6WGMzMi1oeHFOOUJmUlFpb0lEd1dMT3dDMGh3R01PYWZXaG84OUx6WnJJcHJpZDE1LU5LVXBySDJ1Y1ZlbUdPdGpXYVlvbWFkckVDMFhPcjNZVkw3anZaNWxrQ09lWHJjWVlaZWZCbENweERlZXZxZVJrYkExTVkzTUpPNGxYanF3dnpUQzFaMVZJSHViS1RYU1hORS1uVHZYb0lFRFh1NDJSVUdLTmt1X3FoT09VNi0xSmRqVms?oc=5"
+    },
+    {
+      "headline": "Trump insists Iran has agreed to nuclear inspections - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump insists Iran has agreed to nuclear inspections\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-23 11:53",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNUplWC1jT3VodGprdkwtVkhQYk85R296T0hCZFVkOWJhYWUwRzkwbjlxcFByeEM2eUFjRXRMRVB2Y25XblFSTHlHeHZPdUMtU3BIaXNjczdOa044NHAyaVNJTlBseG5idkV3cmQyREZrMXlEeFRGUzAyNThSRXBpLVN4dWxSajFqeVJVaTlZdzdReXRPWnc?oc=5"
     }
   ]
 }
