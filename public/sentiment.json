@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-24T08:52:51.261885",
+  "timestamp": "2026-06-24T16:23:12.532720",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 9,
-    "neutral": 13,
+    "avg_relevance": 7.3,
+    "bullish": 10,
+    "neutral": 12,
     "bearish": 3,
-    "high_priority": 9,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,14 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 7,
     "Bloomberg": 2,
-    "CNBC": 4,
+    "CNBC": 7,
     "Caixin/S&P Global": 1,
-    "Yahoo Entertainment": 1,
-    "Yahoo! Finance Canada": 1,
-    "Ad-hoc-news.de": 1,
-    "MarketWatch": 1
+    "Yahoo Entertainment": 2,
+    "Proactive financial news": 1,
+    "TradingView": 1
   },
   "top_signals": [
     {
@@ -31,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Bessent sees his \"3-3-3\" plan as still in reach \u2014 3% growth, a 3% deficit-to-GDP rate, and a 3 million barrels per day increase in oil production.",
+      "category": "fixed_income",
+      "date": "2026-06-24 12:20",
+      "link": "https://www.cnbc.com/2026/06/24/treasury-secretary-bessent-says-us-gdp-growth-can-return-to-3percent-before-end-of-the-year.html"
     },
     {
       "headline": "FedEx posts strong earnings results in last quarter with freight business",
@@ -121,7 +130,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,8 +140,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-24 08:52",
+      "date": "2026-06-24 16:23",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Slate Auto says $24,950 electric truck will be profitable; targets positive cash flow next year",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "EV startup Slate Auto CEO Peter Faricy told CNBC that every vehicle the company produces will be gross margin positive.",
+      "category": "corporate_earnings",
+      "date": "2026-06-24 15:59",
+      "link": "https://www.cnbc.com/2026/06/24/slate-ev-pickup-truck-ceo-business-goals.html"
     },
     {
       "headline": "Gold slips to two-week low as Fed rate-hike bets buoy dollar - Reuters",
@@ -155,24 +174,14 @@
       "link": "https://www.cnbc.com/2026/06/23/cftc-sues-kentucky-over-actions-against-prediction-markets.html"
     },
     {
-      "headline": "Major Gulf bourses ease on investor caution, Fed rate-hike bets - Reuters",
+      "headline": "Stock market today: Nasdaq, S&P 500 futures plunge as global chip sell-off spurs AI doubts",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Major Gulf bourses ease on investor caution, Fed rate-hike bets\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-06-23 13:12",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOd3B2Wkxrb2pIRFhxNXNmaThxOFhxcm1EMnhINzRBY2RyU1F4SU9oRnZNWHR4TTRUTlJvWk9RV2JDc1A4Y1dGaHlYbVdFRFdfV0dXRkFRd1llWWRyY05LS3NBdXJhZ01rYXpaODV3SGV5dWhRaWZSSzRrTUFZSGNXQUJ6WS1kUklSRW9FUDlyN01xWHQycXVjWkxlblZSTEJfM1E?oc=5"
-    },
-    {
-      "headline": "Trump tests Rust Belt pitch in Pennsylvania amid Iran, inflation pressures - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump tests Rust Belt pitch in Pennsylvania amid Iran, inflation pressures\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-23 10:01",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOTFQbHY4R0tUM1NTb0ZIY1RsUmtWWjdvOGRtQ2tRd1ZrOHlONG1UREo0ZzNVTkNjS0dhalBIWXg5eC1sSUswT3ZFM0RHcnFKTkdCcUJjRF9yT3c1SHl3SEx3eGdES2JLTWlKRnAxNGsyUEJCQjJDRnRCSlhMRlpCQjNLX3ppSzhVVHhEUXhNNVg3aDdqVlhkaTJFUUVydlJjbkdMczdDWEVpUjVtRkd3bXprTm5BVUY0V04xMHdPNmZRYWREampaMw?oc=5"
+      "source": "Yahoo Entertainment",
+      "sentiment": "negative",
+      "impact": "Losses for Korean memory chipmakers fueled AI trade doubts, piling further pressure on techs even amid progress in US-Iran talks.",
+      "category": "us_equities",
+      "date": "2026-06-23 10:43",
+      "link": "https://finance.yahoo.com/economy/live/stock-market-today-nasdaq-sp-500-fall-as-global-chip-sell-off-spurs-ai-doubts-230258084.html"
     },
     {
       "headline": "Stock market today: Dow, S&P 500, Nasdaq futures plunge as Wall Street weighs US-Iran talks, AI trade",
@@ -195,84 +204,74 @@
       "link": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html"
     },
     {
-      "headline": "The 5 Most Interesting Analyst Questions From CarMax\u2019s Q2 Earnings Call",
+      "headline": "Toyota is gaining on General Motors in U.S. sales, according to new forecast",
       "score": 6,
-      "source": "Yahoo! Finance Canada",
-      "sentiment": "negative",
-      "impact": "CarMax's Q2 earnings exceeded revenue and profit expectations despite a negative market reaction. Management attributed this to operational inefficiencies and high costs, emphasizing the need for improved speed, efficiency, retail prices, selection, and reduced costs. Analysts' questions focused on ",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Toyota has notably leaned into hybrid vehicles while GM and others bet on all-electric vehicles, which saw lower-than-expected adoption from consumers.",
+      "category": "global_markets",
+      "date": "2026-06-24 15:59",
+      "link": "https://www.cnbc.com/2026/06/24/toyota-gm-us-sales.html"
+    },
+    {
+      "headline": "Paychex tops fourth quarter earnings, shares dip on 2027 outlook",
+      "score": 6,
+      "source": "Proactive financial news",
+      "sentiment": "neutral",
+      "impact": "Paychex Inc. (NASDAQ:PAYX) reported fiscal fourth-quarter results that surpassed Wall Street expectations, with adjusted diluted earnings per share of $1.32 and revenue of $1.61 billion, driven partly by the acquisition of Paycor HCM. Despite strong fiscal 2026 growth, shares dipped approximately 2%",
       "category": "corporate_earnings",
-      "date": "2026-06-24 07:44",
-      "link": "https://ca.finance.yahoo.com/news/5-most-interesting-analyst-questions-074425313.html"
+      "date": "2026-06-24 15:27",
+      "link": "https://www.proactiveinvestors.com/companies/news/1094434/paychex-tops-fourth-quarter-earnings-shares-dip-on-2027-outlook-1094434.html"
     },
     {
-      "headline": "Paycom Software updates its HR platform, shares trade steadily on NASDAQ",
+      "headline": "Enterprise value to EBITDA forward of PepsiCo, Inc. \u2013 NASDAQ:PEP",
       "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Paycom Software has expanded its cloud-based payroll and HR tools, maintaining a steady trading presence on the NASDAQ. Investors are focusing on the company's recurring revenue model and competitive standing among U.S. mid-cap software companies. The company's unified cloud-based system integrates ",
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "This article provides the enterprise value to EBITDA forward for PepsiCo, Inc. (NASDAQ:PEP) on TradingView. It indicates that the market for PEP was closed at the time of publication, with no trades reported. The content is primarily a data point rather than an in-depth analysis.",
       "category": "us_equities",
-      "date": "2026-06-24 07:25",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/paycom-software-updates-its-hr-platform-shares-trade-steadily-on-nasdaq/69616559"
+      "date": "2026-06-24 14:53",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-PEP/financials-statistics-and-ratios/enterprise-value-ebitda-fwd/"
     },
     {
-      "headline": "Rubio kicks off Middle East trip as allies seek answers on Iran - Reuters",
+      "headline": "Israel insists on troops in southern Lebanon as Rubio defends Iran deal in Middle East - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Rubio kicks off Middle East trip as allies seek answers on Iran\u00a0\u00a0Reuters",
+      "impact": "Israel insists on troops in southern Lebanon as Rubio defends Iran deal in Middle East\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-24 05:08",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWl9XMUk4OHJjWllyc3MtYkZyTGRkbFoxZnV1Mkl4b1pkMlpMYW9yaDV1T2hTMjc1U3NEb2ZNeFBGUkNQcS13bG5UUkgtWTFON0hpZkQzMHUyWVBTY19KMVlUZEJBWUZPN2ZEblp6T01OODBFV0t0RmY5VXJaQVRZZ1p6ZFkxVXI0WXJtRFJpZ21YNUtxcWttb0FObmtndVdpRGhvYkE0eTVWbW5TLWF4QQ?oc=5"
+      "date": "2026-06-24 14:29",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQd2ZaZ09FYVZua01kNUt3a3EycFVoUi1rZkd3SGc2UUhNa2pqdm5PTEhfMlhMV1ZxRlI3OU5sN3o3aVdjNlpBOEEyelFxY2s5TGVNc2R0ZFZzbEROSmk3MHJGdDVBT3YwbG5KOWZqNWh1Skh6X3RYc0YybzNpU2FMaGxKTEN6Nzd6T3hJN2FJakQ3eFVsdzVFSHJvUVBTMWp0NEpURTAtbk14TDhnS1Vvb21mSUVtNUlFR1FCQ0NXVEg1a0Fn?oc=5"
     },
     {
-      "headline": "VIX owner Cboe jumps into prediction markets to build on zero-day options growth",
+      "headline": "Polymarket-backed platform boosts funding to root out insider trading on prediction markets",
       "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Global markets operator Cboe has launched its first prediction markets products to meet consumer demand in the fast growing sector.",
+      "impact": "A Polymarket-backed platform raised $1.5 million in a funding round to help build tools to detect suspicious trading activity.",
       "category": "global_markets",
-      "date": "2026-06-24 02:07",
-      "link": "https://www.cnbc.com/2026/06/24/vix-owner-cboe-jumps-into-prediction-markets-to-build-on-0dte-growth.html"
+      "date": "2026-06-24 14:02",
+      "link": "https://www.cnbc.com/2026/06/24/polymarket-backed-platform-boosts-funding-to-root-out-insider-trading-on-prediction-markets.html"
     },
     {
-      "headline": "Oil extends slide on expectations of smoother crude flows via Hormuz - Reuters",
+      "headline": "Italy rebukes NATO's Rutte over remarks on US use of bases in Iran war - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Oil extends slide on expectations of smoother crude flows via Hormuz\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-06-24 01:17",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSjlBc1JxN0hPX3MwaDU1UDMyeEE1SG1tRS1ma1FpSENKVVdpVzY3eUNoeUJvdGtVVDZtRm84UG1jTjBwV0s0RTExRHZCczB3TnBYN05CSlJueGNLSU1zeUstS0U0NTBBa0NhUU00VE0wQWFWU0ZfWGtiT2tfeVBpdWV1NmZ3UlBvTmxwRXU3WlVPNGdDU3VWNXJMOWJfNWM1ZEtyNS1YV3JlY2xEeTZmczZsRmdrd1AzMVhZTEFVdw?oc=5"
+      "impact": "Italy rebukes NATO's Rutte over remarks on US use of bases in Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-24 13:53",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORDAtcFJlNU1BcXI3bU5hODkwa0p5UDJBaWZiRjhSbHRIZTB0SzhnSUhJWnZiQW0tVGxVUnNQa3NwVXBpdXFSUjFpSFR0bjhmMnNScERBVHRoRVhYdDUzUDNKTTIyQk5RenlNNU1XQ3QxcGRPcmRWYnRxZXI0ellwV0dscmtBVmk1ZU45UUVhYjIzV0tRZ0pZMU1ZOFBwWlBjTWxrMWFCLUlFRHZCMnM1WTI5SXFqZkVSRy1XWXFpdVc?oc=5"
     },
     {
-      "headline": "Cerebras delivers its first earnings report \u2014 but it\u2019s not enough to lift the stock",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Despite upbeat revenue figures, Cerebras\u2019s stock was falling in after-hours trading.",
-      "category": "corporate_earnings",
-      "date": "2026-06-24 00:23",
-      "link": "https://www.marketwatch.com/story/cerebras-delivers-its-first-earnings-report-but-its-not-enough-to-lift-the-stock-8e80cb6d?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "US Senate joins House in voting to halt Iran war, rebuking Trump - Reuters",
+      "headline": "Ships start sailing through Hormuz under UN evacuation scheme, agency says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US Senate joins House in voting to halt Iran war, rebuking Trump\u00a0\u00a0Reuters",
+      "impact": "Ships start sailing through Hormuz under UN evacuation scheme, agency says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-23 22:54",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNmhxUVNibG82ZUN6NG5vUGVEb3c3X3ExNXJKYjFwYzZCYi03ZGFjX2JNZ1VyNzRzSzF5U3V4LVhIUGM4U0lrZzY4SmhBeGZuVHlqLWxsQ3hPRk5aYVZtT2ZPUk84LUl2LWw1WEl5ai1OS3ZFcGlKTmpEZmVPeG5rT1QwOFVoY25iS2NXRjBPTnQtNnBxYkNpQXFVT1hKTEJYbGJpSg?oc=5"
-    },
-    {
-      "headline": "US Senate votes to halt Iran war in latest rebuke of Trump - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US Senate votes to halt Iran war in latest rebuke of Trump\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-23 21:34",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbTRaMVd3TU94enBqRXpUc0tCNzVEQ2dQaHlnN0oyMm9sak5aTFNybDQtTkJBU25xYlVSV2ZBR2Jwal9WNE5HQWh1N3A3UGpCNlZkUEo0SVoyaThBVmZmamtaaThxT3dBYl9iUE9JU2xNQUhWN2hSUVltdXZJYThsUEVtcnQzV3c4cGZSSlBGQndRdw?oc=5"
+      "date": "2026-06-24 13:53",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVzhjV0RpTTFMQkJpMENrNzBtX2lDYURTRTlwdDRZbEF6dFA1OUlwcERnOV9xcnFBdnI0SmIzRUtKRk5NM25WQXJ3eGxCMXhGQ21aTmkybzE1akhpS3plMXNhcmhyeWRGcW9UenE3X3J6aUowbnlGSEVhTVRBSjh5SFFsX0lkSUxjWHJpQl9BYUZ3aTZCU0xvQXowZDgyWC1BNGQzQnNpZmsyMHY5VGNMRFo3NW5yY1VScm5nOTRKcFBkaGUxWlE?oc=5"
     }
   ]
 }
