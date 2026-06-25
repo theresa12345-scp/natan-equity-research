@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-24T16:23:12.532720",
+  "timestamp": "2026-06-25T08:47:26.211639",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 10,
-    "neutral": 12,
-    "bearish": 3,
-    "high_priority": 10,
+    "avg_relevance": 7.4,
+    "bullish": 13,
+    "neutral": 8,
+    "bearish": 4,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
-    "Bloomberg": 2,
+    "Reuters": 5,
+    "Bloomberg": 3,
     "CNBC": 7,
     "Caixin/S&P Global": 1,
-    "Yahoo Entertainment": 2,
-    "Proactive financial news": 1,
+    "MarketWatch": 1,
+    "Yahoo Entertainment": 1,
+    "The Wall Street Journal": 1,
+    "Electronics For You BUSINESS": 1,
     "TradingView": 1
   },
   "top_signals": [
@@ -30,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +102,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The Fed's annual exercise comes at a pivotal moment for bank regulation because, unlike previous years, the results will not affect capital requirements.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-24 21:19",
+      "link": "https://www.cnbc.com/2026/06/24/federal-reserve-stress-test-us-banks.html"
     },
     {
       "headline": "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year",
@@ -130,7 +142,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,8 +152,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-24 16:23",
+      "date": "2026-06-25 08:47",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "These hidden PCE inflation triggers could force a Fed rate hike \u2014 and shock the market",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "A hot PCE report will ignite Wall Street\u2019s fear of a restrictive Fed.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-25 01:06",
+      "link": "https://www.marketwatch.com/story/inflation-is-about-more-than-oil-these-two-hidden-triggers-could-force-a-fed-rate-hike-d9fa393e?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The announcements followed the release of the Federal Reserve's annual stress test, which found that all 32 large banks weathered a hypothetical recession.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-24 20:58",
+      "link": "https://www.cnbc.com/2026/06/24/jpmorgan-goldman-sachs-fed-stress-test.html"
     },
     {
       "headline": "Slate Auto says $24,950 electric truck will be profitable; targets positive cash flow next year",
@@ -150,128 +182,98 @@
       "sentiment": "positive",
       "impact": "EV startup Slate Auto CEO Peter Faricy told CNBC that every vehicle the company produces will be gross margin positive.",
       "category": "corporate_earnings",
-      "date": "2026-06-24 15:59",
+      "date": "2026-06-24 17:03",
       "link": "https://www.cnbc.com/2026/06/24/slate-ev-pickup-truck-ceo-business-goals.html"
     },
     {
-      "headline": "Gold slips to two-week low as Fed rate-hike bets buoy dollar - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Gold slips to two-week low as Fed rate-hike bets buoy dollar\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-06-24 01:23",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNam5nVUZmdHE5YjRyUlF3YURJUnJBLUx1SDV6eEZrdXJYSGpneWFfWjRWT0ZIZmpyeTVGSEw0aFJQNFpnNG1pTDlld2F0UmRSbGRjLWpqNGk0VW9qcGdqeERPMENjNWNaSjZjNV8zZHVLZHVQWTI4RDV0UnNLeWhJVER3V1BLWjZzeXNoZjZxbUY3VU16N0dlTVhudDJMdw?oc=5"
-    },
-    {
-      "headline": "CFTC sues Kentucky over actions against prediction markets, making it first red state to face federal scrutiny",
+      "headline": "Bessent sees GDP growth booming again this year. Kalshi traders see little chance of that",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The commission has now sued nine states in total in its battle to defend what it sees as its exclusive right to regulate event contracts.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-23 20:55",
-      "link": "https://www.cnbc.com/2026/06/23/cftc-sues-kentucky-over-actions-against-prediction-markets.html"
-    },
-    {
-      "headline": "Stock market today: Nasdaq, S&P 500 futures plunge as global chip sell-off spurs AI doubts",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "negative",
-      "impact": "Losses for Korean memory chipmakers fueled AI trade doubts, piling further pressure on techs even amid progress in US-Iran talks.",
-      "category": "us_equities",
-      "date": "2026-06-23 10:43",
-      "link": "https://finance.yahoo.com/economy/live/stock-market-today-nasdaq-sp-500-fall-as-global-chip-sell-off-spurs-ai-doubts-230258084.html"
-    },
-    {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures plunge as Wall Street weighs US-Iran talks, AI trade",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "negative",
-      "impact": "US stock futures were little changed after a weak session on Wall Street as pressure on Big Tech and ongoing US-Iran talks weighed on sentiment.",
-      "category": "us_equities",
-      "date": "2026-06-23 06:52",
-      "link": "https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-futures-plunge-as-wall-street-weighs-us-iran-talks-ai-trade-230258084.html"
-    },
-    {
-      "headline": "S&P 500 futures are little changed after tech sell-off drags down broad market index: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Tech giants tumbled in Monday's regular trading, dragging down the S&P 500 and Nasdaq Composite.",
-      "category": "us_equities",
-      "date": "2026-06-23 01:26",
-      "link": "https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Toyota is gaining on General Motors in U.S. sales, according to new forecast",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Toyota has notably leaned into hybrid vehicles while GM and others bet on all-electric vehicles, which saw lower-than-expected adoption from consumers.",
+      "sentiment": "positive",
+      "impact": "Kalshi traders are not agreeing with Treasury Secretary Scott Bessent's prediction that the U.S. economy will have 3% growth this year.",
       "category": "global_markets",
-      "date": "2026-06-24 15:59",
-      "link": "https://www.cnbc.com/2026/06/24/toyota-gm-us-sales.html"
+      "date": "2026-06-24 16:57",
+      "link": "https://www.cnbc.com/2026/06/24/bessent-sees-gdp-growth-booming-this-year-kalshi-traders-see-little-chance-of-that.html"
     },
     {
-      "headline": "Paychex tops fourth quarter earnings, shares dip on 2027 outlook",
-      "score": 6,
-      "source": "Proactive financial news",
+      "headline": "Stock market today: S&P 500, Nasdaq hit pause after tech rout with Micron in focus",
+      "score": 7,
+      "source": "Yahoo Entertainment",
+      "sentiment": "positive",
+      "impact": "Investors are braced for Micron earnings for clues to whether AI optimism has overrun.",
+      "category": "us_equities",
+      "date": "2026-06-24 08:04",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-hit-pause-after-tech-rout-with-micron-in-focus-230105138.html"
+    },
+    {
+      "headline": "Stock futures mixed ahead of Micron earnings; South Korea's Kospi rebounds 3% after sharp selloff: Live updates",
+      "score": 7,
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Paychex Inc. (NASDAQ:PAYX) reported fiscal fourth-quarter results that surpassed Wall Street expectations, with adjusted diluted earnings per share of $1.32 and revenue of $1.61 billion, driven partly by the acquisition of Paycor HCM. Despite strong fiscal 2026 growth, shares dipped approximately 2%",
+      "impact": "A rout in chipmaker names, including Micron, weighed on the S&P 500 and Nasdaq Composite on Tuesday.",
       "category": "corporate_earnings",
-      "date": "2026-06-24 15:27",
-      "link": "https://www.proactiveinvestors.com/companies/news/1094434/paychex-tops-fourth-quarter-earnings-shares-dip-on-2027-outlook-1094434.html"
+      "date": "2026-06-24 06:14",
+      "link": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Enterprise value to EBITDA forward of PepsiCo, Inc. \u2013 NASDAQ:PEP",
+      "headline": "Korean Stocks Rebound After 10% Rout as Focus Back on Earnings",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "South Korean stocks swung between gains and losses as investors debated the outlook for chipmakers\u2019 earnings and the sustainability of this year\u2019s world-beating rally.",
+      "category": "corporate_earnings",
+      "date": "2026-06-24 04:15",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-24/korean-stocks-rebound-after-10-rout-as-focus-back-on-earnings"
+    },
+    {
+      "headline": "Cerebras Revenue Soars in First Quarter, Forecasts Full-Year Negative Margins",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "corporate_earnings",
+      "date": "2026-06-23 22:56",
+      "link": "https://www.wsj.com/business/earnings/cerebras-nearly-doubles-revenue-but-projects-full-year-negative-margins-0e1be225"
+    },
+    {
+      "headline": "Phillips 66 warns Hormuz disruptions could trigger earnings volatility",
+      "score": 6,
+      "source": "Electronics For You BUSINESS",
+      "sentiment": "negative",
+      "impact": "Phillips 66 warns that ongoing disruptions and uncertainty in the Strait of Hormuz could lead to increased volatility in its refining and petrochemical earnings. Despite the market risks, CEO Mark Lashier highlighted improvements in operational efficiency and cost reductions within the company's ref",
+      "category": "corporate_earnings",
+      "date": "2026-06-25 08:01",
+      "link": "https://www.electronicsforyou.biz/industry-buzz/phillips-66-warns-hormuz-disruptions-could-trigger-earnings-volatility/"
+    },
+    {
+      "headline": "PRU6432214 Bond Analysis \u2014 Key Metrics",
       "score": 6,
       "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "This article provides the enterprise value to EBITDA forward for PepsiCo, Inc. (NASDAQ:PEP) on TradingView. It indicates that the market for PEP was closed at the time of publication, with no trades reported. The content is primarily a data point rather than an in-depth analysis.",
-      "category": "us_equities",
-      "date": "2026-06-24 14:53",
-      "link": "https://www.tradingview.com/symbols/NASDAQ-PEP/financials-statistics-and-ratios/enterprise-value-ebitda-fwd/"
+      "impact": "This article provides key metrics and an overview of the Prudential Financial, Inc. 4.65% 15-JUN-2031 bond (PRU6432214). It details the issuer, issue and maturity dates, face value, minimum denomination, and coupon rate. Additionally, it offers a brief description of Prudential Financial's business ",
+      "category": "fixed_income",
+      "date": "2026-06-25 07:28",
+      "link": "https://www.tradingview.com/symbols/FINRA-PRU6432214/analysis-overview/"
     },
     {
-      "headline": "Israel insists on troops in southern Lebanon as Rubio defends Iran deal in Middle East - Reuters",
+      "headline": "Rubio visits Bahrain seeking Gulf backing for Iran deal - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Israel insists on troops in southern Lebanon as Rubio defends Iran deal in Middle East\u00a0\u00a0Reuters",
+      "impact": "Rubio visits Bahrain seeking Gulf backing for Iran deal\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-24 14:29",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQd2ZaZ09FYVZua01kNUt3a3EycFVoUi1rZkd3SGc2UUhNa2pqdm5PTEhfMlhMV1ZxRlI3OU5sN3o3aVdjNlpBOEEyelFxY2s5TGVNc2R0ZFZzbEROSmk3MHJGdDVBT3YwbG5KOWZqNWh1Skh6X3RYc0YybzNpU2FMaGxKTEN6Nzd6T3hJN2FJakQ3eFVsdzVFSHJvUVBTMWp0NEpURTAtbk14TDhnS1Vvb21mSUVtNUlFR1FCQ0NXVEg1a0Fn?oc=5"
+      "date": "2026-06-25 05:01",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLWs2OHl5WVA5bE5meTdpdEJtcnhLdjBMTXltald5eHBVSW9Ha292Zzh5MEcxTS1BNmR6TDRsbVRLX1VwNFFZTm94MEZmUzZhdnhFbjdkNzhCSGE0b2dWLUw4ZTVSMjRfU2ZTMmdfVWpSWU50bXRfUWlpUGZEdzgwT1NZR2RWRHRZZnUzeldSQUsxbEtCTVd4WHUtdDEwRzFtSVgtckFxcDY?oc=5"
     },
     {
-      "headline": "Polymarket-backed platform boosts funding to root out insider trading on prediction markets",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "A Polymarket-backed platform raised $1.5 million in a funding round to help build tools to detect suspicious trading activity.",
-      "category": "global_markets",
-      "date": "2026-06-24 14:02",
-      "link": "https://www.cnbc.com/2026/06/24/polymarket-backed-platform-boosts-funding-to-root-out-insider-trading-on-prediction-markets.html"
-    },
-    {
-      "headline": "Italy rebukes NATO's Rutte over remarks on US use of bases in Iran war - Reuters",
+      "headline": "Indian shares advance after oil slips to pre-Iran war levels - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Italy rebukes NATO's Rutte over remarks on US use of bases in Iran war\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-24 13:53",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORDAtcFJlNU1BcXI3bU5hODkwa0p5UDJBaWZiRjhSbHRIZTB0SzhnSUhJWnZiQW0tVGxVUnNQa3NwVXBpdXFSUjFpSFR0bjhmMnNScERBVHRoRVhYdDUzUDNKTTIyQk5RenlNNU1XQ3QxcGRPcmRWYnRxZXI0ellwV0dscmtBVmk1ZU45UUVhYjIzV0tRZ0pZMU1ZOFBwWlBjTWxrMWFCLUlFRHZCMnM1WTI5SXFqZkVSRy1XWXFpdVc?oc=5"
-    },
-    {
-      "headline": "Ships start sailing through Hormuz under UN evacuation scheme, agency says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Ships start sailing through Hormuz under UN evacuation scheme, agency says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-24 13:53",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVzhjV0RpTTFMQkJpMENrNzBtX2lDYURTRTlwdDRZbEF6dFA1OUlwcERnOV9xcnFBdnI0SmIzRUtKRk5NM25WQXJ3eGxCMXhGQ21aTmkybzE1akhpS3plMXNhcmhyeWRGcW9UenE3X3J6aUowbnlGSEVhTVRBSjh5SFFsX0lkSUxjWHJpQl9BYUZ3aTZCU0xvQXowZDgyWC1BNGQzQnNpZmsyMHY5VGNMRFo3NW5yY1VScm5nOTRKcFBkaGUxWlE?oc=5"
+      "impact": "Indian shares advance after oil slips to pre-Iran war levels\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-25 03:03",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTXVVYk8yNHVUek1WdHdQN0Jhb0tDcnFiVkJieUYtVVk2SngxYnVETG9JdmdXal9GcUNXZ3BqZGprMy1mYmZTSTdfUUlrWkdFQXZ2YkJZdzUyMU9BOVBUZnNMZ2FxR1lKZkpCNzJNbXFTb2FtTC10VXRNOVVTVE5hUmVyTjJEMFJrd2VDWm9fbGgyTUNUQUdWTXVUNnpsQ1EtZ0hIMmhYa0ctUQ?oc=5"
     }
   ]
 }
