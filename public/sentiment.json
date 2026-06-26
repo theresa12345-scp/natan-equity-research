@@ -1,25 +1,26 @@
 {
-  "timestamp": "2026-06-25T16:27:59.976607",
+  "timestamp": "2026-06-26T08:49:56.894803",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.5,
-    "bullish": 15,
-    "neutral": 7,
+    "avg_relevance": 7.6,
+    "bullish": 14,
+    "neutral": 8,
     "bearish": 3,
-    "high_priority": 11,
-    "material_events": 4
+    "high_priority": 12,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
+    "CNBC": 10,
     "Reuters": 4,
-    "Bloomberg": 3,
-    "CNBC": 11,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "Yahoo Entertainment": 1,
-    "The Wall Street Journal": 1
+    "Ad-hoc-news.de": 1,
+    "Federalreserve.gov": 1,
+    "TradingView": 2
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,8 +60,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "S&P 500 futures rise as Micron surges after earnings; Wall Street awaits key inflation reading: Live updates",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "May's personal consumption expenditures price index reading, the Fed's preferred inflation gauge, comes out at 8:30 a.m. ET on Thursday.",
+      "category": "us_equities",
+      "date": "2026-06-25 04:22",
+      "link": "https://www.cnbc.com/2026/06/24/stock-market-today-live-updates.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -69,7 +80,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +100,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +110,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -139,7 +150,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -149,8 +160,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-25 16:27",
+      "date": "2026-06-26 08:49",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Fortive confirms second-quarter earnings date, shares tracked against S&P 500 industrial peers",
+      "score": 7,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Fortive (US34959J1088) is scheduled to release its second-quarter 2026 earnings in late July, before NYSE trading opens. The company, a mid-cap industrial technology firm within the S&P 500, will be closely watched for margin trends and portfolio strategies, with analysts maintaining a generally pos",
+      "category": "us_equities",
+      "date": "2026-06-26 07:37",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/fortive-confirms-second-quarter-earnings-date-shares-tracked-against-s/69630715"
+    },
+    {
+      "headline": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-25 18:10",
+      "link": "https://www.cnbc.com/2026/06/25/judge-blocks-trumps-rule-limiting-student-loans-for-grad-students-.html"
     },
     {
       "headline": "We're locking in triple-digit profits on an AI winner at record highs",
@@ -183,14 +214,34 @@
       "link": "https://www.cnbc.com/2026/06/25/micron-stock-3q-earnings-memory.html"
     },
     {
+      "headline": "SK Hynix surges 11% after filing for blockbuster Nasdaq listing",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Shares of South Korean chip giant SK Hynix surged 12% on Thursday after the company said it is seeking to raise as much as $29.4 billion.",
+      "category": "us_equities",
+      "date": "2026-06-25 00:34",
+      "link": "https://www.cnbc.com/2026/06/25/chip-tech-stocks-sk-hynix-nasdaq-adr-listing-29-billion-ai-investment.html"
+    },
+    {
       "headline": "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test",
       "score": 7,
       "source": "CNBC",
       "sentiment": "negative",
       "impact": "The announcements followed the release of the Federal Reserve's annual stress test, which found that all 32 large banks weathered a hypothetical recession.",
       "category": "us_monetary_policy",
-      "date": "2026-06-24 20:58",
+      "date": "2026-06-24 21:42",
       "link": "https://www.cnbc.com/2026/06/24/jpmorgan-goldman-sachs-fed-stress-test.html"
+    },
+    {
+      "headline": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "score": 7,
+      "source": "Federalreserve.gov",
+      "sentiment": "negative",
+      "impact": "The results of the Federal Reserve Board's annual bank stress test confirmed that large banks are well positioned to weather a severe recession and able to con",
+      "category": "us_monetary_policy",
+      "date": "2026-06-24 20:04",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm"
     },
     {
       "headline": "Slate Auto says $24,950 electric truck will be profitable; targets positive cash flow next year",
@@ -203,74 +254,24 @@
       "link": "https://www.cnbc.com/2026/06/24/slate-ev-pickup-truck-ceo-business-goals.html"
     },
     {
-      "headline": "Bessent sees GDP growth booming again this year. Kalshi traders see little chance of that",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Kalshi traders are not agreeing with Treasury Secretary Scott Bessent's prediction that the U.S. economy will have 3% growth this year.",
-      "category": "global_markets",
-      "date": "2026-06-24 16:57",
-      "link": "https://www.cnbc.com/2026/06/24/bessent-sees-gdp-growth-booming-this-year-kalshi-traders-see-little-chance-of-that.html"
-    },
-    {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq rebound after tech rout as oil prices tumble",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "negative",
-      "impact": "US stocks advanced on Wednesday, rebounding from a bruising start to the week for tech stocks, as oil prices plunged to their levels not seen since the begin...",
-      "category": "us_equities",
-      "date": "2026-06-24 16:04",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rebound-after-tech-rout-as-oil-prices-tumble-230105138.html"
-    },
-    {
-      "headline": "Korean Stocks Rebound After 10% Rout as Focus Back on Earnings",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "South Korean stocks swung between gains and losses as investors debated the outlook for chipmakers\u2019 earnings and the sustainability of this year\u2019s world-beating rally.",
-      "category": "corporate_earnings",
-      "date": "2026-06-24 04:15",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-24/korean-stocks-rebound-after-10-rout-as-focus-back-on-earnings"
-    },
-    {
-      "headline": "Cerebras Revenue Soars in First Quarter, Forecasts Full-Year Negative Margins",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "corporate_earnings",
-      "date": "2026-06-23 22:56",
-      "link": "https://www.wsj.com/business/earnings/cerebras-nearly-doubles-revenue-but-projects-full-year-negative-margins-0e1be225"
-    },
-    {
-      "headline": "GM reveals 2027 GMC Sierra pickup with new V-8 engines, redesigned styling",
+      "headline": "Price to earnings forward of Douglas Emmett, Inc \u2013 MUN:D8K",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The new GMC Sierra trucks are crucial to GM's sales and earnings, especially highly profitable luxury Denali and off-road AT4 models.",
-      "category": "global_markets",
-      "date": "2026-06-25 16:15",
-      "link": "https://www.cnbc.com/2026/06/25/gm-gmc-sierra-pickup.html"
-    },
-    {
-      "headline": "Rafael Nadal says he won't return to pro tennis following Serena Williams' comeback",
-      "score": 6,
-      "source": "CNBC",
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "Rafael Nadal told CNBC Sport he has closed the chapter on playing pro tennis forever.",
-      "category": "global_markets",
-      "date": "2026-06-25 16:03",
-      "link": "https://www.cnbc.com/2026/06/25/rafael-nadal-tennis-comeback-serena-williams.html"
+      "impact": "This page provides financial data for Douglas Emmett, Inc. (MUN:D8K) on the Munich Stock Exchange, specifically focusing on its price-to-earnings forward ratio. The content indicates that the market is closed, and no trades have occurred for this particular metric.",
+      "category": "corporate_earnings",
+      "date": "2026-06-26 08:12",
+      "link": "https://www.tradingview.com/symbols/MUN-D8K/financials-statistics-and-ratios/price-earnings-fwd/"
     },
     {
-      "headline": "JPMorgan names Doug Petno and Troy Rohrbaugh co-presidents as longtime exec Marianne Lake exits",
+      "headline": "Price to earnings forward of Energy Fuels Inc \u2013 AMEX:UUUU",
       "score": 6,
-      "source": "CNBC",
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "The moves would appear to make Doug Petno and Troy Rohrbaugh the most obvious possible successors to JPMorgan Chase CEO Jamie Dimon.",
-      "category": "global_markets",
-      "date": "2026-06-25 15:44",
-      "link": "https://www.cnbc.com/2026/06/25/jpmorgan-chase-co-presidents-lake-exits.html"
+      "impact": "This page provides financial data for Energy Fuels Inc (AMEX: UUUU), specifically focusing on its forward price-to-earnings ratio. The content appears to be an excerpt from a financial platform like TradingView, displaying the stock ticker, exchange, and a table indicating the forward P/E values and",
+      "category": "corporate_earnings",
+      "date": "2026-06-26 07:41",
+      "link": "https://www.tradingview.com/symbols/AMEX-UUUU/financials-statistics-and-ratios/price-earnings-fwd/"
     }
   ]
 }
