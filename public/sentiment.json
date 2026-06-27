@@ -1,29 +1,28 @@
 {
-  "timestamp": "2026-06-26T16:19:38.278913",
+  "timestamp": "2026-06-27T08:26:05.460381",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
+    "avg_relevance": 7.3,
     "bullish": 12,
-    "neutral": 10,
-    "bearish": 3,
-    "high_priority": 11,
-    "material_events": 4
+    "neutral": 9,
+    "bearish": 4,
+    "high_priority": 10,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
+    "MarketWatch": 2,
+    "Reuters": 7,
     "Bloomberg": 2,
-    "The Wall Street Journal": 1,
-    "CNBC": 9,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "TradingView": 1,
     "Yahoo Entertainment": 1,
-    "MarketWatch": 1,
-    "MSN": 1,
-    "Simply Wall Street": 1
+    "CBS News": 1,
+    "Ad-hoc-news.de": 1,
+    "TradingView": 1
   },
   "top_signals": [
     {
@@ -33,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,8 +62,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
+      "score": 9,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Kevin Warsh, the new Federal Reserve chair, is helping coax Treasury yields lower by talking tough on inflation.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-26 20:38",
+      "link": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -73,7 +82,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +102,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,18 +112,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Stock Market Today: Nasdaq Stumbles Despite Micron Blockbuster Earnings; Wendy's in Focus \u2014 Live Updates",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "negative",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-06-25 15:02",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-25-2026"
     },
     {
       "headline": "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
@@ -127,23 +126,13 @@
       "link": "https://www.cnbc.com/2026/06/24/federal-reserve-stress-test-us-banks.html"
     },
     {
-      "headline": "FedEx posts strong earnings results in last quarter with freight business",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "FedEx posted strong fiscal fourth quarter earnings on Tuesday in the company's last quarter that included the freight business before its spin-off.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-23 21:58",
-      "link": "https://www.cnbc.com/2026/06/23/fedex-fdx-q4-2026-earnings.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -153,18 +142,8 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-26 16:19",
+      "date": "2026-06-27 08:26",
       "link": "https://www.reuters.com/business/energy/"
-    },
-    {
-      "headline": "Enterprise value to revenue forward of PayPal Holdings, Inc. \u2013 NASDAQ:PYPL",
-      "score": 7,
-      "source": "TradingView",
-      "sentiment": "neutral",
-      "impact": "This article identifies itself as focusing on the \"Enterprise value to revenue forward\" metric for PayPal Holdings, Inc. (NASDAQ: PYPL). Despite the detailed navigation and footer content, the core analytical data regarding PayPal's enterprise value to revenue forward is not present in the provided ",
-      "category": "us_equities",
-      "date": "2026-06-26 14:38",
-      "link": "https://www.tradingview.com/symbols/NASDAQ-PYPL/financials-statistics-and-ratios/enterprise-value-sales-fwd/"
     },
     {
       "headline": "One factor that may be partly behind the S&P 500's curious action this week",
@@ -177,34 +156,14 @@
       "link": "https://www.cnbc.com/2026/06/26/one-factor-that-may-be-partly-behind-the-sp-500s-curious-action-this-week.html"
     },
     {
-      "headline": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-25 18:10",
-      "link": "https://www.cnbc.com/2026/06/25/judge-blocks-trumps-rule-limiting-student-loans-for-grad-students-.html"
-    },
-    {
-      "headline": "We're locking in triple-digit profits on an AI winner at record highs",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The stock has soared this week for unclear reasons.",
-      "category": "corporate_earnings",
-      "date": "2026-06-25 15:11",
-      "link": "https://www.cnbc.com/2026/06/25/were-locking-in-triple-digit-profits-on-an-ai-winner-at-record-highs.html"
-    },
-    {
-      "headline": "PCE report: Fed's preferred inflation measure hits 3-year high, keeping talk of possible rate hike in play",
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures drop as tech struggles to find its footing",
       "score": 7,
       "source": "Yahoo Entertainment",
       "sentiment": "neutral",
-      "impact": "The Federal Reserve's preferred inflation gauge showed prices heated up further in May, likely keeping the central bank holding interest rates steady with an...",
-      "category": "us_monetary_policy",
-      "date": "2026-06-25 14:52",
-      "link": "https://finance.yahoo.com/economy/policy/article/pce-report-feds-preferred-inflation-measure-hits-3-year-high-keeping-talk-of-possible-rate-hike-in-play-124158491.html"
+      "impact": "US stock futures wavered as Wall Street digested a downbeat week for tech stocks.",
+      "category": "us_equities",
+      "date": "2026-06-26 03:03",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-drop-as-tech-struggles-to-find-its-footing-231347821.html"
     },
     {
       "headline": "Darden Restaurants earnings beat estimates but Olive Garden growth weakens",
@@ -215,6 +174,16 @@
       "category": "corporate_earnings",
       "date": "2026-06-25 13:58",
       "link": "https://www.cnbc.com/2026/06/25/darden-restaurants-dri-q4-2026-earnings.html"
+    },
+    {
+      "headline": "The Fed's preferred inflation gauge shows prices rising at fastest pace in 3 years",
+      "score": 7,
+      "source": "CBS News",
+      "sentiment": "positive",
+      "impact": "Inflation continued to rise in May, with the Personal Consumption Expenditures price index rising at an annual rate of 4.1%.",
+      "category": "us_monetary_policy",
+      "date": "2026-06-25 12:48",
+      "link": "https://www.cbsnews.com/news/pce-report-report-may-2026-federal-reserve-inflation/"
     },
     {
       "headline": "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test",
@@ -237,44 +206,74 @@
       "link": "https://www.cnbc.com/2026/06/24/slate-ev-pickup-truck-ceo-business-goals.html"
     },
     {
-      "headline": "Insurers shifted roof replacement costs onto homeowners thanks to a new federal rule \u2014 just in time for hail and hurricane season",
+      "headline": "CBRE Group lifts office exposure in key US cities, shares track S&P 500 real estate peers",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "CBRE Group is increasing its focus on asset and leasing mandates in major U.S. office hubs, aligning with institutional clients' portfolio adjustments. The company, a significant player in global commercial real estate services and an S&P 500 real estate component, currently trades in line with its ",
+      "category": "us_equities",
+      "date": "2026-06-27 07:22",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cbre-group-lifts-office-exposure-in-key-us-cities-shares-track-s-and-p/69637927"
+    },
+    {
+      "headline": "TriCo Bancshares Actuals & Estimates (NASDAQ:TCBK)",
+      "score": 6,
+      "source": "TradingView",
+      "sentiment": "positive",
+      "impact": "The article provides an overview of TriCo Bancshares (NASDAQ: TCBK) stock, including its current price, market capitalization, historical performance, and analyst forecasts. It also details the company's financial results, such as recent earnings and revenue, dividend payments, and upcoming earnings",
+      "category": "us_equities",
+      "date": "2026-06-27 07:10",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-TCBK/forecast-actuals-and-estimates/"
+    },
+    {
+      "headline": "Iran wait on World Cup progress after late goal disallowed in Egypt draw - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran wait on World Cup progress after late goal disallowed in Egypt draw\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-27 05:23",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUlowZDA3blZ2WnY5eGhiUjFvZWtFeUpFMEoxQTNLcnJYcmREWEppOFdIVGFoNGRTeWstbHpmY21OQTg5QU0wWVdydXFFc0pUY3BDZFVwTWs5UnJ5R3ZrWG5JWENuNFZ0bnVOTlFVNkNlYm1fX19hcFVnVV9rMUFFeWFjaC0tdFRQbVNfMVc5M0VfRnlUbUVaMEdZUzNvTHlFM2tQZkFWUmhJRjhxLXdoX1dmTjFUWnd2WFhzMWRfdw?oc=5"
+    },
+    {
+      "headline": "Iran's Revolutionary Guards say it targeted US positions in the region in response to attack - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran's Revolutionary Guards say it targeted US positions in the region in response to attack\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-26 23:03",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVC1oeUhDR095WDJqeFZzTHByY052ZVM3V0NYN3NIbUlpU2pMd05mclEzejVObDZnWkhQWjF6d2dvY2VXT2JiUjkxZW1sVkk2czBCeWlqMjk2T19SdHM4bzFPRlVGZV9UQkZudENpNUNYbGplWDM1NG54RnZ0SXVJdFlLZ1lfRUN4aExqZkxuUFdBcnpydGtoN2RPeXBiLWJxWlBDcDVMMEdZQTJpd0MxcWl2QU5sSkFPemVKVEhQRVpBSmpod1haYjF0Zy0?oc=5"
+    },
+    {
+      "headline": "Israel, Lebanon sign initial agreement after US-mediated talks - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israel, Lebanon sign initial agreement after US-mediated talks\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-26 21:02",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZEQ1eUt6SFFHdFlGLWZxLVFTVnhHOThrbmpjbmtEMnlydmZYY08wLTI3X3NhSm5adGlBVU5nbmwwOWZENkJnVlU1UUNaUHIxNXdSNXdsT0NpRnpSdTFkc3VnUXVmY3lvX2lpb0xybngxODZya0ZTWFlueU1lSEZvZU5lWmV0M0U3OEp6MXVXaUF6Sm9xUjZoZGJldkFWQU5NV2dGWi13Uzdlci1LVEVQTGZnaEdBV0ZFSktfdTJfUGxXZw?oc=5"
+    },
+    {
+      "headline": "US military conducted strikes against Iran - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US military conducted strikes against Iran\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-26 20:53",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdHdZdU1zam5FTTBKVzlNWDBLU3N0dmxTbFRaMjBrVFNwNHBXQVpnTU16SmhxWUdyRWRNUkE0NXdLWE5kMDNnc25rdFIxMk1jSFd4M05LWkxzTDVlTnRBUkotNW5RaHBQaGZFaXE2RWdlb2psdHVqTHV3MU9odHVVdVZ0M1NJX3pMQ0RHcGFsTWlQTXdIY29rSV9HQXJCWW1uZHVUWnQwOA?oc=5"
+    },
+    {
+      "headline": "SpaceX\u2019s new bonds are flashing a warning sign, as investors pump the brakes on AI frenzy",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Those who find extensive damage to their roofs might be stuck between two options: File an insurance claim, which could trigger a premium increase, or cough up the cash for the necessary repairs or replacement.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-26 16:10",
-      "link": "https://www.marketwatch.com/story/insurers-shifted-roof-replacement-costs-onto-homeowners-thanks-to-a-new-federal-rule-just-in-time-for-hail-and-hurricane-season-e86068df?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "We're adding to our position in a newly public stock that's still finding its footing",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The purchase will help us build up this new position.",
-      "category": "global_markets",
-      "date": "2026-06-26 15:51",
-      "link": "https://www.cnbc.com/2026/06/26/were-adding-to-our-position-in-a-newly-public-stock-thats-still-finding-its-footing.html"
-    },
-    {
-      "headline": "Invesco S&P 500 Value with Momentum ETF declares quarterly distribution of $0.3521",
-      "score": 6,
-      "source": "MSN",
-      "sentiment": "positive",
-      "impact": "Invesco S&P 500 Value with Momentum ETF (ARCA:SPVM) has declared a quarterly distribution of $0.3521 per share. This announcement provides investors with key information regarding the upcoming dividend payment from the ETF.",
-      "category": "us_equities",
-      "date": "2026-06-26 15:40",
-      "link": "https://www.msn.com/en-us/money/topstocks/invesco-s-p-500-value-with-momentum-etf-declares-quarterly-distribution-of-03521/ar-AA26htc4"
-    },
-    {
-      "headline": "Carnival (CCL) Earnings Beat Leaves Its Valuation Case Open To Debate",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "Carnival (CCL) recently reported record quarterly revenue and earnings that surpassed analyst estimates, yet its stock fell due to cautious forward guidance from management. Despite this dip, the stock shows strong longer-term momentum and analysts see potential upside to price targets, valuing it a",
-      "category": "corporate_earnings",
-      "date": "2026-06-26 15:30",
-      "link": "https://simplywall.st/stocks/us/consumer-services/nyse-ccl/carnival/news/carnival-ccl-earnings-beat-leaves-its-valuation-case-open-to"
+      "sentiment": "negative",
+      "impact": "Elon Musk\u2019s company made a splash earlier this week with a $25 billion bond deal, less than two weeks after it raised tens of billions of dollars in cash.",
+      "category": "fixed_income",
+      "date": "2026-06-26 20:42",
+      "link": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories"
     }
   ]
 }
