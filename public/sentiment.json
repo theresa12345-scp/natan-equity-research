@@ -1,28 +1,29 @@
 {
-  "timestamp": "2026-06-27T08:26:05.460381",
+  "timestamp": "2026-06-27T15:17:39.090580",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.3,
-    "bullish": 12,
-    "neutral": 9,
+    "bullish": 11,
+    "neutral": 10,
     "bearish": 4,
-    "high_priority": 10,
-    "material_events": 5
+    "high_priority": 9,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "MarketWatch": 2,
-    "Reuters": 7,
-    "Bloomberg": 2,
-    "CNBC": 5,
+    "Reuters": 3,
+    "Bloomberg": 3,
+    "CNBC": 4,
     "Caixin/S&P Global": 1,
+    "TradingView": 5,
     "Yahoo Entertainment": 1,
-    "CBS News": 1,
-    "Ad-hoc-news.de": 1,
-    "TradingView": 1
+    "Financial Times": 1,
+    "Stocktwits.com": 1,
+    "The Globe and Mail": 1,
+    "TIKR.com": 1
   },
   "top_signals": [
     {
@@ -32,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,18 +63,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Bond yields are falling as inflation pops. The Fed\u2019s tough talk under Warsh is helping.",
-      "score": 9,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Kevin Warsh, the new Federal Reserve chair, is helping coax Treasury yields lower by talking tough on inflation.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-26 20:38",
-      "link": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -82,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -92,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -102,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -112,7 +103,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -132,7 +123,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -142,28 +133,78 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-27 08:26",
+      "date": "2026-06-27 15:17",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "One factor that may be partly behind the S&P 500's curious action this week",
+      "headline": "Enterprise value to revenue forward of PodcastOne, Inc. \u2013 NASDAQ:PODC",
       "score": 7,
-      "source": "CNBC",
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "There were plenty of reasons for stocks to post a big move on Thursday, but the S&P 500 ended almost exactly where it closed Wednesday.",
+      "impact": "This article provides the enterprise value to revenue forward for PodcastOne, Inc. (NASDAQ: PODC). It displays basic market information for the company, indicating that the market is currently closed with no trades. The content is primarily a financial data point from TradingView.",
       "category": "us_equities",
-      "date": "2026-06-26 12:02",
-      "link": "https://www.cnbc.com/2026/06/26/one-factor-that-may-be-partly-behind-the-sp-500s-curious-action-this-week.html"
+      "date": "2026-06-27 13:40",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-PODC/financials-statistics-and-ratios/enterprise-value-sales-fwd/"
     },
     {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures drop as tech struggles to find its footing",
+      "headline": "Enterprise value to revenue forward of Microchip Technology Incorporated \u2013 NASDAQ:MCHP",
+      "score": 7,
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "This article provides a financial overview of Microchip Technology Incorporated (NASDAQ: MCHP), specifically focusing on its enterprise value to revenue forward. It indicates various financial tools and data provided by TradingView for analyzing the company's performance. The main content shows a ta",
+      "category": "us_equities",
+      "date": "2026-06-27 13:38",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-MCHP/financials-statistics-and-ratios/enterprise-value-sales-fwd/"
+    },
+    {
+      "headline": "Enterprise value to revenue forward of NetScout Systems, Inc. \u2013 NASDAQ:NTCT",
+      "score": 7,
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "The article concerns NetScout Systems, Inc. (NASDAQ: NTCT) and mentions its enterprise value to revenue forward metric. It appears to be a financial data page from TradingView, providing an overview of the company's financials, news, and other market data points. The content seems to be primarily na",
+      "category": "us_equities",
+      "date": "2026-06-27 12:44",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-NTCT/financials-statistics-and-ratios/enterprise-value-sales-fwd/"
+    },
+    {
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq slide as report of OpenAI IPO delay rattles techs",
       "score": 7,
       "source": "Yahoo Entertainment",
-      "sentiment": "neutral",
-      "impact": "US stock futures wavered as Wall Street digested a downbeat week for tech stocks.",
+      "sentiment": "positive",
+      "impact": "Wall Street digested a downbeat week for tech stocks.",
       "category": "us_equities",
-      "date": "2026-06-26 03:03",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-drop-as-tech-struggles-to-find-its-footing-231347821.html"
+      "date": "2026-06-26 13:37",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-waver-as-report-of-openai-ipo-delay-rattles-chip-stocks-231347821.html"
+    },
+    {
+      "headline": "Bond Traders Stunned as Losses on SpaceX\u2019s New Debt Keep Growing",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "SpaceX\u2019s blockbuster bond sale is weakening so quickly in the secondary market that traders say they can\u2019t recall another recent deal that widened this sharply.",
+      "category": "fixed_income",
+      "date": "2026-06-26 12:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-26/bond-traders-stunned-as-losses-on-spacex-s-new-debt-keep-growing"
+    },
+    {
+      "headline": "Kevin Warsh\u2019s tough talk on inflation reassures investors",
+      "score": 7,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "New Fed chair\u2019s hawkish words and the fall in oil drive down long-term expectations for price rises",
+      "category": "global_markets",
+      "date": "2026-06-26 04:01",
+      "link": "https://www.ft.com/content/a825975a-df76-4f9c-9eb9-774329ebc29d?syn-25a6b1a6\\\\u003d1"
+    },
+    {
+      "headline": "S&P 500, Dow Futures Climb As Markets Look Past Big Tech Declines, Hotter-Than-Expected Inflation: AAPL, MSFT, BABA, MSTR, SNDK, FIG In Focus",
+      "score": 7,
+      "source": "Stocktwits.com",
+      "sentiment": "negative",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-06-26 02:47",
+      "link": "https://stocktwits.com/news-articles/markets/equity/sp500-dow-futures-climb-as-markets-look-past-big-tech-declines-hotter-than-expected-inflation/cZ1cIjUR7Xv"
     },
     {
       "headline": "Darden Restaurants earnings beat estimates but Olive Garden growth weakens",
@@ -176,16 +217,6 @@
       "link": "https://www.cnbc.com/2026/06/25/darden-restaurants-dri-q4-2026-earnings.html"
     },
     {
-      "headline": "The Fed's preferred inflation gauge shows prices rising at fastest pace in 3 years",
-      "score": 7,
-      "source": "CBS News",
-      "sentiment": "positive",
-      "impact": "Inflation continued to rise in May, with the Personal Consumption Expenditures price index rising at an annual rate of 4.1%.",
-      "category": "us_monetary_policy",
-      "date": "2026-06-25 12:48",
-      "link": "https://www.cbsnews.com/news/pce-report-report-may-2026-federal-reserve-inflation/"
-    },
-    {
       "headline": "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test",
       "score": 7,
       "source": "CNBC",
@@ -196,84 +227,54 @@
       "link": "https://www.cnbc.com/2026/06/24/jpmorgan-goldman-sachs-fed-stress-test.html"
     },
     {
-      "headline": "Slate Auto says $24,950 electric truck will be profitable; targets positive cash flow next year",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "EV startup Slate Auto CEO Peter Faricy told CNBC that every vehicle the company produces will be gross margin positive.",
-      "category": "corporate_earnings",
-      "date": "2026-06-24 17:03",
-      "link": "https://www.cnbc.com/2026/06/24/slate-ev-pickup-truck-ceo-business-goals.html"
-    },
-    {
-      "headline": "CBRE Group lifts office exposure in key US cities, shares track S&P 500 real estate peers",
-      "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "CBRE Group is increasing its focus on asset and leasing mandates in major U.S. office hubs, aligning with institutional clients' portfolio adjustments. The company, a significant player in global commercial real estate services and an S&P 500 real estate component, currently trades in line with its ",
-      "category": "us_equities",
-      "date": "2026-06-27 07:22",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cbre-group-lifts-office-exposure-in-key-us-cities-shares-track-s-and-p/69637927"
-    },
-    {
-      "headline": "TriCo Bancshares Actuals & Estimates (NASDAQ:TCBK)",
+      "headline": "Price to earnings forward of PHINIA Inc. \u2013 NYSE:PHIN",
       "score": 6,
       "source": "TradingView",
-      "sentiment": "positive",
-      "impact": "The article provides an overview of TriCo Bancshares (NASDAQ: TCBK) stock, including its current price, market capitalization, historical performance, and analyst forecasts. It also details the company's financial results, such as recent earnings and revenue, dividend payments, and upcoming earnings",
+      "sentiment": "neutral",
+      "impact": "This article displays the \"Price to earnings forward\" metric for PHINIA Inc. (NYSE:PHIN). It is presented within a financial data context on TradingView, indicating a specific period and value for this financial indicator but without providing the actual numbers in the excerpt.",
       "category": "us_equities",
-      "date": "2026-06-27 07:10",
-      "link": "https://www.tradingview.com/symbols/NASDAQ-TCBK/forecast-actuals-and-estimates/"
+      "date": "2026-06-27 13:38",
+      "link": "https://www.tradingview.com/symbols/NYSE-PHIN/financials-statistics-and-ratios/price-earnings-fwd/"
     },
     {
-      "headline": "Iran wait on World Cup progress after late goal disallowed in Egypt draw - Reuters",
+      "headline": "Enterprise value to EBITDA forward of Polyrizon Ltd. \u2013 NASDAQ:PLRZ",
       "score": 6,
-      "source": "Reuters",
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "Iran wait on World Cup progress after late goal disallowed in Egypt draw\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-27 05:23",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUlowZDA3blZ2WnY5eGhiUjFvZWtFeUpFMEoxQTNLcnJYcmREWEppOFdIVGFoNGRTeWstbHpmY21OQTg5QU0wWVdydXFFc0pUY3BDZFVwTWs5UnJ5R3ZrWG5JWENuNFZ0bnVOTlFVNkNlYm1fX19hcFVnVV9rMUFFeWFjaC0tdFRQbVNfMVc5M0VfRnlUbUVaMEdZUzNvTHlFM2tQZkFWUmhJRjhxLXdoX1dmTjFUWnd2WFhzMWRfdw?oc=5"
+      "impact": "This article displays the Enterprise Value to EBITDA forward for Polyrizon Ltd. (NASDAQ: PLRZ) on TradingView. It indicates that the market is closed with no trades. The content also includes various navigation and footer links.",
+      "category": "us_equities",
+      "date": "2026-06-27 13:28",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-PLRZ/financials-statistics-and-ratios/enterprise-value-ebitda-fwd/"
     },
     {
-      "headline": "Iran's Revolutionary Guards say it targeted US positions in the region in response to attack - Reuters",
+      "headline": "Microsoft vs. Alphabet: What Their Revenue Trends Tell Investors",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran's Revolutionary Guards say it targeted US positions in the region in response to attack\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-26 23:03",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVC1oeUhDR095WDJqeFZzTHByY052ZVM3V0NYN3NIbUlpU2pMd05mclEzejVObDZnWkhQWjF6d2dvY2VXT2JiUjkxZW1sVkk2czBCeWlqMjk2T19SdHM4bzFPRlVGZV9UQkZudENpNUNYbGplWDM1NG54RnZ0SXVJdFlLZ1lfRUN4aExqZkxuUFdBcnpydGtoN2RPeXBiLWJxWlBDcDVMMEdZQTJpd0MxcWl2QU5sSkFPemVKVEhQRVpBSmpod1haYjF0Zy0?oc=5"
-    },
-    {
-      "headline": "Israel, Lebanon sign initial agreement after US-mediated talks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israel, Lebanon sign initial agreement after US-mediated talks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-26 21:02",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZEQ1eUt6SFFHdFlGLWZxLVFTVnhHOThrbmpjbmtEMnlydmZYY08wLTI3X3NhSm5adGlBVU5nbmwwOWZENkJnVlU1UUNaUHIxNXdSNXdsT0NpRnpSdTFkc3VnUXVmY3lvX2lpb0xybngxODZya0ZTWFlueU1lSEZvZU5lWmV0M0U3OEp6MXVXaUF6Sm9xUjZoZGJldkFWQU5NV2dGWi13Uzdlci1LVEVQTGZnaEdBV0ZFSktfdTJfUGxXZw?oc=5"
-    },
-    {
-      "headline": "US military conducted strikes against Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "The Globe and Mail",
       "sentiment": "positive",
-      "impact": "US military conducted strikes against Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-06-26 20:53",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdHdZdU1zam5FTTBKVzlNWDBLU3N0dmxTbFRaMjBrVFNwNHBXQVpnTU16SmhxWUdyRWRNUkE0NXdLWE5kMDNnc25rdFIxMk1jSFd4M05LWkxzTDVlTnRBUkotNW5RaHBQaGZFaXE2RWdlb2psdHVqTHV3MU9odHVVdVZ0M1NJX3pMQ0RHcGFsTWlQTXdIY29rSV9HQXJCWW1uZHVUWnQwOA?oc=5"
+      "impact": "This article analyzes the revenue trends of Microsoft and Alphabet, highlighting that Alphabet consistently maintains a larger revenue base but both companies show steady growth. It suggests that while both are strong investments in tech and AI, Microsoft presents a better \"buy\" opportunity due to i",
+      "category": "corporate_earnings",
+      "date": "2026-06-27 13:25",
+      "link": "https://www.theglobeandmail.com/investing/markets/stocks/MSFT-Q/pressreleases/3013744/microsoft-vs-alphabet-what-their-revenue-trends-tell-investors/"
     },
     {
-      "headline": "SpaceX\u2019s new bonds are flashing a warning sign, as investors pump the brakes on AI frenzy",
+      "headline": "Axon Enterprise Has Beaten Revenue Estimates Nine Straight Quarters: Can the $1,272 Target Hold?",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Elon Musk\u2019s company made a splash earlier this week with a $25 billion bond deal, less than two weeks after it raised tens of billions of dollars in cash.",
-      "category": "fixed_income",
-      "date": "2026-06-26 20:42",
-      "link": "https://www.marketwatch.com/story/spacexs-new-bonds-are-flashing-a-warning-sign-as-investors-pump-the-brakes-on-ai-frenzy-752ad44b?mod=mw_rss_topstories"
+      "source": "TIKR.com",
+      "sentiment": "positive",
+      "impact": "Axon Enterprise (AXON) has surpassed revenue estimates for nine consecutive quarters, showing robust growth primarily driven by its AI Era Plan, Dedrone counter-drone business, and international expansion. Analysts maintain a mean target of $662, suggesting a 42% upside, while TIKR's model projects ",
+      "category": "corporate_earnings",
+      "date": "2026-06-27 13:11",
+      "link": "https://www.tikr.com/blog/axon-enterprise-has-beaten-revenue-estimates-nine-straight-quarters-can-the-1272-target-hold"
+    },
+    {
+      "headline": "How Kohl's lost its way \u2014 and is trying to become relevant again",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Kohl's went from a household name to a plunging stock as it lost relevancy and its core customer. Now, the company is trying to turn itself around.",
+      "category": "global_markets",
+      "date": "2026-06-27 12:00",
+      "link": "https://www.cnbc.com/2026/06/27/how-kohls-lost-its-way-and-is-trying-to-become-relevant-again.html"
     }
   ]
 }
