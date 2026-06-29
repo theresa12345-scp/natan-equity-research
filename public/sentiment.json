@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-28T15:20:01.372229",
+  "timestamp": "2026-06-29T10:22:25.061856",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 8,
-    "neutral": 16,
-    "bearish": 1,
-    "high_priority": 8,
+    "bullish": 12,
+    "neutral": 10,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
+    "Reuters": 13,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "MarketWatch": 1,
-    "Ad-hoc-news.de": 2,
-    "TradingView": 2
+    "CNBC": 2,
+    "Ad-hoc-news.de": 1,
+    "www.marketscreener.com": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Gold falls as Gulf tensions fuel inflation fears, Fed rate-hike bets - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold falls as Gulf tensions fuel inflation fears, Fed rate-hike bets\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-06-29 02:56",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSTVKRTRyZTc4cndMX2E0Mzd3UlROU1FJMWFsaWpkbDVuSUFiVldPeE1GRVFLbDVYeTZ5RTFXd08wUkYwU205amR5a1BIOTFTNGE1T01qMjNGSkJ2OXpjQVhWQ1JXSTdOeDBGb3I5czNDQ1VYck9ENEZJNVZMQk5Rc19tTWgzM3hGaC1uSlltSktpNWtyM3AtTTk3RkZJaFNpNjVFRXJUSWhuWEJGcnNUb1ZGVWstUQ?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,158 +130,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-06-28 15:19",
+      "date": "2026-06-29 10:22",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Trading in these two ETFs suggests inflation fears are overblown",
-      "score": 7,
+      "headline": "'This bargain is eroding': Inside the youngest generations' view of the American Dream",
+      "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "It could have been a big week for bond bears, if it weren't for crude oil.",
+      "sentiment": "positive",
+      "impact": "Gen Z is at a tipping point, some economists say: the first U.S. generation in living memory where the majority may be unable to achieve the American Dream.",
       "category": "global_markets",
-      "date": "2026-06-27 12:18",
-      "link": "https://www.cnbc.com/2026/06/27/trading-in-these-two-etfs-suggests-inflation-fears-are-overblown.html"
+      "date": "2026-06-29 09:55",
+      "link": "https://www.cnbc.com/2026/06/29/gen-z-american-dream-eroding-redefining.html"
     },
     {
-      "headline": "SpaceX will join Nasdaq-100",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Adding SpaceX this quickly would make the Elon Musk company one of the first beneficiaries of Nasdaq's recently adopted fast-track inclusion framework.",
+      "headline": "UDR gains a clear Monday earnings focus, shares in New York",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "UDR Inc. (US9029011082) is highlighted for its upcoming earnings focus on Monday, with shares trading on the NYSE. MarketScreener shows an average target price of $40.62, slightly above its last close of $39.98. The company operates a multifamily apartment portfolio and is listed within the S&P 500.",
+      "category": "corporate_earnings",
+      "date": "2026-06-29 09:25",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/udr-gains-a-clear-monday-earnings-focus-shares-in-new-york/69651773"
+    },
+    {
+      "headline": "Apple Inc.(NasdaqGS: AAPL) added to Russell 3000E Value Benchmark",
+      "score": 6,
+      "source": "www.marketscreener.com",
+      "sentiment": "positive",
+      "impact": "Apple Inc. (NasdaqGS: AAPL) has been added to the Russell 3000E Value Benchmark. This news, published on June 29, 2026, highlights the company's continuous financial re-evaluation within major market indices. The article also provides a company profile, recent news, and analyst consensus for Apple I",
       "category": "us_equities",
-      "date": "2026-06-27 00:10",
-      "link": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100-on-hold-on-hold-on-hold.html"
+      "date": "2026-06-29 09:24",
+      "link": "https://www.marketscreener.com/news/apple-inc-nasdaqgs-aapl-added-to-russell-3000e-value-benchmark-ce7f5fdedf8ef223"
     },
     {
-      "headline": "America can't get enough of protein. The dairy industry can't keep up",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Demand for whey protein is off the charts as American diet trends change and GLP-1s boom, and the dairy industry is struggling to produce enough.",
-      "category": "global_markets",
-      "date": "2026-06-28 15:13",
-      "link": "https://www.cnbc.com/2026/06/28/america-cant-get-enough-protein-the-dairy-industry-cant-keep-up.html"
-    },
-    {
-      "headline": "Some renters say homeownership isn't part of their American Dream: Renting is 'really freeing for me'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Some no longer see renting as a temporary stop on the path to homeownership but rather a long-term lifestyle choice, reflecting a shift in the American Dream.",
-      "category": "global_markets",
-      "date": "2026-06-28 14:05",
-      "link": "https://www.cnbc.com/2026/06/28/some-renters-say-homeownership-isnt-part-of-their-american-dream.html"
-    },
-    {
-      "headline": "Micron is about to be more profitable than any U.S. company except Nvidia and Google",
+      "headline": "The central bank of central  banks warns AI frenzy could trigger stock-market slump and jeopardize economy",
       "score": 6,
       "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Rich stock market valuations, investor complacency, circular financing, and the potential knock-on effects in credit markets are a clear warning in the BIS annual report",
+      "category": "global_markets",
+      "date": "2026-06-29 09:13",
+      "link": "https://www.marketwatch.com/story/the-central-bank-of-central-banks-warns-ai-frenzy-could-trigger-stock-market-slump-and-jeopardize-economy-4d24b0a1?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Asia shares choppy as South Korea chip push steadies sentiment; Iran truce in focus - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Asia shares choppy as South Korea chip push steadies sentiment; Iran truce in focus\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-06-29 05:07",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkdzTjRhWXJHYlExaGNxZUF6cGxORnpJSUVyYkpMMWFSeXI2dk5sZHNBSWI3c1RoR01tZk9QMFNDVHNhcUprUjVtZ1dOeHFTajU5NkxRcnVxUHpMTUFhaU1GSzUtNnhDUHpaRHlHUm42blpPNXF0NlNtbmhoMDRraGN5bTl0WVJZbnZTMWVDUm1rQzA4SVNBYmNkOFY0UnBWR2hpN1NyYUNySF9YQTZ4c1hEY2F0SW00TUE?oc=5"
+    },
+    {
+      "headline": "Iran cyberattacks on Israel surged in 2026, Israeli cyber chief says - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Big Tech companies are willing to pay astronomical prices for AI memory components, helping spark a dramatic turnaround in Micron\u2019s finances.",
-      "category": "corporate_earnings",
-      "date": "2026-06-28 14:00",
-      "link": "https://www.marketwatch.com/story/micron-is-about-to-be-more-profitable-than-any-u-s-company-except-nvidia-and-google-3a83e343?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Here are 3 big things we're watching in the stock market in the week ahead",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "It's jobs week, and Nike has a pivotal earnings report and a long-awaited breakup is complete.",
+      "impact": "Iran cyberattacks on Israel surged in 2026, Israeli cyber chief says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-28 13:30",
-      "link": "https://www.cnbc.com/2026/06/28/here-are-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead-.html"
+      "date": "2026-06-29 05:02",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdTIwVnlkaTVydWtvSFRWY1hOYjAyQTNJN3ZnZ0hWRm40SnNsRWZ6bXItXzlhajluMi0zZFV0ajZSYmo3dkw3N1lpZE9YMmFUdFpUcGpvYjNEU2xIeHAtSGJVTDY1ZGhhZ3BwVU1pOWZqQ2RyR00takVoMHZNODZuT2ZSZVdqUGlrZEV0TE94TzdoYlBabDRIQmV3QVNJNndMckNBVTl6Wk9hYUZNc3RfNHhYQU5VZw?oc=5"
     },
     {
-      "headline": "Centene cautious on workforce plans, shares hold steady in S&P 500 healthcare group",
+      "headline": "Indian shares flat as US-Iran talks temper escalation fears - Reuters",
       "score": 6,
-      "source": "Ad-hoc-news.de",
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Indian shares flat as US-Iran talks temper escalation fears\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-29 02:43",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaXRSTW02UWtrLXFsRVFkZ1p6dUlQV3dGTzRiRHI4SWZaTXBSUmFKdl9ZbzV1MTgwajlFUDhXNzRvam5zNEwyT0J4Mk9iekRLV0NmTHNTSURBSU5STVlKSkk2U0RwZ1FvWkFQcVlIaHJuenNGRmFTY201WVVvVU5LajRKSzIwUDQwLWxsRzBKcERpeWNnWHFwYTZXaW9zckViWmRRYUJkaTNOUk5raW1yT1NFdGxNWFk?oc=5"
+    },
+    {
+      "headline": "Stocks perk up and oil cools as US and Iran halt hostilities - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Centene Corporation is under scrutiny for planned workforce reductions while RBC Capital initiates coverage with a \"Sector Perform\" rating and a $70 price target. Despite potential execution risks in Medicaid and Marketplace operations, the managed-care stock remains a key player in the S&P 500 heal",
-      "category": "us_equities",
-      "date": "2026-06-28 13:00",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/centene-cautious-on-workforce-plans-shares-hold-steady-in-s-and-p-500/69647404"
+      "impact": "Stocks perk up and oil cools as US and Iran halt hostilities\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-29 01:40",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYUFwVXVYYUk3ZXZGYUhac1BmQjhYN1JiSHM5SlhvWW9taHVTRkFZeVlrNFVfTl8wQVY0VTc3ekNEd1EyX2NMYjdNZXFwWi1WMFJWTHVIaE8yNTNNVWR4NkFHelBmSFlwYWdjRTZQREo4elhtYnNhZ3RMMjg2ckttSw?oc=5"
     },
     {
-      "headline": "Carrier Global strategy in HVAC, shares in S&P 500 peer focus",
+      "headline": "Philippines leads the world in rush to solar as power prices soar - Reuters",
       "score": 6,
-      "source": "Ad-hoc-news.de",
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Carrier Global is a specialist in heating, ventilation, and air conditioning solutions, listed in the S&P 500 under the ticker CARR. The company's strategy in the HVAC market is under investor scrutiny, with analysts highlighting its exposure to commercial demand and decarbonization trends. Carrier ",
-      "category": "us_equities",
-      "date": "2026-06-28 12:50",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/carrier-global-strategy-in-hvac-shares-in-s-and-p-500-peer-focus/69646942"
+      "impact": "Philippines leads the world in rush to solar as power prices soar\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-06-28 23:34",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaHpHeV9XOF8wZXVYRS1NSDJ5bTJzTTZwZ3NlRHR5aXZ5dUh5ZXJtWnFmVHRvTVFfMXl1eUVSeDQtZGkxby1DQVZrb3ZrNUJFdE1rNjVMd05lRjBNTHU4a21tdTJ4ZFNnbDFFTE14M1hwY0Flb0ZtYmxuemhEQW45U05tYlAtcFRSM1JsMDVKYkhKUU5RMUNBVUNIQlJySXBxQ1dKVmlxSQ?oc=5"
     },
     {
-      "headline": "Price to earnings forward of Capital City Bank Group \u2013 BOATS:CCBG",
+      "headline": "Oil steadies as US and Iran agree to halt attacks - Reuters",
       "score": 6,
-      "source": "TradingView",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "This article displays the \"Price to earnings forward\" metric for Capital City Bank Group (CCBG) through the Blue Ocean Alternative Trade System (BOATS) on TradingView. It indicates that the market was closed at the time of viewing, with no trades observed. The content provides a snapshot of financia",
-      "category": "corporate_earnings",
-      "date": "2026-06-28 12:41",
-      "link": "https://www.tradingview.com/symbols/BOATS-CCBG/financials-statistics-and-ratios/price-earnings-fwd/"
+      "impact": "Oil steadies as US and Iran agree to halt attacks\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-06-28 22:15",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeVE4MTEtZkdxUjFqY0VNeW1uZ09lM01DRkRxcVRkTzNFajVCMmx6QWVLdG9NQmRaMFBIdmswQ09GaExRMnNvV1lvS044S3oxQXVOSjYtcmhVelkxbmxJZ0JxOXRJOWNQbmhmSFNpalZUTVEzRldFZ01XdTdtYlhOZDdCazRjeHlJUi1ReEctQ1hfQ2toMnpZQjJXd3BJOWRBNWR4NDczX0diZ09D?oc=5"
     },
     {
-      "headline": "Enterprise value to revenue forward of Okta, Inc. Class A \u2013 DUS:0OK",
-      "score": 6,
-      "source": "TradingView",
-      "sentiment": "neutral",
-      "impact": "This article provides financial information for Okta, Inc. Class A (DUS:0OK), specifically focusing on its enterprise value to revenue forward. The content is part of TradingView's financial data offerings, which include overview, financials, news, and technical analysis.",
-      "category": "corporate_earnings",
-      "date": "2026-06-28 12:40",
-      "link": "https://www.tradingview.com/symbols/DUS-0OK/financials-statistics-and-ratios/enterprise-value-sales-fwd/"
-    },
-    {
-      "headline": "Seniors in Medicare are about to get landmark obesity drug coverage \u2014 but many may not know it yet",
+      "headline": "Everything tied to the data center is suddenly suspect. Can Big Tech fix it?",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Many seniors may be unaware of the landmark coverage shift starting on July 1, with limited advertising seen from the government or Eli Lilly and Novo.",
+      "sentiment": "positive",
+      "impact": "The hyperscalers are just beginning to figure out the consequences of the AI arms race, and now everyone seems to be against them.",
       "category": "global_markets",
-      "date": "2026-06-28 12:00",
-      "link": "https://www.cnbc.com/2026/06/28/medicare-will-soon-cover-obesity-drugs-but-many-seniors-may-not-know.html"
+      "date": "2026-06-28 22:09",
+      "link": "https://www.cnbc.com/2026/06/28/cramer-the-data-center-is-suddenly-suspect-can-big-tech-fix-it.html"
     },
     {
-      "headline": "A 'perfect storm' points to a much smaller U.S. auto market by 2040",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The auto industry is selling fewer cars--one forecaster says this is a fundamental change, and it is going to get worse.",
-      "category": "global_markets",
-      "date": "2026-06-28 11:00",
-      "link": "https://www.cnbc.com/2026/06/28/us-auto-market.html"
-    },
-    {
-      "headline": "Late drama ends Iran's hopes of reaching World Cup knockouts for first time - Reuters",
+      "headline": "Israel damaged heritage sites across south Lebanon, minister says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Late drama ends Iran's hopes of reaching World Cup knockouts for first time\u00a0\u00a0Reuters",
+      "impact": "Israel damaged heritage sites across south Lebanon, minister says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-28 05:34",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaDEtc3VaN1lWQmNYSGVfeWlpR1MzaG9wZ0pab2dOU041S3JzTlVKdno3bW5qaTcxRE9ObEN4ZnMxUERyOUNlTUlkZG5SZ3lzclV6WXo2TWxKMElUdHB5VFVNZGhkVzU4WXpVdXRILXpKcnlpaEE3UGV3NEQyd0huMW1SVVJMQjN6cktMbmJSQ3BxaG5FXzVxeG5mZ2NlWm1QWGgtZ2RHMk0xWmpEYkhOcXVPbTBkeFFC?oc=5"
+      "date": "2026-06-28 21:12",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQlFsWjdyLTVfeVdablVHR3p5WGE2Q3g1UEdBYmRhTDlDNEM5WE82U0JRV3oyX3hWRE1BWlRwMkNKQktBNWhhVzUwVWtnOWNzUEN4R0k2djBuMHBVNTRHMVJFeW5sSnlpOW5LTjN1UXRpdEVnM3VoMnZXMGwyVXB0RFF2SEMwanJSY1p2MXk2RVZjaVNndkx5RUV0aDFPSzJEc20zTVBkSFBEalVfSE85TTN2TGxMWFRyc3c?oc=5"
     },
     {
-      "headline": "Austria and Algeria advance to World Cup round of 32, Iran eliminated - Reuters",
+      "headline": "Israel destroys Hezbollah underground infrastructure in southern Lebanon - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Austria and Algeria advance to World Cup round of 32, Iran eliminated\u00a0\u00a0Reuters",
+      "impact": "Israel destroys Hezbollah underground infrastructure in southern Lebanon\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-28 04:21",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDBnWUw2ZjNJbF82RElqNG5JNmlqcnA2Q0R0NFhObzBrSVZ5TThlZHlyV1M5bjNGVlgxWUNzMnFuLUV5SmhTNmtEeFFQN01JdkZwM3M1M2FfV3NUel84UlhsQVNNM3JqZ3o5bk1fNFJST3U1WUJjbmtLOTRLRXJFNGNZS0xMR0phcnNEaVE1aWo3RDJNZUFaWklzVHhqeXphaERIel9INHFkSWZN?oc=5"
+      "date": "2026-06-28 20:17",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeHpnQ2htRldyN2wyQkhMc0JqSVdwbDA5VkRCZklRS0t1QURDWHFWRUJEM1BxNnFhN0hCcnRNQ3hvQm9USV9wSkhKZXl2OXJSc2xObjFxRTdCNXVaUVNsdlVsZHd4dDNwVHZTUU5LY1BodWRrZkZHdU1NcFVGMDhfVmpJTnkwSDc4NzdBWTlVUnhKaFg2ZTZiSnNFeDdteG5TVmZDbEtFRGhLSk0yNDFabDdUTDV6SmFJejQ0akZ4OWg?oc=5"
     },
     {
-      "headline": "Austria draw with Algeria in World Cup thriller to progress and send Iran home - Reuters",
+      "headline": "Iran canceled participation in technical talks over recent attacks, official tells state TV - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Austria draw with Algeria in World Cup thriller to progress and send Iran home\u00a0\u00a0Reuters",
+      "impact": "Iran canceled participation in technical talks over recent attacks, official tells state TV\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-06-28 04:13",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRWxESjNJOHpZWkI5M0wtZzhVT0pXSEJSbXN4STBsd2JXM3I2MFBObXFxYkdtYjZ6S1JtRHNERFJfMU9DcDY4MzZ0ZWNoQU94SXIwOTZhcmtCQUY5bll0TVRYUGsxaU1XQmlRMkpGLXZQZFQzZUtDcWUwak1URHFVTmJEWEFmYzJUUFV0Q1hxRzMxSzEyRE5wcnBqNzJxNldhVnRKMkJyTjY2VV9YMl9WOXlJYlA?oc=5"
+      "date": "2026-06-28 19:53",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcjJ0V01LU0UwTXVYdzY5LXk2SURZV0t2cVhsZ1NyWVlHUklkeHVKZ1FQTHQ5bVdwcWFQZ09RajN0YXFsY01qR1J1OVNJcF96Qkg4SndTX1hzU0REN29aWDZfMHNkVGhzZC1qdVkzNlJtX2dscC1EZU9yM1lBSmNxZ3Z4cF9oSEdXLXRHc3hkSjU2NUN6UGNEM0ItSjl0OEJtcjR6VnN1czEtTEpRYzlTOTJ0dVRjbTVlYWZySkg0QW0zU29uR1VUdXJ1d2k?oc=5"
     }
   ]
 }
