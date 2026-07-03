@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-03T08:49:08.450254",
+  "timestamp": "2026-07-03T15:53:10.764230",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 11,
-    "neutral": 12,
-    "bearish": 2,
-    "high_priority": 10,
+    "avg_relevance": 7.0,
+    "bullish": 13,
+    "neutral": 11,
+    "bearish": 1,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 8,
+    "Reuters": 10,
     "Bloomberg": 2,
-    "MarketWatch": 2,
-    "Associated Press": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 7
+    "CNBC": 5,
+    "TechStock\u00b2": 1,
+    "Ad-hoc-news.de": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,28 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Stock Market Today: Dow to eke out record close, S&P 500 flat and Nasdaq declines as investors digest Fed Chair Warsh\u2019s remarks; ADP signals steadying labor market",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The Dow Jones Industrial Average ended fractionally lower Wednesday, missing a record close, while the S&P 500 and Nasdaq also fell as investors await the June jobs report.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-01 19:41",
-      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-rally-warsh-ecb-forum"
-    },
-    {
-      "headline": "Federal Reserve Chair Warsh emphasizes political independence, signals focus on inflation",
-      "score": 8,
-      "source": "Associated Press",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-01 19:16",
-      "link": "https://apnews.com/article/warsh-federal-reserve-inflation-interest-rate-18c005515444abd2043ad113c9849407"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -129,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -139,18 +120,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-03 08:49",
+      "date": "2026-07-03 15:53",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Trump blasts \u2018hostile\u2019 Fed and says Warsh \u2018has to do what he has to do\u2019 on interest rates",
+      "headline": "US oil companies see big profit jump, gird for clash over pump prices with Trump - Reuters",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Trump, in the interview, also said he continues to plan to remove Fed governor Lisa Cook from the central bank\u2019s board.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-02 22:30",
-      "link": "https://www.marketwatch.com/story/trump-blasts-hostile-fed-and-says-warsh-has-to-do-what-he-has-to-do-on-interest-rates-60b5d16b?mod=mw_rss_topstories"
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US oil companies see big profit jump, gird for clash over pump prices with Trump\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-07-03 11:12",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYkJORzdZX3BXLVNLSE5DWEFMNkUybVc5U3B1TU1XclIxbEd1YXA4bnNLTkZHQ0c4OUZmOFVSUGtXcHdtMTNSYmkwT3VLZ2VlNWdKM0Q2R0Z2Q1RxZGcxRV82NnpRTzhoR1plNFFNZXhlOGdEVHRKX09vM2FJZ3ZYbFYtYU5iNTE3S3pQV3ZqNThuTFZSdHhjMlFhbkhra2Z5aVI1WU1jYXIxdmZGbUIxUk5oV21uX2NjQWVjSG5GRmNlUUxLUWc?oc=5"
+    },
+    {
+      "headline": "Dow rises more than 300 points to record, Nasdaq falls again as chipmakers struggle: Live updates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The major averages ended lower Wednesday, with the Dow closing just below the flatline after erasing a 423.46-point jump that brought it to record highs.",
+      "category": "us_equities",
+      "date": "2026-07-02 16:17",
+      "link": "https://www.cnbc.com/2026/07/01/stock-market-today-live-updates.html"
     },
     {
       "headline": "Trump says 'everybody's profiting' from recent market rallies \u2014 but it\u2019s mostly the 1%",
@@ -163,114 +154,124 @@
       "link": "https://www.cnbc.com/2026/07/02/trump-says-everybodys-profiting-from-market-gains-but-mostly-the-1percent.html"
     },
     {
+      "headline": "Nvidia offers start-up customers chance to swap compute power for revenue share",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Nvidia says it will give start-ups the chance to swap access to compute power for a slice of future profits under a new program aimed at AI-focused firms.",
+      "category": "corporate_earnings",
+      "date": "2026-07-02 09:57",
+      "link": "https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html"
+    },
+    {
+      "headline": "Genuine Parts (NYSE:GPC) shares pop as O\u2019Reilly Automotive (NASDAQ:ORLY) bid tests value",
+      "score": 6,
+      "source": "TechStock\u00b2",
+      "sentiment": "positive",
+      "impact": "Genuine Parts (NYSE:GPC) shares surged 12.9% after reports that O\u2019Reilly Automotive (NASDAQ:ORLY) made a cash offer for its auto parts division. This potential sale highlights the value of GPC's automotive unit, which could fetch $10 billion or more, and shifts investor focus to the remaining indust",
+      "category": "us_equities",
+      "date": "2026-07-03 14:50",
+      "link": "https://ts2.tech/en/genuine-parts-nysegpc-shares-pop-as-oreilly-automotive-nasdaqorly-bid-tests-value/"
+    },
+    {
+      "headline": "Entergy Corp. focuses on regulated utility growth as investors watch earnings and grid investment",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Entergy Corp. is a regulated electric utility operating across the US Gulf Coast, known for its stable earnings based on long-term grid investments. The company's business model relies on regulated returns and significant capital expenditures in transmission, distribution, and generation, aiming for",
+      "category": "corporate_earnings",
+      "date": "2026-07-03 14:34",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/entergy-corp-focuses-on-regulated-utility-growth-as-investors-watch/69680722"
+    },
+    {
       "headline": "NATO leaders to gather in Ankara, aiming to smooth over tensions with Trump - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
       "impact": "NATO leaders to gather in Ankara, aiming to smooth over tensions with Trump\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-03 07:03",
+      "date": "2026-07-03 14:23",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTkJLWS1Wbnk4WEdvWjVXR01zVmJmVlBYLXpnT2g5OVlxSG15bF9QbWEzMS1Ca2EtcjFJaUt2dlNlLUhRZzAxa2tVS2Y3WWFNWDBpN0JIdkpoN1JINTUyZ1Q5dGZMaUFkWmJtaGVGeEFLWHdSZkd3VTkxUWdHR1VIM2F1a0RCVTMwUkQ2OHlEckNIUFlTdjJlTVF5YU1pWW1kMTM2Rm1tVUNaNGYyQUZSSmYwa3MwQ3UtNVgyTjgyLXpBdUs4SVpJ?oc=5"
     },
     {
-      "headline": "Oil prices little changed ahead of long US weekend as peace efforts hold - Reuters",
+      "headline": "NATO leaders including Trump to affirm 'ironclad commitment' to collective defence in Ankara, summit text says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Oil prices little changed ahead of long US weekend as peace efforts hold\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-03 02:05",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0NjRDBBT1J0ZC1KY0c5R1huTjYyNzk4NTg4VU1aa2dmMDVGeHNQcl92Tm1vY3FnQks5ZmE4bWU0YUpwdlFBZjYybVgwQ2FlU1U4TkFBWG9SbHZ6ejZiT0lYdTdVM21VR1JOVk05Qm0yb19pcjk2WEhyZUxjbmV2RklXcGNDVmF2ZURTWkQxNERESHBFcE1LN082a1lYc0MwNDJFUEQzM0J3WkNH?oc=5"
+      "impact": "NATO leaders including Trump to affirm 'ironclad commitment' to collective defence in Ankara, summit text says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-03 14:22",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR21mS1FvbzMzXzlxSUFEVVV5ZENiRktERHRtQ1hycW16UmphZF9RdUEybTVmYjNkOWY4dTFvZ3MyVlZPSnVaLVU2dS1DRjBkempBVkRvd2NROFBkRjlTajI5cjVLSjBxSzlaWmp2Z1RxQVlPaFBJMjQzNUd0VUdFejN1OVItOEhTQUtQU1Zzc2VfU0xQUFgxdWlvZEJfYUROWG9ZMlBhZUNsaTNLWDVzcTc0b2pLc0pRWDBkUGVSbTljVjNudFhGcU84amZSb1dPTzN2TDN0TQ?oc=5"
     },
     {
-      "headline": "Blast at Damascus cafe kills nine, wounds 20, Syrian interior ministry says - Reuters",
+      "headline": "A looming AI disappointment and rising yields. Why one research firm is hitting the brakes on U.S. stocks.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "In a market dominated by tech stocks, a big test is facing investors in the next 12 months, warns MacroResearchBoard",
+      "category": "fixed_income",
+      "date": "2026-07-03 14:17",
+      "link": "https://www.marketwatch.com/story/a-looming-ai-disappointment-and-rising-yields-why-one-research-firm-is-hitting-the-brakes-on-u-s-stocks-4bfaa67b?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Blast at Damascus cafe kills nine, wounds 20, Syrian interior ministry says\u00a0\u00a0Reuters",
+      "impact": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-02 21:26",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ1FuZFNuTEZTUUhkZmNuOFJ1VXBOR3JCNTJSeWE1bzlGUm5LSGZ4aGVWREdueU9uckxILVUzMzlyZWprdDc0cXBzQnVBR3h0YXJta2hBdG0yS3IyS3cwYWozN3UzNV9xTUpySFVkQW5FR2sxUmIxbmRabml3RTh1eGduZDF5RmtaZkZKT2hRQXNZYXBvc1UtbUhvT25rSHRMY0RkSHRYOHp1cUtOempvQWZ1WQ?oc=5"
+      "date": "2026-07-03 14:06",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXpMemJHeWdSem1ZSTR1aFZMQjgzNzZna1VrRmFIQVVkUkQzVUp4QzV1LXBhUjdOVHRWWkF0dHJyc0ZIZDhmUXNMYjVOZWs5dFNONVEwUGJmQlFNYXpLalM2Y25NMjI5UXVMNzhaMmhDaHVQb1VvMzJGZEFSMUxJN3JhWllBVzE5RFZiVzRhUks0MlBuXzZBaTNUM2QybVlyNUlabG9jekdSN3hTR3ZQZGxheTJ4ZXVGRW9lMG9VX3JOQQ?oc=5"
     },
     {
-      "headline": "Iran warns US, Israel against attacks ahead of funeral processions for Khamenei - Reuters",
+      "headline": "How does the Iran crisis compare with the 1979 oil shock? - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Iran warns US, Israel against attacks ahead of funeral processions for Khamenei\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-02 17:56",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVjd1X1pITDBSckd0dXdzYzdCbTZ2T3o2UmFUWG5yaHRuZFZWR1pMclo4Z3BLNGYzeS1WREhPZ291WFlJcmZGOGNHclp0dEp4cVhaQTdweUx5Rl90U2tnRGdJOEtjZHNnbC05aUJRMXZJbHl3aUtKMzlxRl94SUl5N251SENtMVBqVVFHdldIcDJCTnpaamphc2VVWUlReGZCMkZpOEJYMlBxcGlOaVktWUdIR2RseW94clhPenQzVlVhOWM?oc=5"
-    },
-    {
-      "headline": "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Electrification secured $2.4 billion in data center equipment orders during the first quarter of 2026, beating the segment's total for all of 2025.",
-      "category": "global_markets",
-      "date": "2026-07-02 17:44",
-      "link": "https://www.cnbc.com/2026/07/02/ge-vernovas-gas-turbines-arent-the-only-way-its-winning-from-the-ai-boom.html"
-    },
-    {
-      "headline": "Sandwich chain Jersey Mike's files for IPO, reports 50% same-store sales growth in recent years",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Jersey Mike's has nearly 3,300 locations, making it the second-largest hoagie sandwich chain in the U.S. behind Subway.",
-      "category": "global_markets",
-      "date": "2026-07-02 17:38",
-      "link": "https://www.cnbc.com/2026/07/02/jersey-mikes-files-for-ipo.html"
-    },
-    {
-      "headline": "EXCLUSIVE: Kuwait sharply boosts crude production in June after US-Iran deal, source says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "EXCLUSIVE: Kuwait sharply boosts crude production in June after US-Iran deal, source says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-02 16:35",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcFJaLUh1S0VjTXZqZWRsa1JRVU1nektQQmFQd2IzNllGR3NEd25LT002dk5QREF2djg2VlZqNnU0MDROQ1NOSVowTlRwbDFzYnRIVzFOak9WREZiUXhldVUxNUFCUlFaR1VwZXd5WlZGdkZvaThFcWNGUHZNWmFoYmRseUI0ZVkxZ2p3UHByeWJTeTRacmtTTmVrRzkxY3hGazhMbWRVcVZYSnF1QjdQRA?oc=5"
-    },
-    {
-      "headline": "Married Americans tend to be wealthier and happier. Gen Z is forgoing the institution anyway",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Gen Z defines the American Dream as having financial stability and being happy. Marriage could help them reach both of those goals, but many aren't sold on it.",
-      "category": "global_markets",
-      "date": "2026-07-02 16:34",
-      "link": "https://www.cnbc.com/2026/07/02/gen-z-marriage-rates-american-dream.html"
-    },
-    {
-      "headline": "Premier Lacrosse League plans to bring in team owners by 2028 'or soon thereafter,' co-founder says",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Paul Rabil told CNBC he's banking on the 2028 Los Angeles Summer Games, where lacrosse will return as an Olympic sport, to shine a spotlight on PLL.",
-      "category": "global_markets",
-      "date": "2026-07-02 16:23",
-      "link": "https://www.cnbc.com/2026/07/02/premier-lacrosse-league-team-ownership.html"
-    },
-    {
-      "headline": "Ford CEO wants level playing field with Toyota, GM imports as USMCA trade talks reopen",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Ford reports it assembled over 2 million vehicles in the U.S. last year \u2013 more than any other auto manufacturer, including 311,000 units for export.",
-      "category": "global_markets",
-      "date": "2026-07-02 15:36",
-      "link": "https://www.cnbc.com/2026/07/02/ford-jim-farley-usmca.html"
-    },
-    {
-      "headline": "Rivian raises 2026 delivery outlook while Lucid misses Wall Street expectations for second quarter",
-      "score": 6,
-      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Rivian is increasing its delivery outlook to between 65,000 and 70,000 EVs, up from 62,000 to 67,000 units.",
-      "category": "us_equities",
-      "date": "2026-07-02 15:20",
-      "link": "https://www.cnbc.com/2026/07/02/rivian-lucid-q2-deliveries-demand.html"
+      "impact": "How does the Iran crisis compare with the 1979 oil shock?\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-07-03 13:52",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9oa3VPLW5oa2dhSDc5NXA3czBNYlVLR3lrdGprX2FpQ1VYOGxtNngweEJVVm52d0F0RmVuQXhfc0xWcWxjck9oUWN6S0NLRjhoSEkyTVN4R3Rod05JeWRPS1M0LUZtamZ6NlFDUGRmSnBxTTgxYUlZdkRjb2NaNmV3d2tKZkZ0ZEd4MmU3X19EZzhQdVlzTDM2ZDVfSjU1ZmFJZWF2QllXNkU?oc=5"
+    },
+    {
+      "headline": "EXCLUSIVE: Iran exploring oil sales to Japan, buyers seek longer sanctions waiver, sources say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "EXCLUSIVE: Iran exploring oil sales to Japan, buyers seek longer sanctions waiver, sources say\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-07-03 13:23",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONlpxZVF6RnlianRMXzVTT05hLXpuT3FCY3pCRzMweXJjUDF5N2pJa3hYOXJzdTFpMTJpWUhKckZZWlllM2pVbzRFcGQ3SUlKZWRyNmRNaW9hNWdBNEU1d2JLYnp2YWJxU2doQXl2bVdZTDlMaWJFbHJiR19VZFVwTHAydHZudzdEN0xJWTdsczNkSmQtZVNUb0FJcjVhV0NSWWJDNEVvcFE1M0RTM2VnSFFPRm1tNGpwTklqSXdUYklQZWIy?oc=5"
+    },
+    {
+      "headline": "Gulf oil exports jump in June on record UAE flows - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Gulf oil exports jump in June on record UAE flows\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-07-03 13:22",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNlJ4X25oUTd4MXkzQlcwOEFnYm5SLXM0NDVldUlDS3F1aXowdWlGRm1DZEZkdDVTazNLWm00Y3lDV19qU1ppMmdWcVAweVIzMkExVDljamFWbDg1Y3pRTjd4aURpcVdTamFnTDNPRjlTTm9hSzViZDEzQnZHdE1zdlNRS0xzaTd6b1NtZjh3eHRvT2JreHdsV1d2Zw?oc=5"
+    },
+    {
+      "headline": "Ford achieves quality milestone, as CEO targets flawless new vehicle launches",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Ford CEO Jim Farley told CNBC that the automaker has learned from its past quality and recall issues, which have hurt its earnings and stained its reputation.",
+      "category": "global_markets",
+      "date": "2026-07-03 12:08",
+      "link": "https://www.cnbc.com/2026/07/03/ford-achieves-quality-milestone-targets-flawless-new-vehicle-launches.html"
+    },
+    {
+      "headline": "American Express and Chase move luxury lounge wars beyond the airport",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Credit card companies are increasingly offering access to lounges and perks at festivals and sporting events, often exclusively for premium cardholders.",
+      "category": "global_markets",
+      "date": "2026-07-03 12:00",
+      "link": "https://www.cnbc.com/2026/07/03/amex-chase-credit-card-lounges.html"
     }
   ]
 }
