@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-03T15:53:10.764230",
+  "timestamp": "2026-07-04T08:23:58.885835",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 13,
-    "neutral": 11,
-    "bearish": 1,
+    "bullish": 9,
+    "neutral": 13,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,13 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
-    "Bloomberg": 2,
+    "Reuters": 11,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "CNBC": 5,
-    "TechStock\u00b2": 1,
+    "The Wall Street Journal": 1,
+    "MarketWatch": 1,
     "Ad-hoc-news.de": 1,
-    "MarketWatch": 1
+    "CNBC": 3
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -110,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,7 +120,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-03 15:53",
+      "date": "2026-07-04 08:23",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -134,54 +134,74 @@
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYkJORzdZX3BXLVNLSE5DWEFMNkUybVc5U3B1TU1XclIxbEd1YXA4bnNLTkZHQ0c4OUZmOFVSUGtXcHdtMTNSYmkwT3VLZ2VlNWdKM0Q2R0Z2Q1RxZGcxRV82NnpRTzhoR1plNFFNZXhlOGdEVHRKX09vM2FJZ3ZYbFYtYU5iNTE3S3pQV3ZqNThuTFZSdHhjMlFhbkhra2Z5aVI1WU1jYXIxdmZGbUIxUk5oV21uX2NjQWVjSG5GRmNlUUxLUWc?oc=5"
     },
     {
-      "headline": "Dow rises more than 300 points to record, Nasdaq falls again as chipmakers struggle: Live updates",
+      "headline": "ICICI Bank mulls first benchmark dollar bond sale since 2017",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The major averages ended lower Wednesday, with the Dow closing just below the flatline after erasing a 423.46-point jump that brought it to record highs.",
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "ICICI Bank Ltd is in talks to raise at least $500 million in offshore bonds as it seeks to capitalise on a recent Reserve Bank of India concession for overseas borrowings",
+      "category": "fixed_income",
+      "date": "2026-07-03 06:54",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-03/icici-bank-mulls-first-benchmark-dollar-bond-sale-since-2017"
+    },
+    {
+      "headline": "Stock Market Today: Nasdaq Falls After June Hiring Misses Expectations \u2014 Live Updates",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Live updates on markets and the top finance, economics and business stories. Plus the latest on the jobs report, oil prices, the Dow, S&P 500 and Nasdaq.",
       "category": "us_equities",
-      "date": "2026-07-02 16:17",
-      "link": "https://www.cnbc.com/2026/07/01/stock-market-today-live-updates.html"
+      "date": "2026-07-02 22:57",
+      "link": "https://www.wsj.com/livecoverage/june-jobs-report-stock-market-07-02-2026"
     },
     {
-      "headline": "Trump says 'everybody's profiting' from recent market rallies \u2014 but it\u2019s mostly the 1%",
+      "headline": "Trump blasts \u2018hostile\u2019 Fed and says Warsh \u2018has to do what he has to do\u2019 on interest rates",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "A large share of U.S. households have no exposure to equities and have not benefited from the bull market.",
-      "category": "corporate_earnings",
-      "date": "2026-07-02 13:56",
-      "link": "https://www.cnbc.com/2026/07/02/trump-says-everybodys-profiting-from-market-gains-but-mostly-the-1percent.html"
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "President renews vow to remove Fed\u2019s Cook",
+      "category": "us_monetary_policy",
+      "date": "2026-07-02 22:30",
+      "link": "https://www.marketwatch.com/story/trump-blasts-hostile-fed-and-says-warsh-has-to-do-what-he-has-to-do-on-interest-rates-60b5d16b"
     },
     {
-      "headline": "Nvidia offers start-up customers chance to swap compute power for revenue share",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Nvidia says it will give start-ups the chance to swap access to compute power for a slice of future profits under a new program aimed at AI-focused firms.",
-      "category": "corporate_earnings",
-      "date": "2026-07-02 09:57",
-      "link": "https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html"
-    },
-    {
-      "headline": "Genuine Parts (NYSE:GPC) shares pop as O\u2019Reilly Automotive (NASDAQ:ORLY) bid tests value",
-      "score": 6,
-      "source": "TechStock\u00b2",
-      "sentiment": "positive",
-      "impact": "Genuine Parts (NYSE:GPC) shares surged 12.9% after reports that O\u2019Reilly Automotive (NASDAQ:ORLY) made a cash offer for its auto parts division. This potential sale highlights the value of GPC's automotive unit, which could fetch $10 billion or more, and shifts investor focus to the remaining indust",
-      "category": "us_equities",
-      "date": "2026-07-03 14:50",
-      "link": "https://ts2.tech/en/genuine-parts-nysegpc-shares-pop-as-oreilly-automotive-nasdaqorly-bid-tests-value/"
-    },
-    {
-      "headline": "Entergy Corp. focuses on regulated utility growth as investors watch earnings and grid investment",
+      "headline": "FirstEnergy Corp. focuses on regulated utility growth as investors weigh long-term earnings potential",
       "score": 6,
       "source": "Ad-hoc-news.de",
       "sentiment": "positive",
-      "impact": "Entergy Corp. is a regulated electric utility operating across the US Gulf Coast, known for its stable earnings based on long-term grid investments. The company's business model relies on regulated returns and significant capital expenditures in transmission, distribution, and generation, aiming for",
+      "impact": "FirstEnergy Corp. (ISIN US3377381088) is a major regulated electric utility in the United States, with its core business focused on transmission and distribution operations. The company's long-term earnings potential is heavily influenced by regulatory decisions, ongoing capital investments in grid ",
       "category": "corporate_earnings",
-      "date": "2026-07-03 14:34",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/entergy-corp-focuses-on-regulated-utility-growth-as-investors-watch/69680722"
+      "date": "2026-07-04 07:19",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/firstenergy-corp-focuses-on-regulated-utility-growth-as-investors-weigh/69685523"
+    },
+    {
+      "headline": "EXCLUSIVE: Iran exploring oil sales to Japan, buyers seek longer sanctions waiver, sources say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "EXCLUSIVE: Iran exploring oil sales to Japan, buyers seek longer sanctions waiver, sources say\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-07-03 16:59",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONlpxZVF6RnlianRMXzVTT05hLXpuT3FCY3pCRzMweXJjUDF5N2pJa3hYOXJzdTFpMTJpWUhKckZZWlllM2pVbzRFcGQ3SUlKZWRyNmRNaW9hNWdBNEU1d2JLYnp2YWJxU2doQXl2bVdZTDlMaWJFbHJiR19VZFVwTHAydHZudzdEN0xJWTdsczNkSmQtZVNUb0FJcjVhV0NSWWJDNEVvcFE1M0RTM2VnSFFPRm1tNGpwTklqSXdUYklQZWIy?oc=5"
+    },
+    {
+      "headline": "Two Romanian men jailed for stabbing Iranian journalist in London - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Two Romanian men jailed for stabbing Iranian journalist in London\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-03 16:37",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR1BOQ05pVXg1MV9IYmUzeWxsSmFYWXItdmpnY0R3NlBnZmVRUDducmo2YThYMjlIRS1ndVVGN3dVQ1Y2TVZOQUF4V1BzWWRRZXdLUlpOc1U2Vl9kVDl4SUYyUTc5akEzSEF3VzBscmJ6RjNSeTNjWnBqd1pwemh0Z29oeW1RU0NJcnJaMUFfeTI2TFhyazVIVUFwNTlEU3djWUEwejlzeE85R1VKeVBDUGZQTkhkNHVz?oc=5"
+    },
+    {
+      "headline": "CMA CGM ship hit by missile in Hormuz strait may go for scrapping, CEO says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "CMA CGM ship hit by missile in Hormuz strait may go for scrapping, CEO says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-03 15:07",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmxkRkQxOC1JcHFKNFBwMkM4V2VNZWJYdUJkRy1yaXJVMkQwaERSd21ER21rYlFyeGxreV9Zc0xhTlFtVEJHTjJOVGpNb3c0OHdHdWVWejg4bWsxTTVLMkptNlVheGcyQnkyZC1XQnItbzk4UWctR0VwSnpQbjdTNmUwRmtRcjNoa1loc3E0LVVHRFVaQzNrbUFPdDJ4R0xoREhDel9pNkpZaWhTNG0ycWhR?oc=5"
     },
     {
       "headline": "NATO leaders to gather in Ankara, aiming to smooth over tensions with Trump - Reuters",
@@ -204,26 +224,6 @@
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR21mS1FvbzMzXzlxSUFEVVV5ZENiRktERHRtQ1hycW16UmphZF9RdUEybTVmYjNkOWY4dTFvZ3MyVlZPSnVaLVU2dS1DRjBkempBVkRvd2NROFBkRjlTajI5cjVLSjBxSzlaWmp2Z1RxQVlPaFBJMjQzNUd0VUdFejN1OVItOEhTQUtQU1Zzc2VfU0xQUFgxdWlvZEJfYUROWG9ZMlBhZUNsaTNLWDVzcTc0b2pLc0pRWDBkUGVSbTljVjNudFhGcU84amZSb1dPTzN2TDN0TQ?oc=5"
     },
     {
-      "headline": "A looming AI disappointment and rising yields. Why one research firm is hitting the brakes on U.S. stocks.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "In a market dominated by tech stocks, a big test is facing investors in the next 12 months, warns MacroResearchBoard",
-      "category": "fixed_income",
-      "date": "2026-07-03 14:17",
-      "link": "https://www.marketwatch.com/story/a-looming-ai-disappointment-and-rising-yields-why-one-research-firm-is-hitting-the-brakes-on-u-s-stocks-4bfaa67b?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-03 14:06",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXpMemJHeWdSem1ZSTR1aFZMQjgzNzZna1VrRmFIQVVkUkQzVUp4QzV1LXBhUjdOVHRWWkF0dHJyc0ZIZDhmUXNMYjVOZWs5dFNONVEwUGJmQlFNYXpLalM2Y25NMjI5UXVMNzhaMmhDaHVQb1VvMzJGZEFSMUxJN3JhWllBVzE5RFZiVzRhUks0MlBuXzZBaTNUM2QybVlyNUlabG9jekdSN3hTR3ZQZGxheTJ4ZXVGRW9lMG9VX3JOQQ?oc=5"
-    },
-    {
       "headline": "How does the Iran crisis compare with the 1979 oil shock? - Reuters",
       "score": 6,
       "source": "Reuters",
@@ -232,16 +232,6 @@
       "category": "commodities",
       "date": "2026-07-03 13:52",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9oa3VPLW5oa2dhSDc5NXA3czBNYlVLR3lrdGprX2FpQ1VYOGxtNngweEJVVm52d0F0RmVuQXhfc0xWcWxjck9oUWN6S0NLRjhoSEkyTVN4R3Rod05JeWRPS1M0LUZtamZ6NlFDUGRmSnBxTTgxYUlZdkRjb2NaNmV3d2tKZkZ0ZEd4MmU3X19EZzhQdVlzTDM2ZDVfSjU1ZmFJZWF2QllXNkU?oc=5"
-    },
-    {
-      "headline": "EXCLUSIVE: Iran exploring oil sales to Japan, buyers seek longer sanctions waiver, sources say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "EXCLUSIVE: Iran exploring oil sales to Japan, buyers seek longer sanctions waiver, sources say\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-03 13:23",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONlpxZVF6RnlianRMXzVTT05hLXpuT3FCY3pCRzMweXJjUDF5N2pJa3hYOXJzdTFpMTJpWUhKckZZWlllM2pVbzRFcGQ3SUlKZWRyNmRNaW9hNWdBNEU1d2JLYnp2YWJxU2doQXl2bVdZTDlMaWJFbHJiR19VZFVwTHAydHZudzdEN0xJWTdsczNkSmQtZVNUb0FJcjVhV0NSWWJDNEVvcFE1M0RTM2VnSFFPRm1tNGpwTklqSXdUYklQZWIy?oc=5"
     },
     {
       "headline": "Gulf oil exports jump in June on record UAE flows - Reuters",
@@ -272,6 +262,16 @@
       "category": "global_markets",
       "date": "2026-07-03 12:00",
       "link": "https://www.cnbc.com/2026/07/03/amex-chase-credit-card-lounges.html"
+    },
+    {
+      "headline": "Trump\u2019s Freedom 250 draws corporate sponsors with business before his administration",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Companies with federal interests \u2014 including Boeing, Lockheed Martin and Oracle \u2014 are sponsoring a Trump-aligned effort celebrating America\u2019s 250th birthday.",
+      "category": "global_markets",
+      "date": "2026-07-03 12:00",
+      "link": "https://www.cnbc.com/2026/07/03/trump-freedom-250-america250-corporate-sponsors-access.html"
     }
   ]
 }
