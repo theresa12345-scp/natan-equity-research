@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-05T08:40:32.391013",
+  "timestamp": "2026-07-05T15:15:18.313356",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 10,
+    "avg_relevance": 6.9,
+    "bullish": 9,
     "neutral": 15,
-    "bearish": 0,
+    "bearish": 1,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,12 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 12,
-    "Bloomberg": 3,
+    "Reuters": 9,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 3,
-    "Fortune": 1,
-    "CNBC": 1
+    "MarketWatch": 2,
+    "CNBC": 3,
+    "TechStock\u00b2": 1,
+    "TradingView": 1,
+    "Insider Monkey": 2
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -109,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,7 +121,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-05 08:40",
+      "date": "2026-07-05 15:15",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -133,24 +135,74 @@
       "link": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories"
     },
     {
-      "headline": "US oil companies see big profit jump, gird for clash over pump prices with Trump - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "US oil companies see big profit jump, gird for clash over pump prices with Trump\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-03 11:12",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYkJORzdZX3BXLVNLSE5DWEFMNkUybVc5U3B1TU1XclIxbEd1YXA4bnNLTkZHQ0c4OUZmOFVSUGtXcHdtMTNSYmkwT3VLZ2VlNWdKM0Q2R0Z2Q1RxZGcxRV82NnpRTzhoR1plNFFNZXhlOGdEVHRKX09vM2FJZ3ZYbFYtYU5iNTE3S3pQV3ZqNThuTFZSdHhjMlFhbkhra2Z5aVI1WU1jYXIxdmZGbUIxUk5oV21uX2NjQWVjSG5GRmNlUUxLUWc?oc=5"
+      "headline": "World Cup fans spent anywhere from $2,500 to $150,000 to see matches\u2014they say it was worth it",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Soccer fans heading to World Cup matches at MetLife Stadium shared how much they expected to spend with CNBC Make It outside New York's Penn Station.",
+      "category": "global_markets",
+      "date": "2026-07-05 14:42",
+      "link": "https://www.cnbc.com/2026/07/05/world-cup-fans-spent-anywhere-from-2500-to-150000-to-see-matches.html"
     },
     {
-      "headline": "Trump is already causing a headache for his new Fed chairman, saying the central bank's board is 'hostile' and 'doing the wrong thing'",
-      "score": 7,
-      "source": "Fortune",
+      "headline": "Here are the 3 big things we're watching in the stock market this week",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Delta is the biggest earnings report of the week.",
+      "category": "global_markets",
+      "date": "2026-07-05 14:01",
+      "link": "https://www.cnbc.com/2026/07/05/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html"
+    },
+    {
+      "headline": "Brides are bringing back the one-night-only bachelorette party: 'You just come, have one perfect night and leave'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Before they ballooned into multi-day destination getaways, bachelorette parties tended to be one night of raucous fun. Some brides are bringing it back.",
+      "category": "global_markets",
+      "date": "2026-07-05 14:00",
+      "link": "https://www.cnbc.com/2026/07/05/brides-are-bringing-back-the-one-night-only-bachelorette-party.html"
+    },
+    {
+      "headline": "AT&T sinks for fourth straight day, yield spikes as SpaceX worry hits shares",
+      "score": 6,
+      "source": "TechStock\u00b2",
+      "sentiment": "negative",
+      "impact": "AT&T's stock dropped for a fourth consecutive day, with significant trading volume, driven by investor concerns about SpaceX's potential entry into the U.S. mobile market. Despite the stock decline, which pushed its dividend yield higher to 5.4%, AT&T maintains its Q2 free cash flow and revenue grow",
+      "category": "fixed_income",
+      "date": "2026-07-05 13:56",
+      "link": "https://ts2.tech/en/att-sinks-for-fourth-straight-day-yield-spikes-as-spacex-worry-hits-shares/"
+    },
+    {
+      "headline": "Enterprise value to EBIT forward of Elicio Therapeutics, Inc. \u2013 NASDAQ:ELTX",
+      "score": 6,
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "This page provides financial information for Elicio Therapeutics, Inc. (NASDAQ: ELTX), specifically focusing on its enterprise value to EBIT forward ratio. The content appears to be a financial data page from TradingView, offering an overview of the company's financial metrics. However, due to its b",
+      "category": "us_equities",
+      "date": "2026-07-05 13:09",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-ELTX/financials-statistics-and-ratios/enterprise-value-ebit-fwd/"
+    },
+    {
+      "headline": "Viatris (VTRS): Most Undervalued NASDAQ Stocks to Buy Right Now",
+      "score": 6,
+      "source": "Insider Monkey",
       "sentiment": "positive",
-      "impact": "President Trump was full of compliments for new Fed Chairman Kevin Warsh, and vowed to continue pursuing a case against Governor Lisa Cook.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-03 10:55",
-      "link": "https://fortune.com/2026/07/03/trump-cook-fed-board-vow-warsh-politics-independence/"
+      "impact": "Viatris Inc. (NASDAQ: VTRS) is highlighted as one of the most undervalued NASDAQ stocks, following positive top-line results from its Phase 3 clinical trial for VR-205 in Japanese adults with primary immunoglobulin A nephropathy (IgAN). The treatment demonstrated a significant reduction in urine pro",
+      "category": "us_equities",
+      "date": "2026-07-05 13:08",
+      "link": "https://www.insidermonkey.com/blog/viatris-vtrs-most-undervalued-nasdaq-stocks-to-buy-right-now-1795978/"
+    },
+    {
+      "headline": "Is Gilead (GILD) One of the Most Undervalued NASDAQ Stocks to Buy Right Now?",
+      "score": 6,
+      "source": "Insider Monkey",
+      "sentiment": "positive",
+      "impact": "Gilead Sciences Inc. (NASDAQ: GILD) is highlighted as one of the most undervalued NASDAQ stocks after its drug Trodelvy received FDA approval as a first-line treatment for metastatic triple-negative breast cancer. This approval expands Trodelvy's utility and provides a new standard-of-care option, r",
+      "category": "us_equities",
+      "date": "2026-07-05 13:07",
+      "link": "https://www.insidermonkey.com/blog/is-gilead-gild-one-of-the-most-undervalued-nasdaq-stocks-to-buy-right-now-1795980/"
     },
     {
       "headline": "Three sons of Iran's slain leader Khamenei appear at funeral, not his successor - Reuters",
@@ -159,8 +211,48 @@
       "sentiment": "neutral",
       "impact": "Three sons of Iran's slain leader Khamenei appear at funeral, not his successor\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-05 07:15",
+      "date": "2026-07-05 12:02",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRmcyb0xaUjZMcUNjSDFQODFUX0Y1TDg0bDlHUkxLZE5FeWZQajJtZnRKYjRWdzZjN0RmRWcwdFN1dWtkLXdhUWFGNGJKVTFSSDJVRnV4Yy05YWJVbjh4RjJyS1YxdnBOMW9jQVp5Uk9aa1hxYmd1RndVZER6dTBSa0V2cnQxTTFscG5rY1hpV3NEMVNIeWJ0TFF4WE9XcEdoanFyVmtkenhSbXhvdnU1c3BQNEVOVmM1OHgyVmJvdGR3aWc?oc=5"
+    },
+    {
+      "headline": "Iran and Qatar resume maritime trade, Iranian state media reports - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran and Qatar resume maritime trade, Iranian state media reports\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-05 11:49",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNGpKTHAxUnc3bjEyYzczRHhyc2JxYUdEbWlKY3g5MWlVZWJfT3RSRVl5MDJQemVfTHRydm94TUktcTQ1ZjlSOEkyR2Ital9NUUllbVBLcUZEckxPWk40c0dJTXNKQkQxcWlBOEVNZTFtYnA2X3dTNERvZmJNWDRXTVRxRXc2S0JFX3F4cTRvTXZiUjBKRlEzYUh1VkR0UmxGcUpEWFJ4OU1TWko2VVhaM1A5UVY?oc=5"
+    },
+    {
+      "headline": "Qatar says all maritime activities will resume immediately - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Qatar says all maritime activities will resume immediately\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-05 08:05",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRm9xUXRWakZ5djZlZXZzSkhyZkxHbG1NU0U4eGJ3TlpncjhUXzFNSUM1VUp4bC1ZOGZFaGdvaTYxajczcWgtelNsa1o2UlV3Zm5penBNUVQ5clVpdFdzOTN1Wkp2MHV3MmFYS3JldkJDUHF0UUJscDBkVURDcUhfdmU4bk9ja0FxWVZqQ1RDZFB5cy1wVnlRZjNMTzJsY1BoZVdWMlVkZjRYOUY5elI2Rnp3?oc=5"
+    },
+    {
+      "headline": "Trump offers to help Putin find deal with Ukraine, also speaks with Zelenskiy - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump offers to help Putin find deal with Ukraine, also speaks with Zelenskiy\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-04 22:51",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQ3Z6dHlGeW9Jcy1FYzg0OGJMRFhNWlFucnlnalREWTZnQnlrVUxMSm9Mclloclh2QkRqMlRTSDBCNHNBS0VFV08xLUVBejFrVVFKQk5rNGk0YlhiSXZYcFlJbWFqY0tpQWNnTkdNMVRhd0ZYN2s1bThsbk5xMEc2VklRd1pCc1huMDNFTjBlLTlHeE1XaUFudmR6RTE4ejhtUERSREVGNEN0emdyd3RSekJwWm5IRUgzWmdsVGs1dDMtNTg?oc=5"
+    },
+    {
+      "headline": "Zelenskiy denies Russian capture of key eastern city Kostiantynivka - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Zelenskiy denies Russian capture of key eastern city Kostiantynivka\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-04 20:33",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQnNiZ2ZRUk1xcWxoWkcyNjNibHV2R0c2S1E5Ym9TbTNnVHpwWHNWQVRaMXE2T1M0aDRiejN1TC1rTThEX2VlT0hiYnVsWGRWOEFnMGZST2NXOFFiTFF6RTF6cThEb0xnOW9SSlRnZFdRVHZoZHlJd2stZ05BeHdOc0pXWHNFT3pZUFBMd1lzQ0t4TmoxenpXWTV0RmszdmxvNkJ6YXVua0lwQi1VbVpOUEhGNFktVEcwMnprLTRnX0tHeFE?oc=5"
     },
     {
       "headline": "Photos of the week - Reuters",
@@ -181,96 +273,6 @@
       "category": "us_monetary_policy",
       "date": "2026-07-04 18:19",
       "link": "https://www.marketwatch.com/story/insurers-shifted-roof-replacement-costs-onto-homeowners-thanks-to-a-new-federal-rule-just-in-time-for-hail-and-hurricane-season-e86068df?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Where can I invest my kid\u2019s \u2018Trump account\u2019 money? The Treasury Department just answered that question.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The money in \u201cTrump accounts\u201d has to be invested in low-cost index funds \u2014 and now parents and investors are learning which funds they can actually use.",
-      "category": "fixed_income",
-      "date": "2026-07-04 17:59",
-      "link": "https://www.marketwatch.com/story/where-can-i-invest-my-kids-trump-account-money-the-treasury-department-just-answered-that-question-4f656574?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "India withdraws gas curbs as Middle East LNG supply resumes - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "India withdraws gas curbs as Middle East LNG supply resumes\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-04 16:25",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUUhNa0VmU05LVzl6WE1MZmZKUmRoRmU5Q1hSZy0yUnhKOU9JUE9vMmtaN21wYVZGVk5nTFB0ZDJlU2xtbkEyaUl6QlE5Y1ZPVUhXUFdGVDFRSlBKVTRteHdGaGo0YVFILTBKVmZxTWxPcy1TMVZQWjhwWFhQZTNKMXk3WEZYTVJqX0xjYjY4d0szeURGSnkwUWxWRlRXYUI4Q043VVk5M0pkMF9L?oc=5"
-    },
-    {
-      "headline": "Israel hasn't said who its soldiers abused. Two Gaza mothers think it's their son - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israel hasn't said who its soldiers abused. Two Gaza mothers think it's their son\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-04 15:38",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYkNqR2ZZT3dEUWRLYTlhcFA2b2x1b3ZsazFnaGZWTGtVYUc2NmVyZ0VaOE9ySDdoUmFSY1hVanBxdkNCWHEwVTUydHQxRTJFMmxOVHcxRVIzcUMtMTN0RmRVdW5kUlhEVlBPLU82X2hWVk8yME13RkhhcXNYR3ZscEQ5UElEM016U0lEN1ZxeDJLMEJBUFJqWUVCM1JXR2oyTkpkdldsUk9mNDVFY21JcmdnWWYyWTNiMkZrVnIwdFUtVXZBaGpQYk9SdlE?oc=5"
-    },
-    {
-      "headline": "Turkey's Erdogan says Israel must not scupper US-Iran deal - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Turkey's Erdogan says Israel must not scupper US-Iran deal\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-04 15:19",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa0ViRlNyVWgyNWhQRFFuQ3A3SHhQV3VyRmxDQlBEQnVZVU1jdk5ZdEhMVHhSeHZZR2FYTk94cFM5THdSRHV5c25EQjJ4cFJaZHhFVTNWaG1IUEQxTDBGYU5Ca2syUE5oQUM5UUJ6bm1IeEdBS0phcjl1MUVhd1VFV3k5VDN5MG9Ea0lQNzZvSTY0MHlzTVMycWJpSWgwNGZjUGlVVVhRSjQ0VHo2bG5tYm93?oc=5"
-    },
-    {
-      "headline": "U.S. turns 250, Taylor-Travis wed and Iran mourns Khamenei - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "U.S. turns 250, Taylor-Travis wed and Iran mourns Khamenei\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-04 14:56",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSDlEcEtGRENYaVljVGVCbVNxSjd5UW1nOTFsUWhkRTFGb2g2T2ZoaDY3WnJrOEwydVlmQ0dNZ2IzMHNmZlpfdE9meG5HZ3FWUXlnLWtNRURqZ1IyRklkVHJ2QkRUblFPOWpyUlRZQjVlbWxjNEJYVjJ0cjgzcXNtM3lzbjFzaEJzeUdnYVpjTzluUnFUN19vMG5iZDg?oc=5"
-    },
-    {
-      "headline": "The World Cup sends prediction market volumes soaring to record highs",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
-      "category": "global_markets",
-      "date": "2026-07-04 12:54",
-      "link": "https://www.cnbc.com/2026/07/04/2026-fifa-world-cup-boosts-prediction-market-volumes.html"
-    },
-    {
-      "headline": "Ukraine says Russia damaged more than 200 railway locomotives in 2026 - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Ukraine says Russia damaged more than 200 railway locomotives in 2026\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-04 11:12",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeFQwdlh0cWRleHdwbVpJQ2E3cnNvUzE0TGE3RHZiVlZ3SlhDemlsLWlfOG81a1dWX0Iwc0Z4NEk1cmxxc3pCMFh3TDA3X3pVWTcyN0ZQMGRXazFiNlZiblRtblllT2hHUkhxa0VCNTlYWnh2aDZSQUQtY1NjWlRkVFlWbVROZjBjNzRzaGtMMTBwa0g2VDFneU5sc2h6MVlrZkJGcHhmUFdXaGtP?oc=5"
-    },
-    {
-      "headline": "Mass grief in Iran at Khamenei funeral after US, Israel war killing - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Mass grief in Iran at Khamenei funeral after US, Israel war killing\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-04 11:02",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1NHb181V19lQUxyWlFMQnU5WjNucmZBZHl3NlQtUzZTRFN6aVgweE4tdVJrNVlOYVQzQTExdllpN3NHaWlHcXZTSENOa3hWeEpycTBHdGJLRVhzYlhRdEs1UVk4VE1pR3ZnTzEyb0Z3YmxBUUV5cHJEV2VLMjAzUXp1Q1FfVWY1aWNmYVo3TUgxOXdEdExNenNKT1RyQlRFVWlrakprSWV0Zw?oc=5"
-    },
-    {
-      "headline": "Oil is little changed as Persian Gulf flows near pre-war levels",
-      "score": 6,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Brent futures traded just above $72 a barrel, while West Texas Intermediate was below $69, with volumes depressed due to the US Independence Day holiday",
-      "category": "commodities",
-      "date": "2026-07-04 04:50",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-02/latest-oil-market-news-and-analysis-for-july-1"
     }
   ]
 }
