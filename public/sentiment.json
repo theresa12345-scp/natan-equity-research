@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-06T09:55:55.356804",
+  "timestamp": "2026-07-06T16:52:35.555035",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 8,
-    "neutral": 16,
+    "bullish": 10,
+    "neutral": 14,
     "bearish": 1,
     "high_priority": 8,
     "material_events": 4
@@ -14,11 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 16,
+    "Reuters": 9,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "Finviz": 1,
-    "CNBC": 1
+    "CNBC": 5,
+    "Benzinga": 1,
+    "Stock Titan": 1,
+    "Barchart.com": 1,
+    "AD HOC NEWS": 1
   },
   "top_signals": [
     {
@@ -28,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -108,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,8 +121,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-06 09:55",
+      "date": "2026-07-06 16:52",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "We're booking big profits in a cyber stock that's rallied back to record highs",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Our two cybersecurity stocks have been two of the stronger positions in the portfolio lately.",
+      "category": "corporate_earnings",
+      "date": "2026-07-06 15:40",
+      "link": "https://www.cnbc.com/2026/07/06/were-booking-big-profits-in-a-cyber-stock-thats-rallied-back-to-record-highs.html"
     },
     {
       "headline": "Morning Bid: Samsung to serve chip taster for earnings feast - Reuters",
@@ -132,144 +145,134 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RNjg0VnZqWVlQYUV1S1AwYWViU3poUWsyOE1laVlCdTIxWXN6SlRwQkZidkhWUHczUWhIaXF2c1B5eDV5eHA4bjNNNGpJN2dMVktGRWVaUFd2Sjkxb044VklZajVaREc0RUZZa0tJMXFBV2Fxdzlib0FkYVFfOUE?oc=5"
     },
     {
-      "headline": "Asian shares slip as earnings loom, oil weighed by supply - Reuters",
+      "headline": "Stocks inch up as oil weighed by supply while earnings loom - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Asian shares slip as earnings loom, oil weighed by supply\u00a0\u00a0Reuters",
+      "impact": "Stocks inch up as oil weighed by supply while earnings loom\u00a0\u00a0Reuters",
       "category": "commodities",
       "date": "2026-07-06 00:59",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlM2X2FVc0tycmNWVXBBYWRaMDZFYXk0dE9rQW5mV21DaXhXWEpXazNmbjRDeks1ZVFXZmJ5Ti1OeTd4bXpFQTVteFBXa285NTZSTm9RaVlfX2JMczIycm9TZEhyVDhZdkRDVVFPQWR1TER5STh6NXpBQ08xOHc5azRyYw?oc=5"
     },
     {
-      "headline": "UCON - First Trust TCW Unconstrained Plus Bond ETF Dividends",
+      "headline": "IBM Stock Jumps as BofA Securities Flags Strong Q2, Potential 2026 Guidance Hike",
       "score": 6,
-      "source": "Finviz",
-      "sentiment": "neutral",
-      "impact": "The article provides a detailed financial overview of the First Trust TCW Unconstrained Plus Bond ETF (UCON), including its latest close price, dividend information, expense ratio, and performance metrics. It lists key financial data such as AUM, volatility, RSI, and various return percentages over ",
-      "category": "fixed_income",
-      "date": "2026-07-06 09:09",
-      "link": "https://finviz.com/stock?t=UCON&ty=dv"
-    },
-    {
-      "headline": "World absorbs historic Iran war oil supply loss, but depleted stocks bring risks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "World absorbs historic Iran war oil supply loss, but depleted stocks bring risks\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-06 07:47",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYWZSMXB6NXpuMkgtV3ZhdDlhTmFvS2gybVlDcWFqNzlJUk16QnFtUnVEMkFpY1hMcFJlNW42V2JHSGZ0Q1FpNWFycnR0YW9Xdy1lVVQ2Vm53V1liVDd2ZlRpWkdIMjQ4OW1LOWxfLWdmcUc1ck5VZlViSmdydGxtdllHUGpvckllVDZSLXpQcjlveVZNeEVQQTBiMzVVeW0wVjlLeGRCTjczd3B5NFQ2TUpMbGtBZHNHcUdNOXNtSG1uVFNLWHc?oc=5"
-    },
-    {
-      "headline": "NATO Ankara summit: who's going and what to expect - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "NATO Ankara summit: who's going and what to expect\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-06 06:09",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQamhtVERsemdOT1JMWlJJNHE2bXFzc1JlNmtCY1pEd0lsMHNGREtubDlkaTRJNFo4YTdpbEwtWlhUV0l5S1dPNDJEcFVhQ1g4WDdpakdFMktyNGpTYWdKcnBfelpOZ2wwek1qMkdGVk12R3ZrNWRVak1xeEZZR1kxWmN5Z1BGNHRBX1A5OHhWamY2TXNyYWs5WW5SWTAzUHFqVXJqQzRyYw?oc=5"
-    },
-    {
-      "headline": "Alternative-fuel vehicles hit record market share in June after Iran war - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "Benzinga",
       "sentiment": "positive",
-      "impact": "Alternative-fuel vehicles hit record market share in June after Iran war\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-06 03:37",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVzNwUHFla2lyZGlPRmg2OFlfaVdZSWk3WS1CSkg2WWZSWTY3X29GRzNfLVhqR2ZWVWcwa240bEwzM1hndnFjT01GaVdIN0xWU09CN1llWlVHVEtOZ2FHWWJXenlEeldRdmtreDh0UTl1cmdvZkx6NUFlUUpGeFBrc0tMZnJ6QmhUbDg4LTRjcDgxYWtycFE?oc=5"
+      "impact": "IBM shares rose after BofA Securities reiterated a Buy rating and raised its price forecast for the technology giant from $315 to $330. This adjustment is based on a stronger software mix, accelerated synergies from the Confluent integration, and potential upside from enterprise AI adoption. BofA Se",
+      "category": "corporate_earnings",
+      "date": "2026-07-06 16:02",
+      "link": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60284598/ibm-stock-jumps-as-bofa-securities-flags-strong-q2-potential-2026-guidance-hike"
     },
     {
-      "headline": "Oil drifts down after OPEC+ agrees to raise output targets - Reuters",
+      "headline": "Nathan Blecharczyk sells Class A blocks at Airbnb (NASDAQ: ABNB)",
       "score": 6,
-      "source": "Reuters",
+      "source": "Stock Titan",
       "sentiment": "neutral",
-      "impact": "Oil drifts down after OPEC+ agrees to raise output targets\u00a0\u00a0Reuters",
+      "impact": "A recent SEC Form 144 filing indicates that Nathan Blecharczyk, a founder of Airbnb, and associated trusts have sold multiple blocks of Class A shares. These transactions occurred between April and July 2026, with individual sales ranging from thousands to over 88,000 shares. Notable sales include 1",
       "category": "us_equities",
-      "date": "2026-07-06 00:36",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkI2QThocHlWRUVKSHgtb2N1WmlUX2hDQ3MxZloycVItY3d4N2Nub2FTbWYzd1hPTlZXa2VPdEhfTGgxU2g3UlBrS0VvemRZTnI2SU9HZklMOEt4d2h1U1U2ZkpZT3dscE5SRzMtTHNqVXRGcy0yaWdXU3JxemdJRWNITEhVSkFSQnV0dnhKWlJWcF8xVWhNb0k4M1FaMDNtaHc?oc=5"
+      "date": "2026-07-06 15:55",
+      "link": "https://www.stocktitan.net/sec-filings/ABNB/144-airbnb-inc-sec-filing-6d616bb50be2.html"
     },
     {
-      "headline": "OPEC+ to boost crude output, but can it deliver and who will buy? - Reuters",
+      "headline": "Here's What to Expect From UDR's Next Earnings Report",
       "score": 6,
-      "source": "Reuters",
+      "source": "Barchart.com",
       "sentiment": "positive",
-      "impact": "OPEC+ to boost crude output, but can it deliver and who will buy?\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-06 00:26",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMWIzdmgwLXJUeU4xTWRyejJfNXdGY0JuU3o2Ulg1Q1lmZ0E2b044aGhsZjBkY0QzV0N0ZXBfTlkzc2c2MVVuYnI5S2EtR2VJYXFPUkc3VEZKTVhsSE1FY1l6SW1KX3psT2d3ZXlEYno2X1UyS1VvYnFSeGlWUzRpTm5ULUhUazAwanBoek5tQTdfcFB2N1JldERKRFprdjh4RFVvak9fLWZjQm02eXVGQjZfRFFFb1ViSFJrRw?oc=5"
+      "impact": "UDR, Inc. is a leading multifamily real estate investment trust anticipating its fiscal Q2 2026 results soon. Analysts project a slight decline in Funds From Operations as Adjusted (FFOA) per share for both Q2 2026 and fiscal 2026, though growth is expected in fiscal 2027. Despite lagging behind bro",
+      "category": "corporate_earnings",
+      "date": "2026-07-06 15:45",
+      "link": "https://www.barchart.com/story/news/3144262/here-s-what-to-expect-from-udr-s-next-earnings-report"
     },
     {
-      "headline": "UK tightens rules on overseas political donations to stop 'dodgy funding' - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "UK tightens rules on overseas political donations to stop 'dodgy funding'\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-05 23:13",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0ZBTGZUSnFHa1FnaHJhTlNkN1lFQmVKcFdMajBIczJPcUhnUGZEcURXU202N0REZVNZT08xcXk0UmMxZWtPUnBmZFJmQTJib2FPa2U2SF8tV3FjcVBGZTdLd0h2M3hRbFFfMjlYTEVld1E0YXVGTFBpcF9vc1J5LUtxTk5XczgxSEMxTjZrUERXWW5lTC1vUFNVeVVZNnhRRWtsaTFSX2o1TGpGdVQw?oc=5"
-    },
-    {
-      "headline": "More than 100 detained as leftist groups hold anti-NATO protests in Turkey - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "More than 100 detained as leftist groups hold anti-NATO protests in Turkey\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-05 21:25",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMzNUeFRFeEliSTIzZnAyUFNLMGo0Q0RaSVZpY2pxZDNjOTdsbU5jSGM0c2tnamsxa3MwblNfTjhVVGc5NTFrWVJoNC14aXFsT3VqQXlVNlNOTlFHck5hNnpHMl9OSHRGWkVwQmZMbUJuNlJsVlNYb2x3T21aUzg2ODhWQ3RUalpxS0RkeDJvLXNFdG1YY3ZrZERKTTJtUFJ5SHdSZVo4TVJiYjdVaF82UjcyUHVLdXRCMER2Ul9Waw?oc=5"
-    },
-    {
-      "headline": "Israel government says it will defy Supreme Court ruling on media regulator - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israel government says it will defy Supreme Court ruling on media regulator\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-05 18:01",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd0R1Sy1OdjVoUGg2c1p0Um1BLUk0dy1pLV8wVURGTXpfOVV6R3F0Q1VGV3h6LUhfVXVURVJmZkMzdDQ4enZ2azhScUNfM3lGbG9FUWFuVEhERDNHUGpKZTBqbnNuMDNGN01MRVBNM1QyTlBXSXcxS0RSLTZwb2NlT0Rlcmh4VHdueThQc05heVBDcEQ2djROZk5YNTJNSTMxRm5Eb2pZZVgwWC1iWGJiNkZBSUtIZHhvVTRwRlBZUXV0a1dxR3FaNnFCNA?oc=5"
-    },
-    {
-      "headline": "Israeli strike kills two people in Gaza, medics say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israeli strike kills two people in Gaza, medics say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-05 16:53",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWU4yZ1ZfdTNacnktZXFFTkVZV0ZKdGRNVy04cTBHQS1hb29UMEs2QXZUS3NIUndYUWZET2EtSHJPTXA2SW9KZXpGOExQdGMxMFJYRFZlMXJuLUNQWFhRYU9tTXg4SkcxMHJ3X0kxbFd5SGZPY09HSlBVNk03YVNfY1VUN09DMGJLSk9qQjRVaEJCUzBTMTAzOHRseVdSd3JJQllj?oc=5"
-    },
-    {
-      "headline": "UK budget airline easyJet ready to accept $7.3 billion takeover bid from Castlelake - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "UK budget airline easyJet ready to accept $7.3 billion takeover bid from Castlelake\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-05 16:30",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR1JMWENOamFoZXFCNzhqazBKbnE1T3QxeWswYnlyMkgzTWRNQ0lhYmdRNVVTOE9RTU1GNTZaNXQyV0xORmZGLUFhaEF4UlkwWElaRGZnS0xlR0ZOdG1QUmtWUDZKODFtVnliUDJ1TkViQUhiQUt4UE1HcjV0TnpjQWRENV8wTTQ5UHF3dV9vRGFiTG9HMnNuZkxMOXc4V0Q2YUUta2xGZzZzeDlWSHc?oc=5"
-    },
-    {
-      "headline": "Russia says Ukraine rejects local ceasefire for handover of soldiers' bodies - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Russia says Ukraine rejects local ceasefire for handover of soldiers' bodies\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-05 16:03",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGF1Njd3MW1BMW42cS1Qb0VJTjktdWt4eUplMlhvajB3dk9FaXJPV0dzMU1WVE9FSENPYlpCcy0tT2pwUVRZN1UxS05mUzV1Mi1UdTRtNkMwd2s3WV96eG5hMzBaMk45cmo2UWo1YjJyS29ydXdCMmlka09YRTBiOE1ncnVlQldmYkxSN0g0Z2kzcmtFWTdVTWw4XzBWRmtPNm9vczR4NnAxVVBQQnEw?oc=5"
-    },
-    {
-      "headline": "World Cup fans spent anywhere from $2,500 to $150,000 to see matches\u2014they say it was worth it",
+      "headline": "Klarna seeks U.S. bank charter in latest push beyond buy now, pay later",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Soccer fans heading to World Cup matches at MetLife Stadium shared how much they expected to spend with CNBC Make It outside New York's Penn Station.",
+      "impact": "Klarna joins a wave of fintech and crypto firms seeking entry to the traditional banking system.",
       "category": "global_markets",
-      "date": "2026-07-05 14:42",
-      "link": "https://www.cnbc.com/2026/07/05/world-cup-fans-spent-anywhere-from-2500-to-150000-to-see-matches.html"
+      "date": "2026-07-06 15:36",
+      "link": "https://www.cnbc.com/2026/07/06/klarna-seeks-us-bank-charter-in-push-beyond-buy-now-pay-later.html"
+    },
+    {
+      "headline": "Korea Electric Power ADR reflects utility challenges as investors watch earnings and debt trends",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "negative",
+      "impact": "The Korea Electric Power ADR offers US investors access to South Korea's largest electric utility, which is currently focused on earnings recovery, tariff policy, and balance-sheet repair after years of losses. The company's financial performance is heavily influenced by government-approved electric",
+      "category": "corporate_earnings",
+      "date": "2026-07-06 15:35",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/korea-electric-power-adr-reflects-utility-challenges-as-investors-watch/69706806"
+    },
+    {
+      "headline": "Trump says Sikorsky to fund White House helicopter landing pad - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump says Sikorsky to fund White House helicopter landing pad\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-06 15:21",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUVFmNnZHQmR4OTYwck8tbXg5UlZmUHBfWjlJRWtBY2xPZmRkS0sxZTk5QXpfRUoxT2Q4dm95Uk9NMjdQakZIbzJMRWVjSDNsNExHb01uRV84eEcyUXhZeHZSWE53TUh4UTkwZWVDWm5fV1l6SG9hLWEwQWZHV3Voc0lKeTY4YnhNTGF4ZnBoNmh4T0d0RkZuc0xWb3RuNXlOSXN4U2xjSzU1azJBd2FPWmc0WHBCanY1OXBUeVJmbw?oc=5"
+    },
+    {
+      "headline": "Explainer: Netanyahu government challenge to Supreme Court reignites judicial dispute - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Explainer: Netanyahu government challenge to Supreme Court reignites judicial dispute\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-06 14:31",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNktvX2JPM3NWN2N6ZHRESzFkVVB6UnRzQVdwTGtGMnFLcGJycTFUc0l6QldsSDBycVFfTURrNWJOd1JCT2x0cW5fWU9IQ1hNWTFUTV9tWTgtcmUtZTRNVjRiWlhBNWJCQjc4U0VrcUNfQS00NlVjNGdWUGRnb0t3NTk3Q3NIUks0MjlqSlVzck1zWlJsSEE0S1JwM0prYmNscmo2T2wta2hHSmJ4WF82Y3JrSjRUTWEyaGdMRU9B?oc=5"
+    },
+    {
+      "headline": "SpaceX President Gwynne Shotwell to donate stock to Trump Accounts",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "President Donald Trump told CNBC's Joe Kernen last week that he thought SpaceX CEO Elon Musk would donate company stock to the program.",
+      "category": "global_markets",
+      "date": "2026-07-06 13:58",
+      "link": "https://www.cnbc.com/2026/07/06/spacex-spcx-gwynne-shotwell-stock-trump-accounts.html"
+    },
+    {
+      "headline": "EXCLUSIVE: UAE crude output nears record following OPEC exit, sources say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "EXCLUSIVE: UAE crude output nears record following OPEC exit, sources say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-06 13:42",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVBKOGVzNmg4dTVVYk9td2JWYkV1YUVIeHFvc0tjNUJaOTJib21JazdwcG5CMlJnSkc4QjBvbUdmWU5vendvX29WeVJIbUJ2eUZZZTBOeXNUSVMwSkVLMHdlY1lkU2R2ZU9nWXotMTV5RGpGNGZRU0FSb1BOcThiUkJZX21sa2s1QnJKUnJtUkdQVG1zbzhFODlPNDJGS0ZaNzlfb3JWTVRpTXJVRXBaNlNKVFo?oc=5"
+    },
+    {
+      "headline": "NATO tensions are \u2018growing pains,\u2019 U.S. ambassador says as Trump presses allies",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "U.S. Ambassador to NATO Matthew Whitaker said NATO's allies boosting defense spending under pressure from Trump reflects \u201cgrowing pains,\u201d not a crisis.",
+      "category": "global_markets",
+      "date": "2026-07-06 13:37",
+      "link": "https://www.cnbc.com/2026/07/06/nato-trump-defense-spending-whitaker.html"
+    },
+    {
+      "headline": "'Electronic warfare is a tech phenomenon': Why the market is rethinking defense valuations",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "There's a growing investment in newer areas of defense such as deep strike capabilities, anti-drone and unmanned systems, with different priorities for different countries.",
+      "category": "global_markets",
+      "date": "2026-07-06 13:37",
+      "link": "https://www.cnbc.com/2026/07/06/defense-tech-stocks-drones-electronic-warfare-valuation.html"
+    },
+    {
+      "headline": "Lockheed Martin to buy Ultra Maritime for $3.45 billion - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Lockheed Martin to buy Ultra Maritime for $3.45 billion\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-06 13:34",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa3BFbXdYUXlLN0RGTVUyb0l6ZXRhbG5qYWp3MDhnNmhxcUdMMm1GUmU5YmVwM1ZFbC1mOHBtNS1MSXFSal9lWTNMbVN1dzNfQ3FYbmE3Vl9QVnRaLU9yeU1lYVRDei1iMHNWbDRhWWRpLWtqVVlCTm91RWc3WGNoNG1KNDhMLVIyUkQ5X0ZRY0VjcDQ5b0k2ZnFQYXppQU9rYWxnam40eGVZLVZZUXc?oc=5"
     }
   ]
 }
