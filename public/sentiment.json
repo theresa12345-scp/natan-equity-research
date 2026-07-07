@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-07T09:23:46.814713",
+  "timestamp": "2026-07-07T16:33:13.060514",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 10,
+    "bullish": 11,
     "neutral": 11,
-    "bearish": 4,
-    "high_priority": 9,
+    "bearish": 3,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -16,11 +16,10 @@
     "Federal Reserve": 1,
     "Reuters": 12,
     "Bloomberg": 2,
-    "CNBC": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "TradingView": 1,
-    "Seeking Alpha": 1
+    "The Wall Street Journal": 1,
+    "CNBC": 4,
+    "Zacks Commentary": 1
   },
   "top_signals": [
     {
@@ -30,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +99,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
-      "category": "us_equities",
-      "date": "2026-07-06 00:22",
-      "link": "https://www.cnbc.com/2026/07/05/stock-market-today-live-updates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -120,7 +109,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,78 +119,128 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-07 09:23",
+      "date": "2026-07-07 16:33",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
+      "headline": "Shell raises Q2 gas output guidance, flags stronger gas trading results - Reuters",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won\u2019t become part of the S&P 500 for at least another year \u2014 likely furthering the volatility spread between those two indexes.",
-      "category": "us_equities",
-      "date": "2026-07-06 22:39",
-      "link": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories"
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Shell raises Q2 gas output guidance, flags stronger gas trading results\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-07-07 06:34",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUWhxVm5yTVNERTRHWUxOcm9ScW1qeEZHR0t6VXNaT0JqMmtzNlVYcTR6SGZIVVNuNTJJbW9hM3R5aG9pVUpBa2dFdUVXeTdReU9rMGhiSDZYUmFxQjQ5S3pMNmF5dUdxcnlyMF9qa0dyejg4VFJxN2FYWHlRNUxJV0h3OWhyQWo4T3dQNzFZcFd5YmlxTTEyUkVlbkhOcE1oY0VPUWRxeVN2NzdqMVExbA?oc=5"
     },
     {
-      "headline": "We're booking big profits in a cyber stock that's rallied back to record highs",
+      "headline": "India to supply BrahMos, Astra missiles to Indonesia, India government official says - Reuters",
       "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "India to supply BrahMos, Astra missiles to Indonesia, India government official says\u00a0\u00a0Reuters",
+      "category": "indonesia_economy",
+      "date": "2026-07-07 05:21",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPam82bnJDX3ZfV0U2SG40QVFpNi1zQ1VaMy1iZE44M0VlUFQ4RGJqWk5VVGJLT2QwejNEdXlMdGJXdENFUWpTZDhHV3l6cVpneVlCRHZtUEo3NVVhM05ibVYzb3kxcGFGS3pDdU1iYnFVQllSakZXLS1tQ1RXSkhsQm5KbnZ4YWZkc0IzbWVUR2lpeW13WmhOdERnS0owNk01SWlXdnBhVUh4M3d4bmlKTFlibWtsbHNJV2lMYXR0ZE9YWGZxSjQwc3pMaw?oc=5"
+    },
+    {
+      "headline": "Britain's bond market may limit what Burnham can do as PM - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Britain's bond market may limit what Burnham can do as PM\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-07-07 05:02",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb3NhUjVOcHFqM21iZHlMVDN3Rjh0NjJQZ1pqVHpVM0tsM25WVFkya2hrUEw5WjA3ZjhUcVNkU3FfUXJ5enN4YWlxdVE3Q3hfNExZVjFpOFhILUd2cFFMWEFGd3FsU3l2VmdQbGk3dE9fb0dyaXRaTFBsUnE3Si1VN3k4dnF4WG9LaGE4ODV6bDVLcmhMOHdFc1Ffd3FVQnc?oc=5"
+    },
+    {
+      "headline": "Gold slips as stronger dollar weighs; focus on Fed minutes and Gulf tensions - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Gold slips as stronger dollar weighs; focus on Fed minutes and Gulf tensions\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-07-07 02:57",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM3YtNTR2VmdTVnNrNVpWcmVjYWpZb1d6NTlmOEVyekFmdlpvek96eW5XbXJWMGhEWUNJNHBHOXhqWG4yRmxtTVZGdzdnYmk0V2ZhUzExaHd0Vld3MTJia2RzUkY4dmgwOEpFXzZZbEJQcFI0NURhREc0dm1lN1RralRYZ2dQdm5iUkcwblRaMjZpcmRIbnZ3S0lR?oc=5"
+    },
+    {
+      "headline": "Stock Market Today: Nasdaq Futures Rise Ahead of Busy Week for Tech Stocks \u2014 Live Updates",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Live updates on markets and the top finance, economics and business stories. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
+      "category": "us_equities",
+      "date": "2026-07-06 11:42",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-06-2026"
+    },
+    {
+      "headline": "Far more real estate agents now report seeing a balanced market, CNBC Housing Market Survey finds",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Agents who reported at least one price cut to active listings dropped dramatically from prior surveys.",
+      "category": "global_markets",
+      "date": "2026-07-07 16:03",
+      "link": "https://www.cnbc.com/2026/07/07/cnbc-housing-market-survey-balanced-market.html"
+    },
+    {
+      "headline": "Buy these quality, low-stress stocks for the summer, says Jefferies",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Our two cybersecurity stocks have been two of the stronger positions in the portfolio lately.",
-      "category": "corporate_earnings",
-      "date": "2026-07-06 15:40",
-      "link": "https://www.cnbc.com/2026/07/06/were-booking-big-profits-in-a-cyber-stock-thats-rallied-back-to-record-highs.html"
-    },
-    {
-      "headline": "US service sector growth dips in June; employment rebounds after months of contraction - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "US service sector growth dips in June; employment rebounds after months of contraction\u00a0\u00a0Reuters",
+      "impact": "This summer, Jefferies recommends focusing on some high-quality stocks that have been left behind by the AI momentum trade.",
       "category": "global_markets",
-      "date": "2026-07-06 14:35",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcFl1WnMtVVNhQnBoa1R5UmU1UTYteXI0VE1fRl9HbnBqbkRFMmU3NHV0NFJfdzlhbkVmeVU0eTZPQzZnaUNTQ1NpMWtSVEhPazhJSHlDMUU5MTlKeHdaMUIya3VVMDZFcjFtUWRobDhGYXpXSjU3RUZERjlJTW11R3ZlZjVKY1NlSElLSUJNLUdBTTM2QkkzM1FmVVItTXlpakV3X3JsYloyanZSZjU4eDRiVkxqenJmbFdjODRFZW42Zw?oc=5"
+      "date": "2026-07-07 15:45",
+      "link": "https://www.cnbc.com/2026/07/07/buy-these-quality-low-stress-stocks-for-the-summer-says-jefferies.html"
     },
     {
-      "headline": "Tough crowd for Samsung as record quarterly earnings brings out the sellers",
+      "headline": "Stellantis to sell small Fiat Topolino EV for $13,995 in U.S.",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Samsung Electronics shareholders proved a difficult audience to please.",
-      "category": "corporate_earnings",
-      "date": "2026-07-07 09:18",
-      "link": "https://www.marketwatch.com/story/tough-crowd-for-samsung-as-record-quarterly-earnings-brings-out-the-sellers-5e9979f2?mod=mw_rss_topstories"
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "While the Topolino resembles a small car such as the Fiat 500, the EV is actually a quadricycle that functions more like a golf cart.",
+      "category": "global_markets",
+      "date": "2026-07-07 15:37",
+      "link": "https://www.cnbc.com/2026/07/07/stellantis-fiat-topolino-ev.html"
     },
     {
-      "headline": "Blasts rock Damascus during Macron visit - Reuters",
+      "headline": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Blasts rock Damascus during Macron visit\u00a0\u00a0Reuters",
+      "impact": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-07 08:48",
+      "date": "2026-07-07 15:05",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5"
+    },
+    {
+      "headline": "Israeli fire kills four people in Gaza, medics say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israeli fire kills four people in Gaza, medics say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-07 14:57",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzh3VzVzcXhfUlBHYjBBd3BQdnE3YW42VHctOVVGWmFNVXVEXzVYX1JPMWN1ZnhRREN5Q3ZlZk1uV3lkZWV3RVBtR1dfWGEtUkxfY2pFZlhvRGVDSTgtcGZkU1pWWUJ3bWY5ZlV1VDlDWVlsV1dNNmpfZDhhTWE1TmstNVBXLWtjOVFLSGFmNk12WEZfQlBvc3dUNnlJVllHSFBz?oc=5"
+    },
+    {
+      "headline": "We're trimming a rotation winner and adding to an exciting new stock",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "A late-day reversal in one of our newest stocks gives us an opportunity to buy more shares.",
+      "category": "global_markets",
+      "date": "2026-07-07 14:43",
+      "link": "https://www.cnbc.com/2026/07/07/were-trimming-a-rotation-winner-and-adding-to-an-exciting-new-stock-.html"
+    },
+    {
+      "headline": "Bomb attack rocks Damascus during Macron visit - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Bomb attack rocks Damascus during Macron visit\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-07 14:37",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWRETjVnbTljM3FIcDF1U0tESGJmVnVQSTBqemxJOUhKMUgtalFLcFVTOE9WSXB0SmJJSjZnSnhSOTBWajhqV0trX3dNSnlHdnVZNEh1ZVpFTnhlZXdSWWhGUTgyNHJ2Tm1pd05zQ1JOeFlFYXFkQlB6N2h0WkV0N0x2cEtjLVdTeXBHVEttY2o1aEZlRmFsaHlsUkNsUlZXMVFRM2g2X2FvOC02?oc=5"
-    },
-    {
-      "headline": "BERTO ACQUISITION CORP II Financial Statements \u2013 NASDAQ:GUAC",
-      "score": 6,
-      "source": "TradingView",
-      "sentiment": "neutral",
-      "impact": "The article provides an overview of BERTO ACQUISITION CORP II (NASDAQ:GUAC), a blank check company established on July 15, 2025, and headquartered in Las Vegas, NV. It notes that there is currently no market capitalization, revenue, or net income data available for the company, and that GUAC has nev",
-      "category": "us_equities",
-      "date": "2026-07-07 08:30",
-      "link": "https://www.tradingview.com/symbols/NASDAQ-GUAC/financials-overview/"
-    },
-    {
-      "headline": "Palo Alto Networks: The Valuation Re-Rating Has Gone Too Far (NASDAQ:PANW)",
-      "score": 6,
-      "source": "Seeking Alpha",
-      "sentiment": "negative",
-      "impact": "Palo Alto Networks is well-positioned for the agentic AI era, showcasing organic innovation and strategic acquisitions. Despite solid Q3 results with 14% organic revenue growth and 28% organic NGS ARR growth, the company faces margin pressure, and near-term financial guidance does not indicate accel",
-      "category": "us_equities",
-      "date": "2026-07-07 08:02",
-      "link": "https://seekingalpha.com/article/4920216-palo-alto-networks-valuation-re-rating-has-gone-too-far-maintain-sell"
     },
     {
       "headline": "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
@@ -210,68 +249,28 @@
       "sentiment": "neutral",
       "impact": "Saudi Arabia slices crude oil prices, but is it enough?\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-07-07 06:05",
+      "date": "2026-07-07 14:34",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOekFPUU1Sd0FkaW9fa2UyYi1yT3hVSERZczVuVWVCcEpRQWowc0d3ZXp5LW5FbW1uLWhDYjRtMk0xcU0tdGo3OXV3NXB6WlZILXVPdFBUTVd0TXhEWU9Nd2ZOWHRpS3QyckhzMGlVeWN2amFySVhXR2N3eUFkSW0tNjUwWC1jQjJCbGJ5aU1ZcG1zb1BTSFhyQ2NoNXNkZldGNFd3SlNKdEhkOG9JSUhVd0tiVGpEQ05GelE?oc=5"
     },
     {
-      "headline": "Saudi oil price cut unlikely to convince sated Asia buyers, traders say - Reuters",
+      "headline": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Saudi oil price cut unlikely to convince sated Asia buyers, traders say\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-07 05:06",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaHpLWVZhbTZ4T3lnM1hLbUppZkMxN0FfamRQT2JsWnBhMC1nNWdMdjhSbHp3WTduWUpBdEdXRUNtQ0tZdjBWTDByY2UzMzlCbnZOdVkyMUFYU2cyTkZEQVIxSTVZV2JNejlmY2pvUlpzWm03S3JWaG9mMTk0bFNrQ2ljMS12bzlGSjRJanlzNUFVSXNyczd4S1c5N3o5QmVDdXRxdWdNLW5oa253bTJyRUFmSlpHVGpzVng4?oc=5"
-    },
-    {
-      "headline": "Trump expected to tell Turkey he is ready to restore access to F-35 jets, NYT reports - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump expected to tell Turkey he is ready to restore access to F-35 jets, NYT reports\u00a0\u00a0Reuters",
+      "impact": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-07 03:35",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQemNEWDl5ZDlwZkE2b3FaTmdrOWQ2QnZ2QnREZlQyOER3cFJ4aEQyNTA5dk93Y25hQnFQeXpaLUptR012ZXpZNFR6bmd2dUdFMUhaN3ZKa01FRFNGS2YxUkIzSV9OSVpuUUtEWnRLUHkzaDJjdlJvY3VzLTRrX01SYjZNRTF0U3c4T19lRllBN2FQRC16SDdlWFN5b003NHVDUmU3cXVhOWc3XzMya291d1J6Nklfc2NNUmE1alVMYkNSMXJka29Ibg?oc=5"
+      "date": "2026-07-07 14:33",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS3BJZDBWYkMwckg2UDRLQ0pkclZiRjNPeUIwZ253X21aQkJLYUlRTWdVaklnRlpfMGxLQ2RkYUhHZ1EzZVRrWWdzVXUtVmpaQ0QwT0UtdEJPWi1vV1hjOG03LXREOUtZN05mTlF1VWc3Z1E5SXhHaHkzWjFGZGFuTjU0RjctZ1VEMDhfbDZkTVUtdFBkZ0lhbDlfeUotWVU3bnhiZk5DSExrdGt1RkZpX3Fsdw?oc=5"
     },
     {
-      "headline": "Iran fires missiles at commercial ships in Strait of Hormuz, Axios reports - Reuters",
+      "headline": "JPMorgan Chase & Co.  ( JPM )  Reports Next Week: Wall Street Expects Earnings Growth",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Iran fires missiles at commercial ships in Strait of Hormuz, Axios reports\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-07 02:04",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUVFSZk5WeEJaVV96QWl0TDFIZDJUNWFlNTVkNERLdkxfYlVuY2paaS1KbkFHaDB6dkpEeVQ0ZXlLLW1RTXlBTmN2XzBPaklObVJ1VzdpWkFVTDhIYWFNbWlRdDVWZDJkZF9BY0FlNmJHaDBPbmY5ZTVDMEw3M0ozbjN5N2ljem83ZVBQZ3BhUEc4VTZBYmNZVnBiTVFoWUJUdml0dEdOUVYtMG02VEJKQUhMaUZSSnJuWmc?oc=5"
-    },
-    {
-      "headline": "Asian stocks tumble on AI jitters after Samsung forecast; oil stable - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Asian stocks tumble on AI jitters after Samsung forecast; oil stable\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-07 02:03",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTlVmYWxzRk02MjZPWnI4ZlAwZG5xbkd6elBjQjNZUEloOWpIejgxS0FTenhWX0s1Z2tmSWdpQmM5MElHQmZUZmUxNXBHV0F5YW9STzNQZHFiYlVSYzRfSjVWclIzblNkSEQxcjNVcS1Mb0JXUHhfb05ZYnM0LVJjbnBCaw?oc=5"
-    },
-    {
-      "headline": "China breaks step with global markets, and investors buy in - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "China breaks step with global markets, and investors buy in\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-07-07 01:10",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ3h0djZqeHZyVGNZTGlJbXFQMmhSQ1NobzBncUpLV2dLcnBJV0JVQWhjUlhQcDZCVWVxSzJiSWNlelJtU1NoUkt3eTkxS1FBRUhZbWx6aExMLWtrXy1lVkZ1ZVE0blFHc1BRUmc4MDBoWVAwS3pDSjRFeDNBYUUyd3pqOU42R2ZpM0FUV19SVEFmejN2ZElnSThpbUExX1l2?oc=5"
-    },
-    {
-      "headline": "Oil climbs as market monitors US-Iran talks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil climbs as market monitors US-Iran talks\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-07 00:53",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYjZCV2V0UjBnQVQwWi1tTUNISGRvT3JTRGJodTlLNHVGcWQ4YkU5ZXRsMlBNb2lCSHJtUFAtUWx2c2hkZzVadmgxSVFncmRObHVQMGZITVNncS1nNXRDcEdfYkd4Wl9kT0ZINDFDUUU2cWV6eVdjcVdLUkJoRDlnR2FhSjdMYWRoM3N0bUw0aVJHRVgzcWlVNUpkWTdFUHVMbHlaMS1R?oc=5"
+      "source": "Zacks Commentary",
+      "sentiment": "positive",
+      "impact": "JPMorgan Chase & Co. (JPM) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "category": "us_equities",
+      "date": "2026-07-07 14:00",
+      "link": "https://www.zacks.com/stock/news/2949395/jpmorgan-chase-co-jpm-reports-next-week-wall-street-expects-earnings-growth"
     }
   ]
 }
