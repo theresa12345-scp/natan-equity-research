@@ -1,23 +1,25 @@
 {
-  "timestamp": "2026-07-09T16:28:41.528882",
+  "timestamp": "2026-07-10T09:18:42.354603",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
+    "avg_relevance": 7.2,
     "bullish": 10,
     "neutral": 12,
     "bearish": 3,
-    "high_priority": 11,
-    "material_events": 5
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 6,
-    "Reuters": 12,
+    "Reuters": 10,
     "Bloomberg": 2,
-    "Caixin/S&P Global": 1
+    "Caixin/S&P Global": 1,
+    "CNBC": 5,
+    "timothysykes.com": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -27,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -37,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -47,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -57,18 +59,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "10-year Treasury yield jumps to 4.57% as jumping oil prices reignite inflation fears",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Treasury yields surged after President Donald Trump told the NATO summit that the ceasefire with Iran is over.",
-      "category": "fixed_income",
-      "date": "2026-07-08 09:27",
-      "link": "https://www.cnbc.com/2026/07/08/treasury-yields-trump-iran-ceasefire.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -77,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -87,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -97,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -107,28 +99,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "S&P 500, Nasdaq open higher as chip stocks gain; US-Iran tensions in focus - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "S&P 500, Nasdaq open higher as chip stocks gain; US-Iran tensions in focus\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-07-09 13:39",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlJrcUhGNjUtY2dOX1RQcWxqNW1KNGtrZU9uYU5KSjZiaDdZM3ozU1BZUjR4WmJyLVJjLW9yYjJGRHdSSEo4T0NNVUQ1T2VHN19keUtvRklORURPYUhtS0hUR2NJWnRIcnd3VFRLdGpDTmcwSnA0WHcxSUJ2RHhrNG1hOWUycm5kUjl6OHhoTjhSNVZXRmFUVnRMclJYMW9FdXRJZ1VLSkFrbmxRWVg5N3Z5c3M?oc=5"
-    },
-    {
-      "headline": "Honeywell Technologies raises profit guidance after one-for-two reverse stock split - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Honeywell Technologies raises profit guidance after one-for-two reverse stock split\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-07-08 21:31",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOEVCV0NxNkxWcFdUdU9rSzFCb3lmSGNwcHBYZUt5bEdYNWpDUS1FOXo0cEMzUE9fYmVGUHhUUWdITXZILVpnanRkaU5ucTM2aHJVRlBSbEttS3dkQVlBSHRrb1pXMXFvNlQ2TUpJVS1sNVdBSGhlbmtKYmdadlZkNmp4UXBUbGdNakZMSG93VWF3LXdYVVpYMXIzak15amlMcXF4OHBETklhSUpIVnZTQmpjUmRBWGNsdjVOcHkxUWp1ZG1adGlJY0t3azRxNDM4X1MzcjItbw?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -137,7 +109,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -147,8 +119,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-09 16:28",
+      "date": "2026-07-10 09:18",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Nasdaq ends sharply higher; chip surge offsets Iran worries - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Nasdaq ends sharply higher; chip surge offsets Iran worries\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-07-09 23:36",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlJrcUhGNjUtY2dOX1RQcWxqNW1KNGtrZU9uYU5KSjZiaDdZM3ozU1BZUjR4WmJyLVJjLW9yYjJGRHdSSEo4T0NNVUQ1T2VHN19keUtvRklORURPYUhtS0hUR2NJWnRIcnd3VFRLdGpDTmcwSnA0WHcxSUJ2RHhrNG1hOWUycm5kUjl6OHhoTjhSNVZXRmFUVnRMclJYMW9FdXRJZ1VLSkFrbmxRWVg5N3Z5c3M?oc=5"
+    },
+    {
+      "headline": "A huge trade just happened on the Nasdaq 100. Bulls are taking notice",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Tech bulls may not have to wait much longer for fresh highs, if the single-biggest trade in the Invesco QQQ Trust ETF on Thursday is any indication.",
+      "category": "us_equities",
+      "date": "2026-07-09 19:26",
+      "link": "https://www.cnbc.com/2026/07/09/a-huge-trade-just-happened-on-the-nasdaq-100-bulls-are-taking-notice.html"
+    },
+    {
+      "headline": "Anthropic appoints former Fed Chair Ben Bernanke to its independent trust",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Members of the trust advise Anthropic leadership and do not hold any equity in the company.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-09 17:23",
+      "link": "https://www.cnbc.com/2026/07/09/anthropic-fed-chair-bernanke-independent-trust.html"
+    },
+    {
+      "headline": "Fed's Williams expects energy prices to abate even as Iran war flares - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Fed's Williams expects energy prices to abate even as Iran war flares\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-07-09 16:51",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbHJKaC12UWdzSzFSRjJWZFYwZ1RQMENmbENTV0dHcW1ablp1d3lEU0FKbThLOExCWnlRVWQ3OVM1OUtJZmtTQjlXRzV5c2I1U2NvcHFwT2dGT25zQ0NMNjJzQUJ4NFhKak1Nc1JNSWlwNUVOSVJiZ0JlVUlGMjVzN2JDRjVNLXJkR0YzMGI4bllUOEN4YmR6T0VjWHlMZU5rajFTaVlUZlg4U3ZlWkE?oc=5"
     },
     {
       "headline": "PepsiCo earnings miss estimates as U.S. consumers tighten their budgets",
@@ -161,6 +173,16 @@
       "link": "https://www.cnbc.com/2026/07/09/pepsico-pep-q2-2026-earnings.html"
     },
     {
+      "headline": "Levi Strauss beats quarterly expectations, raises guidance and dividend ",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Levi Strauss beat quarterly expectations on the top and bottom lines during its fiscal 2026 second quarter.",
+      "category": "corporate_earnings",
+      "date": "2026-07-09 11:44",
+      "link": "https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html"
+    },
+    {
       "headline": "Bank of Japan sees growing inflation pressures from Iran war - Reuters",
       "score": 7,
       "source": "Reuters",
@@ -171,104 +193,84 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSjhGY1RXd3JYMmRZN1hsYW45YlpIeVZEZTl2ekQtdlUzWU9XVmliUC1LVG9hY1NYZk92YjlwOThzam9XdGN1MjRlbDFMTV9fcTk1Q1psVVUyT04yUWRxcVN5S05XLTYwLXN0ZnBxSkZwMXl1NGtHLWlQYzNnZzFTVlVucGZ3NFJveUNOVzdUSzVPdlZvaEUyS1BGX2RLTjJMUXJFelZpd0I5TDUwNG1naDM0UFJIeWJ3NUpmUnhn?oc=5"
     },
     {
-      "headline": "Dollar drifts with oil; Gulf tensions, Fed minutes in focus - Reuters",
+      "headline": "S&P 500 futures are little changed as traders assess rising tensions between the U.S. and Iran: Live updates",
       "score": 7,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Dollar drifts with oil; Gulf tensions, Fed minutes in focus\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-07-09 01:21",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcEtZMUh4bWpMRVNDRm42NVlyN2dsWExFZGsyNnlFa3FRelRxT1RlcVJGRkRYODBsa3JfbkxoTWhoUHVpWWxHUWx4dW1ERDlwMlc1b0pzSE9rS3J4OU9yeUx1cHNIUm9kcW9xNjhFTl9oaXdJSFVqWHpWVkpOM3VHTnphOHo1WXBmNXFodHZ5TVVhXzE4ZFFsN2JKQmNGbE93ejhjY2VRM0JwNkNaOE1oUkdtYXZZYUZ4M3JUMFpRdw?oc=5"
-    },
-    {
-      "headline": "S&P 500 ends down after Trump says Iran deal is 'over' - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "S&P 500 ends down after Trump says Iran deal is 'over'\u00a0\u00a0Reuters",
+      "impact": "The U.S. launched fresh strikes on Iran, after President Donald Trump said earlier in the day he may no longer be interested in negotiating a deal.",
       "category": "us_equities",
-      "date": "2026-07-08 23:20",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcTlvb203c2gzM1N5b1NUS2FVd1NXMl9ONUhXaFN6bmJ2c29WSGtDbFB3cnd4SmRkY1NJX095NEg5TWxVcVh4WG1WRmdYWW92WUVZcTZBNlFnQlo3dHN4N1B2cWxZcG9QZ3FuOFBaRFFDUUxGNXU2MlpDYWFUX2JVTlAxZ0pwQnYzS1ppQ1pkcU8yT2VNNERkbTZ2aUxWdHJSZEFNeVA0QzJjbzcz?oc=5"
+      "date": "2026-07-09 04:10",
+      "link": "https://www.cnbc.com/2026/07/08/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Levi Strauss beats quarterly expectations, raises guidance and dividend",
-      "score": 7,
-      "source": "CNBC",
+      "headline": "SciSparc Ltd. (SPRC) Stock Price | Live Quotes & Charts | NASDAQ",
+      "score": 6,
+      "source": "timothysykes.com",
+      "sentiment": "neutral",
+      "impact": "This NASDAQ page provides live stock quotes and charts for SciSparc Ltd. (SPRC), showing its current stock price and a candlestick line chart for various timeframes. The article indicates that there are currently no analyst ratings or earnings information available for the company. It also includes ",
+      "category": "us_equities",
+      "date": "2026-07-10 08:40",
+      "link": "https://timothysykes.com/quote/SPRC/"
+    },
+    {
+      "headline": "More LNG, Japan-linked vessels transit Hormuz despite renewed Mideast tensions - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "More LNG, Japan-linked vessels transit Hormuz despite renewed Mideast tensions\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-10 04:44",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdzU4SVRwMVVlZ2pOM2Z2YWdjVGhfR01qSU5GbXB5R0JlT2JuLTRaTWMyRzZsOUdOeDV2OVM3SEpteHFrajBWUHdVdXdmZTREbXh3MFFvSEFNNXNyMGZXbThNRXVWazhhQklGcHZNWDREcjVIclUyVDduRWpQaV9pWlphcVJVbUViMFN1Q0NiZ1dLczdqZzh5VzRYakk3WUJyMnVUOWRiVUpYaTlPc2luNFVzeTRQMkVHQ3lfdjVrRHhFT3NESXAwWQ?oc=5"
+    },
+    {
+      "headline": "Gold heads for weekly drop as Gulf attacks reinforce rate-hike bets - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold heads for weekly drop as Gulf attacks reinforce rate-hike bets\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-07-10 03:13",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY0V5Q0tTaFY3eWtUQUwydFZrcHA4dzI1blE1ZHNzRGRmcV9TVXNoVWxNQ2pXTHpvenpyYUM4X2tnZXcxT1JIUG1lWGQwS1kxWVJ3aHAweGl2Z1FEa1VaYjlLUi1BQ3RoRXBSUU1aWWpwTFRfbWJQbk5lUExMd2lBdDNWZC1COVpRTkhEWURwR3JJTUU1MDE1Q2NLaHVxaXpOMmR6SU5Kck1Pdnoz?oc=5"
+    },
+    {
+      "headline": "Oil heads for weekly gain as Middle East supply risks persist - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Oil heads for weekly gain as Middle East supply risks persist\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-07-10 01:33",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdU1pbkMwaXhwRm5RZ000RGVzRzA0b0hTa24wcF9ZWG8wcThYNnRmSTlDdDBsdFhBZEk3OWg5Uzl1WHlvZ3hNSUlZVUtfSFp2Y1RqYmx0bGpfNlRNT05jY2JrUXQxSkR5bWY4UUtjUjl4VWROSnZoeEpIaGtYTkJfZjdET2I0eDk0ZzlNek9QZ1JJYXRIcEhvaWJNWGlZbV9SN2hRSlZwQmJpZFN1ajNSYzBZNmFYR2ZIMlE?oc=5"
+    },
+    {
+      "headline": "Trading Day: What war? Chip-led rally helps markets ignore on-again, off-again US-Iran truce - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Levi Strauss beat quarterly expectations on the top and bottom lines during its fiscal 2026 second quarter.",
-      "category": "corporate_earnings",
-      "date": "2026-07-08 20:12",
-      "link": "https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html"
-    },
-    {
-      "headline": "Cramer defends a struggling tech giant and says another stock could soon be a buy",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "impact": "Trading Day: What war? Chip-led rally helps markets ignore on-again, off-again US-Iran truce\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-09 15:52",
-      "link": "https://www.cnbc.com/2026/07/09/cramer-defends-a-tech-giant-says-another-stock-could-be-a-buy-soon.html"
+      "date": "2026-07-09 23:44",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1N2Ukoyd25SczJJNXFaTF9XcEVlSUU0dlpNdVhmRG5vQ1RFd09WVzVKYUdxaE9hYU9hMU9yYS1kblEzeUt2bGlWOG5QaDZPdjBxTk9pYnNrRVk2M2pPSTdNdmpHRk9aQUlWRGExS2lvVXliUkZRajhrcFZwanhSZFEtTy1DcEZuZ245U1Q3aGxFV2o0QlBfZ2c4RQ?oc=5"
     },
     {
-      "headline": "Body of slain Iranian Supreme Leader approaches Shi'ite shrine for burial - Reuters",
+      "headline": "Why a hidden divergence between the VIX and Nasdaq volatility has the smart money on edge",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Body of slain Iranian Supreme Leader approaches Shi'ite shrine for burial\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-09 14:54",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTHpfT3hyLXNRcDVsVDNZdk9uSDJsbU1KQXBqdWlaMVhXdGdHay0wN2k3bEthNlpHaHlVX2dKTEpIWHdncE5Ka0lIOGVsR04zLXNUVzB2M2VSNWJxVjVxRlRHYlUtcHUxUFJvVEZGTHUzMnJXeE1JanhjUHpDMGgzOWFZNUh0RHUxT2ViMHlyOWJ6d3YzdVBiT1cxeVRKbF9MbGRrQ0F0M3pJLUN5QXc?oc=5"
-    },
-    {
-      "headline": "Iran says it hits US military targets in Gulf, lays slain leader to rest - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran says it hits US military targets in Gulf, lays slain leader to rest\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-09 14:36",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?oc=5"
-    },
-    {
-      "headline": "Goldman Sachs wins $70 billion in asset management deals with Verizon, Lockheed Martin",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Competition in the multitrillion-dollar market for retirement assets is fierce among managers like Goldman Sachs, BlackRock, Russell Investments and Mercer.",
-      "category": "commodities",
-      "date": "2026-07-09 14:11",
-      "link": "https://www.cnbc.com/2026/07/09/goldman-sachs-asset-management-deals-verizon-lockheed-martin.html"
-    },
-    {
-      "headline": "June home sales disappoint as prices reach an all-time high",
-      "score": 6,
-      "source": "CNBC",
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "Home sales dropped in June month over month as mortgage rates remain stubbornly high. Prices hit an all-time high.",
-      "category": "global_markets",
-      "date": "2026-07-09 14:00",
-      "link": "https://www.cnbc.com/2026/07/09/june-home-sales-prices.html"
+      "impact": "Traders are completely enthralled by the bull market \u2014 but surging Nasdaq volatility suggests it is time to hedge.",
+      "category": "us_equities",
+      "date": "2026-07-09 22:19",
+      "link": "https://www.marketwatch.com/story/why-a-hidden-divergence-between-the-vix-and-nasdaq-volatility-has-the-smart-money-on-edge-cda23cc0?mod=mw_rss_topstories"
     },
     {
-      "headline": "Iran fired ten ballistic missiles on Jordan's Azraq military base - Reuters",
+      "headline": "Can Walmart help the Fed harness real-time U.S. economic data? We\u2019re about to find out.",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Iran fired ten ballistic missiles on Jordan's Azraq military base\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-09 13:31",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEw3T3U5RHNmcmVFb2VhWGdmRExEb1VHVFYwbFBsX1UxWGlJRW5pM0R0NGwtQVVlUHAwckdpcHIyaXZ3dkFTR2ZvV3JKams0TzhvQ0NYVnRkOFlFa1EtR19nVHFDcTJYQVYtaG9wYWxoRjlaX3kxeW9tdTNkZ0d0MGpVNjljem9DRTJaN2pSTmtoMEhJd3ZFTzlMTmtQOHF2WWYxSVpWNmwteWZBVG5iY2F4ZUtHZw?oc=5"
-    },
-    {
-      "headline": "Oil tanker traffic through Hormuz at near standstill as attacks strain Iran truce - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil tanker traffic through Hormuz at near standstill as attacks strain Iran truce\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-09 12:45",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYWUtOFlPYmpMTHRWUjQ5ZTNjOFRaaVNCV0Z1aWZJY2E1UkcxV0t5M1dUYjExWWljV0lEbTd2ZE9semxVZjZQXzlYQnlQWjY0dWx0YUMyTXUtWnJsa3hYUlJGY3MxSWpuQmRUNmJxU19YZU41S0l5WDBLWlY1aTZHQVROdzNIcE1GYjlfTXJka3NNbGNTV2hvRFlxRllZd1AzOHlYRVJwSUtFUURha0NtbWdtWXBxb0MwaEEwNkFpaW9sQzlfajAwSQ?oc=5"
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The Federal Reserve named a former Walmart CEO to a task force to develop contemporaneous data on spending, inflation and growth.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-09 21:52",
+      "link": "https://www.marketwatch.com/story/can-walmart-help-the-fed-harness-real-time-u-s-economic-data-were-about-to-find-out-e625925a?mod=mw_rss_topstories"
     }
   ]
 }
