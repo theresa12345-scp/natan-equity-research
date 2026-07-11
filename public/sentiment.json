@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-11T07:40:17.501491",
+  "timestamp": "2026-07-11T14:56:54.517122",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 11,
-    "neutral": 11,
+    "bullish": 12,
+    "neutral": 10,
     "bearish": 3,
     "high_priority": 9,
     "material_events": 4
@@ -14,12 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
-    "Bloomberg": 4,
+    "Reuters": 6,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 4,
-    "Stock Titan": 1,
-    "MarketWatch": 1
+    "CNBC": 6,
+    "Yahoo Entertainment": 1,
+    "MarketWatch": 1,
+    "MarketBeat": 3,
+    "Simply Wall Street": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -119,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,7 +131,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-11 07:40",
+      "date": "2026-07-11 14:56",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -163,24 +165,14 @@
       "link": "https://www.cnbc.com/2026/07/10/delta-air-lines-dal-q2-2026-earnings.html"
     },
     {
-      "headline": "AI, Iran war risks weigh on Indian IT firms\u2019 earnings outlook",
+      "headline": "Delta Q2 earnings top estimates, reinstates full-year guidance as fuel prices bite",
       "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Earnings at Taiwan Semiconductor Manufacturing Co. will serve as a key reality check for Taiwan\u2019s stock market, which remains in the grip of the AI boom",
-      "category": "corporate_earnings",
-      "date": "2026-07-10 03:51",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-10/indian-it-firms-earnings-face-ai-middle-east-war-risks"
-    },
-    {
-      "headline": "Shapoorji Pallonji Group kicks off \u20b925,500 crore refinancing with rupee bond sale",
-      "score": 7,
-      "source": "Bloomberg",
+      "source": "Yahoo Entertainment",
       "sentiment": "neutral",
-      "impact": "The fundraising provides the infrastructure-to-real-estate conglomerate much-needed liquidity after it twice extended the maturity of debt owed by Goswami",
-      "category": "fixed_income",
-      "date": "2026-07-10 03:15",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-09/india-s-shapoorji-starts-2-7-billion-refinancing-to-tackle-debt"
+      "impact": "Delta Air Lines reported results Friday morning.",
+      "category": "corporate_earnings",
+      "date": "2026-07-10 10:38",
+      "link": "https://finance.yahoo.com/markets/stocks/article/delta-q2-earnings-top-estimates-reinstates-full-year-guidance-as-fuel-prices-bite-175815467.html"
     },
     {
       "headline": "PepsiCo earnings miss estimates as U.S. consumers tighten their budgets",
@@ -203,74 +195,84 @@
       "link": "https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html"
     },
     {
-      "headline": "Janux Therapeutics (NASDAQ: JANX) CEO exercises 7,000 options at $4.21, boosts holdings",
-      "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "positive",
-      "impact": "Janux Therapeutics President and CEO David Alan Campbell exercised stock options to acquire 7,000 shares of common stock at an exercise price of $4.21 per share. This transaction, which occurred on July 8, 2026, increased his direct holdings to 388,582 common shares, while he still retains 697,550 i",
-      "category": "us_equities",
-      "date": "2026-07-11 05:39",
-      "link": "https://www.stocktitan.net/sec-filings/JANX/form-4-janux-therapeutics-inc-insider-trading-activity-9cc1681db5ee.html"
-    },
-    {
-      "headline": "Trump says US, Iran agree to continue talks but ceasefire over - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says US, Iran agree to continue talks but ceasefire over\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-11 04:46",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDY4WWlhcGlFTE0zWE9HdXJlWnFJNXRhLWthUlFCZVdiVV91elpLUlh3Ni1UQUU2OXg2RXV0MUVWVHk0SE9CSFA4RjdOV05hTFRUX3ZEb3Z0OEJWNkYtdGR2ajRDR0FWS2xXaEhQeFNuLTZ0NXVKLS1mbklIQnpPT2VINnQ1ZmF5eDFHNXQtY01aSVVMYXkwTEh4RnlmRUthcjlGOG1LYndabUJ6NWc?oc=5"
-    },
-    {
-      "headline": "Trump says missiles aimed at Iran if Tehran targets US president - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Trump says missiles aimed at Iran if Tehran targets US president\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-11 03:35",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzc3RWxTLVZuRllmY19VQ244ZjcxcjY2TVRNWnh1WkI1ck5qUkFyMzBZNTZTYUZqbTVRSmc4V3BqMl9zY21GdnJmSGU0OTNRd0Q4ekxDMnlGQ0I1UEJScFZhUGZoZ1A1aEdZTWRYZ0FGazJ3aXpJd2Zad044SzhMWXFETXRmQnBvTnMxSjhzdXVjZnp1YmRkNWJlVWdqWWdFdnRKeHlrOFQtdjZqRk9mMFhMbFFHUQ?oc=5"
-    },
-    {
-      "headline": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-10 22:25",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWU8weHNqWU10dDFxUGpMR3Z5LW0xVVVnTlNuU2ZBaWpXS0ZnbHQ4c3BENmZ2QVZMZ0VLWmIyUnU0NVM2Tkp4T0lONVM2NnF5cHluZWRxR3FkOXdsNEJoQ3I1VmV3a3hOcExFWll0Vkp2VUJKN2xpcU13US1lOEkxWE1CcEY2dWZGbUZ4TzZ3V0lYRUhLdC1CZjJNTDVJZVM2TDZpSUU0V0lQdkZn?oc=5"
-    },
-    {
-      "headline": "SK Hynix\u2019s stock sees double-digit pop in Nasdaq debut",
+      "headline": "Where to put cash right now: Should you lock in at 4% \u2014 or wait for the next Fed rate decision?",
       "score": 6,
       "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "CD rates are at a standstill, but that could change after the next Fed meeting, or the one after that.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-11 14:37",
+      "link": "https://www.marketwatch.com/story/should-you-lock-in-a-4-cd-rate-now-heres-how-to-decide-on-the-next-move-for-your-cash-41a7ef4c?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Roper Technologies (NASDAQ:ROP) Upgraded by BMO Capital Markets to Hold Rating",
+      "score": 6,
+      "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "The South Korean memory-chip company\u2019s new American depositary receipts began trading on Friday and logged gains of nearly 13%.",
+      "impact": "BMO Capital Markets has upgraded Roper Technologies (NASDAQ:ROP) to a \"Hold\" rating, contributing to a mixed analyst consensus that averages to a \"Hold\" with a $467.12 price target. The company recently reported strong Q1 earnings, surpassing estimates, and provided optimistic guidance for Q2 and fu",
       "category": "us_equities",
-      "date": "2026-07-10 22:18",
-      "link": "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories"
+      "date": "2026-07-11 13:58",
+      "link": "https://www.marketbeat.com/instant-alerts/roper-technologies-nasdaqrop-upgraded-by-bmo-capital-markets-to-hold-rating-2026-07-11/"
     },
     {
-      "headline": "US insists Iran commit to stopping attacks in Hormuz strait, say US officials - Reuters",
+      "headline": "Honeywell International (NASDAQ:HON) Downgraded to Strong Sell Rating by Zacks Research",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Zacks Research has downgraded Honeywell International (NASDAQ:HON) from a \"hold\" to a \"strong sell\" rating, citing a bearish near-term outlook despite other analysts maintaining more constructive ratings. The company recently reported Q1 earnings that beat estimates but revenue that fell short, thou",
+      "category": "us_equities",
+      "date": "2026-07-11 13:43",
+      "link": "https://www.marketbeat.com/instant-alerts/honeywell-international-nasdaqhon-downgraded-to-strong-sell-rating-by-zacks-research-2026-07-11/"
+    },
+    {
+      "headline": "Equinix (NASDAQ:EQIX) Upgraded by BTIG Research to \"Strong-Buy\" Rating",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "BTIG Research has upgraded Equinix (NASDAQ:EQIX) to a \"strong-buy\" rating, contributing to a generally positive analyst outlook for the company. Equinix reported better-than-expected earnings per share of $10.79, significantly surpassing estimates, though revenue for the quarter was slightly below f",
+      "category": "us_equities",
+      "date": "2026-07-11 13:40",
+      "link": "https://www.marketbeat.com/instant-alerts/equinix-nasdaqeqix-upgraded-by-btig-research-to-strong-buy-rating-2026-07-11/"
+    },
+    {
+      "headline": "What Goldman Sachs Group (GS)'s Debt Issuance and Earnings Optimism Means For Shareholders",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Goldman Sachs Group recently completed several fixed-income offerings and hosted a corporate day, indicating active balance sheet management. Ahead of its July 14, 2026 earnings release, analysts and investors show optimism due to rising consensus estimates for EPS and revenue. While debt issuance r",
+      "category": "commodities",
+      "date": "2026-07-11 13:30",
+      "link": "https://simplywall.st/stocks/us/diversified-financials/nyse-gs/goldman-sachs-group/news/what-goldman-sachs-group-gss-debt-issuance-and-earnings-opti"
+    },
+    {
+      "headline": "Iran's supreme leader pledges revenge for slain father and predecessor - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US insists Iran commit to stopping attacks in Hormuz strait, say US officials\u00a0\u00a0Reuters",
+      "impact": "Iran's supreme leader pledges revenge for slain father and predecessor\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-10 21:36",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTDI4WnJQY1UzQVd1QjZQMXRFUkM2SHdzNV9EYmd2cTQ2a1h3cTN0NTlza0JSMWFlbFhibmY0SnVRSHU0U2ZsRGpoMEhMamd5RXNZUXZRVUJRQnVzVGhtajFJbHdXSUtjNy1iOGpTODU3dG5YLUphaGlYRDRXLUZSdXF2U3laZDhaeTVvalFJbjlGOGJYaTFFdnRuMUJmZXE3U1Z0LTRxaUtiNTNnQnQ2bGdDZEVhUzV4OHdBVlBTSVVBdw?oc=5"
+      "date": "2026-07-11 13:08",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVFJ6QzJlMkc1VWtrWHlLcms2NkZhSWZ5VnhDazNkY04zS0RMN01UUjhUOGZUajRWVGRqREUtbWRDUjlLakFZaFByZDgySm9mcFNGQi1rLWJFd3RHS09iUVZRZHZGTHFfM1BlTXVYdmhZczl2bFBkZVZDRHE5T0phT2NDd2dTb1F0aS1vRW12SlFCbEFrMGJhRGdSY3FCRHhhd21vbVg5QVNKMl82c1VQd1NaaEp2dw?oc=5"
     },
     {
-      "headline": "Fire at western Iranian mini-refinery contained, Iran media says - Reuters",
+      "headline": "From booksmaxxing to looksmaxxing: Why the viral trends concern some mental health experts",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Fire at western Iranian mini-refinery contained, Iran media says\u00a0\u00a0Reuters",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "People are self-optimizing everything \u2014 protein, skincare, fitness \u2014 to such a degree that \"maxxing\" is one of social media's most popular suffixes.",
       "category": "global_markets",
-      "date": "2026-07-10 21:14",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUtrSnZONHozaUJIOU5LOVhpTGo4MEViVEJQQTNiZ0lLaC1ERV80cjNySFJEYk84WmJGeDZWYWoyM1lYYmtuUXRrOXo4NG0yaVZXY0hpWEVIZFgyZ214dWgwcGdITmlYNld4bnFVYlVPZGFwRmE0dmJ2bHNtZ2d0NW1oZ0NvOTV1V1pNcW1mNGVITDFvdFpUSXFUTlE?oc=5"
+      "date": "2026-07-11 13:05",
+      "link": "https://www.cnbc.com/2026/07/11/why-viral-maxxing-trends-concern-some-mental-health-experts.html"
+    },
+    {
+      "headline": "A tiny GLP-1 implant is the latest bet to help patients maintain their weight loss",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Vivani Medical is developing an implant of semaglutide, the active ingredient in Novo Nordisk's obesity injection Wegovy and diabetes counterpart Ozempic.",
+      "category": "global_markets",
+      "date": "2026-07-11 12:00",
+      "link": "https://www.cnbc.com/2026/07/11/glp-1-implant-from-vivani-medical-aims-to-help-patients-stay-on-treatment.html"
     }
   ]
 }
