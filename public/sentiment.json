@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-10T16:26:08.426831",
+  "timestamp": "2026-07-11T07:40:17.501491",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
     "bullish": 11,
-    "neutral": 13,
-    "bearish": 1,
-    "high_priority": 8,
+    "neutral": 11,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,9 +15,10 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 10,
-    "Bloomberg": 2,
+    "Bloomberg": 4,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
+    "CNBC": 4,
+    "Stock Titan": 1,
     "MarketWatch": 1
   },
   "top_signals": [
@@ -28,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +99,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Fed report cites 'stepped-up' inflation due to tariffs, Iran war, AI buildout - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Fed report cites 'stepped-up' inflation due to tariffs, Iran war, AI buildout\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-07-10 16:30",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWmpCaExTSktkWXFGQjlDZ2pzOHlSNm0xcXJqcWJGUkdNaWRlSnJldzhzSUZaT2drZy1RZVM5TmVJbGltTHhUU3hzeFpvbGZjbmlJWkxjejUwZVY0UTFscU45ekt2LWlBZUM3c1dtc2R1VE05OXA3NmxCVUxBVVFUQ0ZuSm0zejV6ZlE?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -108,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,8 +129,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-10 16:26",
+      "date": "2026-07-11 07:40",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-07-10 20:22",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMjJOeUlsWVliM0doZUlfUDdXVjA5OXpjUDdPNjlFXzFzRGZKcDhhaDVGZFNDc3RRM3QwLVdWdTdaaXJZN0NfRUhjQWkxSzBVZlBMd1l1dlZpVVVOOEFfbWVmUzVYMFlZZGpCWENSR3FRVGNPZjhXcU96VTY3b1hjTk45ZWMwRnR3RVRsRG5UR1ZqdU5RLWhhWWtnWVBjeGk4YTg3c294YjdUVkVqWS1WY3dNWnpCalBERVZQbkRIdw?oc=5"
+    },
+    {
+      "headline": "Stocks rise as investors await the start of earnings season \u2014 here's what to expect",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "corporate_earnings",
+      "date": "2026-07-10 19:04",
+      "link": "https://www.cnbc.com/2026/07/10/stocks-rise-as-investors-await-the-start-of-earnings-what-to-expect.html"
     },
     {
       "headline": "Delta expects higher airfare to last, bringing 2026 profit goal in reach, CEO says",
@@ -132,54 +163,24 @@
       "link": "https://www.cnbc.com/2026/07/10/delta-air-lines-dal-q2-2026-earnings.html"
     },
     {
-      "headline": "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - Reuters",
+      "headline": "AI, Iran war risks weigh on Indian IT firms\u2019 earnings outlook",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines\u00a0\u00a0Reuters",
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Earnings at Taiwan Semiconductor Manufacturing Co. will serve as a key reality check for Taiwan\u2019s stock market, which remains in the grip of the AI boom",
       "category": "corporate_earnings",
-      "date": "2026-07-10 10:24",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMjJOeUlsWVliM0doZUlfUDdXVjA5OXpjUDdPNjlFXzFzRGZKcDhhaDVGZFNDc3RRM3QwLVdWdTdaaXJZN0NfRUhjQWkxSzBVZlBMd1l1dlZpVVVOOEFfbWVmUzVYMFlZZGpCWENSR3FRVGNPZjhXcU96VTY3b1hjTk45ZWMwRnR3RVRsRG5UR1ZqdU5RLWhhWWtnWVBjeGk4YTg3c294YjdUVkVqWS1WY3dNWnpCalBERVZQbkRIdw?oc=5"
+      "date": "2026-07-10 03:51",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-10/indian-it-firms-earnings-face-ai-middle-east-war-risks"
     },
     {
-      "headline": "Nasdaq ends sharply higher; chip surge offsets Iran worries - Reuters",
+      "headline": "Shapoorji Pallonji Group kicks off \u20b925,500 crore refinancing with rupee bond sale",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Nasdaq ends sharply higher; chip surge offsets Iran worries\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-07-09 23:36",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlJrcUhGNjUtY2dOX1RQcWxqNW1KNGtrZU9uYU5KSjZiaDdZM3ozU1BZUjR4WmJyLVJjLW9yYjJGRHdSSEo4T0NNVUQ1T2VHN19keUtvRklORURPYUhtS0hUR2NJWnRIcnd3VFRLdGpDTmcwSnA0WHcxSUJ2RHhrNG1hOWUycm5kUjl6OHhoTjhSNVZXRmFUVnRMclJYMW9FdXRJZ1VLSkFrbmxRWVg5N3Z5c3M?oc=5"
-    },
-    {
-      "headline": "A huge trade just happened on the Nasdaq 100. Bulls are taking notice",
-      "score": 7,
-      "source": "CNBC",
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "Tech bulls may not have to wait much longer for fresh highs, if the single-biggest trade in the Invesco QQQ Trust ETF on Thursday is any indication.",
-      "category": "us_equities",
-      "date": "2026-07-09 19:26",
-      "link": "https://www.cnbc.com/2026/07/09/a-huge-trade-just-happened-on-the-nasdaq-100-bulls-are-taking-notice.html"
-    },
-    {
-      "headline": "Anthropic appoints former Fed Chair Ben Bernanke to its independent trust",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Members of the trust advise Anthropic leadership and do not hold any equity in the company.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-09 17:23",
-      "link": "https://www.cnbc.com/2026/07/09/anthropic-fed-chair-bernanke-independent-trust.html"
-    },
-    {
-      "headline": "Fed's Williams expects energy prices to abate even as Iran war flares - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Fed's Williams expects energy prices to abate even as Iran war flares\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-07-09 16:51",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbHJKaC12UWdzSzFSRjJWZFYwZ1RQMENmbENTV0dHcW1ablp1d3lEU0FKbThLOExCWnlRVWQ3OVM1OUtJZmtTQjlXRzV5c2I1U2NvcHFwT2dGT25zQ0NMNjJzQUJ4NFhKak1Nc1JNSWlwNUVOSVJiZ0JlVUlGMjVzN2JDRjVNLXJkR0YzMGI4bllUOEN4YmR6T0VjWHlMZU5rajFTaVlUZlg4U3ZlWkE?oc=5"
+      "impact": "The fundraising provides the infrastructure-to-real-estate conglomerate much-needed liquidity after it twice extended the maturity of debt owed by Goswami",
+      "category": "fixed_income",
+      "date": "2026-07-10 03:15",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-09/india-s-shapoorji-starts-2-7-billion-refinancing-to-tackle-debt"
     },
     {
       "headline": "PepsiCo earnings miss estimates as U.S. consumers tighten their budgets",
@@ -202,14 +203,34 @@
       "link": "https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html"
     },
     {
-      "headline": "SK Hynix\u2019s stock pops in its Nasdaq debut",
+      "headline": "Janux Therapeutics (NASDAQ: JANX) CEO exercises 7,000 options at $4.21, boosts holdings",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The South Korean memory company\u2019s American depositary receipts begin trading on Friday.",
+      "source": "Stock Titan",
+      "sentiment": "positive",
+      "impact": "Janux Therapeutics President and CEO David Alan Campbell exercised stock options to acquire 7,000 shares of common stock at an exercise price of $4.21 per share. This transaction, which occurred on July 8, 2026, increased his direct holdings to 388,582 common shares, while he still retains 697,550 i",
       "category": "us_equities",
-      "date": "2026-07-10 16:09",
-      "link": "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories"
+      "date": "2026-07-11 05:39",
+      "link": "https://www.stocktitan.net/sec-filings/JANX/form-4-janux-therapeutics-inc-insider-trading-activity-9cc1681db5ee.html"
+    },
+    {
+      "headline": "Trump says US, Iran agree to continue talks but ceasefire over - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump says US, Iran agree to continue talks but ceasefire over\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-11 04:46",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDY4WWlhcGlFTE0zWE9HdXJlWnFJNXRhLWthUlFCZVdiVV91elpLUlh3Ni1UQUU2OXg2RXV0MUVWVHk0SE9CSFA4RjdOV05hTFRUX3ZEb3Z0OEJWNkYtdGR2ajRDR0FWS2xXaEhQeFNuLTZ0NXVKLS1mbklIQnpPT2VINnQ1ZmF5eDFHNXQtY01aSVVMYXkwTEh4RnlmRUthcjlGOG1LYndabUJ6NWc?oc=5"
+    },
+    {
+      "headline": "Trump says missiles aimed at Iran if Tehran targets US president - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Trump says missiles aimed at Iran if Tehran targets US president\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-11 03:35",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzc3RWxTLVZuRllmY19VQ244ZjcxcjY2TVRNWnh1WkI1ck5qUkFyMzBZNTZTYUZqbTVRSmc4V3BqMl9zY21GdnJmSGU0OTNRd0Q4ekxDMnlGQ0I1UEJScFZhUGZoZ1A1aEdZTWRYZ0FGazJ3aXpJd2Zad044SzhMWXFETXRmQnBvTnMxSjhzdXVjZnp1YmRkNWJlVWdqWWdFdnRKeHlrOFQtdjZqRk9mMFhMbFFHUQ?oc=5"
     },
     {
       "headline": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over - Reuters",
@@ -218,58 +239,38 @@
       "sentiment": "neutral",
       "impact": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-10 15:26",
+      "date": "2026-07-10 22:25",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWU8weHNqWU10dDFxUGpMR3Z5LW0xVVVnTlNuU2ZBaWpXS0ZnbHQ4c3BENmZ2QVZMZ0VLWmIyUnU0NVM2Tkp4T0lONVM2NnF5cHluZWRxR3FkOXdsNEJoQ3I1VmV3a3hOcExFWll0Vkp2VUJKN2xpcU13US1lOEkxWE1CcEY2dWZGbUZ4TzZ3V0lYRUhLdC1CZjJNTDVJZVM2TDZpSUU0V0lQdkZn?oc=5"
     },
     {
-      "headline": "Private chef salaries reach $300,000 as the rich seek their own Michelin stars ",
+      "headline": "SK Hynix\u2019s stock sees double-digit pop in Nasdaq debut",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Demand for chefs, personal assistants, butlers, nannies, housekeepers, chauffeurs and estate managers have reached records, according to Morgan & Mallet.",
-      "category": "global_markets",
-      "date": "2026-07-10 15:05",
-      "link": "https://www.cnbc.com/2026/07/10/private-chef-salaries.html"
+      "impact": "The South Korean memory-chip company\u2019s new American depositary receipts began trading on Friday and logged gains of nearly 13%.",
+      "category": "us_equities",
+      "date": "2026-07-10 22:18",
+      "link": "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories"
     },
     {
-      "headline": "48-year-old worked at a garden center for $17/hour to make ends meet: 'It's one of the best jobs I've ever had'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "\"Without a job, I felt invisible. With a job, I felt seen, useful, and purposeful again,\" says Leslie Friday, who sold plants and flowers while job searching after a layoff. \"I loved every minute.\"",
-      "category": "global_markets",
-      "date": "2026-07-10 13:42",
-      "link": "https://www.cnbc.com/2026/07/10/48-year-old-worked-at-a-garden-center-to-make-ends-meet-one-of-best-jobs-ever-had.html"
-    },
-    {
-      "headline": "China temporarily bans helium exports as US-Iran tensions flare again - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "China temporarily bans helium exports as US-Iran tensions flare again\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-07-10 11:05",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc3JNM3pfZEJxTV9oX1JMNXdpSzJ5a2NvTFBNZXBHUWpLMnEyM3BqYjNEcDg0WGZsZGhSaktsODR1di1NbU56SzJRZ2NmcXloY3p1MURESl8xS3NFTDRaYkFLZ3VLQU40X0Rwb0V1amJPRE1BVmdLZmJEc29YVjB0d1FQTFgzZWFSekwxRzE0aDFaeDlUZWlsNkpUcUNuNWM?oc=5"
-    },
-    {
-      "headline": "US-Iran escalation could threaten 2027 oil market surplus, IEA says - Reuters",
+      "headline": "US insists Iran commit to stopping attacks in Hormuz strait, say US officials - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US-Iran escalation could threaten 2027 oil market surplus, IEA says\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-10 10:04",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcS1IS0o0Q2RIbVZsMWFQc3hWY2lheW5Zb09jdVlENDBxeFVOYk0xRUozaTI4NFVUUzlGem1tLUdnVURUYXcySHVNdk5kd185ZTAzOHFkUjV2MHYxQkNOejZSbTl3VlQyb3c5NWM4ejhFZUlNN3FUYnA3SW1uWGtzaFVXTDFYY2MzRHRBZzh3N2tfeUw0ZnlELXRNX2JKb1dsalpzVkppVmZjMTVTZ2ZWcnZCRUNGMzByaFE?oc=5"
+      "impact": "US insists Iran commit to stopping attacks in Hormuz strait, say US officials\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-10 21:36",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTDI4WnJQY1UzQVd1QjZQMXRFUkM2SHdzNV9EYmd2cTQ2a1h3cTN0NTlza0JSMWFlbFhibmY0SnVRSHU0U2ZsRGpoMEhMamd5RXNZUXZRVUJRQnVzVGhtajFJbHdXSUtjNy1iOGpTODU3dG5YLUphaGlYRDRXLUZSdXF2U3laZDhaeTVvalFJbjlGOGJYaTFFdnRuMUJmZXE3U1Z0LTRxaUtiNTNnQnQ2bGdDZEVhUzV4OHdBVlBTSVVBdw?oc=5"
     },
     {
-      "headline": "ECB is back to square one as US-Iran war resumes - Reuters",
+      "headline": "Fire at western Iranian mini-refinery contained, Iran media says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "ECB is back to square one as US-Iran war resumes\u00a0\u00a0Reuters",
+      "impact": "Fire at western Iranian mini-refinery contained, Iran media says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-10 07:29",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRm9WbnV4OVNNRTE2NmgybmlMZUxEM2xyOHJjUkdvVW50aHk5LVhxOUZTcDk1Q1hGcTBOZWg0NFlkTTE4bk0xMEFEcTFkS1VHeDROempXQ0JjcWx2TFJGQmp1dW5yeTlNQllpT3lxMUNCTlZaRzlfcjlCRV8ybHpLZ3RkUlE4WFZiYjZ3alh3X3hGb1F3ZmRjOERrTQ?oc=5"
+      "date": "2026-07-10 21:14",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUtrSnZONHozaUJIOU5LOVhpTGo4MEViVEJQQTNiZ0lLaC1ERV80cjNySFJEYk84WmJGeDZWYWoyM1lYYmtuUXRrOXo4NG0yaVZXY0hpWEVIZFgyZ214dWgwcGdITmlYNld4bnFVYlVPZGFwRmE0dmJ2bHNtZ2d0NW1oZ0NvOTV1V1pNcW1mNGVITDFvdFpUSXFUTlE?oc=5"
     }
   ]
 }
