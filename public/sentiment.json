@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-13T08:49:19.708497",
+  "timestamp": "2026-07-13T16:36:43.120538",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 8,
-    "neutral": 14,
-    "bearish": 3,
-    "high_priority": 8,
+    "avg_relevance": 7.2,
+    "bullish": 11,
+    "neutral": 12,
+    "bearish": 2,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 14,
-    "Bloomberg": 2,
+    "Reuters": 9,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "Associated Press": 1,
-    "CNBC": 1,
-    "MarketBeat": 1,
-    "MarketWatch": 1
+    "MarketWatch": 3,
+    "CNBC": 2,
+    "Benzinga": 1,
+    "Seeking Alpha": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +101,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "S&P 500, Nasdaq decline as Iran tensions jolt sentiment; chip stocks fall - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "S&P 500, Nasdaq decline as Iran tensions jolt sentiment; chip stocks fall\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-07-13 14:29",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUxJelN2M2lFYXd0QzZIdkhQVGdKTFl2clAtSllTMzIxZ0xudk9CeFpNNVV5MVNVSTdhb251ZjZYbWZ3UFQxWGl0ZWRBRXc3NFVvbXpRT1pPUjZxWUw5VDhtZ2s0bDZVT2VrWEp6M01qeTgwcWFtdmxOcFBYdmQxU1J6anlGbURld1ZmdnloOFBOaTJYbUFxNGo0dTFvbEl1bFdZTXIwcjMtRldFd1BMTw?oc=5"
+    },
+    {
+      "headline": "Tech stocks skid, bond yields rise as Gulf conflict sends oil surging - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Tech stocks skid, bond yields rise as Gulf conflict sends oil surging\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-07-13 00:25",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS2QwU3pIcHNXVlZZZW1SUXpNSVlUYlRILUdqUmJBODg5ZDh0Q3d4U21VZkdHZGhmZDlnNFFxYWZ1Y1AwTTJ1bTBZVlQ5ZFpSSngtMTdzNzljNExjWk15WE11MDBScXMwTmJkcG9NM2lEMjM3Z1E5ODNPWWljYnVxUko5T21tZ055eHhtMnh0bDZNZw?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +131,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,158 +141,138 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-13 08:49",
+      "date": "2026-07-13 16:36",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "America In Focus: Fed officials divided on US inflation views; US home prices hit all-time high",
+      "headline": "A hot inflation reading this week could mean a rate hike soon, Fed\u2019s Waller says",
       "score": 7,
-      "source": "Associated Press",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "The Federal Reserve\u2019s rate-setting committee is split over whether inflation is likely to stay elevated or whether it will cool once the Iran war winds down, according to minutes released Wednesday. Meanwhile, sales of previously occupied U.S. homes slowed in\u2026",
+      "impact": "Fed officials are divided over whether the Fed will need to raise rates.",
       "category": "us_monetary_policy",
-      "date": "2026-07-11 15:32",
-      "link": "https://apnews.com/article/inflation-economy-iran-trump-unemployment-6e3bec84857235030c5aa6859869f33f"
+      "date": "2026-07-13 16:32",
+      "link": "https://www.marketwatch.com/story/a-hot-inflation-reading-this-week-could-mean-a-rate-hike-soon-feds-waller-says-15acf7a2?mod=mw_rss_topstories"
     },
     {
-      "headline": "Delta expects higher airfare to last, bringing 2026 profit goal in reach, CEO says",
+      "headline": "TSMC just reported a record month for revenue ahead of critical earnings report on Thursday",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Taiwan Semiconductor Manufacturing Corp. said net revenue increased by 67% in June to $13.2 billion",
+      "category": "corporate_earnings",
+      "date": "2026-07-13 14:03",
+      "link": "https://www.marketwatch.com/story/tsmc-just-reported-a-record-month-for-revenue-ahead-of-critical-earnings-report-on-thursday-508195fd?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Delta is the first of the U.S. airlines to report second-quarter results.",
+      "sentiment": "neutral",
+      "impact": "Big banks are set to report booming Q2 revenue as the SpaceX IPO, Iran war volatility and a rebound in commercial lending fuel Wall Street's \"sweet spot.\"",
       "category": "corporate_earnings",
-      "date": "2026-07-10 11:59",
-      "link": "https://www.cnbc.com/2026/07/10/delta-air-lines-dal-q2-2026-earnings.html"
+      "date": "2026-07-13 13:19",
+      "link": "https://www.cnbc.com/2026/07/13/bank-earnings-jpmorgan-chase-goldman-sachs-bank-of-america.html"
     },
     {
-      "headline": "Nayax Ltd. (NASDAQ:NYAX) Receives Consensus Rating of \"Hold\" from Brokerages",
+      "headline": "Banks\u2019 Record Bond Short Sparks Quest for Answers: Credit Weekly",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "For the first time in recent history, primary dealers have gone net short on debt they used to hold billions of dollars of.",
+      "category": "fixed_income",
+      "date": "2026-07-11 19:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-11/banks-record-bond-short-sparks-quest-for-answers-credit-weekly"
+    },
+    {
+      "headline": "Paramount, WBD hit with lawsuit from 12 states, including California, to block merger",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "A group of states, including California, filed a lawsuit to block the merger between Paramount and Warner Bros. Discovery.",
+      "category": "global_markets",
+      "date": "2026-07-13 16:19",
+      "link": "https://www.cnbc.com/2026/07/13/paramount-wbd-merger-lawsuit.html"
+    },
+    {
+      "headline": "Big Bank Earnings Preview: Bank of America, JPMorgan Stocks Starting to Rally \u2014 Will This Laggard Be Next",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "positive",
+      "impact": "Earnings season for big U.S. banks is beginning this week, with six major banks reporting quarterly financial results. Many of these banks have consistently beaten analyst estimates for EPS and revenue, leading to positive stock performance for all but one. Wells Fargo (WFC) is highlighted as the la",
+      "category": "corporate_earnings",
+      "date": "2026-07-13 15:47",
+      "link": "https://www.benzinga.com/trading-ideas/previews/26/07/60419822/big-bank-earnings-preview-bank-of-america-jpmorgan-stocks-starting-to-rally-will-this-laggard-be-next"
+    },
+    {
+      "headline": "AMD likely to 'beat and raise' as BofA sees 'exceptional' demand for server chips (AMD:NASDAQ)",
+      "score": 6,
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "Bank of America anticipates that AMD will report a \"beat and raise\" quarter, driven by \"exceptional\" demand for its server processors. This positive outlook is attributed to increased EPYC share gains, robust cloud demand, and tailwinds from AI-related CPU advancements. While Arm faces challenges wi",
+      "category": "us_equities",
+      "date": "2026-07-13 15:46",
+      "link": "https://seekingalpha.com/news/4613271-amd-likely-to-beat-and-raise-as-bofa-sees-exceptional-demand-for-server-chips"
+    },
+    {
+      "headline": "Houthis accuse Saudi Arabia of striking Sanaa airport, vow retaliation - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Houthis accuse Saudi Arabia of striking Sanaa airport, vow retaliation\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-13 15:32",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQV2Q4MUdSUXZ0ZWdUWnM4SFNoV0lqYlBHTy1PMURKeFA1TS02RWRjbVZDYzJTY29obkdIa29MV2Y1WjZta2c5TXRzTEdNRjc3alR0MGtNV3QzUXpoanJyLWQ4VHV4NlM2WloyaWZaenV1Y1hqUjY1dHNaaXRiWnoxdmxLYWtyNURVQlRfblZjaFBYTmdXNDVVVFFlM1BWS3M2SzFOcm5MakVrYWNwM01aT0s2UThnckpQRDlSUjdqRjlMaWM4eTJtRG5JZU9FQQ?oc=5"
+    },
+    {
+      "headline": "Short Interest in First Trust Emerging Markets Small Cap AlphaDEX Fund (NASDAQ:FEMS) Expands By 217.5%",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Nayax Ltd. (NASDAQ:NYAX) has received a consensus \"Hold\" rating from eight brokerages, with an average 12-month price target of $78.16. Recent analyst actions were mixed, including upgrades, downgrades, and reiterations. Insiders have also been selling shares, and the company reported mixed quarterl",
+      "impact": "Short interest in the First Trust Emerging Markets Small Cap AlphaDEX Fund (FEMS) increased by 217.5% in June, reaching 5,835 shares, though this still represents only 0.1% of shares shorted. Institutional investors, including Crusonia Wealth Advisors and Flow Traders U.S., have been adding position",
       "category": "us_equities",
-      "date": "2026-07-13 08:11",
-      "link": "https://www.marketbeat.com/instant-alerts/nayax-ltd-nasdaqnyax-receives-consensus-rating-of-hold-from-brokerages-2026-07-12/"
+      "date": "2026-07-13 15:32",
+      "link": "https://www.marketbeat.com/instant-alerts/short-interest-in-first-trust-emerging-markets-small-cap-alphadex-fund-nasdaqfems-expands-by-2175-2026-07-13/"
     },
     {
-      "headline": "Iran escalates attacks on US bases in Gulf states, warns of more 'incidents' in strait - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran escalates attacks on US bases in Gulf states, warns of more 'incidents' in strait\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-13 06:47",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMG0wMGZybUNSMnZyOWQzck1Eb0JwcFdfWUVXNlBYbk10c3VveDRrdzVpYVJhNjdwdUdnR1ZMZDhVTXdnWE41M09iZnZwUmJzbEpsX2V0Q2xDWmdHVjZGRkxtRmVsOFU2OWM3aGsyUGljckNVb1F1WlpmMk5GQVE4S0Q4QXJQYlI4V1hZSktORXBZYm1YXzNsQUYwQ2dOSUJtSTJrNmpvR3M5Q2szcXYzWENxeGFIbnRHS0lhaXdnN3FFcnM?oc=5"
-    },
-    {
-      "headline": "Less than a month's supply: Europe's jet fuel stocks are wafer thin as Iran tensions flare - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Less than a month's supply: Europe's jet fuel stocks are wafer thin as Iran tensions flare\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-13 05:03",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR1lCYWdoRS1ZVjB4RTR3bHhleGU2aFlLOTdxckNDWXFtMGxQZVdTUklud0N1SXRXaG50LUk3dTBLZl8tV0FVVGg1cHNPZ3ZCOEFQY0FBUkhINUQzMEFDVUNqTzg2a3FsUkJiclZCZjJSbF9vd3AycW5ta1lNZHBObjF0Y1ZMV3UyUzVfR05iMmhLLTl2MmJ1YUhzX2pKZEZtMk14OEtHNVRPVFdYN1BkMDlscUlXRTAycjB1cGJ1Q1NYcTNyYTFr?oc=5"
-    },
-    {
-      "headline": "Hormuz traffic slows to multi-week low as renewed US, Iran strikes raise safety risk - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Hormuz traffic slows to multi-week low as renewed US, Iran strikes raise safety risk\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-13 04:52",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVJyVWNDbGpUSGtYdm1NUzhqZmpSVFp2SnEtS0N4VzBJZnJTeDZ5X21NN0I4SGJ6V2lYZDBLM3FvSkNTbFRNTkkxWlhtNjRqakpmRGotN3lub0RMZkxmOUlWSUU4WEdBVUZrU09lNzl2d0xMT09aVEw3aU5KNkJaZmpEYlllTTZfMl9ULXg4cDBHZkd4MVJ4OEo0SzNwYkxRUjIta0tONkVJb2puQnhNN0g1WTQwcjZaX0ZYZG85dnZWT0pyUHZFbUY2TQ?oc=5"
-    },
-    {
-      "headline": "Rupee hits one-month low as renewed Mideast conflict lifts oil prices - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Rupee hits one-month low as renewed Mideast conflict lifts oil prices\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-13 02:57",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSXR4ZWZsd09NWExoakQ5aEpDdmdhNk5SVVNlQ1A3TmhtaXFFQnM3LTRSSzhSaFJxSHoxUWlVbFF5UTRzYnh2RG1qNEFWZTNHMzNFNTRuYlFUUHJiRldvakh4dEN6RU9FNXZkMlMtSW8tTGtPNW5sRXBYbVFRTWJOWDRRa2RxaVNuZFlBXzNtdVUxUFBMejZjOXNMTEVGUzRFWXEtYnltN2xEZ3I4aU9McnRnRTNDQQ?oc=5"
-    },
-    {
-      "headline": "Indian shares fall as oil jumps on renewed escalation in the Middle East - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Indian shares fall as oil jumps on renewed escalation in the Middle East\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-13 02:18",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEQxNWtFdV9JXzY0RnUtVXhxNGE5RHlOMW1CRHhrQlBfTjNkck1qR0ZOUzg1ZXVfalNiVlUwczRaR2pWeXBkRlJwdzBtX25vSHJzdDNKT0FiOUJXMld0WTJucHZHN0xqSW1fSDlIY0kyUG5XMDJMV0RibTNkX3VYeHhxSllqNW5XWW5wNWI1eWItd21ELWZncFV0M1dhOTQ5cjBTaFhtREhvbnZab3Nvd1VQNUQxUko4dE84?oc=5"
-    },
-    {
-      "headline": "An emboldened India holds out for better terms in US trade talks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "An emboldened India holds out for better terms in US trade talks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-13 01:01",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSklkdlhBUTRGM2pHY3huUUdzMFJsVllYekhuak5CWlNMOXp1OTNEQW50WF9oQ0IyY05sTkZ5R3QwQWZCTjlya09hRkhldFhKeVIzM0xjcGVURlNuYmZVOEd5NkJpZEZUcmNHVFBOYW81a2NFYzR1czJRdnBsU0ZQMU5vSVR2cENGOUJCWmd4MmJqekJSX1czaDUxWkVZc3NWZDVVOFZ3NFg?oc=5"
-    },
-    {
-      "headline": "Oil jumps 4% as new military strikes threaten Hormuz shipments - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Oil jumps 4% as new military strikes threaten Hormuz shipments\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-12 22:12",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUFpPY1lfc0lIc0xsNVlaSkZQanVuM3RZd0lUMTdLMlktT0dLajFOWExXSTZEd1pJd1kteDBWeTk5UnFHMmFtdUE1cWdmMEZwaDR4M09lV3NENXlhTHIwOUc1NEhTbGNYQTBZUmFNYlRIT3RUWWNyc3JZOXR2WXFrTWRFTmc1V2FHWnlDRW90YkJrOW1WWGstZ0d1bS1JaEJYZTcya0dUdkN4VzZQczhz?oc=5"
-    },
-    {
-      "headline": "Why Citigroup is the one to watch when banks report earnings this week",
+      "headline": "Can big banks\u2019 \u2018cheap\u2019 stocks keep rising? We\u2019ll find out when JPMorgan and an unusual number of others report earnings Tuesday.",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
       "impact": "Among the largest U.S. banks, Citigroup is expected to show the greatest improvement by one important measure. But it still has a long way to go to reach its own performance target.",
       "category": "corporate_earnings",
-      "date": "2026-07-12 19:31",
+      "date": "2026-07-13 15:25",
       "link": "https://www.marketwatch.com/story/as-five-big-u-s-banks-report-earnings-on-the-same-day-citigroup-is-the-one-to-watch-683c3707?mod=mw_rss_topstories"
     },
     {
-      "headline": "Israel's election will be held on October 27, coalition head says - Reuters",
+      "headline": "Trump: Iran blockade reinstated, US to charge 20% on Strait of Hormuz cargo - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Israel's election will be held on October 27, coalition head says\u00a0\u00a0Reuters",
+      "impact": "Trump: Iran blockade reinstated, US to charge 20% on Strait of Hormuz cargo\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-12 17:50",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbVlfeEhKTEQwUVJDNzQ3eWVJM2JQd2JNMUZSV2pMVFRQUnp3YUNlN1RRQ2VmWVVITTZiUzJwZEJGbWVNUzR5Y0FPaHRZZU5YM0FpQ3Z0UWo1UGI5Tk9BNlNfNUhMMmRGckxhSHBDTzk5RWtsUTM5bGxfTjFkWEp3dF9Mb2RiT1kyNUZINksyTk9KQWt0Tk1qdjNjcjJqOURpUUxKQllTR2M3TC1wRzRLY3Z3N2o?oc=5"
+      "date": "2026-07-13 14:54",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMV9vbjgzc3lGdFhGN0tRekRlTDItNXRiUnN1OV90MG5VeXVsRzRXNVItYUZPLWdPZlZtVUVFYTBaQlhhUkFTU1JTQzVfSVhoMHV1VUhQUmhtelBMMllPQk40dUhjWW16dEpaaWc0bVpjazBLWmRvakxGUEtkNHExcmlmRTBMRGxaSDF3VGk3d3BqZTNRU3pZRkUzTENvUk5KYVg5Rk4tUjZ1dw?oc=5"
     },
     {
-      "headline": "US conducts strikes on Iran missile systems around Strait of Hormuz, Axios reports - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "US conducts strikes on Iran missile systems around Strait of Hormuz, Axios reports\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-12 16:43",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVlFEMTBmd3hvZzZpVnBYcnNnUlBnQW9DRlkydFVqUTM0S3I2emo0TDczX3NJSGNHdXJqZGJreUhDRDhoYnNUck9vRGVpWEVtMGNnNElfY1lzR0NZakdlSWtTZEExQ2YyWFFKWTNhLXpwbk9HRkF6VGs4V0pLTDRRT013Z3dvc1hZVWthV0x6MzFneHlxei1LZWg5NVNKUE1oV2pfTUNlbkIwNU1tVU14MmhXc1Z2VmNNZnR5Q2thYjFDMWRyaUNJbw?oc=5"
-    },
-    {
-      "headline": "Iran's IRNA says 'enemy' launches missiles towards Qeshm Island - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Iran's IRNA says 'enemy' launches missiles towards Qeshm Island\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-12 16:29",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcFNWV2l4NHpONDVaQ0VPNVczX3ZhaHJHS08ycWJvWDhabVJlZDZrQU5rSDZ0bGRNZXhudFVxSDkzQnNoSTZqWkRXd0RrSWNEVGpHMzBVS2J5ZlZXZ0RPeG93ZWF2QjJWY05oV2FlVlFTODJ3dmJOSnVVOFlJSHFLUzdfYXVhY0NDOEdOVXctakZucmJZLUoxVFhuSk9qRGxPX2lMT3lmenA5LXdmTUpaSVhGcTg?oc=5"
-    },
-    {
-      "headline": "Lindsey Graham dies, Iran strikes and World Cup semis set - Reuters",
+      "headline": "UK bans support for two Iranian groups over antisemitic attacks in Britain - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Lindsey Graham dies, Iran strikes and World Cup semis set\u00a0\u00a0Reuters",
+      "impact": "UK bans support for two Iranian groups over antisemitic attacks in Britain\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-12 15:33",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUXhfNmVlMUNVcFlBYzVMck55ajZsTGI2X2NDZjZ5ZEQyRTBTWmtWeUtVd2ljRWZvSm5tWm1qR2tDS2RqYzdhZ0ZQWkNlN0tCaTNiakhDcmNpWUNVTHJiejExMVdGU0NlUWp1MU11U2J1VzlodzFYeExWWnl2THNRWm5oemlxaFZOdVJ4UUFYdWZmR0xCNUtrMWZBbEl0dw?oc=5"
+      "date": "2026-07-13 13:58",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQWhXdHRncXZPOURpc2ZuRVNjWWRFVjhiN1hEQzhicm41WGZzbFR4Zkk0ZWtYMTRXeFMwVW9xOEhVWVpyc3oyeFhGZWJyMFRfXzFDczhQalczWGNRQUxzMUxZdTNvLXhVUmVSejUxT1Q2NE1ZNVh0OS1Yc3NIV18tWFVKaHFiWHZlVUxxa0trMzZXV3haelpfZEtrRF96U0M2NWNEbDhyQWVFTHNkX1E?oc=5"
+    },
+    {
+      "headline": "European shares edge lower amid renewed US-Iran tensions - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "European shares edge lower amid renewed US-Iran tensions\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-13 13:15",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY2NNZnVVOGcySHZsNTZmbktYVlYzbTlxTU5tNHFDSWtqV19rT0dWeUdBaktuOU1FQl9wNkdHZmQ3QWpsX3ZmVktaa1dwZzJqQ1lHNi1ncFpic0UwTzhSUzgzdGdONXV0Vm9fMWQ5SEpIZ2FDZ0VycVlfMmc0ZGVRR2VIYWJjVDVPT1c4UnNGZndTcFE3UmctMy1QeWs?oc=5"
     }
   ]
 }
