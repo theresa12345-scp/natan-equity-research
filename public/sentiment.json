@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-15T15:26:53.328436",
+  "timestamp": "2026-07-16T07:55:40.521621",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.3,
-    "bullish": 10,
-    "neutral": 14,
-    "bearish": 1,
-    "high_priority": 10,
+    "bullish": 15,
+    "neutral": 10,
+    "bearish": 0,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,16 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
+    "Reuters": 4,
     "Bloomberg": 2,
-    "CNBC": 8,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "Associated Press": 1,
-    "Investor's Business Daily": 1
+    "MarketWatch": 1,
+    "The Wall Street Journal": 1,
+    "Financial Times": 1,
+    "Yahoo Finance Singapore": 1,
+    "MarketBeat": 4,
+    "Yahoo Finance": 1
   },
   "top_signals": [
     {
@@ -30,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +103,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -114,23 +117,13 @@
       "link": "https://www.cnbc.com/2026/07/15/morgan-stanley-ms-earnings-q2-2026-.html"
     },
     {
-      "headline": "Stock futures are mixed as Middle East tensions escalate; traders await earnings and inflation data: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Stock futures were mixed early Tuesday, following a losing session in which traders tried to weather increasing tensions between Iran and the U.S.",
-      "category": "corporate_earnings",
-      "date": "2026-07-14 10:00",
-      "link": "https://www.cnbc.com/2026/07/13/stock-market-today-live-updates.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,7 +133,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-15 15:26",
+      "date": "2026-07-16 07:55",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -150,8 +143,18 @@
       "sentiment": "neutral",
       "impact": "TIPS are offering a rare gift \u2014 and it is time to lock in a generous payout.",
       "category": "fixed_income",
-      "date": "2026-07-15 14:49",
+      "date": "2026-07-15 22:21",
       "link": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "United earnings top estimates but airline expects $6 billion in added fuel costs",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "United reported higher revenue for premium, corporate and no-frills basic economy tickets and higher revenue for both domestic and international trips.",
+      "category": "corporate_earnings",
+      "date": "2026-07-15 21:00",
+      "link": "https://www.cnbc.com/2026/07/15/united-airlines-ual-2q-2026-earnings.html"
     },
     {
       "headline": "Bank earnings takeaways: From Goldman Sachs' SpaceX IPO fees to JPMorgan's AI job cuts",
@@ -174,14 +177,34 @@
       "link": "https://www.cnbc.com/2026/07/15/buffett-says-trumps-pick-of-kevin-warsh-for-fed-chair-was-good-choice.html"
     },
     {
-      "headline": "Warsh says Fed has \u2018no tolerance\u2019 for high inflation but provides no hints on next move",
+      "headline": "Stock Market Today: Nasdaq Looks to Build on Tuesday Rally",
       "score": 7,
-      "source": "Associated Press",
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-07-15 04:09",
+      "link": "https://www.wsj.com/finance/live/stock-market-today-dow-sp-500-nasdaq-07-15-2026-2a3dd235"
+    },
+    {
+      "headline": "China reports lowest GDP growth in more than 3 years",
+      "score": 7,
+      "source": "Financial Times",
       "sentiment": "neutral",
-      "impact": "Federal Reserve Chair Kevin Warsh pledged to make high inflation \u201ca thing of the past\u201d in his first congressional testimony Tuesday, yet provided no signal about the central bank\u2019s next steps. Yet about half of the 19 members of the Fed\u2019s interest rate-settin\u2026",
-      "category": "us_monetary_policy",
-      "date": "2026-07-14 15:57",
-      "link": "https://apnews.com/article/warsh-federal-reserve-inflation-4a1da547d64ae3d54fba29161b213601"
+      "impact": "Second-quarter GDP figure falls below annual target range as economic pressure mounts",
+      "category": "asia_economy",
+      "date": "2026-07-15 02:09",
+      "link": "https://www.ft.com/content/5b12e491-dcd0-4e0c-a464-96ec37b737ab?syn-25a6b1a6\\\\u003d1"
+    },
+    {
+      "headline": "Stocks rise after soft US inflation reading with Middle East in focus - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Stocks rise after soft US inflation reading with Middle East in focus\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-15 01:48",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcEtOY19xRkd1VVhIYWg3cmFaU1BOUXRpRDhzaXN6UzFSa2Z2c3cwOE5YYjV5bXRwQVhiX2VhTGE1d1dvR2dQS3FnQm56VkZwOE00WER6bWoyM3U5aWtjd0xjUENON1dXcWVlLW85TGhZazVKY3BZbmRQT19IaE9TMm43Yw?oc=5"
     },
     {
       "headline": "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility",
@@ -194,84 +217,64 @@
       "link": "https://www.cnbc.com/2026/07/13/bank-earnings-jpmorgan-chase-goldman-sachs-bank-of-america.html"
     },
     {
-      "headline": "Dow Jones Futures: Nasdaq Sells Off, Oil Prices Spike On Trump Blockade; Micron, Sandisk, SK Hynix, SpaceX Dive",
-      "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "negative",
-      "impact": "Dow Jones Futures: The Nasdaq composite sold off Monday on Trump's Strait of Hormuz blockade. Micron, Sandisk, SK Hynix and SpaceX dived.",
-      "category": "us_equities",
-      "date": "2026-07-13 23:48",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-blockade-micron-sandisk-sk-hynix-spacex/"
-    },
-    {
-      "headline": "BlackRock has best-ever start to a year as investment flows double and profits surge",
+      "headline": "Can Valero Energy (VLO) Run Higher on Rising Earnings Estimates?",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "Yahoo Finance Singapore",
       "sentiment": "positive",
-      "impact": "Shares of BlackRock were rallying toward their best day in more than a year on Wednesday, after strong inflows into exchange-traded funds and buoyant markets helped the world\u2019s biggest asset manager beat Wall Street\u2019s earnings expectations for the latest quarter.",
+      "impact": "Valero Energy (VLO) is considered an attractive investment due to a noticeable improvement in its earnings outlook and rising analyst estimates. The company's stock has performed strongly, and its favorable Zacks Rank #2 (Buy) suggests continued potential. Analysts have significantly raised earnings",
       "category": "corporate_earnings",
-      "date": "2026-07-15 15:10",
-      "link": "https://www.marketwatch.com/story/blackrock-profits-jump-as-assets-under-management-hit-a-record-15-trillion-8e6fd54b?mod=mw_rss_topstories"
+      "date": "2026-07-16 07:09",
+      "link": "https://sg.finance.yahoo.com/news/valero-energy-vlo-run-higher-162001152.html"
     },
     {
-      "headline": "\u2018Arsenal of democracy\u2019: Jamie Dimon announces $24 million effort to boost American shipbuilding",
+      "headline": "Xcel Energy Inc. (NASDAQ:XEL) Receives Consensus Rating of \"Buy\" from Brokerages",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "JPMorgan Chase CEO Jamie Dimon unveiled a $24 million package to bolster American shipbuilding, funding a new submarine facility at the Philadelphia Navy Yard.",
-      "category": "global_markets",
-      "date": "2026-07-15 13:45",
-      "link": "https://www.cnbc.com/2026/07/15/jamie-dimon-jpmorgan-chase-defense.html"
+      "impact": "Xcel Energy Inc. (NASDAQ:XEL) has received a consensus \"Buy\" rating from 17 brokerages, with an average 12-month price target of $92.00. The company recently reported quarterly EPS of $0.91, aligning with estimates, and declared a quarterly dividend of $0.5925 per share, resulting in a 3.0% yield. I",
+      "category": "us_equities",
+      "date": "2026-07-16 07:08",
+      "link": "https://www.marketbeat.com/instant-alerts/xcel-energy-inc-nasdaqxel-receives-consensus-rating-of-buy-from-brokerages-2026-07-16/"
     },
     {
-      "headline": "Warren Buffett on the market today: 'It's tough to find values when everybody is preferring gambling'",
+      "headline": "Cintas (CTAS) Is Up 6.8% After Record FY26 Results And Higher FY27 Revenue Outlook - What's Changed",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The investor has been sharply critical of the stock market, one that he says is increasingly defined by speculative trading as opposed to long-term investing.",
-      "category": "global_markets",
-      "date": "2026-07-15 12:50",
-      "link": "https://www.cnbc.com/2026/07/15/warren-buffett-on-the-market-today-its-tough-to-find-values-when-everybody-is-preferring-gambling.html"
-    },
-    {
-      "headline": "Star analyst Dan Ives forms Yorkville Ives merchant bank after leaving Wedbush",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The new firm, Yorkville Ives & Co., will combine investment banking, equity research, institutional trading and principal investing.",
-      "category": "global_markets",
-      "date": "2026-07-15 11:51",
-      "link": "https://www.cnbc.com/2026/07/15/star-analyst-dan-ives-forms-yorkville-ives-merchant-bank-after-leaving-wedbush.html"
-    },
-    {
-      "headline": "US says it has begun new wave of strikes on Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US says it has begun new wave of strikes on Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-15 10:47",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObUM2X1dwWlEtWHFxM3dFS1pvOWlDcHNlR0NLTTBiTHR2RU01Y21HTXYwSW5FUng3UFZ1S21GdGhJQlJObjJySjBEa2RLSDJMN3cwNDVjMTJmNW9QVi1UOUVvQ0daRXIyVDJQN0RHX3VZWXRqVElkc0xYUEMtQlVwWW5JYzN0cnhnSmlYS1NhajlBTXhNWUZSRlZWLVo?oc=5"
-    },
-    {
-      "headline": "US launches new round of strikes against Iran as escalation threatens shipping - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "Yahoo Finance",
       "sentiment": "positive",
-      "impact": "US launches new round of strikes against Iran as escalation threatens shipping\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-15 04:57",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUFEyN1NxTHNCaG5RT2lOTWY4WWxWd1JQUGpLdV8wY3J0RVp3RmZaN21hcm9YX1A1TWdYc3RMU3BKNV9rd0tqdnM4SEpmamFRLXJIU1NvdnhUYlo5WDFnb2dPY2JfZU5HXzBMR184ei1kSS1zeUthWmltb1VzZWhOR0lCX2FlR0NXSGUxY0gxbVJTVkw2RFo5NnZSVXFhcGYxOUhOS1BJU2gza3VYY3VHT2JEWVV2VHdCdDdmeTRyOElucVF4Mk9r?oc=5"
+      "impact": "Cintas (CTAS) reported record fourth-quarter and full-year fiscal 2026 results with significant revenue and net income growth. The company issued higher fiscal 2027 revenue guidance of US$12.10 billion to US$12.25 billion, demonstrating confidence in its uniform and facility services. While the stro",
+      "category": "corporate_earnings",
+      "date": "2026-07-16 07:07",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cintas-ctas-6-8-record-061614680.html"
     },
     {
-      "headline": "Iran-linked vessels pass through Hormuz ahead of US blockade - Reuters",
+      "headline": "Pool (POOL) to Announce Quarterly Earnings on Thursday",
       "score": 6,
-      "source": "Reuters",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Iran-linked vessels pass through Hormuz ahead of US blockade\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-15 03:19",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaTdNZVY3NU9GZkdKMHVSdHhqUTdmMm9ycmQ3a01SRnZhenFpM29SS2JhbWd4Z2N0ZDNEXzBYS0RDbWZnd1RnaHRBOVJHNWFLenA0WmtpSUV4X041WkMtYUxwMzhlS3BhREdGdGpMNnVmSlg1bFJJLTBBVGlVdFF0M01XQmE5aU5OMmpUcnFCdm9vWEU5LTFXalJsSnlGazlxSHZTOEJuZ0hZMnpiUkE?oc=5"
+      "impact": "Pool Corporation (POOL) is scheduled to release its Q2 2026 earnings before market open on Thursday, July 23rd. Analysts anticipate earnings of $5.35 per share on revenue of $1.8191 billion. The company's recent performance has been mixed, with a beat on EPS but a miss on revenue in the prior quarte",
+      "category": "corporate_earnings",
+      "date": "2026-07-16 07:04",
+      "link": "https://www.marketbeat.com/instant-alerts/pool-pool-to-announce-quarterly-earnings-on-thursday-2026-07-16/"
+    },
+    {
+      "headline": "Digital Realty Trust (DLR) to Release Earnings on Thursday",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Digital Realty Trust (DLR) is scheduled to release its Q2 2026 earnings after the market closes on Thursday, July 23rd. Analysts are forecasting earnings of $0.4657 per share on $1.6567 billion in revenue. The company has a \"Moderate Buy\" consensus rating from Wall Street and recently declared a qua",
+      "category": "corporate_earnings",
+      "date": "2026-07-16 07:04",
+      "link": "https://www.marketbeat.com/instant-alerts/digital-realty-trust-dlr-to-release-earnings-on-thursday-2026-07-16/"
+    },
+    {
+      "headline": "JAKKS Pacific (JAKK) to Announce Earnings on Thursday",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "JAKKS Pacific (NASDAQ:JAKK) is set to release its Q2 2026 earnings on Thursday, July 23rd, with analysts expecting a loss of $0.055 per share and revenue of $123 million. The company reported a beat in its last quarter, with a smaller loss than anticipated and higher-than-expected revenue. Instituti",
+      "category": "corporate_earnings",
+      "date": "2026-07-16 06:43",
+      "link": "https://www.marketbeat.com/instant-alerts/jakks-pacific-jakk-to-announce-earnings-on-thursday-2026-07-16/"
     }
   ]
 }
