@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-17T07:52:06.614279",
+  "timestamp": "2026-07-17T15:15:52.095604",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.3,
-    "bullish": 14,
-    "neutral": 8,
-    "bearish": 3,
+    "bullish": 16,
+    "neutral": 5,
+    "bearish": 4,
     "high_priority": 9,
     "material_events": 4
   },
@@ -14,13 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 4,
+    "Reuters": 5,
     "Bloomberg": 2,
     "CNBC": 7,
     "Caixin/S&P Global": 1,
-    "Ad Hoc News": 5,
-    "Yahoo Entertainment": 1,
-    "MarketBeat": 1
+    "Ad Hoc News": 3,
+    "The Wall Street Journal": 1,
+    "Investing.com": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -120,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,48 +131,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-17 07:52",
+      "date": "2026-07-17 15:15",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Labcorp stock steadies as investors weigh recent earnings and guidance",
-      "score": 7,
-      "source": "Ad Hoc News",
-      "sentiment": "neutral",
-      "impact": "Labcorp's stock is steady as investors evaluate the company's Q1 2024 earnings and future guidance. The company reported roughly $3.18 billion in revenue, showing modest growth despite declining COVID-19 testing, but adjusted EPS saw a slight decrease due to cost pressures. Labcorp is navigating a t",
-      "category": "corporate_earnings",
-      "date": "2026-07-17 07:01",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/labcorp-stock-steadies-as-investors-weigh-recent-earnings-and-guidance/69785809"
-    },
-    {
-      "headline": "Gold heads for biggest weekly loss in six as Middle East war fans inflation worries - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Gold heads for biggest weekly loss in six as Middle East war fans inflation worries\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-17 03:34",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWE9UR3M4eEdZWDhiT2EyMnFxejhVbjV3Z3p3NGZaZmdwaXZHODI1MVh5dHY1YVNPVFBjZW81S2dDZzY3a3RTSi1SSkdReDBMOUFmSEVTVlhhcDZ0ZDY2RnJFVHRNLVBRMkJocXdOX1RpOGNqeUZrbzFlMW5SY0lsbXREaEhpOEFuQVlBZGtLZ1NNOTFsTVlqOFU0cUkwSmRjUlJXXzN0SHQ2SkluQ0E2bXFJWUk?oc=5"
-    },
-    {
-      "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
+      "headline": "Netflix stock falls nearly 10% as earnings forecast disappoints, company says it will give fewer engagement updates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "negative",
       "impact": "The streaming giant said it would cut back on the frequency of its \"What We Watched\" reports, which provide a picture of engagement.",
       "category": "corporate_earnings",
-      "date": "2026-07-16 21:53",
+      "date": "2026-07-17 14:56",
       "link": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html"
     },
     {
-      "headline": "Here's what to expect when Netflix reports earnings after the bell",
+      "headline": "Dow member 3M reports earnings next week. JPMorgan is bullish ahead of the report",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Investors will be looking for updates on Netflix's ad-supported business, engagement metrics and how the streaming giant continues to consider potential M&A.",
+      "sentiment": "positive",
+      "impact": "JPMorgan has upgraded Dow member 3M to overweight from neutral and raised its price target to $180, implying 11% upside ahead of the company's second-quarter earnings release next week. The bank is bullish due to spreading demand for artificial intelligence across various sectors, which is driving g",
+      "category": "us_equities",
+      "date": "2026-07-17 14:30",
+      "link": "https://www.cnbc.com/2026/07/17/3m-reports-earnings-next-week-jpmorgan-is-bullish-ahead-of-the-report.html"
+    },
+    {
+      "headline": "Federal Realty stock steadies as recent earnings and leasing trends frame valuation",
+      "score": 7,
+      "source": "Ad Hoc News",
+      "sentiment": "positive",
+      "impact": "Federal Realty Investment Trust (NYSE: FRT) reported higher funds from operations (FFO) and stable occupancy in its recent quarterly update, providing key metrics for investors. The retail-focused REIT emphasizes grocery-anchored and mixed-use properties in dense U.S. markets, focusing on predictabl",
+      "category": "us_monetary_policy",
+      "date": "2026-07-17 13:55",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/federal-realty-stock-steadies-as-recent-earnings-and-leasing-trends-frame/69787707"
+    },
+    {
+      "headline": "Obscure volatility measure points to a 'Magnificent Seven\u2019 earnings breakout",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "If the S&P 500 is to make a new record, it may require the \"Magnificent Seven\" to get back into gear.",
       "category": "corporate_earnings",
-      "date": "2026-07-16 16:12",
-      "link": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html"
+      "date": "2026-07-17 11:36",
+      "link": "https://www.cnbc.com/2026/07/17/obscure-volatility-measure-points-to-a-magnificent-seven-earnings-breakout-.html"
+    },
+    {
+      "headline": "Gold set for biggest weekly drop in six on inflation, rate-hike worries - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold set for biggest weekly drop in six on inflation, rate-hike worries\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-07-17 03:34",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWE9UR3M4eEdZWDhiT2EyMnFxejhVbjV3Z3p3NGZaZmdwaXZHODI1MVh5dHY1YVNPVFBjZW81S2dDZzY3a3RTSi1SSkdReDBMOUFmSEVTVlhhcDZ0ZDY2RnJFVHRNLVBRMkJocXdOX1RpOGNqeUZrbzFlMW5SY0lsbXREaEhpOEFuQVlBZGtLZ1NNOTFsTVlqOFU0cUkwSmRjUlJXXzN0SHQ2SkluQ0E2bXFJWUk?oc=5"
     },
     {
       "headline": "United earnings top estimates but airline expects $6 billion in added fuel costs",
@@ -184,6 +195,16 @@
       "link": "https://www.cnbc.com/2026/07/15/united-airlines-ual-2q-2026-earnings.html"
     },
     {
+      "headline": "Stock Market Today: Nasdaq Set to Open Lower as Chip Stocks Come Under Pressure \u2014 Live Updates",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-07-16 11:51",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-16-2026"
+    },
+    {
       "headline": "UnitedHealth blows past estimates, hikes earnings outlook as it reins in costs",
       "score": 7,
       "source": "CNBC",
@@ -194,84 +215,64 @@
       "link": "https://www.cnbc.com/2026/07/16/unitedhealth-group-unh-earnings-q2-2026.html"
     },
     {
-      "headline": "Ex-Fed advisor gets over three years in prison for lying about China ties",
+      "headline": "S&P 500, Nasdaq fall at the open as TSMC\u2019s spending plans offset stellar results",
       "score": 7,
-      "source": "CNBC",
+      "source": "Investing.com",
       "sentiment": "negative",
-      "impact": "The case marks one of the most prominent U.S. prosecutions alleging Chinese intelligence targeting of U.S. institutions, as Trump intensifies its pursuit of foreign economic espionage.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-16 01:47",
-      "link": "https://www.cnbc.com/2026/07/16/ex-fed-adviser-gets-jailtime-lying-about-china-ties-economic-espionage-.html"
-    },
-    {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq slip as semiconductor stocks plummet",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "Wall Street digests a cooler-than-expected inflation read and ASML's bullish outlook on the AI boom.",
+      "impact": "Nasdaq drops as TSMC\u2019s spending plans offset stellar results; Dow boosted by UNH",
       "category": "us_equities",
-      "date": "2026-07-15 16:51",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-15-dow-sp-nasdaq-waver-asml-091813320.html"
+      "date": "2026-07-16 00:44",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-amid-cooling-rate-hike-fears-iran-tensions-persist-4794571"
     },
     {
-      "headline": "Bank earnings takeaways: From Goldman Sachs' SpaceX IPO fees to JPMorgan's AI job cuts",
-      "score": 7,
+      "headline": "Apple\u2019s stock is beating the S&P 500 by a remarkable degree \u2014 and it may have more room to run",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Apple was once seen as behind the curve in AI, but now it\u2019s getting more respect for its strategic choices.",
+      "category": "us_equities",
+      "date": "2026-07-17 14:58",
+      "link": "https://www.marketwatch.com/story/apples-stock-is-beating-the-s-p-500-by-a-remarkable-degree-and-it-may-have-more-room-to-run-1b0a1454?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "WEC Energy Group stock trades steadily as latest earnings highlight regulated growth and clean energ",
+      "score": 6,
+      "source": "Ad Hoc News",
+      "sentiment": "positive",
+      "impact": "WEC Energy Group stock demonstrates a steady, regulated utility profile, with its latest Q1 2026 earnings revealing a 3.9% revenue increase and 7.4% EPS growth. The company maintains stable margins, a growing dividend, and a strong balance sheet while investing significantly in grid modernization an",
+      "category": "corporate_earnings",
+      "date": "2026-07-17 14:25",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/wec-energy-group-stock-trades-steadily-as-latest-earnings-highlight/69787891"
+    },
+    {
+      "headline": "Iranians suffer new uncertainty and anxiety as US steps up attacks - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iranians suffer new uncertainty and anxiety as US steps up attacks\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-17 14:09",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMDFsaVNvbHhvcE55QWhLRXdNLXNoYzFXTU5TUktEZ3k5NVZFZHhidDlWaGRPZEFEVk1HUm9wSWhDN29xQWVabGlXbmxSbWwxQ3NKLUxySzB5TmFPRnFCZmxLeHNoTWJNcXNiTURDN1NfU0U0NWN4d2ZwZjJ6U256cDNXdFpoZ2lmR1RKZzBsMFFMcmJwWGNFUm5nOVFHU1hubS0tZmEwTGlPdTRzcTZocWlKQQ?oc=5"
+    },
+    {
+      "headline": "Rollins stock trades steadily as recurring pest-control revenue underpins margins",
+      "score": 6,
+      "source": "Ad Hoc News",
+      "sentiment": "positive",
+      "impact": "Rollins Inc. stock remains steady, driven by its recurring pest-control service model, which consistently generates revenue and earnings growth. The company reported a 20% increase in revenue and an 18% rise in net income for fiscal 2023, coupled with a 22% increase in dividends per share, showcasin",
+      "category": "corporate_earnings",
+      "date": "2026-07-17 14:06",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/rollins-stock-trades-steadily-as-recurring-pest-control-revenue-underpins/69787798"
+    },
+    {
+      "headline": "Chinese automakers are taking on the UK \u2014 and many Brits are embracing it",
+      "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The five banks reported strong revenue from equities trading.",
-      "category": "commodities",
-      "date": "2026-07-15 12:46",
-      "link": "https://www.cnbc.com/2026/07/14/jpm-bank-of-america-citi-bank-earnings-live-updates.html"
-    },
-    {
-      "headline": "Deckers Outdoor stock trades near record levels as HOKA momentum supports earnings outlook",
-      "score": 6,
-      "source": "Ad Hoc News",
       "sentiment": "positive",
-      "impact": "Deckers Outdoor stock is trading near record levels, driven by strong performance from its HOKA and UGG brands, with HOKA being a primary growth engine. The company saw double-digit revenue growth and a significant increase in diluted earnings per share in fiscal 2024, supported by expanded operatin",
-      "category": "corporate_earnings",
-      "date": "2026-07-17 07:25",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/deckers-outdoor-stock-trades-near-record-levels-as-hoka-momentum-supports/69784952"
-    },
-    {
-      "headline": "First Solar, Inc. (NASDAQ:FSLR) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "First Solar, Inc. (NASDAQ:FSLR) has received a consensus \"Moderate Buy\" rating from 34 brokerages, with an average 12-month price target of $256.41. While the company faces caution due to insider selling and class-action lawsuits, it has near-term catalysts such as upcoming Q2 earnings on July 30th ",
-      "category": "us_equities",
-      "date": "2026-07-17 06:55",
-      "link": "https://www.marketbeat.com/instant-alerts/first-solar-inc-nasdaqfslr-receives-consensus-recommendation-of-moderate-buy-from-analysts-2026-07-17/"
-    },
-    {
-      "headline": "Molina Healthcare stock trades steadily as Medicaid growth supports earnings",
-      "score": 6,
-      "source": "Ad Hoc News",
-      "sentiment": "positive",
-      "impact": "Molina Healthcare (MOH) stock is trading steadily, supported by consistent Medicaid-focused growth, as evidenced by double-digit revenue expansion and strong membership trends across government programs. The company generated approximately $36 billion in revenue in 2025, driven by increased Medicaid",
-      "category": "corporate_earnings",
-      "date": "2026-07-17 06:50",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/molina-healthcare-stock-trades-steadily-as-medicaid-growth-supports/69785702"
-    },
-    {
-      "headline": "Waters stock trades steadily as chromatography demand supports revenue growth",
-      "score": 6,
-      "source": "Ad Hoc News",
-      "sentiment": "positive",
-      "impact": "Waters Corporation's stock performance reflects stable demand for its analytical instruments, particularly chromatography systems and mass spectrometry platforms. The company reported revenue growth and strong operating margins in Q1 2026, driven by sustained demand from pharmaceutical, industrial, ",
-      "category": "corporate_earnings",
-      "date": "2026-07-17 06:40",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/waters-stock-trades-steadily-as-chromatography-demand-supports-revenue/69785610"
-    },
-    {
-      "headline": "Mosaic Company stock holds steady as phosphate and potash earnings stabilize",
-      "score": 6,
-      "source": "Ad Hoc News",
-      "sentiment": "positive",
-      "impact": "Mosaic Company's stock is maintaining stability due to consistent demand for fertilizers and balanced financial results. The company reported multi-billion dollar revenues in 2025 across its phosphate and potash segments, adapting to fluctuating commodity prices. Investors are evaluating Mosaic's di",
-      "category": "corporate_earnings",
-      "date": "2026-07-17 06:38",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/mosaic-company-stock-holds-steady-as-phosphate-and-potash-earnings/69785227"
+      "impact": "The surge comes as China's auto exports have boomed in recent years as the country's appetite for new models has cooled.",
+      "category": "global_markets",
+      "date": "2026-07-17 14:04",
+      "link": "https://www.cnbc.com/2026/07/17/chinese-automakers-uk.html"
     }
   ]
 }
