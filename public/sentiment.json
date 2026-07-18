@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-18T07:27:11.149712",
+  "timestamp": "2026-07-18T14:56:34.041159",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 15,
-    "neutral": 6,
-    "bearish": 4,
+    "avg_relevance": 7.3,
+    "bullish": 13,
+    "neutral": 7,
+    "bearish": 5,
     "high_priority": 9,
     "material_events": 4
   },
@@ -18,9 +18,12 @@
     "Bloomberg": 3,
     "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "USA Today": 1,
     "ad-hoc-news.de": 3,
-    "MarketBeat": 4
+    "NPR": 1,
+    "USA Today": 1,
+    "TechStock\u00b2": 1,
+    "Pluang": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -30,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +103,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%",
+      "headline": "S&P 500 and Nasdaq futures drop as chipmaker sell-off intensifies; Netflix slides 11%: Live updates",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Like at peers Goldman Sachs and JPMorgan Chase, a massive beat in equities trading drove the quarter's outsized results.",
-      "category": "corporate_earnings",
-      "date": "2026-07-15 13:44",
-      "link": "https://www.cnbc.com/2026/07/15/morgan-stanley-ms-earnings-q2-2026-.html"
+      "sentiment": "negative",
+      "impact": "The moves come after a decline in chipmakers dragged the broader market lower and the U.S. continued to strike Iran overnight.",
+      "category": "us_equities",
+      "date": "2026-07-17 13:06",
+      "link": "https://www.cnbc.com/2026/07/16/stock-market-today-live-updates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -120,7 +123,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,8 +133,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-18 07:27",
+      "date": "2026-07-18 14:56",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "DuPont stock edges higher after second quarter earnings beat and guidance lift",
+      "score": 7,
+      "source": "ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "DuPont reported higher adjusted earnings for Q2 2026 and raised its full-year guidance, with adjusted EPS reaching $1.04 and net sales growing by 5% year-on-year. The company now expects full-year net sales between $12.8 billion and $13.1 billion and adjusted EPS in the range of $3.85 to $4.05. Grow",
+      "category": "corporate_earnings",
+      "date": "2026-07-18 13:44",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/dupont-stock-edges-higher-after-second-quarter-earnings-beat-and-guidance/69796398"
     },
     {
       "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
@@ -152,6 +165,16 @@
       "category": "corporate_earnings",
       "date": "2026-07-17 11:36",
       "link": "https://www.cnbc.com/2026/07/17/obscure-volatility-measure-points-to-a-magnificent-seven-earnings-breakout-.html"
+    },
+    {
+      "headline": "Federal Reserve looks for 'secret sauce' behind a successful Wisconsin tool maker",
+      "score": 7,
+      "source": "NPR",
+      "sentiment": "neutral",
+      "impact": "Business is booming for Snap-on, a Wisconsin company that has made tools for professional mechanics for more than a century.\u00a0It recently got a fact-finding visit from the head of the Chicago Federal Reserve Bank.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-17 09:00",
+      "link": "https://www.npr.org/2026/07/17/nx-s1-5894730/federal-reserve-looks-for-secret-sauce-behind-a-successful-wisconsin-tool-maker"
     },
     {
       "headline": "Bank earnings ahead: What should investors keep an eye out for amid margin boost hopes, leadership changes?",
@@ -204,74 +227,54 @@
       "link": "https://www.cnbc.com/2026/07/15/united-airlines-ual-2q-2026-earnings.html"
     },
     {
-      "headline": "NiSource stock trades steady as regulated utility growth supports earnings outlook",
+      "headline": "eBay Inc. (NASDAQ:EBAY) Under Scrutiny as GameStop Corp. (NYSE:GME) Takes 9.8% Stake Ahead of Monday Session",
       "score": 6,
-      "source": "ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "NiSource stock remains steady, underpinned by its regulated utility profile and a growing capital program that supports long-term earnings and dividend potential. The company's strategy involves sustained investment in its gas and electric infrastructure, driving rate base expansion and consistent a",
-      "category": "corporate_earnings",
-      "date": "2026-07-18 06:53",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/nisource-stock-trades-steady-as-regulated-utility-growth-supports-earnings/69792750"
-    },
-    {
-      "headline": "T-Mobile US stock trades steadily as 5G growth supports earnings and free cash flow",
-      "score": 6,
-      "source": "ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "T-Mobile US stock performance is buoyed by strong 5G subscriber growth, improving profitability, and rising free cash flow. The company's post-merger scale and extensive 5G network infrastructure are key drivers, alongside integration synergies that have significantly boosted net income and cash gen",
-      "category": "corporate_earnings",
-      "date": "2026-07-18 06:39",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/t-mobile-us-stock-trades-steadily-as-5g-growth-supports-earnings-and-free/69792960"
-    },
-    {
-      "headline": "Boston Scientific stock trades steady as cardiovascular and neuromodulation growth supports earnings",
-      "score": 6,
-      "source": "ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Boston Scientific's stock is supported by robust growth in its cardiovascular and neuromodulation divisions, demonstrating double-digit revenue expansion and improved margins. The company benefits from a diversified product portfolio, ongoing innovation in minimally invasive therapies, and strategic",
-      "category": "corporate_earnings",
-      "date": "2026-07-18 06:24",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/boston-scientific-stock-trades-steady-as-cardiovascular-and/69793001"
-    },
-    {
-      "headline": "Honeywell International Inc. (NASDAQ:HON) Given Consensus Rating of \"Hold\" by Analysts",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Honeywell International Inc. (NASDAQ:HON) has received a \"Hold\" consensus rating from analysts, with an average 12-month price target of $257.79, based on 13 buy, 10 hold, and 2 sell ratings from 25 brokerages. Despite mixed recent analyst updates, including some notable \"buy\" and \"outperform\" ratin",
-      "category": "us_equities",
-      "date": "2026-07-18 06:18",
-      "link": "https://www.marketbeat.com/instant-alerts/honeywell-international-inc-nasdaqhon-given-consensus-rating-of-hold-by-analysts-2026-07-18/"
-    },
-    {
-      "headline": "Intuit Inc. (NASDAQ:INTU) Given Average Rating of \"Moderate Buy\" by Brokerages",
-      "score": 6,
-      "source": "MarketBeat",
+      "source": "TechStock\u00b2",
       "sentiment": "neutral",
-      "impact": "Intuit Inc. (NASDAQ:INTU) has received an average rating of \"Moderate Buy\" from 32 brokerage firms, with an average 1-year price target of $490.39. The company recently reported better-than-expected quarterly earnings of $12.80 EPS on $8.56 billion in revenue, a 10.4% increase year-over-year, and is",
+      "impact": "GameStop Corp. has acquired a 9.8% voting stake in eBay Inc. totaling 43.39 million shares, valued at $4.86 billion as of Friday\u2019s close, representing an unrealized gain of approximately $425 million. This move comes ahead of Monday's trading session, putting eBay under scrutiny as its board previou",
       "category": "us_equities",
-      "date": "2026-07-18 06:18",
-      "link": "https://www.marketbeat.com/instant-alerts/intuit-inc-nasdaqintu-given-average-rating-of-moderate-buy-by-brokerages-2026-07-18/"
+      "date": "2026-07-18 13:57",
+      "link": "https://ts2.tech/en/ebay-inc-nasdaqebay-under-scrutiny-as-gamestop-corp-nysegme-takes-9-8-stake-ahead-of-monday-session/"
     },
     {
-      "headline": "Rep. Cleo Fields Acquires NVIDIA Corporation (NASDAQ:NVDA) Shares",
+      "headline": "REX AI Equity Premium Income ETF offers 36.5% yield but caps upside and may return capital.",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Representative Cleo Fields of Louisiana recently purchased between $1,001 and $15,000 worth of NVIDIA Corporation (NASDAQ:NVDA) shares on June 26th, as disclosed in a July 16th filing. This purchase follows NVIDIA's strong quarterly results, including beating EPS estimates and an 85.2% year-over-yea",
-      "category": "us_equities",
-      "date": "2026-07-18 06:13",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-cleo-fields-acquires-nvidia-corporation-nasdaqnvda-shares-2026-07-18/"
-    },
-    {
-      "headline": "First Watch Restaurant Group (NASDAQ:FWRG) Lowered to Strong Sell Rating by Wall Street Zen",
-      "score": 6,
-      "source": "MarketBeat",
+      "source": "Pluang",
       "sentiment": "negative",
-      "impact": "Wall Street Zen has downgraded First Watch Restaurant Group (FWRG) from \"sell\" to \"strong sell,\" despite the broader analyst consensus remaining a \"Moderate Buy.\" The company's stock trades below its average price target, and its recent earnings report showed strong revenue growth but missed EPS est",
+      "impact": "The REX AI Equity Premium Income ETF (AIPI) offers a high 36.5% distribution yield through AI stock exposure and covered-call options, but this strategy limits upside gains. While suitable for income-focused investors, AIPI underperformed the Nasdaq-100's QQQ ETF due to its cap on growth and potenti",
+      "category": "fixed_income",
+      "date": "2026-07-18 13:45",
+      "link": "https://pluang.com/en/news-feed/yield-35-persen-mingguan-dan-boom-ai-kombinasi-jenius-atau-waktu-habis"
+    },
+    {
+      "headline": "Globe Life stock holds after earnings and capital returns",
+      "score": 6,
+      "source": "ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Globe Life's stock valuation is currently anchored by its 2025 financial performance, including diluted earnings per share of $15.07 and total revenues of $5.8 billion. The company's capital return strategy, highlighted by an annualized dividend rate of $0.91 per share and share repurchases, also pl",
+      "category": "corporate_earnings",
+      "date": "2026-07-18 13:43",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/globe-life-stock-holds-after-earnings-and-capital-returns/69796393"
+    },
+    {
+      "headline": "This overlooked index is a better investment than the S&P 500",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "We did the math over a 30-year period, and it\u2019s not even close.",
       "category": "us_equities",
-      "date": "2026-07-18 05:57",
-      "link": "https://www.marketbeat.com/instant-alerts/first-watch-restaurant-group-nasdaqfwrg-lowered-to-strong-sell-rating-by-wall-street-zen-2026-07-18/"
+      "date": "2026-07-18 13:41",
+      "link": "https://www.marketwatch.com/story/this-overlooked-index-is-a-better-investment-than-the-s-p-500-74c7e698?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Henry Schein stock trades steady as recent earnings highlight margin resilience",
+      "score": 6,
+      "source": "ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Henry Schein's stock shows stability following its Q1 2026 earnings report, which highlighted revenue growth and resilient operating margins. The company achieved $3.2 billion in net sales, marking a 6% increase year-over-year, driven by strong demand in dental and medical distribution, and contribu",
+      "category": "corporate_earnings",
+      "date": "2026-07-18 13:36",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/henry-schein-stock-trades-steady-as-recent-earnings-highlight-margin/69796350"
     }
   ]
 }
