@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-20T08:40:40.980339",
+  "timestamp": "2026-07-20T15:52:33.455777",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 14,
-    "neutral": 10,
-    "bearish": 1,
-    "high_priority": 8,
+    "avg_relevance": 7.3,
+    "bullish": 13,
+    "neutral": 9,
+    "bearish": 3,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,11 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 7,
     "Bloomberg": 2,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "CNBC": 4,
-    "ad-hoc-news.de": 4
+    "Pluang": 1,
+    "Bloomberg.com": 1,
+    "Yahoo! Finance Canada": 1,
+    "Ad-hoc-news.de": 2,
+    "Stock Titan": 1
   },
   "top_signals": [
     {
@@ -28,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +102,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "U.S. Treasury yields edge higher as Wall Street monitors Middle East tensions",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 rose over 1 basis point to 4.558%.",
+      "category": "us_equities",
+      "date": "2026-07-20 09:25",
+      "link": "https://www.cnbc.com/2026/07/20/treasury-yields-wall-street-iran-war-tensions.html"
+    },
+    {
+      "headline": "South African rand steady as investors await central bank guidance - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "South African rand steady as investors await central bank guidance\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-07-20 07:13",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNlRHa0RlaDJUU0F4eG5Hb3V6T3BUOThRLVJkeUsxek5BUzJFRDVPWHFzMGxIMjRrdEhQUVJTaEV3OWlwWnlnREUxUEV4cVVKYXhQVFNuTnlZOWFya1RINDdxX3Buc2RWUkN2LUdia0I5LVF5THZYWmZyRHZZOVlDY3BkOUFGUExhb1B0ZUQxdXpqN0p3N1A4SHZwUXVqWGFMeTVmd21QdndPdzV4Q1hUVEFR?oc=5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -108,7 +132,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,15 +142,45 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-20 08:40",
+      "date": "2026-07-20 15:52",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Gold steady as markets assess Middle East escalation, Fed hike bets - Reuters",
+      "headline": "ServiceNow Q2 2026 earnings preview shows 22% revenue growth and 64.66% stock upside potential.",
+      "score": 7,
+      "source": "Pluang",
+      "sentiment": "positive",
+      "impact": "ServiceNow is projected to report Q2 2026 revenue of $3.92 billion, a 22% year-over-year increase, with EPS growth of 4.88% to $0.86, largely driven by AI adoption. Despite a 23% stock decline this year, analysts maintain a bullish outlook with a $170 price target, indicating a 64.66% upside. The co",
+      "category": "corporate_earnings",
+      "date": "2026-07-20 14:50",
+      "link": "https://pluang.com/en/news-feed/pratinjau-laba-service-now-q2-2026-dan-pandangan-analis"
+    },
+    {
+      "headline": "Netflix Returns to the High-Grade Bond Market After 2024 Debut",
+      "score": 7,
+      "source": "Bloomberg.com",
+      "sentiment": "negative",
+      "impact": "Netflix Inc. is re-entering the US high-grade bond market for the first time since its initial debt offering two years prior. The streaming giant is selling new notes due in 2036, with initial pricing set at 0.95 percentage point over Treasuries. This move comes as the company faces increased invest",
+      "category": "fixed_income",
+      "date": "2026-07-20 14:46",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-20/netflix-returns-to-the-high-grade-bond-market-after-2024-debut"
+    },
+    {
+      "headline": "Ryanair profits slump as Iran war dampens fares, hikes fuel costs - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Gold steady as markets assess Middle East escalation, Fed hike bets\u00a0\u00a0Reuters",
+      "impact": "Ryanair profits slump as Iran war dampens fares, hikes fuel costs\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-07-20 05:01",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON2ZFNEtHOEljcTJIRU92dnl3amtEbTR2WERmcHNOYi1RbW9scFh3MzU5Q0NiU0xQZEJDSy11ZVpVNlFESm9DdWkyY29YeFVYSnVoY1JyZG8wTF9zRkFkTGc0ZnFEWG1rSGJWUVV3ZzZQNmJJd2tvdGRBclRKdi0xQ2pudnBwbkNWM1I0X0llRF9iRk81MXppcGpPYzRWckhIcERkN3RqX0xHUGxKQmMtWFhTTVJOZmJUeVE?oc=5"
+    },
+    {
+      "headline": "Gold little changed as investors weigh US-Iran developments, Fed signals - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gold little changed as investors weigh US-Iran developments, Fed signals\u00a0\u00a0Reuters",
       "category": "us_monetary_policy",
       "date": "2026-07-20 01:40",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTFhCVlU1TTFYN2VLU1RZSk5va0EtOGxSclUtc2xMM2ZfSTVoSU9LOGVBZzg5NjdfakJNWFUzYUktd3FKX0ptZk5YU2dGWF9BR0xiSm9iS2NMN3pBTkx5RkRHc1BpbUlmQ21WQnVXamd3aFVmZVV3cnVJTjd3MHBmbFhSTmZid3ZZQUx3VWlBODB5TGliVnBma1dJZDl4dGxydTlyWjZB?oc=5"
@@ -152,16 +206,6 @@
       "link": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html"
     },
     {
-      "headline": "'WarshGPT': How Wall Street is adapting to the Fed's new era of communication",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Investment firms are readying for an era with less public commentary from the U.S. central bank. Some are relying on AI for an edge.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-18 11:31",
-      "link": "https://www.cnbc.com/2026/07/18/warshgpt-federal-reserve-communications-task-force-warsh.html"
-    },
-    {
       "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
       "score": 7,
       "source": "CNBC",
@@ -172,104 +216,64 @@
       "link": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html"
     },
     {
-      "headline": "O'Reilly Automotive stock trades near record levels as earnings and store growth support valuation",
+      "headline": "What to know about testosterone replacement therapy as the U.S. military plans to test troops",
       "score": 6,
-      "source": "ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "O'Reilly Automotive (ORLY) stock is trading near record levels, driven by strong earnings, revenue growth, and continued store expansion. The company reported significant increases in annual and quarterly revenue and net income, outpacing sales growth and demonstrating improved margins and cost cont",
-      "category": "corporate_earnings",
-      "date": "2026-07-20 08:10",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/o-reilly-automotive-stock-trades-near-record-levels-as-earnings-and-store/69810068"
-    },
-    {
-      "headline": "Steris stock trades near record levels as earnings growth supports valuation",
-      "score": 6,
-      "source": "ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Steris plc (ISIN IE00BFY8C754) stock is trading near record levels, supported by strong earnings growth in its recent fiscal year. The company reported double-digit revenue increases driven by demand for sterilization, infection-prevention, and endoscopy products, alongside improvements in operating",
-      "category": "corporate_earnings",
-      "date": "2026-07-20 08:04",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/steris-stock-trades-near-record-levels-as-earnings-growth-supports/69810016"
-    },
-    {
-      "headline": "Assurant stock trades steady as specialty insurance earnings and mobile device services support valu",
-      "score": 6,
-      "source": "ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Assurant Inc. (AIZ) stock performance is supported by its dual focus on specialty insurance and connected living services, including mobile device protection. The article details how its diverse revenue streams, such as lender-placed property products and vehicle service contracts, coupled with capi",
-      "category": "corporate_earnings",
-      "date": "2026-07-20 08:02",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/assurant-stock-trades-steady-as-specialty-insurance-earnings-and-mobile/69810929"
-    },
-    {
-      "headline": "Vulcan Materials stock trades near recent highs as aggregates demand supports earnings",
-      "score": 6,
-      "source": "ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Vulcan Materials stock is trading near 52-week highs, driven by strong aggregates demand and positive earnings growth in fiscal 2024. The company benefited from robust US infrastructure and private construction activity, achieving double-digit revenue growth and improved margins through pricing powe",
-      "category": "corporate_earnings",
-      "date": "2026-07-20 08:01",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/vulcan-materials-stock-trades-near-recent-highs-as-aggregates-demand/69809993"
-    },
-    {
-      "headline": "Spain beat Argentina to win World Cup - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Spain beat Argentina to win World Cup\u00a0\u00a0Reuters",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "While some research has shown benefits for patients who qualify, questions remain about the therapy's long-term risks and use among men without a medical need.",
       "category": "global_markets",
-      "date": "2026-07-20 07:34",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOUNxR3JQOUlFcEZneEdwbl9udUdLUm9fOWVhZWlOMDh4SFNVc1JwQ09JZUNVNVlkUnRFbVMzc3VjemNWc0NqSllSU0IteXpLSDN2N2xrU0d3T2taX1hIMEppQmdRY0ZiSzNGT3lBMGVnZk5LT3E1MFJndkNIUk1Xc1k4WVFwZGhNemZ6Yjk3cw?oc=5"
+      "date": "2026-07-20 15:40",
+      "link": "https://www.cnbc.com/2026/07/20/what-to-know-about-testosterone-replacement-therapy.html"
     },
     {
-      "headline": "US strikes Iran for ninth day; Iran says two oil tankers in Strait of Hormuz exploded and immobilised - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US strikes Iran for ninth day; Iran says two oil tankers in Strait of Hormuz exploded and immobilised\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-20 01:49",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbmtOemhMR1UtaVNoMENBMHltNEpKTWJNekRXUEtSa3hidndTM0VZVnRoTEJlV2ZENWtkYVFCUkJtSk8zdFhPeEJQSXRNMS1vWC03N2NJek14WklXdzhNZWkzMnZRUFpGcHg2OXotaHpyVW9jblFTYUM4U2lGcXFWa1NFbnZSQnpreVF6OXVhMW1oeHdIdkFNMjBJa09UZGgycjRkMjZ6Z1dxNC10enJIVDZJdlVSQjRxQlBZc05Tdw?oc=5"
-    },
-    {
-      "headline": "Plenty of stocks are working in this market \u2014 you just have to look beyond tech",
+      "headline": "South Carolina Republicans crowd field to succeed Sen. Lindsey Graham",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The big unanswered question is how long there can be such terrific opportunities outside tech before it dawns on those overweight the sector.",
+      "impact": "Rep. Russell Fry became the latest South Carolina Republican to launch a campaign to succeed the late Sen. Lindsey Graham.",
       "category": "global_markets",
-      "date": "2026-07-20 00:33",
-      "link": "https://www.cnbc.com/2026/07/19/plenty-of-stocks-are-working-in-this-market-just-look-beyond-tech.html"
+      "date": "2026-07-20 15:21",
+      "link": "https://www.cnbc.com/2026/07/20/south-carolina-election-republicans-lindsey-graham.html"
     },
     {
-      "headline": "Oil jumps 3% as US, Iran expand strikes in the Middle East - Reuters",
+      "headline": "Reflecting On Electrical Systems Stocks\u2019 Q1 Earnings: Hubbell (NYSE:HUBB)",
       "score": 6,
-      "source": "Reuters",
+      "source": "Yahoo! Finance Canada",
       "sentiment": "positive",
-      "impact": "Oil jumps 3% as US, Iran expand strikes in the Middle East\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-20 00:16",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbDB0dzIyZzhDNXdvemNBWHdxR3dnWXcwVk4xM082SDRRTm9xel9yX3hJeFBDN1hyQXZpRlVWcElHNi13amFSaXFZLUEtYWpva20xcmFjLWt2TEc0QjFlMDJRMHFPZ3dpb0hZNlBib1ZMNk4xNXdPcmNfUHRpRzNzVDRtdmZlY2MydWVLdS1uVnZXSkdHZjlYelZOZ1M0SXlnVzlBSGFUUU43YlE?oc=5"
+      "impact": "This article reviews the Q1 earnings of several electrical systems stocks, including Hubbell (NYSE:HUBB), LSI (NASDAQ:LYTS), Whirlpool (NYSE:WHR), GE Vernova (NYSE:GEV), and Powell (NASDAQ:POWL). It highlights their revenue performance against analysts' expectations and their stock price movements p",
+      "category": "us_equities",
+      "date": "2026-07-20 14:55",
+      "link": "https://ca.finance.yahoo.com/news/reflecting-electrical-systems-stocks-q1-145533148.html"
     },
     {
-      "headline": "Dollar drifts as US-Iran conflict intensifies, Brent hits $90 - Reuters",
+      "headline": "Ameriprise Financial stock holds near recent highs as earnings momentum supports valuation",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Dollar drifts as US-Iran conflict intensifies, Brent hits $90\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-19 23:46",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQUF3N3hrQll1dVJIZlhUcFFScG1rdm5iTEFqU28yVVZKOVdDN29mZFpTVjhQWE1qdVo1emx6WEk1Z0drMFNLLXp4X0pLSUtDZ1pWdHlPR0Q3b29TVlFnQXpncklqbDBHc3pDQW9SNXdlOFMzU2xKTXhQNnhMS05KaTlDSDl6Sk9DNXBIMnJsMWlydGpFLTBUbzVZbWt3US1sVWE5Y0docnJfMEtQdElvaQ?oc=5"
-    },
-    {
-      "headline": "Few tankers enter Hormuz to load oil, LNG floating storage rises, data shows - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "Ad-hoc-news.de",
       "sentiment": "positive",
-      "impact": "Few tankers enter Hormuz to load oil, LNG floating storage rises, data shows\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-19 23:16",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcXJLRU1YX1JLOTBVdFVRLUlWNEh5N1BjVkNWQktyNkFaMXdSVTNGcklmNUJuckpzcVEtenNPX1E3TnRBQTF1REFyQmw0cEJLY1J1MW1Oc3JoaEIzdlBEWnNxX1F1OS03UWk5V3g3RVNLNS1iNFQ5bGdTdS1DWnFkU1VSSTR4WEJkRWhMcUIydkFJTndVYmJxTHR5Umw?oc=5"
+      "impact": "Ameriprise Financial stock is holding strong near its recent highs, driven by robust earnings in its wealth and asset management segments, disciplined capital returns, and resilient margins in the current higher interest rate environment. The company's business model, which focuses on advice-based w",
+      "category": "corporate_earnings",
+      "date": "2026-07-20 14:53",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/ameriprise-financial-stock-holds-near-recent-highs-as-earnings-momentum/69814244"
+    },
+    {
+      "headline": "Entergy stock holds steady as regulated earnings underpin valuation",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Entergy Corp. (NYSE: ETR) stock is trading within a narrow range, supported by its regulated utility earnings, consistent dividend income, and ongoing grid investments. The company, which operates as a regulated electric utility in the southern United States, generated approximately $12 billion in o",
+      "category": "corporate_earnings",
+      "date": "2026-07-20 14:45",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/entergy-stock-holds-steady-as-regulated-earnings-underpin-valuation/69814181"
+    },
+    {
+      "headline": "Zentek Ltd. (NASDAQ: ZTEK) taps IMPAQ for North American IR push",
+      "score": 6,
+      "source": "Stock Titan",
+      "sentiment": "positive",
+      "impact": "Zentek Ltd. has engaged Montr\u00e9al-based investor relations firm IMPAQ Capital Inc. for a six-month mandate to enhance its visibility among North American investment professionals, with a monthly fee of C$13,500. This initiative aims to highlight Zentek's key assets, including the Albany Graphite Proj",
+      "category": "us_equities",
+      "date": "2026-07-20 14:42",
+      "link": "https://www.stocktitan.net/sec-filings/ZTEK/6-k-zentek-ltd-current-report-foreign-issuer-8c8aa0141b34.html"
     }
   ]
 }
