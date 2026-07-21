@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-21T08:07:49.734644",
+  "timestamp": "2026-07-21T15:45:13.251163",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.3,
-    "bullish": 12,
-    "neutral": 9,
-    "bearish": 4,
-    "high_priority": 8,
+    "bullish": 15,
+    "neutral": 8,
+    "bearish": 2,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -16,11 +16,12 @@
     "Federal Reserve": 1,
     "Reuters": 7,
     "Bloomberg": 2,
-    "Caixin/S&P Global": 1,
-    "Ad-hoc-news.de": 4,
     "CNBC": 5,
+    "Caixin/S&P Global": 1,
+    "The Wall Street Journal": 1,
+    "Ad-hoc-news.de": 3,
     "MarketWatch": 1,
-    "MarketBeat": 1
+    "Investing.com Nigeria": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "GM raised several key earnings forecasts after beating Wall Street's second-quarter expectations as its North American operations continue to drive results.",
+      "category": "corporate_earnings",
+      "date": "2026-07-21 13:58",
+      "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,38 +131,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-21 08:07",
+      "date": "2026-07-21 15:45",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "FactSet Research stock holds firm as revenue and guidance stay in view",
+      "headline": "Wall St gains on chip stocks recovery; earnings draw focus - Reuters",
       "score": 7,
-      "source": "Ad-hoc-news.de",
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "FactSet Research, with ISIN US3030751057, demonstrated solid financial performance in fiscal 2025, reporting $2.19 billion in revenue and an adjusted diluted EPS of $15.57. The company's strategy relies on recurring subscription economics, evidenced by a 4.5% year-over-year revenue increase and a 39",
+      "impact": "Wall St gains on chip stocks recovery; earnings draw focus\u00a0\u00a0Reuters",
       "category": "corporate_earnings",
-      "date": "2026-07-21 07:48",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/factset-research-stock-holds-firm-as-revenue-and-guidance-stay-in-view/69819272"
+      "date": "2026-07-21 14:15",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDZOb0lyeDNtSHo4bVQ4MlJ3RnhPUUR2WmxYT2xqaWRVNFFVNkNUdHBNUUIxWm5kZGpVaVc0SFZicnBmN1F0RWI3RXpqNUpCbjQ3RHhPZEJkTmlaeGI3YXp3MUlSSXN2RGdBZ3dfekVaQzQxbFJzeHhuNU9veGtKMzdidFZ1N2QwbFE3Z3B1VmxoY1VuTUFtU3Rfa09XMlRMWl9B?oc=5"
     },
     {
-      "headline": "CDW stock trades steadily as recent earnings and guidance highlight resilient IT demand",
+      "headline": "SpaceX sets earnings date, triggering first lock-up expiration for millions of shares",
       "score": 7,
-      "source": "Ad-hoc-news.de",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "CDW Corp. experienced steady stock performance driven by resilient IT demand, as evidenced by its recent quarterly earnings and guidance. The technology solutions provider reported strong revenue growth, improved EPS, and a solid financial position, emphasizing growth in high-value solutions like hy",
+      "impact": "SpaceX's stock gained on Tuesday and looked to snap a seven-day losing streak after announcing Aug. 4 as its maiden earnings report",
       "category": "corporate_earnings",
-      "date": "2026-07-21 07:47",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cdw-stock-trades-steadily-as-recent-earnings-and-guidance-highlight/69819265"
+      "date": "2026-07-21 14:11",
+      "link": "https://www.cnbc.com/2026/07/21/spacex-spcx-earnings-lock-up-expiration.html"
     },
     {
-      "headline": "Expeditors stock trades steadily as revenue and profit metrics frame valuation",
+      "headline": "Jamie Dimon says markets underestimate risks and he wouldn't buy stocks or Treasurys at current prices",
       "score": 7,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "neutral",
-      "impact": "Expeditors International's stock reflects stable demand within global logistics, with its latest fiscal year showing approximately $9.2 billion in revenue and $0.9 billion in net income. These figures represent a normalization from the previous year's higher results, influenced by a decrease in frei",
-      "category": "corporate_earnings",
-      "date": "2026-07-21 07:38",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/expeditors-stock-trades-steadily-as-revenue-and-profit-metrics-frame/69819195"
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Comments from JPMorgan Chase CEO Jamie Dimon contrast with investors' recent willingness to look past wars, tariffs and other shocks.",
+      "category": "fixed_income",
+      "date": "2026-07-21 10:24",
+      "link": "https://www.cnbc.com/2026/07/21/jpmorgan-chase-ceo-jamie-dimon-market-risk.html"
     },
     {
       "headline": "European banks set for profit boost from lending, trading windfall - Reuters",
@@ -164,24 +175,14 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSzU2UlBIRHMtclU1eVE2a0ZsSDIwTUo4dU5rUjFqQTRrQ0xPTHczZDQ1bk5LdUozenloYTVSVWpRUmFGX3JoWWtVc3NuZUhaR1Y3SC1BLTNPZzlTU3cwUFF1bk9USTVOcktrZjlLRXljRkx1V1MtZXpKVlVYcUlDS2dPZGNOT3o2VnluSEZkd1JHelA1MmR4OXdfakxhZjk0Ymw4aDg1c1NXNjRMWkE?oc=5"
     },
     {
-      "headline": "General Motors is set to report earnings before the bell. Here's what Wall Street expects",
+      "headline": "Dollar steady as investors weigh Middle East jitters against softer inflation data - Reuters",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Wall Street analysts expect General Motors to report adjusted earnings per share of $3.20 and revenue of $47.01 billion.",
-      "category": "us_equities",
-      "date": "2026-07-21 04:01",
-      "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html"
-    },
-    {
-      "headline": "Jamie Dimon says markets underestimate risks and he wouldn't buy stocks or Treasurys at current prices",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Comments from JPMorgan Chase CEO Jamie Dimon contrast with investors' recent willingness to look past wars, tariffs and other shocks.",
-      "category": "fixed_income",
-      "date": "2026-07-20 23:01",
-      "link": "https://www.cnbc.com/2026/07/20/jpmorgan-chase-ceo-jamie-dimon-market-risk.html"
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Dollar steady as investors weigh Middle East jitters against softer inflation data\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-21 01:35",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVTNMOHhuSm5hVng5aTF1WUV1emN4ZjdEYlFCWlMtaUhoWWVTRTQ0NzdFNUotQnNIRFI1Sm5tWUlyLWZDZ1NnVGY3endKSktjMTMtVHNXU2E1UEtfS0U2UFZwX1NWbVdoYjhLaWpocVRmalNzLUh3aHI3cWFBVTBRanRIaXdSRzdLbnNEWFUtQS1CWW9hUlhIZUNRR2dCeXpCYVgxOVF5RVpGN0FRU203NTRxZGk?oc=5"
     },
     {
       "headline": "Wall Street indexes fall, with Iran and earnings season in focus - Reuters",
@@ -194,34 +195,14 @@
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOakxUc2hmUzNWRUJsczdpQTNsVHY4ZURqeFpTOEZkSFlGMk8zRFZxZHE5aHNIRUtTYzAwejgweG55eXNZQTc5S083Vm9HbGQ4T1E1S1RBbjcxQVJGdGFwcnNJM0pIbzRZZGtSV3hBQUZLSVp4V0pXUFRKMGZyZ0xqY0VIaHBtUjItQUY5dXgzREZYT0xUNWJJTkxlSUhrUS1FczhIYkV6VDJHQndKOFJJUm5zYy1OdVV3dVlUWGFrQjB2OGN0TUE?oc=5"
     },
     {
-      "headline": "The bar for Tesla earnings is sky-high. Here's why and how options traders can capitalize",
+      "headline": "Stock Market Today: Nasdaq Climbs at Open as Chip Stocks Recover; Oil Prices in Focus \u2014 Live Updates",
       "score": 7,
-      "source": "CNBC",
+      "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "Michael Khouw breaks down how he's trading Tesla into earnings.",
-      "category": "corporate_earnings",
-      "date": "2026-07-20 17:16",
-      "link": "https://www.cnbc.com/2026/07/20/the-bar-for-tesla-earnings-is-sky-high-heres-why-and-how-options-traders-can-capitalize.html"
-    },
-    {
-      "headline": "European shares tick lower as investors assess US-Iran jitters; tech earnings loom - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "European shares tick lower as investors assess US-Iran jitters; tech earnings loom\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-07-20 16:51",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNODQ2N2RtekZ0OThEWDdnSTMtNFdrbDFpcG92ZlRibHF3UVg0WnpuVmViSDhqMXJBeWhkaUFaeXIzM2cwQXBFdnQzT015aFhjYUx2M2tJX2dCdTY0bWFuMmFkVDctbTY2Y0ZoaHUwV2lWR3VSNl9QVzVXaU42aGVvNU40aHN6eFdvZDRQN3RGZlV2S0dHWE9HclFCdVhhajlhazV6SUhIdlJmN2MtZURUTEp4S1NaSUZobmR3?oc=5"
-    },
-    {
-      "headline": "Ryanair profit slumps 34% as airlines brace for a 'difficult winter' amid Middle East crisis",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Ryanair's first-quarter profit took a 34% hit as consumers delayed bookings due to the Middle East crisis, while struggling airlines face a \"difficult winter.\"",
-      "category": "corporate_earnings",
-      "date": "2026-07-20 06:20",
-      "link": "https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html"
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-07-20 14:07",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-20-2026"
     },
     {
       "headline": "American Airlines CEO lays out his vision to close a more than $3 billion profit gap",
@@ -234,44 +215,64 @@
       "link": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html"
     },
     {
-      "headline": "Jamie Dimon says he wouldn\u2019t buy Treasurys. \u2018I don\u2019t understand the upside.\u2019",
+      "headline": "Vontier stock trades steadily as mobility technology group digests recent earnings and refines portfolio",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Vontier Corporation's stock holds steady as the mobility technology group processes its latest earnings and guidance, emphasizing cash generation, deleveraging, and portfolio streamlining. The company focuses on transportation and fleet solutions, using strong cash flow to reduce debt and refine its",
+      "category": "corporate_earnings",
+      "date": "2026-07-21 15:25",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/vontier-stock-trades-steadily-as-mobility-technology-group-digests-recent/69822669"
+    },
+    {
+      "headline": "Think this stock market is in a bubble? These earnings numbers say otherwise.",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Jamie Dimon \u2014 long considered a potential candidate to be treasury secretary, and the person in charge of one of the nation\u2019s primary dealers of Treasury securities \u2014 says he wouldn\u2019t buy American debt.",
-      "category": "fixed_income",
-      "date": "2026-07-21 07:51",
-      "link": "https://www.marketwatch.com/story/jamie-dimon-says-he-wouldnt-buy-treasurys-i-dont-understand-the-upside-dfcdf012?mod=mw_rss_topstories"
+      "impact": "Stay with the AI trade and overweight technology stocks, according to one earnings expert.",
+      "category": "corporate_earnings",
+      "date": "2026-07-21 15:01",
+      "link": "https://www.marketwatch.com/story/welcome-to-the-roaring-20s-heres-how-this-earnings-season-will-keep-the-bull-market-strong-4a70be72?mod=mw_rss_topstories"
     },
     {
-      "headline": "CSX stock trades steady as intermodal volumes and efficiency drive earnings resilience",
+      "headline": "Wynn Resorts stock trades near yearly highs as Macau recovery lifts earnings",
       "score": 6,
       "source": "Ad-hoc-news.de",
-      "sentiment": "neutral",
-      "impact": "CSX stock is performing steadily, driven by increased intermodal volumes and enhanced cost efficiency. The company reported roughly $14 billion in revenue and $3.5 billion in net earnings for fiscal 2024, demonstrating profitability despite market fluctuations. Strong intermodal growth, improved ope",
+      "sentiment": "positive",
+      "impact": "Wynn Resorts (WYNN) stock is trading near its yearly highs, driven by strong earnings stemming from the recovery of its Macau and Las Vegas operations. The company reported double-digit revenue growth and improved profitability in 2024 and early 2025, benefiting from increased post-pandemic travel a",
       "category": "corporate_earnings",
-      "date": "2026-07-21 07:37",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/csx-stock-trades-steady-as-intermodal-volumes-and-efficiency-drive/69818948"
+      "date": "2026-07-21 14:59",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/wynn-resorts-stock-trades-near-yearly-highs-as-macau-recovery-lifts/69823626"
     },
     {
-      "headline": "Andra AP fonden Increases Holdings in Johnson Controls International plc $JCI",
+      "headline": "Skyworks Solutions stock may move 9.1% on July 28 earnings By Investing.com",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Andra AP fonden significantly increased its stake in Johnson Controls International plc (NYSE:JCI) by 192.6% in the first quarter, now owning 147,076 shares valued at $19.26 million. Other institutional investors also boosted their holdings, with 90.05% of the stock owned by institutions and hedge f",
-      "category": "indonesia_equities",
-      "date": "2026-07-21 07:28",
-      "link": "https://www.marketbeat.com/instant-alerts/filing-andra-ap-fonden-increases-holdings-in-johnson-controls-international-plc-jci-2026-07-21/"
+      "source": "Investing.com Nigeria",
+      "sentiment": "neutral",
+      "impact": "Skyworks Solutions Inc. (NASDAQ:SWKS) stock is projected to move 9.1% following its earnings release on July 28, based on options data. The semiconductor company has a history of exceeding or falling short of options-implied moves in its past eight earnings announcements. The implied volatility for ",
+      "category": "corporate_earnings",
+      "date": "2026-07-21 14:57",
+      "link": "https://ng.investing.com/news/stock-market-news/skyworks-solutions-stock-may-move-91-on-july-28-earnings-93CH-2609640"
     },
     {
-      "headline": "Gold rises 1% as hopes for US-Iran diplomacy pause oil rally - Reuters",
+      "headline": "Novo Nordisk sues Eli Lilly, alleging misleading GLP-1 advertising",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Novo asked the court to permanently stop Lilly from running the \"deceptive\" ads and require the drugmaker to issue corrective advertising.",
+      "category": "global_markets",
+      "date": "2026-07-21 14:54",
+      "link": "https://www.cnbc.com/2026/07/21/novo-nordisk-sues-eli-lilly-glp-1-ads.html"
+    },
+    {
+      "headline": "Teledyne Technologies stock steadies as investors weigh Q1 2026 earnings and space exposure",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
       "sentiment": "positive",
-      "impact": "Gold rises 1% as hopes for US-Iran diplomacy pause oil rally\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-21 04:08",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNazZ5bjNfa1hrcmFFNGQzQUhudG0yVEM3ZC1qMkpGbDlpX2dTOUlScEs3bFozWVFpT01SZ0ZXcTEzazhXOGNaWVlDMk1IaWtDUlFvbE5FdTN5bzZTV3J2ajdma1kwNy10MGxGLWJhQ1JOUkZtRWNWZ1RSbkw1TjhFRThLa21BVFgyM0dGUGdURl9aVzVUMXlqdm5GSVNWYzQ?oc=5"
+      "impact": "Teledyne Technologies' stock is being re-evaluated by investors following its Q1 2026 earnings report, which showed year-on-year growth and solid margins, supported by past acquisitions. The company's diversified revenue streams across instrumentation, digital imaging, aerospace and defense electron",
+      "category": "corporate_earnings",
+      "date": "2026-07-21 14:45",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/teledyne-technologies-stock-steadies-as-investors-weigh-q1-2026-earnings/69823503"
     }
   ]
 }
