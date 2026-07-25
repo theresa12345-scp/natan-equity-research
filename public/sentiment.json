@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-25T07:50:32.160142",
+  "timestamp": "2026-07-25T15:05:17.393490",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 14,
-    "neutral": 9,
+    "avg_relevance": 7.2,
+    "bullish": 10,
+    "neutral": 13,
     "bearish": 2,
-    "high_priority": 10,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,16 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
+    "Reuters": 4,
     "Bloomberg": 2,
     "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "AD HOC NEWS": 5,
-    "MarketWatch": 1,
-    "MarketBeat": 2
+    "AD HOC NEWS": 1,
+    "TradingView": 1,
+    "USA Today": 1,
+    "MarketWatch": 3,
+    "Simply Wall Street": 2,
+    "The Globe and Mail": 1
   },
   "top_signals": [
     {
@@ -30,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +103,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -114,23 +117,13 @@
       "link": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html"
     },
     {
-      "headline": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Investors are increasingly readying for the Federal Reserve to hike interest rates in September.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-23 17:15",
-      "link": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,28 +133,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-25 07:50",
+      "date": "2026-07-25 15:05",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Copart stock holds firm as Q3 revenue and profit keep growing",
+      "headline": "FedEx stock trades near recent highs as earnings momentum and network investments reshape the outloo",
       "score": 7,
       "source": "AD HOC NEWS",
       "sentiment": "positive",
-      "impact": "Copart Inc. (US2172041061) reported strong Q3 results, with double-digit growth in revenue and profit compared to the previous year. The company's operating margins expanded, and cash flow remained robust, supporting its multibillion-dollar market capitalization on Nasdaq. These results reflect the ",
-      "category": "corporate_earnings",
-      "date": "2026-07-25 06:47",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/copart-stock-holds-firm-as-q3-revenue-and-profit-keep-growing/69866803"
+      "impact": "FedEx stock is trading near its recent highs in 2026, driven by stronger earnings momentum and ongoing network optimization. The company reported improved profitability and diluted earnings per share in fiscal 2026, stemming from yield management, cost reductions, and better utilization of its air a",
+      "category": "us_monetary_policy",
+      "date": "2026-07-25 12:50",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/fedex-stock-trades-near-recent-highs-as-earnings-momentum-and-network/69869403"
     },
     {
-      "headline": "The stock market is completely unprepared for a 6% yield on the 30-year Treasury",
+      "headline": "SiNtx Technologies, Inc. Revenue Breakdown \u2013 NASDAQ:SINT",
       "score": 7,
-      "source": "MarketWatch",
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "Long-bond spike would crush stock gains and deepen bond-fund losses.",
-      "category": "fixed_income",
-      "date": "2026-07-24 21:38",
-      "link": "https://www.marketwatch.com/story/the-30-year-treasury-yield-is-closing-in-on-5-2-a-surge-to-6-could-slam-stocks-fa9631fb?mod=mw_rss_topstories"
+      "impact": "SiNtx Technologies, Inc. (NASDAQ: SINT) reported a total revenue of $1.00 million USD last year. The Medical Devices segment accounted for the majority of this revenue, reaching $729,000 USD. The United States was the primary geographical contributor, also generating $729,000 USD for the company.",
+      "category": "us_equities",
+      "date": "2026-07-25 12:42",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-SINT/financials-segments/"
+    },
+    {
+      "headline": "Dow futures rebound by 150 points as oil surge eases, Intel gains after earnings: Live updates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The three major averages are heading for weekly losses, led by the tech-heavy Nasdaq Composite.",
+      "category": "us_equities",
+      "date": "2026-07-24 13:03",
+      "link": "https://www.cnbc.com/2026/07/23/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Fed chair 'an enigma:' Why July interest rate move is hard to predict",
+      "score": 7,
+      "source": "USA Today",
+      "sentiment": "neutral",
+      "impact": "Federal Reserve Chair Kevin Warsh expects another \"good family fight\" at policymakers' July meeting. Why it's hard to know if interest rates will change.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-24 12:55",
+      "link": "https://www.usatoday.com/story/money/economy/2026/07/24/july-fed-meeting-interest-rates-what-to-expect/91007839007/"
     },
     {
       "headline": "Morning Bid: Oil batters bonds as AI burns cash - Reuters",
@@ -172,26 +185,6 @@
       "category": "fixed_income",
       "date": "2026-07-24 04:38",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yM3BiWGJhY1RtWFk0U2tXSlp5b21ueFR0cjFRSlUyU3dvclFFdUJ1YThDdmJ5aVpqdlM4bUNHMVJ3NV94YjBhS3ZlUnJpVEVvRlpiVjV5Vk94VXJ5MUcybk91VzZVSFRFakxDN083X0IxajNjSmlMTDNXMG5uREU?oc=5"
-    },
-    {
-      "headline": "S&P 500 futures are little changed as traders look to recover from oil-driven sell-off: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The three major averages are heading for weekly losses, led by the tech-heavy Nasdaq Composite.",
-      "category": "us_equities",
-      "date": "2026-07-24 03:43",
-      "link": "https://www.cnbc.com/2026/07/23/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Stocks edge back up as oil prices pause climb but yields hover near highs - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Stocks edge back up as oil prices pause climb but yields hover near highs\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-07-24 01:20",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzVSb2tZRUVrYzhLQ0hCcVk1clVDQ1hjaGFPVElvd0JKZ0RVeGFTQ2JBVlVwRFNLbUxHOGZKTnl3WGEyeU5PQzEtTnBmVjBRdVVVUHBaSzJXY1pRT2ZFenczR0d2emszLWpGZDItNEcxd29RSGdWSDhVOEM5RjZRRXc0VQ?oc=5"
     },
     {
       "headline": "Albertsons stock plunges as it says weaker grocery spending will cut into sales and earnings",
@@ -214,64 +207,74 @@
       "link": "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html"
     },
     {
-      "headline": "Labcorp stock steadies as diagnostics growth offsets softer central lab revenue",
+      "headline": "A \u2018generational buying opportunity\u2019 guarantees inflation plus 3% a year, says this hedge-fund manager",
       "score": 6,
-      "source": "AD HOC NEWS",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Labcorp reported modest Q1 2026 revenue growth of 2.3%, primarily driven by its diagnostics business, which helped offset a weaker performance in its central laboratory segment. Despite margin pressures and declining central lab revenue, the company maintained its full-year 2026 guidance, signaling ",
-      "category": "corporate_earnings",
-      "date": "2026-07-25 07:00",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/labcorp-stock-steadies-as-diagnostics-growth-offsets-softer-central-lab/69865905"
+      "impact": "Bob Elliott sparks buzz highlighting the bargain level of TIPS.",
+      "category": "global_markets",
+      "date": "2026-07-25 14:32",
+      "link": "https://www.marketwatch.com/story/a-generational-buying-opportunity-guarantees-inflation-plus-3-a-year-says-this-hedge-fund-manager-eb4cd29c?mod=mw_rss_topstories"
     },
     {
-      "headline": "Home Depot stock trades steadily as housing demand supports recent earnings",
+      "headline": "Everest Group (EG) Earnings Optimism Keeps Valuation In Focus",
       "score": 6,
-      "source": "AD HOC NEWS",
+      "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "Home Depot's stock performance reflects resilient US home improvement spending, with recent quarterly numbers for fiscal 2026 showing multi-billion dollar sales and solid cash generation. Despite a cooler housing market and elevated mortgage rates, the company maintained strong operating margins and",
+      "impact": "Everest Group (EG) is drawing investor attention ahead of its June 2026 quarter earnings report, with slight optimism despite lower consensus estimates, driven by a positive Earnings ESP. The company's share price has seen strong momentum, but valuation remains a key discussion point, with an intern",
       "category": "corporate_earnings",
-      "date": "2026-07-25 06:46",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/home-depot-stock-trades-steadily-as-housing-demand-supports-recent/69866797"
+      "date": "2026-07-25 14:28",
+      "link": "https://simplywall.st/stocks/us/insurance/nyse-eg/everest-group/news/everest-group-eg-earnings-optimism-keeps-valuation-in-focus"
     },
     {
-      "headline": "Extra Space Storage stock trades steadily as self-storage earnings and occupancy drive investor focu",
+      "headline": "Does Earnings Jitters And Refinancing Pressure Change The Bull Case For Norwegian Cruise Line (NCLH)?",
       "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Extra Space Storage (NYSE: EXR) stock is trading steadily, driven by strong self-storage earnings, high occupancy rates, and increasing revenue. The company, one of the largest self-storage REITs in the U.S., reported significant revenue growth and improved Funds From Operations (FFO), reinforcing i",
+      "source": "Simply Wall Street",
+      "sentiment": "neutral",
+      "impact": "Norwegian Cruise Line Holdings is facing investor pressure ahead of its July 30, 2026, earnings release due to expectations of weaker results and concerns over high leverage, cash burn, and potential dilution. The company's turnaround plan, new CEO John W. Chidsey, and management's approach to refin",
       "category": "corporate_earnings",
-      "date": "2026-07-25 06:46",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/extra-space-storage-stock-trades-steadily-as-self-storage-earnings-and/69866788"
+      "date": "2026-07-25 14:27",
+      "link": "https://simplywall.st/stocks/us/consumer-services/nyse-nclh/norwegian-cruise-line-holdings/news/does-earnings-jitters-and-refinancing-pressure-change-the-bu"
     },
     {
-      "headline": "The Chefs' Warehouse, Inc. (NASDAQ:CHEF) Given Consensus Rating of \"Moderate Buy\" by Analysts",
+      "headline": "S&P 500 flashes sell signals \u2014 options traders are bracing for wild swings in Apple, Meta and Microsoft",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "The Chefs' Warehouse, Inc. (NASDAQ:CHEF) has received a \"Moderate Buy\" consensus rating from analysts, with an average 12-month price target of approximately $91.86. The company recently exceeded quarterly earnings expectations, reporting EPS of $0.40 and revenue of $1.06 billion, an 11.4% increase ",
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Nervous investors set the stage for massive post-earnings moves in Wall Street\u2019s biggest stocks.",
       "category": "us_equities",
-      "date": "2026-07-25 06:26",
-      "link": "https://www.marketbeat.com/instant-alerts/the-chefs-warehouse-inc-nasdaqchef-given-consensus-rating-of-moderate-buy-by-analysts-2026-07-25/"
+      "date": "2026-07-25 14:21",
+      "link": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories"
     },
     {
-      "headline": "Corsair Gaming, Inc. (NASDAQ:CRSR) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
+      "headline": "Are 7% mortgage rates next? The Treasury market is flashing a warning sign for home buyers.",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Corsair Gaming, Inc. (NASDAQ:CRSR) has received a consensus \"Moderate Buy\" rating from eight brokerages, with an average 12-month price target of $9.57. Recent analyst actions have been largely positive, including upgrades from Zacks Research and Wall Street Zen. The company exceeded its most recent",
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "The 30-year fixed-rate mortgage edged up to its highest level of 2026.",
+      "category": "fixed_income",
+      "date": "2026-07-25 14:08",
+      "link": "https://www.marketwatch.com/story/the-treasury-market-is-flashing-a-warning-sign-for-home-buyers-are-7-mortgage-rates-next-58b5b3b1?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "How this 70-year-old honey bee farmer is keeping his family farm alive: 'We completely rely on Mother Nature'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Being a beekeeper is harder than ever, but David Bradshaw is determined to protect his hives.",
+      "category": "global_markets",
+      "date": "2026-07-25 14:00",
+      "link": "https://www.cnbc.com/2026/07/25/how-this-70-year-old-honey-bee-farmer-is-keeping-his-family-farm-alive.html"
+    },
+    {
+      "headline": "Analysts Offer Insights on Financial Companies: SelectQuote (SLQT) and Nasdaq (NDAQ)",
+      "score": 6,
+      "source": "The Globe and Mail",
+      "sentiment": "neutral",
+      "impact": "Two analysts have issued bullish sentiments on financial companies SelectQuote (SLQT) and Nasdaq (NDAQ). Noble Financial reiterated a Buy rating on SelectQuote with a $5.00 price target, while UBS maintained a Buy rating on Nasdaq with a $120.00 price target. The analyst consensus indicates a Modera",
       "category": "us_equities",
-      "date": "2026-07-25 06:22",
-      "link": "https://www.marketbeat.com/instant-alerts/corsair-gaming-inc-nasdaqcrsr-receives-consensus-recommendation-of-moderate-buy-from-analysts-2026-07-25/"
-    },
-    {
-      "headline": "Iron Mountain stock trades near record levels as storage demand supports revenue growth",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Iron Mountain's stock is trading near record levels in 2026, driven by steady revenue and cash flow growth from its storage and expanding data center businesses. The company reported approximately $6.0 billion in revenue for fiscal 2025, up 10% from 2024, with adjusted EBITDA near $2.0 billion. Key ",
-      "category": "corporate_earnings",
-      "date": "2026-07-25 06:16",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/iron-mountain-stock-trades-near-record-levels-as-storage-demand-supports/69866546"
+      "date": "2026-07-25 13:43",
+      "link": "https://www.theglobeandmail.com/investing/markets/stocks/NDAQ-Q/pressreleases/3462465/analysts-offer-insights-on-financial-companies-selectquote-slqt-and-nasdaq-ndaq/"
     }
   ]
 }
