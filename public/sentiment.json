@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-26T08:08:29.563027",
+  "timestamp": "2026-07-26T15:07:50.397133",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 10,
-    "neutral": 13,
-    "bearish": 2,
-    "high_priority": 8,
+    "avg_relevance": 7.1,
+    "bullish": 13,
+    "neutral": 9,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,17 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "Reuters": 3,
     "Bloomberg": 2,
+    "Financial Times": 1,
     "Caixin/S&P Global": 1,
-    "Yahoo Entertainment": 1,
-    "CNBC": 5,
-    "AD HOC NEWS": 4,
-    "TradingView": 1
+    "MarketWatch": 2,
+    "CNBC": 3,
+    "TipRanks": 1,
+    "GuruFocus": 1,
+    "Simply Wall Street": 3,
+    "MarketBeat": 1,
+    "AD HOC NEWS": 3
   },
   "top_signals": [
     {
@@ -30,7 +34,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +44,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +54,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +64,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +74,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +84,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +94,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +104,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Investors increase bets on Federal Reserve rate rise after oil price surge",
+      "score": 8,
+      "source": "Financial Times",
+      "sentiment": "positive",
+      "impact": "Sharp increase in energy prices means next week\u2019s US central bank meeting is \u2018live\u2019, investors say",
+      "category": "us_monetary_policy",
+      "date": "2026-07-25 10:00",
+      "link": "https://www.ft.com/content/5019e030-796d-47e8-9f13-bee34de1d374?syn-25a6b1a6\\\\u003d1"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +124,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,18 +134,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-26 08:08",
+      "date": "2026-07-26 15:07",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Stock market today: Nasdaq slips, Dow and S&P 500 recover to close a volatile week on Wall Street",
+      "headline": "The S&P 500\u2019s earnings growth has gone bonkers thanks to one company",
       "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "negative",
-      "impact": "Stocks stabilized on Friday but were on track for weekly losses as investors assessed a new set of global tariffs against a backdrop of AI jitters, rising oi...",
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Markets are gearing up for the busiest week of second-quarter earnings season.",
       "category": "us_equities",
-      "date": "2026-07-24 21:28",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-24-dow-sp-500-nasdaq-081854465.html"
+      "date": "2026-07-26 14:00",
+      "link": "https://www.marketwatch.com/story/the-s-p-500s-earnings-growth-has-gone-bonkers-thanks-to-one-company-1c45b2ba?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Rising Treasury yields show how \u201cenormously worried\u201d the market is about inflation \u2014 and whether the Fed will back up its tough talk with action",
+      "category": "us_monetary_policy",
+      "date": "2026-07-26 12:30",
+      "link": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories"
     },
     {
       "headline": "Albertsons stock plunges as it says weaker grocery spending will cut into sales and earnings",
@@ -144,134 +168,114 @@
       "link": "https://www.cnbc.com/2026/07/23/albertsons-stock-plunges-on-lowered-outlook-softened-grocery-trends.html"
     },
     {
-      "headline": "Comcast earnings highlight NBCUniversal strength ahead of planned split",
-      "score": 7,
-      "source": "CNBC",
+      "headline": "Rocket Lab Usa, Inc. (RKLB) Q4 2022 Earnings Report - Results, Call & Slides",
+      "score": 6,
+      "source": "TipRanks",
       "sentiment": "neutral",
-      "impact": "Comcast said earlier this year it would split the cable businesses from the media business, creating two separate publicly traded companies.",
+      "impact": "Rocket Lab USA (RKLB) reported its Q4 2022 earnings, missing EPS estimates by -$0.28 with an actual EPS of -$1.39, despite the consensus being -$1.11. However, the company beat revenue expectations, reporting $899.74M against an expected $825.33M, marking an 88.38% increase year-over-year. The next ",
       "category": "corporate_earnings",
-      "date": "2026-07-23 14:53",
-      "link": "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html"
+      "date": "2026-07-26 14:23",
+      "link": "https://www.tipranks.com/stocks/mx:rklb/earnings/q4-2022-report"
     },
     {
-      "headline": "DTE Energy stock trades steady as regulated earnings and dividend support valuation",
+      "headline": "Quest Diagnostics (DGX) Leads S&P 500 Healthcare Gainers with 8.15% Increase",
       "score": 6,
-      "source": "AD HOC NEWS",
+      "source": "GuruFocus",
       "sentiment": "positive",
-      "impact": "DTE Energy (NYSE: DTE) is an energy company that derives much of its valuation from stable regulated utility earnings and a consistent dividend history. The company's financial performance, supported by its electric and gas segments, solidifies its position as a reliable investment within the regula",
-      "category": "corporate_earnings",
-      "date": "2026-07-26 07:57",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/dte-energy-stock-trades-steady-as-regulated-earnings-and-dividend-support/69875330"
-    },
-    {
-      "headline": "Walmart stock edges higher as solid earnings and dividend support valuation",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Walmart Inc. (WMT) stock is seeing an upward trend supported by consistent earnings, revenue growth, and a strong dividend history. The company's recent financial reports show increased revenue, profitability, and an expanding advertising business, contributing to a positive valuation. Walmart's str",
-      "category": "corporate_earnings",
-      "date": "2026-07-26 07:57",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/walmart-stock-edges-higher-as-solid-earnings-and-dividend-support/69874789"
-    },
-    {
-      "headline": "Century Aluminum Company Revenue Breakdown \u2013 TRADEGATE:EY3",
-      "score": 6,
-      "source": "TradingView",
-      "sentiment": "neutral",
-      "impact": "This article provides a revenue breakdown for Century Aluminum Company (TRADEGATE:EY3). Last year, the company generated \u20ac2.15 billion, with the Aluminium segment contributing the most at \u20ac1.91 billion. The United States was the largest regional contributor, accounting for \u20ac1.48 billion in revenue.",
+      "impact": "Quest Diagnostics (DGX) was the top gainer in the S&P 500 Health Care Index Sector on July 26, 2026, with an 8.15% increase, despite a mixed market. The company, a leading diagnostic testing provider, has a P/E ratio of 24.19x and a GF Score of 78/100, suggesting strong potential for long-term retur",
       "category": "us_equities",
-      "date": "2026-07-26 07:41",
-      "link": "https://www.tradingview.com/symbols/TRADEGATE-EY3/financials-segments/"
+      "date": "2026-07-26 14:08",
+      "link": "https://www.gurufocus.com/news/8979552/quest-diagnostics-dgx-leads-sp-500-healthcare-gainers-with-815-increase"
     },
     {
-      "headline": "Mid-America Apartment stock holds firm as Sunbelt rental demand supports recent earnings",
+      "headline": "How AI wealth could be distributed to all Americans",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "AI riches are already concentrated among a handful of powerful companies, but there are plenty of new, some radical, ideas about how to spread the wealth.",
+      "category": "global_markets",
+      "date": "2026-07-26 14:06",
+      "link": "https://www.cnbc.com/2026/07/26/how-can-ai-wealth-be-shared-with-all-americans.html"
+    },
+    {
+      "headline": "Deere (DE) Rises Ahead Of Earnings But Is Its Valuation Already Priced In",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "neutral",
+      "impact": "Deere's stock rose 2.97% ahead of its August 20 earnings report, reaching $628.16, with a year-to-date return of 34.57%. A common valuation narrative suggests Deere is slightly undervalued at $644.21, driven by its precision agriculture and automation solutions. However, its P/E ratio of 35.5x, comp",
+      "category": "corporate_earnings",
+      "date": "2026-07-26 13:44",
+      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-de/deere/news/deere-de-rises-ahead-of-earnings-but-is-its-valuation-alread"
+    },
+    {
+      "headline": "4 generations, 6 different visions of the American Dream: 'I'm optimistic because of our resilience'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "CNBC Make It asked notable voices in politics, finance and relationships on what it takes to achieve happiness and success in America today.",
+      "category": "global_markets",
+      "date": "2026-07-26 13:30",
+      "link": "https://www.cnbc.com/2026/07/26/how-different-generations-are-rewriting-the-american-dream-today.html"
+    },
+    {
+      "headline": "Volatility Is Back and These 3 Market Tollbooths Are Best Positioned to Profit",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "The article discusses three financial infrastructure companies\u2014MSCI, CME Group, and Nasdaq\u2014that are well-positioned to profit from increased market volatility. It analyzes their Q2 earnings reports, highlighting their different revenue models and how each company is suited for various market outlook",
+      "category": "corporate_earnings",
+      "date": "2026-07-26 13:17",
+      "link": "https://www.marketbeat.com/articles/volatility-is-back-and-these-3-market-tollbooths-are-best-positioned-to-profit/"
+    },
+    {
+      "headline": "Teradyne stock trades steadily as recent earnings and robotics investments frame the outlook",
       "score": 6,
       "source": "AD HOC NEWS",
       "sentiment": "positive",
-      "impact": "Mid-America Apartment Communities (MAA) has demonstrated steady fundamentals, with its Q1 2026 earnings revealing resilient rental income growth and strong occupancy rates within its primary Sunbelt markets. Total revenue for Q1 2026 reached approximately $549 million, a 5% increase year-over-year, ",
+      "impact": "Teradyne Inc. (US8807701029) is demonstrating a steady financial outlook, balancing demand for its test equipment with growing investments in industrial robotics. The company reported strong quarterly results, maintaining a solid cash position that supports both core test operations and growth initi",
       "category": "corporate_earnings",
-      "date": "2026-07-26 07:32",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/mid-america-apartment-stock-holds-firm-as-sunbelt-rental-demand-supports/69875507"
+      "date": "2026-07-26 12:57",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/teradyne-stock-trades-steadily-as-recent-earnings-and-robotics-investments/69877671"
     },
     {
-      "headline": "Consolidated Edison stock trades steadily as regulated earnings and dividend support valuation",
+      "headline": "Aptiv stock steadies as investors weigh recent earnings and EV demand trends",
       "score": 6,
       "source": "AD HOC NEWS",
       "sentiment": "positive",
-      "impact": "Consolidated Edison Inc. (ISIN US2091151041) stock maintains a steady profile, supported by consistent regulated earnings and a reliable dividend history. The utility's financial performance in fiscal 2025 showed modest revenue and earnings growth, driven by rate changes, customer demand, and signif",
+      "impact": "Aptiv's stock performance is being influenced by a cooling EV market, but the company's strong earnings trajectory, margin resilience, and focus on software-driven strategies are key factors for investors. The article highlights Aptiv's revenue and earnings growth in 2023 and Q1 2024, driven by adva",
       "category": "corporate_earnings",
-      "date": "2026-07-26 07:29",
-      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/consolidated-edison-stock-trades-steadily-as-regulated-earnings-and/69875488"
+      "date": "2026-07-26 12:56",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/aptiv-stock-steadies-as-investors-weigh-recent-earnings-and-ev-demand/69877655"
     },
     {
-      "headline": "Iran war spreads to Red Sea and Caspian, Gulf quiet as US forgoes strikes - Reuters",
+      "headline": "Old Second Bancorp (NASDAQ:OSBC) Could Be A Buy For Its Upcoming Dividend",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran war spreads to Red Sea and Caspian, Gulf quiet as US forgoes strikes\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-25 23:18",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYnVSWlhuMFM5LW94bUxZY2tSeDlTX3p1RC1yNk10aVJobG02aVpFeGc3bFowLVZIT01sQk5yekpRWHNUYmhiS3gxSmJTbF9YU2hROXlmQ3hSMVFvaVpDZlhuUXp6N0d4c2lERjlra2NFeXp6Y1Uwd3M2U3prWUp2LTNvMG5Zd05laVktTmJXaXFTNnp4V3U2RkUwV0FNM04yc0dsQWZKc1BtOFk2aDFKQlUwc21pdW9k?oc=5"
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Old Second Bancorp (NASDAQ:OSBC) is approaching its ex-dividend date on July 31st, offering a dividend of US$0.07 per share, contributing to a 1.2% trailing yield. The company boasts a low 15% payout ratio and has shown strong earnings per share growth of 14% annually over the last five years, with ",
+      "category": "us_equities",
+      "date": "2026-07-26 12:50",
+      "link": "https://simplywall.st/stocks/us/banks/nasdaq-osbc/old-second-bancorp/news/old-second-bancorp-nasdaqosbc-could-be-a-buy-for-its-upcomin-1"
     },
     {
-      "headline": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor - Reuters",
+      "headline": "Expedia Group stock trades steadily as travel demand supports earnings and buyback plans",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-25 21:10",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWtpdWZ4NW1EX0RFb3dCV1hZYVU3ZmFESlp6Qnhhd2VLX1VXc293dFp6LUF0Mlo4YWdReXhWNGNkVWNqQS1hZmJjekx4aE1QbVJiaWp1Wl82RVVDdldZVFRhaEs2VEJPRWRRbkpQX0tDbEZ4U3FFdmVUWERaTDBHVmh1Y25RS2lpaWhhSmVzcHlUcmZzeUx4RDRobEl4aDZOYVA0T01lYWVOVDZV?oc=5"
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Expedia Group's stock reflects robust online travel demand, with solid revenue growth driven by increased bookings and higher average selling prices across its brands. The company has shown improved profitability through margin expansion, efficient operations, and strong free cash flow generation. T",
+      "category": "corporate_earnings",
+      "date": "2026-07-26 12:49",
+      "link": "https://www.ad-hoc-news.de/boerse/news/ueberblick/expedia-group-stock-trades-steadily-as-travel-demand-supports-earnings-and/69878255"
     },
     {
-      "headline": "Britain would be target if it supports US in war, Iran's Revolutionary Guards say - Reuters",
+      "headline": "Tractor Supply Company Just Missed Earnings - But Analysts Have Updated Their Models",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Britain would be target if it supports US in war, Iran's Revolutionary Guards say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-25 20:21",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMTJYU1ZqWjdXVXRveUJLd1BsbFVvd2s0RFJMQU1hd0xwOGxKWW90VmxNOUxkVnlsLTZMa1JEaXNtTE40ZWZaV0llNUx5SGhQY3RpeFBIMHRMRmJXQmZrNUFIdEg1TzhjQ196dTNqVFFVLVFWMVpBWjY3UVdpT29QZjBkSnpRNHJJbWwtdjdNZm9CeE51cm9McVpBZWxiMVlsQXdVSzFjQ1pmNzNhOXFQeE9SX3ZUR1JfZHA0UF9n?oc=5"
-    },
-    {
-      "headline": "How this 70-year-old honey bee farmer is keeping his family farm alive: 'We completely rely on Mother Nature'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Being a beekeeper is harder than ever, but David Bradshaw is determined to protect his hives.",
-      "category": "global_markets",
-      "date": "2026-07-25 14:00",
-      "link": "https://www.cnbc.com/2026/07/25/how-this-70-year-old-honey-bee-farmer-is-keeping-his-family-farm-alive.html"
-    },
-    {
-      "headline": "Imax 70 mm screenings become the biggest star for Christopher Nolan\u2019s \u2018The Odyssey\u2019",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Moviegoers are traveling, lining up and paying premiums to see Christopher Nolan\u2019s \u2018The Odyssey\u2019 in scarce Imax 70 mm screenings.",
-      "category": "global_markets",
-      "date": "2026-07-25 12:46",
-      "link": "https://www.cnbc.com/2026/07/25/the-odyssey-imax-70mm-screenings.html"
-    },
-    {
-      "headline": "Thirty-five killed, 30 injured in Syria bus collision - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Thirty-five killed, 30 injured in Syria bus collision\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-25 12:23",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS25BNEpkNFFENTBkNHY0aDFHNGVDdVZGMzI5NzNTVXdoNXM5b1BwUEl5YlNQdTZZZDdTSk9YeWtUMjFLaENUTWVZZzRrR1p5Ql9XZkxvSnFncVN4enFwMWpIekZNRm5sdWs1MUMxZzNHMTAtdVdHSVRtY3J2YWhqb0x1ZEdaU2Zwd251TnprTjFPZkY1RUtRSnRuOEphYTUyUUQzZG01cE56WkdlX2FfOGQ0Zk1xalBiUWNDODUycC1zd3FWQkNmY0tnNks?oc=5"
-    },
-    {
-      "headline": "Logistics giants are racing to keep up with healthcare boom as GLP-1s highlight need for cold storage",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Shipping and logistics companies are tapping into the growing market of healthcare as cold chain and temperature-controlled facilities become more crucial.",
-      "category": "global_markets",
-      "date": "2026-07-25 12:00",
-      "link": "https://www.cnbc.com/2026/07/25/ups-fedex-dhl-healthare-logistics-glp.html"
+      "source": "Simply Wall Street",
+      "sentiment": "negative",
+      "impact": "Tractor Supply Company recently reported quarterly results where revenues met forecasts but earnings per share missed expectations by 16%. Following these results, analysts have made a minor downgrade to their EPS forecasts for 2026 and reduced the average price target by 12% to US$35.59. The compan",
+      "category": "corporate_earnings",
+      "date": "2026-07-26 12:46",
+      "link": "https://simplywall.st/stocks/us/retail/nasdaq-tsco/tractor-supply/news/tractor-supply-company-just-missed-earnings-but-analysts-hav"
     }
   ]
 }
