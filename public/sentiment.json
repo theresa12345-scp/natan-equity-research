@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-27T16:22:54.603780",
+  "timestamp": "2026-07-28T08:14:12.893407",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 8,
-    "neutral": 14,
+    "avg_relevance": 7.4,
+    "bullish": 10,
+    "neutral": 12,
     "bearish": 3,
-    "high_priority": 8,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,16 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
+    "Reuters": 5,
     "Bloomberg": 4,
+    "Financial Times": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 5,
-    "Yahoo Entertainment": 1,
-    "MarketWatch": 1
+    "MarketWatch": 2,
+    "CNBC": 3,
+    "The Wall Street Journal": 1,
+    "Container News": 1,
+    "TradingKey": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -29,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +103,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Indonesia central bank chief resigns",
+      "score": 8,
+      "source": "Financial Times",
+      "sentiment": "negative",
+      "impact": "Perry Warjiyo had been under pressure over weakening rupiah",
+      "category": "indonesia_financials",
+      "date": "2026-07-27 02:00",
+      "link": "https://www.ft.com/content/f9abab6b-964c-4dae-ba41-4c20fa71c2e0?syn-25a6b1a6\\\\u003d1"
+    },
+    {
+      "headline": "Bond Traders on Edge as Risks of Fed Rate Hike This Week Mount",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Bond traders head into the week pricing in roughly a one-in-three chance of a Federal Reserve interest rate hike on Wednesday, after flaring Middle East tensions fueled volatility in oil prices and Treasury yields, heightening inflation worries.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-27 01:49",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-26/bond-traders-on-edge-as-risks-of-fed-rate-hike-this-week-mount"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -109,7 +133,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,8 +143,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-27 16:22",
+      "date": "2026-07-28 08:14",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "More cracks emerge in AI-related bonds as Meta, Microsoft earnings loom",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "\u2018The money has to come from somewhere,\u2019 says Bryce Doty at Sit, of pressure heavy AI-debt supply and the rest of the bond market",
+      "category": "fixed_income",
+      "date": "2026-07-27 21:35",
+      "link": "https://www.marketwatch.com/story/more-cracks-emerge-in-ai-related-bonds-as-meta-microsoft-earnings-loom-04275db2?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chair Kevin Warsh will say this week",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Kalshi traders are predicting Warsh will mention last week's supply shock at this week's Federal Reserve press conference.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-27 18:58",
+      "link": "https://www.cnbc.com/2026/07/27/from-oil-to-shock-heres-what-kalshi-traders-expect-warsh-to-say.html"
     },
     {
       "headline": "Ford wants more customers to customize vehicles to boost profits as it eyes 'Nike shoe drop' moments ",
@@ -131,6 +175,26 @@
       "category": "corporate_earnings",
       "date": "2026-07-27 10:00",
       "link": "https://www.cnbc.com/2026/07/27/ford-vehicle-customization-bronco.html"
+    },
+    {
+      "headline": "Bitcoin ETFs end inflow streak as Fed rate concerns mount",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Amid fluctuating investor sentiment over Fed rate hikes and legislative uncertainties, Bitcoin ETFs face significant withdrawals, highlighting the fragility of recent crypto gains",
+      "category": "us_monetary_policy",
+      "date": "2026-07-27 05:34",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-27/bitcoin-etfs-end-inflow-streak-as-fed-rate-concerns-mount"
+    },
+    {
+      "headline": "Singapore Central Bank Tightens Again in Surprise Move",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "global_markets",
+      "date": "2026-07-27 03:26",
+      "link": "https://www.wsj.com/economy/central-banking/singapore-central-bank-delivers-surprise-back-to-back-tightening-04300256"
     },
     {
       "headline": "Gold gains over 1% on pause in US-Iran fighting; Fed decision looms - Reuters",
@@ -153,54 +217,54 @@
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2VEF4Z09wNW9GaGZxaENhMVk5X3ZPSVhjSDNwb1ZKeld2S0xDZFNkZ1l6RDRNdHZ6bktSMnhrOFpNNTJQaU83eEtHa3FVQ0swVjVjSGF0SDlqbjZoWVpQbW1icmJoM1Y2TldZUERiTHdGNUpRbnpWR080TQ?oc=5"
     },
     {
-      "headline": "Big Tech Earnings Slam Into a Market in Revolt Over AI Spending",
+      "headline": "Central bankers take centre stage",
       "score": 7,
-      "source": "Bloomberg",
+      "source": "Financial Times",
       "sentiment": "neutral",
-      "impact": "For years, US technology giants had a tacit agreement with investors: The companies could spend lavishly on artificial intelligence, and the stock market would reward them long as their revenues were rising. That deal is suddenly breaking down.",
+      "impact": "Fed, BoE and BoJ to decide interest rates, Greater Manchester elects a new mayor, earnings season moves up a gear",
+      "category": "global_markets",
+      "date": "2026-07-26 17:15",
+      "link": "https://www.ft.com/content/865fd421-2953-4429-9297-c4dcf3a26d33?syn-25a6b1a6\\\\u003d1"
+    },
+    {
+      "headline": "Costamare secures US$1.3 billion financing package as Q2 profit declines",
+      "score": 6,
+      "source": "Container News",
+      "sentiment": "neutral",
+      "impact": "Costamare Inc. reported a decline in Q2 2026 earnings but significantly strengthened its financial position by securing US$1.3 billion in new financing agreements, which will reduce interest costs and refinance existing debt. The company also maintained high fleet employment levels with 97% of its c",
       "category": "corporate_earnings",
-      "date": "2026-07-26 13:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending"
+      "date": "2026-07-28 07:01",
+      "link": "https://container-news.com/costamare-secures-us1-3-billion-financing-package-as-q2-profit-declines/"
     },
     {
-      "headline": "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "neutral",
-      "impact": "Investors step into the busiest week of the quarter with hyperscaler earnings, the June Fed meeting, and escalations in the Middle East all in focus.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-26 10:00",
-      "link": "https://finance.yahoo.com/markets/article/4-big-tech-earnings-reports-a-fed-meeting-and-100-oil-its-the-busiest-week-of-the-quarter-100000261.html"
+      "headline": "Align Technology Inc (ALGN) Financial Health: Profitability & Balance Sheet Analysis",
+      "score": 6,
+      "source": "TradingKey",
+      "sentiment": "positive",
+      "impact": "Align Technology Inc (ALGN) has a robust financial status with a current financial score of 8.82, ranking 24th in the Healthcare Equipment & Supplies industry. The company reported a 6.21% year-over-year revenue increase to $1.04 billion and a 20.96% year-over-year net profit increase. Despite stron",
+      "category": "corporate_earnings",
+      "date": "2026-07-28 06:37",
+      "link": "https://www.tradingkey.com/markets/stocks/algn/financial-health"
     },
     {
-      "headline": "Oil near $100 puts fed and peers in interest-rate spotlight",
-      "score": 7,
-      "source": "Bloomberg",
+      "headline": "AstroNova (NASDAQ:ALOT) Stock Crosses Above 200 Day Moving Average - Should You Sell?",
+      "score": 6,
+      "source": "MarketBeat",
       "sentiment": "negative",
-      "impact": "Crude oil\u2019s brief foray above the $100 level it last exceeded two months ago is just one of the potential inflation risks confronting policymakers",
-      "category": "us_monetary_policy",
-      "date": "2026-07-26 05:06",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-25/fed-bank-of-england-bank-of-japan-face-100-oil-inflation-test"
+      "impact": "AstroNova (NASDAQ:ALOT) stock has surged above its 200-day moving average, reaching $28.85, significantly higher than its $14.86 average. This rise follows strong quarterly earnings where the company beat analyst estimates for both EPS and revenue, though it reported a slightly negative net margin. ",
+      "category": "us_equities",
+      "date": "2026-07-28 06:25",
+      "link": "https://www.marketbeat.com/instant-alerts/astronova-nasdaqalot-stock-crosses-above-200-day-moving-average-should-you-sell-2026-07-28/"
     },
     {
-      "headline": "NBCUniversal and YouTube ink deal to embed Peacock in the video platform for premium subscribers",
+      "headline": "Apple ends day as world's most valuable company, passing Nvidia",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Beginning in early 2027, YouTube Premium subscribers will receive the entirety of Peacock content, including sports and movies.",
+      "impact": "Nvidia had held the top spot as the most valuable company since June 2025, when it took the crown from Microsoft.",
       "category": "global_markets",
-      "date": "2026-07-27 15:54",
-      "link": "https://www.cnbc.com/2026/07/27/nbcuniversal-youtube-peacock-premium-subscribers.html"
-    },
-    {
-      "headline": "Consolidated food supply may be worsening cyclospora outbreaks, experts say",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Experts say food industry consolidation may be amplifying the cyclospora outbreak, allowing contaminated produce to spread farther.",
-      "category": "global_markets",
-      "date": "2026-07-27 15:49",
-      "link": "https://www.cnbc.com/2026/07/27/cyclospora-outbreak-food-industry-consolidation.html"
+      "date": "2026-07-27 21:12",
+      "link": "https://www.cnbc.com/2026/07/27/apple-most-valuable-company-nvidia.html"
     },
     {
       "headline": "For 44 years, this investor held aces in the long-bond game. He just folded.",
@@ -209,68 +273,8 @@
       "sentiment": "neutral",
       "impact": "Lacy Hunt\u2019s about-face on long-term Treasurys marks the end of an era. Here\u2019s what it means for your money.",
       "category": "fixed_income",
-      "date": "2026-07-27 14:26",
+      "date": "2026-07-27 20:52",
       "link": "https://www.marketwatch.com/story/for-44-years-this-investor-held-aces-in-the-long-bond-game-he-just-folded-dcd39375?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Sam Altman to meet with Trump administration, Senators this week. Here's what he plans to say",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Altman will preview the capabilities of the company's upcoming family of AI models and answer questions about cybersecurity and open-weight models.",
-      "category": "global_markets",
-      "date": "2026-07-27 14:21",
-      "link": "https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html"
-    },
-    {
-      "headline": "We're buying more of a slumping industrial stock and a hard-hit chipmaker",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "We're putting money to work in Monday's market as oil prices fall.",
-      "category": "global_markets",
-      "date": "2026-07-27 12:53",
-      "link": "https://www.cnbc.com/2026/07/27/were-buying-more-of-a-slumping-industrial-stock-and-a-hard-hit-chipmaker.html"
-    },
-    {
-      "headline": "Crude oil futures are pricing market adaptability, not hopeful Iran peace - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Crude oil futures are pricing market adaptability, not hopeful Iran peace\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-27 07:39",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNGE1c0g5ZHQxVW9KaV81YjdLV3FXRFo2dnp4S1FaeWZjbTdHbjhMOXVxRDdNVmRIenhzTWdYeU5WQWVqOWVURmxGTXJEVm5mVkN3MkdzSERyM2tHUkt5QWhkNWxkY2tzSXc3OGVtUmVzYXlPSE1vQ29Sak5vN1dDQnJicUZSZlVVSlN5ZkZhUXAxbHhDeWwtQmJxanEwam1FRlVLY2d6OFd6ejVuQUVDaWw5cEJkbHo4cDJ2TG04LU1kSm1aVVNMZE02ZmxwMGZENjZvaEZpUG4?oc=5"
-    },
-    {
-      "headline": "Morning Bid: Markets dare to hope as US, Iran put war on hold - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Morning Bid: Markets dare to hope as US, Iran put war on hold\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-27 04:32",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OaG9CanBKS3oxSTNMTm9XRGJtYmxrLVV3cFVXSnRBTk84NG5YWHNVaGJjMnE5Y0JLLUlSYTN1VnF3VmRlRlFlN1lYX2p3U1ppY2tqV1ZGLUdYT0hVckJ1U3Jna1g4N2ZHQkNwZ0J3OEpwNmc1Zmc0SjBVOWlneFk?oc=5"
-    },
-    {
-      "headline": "Indian rupee heads for steepest rise in three weeks as oil falls - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Indian rupee heads for steepest rise in three weeks as oil falls\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-27 02:55",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVzNLbGNOWndmZ1lxc2MzcUtBY08walVteW9YS0UxeEhxazA3Mk9NWndFa3U1NzRULUI4SThDdGtMSEhmWmpUeXhrd3A2UGw2UGE3M2FhY296SEoxMnowblVGT1NSZ1BpU05jd2ZnSDhnZDc3amxPd2c0QzhJZnJhejVSbXRDS2ZoTnFVZHZWRnhRSlFYYmVCN3k2MUFTMG1ZTC1mTDZ4c0dzM2JDSjNZSmUzYnhmN0lfd0w0?oc=5"
-    },
-    {
-      "headline": "Dollar pulls back as US-Iran attacks pause, oil drops - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Dollar pulls back as US-Iran attacks pause, oil drops\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-27 00:32",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdWQ5R1NLZkN4LVQtZkhaQVlCVE9jV0pFNE5JamoxMFdleEdnS0I5YjhzVWtOVW5RVHk0d1BhSVRSc2I0THJIbzlrWXVhX00wemJRX2c2eTRKQ1BOb3FIZnBONjhvUktZVzlWRFl2RG1EYUQ1NTctRWFGa0htZzNBQ2dQdTVZSnBHZ2FXYkpNUVJJVVZQVGkzZ0IzbEZPQUF0dkVMOTBhMA?oc=5"
     }
   ]
 }
