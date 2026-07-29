@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-29T08:20:31.436738",
+  "timestamp": "2026-07-29T15:49:43.562182",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 14,
-    "neutral": 8,
-    "bearish": 3,
-    "high_priority": 9,
+    "avg_relevance": 7.6,
+    "bullish": 13,
+    "neutral": 6,
+    "bearish": 6,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "Reuters": 3,
     "Bloomberg": 3,
-    "CNBC": 8,
+    "CNBC": 9,
     "Caixin/S&P Global": 1,
-    "Investing.com Canada": 1,
-    "MarketBeat": 1
+    "Investing.com": 2,
+    "Barron's": 1,
+    "Investopedia": 1,
+    "Seeking Alpha": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -113,13 +115,33 @@
       "link": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html"
     },
     {
+      "headline": "Nasdaq futures slide as chip sell-off continues, but strong earnings bolster rest of market: Live updates",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "S&P 500 futures drop. Investors are bracing for a big week of mega-cap earnings and a Federal Reserve meeting.",
+      "category": "us_equities",
+      "date": "2026-07-28 13:15",
+      "link": "https://www.cnbc.com/2026/07/27/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "UPS beats earnings expectations, raises full-year guidance",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "UPS beat Wall Street expectations and raised its full-year guidance in its second-quarter earnings report Tuesday.",
+      "category": "corporate_earnings",
+      "date": "2026-07-28 10:17",
+      "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html"
+    },
+    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,8 +151,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-29 08:20",
+      "date": "2026-07-29 15:49",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Procter & Gamble revenue misses estimates as volume stays unchanged",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Procter & Gamble reported quarterly earnings per share that topped Wall Street's estimates, but its revenue fell short of expectations.",
+      "category": "corporate_earnings",
+      "date": "2026-07-29 14:53",
+      "link": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html"
+    },
+    {
+      "headline": "Performance Shipping earnings missed by $0.14, revenue topped estimates",
+      "score": 7,
+      "source": "Investing.com",
+      "sentiment": "neutral",
+      "impact": "Performance Shipping (NASDAQ: PSHG) reported Q2 EPS of $0.37, missing analyst estimates by $0.14, despite revenue topping expectations at $34.7 million against a $32.33 million consensus. The company's stock has seen a -2.69% decrease over the last three months but an 11.05% increase over the last y",
+      "category": "corporate_earnings",
+      "date": "2026-07-29 14:28",
+      "link": "https://www.investing.com/news/earnings/performance-shipping-earnings-missed-by-014-revenue-topped-estimates-4820723"
+    },
+    {
+      "headline": "Earnings call transcript: FirstEnergy Q2 2026 revenue beats, stock edges higher",
+      "score": 7,
+      "source": "Investing.com",
+      "sentiment": "positive",
+      "impact": "FirstEnergy Corp. reported Q2 2026 earnings that matched expectations and revenue that beat forecasts, leading to a slight stock increase. The company reaffirmed its full-year EPS guidance and a $36 billion five-year capital plan, highlighting significant growth opportunities from data center demand",
+      "category": "corporate_earnings",
+      "date": "2026-07-29 14:24",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-firstenergy-q2-2026-revenue-beats-stock-edges-higher-93CH-4820655"
+    },
+    {
+      "headline": "Humana tops quarterly estimates, maintains profit outlook as medical costs stay in line",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Humana maintained its 2026 adjusted profit outlook of at least $9 per share, which some analysts called a \"disappointment\" amid high expectations for insurers.",
+      "category": "corporate_earnings",
+      "date": "2026-07-29 13:23",
+      "link": "https://www.cnbc.com/2026/07/29/humana-hum-earnings-q2-2026.html"
+    },
+    {
+      "headline": "Cyclospora outbreak tied to Taco Bell will steal the spotlight from Yum Brands' earnings",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Wall Street is projecting a strong second quarter for Yum Brands, but investors' focus will be on updates related to the cyclospora outbreak tied to Taco Bell.",
+      "category": "corporate_earnings",
+      "date": "2026-07-29 11:00",
+      "link": "https://www.cnbc.com/2026/07/29/cyclospora-outbreak-taco-bell-yum-brands-earnings.html"
     },
     {
       "headline": "UPS expects third-quarter domestic revenue to be flat but CEO tells CNBC the company is through its 'bumps'",
@@ -143,134 +215,64 @@
       "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html"
     },
     {
-      "headline": "We're trimming a rallying stock to protect against a potential earnings letdown",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The sale comes a day before the company reports earnings.",
-      "category": "us_equities",
-      "date": "2026-07-28 18:17",
-      "link": "https://www.cnbc.com/2026/07/28/were-trimming-a-rallying-stock-to-protect-against-a-potential-earnings-letdown-.html"
-    },
-    {
       "headline": "Shein says it's under investigation by the Federal Trade Commission as it prepares for Hong Kong IPO",
       "score": 7,
       "source": "CNBC",
       "sentiment": "negative",
       "impact": "Shein disclosed the FTC is investigating its U.S. business, but the nature of the probe is unclear.",
       "category": "us_monetary_policy",
-      "date": "2026-07-28 17:12",
+      "date": "2026-07-28 15:44",
       "link": "https://www.cnbc.com/2026/07/28/shein-discloses-its-under-investigation-by-the-ftc.html"
     },
     {
-      "headline": "Persistently high inflation to nag global economy, say economists: Reuters poll - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Persistently high inflation to nag global economy, say economists: Reuters poll\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-28 12:28",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeEo2VHZ0SXF4SFdaOU1LQ2pOaTRfUzBmUUJ0V0wxakdjbE03bkRzWmVMQU5VNXo4SzhrbGZnN3hSdm5vR1dLM2kxTU5NZi1aYVhlejVfQXlrZm5menB6VjE1TElMQUVpSmZyS0FnUWo3VDJScTFiTmJkQWFLcG1KTjZZZFBvbmU2SHM5U3UtbTVJYjhkS29HUHVpQjlwMlVUU3loQmRFQVFCNDV2Z0pLWDQtRHVlSzVpZzRqbHh3RQ?oc=5"
-    },
-    {
-      "headline": "Coca-Cola is about to report earnings. Here's what to expect",
+      "headline": "Corning tumbles 16% after earnings, leading rout in optical stocks",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Coca-Cola stock has risen 19% this year, outstripping the gains of the S&P 500.",
+      "sentiment": "negative",
+      "impact": "Marvell, Lumentum, AXT and Coherent were down double digits following the Corning print.",
       "category": "corporate_earnings",
-      "date": "2026-07-28 10:25",
-      "link": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html"
+      "date": "2026-07-28 15:18",
+      "link": "https://www.cnbc.com/2026/07/28/corning-glw-stock-optical-ai.html"
     },
     {
-      "headline": "Citadel Securities Sees Warsh Delivering Surprise Fed Rate Hike",
+      "headline": "PayPal Beats Earnings Estimates and Hikes Guidance as Turnaround Takes Root",
+      "score": 7,
+      "source": "Barron's",
+      "sentiment": "positive",
+      "impact": "PayPal stock cratered earlier this year. Now, the fintech seeks to prove that its \u2018strategic reorganization\u2019 is yielding results.",
+      "category": "corporate_earnings",
+      "date": "2026-07-28 13:59",
+      "link": "https://www.barrons.com/articles/paypal-earnings-stock-price-5bd70376"
+    },
+    {
+      "headline": "Nasdaq 100 Heads for Correction as AI Worries Rattle Investors",
       "score": 7,
       "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "Citadel Securities expects the Federal Reserve to raise interest rates this week \u2014 a surprise move strengthening Chairman Kevin Warsh\u2019s credibility in the battle with inflation.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-27 21:42",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-27/citadel-securities-sees-warsh-delivering-surprise-fed-rate-hike"
+      "sentiment": "neutral",
+      "impact": "The Nasdaq 100 Index is on track to enter a correction as worries about the eventual payoffs from artificial intelligence investments sour sentiment in the technology giants that have powered most of this year\u2019s stock-market advance.",
+      "category": "us_equities",
+      "date": "2026-07-28 13:45",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-28/nasdaq-100-heads-for-correction-as-ai-worries-rattle-investors"
     },
     {
-      "headline": "Trump backs 'fantastic' Warsh while calling for lower rates and citing 'bad intentions' of other Fed officials",
+      "headline": "Stock Market Today: Futures Mixed on Busy Earnings Day as Chip Stocks Weigh on Nasdaq; Oil Prices Decline Further",
       "score": 7,
-      "source": "CNBC",
+      "source": "Investopedia",
       "sentiment": "negative",
-      "impact": "President Trump Monday voiced support for Federal Reserve Chairman Kevin Warsh while insisting that the U.S. should have the lowest interest rates in the world.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-27 17:13",
-      "link": "https://www.cnbc.com/2026/07/27/trump-warsh-interest-rates.html"
+      "impact": "Major stock indexes were mixed on a busy Tuesday featuring a flurry of corporate earnings reports and the start of a Federal Reserve interest-rate meeting, with shares of chipmakers weighing on the Nasdaq Composite and S&P 500.",
+      "category": "us_equities",
+      "date": "2026-07-28 11:50",
+      "link": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-07282026-12028107"
     },
     {
-      "headline": "Ford wants more customers to customize vehicles to boost profits as it eyes 'Nike shoe drop' moments ",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Ford is expanding its accessory and parts business in an effort to boost profits and better tap into the $53 billion U.S. automotive aftermarket industry.",
-      "category": "corporate_earnings",
-      "date": "2026-07-27 10:00",
-      "link": "https://www.cnbc.com/2026/07/27/ford-vehicle-customization-bronco.html"
-    },
-    {
-      "headline": "UBS maintains Boston Properties stock rating on raised guidance By Investing.com",
+      "headline": "Palo Alto Networks Stock: Valuation Has Reached Absurd Levels (NASDAQ:PANW)",
       "score": 6,
-      "source": "Investing.com Canada",
-      "sentiment": "positive",
-      "impact": "UBS has maintained its Neutral rating and $61.00 price target for Boston Properties Inc. (NYSE:BXP) after the company reported strong Q2 2026 results and raised its full-year guidance. Boston Properties increased its 2026 funds from operations guidance midpoint to $7.02 and saw its occupancy rise to",
-      "category": "corporate_earnings",
-      "date": "2026-07-29 07:19",
-      "link": "https://ca.investing.com/news/stock-market-news/ubs-maintains-boston-properties-stock-rating-on-raised-guidance-93CH-4758690"
-    },
-    {
-      "headline": "Amundi Buys 3,646,047 Shares of Johnson Controls International plc $JCI",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Amundi increased its stake in Johnson Controls International plc (NYSE:JCI) by 157.2% in the first quarter, acquiring an additional 3,646,047 shares. This significant purchase brings Amundi's total ownership to 5,965,212 shares, valued at approximately $781.15 million. Other institutional investors ",
-      "category": "indonesia_equities",
-      "date": "2026-07-29 07:18",
-      "link": "https://www.marketbeat.com/instant-alerts/filing-amundi-buys-3646047-shares-of-johnson-controls-international-plc-jci-2026-07-29/"
-    },
-    {
-      "headline": "Oil rises as US-Iran tension escalates after Iraq strikes, missile attack - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil rises as US-Iran tension escalates after Iraq strikes, missile attack\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-07-29 06:53",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd0ctWlZRN0hINkdrNUJmWWxpV0ZGNGw2Y2taRk1DbFBpdzd5bFdXQmJEcW9VRExnRFBtTWlTTHBRTU5tcDN2azF6VmtxdDN6WlVncmJxSVJhYjM4Wlctb3NEcnEzSWt4djdPSWJJX3ItYmpaN0UyZ09pbV85YjlRMkQ4RTV2RDE2c2NhYlRTdEVEUUFoWEVLMVBqUzhhX2xtVlJLUFp0RWFZTFpCSGJwMTRydUQ3NUx6ejJyYWFCdzBMVWpOYWZqbzF3?oc=5"
-    },
-    {
-      "headline": "EXCLUSIVE: Iran to get Chinese shoulder-launched missile systems in weeks, sources say - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "Seeking Alpha",
       "sentiment": "negative",
-      "impact": "EXCLUSIVE: Iran to get Chinese shoulder-launched missile systems in weeks, sources say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-29 05:40",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR19sNWVrRDdhcXlNdTlxcUdNR0dNWDRBcjZPd21xOEM2bEYtdDJiWTEtYzlweWs5ZmtILVlhQkVUNzdaaENHbnhqTl9SSFNCZjk3eXNMS1o4SXFzT2VBS3VZZ0p6MVlrQldWNjRMUGlTN2tDR2xUOVBUdkdkTndueExrQm9vRGtTLTdBWjNGMDhZRC1qNDZXYVk3TXB0bWZ4ZFhpYUtfZ2JaalVZdjU3emN6LUptbjA?oc=5"
-    },
-    {
-      "headline": "Iran rules out Omani proposal to manage Strait of Hormuz - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran rules out Omani proposal to manage Strait of Hormuz\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-07-29 03:29",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcFJoOXIwZmxCNHBjd05nc3dlYjNXXzd1NzdyQldTOVQ4S3NjZnNDRWdqdG1WUFRUS2tRSkJJTEhQYjJWa1FraklySUtoamVybzBfbUR4aUItanFrRG1hMDZJTzlSQ3lrS25SLUo4QzR0RVQxdmFSVUFaUFpHYWV0cmdnVURNVHJ1QzBzM0pIRTMwUmVFZmxwVVpyTklTallXU2ZLOGl3TDJ1U3VnRzd3bmZnQjVfcUw2a1pWSGdFOTNlUXFa?oc=5"
-    },
-    {
-      "headline": "Audi continues U.S. product push with three-row Q9 SUV",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Audi sales have struggled in the U.S. over the last several quarters. The brand has been hit by tariffs and a market shift away from EVs. New product may help.",
-      "category": "global_markets",
-      "date": "2026-07-29 01:56",
-      "link": "https://www.cnbc.com/2026/07/28/audi-q9-suv.html"
+      "impact": "Palo Alto Networks' share price has significantly increased, but this growth is not fully supported by underlying fundamentals. While recent acquisitions have boosted headline growth, organic growth remains in the mid-teens. The author anticipates weak forward returns due to the speculative valuatio",
+      "category": "us_equities",
+      "date": "2026-07-29 14:51",
+      "link": "https://seekingalpha.com/article/4926946-palo-alto-networks-valuation-has-reached-absurd-levels"
     }
   ]
 }
