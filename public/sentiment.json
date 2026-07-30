@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-30T08:07:31.669638",
+  "timestamp": "2026-07-30T15:52:38.854779",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.7,
-    "bullish": 13,
+    "bullish": 15,
     "neutral": 8,
-    "bearish": 4,
-    "high_priority": 12,
+    "bearish": 2,
+    "high_priority": 13,
     "material_events": 5
   },
   "sources": {
@@ -14,11 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 11,
-    "Reuters": 5,
-    "Bloomberg": 3,
+    "CNBC": 10,
+    "Reuters": 7,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "Benzinga": 1
+    "XTB.com": 1
   },
   "top_signals": [
     {
@@ -28,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -78,7 +78,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -88,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -98,7 +98,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -108,8 +108,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Ferrari raises 2026 guidance after Q2 earnings beat",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Ferrari is bumping up its 2026 guidance after beating Wall Street's second quarter expectations amid \"healthy\" demand for its products.",
+      "category": "corporate_earnings",
+      "date": "2026-07-30 11:58",
+      "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html"
     },
     {
       "headline": "Carvana stock falls as auto retailer\u2019s 2026 earnings guidance misses Wall Street\u2019s expectations",
@@ -122,24 +132,24 @@
       "link": "https://www.cnbc.com/2026/07/29/carvana-cvna-earnings-q2-2026.html"
     },
     {
-      "headline": "S&P 500 futures edge higher as oil climbs; investors await Fed rates decision: Live updates",
+      "headline": "S&P 500 futures are flat as oil prices jump, traders brace for Fed decision: Live updates",
       "score": 8,
       "source": "CNBC",
       "sentiment": "positive",
       "impact": "The Dow is coming off its third straight winning day.",
       "category": "us_monetary_policy",
-      "date": "2026-07-29 07:11",
+      "date": "2026-07-29 13:17",
       "link": "https://www.cnbc.com/2026/07/28/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Ford raises guidance after Q2 earnings beat, says F-Series recovery is on track",
+      "headline": "The Fed meeting, Ford earnings, Trump's investment portfolio and more in Morning Squawk",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Ford cited operational improvements, resilient vehicle pricing and a high sales mix of profitable products for its performance and the improved guidance.\u00a0",
-      "category": "corporate_earnings",
-      "date": "2026-07-28 22:49",
-      "link": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html"
+      "sentiment": "neutral",
+      "impact": "Here are five key things investors need to know to start the trading day.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-29 12:44",
+      "link": "https://www.cnbc.com/2026/07/29/5-things-to-know-before-the-stock-market-opens.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -148,7 +158,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -158,26 +168,56 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-30 08:07",
+      "date": "2026-07-30 15:52",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Arm Delivers a Record Q1 \u2014 Earnings, Revenues Beat Estimates (CORRECTED)",
+      "headline": "Jeep maker Stellantis swings to profit on rising demand in North America",
       "score": 7,
-      "source": "Benzinga",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Arm reported a record first quarter, with earnings of 45 cents per share and revenue of $1.29 billion, both surpassing analyst estimates. Royalty revenue surged 22%, driven by data center royalties more than doubling year-over-year, and licensing revenue increased by 23%. The company anticipates sec",
+      "impact": "Auto giant Stellantis on Thursday swung to profit in the second quarter, boosted by rising demand in North America.",
       "category": "corporate_earnings",
-      "date": "2026-07-30 07:48",
-      "link": "https://www.benzinga.com/markets/earnings/26/07/60782135/arm-delivers-a-record-q1-earnings-revenues-beat-estimates"
+      "date": "2026-07-30 15:02",
+      "link": "https://www.cnbc.com/2026/07/30/stellantis-q2-earnings-autos-jeep.html"
     },
     {
-      "headline": "Dollar recovers as Fed holds rates, US strikes Iran - Reuters",
+      "headline": "US OPEN: Nasdaq rebounds! Microsoft and Lam Research earnings revive AI trade!",
+      "score": 7,
+      "source": "XTB.com",
+      "sentiment": "positive",
+      "impact": "The Nasdaq 100 has rebounded, driven by strong earnings from Microsoft and Lam Research, which are reviving investor confidence in the AI sector. Microsoft's Azure growth and restrained capital expenditure, alongside Lam Research's strong Q4 results, significantly boosted tech stocks. Meanwhile, the",
+      "category": "us_equities",
+      "date": "2026-07-30 14:28",
+      "link": "https://www.xtb.com/int/market-analysis/news-and-research/us-open-nasdaq-rebounds-microsoft-and-lam-research-earnings-revive-ai-trade"
+    },
+    {
+      "headline": "Shell profit more than doubles to $9.8 billion, second-highest on record, as Iran war lifts prices - Reuters",
       "score": 7,
       "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Dollar recovers as Fed holds rates, US strikes Iran\u00a0\u00a0Reuters",
+      "sentiment": "positive",
+      "impact": "Shell profit more than doubles to $9.8 billion, second-highest on record, as Iran war lifts prices\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-07-30 06:24",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVlEVkZ5c0ZFc3F3cjhHdllWWFNMNlAzR3VKVGR3cTFGQU11UUFJbWNzemJBLTIwX0lwWHBydVBySkUzS2dQQXJlZGpFRTNEdGljNENnaXNZQmQ0blUzejRLU3dsRlpLeExXZkJHdUlBcGlqZ3EyeFRIS2toSUdsbmpmTzh1eHJyODF4M2VtZi02ZHR3N2F5Sjd6Rk9nbXl1TmVrZWk1UXkwUHAxZjVZ?oc=5"
+    },
+    {
+      "headline": "Gold gains on softer dollar as markets assess Fed stance, Middle East tensions - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Gold gains on softer dollar as markets assess Fed stance, Middle East tensions\u00a0\u00a0Reuters",
       "category": "us_monetary_policy",
+      "date": "2026-07-30 01:25",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQVJINlBLLWpMT3doZzQtUlVpbTFsZGt3c2xsczh0cmxHTEw1dG1HdFFNVUUxMkpuNE9pa1N5SDB0ZVVSYU51VUNvZ1lFdENrMmVzTUZ6RDAtYkp1Sm5hNy1PSXh6bmhKcTZMU3FtRmk0S1BSeUxNVWgtS3R0OWRIc0l2WG5ZaEpDVVAxT25FTTBacmMtYnlPTHh0bEdwQmUyVDRWUHFmSGJ4ZHBCRExSMGoybUlvTU16RGxxaE4zNm4?oc=5"
+    },
+    {
+      "headline": "US dollar slips against yen as focus shifts to inflation data - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US dollar slips against yen as focus shifts to inflation data\u00a0\u00a0Reuters",
+      "category": "global_markets",
       "date": "2026-07-30 01:13",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUFkZlJYUUNoTkxoekFZRWtKQXR4WGFheDhRNjRwdTFTQzQza185ZHRUaFZmTi1Ka0dQSkpjbDVMZS1SZDJaUVhzMW5nQ3gwdkpLcFdtUjJ0NTM3dnpONFdlbmh2bUJkQWhocXp2N3VhRWdxVUhOSWpjbVg0elZyR2JDQ1lCU3FIeVJ5cXUzOTFsNktCZWNKQTFPdFNibmt5aDlBUg?oc=5"
     },
@@ -222,54 +262,14 @@
       "link": "https://www.cnbc.com/2026/07/29/fed-keeps-rates-steady-the-big-question-now-what-will-microsoft-and-meta-say-on-ai-capex-.html"
     },
     {
-      "headline": "Procter & Gamble revenue misses estimates as volume stays unchanged",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Procter & Gamble reported quarterly earnings per share that topped Wall Street's estimates, but its revenue fell short of expectations.",
-      "category": "corporate_earnings",
-      "date": "2026-07-29 14:53",
-      "link": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html"
-    },
-    {
       "headline": "Humana tops quarterly estimates, maintains profit outlook as medical costs stay in line",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
       "impact": "Humana maintained its 2026 adjusted profit outlook of at least $9 per share, which some analysts called a \"disappointment\" amid high expectations for insurers.",
       "category": "corporate_earnings",
-      "date": "2026-07-29 13:23",
+      "date": "2026-07-29 16:18",
       "link": "https://www.cnbc.com/2026/07/29/humana-hum-earnings-q2-2026.html"
-    },
-    {
-      "headline": "Cyclospora outbreak tied to Taco Bell will steal the spotlight from Yum Brands' earnings",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Wall Street is projecting a strong second quarter for Yum Brands, but investors' focus will be on updates related to the cyclospora outbreak tied to Taco Bell.",
-      "category": "corporate_earnings",
-      "date": "2026-07-29 11:00",
-      "link": "https://www.cnbc.com/2026/07/29/cyclospora-outbreak-taco-bell-yum-brands-earnings.html"
-    },
-    {
-      "headline": "SK Hynix\u2019s Record Profit Misses Investors\u2019 Lofty AI Expectations",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "SK Hynix Inc. earmarked at least $31 billion in capital spending this year after reporting a six-fold surge in quarterly profit, a record outlay that coincides with growing fears about overinvestment in AI capacity.",
-      "category": "corporate_earnings",
-      "date": "2026-07-29 04:22",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/sk-hynix-s-record-profit-misses-investors-lofty-ai-expectations"
-    },
-    {
-      "headline": "Shein says it's under investigation by the Federal Trade Commission as it prepares for Hong Kong IPO",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Shein disclosed the FTC is investigating its U.S. business, but the nature of the probe is unclear.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-28 17:12",
-      "link": "https://www.cnbc.com/2026/07/28/shein-discloses-its-under-investigation-by-the-ftc.html"
     }
   ]
 }
