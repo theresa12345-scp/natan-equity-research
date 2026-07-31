@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-30T15:52:38.854779",
+  "timestamp": "2026-07-31T08:34:21.731729",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.7,
-    "bullish": 15,
-    "neutral": 8,
-    "bearish": 2,
+    "avg_relevance": 7.5,
+    "bullish": 11,
+    "neutral": 9,
+    "bearish": 5,
     "high_priority": 13,
     "material_events": 5
   },
@@ -14,11 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 10,
+    "CNBC": 9,
     "Reuters": 7,
     "Bloomberg": 2,
+    "The Washington Post": 1,
     "Caixin/S&P Global": 1,
-    "XTB.com": 1
+    "Yahoo Entertainment": 1
   },
   "top_signals": [
     {
@@ -28,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -78,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -88,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -98,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -108,8 +109,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Rivian reduces 2026 spending plans, narrows earnings guidance",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Rivian reduced its 2026 spending plans and slightly narrowed its previously\u00a0forecast losses this year as the company reported second-quarter results.",
+      "category": "corporate_earnings",
+      "date": "2026-07-30 21:19",
+      "link": "https://www.cnbc.com/2026/07/30/rivian-rivn-q2-2026-earnings.html"
     },
     {
       "headline": "Ferrari raises 2026 guidance after Q2 earnings beat",
@@ -122,6 +133,16 @@
       "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html"
     },
     {
+      "headline": "A divided Fed holds interest rates steady despite stubborn inflation",
+      "score": 8,
+      "source": "The Washington Post",
+      "sentiment": "positive",
+      "impact": "The central bank left rates unchanged for a fifth straight meeting, holding off on an increase designed to fight rising prices even as three fed officials argued for higher rates.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-30 04:36",
+      "link": "https://www.washingtonpost.com/business/2026/07/29/fed-holds-interest-rates-steady-warsh-second-meeting/"
+    },
+    {
       "headline": "Carvana stock falls as auto retailer\u2019s 2026 earnings guidance misses Wall Street\u2019s expectations",
       "score": 8,
       "source": "CNBC",
@@ -132,33 +153,13 @@
       "link": "https://www.cnbc.com/2026/07/29/carvana-cvna-earnings-q2-2026.html"
     },
     {
-      "headline": "S&P 500 futures are flat as oil prices jump, traders brace for Fed decision: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The Dow is coming off its third straight winning day.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-29 13:17",
-      "link": "https://www.cnbc.com/2026/07/28/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "The Fed meeting, Ford earnings, Trump's investment portfolio and more in Morning Squawk",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Here are five key things investors need to know to start the trading day.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-29 12:44",
-      "link": "https://www.cnbc.com/2026/07/29/5-things-to-know-before-the-stock-market-opens.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -168,108 +169,108 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-30 15:52",
+      "date": "2026-07-31 08:34",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Jeep maker Stellantis swings to profit on rising demand in North America",
+      "headline": "Bank of England keeps rates on hold, awaits clearer sign of Iran war inflation hit - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Bank of England keeps rates on hold, awaits clearer sign of Iran war inflation hit\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-30 16:46",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcXV6ZUFyTnVCZmxRUVdTancteHlMckpydGNUdmYwdDFtaTllNmhNdkh2S0J1NS1CWDE1VG51Y18wcU41VloxRWZ5LWpTVGlGb2NfeDRkZ1RJeUs5aFFxaHIwVzByUk9md01STlJqVlRqLUNaVWdYN0psNXFGUlpuSVJOWGZ2LWtrNnJxbTlxUUNVNWxvOXJKZXM1alBLbzR4QXBUTjIzMXNwOG4zM2ZQVlZ6enJHZw?oc=5"
+    },
+    {
+      "headline": "We're buying an AI stock that we recently took profits on and upgrading another",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "If leverage is out of the AI infrastructure stocks, then it's time to get more positive on the theme after their recent decline.",
+      "category": "corporate_earnings",
+      "date": "2026-07-30 15:43",
+      "link": "https://www.cnbc.com/2026/07/30/were-buying-an-ai-stock-that-we-recently-took-profits-on-and-upgrading-another.html"
+    },
+    {
+      "headline": "German inflation rises in July, economy grows more than expected in Q2 - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "German inflation rises in July, economy grows more than expected in Q2\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-07-30 13:18",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSlVmQWpZSDUtb0Z2b1NqMTkzTXhScDctbnZBVXkta2syTXJFZk5VV19UOFQyUGhJM1o0MVZ2OEVrN2REdEJlOUZkbm16eEQtNVFqdm1QcUZpbHl2QmFQNkY2TFNEMU4ySWJvc2NXRVFBVlNNZlFtazcySVYxNXgxeUN6dEZnTmNUejBZSkl2eWpTbVpJc3cyV0daWjMzU0daOFRv?oc=5"
+    },
+    {
+      "headline": "Jeep maker Stellantis swings to profit on rising demand in North America; shares fall 5%",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
       "impact": "Auto giant Stellantis on Thursday swung to profit in the second quarter, boosted by rising demand in North America.",
       "category": "corporate_earnings",
-      "date": "2026-07-30 15:02",
+      "date": "2026-07-30 07:51",
       "link": "https://www.cnbc.com/2026/07/30/stellantis-q2-earnings-autos-jeep.html"
     },
     {
-      "headline": "US OPEN: Nasdaq rebounds! Microsoft and Lam Research earnings revive AI trade!",
+      "headline": "Microsoft Corp (MSFT) (Q4 2026) Earnings Call Highlights: Record Revenue Surpasses $331 ...",
       "score": 7,
-      "source": "XTB.com",
+      "source": "Yahoo Entertainment",
       "sentiment": "positive",
-      "impact": "The Nasdaq 100 has rebounded, driven by strong earnings from Microsoft and Lam Research, which are reviving investor confidence in the AI sector. Microsoft's Azure growth and restrained capital expenditure, alongside Lam Research's strong Q4 results, significantly boosted tech stocks. Meanwhile, the",
-      "category": "us_equities",
-      "date": "2026-07-30 14:28",
-      "link": "https://www.xtb.com/int/market-analysis/news-and-research/us-open-nasdaq-rebounds-microsoft-and-lam-research-earnings-revive-ai-trade"
-    },
-    {
-      "headline": "Shell profit more than doubles to $9.8 billion, second-highest on record, as Iran war lifts prices - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Shell profit more than doubles to $9.8 billion, second-highest on record, as Iran war lifts prices\u00a0\u00a0Reuters",
+      "impact": "Microsoft Corp (MSFT) delivered a record fiscal year with Azure revenue surpassing $100 billion, while AI-driven demand continues to outpace capacity.",
       "category": "corporate_earnings",
-      "date": "2026-07-30 06:24",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVlEVkZ5c0ZFc3F3cjhHdllWWFNMNlAzR3VKVGR3cTFGQU11UUFJbWNzemJBLTIwX0lwWHBydVBySkUzS2dQQXJlZGpFRTNEdGljNENnaXNZQmQ0blUzejRLU3dsRlpLeExXZkJHdUlBcGlqZ3EyeFRIS2toSUdsbmpmTzh1eHJyODF4M2VtZi02ZHR3N2F5Sjd6Rk9nbXl1TmVrZWk1UXkwUHAxZjVZ?oc=5"
+      "date": "2026-07-30 05:04",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corp-msft-q4-2026-050436699.html"
     },
     {
-      "headline": "Gold gains on softer dollar as markets assess Fed stance, Middle East tensions - Reuters",
-      "score": 7,
+      "headline": "Oil falls more than $1 on greater flows despite US-Iran war - Reuters",
+      "score": 6,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Gold gains on softer dollar as markets assess Fed stance, Middle East tensions\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-07-30 01:25",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQVJINlBLLWpMT3doZzQtUlVpbTFsZGt3c2xsczh0cmxHTEw1dG1HdFFNVUUxMkpuNE9pa1N5SDB0ZVVSYU51VUNvZ1lFdENrMmVzTUZ6RDAtYkp1Sm5hNy1PSXh6bmhKcTZMU3FtRmk0S1BSeUxNVWgtS3R0OWRIc0l2WG5ZaEpDVVAxT25FTTBacmMtYnlPTHh0bEdwQmUyVDRWUHFmSGJ4ZHBCRExSMGoybUlvTU16RGxxaE4zNm4?oc=5"
+      "sentiment": "negative",
+      "impact": "Oil falls more than $1 on greater flows despite US-Iran war\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-07-31 03:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWtnbUQ2S2JIalNxeXVETFdYcU95VDBtOHpPdlAxWDkzd1B0VVBPNnNpMW8xTGVRbkJ1NTFqbmJ0Ui1ucUUtSVhZeXZwRTQ4eE5FTWRkdzBlZEVJUzZHR0tKdnZTeXFoQlFPSHpGX0pqaEVVU3RhWFJqR2xNZnVJeDdOaG9ONUEtaThtRXhXakladzRkT2JvR1hxSEREVmxkRGRjQWw5ZTNoeTQ?oc=5"
     },
     {
-      "headline": "US dollar slips against yen as focus shifts to inflation data - Reuters",
-      "score": 7,
+      "headline": "US cyber defense agency warns hackers are increasingly targeting water systems - Reuters",
+      "score": 6,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "US dollar slips against yen as focus shifts to inflation data\u00a0\u00a0Reuters",
+      "sentiment": "neutral",
+      "impact": "US cyber defense agency warns hackers are increasingly targeting water systems\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-07-30 01:13",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUFkZlJYUUNoTkxoekFZRWtKQXR4WGFheDhRNjRwdTFTQzQza185ZHRUaFZmTi1Ka0dQSkpjbDVMZS1SZDJaUVhzMW5nQ3gwdkpLcFdtUjJ0NTM3dnpONFdlbmh2bUJkQWhocXp2N3VhRWdxVUhOSWpjbVg0elZyR2JDQ1lCU3FIeVJ5cXUzOTFsNktCZWNKQTFPdFNibmt5aDlBUg?oc=5"
+      "date": "2026-07-30 21:43",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWNJNFA5THZLRlg3TTVYX2tkQmJzOUdQamtWQXZDOU81R1RTdjBtX3E2S3k3RlVfR2p6WE9uZGpfbzNCUHpGN0hhZ3ROY3pmN1FiS1JZa0FjQ2FDMDZuOUFRSjJad0wyX3lZWUFfQ1FjdGs4RGZvRVpnYzBwT1o0UlkyaGVRTkpvdVo0SmpCUkdhWFN3TEVaVHpfTnB1YWUwbzNuMUpoa2VsdHdtM2hNZ2JaRUE?oc=5"
     },
     {
-      "headline": "Samsung Electronics second-quarter operating profit beats estimates on soaring AI chip demand",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Samsung Electronics extended its record run with second-quarter operating profit topping analysts' estimates.",
-      "category": "corporate_earnings",
-      "date": "2026-07-29 23:58",
-      "link": "https://www.cnbc.com/2026/07/30/samsung-q2-earnings-ai-chip-.html"
-    },
-    {
-      "headline": "Trump says will hit Iran hard after attack, was briefed on Egypt tanker - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says will hit Iran hard after attack, was briefed on Egypt tanker\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-07-29 21:48",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS2Nvem1TcnlqcGxxZjc1Xy1RZHFPNDFWOU1HSVUyYk1DVjZuYUhYWV9QN1I1Q0JraUlHcTNyaEY1bUJTZVZZbl9BYi1pdTBXWTU4VXRzcHpRX25KUGtPUG8xM2FGVFpaWGh5M25OVXZpenZPeUMtbHdVdHNwMS1yTkVfNU1pR2N2aGhjcFZqakJjakdKWGNkSHNqWGUxTEZySzV6Ujh1ZVUtTEItSmtKd2lzVXJGamNDakVGT1B3?oc=5"
-    },
-    {
-      "headline": "Here are the five big takeaways from this week's Fed meeting",
-      "score": 7,
+      "headline": "'The Odyssey' extends stay in 70 mm Imax theaters as shows sell out weeks in advance",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The Federal Reserve on Wednesday followed through on expectations for no interest rate change.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-29 20:42",
-      "link": "https://www.cnbc.com/2026/07/29/here-are-the-five-big-takeaways-from-this-weeks-fed-meeting.html"
+      "impact": "Universal and Imax have extended the availability of 70 mm screenings of Christopher Nolan's retelling of Homer's epic into mid-September.",
+      "category": "global_markets",
+      "date": "2026-07-30 20:51",
+      "link": "https://www.cnbc.com/2026/07/30/the-odyssey-70mm-imax-run-extended-until-september.html"
     },
     {
-      "headline": "Fed keeps rates steady. The big question now: What will Microsoft and Meta say on AI capex?",
-      "score": 7,
+      "headline": "Chipotle stock jumps as chain hikes same-store sales forecast, says cyclospora fears hit sales in late July",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Chipotle Mexican Grill stock has fallen more than 7% this year, dragging its market value down to roughly $44 billion.",
+      "category": "global_markets",
+      "date": "2026-07-30 20:34",
+      "link": "https://www.cnbc.com/2026/07/29/chipotle-mexican-grill-cmg-q2-2026-earnings.html"
+    },
+    {
+      "headline": "Cyclospora outbreak has hurt Taco Bell but sales are already improving, Yum Brands CEO says",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-29 19:11",
-      "link": "https://www.cnbc.com/2026/07/29/fed-keeps-rates-steady-the-big-question-now-what-will-microsoft-and-meta-say-on-ai-capex-.html"
-    },
-    {
-      "headline": "Humana tops quarterly estimates, maintains profit outlook as medical costs stay in line",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Humana maintained its 2026 adjusted profit outlook of at least $9 per share, which some analysts called a \"disappointment\" amid high expectations for insurers.",
-      "category": "corporate_earnings",
-      "date": "2026-07-29 16:18",
-      "link": "https://www.cnbc.com/2026/07/29/humana-hum-earnings-q2-2026.html"
+      "impact": "The restaurant company provided no update on the cyclospora outbreak tied to Taco Bell restaurants is affecting its business.",
+      "category": "global_markets",
+      "date": "2026-07-30 20:32",
+      "link": "https://www.cnbc.com/2026/07/30/yum-brands-yum-q2-2026-earnings.html"
     }
   ]
 }
