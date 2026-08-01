@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-31T16:01:43.527997",
+  "timestamp": "2026-08-01T08:03:47.213756",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.5,
-    "bullish": 9,
-    "neutral": 14,
-    "bearish": 2,
-    "high_priority": 12,
+    "avg_relevance": 7.4,
+    "bullish": 11,
+    "neutral": 11,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -15,14 +15,15 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 4,
-    "Bloomberg": 2,
-    "CNBC": 9,
-    "Fortune": 1,
+    "Bloomberg": 3,
+    "CNBC": 4,
     "Caixin/S&P Global": 1,
-    "CNN": 1,
-    "Financial Times": 1,
+    "TradingKey": 1,
+    "TradingView": 3,
     "The Wall Street Journal": 1,
-    "MarketWatch": 1
+    "Electrek": 1,
+    "CNN": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -32,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,7 +103,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -116,43 +117,13 @@
       "link": "https://www.cnbc.com/2026/07/30/rivian-rivn-q2-2026-earnings.html"
     },
     {
-      "headline": "Ferrari raises 2026 guidance after Q2 earnings beat",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Ferrari is bumping up its 2026 guidance after beating Wall Street's second quarter expectations amid \"healthy\" demand for its products.",
-      "category": "corporate_earnings",
-      "date": "2026-07-30 15:14",
-      "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html"
-    },
-    {
-      "headline": "Wall Street reacts brutally to Fed chair Warsh\u2019s interest rate hold: \u2018the bond market puked on him\u2019",
-      "score": 8,
-      "source": "Fortune",
-      "sentiment": "neutral",
-      "impact": "Everything you need to know before you reach the office this morning.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-30 10:45",
-      "link": "https://fortune.com/2026/07/30/wall-street-fed-chair-warsh-interest-rate-bond-market-puked/"
-    },
-    {
-      "headline": "Stock futures rise as traders digest Big Tech earnings and hope to recover from Fed Day sell-off: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Investors were digesting megacap tech earnings and the Federal Reserve's decision to hold rates steady.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-30 09:30",
-      "link": "https://www.cnbc.com/2026/07/29/stock-market-today-live-updates.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -162,8 +133,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-07-31 16:01",
+      "date": "2026-08-01 08:03",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Alpha Pro Tech Ltd (APT) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+      "score": 7,
+      "source": "TradingKey",
+      "sentiment": "neutral",
+      "impact": "This article provides an earnings forecast for Alpha Pro Tech Ltd (APT), detailing future EPS and revenue growth estimates. It includes a snapshot of the company's current stock performance, market capitalization, and P/E ratio, alongside navigation to financial analysis and peer comparison tools. T",
+      "category": "corporate_earnings",
+      "date": "2026-08-01 07:41",
+      "link": "https://www.tradingkey.com/markets/stocks/apt/earnings"
+    },
+    {
+      "headline": "ArrowMark Financial Corp. Revenue Breakdown \u2013 NASDAQ:BANX",
+      "score": 7,
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "This article provides a revenue breakdown for ArrowMark Financial Corp. (NASDAQ: BANX), focusing on its top segments and regional performance. It highlights that the greatest contribution to the company's revenue came from the United States, which generated $17.18 million USD last year and $30.11 mi",
+      "category": "us_equities",
+      "date": "2026-08-01 07:40",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-BANX/financials-segments/"
+    },
+    {
+      "headline": "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market\u2019s next move",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Options traders and market makers in Chicago were quick to buy dips below 7,500 in the benchmark index Friday, but almost as quick to sell rallies above that level.",
+      "category": "us_equities",
+      "date": "2026-07-31 18:07",
+      "link": "https://www.cnbc.com/2026/07/31/the-sp-500-is-stuck-this-obscure-index-could-determine-the-markets-next-move.html"
+    },
+    {
+      "headline": "Stock Market News, July 30, 2026: Nasdaq Leaps, Fueled by Big Rally in Microsoft Shares",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-07-31 03:43",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-30-2026"
     },
     {
       "headline": "IBM CEO says quantum computing will have a 'measurable impact' on earnings by 2028 or 2029",
@@ -176,6 +187,16 @@
       "link": "https://www.cnbc.com/2026/07/30/ibm-ceo-quantum-computing-measurable-impact-earnings-2028-2029.html"
     },
     {
+      "headline": "Rivian (RIVN) Q2 2026 earnings: revenue up 27%, gross margins soaring",
+      "score": 7,
+      "source": "Electrek",
+      "sentiment": "positive",
+      "impact": "Rivian's Q2 2026 revenue rose 27% to $1.658B and gross profit hit a record $179M as R2 deliveries began, but its car business still lost money.",
+      "category": "corporate_earnings",
+      "date": "2026-07-30 20:05",
+      "link": "http://electrek.co/2026/07/30/rivian-rivn-q2-2026-earnings-r2-deliveries-revenue-up-27/"
+    },
+    {
       "headline": "Bank of England keeps rates on hold, awaits clearer sign of Iran war inflation hit - Reuters",
       "score": 7,
       "source": "Reuters",
@@ -186,14 +207,14 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcXV6ZUFyTnVCZmxRUVdTancteHlMckpydGNUdmYwdDFtaTllNmhNdkh2S0J1NS1CWDE1VG51Y18wcU41VloxRWZ5LWpTVGlGb2NfeDRkZ1RJeUs5aFFxaHIwVzByUk9md01STlJqVlRqLUNaVWdYN0psNXFGUlpuSVJOWGZ2LWtrNnJxbTlxUUNVNWxvOXJKZXM1alBLbzR4QXBUTjIzMXNwOG4zM2ZQVlZ6enJHZw?oc=5"
     },
     {
-      "headline": "We're buying an AI stock that we recently took profits on and upgrading another",
+      "headline": "\u2018Talk Is Cheap\u2019: Wall Street Delivers Harsh Verdict on Warsh Fed",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "If leverage is out of the AI infrastructure stocks, then it's time to get more positive on the theme after their recent decline.",
-      "category": "corporate_earnings",
-      "date": "2026-07-30 15:43",
-      "link": "https://www.cnbc.com/2026/07/30/were-buying-an-ai-stock-that-we-recently-took-profits-on-and-upgrading-another.html"
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "It had been just six weeks since Federal Reserve Chairman Kevin Warsh vowed to reestablish the central bank\u2019s reputation as an inflation fighter. But as he took to the podium to explain why the Fed again sat on the fence Wednesday \u2014 and held interest rates st\u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-07-30 15:51",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-30/-talk-is-cheap-wall-street-delivers-harsh-verdict-on-warsh-fed"
     },
     {
       "headline": "Jeep maker Stellantis swings to profit on rising demand in North America",
@@ -216,64 +237,44 @@
       "link": "https://www.cnn.com/2026/07/30/economy/us-pce-inflation-consumer-spending-june"
     },
     {
-      "headline": "Kevin Warsh\u2019s stripped-back Fed communication \u2018already backfiring\u2019, say investors",
-      "score": 7,
-      "source": "Financial Times",
+      "headline": "Semler Scientific, Inc. Revenue Breakdown \u2013 BMV:SMLR",
+      "score": 6,
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "Traders warn lack of guidance on interest rates erodes US central bank\u2019s influence on Treasury market",
-      "category": "us_monetary_policy",
-      "date": "2026-07-30 10:24",
-      "link": "https://www.ft.com/content/57aac838-baee-406d-b4ac-c0ffda351aee?syn-25a6b1a6\\\\u003d1"
-    },
-    {
-      "headline": "Stock Market Today: Dow Futures Tick Up; Bond Selloff Extends; Oil Ticks Higher \u2014 Live Updates",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
+      "impact": "This article provides a revenue breakdown for Semler Scientific, Inc. (BMV:SMLR) on TradingView. It indicates that the content is primarily a financial overview, with options to view statements, statistics, dividends, earnings, and segment performance. The page structure suggests detailed financial ",
       "category": "us_equities",
-      "date": "2026-07-30 10:01",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-30-2026"
+      "date": "2026-08-01 07:41",
+      "link": "https://www.tradingview.com/symbols/BMV-SMLR/financials-segments/"
     },
     {
-      "headline": "FIFA tests the limits of private equity in sports with World Cup subsidiary sale",
+      "headline": "AutoNation Inc reports results for the quarter ended June 30 - Earnings Summary",
       "score": 6,
-      "source": "CNBC",
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "UEFA and Concacaf's rejection of FIFA's plan to sell a 20% stake in the World Cup's commercial operations highlights uneasiness with private equity in sports.",
-      "category": "global_markets",
-      "date": "2026-07-31 16:00",
-      "link": "https://www.cnbc.com/2026/07/31/fifa-world-cup-private-equity-sports.html"
+      "impact": "AutoNation Inc has released its earnings summary for the quarter that ended on June 30. The article, sourced from Reuters, appears to be a brief announcement of these financial results. To access the full details, readers are prompted to subscribe for unlimited access to news articles on TradingView",
+      "category": "corporate_earnings",
+      "date": "2026-08-01 07:39",
+      "link": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N43X3BL:0-autonation-inc-reports-results-for-the-quarter-ended-june-30-earnings-summary/"
     },
     {
-      "headline": "GM to launch its own in-vehicle AI system later this year",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "General Motors plans to launch a proprietary in-vehicle artificial intelligence system that's better tailored for its customers later this year.",
-      "category": "asia_economy",
-      "date": "2026-07-31 15:48",
-      "link": "https://www.cnbc.com/2026/07/31/gm-in-vehicle-ai-system.html"
-    },
-    {
-      "headline": "Microsoft shares are surging. Here\u2019s how to still make money, says Mike Khouw",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Following Microsoft's (MSFT) Q4 earnings and record-setting appreciation, the immediate binary event risk is officially behind us.",
-      "category": "global_markets",
-      "date": "2026-07-31 15:26",
-      "link": "https://www.cnbc.com/2026/07/31/microsoft-shares-are-surging-heres-how-to-still-make-money-says-mike-khouw.html"
-    },
-    {
-      "headline": "A spot is opening up in the S&P 500, and these stocks are top candidates to fill the void",
+      "headline": "The S&P 500 is making a change by adding this little-known industrial stock",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Videogame publisher EA is set to be taken private, opening the door for a new company to join the benchmark index.",
+      "sentiment": "positive",
+      "impact": "Ferguson Enterprises\u2019 stock was rallying more than 8% after news the Newport News, Va., company will be joining the S&P 500 index, edging out better-known names for inclusion.",
       "category": "us_equities",
-      "date": "2026-07-31 14:51",
-      "link": "https://www.marketwatch.com/story/a-spot-is-opening-up-in-the-s-p-500-and-these-stocks-are-top-candidates-to-fill-the-void-5e72dd5d?mod=mw_rss_topstories"
+      "date": "2026-07-31 21:53",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-is-making-a-change-by-adding-this-little-known-industrial-stock-da648bd1?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "S&P 500 ends with its first July decline since 2014. Here are the stocks that led the selloff.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "After a whipsaw end to the month, the stock market\u2019s decline was highlighted by the worst month for chip stocks in 24 years.",
+      "category": "us_equities",
+      "date": "2026-07-31 21:10",
+      "link": "https://www.marketwatch.com/story/s-p-500-heads-for-the-first-july-decline-since-2014-here-are-the-stocks-that-led-the-selloff-5677f63b?mod=mw_rss_topstories"
     }
   ]
 }
