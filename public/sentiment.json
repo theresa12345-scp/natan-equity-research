@@ -1,27 +1,40 @@
 {
-  "timestamp": "2026-08-01T15:02:16.915628",
+  "timestamp": "2026-08-02T08:05:29.028216",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
+    "avg_relevance": 7.5,
     "bullish": 12,
-    "neutral": 9,
-    "bearish": 4,
+    "neutral": 11,
+    "bearish": 2,
     "high_priority": 11,
-    "material_events": 4
+    "material_events": 5
   },
   "sources": {
+    "Financial Times": 1,
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 2,
-    "CNBC": 13,
-    "MarketWatch": 1,
+    "Bloomberg": 5,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "Electrek": 1
+    "The Wall Street Journal": 2,
+    "Yahoo Finance UK": 1,
+    "Simply Wall St": 2,
+    "MarketBeat": 1
   },
   "top_signals": [
+    {
+      "headline": "Bond sell-off sent warning on Federal Reserve\u2019s credibility, says top central bank official",
+      "score": 10,
+      "source": "Financial Times",
+      "sentiment": "negative",
+      "impact": "Alberto Musalem says he supported dissenters\u2019 calls for a quarter-point interest rate rise",
+      "category": "us_monetary_policy",
+      "date": "2026-07-31 23:10",
+      "link": "https://www.ft.com/content/2735a2b5-db87-4a7f-9484-20c1e429267d?syn-25a6b1a6\\\\u003d1"
+    },
     {
       "headline": "Bank Indonesia Holds BI-Rate at 5.75% to Support Rupiah Stability",
       "score": 9,
@@ -29,7 +42,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +62,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +72,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +82,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +102,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,28 +112,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Fed officials who voted to hike rates say action is needed now against inflation",
+      "headline": "As Warsh\u2019s Fed faces pressure to act on inflation, these indicators show it\u2019s at its lowest in years",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Kashkari and Hammack joined Dallas Fed President Lorie Logan in dissenting against holding the Fed's key overnight borrowing rate steady.",
+      "sentiment": "neutral",
+      "impact": "Trimmed mean measures are painting a different picture than the headline numbers.",
       "category": "us_monetary_policy",
-      "date": "2026-07-31 12:01",
-      "link": "https://www.cnbc.com/2026/07/31/fed-officials-who-voted-to-hike-rates-say-action-is-needed-now-against-inflation.html"
-    },
-    {
-      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq poised for strong session as Amazon climbs on earnings, chips gain following surge for South Korea's Kospi",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Stock Market Today: Dow, S&P 500 and Nasdaq poised for solid gains after strong Amazon earnings; chip stocks climb following surge in South Korea's Kospi; Apple falls on weak guidance",
-      "category": "us_equities",
-      "date": "2026-07-31 10:29",
-      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-tech-amazon-apple-earnings-chip-stocks-kospi"
+      "date": "2026-07-31 16:51",
+      "link": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html"
     },
     {
       "headline": "Rivian reduces 2026 spending plans, narrows earnings guidance",
@@ -139,7 +142,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -149,8 +152,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-01 15:02",
+      "date": "2026-08-02 08:05",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Bloomberg puts off adding Indian bonds to its global index",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Bloomberg delays adding Indian bonds to its global index, disappointing traders and prompting expected selling in the bond market.",
+      "category": "fixed_income",
+      "date": "2026-08-01 06:15",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-31/bloomberg-defers-inclusion-of-indian-bonds-in-global-index-ms8wqbxp"
+    },
+    {
+      "headline": "Dollar logs its worst week in over 3 months amid Fed doubts",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Traders boosted their bullish dollar bets ahead of the Fed meeting, turning the most upbeat since 2014 as of Tuesday, according to Commodity Futures Trading Commission data released Friday",
+      "category": "us_monetary_policy",
+      "date": "2026-08-01 04:32",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-31/dollar-heads-for-worst-week-in-three-months-as-fed-doubts-grow"
+    },
+    {
+      "headline": "Indian companies plan for fresh price hikes, testing inflation outlook",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Consumer prices rose above the Reserve Bank of India\u2019s 4% target for the first time in nearly a year and a half in June as food and fuel costs climbed",
+      "category": "global_markets",
+      "date": "2026-08-01 04:27",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-31/indian-firms-plan-fresh-price-hikes-testing-inflation-outlook"
+    },
+    {
+      "headline": "Stock Market News, July 31, 2026: Apple Stock Falls, but Nasdaq Marches Higher",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Amazon's big surge keeps indexes rising",
+      "category": "us_equities",
+      "date": "2026-08-01 01:57",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026"
     },
     {
       "headline": "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market\u2019s next move",
@@ -163,24 +206,14 @@
       "link": "https://www.cnbc.com/2026/07/31/the-sp-500-is-stuck-this-obscure-index-could-determine-the-markets-next-move.html"
     },
     {
-      "headline": "Nasdaq futures rise as Wall Street rebounds; South Korea's Kospi soars 15%: Live updates",
+      "headline": "Exclusive | Fed\u2019s Barkin Says It\u2019s a \u2018Close Call\u2019 Whether Rates Are High Enough",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The after-hours moves followed a powerful rally during Thursday's regular session, led by Microsoft.",
-      "category": "us_equities",
-      "date": "2026-07-31 07:11",
-      "link": "https://www.cnbc.com/2026/07/30/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "BOJ holds rates at 1%, warns of core inflation exceeding 2% target",
-      "score": 7,
-      "source": "CNBC",
+      "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "The decision comes as speculation continues to swirl around whether the Bank of Japan will hike rates at a faster pace.",
-      "category": "global_markets",
-      "date": "2026-07-31 03:33",
-      "link": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html"
+      "impact": "Richmond Fed president, who doesn\u2019t vote on policy this year, says he doesn\u2019t know whether he would have joined three colleagues who dissented in favor of a rate increase",
+      "category": "us_monetary_policy",
+      "date": "2026-07-31 16:49",
+      "link": "https://www.wsj.com/economy/central-banking/tom-barkin-fed-president-interest-rates-99f2b676"
     },
     {
       "headline": "IBM CEO says quantum computing will have a 'measurable impact' on earnings by 2028 or 2029",
@@ -193,14 +226,44 @@
       "link": "https://www.cnbc.com/2026/07/30/ibm-ceo-quantum-computing-measurable-impact-earnings-2028-2029.html"
     },
     {
-      "headline": "Rivian (RIVN) Q2 2026 earnings: revenue up 27%, gross margins soaring",
-      "score": 7,
-      "source": "Electrek",
+      "headline": "What To Expect From Diamondback Energy\u2019s (FANG) Q2 Earnings",
+      "score": 6,
+      "source": "Yahoo Finance UK",
       "sentiment": "positive",
-      "impact": "Rivian's Q2 2026 revenue rose 27% to $1.658B and gross profit hit a record $179M as R2 deliveries began, but its car business still lost money.",
+      "impact": "Diamondback Energy (FANG) is set to report its Q2 earnings this Monday. The market anticipates a 33.2% year-on-year revenue growth, a slowdown from the previous year, but analysts have largely reconfirmed their estimates. The company has a history of surpassing Wall Street's expectations, and invest",
       "category": "corporate_earnings",
-      "date": "2026-07-30 20:05",
-      "link": "http://electrek.co/2026/07/30/rivian-rivn-q2-2026-earnings-r2-deliveries-revenue-up-27/"
+      "date": "2026-08-02 07:00",
+      "link": "https://uk.finance.yahoo.com/news/expect-diamondback-energy-fang-q2-070057566.html"
+    },
+    {
+      "headline": "Astera Labs (ALAB) Is Up 6.7% After Strong AI Connectivity Expectations Ahead Of Q2 Earnings - Has The Bull Case Changed?",
+      "score": 6,
+      "source": "Simply Wall St",
+      "sentiment": "neutral",
+      "impact": "Astera Labs (ALAB) saw a 6.7% stock increase due to strong AI connectivity expectations ahead of its Q2 2026 earnings release, with projected revenue growth of 85-90% year over year. The company's focus on specialized connectivity for AI data centers and new product ramps (Scorpio and PCIe 6) are ke",
+      "category": "corporate_earnings",
+      "date": "2026-08-02 06:48",
+      "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/astera-labs-alab-is-up-67-after-strong-ai-connectivity-expec"
+    },
+    {
+      "headline": "Abivax SA Sponsored ADR (NASDAQ:ABVX) Given Average Recommendation of \"Moderate Buy\" by Analysts",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Abivax SA Sponsored ADR (NASDAQ:ABVX) has received an average \"Moderate Buy\" recommendation from analysts, with 13 out of 15 analysts rating the stock a buy. The average 12-month price target is $156.50, significantly above its current $124.92 share price. Recent positive analyst coverage includes u",
+      "category": "us_equities",
+      "date": "2026-08-02 06:39",
+      "link": "https://www.marketbeat.com/instant-alerts/abivax-sa-sponsored-adr-nasdaqabvx-given-average-recommendation-of-moderate-buy-by-analysts-2026-08-02/"
+    },
+    {
+      "headline": "Cboe Global Markets (CBOE) Stock Surges After Record Margins And Revenue Growth",
+      "score": 6,
+      "source": "Simply Wall St",
+      "sentiment": "positive",
+      "impact": "Cboe Global Markets (CBOE) saw its stock jump 4.6% after reporting record second-quarter results, with net revenue of US$732 million and an adjusted operating EBITDA margin of 72.2%. The strong performance was driven by derivatives, particularly index options, and recurring data revenue, supporting ",
+      "category": "corporate_earnings",
+      "date": "2026-08-02 06:37",
+      "link": "https://simplywall.st/stocks/us/diversified-financials/bats-cboe/cboe-global-markets/news/cboe-global-markets-cboe-stock-surges-after-record-margins-a/amp"
     },
     {
       "headline": "Looking at just the odds isn\u2019t enough. How traders gain an edge on prediction markets",
@@ -211,66 +274,6 @@
       "category": "global_markets",
       "date": "2026-08-01 13:44",
       "link": "https://www.cnbc.com/2026/08/01/traders-go-full-time-on-prediction-markets-using-ai-bots-and-antennas.html"
-    },
-    {
-      "headline": "Looking at just the odds isn't enough. How traders gain an edge on prediction markets",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Gaining an edge on prediction markets requires speed and skills beyond just reading the odds on platforms like Kalshi and Polymarket.",
-      "category": "global_markets",
-      "date": "2026-08-01 13:44",
-      "link": "https://www.cnbc.com/2026/08/01/traders-go-full-time-on-prediction-markets-using-ai-bots-and-antennas.html"
-    },
-    {
-      "headline": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The wake-up call to the cyber industry comes as industry experts descend on Black Hat, a major cybersecurity conference.",
-      "category": "global_markets",
-      "date": "2026-08-01 12:00",
-      "link": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html"
-    },
-    {
-      "headline": "To keep growing, incoming Best Buy CEO says he first wants to go smaller",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "As incoming CEO Jason Bonfig prepares to take the reins, he told CNBC he's focused on expanding the company's reach and enhancing the customer experience.",
-      "category": "global_markets",
-      "date": "2026-08-01 12:00",
-      "link": "https://www.cnbc.com/2026/08/01/best-buy-ceo-jason-bonfig-smaller-stores.html"
-    },
-    {
-      "headline": "How Leopold Aschenbrenner built a $45 billion AI hedge fund \u2014 and lost most of it in days",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Leopold Aschenbrenner, a former OpenAI researcher-turned-hedge fund manager, saw a dramatic decline this week in his AI-focused fund, Situational Awareness.",
-      "category": "global_markets",
-      "date": "2026-07-31 20:19",
-      "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html"
-    },
-    {
-      "headline": "Andy Jassy soothed concerns over Amazon's massive AI spending. Here's how he did it",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2026-07-31 18:34",
-      "link": "https://www.cnbc.com/2026/07/31/andy-jassy-soothed-concerns-over-amazons-massive-ai-spending-heres-how-he-did-it-.html"
-    },
-    {
-      "headline": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.",
-      "category": "global_markets",
-      "date": "2026-07-31 18:20",
-      "link": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"
     }
   ]
 }
