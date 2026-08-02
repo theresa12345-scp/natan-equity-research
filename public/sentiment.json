@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-02T08:05:29.028216",
+  "timestamp": "2026-08-02T15:04:24.799598",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.5,
-    "bullish": 12,
+    "avg_relevance": 7.4,
+    "bullish": 10,
     "neutral": 11,
-    "bearish": 2,
-    "high_priority": 11,
+    "bearish": 4,
+    "high_priority": 10,
     "material_events": 5
   },
   "sources": {
@@ -16,13 +16,16 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 3,
-    "Bloomberg": 5,
-    "CNBC": 5,
+    "Bloomberg": 6,
+    "CNBC": 3,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 2,
-    "Yahoo Finance UK": 1,
-    "Simply Wall St": 2,
-    "MarketBeat": 1
+    "MarketWatch": 1,
+    "The Wall Street Journal": 1,
+    "Quiver Quantitative": 1,
+    "TechStock\u00b2": 1,
+    "Timothy Sykes": 1,
+    "Yahoo! Finance Canada": 1,
+    "Simply Wall St": 1
   },
   "top_signals": [
     {
@@ -42,7 +45,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -52,7 +55,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -62,7 +65,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -72,7 +75,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -82,7 +85,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -92,7 +95,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -102,7 +105,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -112,18 +115,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "As Warsh\u2019s Fed faces pressure to act on inflation, these indicators show it\u2019s at its lowest in years",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Trimmed mean measures are painting a different picture than the headline numbers.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-31 16:51",
-      "link": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html"
     },
     {
       "headline": "Rivian reduces 2026 spending plans, narrows earnings guidance",
@@ -142,7 +135,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -152,8 +145,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-02 08:05",
+      "date": "2026-08-02 15:04",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "S&P 500 profit growth is getting even wilder as Amazon makes its mark",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Amazon is the latest Big Tech company to report abnormally large earnings growth, thanks to paper gains on Anthropic investments.",
+      "category": "us_equities",
+      "date": "2026-08-02 14:00",
+      "link": "https://www.marketwatch.com/story/s-p-500-profit-growth-is-getting-even-wilder-as-amazon-makes-its-mark-5ddf2082?mod=mw_rss_topstories"
     },
     {
       "headline": "Bloomberg puts off adding Indian bonds to its global index",
@@ -196,6 +199,16 @@
       "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026"
     },
     {
+      "headline": "Warsh Considering Reducing Number of Fed Meetings, NYT Reports",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Federal Reserve Chairman Kevin Warsh is considering reducing the frequency of the central bank\u2019s scheduled policy meetings, the New York Times reported Friday.",
+      "category": "us_monetary_policy",
+      "date": "2026-07-31 21:50",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-31/warsh-considering-reducing-number-of-fed-meetings-nyt-reports"
+    },
+    {
       "headline": "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market\u2019s next move",
       "score": 7,
       "source": "CNBC",
@@ -204,16 +217,6 @@
       "category": "us_equities",
       "date": "2026-07-31 18:07",
       "link": "https://www.cnbc.com/2026/07/31/the-sp-500-is-stuck-this-obscure-index-could-determine-the-markets-next-move.html"
-    },
-    {
-      "headline": "Exclusive | Fed\u2019s Barkin Says It\u2019s a \u2018Close Call\u2019 Whether Rates Are High Enough",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Richmond Fed president, who doesn\u2019t vote on policy this year, says he doesn\u2019t know whether he would have joined three colleagues who dissented in favor of a rate increase",
-      "category": "us_monetary_policy",
-      "date": "2026-07-31 16:49",
-      "link": "https://www.wsj.com/economy/central-banking/tom-barkin-fed-president-interest-rates-99f2b676"
     },
     {
       "headline": "IBM CEO says quantum computing will have a 'measurable impact' on earnings by 2028 or 2029",
@@ -226,54 +229,54 @@
       "link": "https://www.cnbc.com/2026/07/30/ibm-ceo-quantum-computing-measurable-impact-earnings-2028-2029.html"
     },
     {
-      "headline": "What To Expect From Diamondback Energy\u2019s (FANG) Q2 Earnings",
+      "headline": "Citigroup Stock (C) Opinions on Q2 Earnings Results",
       "score": 6,
-      "source": "Yahoo Finance UK",
-      "sentiment": "positive",
-      "impact": "Diamondback Energy (FANG) is set to report its Q2 earnings this Monday. The market anticipates a 33.2% year-on-year revenue growth, a slowdown from the previous year, but analysts have largely reconfirmed their estimates. The company has a history of surpassing Wall Street's expectations, and invest",
+      "source": "Quiver Quantitative",
+      "sentiment": "neutral",
+      "impact": "Citigroup (C) reported a record Q2 earnings beat driven by strong equities trading, although future guidance indicates expenses may outpace revenue growth. Analysts noted supportive global equity flows despite emerging regional divergences and bearish chart patterns flagged by traders. The article a",
       "category": "corporate_earnings",
-      "date": "2026-08-02 07:00",
-      "link": "https://uk.finance.yahoo.com/news/expect-diamondback-energy-fang-q2-070057566.html"
+      "date": "2026-08-02 14:37",
+      "link": "https://www.quiverquant.com/news/Citigroup+Stock+%28C%29+Opinions+on+Q2+Earnings+Results"
     },
     {
-      "headline": "Astera Labs (ALAB) Is Up 6.7% After Strong AI Connectivity Expectations Ahead Of Q2 Earnings - Has The Bull Case Changed?",
+      "headline": "Amazon.com, Inc. (NASDAQ:AMZN) rises 15% with AWS margins buoying $220 billion AI investment plan",
+      "score": 6,
+      "source": "TechStock\u00b2",
+      "sentiment": "positive",
+      "impact": "Amazon.com, Inc. (NASDAQ:AMZN) shares surged 15% after strong Q2 2026 earnings, primarily driven by robust Amazon Web Services (AWS) performance. AWS accounted for 78% of Amazon's operating profit growth and reported a 36.7% sales increase with a 39.4% operating margin. Despite increased capital exp",
+      "category": "us_equities",
+      "date": "2026-08-02 14:25",
+      "link": "https://ts2.tech/en/amazon-com-inc-nasdaqamzn-rises-15-with-aws-margins-buoying-220-billion-ai-investment-plan/"
+    },
+    {
+      "headline": "MYGN Slides As Myriad Genetics Slashes 2026 Revenue Outlook",
+      "score": 6,
+      "source": "Timothy Sykes",
+      "sentiment": "negative",
+      "impact": "Myriad Genetics Inc. (MYGN) stock slid by 45.72% after the company slashed its 2026 revenue outlook to $770M-$790M from a prior $860M-$880M, falling short of Street expectations. This reduction was attributed to competitive genetic testing advancements, weaker Q2 performance, and increased payer fri",
+      "category": "corporate_earnings",
+      "date": "2026-08-02 14:06",
+      "link": "https://www.timothysykes.com/news/myriadgeneticsinc-mygn-news-2026_08_02/"
+    },
+    {
+      "headline": "Earnings To Watch: Kosmos Energy (KOS) Reports Q2 Results Tomorrow",
+      "score": 6,
+      "source": "Yahoo! Finance Canada",
+      "sentiment": "negative",
+      "impact": "Kosmos Energy (NYSE:KOS), an oil and gas producer, is set to report its Q2 earnings tomorrow, Monday, before the bell. The company previously missed revenue, EBITDA, and EPS estimates in the last quarter, despite a 27.7% year-over-year revenue increase. Analysts are anticipating a 20.5% year-on-year",
+      "category": "corporate_earnings",
+      "date": "2026-08-02 13:39",
+      "link": "https://ca.finance.yahoo.com/news/earnings-watch-kosmos-energy-kos-050057442.html"
+    },
+    {
+      "headline": "Does General Mills\u2019 Fiscal 2027 Profit Outlook and Flat Sales Change The Bull Case For GIS?",
       "score": 6,
       "source": "Simply Wall St",
       "sentiment": "neutral",
-      "impact": "Astera Labs (ALAB) saw a 6.7% stock increase due to strong AI connectivity expectations ahead of its Q2 2026 earnings release, with projected revenue growth of 85-90% year over year. The company's focus on specialized connectivity for AI data centers and new product ramps (Scorpio and PCIe 6) are ke",
+      "impact": "General Mills (GIS) reported flat organic sales and adjusted earnings above estimates for Q4 fiscal 2026, but its fiscal 2027 outlook projects a slight decline to slight growth in organic net sales and an adjusted operating profit decline. This outlook emphasizes the need for product innovation and ",
       "category": "corporate_earnings",
-      "date": "2026-08-02 06:48",
-      "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/astera-labs-alab-is-up-67-after-strong-ai-connectivity-expec"
-    },
-    {
-      "headline": "Abivax SA Sponsored ADR (NASDAQ:ABVX) Given Average Recommendation of \"Moderate Buy\" by Analysts",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Abivax SA Sponsored ADR (NASDAQ:ABVX) has received an average \"Moderate Buy\" recommendation from analysts, with 13 out of 15 analysts rating the stock a buy. The average 12-month price target is $156.50, significantly above its current $124.92 share price. Recent positive analyst coverage includes u",
-      "category": "us_equities",
-      "date": "2026-08-02 06:39",
-      "link": "https://www.marketbeat.com/instant-alerts/abivax-sa-sponsored-adr-nasdaqabvx-given-average-recommendation-of-moderate-buy-by-analysts-2026-08-02/"
-    },
-    {
-      "headline": "Cboe Global Markets (CBOE) Stock Surges After Record Margins And Revenue Growth",
-      "score": 6,
-      "source": "Simply Wall St",
-      "sentiment": "positive",
-      "impact": "Cboe Global Markets (CBOE) saw its stock jump 4.6% after reporting record second-quarter results, with net revenue of US$732 million and an adjusted operating EBITDA margin of 72.2%. The strong performance was driven by derivatives, particularly index options, and recurring data revenue, supporting ",
-      "category": "corporate_earnings",
-      "date": "2026-08-02 06:37",
-      "link": "https://simplywall.st/stocks/us/diversified-financials/bats-cboe/cboe-global-markets/news/cboe-global-markets-cboe-stock-surges-after-record-margins-a/amp"
-    },
-    {
-      "headline": "Looking at just the odds isn\u2019t enough. How traders gain an edge on prediction markets",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Gaining an edge on prediction markets requires speed and skills beyond just reading the odds on platforms like Kalshi and Polymarket.",
-      "category": "global_markets",
-      "date": "2026-08-01 13:44",
-      "link": "https://www.cnbc.com/2026/08/01/traders-go-full-time-on-prediction-markets-using-ai-bots-and-antennas.html"
+      "date": "2026-08-02 13:36",
+      "link": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-gis/general-mills/news/does-general-mills-fiscal-2027-profit-outlook-and-flat-sales"
     }
   ]
 }
