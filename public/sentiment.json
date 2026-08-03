@@ -1,43 +1,26 @@
 {
-  "timestamp": "2026-08-02T15:04:24.799598",
+  "timestamp": "2026-08-03T09:22:22.706507",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
+    "avg_relevance": 7.2,
     "bullish": 10,
     "neutral": 11,
     "bearish": 4,
-    "high_priority": 10,
-    "material_events": 5
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
-    "Financial Times": 1,
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
-    "Bloomberg": 6,
-    "CNBC": 3,
+    "Reuters": 12,
+    "Bloomberg": 5,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1,
-    "The Wall Street Journal": 1,
-    "Quiver Quantitative": 1,
-    "TechStock\u00b2": 1,
-    "Timothy Sykes": 1,
-    "Yahoo! Finance Canada": 1,
-    "Simply Wall St": 1
+    "CNBC": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
-    {
-      "headline": "Bond sell-off sent warning on Federal Reserve\u2019s credibility, says top central bank official",
-      "score": 10,
-      "source": "Financial Times",
-      "sentiment": "negative",
-      "impact": "Alberto Musalem says he supported dissenters\u2019 calls for a quarter-point interest rate rise",
-      "category": "us_monetary_policy",
-      "date": "2026-07-31 23:10",
-      "link": "https://www.ft.com/content/2735a2b5-db87-4a7f-9484-20c1e429267d?syn-25a6b1a6\\\\u003d1"
-    },
     {
       "headline": "Bank Indonesia Holds BI-Rate at 5.75% to Support Rupiah Stability",
       "score": 9,
@@ -45,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -55,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -65,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -75,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -85,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -95,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -105,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -115,18 +98,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Rivian reduces 2026 spending plans, narrows earnings guidance",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Rivian reduced its 2026 spending plans and slightly narrowed its previously\u00a0forecast losses this year as the company reported second-quarter results.",
-      "category": "corporate_earnings",
-      "date": "2026-07-30 21:19",
-      "link": "https://www.cnbc.com/2026/07/30/rivian-rivn-q2-2026-earnings.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -135,7 +108,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -145,8 +118,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-02 15:04",
+      "date": "2026-08-03 09:22",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Indian stocks rise on Brent dip, shock-free earnings season - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Indian stocks rise on Brent dip, shock-free earnings season\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-03 02:39",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMmpzT2p3MGlZN3V1QkI3c1I0X0dqVTk4Z3BsMjNqcWljM1BGZ19FbThiNHUyR3FXTjE5SE5IZGJnUHR3UHloUUZNZkdtS3phVGRRUTVQdTR3WW9FSHM5Q3VQY2czUFhEZE5JLW5UN0pkNWh3LS1tXzlvRzhfUWdJMjZ5blQtUENIR2NwaktkcVJiX0dHQ3hLS3FnVUlIdw?oc=5"
+    },
+    {
+      "headline": "Index snub to test Indian bonds; rupee, RBI policy and US-Iran war in focus - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Index snub to test Indian bonds; rupee, RBI policy and US-Iran war in focus\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-08-03 02:06",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNG91Uk0wWkJsZHc4anBQS3JDWktTdnJBR2d1eVN3MzM4ZTF0S1UyX0NpQ3NwdmxyX0dldXNIMzBTSlE1aUpUYjlmOURpR2dwVDREX05pR1ZpcGhJZnlwV3dKcnpFMTg5WWRvUTFFT3ZFRnYtQ1NKSmpldVAyTlpfYmxPZVljQnBVRFN2M1NJMEtXUTVIbjVhRDVrb2tGZFZSTzdYYUNYa1Z0eWVqYjdhOQ?oc=5"
+    },
+    {
+      "headline": "Here's my power rankings for the big 4 hyperscalers after this earnings season",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "In his Sunday column, Jim Cramer explains why Amazon is his favorite hyperscaler after second-quarter earnings season.",
+      "category": "corporate_earnings",
+      "date": "2026-08-02 20:27",
+      "link": "https://www.cnbc.com/2026/08/02/heres-my-power-rankings-for-the-big-4-hyperscalers-after-this-earnings-season.html"
     },
     {
       "headline": "S&P 500 profit growth is getting even wilder as Amazon makes its mark",
@@ -157,6 +160,16 @@
       "category": "us_equities",
       "date": "2026-08-02 14:00",
       "link": "https://www.marketwatch.com/story/s-p-500-profit-growth-is-getting-even-wilder-as-amazon-makes-its-mark-5ddf2082?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Gulf stocks rise as Iran de-escalation hopes, earnings lift sentiment - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Gulf stocks rise as Iran de-escalation hopes, earnings lift sentiment\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-08-02 12:48",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZnZ5dk1rM0dBSk5iSjEwVV9FNUJRVWJhLXlEY2lKRHAwb0ZSUU5INVUwVFpKV3M3aGhVNmZNSDMxV1JQNnZDWjhwaFhITnVhUUt5X0tCZ2pBTk1rNEg4ZTQ5MUJzRVI2b2hCS1BqYXpKTHBabmc5WHpQajZuS3BfNU5FUHR1cHlfUmQ0bWtFLWdyUFZoaXF6d2ZCUWRPX2JROU5fclRkM3NyOVNXZW52YzdRUkRBRWEtZ3ZF?oc=5"
     },
     {
       "headline": "Bloomberg puts off adding Indian bonds to its global index",
@@ -189,94 +202,74 @@
       "link": "https://www.bloomberg.com/news/articles/2026-07-31/indian-firms-plan-fresh-price-hikes-testing-inflation-outlook"
     },
     {
-      "headline": "Stock Market News, July 31, 2026: Apple Stock Falls, but Nasdaq Marches Higher",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Amazon's big surge keeps indexes rising",
-      "category": "us_equities",
-      "date": "2026-08-01 01:57",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026"
-    },
-    {
-      "headline": "Warsh Considering Reducing Number of Fed Meetings, NYT Reports",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Federal Reserve Chairman Kevin Warsh is considering reducing the frequency of the central bank\u2019s scheduled policy meetings, the New York Times reported Friday.",
-      "category": "us_monetary_policy",
-      "date": "2026-07-31 21:50",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-31/warsh-considering-reducing-number-of-fed-meetings-nyt-reports"
-    },
-    {
-      "headline": "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market\u2019s next move",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Options traders and market makers in Chicago were quick to buy dips below 7,500 in the benchmark index Friday, but almost as quick to sell rallies above that level.",
-      "category": "us_equities",
-      "date": "2026-07-31 18:07",
-      "link": "https://www.cnbc.com/2026/07/31/the-sp-500-is-stuck-this-obscure-index-could-determine-the-markets-next-move.html"
-    },
-    {
-      "headline": "IBM CEO says quantum computing will have a 'measurable impact' on earnings by 2028 or 2029",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "IBM CEO Arvind Krishna said the company's investments in quantum computing should begin to have \"a measurable impact\" on revenue and earnings by 2028 or 2029.",
-      "category": "corporate_earnings",
-      "date": "2026-07-30 22:46",
-      "link": "https://www.cnbc.com/2026/07/30/ibm-ceo-quantum-computing-measurable-impact-earnings-2028-2029.html"
-    },
-    {
-      "headline": "Citigroup Stock (C) Opinions on Q2 Earnings Results",
+      "headline": "Warsh tightened more by pausing than by lifting rates, this bond-market veteran argues. Here\u2019s the math.",
       "score": 6,
-      "source": "Quiver Quantitative",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Citigroup (C) reported a record Q2 earnings beat driven by strong equities trading, although future guidance indicates expenses may outpace revenue growth. Analysts noted supportive global equity flows despite emerging regional divergences and bearish chart patterns flagged by traders. The article a",
-      "category": "corporate_earnings",
-      "date": "2026-08-02 14:37",
-      "link": "https://www.quiverquant.com/news/Citigroup+Stock+%28C%29+Opinions+on+Q2+Earnings+Results"
+      "impact": "It sounds paradoxical, but Federal Reserve Chair Kevin Warsh may have tightened the economy by not lifting interest rates than he would have by actually increasing them.",
+      "category": "fixed_income",
+      "date": "2026-08-03 09:18",
+      "link": "https://www.marketwatch.com/story/warsh-tightened-more-by-pausing-than-by-lifting-rates-this-bond-market-veteran-argues-heres-the-math-31cb15a1?mod=mw_rss_topstories"
     },
     {
-      "headline": "Amazon.com, Inc. (NASDAQ:AMZN) rises 15% with AWS margins buoying $220 billion AI investment plan",
+      "headline": "Iran says no current talks with U.S. - Reuters",
       "score": 6,
-      "source": "TechStock\u00b2",
-      "sentiment": "positive",
-      "impact": "Amazon.com, Inc. (NASDAQ:AMZN) shares surged 15% after strong Q2 2026 earnings, primarily driven by robust Amazon Web Services (AWS) performance. AWS accounted for 78% of Amazon's operating profit growth and reported a 36.7% sales increase with a 39.4% operating margin. Despite increased capital exp",
-      "category": "us_equities",
-      "date": "2026-08-02 14:25",
-      "link": "https://ts2.tech/en/amazon-com-inc-nasdaqamzn-rises-15-with-aws-margins-buoying-220-billion-ai-investment-plan/"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran says no current talks with U.S.\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-03 07:29",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE5hZ0ZnQjBGVFdjTV9kRkdQWm9oaWd0VG9UQ084WGJvRmFoNElkSG5Ec0xocHdYTDdUM1JTd3RYQ0kybnN0dXB5T2hwNFEwSktaZ05FNGxzbUFwd0FqWEl4WWQyVzBCaVowNUpTWGNad19MdERreFFYSEYwWkVuekpwOW1VeE5lVkR6eDBaOGdPZw?oc=5"
     },
     {
-      "headline": "MYGN Slides As Myriad Genetics Slashes 2026 Revenue Outlook",
+      "headline": "Iran war ushers in oil refining golden era. It won\u2019t last - Reuters",
       "score": 6,
-      "source": "Timothy Sykes",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran war ushers in oil refining golden era. It won\u2019t last\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-03 06:01",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYmQzdlBDbmtIRE9EaFVuRHRPd0pzYUtkY0VyT1FPYmVlaGsxUXJnSWt1emxRQ3p2ZFY5aXVPSGpNQVZaM0hkMThIREtfRU1YcTdQSXFrYU1FNlAyeWYxVGZoeHFWMG5kcm9rUUxzd2Z0OUY0REtwWUFyNGlTczgybWxmRng3azZackV2U2NianBjeVdDbGxXLUhLdkxhMTVvR0VsQzVPb2xxcW9zTDFLMHF3bFFpaE1JckJ3NVh3?oc=5"
+    },
+    {
+      "headline": "Iran executes two people accused of working for Israel - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Myriad Genetics Inc. (MYGN) stock slid by 45.72% after the company slashed its 2026 revenue outlook to $770M-$790M from a prior $860M-$880M, falling short of Street expectations. This reduction was attributed to competitive genetic testing advancements, weaker Q2 performance, and increased payer fri",
-      "category": "corporate_earnings",
-      "date": "2026-08-02 14:06",
-      "link": "https://www.timothysykes.com/news/myriadgeneticsinc-mygn-news-2026_08_02/"
+      "impact": "Iran executes two people accused of working for Israel\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-03 05:29",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObVpPMnE4MnRQckNZZXg0SU9TYTI4WG5qdmc2aUhydFU0LXlJS04taFVoOU5idUFqb3ZtSFZsVUlpYUhackVhN2lGQUlYQ3hqekNxYkkxd1E1aDU2TGVZTEJQc3V5U1EwVzJLRDdiQmdITzZFYlI4TWZzOTBtT2c5bTREN2tvVVZWUk1hb1EwSlVmRHpSaVJvTDdINzFCaTFHRFI0?oc=5"
     },
     {
-      "headline": "Earnings To Watch: Kosmos Energy (KOS) Reports Q2 Results Tomorrow",
+      "headline": "Oil slumps on hopes of Iran deal, yen firms after intervention - Reuters",
       "score": 6,
-      "source": "Yahoo! Finance Canada",
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Kosmos Energy (NYSE:KOS), an oil and gas producer, is set to report its Q2 earnings tomorrow, Monday, before the bell. The company previously missed revenue, EBITDA, and EPS estimates in the last quarter, despite a 27.7% year-over-year revenue increase. Analysts are anticipating a 20.5% year-on-year",
-      "category": "corporate_earnings",
-      "date": "2026-08-02 13:39",
-      "link": "https://ca.finance.yahoo.com/news/earnings-watch-kosmos-energy-kos-050057442.html"
+      "impact": "Oil slumps on hopes of Iran deal, yen firms after intervention\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-03 01:03",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUjBjdHpEdEdMdVNpbVprQmRvNG9JTzl0ZHB4SkNmWUxqT2hNUG8xcW96U1R2czNKWHVMYXRqY2gxR1pHTzZ4RjlpaDgzUnM3U0dCNURmZDhPUUhVTnRuUFhYcGFmVHdoOWg2a3RJNTNGQktBU3pvZVZGSS1EVUJ1QzlVbw?oc=5"
     },
     {
-      "headline": "Does General Mills\u2019 Fiscal 2027 Profit Outlook and Flat Sales Change The Bull Case For GIS?",
+      "headline": "Gold firms as oil prices slump after Trump holds off on Iran attack - Reuters",
       "score": 6,
-      "source": "Simply Wall St",
-      "sentiment": "neutral",
-      "impact": "General Mills (GIS) reported flat organic sales and adjusted earnings above estimates for Q4 fiscal 2026, but its fiscal 2027 outlook projects a slight decline to slight growth in organic net sales and an adjusted operating profit decline. This outlook emphasizes the need for product innovation and ",
-      "category": "corporate_earnings",
-      "date": "2026-08-02 13:36",
-      "link": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-gis/general-mills/news/does-general-mills-fiscal-2027-profit-outlook-and-flat-sales"
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold firms as oil prices slump after Trump holds off on Iran attack\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-03 00:41",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnkxZDh5TElCa1dZeUtDT2JfblI5ZFJuQkZNQ1pvbHlkcWxHRUVfMk51N2t0ZDUtbEhOYW9aVjg5d3lMSkNXYlFMc0I5Z3o1bjh4c0pkZ3BsWkRYeWhOalNoOUZPN3pvYVRSb1NnT21rZy1TamRFMHN2MUp1WjhoSmZaT0prMExjTVk1aThUbHAwNEo3MmpsbTI2UFdsY2Z2Y0RlT2RB?oc=5"
+    },
+    {
+      "headline": "Oil falls after Trump cancels attack on Iran to seek nuclear deal - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Oil falls after Trump cancels attack on Iran to seek nuclear deal\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-03 00:11",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVnBOaGh1VXBaaGQwVmloSzlPcmg5aFdQeENKS3JtNi1wQTZlQTRBUm02ODRrYkNVZkNDREwtTTdMeUhlNV94QjctaFhpMWhTWVVJaF9xeVhWdEdKZXBMbFA4alVQaDBXbnMzczBqRnVBUlVrVUJJTFhLQjdpSU9SV2lHV1FQd0hvOEs0QkZwLVZfUDhtSkVGUU02T2tPeDFXaU5SaWRtUWt3cjhE?oc=5"
     }
   ]
 }
