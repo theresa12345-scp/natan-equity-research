@@ -1,24 +1,23 @@
 {
-  "timestamp": "2026-08-04T08:20:40.391466",
+  "timestamp": "2026-08-04T16:12:55.420169",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 11,
-    "neutral": 12,
-    "bearish": 2,
-    "high_priority": 9,
-    "material_events": 4
+    "avg_relevance": 7.4,
+    "bullish": 10,
+    "neutral": 11,
+    "bearish": 4,
+    "high_priority": 12,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 14,
+    "CNBC": 10,
+    "Reuters": 7,
     "Bloomberg": 2,
-    "CNBC": 2,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 1,
     "MarketWatch": 1
   },
   "top_signals": [
@@ -29,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,8 +58,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Merck hikes revenue outlook as new drug sales grow, but cuts profit guidance due to deal charges",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Merck cut its profit guidance due to a charge tied to its acquisition of biotech company Terns Pharmaceuticals.\u00a0",
+      "category": "corporate_earnings",
+      "date": "2026-08-04 12:43",
+      "link": "https://www.cnbc.com/2026/08/04/merck-mrk-earnings-q2-2026.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -69,7 +78,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +98,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +108,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Pfizer tops estimates, hikes low end of revenue guidance on strength of Eliquis, other drugs",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Pfizer said it cut its full-year revenue expectation for its Covid products to $4 billion, down from around $5 billion previously.\u00a0",
+      "category": "corporate_earnings",
+      "date": "2026-08-04 14:36",
+      "link": "https://www.cnbc.com/2026/08/04/pfizer-pfe-earnings-q2-2026.html"
+    },
+    {
+      "headline": "Pfizer tops quarterly estimates, hikes low end of revenue guidance on strength of non-Covid products",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Pfizer said it cut its full-year revenue expectation for its Covid products to $4 billion, down from around $5 billion previously.",
+      "category": "corporate_earnings",
+      "date": "2026-08-04 11:13",
+      "link": "https://www.cnbc.com/2026/08/04/pfizer-pfe-earnings-q2-2026.html"
     },
     {
       "headline": "Analysis: Federal Reserve may be pulled into Bessent\u2019s effort to support Japan\u2019s yen",
@@ -119,7 +148,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,148 +158,118 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-04 08:20",
+      "date": "2026-08-04 16:12",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Aramco posts 44% rise in net profit as Iran war drives up oil prices - Reuters",
+      "headline": "Palantir jumps 16% on 'otherworldly' commercial revenue \u2014 here's what's driving the demand",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Aramco posts 44% rise in net profit as Iran war drives up oil prices\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-04 06:05",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcXFsci0ySk53THJaUktvbFlJd0ZjTzhFNmJSU0gtY1B5RElscWFhWHJLWTcxdlJ1SDhhV1dJcmQteVdaT0NLekZaMU05V2tockhvaGFtYlgzbk5OdWpDVEM4TmFoX2FpZFMyQWdxTzJ2SkdzYVExYVdRWHBKVlNPcTBzX1hub05WWk45TE1HVDM?oc=5"
-    },
-    {
-      "headline": "Toyota lifts annual forecast despite Q1 profit drop on weak China sales - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Toyota lifts annual forecast despite Q1 profit drop on weak China sales\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-08-04 05:08",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSy1kNU1lRXkxX25PQUFPbTQtT2FCaXp3VHNJb0N6czVieVFvZmY1U1lta3NzVEdwRUEzQmd6b2h0dmtOTTVyZmNTTDhiVU1od3dCWFN6U2JRMFRZeTE2cnBwTHpGekxMNzhGRk1CMnZSRllsdG5UZmpmXzRoNTVKeDlQUlBwMWFlUG9KbzJGOGkzZGtUajh4V1R2WmhMdXdiVVNiZlFiLTZHbHhlUExSS05QdnU2RFRUUTRuQ3ZsM2M1M0RSdkxFajVMWU4ycDVGanc?oc=5"
-    },
-    {
-      "headline": "German Robotics Startup Agile Robots Set to Double Revenue This Year",
-      "score": 7,
-      "source": "The Wall Street Journal",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Agile has signed customer contracts underpinning this year\u2019s projected revenue and has so far raised about $1.5 billion from investors led by SoftBank Group",
+      "impact": "\"Our customers have declined to become vassal states of the language labs,\" Palantir's co-founder and CEO Alex Karp said after blowout second-quarter earnings.",
       "category": "corporate_earnings",
-      "date": "2026-08-03 01:16",
-      "link": "https://www.wsj.com/tech/ai/german-robotics-startup-agile-robots-set-to-double-revenue-this-year-6d0a27dc"
+      "date": "2026-08-04 10:27",
+      "link": "https://www.cnbc.com/2026/08/04/palantir-2q-earnings-ai-sovereign-tools.html"
     },
     {
-      "headline": "OPEC+ oil output hike is irrelevant for now, not for later - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "OPEC+ oil output hike is irrelevant for now, not for later\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-04 06:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ1F5SEtvVzlTU0VibXRmNGx4ZldyYllQcHBfSEkzRHVLVGdrNUxMLUZtQXZsT1pTWjJ4Z1F0ekFyN3NkWjRITjdCc2NtcmpFZ0k2OWN5Z25WOVVFVHpJNEVWQkU3emxZYkUtVFhFand1cWVHSWUyRUpQa1FOOUtPWlRKUzRVQUs3V3oxcWphVzVKUUhSSUNZaHNtdHVkM1U5VXE2Q0ZPNzE4UG5WQmdVS2cwZlU3UnNN?oc=5"
-    },
-    {
-      "headline": "Oil traders set to wind down UAE exchange positions after ADNOC benchmark change - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil traders set to wind down UAE exchange positions after ADNOC benchmark change\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-08-04 04:46",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTTIzRWd4cTNxUHJ2NTJfQTNMVjIyRnJrN0U0NGFMNzNHdVJscGsxQ0tPeHljNVVjd0p0MU1FM3FEcXdfR05zR3c5QVB4czU0V1BfamdIVUtLdWZNa3BCb0ozM2NPZkU2WFNFSGFKbmVkUXZiOGNhbnBZRWQwNkNINWlWTm5QdW1hbXpCZDBDVXhUZmQ1b0ZLZ2dOelRJbkVlN0RjNXozSUdmVXdnSW01VnVBTzIyTVVzY2VmRUNPTlczWGZSNzQ5eQ?oc=5"
-    },
-    {
-      "headline": "Status of US-Iran talks uncertain as ship struck in Hormuz - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Status of US-Iran talks uncertain as ship struck in Hormuz\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-04 03:41",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?oc=5"
-    },
-    {
-      "headline": "Rupee nudges higher, inflow-led boost runs into importer hedging drag - Reuters",
-      "score": 6,
+      "headline": "BP's quarterly profit doubles to over $5 billion after Iran war oil surge - Reuters",
+      "score": 7,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Rupee nudges higher, inflow-led boost runs into importer hedging drag\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-04 02:56",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONXZxeFNDdDRBUUFmVU9XeDVzcEFMMzQ1SVFzZHFsWlZaNFdtb25RdkN2WEI1OUZ6WEt3OHlITUpjZjMxSDVGa2JoQ1poU2RMaVhVU2d0bFQxczFiREtFcDVDVC1zTzNvcVFhYkNOeTczdVh4eThDZEZpeG5wWVJXRDlRZWgtcVllLTBXZnJIVkR4QV9ucHh0TFlCdEpGcnUwUElWakdBakFIcHUxU1U4TFZhRFFQYWJsMDlz?oc=5"
+      "impact": "BP's quarterly profit doubles to over $5 billion after Iran war oil surge\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-04 06:09",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdU9hYzNQV1Ezbmd5OXB4Z1d4QTR0QU80Z0MteS03b002RE5yd2hPb2l5Z0NqLWJ4Y21PSTN0Z29UNVBBVEVyRDRGc0VNUnoySWNlcWU4cUlVXy1iNWd0MVA3V3pXLXN1ZHlyQWcyNzRfcmNxYnJKWFBQTWZ1anZtajRzcFRSd3BIQWJhOVlfQXZUaVU2Y1RlTUhqcHBQZ1ItTjhJeEg0NA?oc=5"
     },
     {
-      "headline": "Gold holds ground with Middle East turmoil, US jobs data in focus - Reuters",
-      "score": 6,
+      "headline": "Lufthansa warns profits could fall as Iran war stokes fuel costs - Reuters",
+      "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Gold holds ground with Middle East turmoil, US jobs data in focus\u00a0\u00a0Reuters",
-      "category": "commodities",
+      "impact": "Lufthansa warns profits could fall as Iran war stokes fuel costs\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-08-04 05:06",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdE9KT1lZSkVyLUo2VElBbVVGTTN6LVB1aHhFdXB3T09UNWU2c1ItcTBJUkNXU1BoYkNVLUdUM09CUVd5T1lxVnBBdGI3S3g0MXN0YkNpNUYxQUdITHZrTUFyTVhsSmpZTi1MZTRBYldWU3lXbjM5eTItVkdId28zYWZIRXRWWkNWelRya3dhQk5kU3ozME9ZOVZvOTBYNjBiRG5mZ1dMN3gteE9pbVA0Y1M2bG44Q0Zu?oc=5"
+    },
+    {
+      "headline": "Gold rises on softer oil prices; US jobs data, Fed rate outlook on tap - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Gold rises on softer oil prices; US jobs data, Fed rate outlook on tap\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
       "date": "2026-08-04 01:05",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdzFHZFRoSEVvd0hvWk5nQl9nYVZPdGJSSTRMcWdPMFc5MS1NYnVtNFdvOEpwQVJHbmZtMWJYTzRmcnJCNkt1bmpBb0ZfTUsycW5SZXFDTWdiU0JrOUl1ek9lVC1qZWVMYjJ5bVQwTy11MkNpVDF6RW8xMm9GY0d1YnB0RDJ5REhSZjZ5QXAzOE15QzVWNk5SRERBUjJOM1oxc1VXdHNR?oc=5"
     },
     {
-      "headline": "Oil ticks up after selloff as talks to end US-Iran war remain uncertain - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil ticks up after selloff as talks to end US-Iran war remain uncertain\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-04 01:02",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU0VaWUlWWUxJMXVaM1NiVS0yeWUtYWhpTlo4MTh0ZzZkZms3aFVLNVRfR1JISmxrY2d2VmM1UWFKTVFtSlEzYmt0N3ZuRUFLWXd5bzh5QkVXOVRxUVh3VHRnOWkzanJWb2tqUU13cURMRFR3TFphYkFzRVRsbnY5aEpDdTJLLVNLOXpwYzRNckVGQW9TcThhNHdKVlVTZ2Q4SkRraWR5TjlvbmN4VE1rLWViVFNTRUZU?oc=5"
-    },
-    {
-      "headline": "Yen clings to intervention gains as traders stay alert to more - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Yen clings to intervention gains as traders stay alert to more\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-04 01:02",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3VzRDl6d2tuSmN4M2xWZ080QWhfVWFjRGw4MjRwakpXMndBZ25zUWZzdXRwbmJVQ3ViYVJjS1hPdlFJR3MxX00xLW92YnZXak1HYi1nQ0phY3Y3amRKWjBKZ243Nm9YaEplbnBPVUNibG5jeTYtM0x0cmtNM3ctYzN4UjEyUk8xSnhhelZFNnlBZWQxQmR0dDlHWThJVGJTbGo4b09FalJmSVhI?oc=5"
-    },
-    {
-      "headline": "Wall Street rallies, Dow closes at record on Iran talks optimism - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Wall Street rallies, Dow closes at record on Iran talks optimism\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-08-03 23:22",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTC1HdWxXY3dmcFlCNm9FZ3N5VnVhSWg0ZHV4a1RRdUdlUVM5QUhNYUlueDN2akloUFFEUWRIWXNHeFk1VEFHMDhBRTV1XzY5TnBxUXlVQk96NkFMSnNuTURuTzhCOVRBUkVVT2p1VjBOZFBZdk4zM01WQlFDY1ZZTGhqR2NaeXNrVWN0Ym5aQ1VENmZ5aGRKRWRoMHlNRTVxMWxVSFVrOA?oc=5"
-    },
-    {
-      "headline": "US FAA certifies Boeing 737 MAX 7 in win for planemaker - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US FAA certifies Boeing 737 MAX 7 in win for planemaker\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-03 22:26",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObm5abmxuWVVCMWR2ZDdDaTFWSnJ5SEYxZnc5MFg0Qko5RkJWMGZpTndzclotOVAza0ZYRHJoTmpUZk1yclB4MnZxUFlYanVwbnlGd3JaNk5sZ2YxbjliM3EyVk55bUtEZU9mQWNRR214WTlQRVdTRXAwbVdGRzdYdE1CY0hrOXlIWjRlV0V0VGg2d05qLUJzT05iQ0oyaS13UFM4azRFMXF2T2ZOUEhPT2hJblN1bUozNlc1SkNn?oc=5"
-    },
-    {
-      "headline": "Palantir\u2019s stock climbs after earnings, as AI drives turbocharged growth",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Companies are turning to Palantir for greater autonomy over their AI models and data, according to CEO Alex Karp.",
-      "category": "corporate_earnings",
-      "date": "2026-08-03 21:59",
-      "link": "https://www.marketwatch.com/story/palantirs-stock-gains-as-ai-drives-turbocharged-growth-e006b70a?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Larry Berg named next Major League Soccer commissioner",
+      "headline": "Why Ford believes its 10.2% July U.S. sales decline was still a 'good' month",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Larry Berg will take over as MLS commissioner from Don Garber next year. He will sell his stake in Los Angeles FC.",
+      "impact": "The July decline adds to a lackluster sales year for the automaker, with results off 9.7% compared with 2025.",
       "category": "global_markets",
-      "date": "2026-08-03 20:46",
-      "link": "https://www.cnbc.com/2026/08/03/larry-berg-major-league-soccer-commissioner.html"
+      "date": "2026-08-04 16:04",
+      "link": "https://www.cnbc.com/2026/08/04/ford-july-sales-decline.html"
+    },
+    {
+      "headline": "Procter & Gamble will acquire supplements brand Thorne for $3.8 billion, CEO tells CNBC",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "P&G CEO Shailesh Jejurikar said the acquisition is play to grow the company's health business on CNBC's \"Squawk on the Street.\"",
+      "category": "global_markets",
+      "date": "2026-08-04 15:56",
+      "link": "https://www.cnbc.com/2026/08/04/procter-gamble-will-acquire-supplements-brand-thorne.html"
+    },
+    {
+      "headline": "Qatar says progress made toward US-Iran talks on ending war - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Qatar says progress made toward US-Iran talks on ending war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-04 14:38",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?oc=5"
+    },
+    {
+      "headline": "Caterpillar\u2019s stock gives the Dow a 200-point boost as data-center demand drives record revenue",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Caterpillar\u2019s stock surges after the biggest earnings beat in five years, as demand for data-center construction provided a boost.",
+      "category": "us_equities",
+      "date": "2026-08-04 14:36",
+      "link": "https://www.marketwatch.com/story/caterpillar-is-killing-it-and-data-center-demand-is-driving-record-revenue-161b84d1?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "McDonald's names company veteran Skye Anderson as its U.S. president as growth in its largest market slows",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "McDonald's new U.S. President Skye Anderson has been with the company for 26 years and succeeds Joe Erlinger in the role.",
+      "category": "global_markets",
+      "date": "2026-08-04 14:32",
+      "link": "https://www.cnbc.com/2026/08/04/mcdonalds-skye-anderson-us-president.html"
+    },
+    {
+      "headline": "Someone on Wall Street thinks SpaceX could triple this week",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "SpaceX reports its first earnings results since its June IPO Tuesday after the bell.",
+      "category": "us_equities",
+      "date": "2026-08-04 14:05",
+      "link": "https://www.cnbc.com/2026/08/04/someone-on-wall-street-thinks-spacex-could-triple-this-week.html"
+    },
+    {
+      "headline": "McDonald's says its U.S. business is falling short as it announces new head of its largest market",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "McDonald's stock has fallen more than 11% this year, dragging its market cap down to roughly $191 billion.",
+      "category": "global_markets",
+      "date": "2026-08-04 13:52",
+      "link": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html"
     }
   ]
 }
