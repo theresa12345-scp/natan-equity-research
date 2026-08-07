@@ -1,29 +1,28 @@
 {
-  "timestamp": "2026-08-07T06:59:35.040820",
+  "timestamp": "2026-08-07T14:55:00.497538",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.5,
-    "bullish": 15,
-    "neutral": 8,
+    "avg_relevance": 7.3,
+    "bullish": 13,
+    "neutral": 10,
     "bearish": 2,
-    "high_priority": 10,
-    "material_events": 5
+    "high_priority": 9,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Fox Business": 1,
-    "Reuters": 5,
+    "Reuters": 3,
     "Bloomberg": 2,
-    "CNBC": 5,
+    "CNBC": 6,
     "Caixin/S&P Global": 1,
-    "Seeking Alpha": 2,
-    "Investing.com UK": 1,
-    "MarketBeat": 2,
-    "Yahoo Finance UK": 1,
-    "Stock Titan": 1
+    "MarketWatch": 2,
+    "The Wall Street Journal": 2,
+    "Financial Times": 1,
+    "MarketBeat": 3,
+    "Simply Wall Street": 1
   },
   "top_signals": [
     {
@@ -33,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,18 +62,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Fed's Kashkari says central bank should raise interest rates now to avoid 'entrenched inflation problem'",
-      "score": 9,
-      "source": "Fox Business",
-      "sentiment": "neutral",
-      "impact": "Neel Kashkari says corporate earnings and a resilient labor market show monetary policy isn't restrictive enough to bring inflation back to target.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-05 19:03",
-      "link": "https://www.foxbusiness.com/economy/feds-kashkari-says-central-bank-should-raise-interest-rates-now-avoid-entrenched-inflation-problem"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -83,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -93,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -103,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -113,7 +102,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -133,7 +122,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -143,68 +132,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-07 06:59",
+      "date": "2026-08-07 14:54",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Microchip Technology Incorporated 2027 Q1 - Results - Earnings Call Presentation (NASDAQ:MCHP)",
+      "headline": "There are good reasons higher bond yields are here to stay, this strategist says",
       "score": 7,
-      "source": "Seeking Alpha",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Microchip Technology Incorporated (MCHP) has released its Q1 2027 earnings call presentation. The company reported an EPS of $0.76, beating estimates by $0.06, and revenue of $1.48 billion, surpassing estimates by $26.07 million, representing a 38.05% year-over-year increase. This presentation accom",
-      "category": "us_equities",
-      "date": "2026-08-07 05:37",
-      "link": "https://seekingalpha.com/article/4932751-microchip-technology-incorporated-2027-q1-results-earnings-call-presentation?source=feed_all_articles"
-    },
-    {
-      "headline": "El Pollo Loco Holdings Inc earnings beat by $0.02, revenue fell short of estimates",
-      "score": 7,
-      "source": "Investing.com UK",
-      "sentiment": "neutral",
-      "impact": "El Pollo Loco Holdings Inc (NASDAQ: LOCO) reported second-quarter EPS of $0.30, exceeding analyst estimates by $0.02. However, the company's revenue of $129.57 million fell short of the consensus estimate of $130.36 million. The stock has seen significant growth, up 16.93% in the last three months a",
-      "category": "corporate_earnings",
-      "date": "2026-08-07 05:10",
-      "link": "https://m.uk.investing.com/news/earnings/el-pollo-loco-holdings-inc-earnings-beat-by-002-revenue-fell-short-of-estimates-4818252?ampMode=1"
-    },
-    {
-      "headline": "Hudson Technologies (NASDAQ:HDSN) Posts Quarterly Earnings Results, Misses Estimates By $0.06 EPS",
-      "score": 7,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Hudson Technologies (NASDAQ:HDSN) reported quarterly earnings of $0.12 per share, missing analyst estimates of $0.18 by $0.06. While revenue increased by 8% year-over-year to $78.35 million, profitability was significantly impacted by lower refrigerant prices, increased freight costs, ERP expenses, ",
-      "category": "us_equities",
-      "date": "2026-08-07 04:11",
-      "link": "https://www.marketbeat.com/instant-alerts/hudson-technologies-nasdaqhdsn-posts-quarterly-earnings-results-misses-estimates-by-006-eps-2026-08-06/"
-    },
-    {
-      "headline": "El Pollo Loco (NASDAQ:LOCO) Posts Quarterly Earnings Results, Beats Expectations By $0.02 EPS",
-      "score": 7,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "El Pollo Loco (NASDAQ:LOCO) reported its quarterly earnings, exceeding EPS expectations by $0.02 with $0.30, though revenue slightly missed estimates. The company showed improved operating momentum with increased same-store sales and adjusted EBITDA, leading management to raise its 2026 outlook. How",
-      "category": "us_equities",
-      "date": "2026-08-07 04:10",
-      "link": "https://www.marketbeat.com/instant-alerts/el-pollo-loco-nasdaqloco-posts-quarterly-earnings-results-beats-expectations-by-002-eps-2026-08-06/"
-    },
-    {
-      "headline": "Stocks close lower as investors eye Mideast talks, earnings - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Stocks close lower as investors eye Mideast talks, earnings\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-08-06 20:22",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2poa2tBUFVOZFo0R0Q4T2lKVF9aWk5CWGd1Y1A0aXlTOFE1c1JBNlF3bk9qLVlnSUFmMTZoT05MVExKZk9oQzVhUmg4SnBLZ29vLUFDMU1Qb1lOZmd5ZVZHRGVuaTJHWWJyUjFRV19pU3U4NmItdkd0d2JaNWVUSmJZcFBSVEtPVDQyd1RySlA0Q2VCT3RZSzlsSUFPY2FsLUtNMWlubFpQbkZiVmt6TjBZdmRZeXlPMFBZ?oc=5"
-    },
-    {
-      "headline": "European shares extend run of record highs on earnings, US-Iran optimism - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "European shares extend run of record highs on earnings, US-Iran optimism\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-08-06 16:51",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQakF6Y2hyYnJRN2R4aGtqMmpVMWVZVWI1cWR1bjNsaWNVMThaRDVwTU53VnZaUkZlWGpXd1RHZGNqR0pKNnBKTEtBMzRqc01tZ2YwbXdGWkt0d2tabko4ZnVaUHFKNFJnb1VIMjZ1Q0ZPby16YTdmQ2xfcUo5OFJqSWI4Q3JadUNIOFFVb1hUTERJZHY2T0JrTDdhUUswS1NEMXM1SHlWZUJrOVUxWVlR?oc=5"
+      "impact": "Investors are demanding higher rates when they buy long-duration bonds because there is less demand, higher supply and a hot mess of policy uncertainty, strategist explains",
+      "category": "fixed_income",
+      "date": "2026-08-07 10:02",
+      "link": "https://www.marketwatch.com/story/there-are-good-reasons-why-higher-bond-yields-are-here-to-stay-this-strategist-says-2a89d5ae?mod=mw_rss_topstories"
     },
     {
       "headline": "The divide between Eli Lilly and Novo Nordisk is widening after their latest earnings",
@@ -247,34 +186,94 @@
       "link": "https://www.cnbc.com/2026/08/06/peloton-pton-q4-2026-earnings.html"
     },
     {
-      "headline": "Nvidia Stock Is A Steal Ahead Of Q2 Earnings (NASDAQ:NVDA)",
+      "headline": "Stock Market Today: Nasdaq Futures Slip on AI Anxiety \u2014 Live Updates",
       "score": 7,
-      "source": "Seeking Alpha",
-      "sentiment": "positive",
-      "impact": "Nvidia Corporation remains a strong buy ahead of Q2 as AI demand boosts revenue and margins; networking growth may surprise. Click for this NVDA stock update.",
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
       "category": "us_equities",
-      "date": "2026-08-05 19:23",
-      "link": "https://seekingalpha.com/article/4931071-nvidia-stock-is-a-steal-ahead-of-q2-earnings"
+      "date": "2026-08-06 12:14",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-06-2026"
     },
     {
-      "headline": "Zimmer Biomet Holdings (ZBH) Following Its Beat And Guidance Lift, Is The Valuation Catching Up?",
-      "score": 6,
-      "source": "Yahoo Finance UK",
+      "headline": "Kevin Warsh to stick with lean Fed messaging despite market backlash",
+      "score": 7,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "US central bank chair remains confident that sweeping reforms will win over key investors",
+      "category": "us_monetary_policy",
+      "date": "2026-08-06 11:00",
+      "link": "https://www.ft.com/content/debe096f-ec89-424f-a8ca-d3843ef53549?syn-25a6b1a6\\\\u003d1"
+    },
+    {
+      "headline": "Sandisk Revenue Soars on AI Data Storage Demand",
+      "score": 7,
+      "source": "The Wall Street Journal",
       "sentiment": "positive",
-      "impact": "Zimmer Biomet Holdings (ZBH) recently reported stronger-than-expected quarterly results and increased its guidance, driven by solid execution in U.S. hip and technology lines and sales force restructuring progress. Despite a significant 5-year decline in shareholder return, the company's recent 90-d",
+      "impact": "Latest market news.",
       "category": "corporate_earnings",
-      "date": "2026-08-07 05:14",
-      "link": "https://uk.finance.yahoo.com/news/zimmer-biomet-holdings-zbh-following-051502115.html"
+      "date": "2026-08-05 20:27",
+      "link": "https://www.wsj.com/business/earnings/sandisk-revenue-soars-on-ai-data-storage-demand-1fe50937"
     },
     {
-      "headline": "Mach Natural Resources (NYSE: MNR) lifts revenue with acquisitions and hedging",
+      "headline": "Companies scoff at airlines' cheapest business class tickets. 'The real value is flexibility'",
       "score": 6,
-      "source": "Stock Titan",
-      "sentiment": "positive",
-      "impact": "Mach Natural Resources LP reported significant revenue growth in Q2 2026, reaching $405,955 thousand, largely driven by strategic acquisitions like the 2025 IKAV Acquisition and effective commodity price hedging. Despite a net income decrease for the first half of 2026 due to derivative losses and h",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Some companies plan to shun the cheapest business- and premium- economy fares from their executives.",
+      "category": "global_markets",
+      "date": "2026-08-07 14:32",
+      "link": "https://www.cnbc.com/2026/08/07/business-business-premium-fares.html"
+    },
+    {
+      "headline": "Truist Financial Forecasts Strong Price Appreciation for Cognex (NASDAQ:CGNX) Stock",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Truist Financial has raised its price target for Cognex (NASDAQ:CGNX) stock from $71 to $78, maintaining a \"hold\" rating and indicating a potential upside of 13.66%. Other firms like Cantor Fitzgerald and JPMorgan Chase & Co. also upgraded their ratings and price targets. Cognex recently reported st",
       "category": "us_equities",
-      "date": "2026-08-07 05:12",
-      "link": "https://www.stocktitan.net/sec-filings/MNR/10-q-mach-natural-resources-lp-quarterly-earnings-report-70ca4dbe54ce.html"
+      "date": "2026-08-07 13:46",
+      "link": "https://www.marketbeat.com/instant-alerts/truist-financial-forecasts-strong-price-appreciation-for-cognex-nasdaqcgnx-stock-2026-08-07/"
+    },
+    {
+      "headline": "Why International Flavors & Fragrances (IFF) Is Up 6.4% After New $2.5 Billion Buyback And Guidance",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "International Flavors & Fragrances (IFF) saw its shares rise by 6.4% following the announcement of a new $2.5 billion share repurchase program and updated full-year guidance, despite a sharp drop in net income in Q2 2026. The company is focusing its portfolio by treating Food Ingredients and SCL as ",
+      "category": "corporate_earnings",
+      "date": "2026-08-07 13:39",
+      "link": "https://simplywall.st/stocks/us/materials/nyse-iff/international-flavors-fragrances/news/why-international-flavors-fragrances-iff-is-up-64-after-new"
+    },
+    {
+      "headline": "How S&P 500 options action may help explain the rising volatility in memory stocks",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Bullish derivative bets mesh with the buy-the-dip mentality, says IBKR\u2019s Sosnick.",
+      "category": "us_equities",
+      "date": "2026-08-07 13:30",
+      "link": "https://www.marketwatch.com/story/how-s-p-500-options-action-may-help-explain-volatility-in-memory-stocks-58d95beb?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "JetBlue Airways (NASDAQ:JBLU) Rating Lowered to \"Sell\" at Citigroup",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Citigroup downgraded JetBlue Airways (NASDAQ:JBLU) from \"Neutral\" to \"Sell,\" setting a price target of $5.30, indicating a potential 14.38% downside. The airline reported a quarterly loss of $0.66 per share and $2.70 billion in revenue, slightly exceeding estimates, but continues to face unprofitabi",
+      "category": "us_equities",
+      "date": "2026-08-07 13:19",
+      "link": "https://www.marketbeat.com/instant-alerts/jetblue-airways-nasdaqjblu-rating-lowered-to-sell-at-citigroup-2026-08-07/"
+    },
+    {
+      "headline": "Needham & Company LLC Issues Positive Forecast for CryoPort (NASDAQ:CYRX) Stock Price",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Needham & Company LLC has raised its price target for CryoPort (NASDAQ:CYRX) from $15 to $19, maintaining a \"buy\" rating and indicating a potential upside of approximately 29%. This positive outlook aligns with other analysts, resulting in a consensus \"Moderate Buy\" rating and an average target pric",
+      "category": "us_equities",
+      "date": "2026-08-07 13:10",
+      "link": "https://www.marketbeat.com/instant-alerts/needham-company-llc-issues-positive-forecast-for-cryoport-nasdaqcyrx-stock-price-2026-08-07/"
     }
   ]
 }
