@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-08T06:34:37.281028",
+  "timestamp": "2026-08-08T14:33:49.240099",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 12,
-    "neutral": 13,
+    "avg_relevance": 7.2,
+    "bullish": 18,
+    "neutral": 7,
     "bearish": 0,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 4,
     "Bloomberg": 2,
+    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "MarketBeat": 2,
     "CNBC": 5,
-    "MarketWatch": 1
+    "MarketWatch": 2,
+    "Simply Wall Street": 5,
+    "Seeking Alpha": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Jobs Report Today: Employment Data to Give Investors Clues on Fed Moves \u2014 Live Updates",
+      "score": 8,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_monetary_policy",
+      "date": "2026-08-07 11:52",
+      "link": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -109,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,18 +131,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-08 06:34",
+      "date": "2026-08-08 14:33",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Take-Two Interactive Software (NASDAQ:TTWO) Posts Earnings Results, Misses Expectations By $0.51 EPS",
+      "headline": "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
       "score": 7,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Take-Two Interactive Software (NASDAQ:TTWO) reported a GAAP loss of $0.18 per share, missing consensus estimates by $0.51, despite revenue of $1.53 billion exceeding expectations. The company maintained its fiscal 2027 net bookings guidance of $8.0 billion-$8.2 billion, primarily driven by anticipat",
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The broad market benchmark soared to records this week, benefiting from options activity and a calmer VIX.",
       "category": "us_equities",
-      "date": "2026-08-07 23:07",
-      "link": "https://www.marketbeat.com/instant-alerts/take-two-interactive-software-nasdaqttwo-posts-earnings-results-misses-expectations-by-051-eps-2026-08-07/"
+      "date": "2026-08-08 11:49",
+      "link": "https://www.cnbc.com/2026/08/08/record-breaking-week-for-options-powers-sp-500-surge.html"
     },
     {
       "headline": "A huge day and week for Corning as the S&P 500 approaches another record high",
@@ -143,14 +155,14 @@
       "link": "https://www.cnbc.com/2026/08/07/a-huge-day-and-week-for-corning-as-the-sp-500-aims-for-record-close.html"
     },
     {
-      "headline": "US stocks, bonds rally after soft jobs report; yen bounces back - Reuters",
+      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq point to a steady start ahead of jobs data; oil rises with gold and silver also climbing",
       "score": 7,
-      "source": "Reuters",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "US stocks, bonds rally after soft jobs report; yen bounces back\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-08-07 02:16",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc0YzMU1OZXgxZVVsOS1zOHl4RnZ3SVU4WWtmNFVBd24xM1JNbVlvY0dXMm5DQUZQcDh4WHh1YTZpemRib1NEX1JDOTVqR20wZ2ZObnFJN3dtVkdHS3otcEF3OVBaTUVlTEtNNGw5eUx2QkozTGhvRTQxOHd0Vk5xX194QQ?oc=5"
+      "impact": "Follow all the action for Friday here",
+      "category": "us_equities",
+      "date": "2026-08-07 11:29",
+      "link": "https://www.marketwatch.com/livecoverage/dow-s-p-500-and-nasdaq-set-for-mostly-steady-start-as-investors-wait-for-u-s-jobs-data"
     },
     {
       "headline": "The divide between Eli Lilly and Novo Nordisk is widening after their latest earnings",
@@ -173,104 +185,94 @@
       "link": "https://www.cnbc.com/2026/08/06/warner-bros-discovery-streaming-revenue-paramount-combination.html"
     },
     {
-      "headline": "Peloton posts first-ever annual net profit, but shares drop as outlook disappoints",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Peloton delivered its first-ever annual profit in fiscal 2026 but it's still working to generate sales growth as consumers pull back on big ticket purchases.",
-      "category": "corporate_earnings",
-      "date": "2026-08-06 13:42",
-      "link": "https://www.cnbc.com/2026/08/06/peloton-pton-q4-2026-earnings.html"
-    },
-    {
-      "headline": "US expects deal soon on Strait of Hormuz; Sunni powers unite in defense pact - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US expects deal soon on Strait of Hormuz; Sunni powers unite in defense pact\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-07 23:02",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeTlKQUF3VjE1MnpMNE5PNFRFZmloMHhQMjdHUmhwU0s4QWdWQVl6TFA4NjJCSi1qbnJyRFVjajVIamtFOVd3eHpSdlozSDd4YzlrdW93UHdfaGVDOEVicFByV1hkemlNTFFxbWxiNW5OWUJ4Y3FRbDBkd05nX05pTVNOUUpHc3hjVFlqR3daRnpBNkVDZF91dHV3WTJYQ0ZqLUh3VVVaMV9DU1FtWXlocDlxb3d0cGw1eFVKVA?oc=5"
-    },
-    {
-      "headline": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-07 22:22",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5"
-    },
-    {
-      "headline": "US Senate passes Russia sanctions championed by Graham; US House next - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US Senate passes Russia sanctions championed by Graham; US House next\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-07 22:20",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0pzeU9VRmJkMDBtRWM3MFhyR3JKTENJeDVfb3pNNHpycXViQnF6LWpveDVmZlotcWVrV0M3cTV4Q1hyTUlPcnRwaDFqRW5fWE5BdlFSYVd4NnZ5MWU2X241OU1QVzZkREh5MjVVMFBlY0k3RDgtM2RDUEFWNVVwUlJ4RFo4OHpGanRuclQ1WXV0bmVZX1MtRUZWak5ERjJ1Y0FLQlR3SlBtS2VyM0EyWUlJQVRJdw?oc=5"
-    },
-    {
-      "headline": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
+      "headline": "Berkshire Hathaway profit doubles, fueled by a near $13 billion investment gain",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Two months after he was blocked by the Supreme Court, President Donald Trump has resumed his effort to oust Federal Reserve governor Lisa Cook as part of an effort to stack the central bank\u2019s board with more allies.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-07 22:05",
-      "link": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories"
+      "impact": "Berkshire Hathaway booked a near $13 billion gain on investments in the latest quarter, and has put $32 billion of its cash pile to work.",
+      "category": "corporate_earnings",
+      "date": "2026-08-08 13:43",
+      "link": "https://www.marketwatch.com/story/berkshire-hathaway-profit-doubles-fueled-by-a-near-13-billion-investment-gain-26982ecf?mod=mw_rss_topstories"
     },
     {
-      "headline": "MKS (NASDAQ:MKSI) Price Target Raised to $430.00 at Citigroup",
+      "headline": "Why Equinox Gold (TSX:EQX) Is Up 28.7% After Earnings Beat, Dividend Hike and CEO Shift",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "Citigroup has raised its price target for MKS Instruments (NASDAQ:MKSI) to $430.00 from $425.00, maintaining a \"buy\" rating, which suggests a potential upside of approximately 41%. This adjustment follows MKS's strong quarterly performance, where revenue increased by 28.3% year-over-year to $1.25 bi",
-      "category": "us_equities",
-      "date": "2026-08-07 21:24",
-      "link": "https://www.marketbeat.com/instant-alerts/mks-nasdaqmksi-price-target-raised-to-43000-at-citigroup-2026-08-07/"
+      "impact": "Equinox Gold (TSX:EQX) saw its stock rise 28.7% after reporting strong Q2 2026 results, including US$769.8 million in sales and US$230.62 million in net income, marking a significant shift to profitability. The company also announced a 50% increase in its annual cash dividend and a planned CEO trans",
+      "category": "commodities",
+      "date": "2026-08-08 13:42",
+      "link": "https://simplywall.st/stocks/ca/materials/tsx-eqx/equinox-gold-shares/news/why-equinox-gold-tsxeqx-is-up-287-after-earnings-beat-divide"
     },
     {
-      "headline": "\u2018SaaSpocalypse\u2019 debate intensifies as software stocks swing wildly",
+      "headline": "Entegris, Inc. Just Beat Revenue Estimates By 5.8%",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Entegris, Inc. (NASDAQ: ENTG) exceeded its latest revenue estimates by 5.8%, reporting US$883m, and statutory EPS by 4.3% at US$0.61. Following these strong results, analysts have modestly upgraded their 2026 revenue and EPS forecasts for Entegris, projecting US$3.57b in revenue and US$2.73 in EPS, ",
+      "category": "corporate_earnings",
+      "date": "2026-08-08 13:28",
+      "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-entg/entegris/news/entegris-inc-just-beat-revenue-estimates-by-58"
+    },
+    {
+      "headline": "Iran says deal on Strait of Hormuz is close but will not open the waterway by itself - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran says deal on Strait of Hormuz is close but will not open the waterway by itself\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-08 13:08",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5"
+    },
+    {
+      "headline": "US$85.40 - That's What Analysts Think Digi International Inc. (NASDAQ:DGII) Is Worth After These Results",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Digi International Inc. reported strong Q2 results, with revenues beating analyst predictions by 4.6% to reach US$139m and EPS of US$0.40, exceeding expectations by 4.6%. Following these positive results, analysts have increased their revenue and EPS forecasts for 2027, raising the price target by 1",
+      "category": "us_equities",
+      "date": "2026-08-08 12:40",
+      "link": "https://simplywall.st/stocks/us/tech/nasdaq-dgii/digi-international/news/us8540-thats-what-analysts-think-digi-international-inc-nasd"
+    },
+    {
+      "headline": "Caterpillar Inc. Just Beat Earnings Expectations: Here's What Analysts Think Will Happen Next",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "Caterpillar Inc. (NYSE:CAT) exceeded Q2 earnings expectations, with revenue 7.0% above estimates and EPS 27% ahead, leading to a noticeable increase in analyst sentiment. Analysts have upgraded their revenue and earnings per share forecasts for 2026, projecting 5.5% revenue growth to US$78.9 billion",
+      "category": "corporate_earnings",
+      "date": "2026-08-08 12:28",
+      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-cat/caterpillar/news/caterpillar-inc-just-beat-earnings-expectations-heres-what-a"
+    },
+    {
+      "headline": "The Carlyle Group Inc. Just Beat Revenue Estimates By 22%",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "positive",
+      "impact": "The Carlyle Group Inc. (NASDAQ:CG) saw its shares rise 3.8% after reporting strong Q2 results, with revenue beating expectations by 22% and EPS matching estimates. Analysts have significantly upgraded their revenue and earnings per share forecasts for 2026, predicting substantial growth for the comp",
+      "category": "corporate_earnings",
+      "date": "2026-08-08 12:14",
+      "link": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-cg/carlyle-group/news/the-carlyle-group-inc-just-beat-revenue-estimates-by-22"
+    },
+    {
+      "headline": "Elevator giant Otis wants to be a defensive play in an volatile market. It has to prove itself first",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "This week saw massive moves in both directions for software stocks, as investors try to figure out which names are best insulated from artificial intelligence.",
+      "sentiment": "positive",
+      "impact": "Otis positions itself as a long-term growth stock, but shares are down due to setbacks in its elevator service business and investors chasing the AI trade.",
       "category": "global_markets",
-      "date": "2026-08-07 20:22",
-      "link": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html"
+      "date": "2026-08-08 12:00",
+      "link": "https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html"
     },
     {
-      "headline": "US Senate confirms dozens of Trump nominees, filling gaps in diplomatic corps - Reuters",
+      "headline": "McKesson Stock: Solid Q1 Earnings And Management Execution (Upgrade) (NYSE:MCK)",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US Senate confirms dozens of Trump nominees, filling gaps in diplomatic corps\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-07 19:55",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVFVVXl3ZF9BaXRrU2lhbFhMNjZtZS1xaGtSWGNEbFZOMFdQR3BfeHBYUkJlSW80NTVpQVlYTHdQRWx4RDlZQTBsLWRjNnA3TlA0Y3RUSy1DOWx6WkRjd3ZHdndaTjZXT1lNRTFQV0JTVVkxSWNxWHRTZlM4MVl5eHQ2S3VpS3djanNlNkR5T2JucGlDSzRvUVlDNFhvWGRoNFJJc2FEWkNVQVg2Y05ULWNpQjZ4M0lSRHB4QjJB?oc=5"
-    },
-    {
-      "headline": "Iraqi PM, Saudi intelligence chief discuss regional security as militias delay response - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iraqi PM, Saudi intelligence chief discuss regional security as militias delay response\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-07 19:41",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYThtNWRuaTFwZXA0d2VNMmlWY1JteFZFdF9JSjlYZG4yWmxJN2RidHdaMWtCQ2hSdGdBdHRpY2pDZXpsaFZ0dlZDX0RzcHJCN0p1anRHbmd1R284b29IMjNleVRfMGJTb0ZHVHNpVURuaUdDemVrSVY3eVJwemxyLW1zdzRSN2JTQzhJTUxtVW5XLW1SenJIc1hlVFN1cURqc0E1T0p5OFYtQlVOR1lha2VsNzNKOG42R19IdExmejhLQlUxR3FV?oc=5"
-    },
-    {
-      "headline": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-07 19:15",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5"
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "McKesson reported strong Q1 results, with EPS increasing by 20% and revenues by 7.7%, leading to a modest raise in FY27 EPS guidance. The company's streamlining efforts through the Wellverse spin-off and prior divestitures may justify a premium valuation despite a projected deceleration in GLP-1 dri",
+      "category": "us_equities",
+      "date": "2026-08-08 12:00",
+      "link": "https://seekingalpha.com/article/4933701-mckesson-solid-q1-earnings-and-management-execution-upgrade"
     }
   ]
 }
