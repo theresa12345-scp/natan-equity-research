@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-07T14:55:00.497538",
+  "timestamp": "2026-08-08T06:34:37.281028",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 13,
-    "neutral": 10,
-    "bearish": 2,
-    "high_priority": 9,
+    "avg_relevance": 7.1,
+    "bullish": 12,
+    "neutral": 13,
+    "bearish": 0,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
+    "Reuters": 10,
     "Bloomberg": 2,
-    "CNBC": 6,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "The Wall Street Journal": 2,
-    "Financial Times": 1,
-    "MarketBeat": 3,
-    "Simply Wall Street": 1
+    "MarketBeat": 2,
+    "CNBC": 5,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -32,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,18 +99,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Cook was part of a 9-3 majority that voted last week to keep the central bank's benchmark borrowing rate in a range between 3.5%-3.75%.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-05 20:36",
-      "link": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +109,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,18 +119,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-07 14:54",
+      "date": "2026-08-08 06:34",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "There are good reasons higher bond yields are here to stay, this strategist says",
+      "headline": "Take-Two Interactive Software (NASDAQ:TTWO) Posts Earnings Results, Misses Expectations By $0.51 EPS",
       "score": 7,
-      "source": "MarketWatch",
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Take-Two Interactive Software (NASDAQ:TTWO) reported a GAAP loss of $0.18 per share, missing consensus estimates by $0.51, despite revenue of $1.53 billion exceeding expectations. The company maintained its fiscal 2027 net bookings guidance of $8.0 billion-$8.2 billion, primarily driven by anticipat",
+      "category": "us_equities",
+      "date": "2026-08-07 23:07",
+      "link": "https://www.marketbeat.com/instant-alerts/take-two-interactive-software-nasdaqttwo-posts-earnings-results-misses-expectations-by-051-eps-2026-08-07/"
+    },
+    {
+      "headline": "A huge day and week for Corning as the S&P 500 approaches another record high",
+      "score": 7,
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Investors are demanding higher rates when they buy long-duration bonds because there is less demand, higher supply and a hot mess of policy uncertainty, strategist explains",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "us_equities",
+      "date": "2026-08-07 16:59",
+      "link": "https://www.cnbc.com/2026/08/07/a-huge-day-and-week-for-corning-as-the-sp-500-aims-for-record-close.html"
+    },
+    {
+      "headline": "US stocks, bonds rally after soft jobs report; yen bounces back - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US stocks, bonds rally after soft jobs report; yen bounces back\u00a0\u00a0Reuters",
       "category": "fixed_income",
-      "date": "2026-08-07 10:02",
-      "link": "https://www.marketwatch.com/story/there-are-good-reasons-why-higher-bond-yields-are-here-to-stay-this-strategist-says-2a89d5ae?mod=mw_rss_topstories"
+      "date": "2026-08-07 02:16",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc0YzMU1OZXgxZVVsOS1zOHl4RnZ3SVU4WWtmNFVBd24xM1JNbVlvY0dXMm5DQUZQcDh4WHh1YTZpemRib1NEX1JDOTVqR20wZ2ZObnFJN3dtVkdHS3otcEF3OVBaTUVlTEtNNGw5eUx2QkozTGhvRTQxOHd0Vk5xX194QQ?oc=5"
     },
     {
       "headline": "The divide between Eli Lilly and Novo Nordisk is widening after their latest earnings",
@@ -154,16 +161,6 @@
       "category": "corporate_earnings",
       "date": "2026-08-06 16:28",
       "link": "https://www.cnbc.com/2026/08/06/eli-lilly-novo-nordisk-earnings-glp1-market.html"
-    },
-    {
-      "headline": "Restaurant Brands International earnings beat as Burger King's U.S. business soars",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Burger King's U.S. business reported same-store sales growth of 8.5%.",
-      "category": "corporate_earnings",
-      "date": "2026-08-06 15:58",
-      "link": "https://www.cnbc.com/2026/08/06/restaurant-brands-international-q2-2026-earnings.html"
     },
     {
       "headline": "Warner Bros. Discovery reports 10% jump in streaming revenue ahead of proposed Paramount combination",
@@ -186,94 +183,94 @@
       "link": "https://www.cnbc.com/2026/08/06/peloton-pton-q4-2026-earnings.html"
     },
     {
-      "headline": "Stock Market Today: Nasdaq Futures Slip on AI Anxiety \u2014 Live Updates",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-08-06 12:14",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-06-2026"
-    },
-    {
-      "headline": "Kevin Warsh to stick with lean Fed messaging despite market backlash",
-      "score": 7,
-      "source": "Financial Times",
-      "sentiment": "neutral",
-      "impact": "US central bank chair remains confident that sweeping reforms will win over key investors",
-      "category": "us_monetary_policy",
-      "date": "2026-08-06 11:00",
-      "link": "https://www.ft.com/content/debe096f-ec89-424f-a8ca-d3843ef53549?syn-25a6b1a6\\\\u003d1"
-    },
-    {
-      "headline": "Sandisk Revenue Soars on AI Data Storage Demand",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "corporate_earnings",
-      "date": "2026-08-05 20:27",
-      "link": "https://www.wsj.com/business/earnings/sandisk-revenue-soars-on-ai-data-storage-demand-1fe50937"
-    },
-    {
-      "headline": "Companies scoff at airlines' cheapest business class tickets. 'The real value is flexibility'",
+      "headline": "US expects deal soon on Strait of Hormuz; Sunni powers unite in defense pact - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Some companies plan to shun the cheapest business- and premium- economy fares from their executives.",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US expects deal soon on Strait of Hormuz; Sunni powers unite in defense pact\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-07 14:32",
-      "link": "https://www.cnbc.com/2026/08/07/business-business-premium-fares.html"
+      "date": "2026-08-07 23:02",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeTlKQUF3VjE1MnpMNE5PNFRFZmloMHhQMjdHUmhwU0s4QWdWQVl6TFA4NjJCSi1qbnJyRFVjajVIamtFOVd3eHpSdlozSDd4YzlrdW93UHdfaGVDOEVicFByV1hkemlNTFFxbWxiNW5OWUJ4Y3FRbDBkd05nX05pTVNOUUpHc3hjVFlqR3daRnpBNkVDZF91dHV3WTJYQ0ZqLUh3VVVaMV9DU1FtWXlocDlxb3d0cGw1eFVKVA?oc=5"
     },
     {
-      "headline": "Truist Financial Forecasts Strong Price Appreciation for Cognex (NASDAQ:CGNX) Stock",
+      "headline": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates - Reuters",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Truist Financial has raised its price target for Cognex (NASDAQ:CGNX) stock from $71 to $78, maintaining a \"hold\" rating and indicating a potential upside of 13.66%. Other firms like Cantor Fitzgerald and JPMorgan Chase & Co. also upgraded their ratings and price targets. Cognex recently reported st",
-      "category": "us_equities",
-      "date": "2026-08-07 13:46",
-      "link": "https://www.marketbeat.com/instant-alerts/truist-financial-forecasts-strong-price-appreciation-for-cognex-nasdaqcgnx-stock-2026-08-07/"
+      "impact": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-07 22:22",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5"
     },
     {
-      "headline": "Why International Flavors & Fragrances (IFF) Is Up 6.4% After New $2.5 Billion Buyback And Guidance",
+      "headline": "US Senate passes Russia sanctions championed by Graham; US House next - Reuters",
       "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "International Flavors & Fragrances (IFF) saw its shares rise by 6.4% following the announcement of a new $2.5 billion share repurchase program and updated full-year guidance, despite a sharp drop in net income in Q2 2026. The company is focusing its portfolio by treating Food Ingredients and SCL as ",
-      "category": "corporate_earnings",
-      "date": "2026-08-07 13:39",
-      "link": "https://simplywall.st/stocks/us/materials/nyse-iff/international-flavors-fragrances/news/why-international-flavors-fragrances-iff-is-up-64-after-new"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US Senate passes Russia sanctions championed by Graham; US House next\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-07 22:20",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0pzeU9VRmJkMDBtRWM3MFhyR3JKTENJeDVfb3pNNHpycXViQnF6LWpveDVmZlotcWVrV0M3cTV4Q1hyTUlPcnRwaDFqRW5fWE5BdlFSYVd4NnZ5MWU2X241OU1QVzZkREh5MjVVMFBlY0k3RDgtM2RDUEFWNVVwUlJ4RFo4OHpGanRuclQ1WXV0bmVZX1MtRUZWak5ERjJ1Y0FLQlR3SlBtS2VyM0EyWUlJQVRJdw?oc=5"
     },
     {
-      "headline": "How S&P 500 options action may help explain the rising volatility in memory stocks",
+      "headline": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Bullish derivative bets mesh with the buy-the-dip mentality, says IBKR\u2019s Sosnick.",
-      "category": "us_equities",
-      "date": "2026-08-07 13:30",
-      "link": "https://www.marketwatch.com/story/how-s-p-500-options-action-may-help-explain-volatility-in-memory-stocks-58d95beb?mod=mw_rss_topstories"
+      "impact": "Two months after he was blocked by the Supreme Court, President Donald Trump has resumed his effort to oust Federal Reserve governor Lisa Cook as part of an effort to stack the central bank\u2019s board with more allies.",
+      "category": "us_monetary_policy",
+      "date": "2026-08-07 22:05",
+      "link": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories"
     },
     {
-      "headline": "JetBlue Airways (NASDAQ:JBLU) Rating Lowered to \"Sell\" at Citigroup",
+      "headline": "MKS (NASDAQ:MKSI) Price Target Raised to $430.00 at Citigroup",
       "score": 6,
       "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Citigroup downgraded JetBlue Airways (NASDAQ:JBLU) from \"Neutral\" to \"Sell,\" setting a price target of $5.30, indicating a potential 14.38% downside. The airline reported a quarterly loss of $0.66 per share and $2.70 billion in revenue, slightly exceeding estimates, but continues to face unprofitabi",
+      "sentiment": "positive",
+      "impact": "Citigroup has raised its price target for MKS Instruments (NASDAQ:MKSI) to $430.00 from $425.00, maintaining a \"buy\" rating, which suggests a potential upside of approximately 41%. This adjustment follows MKS's strong quarterly performance, where revenue increased by 28.3% year-over-year to $1.25 bi",
       "category": "us_equities",
-      "date": "2026-08-07 13:19",
-      "link": "https://www.marketbeat.com/instant-alerts/jetblue-airways-nasdaqjblu-rating-lowered-to-sell-at-citigroup-2026-08-07/"
+      "date": "2026-08-07 21:24",
+      "link": "https://www.marketbeat.com/instant-alerts/mks-nasdaqmksi-price-target-raised-to-43000-at-citigroup-2026-08-07/"
     },
     {
-      "headline": "Needham & Company LLC Issues Positive Forecast for CryoPort (NASDAQ:CYRX) Stock Price",
+      "headline": "\u2018SaaSpocalypse\u2019 debate intensifies as software stocks swing wildly",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Needham & Company LLC has raised its price target for CryoPort (NASDAQ:CYRX) from $15 to $19, maintaining a \"buy\" rating and indicating a potential upside of approximately 29%. This positive outlook aligns with other analysts, resulting in a consensus \"Moderate Buy\" rating and an average target pric",
-      "category": "us_equities",
-      "date": "2026-08-07 13:10",
-      "link": "https://www.marketbeat.com/instant-alerts/needham-company-llc-issues-positive-forecast-for-cryoport-nasdaqcyrx-stock-price-2026-08-07/"
+      "impact": "This week saw massive moves in both directions for software stocks, as investors try to figure out which names are best insulated from artificial intelligence.",
+      "category": "global_markets",
+      "date": "2026-08-07 20:22",
+      "link": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html"
+    },
+    {
+      "headline": "US Senate confirms dozens of Trump nominees, filling gaps in diplomatic corps - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US Senate confirms dozens of Trump nominees, filling gaps in diplomatic corps\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-07 19:55",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVFVVXl3ZF9BaXRrU2lhbFhMNjZtZS1xaGtSWGNEbFZOMFdQR3BfeHBYUkJlSW80NTVpQVlYTHdQRWx4RDlZQTBsLWRjNnA3TlA0Y3RUSy1DOWx6WkRjd3ZHdndaTjZXT1lNRTFQV0JTVVkxSWNxWHRTZlM4MVl5eHQ2S3VpS3djanNlNkR5T2JucGlDSzRvUVlDNFhvWGRoNFJJc2FEWkNVQVg2Y05ULWNpQjZ4M0lSRHB4QjJB?oc=5"
+    },
+    {
+      "headline": "Iraqi PM, Saudi intelligence chief discuss regional security as militias delay response - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iraqi PM, Saudi intelligence chief discuss regional security as militias delay response\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-07 19:41",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYThtNWRuaTFwZXA0d2VNMmlWY1JteFZFdF9JSjlYZG4yWmxJN2RidHdaMWtCQ2hSdGdBdHRpY2pDZXpsaFZ0dlZDX0RzcHJCN0p1anRHbmd1R284b29IMjNleVRfMGJTb0ZHVHNpVURuaUdDemVrSVY3eVJwemxyLW1zdzRSN2JTQzhJTUxtVW5XLW1SenJIc1hlVFN1cURqc0E1T0p5OFYtQlVOR1lha2VsNzNKOG42R19IdExmejhLQlUxR3FV?oc=5"
+    },
+    {
+      "headline": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-07 19:15",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5"
     }
   ]
 }
