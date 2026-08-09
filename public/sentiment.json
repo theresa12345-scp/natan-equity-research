@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-09T06:38:16.739874",
+  "timestamp": "2026-08-09T14:37:07.760669",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 11,
-    "neutral": 11,
+    "avg_relevance": 7.2,
+    "bullish": 13,
+    "neutral": 9,
     "bearish": 3,
-    "high_priority": 9,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -15,14 +15,14 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 6,
-    "Bloomberg": 3,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "TradingKey": 1,
-    "Simply Wall Street": 2,
+    "Simply Wall Street": 3,
     "CNBC": 5,
-    "MarketWatch": 1,
-    "MarketBeat": 1,
-    "Yahoo Finance UK": 1
+    "Yahoo Finance UK": 1,
+    "Investing.com": 1,
+    "Business Wire": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -32,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,18 +102,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Fed Split on Rate Hikes Deepens as Five Years of High Inflation Tests Patience",
-      "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Five years of high inflation is testing the patience of Federal Reserve officials and showcasing a split between those willing to wait before hiking interest rates and those who say time is running out.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-07 19:27",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-07/fed-split-on-rate-hikes-deepens-as-high-inflation-tests-patience"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +112,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,28 +122,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-09 06:38",
+      "date": "2026-08-09 14:37",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "JFB Construction Holdings (JFB) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-      "score": 7,
-      "source": "TradingKey",
-      "sentiment": "positive",
-      "impact": "This article provides an earnings forecast for JFB Construction Holdings (JFB), detailing future EPS and revenue growth estimates. It includes a snapshot of the company's stock performance, market capitalization, and a comparison with peer companies in the construction and engineering sector. The da",
-      "category": "corporate_earnings",
-      "date": "2026-08-09 04:41",
-      "link": "https://www.tradingkey.com/markets/stocks/jfb/forecast"
-    },
-    {
-      "headline": "Edison International (EIX) Is Down 6.5% After Cutting 2026 EPS Guidance Despite Higher Q2 Profit - Has The Bull Case Changed?",
+      "headline": "Camtek (NasdaqGM:CAMT) Stock Looks Rich On Earnings But Strong On Returns",
       "score": 7,
       "source": "Simply Wall Street",
-      "sentiment": "negative",
-      "impact": "Edison International (EIX) experienced a 6.5% stock drop after lowering its 2026 EPS guidance, despite reporting higher Q2 2026 net income. The company's full-year outlook is now more cautious, with basic EPS guidance reduced to US$5.70\u2013US$6.00 from US$5.86\u2013US$6.16. This guidance cut reframes near-t",
+      "sentiment": "neutral",
+      "impact": "Camtek's stock has shown strong returns over the past five years but its current valuation, with a P/E ratio of 148.8x, is significantly higher than the industry average and a model's fair P/E of 45.5x. This premium valuation suggests that the market has high expectations for continued growth in sem",
       "category": "us_equities",
-      "date": "2026-08-09 04:21",
-      "link": "https://simplywall.st/stocks/us/utilities/nyse-eix/edison-international/news/edison-international-eix-is-down-65-after-cutting-2026-eps-g"
+      "date": "2026-08-09 13:40",
+      "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-camt/camtek/news/camtek-nasdaqgmcamt-stock-looks-rich-on-earnings-but-strong"
+    },
+    {
+      "headline": "China July factory-gate inflation eases to 3-month low, CPI slows - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "China July factory-gate inflation eases to 3-month low, CPI slows\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-08-09 01:43",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaVNBcVdFSHViUm10d0NJVTdNYVJOdDgwZ3FvTy1JbFVwTVVlWmN1a1B3UjRaTWdYOG5VRm0yZWZXUWVKMEtLVzk4azgwcHVuX1Y3LWFrMGhnam0zRFU1dnRFQlBaSmpEOUVzM0sxUVYybml4QkIwNlVIck1LNE5wQTBEcWUtaFhZMGdCTFpnS0R5QTNDLWJheUNGT3VINWtSRzBFek13?oc=5"
     },
     {
       "headline": "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
@@ -166,16 +156,6 @@
       "link": "https://www.cnbc.com/2026/08/08/record-breaking-week-for-options-powers-sp-500-surge.html"
     },
     {
-      "headline": "Stock Market Today: S&P 500, Dow and Nasdaq all book best weeks since April, with S&P 500 closing at a record high",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Stocks rally after jobs data eases worries about timing of potential rate increases.",
-      "category": "us_equities",
-      "date": "2026-08-07 22:04",
-      "link": "https://www.marketwatch.com/livecoverage/dow-s-p-500-and-nasdaq-set-for-mostly-steady-start-as-investors-wait-for-u-s-jobs-data"
-    },
-    {
       "headline": "Dollar drops as weak US jobs data pushes out Fed hike expectations - Reuters",
       "score": 7,
       "source": "Reuters",
@@ -186,14 +166,14 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUNvR1pacXVtTWI3eUROeE54TXVYY3JEU1FNSFA4YlBaVFp6MDFXY0tFaFpqSFBfM2R2WTJQVDVtNG5RN3ozQkZLTTZpTGN5aDMzUE9uUVAyanZWN0VWcnVzWlF1aDh6Y0k2dlY4WWpsMFRMdFNoRW81Y1M2WW9qNTlPSWZVZGFnRVh1eEVTTXhWSlhOQkgyRFJfUm5nMGtGaHRUbnlITTRidldKOFg3ZEg5NnRLR3dj?oc=5"
     },
     {
-      "headline": "A huge day and week for Corning as the S&P 500 approaches another record high",
+      "headline": "US stocks, bonds rally after soft jobs report; yen bounces back - Reuters",
       "score": 7,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "us_equities",
-      "date": "2026-08-07 16:59",
-      "link": "https://www.cnbc.com/2026/08/07/a-huge-day-and-week-for-corning-as-the-sp-500-aims-for-record-close.html"
+      "impact": "US stocks, bonds rally after soft jobs report; yen bounces back\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-08-07 21:57",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc0YzMU1OZXgxZVVsOS1zOHl4RnZ3SVU4WWtmNFVBd24xM1JNbVlvY0dXMm5DQUZQcDh4WHh1YTZpemRib1NEX1JDOTVqR20wZ2ZObnFJN3dtVkdHS3otcEF3OVBaTUVlTEtNNGw5eUx2QkozTGhvRTQxOHd0Vk5xX194QQ?oc=5"
     },
     {
       "headline": "The divide between Eli Lilly and Novo Nordisk is widening after their latest earnings",
@@ -216,64 +196,84 @@
       "link": "https://www.cnbc.com/2026/08/06/warner-bros-discovery-streaming-revenue-paramount-combination.html"
     },
     {
-      "headline": "NXP Semiconductors (NASDAQ:NXPI) Downgraded to Buy Rating by Wall Street Zen",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Wall Street Zen has downgraded NXP Semiconductors (NASDAQ:NXPI) from a \"strong buy\" to a \"buy\" rating, despite the broader analyst consensus remaining a \"Moderate Buy\" with an average target price of $305.43. NXP recently reported strong quarterly earnings of $3.61 per share, exceeding estimates, an",
-      "category": "us_equities",
-      "date": "2026-08-09 05:17",
-      "link": "https://www.marketbeat.com/instant-alerts/nxp-semiconductors-nasdaqnxpi-downgraded-to-buy-rating-by-wall-street-zen-2026-08-09/"
-    },
-    {
-      "headline": "Why nLIGHT (LASR) Is Down 18.4% After Mixed Q2 Results And Supply-Constrained Q3 Guidance",
+      "headline": "Should Upgraded Momentum Scores and Earnings Estimates Require Action From TJX Companies (TJX) Investors?",
       "score": 6,
       "source": "Yahoo Finance UK",
-      "sentiment": "negative",
-      "impact": "nLIGHT, Inc. (LASR) reported mixed Q2 results with revenue of US$82.59 million and a reduced net loss, but shares dropped 18.4% due to supply chain constraints impacting Q3 guidance. The company secured a significant Joint Laser Weapon System contract expected to contribute from Q3 2026, reinforcing",
-      "category": "us_equities",
-      "date": "2026-08-09 04:26",
-      "link": "https://uk.finance.yahoo.com/news/why-nlight-lasr-down-18-042701186.html"
+      "sentiment": "positive",
+      "impact": "TJX Companies has received an upgraded Momentum Style Score of B and a Zacks Rank of #2 (Buy), along with upward revisions to earnings estimates for the current and next fiscal year. This positive news strengthens the investment narrative around TJX's off-price model and its ability to generate stro",
+      "category": "corporate_earnings",
+      "date": "2026-08-09 14:09",
+      "link": "https://uk.finance.yahoo.com/news/upgraded-momentum-scores-earnings-estimates-131051961.html"
     },
     {
-      "headline": "Should Biogen\u2019s Profit Squeeze Amid Rising New-Therapy Sales Prompt Action From Biogen (BIIB) Investors?",
+      "headline": "Trimble earnings on deck amid portfolio simplification push",
+      "score": 6,
+      "source": "Investing.com",
+      "sentiment": "positive",
+      "impact": "Trimble Inc. is set to release its second-quarter results, with investors keenly watching its portfolio transformation strategy, especially the potential sale of its transportation and logistics unit. Analysts expect earnings of $0.80 per share and revenue of $951.4 million, reflecting year-over-yea",
+      "category": "corporate_earnings",
+      "date": "2026-08-09 14:07",
+      "link": "https://www.investing.com/news/earnings/trimble-earnings-on-deck-amid-portfolio-simplification-push-93CH-4847745"
+    },
+    {
+      "headline": "Intuit Inc. (NASDAQ: INTU) Investors: September 8, 2026, Deadline in Securities Fraud Class Action Lawsuit - Contact Kessler Topaz Meltzer & Check, LLP",
+      "score": 6,
+      "source": "Business Wire",
+      "sentiment": "negative",
+      "impact": "Kessler Topaz Meltzer & Check, LLP has filed a securities fraud class action lawsuit against Intuit Inc. (NASDAQ: INTU) on behalf of investors who purchased securities between August 22, 2025, and May 20, 2026. The lawsuit alleges that Intuit made misleading statements regarding its competitive adva",
+      "category": "us_equities",
+      "date": "2026-08-09 14:06",
+      "link": "https://www.businesswire.com/news/home/20260809335263/en/Intuit-Inc.-NASDAQ-INTU-Investors-September-8-2026-Deadline-in-Securities-Fraud-Class-Action-Lawsuit---Contact-Kessler-Topaz-Meltzer-Check-LLP"
+    },
+    {
+      "headline": "S&P 500 sales growth is at a nearly 5-year high. Here\u2019s what\u2019s behind the surge.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Energy companies in the S&P 500 have put up a 42.5% revenue gain in the second quarter, powering the index\u2019s sales performance.",
+      "category": "us_equities",
+      "date": "2026-08-09 14:00",
+      "link": "https://www.marketwatch.com/story/s-p-500-sales-growth-is-at-a-nearly-5-year-high-heres-whats-behind-the-surge-a4ccf06d?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "What Labcorp Holdings (LH)'s New PTEN Test and Guidance Hike Means For Shareholders",
       "score": 6,
       "source": "Simply Wall Street",
-      "sentiment": "neutral",
-      "impact": "Biogen (BIIB) reported increased revenue in Q2 2026, driven by new therapies and the Apellis acquisition, but experienced a significant drop in net income and diluted EPS. This profit squeeze highlights challenges in offsetting the decline of its legacy multiple sclerosis portfolio with new growth p",
+      "sentiment": "positive",
+      "impact": "Labcorp Holdings recently announced the nationwide availability of Roche's FDA-approved VENTANA PTEN (SP218) RxDx Assay, a diagnostic tool for prostate cancer, along with increased quarterly sales and an uplift in its full-year 2026 revenue growth guidance. This move strengthens Labcorp's position i",
       "category": "corporate_earnings",
-      "date": "2026-08-09 04:03",
-      "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-biib/biogen/news/should-biogens-profit-squeeze-amid-rising-new-therapy-sales"
+      "date": "2026-08-09 13:40",
+      "link": "https://simplywall.st/stocks/us/healthcare/nyse-lh/labcorp-holdings/news/what-labcorp-holdings-lhs-new-pten-test-and-guidance-hike-me"
     },
     {
-      "headline": "Verizon mobile service down for thousands of customers in the U.S., Downdetector shows",
+      "headline": "5 \u2018rules\u2019 your parents taught you that are sabotaging your career, says expert\u2014like \u2018always be grateful\u2019",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Verizon recommended that customers who are still impacted by the outage restart their devices. The company did not provide \u2060a reason for \u2060the outage.",
+      "impact": "\"Well-intentioned career advice absorbed from a young age can work against you,\" says executive coach Melody Wilding, author of \"Managing Up.\"",
+      "category": "global_markets",
+      "date": "2026-08-09 13:34",
+      "link": "https://www.cnbc.com/2026/08/09/rules-your-parents-taught-you-that-are-sabotaging-your-career-expert.html"
+    },
+    {
+      "headline": "Clean Energy Fuels Corp. (NASDAQ:CLNE) Just Reported, And Analysts Assigned A US$4.34 Price Target",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "negative",
+      "impact": "Clean Energy Fuels Corp. (NASDAQ:CLNE) reported quarterly results, with revenue matching forecasts but a smaller loss per share than expected. Despite this, analysts maintained revenue forecasts but increased loss per share estimates, leading to a 10% dip in the average price target to US$4.34 due t",
       "category": "us_equities",
-      "date": "2026-08-08 23:14",
-      "link": "https://www.cnbc.com/2026/08/08/verizon-mobile-outage-downdetector.html"
+      "date": "2026-08-09 13:26",
+      "link": "https://simplywall.st/stocks/us/energy/nasdaq-clne/clean-energy-fuels/news/clean-energy-fuels-corp-nasdaqclne-just-reported-and-analyst"
     },
     {
-      "headline": "Iran says deal on Strait of Hormuz is close but not enough to open the waterway - Reuters",
+      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Iran says deal on Strait of Hormuz is close but not enough to open the waterway\u00a0\u00a0Reuters",
+      "impact": "The market's attention will be on July inflation data.",
       "category": "global_markets",
-      "date": "2026-08-08 22:54",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5"
-    },
-    {
-      "headline": "Turkey, Pakistan, Saudi Arabia defence pact technically same as NATO's Article 5, Turkish minister says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Turkey, Pakistan, Saudi Arabia defence pact technically same as NATO's Article 5, Turkish minister says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-08 19:53",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLVVZeXNFQ1JsdkxwT29TdjNMRmVVM0V6Y3B1NzB3SDVpMzRaTXdFZjJpcWEteGxQd1dWalV1WDlnS2NhSVlTZGhYVHhLU2tUNHhjZ1I4Zl9WbFFZaVRudVU3TEFCMnFtRFlGU2ZYZDNreVlQTjljdWFMbndxVGdyNUlaZFJPUjRZd0F2SnB5dUtvUWZYYWFJUmpjNjVWeFdTTGwyaU8zOGdtdUFjQW5zb0E2aUt1VEUybWxjX2pLZHdwTlVSN2lzbg?oc=5"
+      "date": "2026-08-09 13:11",
+      "link": "https://www.cnbc.com/2026/08/09/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
     }
   ]
 }
