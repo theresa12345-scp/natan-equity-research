@@ -1,27 +1,26 @@
 {
-  "timestamp": "2026-08-13T07:12:22.438257",
+  "timestamp": "2026-08-13T14:59:50.628282",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 13,
-    "neutral": 10,
-    "bearish": 2,
-    "high_priority": 9,
-    "material_events": 4
+    "avg_relevance": 7.2,
+    "bullish": 12,
+    "neutral": 13,
+    "bearish": 0,
+    "high_priority": 10,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
+    "CNBC": 5,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "CNBC": 2,
     "Caixin/S&P Global": 1,
-    "Seeking Alpha": 1,
-    "Fox Business": 1,
-    "MarketBeat": 8,
-    "Simply Wall Street": 1
+    "MarketBeat": 2,
+    "AD HOC NEWS": 1,
+    "Simply Wall Street": 2
   },
   "top_signals": [
     {
@@ -31,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,8 +60,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Treasury yields dip as Wall Street awaits wholesale inflation data",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 fell over one basis point to 4.674%.",
+      "category": "us_equities",
+      "date": "2026-08-13 08:40",
+      "link": "https://www.cnbc.com/2026/08/13/treasury-yields-wall-street-inflation-data.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -71,7 +80,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +100,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +110,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -121,7 +130,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,8 +140,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-13 07:12",
+      "date": "2026-08-13 14:59",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Gold off two-month peak as traders seek inflation cues - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gold off two-month peak as traders seek inflation cues\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-13 03:59",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZWRyNnFQd2twNlNReDRyTy1GMGJWTktnY1RhMWY2SXZXRTluaDQ5TW8tdi11YTJ1VEppaUVwWTdyZkNUMGZMQXdIdG1Bdm9uQnNFOUNMY0UyREk2NU45UzF0SDlXcjNrWmswYldOZ3dKUzg2YUZaTjJZYm5lNldFTlFXcmJnVl94VGdfRnlEbElyRG1SZE9ERG5NRVNicUdJOXhNNDdLbTNEbzVTOFNpSWI0OUM4dw?oc=5"
     },
     {
       "headline": "Top US refiners see profits soar, step up investor rewards - Reuters",
@@ -145,134 +164,114 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX2FVR1ZIejBlNVBEMzQ5S2x1UHpjOHVldkJ1eEU1eVE4QkNGYVU1Z25GZloxaHJWUm1XejJpbHEwTlg4M0FkYkFCbVpSa2hDb3BRYUxpT3FwdlM4Z1psY0RYWWVGYnItQzBlWEpHeTF4Q2dMS2txOUhpQlQzcVgyQU9Ra2lGUVFMTGdMbnRCNWZfLVFybXkxUFlVQzZ6Nko3YlRPa25qZTF0Ny1fYmc?oc=5"
     },
     {
-      "headline": "Stock futures are little changed ahead of Wednesday's big inflation report: Live updates",
+      "headline": "World's largest sovereign wealth fund posts record $184 billion profit as it reveals SpaceX stake for the first time",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Investors are bracing for an important inflation report that could determine the near-term direction for interest rates.",
+      "sentiment": "positive",
+      "impact": "The fund \u2014 currently valued at around $2.34 trillion \u2014 is an investor in more than 7,000 companies across 60 countries.",
+      "category": "corporate_earnings",
+      "date": "2026-08-12 07:01",
+      "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html"
+    },
+    {
+      "headline": "Inside Wealth: Monterey Car Week auctions could hit a record $500 million, with help from younger buyers",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "A new generation of millennials and Gen Zers is taking over the collecting market from baby boomers and bidding up modern supercars at Monterey Car Week.",
       "category": "global_markets",
-      "date": "2026-08-12 02:12",
-      "link": "https://www.cnbc.com/2026/08/11/stock-market-today-live-updates.html"
+      "date": "2026-08-13 14:08",
+      "link": "https://www.cnbc.com/2026/08/13/monterey-car-week-auctions-sales-estimates.html"
     },
     {
-      "headline": "Super Micro targets $65B-$72B FY 2027 revenue as it guides Q1 sales of $14.5B-$15.5B (NASDAQ:SMCI)",
-      "score": 7,
-      "source": "Seeking Alpha",
-      "sentiment": "positive",
-      "impact": "SMCI Q4 FY2026 earnings call recap: record revenue, $60B+ orders, AI mix, margin surge and FY2027 outlook ($65B-$72B).",
-      "category": "us_equities",
-      "date": "2026-08-12 01:47",
-      "link": "https://seekingalpha.com/news/4631194-super-micro-targets-65b-72b-fy-2027-revenue-as-it-guides-q1-sales-of-14_5b-15_5b"
-    },
-    {
-      "headline": "Fed\u2019s Hammack says multiple rate hikes may be needed to tame inflation",
-      "score": 7,
-      "source": "Fox Business",
-      "sentiment": "neutral",
-      "impact": "Beth Hammack says one rate hike won't suffice, arguing current Federal Reserve interest rates aren't meaningfully restricting the economy amid inflation.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-11 19:58",
-      "link": "https://www.foxbusiness.com/economy/feds-hammack-says-multiple-rate-hikes-may-needed-tame-inflation"
-    },
-    {
-      "headline": "MarketAxess Holdings Inc. (NASDAQ:MKTX) Receives Average Rating of \"Hold\" from Brokerages",
+      "headline": "Cellebrite DI (NASDAQ:CLBT) Sets New 52-Week Low - Time to Sell?",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "MarketAxess Holdings Inc. (NASDAQ:MKTX) has received a consensus \"Hold\" rating from thirteen brokerages, with an average 12-month price target of $156.10. Despite this, the company exceeded quarterly earnings expectations with an adjusted EPS of $1.95 and declared a quarterly dividend of $0.78 per s",
+      "impact": "Cellebrite DI (NASDAQ:CLBT) shares recently fell to a new 52-week low of $10.55, despite previously closing at $15.25. While insider selling totaling $2.48 million occurred over the last three months, analysts maintain a \"Moderate Buy\" consensus with an average price target of $21.80. Institutional ",
       "category": "us_equities",
-      "date": "2026-08-13 06:34",
-      "link": "https://www.marketbeat.com/instant-alerts/marketaxess-holdings-inc-nasdaqmktx-receives-average-rating-of-hold-from-brokerages-2026-08-13/"
+      "date": "2026-08-13 14:06",
+      "link": "https://www.marketbeat.com/instant-alerts/cellebrite-di-nasdaqclbt-sets-new-52-week-low-time-to-sell-2026-08-13/"
     },
     {
-      "headline": "The Campbell's Company (NASDAQ:CPB) Given Consensus Recommendation of \"Reduce\" by Analysts",
+      "headline": "Paychex stock holds steady as investors weigh dividend yield and analyst target hike",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "The Campbell's Company (NASDAQ:CPB) has received a consensus \"Reduce\" rating from 19 brokerages, with an average 12-month price target of $21.20, below its current share price of $22.60. The company recently reported quarterly EPS of $0.50, exceeding estimates, but revenue declined by 4.4% year-over",
-      "category": "us_equities",
-      "date": "2026-08-13 06:34",
-      "link": "https://www.marketbeat.com/instant-alerts/the-campbells-company-nasdaqcpb-given-consensus-recommendation-of-reduce-by-analysts-2026-08-13/"
-    },
-    {
-      "headline": "Applied Materials, Inc. (NASDAQ:AMAT) Receives Average Rating of \"Moderate Buy\" from Brokerages",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Applied Materials, Inc. (NASDAQ:AMAT) has received an average \"Moderate Buy\" rating from 35 brokerages, with an average 12-month price target of $603.23. The company recently exceeded quarterly expectations with $2.86 EPS and $7.91 billion in revenue, representing an 11.4% year-over-year increase. D",
-      "category": "us_equities",
-      "date": "2026-08-13 06:32",
-      "link": "https://www.marketbeat.com/instant-alerts/applied-materials-inc-nasdaqamat-receives-average-rating-of-moderate-buy-from-brokerages-2026-08-13/"
-    },
-    {
-      "headline": "Fastenal Company (NASDAQ:FAST) Given Consensus Rating of \"Hold\" by Brokerages",
-      "score": 6,
-      "source": "MarketBeat",
+      "source": "AD HOC NEWS",
       "sentiment": "neutral",
-      "impact": "Fastenal Company (NASDAQ:FAST) has received a consensus \"Hold\" rating from brokerages, with an average 12-month price target of $49.17. The company's recent quarterly earnings met expectations with $0.33 EPS and $2.39 billion in revenue, representing a 14.7% year-over-year increase. Fastenal also ra",
+      "impact": "Paychex stock is trading around $120, attracting investors with a nearly 3.7% dividend yield, despite analysts generally expecting limited upside or even a slight downside from current levels. A recent analyst target hike to $120 from $105, maintaining a \"hold\" rating, suggests the stock is now cons",
+      "category": "fixed_income",
+      "date": "2026-08-13 13:57",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/paychex-stock-holds-steady-as-investors-weigh-dividend-yield-and-analyst/69946022"
+    },
+    {
+      "headline": "Definium Therapeutics (NASDAQ:DFTX) Price Target Raised to $72.00 at Wells Fargo & Company",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Wells Fargo & Company has raised its price target for Definium Therapeutics (NASDAQ:DFTX) to $72.00 from $68.00, maintaining an \"overweight\" rating and suggesting a potential upside of 68.26%. This comes amid broadly positive analyst sentiment and recent positive Phase 3 clinical trial results for t",
       "category": "us_equities",
-      "date": "2026-08-13 06:30",
-      "link": "https://www.marketbeat.com/instant-alerts/fastenal-company-nasdaqfast-given-consensus-rating-of-hold-by-brokerages-2026-08-13/"
+      "date": "2026-08-13 13:55",
+      "link": "https://www.marketbeat.com/instant-alerts/definium-therapeutics-nasdaqdftx-price-target-raised-to-7200-at-wells-fargo-company-2026-08-13/"
     },
     {
-      "headline": "Rep. Mike Kelly Sells Off Shares of PepsiCo, Inc. (NASDAQ:PEP)",
+      "headline": "China Yuchai International (CYD) Could Be 31% Undervalued Following Strong Half Year Earnings",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Representative Mike Kelly recently sold between $15,001 and $50,000 worth of PepsiCo shares from a trust account on July 17th, along with smaller positions in Abbott Laboratories and Walt Disney. Despite the sale, PepsiCo reported strong quarterly earnings, exceeding expectations with $2.20 EPS and ",
-      "category": "us_equities",
-      "date": "2026-08-13 06:11",
-      "link": "https://www.marketbeat.com/instant-alerts/rep-mike-kelly-sells-off-shares-of-pepsico-inc-nasdaqpep-2026-08-13/"
-    },
-    {
-      "headline": "Ross Stores (ROST) to Release Earnings on Thursday",
-      "score": 6,
-      "source": "MarketBeat",
+      "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "Ross Stores (ROST) is set to release its Q2 2026 earnings on Thursday, August 20th, with analysts anticipating earnings per share of $1.94 and revenue of $6.15 billion. The company exceeded expectations in the previous quarter, reporting $2.02 EPS against a $1.73 consensus. Analysts generally mainta",
-      "category": "corporate_earnings",
-      "date": "2026-08-13 06:00",
-      "link": "https://www.marketbeat.com/instant-alerts/ross-stores-rost-to-release-earnings-on-thursday-2026-08-13/"
+      "impact": "China Yuchai International (CYD) recently reported strong half-year 2026 results, with sales of CNY 14,666.43 million and net income of CNY 560.6 million. Despite these positive earnings, Simply Wall St's valuation narrative suggests the company is 31.2% undervalued, with a fair value of $68.24 comp",
+      "category": "asia_economy",
+      "date": "2026-08-13 13:45",
+      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-cyd/china-yuchai-international/news/china-yuchai-international-cyd-could-be-31-undervalued-follo"
     },
     {
-      "headline": "Deere & Company (DE) Projected to Announce Earnings on Thursday",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Deere & Company (DE) is expected to announce its Q3 2026 earnings before market open on Thursday, August 20th. Analysts project earnings of $4.71 per share on $10.81 billion in revenue. The company's previous quarter saw it exceed estimates with $6.55 EPS and $13.37 billion in revenue, while maintai",
-      "category": "corporate_earnings",
-      "date": "2026-08-13 05:58",
-      "link": "https://www.marketbeat.com/instant-alerts/deere-company-de-projected-to-announce-earnings-on-thursday-2026-08-13/"
-    },
-    {
-      "headline": "ATRenew (RERE) Projected to Announce Quarterly Earnings on Thursday",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "ATRenew (NYSE:RERE) is expected to announce its Q2 2026 earnings before market open on Thursday, August 20th, with analysts projecting $0.09 per share and $930.3 million in revenue. The company surpassed expectations in its previous quarter, reporting $0.08 EPS on $893.46 million revenue. Currently,",
-      "category": "corporate_earnings",
-      "date": "2026-08-13 05:41",
-      "link": "https://www.marketbeat.com/instant-alerts/atrenew-rere-projected-to-announce-quarterly-earnings-on-thursday-2026-08-13/"
-    },
-    {
-      "headline": "Is Amgen (AMGN) Fully Valued On Strong Q2 Results And Raised 2026 Guidance?",
+      "headline": "Union Pacific (UNP) Stock Looks Reasonable On Cash Flow While Earnings Suggest More",
       "score": 6,
       "source": "Simply Wall Street",
       "sentiment": "neutral",
-      "impact": "Amgen (AMGN) is experiencing renewed interest after strong Q2 2026 results and raised full-year guidance, leading to a significant jump in share price. While one valuation model suggests the stock is 15.6% overvalued at $416.18, another Discounted Cash Flow (DCF) model estimates it as 36.4% underval",
+      "impact": "Union Pacific's stock performance over the last five years shows a 46.3% return, with its current price of $293.73 appearing fair according to its Discounted Cash Flow (DCF) intrinsic value estimate. However, an earnings multiple view suggests the stock is undervalued compared to industry averages. ",
       "category": "corporate_earnings",
-      "date": "2026-08-13 05:36",
-      "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-amgn/amgen/news/is-amgen-amgn-fully-valued-on-strong-q2-results-and-raised-2"
+      "date": "2026-08-13 13:45",
+      "link": "https://simplywall.st/stocks/us/transportation/nyse-unp/union-pacific/news/union-pacific-unp-stock-looks-reasonable-on-cash-flow-while"
     },
     {
-      "headline": "Oil eases as weaker demand outlook counters Mideast supply concerns - Reuters",
+      "headline": "Sweetgreen isn't linked to cyclospora, but many customers still don't want salads: 'I didn't think it would last' this long, CEO says",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Though Sweetgreen has not been linked to the cyclospora outbreak, the fast-casual chain has taken a hit as consumers steer clear of lettuce and fresh produce.",
+      "category": "global_markets",
+      "date": "2026-08-13 13:31",
+      "link": "https://www.cnbc.com/2026/08/13/cyclospora-outbreak-sweetgreen-ceo.html"
+    },
+    {
+      "headline": "Iran, US make competing claims over control of Strait of Hormuz - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Oil eases as weaker demand outlook counters Mideast supply concerns\u00a0\u00a0Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran, US make competing claims over control of Strait of Hormuz\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-13 13:11",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5"
+    },
+    {
+      "headline": "The US says more oil is leaving the Middle East, but is it really? - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "The US says more oil is leaving the Middle East, but is it really?\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-08-13 01:08",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHRqOVFPR196RlJ0WTVZajZ6NHRpdmhmZ0EtSDMwTDVZVk5mX2JnVm9LVnFDQ2M4c08ybExVeldFQk9BdG9HVldTbnJFRDVjdTc3MF8wZmc4ck41bWd6Wng2SFowYjZrNW1UVzJuMDR4cnBUT0c2TXUteFR0cTFiVVY5bm5Da09NSDI4akNIcFY4NHRBRzkzNXNuZ1luQjNGUHFFdnVhT1RCNGlKMWx4MkgzdzhLdw?oc=5"
+      "date": "2026-08-13 13:03",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFpiaHV1WkZPRDd0NDNsalc3RURUajFQYWtJdVE1LU4tQTZBWmhDWGl3RnE0bGVfcjk5TzNsNkVoNFQxbXIwa1paaGRnSnFlY1VoaE1uSUQ0RmNxR3h3cmwxdGcyMjhwWC1ncE04OHJSWGFtOVF1bnRCbWlSam01MkdldGFsaVpIcGxnTVFSQ3pUb0FLZ0JaZlJsUHp6NFN6b0tjck4zUDc3QnZBVDk0YTRLU3cycHoydjBRUERR?oc=5"
+    },
+    {
+      "headline": "Iran's state media mock Trump over airplane switch, meme shows him hiding in a catering truck - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran's state media mock Trump over airplane switch, meme shows him hiding in a catering truck\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-13 12:50",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV1FIaHZjdWh5bnZXZU04TlJVazN6cWVJdFRnYnFpOTk3N285VjlpdGJmdjc1MkNkdVIwQmFFWGY1U1V4X2Q1ZU04SmptOUFhS09FNDBtQVVuTVJBUUptZGp0NHZRVlBQWmpXa0xSNVlUdnlqUXVoNnplNUJYbWVhdUFwdGRWM1VKUm5aaWE0akNtY3l1SGdwQTREQ3VNNFNvU0FNN0hFTVRqOFZLVFVxSWx4cDk1VEVwUV8xMzlZSjlibGpaUTlfQUZmMTVKcC02VktHN1dR?oc=5"
     }
   ]
 }
