@@ -1,26 +1,27 @@
 {
-  "timestamp": "2026-08-13T14:59:50.628282",
+  "timestamp": "2026-08-14T07:09:19.302380",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
+    "avg_relevance": 7.1,
     "bullish": 12,
     "neutral": 13,
     "bearish": 0,
-    "high_priority": 10,
-    "material_events": 5
+    "high_priority": 9,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 5,
-    "Reuters": 8,
+    "Reuters": 11,
     "Bloomberg": 2,
+    "CNBC": 2,
     "Caixin/S&P Global": 1,
+    "The Wall Street Journal": 1,
     "MarketBeat": 2,
-    "AD HOC NEWS": 1,
-    "Simply Wall Street": 2
+    "Simply Wall Street": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,18 +61,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Treasury yields dip as Wall Street awaits wholesale inflation data",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 fell over one basis point to 4.674%.",
-      "category": "us_equities",
-      "date": "2026-08-13 08:40",
-      "link": "https://www.cnbc.com/2026/08/13/treasury-yields-wall-street-inflation-data.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -80,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -90,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -100,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -110,11 +101,11 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "How to trade gold prices as Fed rate hike and inflation odds shifts",
+      "headline": "Where gold price is headed next as Fed rate hike and inflation odds change direction",
       "score": 8,
       "source": "CNBC",
       "sentiment": "positive",
@@ -130,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,118 +131,78 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-13 14:59",
+      "date": "2026-08-14 07:09",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Gold off two-month peak as traders seek inflation cues - Reuters",
+      "headline": "Europe Inc heads for one of its strongest earnings seasons in years - Reuters",
       "score": 7,
       "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Europe Inc heads for one of its strongest earnings seasons in years\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-08-13 14:12",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeFA1VnNEcWFjZnJPS1lFbWtOZk8tclhwejI5eVhmSFZEOE9QNzRCaFJYOVJ3SEU0UkZaRWtBNzRLOVROd21IbTBRbDhZcGdTd2xHLVNCUDE2NnEtZ0ZCTVJ5UkRvWVF2NkM1ZVI3djgzY1k1ZkR2eXI4RUZUcjdhV09FSWJfS1VtcTBNd2FfaGx6b2psUlBpczlQX3pTSWJfR2pCX2tBclBGQzk4akE?oc=5"
+    },
+    {
+      "headline": "Stock futures are little changed as traders await more inflation data: Live updates",
+      "score": 7,
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Gold off two-month peak as traders seek inflation cues\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-13 03:59",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZWRyNnFQd2twNlNReDRyTy1GMGJWTktnY1RhMWY2SXZXRTluaDQ5TW8tdi11YTJ1VEppaUVwWTdyZkNUMGZMQXdIdG1Bdm9uQnNFOUNMY0UyREk2NU45UzF0SDlXcjNrWmswYldOZ3dKUzg2YUZaTjJZYm5lNldFTlFXcmJnVl94VGdfRnlEbElyRG1SZE9ERG5NRVNicUdJOXhNNDdLbTNEbzVTOFNpSWI0OUM4dw?oc=5"
-    },
-    {
-      "headline": "Top US refiners see profits soar, step up investor rewards - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Top US refiners see profits soar, step up investor rewards\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-08-12 20:24",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX2FVR1ZIejBlNVBEMzQ5S2x1UHpjOHVldkJ1eEU1eVE4QkNGYVU1Z25GZloxaHJWUm1XejJpbHEwTlg4M0FkYkFCbVpSa2hDb3BRYUxpT3FwdlM4Z1psY0RYWWVGYnItQzBlWEpHeTF4Q2dMS2txOUhpQlQzcVgyQU9Ra2lGUVFMTGdMbnRCNWZfLVFybXkxUFlVQzZ6Nko3YlRPa25qZTF0Ny1fYmc?oc=5"
-    },
-    {
-      "headline": "World's largest sovereign wealth fund posts record $184 billion profit as it reveals SpaceX stake for the first time",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The fund \u2014 currently valued at around $2.34 trillion \u2014 is an investor in more than 7,000 companies across 60 countries.",
-      "category": "corporate_earnings",
-      "date": "2026-08-12 07:01",
-      "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html"
-    },
-    {
-      "headline": "Inside Wealth: Monterey Car Week auctions could hit a record $500 million, with help from younger buyers",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "A new generation of millennials and Gen Zers is taking over the collecting market from baby boomers and bidding up modern supercars at Monterey Car Week.",
+      "impact": "The July reading of the producer price index, which gauges what wholesalers pay for raw goods and materials, is set for release Thursday at 8:30 a.m. ET.",
       "category": "global_markets",
-      "date": "2026-08-13 14:08",
-      "link": "https://www.cnbc.com/2026/08/13/monterey-car-week-auctions-sales-estimates.html"
+      "date": "2026-08-12 21:10",
+      "link": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Cellebrite DI (NASDAQ:CLBT) Sets New 52-Week Low - Time to Sell?",
-      "score": 6,
-      "source": "MarketBeat",
+      "headline": "USDA Makes Surprise Cut to Corn Yield Projections",
+      "score": 7,
+      "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "Cellebrite DI (NASDAQ:CLBT) shares recently fell to a new 52-week low of $10.55, despite previously closing at $15.25. While insider selling totaling $2.48 million occurred over the last three months, analysts maintain a \"Moderate Buy\" consensus with an average price target of $21.80. Institutional ",
-      "category": "us_equities",
-      "date": "2026-08-13 14:06",
-      "link": "https://www.marketbeat.com/instant-alerts/cellebrite-di-nasdaqclbt-sets-new-52-week-low-time-to-sell-2026-08-13/"
-    },
-    {
-      "headline": "Paychex stock holds steady as investors weigh dividend yield and analyst target hike",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "Paychex stock is trading around $120, attracting investors with a nearly 3.7% dividend yield, despite analysts generally expecting limited upside or even a slight downside from current levels. A recent analyst target hike to $120 from $105, maintaining a \"hold\" rating, suggests the stock is now cons",
+      "impact": "Latest market news.",
       "category": "fixed_income",
-      "date": "2026-08-13 13:57",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/paychex-stock-holds-steady-as-investors-weigh-dividend-yield-and-analyst/69946022"
+      "date": "2026-08-12 16:48",
+      "link": "https://www.wsj.com/finance/commodities-futures/usda-makes-surprise-cut-to-corn-yield-projections-da91542a"
     },
     {
-      "headline": "Definium Therapeutics (NASDAQ:DFTX) Price Target Raised to $72.00 at Wells Fargo & Company",
+      "headline": "Trimble Inc. (NASDAQ:TRMB) Given Average Rating of \"Moderate Buy\" by Brokerages",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "Wells Fargo & Company has raised its price target for Definium Therapeutics (NASDAQ:DFTX) to $72.00 from $68.00, maintaining an \"overweight\" rating and suggesting a potential upside of 68.26%. This comes amid broadly positive analyst sentiment and recent positive Phase 3 clinical trial results for t",
+      "impact": "Trimble Inc. (NASDAQ:TRMB) has received an average \"Moderate Buy\" rating from twelve brokerages, with nine recommending a buy and three a hold. Analysts have an average 12-month price target of $81.67, significantly above the current share price of $57.54. The company recently reported strong quarte",
       "category": "us_equities",
-      "date": "2026-08-13 13:55",
-      "link": "https://www.marketbeat.com/instant-alerts/definium-therapeutics-nasdaqdftx-price-target-raised-to-7200-at-wells-fargo-company-2026-08-13/"
+      "date": "2026-08-14 06:31",
+      "link": "https://www.marketbeat.com/instant-alerts/trimble-inc-nasdaqtrmb-given-average-rating-of-moderate-buy-by-brokerages-2026-08-14/"
     },
     {
-      "headline": "China Yuchai International (CYD) Could Be 31% Undervalued Following Strong Half Year Earnings",
+      "headline": "Lam Research Corporation (NASDAQ:LRCX) Receives Average Rating of \"Moderate Buy\" from Analysts",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Lam Research Corporation has received an average rating of \"Moderate Buy\" from analysts, with 26 out of 32 recommending a buy and an average 12-month price target of $358.47. The company recently reported strong quarterly results, exceeding revenue and earnings estimates, and plans to invest over $3",
+      "category": "us_equities",
+      "date": "2026-08-14 06:31",
+      "link": "https://www.marketbeat.com/instant-alerts/lam-research-corporation-nasdaqlrcx-receives-average-rating-of-moderate-buy-from-analysts-2026-08-14/"
+    },
+    {
+      "headline": "Is eBay\u2019s (EBAY) Earnings Acceleration Quietly Redefining Its Core Marketplace Investment Story?",
       "score": 6,
       "source": "Simply Wall Street",
       "sentiment": "positive",
-      "impact": "China Yuchai International (CYD) recently reported strong half-year 2026 results, with sales of CNY 14,666.43 million and net income of CNY 560.6 million. Despite these positive earnings, Simply Wall St's valuation narrative suggests the company is 31.2% undervalued, with a fair value of $68.24 comp",
-      "category": "asia_economy",
-      "date": "2026-08-13 13:45",
-      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-cyd/china-yuchai-international/news/china-yuchai-international-cyd-could-be-31-undervalued-follo"
-    },
-    {
-      "headline": "Union Pacific (UNP) Stock Looks Reasonable On Cash Flow While Earnings Suggest More",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "neutral",
-      "impact": "Union Pacific's stock performance over the last five years shows a 46.3% return, with its current price of $293.73 appearing fair according to its Discounted Cash Flow (DCF) intrinsic value estimate. However, an earnings multiple view suggests the stock is undervalued compared to industry averages. ",
+      "impact": "eBay Inc. recently reported strong Q2 2026 results with increased sales and net income, along with continued share repurchases and a dividend. This performance, driven by gross merchandise volume growth and initiatives like eBay Live and recommerce, supports the company's focused marketplace model. ",
       "category": "corporate_earnings",
-      "date": "2026-08-13 13:45",
-      "link": "https://simplywall.st/stocks/us/transportation/nyse-unp/union-pacific/news/union-pacific-unp-stock-looks-reasonable-on-cash-flow-while"
+      "date": "2026-08-14 05:46",
+      "link": "https://simplywall.st/stocks/us/retail/nasdaq-ebay/ebay/news/is-ebays-ebay-earnings-acceleration-quietly-redefining-its-c"
     },
     {
-      "headline": "Sweetgreen isn't linked to cyclospora, but many customers still don't want salads: 'I didn't think it would last' this long, CEO says",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Though Sweetgreen has not been linked to the cyclospora outbreak, the fast-casual chain has taken a hit as consumers steer clear of lettuce and fresh produce.",
-      "category": "global_markets",
-      "date": "2026-08-13 13:31",
-      "link": "https://www.cnbc.com/2026/08/13/cyclospora-outbreak-sweetgreen-ceo.html"
-    },
-    {
-      "headline": "Iran, US make competing claims over control of Strait of Hormuz - Reuters",
+      "headline": "Hormuz shipping traffic capped amid competing claims from US and Iran - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran, US make competing claims over control of Strait of Hormuz\u00a0\u00a0Reuters",
+      "impact": "Hormuz shipping traffic capped amid competing claims from US and Iran\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-13 13:11",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5"
+      "date": "2026-08-14 03:48",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVHN6X2pBMFpxcnFUajQxN1B2MlhZTUVTRlZSYzVkVXp6MENXb2xUai1zRXVTeEhKUVVtSnJabU9yTVd6U05ETV9uRS1FNlVvWjh1dS1vTGd6UjltTXZXU1o0ODlEUWhZNUl6SFF5WGhtNldwbnpNa3lVbEV6SG12RjgtT2V4d2pCVnB4c2UtTEp4S2JOZFY5REVPdUZscnVFaC02akt2dF9rWUhDckZVNmlVRjk?oc=5"
     },
     {
       "headline": "The US says more oil is leaving the Middle East, but is it really? - Reuters",
@@ -260,18 +211,68 @@
       "sentiment": "neutral",
       "impact": "The US says more oil is leaving the Middle East, but is it really?\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-08-13 13:03",
+      "date": "2026-08-14 02:40",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFpiaHV1WkZPRDd0NDNsalc3RURUajFQYWtJdVE1LU4tQTZBWmhDWGl3RnE0bGVfcjk5TzNsNkVoNFQxbXIwa1paaGRnSnFlY1VoaE1uSUQ0RmNxR3h3cmwxdGcyMjhwWC1ncE04OHJSWGFtOVF1bnRCbWlSam01MkdldGFsaVpIcGxnTVFSQ3pUb0FLZ0JaZlJsUHp6NFN6b0tjck4zUDc3QnZBVDk0YTRLU3cycHoydjBRUERR?oc=5"
     },
     {
-      "headline": "Iran's state media mock Trump over airplane switch, meme shows him hiding in a catering truck - Reuters",
+      "headline": "Asian stocks head for strong weekly gains as US rate hike bets fade - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Asian stocks head for strong weekly gains as US rate hike bets fade\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-08-14 02:32",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5"
+    },
+    {
+      "headline": "Indian shares slip as US threatens indefinite naval blockade of Iran - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran's state media mock Trump over airplane switch, meme shows him hiding in a catering truck\u00a0\u00a0Reuters",
+      "impact": "Indian shares slip as US threatens indefinite naval blockade of Iran\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-13 12:50",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV1FIaHZjdWh5bnZXZU04TlJVazN6cWVJdFRnYnFpOTk3N285VjlpdGJmdjc1MkNkdVIwQmFFWGY1U1V4X2Q1ZU04SmptOUFhS09FNDBtQVVuTVJBUUptZGp0NHZRVlBQWmpXa0xSNVlUdnlqUXVoNnplNUJYbWVhdUFwdGRWM1VKUm5aaWE0akNtY3l1SGdwQTREQ3VNNFNvU0FNN0hFTVRqOFZLVFVxSWx4cDk1VEVwUV8xMzlZSjlibGpaUTlfQUZmMTVKcC02VktHN1dR?oc=5"
+      "date": "2026-08-14 02:28",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWE1Jd01iTWNHTjJIOVNSdG1pVFRlTDVSZVBxY0tYSTdGU0t1T1ZzN3ZPQnYxSGpyeUtxbUhDZG1TVElrcUVrTmVmSnk1a3BCRDJoMUZoSHBjaTdfaURDcERHS2hHU2N5c05lbjJwYzluMFlkU1JnUmtEQjlmbVVIcVZ5QTVXUllxTEFZaXJlSjdKMWV6VV93YTNhSzNELUpSejZZ?oc=5"
+    },
+    {
+      "headline": "Oil steadies after US threatens indefinite blockade of Iran - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Oil steadies after US threatens indefinite blockade of Iran\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-14 01:36",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHh3dmRQTVJOaXBOODZqNzdueG9RbzJ0VUZ0TTJ3UGNyaXFfOUJ4c1BsWXdKXzFWY21VZTdaaHpySzhxYXFIYnBVcUpsWDdUUE1od3pKN2psUWI1dS10enVtNzBDX0xBQUpqNmkxVE1xZE1scnFHeS1DQkM4YTRwOE01NXpwU3RWREhIWGFZMlFTcndNQzRWc3NrM0xWa2hwdlMzSE5IeEhqUzVJVFBv?oc=5"
+    },
+    {
+      "headline": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "After past snubs, social-media site Reddit has landed a spot on the S&P 500, sending shares on an after-hours rally Thursday.",
+      "category": "us_equities",
+      "date": "2026-08-14 00:19",
+      "link": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Bessent says US to apply measures never seen on Iran - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Bessent says US to apply measures never seen on Iran\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-13 23:31",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT2p2QW55Tk9jcjF5Ti1OZmlpMGpLTEg0RU92RVEtMzFobXY2TmtNWjFJaUVZMl9RaWxWM09uV2xjVlQ0dnFHcGlEVi1Zc3ZnRHpFMkZ5VExoeTdzSVE0cmYzMVRFQUExRHA2RHNhZFpFMFZnNnIySjh3RTBRSXVtX3ZqVTJjVWhGSmdpTHVmY19QRE9ieWNmaDdaM2hmOHZfRFE?oc=5"
+    },
+    {
+      "headline": "Iran war a boon for China's e-trucks, fuelling export surge - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Iran war a boon for China's e-trucks, fuelling export surge\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-08-13 23:02",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVEwN3ZXeTQ5RmxKUlJScTRsa1FpNGJCaGVfR1dkMDJMVkZnenFHUDcxVjdmbVk2ajJaaWxlTDZ3SkVZd1hLdG9yenk0X0hyb01wMXpxQ1JEbklIR3d1cVdtbVdETXNhRy1NQUhJSVpYa05vOEc4emFqc1R0eUNOWDhCYmlxaThjTm5TaDV2RmZaeWk4VlBINmM0UWVlaV9MSTRZc0xkQTZ4QQ?oc=5"
     }
   ]
 }
