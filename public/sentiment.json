@@ -1,27 +1,28 @@
 {
-  "timestamp": "2026-08-14T07:09:19.302380",
+  "timestamp": "2026-08-14T14:53:57.029173",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 12,
-    "neutral": 13,
-    "bearish": 0,
-    "high_priority": 9,
-    "material_events": 4
+    "avg_relevance": 7.5,
+    "bullish": 13,
+    "neutral": 11,
+    "bearish": 1,
+    "high_priority": 12,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 11,
+    "CNBC": 6,
+    "Reuters": 7,
     "Bloomberg": 2,
-    "CNBC": 2,
-    "Caixin/S&P Global": 1,
     "The Wall Street Journal": 1,
-    "MarketBeat": 2,
-    "Simply Wall Street": 1,
-    "MarketWatch": 1
+    "Caixin/S&P Global": 1,
+    "MarketWatch": 1,
+    "AD HOC NEWS": 1,
+    "Stock Titan": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,8 +62,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Treasury yields dip as Wall Street awaits wholesale inflation data",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Treasury yields dipped on Thursday as Wall Street digested even more U.S. inflation data.",
+      "category": "us_equities",
+      "date": "2026-08-13 08:40",
+      "link": "https://www.cnbc.com/2026/08/13/treasury-yields-wall-street-inflation-data.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -71,7 +82,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +102,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +112,38 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Where gold price is headed next as Fed rate hike and inflation odds change direction",
+      "headline": "Treasury yields rise as U.S. threatens Iran with more economic sanctions",
       "score": 8,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Gold prices have been volatile in 2026, but a recent rally shows renewed investor interest amid tamer inflation data and changing Fed rate expectations.",
+      "impact": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 rose 2 basis points to 4.661%.",
+      "category": "fixed_income",
+      "date": "2026-08-14 08:55",
+      "link": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html"
+    },
+    {
+      "headline": "Fed's Goolsbee says latest inflation data is better - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Fed's Goolsbee says latest inflation data is better\u00a0\u00a0Reuters",
       "category": "us_monetary_policy",
-      "date": "2026-08-12 19:22",
-      "link": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html"
+      "date": "2026-08-13 22:51",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMHQ3RV9DUU5mVVpveUtFNmJfelJtYnluMGVCQ2FPRzEzSG1nUUZidUsxSURTQ3Rwa1htSm5EMXpZVHNpN1Y3aDMzd1pwV2gydjE5RkZWOFdQWFE2WGVZMU1GX1h4dnh0OFlwWnJKOHZrVndsaFA2cm45SDNjdmJXd3k0YklSVkxsaWphX1paQkNpUE1xWFlJ?oc=5"
+    },
+    {
+      "headline": "StubHub Fails to Turn Profit as Costs Outpace Revenue Growth",
+      "score": 8,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "corporate_earnings",
+      "date": "2026-08-12 22:29",
+      "link": "https://www.wsj.com/business/earnings/stubhub-fails-to-turn-profit-as-costs-outpace-revenue-growth-df528fa5"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +152,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,18 +162,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-14 07:09",
+      "date": "2026-08-14 14:53",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Europe Inc heads for one of its strongest earnings seasons in years - Reuters",
+      "headline": "Bond yields are at multiyear highs, yet stocks have hit fresh records. Here\u2019s how long the defiance can last.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The relationship between bond yields and equities has turned negative again, says LPL Financial.",
+      "category": "fixed_income",
+      "date": "2026-08-14 13:31",
+      "link": "https://www.marketwatch.com/story/rates-are-at-multiyear-highs-yet-stocks-hit-fresh-records-heres-how-long-the-defiance-may-last-b29a5d14?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Linde stock holds steady as Q2 2026 earnings and guidance support valuation",
+      "score": 7,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Linde stock is trading near its fair value after reporting solid Q2 2026 results and reaffirming full-year guidance. Analysts project mid-to-high single-digit revenue and earnings growth for the company, with expectations of margin expansion. The stock's year-to-date performance shows solid gains de",
+      "category": "corporate_earnings",
+      "date": "2026-08-14 13:13",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/linde-stock-holds-steady-as-q2-2026-earnings-and-guidance-support/69949511"
+    },
+    {
+      "headline": "Gold steadies from two-month peak as inflation-led rally loses steam - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Europe Inc heads for one of its strongest earnings seasons in years\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-08-13 14:12",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeFA1VnNEcWFjZnJPS1lFbWtOZk8tclhwejI5eVhmSFZEOE9QNzRCaFJYOVJ3SEU0UkZaRWtBNzRLOVROd21IbTBRbDhZcGdTd2xHLVNCUDE2NnEtZ0ZCTVJ5UkRvWVF2NkM1ZVI3djgzY1k1ZkR2eXI4RUZUcjdhV09FSWJfS1VtcTBNd2FfaGx6b2psUlBpczlQX3pTSWJfR2pCX2tBclBGQzk4akE?oc=5"
+      "impact": "Gold steadies from two-month peak as inflation-led rally loses steam\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-14 04:02",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTFUzNXBldnVZT2ZFWGJIRFExajVuME9DY1hMRXhMdVBEeXRISU93ME1rSFVjZTVaM3JHSkgyQkFLUm55ODdfVmdXQzRhenV3dE1fZHBFR1UySXRhcXRtdzh2QzhXeU5hN1FxYmpLNnFEYzJjM2xnZkFRWTdZdHNva0UzcVFRX1dTSmJkZlFZWTJ1Y1RBOUZjWHpqOVRnQnZScmZsZjNKRlVoMUtleGhJYg?oc=5"
+    },
+    {
+      "headline": "Stocks nudge at record highs; cooler US inflation eclipses oil rally - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Stocks nudge at record highs; cooler US inflation eclipses oil rally\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-14 02:32",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5"
+    },
+    {
+      "headline": "New federal rules could end mortgage escrow interest for some homeowners. States are suing to block them",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "A new lawsuit challenges recently issued rules from federal banking regulators that preempts state laws requiring banks to pay interest on escrow accounts.",
+      "category": "us_monetary_policy",
+      "date": "2026-08-13 12:15",
+      "link": "https://www.cnbc.com/2026/08/13/mortgage-escrow-account-interest-lawsuit-bank-rules.html"
     },
     {
       "headline": "Stock futures are little changed as traders await more inflation data: Live updates",
@@ -155,124 +226,54 @@
       "link": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html"
     },
     {
-      "headline": "USDA Makes Surprise Cut to Corn Yield Projections",
-      "score": 7,
-      "source": "The Wall Street Journal",
+      "headline": "Property Play: Housing investors say this is their worst market in at least 3 years",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "fixed_income",
-      "date": "2026-08-12 16:48",
-      "link": "https://www.wsj.com/finance/commodities-futures/usda-makes-surprise-cut-to-corn-yield-projections-da91542a"
+      "impact": "Mortgage rates hit a recent low at the end of February but rose sharply at the start of the war with Iran. They are now at their highest level in over a year.\u00a0",
+      "category": "global_markets",
+      "date": "2026-08-14 14:37",
+      "link": "https://www.cnbc.com/2026/08/14/housing-investors-say-this-is-their-worst-market-in-at-least-3-years.html"
     },
     {
-      "headline": "Trimble Inc. (NASDAQ:TRMB) Given Average Rating of \"Moderate Buy\" by Brokerages",
+      "headline": "Housing investors say this is their worst market in at least 3 years",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Mortgage rates hit a recent low at the end of February but rose sharply at the start of the war with Iran. They are now at their highest level in over a year.",
+      "category": "global_markets",
+      "date": "2026-08-14 14:00",
+      "link": "https://www.cnbc.com/2026/08/14/housing-investors-say-this-is-their-worst-market-in-at-least-3-years.html"
+    },
+    {
+      "headline": "Trinity Biotech Secures Additional $7.0 Million Investment from Perceptive Advisors and Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+      "score": 6,
+      "source": "Stock Titan",
+      "sentiment": "positive",
+      "impact": "Trinity Biotech (NASDAQ: TRIB) has secured an additional $7.0 million investment from Perceptive Advisors, its largest financial investor, and has regained compliance with Nasdaq's minimum bid price requirement. The investment, consisting of new debt funding and capitalized interest, aims to bolster",
+      "category": "us_equities",
+      "date": "2026-08-14 13:32",
+      "link": "https://www.stocktitan.net/news/TRIB/trinity-biotech-secures-additional-7-0-million-investment-from-d7p7k1plaqa1.html"
+    },
+    {
+      "headline": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-14 13:28",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5"
+    },
+    {
+      "headline": "Melius Research Has Negative Outlook for HII Q3 Earnings",
       "score": 6,
       "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Trimble Inc. (NASDAQ:TRMB) has received an average \"Moderate Buy\" rating from twelve brokerages, with nine recommending a buy and three a hold. Analysts have an average 12-month price target of $81.67, significantly above the current share price of $57.54. The company recently reported strong quarte",
-      "category": "us_equities",
-      "date": "2026-08-14 06:31",
-      "link": "https://www.marketbeat.com/instant-alerts/trimble-inc-nasdaqtrmb-given-average-rating-of-moderate-buy-by-brokerages-2026-08-14/"
-    },
-    {
-      "headline": "Lam Research Corporation (NASDAQ:LRCX) Receives Average Rating of \"Moderate Buy\" from Analysts",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Lam Research Corporation has received an average rating of \"Moderate Buy\" from analysts, with 26 out of 32 recommending a buy and an average 12-month price target of $358.47. The company recently reported strong quarterly results, exceeding revenue and earnings estimates, and plans to invest over $3",
-      "category": "us_equities",
-      "date": "2026-08-14 06:31",
-      "link": "https://www.marketbeat.com/instant-alerts/lam-research-corporation-nasdaqlrcx-receives-average-rating-of-moderate-buy-from-analysts-2026-08-14/"
-    },
-    {
-      "headline": "Is eBay\u2019s (EBAY) Earnings Acceleration Quietly Redefining Its Core Marketplace Investment Story?",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "eBay Inc. recently reported strong Q2 2026 results with increased sales and net income, along with continued share repurchases and a dividend. This performance, driven by gross merchandise volume growth and initiatives like eBay Live and recommerce, supports the company's focused marketplace model. ",
+      "sentiment": "negative",
+      "impact": "Melius Research has lowered its Q3 2026 EPS estimate for Huntington Ingalls Industries (HII) to $4.06 from $4.38, despite HII recently beating quarterly expectations with $5.27 EPS and a 10.9% revenue increase. The company's stock opened down 0.2% and remains below its 200-day moving average. Analys",
       "category": "corporate_earnings",
-      "date": "2026-08-14 05:46",
-      "link": "https://simplywall.st/stocks/us/retail/nasdaq-ebay/ebay/news/is-ebays-ebay-earnings-acceleration-quietly-redefining-its-c"
-    },
-    {
-      "headline": "Hormuz shipping traffic capped amid competing claims from US and Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Hormuz shipping traffic capped amid competing claims from US and Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-14 03:48",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVHN6X2pBMFpxcnFUajQxN1B2MlhZTUVTRlZSYzVkVXp6MENXb2xUai1zRXVTeEhKUVVtSnJabU9yTVd6U05ETV9uRS1FNlVvWjh1dS1vTGd6UjltTXZXU1o0ODlEUWhZNUl6SFF5WGhtNldwbnpNa3lVbEV6SG12RjgtT2V4d2pCVnB4c2UtTEp4S2JOZFY5REVPdUZscnVFaC02akt2dF9rWUhDckZVNmlVRjk?oc=5"
-    },
-    {
-      "headline": "The US says more oil is leaving the Middle East, but is it really? - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "The US says more oil is leaving the Middle East, but is it really?\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-14 02:40",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFpiaHV1WkZPRDd0NDNsalc3RURUajFQYWtJdVE1LU4tQTZBWmhDWGl3RnE0bGVfcjk5TzNsNkVoNFQxbXIwa1paaGRnSnFlY1VoaE1uSUQ0RmNxR3h3cmwxdGcyMjhwWC1ncE04OHJSWGFtOVF1bnRCbWlSam01MkdldGFsaVpIcGxnTVFSQ3pUb0FLZ0JaZlJsUHp6NFN6b0tjck4zUDc3QnZBVDk0YTRLU3cycHoydjBRUERR?oc=5"
-    },
-    {
-      "headline": "Asian stocks head for strong weekly gains as US rate hike bets fade - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Asian stocks head for strong weekly gains as US rate hike bets fade\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-08-14 02:32",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5"
-    },
-    {
-      "headline": "Indian shares slip as US threatens indefinite naval blockade of Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Indian shares slip as US threatens indefinite naval blockade of Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-14 02:28",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWE1Jd01iTWNHTjJIOVNSdG1pVFRlTDVSZVBxY0tYSTdGU0t1T1ZzN3ZPQnYxSGpyeUtxbUhDZG1TVElrcUVrTmVmSnk1a3BCRDJoMUZoSHBjaTdfaURDcERHS2hHU2N5c05lbjJwYzluMFlkU1JnUmtEQjlmbVVIcVZ5QTVXUllxTEFZaXJlSjdKMWV6VV93YTNhSzNELUpSejZZ?oc=5"
-    },
-    {
-      "headline": "Oil steadies after US threatens indefinite blockade of Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil steadies after US threatens indefinite blockade of Iran\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-14 01:36",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHh3dmRQTVJOaXBOODZqNzdueG9RbzJ0VUZ0TTJ3UGNyaXFfOUJ4c1BsWXdKXzFWY21VZTdaaHpySzhxYXFIYnBVcUpsWDdUUE1od3pKN2psUWI1dS10enVtNzBDX0xBQUpqNmkxVE1xZE1scnFHeS1DQkM4YTRwOE01NXpwU3RWREhIWGFZMlFTcndNQzRWc3NrM0xWa2hwdlMzSE5IeEhqUzVJVFBv?oc=5"
-    },
-    {
-      "headline": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "After past snubs, social-media site Reddit has landed a spot on the S&P 500, sending shares on an after-hours rally Thursday.",
-      "category": "us_equities",
-      "date": "2026-08-14 00:19",
-      "link": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Bessent says US to apply measures never seen on Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Bessent says US to apply measures never seen on Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-13 23:31",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT2p2QW55Tk9jcjF5Ti1OZmlpMGpLTEg0RU92RVEtMzFobXY2TmtNWjFJaUVZMl9RaWxWM09uV2xjVlQ0dnFHcGlEVi1Zc3ZnRHpFMkZ5VExoeTdzSVE0cmYzMVRFQUExRHA2RHNhZFpFMFZnNnIySjh3RTBRSXVtX3ZqVTJjVWhGSmdpTHVmY19QRE9ieWNmaDdaM2hmOHZfRFE?oc=5"
-    },
-    {
-      "headline": "Iran war a boon for China's e-trucks, fuelling export surge - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Iran war a boon for China's e-trucks, fuelling export surge\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-08-13 23:02",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVEwN3ZXeTQ5RmxKUlJScTRsa1FpNGJCaGVfR1dkMDJMVkZnenFHUDcxVjdmbVk2ajJaaWxlTDZ3SkVZd1hLdG9yenk0X0hyb01wMXpxQ1JEbklIR3d1cVdtbVdETXNhRy1NQUhJSVpYa05vOEc4emFqc1R0eUNOWDhCYmlxaThjTm5TaDV2RmZaeWk4VlBINmM0UWVlaV9MSTRZc0xkQTZ4QQ?oc=5"
+      "date": "2026-08-14 13:25",
+      "link": "https://www.marketbeat.com/instant-alerts/melius-research-has-negative-outlook-for-hii-q3-earnings-2026-08-14/"
     }
   ]
 }
