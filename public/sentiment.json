@@ -1,29 +1,27 @@
 {
-  "timestamp": "2026-08-15T14:25:09.501058",
+  "timestamp": "2026-08-16T06:22:48.802013",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 10,
-    "neutral": 12,
-    "bearish": 3,
-    "high_priority": 11,
-    "material_events": 4
+    "avg_relevance": 7.2,
+    "bullish": 8,
+    "neutral": 16,
+    "bearish": 1,
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
-    "Bloomberg": 3,
     "MarketWatch": 2,
-    "CNBC": 5,
+    "Reuters": 10,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 1,
-    "Fortune": 1,
-    "Yahoo! Finance Canada": 1,
-    "MarketBeat": 1,
-    "ChartMill": 1
+    "TradingView": 2,
+    "CNBC": 1,
+    "MarketBeat": 2,
+    "CryptoRank": 1
   },
   "top_signals": [
     {
@@ -33,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -43,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -53,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -63,8 +61,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Stock Market Today: S&P 500, Nasdaq eke out weekly gains, but Dow falls; oil prices and Treasury yields rise",
+      "score": 9,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Stocks end the week with declines, as rising oil prices and Treasury yields weigh.",
+      "category": "us_equities",
+      "date": "2026-08-14 22:22",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-poised-for-a-struggle-with-retail-sales-data-ahead"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -73,7 +81,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -83,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -93,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -103,38 +111,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "AI inflation is putting even more pressure on the Fed. Could higher interest rates be next?",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "One thing the Federal Reserve could always count on to keep inflation low was falling prices for computers, cell phones and other high-tech stuff \u2014 but not anymore.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-15 13:00",
-      "link": "https://www.marketwatch.com/story/ai-inflation-is-putting-even-more-pressure-on-the-fed-could-higher-interest-rates-be-next-557db399?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Treasury yields rise as U.S. threatens Iran with more economic sanctions",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The yield on the 10-year U.S. Treasury note \u2014 the key benchmark for U.S. government borrowing \u2014 rose 2 basis points to 4.661%.",
-      "category": "fixed_income",
-      "date": "2026-08-14 08:55",
-      "link": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html"
-    },
-    {
-      "headline": "10-year Treasury yield is little changed after weak retail sales data",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The moves come after the latest retail sales figures missed expectations and the U.S. said its naval blockade of Iranian ports could continue \"indefinitely.\"",
-      "category": "fixed_income",
-      "date": "2026-08-14 08:55",
-      "link": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -143,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -153,8 +131,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-15 14:25",
+      "date": "2026-08-16 06:22",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Basic earnings per share (basic EPS) of Aperture AC \u2013 NASDAQ:APURR",
+      "score": 7,
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "This article provides the basic earnings per share (EPS) information for Aperture AC, traded on NASDAQ under the symbol APURR. It indicates that the market is closed and no trades have occurred for the stock. The content emphasizes financial data and is presented by TradingView.",
+      "category": "us_equities",
+      "date": "2026-08-16 04:03",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-APURR/financials-income-statement/earnings-per-share-basic/"
+    },
+    {
+      "headline": "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "No surprises on inflation and new financing developments in the artificial intelligence trade drove the record-breaking action on Wall Street last week.",
+      "category": "global_markets",
+      "date": "2026-08-15 14:22",
+      "link": "https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html"
+    },
+    {
+      "headline": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna\u00a0\u00a0Reuters",
+      "category": "indonesia_economy",
+      "date": "2026-08-15 14:13",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYnF1MHYyczd3ZFU2MEswRTgyUWhkZnZuTlBNNk1CdXFteXRrbE5yZ1hpNWp4V25famJCczJYdURXU0V1Vy1GRm16V2g0UmY2M2Nnc2l2dTZ2N2pCUjZFeUVLV014dGYtR1lkZTlhRVY5Sk5tbUpQN0YzNHBVR0ZkaTJOS1BPVUZDRlctYm5Idk5UUnZLZ29MXzlR?oc=5"
     },
     {
       "headline": "European shares snap 4-week rally as higher oil prices temper strong earnings - Reuters",
@@ -167,104 +175,94 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa3JRTDJxWjQ5cXhiMXUwMkJSb2FrXzg0S3FvMkV0Z1VYRFV1a0dKcHEwaG9yWG1hb0RyWF9qQzFlek0zT2hXOGl0b2pSTHVTZ1lhclRuY1FsUm00alVhUkYzVEtVN1BTRUVzdmZHVXdVX2g5emE2NGRWN1ZyMXFMTnFVdmhvbVhVclFHajE5LUtGU0VnS2hJTVJTZGJHWDgzMDNhcmlWNHhtVm5MWXZz?oc=5"
     },
     {
-      "headline": "Stock futures choppy after S&P 500 sets record above 7,800, heads for winning week: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Thursday's gain put the S&P 500 and Nasdaq Composite on pace for their third straight weekly advances.",
-      "category": "us_equities",
-      "date": "2026-08-14 08:40",
-      "link": "https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Gold on Track for Weekly Loss Amid Profit-Taking",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "commodities",
-      "date": "2026-08-14 07:38",
-      "link": "https://www.wsj.com/finance/commodities-futures/gold-falls-despite-softer-than-expected-u-s-wholesale-price-data-2ea11c0a"
-    },
-    {
-      "headline": "Anthropic needs to bring in Amazon-style earnings to justify its $2 trillion valuation\u2014but it\u2019s barely turned a profit",
-      "score": 7,
-      "source": "Fortune",
-      "sentiment": "positive",
-      "impact": "Investors are hoping for a $2 trillion listing in October backed by one of the fastest revenue ramps anyone has ever seen on a company that has yet to report an annual profit. That might bode well for OpenAI.",
-      "category": "corporate_earnings",
-      "date": "2026-08-14 07:02",
-      "link": "https://fortune.com/2026/08/14/anthropic-valuation-ipo-amazon-trillion-openai/"
-    },
-    {
-      "headline": "Costliest US Bond Sale Since 2001 Is Investor Warning to Bessent",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "The US government sold 30-year bonds at the highest interest rate in a quarter century, a testament to investors\u2019 demand for greater compensation to finance the nation\u2019s growing deficit.",
-      "category": "fixed_income",
-      "date": "2026-08-14 00:21",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-13/us-braces-for-30-year-bond-auction-at-highest-yield-since-2001"
-    },
-    {
-      "headline": "Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO. That could affect the state\u2019s case.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Luigi Mangione, who is accused of killing a UnitedHealthcare executive, pled guilty to federal stalking charges ahead of a high-profile state murder trial in New York set to begin next month.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-15 13:51",
-      "link": "https://www.marketwatch.com/story/luigi-mangione-pleads-guilty-to-stalking-health-insurance-ceo-in-federal-court-d941ce3f?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Marijuana reform is\u00a0emerging\u00a0as a midterm elections issue\u00a0on both sides of the aisle",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "With November's midterms fast approaching, cannabis reform is an issue. It's popular with voters, but its power to tilt elections remains uncertain.",
-      "category": "asia_economy",
-      "date": "2026-08-15 13:00",
-      "link": "https://www.cnbc.com/2026/08/15/cannabis-marijuana-legalization-midterm-elections.html"
-    },
-    {
-      "headline": "The 5 Most Interesting Analyst Questions From ResMed\u2019s Q2 Earnings Call",
-      "score": 6,
-      "source": "Yahoo! Finance Canada",
-      "sentiment": "neutral",
-      "impact": "ResMed (RMD) reported steady revenue growth but a decline in operating margin for its Q2 earnings, largely due to higher R&D and supply chain costs, and a $42 million charge for a field safety action. Analysts focused on gross margin drivers, revenue growth acceleration, acquisition strategy, the As",
-      "category": "corporate_earnings",
-      "date": "2026-08-15 12:37",
-      "link": "https://ca.finance.yahoo.com/news/5-most-interesting-analyst-questions-123700060.html"
-    },
-    {
-      "headline": "Pegasystems Inc. (NASDAQ:PEGA) to Issue $0.08 Special Dividend",
+      "headline": "Strategy (NASDAQ:MSTR) Upgraded at Wall Street Zen",
       "score": 6,
       "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "Pegasystems Inc. (NASDAQ:PEGA) has announced a special dividend of $0.083 per share, payable on September 16th to shareholders of record on August 17th, with the ex-dividend date also being August 17th. This announcement follows the company reporting quarterly EPS of $0.35, missing analyst estimates",
+      "impact": "Wall Street Zen has upgraded Strategy (NASDAQ:MSTR) from a \"strong sell\" to a \"sell\" rating, although the broader analyst consensus remains a \"Moderate Buy\" with an average price target of $239.81. The company's shares opened at $93.04, down 4.2%, and are significantly below their 12-month high, fol",
       "category": "us_equities",
-      "date": "2026-08-15 12:35",
-      "link": "https://www.marketbeat.com/instant-alerts/pegasystems-inc-nasdaqpega-to-issue-008-special-dividend-2026-08-15/"
+      "date": "2026-08-16 05:34",
+      "link": "https://www.marketbeat.com/instant-alerts/strategy-nasdaqmstr-upgraded-at-wall-street-zen-2026-08-16/"
     },
     {
-      "headline": "Defense Rally at a Crossroads: Lockheed, RTX, and Northrop Earnings to Test the Sector's Momentum",
+      "headline": "Western Digital (NASDAQ:WDC) Cut to Buy at Wall Street Zen",
       "score": 6,
-      "source": "ChartMill",
+      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "The defense sector is at a critical juncture as its three largest prime contractors\u2014Lockheed Martin, RTX Corp, and Northrop Grumman\u2014prepare to release earnings. While smaller suppliers like Kratos Defense & Security and VSE Corp have already reported strong beats, the upcoming results from the prime",
-      "category": "corporate_earnings",
-      "date": "2026-08-15 12:07",
-      "link": "https://www.chartmill.com/news/LMT/Chartmill-53647-Defense-Rally-at-a-Crossroads-Lockheed-RTX-and-Northrop-Earnings-to-Test-the-Sectors-Momentum"
+      "impact": "Wall Street Zen downgraded Western Digital (NASDAQ:WDC) from \"strong buy\" to \"buy\" due to factors like elevated expectations, potential NAND pricing volatility, and recent insider selling, despite the company reporting an earnings beat and strong revenue growth. The broader analyst consensus for Wes",
+      "category": "us_equities",
+      "date": "2026-08-16 05:16",
+      "link": "https://www.marketbeat.com/instant-alerts/western-digital-nasdaqwdc-cut-to-buy-at-wall-street-zen-2026-08-16/"
     },
     {
-      "headline": "I drove Tesla FSD, Rivian Autonomy+ \u2018hands-free\u2019 driving systems. Here\u2019s how they compare",
+      "headline": "Net income before discontinued operations of Rubico Inc. \u2013 NASDAQ:RUBI",
       "score": 6,
-      "source": "CNBC",
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "Rivian is trying to catch up to Tesla's \"hands-free\" capabilities, but with additional safety guardrails that the Elon Musk company doesn't have.",
+      "impact": "This article presents financial data for Rubico Inc. (NASDAQ: RUBI), specifically focusing on its net income before discontinued operations. It highlights that the market is currently closed with no trades. The content is primarily a listing of financial and company information from TradingView.",
+      "category": "us_equities",
+      "date": "2026-08-16 04:40",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-RUBI/financials-income-statement/net-income-bef-disc-oper/"
+    },
+    {
+      "headline": "State Street SPDR S&P 500 ETF Trust (Backpack Securities) Analytics",
+      "score": 6,
+      "source": "CryptoRank",
+      "sentiment": "neutral",
+      "impact": "This article provides analytics for the State Street SPDR S&P 500 ETF Trust (Backpack Securities) under the ticker SPY. It focuses on price dynamics, quarterly returns, and annual price changes in USD. The content is presented within the larger CryptoRank.io platform, which offers various cryptocurr",
+      "category": "us_equities",
+      "date": "2026-08-16 03:41",
+      "link": "https://cryptorank.io/price/state-street-spdr-s-p-500-etf-trust-backpack-securities/analytics"
+    },
+    {
+      "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Qatar denies detaining Iranian pilots, says it found remains of one\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-15 12:00",
-      "link": "https://www.cnbc.com/2026/08/15/rivian-tesla-self-driving-adas-fsd.html"
+      "date": "2026-08-15 19:28",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU82UzByeVFKQzJGdkhlQ0Y0YjkxQk1mZlVYdVMyV3d4TVhLRXJXa19JcU51TUJnZEFoaFpiUkkxT2tuY3hkVUY2Q2xYeU5Bd3ZHVlZlM3dCU09jMXoxR0Ntb0xTZThlREdtS0VMRXFZa3IzdDJEWnhyRE11U3VMbVFkUUs4UXVRQ1hPTU1laDZ4UUhqTmhuc282dXBZN2ExX0pyajFhRnJ0Y2p2MDJTNkhWS2pyWXAw?oc=5"
+    },
+    {
+      "headline": "Think interest rates are high now? These charts offer a different perspective.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Also in Weekend Reads: 10 remarkable housing markets, stock picks, and health-insurance battles.",
+      "category": "global_markets",
+      "date": "2026-08-15 19:01",
+      "link": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Lebanon says Israeli strikes in south of the country kill at least 11\u200b\u200b\u200b - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Lebanon says Israeli strikes in south of the country kill at least 11\u200b\u200b\u200b\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-15 18:33",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?oc=5"
+    },
+    {
+      "headline": "Yemen's Mocha port halts operations after Houthi attacks, port director says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Yemen's Mocha port halts operations after Houthi attacks, port director says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-15 17:30",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV2FPbFJIdUZSc2djcmg5V0I3VE9WY0pQaWRRdGxaM21PRXloRHluMFhBVk04SjlMVmxKdmFxblFJMFRQME5QTGFBODdSbC05LWtkNm9UM3M1Vl9kTkpTY3ppaFloSXAyV0hUU3lseUR3Rl94TlZsVDhmS0VJWE9Damc4dGRla1pRUHdENG02ZExWcnh4ZDIzbC1uUmN0cFljUDN6MGd0QlVoSVcyajZXNExMMzY4SHd6QmNoQWZDYm5udTEweGpR?oc=5"
+    },
+    {
+      "headline": "Taliban mark five years in power as aid groups warn of crisis - reuters.com",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Taliban mark five years in power as aid groups warn of crisis\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-08-15 15:26",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTh4U3hRdlRhY1RmYWJDa0o1RWZEcFUxMkJ1RkhMVE9NUnZUc2ZudjBhM0pKZEhfdVpzeWdTZ1BLaGVLUXd4Z0haUmZOTHktT0Q4dzlUQmFwRmZ4RzE2REZDN2JrWXI5Nm9jWlJRQXhXd3k5ekhTdEtyYWpjSDloSDV1cFZqTEVCT2w4QS1jX3gybktmQzFRekZYcTJVX3BkNVE?oc=5"
     },
     {
       "headline": "Israeli strike kills seven in south Lebanon, state news reports\u200b - Reuters",
@@ -273,7 +271,7 @@
       "sentiment": "neutral",
       "impact": "Israeli strike kills seven in south Lebanon, state news reports\u200b\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-15 10:41",
+      "date": "2026-08-15 14:43",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcEtfNkx3SnBiVWQ4b2g4MTFYRjVKOFVnNWFzcjJWUUJFWDRaWHo0YzRYTXdTdXdJUjNLZk5rNC1WTEJSbGNVTWFpRTF1Rko1OVdrUmt1NlpCNlpJbU5NQ0dPVEFxQjdrRUtzQUF4Q19NQThGeGdhTFQ2LWltSEcxX01DYUZTQUNNd2dnd1c5UV82Unp2U0tubzZHeElSblhxbXVnOVdENUFXbmUwdDNiYVl0Yw?oc=5"
     }
   ]
