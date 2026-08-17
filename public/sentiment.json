@@ -1,26 +1,29 @@
 {
-  "timestamp": "2026-08-16T14:25:32.963574",
+  "timestamp": "2026-08-17T06:33:31.889143",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 11,
-    "neutral": 13,
-    "bearish": 1,
-    "high_priority": 9,
-    "material_events": 5
+    "avg_relevance": 7.0,
+    "bullish": 15,
+    "neutral": 8,
+    "bearish": 2,
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "MarketWatch": 1,
-    "Reuters": 10,
+    "Reuters": 5,
     "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "CNBC": 3,
-    "The Cryptonomist": 1,
-    "Simply Wall Street": 2
+    "ad-hoc-news.de": 2,
+    "CNBC": 2,
+    "Kalkine Media": 1,
+    "Simply Wall Street": 1,
+    "MarketBeat": 4,
+    "Yahoo Finance": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -30,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,18 +63,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Stock Market Today: S&P 500, Nasdaq eke out weekly gains, but Dow falls; oil prices and Treasury yields rise",
-      "score": 9,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Stocks end the week with declines, as rising oil prices and Treasury yields weigh.",
-      "category": "us_equities",
-      "date": "2026-08-14 22:22",
-      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-poised-for-a-struggle-with-retail-sales-data-ahead"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -80,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -90,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -100,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -110,7 +103,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -120,7 +113,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,8 +123,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-16 14:25",
+      "date": "2026-08-17 06:33",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Linde stock holds strong after Q2 2026 earnings beat and guidance raise",
+      "score": 7,
+      "source": "ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Linde stock is trading firmly after exceeding Q2 2026 earnings expectations and raising its full-year EPS guidance for 2026. The company reported robust revenue growth and strong profitability, driven by demand across key markets and strategic investments like a $1 billion project in Arizona for sem",
+      "category": "corporate_earnings",
+      "date": "2026-08-17 04:34",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/linde-stock-holds-strong-after-q2-2026-earnings-beat-and-guidance-raise/69956509"
+    },
+    {
+      "headline": "Bond Traders Are Agonizing Over $70 Billion of Shadow Credit Backstops For AI Companies",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Even before Nvidia Corp.\u2019s splashy $500 billion financing partnership this week, investors were starting to fret over the roughly $70 billion in phantom liabilities that don\u2019t appear on major AI companies\u2019 balance sheets, but could materialize at the worst po\u2026",
+      "category": "us_equities",
+      "date": "2026-08-15 19:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-15/bond-traders-agonize-over-ai-companies-70-billion-of-shadow-credit-backstops"
+    },
+    {
+      "headline": "Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The jump in revenue underscores the rapid growth of the Claude chatbot maker as it prepares for a potential blockbuster initial public offering.",
+      "category": "corporate_earnings",
+      "date": "2026-08-15 14:45",
+      "link": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html"
     },
     {
       "headline": "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
@@ -144,134 +167,114 @@
       "link": "https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html"
     },
     {
-      "headline": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna - Reuters",
-      "score": 7,
-      "source": "Reuters",
+      "headline": "Why Is Consolidated Edison (NYSE:ED) an S&P 500 Utility to Watch?",
+      "score": 6,
+      "source": "Kalkine Media",
+      "sentiment": "positive",
+      "impact": "Consolidated Edison (NYSE:ED) operates regulated electric, gas, and steam utilities primarily across New York and parts of New Jersey, serving a densely populated metropolitan area. The company, an S&P 500 constituent, focuses on essential energy services, infrastructure maintenance, and upgrades. I",
+      "category": "us_equities",
+      "date": "2026-08-17 05:39",
+      "link": "https://kalkinemedia.com/us/stocks/utility/why-is-consolidated-edison-nyseed-an-sp-500-utility-to-watch"
+    },
+    {
+      "headline": "Park Hotels & Resorts (PK) Returns To Profit, Is The 22% Undervalued View Still Compelling?",
+      "score": 6,
+      "source": "Simply Wall Street",
       "sentiment": "neutral",
-      "impact": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna\u00a0\u00a0Reuters",
-      "category": "indonesia_economy",
-      "date": "2026-08-15 13:42",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYnF1MHYyczd3ZFU2MEswRTgyUWhkZnZuTlBNNk1CdXFteXRrbE5yZ1hpNWp4V25famJCczJYdURXU0V1Vy1GRm16V2g0UmY2M2Nnc2l2dTZ2N2pCUjZFeUVLV014dGYtR1lkZTlhRVY5Sk5tbUpQN0YzNHBVR0ZkaTJOS1BPVUZDRlctYm5Idk5UUnZLZ29MXzlR?oc=5"
+      "impact": "Park Hotels & Resorts (PK) recently reported a shift from net loss to net income in Q2 2026, leading to a significant increase in share price. Despite being considered 22% undervalued with a fair value of $19.39, the company faces challenges like rising labor costs and ongoing capital expenditures. ",
+      "category": "corporate_earnings",
+      "date": "2026-08-17 05:32",
+      "link": "https://simplywall.st/stocks/us/real-estate/nyse-pk/park-hotels-resorts/news/park-hotels-resorts-pk-returns-to-profit-is-the-22-undervalu"
     },
     {
-      "headline": "Magnitude 7.7 quake kills 38 on Indonesia\u2019s Flores island",
-      "score": 7,
-      "source": "Bloomberg",
+      "headline": "Melius Research Has Bullish Estimate for HII FY2026 Earnings",
+      "score": 6,
+      "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "In the Nagekeo, Sikka and West Manggarai regencies on Flores, the \u201cvery strong\u201d quake was felt for about a minute, prompting many people to rush out of their homes",
-      "category": "indonesia_economy",
-      "date": "2026-08-15 09:36",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-14/powerful-7-7-magnitude-earthquake-strikes-near-indonesia"
+      "impact": "Melius Research has increased its FY2026 earnings per share forecast for Huntington Ingalls Industries (NYSE:HII) to $18.24, surpassing the consensus estimate. The firm also anticipates strong earnings for Q4 2026 and FY2028, following HII's recent impressive quarterly results which exceeded revenue",
+      "category": "corporate_earnings",
+      "date": "2026-08-17 05:32",
+      "link": "https://www.marketbeat.com/instant-alerts/melius-research-has-bullish-estimate-for-hii-fy2026-earnings-2026-08-17/"
     },
     {
-      "headline": "Oil prices rally, US data dents chances of Fed rate hike - Reuters",
-      "score": 7,
-      "source": "Reuters",
+      "headline": "Zacks Research Has Positive Outlook for F5 FY2026 Earnings",
+      "score": 6,
+      "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "Oil prices rally, US data dents chances of Fed rate hike\u00a0\u00a0Reuters",
+      "impact": "Zacks Research has increased its earnings per share estimates for F5 (NASDAQ: FFIV) for FY2026, FY2027, and FY2028, indicating improved long-term profitability expectations, yet maintained a \"Hold\" rating. F5 recently surpassed quarterly earnings and revenue forecasts, reporting $4.73 EPS against a ",
+      "category": "corporate_earnings",
+      "date": "2026-08-17 05:31",
+      "link": "https://www.marketbeat.com/instant-alerts/zacks-research-has-positive-outlook-for-f5-fy2026-earnings-2026-08-17/"
+    },
+    {
+      "headline": "Henry Schein (NASDAQ:HSIC) Rating Increased to Buy at Wall Street Zen",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Wall Street Zen has upgraded Henry Schein (NASDAQ:HSIC) from a \"Hold\" to a \"Buy\" rating. Despite this upgrade, the broader analyst consensus remains \"Hold\" with an average price target of $92.27. Henry Schein recently reported strong quarterly earnings, beating EPS estimates and showing a 6.7% reven",
+      "category": "us_equities",
+      "date": "2026-08-17 05:12",
+      "link": "https://www.marketbeat.com/instant-alerts/henry-schein-nasdaqhsic-rating-increased-to-buy-at-wall-street-zen-2026-08-17/"
+    },
+    {
+      "headline": "Rocket Pharmaceuticals (NASDAQ:RCKT) Upgraded by Wall Street Zen to \"Hold\" Rating",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "neutral",
+      "impact": "Wall Street Zen has upgraded Rocket Pharmaceuticals (NASDAQ:RCKT) from a \"sell\" to a \"hold\" rating, aligning with the broader analyst consensus and an average target price of $8.57. The company's shares opened at $3.47 and have seen significant insider selling totaling $327,220 over the past 90 days",
+      "category": "us_equities",
+      "date": "2026-08-17 05:11",
+      "link": "https://www.marketbeat.com/instant-alerts/rocket-pharmaceuticals-nasdaqrckt-upgraded-by-wall-street-zen-to-hold-rating-2026-08-17/"
+    },
+    {
+      "headline": "3M stock holds above $180 as investors digest recent earnings and legal overhang",
+      "score": 6,
+      "source": "ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "3M stock is trading above $180 per share, up 14.0% year-to-date, as investors balance solid recent earnings with ongoing legal and restructuring costs. The company reported EPS of $2.40, beating consensus by $0.15, and a 2.5% year-over-year revenue increase, signaling renewed confidence in its abili",
+      "category": "corporate_earnings",
+      "date": "2026-08-17 05:06",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/3m-stock-holds-above-180-as-investors-digest-recent-earnings-and-legal/69956646"
+    },
+    {
+      "headline": "Following Earnings, Is NextNav (NN) Still 41% Below Fair Value?",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "sentiment": "positive",
+      "impact": "NextNav (NN) shares have seen significant recent movement after reporting a reduced net loss, though sales remained low. Analysts estimate a fair value of $33.67, suggesting the stock is undervalued by 40.9% compared to its current $19.90 share price, based on assumptions of growth and profitability",
+      "category": "corporate_earnings",
+      "date": "2026-08-17 04:42",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/following-earnings-nextnav-nn-still-151012587.html"
+    },
+    {
+      "headline": "U.S. stock futures little changed as investors ponder the Fed\u2019s next move",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors await hints from the Fed concerning the outlook for interest rates.",
       "category": "us_monetary_policy",
-      "date": "2026-08-14 23:10",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5"
+      "date": "2026-08-17 03:02",
+      "link": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories"
     },
     {
-      "headline": "OpenAI CFO Friar tells investors that enterprise business now bigger than consumer by revenue",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "OpenAI CFO Sarah Friar met with investors following a week of turmoil in the C-suite that included the sudden departure of revenue chief Denise Dresser.",
-      "category": "corporate_earnings",
-      "date": "2026-08-14 19:00",
-      "link": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html"
-    },
-    {
-      "headline": "Walmart Inc. stock Analysis: Key Resistance Before Earnings",
-      "score": 6,
-      "source": "The Cryptonomist",
-      "sentiment": "neutral",
-      "impact": "Walmart Inc. stock is at a critical technical juncture, trading in a tight range just days before its fiscal second-quarter earnings report on August 20. The stock is facing key resistance at the 200-day EMA around $116, while shorter-term momentum shows a bullish lean with signs of fatigue. Analyst",
-      "category": "corporate_earnings",
-      "date": "2026-08-16 13:05",
-      "link": "https://en.cryptonomist.ch/2026/08/16/walmart-inc-stock-stalls-at-116-resistance-ahead-of-aug-20-earnings/"
-    },
-    {
-      "headline": "Should Income Investors Look At Amgen Inc. (NASDAQ:AMGN) Before Its Ex-Dividend?",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "neutral",
-      "impact": "Amgen Inc. (NASDAQ:AMGN) is approaching its ex-dividend date, with a trailing yield of 2.4% and an upcoming dividend of US$2.52 per share. The company's dividend payouts are covered by both profit (60% payout ratio) and free cash flow (52% consumed), suggesting sustainability. While earnings per sha",
-      "category": "us_equities",
-      "date": "2026-08-16 12:53",
-      "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-amgn/amgen/news/should-income-investors-look-at-amgen-inc-nasdaqamgn-before"
-    },
-    {
-      "headline": "Here's Why We're Wary Of Buying Hennessy Advisors' (NASDAQ:HNNA) For Its Upcoming Dividend",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "neutral",
-      "impact": "Hennessy Advisors (NASDAQ:HNNA) is nearing its ex-dividend date, with an upcoming payment of US$0.15 per share, resulting in a 6.0% trailing yield. Despite a consistent dividend payment history and a payout ratio of 55% of profits, the company's flat earnings growth over the past five years raises c",
-      "category": "us_equities",
-      "date": "2026-08-16 12:33",
-      "link": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-hnna/hennessy-advisors/news/heres-why-were-wary-of-buying-hennessy-advisors-nasdaqhnna-f"
-    },
-    {
-      "headline": "Iranian parliament votes to further criminalise interviews with 'hostile media' - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iranian parliament votes to further criminalise interviews with 'hostile media'\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-16 12:18",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5"
-    },
-    {
-      "headline": "Top Wall Street analysts like these 3 dividend stocks for steady income",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Amid market volatility due to geopolitical tensions and AI boom concerns, top Wall Street analysts recommend dividend-paying stocks for steady income. This article highlights Phillips 66 (PSX), Crescent Energy (CRGY), and Viper Energy (VNOM) based on analyst ratings and their consistent dividend pay",
-      "category": "us_equities",
-      "date": "2026-08-16 11:58",
-      "link": "https://www.cnbc.com/2026/08/16/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html"
-    },
-    {
-      "headline": "Trump wants more economic pressure on Iran. What are his options? - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump wants more economic pressure on Iran. What are his options?\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-16 11:34",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5"
-    },
-    {
-      "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-16 11:27",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRUtLNEdDbkQxTWtlR1o5NHFQWkg3NkI2ZzBzeWZ5bWJsX2k0Ymh1UTEzRlpjTkFYRjQ5R3gtN084LWVoNGFZeXpIaTgwYTl6WnlNSGY0bnpyS1NablA1Y3dWSHJUTThrYzVzUmpVUW9IbGk1X095eDVISEEzaG45Y3N6bS1Db3gzc3RKN012TGVJR2w2aW1oTjhudE0waDRfX0wyajcwdGNCQ1JObzh3U2Z1TWNBdzR3RU9lRVQ0ekRHWHNQb2k0?oc=5"
-    },
-    {
-      "headline": "Ukrainian drones strike Moscow region, killing one - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Ukrainian drones strike Moscow region, killing one\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-16 11:21",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYUVQMGdnUEljNGo4eDhSbHFoSUtDZ2FVLU5hTHNmZXUwMFVDTTdneTR3S2owc1pSZjBtcHNtVkZKU25oLXlNbWxENHVhM2F1ZUtnUVVicEMzai1MMVgyZk5JLVJPRjRDUklLc21zcjJycVM5endpS2plUjRHS3FhMmFIa29MUlRjRzRpNDlTdnRLS0JuTUE?oc=5"
-    },
-    {
-      "headline": "Iran executes man convicted of running over police during January protests - Reuters",
+      "headline": "Indian shares fall as crude remains at elevated levels - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Iran executes man convicted of running over police during January protests\u00a0\u00a0Reuters",
+      "impact": "Indian shares fall as crude remains at elevated levels\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-16 10:50",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTVdhVzI2TzFiQUNlclh3TzduWm5TYmRQbVY5bE0zQ3ZMbEVFQ1ZqUWRGN24tQjFRT1dfaUMxSHd1VHVFQURUVXdDOWJlNWhBeU56eHlYX0l3bkJST0JsVmY4RWVwcmNpZTVLdHpXV2lhRFMxc1RoQV8tRHpPUEpHZXhXeXJ2WG84QWwwWndlZ3BDMG51c3o3bE8xRFhLdEpaQ19NLVF4QXBUNTVFUk0yX1U5N3VQVjV3am1GdEJCWE85N00?oc=5"
+      "date": "2026-08-17 02:21",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQUZOZ3VuQ2NHZWRMbVF4TE5WRlFMeWp5c3N6SlY4T2Y3ajV1YjdjaE9JLU5tTHVlaENLbV81NUxncUdhRWcxQXg1bUVIVlF0cHRJYzQ2RFB1VTRwMlNWRlNQbXpMSUhtMTFFcUtJaUJfRU5GUU9iQkl4QXRqM0dnYk9YS25NUDFBeFo2N0tST1c5elFsMDRXM1pPNnNCUW03eWRPNlFFZ2R1V2M?oc=5"
+    },
+    {
+      "headline": "Asian shares mark time as Gulf war keeps oil prices up - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Asian shares mark time as Gulf war keeps oil prices up\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-17 01:17",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNl9yb3JkT21xaHcxVWgydjJJc1lLNU5LNDBicTBWTm1YekxBb0VJRUI5MWo2Qm9Ic0NfY3p4LU9BcXVQeUpZVkZ4Uk50dERwb01aOW0tM1ZVaHlDa2VIaEVOSmlGWG9PYWxNNDdRbDJtQzVrQ29RZVV5a3dBb1l0NGozaw?oc=5"
     }
   ]
 }
