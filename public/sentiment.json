@@ -1,25 +1,27 @@
 {
-  "timestamp": "2026-08-21T06:28:58.720729",
+  "timestamp": "2026-08-21T14:37:30.284084",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
     "bullish": 10,
-    "neutral": 14,
-    "bearish": 1,
-    "high_priority": 10,
-    "material_events": 4
+    "neutral": 12,
+    "bearish": 3,
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
-    "Bloomberg": 3,
-    "CNBC": 5,
+    "The Wall Street Journal": 1,
+    "Reuters": 6,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "Axios": 1,
-    "Pluang": 1
+    "Ad-hoc-news.de": 2,
+    "CNBC": 7,
+    "The Hill": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,8 +61,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Stock Market Today: Bond Market Steady After Treasury Intervention, Nasdaq Futures Tick Up \u2014 Live Updates",
+      "score": 9,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Live updates on markets and the top finance, economics and business stories. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
+      "category": "us_equities",
+      "date": "2026-08-20 09:31",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-20-2026"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -69,7 +81,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,28 +111,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Asian Stocks to Gain as US Treasury Supports Bonds: Markets Wrap",
-      "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "Asian bonds and stocks gained as US plans to buy back longer-dated Treasuries to curb borrowing costs buoyed sentiment. The dollar steadied after sliding to a three-month low.",
-      "category": "fixed_income",
-      "date": "2026-08-19 22:12",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-19/stock-market-today-dow-s-p-live-updates"
-    },
-    {
-      "headline": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "As he has done in the past, Trump accused Fed officials of having political motives.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-19 20:32",
-      "link": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -129,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -139,138 +131,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-21 06:28",
+      "date": "2026-08-21 14:37",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Fed officials warned rate hikes may be needed if inflation stays high",
+      "headline": "NiSource stock draws fresh institutional interest as Q2 earnings and guidance support long-term grow",
       "score": 7,
-      "source": "Axios",
-      "sentiment": "neutral",
-      "impact": "Some policymakers warned that waiting too long to raise rates could mean bigger, more painful increases down the line.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-19 19:18",
-      "link": "https://www.axios.com/2026/08/19/fed-warsh-minutes-rates"
-    },
-    {
-      "headline": "Sea Ray parent Brunswick bets on AI navigation and new revenue streams to help stalling boat sales",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Brunswick Corp. CEO David Foulkes told CNBC premium boat sales are staying afloat, while value options are lagging.",
-      "category": "corporate_earnings",
-      "date": "2026-08-18 15:45",
-      "link": "https://www.cnbc.com/2026/08/18/sea-ray-parent-brunswick-ai-recurring-revenue-boat-sales.html"
-    },
-    {
-      "headline": "Home Depot reaffirms guidance amid 'frozen housing market conditions'",
-      "score": 7,
-      "source": "CNBC",
+      "source": "Ad-hoc-news.de",
       "sentiment": "positive",
-      "impact": "Home Depot reported second fiscal quarter results that beat Wall Street expectations on the top and bottom lines.",
+      "impact": "NiSource Inc. (NI) is attracting fresh institutional investment following its Q2 2026 earnings report, which reaffirmed its full-year EPS guidance and a multiyear $28.6 billion capital investment plan. Despite a decline in Q2 profit, the company's strong year-to-date performance and long-term growth",
       "category": "corporate_earnings",
-      "date": "2026-08-18 13:43",
-      "link": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html"
+      "date": "2026-08-21 13:43",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nisource-stock-draws-fresh-institutional-interest-as-q2-earnings-and/69981480"
     },
     {
-      "headline": "QQQI ETF charges nearly double fees of JEPQ with lower total returns despite higher yield.",
-      "score": 6,
-      "source": "Pluang",
-      "sentiment": "negative",
-      "impact": "The NEOS Nasdaq-100 High Income ETF (QQQI) has a significantly higher expense ratio (0.68%) than JPMorgan's Nasdaq Equity Premium Income ETF (JEPQ) (0.35%). Despite QQQI's higher headline yield of 14%, its total return over the past year was 17.64%, which was lower than JEPQ's 20.87%. Investors shou",
+      "headline": "Realty Income stock holds steady as guidance and dividend support a 5 percent yield",
+      "score": 7,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Realty Income (O) stock is trading in the low $60s, supported by management's target for mid-single-digit earnings growth and a monthly dividend yielding around 5.1%. The company reported Q3 EPS of $1.09 and revenue of $1.55 billion, exceeding estimates, and has issued full-year 2026 earnings guidan",
       "category": "fixed_income",
-      "date": "2026-08-21 05:41",
-      "link": "https://pluang.com/en/news-feed/abaikan-yield-qqqi-jepq-bayar-10-7-dan-benar-benar-menghasilkan"
+      "date": "2026-08-21 13:39",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/realty-income-stock-holds-steady-as-guidance-and-dividend-support-a-5/69981253"
     },
     {
-      "headline": "Oil set for second weekly rise as unsettled US-Iran war crimps supply - Reuters",
+      "headline": "Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Gold is rebounding as investors weigh U.S. debt concerns, a weaker dollar and stubbornly high Treasury yields.",
+      "category": "fixed_income",
+      "date": "2026-08-21 11:35",
+      "link": "https://www.cnbc.com/2026/08/21/gold-prices-us-debt-dollar.html"
+    },
+    {
+      "headline": "Federal Reserve officials hint rate increase may be necessary",
+      "score": 7,
+      "source": "The Hill",
+      "sentiment": "neutral",
+      "impact": "Multiple Federal Reserve officials indicated the central bank may need to raise interest rates later this year, according to newly released minutes of the Fed\u2019s July meeting.\u00a0 While most participants at the joint meeting of the Federal Open Market Committee (\u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-08-19 23:13",
+      "link": "https://thehill.com/business/6040110-fed-july-minutes-rate-hike/"
+    },
+    {
+      "headline": "Trump admin taps former JPMorgan Chase exec Matt Zames to advise Social Security agency",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Matt Zames is taking an unpaid position to help his former JPMorgan colleague Frank Bisignano tackle modernization of the SSA, CNBC has learned.",
+      "category": "global_markets",
+      "date": "2026-08-21 14:06",
+      "link": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html"
+    },
+    {
+      "headline": "Most Americans aren't anti-vaccine. They're uncertain \u2014 and that's a growing public health challenge",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The bigger issue at hand may be that many Americans fall into a large, uncertain middle ground \u2013 neither firmly pro-vaccine nor staunchly opposed.",
+      "category": "global_markets",
+      "date": "2026-08-21 13:45",
+      "link": "https://www.cnbc.com/2026/08/21/why-vaccination-rates-are-falling-in-the-us.html"
+    },
+    {
+      "headline": "Nvidia earnings could rescue a stalled-out stock market \u2014 if the AI chip maker breaks this trend",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Shares of Jensen Huang\u2019s company have struggled to make headway since its previous results day.",
+      "category": "corporate_earnings",
+      "date": "2026-08-21 13:33",
+      "link": "https://www.marketwatch.com/story/nvidia-earnings-could-rescue-a-stalling-stock-market-if-the-ai-chip-maker-breaks-this-trend-9b6504bc?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Here are the top 10 things we're watching in the stock market Friday",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Stocks are set for a higher open Friday following a nasty rate-driven pullback on Thursday",
+      "category": "global_markets",
+      "date": "2026-08-21 12:59",
+      "link": "https://www.cnbc.com/2026/08/21/here-are-the-top-10-things-were-watching-in-the-stock-market-friday.html"
+    },
+    {
+      "headline": "Wall Street's existential crisis over perpetual futures \u2014 the 24/7 security on steroids \u2014 just got urgent",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Perpetual futures, or perps, are shaking up exchanges as investors seek continuous access to trading.",
+      "category": "us_equities",
+      "date": "2026-08-21 12:32",
+      "link": "https://www.cnbc.com/2026/08/21/wall-streets-existential-crisis-over-perpetual-futures-the-24/7-security-on-steroids-just-got-urgent.html"
+    },
+    {
+      "headline": "Why some of America's biggest brands are losing ground in China",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Nike, Starbucks and GM have lost ground in China as domestic rivals, geopolitics and changing consumer preferences reshape the market.",
+      "category": "asia_economy",
+      "date": "2026-08-21 11:30",
+      "link": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html"
+    },
+    {
+      "headline": "Take Five: Six months of war - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Take Five: Six months of war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-21 11:25",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX0lPYzNQYzNFb2I1ZW91YXRCQWhCYWV2NGFkMWNtTV9KdUUtSWNOREVHOEJGY3R5THNITzY0d29lTTB3Tk5RQ1dGQ21nYk1oblczcGVua3RuemZLdm1BeXBETDEwN29rWEZGeG1VUy04ZUxGRDRWWEdKa1VLNS1nYzR1Y1VNSFVFcmJ3VQ?oc=5"
+    },
+    {
+      "headline": "Ships passing through Hormuz hover in single digits, data shows - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Ships passing through Hormuz hover in single digits, data shows\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-21 11:22",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSEhZX09yZU9wMFlFN0FUUjM0dUhpZ01zMEVvWFBlVHpoQ25lY0xFckRtVnpXMHZfZVA3TU0zRjNNYlUydy1pelQ1Q3Rmb1dPeWZmU3hDTXF2ZERfY3UyY2tteGpocUNoY0FkdE13dXV5cjV1VUh3MmN1al9MUm5xVlh6RWpwenRzQ2dzR0dxci05c2kwQ1VSUGNDTVBJVkFFd0RjZm9GRnBBdw?oc=5"
+    },
+    {
+      "headline": "New York unseats San Francisco as the top market for tech talent, CBRE reports",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "AI-related roles now account for nearly one-third of all tech-talent job listings in the U.S., per the new CBRE report.",
+      "category": "global_markets",
+      "date": "2026-08-21 10:36",
+      "link": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html"
+    },
+    {
+      "headline": "Iraq aims to boost oil output to 8-10 million bpd in six years - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Oil set for second weekly rise as unsettled US-Iran war crimps supply\u00a0\u00a0Reuters",
+      "impact": "Iraq aims to boost oil output to 8-10 million bpd in six years\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-08-21 01:50",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5"
-    },
-    {
-      "headline": "US says it will impose 'toughest sanctions in history' on Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US says it will impose 'toughest sanctions in history' on Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-20 23:59",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN2ZEV0ttbXhQZHVsUVNRYTBoVkczUHp5MVN5ME9vWGo4ajVmWmhMUXBwdkVVaXo3MjZlSEpyTC0wWWtvaGdYZkttakoyazRFMXBCM1ZUVmZ4TldhaUF2WU1QdTgtR3NwaFlMa016ZGJ6UjBaTmZGZjVTN011RXFNWktVcm44QUxMbHE4WVNyOWpNUkJwNzVKLW0wUTdQSUZCdGNrT1NkWXZPMzVJ?oc=5"
-    },
-    {
-      "headline": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-20 23:53",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?oc=5"
-    },
-    {
-      "headline": "Bessent says US to impose 'toughest' ever sanctions on Iran, urges China to cooperate - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Bessent says US to impose 'toughest' ever sanctions on Iran, urges China to cooperate\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-08-20 23:14",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUlFnUHhPNjlxRW5kTy03TFctOE1ST1NabGVNalozY2hiR2RKcEtfV1ZRblJ1VlJXQXRNem1yZmpIRVVYUjJOd2pzWElTX0JVeXZVR1V1Tk5NOG5oWWUtRVZzWDNFOE5KbE1VNmtubXdodnVzQ1RZMFV3TnpUUXVHM1N5MXZqZTBtdW1iUG8xS18wdi1ranhQQXpfVDdiYnRsc09iN3JtbEhZTVIwS202X0lmSkF2V0c2dFV5NQ?oc=5"
-    },
-    {
-      "headline": "Micron CEO pushes back on memory bear case. 3 key takeaways from Cramer's big interview",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Jim Cramer's extended interview with the CEO made us more confident in our newest stock position.",
-      "category": "global_markets",
-      "date": "2026-08-20 22:52",
-      "link": "https://www.cnbc.com/2026/08/20/micron-ceo-pushes-back-on-memory-bear-case-3-takeaways-from-cramers-interview.html"
-    },
-    {
-      "headline": "China boosts imports of Russian crude, stymieing India's refiners - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "China boosts imports of Russian crude, stymieing India's refiners\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-08-20 22:06",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5"
-    },
-    {
-      "headline": "US envoy Huckabee tells Israeli settlers not to take Palestinian Americans' land - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US envoy Huckabee tells Israeli settlers not to take Palestinian Americans' land\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-20 21:22",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNk15eGo2WTQ2MFVpa1ViTEt2aFhNMUd5OU0ybFNGanlqbFhPVzhOTlhOTU94MXM5MTc5M2lVRk1yYmhYYzMxR3NiZGdaS1NVWTlXTTFEaWZVRFF6TUozRUdTTnl4WUxxVGhjelJ0QTVIc0pRQnlPSUlncGRROWs4d3J1a0hCdmNTeHdwRWNNS0ZoYzJLeUQ0OW1vLWhEclZtVS1sYTl0bEoyaWN5a2tDQ2xGWnk2dGpPV3ZTSGU0UXZRSW9uNm5hd05n?oc=5"
-    },
-    {
-      "headline": "Harry and Meghan: Their life together in photos - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Harry and Meghan: Their life together in photos\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-20 20:43",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNemU0alhTVF8wYVhBNFUzbWN6TFhEU21UdTA1MHpEYkxrOE5jQ3d6OUNySnpQMXdnanlXV2s4Y3NsVFlJU0d6QmhsS3Qtei1NMVcwUzRielE2cFIydnNVWkR3Y0U1aDdQNmhrZ3YzMDBYRFlMR0t5Y0pGZElFbUwwMElZbndyMVVNS19FdA?oc=5"
-    },
-    {
-      "headline": "The Los Angeles Lakers sold for $12.5 billion. Here\u2019s what every NBA team is now worth",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The pending $12.5 billion Lakers sale would lift CNBC\u2019s average NBA team valuation 21% to $6.68 billion, with the Warriors still No. 1.",
-      "category": "global_markets",
-      "date": "2026-08-20 20:28",
-      "link": "https://www.cnbc.com/2026/08/20/heres-how-the-los-angeles-lakers-12point5b-sale-impacts-the-value-of-all-30-nba-teams.html"
+      "date": "2026-08-21 10:28",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUUpoc3RVQnd4NTNiTnNFZ1UzRDBzbmF6RjNzbFBYX1BLUUV5d2ZSRGFkem5EWnJYNEo2TUc2TWwxc2JRUzVaczhIb0ZZN2kxdmJVdUdqdXcybjlpR1YteE0zdmUwMXZpMzAxSHZDSllIQ1NvYWNwOTdrRTFOcEdwZG8wZTl3ajB0RGVEQ1o1alotVEQ5MTBNZW13RllNWGNlcWF6Y2FDY0Q?oc=5"
     }
   ]
 }
