@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-20T14:38:15.008179",
+  "timestamp": "2026-08-21T06:28:58.720729",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 14,
-    "neutral": 10,
+    "avg_relevance": 7.2,
+    "bullish": 10,
+    "neutral": 14,
     "bearish": 1,
-    "high_priority": 9,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
+    "Reuters": 10,
     "Bloomberg": 3,
-    "MarketWatch": 2,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "Ad-hoc-news.de": 3,
-    "CNBC": 6,
-    "The Wall Street Journal": 1,
-    "Investing.com Nigeria": 1,
-    "Bloomberg.com": 1
+    "Axios": 1,
+    "Pluang": 1
   },
   "top_signals": [
     {
@@ -32,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,18 +99,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Treasury\u2019s buyback blitz may end up driving bond yields higher, warns JPMorgan. Here\u2019s its advice for investors.",
+      "headline": "Asian Stocks to Gain as US Treasury Supports Bonds: Markets Wrap",
       "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Strategists Jay Barry and Jason Hunter are predicting fallout from the Treasury\u2019s move that they see as not even needed.",
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Asian bonds and stocks gained as US plans to buy back longer-dated Treasuries to curb borrowing costs buoyed sentiment. The dollar steadied after sliding to a three-month low.",
       "category": "fixed_income",
-      "date": "2026-08-20 13:33",
-      "link": "https://www.marketwatch.com/story/treasurys-bond-buyback-blitz-may-end-up-driving-yields-higher-warns-jpmorgan-heres-their-investment-advice-b8f507be?mod=mw_rss_topstories"
+      "date": "2026-08-19 22:12",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-19/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "headline": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "As he has done in the past, Trump accused Fed officials of having political motives.",
+      "category": "us_monetary_policy",
+      "date": "2026-08-19 20:32",
+      "link": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +129,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,58 +139,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-20 14:38",
+      "date": "2026-08-21 06:28",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Conditions are ripe for a market \u2018accident,\u2019 but surging bond yields alone won\u2019t cause it, concedes pessimistic strategist",
+      "headline": "Fed officials warned rate hikes may be needed if inflation stays high",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The rise in bond yields renders markets more vulnerable to bad news, observes the \u201cpermabear\u201d Albert Edwards of Soci\u00e9t\u00e9 G\u00e9n\u00e9rale.",
-      "category": "fixed_income",
-      "date": "2026-08-20 14:14",
-      "link": "https://www.marketwatch.com/story/conditions-are-ripe-for-a-market-accident-but-surging-bond-yields-alone-wont-cause-it-concedes-pessimistic-strategist-222cfc57?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Trimble stock jumps after Q2 earnings beat and guidance raise",
-      "score": 7,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Trimble Inc. (TRMB) saw its stock rise after reporting better-than-expected Q2 2026 earnings and revenue, leading the company to raise its full-year guidance. The strong performance, driven by double-digit organic growth and an increase in recurring revenue, has reinforced investor confidence. Analy",
-      "category": "corporate_earnings",
-      "date": "2026-08-20 13:23",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/trimble-stock-jumps-after-q2-earnings-beat-and-guidance-raise/69975620"
-    },
-    {
-      "headline": "We're booking a five-fold profit on one of drug stock's rally to record highs",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "This trim doesn't reflect any change in our positive long-term view.",
-      "category": "corporate_earnings",
-      "date": "2026-08-19 15:14",
-      "link": "https://www.cnbc.com/2026/08/19/were-booking-a-five-fold-profit-on-one-of-drug-stocks-rally-to-record-highs.html"
-    },
-    {
-      "headline": "Stock Market Today: Global Bonds Stabilize After Selloff, Dow Futures Muted \u2014 Live Updates",
-      "score": 7,
-      "source": "The Wall Street Journal",
+      "source": "Axios",
       "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-08-19 11:37",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-19-2026"
-    },
-    {
-      "headline": "Stocks and Bonds Find Respite After Days of Strain: Markets Wrap",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Stocks and bonds rose after the US government announced it\u2019s stepping in to support the longer-dated end of the Treasury market.",
-      "category": "fixed_income",
-      "date": "2026-08-18 22:11",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-18/stock-market-today-dow-s-p-live-updates"
+      "impact": "Some policymakers warned that waiting too long to raise rates could mean bigger, more painful increases down the line.",
+      "category": "us_monetary_policy",
+      "date": "2026-08-19 19:18",
+      "link": "https://www.axios.com/2026/08/19/fed-warsh-minutes-rates"
     },
     {
       "headline": "Sea Ray parent Brunswick bets on AI navigation and new revenue streams to help stalling boat sales",
@@ -206,74 +173,104 @@
       "link": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html"
     },
     {
-      "headline": "Paramount seeks $1.88 billion bond from state AGs to cover costs of WBD merger delay",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Paramount agreed to delay its proposed acquisition of WBD to as late as June 2027 while the state AGs' case heads to trial.",
-      "category": "fixed_income",
-      "date": "2026-08-17 22:07",
-      "link": "https://www.cnbc.com/2026/08/17/paramount-bond-merger-delay-costs.html"
-    },
-    {
-      "headline": "Where commercial real estate demand is the highest, according to new data",
+      "headline": "QQQI ETF charges nearly double fees of JEPQ with lower total returns despite higher yield.",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The National Association of Realtors has released a new index that uses factors in local economies to indicate future demand.",
-      "category": "global_markets",
-      "date": "2026-08-20 14:21",
-      "link": "https://www.cnbc.com/2026/08/20/commercial-real-estate-demand-nar-data.html"
-    },
-    {
-      "headline": "Walmart hikes full-year outlook and gets huge tariff refund, but stock falls on sales concerns",
-      "score": 6,
-      "source": "CNBC",
+      "source": "Pluang",
       "sentiment": "negative",
-      "impact": "Walmart is expected to report its fiscal second-quarter earnings on Thursday, offering a read on the consumer and the K-shaped economy.",
+      "impact": "The NEOS Nasdaq-100 High Income ETF (QQQI) has a significantly higher expense ratio (0.68%) than JPMorgan's Nasdaq Equity Premium Income ETF (JEPQ) (0.35%). Despite QQQI's higher headline yield of 14%, its total return over the past year was 17.64%, which was lower than JEPQ's 20.87%. Investors shou",
+      "category": "fixed_income",
+      "date": "2026-08-21 05:41",
+      "link": "https://pluang.com/en/news-feed/abaikan-yield-qqqi-jepq-bayar-10-7-dan-benar-benar-menghasilkan"
+    },
+    {
+      "headline": "Oil set for second weekly rise as unsettled US-Iran war crimps supply - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Oil set for second weekly rise as unsettled US-Iran war crimps supply\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-21 01:50",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5"
+    },
+    {
+      "headline": "US says it will impose 'toughest sanctions in history' on Iran - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US says it will impose 'toughest sanctions in history' on Iran\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-20 14:21",
-      "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"
+      "date": "2026-08-20 23:59",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN2ZEV0ttbXhQZHVsUVNRYTBoVkczUHp5MVN5ME9vWGo4ajVmWmhMUXBwdkVVaXo3MjZlSEpyTC0wWWtvaGdYZkttakoyazRFMXBCM1ZUVmZ4TldhaUF2WU1QdTgtR3NwaFlMa016ZGJ6UjBaTmZGZjVTN011RXFNWktVcm44QUxMbHE4WVNyOWpNUkJwNzVKLW0wUTdQSUZCdGNrT1NkWXZPMzVJ?oc=5"
     },
     {
-      "headline": "Ross Stores in the spotlight as earnings loom after historic surge",
+      "headline": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage - Reuters",
       "score": 6,
-      "source": "Investing.com Nigeria",
-      "sentiment": "positive",
-      "impact": "Ross Stores is set to announce its second-quarter results, with analysts expecting EPS of $1.94 on revenue of $6.15 billion, reflecting strong year-over-year growth. The off-price retailer's stock has performed well, nearing its 52-week high, as consumers prioritize value. Investors will closely wat",
-      "category": "corporate_earnings",
-      "date": "2026-08-20 13:45",
-      "link": "https://ng.investing.com/news/stock-market-news/ross-stores-in-the-spotlight-as-earnings-loom-after-historic-surge-93CH-2669096"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-20 23:53",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?oc=5"
     },
     {
-      "headline": "Skyworks Solutions stock gains on a Q3 beat and steady guidance",
+      "headline": "Bessent says US to impose 'toughest' ever sanctions on Iran, urges China to cooperate - Reuters",
       "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Skyworks Solutions' stock saw gains after reporting Q3 2026 earnings that surpassed estimates, despite a year-over-year revenue decline. The profit beat was attributed to cost control and product mix rather than top-line growth, as the company's valuation remains contained within its recent trading ",
-      "category": "corporate_earnings",
-      "date": "2026-08-20 13:35",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skyworks-solutions-stock-gains-on-a-q3-beat-and-steady-guidance/69976258"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Bessent says US to impose 'toughest' ever sanctions on Iran, urges China to cooperate\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-08-20 23:14",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUlFnUHhPNjlxRW5kTy03TFctOE1ST1NabGVNalozY2hiR2RKcEtfV1ZRblJ1VlJXQXRNem1yZmpIRVVYUjJOd2pzWElTX0JVeXZVR1V1Tk5NOG5oWWUtRVZzWDNFOE5KbE1VNmtubXdodnVzQ1RZMFV3TnpUUXVHM1N5MXZqZTBtdW1iUG8xS18wdi1ranhQQXpfVDdiYnRsc09iN3JtbEhZTVIwS202X0lmSkF2V0c2dFV5NQ?oc=5"
     },
     {
-      "headline": "NYSE Owner Says Firm to Look at Polymarket\u2019s New Funding Round",
+      "headline": "Micron CEO pushes back on memory bear case. 3 key takeaways from Cramer's big interview",
       "score": 6,
-      "source": "Bloomberg.com",
-      "sentiment": "positive",
-      "impact": "Intercontinental Exchange Inc. (ICE), the parent company of the New York Stock Exchange, is considering participating in Polymarket's new funding round. This comes after ICE has already invested over $1.6 billion in the prediction-market platform. ICE CEO Jeff Sprecher indicated interest in supporti",
-      "category": "us_equities",
-      "date": "2026-08-20 13:35",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-20/nyse-owner-says-firm-to-look-at-polymarket-s-new-funding-round"
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Jim Cramer's extended interview with the CEO made us more confident in our newest stock position.",
+      "category": "global_markets",
+      "date": "2026-08-20 22:52",
+      "link": "https://www.cnbc.com/2026/08/20/micron-ceo-pushes-back-on-memory-bear-case-3-takeaways-from-cramers-interview.html"
     },
     {
-      "headline": "HP Inc. stock steadies ahead of Q3 2026 earnings date",
+      "headline": "China boosts imports of Russian crude, stymieing India's refiners - Reuters",
       "score": 6,
-      "source": "Ad-hoc-news.de",
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "HP Inc. stock is trading just under $30 per share, consolidating gains ahead of its fiscal third-quarter 2026 earnings release scheduled for August 26, 2026. The company's shares have risen 34.54% year-to-date, with current market expectations for Q3 2026 revenue set at $14.39 billion and EPS at $0.",
-      "category": "corporate_earnings",
-      "date": "2026-08-20 13:29",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/hp-inc-stock-steadies-ahead-of-q3-2026-earnings-date/69975646"
+      "impact": "China boosts imports of Russian crude, stymieing India's refiners\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-08-20 22:06",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5"
+    },
+    {
+      "headline": "US envoy Huckabee tells Israeli settlers not to take Palestinian Americans' land - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US envoy Huckabee tells Israeli settlers not to take Palestinian Americans' land\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-20 21:22",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNk15eGo2WTQ2MFVpa1ViTEt2aFhNMUd5OU0ybFNGanlqbFhPVzhOTlhOTU94MXM5MTc5M2lVRk1yYmhYYzMxR3NiZGdaS1NVWTlXTTFEaWZVRFF6TUozRUdTTnl4WUxxVGhjelJ0QTVIc0pRQnlPSUlncGRROWs4d3J1a0hCdmNTeHdwRWNNS0ZoYzJLeUQ0OW1vLWhEclZtVS1sYTl0bEoyaWN5a2tDQ2xGWnk2dGpPV3ZTSGU0UXZRSW9uNm5hd05n?oc=5"
+    },
+    {
+      "headline": "Harry and Meghan: Their life together in photos - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Harry and Meghan: Their life together in photos\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-20 20:43",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNemU0alhTVF8wYVhBNFUzbWN6TFhEU21UdTA1MHpEYkxrOE5jQ3d6OUNySnpQMXdnanlXV2s4Y3NsVFlJU0d6QmhsS3Qtei1NMVcwUzRielE2cFIydnNVWkR3Y0U1aDdQNmhrZ3YzMDBYRFlMR0t5Y0pGZElFbUwwMElZbndyMVVNS19FdA?oc=5"
+    },
+    {
+      "headline": "The Los Angeles Lakers sold for $12.5 billion. Here\u2019s what every NBA team is now worth",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The pending $12.5 billion Lakers sale would lift CNBC\u2019s average NBA team valuation 21% to $6.68 billion, with the Warriors still No. 1.",
+      "category": "global_markets",
+      "date": "2026-08-20 20:28",
+      "link": "https://www.cnbc.com/2026/08/20/heres-how-the-los-angeles-lakers-12point5b-sale-impacts-the-value-of-all-30-nba-teams.html"
     }
   ]
 }
