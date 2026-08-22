@@ -1,27 +1,28 @@
 {
-  "timestamp": "2026-08-21T14:37:30.284084",
+  "timestamp": "2026-08-22T06:21:57.725758",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 10,
-    "neutral": 12,
-    "bearish": 3,
-    "high_priority": 9,
-    "material_events": 5
+    "avg_relevance": 7.3,
+    "bullish": 11,
+    "neutral": 9,
+    "bearish": 5,
+    "high_priority": 10,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "The Wall Street Journal": 1,
-    "Reuters": 6,
-    "Bloomberg": 2,
+    "Reuters": 5,
+    "Bloomberg": 3,
+    "CNBC": 3,
     "Caixin/S&P Global": 1,
-    "Ad-hoc-news.de": 2,
-    "CNBC": 7,
-    "The Hill": 1,
-    "MarketWatch": 1
+    "Ad-hoc-news.de": 4,
+    "MarketWatch": 1,
+    "Financial Times": 1,
+    "MarketBeat": 2,
+    "Stock Titan": 1
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,18 +62,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Stock Market Today: Bond Market Steady After Treasury Intervention, Nasdaq Futures Tick Up \u2014 Live Updates",
-      "score": 9,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Live updates on markets and the top finance, economics and business stories. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
-      "category": "us_equities",
-      "date": "2026-08-20 09:31",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-20-2026"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -81,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -91,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -101,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -111,8 +102,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Wall St rises on the day but falls for the week; bond yields and Iran in focus - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Wall St rises on the day but falls for the week; bond yields and Iran in focus\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-08-21 22:58",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5"
+    },
+    {
+      "headline": "Stock futures are little changed after a steep sell-off sparked by a move back higher in Treasury yields: Live updates",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Dow ended Thursday's session down 700 points, marking its worst day since July 29.",
+      "category": "fixed_income",
+      "date": "2026-08-21 01:37",
+      "link": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +132,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,28 +142,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-21 14:37",
+      "date": "2026-08-22 06:21",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "NiSource stock draws fresh institutional interest as Q2 earnings and guidance support long-term grow",
+      "headline": "UnitedHealth Group stock holds below record highs as investors weigh strong earnings and guidance",
       "score": 7,
       "source": "Ad-hoc-news.de",
       "sentiment": "positive",
-      "impact": "NiSource Inc. (NI) is attracting fresh institutional investment following its Q2 2026 earnings report, which reaffirmed its full-year EPS guidance and a multiyear $28.6 billion capital investment plan. Despite a decline in Q2 profit, the company's strong year-to-date performance and long-term growth",
+      "impact": "UnitedHealth Group's stock is trading below its 52-week high despite a strong Q2 2026 earnings beat and reaffirmed fiscal 2026 guidance. The company reported EPS of $6.38, surpassing estimates of $4.94, and revenue of $112.03 billion, exceeding expectations. Analysts maintain a \"Moderate Buy\" rating",
       "category": "corporate_earnings",
-      "date": "2026-08-21 13:43",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nisource-stock-draws-fresh-institutional-interest-as-q2-earnings-and/69981480"
+      "date": "2026-08-22 05:08",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/unitedhealth-group-stock-holds-below-record-highs-as-investors-weigh/69984156"
     },
     {
-      "headline": "Realty Income stock holds steady as guidance and dividend support a 5 percent yield",
+      "headline": "US Treasury Secretary Bessent to hold press conference on Monday - Reuters",
       "score": 7,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Realty Income (O) stock is trading in the low $60s, supported by management's target for mid-single-digit earnings growth and a monthly dividend yielding around 5.1%. The company reported Q3 EPS of $1.09 and revenue of $1.55 billion, exceeding estimates, and has issued full-year 2026 earnings guidan",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US Treasury Secretary Bessent to hold press conference on Monday\u00a0\u00a0Reuters",
       "category": "fixed_income",
-      "date": "2026-08-21 13:39",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/realty-income-stock-holds-steady-as-guidance-and-dividend-support-a-5/69981253"
+      "date": "2026-08-21 22:09",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDcwRjI3TkpVODVXRkhpY1JhSXZIeHNkZW84RTdDaEFEdmlDUHZ1Uy1GNXdlOHpMaDVHdGl1RlZBSVFaSC1MbGxXcFRMdjl5Y19KUUpyNkJLaEl3NjlXZklHbkhDaWpLOFJ2Mmk2SWpmWFZuQ2ZQb2VXOUVpVElHQ18wTFBSSUFwODhSS29jLVFUWVM0M1RfRmhTVnBVOFVVUjV4dFpn?oc=5"
+    },
+    {
+      "headline": "Here\u2019s how Bessent\u2019s newly activist Treasury Department is undercutting the Fed\u2019s Warsh",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "The surprising move this week by Treasury Secretary Scott Bessent to intervene in Treasury markets to lower the cost of government debt undercuts the credibility of Federal Reserve Chairman Kevin Warsh to make interest-rate policy, experts said.",
+      "category": "us_monetary_policy",
+      "date": "2026-08-21 20:11",
+      "link": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "An overlooked AI winner names a new CFO \u2014 plus, Nvidia's key earnings loom",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "corporate_earnings",
+      "date": "2026-08-21 18:55",
+      "link": "https://www.cnbc.com/2026/08/21/an-overlooked-ai-winner-taps-new-cfo-as-street-awaits-nvidia.html"
     },
     {
       "headline": "Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand",
@@ -165,114 +196,84 @@
       "link": "https://www.cnbc.com/2026/08/21/gold-prices-us-debt-dollar.html"
     },
     {
-      "headline": "Federal Reserve officials hint rate increase may be necessary",
+      "headline": "Indian proprietary traders\u2019 derivatives profits fall to $4.7 billion",
       "score": 7,
-      "source": "The Hill",
-      "sentiment": "neutral",
-      "impact": "Multiple Federal Reserve officials indicated the central bank may need to raise interest rates later this year, according to newly released minutes of the Fed\u2019s July meeting.\u00a0 While most participants at the joint meeting of the Federal Open Market Committee (\u2026",
-      "category": "us_monetary_policy",
-      "date": "2026-08-19 23:13",
-      "link": "https://thehill.com/business/6040110-fed-july-minutes-rate-hike/"
-    },
-    {
-      "headline": "Trump admin taps former JPMorgan Chase exec Matt Zames to advise Social Security agency",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Matt Zames is taking an unpaid position to help his former JPMorgan colleague Frank Bisignano tackle modernization of the SSA, CNBC has learned.",
-      "category": "global_markets",
-      "date": "2026-08-21 14:06",
-      "link": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html"
-    },
-    {
-      "headline": "Most Americans aren't anti-vaccine. They're uncertain \u2014 and that's a growing public health challenge",
-      "score": 6,
-      "source": "CNBC",
+      "source": "Bloomberg",
       "sentiment": "negative",
-      "impact": "The bigger issue at hand may be that many Americans fall into a large, uncertain middle ground \u2013 neither firmly pro-vaccine nor staunchly opposed.",
-      "category": "global_markets",
-      "date": "2026-08-21 13:45",
-      "link": "https://www.cnbc.com/2026/08/21/why-vaccination-rates-are-falling-in-the-us.html"
-    },
-    {
-      "headline": "Nvidia earnings could rescue a stalled-out stock market \u2014 if the AI chip maker breaks this trend",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Shares of Jensen Huang\u2019s company have struggled to make headway since its previous results day.",
+      "impact": "Indian proprietary traders' derivatives profits dropped to $4.7 billion as regulatory curbs affected market dynamics and individual investor losses decreased.",
       "category": "corporate_earnings",
-      "date": "2026-08-21 13:33",
-      "link": "https://www.marketwatch.com/story/nvidia-earnings-could-rescue-a-stalling-stock-market-if-the-ai-chip-maker-breaks-this-trend-9b6504bc?mod=mw_rss_topstories"
+      "date": "2026-08-21 03:45",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-20/india-prop-traders-derivatives-profits-fall-to-4-7-billion"
     },
     {
-      "headline": "Here are the top 10 things we're watching in the stock market Friday",
-      "score": 6,
-      "source": "CNBC",
+      "headline": "What is Scott Bessent doing with the $32tn Treasury market \u2014 and will it work?",
+      "score": 7,
+      "source": "Financial Times",
       "sentiment": "positive",
-      "impact": "Stocks are set for a higher open Friday following a nasty rate-driven pullback on Thursday",
-      "category": "global_markets",
-      "date": "2026-08-21 12:59",
-      "link": "https://www.cnbc.com/2026/08/21/here-are-the-top-10-things-were-watching-in-the-stock-market-friday.html"
+      "impact": "US Treasury secretary has made a high-stakes bet he can beat back soaring borrowing costs",
+      "category": "fixed_income",
+      "date": "2026-08-20 23:08",
+      "link": "https://www.ft.com/content/14b25583-c64d-4a97-9f6d-359908638e28?syn-25a6b1a6\\\\u003d1"
     },
     {
-      "headline": "Wall Street's existential crisis over perpetual futures \u2014 the 24/7 security on steroids \u2014 just got urgent",
+      "headline": "Kodiak AI (NASDAQ:KDK) Rating Lowered to \"Strong Sell\" at Wall Street Zen",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketBeat",
       "sentiment": "negative",
-      "impact": "Perpetual futures, or perps, are shaking up exchanges as investors seek continuous access to trading.",
+      "impact": "Wall Street Zen has downgraded Kodiak AI (NASDAQ:KDK) from a \"sell\" to a \"strong sell\" rating, despite a broader \"Moderate Buy\" consensus among other analysts with a target price of $12.50. The company's shares opened at $3.94, near their 12-month low, and are trading below key moving averages. This",
       "category": "us_equities",
-      "date": "2026-08-21 12:32",
-      "link": "https://www.cnbc.com/2026/08/21/wall-streets-existential-crisis-over-perpetual-futures-the-24/7-security-on-steroids-just-got-urgent.html"
+      "date": "2026-08-22 05:20",
+      "link": "https://www.marketbeat.com/instant-alerts/kodiak-ai-nasdaqkdk-rating-lowered-to-strong-sell-at-wall-street-zen-2026-08-22/"
     },
     {
-      "headline": "Why some of America's biggest brands are losing ground in China",
+      "headline": "Hut 8 (NASDAQ:HUT) Stock Price Down 8.8% - Here's What Happened",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Nike, Starbucks and GM have lost ground in China as domestic rivals, geopolitics and changing consumer preferences reshape the market.",
-      "category": "asia_economy",
-      "date": "2026-08-21 11:30",
-      "link": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html"
-    },
-    {
-      "headline": "Take Five: Six months of war - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Take Five: Six months of war\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-21 11:25",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX0lPYzNQYzNFb2I1ZW91YXRCQWhCYWV2NGFkMWNtTV9KdUUtSWNOREVHOEJGY3R5THNITzY0d29lTTB3Tk5RQ1dGQ21nYk1oblczcGVua3RuemZLdm1BeXBETDEwN29rWEZGeG1VUy04ZUxGRDRWWEdKa1VLNS1nYzR1Y1VNSFVFcmJ3VQ?oc=5"
-    },
-    {
-      "headline": "Ships passing through Hormuz hover in single digits, data shows - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Ships passing through Hormuz hover in single digits, data shows\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-21 11:22",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSEhZX09yZU9wMFlFN0FUUjM0dUhpZ01zMEVvWFBlVHpoQ25lY0xFckRtVnpXMHZfZVA3TU0zRjNNYlUydy1pelQ1Q3Rmb1dPeWZmU3hDTXF2ZERfY3UyY2tteGpocUNoY0FkdE13dXV5cjV1VUh3MmN1al9MUm5xVlh6RWpwenRzQ2dzR0dxci05c2kwQ1VSUGNDTVBJVkFFd0RjZm9GRnBBdw?oc=5"
-    },
-    {
-      "headline": "New York unseats San Francisco as the top market for tech talent, CBRE reports",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "AI-related roles now account for nearly one-third of all tech-talent job listings in the U.S., per the new CBRE report.",
-      "category": "global_markets",
-      "date": "2026-08-21 10:36",
-      "link": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html"
-    },
-    {
-      "headline": "Iraq aims to boost oil output to 8-10 million bpd in six years - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "MarketBeat",
       "sentiment": "positive",
-      "impact": "Iraq aims to boost oil output to 8-10 million bpd in six years\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-21 10:28",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUUpoc3RVQnd4NTNiTnNFZ1UzRDBzbmF6RjNzbFBYX1BLUUV5d2ZSRGFkem5EWnJYNEo2TUc2TWwxc2JRUzVaczhIb0ZZN2kxdmJVdUdqdXcybjlpR1YteE0zdmUwMXZpMzAxSHZDSllIQ1NvYWNwOTdrRTFOcEdwZG8wZTl3ajB0RGVEQ1o1alotVEQ5MTBNZW13RllNWGNlcWF6Y2FDY0Q?oc=5"
+      "impact": "Hut 8 (NASDAQ:HUT) saw its stock price drop by 8.8% in heavy trading, attributed mainly to profit-taking and unwinding of positions in AI-focused Bitcoin miners after significant gains in 2026. Despite this decline, analysts maintain a favorable \"Buy\" rating with an average price target of $144.89, ",
+      "category": "us_equities",
+      "date": "2026-08-22 05:11",
+      "link": "https://www.marketbeat.com/instant-alerts/hut-8-nasdaqhut-stock-price-down-88-heres-what-happened-2026-08-21/"
+    },
+    {
+      "headline": "Alphabet stock rises as AI users and ad revenue grow",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Alphabet's stock is drawing attention after its AI products reached 2.5 billion monthly users and second-quarter ad revenue hit $81 billion. The company reported strong Q2 earnings with EPS of $9.11 and revenue of $119.80 billion, exceeding estimates. Despite increased capital expenditure guidance f",
+      "category": "corporate_earnings",
+      "date": "2026-08-22 04:50",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/alphabet-stock-rises-as-ai-users-and-ad-revenue-grow/69984078"
+    },
+    {
+      "headline": "Linde stock holds firm as Q2 2026 beats and guidance frame the outlook",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Linde PLC (IE00BZ12WP82) stock is trading near recent highs after reporting strong Q2 2026 earnings, with adjusted EPS of $4.50 and revenue of $9.29 billion, a 9.3% increase year-over-year. The company reiterated its full-year 2026 EPS guidance of $17.70 to $17.90, supported by a significant project",
+      "category": "corporate_earnings",
+      "date": "2026-08-22 04:49",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/linde-stock-holds-firm-as-q2-2026-beats-and-guidance-frame-the-outlook/69984074"
+    },
+    {
+      "headline": "Gorilla Technology (NASDAQ: GRRR) highlights dilution risk in $125M note resale",
+      "score": 6,
+      "source": "Stock Titan",
+      "sentiment": "negative",
+      "impact": "Gorilla Technology (NASDAQ: GRRR) has filed a prospectus supplement for the resale of $125 million in 7.50% Senior Unsecured Convertible Notes, Series B due 2031, along with up to 22.1 million ordinary shares. The company will not receive proceeds from these sales, which carry significant dilution r",
+      "category": "us_equities",
+      "date": "2026-08-22 04:43",
+      "link": "https://www.stocktitan.net/sec-filings/GRRR/424b7-gorilla-technology-group-inc-prospectus-filed-pursuant-to-rule--e9bc875e3a03.html"
+    },
+    {
+      "headline": "Honeywell International stock holds steady as aerospace guidance reset reshapes expectations",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "neutral",
+      "impact": "Honeywell International's stock is stable as investors analyze the impact of Honeywell Aerospace's recent Q2 2026 guidance reset. Despite a sharp 23.16% one-day drop in Honeywell Aerospace shares following disappointing results and revised guidance, demand remains strong with an $18.2 billion order ",
+      "category": "corporate_earnings",
+      "date": "2026-08-22 04:33",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/honeywell-international-stock-holds-steady-as-aerospace-guidance-reset/69983999"
     }
   ]
 }
