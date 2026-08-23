@@ -1,26 +1,27 @@
 {
-  "timestamp": "2026-08-23T06:23:25.617553",
+  "timestamp": "2026-08-23T14:25:39.907428",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 10,
-    "neutral": 13,
-    "bearish": 2,
+    "avg_relevance": 7.2,
+    "bullish": 9,
+    "neutral": 15,
+    "bearish": 1,
     "high_priority": 10,
-    "material_events": 4
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "MarketWatch": 2,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "CNBC": 4,
     "Caixin/S&P Global": 1,
-    "Simply Wall Street": 4,
-    "TradingView": 2,
-    "The Wall Street Journal": 1
+    "CNBC": 4,
+    "Dealroom": 2,
+    "Eastern Progress": 1,
+    "Moomoo": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,8 +61,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Stock Market on Aug. 21, 2026: Dow, S&P 500 and Nasdaq rebound, but finish week with a loss as rising bond yields rattle stocks",
+      "score": 9,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "U.S. stocks rebounded after a rough stretch that saw rising bond yields put pressure on equities.",
+      "category": "us_equities",
+      "date": "2026-08-21 19:25",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-long-dated-treasury-yields-flash-us-manufacturing-pmi"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -70,7 +81,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +111,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -114,23 +125,13 @@
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5"
     },
     {
-      "headline": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The so-called breakeven rate hit its highest levels in more than two months.",
-      "category": "fixed_income",
-      "date": "2026-08-21 17:51",
-      "link": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,28 +141,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-23 06:23",
+      "date": "2026-08-23 14:25",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Analog Devices (ADI) Could Be 17% Undervalued After Earnings Guidance And Dividend Affirmation",
+      "headline": "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
       "score": 7,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "Analog Devices (ADI) has affirmed a quarterly dividend of $1.10 per share and provided Q4 2026 revenue and margin guidance. Despite a strong year-to-date performance, the stock is considered 17.3% undervalued compared to a fair value of $451.03, driven by expected growth in its addressable market fr",
-      "category": "corporate_earnings",
-      "date": "2026-08-23 05:31",
-      "link": "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/analog-devices-adi-could-be-17-undervalued-after-earnings-gu"
-    },
-    {
-      "headline": "TSCO6490401 Bond Yield and Price \u2014 FINRA:TSCO6490401",
-      "score": 7,
-      "source": "TradingView",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "This article provides details on the TSCO6490401 bond issued by Tractor Supply Company, including its coupon rate of 5.2% and maturity date of January 30, 2032. It lists key financial terms such as outstanding amount, face value, and minimum denomination, along with bond information like the issuer'",
+      "impact": "You can\u2019t just sweep $40 trillion in U.S. national debt under a rug and forget about it \u2014 or so the bond market appears to be telling Treasury Secretary Scott Bessent.",
       "category": "fixed_income",
-      "date": "2026-08-23 03:30",
-      "link": "https://www.tradingview.com/symbols/FINRA-TSCO6490401/"
+      "date": "2026-08-23 12:00",
+      "link": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories"
     },
     {
       "headline": "US Treasury Secretary Bessent to hold press conference on Monday - Reuters",
@@ -174,16 +165,6 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDcwRjI3TkpVODVXRkhpY1JhSXZIeHNkZW84RTdDaEFEdmlDUHZ1Uy1GNXdlOHpMaDVHdGl1RlZBSVFaSC1MbGxXcFRMdjl5Y19KUUpyNkJLaEl3NjlXZklHbkhDaWpLOFJ2Mmk2SWpmWFZuQ2ZQb2VXOUVpVElHQ18wTFBSSUFwODhSS29jLVFUWVM0M1RfRmhTVnBVOFVVUjV4dFpn?oc=5"
     },
     {
-      "headline": "Stock Market Today: Dow Opens Higher; Yields Steady; Bitcoin in Focus \u2014 Live Updates",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-08-21 22:00",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-21-2026"
-    },
-    {
       "headline": "An overlooked AI winner names a new CFO \u2014 plus, Nvidia's key earnings loom",
       "score": 7,
       "source": "CNBC",
@@ -194,54 +175,94 @@
       "link": "https://www.cnbc.com/2026/08/21/an-overlooked-ai-winner-taps-new-cfo-as-street-awaits-nvidia.html"
     },
     {
-      "headline": "Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Gold is rebounding as investors weigh U.S. debt concerns, a weaker dollar and stubbornly high Treasury yields.",
-      "category": "fixed_income",
-      "date": "2026-08-21 11:35",
-      "link": "https://www.cnbc.com/2026/08/21/gold-prices-us-debt-dollar.html"
-    },
-    {
-      "headline": "Can Cigna Group (CI) Stay Cheap If Earnings Hold Up?",
+      "headline": "Iran says Pakistan's army chief to visit Tehran on Monday - Reuters",
       "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "positive",
-      "impact": "Cigna Group (CI) stock has shown a 44.4% gain over five years but experienced weaker short-term returns. Despite this, the company is assessed as undervalued across multiple valuation checks, with a P/E ratio of 11.4x significantly below the healthcare industry and peer averages. The key question fo",
-      "category": "corporate_earnings",
-      "date": "2026-08-23 05:30",
-      "link": "https://simplywall.st/stocks/us/healthcare/nyse-ci/cigna-group/news/can-cigna-group-ci-stay-cheap-if-earnings-hold-up"
-    },
-    {
-      "headline": "Banco Bilbao Vizcaya Argentaria Colombia SA Class B Revenue Breakdown \u2013 BVC:BBVACOL",
-      "score": 6,
-      "source": "TradingView",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "This article presents a revenue breakdown for Banco Bilbao Vizcaya Argentaria Colombia SA Class B (BVC:BBVACOL). The primary source of revenue for the bank is Colombia, contributing 4.82 trillion COP last year and 4.64 trillion COP the year prior. The information is presented within a financial over",
-      "category": "us_equities",
-      "date": "2026-08-23 04:29",
-      "link": "https://www.tradingview.com/symbols/BVC-BBVACOL/financials-segments/"
+      "impact": "Iran says Pakistan's army chief to visit Tehran on Monday\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-23 13:13",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1l4dmU1TFpSU2FINWVIZW5YLTMxaEhxY2hJa0tYZldGeG9Sa2loOFlfZEp5RkFDZ1JVMWQ5Y0VMY3hkeUlxZnh6QzVsTUdEcmJSckU4SGhoUURLN3M4Qi1hbkdXYXk1YWdzRUlKLU5SUmo1bC1tcE5pMzE3bkRYQmN0SW90YXNNQnNxTWZuWWwyM0x5NnRReGFiV1V3b1VOMElSVm5NVE0?oc=5"
     },
     {
-      "headline": "Should Ardelyx\u2019s Cut IBSRELA Guidance and CCO Exit Require Action From Ardelyx (ARDX) Investors?",
+      "headline": "Korea Investment CORP builds new $54.73M stake in Hewlett Packard Enterprise after 40% revenue jump",
       "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "negative",
-      "impact": "Ardelyx recently lowered its 2026 IBSRELA revenue guidance to US$350\u2013US$370 million, withdrew a long-term XPHOZAH sales target, and announced the resignation of its Chief Commercial Officer, Eric Foster. These developments highlight the pressure payer hurdles are placing on Ardelyx\u2019s commercial exec",
-      "category": "corporate_earnings",
-      "date": "2026-08-23 04:10",
-      "link": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-ardx/ardelyx/news/should-ardelyxs-cut-ibsrela-guidance-and-cco-exit-require-ac/amp"
-    },
-    {
-      "headline": "ZKH Group (ZKH) Stock Holds Steady After Profit Turnaround",
-      "score": 6,
-      "source": "Simply Wall Street",
+      "source": "Dealroom",
       "sentiment": "positive",
-      "impact": "ZKH Group (NYSE:ZKH) shares remained stable despite the company reporting a significant turnaround from a Q1 loss to a Q2 profit, with basic EPS of RMB 0.166 on RMB 2.44 billion in revenue. This marks the first time ZKH has combined strong GMV and revenue growth with operating profitability and posi",
+      "impact": "Korea Investment CORP has acquired a new $54.73 million stake in Hewlett Packard Enterprise (HPE) during Q2, purchasing over 1.2 million shares. This move follows HPE's strong financial performance, including a 40% year-on-year revenue jump and beating earnings estimates. The increased institutional",
       "category": "corporate_earnings",
-      "date": "2026-08-23 02:26",
-      "link": "https://simplywall.st/stocks/us/capital-goods/nyse-zkh/zkh-group/news/zkh-group-zkh-stock-holds-steady-after-profit-turnaround"
+      "date": "2026-08-23 13:08",
+      "link": "https://app.dealroom.co/news/note/korea-investment-corp-builds-new-54-73m-stake-in-hewlett-packard-enterprise-after-40-revenue-jump"
+    },
+    {
+      "headline": "Sabra Healthcare (SBRA) Tops Q2 FFO and Revenue Estimates",
+      "score": 6,
+      "source": "Eastern Progress",
+      "sentiment": "positive",
+      "impact": "Sabra Healthcare (SBRA) reported strong Q2 results, with funds from operations (FFO) of $0.4 per share, surpassing the Zacks Consensus Estimate of $0.39 per share, and revenues of $235.87 million, exceeding estimates by 3.87%. The company's stock has performed well this year, adding 11.8% compared t",
+      "category": "corporate_earnings",
+      "date": "2026-08-23 12:40",
+      "link": "https://www.easternprogress.com/sabra-healthcare-sbra-tops-q2-ffo-and-revenue-estimates/article_d280d51b-bd96-56ff-9c47-f1835c7086c4.html"
+    },
+    {
+      "headline": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
+      "category": "global_markets",
+      "date": "2026-08-23 12:00",
+      "link": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html"
+    },
+    {
+      "headline": "United's next decision: What to do with all those Boeing 737 Max 10 seats it ordered years ago",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "United Airlines wanted to put lie-flat premium seats on its Max 10 planes once they were certified, but that has been delayed by years.",
+      "category": "global_markets",
+      "date": "2026-08-23 12:00",
+      "link": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html"
+    },
+    {
+      "headline": "Wells Fargo and Citigroup have room to buy a big bank. These 5 regionals fit the bill",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Citigroup and Wells Fargo have room to buy a big regional bank as regulators have opened the door to megadeals. Five regional banks make sense as targets.",
+      "category": "global_markets",
+      "date": "2026-08-23 12:00",
+      "link": "https://www.cnbc.com/2026/08/23/wells-fargo-citigroup-deals-regional-banks.html"
+    },
+    {
+      "headline": "Varma buys $15.84M Synopsys stake as revenue jumps 42%",
+      "score": 6,
+      "source": "Dealroom",
+      "sentiment": "positive",
+      "impact": "Varma Mutual Pension Insurance Co has acquired a new stake worth $15.84 million in Synopsys, Inc. (NASDAQ: SNPS) during Q2 2026, purchasing 35,515 shares. This investment follows Synopsys reporting a 41.9% year-on-year revenue increase to $2.28 billion and beating earnings expectations, attracting s",
+      "category": "corporate_earnings",
+      "date": "2026-08-23 11:50",
+      "link": "https://app.dealroom.co/news/note/varma-buys-15-84m-synopsys-stake-as-revenue-jumps-42"
+    },
+    {
+      "headline": "Invesco Fundamental Investment Grade Corporate Bond Etf To Go Ex-Dividend On August 24th, 2026 With 0.09008 USD Dividend Per Share",
+      "score": 6,
+      "source": "Moomoo",
+      "sentiment": "neutral",
+      "impact": "This article announces that the Invesco Fundamental Investment Grade Corporate Bond ETF (NYSEARCA:PFIG) will go ex-dividend on August 24th, 2026. Shareholders can expect a dividend payment of $0.09008 per share. This information is crucial for investors tracking dividend distributions for this ETF.",
+      "category": "fixed_income",
+      "date": "2026-08-23 11:13",
+      "link": "https://www.moomoo.com/news/post/75091296/invesco-fundamental-investment-grade-corporate-bond-etf-to-go-ex"
+    },
+    {
+      "headline": "Syria foreign minister sees Israel security talks resuming despite no trust - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Syria foreign minister sees Israel security talks resuming despite no trust\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-23 11:05",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWUpvdEk0SVFqbENrNjRzRkFFODFJb2ZkczFRWVU1OFBTWG5Sd3JDbHRnajBMYzZHNlhGR0lVNFdTQlZIMFJVOTZadXBGWDdianhfWXBjcUVTZ0ppbllKZnBfU05zeU5ONS10M2dFOHRpbWZEeFItR2hSNk8xblFlaHRWVTdpUzRPUWt4eTI2UzBTNHpZbHVpemlmTEdMbzY5aTFqWUNCclJ6aVpSeklsa2xDc19jb0dzOGh6ZTNRUVRZT25xNjVZMA?oc=5"
     },
     {
       "headline": "Israel strikes southern Syria; Damascus condemns attack - Reuters",
@@ -252,26 +273,6 @@
       "category": "global_markets",
       "date": "2026-08-22 18:51",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5"
-    },
-    {
-      "headline": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-22 15:45",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR0xHczhyd0MwdmphVllPT2pTUXNMNDBtU29maGIxbGFNdWtjbnAzS1hsMVBXUnNnalVjbXlUQkpJWnZHelR5QkJyV2lLNGRuelVrYW1OQWJ6YTMteGZBbm9vX0lfY0ZZeE93NVVfZ0lsX3hjLXdVeV9qMG5hZ1Y2dU5FbWNQd0t0U0ZJcHV4MmFHbGhnSC1YMWdKaTBCRTQzR2ZzcDNMVnpFaHBCRVl0RXprMVIwMHg3bUI2Qk9IR05MQUM2R0k4QUFnY3VZbEk?oc=5"
-    },
-    {
-      "headline": "Airbnb's new fee change frustrates hosts\u2014what to know before renting out your home",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A new Airbnb fee change is one of many costs and considerations that can affect whether running a short-term rental makes money.",
-      "category": "global_markets",
-      "date": "2026-08-22 14:00",
-      "link": "https://www.cnbc.com/2026/08/22/airbnb-fee-change-frustrates-hosts-what-to-know-before-listing.html"
     }
   ]
 }
