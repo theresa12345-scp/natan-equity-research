@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-24T06:36:46.618998",
+  "timestamp": "2026-08-24T14:44:49.055272",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 13,
-    "neutral": 12,
-    "bearish": 0,
-    "high_priority": 10,
+    "avg_relevance": 7.3,
+    "bullish": 7,
+    "neutral": 16,
+    "bearish": 2,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
-    "Bloomberg": 3,
-    "Fortune": 1,
+    "Reuters": 9,
+    "Bloomberg": 4,
     "Caixin/S&P Global": 1,
-    "TradingView": 1,
-    "MarketWatch": 1,
-    "Quiver Quantitative": 2,
-    "Ad-hoc-news.de": 5,
-    "Benzinga": 1
+    "Quartz": 1,
+    "MarketWatch": 3,
+    "Ad-hoc-news.de": 1,
+    "CNBC": 2
   },
   "top_signals": [
     {
@@ -32,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,28 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Gold hits over 3-month high ahead of US inflation data, Fed chair speech - Reuters",
+      "headline": "Bessent Has No Easy Fix for What\u2019s Really Driving Bond Yields Up",
       "score": 8,
-      "source": "Reuters",
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "Gold hits over 3-month high ahead of US inflation data, Fed chair speech\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-08-24 04:39",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5"
-    },
-    {
-      "headline": "'The U.S. is not the only game in town anymore' \u2014 Treasury debt faces more competition from higher-yielding bonds overseas than in recent decades",
-      "score": 8,
-      "source": "Fortune",
-      "sentiment": "positive",
-      "impact": "Yields on U.K. bonds have reached 5.81%, and German bonds are also paying 3.76%, versus 5.27% for a comparable U.S. bond. It's a big reason U.S. rates have been drifting higher.",
+      "impact": "Treasury Secretary Scott Bessent came to office blasting his predecessor for trying to re-engineer the world\u2019s largest bond market. This week he took a stab at it himself.",
       "category": "fixed_income",
-      "date": "2026-08-22 13:58",
-      "link": "https://fortune.com/2026/08/22/us-debt-competition-higher-yielding-bonds-overseas-treasury-rates/"
+      "date": "2026-08-23 13:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-23/bessent-has-no-easy-fix-for-what-s-really-driving-bond-yields-up"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -132,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -142,28 +130,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-24 06:36",
+      "date": "2026-08-24 14:44",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "PRU6491868 Bond Yield and Price \u2014 FINRA:PRU6491868",
-      "score": 7,
-      "source": "TradingView",
-      "sentiment": "neutral",
-      "impact": "This article provides detailed information about the PRU6491868 bond issued by Prudential Financial, Inc. It includes key terms such as outstanding amount, face value, coupon rate, and maturity date, along with bond issuer information and identifiers. Prudential Financial, Inc. is described as a com",
-      "category": "fixed_income",
-      "date": "2026-08-24 05:48",
-      "link": "https://www.tradingview.com/symbols/FINRA-PRU6491868/"
-    },
-    {
-      "headline": "Ampol profit surges nearly five-fold as Iran war boosts refining margins - Reuters",
+      "headline": "Gold rally gains momentum ahead of US inflation, Jackson Hole event - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Ampol profit surges nearly five-fold as Iran war boosts refining margins\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-08-23 22:42",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQjNIc3NxT3JYclN3cmRsSkVqeElsbHFRMk1fZmZqQ2xWWWJsY3oxUWpPd3BpZ3llYnA2X1hKa0dIREIxMWFPTk5TS1ZRcmVkZS1WNXN6R1pib1pUMGJDQnE0S1ZkNGV3blcydXp0d3pEa08welJreWF1TVFjY0U5a01qc2c5dGY4S3R5RjNXM0pna1dXSjRfMmdBdkhsUUhkY3Q1MFJ5RG90THFQYVdmUGg3ZUNOOFhKbHQ5bzR0YVdKYTFVdlE?oc=5"
+      "impact": "Gold rally gains momentum ahead of US inflation, Jackson Hole event\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-24 14:08",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5"
+    },
+    {
+      "headline": "Morgan Stanley warns bond yields could rise in post-WWII-style era",
+      "score": 7,
+      "source": "Quartz",
+      "sentiment": "neutral",
+      "impact": "Morgan Stanley is cautioning investors that bond yields may continue to rise, citing a shift in economic cycles that resembles the post-World War II era. The investment bank believes market dynamics have moved away from the disinflationary period observed from 1982 to 2020. This prediction was initi",
+      "category": "fixed_income",
+      "date": "2026-08-24 13:45",
+      "link": "https://qz.com/morgan-stanley-bond-yields-higher-economic-cycles-082426"
+    },
+    {
+      "headline": "Wall Street opens lower as high-stakes Iran, inflation tests loom - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Wall Street opens lower as high-stakes Iran, inflation tests loom\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-08-24 13:35",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5"
+    },
+    {
+      "headline": "US Treasury to broaden scope of secondary sanctions on Iran, source says - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US Treasury to broaden scope of secondary sanctions on Iran, source says\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-08-24 13:34",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb0FZaGVaRDU5ZGhzbm1uaHBtUDIwNEhOUk96ZkxVNlRubGFIbHdXTmZhTU1YM2lrclBjNkpkNmlQWnIwUW9pS0xkazBKU2VTZXZMR2RlR0RWTTBnRUVKb2J1SzdyOGNGRjBBWFo4ZnRVQ1dLNG9KT2hTNU5SUGRNNDFERkctaW5oYlhjbTF6VjZNZmZBZHNjemVYZzZCZkFRRkE3MFlJMFlrTl9qT3VaZWQzQ3NnYlE?oc=5"
+    },
+    {
+      "headline": "Yields are the highest they\u2019ve been in years \u2014 but are bonds cheap enough to buy? Two strategists disagree.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Bond yields are driven by the market\u2019s estimate of the average federal funds rate over the next 10 years, plus some compensation for the risks associated with predicting that. Barclays finds bonds at fair value but not cheap yet.",
+      "category": "fixed_income",
+      "date": "2026-08-24 13:04",
+      "link": "https://www.marketwatch.com/story/theyre-the-highest-theyve-been-in-years-but-are-bonds-cheap-enough-to-buy-here-two-strategists-disagree-348fe330?mod=mw_rss_topstories"
     },
     {
       "headline": "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
@@ -172,18 +190,18 @@
       "sentiment": "neutral",
       "impact": "You can\u2019t just sweep $40 trillion in U.S. national debt under a rug and forget about it \u2014 or so the bond market appears to be telling Treasury Secretary Scott Bessent.",
       "category": "fixed_income",
-      "date": "2026-08-23 12:00",
+      "date": "2026-08-24 13:02",
       "link": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories"
     },
     {
-      "headline": "Sinopec's half-year profit grew 19.3% on year despite Iran war, falling demand - Reuters",
+      "headline": "Six countries want EU talks in September on taxing windfall profits of oil companies - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Sinopec's half-year profit grew 19.3% on year despite Iran war, falling demand\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-08-23 10:07",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV0hPR1JrMFBOb05wQlVBbnlyNmkwQnZHQnpXdWNaRllmT2dpNzFCcDI0allOU1NkOEtjVHBOZVVpb2NOd1VFcXJ6bzN4U0tJUXBXTDJOMEc3ZF82Rm80T3FnWHE1dGxqOHpfZDlIbzloVFg1LTlMTDhrb3ZpYTZpUHV4dklUeEFMaVNxMTZReXJQZExXYjB3UlFaRVdVVk8wOV80ZGV0alljTVc2Q3hRSzhJTWZsb1h5S1lUY2c0Nno?oc=5"
+      "impact": "Six countries want EU talks in September on taxing windfall profits of oil companies\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-24 08:49",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQThnRHE4Y3F4cThuZlR6YkNiZ0sxQU1nanBIVjl1aUR4cWNRaHpOUjhtTWhtQzZnNXFqV01jbGhkVWtDQlAxYnpjSEM2UmJ4WEZaVEZORTIxUW1fZU5IVVoySnUwblRYT0xwWTF6cGE1Sng4XzY1OXAxMkJKRWw3Ni1YcWJKakljSEV3bHN5SE5mZTZmSHpMU1RMTDlONUdoaFlYSDExYV9FVlNheGJNSkVqX2Npcms0NG00M1FjaE5lMW9keHc?oc=5"
     },
     {
       "headline": "Kevin Warsh to Make First Jackson Hole Speech as Fed Chair",
@@ -196,84 +214,64 @@
       "link": "https://www.bloomberg.com/news/articles/2026-08-22/kevin-warsh-to-make-first-jackson-hole-speech-as-fed-chair"
     },
     {
-      "headline": "SMC | Summit Midstream Corporation Financials - Revenue Breakdown",
-      "score": 6,
-      "source": "Quiver Quantitative",
-      "sentiment": "neutral",
-      "impact": "This page provides a detailed financial overview of Summit Midstream Corporation (SMC), focusing on its revenue breakdown, institutional holdings, insider trading activity, and analyst ratings. It also includes information on the company's business segments, executive compensation, and a \"Smart Scor",
-      "category": "us_equities",
-      "date": "2026-08-24 06:11",
-      "link": "https://www.quiverquant.com/stock/SMC/financials/revenue_breakdown/"
-    },
-    {
-      "headline": "Alphabet stock climbs after earnings beat on ads and costs",
-      "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Alphabet's stock climbed after its second-quarter profit of $8.42 per share surpassed estimates, driven by strong advertising revenue and effective cost control. The company's revenue, excluding distribution partner payments, rose to $17.53 billion, with shares increasing by 4.6 percent in extended ",
-      "category": "corporate_earnings",
-      "date": "2026-08-24 06:08",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/alphabet-stock-climbs-after-earnings-beat-on-ads-and-costs/69991452"
-    },
-    {
-      "headline": "Micron CEO Says He Sees 'No End' To AI Memory Demand - Micron Technology (NASDAQ:MU)",
-      "score": 6,
-      "source": "Benzinga",
-      "sentiment": "positive",
-      "impact": "Micron Technology CEO Sanjay Mehrotra believes there is no foreseeable end to the AI-driven demand for memory, indicating that the current boom is a structural shift rather than a cyclical trend. He highlights long-term customer agreements and the increasing need for high-performance memory in AI sy",
-      "category": "us_equities",
-      "date": "2026-08-24 05:35",
-      "link": "https://www.benzinga.com/markets/tech/26/08/61374343/micron-ai-memory-supply-crunch-sanjay-mehrotra"
-    },
-    {
-      "headline": "Dow stock steadies as Q2 2026 earnings and margin recovery support the outlook",
-      "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Dow Inc. (DOW) stock is holding steady in the low $30s after reporting Q2 2026 earnings of $721 million and an adjusted EPS of $1.44, beating consensus estimates of $1.28. The company's profit margin neared 6% on $12.09 billion in revenue, reflecting effective pricing, mix, and cost management despi",
-      "category": "us_equities",
-      "date": "2026-08-24 05:30",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/dow-stock-steadies-as-q2-2026-earnings-and-margin-recovery-support-the/69991306"
-    },
-    {
-      "headline": "Honeywell International stock steadies as investors digest Honeywell Aerospace earnings and outlook",
-      "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Honeywell International stock is trading steadily as investors analyze the latest Honeywell Aerospace earnings report and updated full-year EPS guidance. The segment is seeing increased institutional interest, with recent regulatory filings showing asset managers adding exposure, signaling confidenc",
-      "category": "corporate_earnings",
-      "date": "2026-08-24 05:27",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/honeywell-international-stock-steadies-as-investors-digest-honeywell/69991300"
-    },
-    {
-      "headline": "Linde stock holds steady as 2026 guidance highlights project backlog",
-      "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Linde PLC's stock is trading near recent highs, supported by its 2026 adjusted EPS guidance of $17.40 to $17.90, which suggests 6 to 9 percent growth. The company also boasts a record $10 billion project backlog, providing strong visibility for future revenue and cash flows from industrial gas plant",
-      "category": "corporate_earnings",
-      "date": "2026-08-24 05:20",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/linde-stock-holds-steady-as-2026-guidance-highlights-project-backlog/69991265"
-    },
-    {
-      "headline": "Exxon Mobil stock steadies after Guyana fire disruption as earnings power stays in focus",
+      "headline": "Seagate stock trades softer as tech sector slides ahead of key Nvidia earnings",
       "score": 6,
       "source": "Ad-hoc-news.de",
       "sentiment": "neutral",
-      "impact": "Exxon Mobil's stock remains near recent highs despite a temporary halt in Guyana operations due to a fire, as strong second-quarter production and a positive 2026 revenue consensus reassure investors. The company's diversified production across the Americas, including record U.S. output, is helping ",
+      "impact": "Seagate Technology stock is trading softer as the broader tech sector weakens ahead of Nvidia's earnings report, emphasizing how memory and storage companies react to sector volatility. Despite recent revenue growth for Seagate, driven by increased demand in cloud data centers and enterprise storage",
       "category": "corporate_earnings",
-      "date": "2026-08-24 05:13",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/exxon-mobil-stock-steadies-after-guyana-fire-disruption-as-earnings-power/69991235"
+      "date": "2026-08-24 14:05",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/seagate-stock-trades-softer-as-tech-sector-slides-ahead-of-key-nvidia/69993936"
     },
     {
-      "headline": "NNBR | NN Inc Financials - Revenue Breakdown",
+      "headline": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
       "score": 6,
-      "source": "Quiver Quantitative",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "This page provides a detailed financial breakdown for NN Inc (NNBR), including revenue segments, insider trading activity, institutional holdings, analyst ratings, and executive compensation. It highlights that NN Inc is a diversified industrial company operating through Mobile Solutions and Power S",
-      "category": "us_equities",
-      "date": "2026-08-24 04:44",
-      "link": "https://www.quiverquant.com/stock/NNBR/financials/revenue_breakdown/"
+      "impact": "President Donald Trump said the U.S. will raise tariffs on imports of cars, trucks and auto parts from Canada to 50% on Jan. 1, 2027",
+      "category": "global_markets",
+      "date": "2026-08-24 13:59",
+      "link": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html"
+    },
+    {
+      "headline": "Trump, Vance and Bessent try to calm the bond market with \u2018alternative facts\u2019",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Maybe this stuff works on TV or on the stump. But it doesn\u2019t work on Wall Street, where people can count.",
+      "category": "fixed_income",
+      "date": "2026-08-24 13:50",
+      "link": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-24 13:31",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?oc=5"
+    },
+    {
+      "headline": "A media M&A chill: The Paramount-WBD antitrust challenge may hold up more deals than one",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Paramount's proposed merger with WBD is delayed while an antitrust lawsuit plays out. The holdup could mean a freeze across the media industry.",
+      "category": "global_markets",
+      "date": "2026-08-24 12:07",
+      "link": "https://www.cnbc.com/2026/08/24/paramount-wbd-antitrust-media-deals.html"
+    },
+    {
+      "headline": "The Hormuz crude volume debate masks the real shortage of refined fuels - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "The Hormuz crude volume debate masks the real shortage of refined fuels\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-24 12:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdWt2QTd6U25aN2I3V1VZTmhVdVBPNTdYNUx5OXlNQWcxcFo4TEJwUEo3Z2R0MWRBRnVvT3FqMms2NURIQURVdWtZVlEtM1d3YlBEVDh4b0g1SmlFWVVGRDRJYVVvbUI5eFRGWmxDRXF6eWFVVXF5TktKWS11NFZhUkU4eVJNY2ljcThUQi1uZ21Zc0NhekVIMmxDcUhla0xPSFZlV0VlSTJJOTdQU1hXODZwMmxPM043dmV1SFdCSDRlZ3BNMXJLXw?oc=5"
     }
   ]
 }
