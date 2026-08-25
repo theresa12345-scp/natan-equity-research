@@ -1,27 +1,26 @@
 {
-  "timestamp": "2026-08-25T06:28:46.462526",
+  "timestamp": "2026-08-25T14:48:53.653803",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 9,
-    "neutral": 12,
-    "bearish": 4,
-    "high_priority": 10,
-    "material_events": 4
+    "avg_relevance": 7.6,
+    "bullish": 8,
+    "neutral": 14,
+    "bearish": 3,
+    "high_priority": 12,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 11,
-    "Bloomberg": 3,
+    "MarketWatch": 2,
+    "Reuters": 8,
+    "Bloomberg": 2,
+    "CNBC": 6,
     "Caixin/S&P Global": 1,
-    "The Manila Times": 1,
-    "Ad-hoc-news.de": 1,
-    "CNBC": 2,
-    "Fortune": 1,
-    "CNBC TV18": 1
+    "The Wall Street Journal": 1,
+    "AlphaStreet": 1
   },
   "top_signals": [
     {
@@ -31,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,8 +60,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Stock Market Today: Dow rises but S&P 500, Nasdaq open lower; Treasury yields dip with eyes on Bessent, Jackson Hole",
+      "score": 9,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Follow all the latest U.S. market action for Monday here.",
+      "category": "us_equities",
+      "date": "2026-08-24 14:07",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-earnings-results-jackson-hole"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -71,7 +80,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +100,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,8 +110,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Treasury yields steady as traders await more economic data",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Treasury yields steadied on Tuesday as investors await more data releases for insights into the U.S. economic picture.",
+      "category": "fixed_income",
+      "date": "2026-08-25 07:48",
+      "link": "https://www.cnbc.com/2026/08/25/treasury-yields-steady-as-traders-await-more-economic-data-.html"
     },
     {
       "headline": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters",
@@ -115,14 +134,14 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5"
     },
     {
-      "headline": "US Long Bonds Risk Deeper Selloff Without Clear Warsh Guidance",
+      "headline": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
       "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Bond investors will zero in on Kevin Warsh\u2019s Jackson Hole speech this week, with a further selloff in long-dated Treasuries at stake as markets look for clues on the Federal Reserve chairman\u2019s response to persistent inflation and fiscal concerns.",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Using the TGA would provide the Treasury with considerable firepower to influence long-term bond yields.",
       "category": "fixed_income",
-      "date": "2026-08-23 19:30",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-23/us-long-bonds-risk-deeper-selloff-without-clear-warsh-guidance"
+      "date": "2026-08-24 11:34",
+      "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -131,7 +150,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -141,38 +160,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-25 06:28",
+      "date": "2026-08-25 14:48",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Federal Filings Joins Client Vogenx at the Nasdaq Opening Bell",
-      "score": 7,
-      "source": "The Manila Times",
-      "sentiment": "positive",
-      "impact": "Federal Filings LLC, an Austin-based SEC EDGAR filing agent, joined its client Vogenx, Inc. at the Nasdaq MarketSite to celebrate Vogenx's $81.3 million initial public offering. Federal Filings served as Vogenx's EDGAR filing agent throughout the registration process and continues to manage its ongo",
-      "category": "us_monetary_policy",
-      "date": "2026-08-25 05:45",
-      "link": "https://www.manilatimes.net/2026/08/25/tmt-newswire/globenewswire/federal-filings-joins-client-vogenx-at-the-nasdaq-opening-bell/2411345"
-    },
-    {
-      "headline": "UnitedHealth Group stock holds near $399 as Q2 2026 earnings beat supports higher EPS guidance",
-      "score": 7,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "UnitedHealth Group (UNH) stock is trading near $399 after reporting a strong Q2 2026 earnings beat with EPS of $6.38, significantly exceeding analyst estimates, and raising its full-year EPS guidance. Analysts maintain a \"moderate buy\" rating with a consensus price target of $455.92, implying double",
-      "category": "corporate_earnings",
-      "date": "2026-08-25 04:37",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/unitedhealth-group-stock-holds-near-399-as-q2-2026-earnings-beat-supports/69996937"
-    },
-    {
-      "headline": "Dollar struggles for traction as markets weigh Iran sanctions, Treasury buybacks - Reuters",
+      "headline": "Why the bond market may be resetting expectations about the US - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Dollar struggles for traction as markets weigh Iran sanctions, Treasury buybacks\u00a0\u00a0Reuters",
+      "impact": "Why the bond market may be resetting expectations about the US\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-08-25 12:36",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5"
+    },
+    {
+      "headline": "Gold slips on profit-taking after rally to over three-month high - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Gold slips on profit-taking after rally to over three-month high\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-08-25 11:34",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa19NSUEzV2xqY0JpOW5BRUlWc1VQNHNxdFk1cjk2ZldBQnotS0VtRmo4MWRSdjdDMEhya0JXeURjRFVoRkpyeDVLSGxTcExWM0YxaDh4dFl5OGF6MmN3eU4zd0poVXRBMnlQRFFkUy1qQmNwck9nV01hd2RNSXlaR3lJMzFYRWt3TDFGVnJENVZEVXZDR1puXzV0dGtSdW8zZGFmYXFn?oc=5"
+    },
+    {
+      "headline": "Lego posts record first-half revenue, CEO touts strong sales at high-end and value pricing",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Lego CEO Niels Christiansen told CNBC the company is seeing strong sales at both ends of the pricing spectrum.",
+      "category": "corporate_earnings",
+      "date": "2026-08-25 07:00",
+      "link": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html"
+    },
+    {
+      "headline": "Dollar fragile as investors weigh Iran sanctions, Treasury buybacks - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Dollar fragile as investors weigh Iran sanctions, Treasury buybacks\u00a0\u00a0Reuters",
       "category": "fixed_income",
       "date": "2026-08-25 01:31",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORld4THVaUUFJWlFtRmRFeTI5SlliZ2ladnZNa2htLS1yeXBwcGY2UjFSVE5heHlycC11ay1KR0pLRTJKVGk4bUp2cVVwcXZsUE5kR0JCM0hTRGlRZk5WT1pDWnhfd0JKcjFkbUhlNHVRd3lpWkV4bmtDUG9CSGJCWFhuTFFfY04yb2FIOGtNYkxhS1N0SlJVaXhFTVN1ak51Z1lvaDVSaEVsb2J0UEFjM2w4THk1SzdY?oc=5"
+    },
+    {
+      "headline": "Shares dip with pressure from technology, yields and oil fall - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Shares dip with pressure from technology, yields and oil fall\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-08-24 21:49",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG83ZmMxSkVxZFI2eFdsTkhlblVtbE82OFd5SmxFekFOZmtQZEVLSzZOZU1tckZxd2QyOU9vYmRuWGhXeDIzVDhkQ1RaUF96T1hRZkg1SVRHWHAxcGVMTWxmMXBsSjVONURWaEFhMWp2dWdKM0piSGtyWVF1bkJ0YWFxWQ?oc=5"
     },
     {
       "headline": "Here's what the charts say about Nvidia's stock heading into earnings",
@@ -185,94 +224,54 @@
       "link": "https://www.cnbc.com/2026/08/24/heres-what-the-charts-say-about-nvidias-stock-heading-into-earnings.html"
     },
     {
-      "headline": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says - Reuters",
+      "headline": "The Treasury\u2019s bond-market intervention isn\u2019t working. So what comes next?",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says\u00a0\u00a0Reuters",
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "\u2018It\u2019s fair to say that at some point \u2014 at some time \u2014 there will be a crisis,\u2019 says billionaire John Arnold, a former star Enron trader and the founder of philanthropy Arnold Ventures",
       "category": "fixed_income",
-      "date": "2026-08-24 19:43",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNjNOaTQ3NkZ4V1N0SHI2ek42SEVXX0xHVVZXbHU1WGZXRFA5MHJ1YkdSLWxzREw2UnZURlFrVG1wWkZOVlU3VWg3dHVkeGpLbk1pMGJzRUVlLWpndGVoWlRwS2p2dlBXWXg5ZzR5UUVhd3g2RElhdklmbG1mNXZ5MDJrNUNROTZhcGY0ZC0yX21pblpqakFsY3VUaEhUelZfNllQemQ2QnR2Uk9sZW9IQjRJOFlBUkx3c3ZJd1JWMktDUQ?oc=5"
+      "date": "2026-08-24 13:02",
+      "link": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a"
     },
     {
-      "headline": "We're booking a 300% profit in an AI winner and buying more of a healthcare name",
+      "headline": "How Trump\u2019s Crypto Push Is Linked to Bessent\u2019s Treasury Moves",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Stablecoins could drive demand for Treasury bills",
+      "category": "fixed_income",
+      "date": "2026-08-24 09:30",
+      "link": "https://www.wsj.com/finance/currencies/how-trumps-crypto-push-is-linked-to-bessents-treasury-moves-809defdc"
+    },
+    {
+      "headline": "Singapore inflation hits highest in nearly two years, but undershoots expectations",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The trim puts the portfolio in a better position to withstand backlash against data centers.",
+      "sentiment": "neutral",
+      "impact": "Consumer prices rose 2.2% last month, compared with the 2.3% expected by economists polled by Reuters",
+      "category": "global_markets",
+      "date": "2026-08-24 05:12",
+      "link": "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html"
+    },
+    {
+      "headline": "Dick's Sporting Goods stock falls 25% as retailer misses expectations, cites 'challenging' footwear market",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Dick's Sporting Goods reported fiscal second-quarter earnings on Tuesday that missed Wall Street expectations amid what it called a \"challenging\" environment.",
+      "category": "global_markets",
+      "date": "2026-08-25 14:47",
+      "link": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html"
+    },
+    {
+      "headline": "Freightos Limited (CRGO) Q2 2026 Earnings Preview: Volume Growth Is Holding Up, but Monetization and Breakeven Still Need Proof",
+      "score": 6,
+      "source": "AlphaStreet",
+      "sentiment": "neutral",
+      "impact": "Freightos Limited (CRGO) reported mixed but constructive Q2 2026 results, with record revenue of $7.7 million and significant increases in gross booking value and transactions. While volume growth is strong, revenue growth is slower, raising questions about monetization and the company's take rates.",
       "category": "corporate_earnings",
-      "date": "2026-08-24 15:30",
-      "link": "https://www.cnbc.com/2026/08/24/were-booking-a-300percent-profit-in-an-ai-winner-and-buying-more-of-a-healthcare-name.html"
-    },
-    {
-      "headline": "Treasury's recent moves in the bond and currency markets add up to 'soft-form financial repression'",
-      "score": 7,
-      "source": "Fortune",
-      "sentiment": "negative",
-      "impact": "\"If the market price of USTs is not 'allowed' to adjust down, the foreign exchange price of UST owned by foreign investors has to adjust via a weakening in the dollar.\"",
-      "category": "fixed_income",
-      "date": "2026-08-23 17:22",
-      "link": "https://fortune.com/2026/08/23/treasury-bond-buyback-dollar-yen-currency-markets-financial-repression-us-debt-costs/"
-    },
-    {
-      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Six months into Iran war, almost half of global oil flows from war zones\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-25 05:05",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5"
-    },
-    {
-      "headline": "Tesla raises prices of Cybertrucks in the US",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Tesla has increased the prices of some of its Cybertruck models in the United States. The dual motor and premium all-wheel drive versions of the Cybertruck each saw a $5,000 price hike, now costing $74,990 and $84,990 respectively.",
-      "category": "global_markets",
-      "date": "2026-08-25 04:53",
-      "link": "https://www.reuters.com/business/autos-transportation/tesla-raises-prices-cybertrucks-us-2026-08-25/"
-    },
-    {
-      "headline": "H-1B Visa Fee Proposal: Infosys, TCS, other IT stocks in focus",
-      "score": 6,
-      "source": "CNBC TV18",
-      "sentiment": "negative",
-      "impact": "The US Department of Homeland Security has proposed a new fee of $103,265 on H-1B cap-subject petitions, which could significantly impact Indian IT companies like Infosys, TCS, Tech Mahindra, and Wipro. This proposal, if finalized, would increase costs for US employers hiring skilled foreign workers",
-      "category": "global_markets",
-      "date": "2026-08-25 04:46",
-      "link": "https://www.cnbctv18.com/market/indian-it-stocks-infosys-tcs-wipro-tech-mahindra-shares-h-1b-visa-fee-proposal-19976135.htm"
-    },
-    {
-      "headline": "Oil steadies as investors weigh impact of latest US sanctions on Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil steadies as investors weigh impact of latest US sanctions on Iran\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-25 04:22",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5"
-    },
-    {
-      "headline": "Asia shares fall on tech nerves; oil prices slip - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Asia shares fall on tech nerves; oil prices slip\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-08-25 01:26",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPREVmalQ3MXdwbVJUT3l4bktkT2xBLTVycVpRVkdzSUxPZ3lYdGZjTXpVWU5OckdENlF0R05kSm1CMUdPUDJwcXVxLWJaZ2VESzE1QTloUzdhTzZtMF9NM0FERmp3NWRJR3JudVN5UUttekdhTnV0UUExUFR2U0ZaS0J5TQ?oc=5"
-    },
-    {
-      "headline": "Iran vows to retaliate after US widens sanctions - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran vows to retaliate after US widens sanctions\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-25 00:57",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV2NneVkxY2I3clNhUzloallHZTVKV2h5N2wxbGNwWVZlNEZMRzBwRnJXRGdmYjdHOVl0ZFZHYk1fR08xQmY4VnhEZjAxRURrUHRrLWV2NmlsMndTQ3UzN1VyR3luekZMUmUtUE9ON0FnMGxiektWdG9RUlBJOXVFQjVoa3JnUFp2MGlmamJuTDJEZF81Rkp3NA?oc=5"
+      "date": "2026-08-25 14:07",
+      "link": "https://news.alphastreet.com/freightos-limited-crgo-q2-2026-earnings-preview-volume-growth-is-holding-up-but-monetization-and-breakeven-still-need-proof/"
     }
   ]
 }
