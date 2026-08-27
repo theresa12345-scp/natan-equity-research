@@ -1,28 +1,26 @@
 {
-  "timestamp": "2026-08-26T14:47:19.874759",
+  "timestamp": "2026-08-27T17:06:18.589805",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 14,
-    "neutral": 10,
-    "bearish": 1,
-    "high_priority": 9,
-    "material_events": 4
+    "avg_relevance": 7.4,
+    "bullish": 10,
+    "neutral": 13,
+    "bearish": 2,
+    "high_priority": 12,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 4,
-    "Bloomberg": 2,
-    "CNBC": 6,
+    "Financial Times": 1,
+    "Reuters": 6,
+    "Bloomberg": 3,
+    "CNBC": 8,
+    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "Ad-hoc-news.de": 3,
-    "Investing.com Australia": 1,
-    "Simply Wall Street": 1,
-    "24/7 Wall St.": 1
+    "Ad-hoc-news.de": 1
   },
   "top_signals": [
     {
@@ -32,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,8 +60,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Scott Bessent\u2019s bond intervention puts US Treasury on collision course with Fed",
+      "score": 9,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "Increased purchases of debt threaten to undermine central bank chief Kevin Warsh\u2019s bid to tame inflation",
+      "category": "us_monetary_policy",
+      "date": "2026-08-26 04:00",
+      "link": "https://www.ft.com/content/a50df99b-0621-44ea-a7c7-c9c685e2eba1?syn-25a6b1a6\\\\u003d1"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -72,7 +80,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +100,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,18 +110,38 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Stock futures are flat as investors await Nvidia earnings, inflation report due later this week: Live updates",
+      "headline": "Kansas City Fed's Schmid says inflation 'stubborn' and 'sticky,' policy rate not restrictive",
       "score": 8,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Investors turned cautious ahead of Nvidia's earnings and a closely watched inflation report. Both are due later this week.",
-      "category": "corporate_earnings",
-      "date": "2026-08-25 03:15",
-      "link": "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html"
+      "impact": "The policymaker stopped just short of calling for an interest rate hike.",
+      "category": "us_monetary_policy",
+      "date": "2026-08-27 12:20",
+      "link": "https://www.cnbc.com/2026/08/27/kansas-city-feds-schmid-says-inflation-stubborn-and-sticky-policy-rate-not-restrictive.html"
+    },
+    {
+      "headline": "Fed\u2019s preferred inflation gauge shows core prices rose 3.3% annually in July",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The personal consumption expenditures price index was expected to rise 0.1% monthly and 3.6% on a 12-month basis, according to economists surveyed by Dow Jones.",
+      "category": "us_monetary_policy",
+      "date": "2026-08-26 12:32",
+      "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
+    },
+    {
+      "headline": "Stock Market Today: Nasdaq, S&P Futures Slip; Investors Await Nvidia Earnings \u2014 Live Updates",
+      "score": 8,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-08-26 11:51",
+      "link": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -122,7 +150,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -132,58 +160,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-26 14:47",
+      "date": "2026-08-27 17:06",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "U.S. inflation rises again and stays well above the Fed\u2019s target. A rate hike could be in play.",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The main inflation gauge used by the Federal Reserve to set U.S. interest rates rose at an elevated rate in July, potentially pushing the Federal Reserve closer to a vote to raise interest rates next month.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-26 13:52",
-      "link": "https://www.marketwatch.com/story/u-s-inflation-rises-in-july-and-stays-well-above-feds-target-b4e6109c?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Vistra Corp. stock holds above $139 as investors digest stronger Q2 2026 earnings and guidance",
-      "score": 7,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Vistra Corp. (VST) stock is trading around $139 in late August 2026, driven by stronger Q2 2026 earnings, increased adjusted EBITDA, and reaffirmed full-year guidance. Despite a significant pullback from its 12-month high of $219.82, analysts maintain a \"moderate buy\" consensus with an average targe",
-      "category": "corporate_earnings",
-      "date": "2026-08-26 13:28",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/vistra-corp-stock-holds-above-139-as-investors-digest-stronger-q2-2026/70004311"
-    },
-    {
-      "headline": "Iran and Oman reach agreements on share of Hormuz and revenues, Revolutionary Guards say - Reuters",
+      "headline": "European shares muted as investors assess Iran-Oman talks, U.S. inflation - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran and Oman reach agreements on share of Hormuz and revenues, Revolutionary Guards say\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-08-26 12:16",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT29nb09ZMEJWQVF5ZmhscmZhYjJjSFRJaGZhbVQ0enRUYlItbXQta1BwS3dFa080YTN5ZWU2VUNDQXdZdXpPRWVPRmhQQ2RYMXdVUGdxbUpFNFFlU1F2WERIYmVFRGZoRUk2QTVVeGlsc1lLamI4QVpJbGtqSnJHcS1LbUFZaExtSTJUNGVRU28wd0dsQUNUR2dSNEN5WGtFNllGeVd6clVpVk50NWdpc0M5RzRnVC12STBJME1TaXpVWmdUU2Rr?oc=5"
+      "impact": "European shares muted as investors assess Iran-Oman talks, U.S. inflation\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-26 16:41",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV1pZeWdGeTdjVWRoOE0zZi1zQzhRVTdhU3g3U3VPV2J4dHVRQWtiRF9CUHlWVGllbFpPYnIyUmc5TDZPVlJrX0lrNDZCME5rcWZEYmN2a1JFY1diVE5oeDk1WEFDNmhIeDZfUmdFMFBBVUh6M1ZibFFvdkNzSDRVc1NEcFdZZmVhRDVjTGtxQWZwd2JDd3hzS1lHalBGUmMwRkZDUTRidDZIQ3lM?oc=5"
     },
     {
-      "headline": "Bond rout ending? Massive bets on bond rally dominate options market",
+      "headline": "Citadel Securities\u2019 Flight Reverses Bearish Call on Long Bonds",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "There's an old Wall Street adage: Stocks float on a sea of bonds. Options traders are betting the tide is going out.",
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Citadel Securities\u2019 Frank Flight, who just last month warned of a \u201ccruel summer\u201d for US bond investors, now sees the balance of risks tilted toward a rally, citing crowded bearish positioning and improving inflation data.",
       "category": "fixed_income",
-      "date": "2026-08-25 19:42",
-      "link": "https://www.cnbc.com/2026/08/25/bond-rout-ending-massive-bets-on-bond-rally-dominate-options-market-.html"
-    },
-    {
-      "headline": "We're trimming our position in an AI stock to protect our profits",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "This is our second sale in as many days to reduce our exposure to the theme.",
-      "category": "corporate_earnings",
-      "date": "2026-08-25 15:27",
-      "link": "https://www.cnbc.com/2026/08/25/were-trimming-our-position-in-an-ai-stock-to-protect-our-profits-.html"
+      "date": "2026-08-26 00:32",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-26/citadel-securities-flight-reverses-bearish-call-on-long-bonds"
     },
     {
       "headline": "Lego posts record first-half revenue, CEO touts strong sales at high-end and value pricing",
@@ -196,84 +194,84 @@
       "link": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html"
     },
     {
-      "headline": "Stock Market Today: Dow gains but S&P 500, Nasdaq drop as trade tensions rise; oil prices fall after 'Operation Outcast' against Iran announced",
-      "score": 7,
-      "source": "MarketWatch",
+      "headline": "Masco stock trades in low-$70s range as valuation and earnings narrative evolves",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Masco stock is currently trading in the low-$70s range, below a consensus target of nearly $80, despite positive valuation commentary and recent product launches from its Behr brand. The market is weighing Masco's earnings trajectory, margin trends, and its discounted price-to-earnings multiple comp",
+      "category": "corporate_earnings",
+      "date": "2026-08-27 15:33",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/masco-stock-trades-in-low-70s-range-as-valuation-and-earnings-narrative/70009555"
+    },
+    {
+      "headline": "We went 3 for 3 \u2014 what we learned from wins at Nvidia, Salesforce, and CrowdStrike",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "global_markets",
+      "date": "2026-08-27 15:17",
+      "link": "https://www.cnbc.com/2026/08/27/we-went-3-for-3-what-we-learned-from-wins-at-nvidia-salesforce-and-crowdstrike.html"
+    },
+    {
+      "headline": "Family offices are making a bullish bet on the stock market, according to CNBC Family Office Portfolio Tracker",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The data includes the portfolios of hundreds of family offices, representing a total of $1.4 trillion in assets.",
+      "category": "global_markets",
+      "date": "2026-08-27 13:40",
+      "link": "https://www.cnbc.com/2026/08/27/family-offices-making-bullish-bet-on-stocks-according-to-cnbc-tracker.html"
+    },
+    {
+      "headline": "This is \u2018one of the worst\u2019 credit card habits, experts say\u201441% of cardholders do it",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "U.S. stocks close mostly lower, while oil prices and Treasury yields also decline.",
-      "category": "us_equities",
-      "date": "2026-08-24 22:02",
-      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-earnings-results-jackson-hole"
+      "impact": "Missing a credit card payment can damage your credit for years, while paying only the minimum can leave you in debt for decades.",
+      "category": "fixed_income",
+      "date": "2026-08-27 13:00",
+      "link": "https://www.cnbc.com/2026/08/27/this-is-one-of-the-worst-credit-card-habits-41percent-of-cardholders-do-it.html"
     },
     {
-      "headline": "Lost in limbo: Where the Paramount merger delay leaves WBD, and what may come next",
+      "headline": "American Airlines adds batch of new international routes on its XLR planes",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Paramount Skydance's acquisition of Warner Bros. Discovery is stalled due to an antitrust lawsuit, leaving WBD in limbo during a pivotal moment for media.",
+      "impact": "American is adding seven routes to its 2027 schedule, with the majority heading to smaller European cities from its Philadelphia hub or from New York City.",
       "category": "global_markets",
-      "date": "2026-08-26 14:31",
-      "link": "https://www.cnbc.com/2026/08/26/paramount-merger-delay-wbd-limbo.html"
+      "date": "2026-08-27 12:00",
+      "link": "https://www.cnbc.com/2026/08/27/american-airlines-routes-xlr.html"
     },
     {
-      "headline": "Exelon stock holds close to 52-week low as guidance reaffirmed",
-      "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "neutral",
-      "impact": "Exelon (US30161N1019) stock is trading in the mid-$40s, near its 52-week low of $42.58, despite management reaffirming its 2026 adjusted operating earnings guidance of $2.81 to $2.91 per share. Analysts maintain a \"Hold\" consensus with an average price target of $50.07, suggesting potential upside. ",
-      "category": "corporate_earnings",
-      "date": "2026-08-26 14:20",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/exelon-stock-holds-close-to-52-week-low-as-guidance-reaffirmed/70003974"
-    },
-    {
-      "headline": "Agilent earnings up next as investors eye margin protection By Investing.com",
-      "score": 6,
-      "source": "Investing.com Australia",
-      "sentiment": "positive",
-      "impact": "Agilent Technologies Inc. is set to report its fiscal third-quarter results, with investors keenly focused on the company's ability to protect its margins amidst tariff-driven cost headwinds. Analysts expect Agilent to report $1.49 EPS on $1.84 billion in revenue. The report will also be scrutinized",
-      "category": "corporate_earnings",
-      "date": "2026-08-26 14:01",
-      "link": "https://au.investing.com/news/stock-market-news/agilent-earnings-up-next-as-investors-eye-margin-protection-93CH-4617787"
-    },
-    {
-      "headline": "Xylem stock steadies as dividend date approaches and Q2 beat supports guidance",
-      "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "Xylem Inc. stock is holding steady around $112 as its ex-dividend date of August 27, 2026, approaches, bolstered by a strong Q2 2026 earnings beat that supports its full-year guidance. Despite recent fluctuations, the company maintains a \"Moderate Buy\" consensus rating and a target price of $155.00,",
-      "category": "asia_economy",
-      "date": "2026-08-26 13:41",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/xylem-stock-steadies-as-dividend-date-approaches-and-q2-beat-supports/70004382"
-    },
-    {
-      "headline": "Should Sonoco\u2019s EMEA Paperboard Price Hike to Counter Inflation Require Action From Sonoco (SON) Investors?",
-      "score": 6,
-      "source": "Simply Wall Street",
-      "sentiment": "neutral",
-      "impact": "Sonoco Products Company has raised prices by \u20ac60 per ton on uncoated recycled paperboard in the EMEA region starting September 15, 2026, to combat inflationary pressures. This strategic move aims to offset higher input costs, impacting customer relationships and margin resilience in a key European m",
-      "category": "global_markets",
-      "date": "2026-08-26 13:37",
-      "link": "https://simplywall.st/stocks/us/materials/nyse-son/sonoco-products/news/should-sonocos-emea-paperboard-price-hike-to-counter-inflati"
-    },
-    {
-      "headline": "Best Buy or Dollar General: Why One Earnings Report Matters Far More Than the Other",
-      "score": 6,
-      "source": "24/7 Wall St.",
-      "sentiment": "positive",
-      "impact": "This article analyzes whether Dollar General (DG) or Best Buy (BBY) presents a better investment opportunity for retirement-focused investors ahead of their earnings reports. Dollar General is favored due to its low beta, defensive consumables mix, and positive analyst outlook, benefiting from strai",
-      "category": "corporate_earnings",
-      "date": "2026-08-26 13:34",
-      "link": "https://247wallst.com/investing/2026/08/26/best-buy-or-dollar-general-why-one-earnings-report-matters-far-more-than-the-other/"
-    },
-    {
-      "headline": "Hyundai has grown more than any automaker in the U.S. \u2014 and it's not done yet ",
+      "headline": "What the Buss family Lakers dispute can teach the wealthy about trusts",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The South Korean automaker wants to keep going by ramping up production at a new $7.6 billion plant in Georgia to capture more sales and market share.",
+      "impact": "Jeanie Buss, governor of the Lakers, is contesting her siblings' decision to sell the family's remaining stake in the NBA team.",
       "category": "global_markets",
-      "date": "2026-08-26 12:00",
-      "link": "https://www.cnbc.com/2026/08/26/hyundai-sales-us-investment.html"
+      "date": "2026-08-27 11:34",
+      "link": "https://www.cnbc.com/2026/08/27/buss-family-lakers-trust-dispute.html"
+    },
+    {
+      "headline": "After six months, the Iran war has reached its endgame - a costly stalemate - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "After six months, the Iran war has reached its endgame - a costly stalemate\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-27 10:54",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanlhWGJGcHdKencyMnlRUHBUejVOZlByMTJjWm8wSVVOdWRZV3FBQUlFNFI1WXVqTUdQaEtFeEJkeHl4aTEwaXJmd0MwTFY4VmJOMS02cWJ6ZGZzVEczaGFNelFqdmJoeFNhMGlzNzVzQ3hQOVFtejNvRXZqcVBQek5zY2l2VERfVlk4aHd3WXQ4YTc0MVhIdXF6ZHA4bFVBRlNNWXlKS0ZnbU1JdFo3MWFzMDg?oc=5"
+    },
+    {
+      "headline": "Canada excludes US seafood from retaliatory tariffs - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Canada excludes US seafood from retaliatory tariffs\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-27 08:24",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX0p0OFRPcVc3Q084cGZoNWw1ZHJ6NGRZb0JWMFdzUW9VU09rQnM2LTRKbVQtV1hPVDJ6V2s1em9YaElyNjJkellVQm9EUV9CanVIR0Y1SWRDLVBCaVByZVVTcXNGcUw4NmpIOEh2aC1zWkpyTG00MlhYYmNQNlBTYnFULUlWVDEzdEprUEtJVG1lQkloanc?oc=5"
     }
   ]
 }
