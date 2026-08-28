@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-27T23:39:45.568223",
+  "timestamp": "2026-08-28T17:53:51.631562",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 15,
-    "neutral": 10,
-    "bearish": 0,
-    "high_priority": 9,
+    "bullish": 11,
+    "neutral": 12,
+    "bearish": 2,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
-    "Bloomberg": 3,
-    "CNBC": 7,
+    "Reuters": 9,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
+    "CNBC": 4,
+    "Barron's": 1,
     "Yahoo Entertainment": 1,
-    "MarketWatch": 3
+    "Fox Business": 1,
+    "MarketWatch": 1,
+    "Ad-hoc-news.de": 1
   },
   "top_signals": [
     {
@@ -29,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,18 +102,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Kansas City Fed's Schmid says inflation 'stubborn' and 'sticky,' policy rate not restrictive",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The policymaker stopped just short of calling for an interest rate hike.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-27 12:20",
-      "link": "https://www.cnbc.com/2026/08/27/kansas-city-feds-schmid-says-inflation-stubborn-and-sticky-policy-rate-not-restrictive.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -119,7 +112,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,148 +122,158 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-27 23:39",
+      "date": "2026-08-28 17:53",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Nvidia forecasts fiscal '28 revenue growth of 70%, soaring past estimates: Live updates",
+      "headline": "Iran war drives US transport fuel surcharges, but also industry profits - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Iran war drives US transport fuel surcharges, but also industry profits\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-08-28 10:32",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNEl5QXd2UEpMZlNEOGszSng5WEotaDlSVG1qMXIxXzFNdDZiMFMxTnUxM0tIX2hYeXVkWVhYUUJMZF9PY3lSNXFVOC03TnF6dmstYzFVdFlwdWZZdVFqQ0tqS2VtSm5UU2p5bnhtQ2xPdnFhcWVmbTFpLU0zR0g5c0l4LTVMWHZFaXI2ME85a255SjdQMjRXSzloU2w1UFd5YWFPam5OOVRFanNqSEhvWVQ0cmFlUDFhWFE?oc=5"
+    },
+    {
+      "headline": "Oil slides on clues about Fed policy, rumors of Hormuz deal - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Oil slides on clues about Fed policy, rumors of Hormuz deal\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-08-28 01:16",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMDRjQUkzbzJPY3ZkSGVLX1NmU05FVWxRUXZod3V6MkU5TTUxTjl0cm5yMzB2R0UyMy1mUUZsZVZ5TkVGMkdXNWR1X0FqUk5OaFRsZjg4NVhreGM5bUFHQ1BiT1E0SFB1ZzJKNlVLdGFRZ2ZEd1BEV0s5ZFBEOVdtWHMtZzh3b0lBaHhHSkdSYTZWNWUzSjhNX1RLcEg0My1x?oc=5"
+    },
+    {
+      "headline": "US-hosted G20 finance meeting to target growth, imbalances, Iran sanctions, Treasury official says - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US-hosted G20 finance meeting to target growth, imbalances, Iran sanctions, Treasury official says\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-08-28 00:37",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNW43Vk95endNOWY5dnh3SUs0amx5SDJXVEFuWTRoX0F0Vnl6azdkM3NYWmRMZXZPZ0pIRkpZTmZrcExyVG9GWVYyaHlXeFR6aVR1dS15RWcyNmxWZVNDNTBmRXRQSU9ESG1BcHE2YWU0d0M5MW1fcDgtUFFQYnZRTDYxMEp6S2l1c1ZaS3hodWRnSnlPR3hBLVFSLWlCUXR4SlFrb0Z6dnpCVFZneS1CZzVPR2JoRUJ5am0zdw?oc=5"
+    },
+    {
+      "headline": "Okta skyrockets 20%, CrowdStrike surges 15% as rising AI threat boosts earnings",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Follow Nvidia\u2019s Q2 2027 earnings for data center results, guidance, AI demand and NVDA stock reaction in real time.",
+      "impact": "AI adoption is pushing customers to spend more on cybersecurity tools from companies such as CrowdStrike and Okta",
       "category": "corporate_earnings",
-      "date": "2026-08-26 21:46",
-      "link": "https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html"
+      "date": "2026-08-27 13:47",
+      "link": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html"
     },
     {
-      "headline": "US inflation remains elevated as GDP growth outlook brightens",
+      "headline": "How Financial Advisors Are Navigating the Surge in 30-Year Treasury Yields",
+      "score": 7,
+      "source": "Barron's",
+      "sentiment": "positive",
+      "impact": "Investment advisors recommend investors forego long-term bonds and emphasize securities that are above-average in credit quality.",
+      "category": "fixed_income",
+      "date": "2026-08-27 12:05",
+      "link": "https://www.barrons.com/advisor/articles/financial-advisors-navigating-30-year-treasury-yield-surge-945db489"
+    },
+    {
+      "headline": "Kansas City Fed\u2019s Schmid says inflation too hot, rates too accommodative on eve of Jackson Hole",
       "score": 7,
       "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "By Dan Burns Aug 26 (Reuters) - Annual U.S. inflation held steady in July well above the Federal Reserve's 2% target for the 65th straight month, and the une...",
-      "category": "global_markets",
-      "date": "2026-08-26 16:12",
-      "link": "https://finance.yahoo.com/economy/policy/articles/us-inflation-remains-sticky-july-124816701.html"
+      "sentiment": "neutral",
+      "impact": "Kansas City Federal Reserve President Jeff Schmid said in an interview Wednesday on the eve of the central bank's annual economic summit in Jackson Hole, Wyo...",
+      "category": "us_monetary_policy",
+      "date": "2026-08-27 11:30",
+      "link": "https://finance.yahoo.com/economy/policy/article/kansas-city-feds-schmid-says-inflation-is-too-hot-rates-too-accommodative-on-eve-of-jackson-hole-113000818.html"
     },
     {
-      "headline": "Dollar and bond markets 'on edge' ahead of Jackson Hole as Bessent's market intervention piles pressure on Warsh",
+      "headline": "Fed Chair Warsh faces Jackson Hole spotlight with inflation, rate path in focus",
       "score": 7,
+      "source": "Fox Business",
+      "sentiment": "neutral",
+      "impact": "Federal Reserve Chair Kevin Warsh delivers his first Jackson Hole keynote as bond yields near highs and markets demand clarity on the Fed's rate path.",
+      "category": "us_monetary_policy",
+      "date": "2026-08-27 10:00",
+      "link": "https://www.foxbusiness.com/economy/fed-chair-warsh-faces-jackson-hole-spotlight-inflation-rate-path-focus"
+    },
+    {
+      "headline": "Apple hikes subscription prices for Apple TV and Apple One in the U.S.",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Strategists said investors were approaching Jackson Hole \u201con the back foot.\"",
-      "category": "fixed_income",
-      "date": "2026-08-26 13:00",
-      "link": "https://www.cnbc.com/2026/08/26/jackson-hole-warsh-bessent-bonds-treasury-dollar.html"
-    },
-    {
-      "headline": "US Stock Futures Tread Water After Inflation Gauge\u2019s Muted Rise",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "US stocks ended Wednesday unchanged as investors geared up for the highly-anticipated earnings from chipmaking giant Nvidia Corp.",
+      "impact": "Apple raised prices for Apple Music by $1 per month in July, citing licensing costs.",
       "category": "global_markets",
-      "date": "2026-08-26 12:47",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-26/us-stock-futures-tread-water-after-inflation-gauge-s-muted-rise"
+      "date": "2026-08-28 16:57",
+      "link": "https://www.cnbc.com/2026/08/28/apple-tv-one-price-hike-us.html"
     },
     {
-      "headline": "Lego posts record first-half revenue, CEO touts strong sales at high-end and value pricing",
-      "score": 7,
+      "headline": "QatarEnergy cancels gas deliveries to Italy's Edison until early November over Iran war - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "QatarEnergy cancels gas deliveries to Italy's Edison until early November over Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-28 16:47",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSGdXSEJxeEtGbnA4SWdCRkkyMFM4VFhkS0hHT1F5cGw3TGg1LXZneGR4Z2JBRzNjdldsUlZNMlp5T1I4RDBRLWJoUlptMms4MXVzVmhLOXJndHI3U2E0OTcwTXprQmFRSkRYMzFxRzMzZExybFVWcTBlZGduN18zZmVJcWxnR3QzcU9iclR3b3g5OUdBZ0twWlJnUnZkbGVyN2hvNFVHRWZjYW9jMmtxbUtIVlotOC10UjVfWkln?oc=5"
+    },
+    {
+      "headline": "The biggest risk to retirement plans may no longer be a stock market crash or inflation",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "An obsolete datapoint may be sabotaging your retirement outcome",
+      "category": "global_markets",
+      "date": "2026-08-28 16:46",
+      "link": "https://www.marketwatch.com/story/your-portfolio-can-recover-from-a-bear-market-but-can-it-survive-you-living-to-110-cc6d344c?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "52% of Gen Z investors have redirected investing money to sports bets",
+      "score": 6,
       "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Some Gen Z investors are choosing gambling on sports over investing for their future.",
+      "category": "global_markets",
+      "date": "2026-08-28 16:10",
+      "link": "https://www.cnbc.com/2026/08/28/sports-betting-gen-z-investors.html"
+    },
+    {
+      "headline": "C.H. Robinson stock holds high after Q2 2026 earnings beat",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
       "sentiment": "positive",
-      "impact": "Lego CEO Niels Christiansen told CNBC the company is seeing strong sales at both ends of the pricing spectrum.",
+      "impact": "C.H. Robinson stock is trading near recent highs after reporting a strong Q2 2026 earnings beat, driven by efficiency gains from AI integration into its logistics network. The company's use of AI for improved decision-making and routing has led to cost discipline and better asset utilization, boosti",
       "category": "corporate_earnings",
-      "date": "2026-08-25 07:00",
-      "link": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html"
+      "date": "2026-08-28 15:58",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/c-h-robinson-stock-holds-high-after-q2-2026-earnings-beat/70015989"
     },
     {
-      "headline": "Is Nvidia heading for $1 trillion in annual revenue? One analyst now thinks that\u2019s possible.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Nvidia\u2019s stock soars higher after earnings.",
-      "category": "corporate_earnings",
-      "date": "2026-08-27 23:05",
-      "link": "https://www.marketwatch.com/story/nvidia-stock-is-climbing-after-another-set-of-blockbuster-results-heres-what-wall-street-is-saying-a2260a62?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "CrowdStrike\u2019s stock jumps after record-breaking earnings. Wall Street is lapping it up.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "A number of Wall Street banks, including Jefferies, raised their price targets for the cybersecurity\u2019s stock following its record-breaking results.",
-      "category": "us_equities",
-      "date": "2026-08-27 22:53",
-      "link": "https://www.marketwatch.com/story/crowdstrikes-stock-has-jumped-after-record-breaking-earnings-wall-street-is-lapping-it-up-dbdaca83?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "The options market is signaling further gains for the S&P 500, but one indicator is flashing a warning",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Options bets and volatility are sending buy signals, which sets up the stock market for a potential upside breakout.",
-      "category": "us_equities",
-      "date": "2026-08-27 22:12",
-      "link": "https://www.marketwatch.com/story/the-s-p-500-is-nearing-an-especially-positive-price-and-the-options-market-suggests-a-surge-is-likely-a54d866d?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Gap shares jump 12% after company names new Old Navy CEO to revive struggling brand",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Gap announced a new CEO for Old Navy on Thursday as the brand reported a decline in comparable sales for the most recent quarter.",
-      "category": "global_markets",
-      "date": "2026-08-27 21:54",
-      "link": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html"
-    },
-    {
-      "headline": "FDA approves daily HIV pill from Gilead designed to simplify treatment for some patients",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The new pill is also aimed at people who are doing well on a single-tablet regimen, including Biktarvy, and want to switch to a new treatment.",
-      "category": "global_markets",
-      "date": "2026-08-27 21:49",
-      "link": "https://www.cnbc.com/2026/08/27/fda-approves-gilead-hiv-pill-bixlenvo-designed-to-simplify-treatment.html"
-    },
-    {
-      "headline": "Iran sets conditions for reopening Strait of Hormuz, top security official Rezaei says - Reuters",
+      "headline": "US hits Egyptian bank branches with Iran sanctions as war marks six months - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran sets conditions for reopening Strait of Hormuz, top security official Rezaei says\u00a0\u00a0Reuters",
+      "impact": "US hits Egyptian bank branches with Iran sanctions as war marks six months\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-27 20:50",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcmkxelpGUFVScGp3akpHZlFURmRaaF9haHpzOVVkdnphX3pDd2hhUTIzZk9UeEJqd3RwOUU3cXc4b0hITEpkY1pkbjZWTVpaRzZVWnZyZi1wa3l4UjVfa0NDNlNQNGtFYk5QbU5wc2VTVkdYbENjc093UW84bE9mTE9DNEJkRFIzdC1Hc1JlSS1hZVUzME9KVTBmeDlUVi1fTXlMaF94RW1aU2NNS3JKUGIwMURObWs5cVhtbXVYcTZpUTZwY01GQVVYd1o?oc=5"
+      "date": "2026-08-28 15:56",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZnRmTktBaHNUcXJSeXVoMEhUSDg0QlpTRkFGcllGUW5zcW84bE81NjQxTWZ0VjBSNHpxZjBnRkNmVHAyZkFaNkYtYXZ4R1VaRlpIVHF0YVIwZ3BfY1ByZVdKM0RPOXBNMnJzTDkyVnF6b0FnNlRFQ0ozTk02cWY0dHZPYm40TUY2TVlSUklxWUJWVkdZdXNYX21TM05QV1R4dnBxU3pWekdVelEwWXZObHNn?oc=5"
     },
     {
-      "headline": "Iran's security chief denies report about a potential plot against Trump's son - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Iran's security chief denies report about a potential plot against Trump's son\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-27 19:55",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMmxfUzFLX1V3NWtDWmZFZ3dsUGIzWV9VZmNZVUo1NjV6dUxQM1VpRTNPS3UtQzg3TWtPaHBuUDJ5STJNSGFnZlMwT2w4UHlpWjMtejRnbUllbWtFeVpXWUJSVkMyeGZjU1hwc1ZSU0xTdHN2eFlMNXd2SEFIWG9EeFlxNkh4TjBOM0J0dUFFV1FrYmp4NVJXZXZjbWM2UGtrRWYyMFlJeEJOb3lBSXdoRm03bmZucjhUN05yejhTRWV6cUpsV1lHVHBDZWJWdw?oc=5"
-    },
-    {
-      "headline": "AI needs more power. Stephanie Link is buying this natural gas stock while it's cheap",
+      "headline": "Big Tech's massive AI spending is putting one of its longtime strengths to the test",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Stephanie Link is investing in EQT Corporation, the largest natural gas producer in the U.S., believing it is well-positioned to benefit from the growing demand for power driven by AI and data centers. EQT's vertically integrated business model, disciplined operating strategy, and attractive valuati",
+      "sentiment": "negative",
+      "impact": "There's new risk emerging from Big Tech's massive artificial intelligence buildout.",
       "category": "global_markets",
-      "date": "2026-08-27 19:15",
-      "link": "https://www.cnbc.com/2026/08/27/ai-needs-more-power-stephanie-link-is-buying-this-natural-gas-stock-while-its-cheap.html"
+      "date": "2026-08-28 15:50",
+      "link": "https://www.cnbc.com/2026/08/28/big-techs-ai-spending-is-putting-a-longtime-strengths-to-the-test.html"
     },
     {
-      "headline": "Trump to meet refiners, fuel retailers as Iran war boosts gas prices ahead of midterms, sources say - Reuters",
+      "headline": "Iran urges other nations not to join new US sanctions, mediators focus on reopening strait - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Trump to meet refiners, fuel retailers as Iran war boosts gas prices ahead of midterms, sources say\u00a0\u00a0Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran urges other nations not to join new US sanctions, mediators focus on reopening strait\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-27 18:53",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUTVfLVZrNnM2eTJJcmZaVjN5Ym83a094ZUYxR3RqenVKVUxyWGpIaldFZTJpZUVaRFJ4TkpJUkctd0VIc1Nzb05qamt6cnZVU3lqSkw3NUdUYmE3WXpXNTUyTjNnLUFUZERfYXp6SjMzV2hrOV9nN1FDWTI4QUxSWGpIMnhwUURoeWRoOUNsYVRMOGx3d1BwdFF1LVNYejhVSjJpT201YWxKTWNBeEdJNm5nZjEyNE1zMWg4TTN4QXNORzN1akNuVEgyWQ?oc=5"
+      "date": "2026-08-28 15:29",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObFhWQ0dIN3p1bUEzcUdpNlN2VFhmaWRhUk5zbkhfWE45U2swM1ViQ0RvRHhxZjJfT2xaUEhnWU9jZ3MzRXl3bXdabG1mM0xpTmdoRzZEQ3dRNDJOVEpTUnJfX3lCV0s4b2RPSzhPbXlZSllrb1l6SjA0NVRVRzNRR0pBYWFwTWdPU0xtOTduNnUyd3hpZjFUUDZUb1NnMkRoanl1Z2V5SjIwYWpubGc?oc=5"
     }
   ]
 }
