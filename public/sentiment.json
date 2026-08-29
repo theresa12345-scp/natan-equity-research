@@ -1,28 +1,27 @@
 {
-  "timestamp": "2026-08-28T23:28:14.333057",
+  "timestamp": "2026-08-29T11:58:11.456027",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.6,
-    "bullish": 14,
-    "neutral": 11,
+    "avg_relevance": 7.2,
+    "bullish": 15,
+    "neutral": 10,
     "bearish": 0,
-    "high_priority": 13,
-    "material_events": 4
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
+    "Bloomberg": 4,
     "Reuters": 6,
-    "Bloomberg": 2,
-    "Quartz India": 1,
-    "MarketWatch": 3,
-    "The Wall Street Journal": 2,
-    "Financial Times": 1,
-    "CNBC": 4,
     "Caixin/S&P Global": 1,
-    "Ad-hoc-news.de": 1
+    "Ad-hoc-news.de": 3,
+    "CNBC": 2,
+    "The Wall Street Journal": 1,
+    "MarketWatch": 3,
+    "StreetInsider": 1
   },
   "top_signals": [
     {
@@ -32,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,8 +61,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Fed-Treasury \u2018Regime Change\u2019 May Fuel Bonds, Citrini Says",
+      "score": 9,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "The Treasury Department and Federal Reserve are moving toward a more coordinated approach that could shift government borrowing toward shorter-term debt and reduce the supply of longer-dated Treasuries, setting the stage for a rally in 30-year bonds, accordin\u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-08-27 19:13",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-27/fed-treasury-regime-change-may-fuel-bond-rally-citrini-says"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -72,7 +81,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,58 +111,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Marvell Q2 FY2027 earnings: record revenue, raised guidance",
-      "score": 8,
-      "source": "Quartz India",
-      "sentiment": "positive",
-      "impact": "The chipmaker's data center revenue climbed 46% year over year in the second quarter, and it now expects $3.15 billion in Q3 sales",
-      "category": "corporate_earnings",
-      "date": "2026-08-27 20:28",
-      "link": "https://qz.com/marvell-record-revenue-ai-chips-guidance-raise-082726"
-    },
-    {
-      "headline": "Stock Market Today: S&P 500 and Nasdaq are up in tech-fueled rally as Nvidia's stock jumps after its earnings beat expectations; Dow rises as Salesforce shares surge and Jackson Hole symposium gets started; Marvell Technology results on tap",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The S&P 500, Nasdaq and Dow were rising Thursday afternoon as tech rallied after earnings reports from Nvidia and Salesforce. Traders also were assessing the latest weekly jobless claims data while looking ahead to Fed Chair Warsh's Jackson Hole speech.",
-      "category": "us_equities",
-      "date": "2026-08-27 18:05",
-      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-beat-expectations-earnings-jackson-hole-marvell-results"
-    },
-    {
-      "headline": "Exclusive | Fed\u2019s Collins Says Rate Increase Warranted If Inflation Disappoints",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-27 18:04",
-      "link": "https://www.wsj.com/economy/central-banking/feds-collins-says-rate-increase-warranted-if-inflation-disappoints-2938832e"
-    },
-    {
-      "headline": "Don\u2019t draw the wrong conclusion from Treasury yields",
-      "score": 8,
-      "source": "Financial Times",
-      "sentiment": "positive",
-      "impact": "Investors are marking up their expectations for long-run economic growth in the US",
-      "category": "fixed_income",
-      "date": "2026-08-27 14:45",
-      "link": "https://www.ft.com/content/a919761d-dab1-4a6e-93fe-f69910192c1c"
-    },
-    {
-      "headline": "Fed's Hammack says 'now is the time to act' on raising interest rates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "She still thinks the Fed needs to take action against inflation that is straining household budgets.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-27 14:27",
-      "link": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -162,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -172,18 +131,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-28 23:28",
+      "date": "2026-08-29 11:58",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
+      "headline": "Corning stock holds its Q2 2026 gains as guidance points to steady earnings",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Kevin Warsh passed another big test as a new Federal Reserve chairman on Friday: He said the central bank still has work to do on inflation, and the bond market took him at his word.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-28 20:10",
-      "link": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories"
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "Corning Inc. (GLW) stock is holding recent gains despite trading below key moving averages, following a strong 17.1% revenue increase in Q2 2026 to $4.74 billion. The company provided Q3 2026 EPS guidance of $0.85 to $0.89, which exceeded profit expectations, though revenue guidance was softer than ",
+      "category": "corporate_earnings",
+      "date": "2026-08-29 07:46",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/corning-stock-holds-its-q2-2026-gains-as-guidance-points-to-steady/70018940"
     },
     {
       "headline": "Iran war drives US transport fuel surcharges, but also industry profits - Reuters",
@@ -196,24 +155,24 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNEl5QXd2UEpMZlNEOGszSng5WEotaDlSVG1qMXIxXzFNdDZiMFMxTnUxM0tIX2hYeXVkWVhYUUJMZF9PY3lSNXFVOC03TnF6dmstYzFVdFlwdWZZdVFqQ0tqS2VtSm5UU2p5bnhtQ2xPdnFhcWVmbTFpLU0zR0g5c0l4LTVMWHZFaXI2ME85a255SjdQMjRXSzloU2w1UFd5YWFPam5OOVRFanNqSEhvWVQ0cmFlUDFhWFE?oc=5"
     },
     {
-      "headline": "Oil slides on clues about Fed policy, rumors of Hormuz deal - Reuters",
+      "headline": "Raghuram Rajan urges Fed to raise rates, says rupee is not in panic zone",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil slides on clues about Fed policy, rumors of Hormuz deal\u00a0\u00a0Reuters",
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Raghuram Rajan says the Fed should raise rates to contain inflation, while noting strong US investment, fiscal deficit and consumer spending are supporting growth.",
       "category": "us_monetary_policy",
-      "date": "2026-08-28 01:16",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMDRjQUkzbzJPY3ZkSGVLX1NmU05FVWxRUXZod3V6MkU5TTUxTjl0cm5yMzB2R0UyMy1mUUZsZVZ5TkVGMkdXNWR1X0FqUk5OaFRsZjg4NVhreGM5bUFHQ1BiT1E0SFB1ZzJKNlVLdGFRZ2ZEd1BEV0s5ZFBEOVdtWHMtZzh3b0lBaHhHSkdSYTZWNWUzSjhNX1RLcEg0My1x?oc=5"
+      "date": "2026-08-28 06:32",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-28/ex-rbi-chief-rajan-says-fed-should-raise-rates-to-curb-inflation"
     },
     {
-      "headline": "US-hosted G20 finance meeting to target growth, imbalances, Iran sanctions, Treasury official says - Reuters",
+      "headline": "S&P 500 futures are little changed as investors count down to Warsh's Jackson Hole address: Live updates",
       "score": 7,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "US-hosted G20 finance meeting to target growth, imbalances, Iran sanctions, Treasury official says\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-08-28 00:29",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNW43Vk95endNOWY5dnh3SUs0amx5SDJXVEFuWTRoX0F0Vnl6azdkM3NYWmRMZXZPZ0pIRkpZTmZrcExyVG9GWVYyaHlXeFR6aVR1dS15RWcyNmxWZVNDNTBmRXRQSU9ESG1BcHE2YWU0d0M5MW1fcDgtUFFQYnZRTDYxMEp6S2l1c1ZaS3hodWRnSnlPR3hBLVFSLWlCUXR4SlFrb0Z6dnpCVFZneS1CZzVPR2JoRUJ5am0zdw?oc=5"
+      "impact": "With Thursday's advance, the three major indexes are on track to end the week higher.",
+      "category": "us_equities",
+      "date": "2026-08-28 04:17",
+      "link": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html"
     },
     {
       "headline": "Exclusive | Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies",
@@ -226,24 +185,64 @@
       "link": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e"
     },
     {
-      "headline": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Prior Fed chairs have used the speech as an opportunity to lay out broad policy frameworks and intentions.",
-      "category": "us_monetary_policy",
-      "date": "2026-08-27 19:00",
-      "link": "https://www.cnbc.com/2026/08/27/fed-chairman-kevin-warsh-delivers-his-key-jackson-hole-speech-friday.html"
+      "headline": "Corporate earnings have been growing at a blistering pace. Here\u2019s why that\u2019s not likely to last.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The recent blistering pace of earnings growth is unsustainable.",
+      "category": "corporate_earnings",
+      "date": "2026-08-29 11:30",
+      "link": "https://www.marketwatch.com/story/corporate-earnings-have-been-growing-at-a-blistering-pace-heres-why-thats-not-likely-to-last-28810eac?mod=mw_rss_topstories"
     },
     {
-      "headline": "Okta skyrockets 20%, CrowdStrike surges 15% as rising AI threat boosts earnings",
-      "score": 7,
-      "source": "CNBC",
+      "headline": "The S&P 500 keeps climbing on days when stocks broadly struggle. Here\u2019s what\u2019s going on.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Investors\u2019 intense focus on AI is at times adding to the might of a small club of Big Tech stocks with mega market values  to potentially make or break a single trading session for the S&P 500.",
+      "category": "us_equities",
+      "date": "2026-08-29 11:00",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-keeps-climbing-on-days-when-stocks-broadly-struggle-heres-whats-going-on-60ad5c72?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "CSX stock holds above $51 after Q2 2026 beat and higher guidance",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
       "sentiment": "positive",
-      "impact": "AI adoption is pushing customers to spend more on cybersecurity tools from companies such as CrowdStrike and Okta",
+      "impact": "CSX stock is trading above $51 following a stronger-than-expected second quarter of 2026 and an increased full-year guidance. The railroad operator's shares have seen a significant 42.07% year-to-date gain, reflecting investor confidence in its performance and improved outlook, driven by robust inte",
       "category": "corporate_earnings",
-      "date": "2026-08-27 13:47",
-      "link": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html"
+      "date": "2026-08-29 07:26",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/csx-stock-holds-above-51-after-q2-2026-beat-and-higher-guidance/70018991"
+    },
+    {
+      "headline": "PSEG stock steadies as 2026 guidance and buying line up",
+      "score": 6,
+      "source": "Ad-hoc-news.de",
+      "sentiment": "positive",
+      "impact": "PSEG stock is gaining support from its 2026 EPS guidance of $4.280-$4.400, which aligns closely with the $4.36 consensus view. Recent institutional buying in late August 2026, including a purchase of 50,804 shares worth $4.1 million by one asset manager, further indicates confidence in the stock. Th",
+      "category": "corporate_earnings",
+      "date": "2026-08-29 06:36",
+      "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/pseg-stock-steadies-as-2026-guidance-and-buying-line-up/70018574"
+    },
+    {
+      "headline": "War weighs on Iran's economy as US intensifies sanctions - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "War weighs on Iran's economy as US intensifies sanctions\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-29 02:04",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?oc=5"
+    },
+    {
+      "headline": "Lowe's Cos. (LOW) Declares $1.25 Quarterly Dividend; 2.4% Yield",
+      "score": 6,
+      "source": "StreetInsider",
+      "sentiment": "positive",
+      "impact": "Lowe's Companies (LOW) has announced a quarterly dividend of $1.25 per share, which annualizes to $5 per share, representing a 2.4% yield. The dividend is scheduled to be paid on November 4, 2026, to shareholders of record by October 21, 2026, with an ex-dividend date of October 20, 2026.",
+      "category": "fixed_income",
+      "date": "2026-08-29 02:01",
+      "link": "https://www.streetinsider.com/Dividends/Lowes+Cos.+%28LOW%29+Declares+%241.25+Quarterly+Dividend%3B+2.4%25+Yield/26998475.html"
     },
     {
       "headline": "Nvidia\u2019s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason",
@@ -256,14 +255,14 @@
       "link": "https://www.marketwatch.com/story/nvidias-revenue-forecast-is-so-huge-that-wall-street-wonders-if-spacex-is-the-reason-1ee7a8a9?mod=mw_rss_topstories"
     },
     {
-      "headline": "CSX stock holds above $51 as Q2 2026 beat and higher guidance support outlook",
+      "headline": "Iran's navy says it has 'full control' over Strait of Hormuz - Reuters",
       "score": 6,
-      "source": "Ad-hoc-news.de",
-      "sentiment": "positive",
-      "impact": "CSX stock is trading above $51 after the company reported a strong Q2 2026, exceeding earnings and revenue expectations. The railroad operator also raised its full-year 2026 guidance, driven by robust intermodal demand and cost efficiency. Institutional interest and a consistent dividend further bol",
-      "category": "corporate_earnings",
-      "date": "2026-08-28 19:44",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/csx-stock-holds-above-51-as-q2-2026-beat-and-higher-guidance-support/70017121"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran's navy says it has 'full control' over Strait of Hormuz\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-28 20:45",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEVEVmRsZGlZT1pndE1fWjltanZVY1oxRXdCVU1TSXFWOUotb2RnamNaTVFacFVtb0xKWEotQ2xHUl9XUXQ3UlV2OUdtWWVNb25BakpUd0RYd0RyaDdxWHR5MUJXSXVfdm9WSnNqM1lNbHk1aUN2Qmp0MGxxSGZETzYxTlVBdzViQVd1d1pfVWN6eUpTVTRMa05SNzEzYjZHWlpSeWt0Z2dmR2xW?oc=5"
     },
     {
       "headline": "Stock traders warm up to Warsh as volatility index touches year-to-date low",
