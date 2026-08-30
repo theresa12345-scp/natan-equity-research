@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-30T10:55:13.208900",
+  "timestamp": "2026-08-30T17:58:49.356379",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
+    "avg_relevance": 7.4,
     "bullish": 7,
-    "neutral": 17,
-    "bearish": 1,
-    "high_priority": 9,
+    "neutral": 16,
+    "bearish": 2,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
-    "Bloomberg": 3,
+    "Reuters": 8,
+    "Bloomberg": 4,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "Barron's": 1,
-    "AD HOC NEWS": 1
+    "CNBC": 5,
+    "Financial Times": 1,
+    "MarketWatch": 1,
+    "The Wall Street Journal": 1
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +100,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "US Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-08-30 10:32",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORVlaS1VmZVF5Rjh3RFkwVk40ZGpBSU1LLXM3XzQ1REFxbnl0aHREWXhieU9vUnU0aUdkTWgtNmJrYk9BRDE3aEllamozWFJVMHZ5QTJUS0pkckpwbjFVQ2dxaEhBaWZWZXg3a05ISG1Fb3k4aWV0QmRSbGFiOHdsQ0x6QWZjUUN6b3lsc2c5MEZOc2RCWXZXcERhdkN4NFJGVHBGejVxbTBZWDdvczdJamxDQ3Jib29xS1lzcURfX05MQ1BET25r?oc=5"
+    },
+    {
+      "headline": "Warsh\u2019s inflation warning sets up September showdown for the Fed",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Warsh didn\u2019t signal that such a move is a done deal, and some Fed officials continue to say they are willing to wait and assess new data before making any decision",
+      "category": "us_monetary_policy",
+      "date": "2026-08-29 14:17",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-28/warsh-s-inflation-warning-sets-up-september-showdown-for-the-fed"
     },
     {
       "headline": "Fed Chair Kevin Warsh says inflation isn\u2019t slowing, vows to reach 2% target",
@@ -119,7 +140,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,8 +150,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-08-30 10:55",
+      "date": "2026-08-30 17:58",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Trump criticizes NBC over election comment as Treasury denies some NYT, WSJ and Bloomberg reporters G20 credentials",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Trump's attack on NBC comes after the Treasury barred journalists from The New York Times, The Wall Street Journal and Bloomberg from attending the G20.",
+      "category": "fixed_income",
+      "date": "2026-08-30 16:55",
+      "link": "https://www.cnbc.com/2026/08/30/trump-nbc-election-comment-treasury-g20-reporter-access.html"
+    },
+    {
+      "headline": "Gulf stocks fall as Fed rate-hike bets rise after Warsh remarks - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gulf stocks fall as Fed rate-hike bets rise after Warsh remarks\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-08-30 13:15",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMUp0Y2RpUlUyc1ZQakFhRXB4TjZwTlIzb1FUTVFCdEVMNHp6LWdkdXc2ZkdCUVo0TmZyb25XWUYzS0dkLTJuVzAzcldNWnhRZTJLREotVi1pQUlOeS1QMmM3ZWhVeTZIOTg2UGMtNzhZQ1EzM3BydUVGMC0xdzdOMzNBZ2VxOTNncUJOT2ZQa0FGU2FrR1YxYUNNcU9va2VRTXJ6ZGFscUdSRmc3V3JtRDJHaXE?oc=5"
+    },
+    {
+      "headline": "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Retailers have diverged on how they've reported tariff refunds in their earnings this quarter, with some choosing to lower prices and others boosting margins.",
+      "category": "corporate_earnings",
+      "date": "2026-08-30 12:00",
+      "link": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html"
     },
     {
       "headline": "Egypt's Banque Misr reviews US Iran sanctions notice, UAE central bank launches urgent examination - Reuters",
@@ -153,24 +204,44 @@
       "link": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html"
     },
     {
-      "headline": "Oil settles lower on clues about Fed policy, rumors of Hormuz deal - Reuters",
+      "headline": "Warsh puts Fed on collision course with Trump ahead of midterms",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Oil settles lower on clues about Fed policy, rumors of Hormuz deal\u00a0\u00a0Reuters",
+      "source": "Financial Times",
+      "sentiment": "positive",
+      "impact": "US central bank chair\u2019s Jackson Hole hint that rates may rise runs counter to the reduction in borrowing costs the US president desires",
       "category": "us_monetary_policy",
-      "date": "2026-08-28 20:19",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMDRjQUkzbzJPY3ZkSGVLX1NmU05FVWxRUXZod3V6MkU5TTUxTjl0cm5yMzB2R0UyMy1mUUZsZVZ5TkVGMkdXNWR1X0FqUk5OaFRsZjg4NVhreGM5bUFHQ1BiT1E0SFB1ZzJKNlVLdGFRZ2ZEd1BEV0s5ZFBEOVdtWHMtZzh3b0lBaHhHSkdSYTZWNWUzSjhNX1RLcEg0My1x?oc=5"
+      "date": "2026-08-29 12:57",
+      "link": "https://www.ft.com/content/69452aea-cee0-47de-be8a-dc790fed3db1?syn-25a6b1a6\\\\u003d1"
     },
     {
-      "headline": "Affirm (AFRM) Q4 Earnings Report: Revenue, GMV, Credit Quality, and Stock Outlook",
+      "headline": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
       "score": 7,
-      "source": "Barron's",
-      "sentiment": "positive",
-      "impact": "Affirm stock is surging higher after it posts better-than-expected revenue and gross merchandise volume in its fiscal fourth quarter.",
-      "category": "fixed_income",
-      "date": "2026-08-28 15:26",
-      "link": "https://www.barrons.com/articles/affirm-earnings-stock-price-dc8f6533"
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Yield-curve flattening \u2014 in which the spread between short-term and long-term yields narrows \u2014 suggests bond traders believe the Fed will start containing inflation",
+      "category": "us_monetary_policy",
+      "date": "2026-08-28 20:10",
+      "link": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5"
+    },
+    {
+      "headline": "A Core Egyptian Bank Gets Caught Up in Treasury\u2019s Iran Crackdown",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "The U.A.E. branch of Banque Misr, Egypt\u2019s second largest bank, faces penalties for alleged dealings with Tehran",
+      "category": "us_equities",
+      "date": "2026-08-28 19:56",
+      "link": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772"
+    },
+    {
+      "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Broadcom and Palo Alto Networks report. Plus, it's jobs week.",
+      "category": "global_markets",
+      "date": "2026-08-30 14:54",
+      "link": "https://www.cnbc.com/2026/08/30/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
     },
     {
       "headline": "Iran's Khamenei urges Gulf rulers in written message to confront 'real enemy' - Reuters",
@@ -179,8 +250,18 @@
       "sentiment": "neutral",
       "impact": "Iran's Khamenei urges Gulf rulers in written message to confront 'real enemy'\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-08-30 07:22",
+      "date": "2026-08-30 10:40",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTDhtblJ1TEhZZGpCTjZQVUNEc0lHMmoxXzJYVmoxUzh5V0I2MFVWMTl4SnBGTHN6bjFTd3VmNGh4ek5MdzIxdVI5OV9WNjZ1ZEhnQUFPNXVUWldFaDNDY0ZPX1JwQW4yQXJnaE9SMmRIbWU5bVlYOVE1QnhkVTAwcmRHNjZacUVGRkp3Q2pPczlOT01iLU9MUmRjN0dEN1hTTXdNUmtvUjc2aVZjS2tXZE5ES2IyV2l3WVVKdW00Zw?oc=5"
+    },
+    {
+      "headline": "Turkey, Saudi Arabia, Pakistan to hold first defence pact meeting, source says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Turkey, Saudi Arabia, Pakistan to hold first defence pact meeting, source says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-08-30 10:05",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGEtTUQ0dGF3WlJacDh2Y2tEZ1BsR3hrRG9BY2ZPQjRFVkloRzJPN1o0UWtRVFRnUjgtVHJvVGFwY3FNVy1mbW1DMTdXek9mdDJZSjUxRy1UQm5kVlRBTzZpcFNrVjFWd1YwOU11TUtDRVk0VHVvbFJWVWRKdDN5TlIyeDhyY3VtdXNSQ2dXLUxhRmt1X2I3QzdpbUhEQV9NMjNxNmZNVkxQbEdaU1dKV0x2Y3E3M2U3VktPNDBiM1h1ZlpVYWc?oc=5"
     },
     {
       "headline": "Trump administration weighs Yosemite land swap for private developer\u2019s access road",
@@ -191,86 +272,6 @@
       "category": "global_markets",
       "date": "2026-08-29 18:21",
       "link": "https://www.cnbc.com/2026/08/29/trump-yosemite-land-swap-kingsbarn.html"
-    },
-    {
-      "headline": "National Park Service backs Trump\u2019s 250-foot arch despite \u2018adverse effects\u2019 on historic sites",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The park service is backing the arch, despite finding that it would adversely affect historic sightlines and other visual relationships among nearby landmarks.",
-      "category": "global_markets",
-      "date": "2026-08-29 18:13",
-      "link": "https://www.cnbc.com/2026/08/29/trump-arch-national-park-service-report.html"
-    },
-    {
-      "headline": "Israeli settlers stage new attack on home in West Bank's Qusra, witnesses say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israeli settlers stage new attack on home in West Bank's Qusra, witnesses say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-29 17:58",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaDJ3eXpHdUxRbndBaEJmblBpeC13Vk5sMF9lSGJOb3EwSzhDYXBWZnBjYWxqRWgyaGpKNDNsZWxacjRMWF8tQjNvQmNORXNEeVI0TG9nOVBSa2hhY2FFdklhVmVSNGxTalM0bWdtczdPWnd0d0FEeGNTRXdhN0I0eXBVRUFFRHpTX21wQUtJU1FqVmYyRTN2ZmZiNHEzV19OOWVmN3NPcE9SVjZzT29CY2U2bjRXdTAwVXIwcHU3Qjg?oc=5"
-    },
-    {
-      "headline": "Bessent says disorderly yen moves can destabilize global markets - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Bessent says disorderly yen moves can destabilize global markets\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-29 16:47",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHBpa0Q1ZFFoeUswNkhnRWtLZEdNVmpSNU5Qd19FY2ZseVEtLTJNQ0J4SVNLUU83RDRWa0VyWWlhQlNUdXoxMldCa0VTXzlhZllsbnh6LXVPbDNSYW1rVmFyY0VNRHljVUlPZGR2MTFZTWotZ0drc2hoNHJJTDZzVEpUZW9ieEt2Ny15QmktV0l0MWx1Rnd4Y00xc2pIQ0FLZkxtdzlkUTZXMDYxOVBXX3lrMUtpN0d6?oc=5"
-    },
-    {
-      "headline": "WEC Energy Group stock holds steady as guidance and analyst targets support 2026 outlook",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "WEC Energy Group's stock is trading around $106, supported by strong second-quarter 2026 earnings, reaffirmed 2026 guidance of $5.51 to $5.61 per share, and a long-term annual earnings growth objective of 7-8% through 2030. Analysts maintain a \"moderate buy\" consensus with a price target of $121.91,",
-      "category": "corporate_earnings",
-      "date": "2026-08-29 15:10",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/wec-energy-group-stock-holds-steady-as-guidance-and-analyst-targets/70020563"
-    },
-    {
-      "headline": "We're in the midst of an 'Imax awakening,' CEO says. How the company makes millions",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Christopher Nolan's \"The Odyssey\" has movie and history buffs flocking to theaters this summer. That's been great news for Imax.",
-      "category": "global_markets",
-      "date": "2026-08-29 14:07",
-      "link": "https://www.cnbc.com/2026/08/29/imax-revenue-odyssey-box-office.html"
-    },
-    {
-      "headline": "Goodyear burning rubber and cash as turnaround plan continues",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The tire maker has an ongoing turnaround plan as the company tries to restructure its business, refinance and pay down years of debt.",
-      "category": "global_markets",
-      "date": "2026-08-29 13:56",
-      "link": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html"
-    },
-    {
-      "headline": "US military families ride 'roller coaster of emotions' over six months of Iran war - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US military families ride 'roller coaster of emotions' over six months of Iran war\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-08-29 13:09",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUm1PUndmMHEtR2czS0pLUHRwMXhjcG5mZzNjWDdQQ3I3cTlpaW5EdTFVc3BJUjBldmlZR0RJM09CZFhycFFlSmExRC05SEFvR0N1cHdaNWt4LUMxRmFpY2cyVjRfalFlT09EQXZ1XzlqaWt0SEphZFVVNGxDMmtKNUJmN090SFgwY2pfMFRBSXZ2TFpNTGJzRFlmS2ZwZlo4TThGQjhPLWJLa0ZJdmVXUm1OZldxY1hWNFoxYlJXUzF4NTJVMWZv?oc=5"
-    },
-    {
-      "headline": "Gen Zers quit their jobs to start a pickle company\u2014now it\u2019s valued at $8.5 million",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Good Girl Snacks founders Leah Marcus and Yasaman Bakhitar built their startup's multimillion-dollar valuation with pickle jars and Gen Z branding strategies.",
-      "category": "global_markets",
-      "date": "2026-08-29 13:05",
-      "link": "https://www.cnbc.com/2026/08/29/how-two-gen-z-founders-made-hot-girl-pickles-stand-out.html"
     }
   ]
 }
