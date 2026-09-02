@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-02T10:11:36.036223",
+  "timestamp": "2026-09-02T17:43:26.431040",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 9,
-    "neutral": 12,
-    "bearish": 4,
-    "high_priority": 8,
+    "avg_relevance": 7.5,
+    "bullish": 10,
+    "neutral": 10,
+    "bearish": 5,
+    "high_priority": 12,
     "material_events": 4
   },
   "sources": {
@@ -16,10 +16,13 @@
     "Federal Reserve": 1,
     "Reuters": 3,
     "Bloomberg": 3,
+    "The Wall Street Journal": 1,
+    "CNBC": 9,
     "Caixin/S&P Global": 1,
-    "CNBC": 11,
-    "Yahoo Entertainment": 1,
-    "MarketWatch": 2
+    "USA Today": 1,
+    "MarketBeat": 1,
+    "Trefis": 1,
+    "Yahoo Finance": 1
   },
   "top_signals": [
     {
@@ -29,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +102,48 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Stock Market Today: Nasdaq, Dow Fall as Bond Selloff Intensifies \u2014 Live Updates",
+      "score": 8,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Live updates on markets and the top finance, economics and business stories. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
+      "category": "us_equities",
+      "date": "2026-09-01 18:01",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-01-2026"
+    },
+    {
+      "headline": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The policymaker said he's concerned about \"broader price pressures taking hold\" as inflation has prevailed above the Fed's 2% target.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-01 13:05",
+      "link": "https://www.cnbc.com/2026/09/01/fed-governor-barr-says-hell-support-rate-hike-if-inflation-doesnt-ease.html"
+    },
+    {
+      "headline": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The European Central Bank is seen hiking rates in September as the Iran war raises energy costs in the region.",
+      "category": "global_markets",
+      "date": "2026-09-01 09:56",
+      "link": "https://www.cnbc.com/2026/09/01/euro-zone-inflation-rate-hike.html"
+    },
+    {
+      "headline": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Treasury yields increased on Tuesday as investors monitored a reignition of tensions in the Middle East.",
+      "category": "fixed_income",
+      "date": "2026-09-01 07:59",
+      "link": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -109,7 +152,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,8 +162,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-02 10:11",
+      "date": "2026-09-02 17:43",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Ford's production of highly profitable Super Duty trucks hits 20-year high as it recovers from supplier fires",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Ford reported its eighth consecutive month of year-over-year U.S. new vehicle sales declines in August.",
+      "category": "corporate_earnings",
+      "date": "2026-09-02 16:25",
+      "link": "https://www.cnbc.com/2026/09/02/ford-sales-f-150-production.html"
+    },
+    {
+      "headline": "What to watch in Broadcom\u2019s upcoming earnings \u2013 and why Nvidia is running",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "corporate_earnings",
+      "date": "2026-09-02 15:54",
+      "link": "https://www.cnbc.com/2026/09/02/what-to-watch-in-broadcoms-upcoming-earnings-and-why-nvidia-is-running-.html"
+    },
+    {
+      "headline": "Private equity funds are losing to the S&P 500 of late\u2014why investments for the wealthy aren't necessarily better",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Private equity has lagged the S&P 500 in the last few years despite longer-term outperformance.",
+      "category": "us_equities",
+      "date": "2026-09-02 14:08",
+      "link": "https://www.cnbc.com/2026/09/02/why-funds-meant-for-wealthier-investors-dont-always-perform-better.html"
+    },
+    {
+      "headline": "Trump presses Fed to lower interest rates. It may do the opposite",
+      "score": 7,
+      "source": "USA Today",
+      "sentiment": "neutral",
+      "impact": "President Donald Trump again pressured the Federal Reserve to lower interest rates, but more Fed officials are signaling their interest in a hike.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-01 15:02",
+      "link": "https://www.usatoday.com/story/money/economy/2026/09/01/trump-fed-interest-rates-hike-or-cut/91558775007/"
     },
     {
       "headline": "10-year yield hits highest since January 2025 as Middle East tensions return to focus",
@@ -143,26 +226,6 @@
       "link": "https://www.bloomberg.com/news/articles/2026-09-01/india-s-growth-beat-suggests-economy-on-cusp-of-investment-boom"
     },
     {
-      "headline": "Global Bond Selloff Sends Yields to the Highest Level Since 2008",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "negative",
-      "impact": "Global bond yields climbed back to the highest level in almost two decades as rising oil prices fuel inflation concerns and investors ramp up expectations th...",
-      "category": "fixed_income",
-      "date": "2026-09-01 03:38",
-      "link": "https://finance.yahoo.com/economy/policy/articles/global-bond-selloff-sends-yields-033811407.html"
-    },
-    {
-      "headline": "The 10-year Treasury yield just crossed a key threshold that should make people \u2018sit up and take notice\u2019",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Yield on 10-year Treasury touches its highest level of Trump 2.0 as oil climbs back about $90 a barrel",
-      "category": "fixed_income",
-      "date": "2026-08-31 20:26",
-      "link": "https://www.marketwatch.com/story/the-10-year-treasury-yield-just-crossed-a-key-threshold-that-should-make-people-sit-up-and-take-notice-ffc0b5b5"
-    },
-    {
       "headline": "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently",
       "score": 7,
       "source": "CNBC",
@@ -173,104 +236,44 @@
       "link": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html"
     },
     {
-      "headline": "Dell\u2019s AI servers drive a stellar earnings performance, and a raised outlook",
+      "headline": "Insider Selling: First Solar (NASDAQ:FSLR) CTO Sells $160,000.00 in Stock",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "The company\u2019s backlog has reached $95 billion as demand accelerates for its AI servers",
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "First Solar (NASDAQ:FSLR) CTO Markus Gloeckler sold 800 shares of the company's stock for $160,000.00 at an average price of $200.00, reducing his direct holdings by 12.04% to 5,842 shares. This transaction was part of a pre-arranged Rule 10b5-1 trading plan. The company's shares traded down 0.2% an",
+      "category": "us_equities",
+      "date": "2026-09-02 17:11",
+      "link": "https://www.marketbeat.com/instant-alerts/insider-insider-selling-first-solar-nasdaq-fslr-cto-sells-16000000-in-stock-2026-09-02/"
+    },
+    {
+      "headline": "We're starting positions in 2 more defensive stocks to balance our AI exposure",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "We're adding a couple of new positions to the portfolio following Tuesday's exit of a data center name.",
+      "category": "global_markets",
+      "date": "2026-09-02 16:19",
+      "link": "https://www.cnbc.com/2026/09/02/were-starting-positions-in-2-more-defensive-stocks-to-balance-our-ai-exposure.html"
+    },
+    {
+      "headline": "How Will NetApp Stock React To Its Upcoming Earnings?",
+      "score": 6,
+      "source": "Trefis",
+      "sentiment": "neutral",
+      "impact": "NetApp (NASDAQ:NTAP) is scheduled to report its earnings on September 2, 2026. This article analyzes the historical stock performance following earnings announcements to predict how NTAP might react. Based on past data, NetApp has shown positive one-day returns post-earnings about 53% of the time ov",
       "category": "corporate_earnings",
-      "date": "2026-09-02 00:19",
-      "link": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories"
+      "date": "2026-09-02 16:11",
+      "link": "https://www.trefis.com/stock/ntap/articles/613962/how-will-netapp-stock-react-to-its-upcoming-earnings-3/2026-09-02"
     },
     {
-      "headline": "Stan Kroenke agrees to buy MLB's Angels, valuing team and regional network at $4 billion",
+      "headline": "Why Is CNA Financial (CNA) Down 8.1% Since Last Earnings Report?",
       "score": 6,
-      "source": "CNBC",
+      "source": "Yahoo Finance",
       "sentiment": "neutral",
-      "impact": "Kroenke Sports and Entertainment was valued at more than $26 billion in CNBC's most recent list of the world's most valuable sports empires.",
-      "category": "global_markets",
-      "date": "2026-09-01 21:40",
-      "link": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html"
-    },
-    {
-      "headline": "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "OpenAI said it will make Astra available \"soon,\" but access to its cybersecurity capabilities will be limited.",
-      "category": "global_markets",
-      "date": "2026-09-01 20:12",
-      "link": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html"
-    },
-    {
-      "headline": "Stan Kroenke buys controlling stake in MLB's Los Angeles Angels",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Kroenke Sports and Entertainment was valued at more than $26 billion in CNBC's most recent list of the world's most valuable sports empire.",
-      "category": "global_markets",
-      "date": "2026-09-01 19:40",
-      "link": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html"
-    },
-    {
-      "headline": "We're sitting on more cash than at any time this year. Here's why",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Cash management is an important part of managing risk. This current market demands our attention.",
-      "category": "global_markets",
-      "date": "2026-09-01 18:02",
-      "link": "https://www.cnbc.com/2026/09/01/were-sitting-on-more-cash-than-at-any-time-this-year-heres-why.html"
-    },
-    {
-      "headline": "How one of the largest investors in student housing is playing this school year",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Mike Gordon of Harrison Street Asset Management said funding cuts and enrollment trends are making specialization more vital than ever.",
-      "category": "global_markets",
-      "date": "2026-09-01 16:36",
-      "link": "https://www.cnbc.com/2026/09/01/university-student-housing-investor.html"
-    },
-    {
-      "headline": "Students are reconsidering their majors, career paths and industries due to AI: CNBC survey",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "As AI continues to reshape industries, some students are wondering what their careers will look like once they graduate.",
-      "category": "global_markets",
-      "date": "2026-09-01 16:17",
-      "link": "https://www.cnbc.com/2026/09/01/students-are-reconsidering-majors-career-paths-due-to-ai-cnbc-survey.html"
-    },
-    {
-      "headline": "AI token prices are hitting new record lows",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "A closely followed measure of artificial intelligence token prices touched fresh lows.",
-      "category": "global_markets",
-      "date": "2026-09-01 16:08",
-      "link": "https://www.cnbc.com/2026/09/01/ai-token-prices-lows.html"
-    },
-    {
-      "headline": "We're exiting a data center stock to protect big gains as the AI trade hits a rough patch",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "We are concerned about AI exposure, given how the group has even disregarded good news.",
-      "category": "global_markets",
-      "date": "2026-09-01 15:54",
-      "link": "https://www.cnbc.com/2026/09/01/were-exiting-a-data-center-stock-to-protect-big-gains-as-the-ai-trade-hits-a-rough-patch.html"
-    },
-    {
-      "headline": "Goodyear burning rubber and cash as turnaround plan continues",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The tire maker has an ongoing turnaround plan as the company tries to restructure its business, refinance and pay down years of debt.",
-      "category": "global_markets",
-      "date": "2026-09-01 15:30",
-      "link": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html"
+      "impact": "CNA Financial (CNA) shares have dropped 8.1% since its last earnings report, underperforming the S&P 500. Despite beating Q2 2026 earnings estimates with higher investment income and premium growth, the company experienced a narrowing underwriting margin and weaker international results. Analysts ha",
+      "category": "us_equities",
+      "date": "2026-09-02 15:52",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-cna-financial-cna-down-153004164.html"
     }
   ]
 }
