@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-03T10:23:39.662296",
+  "timestamp": "2026-09-03T17:38:40.807954",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 10,
-    "neutral": 8,
-    "bearish": 7,
-    "high_priority": 11,
+    "avg_relevance": 7.3,
+    "bullish": 12,
+    "neutral": 10,
+    "bearish": 3,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
-    "Bloomberg": 2,
-    "CNBC": 5,
+    "Reuters": 6,
+    "Bloomberg": 3,
+    "CNBC": 7,
+    "The Wall Street Journal": 1,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 3,
-    "Investor's Business Daily": 1
+    "Business Insider": 1,
+    "Post Magazine": 1,
+    "Kalkine Media": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,18 +101,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Shares, bonds rally as markets await Fed signals; yen jumps - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Shares, bonds rally as markets await Fed signals; yen jumps\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-09-03 02:02",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5"
     },
     {
       "headline": "Broadcom's stock drops 5% as weak guidance overshadows earnings beat",
@@ -123,14 +115,14 @@
       "link": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html"
     },
     {
-      "headline": "UK bond yields hit fresh 19-year high, adding to pressure on Healey - Reuters",
+      "headline": "Stock Market Today: Dow, S&P 500 Open Higher; Global Bond Selloff Deepens \u2014 Live Updates",
       "score": 8,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "UK bond yields hit fresh 19-year high, adding to pressure on Healey\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-09-02 15:30",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQlF1REpnZkFBOEQ5aWtMa2dFUExMOFRLMUxBQzgzeTdfYTByQ0dfbldMajJEVVloel9vb19MMEVkSHgtVTFaTGhhcjZRQURfOWREdkZoZGNtR2tvYmYzWkpIbTNzNGxQSGIwcDhsRnNubGhTN254TEMtek5Xdjhhbi03aDRWVG11RVQxbTNGVm80Ny1sRUVlRzFvVGlaNlVMWk1POEJxdkM5SjdGR3RoeG1lQ3M?oc=5"
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-09-02 15:35",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -139,7 +131,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -149,28 +141,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-03 10:23",
+      "date": "2026-09-03 17:38",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Whether the Fed raises interest rates this month isn\u2019t as big a deal for stocks as you might think",
+      "headline": "Stocks gain as bonds recover; rising Gulf tensions boost oil - Reuters",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "There are more important things for investors to be worried about.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-03 09:59",
-      "link": "https://www.marketwatch.com/story/whether-the-fed-raises-interest-rates-this-month-isnt-as-big-a-deal-for-stocks-as-you-might-think-6464b88d?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Why alarming bond yields might drop sooner than investors think",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The surge in government bond yields that has alarmed investors may reverse itself has cyclical forces overwhelm fears over the sustainability of debt, one strategist argues on Thursday.",
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Stocks gain as bonds recover; rising Gulf tensions boost oil\u00a0\u00a0Reuters",
       "category": "fixed_income",
-      "date": "2026-09-03 09:13",
-      "link": "https://www.marketwatch.com/story/why-alarming-bond-yields-might-drop-sooner-than-investors-think-675d908b?mod=mw_rss_topstories"
+      "date": "2026-09-03 14:08",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5"
     },
     {
       "headline": "Stocks climb and US yields ease; yen jumps against dollar - Reuters",
@@ -193,84 +175,104 @@
       "link": "https://www.cnbc.com/2026/09/02/ford-sales-f-150-production.html"
     },
     {
-      "headline": "What to watch in Broadcom\u2019s upcoming earnings \u2013 and why Nvidia is running",
+      "headline": "Fed Chairman Warsh Lays Out His Own Data Dashboard for Reading the US Economy",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Federal Reserve Chairman Kevin Warsh used his keynote speech in Jackson Hole, Wyoming, last week to map out some of the key data points he leans on to read the US economy, offering new insight into his approach to policy making.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-02 13:18",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-02/fed-s-warsh-lays-out-data-dashboard-to-read-us-economy"
+    },
+    {
+      "headline": "Bank of Canada mulls Trump tariff shock as it holds interest rates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "category": "corporate_earnings",
-      "date": "2026-09-02 15:54",
-      "link": "https://www.cnbc.com/2026/09/02/what-to-watch-in-broadcoms-upcoming-earnings-and-why-nvidia-is-running-.html"
+      "impact": "The U.S.-Canada trade dispute and the descent into a retaliatory tariff blitz complicated the job for the Bank of Canada in its Wednesday decision.",
+      "category": "global_markets",
+      "date": "2026-09-02 10:29",
+      "link": "https://www.cnbc.com/2026/09/02/bank-canada-rate-decision-trump-tariffs.html"
     },
     {
-      "headline": "Private equity funds are losing to the S&P 500 of late\u2014why investments for the wealthy aren't necessarily better",
+      "headline": "The bond market has a supply problem \u2014 and it\u2019s pushing yields higher",
       "score": 7,
-      "source": "CNBC",
+      "source": "Business Insider",
       "sentiment": "positive",
-      "impact": "Private equity has lagged the S&P 500 in the last few years despite longer-term outperformance.",
-      "category": "us_equities",
-      "date": "2026-09-02 14:08",
-      "link": "https://www.cnbc.com/2026/09/02/why-funds-meant-for-wealthier-investors-dont-always-perform-better.html"
+      "impact": "Bond yields help set borrowing costs across the economy, from mortgages to student and car loans.",
+      "category": "fixed_income",
+      "date": "2026-09-02 06:35",
+      "link": "https://www.businessinsider.com/bond-yields-rates-10-year-treasury-global-bond-market-selloff-2026-9"
     },
     {
-      "headline": "Dow Jones Futures: Dell, Credo, Palo Alto Are Earnings Movers Late; Oil Prices Keep Rising",
+      "headline": "Analysts warn that benchmark bond yields are approaching \u2018concern zone\u2019",
       "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "positive",
-      "impact": "The Dow Jones and Nasdaq 100 fell below their 50-day lines as oil prices soared.",
-      "category": "us_equities",
-      "date": "2026-09-02 05:47",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/"
-    },
-    {
-      "headline": "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently",
-      "score": 7,
-      "source": "CNBC",
+      "source": "Post Magazine",
       "sentiment": "negative",
-      "impact": "Retailers have diverged on how they've reported tariff refunds in their earnings this quarter, with some choosing to lower prices and others boosting margins.",
-      "category": "corporate_earnings",
-      "date": "2026-08-31 14:12",
-      "link": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html"
+      "impact": "With US 10-year Treasury yield at a 20-month high, alarm bells expected to ring if it crosses 5 per cent tipping point.",
+      "category": "fixed_income",
+      "date": "2026-09-02 03:03",
+      "link": "https://www.scmp.com/economy/global-economy/article/3366046/bessent-addresses-g20-peers-analysts-warn-benchmark-bond-yields-near-concern-zone"
     },
     {
-      "headline": "Hope fading for survivors a week after devastating flood in Nepal - Reuters",
+      "headline": "ChargePoint CEO says 70% stock surge 'is the beginning of the momentum'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The infrastructure company is toward the end of a three-year business plan that has boosted revenue and significantly cut the company's losses.",
+      "category": "global_markets",
+      "date": "2026-09-03 17:05",
+      "link": "https://www.cnbc.com/2026/09/03/chargepoint-ceo-50percent-stock-surge-is-the-beginning-of-the-momentum.html"
+    },
+    {
+      "headline": "Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Major automakers in the U.S. are urging Congress to ban the domestic sale, import and manufacturing of Chinese connected vehicles, hardware and software.",
+      "category": "global_markets",
+      "date": "2026-09-03 16:51",
+      "link": "https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html"
+    },
+    {
+      "headline": "Lockheed Martin (NYSE:LMT) Faces Pressure Despite Earnings Beat",
+      "score": 6,
+      "source": "Kalkine Media",
+      "sentiment": "neutral",
+      "impact": "Lockheed Martin (NYSE:LMT) is experiencing technical pressure with its stock falling below key moving averages, despite reporting stronger-than-expected quarterly earnings and maintaining its fiscal year outlook. The aerospace and defense company benefits from resilient government demand and a decla",
+      "category": "us_equities",
+      "date": "2026-09-03 16:13",
+      "link": "https://kalkinemedia.com/us/stocks/industrial/lockheed-martin-nyselmt-faces-pressure-despite-earnings-beat"
+    },
+    {
+      "headline": "US to seek back payment from Europe for Ukraine aid, Trump says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Hope fading for survivors a week after devastating flood in Nepal\u00a0\u00a0Reuters",
+      "impact": "US to seek back payment from Europe for Ukraine aid, Trump says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-03 09:07",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcVdUSXFlU2ZFTWZLSzRocTR2dXNvRWQ3NFFBWnYyVGU5RTBWWDV1el9NTEl3WHppV25KdFdvRjFXVWJRNTVMUHZ2MXRDSV9nejRDUVpOMTZCYTRWdUNXaDVnbFJJNGE3bDFrSzAtWkJYemxSZXotWkUyeEpSZDhJQlJ2NGd3MGJRS09CbVA4eEhPbUZjcU9KSjJjbUU1OUZfckxR?oc=5"
+      "date": "2026-09-03 15:59",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVJMTlRnNjZsN3VYWVl3N2NQYl9EMjBhcHR6Qzl0WDk4QTBSRnFPZFFBWnFMOW0zRE9uX1BJVmhGbnlPLUZkRG5UOXZ1LWhOdXctWFFGbmF2ZVVMcEZ4SVVtYnoweU0wa3lNMWI2Sm1iME9YcnpOYVlvSmh3OUUzYUZDUUpHN0NFVWNrNXVRVkNiS0E1amRfeXI0SXoxTEw3eWtTTXM2ZTJqMVdnaXVHelNtRQ?oc=5"
     },
     {
-      "headline": "Broadcom stock fall as investors weigh guidance. Here\u2019s what Wall Street analysts are saying.",
+      "headline": "Big lessons from 12 stock exits, including Cramer's biggest-ever disappointment",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "JPMorgan said that while guidance for revenue for the current quarter was in-line with analysts\u2019 expectations, it was likely below that of investors.",
-      "category": "us_equities",
-      "date": "2026-09-03 09:00",
-      "link": "https://www.marketwatch.com/story/broadcom-stock-fall-as-investors-weigh-guidance-heres-what-wall-street-analysts-are-saying-9048c0e6?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Iran war escalation raises concern over civilian death toll - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Iran war escalation raises concern over civilian death toll\u00a0\u00a0Reuters",
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "For stock investors, 2026 has meant constantly adjusting to geopolitical and economic pressures \u2014 and most importantly, protecting profits.",
       "category": "global_markets",
-      "date": "2026-09-03 08:24",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmJEcTdhQU9kcW41Z2J6enVZU2NHQ253eVV1VDJKOXBSTTJfbGhfVi1wbTQ0U1gzRllLb2xUUV9LRGRZaWpvaUlSWWRwQTdBaXdNY2x1Z3pxU1U1WjJSdzdKWGR6a2FLSXN6dnBPQ3NhM1hwUkxOZlIyd0dDX0ZycjdVSlpEUFN5N1NQbWR2UW1oRHNBU3BTZENPbGotQVFOSmdfUUFJNERYbEZTVzU3WDlrUQ?oc=5"
+      "date": "2026-09-03 15:53",
+      "link": "https://www.cnbc.com/2026/09/03/big-lessons-from-12-stock-exits-including-cramers-biggest-ever-disappointment-.html"
     },
     {
-      "headline": "Oil falls from recent highs as investors weigh uncertainty over US-Iran strikes - Reuters",
+      "headline": "NFL set for first-ever game in Melbourne, Australia, in international expansion",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Oil falls from recent highs as investors weigh uncertainty over US-Iran strikes\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-03 08:12",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5vakhhby03N0RCUHNMTU1jY1F4OGdsMmt2cThTLW5hU0VNM181YUVwYW1wSlJsbGoweDQtd3ROSTFfMDhUSGpWMHI5WG9qeTByTGJpVTRZaER0dGlwZ1BULXVRUzlPemRSOC1ranltaDQ0QjJ4OWMwWTRrNjJ6eDdkaExIMjFiVDJlbUxZcTU2Sk1DRE1uNTR5SkdPM0VJanktVUI1RkNpcXoxRkxBN1lkUDRnUQ?oc=5"
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The San Francisco 49ers and the L.A. Rams are playing the NFL's first-ever game in Australia, marking an expanded push to grow the game internationally.",
+      "category": "global_markets",
+      "date": "2026-09-03 15:38",
+      "link": "https://www.cnbc.com/2026/09/03/nfl-rams-49ers-australia-international-expansion.html"
     }
   ]
 }
