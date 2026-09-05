@@ -1,29 +1,37 @@
 {
-  "timestamp": "2026-09-04T17:27:06.984800",
+  "timestamp": "2026-09-05T09:39:34.711219",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
+    "avg_relevance": 7.4,
     "bullish": 12,
     "neutral": 10,
     "bearish": 3,
-    "high_priority": 10,
-    "material_events": 4
+    "high_priority": 11,
+    "material_events": 5
   },
   "sources": {
+    "MarketWatch": 3,
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "CNBC": 8,
+    "CNBC": 6,
     "The Wall Street Journal": 1,
-    "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "Investing.com India": 1,
-    "Yahoo Finance": 1
+    "Caixin/S&P Global": 1
   },
   "top_signals": [
+    {
+      "headline": "Stock Market on Sept. 3, 2026: Dow, S&P 500, Nasdaq end sharply higher as software stocks and Big Tech rally; Treasury yields ease after Fed governor Waller's remarks",
+      "score": 10,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Major U.S. stock indexes climbed Thursday as Treasury yields edged lower after remarks from Federal Reserve governor Christopher Waller. The Dow, S&P 500 and Nasdaq all saw back-to-back gains.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-03 22:00",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-oil-prices-bond-yields-ease-ism-services-pmi"
+    },
     {
       "headline": "Bank Indonesia Holds BI-Rate at 5.75% to Support Rupiah Stability",
       "score": 9,
@@ -31,7 +39,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +59,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +69,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +109,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -115,14 +123,14 @@
       "link": "https://www.cnbc.com/2026/09/04/treasurys-bonds-nonfarm-payrolls-unemployment-data.html"
     },
     {
-      "headline": "Stock Market Today: Treasury Yields Steady, Yen Jumps \u2014 Live Updates",
+      "headline": "Stocks, Bonds Rally After Dovish Fed Comments",
       "score": 8,
       "source": "The Wall Street Journal",
       "sentiment": "positive",
       "impact": "Latest market news.",
-      "category": "fixed_income",
-      "date": "2026-09-03 12:18",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-03-2026"
+      "category": "us_monetary_policy",
+      "date": "2026-09-03 21:03",
+      "link": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -131,7 +139,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -141,7 +149,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-04 17:27",
+      "date": "2026-09-05 09:39",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -165,6 +173,16 @@
       "link": "https://www.cnbc.com/2026/09/04/diesel-price-record-high-ukraine-iran-inflation.html"
     },
     {
+      "headline": "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Norway's $2.3 trillion investment fund says it can diversify into new areas with greater risk and returns.",
+      "category": "fixed_income",
+      "date": "2026-09-04 06:46",
+      "link": "https://www.cnbc.com/2026/09/04/worlds-biggest-sovereign-wealth-fund-plans-to-cut-treasury-holdings.html"
+    },
+    {
       "headline": "Ford's production of highly profitable Super Duty trucks hits 20-year high as it recovers from supplier fires",
       "score": 7,
       "source": "CNBC",
@@ -175,104 +193,84 @@
       "link": "https://www.cnbc.com/2026/09/02/ford-sales-f-150-production.html"
     },
     {
-      "headline": "WNBA Commissioner Cathy Engelbert to retire at the end of 2026 ",
+      "headline": "Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Engelbert oversaw a period of unprecedented growth for the WNBA, but has faced criticism from players over her leadership.",
+      "impact": "Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-04 17:12",
-      "link": "https://www.cnbc.com/2026/09/04/wbna-commissioner-cathy-engelbert-to-retire-at-the-end-of-2026-.html"
+      "date": "2026-09-05 08:51",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5"
     },
     {
-      "headline": "Longtime host Maria Bartiromo disputes reports of Fox News termination",
+      "headline": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Molson Coors Beverage, Builders FirstSource and Trade Desk will be getting the boot from the benchmark index.",
+      "category": "us_equities",
+      "date": "2026-09-04 21:46",
+      "link": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Israel says it strikes southern Lebanon after Hezbollah drone launch - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israel says it strikes southern Lebanon after Hezbollah drone launch\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-04 21:09",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2dOV1l1QTdWZWR1S3p6cVMzb01JV2dhV3d5OVRfTzZ1RXZOLXJ0Z2lEU2lLemhDVklwS0x0c2xPRWdzZG1sT2owUHZkVjF5dEFQU1FMVmwzSUFPbUJBLUkzd01DcnVXNVRsZVhKUk9DenpjMWZ1aFBTOThRMWdQWHJtdlM5VWYwT3MyNVJmazlzb3B6dHJzXzI5QnZqTzhROENzMUpKMXhnVDZob25fWkItbnhTUEZSM0Ezb0hYYw?oc=5"
+    },
+    {
+      "headline": "Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "President Trump has said damage to the Reflecting Pool was due to vandalism, not to a flawed installation of a new liner as prosecutors say.",
+      "category": "global_markets",
+      "date": "2026-09-04 20:22",
+      "link": "https://www.cnbc.com/2026/09/04/reflecting-pool-hearn-doj-trump-pirro.html"
+    },
+    {
+      "headline": "Longtime Fox News host Maria Bartiromo disputes reports of termination",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "Maria Bartiromo, the longtime host of Fox News and Fox Business programming, has disputed reports she was fired from the cable TV networks.",
       "category": "global_markets",
-      "date": "2026-09-04 17:09",
+      "date": "2026-09-04 20:17",
       "link": "https://www.cnbc.com/2026/09/04/maria-bartiromo-fox-news-termination.html"
     },
     {
-      "headline": "Cybercabs are a game changer, says Mike Khouw. Here's how he's trading Tesla",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The strategist at YieldMaxETFs breaks down how a bullish bet on Tesla could pay off for options traders.",
-      "category": "global_markets",
-      "date": "2026-09-04 16:56",
-      "link": "https://www.cnbc.com/2026/09/04/cybercabs-are-a-game-changer-says-mike-khouw-heres-how-hes-trading-tesla.html"
-    },
-    {
-      "headline": "WBNA Commissioner Cathy Engelbert to retire at the end of 2026",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Engelbert oversaw a period of unprecedented growth for the WNBA, but has faced criticism from players over her leadership.",
-      "category": "global_markets",
-      "date": "2026-09-04 15:56",
-      "link": "https://www.cnbc.com/2026/09/04/wbna-commissioner-cathy-engelbert-to-retire-at-the-end-of-2026-.html"
-    },
-    {
-      "headline": "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "The president needs lower gasoline prices and mortgage rates \u2014 fast.",
-      "category": "fixed_income",
-      "date": "2026-09-04 15:48",
-      "link": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Interface (NASDAQ:TILE) director Daniel Hendrix sells $297,040 in stock By Investing.com",
-      "score": 6,
-      "source": "Investing.com India",
-      "sentiment": "negative",
-      "impact": "Interface Inc. director Daniel Hendrix sold 8,000 shares of common stock for a total of $297,040 on September 2, 2026. Following this transaction, Hendrix directly holds 88,147 shares and indirectly holds 35,072 shares through a trust. The company shows strong stock performance with a 26% gain over ",
-      "category": "us_equities",
-      "date": "2026-09-04 15:42",
-      "link": "https://in.investing.com/news/stock-market-news/interface-nasdaqtile-director-daniel-hendrix-sells-297040-in-stock-93CH-5583078"
-    },
-    {
-      "headline": "S&P 500 changes are coming soon. These stocks could be named to the index today.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Twilio, Bloom Energy and Cheniere Energy are among the top contenders to join the S&P 500 in the upcoming quarterly rebalancing.",
-      "category": "us_equities",
-      "date": "2026-09-04 15:39",
-      "link": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "US sanctions Turkish bank, two subsidiaries to pressure Iran - Reuters",
+      "headline": "Trump says US may hit Iran's Pickaxe Mountain soon - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US sanctions Turkish bank, two subsidiaries to pressure Iran\u00a0\u00a0Reuters",
+      "impact": "Trump says US may hit Iran's Pickaxe Mountain soon\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-04 15:38",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5"
+      "date": "2026-09-04 20:11",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmd2SXBwYUJhclYxN0pLMDhjUXVmeHhzUTRPY0FsM3hPZlN4YkprT2Y0R0l6Z3U5UXNWVjRDcFJUN2NNa1FsaXlIejlDUXVpbWh4UWJNdUZzZUZpdGN5WkxQa24zYkktU191MTZsV0VwNXcwRzVPRHA4YjlCUUwwajE4akV3Y3pLX0thQXEtTTlSRkJRMGc?oc=5"
     },
     {
-      "headline": "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
+      "headline": "Why Oracle\u2019s stock looks like a compelling buy ahead of earnings",
       "score": 6,
-      "source": "Yahoo Finance",
-      "sentiment": "neutral",
-      "impact": "Western Digital (WDC) shares have dropped 2.2% since its last earnings report, underperforming the S&P 500. Despite this, the company reported strong Q4 fiscal 2026 earnings, beating estimates with significant revenue growth driven by increased customer storage demand, especially for AI and cloud-dr",
-      "category": "us_equities",
-      "date": "2026-09-04 15:31",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-down-2-153035488.html"
-    },
-    {
-      "headline": "American Express banking bonuses and promotions: Earn $300",
-      "score": 6,
-      "source": "CNBC",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "American Express is currently offering several banking bonuses and promotions, including a $300 bonus for opening a new American Express\u00ae Rewards Checking Account and a 30,000 Membership Rewards\u00ae points bonus for new American Express\u00ae Business Checking accounts. Additionally, there are limited-time ",
+      "impact": "While there are long-term debates around Oracle\u2019s stock, analysts say the company looks poised to benefit from upbeat pricing trends and more when it reports results next week.",
+      "category": "corporate_earnings",
+      "date": "2026-09-04 19:59",
+      "link": "https://www.marketwatch.com/story/why-oracles-stock-looks-like-a-compelling-buy-ahead-of-earnings-12a04d7b?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Witkoff, Kushner heading abroad to discuss Ukraine peace, Trump says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Witkoff, Kushner heading abroad to discuss Ukraine peace, Trump says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-04 15:23",
-      "link": "https://www.cnbc.com/select/american-express-promotions-bonuses/"
+      "date": "2026-09-04 19:44",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5"
     }
   ]
 }
