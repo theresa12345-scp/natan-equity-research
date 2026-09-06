@@ -1,39 +1,29 @@
 {
-  "timestamp": "2026-09-05T16:38:13.137676",
+  "timestamp": "2026-09-06T09:54:51.835696",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 15,
-    "neutral": 8,
-    "bearish": 2,
-    "high_priority": 11,
-    "material_events": 5
+    "avg_relevance": 7.0,
+    "bullish": 11,
+    "neutral": 13,
+    "bearish": 1,
+    "high_priority": 9,
+    "material_events": 4
   },
   "sources": {
-    "MarketWatch": 3,
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
-    "Bloomberg": 3,
-    "CNBC": 5,
-    "The Wall Street Journal": 1,
+    "Reuters": 10,
+    "Bloomberg": 2,
+    "CNBC": 3,
     "Caixin/S&P Global": 1,
-    "Yahoo Finance": 1,
-    "Yahoo! Finance Canada": 1
+    "Business Insider": 1,
+    "AD HOC NEWS": 1,
+    "MarketBeat": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
-    {
-      "headline": "Stock Market on Sept. 3, 2026: Dow, S&P 500, Nasdaq end sharply higher as software stocks and Big Tech rally; Treasury yields ease after Fed governor Waller's remarks",
-      "score": 10,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Major U.S. stock indexes climbed Thursday as Treasury yields edged lower after remarks from Federal Reserve governor Christopher Waller. The Dow, S&P 500 and Nasdaq all saw back-to-back gains.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-03 22:00",
-      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-oil-prices-bond-yields-ease-ism-services-pmi"
-    },
     {
       "headline": "Bank Indonesia Holds BI-Rate at 5.75% to Support Rupiah Stability",
       "score": 9,
@@ -41,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -51,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -61,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -71,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -81,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -91,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -101,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -111,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -125,23 +115,13 @@
       "link": "https://www.cnbc.com/2026/09/04/treasurys-bonds-nonfarm-payrolls-unemployment-data.html"
     },
     {
-      "headline": "Stocks, Bonds Rally After Dovish Fed Comments",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-03 21:03",
-      "link": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -151,58 +131,88 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-05 16:38",
+      "date": "2026-09-06 09:54",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Align Technology (ALGN) Could Be 24% Undervalued On Mixed Earnings Guidance",
+      "headline": "Trump demands the Fed lower interest rates after a blowout August jobs report",
       "score": 7,
-      "source": "Yahoo Finance",
-      "sentiment": "positive",
-      "impact": "Align Technology (ALGN) is considered 24% undervalued despite recent mixed earnings guidance, which included meeting revenue, exceeding earnings forecasts, but also issuing softer future guidance. The stock has seen a 12% drop since its earnings release, contributing to a 9.26% decline over 30 days,",
-      "category": "corporate_earnings",
-      "date": "2026-09-05 14:13",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/align-technology-algn-could-24-141317011.html"
-    },
-    {
-      "headline": "Trump tells Fed to slash rates or he'll end trade with countries with U.S. surpluses",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "President Donald Trump demanded that the Fed slash interest rates or else he will cut off trade with countries with which the U.S. maintains trade deficits.",
+      "source": "Business Insider",
+      "sentiment": "neutral",
+      "impact": "Trump's post puts his handpicked Fed chair, Kevin Warsh, in a tough position before this month's policy meeting, as markets eye higher odds of a rate hike.",
       "category": "us_monetary_policy",
-      "date": "2026-09-04 13:56",
-      "link": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html"
+      "date": "2026-09-04 15:16",
+      "link": "https://www.businessinsider.com/trump-fed-interest-rates-cuts-august-jobs-report-kevin-warsh-2026-9#article"
     },
     {
-      "headline": "US equity funds record second weekly outflow on Iran tensions, high yields - Reuters",
-      "score": 7,
+      "headline": "Mettler-Toledo stock holds firm after earnings beat and modest growth",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Mettler-Toledo stock remains strong after the company reported better-than-expected earnings of $11.46 per share, surpassing analyst estimates of $10.78, and achieved mid-single-digit revenue growth of 4.5% to $1.03 billion. The precision instruments group maintains robust profitability with a net m",
+      "category": "corporate_earnings",
+      "date": "2026-09-06 08:46",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/mettler-toledo-stock-holds-firm-after-earnings-beat-and-modest-growth/70059168"
+    },
+    {
+      "headline": "Expand Energy Corporation (NASDAQ:EXE) Given Consensus Recommendation of \"Moderate Buy\" by Brokerages",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Expand Energy Corporation (NASDAQ:EXE) has received a \"Moderate Buy\" consensus recommendation from twenty-three analysts, with an average 12-month price target of $126.89, exceeding its $97.91 opening price. The company recently reported quarterly EPS of $1.33, beating estimates, though revenue of $",
+      "category": "us_equities",
+      "date": "2026-09-06 08:30",
+      "link": "https://www.marketbeat.com/instant-alerts/consensus-expand-energy-corporation-nasdaq-exe-given-consensus-recommendation-of-moderate-buy-by-brokerages-2026-09-06/"
+    },
+    {
+      "headline": "Israeli military says it strikes southern Lebanon after Hezbollah launched drones - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israeli military says it strikes southern Lebanon after Hezbollah launched drones\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-06 04:15",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5"
+    },
+    {
+      "headline": "US, Iranian forces fire at vessels in waters near Iran - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US, Iranian forces fire at vessels in waters near Iran\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-05 23:09",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5"
+    },
+    {
+      "headline": "US ambassador visits Palestinian town amid rise in West Bank settler violence - Reuters",
+      "score": 6,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "US equity funds record second weekly outflow on Iran tensions, high yields\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-09-04 13:05",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeGhMbVBWWDBNWUFLb3ptNmx5c3VITlc1Zzc3TlZGcjJCbnY4cGliQ1R1UmlLZi1OQnpxY2txSlRsME9oZUZIVzQxcnJHeGIwN1VkdUpaejVnSjFLaUp5a1o1Y3kxV0kwXzVNSExyWC1Nb3RVc2hyRF82Sk5yc01xX1hXcjdjQ3VPRExPd1Z4OXdNbllfUFpRak0wU1ppejVrNmxGMmFPX3ZlN3RxdndGSV8wNnVTZw?oc=5"
-    },
-    {
-      "headline": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Higher prices come as Ukraine pounds Russian refineries, forcing Moscow to ban diesel exports.",
+      "impact": "US ambassador visits Palestinian town amid rise in West Bank settler violence\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-04 12:40",
-      "link": "https://www.cnbc.com/2026/09/04/diesel-price-record-high-ukraine-iran-inflation.html"
+      "date": "2026-09-05 22:29",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr?oc=5"
     },
     {
-      "headline": "Smart Ring Maker Oura Files for US IPO as Revenue Surges",
-      "score": 7,
-      "source": "Bloomberg",
+      "headline": "Why the jobs report will actually be good for bonds",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Based on the chatter on Wall Street, you\u2019d think labor has never had it so good. Sadly for working Americans, this isn\u2019t actually the case.",
+      "category": "fixed_income",
+      "date": "2026-09-05 18:26",
+      "link": "https://www.marketwatch.com/story/why-the-jobs-report-will-actually-be-good-for-bonds-eb062fda?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Americans hit with record-high Labor Day Weekend gasoline prices - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Health and fitness ring-maker Oura Inc. filed for an initial public offering, showing soaring revenue as well as increasing losses.",
-      "category": "corporate_earnings",
-      "date": "2026-09-03 21:06",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-03/smart-ring-maker-oura-files-for-us-ipo-as-revenue-surges"
+      "impact": "Americans hit with record-high Labor Day Weekend gasoline prices\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-05 17:44",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFRnN3lrWTZLMXNUSW1MWWwxemVSc1RuaDM1dnhkWlZpbDJZT2t5dGYxRWlMa1RiblhPN0ttUzRHUDcwUGRVVEsyb092RTAzR3lZeDN6dFpRVDN4SjhlYng0Y082RjJSVEVZWkg4SnZ2SGtaNW1DbExVTklPMXZHdnVWZTZqbUZ6QkRYMU1mLWhyeEF5VzQ2anpJaThuVmNxSF8xWTBDRkNJVzMybTV0Rlo5dlFiUFk?oc=5"
     },
     {
       "headline": "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
@@ -215,34 +225,24 @@
       "link": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories"
     },
     {
-      "headline": "How to invest in a booming stock market that\u2019s way cheaper than the S&P 500",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Poland\u2019s reclassification as a developed economy from an emerging market opens it up for investment by many more investors.",
-      "category": "us_equities",
-      "date": "2026-09-05 16:12",
-      "link": "https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
+      "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-05 15:52",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5"
+      "impact": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-05 16:19",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5"
     },
     {
-      "headline": "New to The Street Broadcasts at 6:30 PM ET Across Bloomberg U.S., Latin America and MENA, Featuring Lantern Pharma (NASDAQ:LTRN), SafeSpace Global (OTCID:SSGC) and FreeCast (NASDAQ:CAST)",
+      "headline": "I'm a nutritionist from Japan: 7 'essential' anti-inflammatory foods that I swear by",
       "score": 6,
-      "source": "Yahoo! Finance Canada",
-      "sentiment": "positive",
-      "impact": "New to The Street announced a broadcast featuring executive interviews with Lantern Pharma (NASDAQ:LTRN), SafeSpace Global (OTCID:SSGC), and FreeCast (NASDAQ:CAST) airing at 6:30 PM ET across Bloomberg Television in the U.S., Latin America, and MENA. The program highlights each company's strategies ",
-      "category": "us_equities",
-      "date": "2026-09-05 14:55",
-      "link": "https://ca.finance.yahoo.com/news/street-broadcasts-6-30-pm-145000921.html"
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Japanese nutritionist and longevity expert Michiko Tomioka shares the inflammation-fighting foods that are always in her kitchen.",
+      "category": "global_markets",
+      "date": "2026-09-05 15:30",
+      "link": "https://www.cnbc.com/2026/09/05/nutritionist-from-japan-essential-anti-inflammatory-foods-i-swear-by.html"
     },
     {
       "headline": "US military strikes three Iranian crude oil carriers, Central Command says - Reuters",
@@ -265,14 +265,14 @@
       "link": "https://www.cnbc.com/2026/09/05/dolly-parton-gloria-steinem-never-retired.html"
     },
     {
-      "headline": "GM vs. Ford: U.S. defense, energy sectors add to automakers' century-old rivalry",
+      "headline": "PODCAST: Kharg Island, OpenAI agents, Germany's election and the return of CDs - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "General Motors and Ford are looking for new potential growth areas, including by seeking military contracts and getting into energy storage businesses.",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "PODCAST: Kharg Island, OpenAI agents, Germany's election and the return of CDs\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-05 12:00",
-      "link": "https://www.cnbc.com/2026/09/05/gm-ford-defense-energy.html"
+      "date": "2026-09-05 12:42",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTXdrVVUyTWhkMVdicnlOVkYxaHI5cjlpaFE5LS1IVFNHc3RVMms2TnY2U1lyNmhQMlhpY09RLVozbngwdGo1QWoxaEM2dTA0aUY3TV9ZNUtscVdBOVQ3VGRzYzE1T3BRTG1hZmFrSnZ2T3A5d1U4VUk1WTZ0SUZGZ1FWOFUxelBNZnFrcFViUDJ2bU4wUDFSWWQwZ0dPZGx1ZlE?oc=5"
     }
   ]
 }
