@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-09T10:24:35.591905",
+  "timestamp": "2026-09-09T17:41:20.048245",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 6.9,
-    "bullish": 9,
-    "neutral": 13,
+    "avg_relevance": 7.3,
+    "bullish": 10,
+    "neutral": 12,
     "bearish": 3,
-    "high_priority": 8,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,11 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 15,
+    "Reuters": 7,
     "Bloomberg": 2,
+    "CNBC": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1,
-    "MarketBeat": 2
+    "MarketWatch": 5,
+    "Yahoo Entertainment": 1,
+    "The Wall Street Journal": 1,
+    "Investing.com": 1
   },
   "top_signals": [
     {
@@ -28,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +101,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Bessent bond plan details to be revealed as Treasury secretary warns FX traders he's 'the house now'",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The department is expected to announce around 11 a.m. the size of a buyback operation it announced Aug. 19.",
+      "category": "fixed_income",
+      "date": "2026-09-09 12:25",
+      "link": "https://www.cnbc.com/2026/09/09/bessent-bond-plan-details-to-be-revealed-as-treasury-secretary-warns-fx-traders-hes-the-house-now.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -108,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,158 +131,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-09 10:24",
+      "date": "2026-09-09 17:41",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "UK borrows at highest interest rate since 1998, showing pressure on public finances - Reuters",
+      "headline": "Fed rate hike hinges on two key inflation reports in the next two days",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "UK borrows at highest interest rate since 1998, showing pressure on public finances\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-08 15:39",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT3VpUHFNT2xIeWVHSTFCVEVrbV9ROWp1b1UxMUVWOTFPNV9zdEJ0c3dxR2VaYTlldEZhMXhEMnhKZmZuWjlMTFhKSUNkOWdmR3UzdkVUUnRscHRPUzIwY0UwYmNHY2k0VkJNR2NfdzR2MTNwTVV0bmM0ejd2Rkd1ZUl0S0VCMktXamRBOG10NU1nTWRyeWxJNkhqdkx2UmFqYThaLWZiWFcyQnpLU3pqSnV3?oc=5"
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Consumer and wholesale prices are rising again. Just how bad does it have to get for the Fed to act?",
+      "category": "us_monetary_policy",
+      "date": "2026-09-09 16:18",
+      "link": "https://www.marketwatch.com/story/fed-rate-hike-hinges-on-two-key-inflation-reports-in-the-next-two-days-09d63bd9?mod=mw_rss_topstories"
     },
     {
-      "headline": "GameStop now generates more revenue from collectibles than video games",
-      "score": 6,
+      "headline": "Investors worried about rising bond yields are keeping a close eye on this corner of the market",
+      "score": 7,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "The original meme stock is not the company that was famously portrayed in the movie \u201cDumb Money.\u201d",
+      "impact": "U.S. small-cap stocks have hit a pivotal point, trading below a key level as interest rates in the bond market climb ahead of the Federal Reserve\u2019s highly anticipated policy meeting next week.",
+      "category": "fixed_income",
+      "date": "2026-09-09 16:09",
+      "link": "https://www.marketwatch.com/story/investors-worried-about-rising-bond-yields-are-keeping-a-close-eye-on-this-corner-of-the-market-aa4096c8?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Treasury will buy more government bonds than previously announced. The market remains \u2018underwhelmed.\u2019",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The Treasury Department said it would buy back $6 billion in U.S. government debt, exceeding the amount previously announced in its effort to contain bond yields.",
+      "category": "fixed_income",
+      "date": "2026-09-09 15:53",
+      "link": "https://www.marketwatch.com/story/treasury-to-buy-back-more-government-bonds-than-previously-announced-940363ee?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Oil\u2019s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Oil prices rose above $100 a barrel on Wednesday for the first time in seven weeks, reviving concerns about global energy supply disruptions and a fresh inflationary shock just as major central banks prepare to make key interest-rate decisions later this month.",
+      "category": "commodities",
+      "date": "2026-09-09 15:14",
+      "link": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "UK food price inflation to rise above 6% next year, industry says - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "UK food price inflation to rise above 6% next year, industry says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-09 08:25",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMFVPRGRLS3ZXeGxNaTE3TUVSaDRINGRnUUtEMW5ibjNUWnJfaTZGUGs4QXB6a2tXM2ZhcEFsTW9jM1oyM1ZIMHYwek90a3hqTWFZMnBXVGxFMG1oMTNYS1RteDRUU2ZQRmcyNXVuWVJYcEtHVmN2UmdFMjFRYzhBM2hRaV8yS2JqU2N4SjdocnpzVWkzTUoycXUwNTVKcXk4Z2pjT3ZFaEo?oc=5"
+    },
+    {
+      "headline": "Hungary loses court fight over frozen Russian asset profits for Ukraine - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Hungary loses court fight over frozen Russian asset profits for Ukraine\u00a0\u00a0Reuters",
       "category": "corporate_earnings",
-      "date": "2026-09-09 10:06",
-      "link": "https://www.marketwatch.com/story/gamestop-now-generates-more-revenue-from-collectibles-than-video-games-9f3451f4?mod=mw_rss_topstories"
+      "date": "2026-09-09 08:01",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeWFkZTlWaGVTNDVFbnZKYXhRR05uOEhVajJyMmV1akxrT29oWWk2Z1FzVEE3VzRYd3FiUGtKemlqQ1A1cEQyWVBmRmhBQnZ1R1RBUGh1RHpUSHhPMVlzRXBsSm1qSmNEREtuYi1pRXFCQ21uRkZKSGxvaHJGeUtoODV4QVdnUzZYOENld1hKbGc0UWtnZWVLU1d3blJFMEN5UE1ucEJLQWFRRXgwZ3c?oc=5"
     },
     {
-      "headline": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq fall as oil prices rise, US-Canada trade war escalates",
+      "score": 7,
+      "source": "Yahoo Entertainment",
       "sentiment": "neutral",
-      "impact": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-09 09:35",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXlWYlQ0MW1KT1g0U01lVldVbGtRWFU5U1FNVDllbEIwU3U2WElRSmw5QUg2Q2w3TUVUNDBUdWRSNWx1emlYRXdjLXY2NFk2VVgzTWExUHM0TTBHRGxKdlJ6Y0tPSUlvTXFoQzU5THV6b2dLbExKbkxaV1VtamZkRkdkMnpZTlAwNXlxVUxnNkZOdzRwX0MyTUNvN1lWVTV5WmtCX01iSmR2QkdESzl4VWlwbndRVkNfQUVBZm9DdDFFc1BK?oc=5"
+      "impact": "US stocks slipped on Tuesday as rising oil prices and inflation jitters took focus at the start of the holiday-shortened week.",
+      "category": "us_equities",
+      "date": "2026-09-08 17:44",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-8-dow-sp-500-nasdaq-080440338.html"
     },
     {
-      "headline": "Brent crude rises above $100 a barrel as Middle East conflict intensifies - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Brent crude rises above $100 a barrel as Middle East conflict intensifies\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-09 09:10",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5"
-    },
-    {
-      "headline": "Willis Towers Watson Public Limited Company $WTW Shares Purchased by Saudi Central Bank",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Saudi Central Bank increased its holdings in Willis Towers Watson Public Limited Company (NASDAQ:WTW) by 87.3% in the second quarter, purchasing 3,084 additional shares, bringing its total holding to $1.73 million. Institutional investors collectively own 93.09% of the company's stock. Willis Towers",
-      "category": "global_markets",
-      "date": "2026-09-09 09:07",
-      "link": "https://www.marketbeat.com/instant-alerts/filing-willis-towers-watson-public-limited-company-wtw-shares-purchased-by-saudi-central-bank-2026-09-09/"
-    },
-    {
-      "headline": "Saudi Central Bank Purchases New Position in XPO, Inc. $XPO",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Saudi Central Bank has acquired a new position in XPO, Inc. (NYSE:XPO), purchasing 8,012 shares valued at approximately $1.65 million during the second quarter. XPO reported strong quarterly earnings, exceeding estimates with $1.70 per share and a 13.2% increase in revenue. Despite some recent price",
-      "category": "global_markets",
-      "date": "2026-09-09 08:59",
-      "link": "https://www.marketbeat.com/instant-alerts/filing-saudi-central-bank-purchases-new-position-in-xpo-inc-xpo-2026-09-09/"
-    },
-    {
-      "headline": "Oil nears $100 as fresh Middle East strikes raise supply risks - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "headline": "Stock Market Today: Dow off 475 points, S&P 500 lower as Brent crude edges toward $100 a barrel; Amgen falls, Nasdaq higher after Labor Day",
+      "score": 7,
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "Oil nears $100 as fresh Middle East strikes raise supply risks\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-09 08:44",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5"
+      "impact": "Stocks are lower Tuesday as tensions between Washington and Tehran worsen.",
+      "category": "us_equities",
+      "date": "2026-09-08 13:45",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-oil-prices-war-in-iran-escalates-steady-start"
     },
     {
-      "headline": "Saudi Arabia lifts alert in southern city a day after Houthi strikes - Reuters",
+      "headline": "Boston Scientific Won\u2019t Meet Guidance Due to Cyberattack",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "corporate_earnings",
+      "date": "2026-09-08 10:58",
+      "link": "https://www.wsj.com/business/boston-scientific-wont-meet-guidance-due-to-cyberattack-feb29ee1"
+    },
+    {
+      "headline": "GE Aerospace bets on 'black art' of castings to secure jet engine supply - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Saudi Arabia lifts alert in southern city a day after Houthi strikes\u00a0\u00a0Reuters",
+      "impact": "GE Aerospace bets on 'black art' of castings to secure jet engine supply\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-09 08:11",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkFZWWVmRkxOZ0dqSFdYQnh1dkpQTkZBbFdyU2Rydm1aMUo5eDFhNGpTaURVcmZLN25rS0s0ZUlEd1hFdEJ1TXJjT01mVzYtS1I1X2duVjhXTTFseHZOVGNWLURySnN3M0d1aGpVdUZLUXBDT0NMUjlhYXRHdGo4ekY0Q2stN3VyY09XSFRFZTdka1BhMDJnTFR2NzB2eVVzSW9ENV8wYi1jcWZhdEl0VjQxd1l2VXFI?oc=5"
+      "date": "2026-09-09 16:27",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSEZ2VlUxNWU2bFdQdGJtVWp6cHR0bTJoRW1hQVF5RThyMWJ4cGFESGVqelc0MXkyTHZjWWo0ZmRmUnFqN0tHci1OUHdBWDVfdVZPUVZnYmowc1J1QTVmbVZaZFZfbV9nRElDLVJMdERtMzZlVllfZ0oydTdjRm1LTlIwbkhKVGdBOWJTaGZOT2doeld3X1BVTks5VG1VTmcta3lhVmNXT2pvUnV3UG1IV3ctV3Nlc3ZhTlVIYXpoMGo?oc=5"
     },
     {
-      "headline": "COMMENTARY: Oil prices fly blind as the Hormuz enigma deepens - Reuters",
+      "headline": "AI is fueling copper demand. Kevin Simpson thinks this volatile miner is worth the risk",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "COMMENTARY: Oil prices fly blind as the Hormuz enigma deepens\u00a0\u00a0Reuters",
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Kevin Simpson has added Freeport McMoRan Inc. to his dividend income portfolio, viewing it as a calculated risk given copper's strong long-term supply-demand story, driven by AI and data center needs. Despite the stock's volatility and recent price run-up, he believes the valuation becomes more attr",
       "category": "commodities",
-      "date": "2026-09-09 06:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHRWamh0dmRPM3B6NjlrWE5YbnVtMGxDVll0ZGdKalVwOXh2QzMyUmtmR0R6UWg1Sk4xRjV0MVlwb0c2bzJKYWwxVUU2VmszZnpYd2NSQ2U2OXRNZkgzZVc1N3Zaa05IV0hKX3pKSlM0d0JoUnFFdVlXUTE2dXdMaHZhdDdrd1RHcm5tTzlUaFI0VDBxMzNINkw2eEVSREowcmJaOTIzSlQ5ZHBzU3lScg?oc=5"
+      "date": "2026-09-09 16:22",
+      "link": "https://www.cnbc.com/2026/09/09/kevin-simpson-buying-freeport-mcmoran.html"
     },
     {
-      "headline": "Iran attacks US base in Jordan, ships near Hormuz after tankers sunk - Reuters",
+      "headline": "Why Cramer still recommends being 'a little more reserved' about data center stocks",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Iran attacks US base in Jordan, ships near Hormuz after tankers sunk\u00a0\u00a0Reuters",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
       "category": "global_markets",
-      "date": "2026-09-09 04:07",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2FPaUNRYjRBWnd2cmxkT044cmZYbENZYnhTWXAzUGxadUpEZ3N3aHpVSEtodVVsWUt6djBaeFhjUm5JOGVrNEE1SXlaUkxoSzBVaUpaWjZTdkdXZzItRTFOaGtMZWVtbEhpdUFSUWgwczNXa2VqZ3ktdzVhajBmYllFNVJIaUxnMDBLazE4S0VSTzZSbVFxMDZSUVY4aHIxVmhkcUpZeF85TzZYV2tqWkE5bVNWM29qWlE?oc=5"
+      "date": "2026-09-09 16:11",
+      "link": "https://www.cnbc.com/2026/09/09/why-cramer-still-recommends-being-a-little-more-reserved-about-data-center-stocks.html"
     },
     {
-      "headline": "Oil heads for $100, Asia stocks subdued as Middle East tensions escalate - Reuters",
+      "headline": "Earnings call transcript: Optical Cable tops Q3 2026 sales, stock falls",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil heads for $100, Asia stocks subdued as Middle East tensions escalate\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-09 02:27",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3luYTZkUFBsUEhrV1ByVUg5eTcwT0c4ODVwXzJZTHNvVzlhR1hwNVpLSzJ5MmVCT3VqV2wzMTdXb0ZZM00wY194Z3VCV2R2TUNxcGpVNVJrSk9JSS1XMllpQ0hrbEtFTFhaazN6NzFEaGxELW1NUnFFUFVvR1NjWkRrbw?oc=5"
-    },
-    {
-      "headline": "Indian shares decline on crude spike; Coforge tumbles after chairman's exit - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "Investing.com",
       "sentiment": "negative",
-      "impact": "Indian shares decline on crude spike; Coforge tumbles after chairman's exit\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-09 02:20",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUTJ5YTBDcXdScFdqQUJJNmpuSC1YYmZtQUJEbDdlV3dEazhPNWtIb3MwV2lqQTdqakNBZDhlZ21uMHMzNWp4ZFF2djRtZ3hnQnlnRnhzel9CbzJsXzJnSHg3aUlCUGZzZDc1RnpENVBQMEtUUXVYcThYUG1pU1dPdVpqR1BPWjlJSWYwRW02MU9nOVNxV3h5UTFRTHVaSnVPQmU1QW5mZGRWci1oZ2FqUG1TYU9fSGhzS1E?oc=5"
+      "impact": "Optical Cable Corp. (OCC) reported strong fiscal Q3 2026 results with significant increases in sales, gross profit, and net income, driven by robust demand in enterprise, data center, and specialty markets. Despite these positive financial outcomes and an increased backlog, the company's stock fell ",
+      "category": "corporate_earnings",
+      "date": "2026-09-09 15:58",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-optical-cable-tops-q3-2026-sales-stock-falls-93CH-4894122"
     },
     {
-      "headline": "Explainer: Who are the Houthis, Iran\u2019s allies in Yemen? - Reuters",
+      "headline": "As Trump takes center stage in Dallas, Republicans debate a future without him - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Explainer: Who are the Houthis, Iran\u2019s allies in Yemen?\u00a0\u00a0Reuters",
+      "impact": "As Trump takes center stage in Dallas, Republicans debate a future without him\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-09 02:10",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5"
-    },
-    {
-      "headline": "Yen stands tall as dollar wobbles, oil's run towards $100 chills sentiment - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Yen stands tall as dollar wobbles, oil's run towards $100 chills sentiment\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-09 01:59",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEotZFlXVDdDeG05cmdnOVhQN0xrYXBpeUhaNDg2ZkQxNkdEZ0k2aVp6ZThfRWMwaHk4TUVPcTh1NHJ2S2VmQk1hZWdqM1Y2cXpqeGwtdHgxN291b0F2OGc3SGZMV0F2RUktY2g3RE1uVzhLSXVQMWc1OE9hSXhjNmxSTktoY2o3Uy01SjRYUVg1NjUxVHRPMndmODlpWW5OdEpPaUFpQjd3MHhfcmIxWGpZWFFhRnBSeEtIRFdDTTI?oc=5"
-    },
-    {
-      "headline": "US military says it destroyed five Iranian oil carriers after attempted missile attacks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "US military says it destroyed five Iranian oil carriers after attempted missile attacks\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-08 23:03",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYkRzd0JMdW1lbUtzRVk1dFpYWGFpVEYwZkVnaVBYd0hINnRNSVdiUXlrVHBBbkExXzNpZTdTT1NFaHpMSVA1Slk1aUl0bFZPc3VhbUVyUE9rZFkzOFZqU0VoQ2ZaZ2lwNm1rNmZEUTU5REZ6WWJmSEp3TWlGLXliZTU4S2pQMVFFY0V0MHQzS1BSa3FJUlJ3RzlqaV9GLVluYzd4MTQ5Yms1eDg5aWM1Mmp1bi1aNk0tS2lJSW40dlJ5cmhkeVd6bWxERQ?oc=5"
+      "date": "2026-09-09 15:51",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU2NXWmxOTzBqLS1jVW1JTjBsMzgxS2VuQkFVRl9KeDlJR28taW9UWUE0YlZIRWprbEtoMDZXc2lpUDItLWVkWHdiQ19XRDNFUll4YnQ2ZmhfbGV1ZWxndXplbHNUM3NKdlNJVUNaY1Jqa2o4Z0hUb185Tk5CQk1jd1dBbzhZYjR3NXJnWE91NEVJQ3NidWV6ZTJGSTJmQURXcS1YMlJvUm9uSEtQdXlYMGtiT1M?oc=5"
     }
   ]
 }
