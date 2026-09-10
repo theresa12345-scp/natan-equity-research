@@ -1,23 +1,24 @@
 {
-  "timestamp": "2026-09-10T10:15:49.632873",
+  "timestamp": "2026-09-10T17:33:22.173986",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 7,
-    "neutral": 14,
-    "bearish": 4,
-    "high_priority": 8,
-    "material_events": 4
+    "avg_relevance": 7.4,
+    "bullish": 11,
+    "neutral": 12,
+    "bearish": 2,
+    "high_priority": 11,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 16,
+    "CNBC": 10,
+    "Reuters": 6,
     "Bloomberg": 2,
-    "Caixin/S&P Global": 1,
-    "CNBC": 2
+    "MarketWatch": 2,
+    "Caixin/S&P Global": 1
   },
   "top_signals": [
     {
@@ -27,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -37,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -47,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -57,8 +58,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Treasury yields move higher as investors await key wholesale inflation data",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Treasury yields moved higher on Thursday as traders await the release of U.S. wholesale inflation data.",
+      "category": "fixed_income",
+      "date": "2026-09-10 10:44",
+      "link": "https://www.cnbc.com/2026/09/10/us-treasurys-bonds-yield.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -67,7 +78,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -77,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -87,7 +98,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -97,8 +108,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Treasury yields surge toward the danger zone for stocks, as inflation pressures heat up",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Oil prices were at their highest levels since late May, while rising wholesale inflation data sent benchmark 10-year yields closer to the key 5% level.",
+      "category": "fixed_income",
+      "date": "2026-09-10 16:20",
+      "link": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Now\u2019s your chance to make money during the best bond market for yields in decades \u2014 if you get over Treasury jitters",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "If you looking for high income in the bond market, without paying taxes, here\u2019s how you figure out how much interest you\u2019re actually being paid.",
+      "category": "fixed_income",
+      "date": "2026-09-10 15:25",
+      "link": "https://www.marketwatch.com/story/nows-your-chance-to-make-money-during-the-best-bond-market-for-yields-in-decades-if-you-get-over-treasury-jitters-4209f805?mod=mw_rss_topstories"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -107,7 +138,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -117,38 +148,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-10 10:15",
+      "date": "2026-09-10 17:33",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Gold edges higher on weaker dollar, US inflation data in focus - Reuters",
+      "headline": "ECB hikes rates as Iran war adds to inflation angst - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Gold edges higher on weaker dollar, US inflation data in focus\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-10 02:56",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU00zRjlwdjRLNzNsRDluVS1Rc0hCVmhNSTc0TThXMVUtMVgyYU1Mc3FVY1p4YlVIX0p2NzhYbEFCSkVUMEhHR2MtTlFRUHZlbXVGNkxINUVSc1FZNVB5S2hGOXdIUzMydEhHSllEcVVqbWM0VHlOajEzeHBQMlY4UW5nUnRNMm5NS1lvR3RYN2E5M1dIV3NMd3VuZDJOZDg2U0cxa1JR?oc=5"
-    },
-    {
-      "headline": "ECB to hike rates as Iran war fuels fresh inflation fears - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "ECB to hike rates as Iran war fuels fresh inflation fears\u00a0\u00a0Reuters",
+      "impact": "ECB hikes rates as Iran war adds to inflation angst\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-09 22:02",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzZJOUlHUzJVTF9DZ2dQc2ZUMHlVckE0OFR5Rks1a1lMYUNfRUpEOXFObkp2VEFtTk1veHdKWHZrVTJBMlVBT2xucWZUVnVXVTZPMm4xbzdyX0QzN1RsM2x2WEhJcGt5UTRseDZBdTdZaVFzdWI1d2xlXzR5MVhrNWlQNnRDd1NOZTlxM2tDd0Nob0NfWDJkWk1FeDdUdmpCdzExdQ?oc=5"
+      "date": "2026-09-10 15:18",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY0VWcFhfaVg1bHdEUzlqVTlvNlREOFdweDVteVNCVWFCY29MVFJMRVdWeEJuSDAxWlY3cjU4ZGlxdkNremFBTThYSVQ5cFNBaTliSGMwbmJRR0NkNkwtUUhORFFwZ3gwLXJSZnNOR1ZfVDlEanZ5TzFNZ3FsX1hobnkyODI3cE96RkI2S3htVk5LRWNWbmF1c1FvNA?oc=5"
     },
     {
-      "headline": "US Treasury to buy up to $6 billion in Sept 10 buyback operation - Reuters",
+      "headline": "Oracle options are doing something curious heading into earnings",
       "score": 7,
-      "source": "Reuters",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "If ever there were a stock that captured the hopes and fear of the AI trade, it's Oracle.",
+      "category": "corporate_earnings",
+      "date": "2026-09-10 12:20",
+      "link": "https://www.cnbc.com/2026/09/10/oracle-options-are-doing-something-curious-heading-into-earnings.html"
+    },
+    {
+      "headline": "Macy's posts strong results, raises guidance as turnaround begins to take hold",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Macy's posted strong second fiscal quarter results on Thursday and raised its full-year guidance.",
+      "category": "corporate_earnings",
+      "date": "2026-09-10 10:56",
+      "link": "https://www.cnbc.com/2026/09/10/macys-m-q2-2026-earnings.html"
+    },
+    {
+      "headline": "Treasury Department to buy back up to $6 billion in longer-term debt, triple the normal level",
+      "score": 7,
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "US Treasury to buy up to $6 billion in Sept 10 buyback operation\u00a0\u00a0Reuters",
+      "impact": "The much-anticipated announcement triples the normal buyback operation and follows an announcement  from Treasury Secretary Scott Bessent.",
       "category": "fixed_income",
-      "date": "2026-09-09 21:04",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVFtZW9VYi1jWGlldTlubUM4OU9MS0ozbXlHc0E3dEVDQjktaHhXdWhGVFlLMjRnaXZqanp6RnM1YndSUzdZN2s1SUNvZzlJSmNKclRnbmRaN19GeGxGeHV6eGtQd0JkNWVSMVg1SFZMNkN3Mkl4Nk9SaGpVd29mZXNJTEIyUnF1eG9yRkZtRlRTeFdtSTh3LTA2NEg?oc=5"
+      "date": "2026-09-09 15:03",
+      "link": "https://www.cnbc.com/2026/09/09/treasury-department-to-buy-back-6-billion-in-longer-term-debt-triple-the-normal-level.html"
+    },
+    {
+      "headline": "Demand for riskier mortgages rises again, along with interest rates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Mortgage rates continue to climb, so more borrowers are turning to adjustable rate mortgages, which offer lower interest rates comparatively.",
+      "category": "global_markets",
+      "date": "2026-09-09 11:00",
+      "link": "https://www.cnbc.com/2026/09/09/demand-for-riskier-mortgages-rises-again-along-with-interest-rates.html"
     },
     {
       "headline": "China consumer, wholesale inflation rebound in August",
@@ -161,14 +212,54 @@
       "link": "https://www.cnbc.com/2026/09/09/china-cpi-ppi-august-oil-prices-tech-manufacturing-.html"
     },
     {
-      "headline": "'Fear gauge' VIX is starting to attract hedges into historically volatile part of calendar",
+      "headline": "Ford announces $1 billion investment at Kentucky plant following DOT criticism on China",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Ford Motor on Thursday announced a $1 billion investment to build a new paint shop at its crucial truck plant in Kentucky.",
+      "category": "asia_economy",
+      "date": "2026-09-10 17:31",
+      "link": "https://www.cnbc.com/2026/09/10/ford-1-billion-investment-kentucky-plant.html"
+    },
+    {
+      "headline": "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "OpenAI launched ChatGPT for Financial Services, targeting the labor-intensive research, modeling, and pitchbook tasks traditionally handled by junior bankers.",
+      "category": "us_equities",
+      "date": "2026-09-10 17:12",
+      "link": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html"
+    },
+    {
+      "headline": "Oil surges 5%, Brent and US crude both over $100 on more tanker attacks - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Oil surges 5%, Brent and US crude both over $100 on more tanker attacks\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-09-10 16:07",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTlKVk5vOWlpYndFb2Flck9IczhtU2k5X1I3a0tlMjA2dkRmMEJncVFZdWctZW9wX05NaU9vUzNwMU5ld3UycklJMjhHaHB3WDdZVF81Z0t1WWNZak8tTFFwdDZtTHZvUnozMnVpUmtEanVsN2ZxM1A2QkxZS3IydDByTlQtd3RFYThzVnlwVmR0eGMyT1RQQldPZVp4VE1oSm5TcHBXVTd1dXM?oc=5"
+    },
+    {
+      "headline": "Starbucks is back, CEO Brian Niccol says. Here is what he's focused on next",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Niccol added that he aims to \"finish the job on uplifting all of our coffeehouses.\"",
+      "category": "global_markets",
+      "date": "2026-09-10 15:55",
+      "link": "https://www.cnbc.com/2026/09/10/starbucks-is-back-ceo-brian-niccol-says-here-is-what-hes-focused-on-next.html"
+    },
+    {
+      "headline": "Kimmel says interview with Senate candidate Talarico won't air on ABC amid FCC threats",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Big moves in Treasury yields over the past couple of months have led to a renewed focus on the CBOE Volatility Index and the Merrill Lynch Option Volatility Estimate.",
+      "impact": "ABC has come under increased pressure from the FCC, and the Trump administration has raised concerns about equal air time for political candidates.",
       "category": "global_markets",
-      "date": "2026-09-10 08:41",
-      "link": "https://www.cnbc.com/2026/09/10/fear-gauge-vix-hedges-volatility-stocks.html"
+      "date": "2026-09-10 14:55",
+      "link": "https://www.cnbc.com/2026/09/10/abc-kimmel-talarico-fcc.html"
     },
     {
       "headline": "Trump touts $5,000 payout if Republicans win as Vance waits in wings - Reuters",
@@ -177,98 +268,8 @@
       "sentiment": "neutral",
       "impact": "Trump touts $5,000 payout if Republicans win as Vance waits in wings\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-10 07:55",
+      "date": "2026-09-10 14:35",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTBDWU8wZ01YSnowWGVWbUFZQ0ozZlZaSzRYWFhuaUdxajB6T05JS29iX180anZIUWdKUUE4SjZGdzN1cmc3Tmx2bjMtT0Z4TE55bGQ1NjYxUThlU21OTnZvbVJxeTNXVjZZcXJrdG1pQzRMTnVqeGUzcVY5aGluV1V0YTh0UlN1eVBScUZTajd4S0tCaFNEWGltbE9jRHk5eS1rTFVkRHg?oc=5"
-    },
-    {
-      "headline": "Trump says Iran war to end after US midterm elections, threatens to attack Pickaxe Mountain - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says Iran war to end after US midterm elections, threatens to attack Pickaxe Mountain\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-10 06:13",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1VBYmFiQnhuQWRpWDFRNjQ3ZzBFUTEzUmxneFZQTmtfOHducTVIZlU3LXFwRjVSbS1EYTNjMVY1dGlzODdfblBPSzFqWm90bWhfeFBUVVlDdjN2YUFoS1VNekY4U1VHcW1WTXQzS1ZTYjI2YzZ1OFFaZzJMZm9DTEpWY25jMlJsOHNUYklSbkR3Z2pNc1ZUcUNhN3VnWHdIV2U5RklKVldodktsWE5rczRlMVFfZzJZV3VJSzlhdEpRV1VzLXc2Sw?oc=5"
-    },
-    {
-      "headline": "EXCLUSIVE: How a billion-dollar sanctions dodge kept Chinese goods flowing to Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "EXCLUSIVE: How a billion-dollar sanctions dodge kept Chinese goods flowing to Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-10 06:05",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQXdBWlltZS1pUU8wZnFqc21wUDExNGZub0prbEtxYTNwS2J3UU91eTQ4aXZTUGNwWjdGZGxVZUNiY2dHbXVNbl9tNE4zSlVqVDJaZFlmMkZ6Slo3RndJczlqMTlsYlVGOEEteGNreDFjR0JabWhJaTNCTHNtUUozWDFVSm56QldwaXFjbnBQZWlxdGtsVFdmcDFDTHNjMzBaN2NkNlNzUGV0MXhZR3hBdmFUMV9LLU9ZYWxBTW5n?oc=5"
-    },
-    {
-      "headline": "Trump's Iran campaign echoes the post-9/11 'forever wars' - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump's Iran campaign echoes the post-9/11 'forever wars'\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-10 05:04",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY3RtVWR6NUtkY0Z0YjY4dEluTGdFb3FsaGFyMFJNd0xucTFzQlJDQ2FZOTlHbFp1OVoyT2tySHdHZklrZll6MWF5VVRxVGJKMXJpOXYza2dMaTJCUk14WWZLLUt1QU5fQjUyVkZhdTFnajkwdEpVam4wbi1pQ283bUMwRzBJN3pkSWFyLWdOLVRZZ080Nnc?oc=5"
-    },
-    {
-      "headline": "Yemen's Houthis close in on stranglehold over strategic Bab el-Mandeb Strait - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Yemen's Houthis close in on stranglehold over strategic Bab el-Mandeb Strait\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-10 04:58",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUNHSEc4V2xmVVpPcmx6cE1GaF85MVB3Tnl5ZzdyWVBlYy0zcnNzOTQ1R2ZyNFdzbmp6c2xodVlOallDQTAyeUFodEUwa0dkOFFCN3ZIcmg0V3Iyc0NiUGczTklDSzhUOGNkUUd5ZWlRME5LRGhBdHFvSDdVUm9WdjZacC0zcFdkM0xZY09LUHFDR3lua1ZXMW1GN0NxT21CTFRYNkFOVGRNMzFsTjJXS1hnejFfVTdUZHBvMEJoMmJGU2xLQnc?oc=5"
-    },
-    {
-      "headline": "Hormuz shipping traffic in single digits, data shows - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Hormuz shipping traffic in single digits, data shows\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-10 03:57",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUVBxYnpUdFVwdXRYNTRBMXRlbTMxZlpkSFYwYWpEY1RxeUJDZ0RuUFAtTnZ4d3ZKZGZBT1BFaUMtLVp0dl9iZWhGaTlBLUYyWURZX2N4NVFXQXhlQ05Lc2drSWFzczE0THU0N2I3WHk0VjZzdnlJd0NBRktKVjc1aXJ0WnpHT0FwOG11cFNrSnN1Z0V0aTF1LXUwNXhrZ1lfWkhRYQ?oc=5"
-    },
-    {
-      "headline": "Trump says activity seen at Iran's Pickaxe Mountain, urges Tehran 'not to get cute' - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Trump says activity seen at Iran's Pickaxe Mountain, urges Tehran 'not to get cute'\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-10 02:25",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2tWN0QxamFYdDVZNTZaaGFfa09OdmlPSVdBdWZYeElkZVgzeEZSTE5BdDR0R1pzR24yLU5CTXdqZVZmTUZHNlRIazNCdldxSXRTLUthV0lTS2NvRHRuWjVFTHp5UUtTRGFRZ2twWlYzdGlXQ1JmWnRrLS1UT1NaZjdYajEwcExlczVLWU55VVRSQjhsQm9aQTA4SnhrUE1SMmJaRUttMEs5T1B0OXAwR0NxZngtZw?oc=5"
-    },
-    {
-      "headline": "Multiple US military aircraft suffered damage in overnight strikes on Jordan air base, CBS says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Multiple US military aircraft suffered damage in overnight strikes on Jordan air base, CBS says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-10 01:42",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYThzMWZWYWVaeVkzaGR4Z3AxbHpidm9CMTFNSTVKWmNvVGZoRkg5MjJRV1RvdW9wWWtWS3R6V1dNWmFQUEl1Y0Q4dWdYY19EMUk3RkE4aUlsYVRLbkxmemVJM1gxVzlSNGs5a24wbjg5dWxBZ2tRallJTTV0UExCUFZXWGxYZXhsZHA4clFtT2JPa3IxbHpnVnZnU2RMTnpsZDVLU0RMYW9RM0x6TlY5aUtXRU9tZzJRZ0hV?oc=5"
-    },
-    {
-      "headline": "Brent holds above $100 as tanker attacks deepen supply fears - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Brent holds above $100 as tanker attacks deepen supply fears\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-10 01:24",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTlKVk5vOWlpYndFb2Flck9IczhtU2k5X1I3a0tlMjA2dkRmMEJncVFZdWctZW9wX05NaU9vUzNwMU5ld3UycklJMjhHaHB3WDdZVF81Z0t1WWNZak8tTFFwdDZtTHZvUnozMnVpUmtEanVsN2ZxM1A2QkxZS3IydDByTlQtd3RFYThzVnlwVmR0eGMyT1RQQldPZVp4VE1oSm5TcHBXVTd1dXM?oc=5"
-    },
-    {
-      "headline": "Trump advisers warn Iran conflict may last through end of his term, WSJ reports - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump advisers warn Iran conflict may last through end of his term, WSJ reports\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-09 23:41",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRmcwY05mYjdLTzdPZ3BZemVsRWcwMFBUWnNHcndpVmFQc3pNNkZzczFEQ2dFMDdxeEVUUzJBb3JhdWh3RG45RzhTcjBXbjg3aFhUZTVkM1RfZ251a3l0amdVbUQtQ1A5LTNLRUZfOUJHUl9lYWM2QXFWMDhTRExBZkRPaUJQb0NWMDJiOGpPYnRxblFPbjZ4cWZ6QzhpejgyWS1IM0RhZ2NYWXpmWEcyUFBLN2tleUF4a2FzaA?oc=5"
     }
   ]
 }
