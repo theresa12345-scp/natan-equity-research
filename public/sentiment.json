@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-13T10:48:18.710309",
+  "timestamp": "2026-09-13T17:20:10.474984",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 7,
-    "neutral": 16,
-    "bearish": 2,
+    "bullish": 10,
+    "neutral": 15,
+    "bearish": 0,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,12 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 12,
+    "Reuters": 9,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1,
-    "The Hill": 1,
-    "CNBC": 4
+    "CNBC": 4,
+    "Yahoo Entertainment": 1,
+    "MarketWatch": 2,
+    "Financial Times": 1,
+    "The Wall Street Journal": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -109,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,28 +121,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-13 10:48",
+      "date": "2026-09-13 17:20",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Inflation is outpacing wage growth again, squeezing Americans\u2019 paychecks",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "In August, consumer prices rose 3.4% over the past year while wages increased just 3.1%.",
+      "category": "global_markets",
+      "date": "2026-09-12 12:49",
+      "link": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html"
+    },
+    {
+      "headline": "Why stocks haven't tanked despite higher bond yields: Chart of the Day",
+      "score": 7,
+      "source": "Yahoo Entertainment",
+      "sentiment": "positive",
+      "impact": "Rising long-dated bond yields haven't dented the stock market that much. The reason may have to do with why yields have been rising.",
+      "category": "fixed_income",
+      "date": "2026-09-12 12:33",
+      "link": "https://finance.yahoo.com/news/why-stocks-havent-tanked-despite-higher-bond-yields-chart-of-the-day-123346395.html"
     },
     {
       "headline": "The Fed could raise interest rates three times. Here\u2019s where the market could face the stiffest test.",
       "score": 7,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Economists note that the Fed historically has not been content to raise rates only once.",
+      "impact": "Economists note that the Fed historically has not been content to raise rates only once",
       "category": "us_monetary_policy",
       "date": "2026-09-11 23:54",
-      "link": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Stubborn inflation raises prospect of Fed rate hike",
-      "score": 7,
-      "source": "The Hill",
-      "sentiment": "neutral",
-      "impact": "The Federal Reserve appears increasingly likely to hike interest rates next week, as inflation remains stubbornly elevated amid the war with Iran.\u00a0 New data out Friday showed annual inflation remained unchanged in August, still well above the central bank\u2019s t\u2026",
-      "category": "us_monetary_policy",
-      "date": "2026-09-11 20:49",
-      "link": "https://thehill.com/business/6085407-cpi-inflation-federal-reserve-interest-rates/"
+      "link": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1"
     },
     {
       "headline": "Macy's posts strong results, raises guidance as turnaround begins to take hold",
@@ -153,11 +165,61 @@
       "link": "https://www.cnbc.com/2026/09/10/macys-m-q2-2026-earnings.html"
     },
     {
-      "headline": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies - reuters.com",
+      "headline": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The House is scheduled to be sent home in the coming days until after November's midterm elections, leaving a narrow window to pass any form of AI regulation.",
+      "category": "us_equities",
+      "date": "2026-09-13 16:56",
+      "link": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html"
+    },
+    {
+      "headline": "Trump says US could stay in Iran and keep oil, like Venezuela deal - reuters.com",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies\u00a0\u00a0reuters.com",
+      "sentiment": "neutral",
+      "impact": "Trump says US could stay in Iran and keep oil, like Venezuela deal\u00a0\u00a0reuters.com",
+      "category": "commodities",
+      "date": "2026-09-13 15:28",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5"
+    },
+    {
+      "headline": "Corporate profit forecasts are topping expectations to an unusual degree. AI is a big reason why.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The information-technology sector stands out when it comes to issuing upbeat earnings outlooks.",
+      "category": "corporate_earnings",
+      "date": "2026-09-13 14:00",
+      "link": "https://www.marketwatch.com/story/corporate-profit-forecasts-are-topping-expectations-to-an-unusual-degree-ai-is-a-big-reason-why-50245409?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Turkey detains dozens after sweeping raids targeting LGBTQ+ groups - reuters.com",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Turkey detains dozens after sweeping raids targeting LGBTQ+ groups\u00a0\u00a0reuters.com",
+      "category": "global_markets",
+      "date": "2026-09-13 13:37",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSmw3N3gxSDF1TmZtV1BQY2s3cVUxZGRjbW1FdlBMelhLbUYtblpJc3dDa2thTjNUUkJCdXFINm96VVl3dlh5QWFYVlp2cjVnUnowTVJYWmhlUGlOZEtYUzNBOUlpM3o2MUJPNDBySDh5VFBic2Mta3R1YTJKNFkyUFBMcXZOd1hVaXZDMTVHaGxVZW96WkJzem8wR3pSY3EwQzBVTEVhUi1waTlfQl9KQVVfYw?oc=5"
+    },
+    {
+      "headline": "I'm a psychologist who studies couples: Emotionally intelligent partners ask 1 question every morning\u2014that most neglect",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "A \"capacity check\" might be the most thoughtful question to ask in the morning, says Mark Travers, a psychologist who studies relationships. How to do it right.",
+      "category": "global_markets",
+      "date": "2026-09-13 13:07",
+      "link": "https://www.cnbc.com/2026/09/13/emotionally-intelligent-couples-ask-question-every-morning-psychologist.html"
+    },
+    {
+      "headline": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption - reuters.com",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption\u00a0\u00a0reuters.com",
       "category": "commodities",
       "date": "2026-09-13 02:22",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5"
@@ -183,6 +245,16 @@
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5"
     },
     {
+      "headline": "Larry Ellison cancels $7.5bn Oracle share sale",
+      "score": 6,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "About-face comes a day after a filing revealed plans to sell up to 50mn shares by the end of October",
+      "category": "global_markets",
+      "date": "2026-09-12 17:18",
+      "link": "https://www.ft.com/content/05e61eb8-9273-4b9a-a356-47f525b7d506?syn-25a6b1a6\\\\u003d1"
+    },
+    {
       "headline": "Iran-Oman understanding does not provide for immediate reopening of Strait of Hormuz, Tasnim reports - reuters.com",
       "score": 6,
       "source": "Reuters",
@@ -193,84 +265,14 @@
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNXzF6RlhPNHFNSGk2RzFzNnNVc3ZaT0RWYldmaWNGaDNQWkE1ZTl2MDQ2VnpKN0xuMENvc05KaG1xdjFVaEpPQWN1cXFjMk1IdVcxRkN0YzI5cEtHdjNUeUVfUUxHTVVfbGxfejVnZVFnVHZTWjNTa0RiQWhud2F0RmZJZExhOEZBa0xmaUxoaHF4YXk4bWN5VllHRFlSQ21wekM0Ri1aR1p5V2pEbkYyLTJzQWxBa0p6Ri1IVktiVnE1MkZieXpR?oc=5"
     },
     {
-      "headline": "Houthi advance in Yemen puts U.S. in a new bind - reuters.com",
+      "headline": "Urinals, Skinny-Dipping Pools and Other Wild Home Buyers Must-Haves",
       "score": 6,
-      "source": "Reuters",
+      "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "Houthi advance in Yemen puts U.S. in a new bind\u00a0\u00a0reuters.com",
+      "impact": "Latest market news.",
       "category": "global_markets",
-      "date": "2026-09-12 15:22",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5"
-    },
-    {
-      "headline": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says - reuters.com",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says\u00a0\u00a0reuters.com",
-      "category": "global_markets",
-      "date": "2026-09-12 13:44",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXF6bE9PTlU2N3Q2TTc1VEkzbUdNRXlDNVJTVTNhX2ZHRmJuSEx2OHI5MEhGVUs1Mjc4TElRZXdFRlplRlF3WDBoMjhSQXdHN3RYOWpvb25SRE14OUEtMXhTOVhVMWJLeTdpNmNsT0NIR0pPOGxFZnVwMEFMQ2tubTJxUTdpQXdaVkNna2JrLWFCODA2cGxhaktEOUtVQ1lxVXM1YnFnUjhxUFFKbGVYV3h3WVlIVHZlZVBxcnoyVTVUSFR0bTIwd193?oc=5"
-    },
-    {
-      "headline": "I worked with Gloria Steinem for 30 years\u2014This was her No. 1 antidote to fear",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Take The Lead founder Gloria Feldt recalls working with Gloria Steinem and the part of her legacy she will carry with her.",
-      "category": "asia_economy",
-      "date": "2026-09-12 13:00",
-      "link": "https://www.cnbc.com/2026/09/12/i-worked-with-gloria-steinem-for-30-years-this-was-her-no-1-antidote-to-fear.html"
-    },
-    {
-      "headline": "Oil's roundtrip back to $100. Why China could determine what happens next",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May.",
-      "category": "commodities",
-      "date": "2026-09-12 12:40",
-      "link": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html"
-    },
-    {
-      "headline": "BRICS adopts joint declaration, urges 'maximum restraint' in Mideast - reuters.com",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "BRICS adopts joint declaration, urges 'maximum restraint' in Mideast\u00a0\u00a0reuters.com",
-      "category": "global_markets",
-      "date": "2026-09-12 12:13",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZERlSkNRYWwycnZ4Y1Nwc1RXSXU3WTFLbmFLVnJGOWhfWjdvTzZiTGJVWVpSWHFWWXB1TTh0STE5QkM2VUlabV9DaENCYXJ2djY1OUhfVjUzbTZWdVVHbjRLTlBNLURPYnNlQU1WSzdYZWxzSk51b0ZQS0Y2N0hndGJPMnF3bW9MUjJSWk80cFkxZVUyXzRFVTdwVGtIQVF0S2Z6RkdqQWFOSGdWZnVV?oc=5"
-    },
-    {
-      "headline": "GM plans U.S. battery development as Trump's DOT attacks Ford for China ties",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Most battery cells currently rely on raw materials from China. GM is seeking to establish domestic supply chains both for EVs and energy storage.",
-      "category": "asia_economy",
-      "date": "2026-09-12 12:00",
-      "link": "https://www.cnbc.com/2026/09/12/gm-us-battery-development-ford-china-ties.html"
-    },
-    {
-      "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - reuters.com",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump says Iran probably responsible for attack on Saudi pipeline\u00a0\u00a0reuters.com",
-      "category": "global_markets",
-      "date": "2026-09-12 10:19",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5"
-    },
-    {
-      "headline": "BRICS bloc agrees on joint declaration, sources say - reuters.com",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "BRICS bloc agrees on joint declaration, sources say\u00a0\u00a0reuters.com",
-      "category": "global_markets",
-      "date": "2026-09-12 08:02",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFQ4VWFaM29FM1FGODZYdVdaM0VpUzdadFhVWnpvcWwtQk94SWFyLWhFYlo0aHJsdkVyUU5KMW9hcEZsMzh4Z182YnQ5RHI4aTBIdUV3c2JLMUwyc1lTbHp3dVNRUFVDYmdXdWhXSURJWTVPLVlPbHJOX2oyU1FwNUZvVGlUUENQV1RUa20yS3hlNHplSDZ1TlBkVQ?oc=5"
+      "date": "2026-09-12 14:00",
+      "link": "https://www.wsj.com/real-estate/luxury-homes/uncommon-home-features-671656f6"
     }
   ]
 }
