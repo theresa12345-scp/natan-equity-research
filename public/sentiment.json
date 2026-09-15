@@ -1,26 +1,27 @@
 {
-  "timestamp": "2026-09-14T19:05:58.062240",
+  "timestamp": "2026-09-15T10:41:42.315262",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 10,
-    "neutral": 10,
-    "bearish": 5,
-    "high_priority": 9,
-    "material_events": 4
+    "avg_relevance": 7.1,
+    "bullish": 9,
+    "neutral": 13,
+    "bearish": 3,
+    "high_priority": 10,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
-    "Bloomberg": 4,
-    "CNBC": 5,
+    "Reuters": 8,
+    "Bloomberg": 2,
+    "CNBC": 4,
     "Caixin/S&P Global": 1,
+    "Financial Times": 1,
     "MarketWatch": 3,
-    "Yahoo Entertainment": 1,
-    "MarketBeat": 4
+    "Foreign Policy Journal": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,8 +61,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Bonds slump as US 10-year Treasury yields hit highest since 2007 - Reuters",
+      "score": 9,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Bonds slump as US 10-year Treasury yields hit highest since 2007\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-09-15 01:44",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa2swZ0ZXMUlmM25iamJCQWM5NWV1OG1yUHA0MWZwVkVyempxRGlyWGdXeDRuN25IYXdGb1J0a05HazdLSEtsZUNBNzlBWVA3cmtJVElCREdQeWx2amlXZnAxNHBFN1pZdnFVQ3NhYTBrbF9sMVhZM1Z2djlBUWdCcnkxNHJMMFJTOHJRSQ?oc=5"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -70,7 +81,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +111,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -120,7 +131,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,78 +141,98 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-14 19:05",
+      "date": "2026-09-15 10:41",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "10-year Treasury yield eases back from crucial 5% level despite concerns about AI and the surge in oil prices",
+      "headline": "Warsh and Trump on collision course as investors expect Fed to raise rates",
       "score": 7,
+      "source": "Financial Times",
+      "sentiment": "negative",
+      "impact": "Central bank chair under pressure to back warnings on inflation with action despite risking president\u2019s ire",
+      "category": "us_monetary_policy",
+      "date": "2026-09-14 04:00",
+      "link": "https://www.ft.com/content/904c6d93-a6b3-47f4-8b12-3d418cc74fa2?syn-25a6b1a6\\\\u003d1"
+    },
+    {
+      "headline": "Here\u2019s the best way to invest in bonds for the long term, according to these five-star portfolio managers",
+      "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "The benchmark 10-year Treasury yield briefly touched the crucial 5% threshold on Monday, but it then pulled back.",
+      "impact": "A fixed-income team at Morgan Stanley say investing in distressed debt and frontier local-market investing have helped drive solid returns for their fund.",
       "category": "fixed_income",
-      "date": "2026-09-14 18:14",
-      "link": "https://www.marketwatch.com/story/10-year-treasury-yield-tops-5-for-the-first-time-since-2007-as-bond-market-selloff-deepens-14c81f75?mod=mw_rss_topstories"
+      "date": "2026-09-15 10:37",
+      "link": "https://www.marketwatch.com/story/heres-the-best-way-to-invest-in-bonds-for-the-long-term-according-to-these-five-star-portfolio-managers-bbf0d5e3?mod=mw_rss_topstories"
     },
     {
-      "headline": "Inflation is sinking your high-yield savings account\u2019s returns. Here\u2019s one way to fight it.",
-      "score": 7,
+      "headline": "Children's clothing retailer Carter's is rebranding to appeal to a new generation of parents",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Children's clothing brand Carter's is announcing a rebrand as it tries to keep up with the modern parent and its core customer base.",
+      "category": "global_markets",
+      "date": "2026-09-15 10:00",
+      "link": "https://www.cnbc.com/2026/09/15/carters-kids-clothing-retailer-rebrands.html"
+    },
+    {
+      "headline": "Kraft Heinz bets on more flavors for Philadelphia cream cheese as it looks to revive brands",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Philadelphia will release more cream cheese flavors as part of Kraft Heinz's turnaround.",
+      "category": "global_markets",
+      "date": "2026-09-15 10:00",
+      "link": "https://www.cnbc.com/2026/09/15/kraft-heinz-new-philadelphia-cream-cheese-flavors.html"
+    },
+    {
+      "headline": "U.S. auto market predictions for 2030: More hybrids, no Chinese entrants",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Despite growing speculation that it won't be long until Chinese autos are sold in the U.S., John Murphy doesn't expect that to happen by 2030.",
+      "category": "global_markets",
+      "date": "2026-09-15 10:00",
+      "link": "https://www.cnbc.com/2026/09/15/us-auto-market-predictions-2030-john-murphy.html"
+    },
+    {
+      "headline": "Amazon (NASDAQ: AMZN) Sets $60 Billion Ceiling With Qualcomm (NASDAQ: QCOM) As Apple (NASDAQ: AAPL) Cuts Modem Ties",
+      "score": 6,
+      "source": "Foreign Policy Journal",
+      "sentiment": "positive",
+      "impact": "Amazon has set a potential $60 billion commercial relationship with Qualcomm for AI infrastructure, including server chips, systems, and optical connectivity. This agreement is significant for Qualcomm as Apple shifts its modem development in-house, impacting Qualcomm's revenue. The deal includes wa",
+      "category": "us_equities",
+      "date": "2026-09-15 09:37",
+      "link": "https://www.foreignpolicyjournal.com/2026/09/15/amazon-nasdaq-amzn-sets-60-billion-ceiling-with-qualcomm-nasdaq-qcom-as-apple-nasdaq-aapl-cuts-modem-ties/"
+    },
+    {
+      "headline": "Morgan Stanley joins Goldman Sachs in 11th-hour switch to forecasting a Fed hike",
+      "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "4% APYs sound good. Too bad inflation is taking a bigger bite out of those yields now.",
-      "category": "fixed_income",
-      "date": "2026-09-14 17:46",
-      "link": "https://www.marketwatch.com/story/inflation-is-sinking-your-high-yield-savings-accounts-returns-heres-one-way-to-fight-it-6aa798e9?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "'This is the test': All eyes on US Fed to tackle high inflation",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "neutral",
-      "impact": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persis...",
+      "impact": "Morgan Stanley late on Monday joined Wall Street rival Goldman Sachs in changing its call from the Federal Open Market Committee leaving rates unchanged to the U.S. central bank hiking interest rates.",
       "category": "us_monetary_policy",
-      "date": "2026-09-13 14:52",
-      "link": "https://finance.yahoo.com/economy/policy/articles/test-eyes-us-fed-tackle-015023624.html"
+      "date": "2026-09-15 09:05",
+      "link": "https://www.marketwatch.com/story/morgan-stanley-joins-goldman-sachs-in-11th-hour-switch-to-forecasting-a-fed-hike-c7597bda?mod=mw_rss_topstories"
     },
     {
-      "headline": "Trump Pushes Fed to Lower Rates Despite Pressure to Raise Them",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "President Donald Trump reiterated that the US should have the lowest interest rates in the world even as his handpicked chair for the Federal Reserve, Kevin Warsh, faces renewed pressure to raise borrowing costs.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-13 13:45",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-13/trump-pushes-fed-to-lower-rates-despite-pressure-to-raise-them"
-    },
-    {
-      "headline": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
-      "score": 7,
-      "source": "Bloomberg",
+      "headline": "Houthis strike Saudi targets anew as talks over Strait of Hormuz stall - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Three decisions, starting with the US Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for the rest of 2026 and beyond.",
+      "impact": "Houthis strike Saudi targets anew as talks over Strait of Hormuz stall\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-13 08:25",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-12/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks"
+      "date": "2026-09-15 08:55",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYjU2YnlvRExQZkwtRGlRN2ljVC10RTVQRGI4NUhLSEladjEzeGltZlcxWXByODRyZDlyM3pvWGdSYVBIZXctNVZvQ2ZOX09PZ2ZsN0pWU216ZFUwUDRRS0RjQXV2QVpMWkVXRFJiZGRaVVZENkFMN3hmUlBSWWxWVENnWnFYVEFHMGVMeWYyX2V0b09TMU9Bb2M4ZmZDWTU2YVVpYUFFOUJCcmVTeHhtdEVla2hMbGR1UGc?oc=5"
     },
     {
-      "headline": "Is a 'SaaSpocalypse'-like sell-off coming for AI hardware stocks? Not so fast",
+      "headline": "Match Group Inc. (NASDAQ:MTCH) Receives Consensus Rating of \"Moderate Buy\" from Analysts",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Anthropic's safety warning is crushing data center stocks, but demand for compute still outstrips supply.",
-      "category": "global_markets",
-      "date": "2026-09-14 18:43",
-      "link": "https://www.cnbc.com/2026/09/14/is-a-saaspocalypse-like-sell-off-coming-for-ai-hardware-stocks-not-so-fast.html"
-    },
-    {
-      "headline": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The muted outlook from the country's second-largest bank by assets could be an early signal that Wall Street's AI boom might have hit turbulence.",
-      "category": "corporate_earnings",
-      "date": "2026-09-14 18:39",
-      "link": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html"
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Match Group Inc. (NASDAQ:MTCH) has received a consensus \"Moderate Buy\" rating from sixteen research firms, with an average 12-month price target of $42.46. The company recently exceeded earnings expectations with an EPS of $0.70, though revenue saw a slight decline. Insiders have sold nearly $1 mill",
+      "category": "us_equities",
+      "date": "2026-09-15 08:47",
+      "link": "https://www.marketbeat.com/instant-alerts/consensus-match-group-inc-nasdaq-mtch-receives-consensus-rating-of-moderate-buy-from-analysts-2026-09-15/"
     },
     {
       "headline": "The Fed may be on the verge of a serious mistake, prominent economists warn",
@@ -210,68 +241,38 @@
       "sentiment": "negative",
       "impact": "Some economists are calling on the central bank to wait before raising interest rates, out of concern the economy may be vulnerable beneath the surface.",
       "category": "us_monetary_policy",
-      "date": "2026-09-14 18:37",
+      "date": "2026-09-15 07:29",
       "link": "https://www.marketwatch.com/story/the-fed-may-be-on-the-verge-of-a-serious-mistake-prominent-economists-warn-3ccb6581?mod=mw_rss_topstories"
     },
     {
-      "headline": "Enlight Renewable Energy (NASDAQ:ENLT) Insider Sells 4,329 Shares of Stock",
+      "headline": "China's August oil throughput rises as fuel exports rebound amid Iran war - Reuters",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "negative",
-      "impact": "Enlight Renewable Energy insider Amit Paz sold 4,329 shares of ENLT stock for approximately $331,472, reducing his ownership by 1.52%. The stock is currently trading below its 50- and 200-day moving averages and has a high price-to-earnings ratio, with analysts giving it an average \"Hold\" rating des",
-      "category": "us_equities",
-      "date": "2026-09-14 17:40",
-      "link": "https://www.marketbeat.com/instant-alerts/insider-enlight-renewable-energy-nasdaq-enlt-insider-sells-4329-shares-of-stock-2026-09-14/"
-    },
-    {
-      "headline": "Novo CEO tells CNBC why drugmaker is rebranding, needs to 'rethink' obesity strategy",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Danish drugmaker called the changes the beginning of a new chapter for the company, which faces stiff competition from Eli Lilly.",
-      "category": "global_markets",
-      "date": "2026-09-14 17:30",
-      "link": "https://www.cnbc.com/2026/09/14/novo-nordisk-rebrands-to-novo-ceo-mike-doustdar.html"
-    },
-    {
-      "headline": "As the oil surge continues, trader Mike Khouw sees more upside in this surging name",
-      "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Michael Khouw breaks down how he's trading this energy name.",
+      "impact": "China's August oil throughput rises as fuel exports rebound amid Iran war\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-09-14 17:16",
-      "link": "https://www.cnbc.com/2026/09/14/as-the-oil-surge-continues-trader-mike-khouw-sees-more-upside-in-this-surging-name.html"
+      "date": "2026-09-15 05:12",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY3JiM0k1cEJ2SDhnVmNCbHJpeWlQWTJyWjVTUDlSX0dhM0I4MHAwOHltcFl6WW5RazFEWE0yYk1ja0hJcnE1cWpJYVZDZFp0cW1XeVpMeXFEc01veFFRRmNZeFhkSXBIeFphV0pYU3NGZjJNbzhfRlFrUk5Gc3puWVo2SllOZm5CM19xZ2dSWGV3aGpzdkdOTFpRVHVMNDRyMTB1WWJRSVFKbVV6YXRJNG9JZU1iMk9XRF9KMlFXUHdNZw?oc=5"
     },
     {
-      "headline": "Vita Coco (NASDAQ:COCO) Stock Price Up 5.5% - What's Next?",
+      "headline": "Hormuz traffic dwindles after Middle East attacks intensify - Reuters",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Vita Coco (NASDAQ:COCO) shares saw a 5.5% increase, reaching $54.86, despite trading volume being 79% below average. Analysts generally hold a \"Moderate Buy\" consensus with an average price target of $76.86, with some firms like Evercore and Wells Fargo recently raising their targets. The company su",
-      "category": "us_equities",
-      "date": "2026-09-14 17:05",
-      "link": "https://www.marketbeat.com/instant-alerts/price-vita-coco-nasdaq-coco-stock-price-up-55-whats-next-2026-09-14/"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Hormuz traffic dwindles after Middle East attacks intensify\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-15 02:59",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUTFPRnZDMlUxdmU3RmpseHVGS2laWk4tZU0ySUhOSUdDMGlfQ3loQTBQZktUdW96ck0yNlctUWxVV2NYSHpDclc2YnI4cVFISWZXbjdlM1BDSC1vejJmR2Qtc0NjTTlxLVpxRmZXck5nQU9US1JUalB2cTNZd1Z4Y1Q1QkVQUkEySXNqZUxYV1VWLV8wbVJYTU85X3U0bmk3SXFnNm1uMDQ4TkYwMjV3a3ItZw?oc=5"
     },
     {
-      "headline": "Match Group (NASDAQ:MTCH) Reaches New 12-Month High - Here's What Happened",
+      "headline": "Saudi civil defence says danger has passed in six cities including Yanbu - Reuters",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Match Group (NASDAQ:MTCH) shares recently hit a new 52-week high, trading up to $43.53, surpassing the average analyst target price of $42.46. Despite a \"Moderate Buy\" rating from MarketBeat and mixed analyst opinions, the company exceeded earnings expectations with an EPS of $0.70, though revenue s",
-      "category": "us_equities",
-      "date": "2026-09-14 16:47",
-      "link": "https://www.marketbeat.com/instant-alerts/price-match-group-nasdaq-mtch-reaches-new-12-month-high-heres-what-happened-2026-09-14/"
-    },
-    {
-      "headline": "DA Davidson Reaffirms \"Buy\" Rating for Ulta Beauty (NASDAQ:ULTA)",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "DA Davidson has reaffirmed its \"Buy\" rating for Ulta Beauty (NASDAQ:ULTA), setting a price target of $625, indicating a potential upside of approximately 14%. Despite some recent target reductions from other firms, Ulta Beauty maintains a \"Moderate Buy\" consensus rating among analysts with an averag",
-      "category": "us_equities",
-      "date": "2026-09-14 16:24",
-      "link": "https://www.marketbeat.com/instant-alerts/analyst-da-davidson-reaffirms-buy-rating-for-ulta-beauty-nasdaq-ulta-2026-09-14/"
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Saudi civil defence says danger has passed in six cities including Yanbu\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-15 02:28",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTW44Q2VNT0ZLUS1feUlvTE90dTdwZ0NCVVhZY0RQeHBCRlItRGcwVldPaF9jTTdlcXJjSG1hdHNuN2FzdjZUMEtITnExdHZzYk5hR0RLdmZnRHZtRG1ubXdvZllyQXRzRjlpallqZlNJdWYzWHRLNXVtdk5lZDVMY3dnYWNaakJscW5fTVVzMkdrZEk4X253SFlwM05HblB5d21BSnh2UmpyMGxXeGRfbS0wRGZwN2Z0VXFvZTdTeHc?oc=5"
     }
   ]
 }
