@@ -1,27 +1,25 @@
 {
-  "timestamp": "2026-09-15T18:01:52.543227",
+  "timestamp": "2026-09-16T10:29:58.909461",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
+    "avg_relevance": 7.4,
     "bullish": 10,
-    "neutral": 12,
-    "bearish": 3,
-    "high_priority": 9,
-    "material_events": 4
+    "neutral": 13,
+    "bearish": 2,
+    "high_priority": 12,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
+    "CNBC": 6,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "Yahoo Entertainment": 1,
-    "Caixin/S&P Global": 1,
     "MarketWatch": 3,
-    "CNBC": 8,
-    "Barron's": 1,
-    "MarketBeat": 2
+    "Caixin/S&P Global": 1,
+    "Associated Press": 1
   },
   "top_signals": [
     {
@@ -31,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,8 +59,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Yield on 10-year Treasury hovers above 5% as investors await Fed decision",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Federal Reserve is widely expected to hike interest rates on Wednesday.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-16 08:58",
+      "link": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -71,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +109,38 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq fall as Anthropic's AI warning spooks tech traders, 10-year yield hits 5%",
+      "headline": "What history says about longer-term bond yields after the first Fed hike",
       "score": 8,
-      "source": "Yahoo Entertainment",
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "If the Federal Reserve hikes interest rates in an effort to slow down the rapid rise in longer-term yields, history shows it probably won\u2019t be a success.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-16 09:11",
+      "link": "https://www.marketwatch.com/story/what-history-says-about-longer-term-bond-yields-after-the-first-fed-hike-53eaae9f?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Higher interest rates are typically viewed as dicey for stocks but also mean you can earn more on your fixed income investments.",
+      "category": "fixed_income",
+      "date": "2026-09-15 14:00",
+      "link": "https://www.cnbc.com/2026/09/15/what-higher-for-longer-interest-rates-mean-for-your-investments.html"
+    },
+    {
+      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq close down on AI fears and rising oil, but off lows as 10-year yield drops after hitting 5%",
+      "score": 8,
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "The CEOs of Anthropic and OpenAI spooked markets, while investors monitored rising oil prices and an upcoming Fed rate decision.",
+      "impact": "The Dow, S&P 500 and Nasdaq Composite all closed lower, as worries about a potential AI slowdown and rising oil prices weighed on investor sentiment. But some of those worries were soothed by a pullback in Treasury yields.",
       "category": "us_equities",
-      "date": "2026-09-14 15:09",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html"
+      "date": "2026-09-14 22:01",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-ai-safety-concerns-grow-oil-prices-tension-middle-east"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +149,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,148 +159,118 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-15 18:01",
+      "date": "2026-09-16 10:29",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Stocks have so far survived rising Treasury yields. But that may be about to change.",
+      "headline": "US Treasury's Bessent will meet with China's He Lifeng this weekend - Reuters",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Strong earnings growth has cushioned the stock market from rising yields. But ever-rising bond rates may eventually take a toll.",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US Treasury's Bessent will meet with China's He Lifeng this weekend\u00a0\u00a0Reuters",
       "category": "fixed_income",
-      "date": "2026-09-15 17:59",
-      "link": "https://www.marketwatch.com/story/stocks-have-so-far-survived-rising-treasury-yields-but-that-may-be-about-to-change-b087dbe1?mod=mw_rss_topstories"
+      "date": "2026-09-15 16:52",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2MzcWFBOFZsSHhmdHo4dVJnckkxSHJTUGh1QXMyUlNZVTJhbWhVQWlsRXZpYUJQLVhNT1BhU1VUOGNKWno3ZERFMHV3QW5PVUppWGcxRmNXYnlpWnlkOUFYZjJWTXVjVHJRMUpZb2JtUWFTQ29tMFlZa3R0ZWhPRHZTS2l5SENMMXNZVXdsc3ZVMjVscXpGZFJwaGdIU0ZqUmNzdTExcENiQWhZQ29mVlhqSktwZnAtamJDUw?oc=5"
     },
     {
-      "headline": "Is the two-decade era of low interest rates over? The Fed has to decide.",
+      "headline": "Fed up with AI interviews, some job seekers are dropping out as candidates and blacklisting companies from consideration",
       "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "High bond yields could be the result of temporary shocks \u2014 or something much longer-lasting.",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "AI-driven job interviews, without a human present, are a dealbreaker for some job candidates, even in this tough market.",
       "category": "us_monetary_policy",
-      "date": "2026-09-15 17:08",
-      "link": "https://www.marketwatch.com/story/is-the-two-decade-era-of-low-interest-rates-over-the-fed-has-to-decide-0520f458?mod=mw_rss_topstories"
+      "date": "2026-09-15 13:05",
+      "link": "https://www.cnbc.com/2026/09/15/job-seekers-refusing-ai-interviews-blacklisting-employers.html"
     },
     {
-      "headline": "Ford increases V-8 engine availability, lowers performance prices for 2027 F-150 trucks",
-      "score": 6,
+      "headline": "No one and done: The Fed will hike at least two times over the next year, according to CNBC survey",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "While higher oil is cited as a main reason for the change in view, roughly three quarters of respondents see the inflation problem as broader than just energy prices.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-15 11:10",
+      "link": "https://www.cnbc.com/2026/09/15/cnbc-fed-survey-two-rate-hikes-seen-ahead.html"
+    },
+    {
+      "headline": "Federal Reserve is expected to raise its benchmark rate, defying Trump\u2019s demands",
+      "score": 7,
+      "source": "Associated Press",
+      "sentiment": "neutral",
+      "impact": "The Federal Reserve is widely expected to lift its short-term interest rate Wednesday for the first time in three years to fight stubbornly high inflation, a move that would put the central bank at odds with President Donald Trump\u2019s demands. An increase in th\u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-09-15 04:04",
+      "link": "https://apnews.com/article/federal-reserve-kevin-warsh-interest-rates-ffd60cca8bb045bb9b1c389f5f1b73af"
+    },
+    {
+      "headline": "The stock market could do something strange this week after the Fed decision",
+      "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Ford said the changes are meant to provide customers with more choice and help expand sales of key models, a strategy CEO Jim Farley has touted.",
-      "category": "global_markets",
-      "date": "2026-09-15 17:12",
-      "link": "https://www.cnbc.com/2026/09/15/2027-ford-f-150-trucks.html"
+      "impact": "Odds of more interest rate hikes coming this year have grown.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-14 17:16",
+      "link": "https://www.cnbc.com/2026/09/14/the-stock-market-could-do-something-strange-this-week-after-the-fed-decision.html"
     },
     {
-      "headline": "Gold is starting to move on something a lot bigger than inflation",
+      "headline": "Flyers are happier with U.S. airports, despite near record travel levels, J.D. Power report shows",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Travelers gave higher ratings in part because of the newer gates and terminals many airports have opened in recent years, according to the study.",
+      "category": "global_markets",
+      "date": "2026-09-16 10:00",
+      "link": "https://www.cnbc.com/2026/09/16/airport-satisfaction.html"
+    },
+    {
+      "headline": "This BlackRock strategist opposes a Fed hike. Here are the funds she recommends.",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Gold is weighing the Federal Reserve\u2019s credibility against the traditional price driver of inflation and interest rates.",
-      "category": "commodities",
-      "date": "2026-09-15 16:21",
-      "link": "https://www.marketwatch.com/story/gold-is-starting-to-move-on-something-a-lot-bigger-than-inflation-39509ac5?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Skyworks Solutions Stock Tops S&P 500. The Apple Supplier Picks Up Where It Left Off.",
-      "score": 6,
-      "source": "Barron's",
-      "sentiment": "positive",
-      "impact": "Skyworks Solutions stock emerged as the top performer in the S&P 500 today, demonstrating a strong rebound despite a broader selloff in artificial intelligence-related stocks. As a key supplier to Apple, Skyworks Solutions' performance highlights its resilience in the market.",
-      "category": "us_equities",
-      "date": "2026-09-15 16:06",
-      "link": "https://www.barrons.com/articles/skyworks-solutions-stock-tops-s-p-500-apple-supplier-cb28cad2"
-    },
-    {
-      "headline": "JPMorgan Chase & Co. Cuts Garrett Motion (NASDAQ:GTX) Price Target to $35.00",
-      "score": 6,
-      "source": "MarketBeat",
       "sentiment": "neutral",
-      "impact": "JPMorgan Chase & Co. has reduced its price target for Garrett Motion (NASDAQ:GTX) from $37.00 to $35.00 while maintaining an \"overweight\" rating, suggesting a potential upside of 36.20%. Despite this adjustment, analyst sentiment for Garrett Motion remains largely positive, with the stock holding an",
-      "category": "us_equities",
-      "date": "2026-09-15 16:05",
-      "link": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-cuts-garrett-motion-nasdaq-gtx-price-target-to-3500-2026-09-15/"
+      "impact": "Gargi Pal Chaudhuri, of BlackRock, recommends investors stay invested in the artificial-intelligence sector but broaden into themes like quality and healthcare.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-16 09:34",
+      "link": "https://www.marketwatch.com/story/this-blackrock-strategist-opposes-a-fed-hike-here-are-the-funds-she-recommends-36a3b981?mod=mw_rss_topstories"
     },
     {
-      "headline": "Dave (NASDAQ:DAVE) Now Covered by Analysts at JPMorgan Chase & Co.",
+      "headline": "Strait of Hormuz ship crossings remain in single digits, data shows - Reuters",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "JPMorgan Chase & Co. has initiated coverage on Dave (NASDAQ:DAVE) with an \"overweight\" rating and a $480 price target, suggesting a 26.73% potential upside. This adds to a generally positive analyst sentiment, with 14 analysts rating the stock a \"Buy\" and three a \"Hold,\" resulting in a \"Moderate Buy",
-      "category": "us_equities",
-      "date": "2026-09-15 16:05",
-      "link": "https://www.marketbeat.com/instant-alerts/analyst-dave-nasdaq-dave-now-covered-by-analysts-at-jpmorgan-chase-co-2026-09-15/"
-    },
-    {
-      "headline": "Nike co-founder Phil Knight to donate $1.1 billion to Oregon medical center",
-      "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "The gift to Providence St. Vincent Medical Center will support the creation of an all-women\u2019s hospital as well as advance cardiovascular care across Oregon.",
+      "impact": "Strait of Hormuz ship crossings remain in single digits, data shows\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-15 15:00",
-      "link": "https://www.cnbc.com/2026/09/15/nike-phil-knight-donation-oregon-medical-center.html"
+      "date": "2026-09-16 03:33",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQelJ4cHN6djhZQmdNUTcyTmwyNjRycVF0NVZrSkwtRFJwUUVLMVRidVJzODlKME1ITFJiQ1RWNzVxWThEWWlJY1A4LVNUWkVucU9oMlp5ZDZCVUlVeDRGYnQ2blhNb2dKSUdMUjZGVzhPc1dNTnJnaERnS1VpQ3dNcHB1d2wyOHgxaEh1clRwenliU00zWWgzVS1MVnRCTTJMT3Q3d1VFTFF2a2JjYkVhTUdKdDA?oc=5"
     },
     {
-      "headline": "Children's clothing retailer Carter's is rebranding to appeal to a new generation of parents",
+      "headline": "Boeing, Korean Air finalize order for 103 aircraft - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Children's clothing brand Carter's is announcing a rebrand as it tries to keep up with the modern parent and its core customer base.",
+      "impact": "Boeing, Korean Air finalize order for 103 aircraft\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-15 13:19",
-      "link": "https://www.cnbc.com/2026/09/15/carters-kids-clothing-retailer-rebrands.html"
+      "date": "2026-09-16 02:20",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWZwd2lERklzamhHY3NBNWVVQlY1N1ZrdDc3X1poWmJPZ3dYX19UOG5wTGtLT2NyVlRnNXNQWWZadWlnVDBDZ3d2SjNUSlZxczFYWVlJVDFBWmRhV3NlVENzcUdtei1GX0tZXzZpYnB5Q3hRalYtRFlYR0FxTERES1J3bnhnSm1yRUh3WWtWT3dRS2tTanN5SElfX05xRFVRYzJYU0FtTVVGNmFl?oc=5"
     },
     {
-      "headline": "Potential AI slowdown is not \u2018end of the world\u2019 for data center real estate, says Digital Realty CEO",
+      "headline": "Saudi coalition says Houthi drone destroyed near Mecca - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Digital Realty and Equinix, two of the largest data center REITs, saw their stocks slump after warnings over AI advancements.\u00a0",
-      "category": "us_equities",
-      "date": "2026-09-15 12:28",
-      "link": "https://www.cnbc.com/2026/09/15/data-center-reit-ceo-ai-slowdown.html"
-    },
-    {
-      "headline": "GM launching new customer software experience with redesigned Chevy, GMC pickups",
-      "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "The new system comes as vehicles are becoming more digital, leading GM to also redesign its organizational processes.",
+      "impact": "Saudi coalition says Houthi drone destroyed near Mecca\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-15 11:00",
-      "link": "https://www.cnbc.com/2026/09/15/2027-chevy-silverado-gmc-sierra-to-debut-gms-new-software-experience.html"
+      "date": "2026-09-16 02:04",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWlDb0szQnNKQUdZZUJXWVN1LW1XODNJeEpLc1F3RFhEZ2pwc085M2NvRWNhMEV4MFhVa1BNWVZUQ3FpTE5pc0EwdVNrcXFMS0tWMF9kVXJfdlZKSFNfQjhkNjAteWVMVHVXR0lnV2hNbkNJX2g3RlJxYmphZDFOZTNQWWpHa2VycGo3VnQ5anhucVpNTmxkZ0hjWC1mNVVxTVZQNV9EUlh6TVlC?oc=5"
     },
     {
-      "headline": "Kraft Heinz bets on more flavors for Philadelphia cream cheese as it looks to revive brands",
+      "headline": "Saudi-led coalition says it destroys Houthi drone south of Mecca - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Philadelphia will release more cream cheese flavors as part of Kraft Heinz's turnaround.",
+      "impact": "Saudi-led coalition says it destroys Houthi drone south of Mecca\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-15 10:00",
-      "link": "https://www.cnbc.com/2026/09/15/kraft-heinz-new-philadelphia-cream-cheese-flavors.html"
-    },
-    {
-      "headline": "U.S. auto market predictions for 2030: More hybrids, no Chinese entrants",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Despite growing speculation that it won't be long until Chinese autos are sold in the U.S., John Murphy doesn't expect that to happen by 2030.",
-      "category": "global_markets",
-      "date": "2026-09-15 10:00",
-      "link": "https://www.cnbc.com/2026/09/15/us-auto-market-predictions-2030-john-murphy.html"
-    },
-    {
-      "headline": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The muted outlook from the country's second-largest bank by assets could be an early signal that Wall Street's AI boom might have hit turbulence.",
-      "category": "corporate_earnings",
-      "date": "2026-09-14 20:34",
-      "link": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html"
+      "date": "2026-09-16 00:29",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc0RnLXFoalRsa1JfTnROMHoxOXNjRzNINFVfZDNDUjhycmVmak1OVjdaOTYzdW9HZGlSVTRnZFhoRWFTUFljV1BEUVpLRGVJcTZ4QVN2bmtqc1U4dlJGbVM0LWJvNnE2VkRFWk8wVWJyMUVPZDhaSmNWb2xVUThzbHozUVlweXFRMVJFbk9vWE1Jd3FGVFE5VTRTNmZNNU5oYlp0dDJ2ZEJ2dVNnM040elpUM0ZpQQ?oc=5"
     }
   ]
 }
