@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-09-16T18:00:37.765631",
+  "timestamp": "2026-09-17T10:39:40.713908",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 8,
+    "avg_relevance": 7.5,
+    "bullish": 9,
     "neutral": 13,
-    "bearish": 4,
+    "bearish": 3,
     "high_priority": 11,
-    "material_events": 5
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 8,
     "Reuters": 5,
     "Bloomberg": 2,
-    "The Washington Post": 1,
+    "CNBC": 8,
+    "TheStreet": 1,
     "Caixin/S&P Global": 1,
     "MarketWatch": 2,
-    "Associated Press": 1,
-    "The Arkansas Democrat-Gazette": 1
+    "Financial Times": 1,
+    "CBS News": 1
   },
   "top_signals": [
     {
@@ -31,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,18 +61,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Yield on 10-year Treasury hovers above 5% as investors await Fed decision",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Federal Reserve is widely expected to hike interest rates on Wednesday.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-16 08:58",
-      "link": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -81,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -91,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -101,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -111,28 +101,38 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Dow falls 450 points as losses accelerate following a 19-year high in the 10-year Treasury yield: Live updates",
+      "headline": "Bank of England set to defy Fed\u2019s rate-hike lead, despite rising inflation",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Bank of England is expected to keep rates steady Thursday, even after U.K. inflation rose to 3.1% and energy costs keep pressure on prices.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-17 05:20",
+      "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html"
+    },
+    {
+      "headline": "Treasury yields hitting 5% may not break markets now \u2014 but the clock is ticking",
       "score": 8,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "The major averages closed lower on Monday as higher bond yields and oil prices kept the market under pressure.",
-      "category": "us_equities",
-      "date": "2026-09-15 16:17",
-      "link": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html"
+      "impact": "The 10-year Treasury yield hit its highest since 2007, pushing borrowing costs deeper into territory that could expose some of the financial system's weakest links.",
+      "category": "fixed_income",
+      "date": "2026-09-16 05:04",
+      "link": "https://www.cnbc.com/2026/09/16/10-year-treasury-yeilds-rise-impact-markets.html"
     },
     {
-      "headline": "Opinion | Raising interest rates will curb inflation and maintain Fed credibility",
+      "headline": "Stock Market Today (Sept. 15, 2026): Stocks sink as Fed meeting begins, Treasury yields hit 19-year highs",
       "score": 8,
-      "source": "The Washington Post",
+      "source": "TheStreet",
       "sentiment": "neutral",
-      "impact": "Kevin Warsh has talked the talk on inflation. Taming the beast will require action.",
+      "impact": "Latest market news.",
       "category": "us_monetary_policy",
-      "date": "2026-09-15 04:14",
-      "link": "https://www.washingtonpost.com/opinions/2026/09/14/raising-interest-rates-will-curb-inflation-maintain-fed-credibility/"
+      "date": "2026-09-15 22:22",
+      "link": "https://www.thestreet.com/stock-market-today/stock-market-today-sept-15-2026-dow-futures-slide-as-oil-prices-surge-and-treasury-yields-hit-2007-highs"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -141,7 +141,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -151,8 +151,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-16 18:00",
+      "date": "2026-09-17 10:39",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Fed Chair Kevin Warsh has sent investors a message: When it comes to tamping down inflation, he means business.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-16 21:40",
+      "link": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "J.B. Hunt stock plunges 13% after company warns third-quarter earnings will fall",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Shares of J.B. Hunt plunged 13% Wednesday after the company warned of an earnings drop between 5% and 10%.",
+      "category": "corporate_earnings",
+      "date": "2026-09-16 20:00",
+      "link": "https://www.cnbc.com/2026/09/16/jb-hunt-stock-jbht-earnings.html"
+    },
+    {
+      "headline": "Fed delivers its first hike in 3 years. Plus, what's moving Starbucks and GE Vernova",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-16 19:00",
+      "link": "https://www.cnbc.com/2026/09/16/fed-delivers-its-first-hike-in-3-years-plus-whats-moving-starbucks-and-ge-vernova.html"
+    },
+    {
+      "headline": "US Treasury gathers global financial institutions to advance Iran sanctions - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US Treasury gathers global financial institutions to advance Iran sanctions\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-09-16 17:42",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzUwU0VnMDVwQm1aTmZIQ25odU1FYXpWRkM4R2ZTMjdwalhFVDJ3dGtWV0szd1hYRVdJY1VlRmdPemJDOG9ONy1FZXUzbWhZRkFiTVVSRkdLX19Za3h2c0RneVpmbjhVdzhiZXRmYTJtc2JwYmFUU085RXBvclZoNkM1Y1AyUGF0RjhoTFRwaHF5WFNNbFlzdEMzSTZNNnhzTHB0N0p1aXdRYjY5SUpXVHhRVEtsclZPUkNGZEpCdzBvLVJu?oc=5"
     },
     {
       "headline": "American Airlines says 30% of seats drive half of revenue as premium cabin rush heats up",
@@ -165,114 +205,74 @@
       "link": "https://www.cnbc.com/2026/09/16/american-airlines-ceo-first-class-seats.html"
     },
     {
-      "headline": "J.B. Hunt stock plunges 10% after company warns third-quarter earnings will fall",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Shares of J.B. Hunt plunged more than 10% Wednesday after the company warned of an earnings drop between 5% and 10%.",
-      "category": "corporate_earnings",
-      "date": "2026-09-16 16:48",
-      "link": "https://www.cnbc.com/2026/09/16/jb-hunt-stock-jbht-earnings.html"
-    },
-    {
-      "headline": "Why a Federal Reserve rate hike could be a \u2018rare win\u2019 for your retirement money",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "There may be better savings yields, but beware rising credit-card rates",
-      "category": "us_monetary_policy",
-      "date": "2026-09-16 14:01",
-      "link": "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "US Treasury's Bessent will meet with China's He Lifeng this weekend - Reuters",
+      "headline": "South African rand dips as markets brace for Fed decision - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "US Treasury's Bessent will meet with China's He Lifeng this weekend\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-09-15 16:52",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2MzcWFBOFZsSHhmdHo4dVJnckkxSHJTUGh1QXMyUlNZVTJhbWhVQWlsRXZpYUJQLVhNT1BhU1VUOGNKWno3ZERFMHV3QW5PVUppWGcxRmNXYnlpWnlkOUFYZjJWTXVjVHJRMUpZb2JtUWFTQ29tMFlZa3R0ZWhPRHZTS2l5SENMMXNZVXdsc3ZVMjVscXpGZFJwaGdIU0ZqUmNzdTExcENiQWhZQ29mVlhqSktwZnAtamJDUw?oc=5"
-    },
-    {
-      "headline": "Federal Reserve is expected to raise its benchmark rate, defying Trump\u2019s demands",
-      "score": 7,
-      "source": "Associated Press",
-      "sentiment": "neutral",
-      "impact": "The Federal Reserve is widely expected to lift its short-term interest rate for the first time in three years to fight stubbornly high inflation. Such a move Wednesday would put the central bank at odds with President Donald Trump\u2019s demands. An increase in th\u2026",
+      "impact": "South African rand dips as markets brace for Fed decision\u00a0\u00a0Reuters",
       "category": "us_monetary_policy",
-      "date": "2026-09-15 11:09",
-      "link": "https://apnews.com/article/federal-reserve-kevin-warsh-interest-rates-ffd60cca8bb045bb9b1c389f5f1b73af"
+      "date": "2026-09-16 15:06",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNXBvdVEyendYdFZKSm1jWm8wSTBCWU9GdkRCNE1ZZkhNbGY3LVZqTVJxNzJvcTEzWV85RHBuZUFKb2lhRm14OGFFOEdGcHl6OG1mbVY4R1gtVXZNWmkxakY4bnFWMXprR1d2emRuOW5TSE9Qc3RlQ1dfbGtHaHYyOHUyQ0N1X2xFNzltYU5GN1JnNWZNY0NqS0FRRmhjbkNRVUdPa0lqYnBGMlF4OHBpNXZWZw?oc=5"
     },
     {
-      "headline": "Lagging sector looks poised for a rebound. Here's how Mike Khouw is trading it",
+      "headline": "Fed should defy Donald Trump with rate rise, top economists say",
+      "score": 7,
+      "source": "Financial Times",
+      "sentiment": "positive",
+      "impact": "The vast bulk of respondents in FT-Booth poll say the central bank should lift borrowing costs in a bid to tame inflation",
+      "category": "us_monetary_policy",
+      "date": "2026-09-16 04:01",
+      "link": "https://www.ft.com/content/f62e467a-bcb6-423d-96f2-b2b1e08faaa8?syn-25a6b1a6\\\\u003d1"
+    },
+    {
+      "headline": "Stock futures edge higher ahead of pivotal Fed rate decision: Live updates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Traders brace for the possibility of a new rate hiking cycle from the Federal Reserve.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-16 02:11",
+      "link": "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Fed expected to hike interest rates for first time since 2023. See what it means for your money.",
+      "score": 7,
+      "source": "CBS News",
+      "sentiment": "neutral",
+      "impact": "The Federal Reserve is likely to raise borrowing costs on Wednesday, and more hikes could be in store, according to economists.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-15 18:15",
+      "link": "https://www.cbsnews.com/news/fed-rate-hike-interest-rates-impact/"
+    },
+    {
+      "headline": "Netflix content chief Bela Bajaria defines event strategy as streamer eyes more live sports",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Quietly, the communications sector has started to claw back some of the year's underperformance.",
-      "category": "global_markets",
-      "date": "2026-09-16 17:21",
-      "link": "https://www.cnbc.com/2026/09/16/lagging-sector-looks-poised-for-a-rebound-heres-how-mike-khouw-is-trading-it.html"
-    },
-    {
-      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - Reuters",
-      "score": 6,
-      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened\u00a0\u00a0Reuters",
+      "impact": "Bajaria said Netflix would be open to a package of international NFL games if one becomes available when the league renegotiates its media rights agreements.",
       "category": "global_markets",
-      "date": "2026-09-16 16:38",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5"
+      "date": "2026-09-17 10:00",
+      "link": "https://www.cnbc.com/2026/09/17/netflix-bela-bajaria-live-sports-event-strategy.html"
     },
     {
-      "headline": "We're significantly trimming a stock that has not gone to plan",
+      "headline": "NASCAR CEO Steve O\u2019Donnell talks growth opportunities, possible international expansion ",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "We're selling half of our remaining position and downgrading the name to our sell-on-further-strength 3 rating.",
+      "sentiment": "positive",
+      "impact": "CEO Steve O\u2019Donnell said NASCAR's media strategy and the upcoming film \"Days of Thunder 2\" will help raise brand awareness and broaden its fan base.",
       "category": "global_markets",
-      "date": "2026-09-16 16:37",
-      "link": "https://www.cnbc.com/2026/09/16/were-significantly-trimming-a-stock-that-has-not-gone-to-plan.html"
+      "date": "2026-09-17 10:00",
+      "link": "https://www.cnbc.com/2026/09/17/nascar-steve-odonnell-media-international-expansion.html"
     },
     {
-      "headline": "J.B. Hunt shares fall Wednesday after company warns of third quarter profit decline",
-      "score": 6,
-      "source": "The Arkansas Democrat-Gazette",
-      "sentiment": "negative",
-      "impact": "J.B. Hunt Transport Services Inc. shares dropped 13% after the company warned of a 5% to 10% decline in third-quarter profits due to erratic fuel costs and increased driver expenses. Despite strong demand across segments, particularly in intermodal services, higher diesel costs and driver recruitmen",
-      "category": "corporate_earnings",
-      "date": "2026-09-16 16:34",
-      "link": "https://www.arkansasonline.com/news/2026/sep/16/jb-hunt-shares-fall-wednesday-after-company-warns/"
-    },
-    {
-      "headline": "15 stocks that have grown dividends the most \u2014 and nearly all have beaten the S&P 500",
+      "headline": "Why stocks can still advance after a Fed hike, according to a Wall Street strategist",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "There is a correlation between increasing dividends and strong investment performance \u2014 even if a stock has a low dividend yield when you buy.",
-      "category": "us_equities",
-      "date": "2026-09-16 16:00",
-      "link": "https://www.marketwatch.com/story/15-stocks-that-have-grown-dividends-the-most-and-nearly-all-have-beaten-the-s-p-500-6d8923fc?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Senate is still a tossup, but Democrats now have slight edge, prediction market traders think",
-      "score": 6,
-      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Traders on both Kalshi and Polymarket see Democrats with one of their best chances to flip the U.S. Senate since the contracts on the election opened.",
-      "category": "global_markets",
-      "date": "2026-09-16 14:53",
-      "link": "https://www.cnbc.com/2026/09/16/prediction-markets-say-democrats-are-slightly-favored-to-win-senate.html"
-    },
-    {
-      "headline": "Costco expands Uber Eats delivery partnership to 47 states",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Uber and Costco announced an expansion of a partnership where Costco members can order delivery from the store on Uber Eats to 47 states, up from 17.",
-      "category": "global_markets",
-      "date": "2026-09-16 14:31",
-      "link": "https://www.cnbc.com/2026/09/16/costco-and-uber-partnership.html"
+      "impact": "The investment bank found that stocks in the energy and information technology sectors on average perform the best one year after an interest-rate hike by the Federal Reserve.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-17 09:54",
+      "link": "https://www.marketwatch.com/story/why-the-s-p-500-could-still-advance-after-a-fed-hike-according-to-a-wall-street-strategist-d357b4f2?mod=mw_rss_topstories"
     }
   ]
 }
