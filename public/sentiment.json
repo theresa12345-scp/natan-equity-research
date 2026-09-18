@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-18T10:15:25.338111",
+  "timestamp": "2026-09-18T17:34:45.376138",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.5,
-    "bullish": 11,
-    "neutral": 12,
-    "bearish": 2,
-    "high_priority": 12,
+    "avg_relevance": 7.2,
+    "bullish": 9,
+    "neutral": 13,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 5
   },
   "sources": {
@@ -14,15 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Yahoo Entertainment": 1,
-    "Reuters": 4,
-    "Bloomberg": 4,
-    "CNBC": 5,
     "The Wall Street Journal": 1,
+    "Reuters": 3,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
     "MarketWatch": 3,
-    "The Washington Post": 1,
-    "MarketBeat": 1
+    "NBC News": 1,
+    "NPR": 1,
+    "CNBC": 9
   },
   "top_signals": [
     {
@@ -32,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,18 +61,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq rise as Fed rate hike pacifies markets' inflation worries",
+      "headline": "U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged",
       "score": 9,
-      "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "An expected Fed rate hike on Wednesday offered some relief to stock investors that the central bank was working to contain inflation.",
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Investors are now pondering the likely pace of further tightening",
       "category": "us_monetary_policy",
-      "date": "2026-09-17 08:12",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-17-dow-sp-500-nasdaq-081248626.html"
+      "date": "2026-09-17 14:49",
+      "link": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-as-market-regains-trust-in-feds-inflation-resolve-62beaf8e"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -82,7 +81,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -92,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -102,7 +101,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -112,38 +111,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Bank of England set to defy Fed\u2019s rate-hike lead, despite rising inflation",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Bank of England is expected to keep rates steady Thursday, even after U.K. inflation rose to 3.1% and energy costs keep pressure on prices.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-17 05:20",
-      "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html"
-    },
-    {
-      "headline": "A stronger dollar and rising yields: How the Fed\u2019s rate hike could hit global markets",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Higher U.S. rates could also keep global bond yields elevated and weigh on equity valuations and economic growth.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-17 04:40",
-      "link": "https://www.cnbc.com/2026/09/17/fed-rate-hike-impact-globally-currency-yields.html"
-    },
-    {
-      "headline": "Does a Fed Interest Rate Hike Make Stocks Go Down?",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-16 20:48",
-      "link": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/after-past-fed-rate-hikes-how-did-stocks-move--GzwYXVukCwLHvYSA8NEb"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -152,7 +121,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -162,58 +131,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-18 10:15",
+      "date": "2026-09-18 17:34",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+      "headline": "What\u2019s really driving inflation and rising interest rates",
       "score": 7,
       "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "\u201cThe higher that yields go \u2014 for at least new money \u2014 it becomes more enticing to think about putting money into bonds,\u201d one strategist notes.",
-      "category": "fixed_income",
-      "date": "2026-09-17 21:22",
-      "link": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Stocks stage a comeback after Fed-induced declines \u2014 plus, what's ailing Boeing",
-      "score": 7,
-      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-17 16:37",
-      "link": "https://www.cnbc.com/2026/09/17/stocks-stage-a-comeback-after-fed-induced-declines-plus-whats-ailing-boeing.html"
-    },
-    {
-      "headline": "Trump says he told Fed chief to \u2018do what you want\u2019 ahead of interest rate hike",
-      "score": 7,
-      "source": "The Washington Post",
-      "sentiment": "neutral",
-      "impact": "The president also suggested that he doesn\u2019t expect Kevin Warsh to follow his directions, saying he wanted the Fed \u201cto be independent.\u201d",
-      "category": "us_monetary_policy",
-      "date": "2026-09-17 03:59",
-      "link": "https://www.washingtonpost.com/business/2026/09/16/trump-says-he-told-fed-chief-do-what-you-want/"
-    },
-    {
-      "headline": "Warsh Defies Trump\u2019s Calls for Rate Cut as War Stokes Inflation",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "A year ago, when Kevin Warsh was angling to lead the Federal Reserve, he called out the central bank for keeping interest rates too high and touted a technological revolution that would spur growth without driving inflation.",
+      "impact": "Also in Weekend Reads: The housing market, retirement planning with an age gap, and a combination of warnings and opportunities in the stock market.",
       "category": "global_markets",
-      "date": "2026-09-17 00:30",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-17/trump-denied-rate-cut-as-federal-reserve-targets-war-stoked-inflation"
+      "date": "2026-09-18 16:50",
+      "link": "https://www.marketwatch.com/story/whats-really-driving-inflation-and-rising-interest-rates-59a9cd51?mod=mw_rss_topstories"
     },
     {
-      "headline": "Asian Stocks to Fall as Fed Hikes, Dollar Jumps: Markets Wrap",
+      "headline": "Stocks and bonds rally after Fed hikes rates and oil prices fall",
       "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "US stocks rallied alongside Treasuries as falling oil prices lent support to optimism that inflation can be kept under control a day after the Federal Reserve raised interest rates and signaled more tightening to come.",
+      "source": "NBC News",
+      "sentiment": "neutral",
+      "impact": "U.S. stock indexes rose sharply Thursday morning after the Federal Reserve hiked interest rates in a bid to rein in rising inflation.",
       "category": "us_monetary_policy",
-      "date": "2026-09-16 22:06",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates"
+      "date": "2026-09-17 13:41",
+      "link": "https://www.nbcnews.com/business/markets/stocks-bonds-fed-hikes-oil-prices-rcna598310"
+    },
+    {
+      "headline": "The Fed raises interest rates. And, EU proposes Canada become an 'associate member'",
+      "score": 7,
+      "source": "NPR",
+      "sentiment": "neutral",
+      "impact": "The Federal Reserve has raised interest rates for the first time in years. And, the European Union has proposed that Canada become its first-ever \"associate member.\"",
+      "category": "us_monetary_policy",
+      "date": "2026-09-17 10:54",
+      "link": "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union"
     },
     {
       "headline": "J.B. Hunt stock plunges 13% after company warns third-quarter earnings will fall",
@@ -236,44 +185,94 @@
       "link": "https://www.cnbc.com/2026/09/16/american-airlines-ceo-first-class-seats.html"
     },
     {
-      "headline": "The Fed\u2019s never been so confident on economic growth. What investors should do now, according to KKR.",
+      "headline": "Auto industry urges Trump to bar Chinese automakers in U.S. ahead of Xi visit",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Leaders of six major auto trade groups joined to sign a letter to the president.",
+      "category": "global_markets",
+      "date": "2026-09-18 17:11",
+      "link": "https://www.cnbc.com/2026/09/18/xi-visit-automakers-urge-trump-to-bar-chinese-automakers-in-us.html"
+    },
+    {
+      "headline": "Nike parts ways with Kylian Mbapp\u00e9, soccer superstar signs with On",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Mbappe had been signed with Nike for roughly two decades, and his agreement with On is the first it has made with a soccer player.",
+      "category": "global_markets",
+      "date": "2026-09-18 16:42",
+      "link": "https://www.cnbc.com/2026/09/18/kylian-mbappe-signs-with-on-after-nike-parts-ways.html"
+    },
+    {
+      "headline": "Why investors\u2019 best move in reaction to Fed\u2019s rate hike is doing nothing at all",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Members of the Federal Open Market Committee showed their lowest level of worry about gross domestic product growth since it first started releasing its outlook.",
+      "impact": "Even when rates are higher, stocks should still beat bonds",
       "category": "us_monetary_policy",
-      "date": "2026-09-18 10:08",
-      "link": "https://www.marketwatch.com/story/the-feds-never-been-so-confident-on-economic-growth-what-investors-should-do-now-according-to-kkr-b2eef2ee?mod=mw_rss_topstories"
+      "date": "2026-09-18 16:39",
+      "link": "https://www.marketwatch.com/story/why-investors-best-move-in-reaction-to-feds-rate-hike-is-doing-nothing-at-all-6ff56b4c?mod=mw_rss_topstories"
     },
     {
-      "headline": "The Fed hasn\u2019t been this terse since 2007. What a 130-word statement signals for market stability.",
+      "headline": "We're buying more of this defensive stock ahead of an upcoming long-term catalyst",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The stock has been on a tough road since our initiation at the beginning of the month.",
+      "category": "global_markets",
+      "date": "2026-09-18 16:14",
+      "link": "https://www.cnbc.com/2026/09/18/were-buying-more-of-this-defensive-stock-ahead-of-an-upcoming-long-term-catalyst.html"
+    },
+    {
+      "headline": "Disney names CTO for the first time as media giant expands tech push",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Disney has hired a chief technology officer, a newly minted role for the company, as it looks to further its embrace of tech under CEO Josh D'Amaro.",
+      "category": "global_markets",
+      "date": "2026-09-18 16:14",
+      "link": "https://www.cnbc.com/2026/09/18/disney-cto-tech.html"
+    },
+    {
+      "headline": "These fast-growing ETFs aim for yields as high as 17.5%. But here\u2019s the catch.",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Bank of America calculates this week\u2019s Federal Open Market Committee statement explaining the decision to lift interest rates by a quarter-point as its most terse, at just 130 words, since 2007.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-18 10:08",
-      "link": "https://www.marketwatch.com/story/the-fed-hasnt-been-this-terse-since-2007-what-a-130-word-statement-signals-for-market-stability-0fd31292?mod=mw_rss_topstories"
+      "sentiment": "negative",
+      "impact": "So-called autocallable ETFs pay coupons like bonds but are linked to equity risk.",
+      "category": "fixed_income",
+      "date": "2026-09-18 16:11",
+      "link": "https://www.marketwatch.com/story/these-fast-growing-etfs-aim-for-yields-as-high-as-17-5-but-heres-the-catch-6f0a3d43?mod=mw_rss_topstories"
     },
     {
-      "headline": "Enovix Corporation (NASDAQ:ENVX) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
+      "headline": "Wendy's franchisee files for Chapter 11 bankruptcy protection as burger chain struggles",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Enovix Corporation (NASDAQ:ENVX) has received a \"Moderate Buy\" consensus recommendation from analysts, with an average 12-month price target of $11.77, significantly higher than its current share price of $2.94. Despite reporting 20.8% year-over-year revenue growth and beating EPS estimates, the com",
-      "category": "us_equities",
-      "date": "2026-09-18 08:30",
-      "link": "https://www.marketbeat.com/instant-alerts/consensus-enovix-corporation-nasdaq-envx-given-consensus-recommendation-of-moderate-buy-by-analysts-2026-09-18/"
-    },
-    {
-      "headline": "As Iran war grinds on, Trump to face skeptical world leaders at UN - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "As Iran war grinds on, Trump to face skeptical world leaders at UN\u00a0\u00a0Reuters",
+      "impact": "One of Wendy's biggest U.S. franchisees, Meritage Hospitality Group, filed for Chapter 11 bankruptcy protection.",
       "category": "global_markets",
-      "date": "2026-09-18 05:03",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORFROaUxKT0xTODBaOWZaNkx1anVfanoxaFVwYm5QQnlNY1QwZXEyaEY3QnR6QmNDMHlJX3gwWU5WRWN6VmdjdkxLSmEyX3dZeW9pVmJ2d3lEeVlPWVFQeDNwa2V5bnE0b3h0OGRIWmdMTUw4aDQ5UUZHX192bmcwNTNUeEJIU2YySU8yM3FxX3lCTFlJX1Y3bHRrd3g4MS1nNk5LNkJEZmlWREk?oc=5"
+      "date": "2026-09-18 15:41",
+      "link": "https://www.cnbc.com/2026/09/18/wendys-franchisee-files-for-chapter-11-bankruptcy-protection.html"
+    },
+    {
+      "headline": "Ticket prices rise for Macklemore solo concert after Ed Sheeran tour removal",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Ticket prices are rising for Macklemore's upcoming solo concert after the rapper was removed from Ed Sheeran's tour for making pro-Palestine comments.",
+      "category": "global_markets",
+      "date": "2026-09-18 15:33",
+      "link": "https://www.cnbc.com/2026/09/18/macklemore-ticket-prices-rise-amid-ed-sheeran-tour-fallout.html"
+    },
+    {
+      "headline": "Why more companies are fighting over consumers' beauty, health and wellness spending",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "As consumers prioritize holistic retail purchases, beauty, health and wellness are increasingly converging into one category and one consumer budget.",
+      "category": "global_markets",
+      "date": "2026-09-18 15:18",
+      "link": "https://www.cnbc.com/2026/09/18/beauty-health-wellness-consumer-spending.html"
     }
   ]
 }
