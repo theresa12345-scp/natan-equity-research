@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-19T09:57:38.914829",
+  "timestamp": "2026-09-19T17:03:52.123716",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 8,
-    "neutral": 13,
+    "avg_relevance": 7.2,
+    "bullish": 12,
+    "neutral": 9,
     "bearish": 4,
-    "high_priority": 9,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,10 +14,16 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 11,
+    "Reuters": 6,
     "Bloomberg": 2,
-    "CNBC": 7,
-    "Caixin/S&P Global": 1
+    "Investor's Business Daily": 1,
+    "CNBC": 4,
+    "Caixin/S&P Global": 1,
+    "MarketWatch": 1,
+    "Insider Monkey": 1,
+    "Yahoo Finance UK": 1,
+    "Yahoo Finance": 1,
+    "MarketBeat": 3
   },
   "top_signals": [
     {
@@ -27,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -37,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -47,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -57,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -67,7 +73,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -77,7 +83,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -87,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -97,18 +103,38 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Bank of Japan raises interest rates to 31-year high, flags concerns over inflation",
+      "headline": "Global rate-hike cycle in view as central banks take on inflation - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Global rate-hike cycle in view as central banks take on inflation\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-18 17:53",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaTJFdU1RczNyN0w2RjNKNHB0OWxqaEhHeDE5bDdXOS16QlV0eHNnbWNSbGVVQ2RaRTVJOWFHUXQ2Qy1qTy1aQ0lVVGFMNzRXV3lwUnBnaHh0VUFmeDNodzVZWWRwVk9iak5qZEZ2R0NSRzNrT2ZlYUxNaUZYTUY0VXdjYXhQakNOYmdqaUlrZ2JsazMtVHR2bkdMWkJ6Z2hyUzZmaG0wNmkxazg?oc=5"
+    },
+    {
+      "headline": "Dow Jones Futures: After S&P 500, Nasdaq Rebound, What's Next? Moderna, AMD, SpaceX Flash Buy Signals.",
+      "score": 8,
+      "source": "Investor's Business Daily",
+      "sentiment": "negative",
+      "impact": "Treasury yields fall in a positive day-two reaction to the Fed meeting.",
+      "category": "us_equities",
+      "date": "2026-09-18 12:02",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-moderna-amd-spacex-buy-signals/"
+    },
+    {
+      "headline": "Treasury yields edge higher as volatile week wraps up",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The decision was split 7-2, with board members Toichiro Asada and Ayano Sato\u00a0dissenting from the hike.",
-      "category": "global_markets",
-      "date": "2026-09-18 03:16",
-      "link": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
+      "sentiment": "positive",
+      "impact": "Treasury yields moved higher on Friday as investors continued to look for clues on the trajectory of monetary policy.",
+      "category": "fixed_income",
+      "date": "2026-09-18 09:22",
+      "link": "https://www.cnbc.com/2026/09/18/treasury-yields-fed-rates-volatile-week.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -117,7 +143,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -127,7 +153,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-19 09:57",
+      "date": "2026-09-19 17:03",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -161,6 +187,86 @@
       "link": "https://www.cnbc.com/2026/09/16/american-airlines-ceo-first-class-seats.html"
     },
     {
+      "headline": "15 stocks that have grown dividends the most \u2014 and nearly all have beaten the S&P 500",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "There is a correlation between increasing dividends and strong investment performance \u2014 even if a stock has a low dividend yield when you buy.",
+      "category": "us_equities",
+      "date": "2026-09-19 14:57",
+      "link": "https://www.marketwatch.com/story/15-stocks-that-have-grown-dividends-the-most-and-nearly-all-have-beaten-the-s-p-500-6d8923fc?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Cencora (COR) Raised Guidance and Bought Back $1B. What\u2019s the Catch?",
+      "score": 6,
+      "source": "Insider Monkey",
+      "sentiment": "positive",
+      "impact": "Cencora (COR) reported strong fiscal third-quarter results, with revenue up 5.1% and adjusted EPS climbing 12.0%, leading to raised full-year guidance and $1 billion in stock repurchases. However, this profit growth significantly outpaced sales growth, driven by the OneOncology acquisition which als",
+      "category": "corporate_earnings",
+      "date": "2026-09-19 14:49",
+      "link": "https://www.insidermonkey.com/news/cencora-cor-raised-guidance-and-bought-back-1b-whats-the-catch-1840126/"
+    },
+    {
+      "headline": "YieldMax SNOW Option Income Strategy ETF (SNOY) stock price, news, quote and history",
+      "score": 6,
+      "source": "Yahoo Finance UK",
+      "sentiment": "neutral",
+      "impact": "This page provides the stock price, news, quote, and historical data for the YieldMax SNOW Option Income Strategy ETF (SNOY). It details the fund's performance, including a high yield of 48.29% and a YTD daily total return of 24.09%, and explains its strategy of using synthetic covered calls for inc",
+      "category": "fixed_income",
+      "date": "2026-09-19 14:44",
+      "link": "https://uk.finance.yahoo.com/quote/SNOY/"
+    },
+    {
+      "headline": "Bank of America Sets 12-Month S&P 500 Target at 7,800, Sees 2% Upside",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "sentiment": "neutral",
+      "impact": "Bank of America (BofA) has set a 12-month S&P 500 target of 7,800, representing a 2% upside from current levels, while also raising its year-end forecast to 7,400. Strategist Savita Subramanian highlighted potential market risks including inflation, Federal Reserve policy, and credit conditions, not",
+      "category": "us_equities",
+      "date": "2026-09-19 13:50",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sets-12-month-134200044.html"
+    },
+    {
+      "headline": "Flames, black smoke seen near Riyadh airport, eyewitness says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Flames, black smoke seen near Riyadh airport, eyewitness says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-19 11:21",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVhEVEhONEZLVTN1Q0NyUzZwOXdIS3JLY0VVMVhabU40LV96QjY3d3A5M3NNTElCTy1SdzFFSVIyOEhxWW1OMUxKM1hHUFc0UDNnaXpLRlBPR2VhZkdsWVktOWtCSWxTUWhYV1FFcnN6c3A1WVVoc192OWNJSWhJQnc0U1QwZ1ZtRXd2a0hlNkJJMVVrckJpSXFlZzJDNVhUTVI5RWtGcVd6SW01UHNEWk9lMA?oc=5"
+    },
+    {
+      "headline": "United Fire Group (NASDAQ:UFCS) Upgraded at Zacks Research",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Zacks Research has upgraded United Fire Group (NASDAQ:UFCS) from a \"hold\" to a \"strong-buy\" rating, aligning with the broader analyst consensus and an average price target of $52.50. The company recently reported strong quarterly earnings of $1.30 per share, significantly exceeding the $0.69 consens",
+      "category": "us_equities",
+      "date": "2026-09-19 11:09",
+      "link": "https://www.marketbeat.com/instant-alerts/analyst-united-fire-group-nasdaq-ufcs-upgraded-at-zacks-research-2026-09-19/"
+    },
+    {
+      "headline": "NeuroPace (NASDAQ:NPCE) Upgraded to \"Strong-Buy\" at KeyCorp",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "KeyCorp has upgraded NeuroPace (NASDAQ:NPCE) to a \"strong-buy\" rating, contributing to the stock's overall \"Moderate Buy\" consensus among analysts with an average price target of $19.33. The company exceeded its quarterly earnings expectations, reporting adjusted EPS of negative $0.18 against estima",
+      "category": "us_equities",
+      "date": "2026-09-19 11:06",
+      "link": "https://www.marketbeat.com/instant-alerts/analyst-neuropace-nasdaq-npce-upgraded-to-strong-buy-at-keycorp-2026-09-19/"
+    },
+    {
+      "headline": "lululemon athletica (NASDAQ:LULU) Downgraded to \"Strong Sell\" Rating by Zacks Research",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "negative",
+      "impact": "Zacks Research downgraded lululemon athletica (NASDAQ:LULU) from a \"hold\" to a \"strong sell\" rating. This downgrade reflects broader analyst caution, with the stock currently trading near its 52-week low and significantly below moving averages. The company's recent quarterly earnings beat EPS estima",
+      "category": "us_equities",
+      "date": "2026-09-19 11:05",
+      "link": "https://www.marketbeat.com/instant-alerts/analyst-lululemon-athletica-nasdaq-lulu-downgraded-to-strong-sell-rating-by-zacks-research-2026-09-19/"
+    },
+    {
       "headline": "Iran executes man convicted of spying for Israel's Mossad, judiciary says - Reuters",
       "score": 6,
       "source": "Reuters",
@@ -169,106 +275,6 @@
       "category": "global_markets",
       "date": "2026-09-19 06:28",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUHlXMU02X1Q1U245V0NOTFNPTGFPLXBYTFBNUG84ZlBWY2hteTNWRTNadlNxWWUzQVktelVDbmxOenJuQlZzV1h2bHlfNXZfWTh2RVNYeTVRVkhfTFpGTVNGSm5xeHhNUnE0U2E2ZmEtYmVDaFkwY25wUFl3alBnYXhJUnZGeVc5dVZKTU1aYTIxcW1xTmk3UGpBSmt4bU1lTHpsN1Rya1o2WDZlZ295LVZISUpXc0dZZEE?oc=5"
-    },
-    {
-      "headline": "Saudi civil defence sends all-clear after alerts issued for capital Riyadh - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Saudi civil defence sends all-clear after alerts issued for capital Riyadh\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-19 00:42",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5"
-    },
-    {
-      "headline": "Trump signs Russia sanctions bill into law - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump signs Russia sanctions bill into law\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-18 22:20",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMWZ3NVV2eHJuOEVQcDhZX3BVSnh2aWxQcE0wWERtWGc3MG9ZS3VmN1lqemJPNS1NbE1pU3RDTlR5TUIteF9hMVdNY2NITDU2N3lva3hWelYydUQ1Nm9xWUZZUHN3R29QeXR3VzhIdFNyOXJ6T1FLNlNEU3JIbUx3Q1ZCVWxHdnI4ZmhJVjFfd0s?oc=5"
-    },
-    {
-      "headline": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US troop deaths during Iran war exceed Pentagon count by at least four, Washington Post reports\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-18 22:08",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5"
-    },
-    {
-      "headline": "Turkey revokes operating license of Iran's Mellat Bank amid US measures - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Turkey revokes operating license of Iran's Mellat Bank amid US measures\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-18 21:58",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1hTU1NHcEl4TWwzc0E2THYwcmxSMS05TnFsT2w4ZHVpQjhvX0NxT2dLb2RpRGtIczNadkVFczZUSGJ0VGJJdEpvMzlnZ3F4aGtBMldjZUpMZ2p4cWFOZ2VzSHhSLUhsclg4aXYwT2dMRkMxWWFjbnBBQ24tUG9EQk02UWlrczRVODFrU2hIbmZRZm9ESDU2TnJwb1FnMGw4OTU4OTllOFl3RlhON3JHTmJPVnYwNVYxT1FQaFZn?oc=5"
-    },
-    {
-      "headline": "Saudi Civil Defense lifts warnings of potential danger in several areas - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Saudi Civil Defense lifts warnings of potential danger in several areas\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-18 20:48",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlpTM1JIVGlNanRpa0drbElOWTNPVGp4bUhMNEd6TTZnbFRQbG5IMDV2VmxTS0VLeTNKaWl1cDJDeml0U2F6NjNGMFJoWkdVTHV1cG5BeHBtWm9LbnoxYXBmSXB2MFE2MGlla092UW1fZTF6eHFxc2NjNFlORkVpc3Q4b0NOdk44Z1NXTVdZQVhqNHpTRFduNFF5SXRicFpiX0lSWGlmWUZVa2laMGlrZ3Vn?oc=5"
-    },
-    {
-      "headline": "Republican China committee chair urges tough Trump line with Xi - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Republican China committee chair urges tough Trump line with Xi\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-09-18 19:34",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5"
-    },
-    {
-      "headline": "Nike parts ways with Kylian Mbapp\u00e9; soccer superstar signs with On",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Mbappe had been signed with Nike for roughly two decades, and his agreement with On is the first it has made with a soccer player.",
-      "category": "global_markets",
-      "date": "2026-09-18 19:30",
-      "link": "https://www.cnbc.com/2026/09/18/kylian-mbappe-signs-with-on-after-nike-parts-ways.html"
-    },
-    {
-      "headline": "McDonald's is the new 'Value Meal,' says trader Mike Khouw",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "McDonald's announced this week that it is revising its U.S. value strategy after recording its slowest sales growth in more than a year.",
-      "category": "global_markets",
-      "date": "2026-09-18 18:11",
-      "link": "https://www.cnbc.com/2026/09/18/mcdonalds-is-the-new-value-meal-says-trader-mike-khouw.html"
-    },
-    {
-      "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-18 17:55",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRi1pY1Bqc1lTWGhEbU5ydjdqZFVDQ2RYb3NidmNYTTc4Mkw2WkZFbXNqWlEzS0FVN200UjgwWElaWFlWcTRPSXRIN2Z4YmVDZ2dJdGZ2cnJWMDA4NUNVUnoxS3RuV2IwNDBZVjRSaGFFMTZ6Q3hUeF9fdEg4MEg4VVBtT2hyLTllVmw2QmRCNlVJY3IyVTEzM2hwbnpKTVVnN2hwem9wZmpFQUpaTHpEQTJtUkxnRC1Jc1RFX2Znem1IVmth?oc=5"
-    },
-    {
-      "headline": "Auto industry urges Trump to bar Chinese automakers in U.S. ahead of Xi visit",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Leaders of six major auto trade groups joined to sign a letter to the president.",
-      "category": "global_markets",
-      "date": "2026-09-18 17:11",
-      "link": "https://www.cnbc.com/2026/09/18/xi-visit-automakers-urge-trump-to-bar-chinese-automakers-in-us.html"
     }
   ]
 }
