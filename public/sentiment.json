@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-21T11:27:49.391625",
+  "timestamp": "2026-09-21T19:08:05.623178",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 10,
-    "neutral": 14,
+    "avg_relevance": 7.1,
+    "bullish": 12,
+    "neutral": 12,
     "bearish": 1,
-    "high_priority": 8,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 12,
-    "Bloomberg": 3,
+    "Reuters": 9,
+    "Bloomberg": 2,
+    "Associated Press": 1,
     "Caixin/S&P Global": 1,
-    "CNBC": 2,
-    "Yahoo Entertainment": 1,
-    "MarketWatch": 1,
-    "InteriorDaily": 1
+    "CNBC": 8
   },
   "top_signals": [
     {
@@ -30,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +98,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Wall St rises on AI gains as oil slides, Treasury yields retreat - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Wall St rises on AI gains as oil slides, Treasury yields retreat\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-09-21 15:57",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5"
+    },
+    {
+      "headline": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth",
+      "score": 8,
+      "source": "Associated Press",
+      "sentiment": "positive",
+      "impact": "President Donald Trump has renewed his attacks on the Federal Reserve after it hiked its benchmark interest rate Wednesday, but the Fed matters less than broader economic trends when it comes to longer-term borrowing costs, economists say. The economy is grow\u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-09-20 13:45",
+      "link": "https://apnews.com/article/federal-reserve-interest-rates-inflation-a633de46f84a3487f3bdc03f788188fa"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +128,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,7 +138,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-21 11:27",
+      "date": "2026-09-21 19:08",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -130,28 +148,68 @@
       "sentiment": "positive",
       "impact": "Tariffs, fuel prices and interest rates are squeezing American companies, particularly manufacturers, auto suppliers, retailers and transportation businesses.",
       "category": "global_markets",
-      "date": "2026-09-20 12:47",
+      "date": "2026-09-20 12:00",
       "link": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html"
     },
     {
-      "headline": "Treasury yields are already blowing up the CBO\u2019s long-term forecasts, and experts who previously downplayed U.S. debt fears are now starting to worry",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "negative",
-      "impact": "\"If interest begets debt, and debt begets interest, eventually debt will spin out of control. A fiscal crisis, once unthinkable, is now a distinct possibilit...",
-      "category": "us_equities",
-      "date": "2026-09-19 19:31",
-      "link": "https://finance.yahoo.com/economy/policy/articles/treasury-yields-already-blowing-cbo-193157579.html"
+      "headline": "Paramount and state AGs settle lawsuit, allowing Warner Bros. merger to proceed",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The antitrust lawsuit threatened to delay Paramount's acquisition until mid-2027 and to cost the company hundreds of millions of dollars in fees.",
+      "category": "global_markets",
+      "date": "2026-09-21 19:00",
+      "link": "https://www.cnbc.com/2026/09/21/paramount-reaches-settlement-over-warner-bros-merger.html"
     },
     {
-      "headline": "Meta-tied data centre draws blowout demand for debut junk bond",
-      "score": 7,
-      "source": "Bloomberg",
+      "headline": "Eli Lilly CEO tells CNBC one-third of new GLP-1 pill patients are taking Foundayo, as drugmaker ramps up production",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Eli Lilly is trying to catch up in the GLP-1 pill market to Novo, which got a head start in the space.",
+      "category": "global_markets",
+      "date": "2026-09-21 18:57",
+      "link": "https://www.cnbc.com/2026/09/21/lilly-is-ramping-up-future-manufacturing-for-foundayo-obesity-pill.html"
+    },
+    {
+      "headline": "Flights disrupted into Newark, New York, Philadelphia after cut Verizon cable",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "An FAA equipment problem snarled air travel at Newark Liberty International Airport and Philadelphia International Airport Monday.",
+      "category": "global_markets",
+      "date": "2026-09-21 18:53",
+      "link": "https://www.cnbc.com/2026/09/21/newark-philadelphia-nyc-flight-disruptions.html"
+    },
+    {
+      "headline": "Intel surges 12% as CPU stocks rally. Here's what's driving the move",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "CleanSpark's debut junk bond offering for a Meta-tied data center saw $10 billion in demand, highlighting strong investor interest.",
-      "category": "fixed_income",
-      "date": "2026-09-19 07:07",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/meta-tied-data-center-draws-blowout-demand-for-debut-junk-bond"
+      "impact": "Every weekday, the Investing Club releases the Homestretch, an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2026-09-21 18:37",
+      "link": "https://www.cnbc.com/2026/09/21/intel-surges-12percent-as-cpu-stocks-rally-heres-whats-driving-the-move.html"
+    },
+    {
+      "headline": "Gaza students return to in-person schooling for first time in three years - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gaza students return to in-person schooling for first time in three years\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-21 18:19",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeWU4dWw2cjB2T1E3bV80M1JsUHpuZ3ZfUXNCak41UWx3T2kwdmgtY0RuOGd3Y3lWZzNmbGY3VU14SzJJRHpBTExyRmhLSDNfVlN3Uy1aRUZXaVduczlHajZ2WXBGVzBiY0J2US1zZFNEV3VzeHRaTXJWLXA3R1pGY2xnQ3hFcUw4WnVZczMxQ2U2M2czOGNJR29UZVA2VjBJMWtqQ1BHaUVtY3NxUTZXR0pRUEszN3Zq?oc=5"
+    },
+    {
+      "headline": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-21 18:05",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczdRcTBZOTMtVlJTZ0ljR0lvX0VpdzJRbzAwaXdPN0tmVGJMNWJyRVY5d3ZsZUlENm9aWmdDN0dFellPVmMwc0JJdzA2a2dxTUVJNWdfZTJQQUhxUWJSalQyMC12UmxiR3NEZDBBQUpDdFE1V1dTQktKQUFqZ3JIc2N3SVkxMWxiTVhYYXdYelVxUU9XMGlDN3FOX0ZvSmc5dEVCdkJTNXE3dTFxUVVZQVQ4eTBhaG9EUmpWVG1FamY5UUkySGtFRQ?oc=5"
     },
     {
       "headline": "Nissan eyes increasing U.S. production as new Rogue hybrid launches",
@@ -160,118 +218,58 @@
       "sentiment": "neutral",
       "impact": "Nissan has two production shifts at its assembly plant in Smyrna, Tennessee, and adding another could mean hundreds, if not thousands, of new jobs.",
       "category": "global_markets",
-      "date": "2026-09-21 11:00",
+      "date": "2026-09-21 16:53",
       "link": "https://www.cnbc.com/2026/09/21/nissan-2027-rogue-production.html"
     },
     {
-      "headline": "Corporate earnings are growing much faster than the economy. What Goldman strategists say about bubble concerns.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "A team at the bank, led by Ben Snider, wrote in a recent note that they see  S&P 500 earnings per share growth slowing to 11% in 2027 and 2028.",
-      "category": "commodities",
-      "date": "2026-09-21 10:13",
-      "link": "https://www.marketwatch.com/story/corporate-earnings-are-growing-much-faster-than-the-economy-what-goldman-strategists-say-about-bubble-concerns-1f625fb3?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Mohawk Industries insider sells shares after quarterly earnings beat",
-      "score": 6,
-      "source": "InteriorDaily",
-      "sentiment": "positive",
-      "impact": "An insider at Mohawk Industries, Suzanne Helen, sold 800 shares worth $100,496 on September 18, reducing her ownership by 13.05%. This transaction followed the company's stronger-than-expected second-quarter performance, where adjusted earnings and revenue surpassed analyst expectations. Mohawk Indu",
-      "category": "corporate_earnings",
-      "date": "2026-09-21 09:04",
-      "link": "https://www.interiordaily.com/article/9874882/mohawk-industries-insider-sells-shares-after-quarterly-earnings-beat/"
-    },
-    {
-      "headline": "Xi rolls into Trump summit with China's trade engine roaring - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Xi rolls into Trump summit with China's trade engine roaring\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-09-21 07:32",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjdmUF9fTEcySTFqT2t2NUZsd1prTmZjTjJVbmZwOVVVQzVCYV9mem5YNGRVUUdYT05uRTlXTWFheEh5azN5blpURFI1YXItOEJBZWZRRDlLQkx3aGJsdkZia0M2WEpaNHRhTTVmOEpUeU5FdWRPYVN1dUV1bVZrbHpzVEhZZzBrRXNXMTYzOTZzQTVETVkxM1pJT3JIZlpucUJoQTVFaE5LX28?oc=5"
-    },
-    {
-      "headline": "Europe faces Q4 jet fuel supply deficit even as South Korea becomes latest big supplier - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Europe faces Q4 jet fuel supply deficit even as South Korea becomes latest big supplier\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-21 06:38",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVVgydHlkOXlLQ1Q4SWtQNmtjZjNoLTRUNnptMkdnUndRQlhhQWVCVTJ6VzlabXdZSUIxOG9BNDRKOGswSHlZSC1RS3pqMnlMS0R5U25ZZnFMUUNYemhXSVo4aVBhVlNjRnRQWVo2b0h4a2FvT29vMkFyQV8yZVBRSGZmUldDWkRsYVlhVFljYk44QWdTRFJnMUw5bk9BVEpRNVpNa0gtZV90ZVRUYXVSYUtRZ1VHZXFOVmdxbzJTTmFJOEZ4d1E?oc=5"
-    },
-    {
-      "headline": "Trafigura launches Volare tanker arm, plans Oslo listing - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trafigura launches Volare tanker arm, plans Oslo listing\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-21 06:36",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmpETzRmZnpTN05za3BiMHJMNXhiQ3RkUUJ5ZDhCdjBLa2wzQmh0ZVRHZjFzRmc4VTFPRENoUGM2OXI1NlBhdENZNzk4T2RzZndmNDFRc3FleHBLTGRUbURSZ205Q0NBbmwxSVhxbVY3X2N3U3hJQ0FXTHJSNzcwZHFYTXU5SFdMb2ppWmZJQmVoYkdIeVU1RTlxQzdWT2NTM3h4dnRyNng4bWM?oc=5"
-    },
-    {
-      "headline": "COMMENTARY: Hormuz shuttles keep oil flowing, but at a high cost - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "COMMENTARY: Hormuz shuttles keep oil flowing, but at a high cost\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-21 06:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY1ZqYkdEeGVjVmotcmtLNWlndkR4bTgzYzlVVThwZ184TG9oX2U2a0ZhYXp1QXZKSnNiT0ZrTngzS1N3OUczT2ZSSFNYUjRPb0VuaEZTcnpDQ0JYTldvMXBlaVRXbU1laHpPUlpSanNXb0pNZnRPcktpVGFtc1h0WG9RMlhMSndOelVoQzBXQmZKbjd5SUZIZEl0ZEl1S0R3VEV4aUd6VlVqMmJQVjE3Wg?oc=5"
-    },
-    {
-      "headline": "Vessels trickle through Strait of Hormuz as Middle East conflict persists - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Vessels trickle through Strait of Hormuz as Middle East conflict persists\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-21 02:36",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNHdMbF8wY2pMdE0tcHdWa3l5dkc5MGpKWVJEZW9VUnV2UTFlaTlVbVpOZ1pQN245SWZOLU4zWDd3ODlBTUhhZmlmaE1jUGltMzRKUF9xRl9CT2ZpMnNxcXkxOXdQeHJHajFzMkpoNWVnS3N6X3ExamF1ejcyQ3I1LW5DVHRXTXQ5MVVtTEE1cmtxLWhGMURaZ19pajA1blpROVVxRXQ3MHE4Zy1BLUVybldpUm01NU0?oc=5"
-    },
-    {
-      "headline": "Indian shares inch higher after recent slide - Reuters",
+      "headline": "Global diesel prices hit record highs, further rises possible - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Indian shares inch higher after recent slide\u00a0\u00a0Reuters",
+      "impact": "Global diesel prices hit record highs, further rises possible\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-21 02:26",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ3NYaXdLM1g3c3NKZkFDM2I0b0xENENVUGJFaFJIY01mVjQtV2swdVJVelBWV0hMNjBNeGFyTTItOGtRM0tYOTkxcTR1ZXJyS01WclBmMXRCTkdMOUdpbnpTdHhSamd2elBWMWlKVWpVNUoxX1c1emdyU2FlOE1aOHNvZXc1MDRtVlFtYzN4Ui0wMDZSUWNHZFRwSHE4Wm8?oc=5"
+      "date": "2026-09-21 16:03",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbTJkVThNdEJxOWJFWkljaTdsVjJZbTJlUXU4M19XSm1fMFVQSUZ1VUxRYjV6dkNaTE5FZnkwWndvX2UzcTlYVU5IV1JEVGUwSXprOTJEMjI3eTlJWkJodFVhWDFsX1N2akxCMm1pQ2hWbVRhR3huTjlPSTg5cGtwMjJpQ2J5RUd0SlZ1RUJWeW1lMXB2VXd0NWdYLWk3bmw1T3ZTclRLazF0RW1MVUFHZThB?oc=5"
     },
     {
-      "headline": "Oil prices slide to 11-day low on hopes of US-Iran diplomacy, Saudi exports - Reuters",
+      "headline": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Oil prices slide to 11-day low on hopes of US-Iran diplomacy, Saudi exports\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-20 22:10",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEljbFotbFNVU2Nyb1oyaElIUXJJc1ltUmF5a1FrMl9xbEwyNG9LOWwyZ3F2dUZIUl9QYnd6OXU1cU10UGx0QzkxaVp6QkoxY3ZYSm1qc3FvbFprT29VcldJZ3V1Y1YtZ1A3MjEtTUo2dk9laHFBaWZBMFNOMmZDVC16aDBhYUdmdmZFdUJ4d0hoMW5hZTgxRk1ETQ?oc=5"
+      "impact": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-21 15:26",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5"
     },
     {
-      "headline": "France vows response after Iran closes language centre in Tehran - Reuters",
+      "headline": "Kind Snacks founder Daniel Lubetzky: The No.1 piece of advice I give my kids about failure",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "France vows response after Iran closes language centre in Tehran\u00a0\u00a0Reuters",
+      "impact": "Kind Snacks founder and \"Build or Break\" host Daniel Lubetzky reveals the lessons about success and failure that he imparts to his children.",
       "category": "global_markets",
-      "date": "2026-09-20 21:25",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeGRiOTFBU2NRT2UtR2l0OEZGUmhIWHRpdmgta1ZzazcyT2JsWlMxV25qWVdVbnJFd2gxOTVZM2F5Z2Y1enJfODBQaXZLOENKQzlDWXhoZktaU0NzbThxYk9PSkZUd2lQUkNhM09FaHVVOG8ydVZVQjc5cHVkRXBNaGdVc1VEVXg0UmlicmxmVGNPbngzTG5oTG41YnRQc3JSci1RUXJwMWJpdXdtd19tOHZCOHBJUQ?oc=5"
+      "date": "2026-09-21 14:30",
+      "link": "https://www.cnbc.com/2026/09/21/kind-snacks-founder-daniel-lubetzky-the-advice-i-give-my-kids-about-failure.html"
     },
     {
-      "headline": "Trump eyes busy week of meetings as UN General Assembly gathers - Reuters",
+      "headline": "Trump, in call with Yemen president, did not pledge military support against Houthis, say sources - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump eyes busy week of meetings as UN General Assembly gathers\u00a0\u00a0Reuters",
+      "sentiment": "positive",
+      "impact": "Trump, in call with Yemen president, did not pledge military support against Houthis, say sources\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-20 21:16",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUG5QOUZMTWpITXl6enkyOXptSEN2Y196S1Z1RnFocVJ2cFJDRElydmxybGdVaXdtLXZ1MlBkaGpTZEEwc3B6b1JDcW0xWmN6YVQ1bFBDelkyTWRGb0xtZlMwR096dzZ6ZkJFaGgtaTI3NER6cVF0TDZyY0pxbElISXpvVXhYV0t2anhqQVd4cGctSWl0U0JjUEVfOVJEbWdpTURkYw?oc=5"
+      "date": "2026-09-21 13:57",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbWVNTGJMWUoxcU5nWjh1amVGM0MzcFN0allQZ0oxZm96SVEzZzRtUXM3c2ZvM0hYdDlvc19kS1VDQ1kwcmtOTUVBQkJOOFJzekl6d2FVNEdtcWMwNVV1UG5nNzBfSjY5QUxLUlQxWGxwRU12WnJnQ21rZWx3VHhWd3hKV2gzZHdHSHV6Zkw3czZUTlVhUHd2anl6X2YyZ19UckV2Y2ZVcjZTZEJfYlJkZnhDYjZUTXI3RlVuZDBUWUtPSGVBN0ppMU1xQjBzQQ?oc=5"
+    },
+    {
+      "headline": "These Gen Z-approved investment funds are having a moment\u2014what investors should know",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Themed ETFs for industries like AI and energy are coming back into favor and are especially popular with Gen Z investors. Here are a few tips to keep in mind.",
+      "category": "global_markets",
+      "date": "2026-09-21 13:00",
+      "link": "https://www.cnbc.com/2026/09/21/themed-etfs-gen-z-investors.html"
     }
   ]
 }
