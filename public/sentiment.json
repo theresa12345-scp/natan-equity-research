@@ -1,25 +1,24 @@
 {
-  "timestamp": "2026-09-22T10:35:36.472572",
+  "timestamp": "2026-09-22T17:59:24.737988",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.3,
-    "bullish": 14,
-    "neutral": 10,
-    "bearish": 1,
-    "high_priority": 12,
-    "material_events": 4
+    "bullish": 11,
+    "neutral": 14,
+    "bearish": 0,
+    "high_priority": 9,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 8,
-    "Bloomberg": 4,
-    "CNBC": 3,
+    "Financial Times": 1,
+    "Reuters": 11,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1,
-    "MarketBeat": 4
+    "CNBC": 5
   },
   "top_signals": [
     {
@@ -29,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,8 +58,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Federal Reserve will need to be \u2018aggressive\u2019 on inflation, says top official",
+      "score": 9,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "Austan Goolsbee voices concern that price growth is being fuelled by \u2018overheating demand\u2019 on top of Iran supply shock",
+      "category": "us_monetary_policy",
+      "date": "2026-09-21 15:10",
+      "link": "https://www.ft.com/content/e173bec6-352b-4b51-b3a4-382a9229bc86?syn-25a6b1a6\\\\u003d1"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -69,7 +78,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +98,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,48 +108,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Indian shares edge higher on easing oil prices, bond yields; IT caps gains - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Indian shares edge higher on easing oil prices, bond yields; IT caps gains\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-09-22 02:27",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXlPVWFzejJKbzBBSVA5ZFhMbUdTZ0VVS1RZVXBpMlJRZC1Lak9aNmdldDEwdVZ1RGlPMjlUUFdFSGdocFlTbVpjLTFLcXJsN2VqTFhVZ1d0YmYwLTBUNG9tUHVmWEs2Q1E3em4za29OcHo3MFk2Q0twV3M5WFB4Q2ppeW9LVnd3SzJ2SHhLN1N6MTI4YVU0dDBuS0htU3R5SW9maHVnR2NDUFlManVqYTRidGZiYzVv?oc=5"
-    },
-    {
-      "headline": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-09-21 20:01",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5"
-    },
-    {
-      "headline": "Short-Term Treasuries Emerge as Popular Bet on Fed Inflation Win",
-      "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "Investors in the US Treasury market are shifting their focus to owning shorter-dated government bonds, a bet that the Federal Reserve will eventually emerge victorious in its fight against inflation.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-20 19:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-20/short-term-treasuries-emerge-as-popular-bet-on-fed-inflation-win"
-    },
-    {
-      "headline": "Fed's Kashkari reportedly says inflation is still too high across the U.S. economy",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "\"So even if we strip out energy, \u200bwhich is really \u200bvolatile, and strip out food ... inflation is still too high,\" Kashkari told Fox News.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-20 17:04",
-      "link": "https://www.cnbc.com/2026/09/20/feds-kashkari-economy-inflation.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -149,7 +118,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -159,8 +128,68 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-22 10:35",
+      "date": "2026-09-22 17:59",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Autonomous trucking company Aurora looks to accelerate toward profitability",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Aurora's founder and CEO told CNBC the company is targeting positive free cash flow by 2028, driven by a substantial increase in the number autonomous trucks.",
+      "category": "corporate_earnings",
+      "date": "2026-09-22 17:57",
+      "link": "https://www.cnbc.com/2026/09/22/aurora-autonomous-semi-ride.html"
+    },
+    {
+      "headline": "Nasdaq hits intraday record high on tech boost, Mideast negotiation hopes - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Nasdaq hits intraday record high on tech boost, Mideast negotiation hopes\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-09-22 16:27",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUI2bTZ5ZFhnZUozYjg5LXM1WHhuT24xUS0zYmRRZkViWVBreE05ZTNMWFBDSGhHTXUyQ3ZyMWhsUFdxSUlxUXVUUXVHWGRVelg3Z2RuVXo3bndwaXJfRXhEUEFERFNSUVZoaDNERnFxdnhuNkxLdVhnNDRpRGhxYndETzVJdVNnZXJESmpMNmw5QVFQODFGY2w2NzVCcFl0bXBSNjRaTQ?oc=5"
+    },
+    {
+      "headline": "We're protecting big profits in tech, and buying more non-tech in this oversold market",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "We're making three trades on Tuesday.",
+      "category": "corporate_earnings",
+      "date": "2026-09-22 15:48",
+      "link": "https://www.cnbc.com/2026/09/22/were-protecting-big-profits-in-tech-and-buying-more-non-tech-in-this-oversold-market.html"
+    },
+    {
+      "headline": "Santoli: The S&P 500 is within striking distance of record as bull relies on familiar leadership",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Rerun generation, Gen X, seems obsessed with finding parallels between today's market and past cycles, Mike Santoli writes.",
+      "category": "us_equities",
+      "date": "2026-09-22 13:21",
+      "link": "https://www.cnbc.com/2026/09/22/santoli-the-sp-500-is-within-striking-distance-of-record-as-bull-relies-on-familiar-leadership.html"
+    },
+    {
+      "headline": "ECB, EU central banks oppose stablecoin bank deposit rule - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "ECB, EU central banks oppose stablecoin bank deposit rule\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-22 10:20",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSXByZ1dMUmEtUkNYT0FyXzRxTVhhUWZJS0RRYU54WlNnaDRFc2lqYWF0MllMOVp1OVVEUm5OQk9yV0FCcENvZldNN1p2MGJCNWlydVpCc3lqaWI3dkFITjFjLUY5d3d0anpSU2pQWVEycUJJMTRzaGNLOUt3c3dueXA0Q0RDbkI4cnVqa05fSFZQM1l3SXRUWUVtT3p1N2JTRy14c3lOaFRMSWYtd3c?oc=5"
+    },
+    {
+      "headline": "India's PhonePe gets initial UAE central bank nod for payment licences - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "India's PhonePe gets initial UAE central bank nod for payment licences\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-22 06:49",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ09TTHlmbG5mMFhMNWFLTEhQQk9vak1aMnRYdzVMZk9ZTWJQQUNoQzFnQTkxaUF6QWNqNC0wNFlqVUVyUjRpR1E0Q001ZmxFOUFJWmRfR21zdEw4SE40V1MwX0tjaGRVVld0ZWtQcGVRQWJYMERUVUFHcTM0MnZ5bkFCNllzbVQwZk1pRGxqa1NVaGJVSWlORVJaQVRubzE5S0d2NG5VYk5DaEkwbmVXZEhwRTdxYzhkemtB?oc=5"
     },
     {
       "headline": "\u2018It's awful\u2019: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
@@ -173,104 +202,74 @@
       "link": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html"
     },
     {
-      "headline": "SoftBank Seeks Over $11 Billion in Junk Bonds for OpenAI Bet",
+      "headline": "Markets Can Handle a Hawkish Fed, Not Uncertainty",
       "score": 7,
       "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "SoftBank Group Corp. is seeking the equivalent of more than $11 billion in what would be one of the biggest junk bond deals ever, people familiar with the matter said Monday, as billionaire Masayoshi Son\u2019s conglomerate ramps up its investments in ChatGPT crea\u2026",
-      "category": "fixed_income",
-      "date": "2026-09-21 01:58",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet"
+      "impact": "Better clarity about the Federal Reserve\u2019s resolve to fight inflation is giving investors reason to be bullish, and yet risks associated with oil prices and artificial intelligence keep them from fully committing.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-21 12:20",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-21/markets-can-handle-a-hawkish-fed-not-uncertainty-taking-stock"
     },
     {
-      "headline": "What this machine-learning model with 65% accuracy says is coming next for the 10-year Treasury",
+      "headline": "Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "HSBC says it\u2019s designed a machine-learning model to predict the direction of the most important financial instrument in global markets.",
-      "category": "fixed_income",
-      "date": "2026-09-22 09:23",
-      "link": "https://www.marketwatch.com/story/what-this-machine-learning-model-with-65-accuracy-says-is-coming-next-for-the-10-year-treasury-55d76b8f?mod=mw_rss_topstories"
+      "impact": "A curious dynamic is happening in shares of Nvidia ahead of two potential catalysts this month.",
+      "category": "global_markets",
+      "date": "2026-09-22 16:58",
+      "link": "https://www.cnbc.com/2026/09/22/nvidia-options-are-doing-something-unusual-ahead-of-two-catalysts-heres-how-one-trader-is-playing-it.html"
     },
     {
-      "headline": "Crocs, Inc. (NASDAQ:CROX) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Crocs, Inc. (NASDAQ:CROX) has received a \"Moderate Buy\" consensus rating from twenty research firms, with an average 12-month price target of $139.10, exceeding its current share price of $123.69. The company recently surpassed quarterly earnings expectations, reporting EPS of $4.55 and revenue of $",
-      "category": "us_equities",
-      "date": "2026-09-22 08:51",
-      "link": "https://www.marketbeat.com/instant-alerts/consensus-crocs-inc-nasdaq-crox-receives-consensus-recommendation-of-moderate-buy-from-brokerages-2026-09-22/"
-    },
-    {
-      "headline": "Mission Produce (NASDAQ:AVO) Chairman Stephen Barnard Sells 35,562 Shares of Stock",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "neutral",
-      "impact": "Mission Produce Chairman Stephen Barnard sold 35,562 shares of the company's stock for approximately $446,303. The transaction occurred as Mission Produce shares experienced a slight decline to $12.80, despite the company reporting quarterly earnings and revenue that exceeded analyst expectations. A",
-      "category": "us_equities",
-      "date": "2026-09-22 08:47",
-      "link": "https://www.marketbeat.com/instant-alerts/insider-mission-produce-nasdaq-avo-chairman-stephen-barnard-sells-35562-shares-of-stock-2026-09-21/"
-    },
-    {
-      "headline": "NetApp, Inc. (NASDAQ:NTAP) Receives Average Rating of \"Hold\" from Analysts",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "NetApp, Inc. (NASDAQ:NTAP) has received an average rating of \"Hold\" from analysts, with a consensus price target of $193.86. The company recently reported stronger-than-expected quarterly earnings and revenue, along with declaring a quarterly dividend of $0.52 per share. Insider transactions show re",
-      "category": "us_equities",
-      "date": "2026-09-22 08:35",
-      "link": "https://www.marketbeat.com/instant-alerts/consensus-netapp-inc-nasdaq-ntap-receives-average-rating-of-hold-from-analysts-2026-09-22/"
-    },
-    {
-      "headline": "AmeriServ Financial (NASDAQ:ASRV) Stock Price Passes Above 50 Day Moving Average - Should You Sell?",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "AmeriServ Financial (NASDAQ:ASRV) saw its stock price move above its 50-day moving average, trading as high as $4.88 before settling at $4.65. Analysts maintain a \"Buy\" rating for the stock, and the company recently reported quarterly earnings of $0.16 per share and announced a quarterly dividend of",
-      "category": "us_equities",
-      "date": "2026-09-22 08:09",
-      "link": "https://www.marketbeat.com/instant-alerts/price-ameriserv-financial-nasdaq-asrv-stock-price-passes-above-50-day-moving-average-should-you-sell-2026-09-22/"
-    },
-    {
-      "headline": "Trump set for whirlwind UN meetings with wars in Iran, Ukraine on agenda - Reuters",
+      "headline": "Trump at UN: Threats, diplomacy and 'super intelligence' - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump set for whirlwind UN meetings with wars in Iran, Ukraine on agenda\u00a0\u00a0Reuters",
+      "impact": "Trump at UN: Threats, diplomacy and 'super intelligence'\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-22 05:04",
+      "date": "2026-09-22 16:49",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb05jNXUydzFHZ2tRUzBGUndIZFAxTW1jYUtVU3U5NzI1ZjRsckp2YXJuOG9KRE9hOTg1Q3B3b3U1ZC1jWmN1d2J0VU1OMkVfbElFRGhONElJd3I4UklnbVZHTExmT1g2dHFESmJhQWplNWlYUzZsU1ctMW9HRVBXVDJGazNhd1JDbWltQ0hEYmttU2hh?oc=5"
+    },
+    {
+      "headline": "Trump urges complete isolation of Iran, expects deal after election - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump urges complete isolation of Iran, expects deal after election\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-22 16:43",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMHFVWHVmRkJDV09JMHNSQ2RvNk5zS2NwN3lwZ3lNOFNLd0tUdjZHS09lMUhZdHBCWXZUQ1NJUHh5cUxmYlU4NjNTRGRtWDJ3UkFpb05jS1U2R2huempndzFvVEtqZmV1RjN2cTRJWWYybEpQSkptR2NjLWFySUtUeDdXMmdBd0N4dktqeGN6WjdTOGVfQXZJLVgyX2k1RTlzbDZncmktWlI?oc=5"
+    },
+    {
+      "headline": "Banks, telecoms weigh on FTSE 100; focus on US-Iran talks - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Banks, telecoms weigh on FTSE 100; focus on US-Iran talks\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-22 16:11",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3JCUDhubW1Yb0o4bFpaMFdtVE9oYVVuUll5R0tpVS1YNXpjd285eWxWa1ZDUklJd0ZBNnZJdnJQdEVnZmJ6czA1TEYtMmFhNjlUcWZGeDdhMFdpNXRJd21TaWlmcjRiWTBHNEpDVmg2U0RicWlnUWNWRFkyUy01WXA4c09OREpKM2JNWUk5dHEyNDQ0SWM1U3BudkhJUENDWXVjdlUyRl9nZw?oc=5"
+    },
+    {
+      "headline": "Trump warns in UN speech he could 'annihilate' Iran without peace deal - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump warns in UN speech he could 'annihilate' Iran without peace deal\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-22 16:09",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFdkQk9aWHdzT0hrcFhDNDZPSmlwQVBUUm12TGd4SUVPUURUMVo4Y3I0WHZBSTIxdjdKTWZ4WkF3cVUzUnlrWmNrbTA5T21UN3R0Z0JnekdrZm5ReC1ZS2JmUWVQRXRVNzhaYmNucDI5YVh6d2JxeHp5Yi00Y3p2d0loRTY5YXNiWGRHTlJZb1ZiX1paMVh3UU1XVThfUXR2NHF3T0pod3BBS3VpU3AyTDB3?oc=5"
     },
     {
-      "headline": "Oil rises amid worries of growing Iran-U.S. tensions after Bessent issues Iranian airline shutdown warning",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Oil rose Tuesday, amid concerns of growing Iran-U.S. tensions. after U.S. Treasury Secretary Scott Bessent told CNBC that all Iranian airlines will be shut down from Wednesday.",
-      "category": "us_equities",
-      "date": "2026-09-22 04:22",
-      "link": "https://www.cnbc.com/2026/09/22/oil-iran-us-bessent-un-crude.html"
-    },
-    {
-      "headline": "Alibaba deepens AI push with new chip, bigger model; shares jump 5% - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Alibaba deepens AI push with new chip, bigger model; shares jump 5%\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-22 02:50",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUlcybzdOMWxNcmJHT1ZvUHFRTkczZzRNbHpkeUM1QjVxak5WMVdfTldrMWRtaTdHd1FvZkUwbGN4NmhwdUFSdmJxdVBVTGZxNFBWMUNqQXU3dlJzM1VXOHZsYmliZmxBRl90eFF6dEFZWl9BQTJTdkdxaDBSMGVrSXBJUkFVQkx1RTFOcktHZDQ4blo4VFh0amtSRmYxU2YxeGdQdUhFa25DeDBjSllsaVBsUVQ3X3VYdnRKMTAxN1BzZFQzUUpGSVI3TXZBZmRuTlhjejFB?oc=5"
-    },
-    {
-      "headline": "G7 foreign ministers call on Iran to stop arming Houthis - Reuters",
+      "headline": "Saudi Arabia restarts East-West oil pipeline, sources say - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "G7 foreign ministers call on Iran to stop arming Houthis\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-22 02:45",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS01wSTFweHdPbVI1QkNWSXlpQzMxd1FsX0lCcnBpNlQ4dFFVeDdTLWkxNmJNWEdBUi1iZ3VYQ0JjbGdIeGY4Q0ZZXzB6NW9fdVpkSXpLSzdvSzBKNHVBZDNVVGJJV1ZDZXNYMGpwVW9fMklhN0hjMVRia3FNcGFITkVrd1QyTVc4SWI3VXpyelRzbG5uTVZjZkNEZ1lETnpObGs4?oc=5"
+      "impact": "Saudi Arabia restarts East-West oil pipeline, sources say\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-09-22 15:12",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5"
     }
   ]
 }
