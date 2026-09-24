@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-23T18:18:13.939978",
+  "timestamp": "2026-09-24T10:45:19.421712",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.4,
-    "bullish": 15,
-    "neutral": 9,
-    "bearish": 1,
-    "high_priority": 10,
+    "bullish": 9,
+    "neutral": 11,
+    "bearish": 5,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -15,11 +15,11 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 8,
-    "Bloomberg": 2,
-    "MarketWatch": 2,
+    "Bloomberg": 3,
+    "CNBC": 6,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "AD HOC NEWS": 1
+    "The Hill": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -29,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,28 +99,38 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Bond yields surge to 5.12% as Wall Street fears more Fed rate hikes",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Stocks fall, with the Nasdaq and S&P 500 retreating from record territory as bond yields suddenly jump.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-23 17:52",
-      "link": "https://www.marketwatch.com/story/bond-yields-surge-as-wall-street-fears-more-potential-federal-reserve-rate-hikes-eabcd3da?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "US stocks fall as 10-year Treasury yield hits highest since 2007 - Reuters",
+      "headline": "Wall Street ends down as oil prices, Treasury yields rise - Reuters",
       "score": 8,
       "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Wall Street ends down as oil prices, Treasury yields rise\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-09-23 23:20",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5"
+    },
+    {
+      "headline": "Bond yields spike and stocks drop \u2014 plus, why Boeing is bucking the trend",
+      "score": 8,
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "US stocks fall as 10-year Treasury yield hits highest since 2007\u00a0\u00a0Reuters",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "category": "fixed_income",
-      "date": "2026-09-23 01:51",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSzB2Vlh0Nm9MZUlDRnA2S1pIMUJXWmZtdlZEVUdFRDV2WEJ1U3pLQnJKUFNBU3YyZGxXZ0trVk1tdm9lVFp0aEh5N0VpVUdOZDNWYjRzOTdUVW84bEYwYnZHNEQ1X213dHl5OGlpQWNSUEFkdXRpRC1rUTRDaDRBMFh2Zw?oc=5"
+      "date": "2026-09-23 18:42",
+      "link": "https://www.cnbc.com/2026/09/23/bond-yields-spike-and-stocks-drop-plus-why-boeing-is-bucking-the-trend.html"
+    },
+    {
+      "headline": "SoftBank Starts Jumbo High-Yield Bond Sale to Finance AI Push",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Billionaire Masayoshi Son\u2019s SoftBank Group Corp. kicked off what\u2019s set to be one of the largest corporate junk bond sales ever as the Japanese conglomerate offers record yields to entice investors into helping fund its unprecedented investments in artificial \u2026",
+      "category": "fixed_income",
+      "date": "2026-09-23 09:26",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-23/softbank-starts-jumbo-high-yield-bond-sale-to-finance-ai-push"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -129,7 +139,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -139,18 +149,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-23 18:18",
+      "date": "2026-09-24 10:45",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "McDonald's CEO expects high inflation, fewer diner visits are here to stay",
+      "headline": "New York Fed\u2019s Williams says it's 'reasonable' to expect another rate hike by year-end",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "John Williams was speaking at the London Macro Policy Forum on Thursday.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-24 09:06",
+      "link": "https://www.cnbc.com/2026/09/24/feds-williams-another-rate-hike-by-year-end.html"
+    },
+    {
+      "headline": "Gold muted on Fed policy tightening bets, decline in oil - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold muted on Fed policy tightening bets, decline in oil\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-09-24 02:23",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPenM1U09oVWJmVW8zbUtuN1ZLcWU1dGRKa1Rqdk1FU0k5QmVDSGRwcG9hR1NVVFVYOGhkSWpMdVF0aWFZMWx6TlNSWHZiajl5UWdzbWFZNmpGUW53MEhhbGgteHgtOGZGTzdlVGdWVjhWR2pMSzdJSWdCSmVTRHA4RVlCWS1tNU1NQU9QanFEQTRnNjhSSlhFQ052dEE?oc=5"
+    },
+    {
+      "headline": "McDonald's CEO expects high inflation, lackluster traffic are here to stay",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
       "impact": "McDonald's CEO Chris Kempczinski said that he expects that high inflation and flat traffic will continue to weigh on the restaurant industry.",
       "category": "global_markets",
-      "date": "2026-09-23 17:25",
+      "date": "2026-09-23 20:23",
       "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-ceo-chris-kempczinksi-inflation.html"
+    },
+    {
+      "headline": "European stocks slip as lack of progress on US-Iran peace lifts oil, yields - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "European stocks slip as lack of progress on US-Iran peace lifts oil, yields\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-09-23 16:25",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHdtekdjUEh0dXhIa040bjZnR1UtRG5PdVdLYjZnY0VMaVdzZGM5eDc0UUNnMW16aXRrVUFPTHh0WVBtWTFLOFN4TjQzNGdPY1VQb09IcDVDdF8yazJIbmJOWDQ5UWQ2ekZUMnZoUFpERVhsN3h6cFByS1VwelZYbkxMejE1dkV4RXFVV2lxVC1BdGNueTBBQWVkRWhNaWFDZ3ZBRUk5bkdQbkZDbzlGMnJNd1NTNkdVV0UwdmdmeDY?oc=5"
     },
     {
       "headline": "History rhymes for Meta, and our plan for Micron ahead of earnings",
@@ -163,34 +203,14 @@
       "link": "https://www.cnbc.com/2026/09/23/history-rhymes-for-meta-and-our-plan-for-micron-ahead-of-earnings.html"
     },
     {
-      "headline": "OECD raises Turkey inflation forecast, trims growth outlook - Reuters",
+      "headline": "Fed\u2019s Barkin \u2018open\u2019 to possibility of inflation declining \u2018in short order\u2019",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "OECD raises Turkey inflation forecast, trims growth outlook\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-23 08:03",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3VyZUFFSzh2MThMT2tXNW1PeTNhcmY0WlFLcUdzLW1vWG9uYlhIaC1uekZGX2xrYk5FUExtaEswQ0ZjQk1QNk5hU2haYkFlbWx2Z0ZtU2xsaTNVVzJhc3dvUUEzcUdOZDdPSnQwODFTUktXX3YyWDVvT20wVG5TZDlGVFV3bHgxZnFlczF2aTNJbFdvU21Ya3N2cWZ1VEhndlBKXzYyNS1UbGNZZFpxTnVn?oc=5"
-    },
-    {
-      "headline": "Rupee slips as dollar gets Fed hike expectations tailwind - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Rupee slips as dollar gets Fed hike expectations tailwind\u00a0\u00a0Reuters",
+      "source": "The Hill",
+      "sentiment": "negative",
+      "impact": "Federal Reserve Bank of Richmond President Thomas Barkin said Tuesday that inflation could decline \u201cin short order,\u201d but he acknowledged prices could remain elevated amid the Iran war.\u00a0 \u201cI\u2019m open to the possibility that inflation could come back down in short\u2026",
       "category": "us_monetary_policy",
-      "date": "2026-09-23 02:46",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbVNmdlVNbHl0UDFJQll5ckV0NHkzNXZVTmhvdlVPNk1Bci1RSXJRV2RRc3FVRm4zTlNONm15dlNZOFhNTzlOYVFnVWJQUUJmWnMzZnJCdzV6RV9OblJldlBZMExybTBaVDk2X0VVbXVYNHVTNy1wcWF4TzdiVXZNbXBSYnpYZjhsVzNjZTJhWF8zR183OXBCX0lWMm1TamR5WjRJSjhrMWZ2UQ?oc=5"
-    },
-    {
-      "headline": "Dollar jumps to near two-month high on Fed outlook, oil climb - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Dollar jumps to near two-month high on Fed outlook, oil climb\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-09-23 01:43",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5"
+      "date": "2026-09-22 22:27",
+      "link": "https://thehill.com/business/6105363-barkin-inflation-short-order/"
     },
     {
       "headline": "Autonomous trucking company Aurora looks to accelerate toward profitability",
@@ -203,74 +223,54 @@
       "link": "https://www.cnbc.com/2026/09/22/aurora-autonomous-semi-ride.html"
     },
     {
-      "headline": "Santoli: The S&P 500 is within striking distance of record as bull relies on familiar leadership",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Rerun generation, Gen X, seems obsessed with finding parallels between today's market and past cycles, Mike Santoli writes.",
-      "category": "us_equities",
-      "date": "2026-09-22 13:21",
-      "link": "https://www.cnbc.com/2026/09/22/santoli-the-sp-500-is-within-striking-distance-of-record-as-bull-relies-on-familiar-leadership.html"
-    },
-    {
-      "headline": "Stock futures are little changed after S&P 500 posts best day since early August: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "U.S. equity futures were little changed early Tuesday following a rally driven by stocks tied to artificial intelligence.",
-      "category": "us_equities",
-      "date": "2026-09-22 12:35",
-      "link": "https://www.cnbc.com/2026/09/21/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "\u2018It's awful\u2019: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Tariffs, fuel prices and interest rates are squeezing American companies, particularly manufacturers, auto suppliers, retailers and transportation businesses.",
-      "category": "global_markets",
-      "date": "2026-09-21 15:04",
-      "link": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html"
-    },
-    {
-      "headline": "Businesses are growing at the fastest pace in over four years. Why war and inflation aren\u2019t slowing the U.S. economy down.",
+      "headline": "Black Monday\u2019s stock-market warning signal came from the bond market, and it\u2019s back, says Wall Street veteran",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Expensive gas, higher inflation, a stalemate with Iran and rising interest rates \u2014 no matter. The U.S. economy appears to have sped up in the early fall.",
+      "sentiment": "negative",
+      "impact": "Bonds are starting to deliver \u201cequity-like returns,\u201d according to Larry McDonald, similar to during the summer of 1987.",
       "category": "us_equities",
-      "date": "2026-09-23 18:06",
-      "link": "https://www.marketwatch.com/story/businesses-are-growing-at-the-fastest-pace-in-over-four-years-why-war-and-inflation-isnt-slowing-the-u-s-economy-down-2e39e7c7?mod=mw_rss_topstories"
+      "date": "2026-09-24 10:01",
+      "link": "https://www.marketwatch.com/story/black-mondays-stock-market-warning-signal-came-from-the-bond-market-and-its-back-says-wall-street-veteran-52f12e39?mod=mw_rss_topstories"
     },
     {
-      "headline": "The AES Corporation stock reports 20 percent revenue growth",
+      "headline": "Stephen Curry says WNBA needs to keep conversations about the league 'focused on basketball'",
       "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "The AES Corporation reported a 20 percent revenue increase in Q2 2026, reaching USD 3.422 billion, significantly exceeding consensus estimates. The company also posted diluted EPS of USD 0.60, beating the USD 0.45 consensus. This strong financial performance provides a robust earnings base for the s",
-      "category": "corporate_earnings",
-      "date": "2026-09-23 17:54",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/the-aes-corporation-stock-reports-20-percent-revenue-growth/70168523"
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "NBA star Stephen Curry, an investor in women's sports, says the WNBA's next commissioner should keep conversations about the league \"focused on basketball.\"",
+      "category": "global_markets",
+      "date": "2026-09-24 10:00",
+      "link": "https://www.cnbc.com/2026/09/24/stephen-curry-wants-conversation-about-wnba-to-focus-on-basketball.html"
     },
     {
-      "headline": "Iran's Pezeshkian accuses Trump of 'bullying mentality,' vows no surrender - Reuters",
+      "headline": "Yemen says government forces repel Houthi push on key Taiz-Aden route - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran's Pezeshkian accuses Trump of 'bullying mentality,' vows no surrender\u00a0\u00a0Reuters",
+      "impact": "Yemen says government forces repel Houthi push on key Taiz-Aden route\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-23 17:37",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMjhvWl9UZXFUYjJ2MHhOTWJvdFgxYUN2b1NuVXYtYTNwVXEzS0J6cVVrZTVBYWxmNHJTLUZ6SG55eFE4azRCZVZDUloyUnVtNE85dGp5Q2xDUmtOVEdVUl8wenVVdUZpWm5ONE5OQUhSYjd1VWNfNm9Ib3g0VjBqdXItY1pTdW5XekI5MFJOWGpoazl2Y29Zb2dMSWx6S2VRckFRVm1WVUlYUkQ1S0dGM3piVGZ6TjgyNGZXcWNFVWFxN2M?oc=5"
+      "date": "2026-09-24 09:33",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5"
     },
     {
-      "headline": "McDonald's stock falls as it unveils plan to spend big on restaurant upgrades",
+      "headline": "The market is pricing in too many Fed hikes, says the former Dallas Fed chief",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The plans are part of the fast-food giant's new growth strategy, called McDonald's > NEXT.",
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The bond market is getting too aggressive in pricing in Federal Reserve rate hikes, a former central bank official says.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-24 08:42",
+      "link": "https://www.marketwatch.com/story/the-market-is-pricing-in-too-many-fed-hikes-says-the-former-dallas-fed-chief-5de8cc3c?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Norway gives additional $13 million in aid to Palestinians - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Norway gives additional $13 million in aid to Palestinians\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-23 17:09",
-      "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-remodels-training-chicken-growth-plans.html"
+      "date": "2026-09-24 06:55",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeHZxZ0hMdF9XTS0xeTRHYy12bV9kWlRBUWhjMEFIaDE5T05XTUNydDZGWGU0MGVLZUFORWFkYXlENkNvUHhHX1JKYW16NWVUVzNQbjJxRmhmby1ZZjlzcS1qaE1sZTN5M2tyMTQ2WU1oZDcxamFGUW5IeTd1UWVxc1FtUWx3dk1uRnozSGRITUsxZmRjaHRqX0xscms3ejZKRUhKQXBBWWM?oc=5"
     }
   ]
 }
