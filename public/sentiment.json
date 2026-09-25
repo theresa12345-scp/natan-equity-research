@@ -1,28 +1,36 @@
 {
-  "timestamp": "2026-09-25T10:50:40.448760",
+  "timestamp": "2026-09-25T18:19:25.786378",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 11,
+    "avg_relevance": 7.3,
+    "bullish": 10,
     "neutral": 12,
-    "bearish": 2,
+    "bearish": 3,
     "high_priority": 10,
-    "material_events": 4
+    "material_events": 6
   },
   "sources": {
+    "MarketWatch": 1,
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
+    "CNBC": 7,
+    "Reuters": 10,
     "Bloomberg": 2,
-    "CNBC": 4,
-    "Caixin/S&P Global": 1,
-    "Investinglive.com": 1,
-    "AD HOC NEWS": 3,
-    "Contrarian Outlook": 1
+    "Caixin/S&P Global": 1
   },
   "top_signals": [
+    {
+      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq fall as investors anticipate further Fed rate hikes; 10-year Treasury yield remains above 5%; Trump meets with Xi",
+      "score": 10,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "U.S. stock market was down Thursday, with the Dow, S&P 500 and Nasdaq Composite Index all in the red. The 10-year Treasury yield was little changed, after on Wednesday settling at its highest level since July 12, 2007.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-24 15:30",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-further-federal-reserve-interest-rate-hikes-treasury-yields"
+    },
     {
       "headline": "Bank Indonesia Holds BI-Rate at 5.75% to Support Rupiah Stability",
       "score": 9,
@@ -30,7 +38,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +58,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,8 +68,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "10-year Treasury yield hit a 19-year high\u2014and some investors see opportunity to buy bonds",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The 10-year Treasury yield hit its highest level since 2007. Here\u2019s what higher yields can mean for bond investors and borrowers.",
+      "category": "fixed_income",
+      "date": "2026-09-25 16:40",
+      "link": "https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -70,7 +88,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +98,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +108,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,28 +118,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Stock futures flat after soaring Treasury yields trigger market sell-off: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The major averages tumbled in Wednesday's regular trading as a spike in Treasury yields raised the specter of additional rate hikes from the Federal Reserve.",
-      "category": "fixed_income",
-      "date": "2026-09-24 02:22",
-      "link": "https://www.cnbc.com/2026/09/23/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "S&P Global said its overall inflation measure hit its highest level since October 2022.",
-      "category": "us_monetary_policy",
-      "date": "2026-09-23 16:56",
-      "link": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -130,7 +128,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,8 +138,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-25 10:50",
+      "date": "2026-09-25 18:19",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Gold rises, but on track for weekly loss as Fed rate hike expectations build - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Gold rises, but on track for weekly loss as Fed rate hike expectations build\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-09-25 02:23",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3F4eFFXZE5rZGRwVFhHYUsxZlhGeFlzSEF1Y0xYc2JmT0YtdkgtRmRhbFVTYVk3NGZRRUlsd3dCTDlCSmdnT1Y5OWN5MERTdzlibVdVQmhSeGc4SHIxWEhpRDJ6bjNLZXNURWdHbHBVOHNqU3FlUHJFc3lQRmN0SWlFRzRCUWpzdkFNYS1nb29JRDJzSzkwdjVDM1VlaHNzMG5FS3ZUU29rZ2RTVWxB?oc=5"
     },
     {
       "headline": "S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters",
@@ -154,16 +162,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5"
     },
     {
-      "headline": "US Treasury accepted $4.078 billion in buyback operation - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US Treasury accepted $4.078 billion in buyback operation\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-09-24 18:19",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTGU1d0pSel80SGZ6SkFjblpLdG5yQXVJcE5yU0VQbmp0dFpvR0xFdXY5QXVLSmJXblhUMmJac1N5ZEgtSGZ4cjMxeUV0cFhyMFhwbkM2cDR2ZlluOTc5ZTVNamlRdXJmR1JxWG03TGk2OGNJeTNaWHdxRFBzemZ4aEM1U2ZjM2ZTQ0ZnbGhBT0VqbExMM0FzSw?oc=5"
-    },
-    {
       "headline": "McDonald's CEO expects high inflation, lackluster traffic are here to stay",
       "score": 7,
       "source": "CNBC",
@@ -174,104 +172,104 @@
       "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-ceo-chris-kempczinksi-inflation.html"
     },
     {
-      "headline": "US treasury sells $70 billion of 5 year notes at a high yield of 5.033%",
-      "score": 7,
-      "source": "Investinglive.com",
+      "headline": "The iced coffee debate reflects 'everything wrong with hiring right now,' says career expert",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "WI level at the time of the auction was 5.002%.",
-      "category": "fixed_income",
-      "date": "2026-09-23 17:07",
-      "link": "https://investinglive.com/news/us-treasury-sells-70-billion-of-5-year-notes-at-a-high-yield-of-5-033/"
+      "impact": "Iced coffee is at the center of an intergenerational hiring debate taking place across the internet. A career expert says it reflects a broken job market.",
+      "category": "global_markets",
+      "date": "2026-09-25 17:50",
+      "link": "https://www.cnbc.com/2026/09/25/iced-coffee-job-interview.html"
     },
     {
-      "headline": "Pharma stock soars 150% on injectables deal with Wegovy maker Novo",
+      "headline": "Trump says he talked to Xi about the Iran war - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump says he talked to Xi about the Iran war\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-25 16:43",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3NaNENZd05ESDQwSFdrTGwyLUtGX3NzT1NiR0tzbWwtM282dHRxbkxLYTk2b1Rkd01xQldYM2ItTlNRV01wbnhDMWpZVkliRnBhMlFWYVg1VHh6bjRCVkQwVGFFamhhWWpJa0p5aHlVRkJpblI1UUZJeDN6VFg1Z1hhdGFBSklFN2ZyVjZ0b1IyNUpoMU5GN0tmTlZPMExVNFppU2ZSRGFwcW1QSElZaktmS3pXSElm?oc=5"
+    },
+    {
+      "headline": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Hurt by Trump, Senate Republicans plan to bolster affordability credentials before midterms\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-25 16:26",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLVpEek9KREFnOGlnd1c3RldyaGpVZ3BJUjdWemtCekdlWG5Qem9jXzJpbFpSTHNNTUFIYWtJM1JwdEgyTUFJTWYtZnBQWTJGZHJUS0tQX080Y1ZtS2Z6VHZOX1NiY2h0ZU5iWW9ZMk1yR2QyNGRGYUxMNzdRbzZ1VkFKaDVfM3ZZXzFVLWxMdFNIWG0wS01WN0xJY3VNQUFxaTFLZFp0dkdCTlowcXFSWklJem5HOU1FeDhXSjFuZzRWREpJWWI0MlExdw?oc=5"
+    },
+    {
+      "headline": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-25 14:49",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTXZJVk41ZE5xYUdhR0dIQjd0eVNzaWlmNVd3VmNNZTEyc2dZOWlnZm1nYW9xU19UNTNia0ZLaDUya2xYcXpYRW1tcUJVa0phSUlfOU82SXJHZjc1WHJTUFV5MkNRZUJ0LXFOSG8zRUswZGtJbHktVkZPeGJKd1lUMVBldUlwbGlXOW5qYm1VbnhJVU9QQ0x3Z1ZtNVpjMTVRNXZOZTJvbHZyNjZINzBYc3hvYVpWRndIbldwWjBCUDhJMnhyWVNmTkhxVUU?oc=5"
+    },
+    {
+      "headline": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-25 13:33",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZU95VVVfeElqRlJLSHBPWFg3bE0zRjdvVFNIWGxSZF8zcDB4R2poelQ2MUFWR3Y2Y2FlSEp2OVVBcjdxSC1jNWhDQVhHQlpMbnp3SlZKR0ZFT0t4LVVwTEVrOUhhN0taRkh1SHAzM2VfeG0wTjhTcG12RXJCLW9WUVltTGlFb2dUdGdINl9fUktFcGg1UEhuQlY3WlU1ZUxGdG10ZDA3RkozdmE4aW9PSC1qaFJfcFQ1M08zVERyMVJOV1BzWDFRT0NKMjk?oc=5"
+    },
+    {
+      "headline": "Top 10 things to watch in the stock market Friday",
       "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Shares in Swedish microcap stock Nanexa more than doubled after the drug-delivery group revealed a licensing deal with European pharma giant Novo Nordisk.",
+      "impact": "Stocks are heading for a higher open, and the S&P 500 and Nasdaq are poised to post winning weeks.",
       "category": "global_markets",
-      "date": "2026-09-25 09:58",
-      "link": "https://www.cnbc.com/2026/09/25/wegovy-novo-nordisk-obesity-drugs.html"
+      "date": "2026-09-25 13:09",
+      "link": "https://www.cnbc.com/2026/09/25/top-10-things-to-watch-in-the-stock-market-friday.html"
     },
     {
-      "headline": "Eaton stock trades at USD 440 as Q2 revenue rises 21.4 percent",
+      "headline": "Airlines waive flight-change fees ahead of nor'easter",
       "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Eaton Corporation plc (ETN) stock traded at USD 440.00 on September 24, 2026, following a 21.4 percent year-over-year increase in Q2 revenue to USD 8.53 billion. The company reported adjusted EPS of USD 3.15, exceeding consensus, and provided full-year adjusted EPS guidance of USD 13.40-13.60. UBS u",
-      "category": "corporate_earnings",
-      "date": "2026-09-25 09:23",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/eaton-stock-trades-at-usd-440-as-q2-revenue-rises-21-4-percent/70182710"
-    },
-    {
-      "headline": "CSX stock sets October 21 earnings date after strong quarter",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "CSX Corporation (CSX) stock finished trading at USD 46.95 on September 24, 2026, a slight decrease from its previous close. The railroad company announced that its third-quarter financial results will be released after the market closes on October 21, 2026, followed by a conference call. This earnin",
-      "category": "corporate_earnings",
-      "date": "2026-09-25 09:17",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/csx-stock-sets-october-21-earnings-date-after-strong-quarter/70182669"
-    },
-    {
-      "headline": "These REITs Pay Up to 12.3% But Should We Fight the Fed?",
-      "score": 6,
-      "source": "Contrarian Outlook",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The article discusses five REITs (Alexandria Real Estate Equities, Four Corners Property Trust, Easterly Government Properties, Millrose Properties, and Ellington Financial) that offer high dividend yields ranging from 5.3% to 12.3%. It explores the inverse relationship between REITs and interest ra",
-      "category": "us_monetary_policy",
-      "date": "2026-09-25 09:03",
-      "link": "https://contrarianoutlook.com/these-reits-pay-up-to-12-3-but-should-we-fight-the-fed/"
+      "impact": "Flight disruptions were minimal for Saturday as of Friday morning.",
+      "category": "global_markets",
+      "date": "2026-09-25 12:52",
+      "link": "https://www.cnbc.com/2026/09/25/flights-storm-new-york-boston-east-coast.html"
     },
     {
-      "headline": "Fox Corporation stock reports USD 4.21 billion quarterly revenue",
+      "headline": "Novo is betting on its next chapter as Eli Lilly gains more ground in GLP-1s",
       "score": 6,
-      "source": "AD HOC NEWS",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Fox Corporation reported fiscal fourth-quarter revenue of USD 4.21 billion, surpassing analyst estimates by 15.7%. The company's adjusted EPS also beat expectations significantly. Despite strong quarterly performance and overall fiscal year revenue growth, the stock remains below its 52-week high, w",
-      "category": "corporate_earnings",
-      "date": "2026-09-25 09:02",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/fox-corporation-stock-reports-usd-4-21-billion-quarterly-revenue/70182576"
+      "impact": "As Novo works to turn itself around, some analysts say Lilly has advantages that could help it maintain its position at the top of the obesity drug market.\u00a0",
+      "category": "global_markets",
+      "date": "2026-09-25 12:51",
+      "link": "https://www.cnbc.com/2026/09/25/novo-eli-lilly-obesity-drugs.html"
     },
     {
-      "headline": "How Trump's diplomatic week exposed the limits of his power - Reuters",
+      "headline": "UAE markets decline after warning on regional air travel - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "How Trump's diplomatic week exposed the limits of his power\u00a0\u00a0Reuters",
+      "sentiment": "negative",
+      "impact": "UAE markets decline after warning on regional air travel\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-25 05:03",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUNJQ25mYi11NFg0WjVHdEZaSjVqMHhQS0NIT2tfQjc5UF9EZUpGWUNWZW40VGlmZjlhRFVZTkRicnh3UTlERy1vcU9majF6em4wYlRVN1V5S0RaTnpmR0VDdDV5VzBqNHY5dWNuWEJtdkF3VWNfQlVLbDc4S19Zb1Y1MzYxN2kwNGhVRF9uVUF0RTZPaVoyX1NvRmRkeFVG?oc=5"
+      "date": "2026-09-25 12:17",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdmc1cG4yNlZ5Z2FjX3VJcHhsVDJmX0JMTFdKZ2JBODlNY3RYRS1VeWNhbXJXTlRTTEhXRUlualU0dHo1SzU1b3hjUFVHUlhpLUhhZk11WVU0dlFDcHRXaTN1ZEctd0pXaEFxQnAySlJiMzNOZGNFWk9qZUJNaThzOVhmNk5NeWQ3U2NTMFJuSGw0LXdoUHVXQTdiRXZPc2ZaQ1hoVS1zczFnUzg?oc=5"
     },
     {
-      "headline": "Rupee soothed by intervention, surge in forward premiums tipped to cool - Reuters",
+      "headline": "New study reveals the estate-planning choices that are likely to pit heirs against each other",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Rupee soothed by intervention, surge in forward premiums tipped to cool\u00a0\u00a0Reuters",
+      "impact": "The study identified contested trust disputes by examining thousands of civil filings that were scheduled to come before San Francisco Superior Court.",
       "category": "global_markets",
-      "date": "2026-09-25 02:33",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPejlReXp5U3VIZmRZLVN4dV91cUl1QzltejQxOWdtaHlyQlNyNUhLdW1EOTBja0EwbEZEcTNQSjJIWTNUdDZuVjNyUi1WOEh6Y3hPOVJ6aV81R1JzUmJGbDkxeFpLX2kxVlJHWnRVYXk3cjIxR1ZqU0FlMERiMUNOdFR0c2hZQVdOTVE0MEtRUWhfM01JSVVxTTZQZmpEZWRackcwRktMYTlkR3VhSDBkLW8zYnI1UQ?oc=5"
-    },
-    {
-      "headline": "Allies unite behind Saudi Arabia as Houthis step up attacks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Allies unite behind Saudi Arabia as Houthis step up attacks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-25 01:54",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSktoVFV5TmFoZFFlNGJOdHNQbl9ZNWVfOFVvRTN2UXpLMlBhSnZ6ZVZLdFNlRU5CR3RjaHYxWDJRclcyb1lrVzh1WG83MWtmcjRyVnpRdTZIcTdtY01WRlFaVXZ5aWFBSXgzdk9LdzZNdmlQWHJlUmJuci1TSFI1bWRtYXJwYWdEYjBVMHJlVnpYbndpR1lQbllKNkphM0t1SmhXaXNYQmVncDFVOHFJ?oc=5"
-    },
-    {
-      "headline": "Oil slides as US-Iran truce hopes outweigh Houthi attacks on Saudi Arabia - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil slides as US-Iran truce hopes outweigh Houthi attacks on Saudi Arabia\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-25 01:11",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5"
+      "date": "2026-09-25 12:00",
+      "link": "https://www.cnbc.com/2026/09/25/study-estate-planning-heirs-legal-battles.html"
     }
   ]
 }
