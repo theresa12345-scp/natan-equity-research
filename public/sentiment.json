@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-26T10:30:53.573016",
+  "timestamp": "2026-09-26T17:39:37.797110",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
+    "avg_relevance": 7.3,
     "bullish": 12,
-    "neutral": 10,
-    "bearish": 3,
-    "high_priority": 10,
+    "neutral": 11,
+    "bearish": 2,
+    "high_priority": 9,
     "material_events": 5
   },
   "sources": {
@@ -14,14 +14,16 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 4,
-    "Reuters": 7,
-    "Bloomberg": 3,
-    "The Wall Street Journal": 1,
+    "CNBC": 3,
+    "Reuters": 4,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "MarketBeat": 3,
+    "Kalkine Media": 4,
+    "MarketWatch": 3,
+    "The Wall Street Journal": 1,
+    "Financial Times": 1,
     "TradingView": 1,
-    "inkl": 1
+    "Simply Wall Street": 1
   },
   "top_signals": [
     {
@@ -31,7 +33,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +43,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +53,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +63,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -81,7 +83,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -91,7 +93,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -101,7 +103,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -111,18 +113,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Costco Reports Higher Fourth-Quarter Profit, Revenue on Resilient Consumer Spending",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "corporate_earnings",
-      "date": "2026-09-24 22:41",
-      "link": "https://www.wsj.com/business/earnings/costco-reports-higher-fourth-quarter-profit-as-sales-membership-fees-rise-4156cc4a"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -131,7 +123,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -141,28 +133,78 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-26 10:30",
+      "date": "2026-09-26 17:39",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Paramount Skydance to move stock listing to NYSE from Nasdaq",
+      "headline": "Cisco Systems (NASDAQ:CSCO) In Focus After Record Fiscal Revenue And AI Security Push",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Paramount Skydance announced its decision to move the listing of its Class B common stock from Nasdaq to the New York Stock Exchange. Trading on Nasdaq is expected to cease around October 5, with NYSE trading commencing on October 6. This change comes as Paramount prepares to finalize its $110 billi",
+      "source": "Kalkine Media",
+      "sentiment": "neutral",
+      "impact": "Cisco Systems (NASDAQ:CSCO) reported record fiscal year revenue, driven by strong demand for networking and security across enterprise, service provider, and public sectors. The company is heavily focusing on AI infrastructure, security, and Splunk deployments, positioning its products as essential ",
       "category": "us_equities",
-      "date": "2026-09-26 08:40",
-      "link": "https://www.reuters.com/legal/government/paramount-skydance-move-stock-listing-nyse-nasdaq-2026-09-25/"
+      "date": "2026-09-26 16:14",
+      "link": "https://kalkinemedia.com/us/stocks/value/cisco-systems-nasdaqcsco-in-focus-after-record-fiscal-revenue-and-ai-security-push"
     },
     {
-      "headline": "US Stock Futures Drop as Yields Climb Further, Oil Rises",
+      "headline": "Wells Fargo & Company (NYSE:WFC) In Focus As Shifting Treasury Yields Meet A Renewed Growth Push",
       "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Equities ended the day little changed, rebounding from early losses during a choppy session as focus lurched from worries about surging Treasury yields to reports of a possible US-Iran discussion about re-opening the Strait of Hormuz.",
+      "source": "Kalkine Media",
+      "sentiment": "positive",
+      "impact": "Wells Fargo & Company (NYSE:WFC) is under scrutiny as fluctuating Treasury yields influence its asset-sensitive balance sheet and renewed growth strategy. The bank's profitability relies heavily on the spread between its earnings on assets and cost of funding, making it highly responsive to rate mov",
+      "category": "us_equities",
+      "date": "2026-09-26 15:49",
+      "link": "https://kalkinemedia.com/us/stocks/financial/wells-fargo-company-nysewfc-in-focus-as-shifting-treasury-yields-meet-a-renewed-growth-push"
+    },
+    {
+      "headline": "Tax-free bond yields are in a sweet spot. Get in before it\u2019s too late.",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Yields on municipal bonds \u2014 adjusted for taxable-equivalent comparisons \u2014 have widened dramatically over those of corporate bonds over the past two months.",
       "category": "fixed_income",
-      "date": "2026-09-24 20:09",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-24/us-stock-futures-drop-as-yields-climb-further-oil-rises"
+      "date": "2026-09-26 15:48",
+      "link": "https://www.marketwatch.com/story/tax-free-bond-yields-are-in-a-sweet-spot-get-in-before-its-too-late-94b8adac?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Stock Market Today: Bond Selloff Abates as Oil Price Slips \u2014 Live Updates",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "fixed_income",
+      "date": "2026-09-25 11:57",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-25-2026"
+    },
+    {
+      "headline": "Stock Market Today: S&P 500, Nasdaq little-changed as early gains fade; Dow heads for fourth-straight losing week",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Follow the action in markets on Friday as the Dow heads for a fourth straight week in the red.",
+      "category": "us_equities",
+      "date": "2026-09-25 11:53",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-set-to-rise-as-oil-prices-ease-treasury-yields-slip"
+    },
+    {
+      "headline": "Warsh's regime change at the Fed pushes ahead \u2013 and meets resistance",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Fed Chairman Kevin Warsh is driving rapid change in some areas, while his emerging policy framework suggests further rate hikes remain possible.",
+      "category": "us_monetary_policy",
+      "date": "2026-09-25 10:30",
+      "link": "https://www.cnbc.com/2026/09/25/kevin-warsh-fed-interest-rates-balance-sheet.html"
+    },
+    {
+      "headline": "Global bond sell-off eases as oil prices retreat from recent highs",
+      "score": 7,
+      "source": "Financial Times",
+      "sentiment": "negative",
+      "impact": "Analysts warn that respite for debt markets remains \u2018tentative\u2019 given changing signals over Iran war",
+      "category": "fixed_income",
+      "date": "2026-09-25 08:24",
+      "link": "https://www.ft.com/content/c5af4151-2c14-481b-8145-f5ec1f43a3f4?syn-25a6b1a6\\\\u003d1"
     },
     {
       "headline": "McDonald's CEO expects high inflation, lackluster traffic are here to stay",
@@ -175,104 +217,64 @@
       "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-ceo-chris-kempczinksi-inflation.html"
     },
     {
-      "headline": "NXP Semiconductors N.V. (NASDAQ:NXPI) Stock Has Consensus Target Price of $305.65 According to Analysts",
+      "headline": "A 10% risk-free yield? For some, yes.",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Analysts have issued a \"Moderate Buy\" consensus recommendation for NXP Semiconductors (NASDAQ:NXPI), with an average 12-month price target of $305.65, significantly above its current trading price of $238.08. The company recently surpassed quarterly earnings and revenue expectations, reporting $3.61",
-      "category": "us_equities",
-      "date": "2026-09-26 08:35",
-      "link": "https://www.marketbeat.com/instant-alerts/consensus-nxp-semiconductors-nv-nasdaq-nxpi-stock-has-consensus-target-price-of-30565-according-to-analysts-2026-09-26/"
-    },
-    {
-      "headline": "Monster Beverage Corporation (NASDAQ:MNST) Stock Has Consensus Target Price of $50.33 According to Brokerages",
-      "score": 6,
-      "source": "MarketBeat",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Monster Beverage Corporation (NASDAQ:MNST) has received a \"Moderate Buy\" consensus from 22 brokerages, with an average 12-month price target of $50.33, exceeding its current share price of $43.11. The company recently reported stronger-than-expected quarterly results, with $0.60 EPS and $2.50 billio",
-      "category": "us_equities",
-      "date": "2026-09-26 08:35",
-      "link": "https://www.marketbeat.com/instant-alerts/consensus-monster-beverage-corporation-nasdaq-mnst-stock-has-consensus-target-price-of-5033-according-to-brokerages-2026-09-26/"
+      "impact": "This could be a bargain, especially for very high earners and those in high-tax locations.",
+      "category": "fixed_income",
+      "date": "2026-09-26 16:51",
+      "link": "https://www.marketwatch.com/story/a-10-risk-free-yield-for-some-yes-0d1fa51a?mod=mw_rss_topstories"
     },
     {
-      "headline": "Gilead Sciences, Inc. (NASDAQ:GILD) Stock Has Average Price Target of $158.78 According to Analysts",
+      "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
       "score": 6,
-      "source": "MarketBeat",
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Gilead Sciences (NASDAQ:GILD) has an average 12-month price target of $158.78 from analysts, which is above its current share price of $150.93. The company recently reported better-than-expected quarterly results with adjusted EPS of negative $6.75 and revenue of $7.80 billion, a 10.6% year-over-yea",
-      "category": "us_equities",
-      "date": "2026-09-26 08:34",
-      "link": "https://www.marketbeat.com/instant-alerts/consensus-gilead-sciences-inc-nasdaq-gild-stock-has-average-price-target-of-15878-according-to-analysts-2026-09-26/"
+      "impact": "China pushes back against US on Iran and Cuba in UN speech\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-09-26 16:50",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5"
     },
     {
-      "headline": "PFG4423264 Bond Profile: Coupon and Redemption",
+      "headline": "Enphase Energy (NASDAQ:ENPH) Showcases AI Data Center Power Hardware As Solar Selling Resumes",
+      "score": 6,
+      "source": "Kalkine Media",
+      "sentiment": "neutral",
+      "impact": "Enphase Energy (NASDAQ:ENPH) has expanded into the AI data center power hardware market by beginning domestic production of power modules for solid-state transformer racks, alongside securing broad utility approvals for its meter collar hardware. This strategic diversification aims to leverage the c",
+      "category": "us_equities",
+      "date": "2026-09-26 15:54",
+      "link": "https://kalkinemedia.com/us/stocks/energy/enphase-energy-nasdaqenph-showcases-ai-data-center-power-hardware-as-solar-selling-resumes"
+    },
+    {
+      "headline": "The Procter & Gamble Company (NYSE:PG) Lines Up Earnings Webcast As Brand Science And Wellness Push Advance",
+      "score": 6,
+      "source": "Kalkine Media",
+      "sentiment": "positive",
+      "impact": "The Procter & Gamble Company (NYSE:PG) is preparing for its next earnings webcast, showcasing its focus on brand science and wellness expansion. The company highlights research behind its flagship hair and oral care brands and is engaging in new marketing partnerships, including one with professiona",
+      "category": "us_equities",
+      "date": "2026-09-26 15:42",
+      "link": "https://kalkinemedia.com/us/stocks/bluechip/the-procter-gamble-company-nysepg-lines-up-earnings-webcast-as-brand-science-and-wellness-push-advance"
+    },
+    {
+      "headline": "QSIX Stock Fund Price and Chart \u2014 NASDAQ:QSIX",
       "score": 6,
       "source": "TradingView",
-      "sentiment": "neutral",
-      "impact": "This article provides a detailed bond profile for PFG4423264, issued by Principal Financial Group, Inc. It outlines key facts such as issuer information, issue and maturity dates, face value, and minimum denomination. The profile also includes an in-depth look at interest payments, including the cou",
-      "category": "fixed_income",
-      "date": "2026-09-26 08:11",
-      "link": "https://www.tradingview.com/symbols/FINRA-PFG4423264/profile/"
-    },
-    {
-      "headline": "Is Texas Pacific Land Stock Underperforming the Nasdaq?",
-      "score": 6,
-      "source": "inkl",
-      "sentiment": "neutral",
-      "impact": "Texas Pacific Land Corporation (TPL) is a large-cap company with diverse revenue streams from its land and royalty interests in the Permian Basin. Despite outperforming the Nasdaq Composite (NASX) year-to-date, TPL has lagged behind it over the past three months and the last 52 weeks due to energy s",
-      "category": "us_equities",
-      "date": "2026-09-26 08:11",
-      "link": "https://www.inkl.com/news/is-texas-pacific-land-stock-underperforming-the-nasdaq-wsdugjif"
-    },
-    {
-      "headline": "Iran awaits US move after WSJ report says Trump rejects peace plan - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran awaits US move after WSJ report says Trump rejects peace plan\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-26 07:27",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5"
-    },
-    {
-      "headline": "Six big takeaways from a turbulent week of UN diplomacy - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Six big takeaways from a turbulent week of UN diplomacy\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-26 05:09",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5"
-    },
-    {
-      "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Saudi coalition says it intercepts Houthi missiles, drones\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-26 01:25",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5"
-    },
-    {
-      "headline": "Here's exactly what Paramount promised Hollywood to land WBD \u2014 and why some are still skeptical",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Paramount CEO David Ellison's antitrust settlement eased some theatrical concerns, but questions remain about what happens when the five-year agreement ends.",
-      "category": "global_markets",
-      "date": "2026-09-25 22:31",
-      "link": "https://www.cnbc.com/2026/09/25/paramount-hollywood-promises.html"
-    },
-    {
-      "headline": "Coca-Cola hires Rob Gehring from Monster Energy to run its North American operations",
-      "score": 6,
-      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Coca-Cola is trying to maintain growth as consumers face higher gas and grocery prices.",
-      "category": "global_markets",
-      "date": "2026-09-25 21:02",
-      "link": "https://www.cnbc.com/2026/09/25/monster-coca-cola-rob-gehring.html"
+      "impact": "This article provides detailed information on the QSIX (Pacer Metaurus Nasdaq 100 Dividend Multiplier 600 ETF), including its price performance, key statistics, and investment strategy. QSIX is a passively managed fund aiming to deliver six times the Nasdaq-100's dividend yield without leverage by s",
+      "category": "us_equities",
+      "date": "2026-09-26 15:40",
+      "link": "https://www.tradingview.com/symbols/NASDAQ-QSIX/"
+    },
+    {
+      "headline": "AGM Group Holdings (NasdaqCM:AGMH) Stock Forecast & Analyst Predictions",
+      "score": 6,
+      "source": "Simply Wall Street",
+      "sentiment": "negative",
+      "impact": "AGM Group Holdings (AGMH) has announced commercialization plans for a desktop DePIN node developed with HashBeaver, focusing on volume production, sales channels, and AI service integration, alongside mass production of all-flash servers for the AI infrastructure market. The company recently regaine",
+      "category": "us_equities",
+      "date": "2026-09-26 15:22",
+      "link": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-agmh/agm-group-holdings/future"
     }
   ]
 }
