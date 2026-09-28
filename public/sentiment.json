@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-28T12:22:46.227272",
+  "timestamp": "2026-09-28T20:25:15.312545",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 9,
+    "avg_relevance": 7.0,
+    "bullish": 10,
     "neutral": 14,
-    "bearish": 2,
-    "high_priority": 9,
+    "bearish": 1,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,11 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 13,
-    "Bloomberg": 4,
-    "CNBC": 2,
+    "Reuters": 8,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1
+    "Yahoo Entertainment": 1,
+    "Substack.com": 1,
+    "CNBC": 5,
+    "TradingView": 1,
+    "The Wall Street Journal": 1
   },
   "top_signals": [
     {
@@ -28,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,18 +101,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The benchmark yield has climbed to a 19-year high, fueled by sticky inflation, heavy bond issuance and an AI-fueled investment boom.",
-      "category": "fixed_income",
-      "date": "2026-09-26 13:30",
-      "link": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -118,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -128,148 +121,158 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-28 12:22",
+      "date": "2026-09-28 20:25",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
+      "headline": "The deeper reason behind the relentless rise in bond yields",
       "score": 7,
-      "source": "MarketWatch",
+      "source": "Yahoo Entertainment",
       "sentiment": "positive",
-      "impact": "Micron is increasingly important to the S&P 500, and its earnings report has become \u201ca market event in and of itself.\u201d",
-      "category": "us_equities",
-      "date": "2026-09-28 11:47",
-      "link": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-09-28 01:35",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGN6Yy1FQUFsN3Z3US1YZWg2amxMczRubW9XaV9vWHJTc0JYbGN6YjhiX1hlWG5CZUdJbEVpcmwwTmdMT3EtTTNqRENIM25PSWY2RUhFVnBkTFBhY3d5VnlJY3NqWHhTSm8xN1FXY0lsVjBjN0JfQXI2Zml5WTNEcW9wMExxT21BbDVETDJZOFFrY0RXMGkwTUJHaTgzS2k1SHBQTVNhTlN5VVJVTllz?oc=5"
-    },
-    {
-      "headline": "Stocks slip in Asia as oil and yields climb - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Stocks slip in Asia as oil and yields climb\u00a0\u00a0Reuters",
+      "impact": "Ignore hysteria calls on rising bond yields.",
       "category": "fixed_income",
-      "date": "2026-09-28 00:50",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNjVwRkxEMEdFMlBlSmpIbDZEZ3dDclNNLVVBLTBya2k1VlpyT00xM1VBeFZ2cmNheUplNXJDYy1Vam9FYWdibUxrWmFLd1ZIUU9LRGhhX09yQkQ0OXF6dW5MZ0Qwc0dXNF9fU3ZBR2NwU3R5eGNWdnpPMW1heVpsUkpGNA?oc=5"
+      "date": "2026-09-27 12:00",
+      "link": "https://finance.yahoo.com/markets/article/the-deeper-reason-behind-the-relentless-rise-in-bond-yields-120000422.html"
     },
     {
-      "headline": "Rate Market Fear Gauge Is Warning for Corporate Bonds",
+      "headline": "Booms, Bombs and Bonds: Interest Rates, Part I",
+      "score": 7,
+      "source": "Substack.com",
+      "sentiment": "positive",
+      "impact": "What\u2019s driving interest rates higher?",
+      "category": "fixed_income",
+      "date": "2026-09-27 10:46",
+      "link": "https://paulkrugman.substack.com/p/booms-bombs-and-bonds-interest-rates"
+    },
+    {
+      "headline": "US 30-year yield tops 5.5% in \u2018Vacuum\u2019 after sentiment gauge",
       "score": 7,
       "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Corporate bonds have been relatively resilient amid a global government bond selloff, but the strength may not last.",
+      "sentiment": "positive",
+      "impact": "US 30-year yield hits multiyear highs above 5.5% as consumer sentiment beats estimates, with 10-year also rising, amid ongoing rate expectations.",
       "category": "fixed_income",
-      "date": "2026-09-26 19:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-26/rate-market-fear-gauge-is-warning-for-corporates-credit-weekly"
+      "date": "2026-09-26 15:11",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-25/us-30-year-yield-tops-5-5-in-vacuum-after-sentiment-gauge"
     },
     {
-      "headline": "McDonald\u2019s Selloff Hits 30% as Big Mac Inflation Spurs Pushback",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "McDonald\u2019s Corp. faces a key challenge as it fights to reinvigorate a sagging stock price: Winning back the cost-conscious diners who believe its menu has become too expensive.",
-      "category": "global_markets",
-      "date": "2026-09-26 13:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-26/mcdonald-s-sell-off-hits-30-as-big-mac-inflation-spurs-pushback"
-    },
-    {
-      "headline": "Iran link examined as UK police quiz five men held at airbase used by US - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran link examined as UK police quiz five men held at airbase used by US\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-28 11:29",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXYwS1pBdDdVa1JYckZZdFNGeWpwdGRUR0hOX1NuMV9vOWFBYUlDbDAzdjFVbVZ1c2J1N0xrM0hPc2RvLVhlM2d5MlZ4WnJtOW9iSzJGNEw2UTJhR25tdWZKYzhucGVKZG1sRDYyZDZudmViaGRjMmdLNVdqS1NWZERRR3EyY1JxMG5tWUNDTTJpZFJxbHZkR0FqU3BPdFBpMTdGWmVWOGQzOEJq?oc=5"
-    },
-    {
-      "headline": "Whole Foods co-founder shares 3 tips for launching a successful second act: 'I'm relearning some lessons'",
+      "headline": "Boeing 737 Max 10 certification delayed by software issue, FAA says",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "John Mackey is learning that what helped him build Whole Foods Market into a multibillion-dollar business can help him in his second act, but only if he's patient.",
+      "impact": "The FAA administrator said the Max 10 will be delayed until the agency can assess a software issue on the aircraft.",
       "category": "global_markets",
-      "date": "2026-09-28 11:00",
-      "link": "https://www.cnbc.com/2026/09/28/whole-foods-co-founders-3-tips-for-launching-a-successful-second-act.html"
+      "date": "2026-09-28 20:16",
+      "link": "https://www.cnbc.com/2026/09/28/faa-boeing-737-max-10-certification-delay-software-issue.html"
     },
     {
-      "headline": "South African rand slips as US-Iran stalemate pushes oil prices higher - Reuters",
+      "headline": "NEE6429085 Bond Profile: Coupon and Redemption",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "South African rand slips as US-Iran stalemate pushes oil prices higher\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-28 07:54",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYXVjeHhnVS1HLV9mVnYtVHVhQ3NjcEFqREZJYUpRU3RhSElhQlJ4NERfQWhjdm44RGNQMFdBZlNfcU5PN1JuOU1DWW04RjFBSDZETlE5Z0h2VUkyRFJVTHdiTzBfM0lGVUw0akY5a01yM0J6WElBbERxREpBQkk3OGFjTDkyVElrUTRTckpFRHZ3aURTVkduYS0zdnMtZkVUenZrSk1kdEVoRnNpbkVlanlmdnQ0a2s?oc=5"
-    },
-    {
-      "headline": "Tullow Oil swings to positive free cash flow as Ghana output, higher oil prices drive growth - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Tullow Oil swings to positive free cash flow as Ghana output, higher oil prices drive growth\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-28 06:44",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcVhQbFJWa3BzeDliUGZGQ1ZVY19mbmY1bmNleGw0ODF6RjV2a0ljSkp3a29lLTBpd1A5M2hxWTg0UmZoSWUzRHFPTEhMQ0t0bUVWWmdIbXJJVW5qVHpfSnZxTzlWdTczY0RZamlVVldsZVZKS185Q21LcG82bkYwZEV0UkdET1AzVUozeWgwekpYSXhJZHo5NVZxV0k2aTBpT2pwUjRreS10dlRNMDBxM2NzYWRkcmFqZkdDMDFNWm1BTkpQcFdGdzN3?oc=5"
-    },
-    {
-      "headline": "German gas supply is secure despite low storage levels, VNG chief says - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "TradingView",
       "sentiment": "neutral",
-      "impact": "German gas supply is secure despite low storage levels, VNG chief says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-28 06:02",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVDRjSXY3THA4d0lJaGlLM05DM3FVeDc3TFVFa3p2d1Z5OWRiNnBxbVhqMkVoZmw0M0xNeDVaNXhrTVN6bnhTRy1Pc0E4VXEwSjhsS3VkcE9BSjZMQ0hUM0FfM010Zk8zNGlZTUN0MmRZbS1ZTEhxQUFGWUVDUFBESzRKWkYxUUZMVjJIZzd0ZjZVbDViRFRDTkFpUjlCalJfODhOQUk5OC1Nc3d1X2NOdE5aUk1tWS1PdDdJZkNR?oc=5"
+      "impact": "This article provides a detailed profile of the NextEra Energy Capital Holdings, Inc. NEE6429085 bond, highlighting its coupon and redemption information. Key details include its 6.625% interest rate, maturity date of October 1, 2066, and semi-annual coupon payments. The profile also lists key facts",
+      "category": "fixed_income",
+      "date": "2026-09-28 18:53",
+      "link": "https://www.tradingview.com/symbols/FINRA-NEE6429085/profile/"
     },
     {
-      "headline": "COMMENTARY: Cash-rich oil majors face post-Iran strategy rethink - Reuters",
+      "headline": "Ex-Disney CEO Bob Chapek says he raised concerns with the board 'weekly' during Iger power battle",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "COMMENTARY: Cash-rich oil majors face post-Iran strategy rethink\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-28 06:00",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQ21VRGFRWnc1czVkOUdJbGJ3ZmMwNGUtVTFmbkxJcFBWZWNXdnVUcUFFajJGNFJJSGkwYldyWi1PNFhzQlQtUjhaNzg4OE9QRTF1bXd5dkVGR3BzZUJCaVFweUxuSlJhRjZfank4Tl9Ec2ZveGJKdlFFWjZXbEFud0FOVVR6bmhzVmNqMm5fN2xQcnI5TEdtU25NX3p6QkxRbE5wM0RGa2pIVDZMWjhrMHV6UEZZMlNielBwLWVHWmtYWU5LTnZJ?oc=5"
-    },
-    {
-      "headline": "Saudi foreign minister arrives in Washington for talks with Rubio - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Saudi foreign minister arrives in Washington for talks with Rubio\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-28 04:38",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVVJqTlphdG95ZW84dGEzcXFwZTNrcVZWeS04TEQ5THdTNHg4UnE5NWlxbUVqRlF3ZHVvNnVpTEhMOTV2MVhMNEMxRk9DNTFXMGQ5ZUhiXy11RzZqSUFnVUc2LVhyRF9Ia2lBM3dJT1F5LTBEUlFyV21QYmtob0pTX09hb3VTVW9hTXF3cG5pVWhfYmdESHIzREZlMmcxSEVlQ0VUNHYyVU45bDRyc3lqNVVR?oc=5"
-    },
-    {
-      "headline": "Oil woes push rupee to over one-week low, RBI caps fall near 96/USD - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Oil woes push rupee to over one-week low, RBI caps fall near 96/USD\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-28 02:50",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTVl1TmI5dWRwRlVoQ3RIWUlrVFg1d1FGV3F1dC15UDFHUWpGN1NYaGNRT2YxQmlnQXdqbmpVaUozc1p3d2pzX3d6T2ZLTE9tYmV0Y1JlcGxlcVZYSjI1dDRYQkdhZ0tyZ09FT3JqTUNwQl9Edk9MaGxYdlJHbUtwaWZXMjJpQXVpcTZHNlFtRktOMC0wLWR1aDI3dWxkWE9uelVmMUpDRmJJV3dOaDB3YmdqSDIwdHlGbEE?oc=5"
+      "impact": "Former Disney CEO Bob Chapek was ousted from his role as CEO in late 2022, less than three years after taking the post, and replaced by Iger.",
+      "category": "global_markets",
+      "date": "2026-09-28 16:02",
+      "link": "https://www.cnbc.com/2026/09/28/disney-bob-chapek-bob-iger-power-battle-board.html"
     },
     {
-      "headline": "Indian shares slide to near six-month low as US-Iran deadlock lifts oil prices - Reuters",
+      "headline": "Trump says he approved new fuel economy standards, rolling back Biden-era rules",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The new fuel economy standards will reverse the Biden administration's stricter policies meant to spur electric vehicle adoption.",
+      "category": "global_markets",
+      "date": "2026-09-28 10:32",
+      "link": "https://www.cnbc.com/2026/09/26/trump-fuel-economy-cafe-standards.html"
+    },
+    {
+      "headline": "Oil prices settle slightly higher on supply worries as Trump rejects Iran proposal - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Oil prices settle slightly higher on supply worries as Trump rejects Iran proposal\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-09-27 22:13",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5"
+    },
+    {
+      "headline": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Indian shares slide to near six-month low as US-Iran deadlock lifts oil prices\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-28 02:19",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQmUtcnhXbVNOQ0lacFk2Z1JXa0JON1VtZTRsYnZVMDlKdjh0dXhobk9tajVtRVdUbE5RV2MxUy1MbUpkNkc4UXNvalZoZXltbUNScGEyanBReERmbTRuQnB2d2M2dkU3NkJ0anMybXdHWV9QWElRVG9WcDhNSzE4eTV4VWs4WWluaGpYR1NZZTNuYVFPNWZwUk1YcXNOR0NrN0REb2V5eENFRjFaTVNpeWtJdw?oc=5"
+      "impact": "Iran-linked diesel price spike makes electric trucks cheaper than diesel in key EU markets, environmental group says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-27 22:02",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZVBWUjdTSkRRcUtpSUp6djB6M1NoZHpMQmlsRXBpU3R2Z0ZuT2dOa09tYzBoQ1hQbXFGbVJGa3c2TmFiZ0JaUF85cU15bXVOcTBKdUgyYWdoUGRJT1htcmZEN0NJMGJlT0JtWHBPQjZJeDhiMzlQWFBYWFl3WDRMNE5nem12bkFobF8yMFJMaTZ4bkZwRVVQbEUwZG5UY0lXR1VZTnRFNVhZSkcxYnkxT3hsQTZlOF9UaEt4Q1VTem1PUURnQjdFRWViN0QtSzBVb0tlcFFpUnFFSFBMMnc?oc=5"
+    },
+    {
+      "headline": "Boston-bound Delta flight makes emergency landing in Portugal due to smoke in cabin - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Boston-bound Delta flight makes emergency landing in Portugal due to smoke in cabin\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-27 21:32",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRFFJaWVYT3FvOTdWUE5KVGVMUnI1QWxjbWdjTDgwY2p4SHI4M0lxRjdRSFd0dFBkMmVZRXd6RGNNcUhkZlVuXzhFQlZPQnJ5Zi1WSHhtOFZ1STVrUWdDRklZMG1DVTV5ajI1d0oxaWh6VFI5TmdIY2Rsc2NTVTROREJnZktIWGxEMWR4RUhPVjFzOW1sZkppV3R3VGVMSXBYTlIwMk01THlOYWFJaXlwQ1RVQUs3QlE?oc=5"
+    },
+    {
+      "headline": "OpenAI Agents Hit U.S. Government Websites",
+      "score": 6,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "global_markets",
+      "date": "2026-09-27 20:31",
+      "link": "https://www.wsj.com/tech/ai/openai-agents-hacked-u-s-government-websites-d999df5f"
+    },
+    {
+      "headline": "South Korea demands apology from Ukraine over North Korean POW disclosure - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "South Korea demands apology from Ukraine over North Korean POW disclosure\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-27 20:13",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWHdqdnFfTEZYT1kxVWlSSlZRRnRseEw0RzAzbERrM2d0S2ZVSHhtb3Uzb3lwNi13cnNHV2ZobHVnclhfRzFxR2VPWEUzMGFFQ2hEa0Rvb1oyOXgybW9wejZsSVZZTVZ5OVdjZWhOVW5xVTNfTUtrbkRKUksxNW1hZXN1VWlvOGloRjRyV1BTTG1jdGJKMUxYV1RJWXdlNDF3aWpLbzl1N2g3Zl9XUWd5WXFuSmlXWEJXUFVTSktBV29CUnd6WEJuejE5VQ?oc=5"
+    },
+    {
+      "headline": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-27 20:01",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0pGMVlCUkt6b01MNWJkNlc5WlA2dlV1bUs3MDl2LXhhWFU3MGVEenBLQk1SaHNSMU1LNlh1SUpDWUloTzROY0pvb3JnWjJOUmlFSXdiNDVEeXBsRDFZb3gyVUlOY1B3UWc2MVZFLXllN1BkVlV6SXNKWWx0ZVV2azFEOVRmSE84THhKX0lLZTMyanowSnNNb0ItOGc5blhxOVR6UDQwdXVpNVljMnpwbHJBRkEzYk9mQWc?oc=5"
+    },
+    {
+      "headline": "Lowe's is launching a drone delivery service in partnership with DoorDash, Alphabet",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Lowe's is launching a drone delivery service in a partnership with DoorDash and Alphabet's Wing, CNBC has learned exclusively.",
+      "category": "global_markets",
+      "date": "2026-09-27 19:02",
+      "link": "https://www.cnbc.com/2026/09/24/lowes-drones-delivery-doordash-alphabet.html"
+    },
+    {
+      "headline": "Trump to have dinner with Anthropic CEO Amodei at the White House, Axios reports",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Athropic CEO Dario Amodei is set to have dinner with President Donald Trump at the White House on Sunday, Axios reported.",
+      "category": "global_markets",
+      "date": "2026-09-27 18:44",
+      "link": "https://www.cnbc.com/2026/09/27/trump-dinner-anthropic-ceo-amodei.html"
     }
   ]
 }
