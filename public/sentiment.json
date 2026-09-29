@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-29T11:48:44.538799",
+  "timestamp": "2026-09-29T19:11:38.365165",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 8,
-    "neutral": 16,
-    "bearish": 1,
-    "high_priority": 10,
+    "avg_relevance": 7.4,
+    "bullish": 12,
+    "neutral": 11,
+    "bearish": 2,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,15 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 12,
-    "Bloomberg": 2,
+    "Reuters": 6,
+    "Bloomberg": 3,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "CNBC": 2,
+    "NBC News": 1,
+    "Seeking Alpha": 2,
     "The Wall Street Journal": 1,
-    "MarketWatch": 3
+    "CoinDesk": 1,
+    "AD HOC NEWS": 1
   },
   "top_signals": [
     {
@@ -29,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +102,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -123,13 +126,23 @@
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5"
     },
     {
+      "headline": "Gold and silver prices fall sharply as higher bond yields weigh on metals",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Gold and silver prices fell sharply on Monday as rising bond yields tempered investor appetite for non-yielding precious metals.",
+      "category": "fixed_income",
+      "date": "2026-09-28 09:56",
+      "link": "https://www.cnbc.com/2026/09/28/gold-silver-prices-bond-yields.html"
+    },
+    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -139,8 +152,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-29 11:48",
+      "date": "2026-09-29 19:11",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Investors who have shunned diversification face maybe the best buying opportunity for bonds in decades",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "No diversification needed: The 10-year total return stocks minus bonds is near the highest in history.",
+      "category": "fixed_income",
+      "date": "2026-09-29 13:22",
+      "link": "https://www.cnbc.com/2026/09/29/investors-who-have-shunned-diversification-face-maybe-the-best-buying-opportunity-for-bonds-in-decades.html"
     },
     {
       "headline": "Dollar firms near two-month peak as oil, US yields rise; jobs data looms - reuters.com",
@@ -153,24 +176,34 @@
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcm1xMjE3YTBSdTBJRVI5blBWcFFOS1ZSQWZlcVhMZU1iWU1kZTkyaElQUXhyRzZ4My1UcmdUVW1MZldrdjMzblF5eEh5amIwb2tlWmozYjloa29GaEhoT2dMbFFteHRwLV9pem9OYkowV3RUaGhnTUhDUjcwLXozSG1rT0dOMmdsdERFUlVwM1p4TjBZQlFZZWx2aTc4VC03QURrOWM1c1IwVXc?oc=5"
     },
     {
-      "headline": "Feds can't withhold counterterrorism funds from states to force election admin changes, judge rules",
+      "headline": "Treasury Takes Aim at Wall Street Tax Trades in New Notice",
       "score": 7,
-      "source": "CNBC",
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "The judge said FEMA never explained how the election changes it wanted were \"tied to the goal of shoring up vulnerabilities to terrorist attacks.\"",
-      "category": "us_monetary_policy",
-      "date": "2026-09-28 18:41",
-      "link": "https://www.cnbc.com/2026/09/28/elections-dhs-counterterrorism.html"
+      "impact": "The US Treasury Department took a big step toward curbing Wall Street\u2019s tax-aware investing boom on Monday, with a notice signaling potential action on an array of strategies and a ruling that will limit the tax benefits of a booming ETF maneuver.",
+      "category": "us_equities",
+      "date": "2026-09-28 17:32",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-28/treasury-takes-aim-at-wall-street-tax-trades-in-new-notice"
     },
     {
-      "headline": "Stock Market Today: Rejected Iran Truce Pushes Oil, Yields Higher; Dow Futures Slip \u2014 Live Updates",
+      "headline": "Stocks fall, oil rises and bond yields surge as geopolitics keeps markets on edge",
       "score": 7,
-      "source": "The Wall Street Journal",
+      "source": "NBC News",
       "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-09-28 12:15",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-28-2026"
+      "impact": "Stocks fell Monday alongside a jump in bond yields and erratic oil trading as geopolitical upheaval remained front and center for traders.",
+      "category": "fixed_income",
+      "date": "2026-09-28 16:23",
+      "link": "https://www.nbcnews.com/business/markets/stocks-oil-bond-yields-geopolitics-rcna600284"
+    },
+    {
+      "headline": "U.S. 10 Year Treasury tops 5.25% as yields continue to climb",
+      "score": 7,
+      "source": "Seeking Alpha",
+      "sentiment": "neutral",
+      "impact": "U.S. Treasury yields climbed across the curve on Monday as investors kept selling government bonds, lifting the benchmark U.S. 10-year Treasury yield (US10Y) above 5.25%.",
+      "category": "fixed_income",
+      "date": "2026-09-28 14:55",
+      "link": "https://seekingalpha.com/news/4647652-us-10-year-treasury-tops-525-as-yields-continue-to-climb"
     },
     {
       "headline": "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
@@ -183,94 +216,64 @@
       "link": "https://www.cnbc.com/2026/09/28/david-zervos-treasury-department-scott-bessent.html"
     },
     {
-      "headline": "Morgan Stanley\u2019s Mike Wilson says an S&P 500 correction may be exactly what the market needs",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The chief U.S. equity strategist at the investment bank favors large-capitalization quality companies.",
+      "headline": "Micron's Stock Faces Another Post-Earnings Plunge (NASDAQ:MU)",
+      "score": 7,
+      "source": "Seeking Alpha",
+      "sentiment": "positive",
+      "impact": "Options traders are taking a bullish stance ahead of Micron's Q4 earnings, driven by strong AI revenue forecasts and an implied 8.5% price swing. Learn more about MU stock here.",
       "category": "us_equities",
-      "date": "2026-09-29 11:03",
-      "link": "https://www.marketwatch.com/story/morgan-stanleys-mike-wilson-says-an-s-p-500-correction-may-be-exactly-what-the-market-needs-a6baf54e?mod=mw_rss_topstories"
+      "date": "2026-09-28 11:00",
+      "link": "https://seekingalpha.com/article/4950109-micron-stock-faces-another-post-earnings-plunge"
     },
     {
-      "headline": "Rubio says UK airbase incident involved a foreign state - Reuters",
+      "headline": "Selloff in U.S., European Government Bonds Deepens",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Treasury and Bund yields rise to multiyear highs in midday European trading",
+      "category": "fixed_income",
+      "date": "2026-09-28 10:43",
+      "link": "https://www.wsj.com/finance/treasury-yields-rise-amid-u-s-iran-diplomatic-stalemate-e763fe89"
+    },
+    {
+      "headline": "El Pollo Loco to open first New York restaurant as it aims to become national chicken chain",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Rubio says UK airbase incident involved a foreign state\u00a0\u00a0Reuters",
+      "impact": "El Pollo Loco will open its first New York City restaurant next year in Queens as it aims to become a national chicken chain.",
       "category": "global_markets",
-      "date": "2026-09-29 09:35",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORFpiaUU2ZUhub0d4T044ZzdtZEhwSklBLXRIMk9RWk8wMUlSUElhV0FydEMyN3R4enJjVmttUS1Cb0xoeklqQmMwOG9Rb3F4Mzd1bmtXSHRVM0ZKSWE3X2oweDN3emF0SHpnXzhGbGJpSUg2Nk0wNlZlUTlLNl9SRU4tRWdqNHp2WHFpck5ha2s3SXhfNk0yREVTak1RQWM?oc=5"
+      "date": "2026-09-29 18:57",
+      "link": "https://www.cnbc.com/2026/09/29/el-pollo-loco-opens-first-new-york-restaurant.html"
     },
     {
-      "headline": "Iran's Revolutionary Guards call Trump a 'big liar' - Reuters",
+      "headline": "Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran's Revolutionary Guards call Trump a 'big liar'\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-29 09:31",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa3kyQVh0R2pNWkIyZVVNZUxZWHJTVVhrWkhYbmtSWTR2Mk9xT0UzcGYwRGkxMjRpSFBOaWhWaUN6SE9uTkhha2tJbUcwejRlZHpCZk1Icy1jX1h4VUNqVlRyWnFrRy1GbFdiU2U4emhaZWVFaHdwVzlxNDNTVVVoM2tlVlBQMFJWVjlpZlBCSThIalVGVDduaV9LU1lSeDdNX0E?oc=5"
+      "source": "CoinDesk",
+      "sentiment": "positive",
+      "impact": "Cboe Global Markets and S&P Dow Jones Indices have extended their S&P 500 options licensing agreement for 25 years, opening the possibility for collaboration on tokenized options contracts. This development aligns with a broader trend among major Wall Street institutions, including Nasdaq and NYSE, ",
+      "category": "us_equities",
+      "date": "2026-09-29 18:21",
+      "link": "https://www.coindesk.com/business/2026/09/29/cboe-s-and-p-dow-jones-may-explore-tokenized-options-contracts-under-extended-licensing-deal"
     },
     {
-      "headline": "\u2018I have a low interest rate\u2019: I\u2019m 80 years old. Should I move out of my house because of dangerous stairs?",
+      "headline": "Disney laying off around 300 employees in latest cuts under new CEO Josh D'Amaro",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "\u201cI could rent the property and generate $800 a month in positive cash flow.\u201d",
-      "category": "global_markets",
-      "date": "2026-09-29 09:16",
-      "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Two-thirds of the revenue needed to justify the AI build-out is still unaccounted for, says major consulting firm",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "At least about $4.2 trillion of  the estimated yearly costs needed to fund the artificial-intelligence build-out is currently not being covered, according to the consulting firm.",
-      "category": "corporate_earnings",
-      "date": "2026-09-29 09:12",
-      "link": "https://www.marketwatch.com/story/two-thirds-of-the-revenue-needed-to-justify-the-ai-buildout-are-still-unaccounted-for-says-major-consulting-firm-8c55ccba?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Trump denies offering Iran sanctions relief, Tehran says ready for talks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump denies offering Iran sanctions relief, Tehran says ready for talks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-29 06:45",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODNDSVp4Qi1GQVY3bEJ2d0dpZzVBbEU4NUpYQzBpV2QwaW9uVGdwdHJnQkstVFlUSTNRazRHaUVFOVFWOTJXRjhnS2dncDBNLVVsa0JiWC0zN3ktZXdvV0tWN3FrakF4aUZIX0w2RjMwVHJWc0lBZUpYU09SWmsyUmdQd3dJdXh1N3lTb1pDZ1ZEYkhOUTVPV0lhak9YM3ZxTm1vR1BmRnFnZjNUMWF0M1NabHhLblkxd05FM3dn?oc=5"
-    },
-    {
-      "headline": "Israel kills senior Hamas commander in Gaza strike - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israel kills senior Hamas commander in Gaza strike\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-29 06:39",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNlNQRWEzNEg3UzNvTHdIM1B1TEFCd1hQWUZwS2Z3UGRNaXJVQXlyU2lUWmhOV2xaWDgtVTloQWl6ay0yTW80emxfQ255TnN0NjBYQzlUR2xYVTFJSlZ0ZUdkMDV2bjJFclg3RWFmSEJDUGxXYWd6YXdpY1VmUlBxanVwemhHSFJLTld1UU5iNzBUd2ZwQzBtZVlxY1RVVFZ5NnRPTUhOcHljc1Fj?oc=5"
-    },
-    {
-      "headline": "US forces exit Iraq after two decades, leaving opening for Iran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US forces exit Iraq after two decades, leaving opening for Iran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-29 06:05",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJlU2twR3RkNzhyVlFwZmJkZmg3RXQ3VEpxTFowU2dhY1pEeG8wZWlLQ2NVb0lNUERZQXRSdThEbWdxdGx6aExDVkFGNHdUVkZwRFlSclVvYWxEVk5wTFlYQVZmblBJUlcxZ180Sm9YdWtXNDZoZkVfYVQ5aDR1VTZIMGFRWnNsVEs5LVJWMkVXWmpaVnIzd2hBTzl5M1pIenM3c09RaW41aEVoOWRSRkNB?oc=5"
-    },
-    {
-      "headline": "Indian rupee drops to two-month low past key 96/USD barrier as oil worries deepen - reuters.com",
-      "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Indian rupee drops to two-month low past key 96/USD barrier as oil worries deepen\u00a0\u00a0reuters.com",
-      "category": "commodities",
-      "date": "2026-09-29 03:45",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHNTZW52Uy1FNUw2R1RIaEFLa2RMZ25fLUNZMHluYUVBbW9WbTFIV1oxUE82WmtKSnNBN2pDSEI5cnF5Q0d5bWgyeHViT0VaV1dXNzBKbVhDLUhWMmRmQURUdEZua2E5eEZiNDJEVkUyamphM1pfRHVOa1NFSFpTazMzNWlQeVBKazNwWTFCNkpOMFBDYTZSaFhOb29LY1F5VmhGYUNxR19VV1VGVHhBdUc1UXUyLVh2LXp6bzNQWQ?oc=5"
+      "impact": "Disney warned about the most recent round of cuts in its August earnings report as one of the levers it was evaluating to reduce costs at the company.",
+      "category": "global_markets",
+      "date": "2026-09-29 18:21",
+      "link": "https://www.cnbc.com/2026/09/29/disney-layoffs-josh-damaro.html"
+    },
+    {
+      "headline": "Omnicell stock reports 7.40 percent revenue growth in Q2 2026",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "Omnicell (OMCL) reported a 7.40 percent year-over-year revenue growth in Q2 2026, reaching USD 312.20 million, which exceeded analyst estimates. The company's EPS was USD 0.94, significantly higher than the consensus of USD 0.47. Despite strong Q2 results, the stock is trading below its yearly high,",
+      "category": "corporate_earnings",
+      "date": "2026-09-29 18:20",
+      "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/omnicell-stock-reports-7-40-percent-revenue-growth-in-q2-2026/70200319"
     }
   ]
 }
