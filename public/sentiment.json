@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-30T11:35:31.952641",
+  "timestamp": "2026-09-30T18:54:39.164772",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
     "bullish": 10,
-    "neutral": 12,
-    "bearish": 3,
-    "high_priority": 9,
+    "neutral": 14,
+    "bearish": 1,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "MarketWatch": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 4,
-    "Financial Times": 1,
-    "The Wall Street Journal": 1
+    "CNBC": 5,
+    "Investopedia": 1,
+    "The Wall Street Journal": 2,
+    "Benzinga": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +101,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "He\u2019s been badmouthing Treasury bonds since 2020, but now \u2018the big fat cushion\u2019 of 5.25% yields is turning this strategist bullish",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Investors have become accustomed to returns distorted by artificially low interest rates.  5% on bonds and 6% on stocks are more realistic and Bianco finds value in U.S. Treasury notes now.",
-      "category": "fixed_income",
-      "date": "2026-09-30 09:32",
-      "link": "https://www.marketwatch.com/story/hes-been-badmouthing-treasury-bonds-since-2020-but-now-the-big-fat-cushion-of-5-25-yields-is-turning-this-strategist-bullish-376fafba?mod=mw_rss_topstories"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -120,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,8 +121,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-30 11:35",
+      "date": "2026-09-30 18:54",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Stellantis CEO reconfirms 2026 guidance, says turnaround plan continues as automaker's shares hit new low",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Stellantis CEO Antonio Filosa on Wednesday reconfirmed the company's 2026 guidance and its plans to be cash flow positive by 2027.",
+      "category": "corporate_earnings",
+      "date": "2026-09-30 16:14",
+      "link": "https://www.cnbc.com/2026/09/30/stellantis-guidance-turnaround-plan.html"
+    },
+    {
+      "headline": "Higher interest rates can be scary for stocks \u2014 but it's not that simple",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Investors should be more selective when interest rates are on the rise. That doesn't mean leave the market all together.",
+      "category": "global_markets",
+      "date": "2026-09-30 15:43",
+      "link": "https://www.cnbc.com/2026/09/30/higher-interest-rates-can-be-scary-for-stocks-but-its-not-that-simple.html"
+    },
+    {
+      "headline": "Micron earnings hit Wall Street after the bell. Here's how traders are positioned into the report",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "In the near term, the market needs to get through Micron earnings. The good news is options traders think it could be a slam dunk.",
+      "category": "us_equities",
+      "date": "2026-09-30 11:34",
+      "link": "https://www.cnbc.com/2026/09/30/micron-earnings-hit-wall-street-after-the-bell-heres-how-traders-are-positioned-into-the-report.html"
     },
     {
       "headline": "Holiday retail sales are expected to top $1 trillion as inflation boosts growth",
@@ -154,124 +175,104 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaGpibmlmMTlRdFhRRHZROFhCNERCYTU3ZFBhZHpGTjZwTlVjeTVBUUZ0Vm1JUE5jVnlzTEVjM1VvYTZoOWF0WklCeDVHcHM1ZDdKWlZLT3RfS0Y5TV9PWF9hX1VmOGdsakhkNlY1ay1WSTBLSm5IZVV4QUVPcnFzTjhsV2hkMFUwMFY4SjNaMA?oc=5"
     },
     {
-      "headline": "Investors who have shunned diversification face maybe the best buying opportunity for bonds in decades",
+      "headline": "Stock Market Today: Major Indexes Decline as Treasury Yields Rise Further; Oil Prices Slip",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "No diversification needed: The 10-year total return stocks minus bonds is near the highest in history.",
+      "source": "Investopedia",
+      "sentiment": "neutral",
+      "impact": "Major U.S. stock indexes fell further Tuesday after beginning the week with declines, as Treasury yields resumed their ascent.",
       "category": "fixed_income",
-      "date": "2026-09-29 13:22",
-      "link": "https://www.cnbc.com/2026/09/29/investors-who-have-shunned-diversification-face-maybe-the-best-buying-opportunity-for-bonds-in-decades.html"
+      "date": "2026-09-29 17:47",
+      "link": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09292026-12146739"
     },
     {
-      "headline": "US Treasury threatens crackdown on Wall Street tax-avoidance strategies",
-      "score": 7,
-      "source": "Financial Times",
-      "sentiment": "positive",
-      "impact": "Department limits use of ETFs to avoid taxable gains and says it could target other \u2018potentially abusive\u2019 tactics",
-      "category": "us_equities",
-      "date": "2026-09-28 22:00",
-      "link": "https://www.ft.com/content/7c6d87b1-d7d9-49c3-b842-2600928fba38?syn-25a6b1a6\\\\u003d1"
-    },
-    {
-      "headline": "U.S. Stocks Slide as Treasury Selloff Deepens",
+      "headline": "Treasury Will Auto-Enroll 60 Million Children in Trump Accounts",
       "score": 7,
       "source": "The Wall Street Journal",
       "sentiment": "neutral",
       "impact": "Latest market news.",
       "category": "fixed_income",
-      "date": "2026-09-28 20:48",
-      "link": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-treasury-selloff-deepens-5bfbd7de"
+      "date": "2026-09-29 16:52",
+      "link": "https://www.wsj.com/politics/policy/treasury-will-auto-enroll-60-million-in-trump-accounts-a5f82421"
     },
     {
-      "headline": "\u2018I\u2019m afraid of human stupidity.\u2019 Why this top economist prefers U.S. tech and gold over bonds.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "A prominent economist doesn\u2019t fear artificial intelligence, but fully embraces it in portfolios. He feels far differently about government debt.",
-      "category": "fixed_income",
-      "date": "2026-09-30 11:20",
-      "link": "https://www.marketwatch.com/story/im-afraid-of-human-stupidity-why-this-top-economist-prefers-u-s-tech-and-gold-over-bonds-30299219?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "A visual retrospective of America's two decades in Iraq - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "headline": "U.S. Consumer Confidence Fell in September Amid Elevated Oil Prices, Inflation Worries, Conference Board Says",
+      "score": 7,
+      "source": "The Wall Street Journal",
       "sentiment": "neutral",
-      "impact": "A visual retrospective of America's two decades in Iraq\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-30 10:46",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOejlqc3BsY3RVQXg2eDgxUHZSOHdGNzFHSFhoMVBMd3hWYUo3bF9GWmR5NFh0T3g1Q0hiMGRHaXlNcV8ycGVPU0YtNFBPbEd0cUI4M0U1T2dzSnpjNTFrZVI0b09BeDcwY3UwQU8zQnFIaDRRLUVrU0dqZXdHTEMtYU5aclJnOEVfcmdrMjBzWl8xYjduWnc?oc=5"
+      "impact": "Latest market news.",
+      "category": "commodities",
+      "date": "2026-09-29 15:23",
+      "link": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-fell-sharply-in-september-conference-board-says-a3578a0f"
     },
     {
-      "headline": "People switching to Novo's Wegovy pill from obesity injections kept losing weight in real-world study\u00a0",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The data on Novo's Wegovy pill suggests that patients may not need to take weekly injections forever, but can instead opt for more convenient treatments.",
-      "category": "global_markets",
-      "date": "2026-09-30 09:45",
-      "link": "https://www.cnbc.com/2026/09/30/novo-wegovy-pill-weight-loss-injections.html"
-    },
-    {
-      "headline": "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says - Reuters",
+      "headline": "Passengers overcame pilot who tried to crash flydubai flight, Israel says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says\u00a0\u00a0Reuters",
+      "impact": "Passengers overcame pilot who tried to crash flydubai flight, Israel says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-09-30 09:28",
+      "date": "2026-09-30 18:07",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWnpLNmZJUXN6UzQ0RlhKSFhxT2xYMWZ1R1VwYVdZX3ZuZWFTYUZyV1VYTVhralA5Y0ROVjlNVl9XOGpTSWhEcGM3UE01WVA3clNKcm5KdDZ2dUY1U3FyODdsWkkzSWs2VW5NZUJWQXFYQ0dxamNudlljZl92REs3SnFXSEUzTEswdjh4NnRia2VWZGd2TGE2SmZ6VDBQTXpiRDM0SDZSZ29ubUZUd3Zsa0E4LTBoRmxpSDRjd0JkcmhYbkNV?oc=5"
     },
     {
-      "headline": "Ken Griffin pledges $3 billion to Carnegie Mellon University in 'historic' gift",
+      "headline": "Amazon Signs Up As Synopsys' Lead Customer In $1B Chip Pact - Synopsys (NASDAQ:SNPS)",
+      "score": 6,
+      "source": "Benzinga",
+      "sentiment": "positive",
+      "impact": "Synopsys (NASDAQ: SNPS) has signed a multi-year strategic deal with Amazon (NASDAQ: AMZN) valued at over $1 billion to accelerate the development of custom silicon for AI-powered products and cloud infrastructure. Amazon will be Synopsys' lead customer for application-optimized IP, and Synopsys will",
+      "category": "us_equities",
+      "date": "2026-09-30 18:02",
+      "link": "https://www.benzinga.com/markets/large-cap/26/09/62088786/synopsys-amazon-strike-1b-deal-for-ai-silicon"
+    },
+    {
+      "headline": "Israeli strikes kill seven people in Gaza, medics say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israeli strikes kill seven people in Gaza, medics say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-30 17:56",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPamZFVnF3ODVXUkV4Q3ViOWR5aEpob1QzOVJWSTdQQ0otU2p0MkVTaWdJRXVfTU1hUng1eGZ3dkJqVk1JVjZlV0E0WVVUdGV4NzFZNF9OQ1FaRlFHdmJNRUJVNk84UUJNcDN5Nm41UzhhM21qV1NPaDgzMndCQVI1bG42OVBBWU5QWnJLUklLTHR3bmpGUEstano1Q1lwOVl1RDZZcg?oc=5"
+    },
+    {
+      "headline": "MGM CEO leaves door open to People Inc. bid as casino dealmaking heats up",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Citadel CEO Ken Griffin is committing $3 billion to Carnegie Mellon University, a \"historic\" gift that includes $2 billion to establish a new Miami campus.",
+      "impact": "The Wall Street Journal reported MGM was exploring an offer for People Inc. after People Inc. withdrew its $48.30-per-share proposal to buy the rest of MGM.",
       "category": "global_markets",
-      "date": "2026-09-30 09:00",
-      "link": "https://www.cnbc.com/2026/09/30/ken-griffin-pledges-3-billion-to-carnegie-mellon-university.html"
+      "date": "2026-09-30 17:50",
+      "link": "https://www.cnbc.com/2026/09/30/mgm-barry-diller-people-inc-casino-dealmaking.html"
     },
     {
-      "headline": "Iran receives US feedback on seven-day trust-building plan - Reuters",
+      "headline": "These bond strategies can help you get a safe 5% return on your cash",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran receives US feedback on seven-day trust-building plan\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-30 07:29",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXVGNEhtaUhtTVlCMndfQ0l3ZUthempGR3UwQklJTXN0MlQ4cG44bWdMWnRzOGJibUl1cFJXcDJSMDZNT2VmNlgyMG0zbms2dVJ3ZEszVmlucmdrX0pWdmp5cjNaQ2x3QUpIQjJFU0RMcTVCbFVfQ0xfaWU0MXVNTzdNUnZpMW5qX2VvSU9wY0ZJN0NPZFFTMWtiLS1HNDZmbWVaWWphVEVKeDZQVXc?oc=5"
-    },
-    {
-      "headline": "Iran appeals to US voters as American troops leave Iraq - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran appeals to US voters as American troops leave Iraq\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-30 02:48",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2hTZHg3aFBHZnJsWE56aHhkcXdubk5JOFFvRmhzb3lWQjFrd3NVbmJDOVk4SjBTSE4tSm1pbXJVUVFGSWxKdUMwV1JhcE83TVVhWC12ZkNBZThNaGRrLXNSZE9jUWEtbWxPV3hnRDlHcFBmaldvdjNHYUxyM3NiYS1iX3BjZVZYN0hfbWdMN0Y5SDJkVHhPOHh3?oc=5"
-    },
-    {
-      "headline": "Indian shares open flat after foreign outflows - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Indian shares open flat after foreign outflows\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-09-30 02:24",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRTNmakVIbE1QRkJkd0VLTm03TjkxX29LaTgtekt5UmxjUVBzckppYmctZVc5V0JWNUNtR2dOaVRpU1F1eTd4M2YybFJ1TC1ncEZzZERrd0ptTGlKSHVZVnRxcHhnUldJVDlLdUhIM0ZYS3IxNzk4TWctZVdVbFMyUTEtbWd6MjYwMWs4RFE4b3ZERVZlLUdNYWF3d0xHX2pNbEVNdll3?oc=5"
-    },
-    {
-      "headline": "Oil gains as stalled US-Iran talks trump supply recovery - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "Oil gains as stalled US-Iran talks trump supply recovery\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-09-30 01:39",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZNSGlvd0hfTjdOVTQxTEVYczRjUjdId3NlSGJDSV90UVVjTGhjaFF2OS1xckpOWElrcWRoUXNPa29WTHhsLW9yWVc2N1REdXZONl9iZ2ZUSkNOQ0xndE16LWpMa3c3T2FHWE0yajBlek1La3hVeTVnWkpLc2hhTTRNMnVILWY0RG9VbzVVZnZGV0JmM3VJWkNhVmlfNDlVMThOSVNtNlR3cFJUekNpMVZ3aE03Zw?oc=5"
+      "impact": "With U.S. Treasury yields on the rise, financial planners say they\u2019re seeing a growing interest in bonds, especially among investors looking to secure fixed income in retirement.",
+      "category": "fixed_income",
+      "date": "2026-09-30 17:38",
+      "link": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "UK links Iran to suspected plot outside airbase used by US bombers - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "UK links Iran to suspected plot outside airbase used by US bombers\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-30 16:19",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLXZwczdvclVqQk9CUG8tcG81SUlpdmZLcVUtcmxUWW1xLXFQU09BX3FhZ2NkRnlOMUNZaUJiOW4yT09PLVR4TGUxQW9yT2xuOTU5VzY3dVVoeXNhLVRpWTVIU01obUpZd1hKZElLMks0OGRydDRyMFZYTjZ6cWdnbElqbFpLQW5abGx2ZHZlck1ta0ZSNmxn?oc=5"
+    },
+    {
+      "headline": "EU aviation agency issues Saudi airspace advisory after Houthi attacks - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "EU aviation agency issues Saudi airspace advisory after Houthi attacks\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-30 16:09",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWJfYXZITmYzSU9mUTRTTlBVdm5fWm5IUHE0dWxwY28wR2tqbUI4eGdNTU0tRDJvR2Y4SDFLWlUxUUY4dkdEdzlOcGoyWTcyN3Z0eXc3bzRkQWlEMUZyZE80cXpnZjg0VDZvZXNsRElURDdDTDROOFNEZTAydWRpQkJiX2hfNGQ0UmU1Y2Q2NF92REtqNVExeDFEZVotNmxLZXdRUVlXRzRsTFk2UWJ5REMxZXROSnRnUXI3UHNBQnVFdw?oc=5"
     }
   ]
 }
