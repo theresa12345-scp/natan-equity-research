@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-29T19:11:38.365165",
+  "timestamp": "2026-09-30T11:35:31.952641",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 12,
-    "neutral": 11,
-    "bearish": 2,
-    "high_priority": 11,
+    "avg_relevance": 7.2,
+    "bullish": 10,
+    "neutral": 12,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,15 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
-    "Bloomberg": 3,
-    "CNBC": 5,
+    "Reuters": 10,
+    "Bloomberg": 2,
+    "MarketWatch": 2,
     "Caixin/S&P Global": 1,
-    "NBC News": 1,
-    "Seeking Alpha": 2,
-    "The Wall Street Journal": 1,
-    "CoinDesk": 1,
-    "AD HOC NEWS": 1
+    "CNBC": 4,
+    "Financial Times": 1,
+    "The Wall Street Journal": 1
   },
   "top_signals": [
     {
@@ -32,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -42,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -52,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -62,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -72,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -82,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -92,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -102,38 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Battered bond market braces for a new era of interest rates - Reuters",
+      "headline": "He\u2019s been badmouthing Treasury bonds since 2020, but now \u2018the big fat cushion\u2019 of 5.25% yields is turning this strategist bullish",
       "score": 8,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Battered bond market braces for a new era of interest rates\u00a0\u00a0Reuters",
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Investors have become accustomed to returns distorted by artificially low interest rates.  5% on bonds and 6% on stocks are more realistic and Bianco finds value in U.S. Treasury notes now.",
       "category": "fixed_income",
-      "date": "2026-09-29 04:47",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5"
-    },
-    {
-      "headline": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Stocks fall as higher oil prices, Treasury yields weigh\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-09-28 23:16",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5"
-    },
-    {
-      "headline": "Gold and silver prices fall sharply as higher bond yields weigh on metals",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Gold and silver prices fell sharply on Monday as rising bond yields tempered investor appetite for non-yielding precious metals.",
-      "category": "fixed_income",
-      "date": "2026-09-28 09:56",
-      "link": "https://www.cnbc.com/2026/09/28/gold-silver-prices-bond-yields.html"
+      "date": "2026-09-30 09:32",
+      "link": "https://www.marketwatch.com/story/hes-been-badmouthing-treasury-bonds-since-2020-but-now-the-big-fat-cushion-of-5-25-yields-is-turning-this-strategist-bullish-376fafba?mod=mw_rss_topstories"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -142,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -152,8 +130,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-09-29 19:11",
+      "date": "2026-09-30 11:35",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Holiday retail sales are expected to top $1 trillion as inflation boosts growth",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Holiday retail sales are expected to grow this holiday season and top $1 trillion for the first time, though that growth is boosted by inflation.",
+      "category": "global_markets",
+      "date": "2026-09-30 11:30",
+      "link": "https://www.cnbc.com/2026/09/30/holiday-retail-sales-inflation.html"
+    },
+    {
+      "headline": "How the US controls Iraq's oil revenues - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "How the US controls Iraq's oil revenues\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-09-30 05:17",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaGpibmlmMTlRdFhRRHZROFhCNERCYTU3ZFBhZHpGTjZwTlVjeTVBUUZ0Vm1JUE5jVnlzTEVjM1VvYTZoOWF0WklCeDVHcHM1ZDdKWlZLT3RfS0Y5TV9PWF9hX1VmOGdsakhkNlY1ay1WSTBLSm5IZVV4QUVPcnFzTjhsV2hkMFUwMFY4SjNaMA?oc=5"
     },
     {
       "headline": "Investors who have shunned diversification face maybe the best buying opportunity for bonds in decades",
@@ -166,114 +164,114 @@
       "link": "https://www.cnbc.com/2026/09/29/investors-who-have-shunned-diversification-face-maybe-the-best-buying-opportunity-for-bonds-in-decades.html"
     },
     {
-      "headline": "Dollar firms near two-month peak as oil, US yields rise; jobs data looms - reuters.com",
+      "headline": "US Treasury threatens crackdown on Wall Street tax-avoidance strategies",
       "score": 7,
-      "source": "Reuters",
+      "source": "Financial Times",
       "sentiment": "positive",
-      "impact": "Dollar firms near two-month peak as oil, US yields rise; jobs data looms\u00a0\u00a0reuters.com",
-      "category": "fixed_income",
-      "date": "2026-09-29 01:57",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcm1xMjE3YTBSdTBJRVI5blBWcFFOS1ZSQWZlcVhMZU1iWU1kZTkyaElQUXhyRzZ4My1UcmdUVW1MZldrdjMzblF5eEh5amIwb2tlWmozYjloa29GaEhoT2dMbFFteHRwLV9pem9OYkowV3RUaGhnTUhDUjcwLXozSG1rT0dOMmdsdERFUlVwM1p4TjBZQlFZZWx2aTc4VC03QURrOWM1c1IwVXc?oc=5"
-    },
-    {
-      "headline": "Treasury Takes Aim at Wall Street Tax Trades in New Notice",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "The US Treasury Department took a big step toward curbing Wall Street\u2019s tax-aware investing boom on Monday, with a notice signaling potential action on an array of strategies and a ruling that will limit the tax benefits of a booming ETF maneuver.",
+      "impact": "Department limits use of ETFs to avoid taxable gains and says it could target other \u2018potentially abusive\u2019 tactics",
       "category": "us_equities",
-      "date": "2026-09-28 17:32",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-28/treasury-takes-aim-at-wall-street-tax-trades-in-new-notice"
+      "date": "2026-09-28 22:00",
+      "link": "https://www.ft.com/content/7c6d87b1-d7d9-49c3-b842-2600928fba38?syn-25a6b1a6\\\\u003d1"
     },
     {
-      "headline": "Stocks fall, oil rises and bond yields surge as geopolitics keeps markets on edge",
-      "score": 7,
-      "source": "NBC News",
-      "sentiment": "positive",
-      "impact": "Stocks fell Monday alongside a jump in bond yields and erratic oil trading as geopolitical upheaval remained front and center for traders.",
-      "category": "fixed_income",
-      "date": "2026-09-28 16:23",
-      "link": "https://www.nbcnews.com/business/markets/stocks-oil-bond-yields-geopolitics-rcna600284"
-    },
-    {
-      "headline": "U.S. 10 Year Treasury tops 5.25% as yields continue to climb",
-      "score": 7,
-      "source": "Seeking Alpha",
-      "sentiment": "neutral",
-      "impact": "U.S. Treasury yields climbed across the curve on Monday as investors kept selling government bonds, lifting the benchmark U.S. 10-year Treasury yield (US10Y) above 5.25%.",
-      "category": "fixed_income",
-      "date": "2026-09-28 14:55",
-      "link": "https://seekingalpha.com/news/4647652-us-10-year-treasury-tops-525-as-yields-continue-to-climb"
-    },
-    {
-      "headline": "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Zervos is joining the Treasury Department as counselor to Bessent, adding a prominent markets voice to the administration's economic policy team.",
-      "category": "us_equities",
-      "date": "2026-09-28 12:00",
-      "link": "https://www.cnbc.com/2026/09/28/david-zervos-treasury-department-scott-bessent.html"
-    },
-    {
-      "headline": "Micron's Stock Faces Another Post-Earnings Plunge (NASDAQ:MU)",
-      "score": 7,
-      "source": "Seeking Alpha",
-      "sentiment": "positive",
-      "impact": "Options traders are taking a bullish stance ahead of Micron's Q4 earnings, driven by strong AI revenue forecasts and an implied 8.5% price swing. Learn more about MU stock here.",
-      "category": "us_equities",
-      "date": "2026-09-28 11:00",
-      "link": "https://seekingalpha.com/article/4950109-micron-stock-faces-another-post-earnings-plunge"
-    },
-    {
-      "headline": "Selloff in U.S., European Government Bonds Deepens",
+      "headline": "U.S. Stocks Slide as Treasury Selloff Deepens",
       "score": 7,
       "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Treasury and Bund yields rise to multiyear highs in midday European trading",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
       "category": "fixed_income",
-      "date": "2026-09-28 10:43",
-      "link": "https://www.wsj.com/finance/treasury-yields-rise-amid-u-s-iran-diplomatic-stalemate-e763fe89"
+      "date": "2026-09-28 20:48",
+      "link": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-treasury-selloff-deepens-5bfbd7de"
     },
     {
-      "headline": "El Pollo Loco to open first New York restaurant as it aims to become national chicken chain",
+      "headline": "\u2018I\u2019m afraid of human stupidity.\u2019 Why this top economist prefers U.S. tech and gold over bonds.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "A prominent economist doesn\u2019t fear artificial intelligence, but fully embraces it in portfolios. He feels far differently about government debt.",
+      "category": "fixed_income",
+      "date": "2026-09-30 11:20",
+      "link": "https://www.marketwatch.com/story/im-afraid-of-human-stupidity-why-this-top-economist-prefers-u-s-tech-and-gold-over-bonds-30299219?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "A visual retrospective of America's two decades in Iraq - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "A visual retrospective of America's two decades in Iraq\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-30 10:46",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOejlqc3BsY3RVQXg2eDgxUHZSOHdGNzFHSFhoMVBMd3hWYUo3bF9GWmR5NFh0T3g1Q0hiMGRHaXlNcV8ycGVPU0YtNFBPbEd0cUI4M0U1T2dzSnpjNTFrZVI0b09BeDcwY3UwQU8zQnFIaDRRLUVrU0dqZXdHTEMtYU5aclJnOEVfcmdrMjBzWl8xYjduWnc?oc=5"
+    },
+    {
+      "headline": "People switching to Novo's Wegovy pill from obesity injections kept losing weight in real-world study\u00a0",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "El Pollo Loco will open its first New York City restaurant next year in Queens as it aims to become a national chicken chain.",
+      "impact": "The data on Novo's Wegovy pill suggests that patients may not need to take weekly injections forever, but can instead opt for more convenient treatments.",
       "category": "global_markets",
-      "date": "2026-09-29 18:57",
-      "link": "https://www.cnbc.com/2026/09/29/el-pollo-loco-opens-first-new-york-restaurant.html"
+      "date": "2026-09-30 09:45",
+      "link": "https://www.cnbc.com/2026/09/30/novo-wegovy-pill-weight-loss-injections.html"
     },
     {
-      "headline": "Cboe, S&P Dow Jones may explore tokenized options contracts under extended licensing deal",
+      "headline": "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says - Reuters",
       "score": 6,
-      "source": "CoinDesk",
-      "sentiment": "positive",
-      "impact": "Cboe Global Markets and S&P Dow Jones Indices have extended their S&P 500 options licensing agreement for 25 years, opening the possibility for collaboration on tokenized options contracts. This development aligns with a broader trend among major Wall Street institutions, including Nasdaq and NYSE, ",
-      "category": "us_equities",
-      "date": "2026-09-29 18:21",
-      "link": "https://www.coindesk.com/business/2026/09/29/cboe-s-and-p-dow-jones-may-explore-tokenized-options-contracts-under-extended-licensing-deal"
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-30 09:28",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWnpLNmZJUXN6UzQ0RlhKSFhxT2xYMWZ1R1VwYVdZX3ZuZWFTYUZyV1VYTVhralA5Y0ROVjlNVl9XOGpTSWhEcGM3UE01WVA3clNKcm5KdDZ2dUY1U3FyODdsWkkzSWs2VW5NZUJWQXFYQ0dxamNudlljZl92REs3SnFXSEUzTEswdjh4NnRia2VWZGd2TGE2SmZ6VDBQTXpiRDM0SDZSZ29ubUZUd3Zsa0E4LTBoRmxpSDRjd0JkcmhYbkNV?oc=5"
     },
     {
-      "headline": "Disney laying off around 300 employees in latest cuts under new CEO Josh D'Amaro",
+      "headline": "Ken Griffin pledges $3 billion to Carnegie Mellon University in 'historic' gift",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Disney warned about the most recent round of cuts in its August earnings report as one of the levers it was evaluating to reduce costs at the company.",
+      "sentiment": "neutral",
+      "impact": "Citadel CEO Ken Griffin is committing $3 billion to Carnegie Mellon University, a \"historic\" gift that includes $2 billion to establish a new Miami campus.",
       "category": "global_markets",
-      "date": "2026-09-29 18:21",
-      "link": "https://www.cnbc.com/2026/09/29/disney-layoffs-josh-damaro.html"
+      "date": "2026-09-30 09:00",
+      "link": "https://www.cnbc.com/2026/09/30/ken-griffin-pledges-3-billion-to-carnegie-mellon-university.html"
     },
     {
-      "headline": "Omnicell stock reports 7.40 percent revenue growth in Q2 2026",
+      "headline": "Iran receives US feedback on seven-day trust-building plan - Reuters",
       "score": 6,
-      "source": "AD HOC NEWS",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran receives US feedback on seven-day trust-building plan\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-30 07:29",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXVGNEhtaUhtTVlCMndfQ0l3ZUthempGR3UwQklJTXN0MlQ4cG44bWdMWnRzOGJibUl1cFJXcDJSMDZNT2VmNlgyMG0zbms2dVJ3ZEszVmlucmdrX0pWdmp5cjNaQ2x3QUpIQjJFU0RMcTVCbFVfQ0xfaWU0MXVNTzdNUnZpMW5qX2VvSU9wY0ZJN0NPZFFTMWtiLS1HNDZmbWVaWWphVEVKeDZQVXc?oc=5"
+    },
+    {
+      "headline": "Iran appeals to US voters as American troops leave Iraq - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran appeals to US voters as American troops leave Iraq\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-30 02:48",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2hTZHg3aFBHZnJsWE56aHhkcXdubk5JOFFvRmhzb3lWQjFrd3NVbmJDOVk4SjBTSE4tSm1pbXJVUVFGSWxKdUMwV1JhcE83TVVhWC12ZkNBZThNaGRrLXNSZE9jUWEtbWxPV3hnRDlHcFBmaldvdjNHYUxyM3NiYS1iX3BjZVZYN0hfbWdMN0Y5SDJkVHhPOHh3?oc=5"
+    },
+    {
+      "headline": "Indian shares open flat after foreign outflows - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Indian shares open flat after foreign outflows\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-09-30 02:24",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRTNmakVIbE1QRkJkd0VLTm03TjkxX29LaTgtekt5UmxjUVBzckppYmctZVc5V0JWNUNtR2dOaVRpU1F1eTd4M2YybFJ1TC1ncEZzZERrd0ptTGlKSHVZVnRxcHhnUldJVDlLdUhIM0ZYS3IxNzk4TWctZVdVbFMyUTEtbWd6MjYwMWs4RFE4b3ZERVZlLUdNYWF3d0xHX2pNbEVNdll3?oc=5"
+    },
+    {
+      "headline": "Oil gains as stalled US-Iran talks trump supply recovery - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Omnicell (OMCL) reported a 7.40 percent year-over-year revenue growth in Q2 2026, reaching USD 312.20 million, which exceeded analyst estimates. The company's EPS was USD 0.94, significantly higher than the consensus of USD 0.47. Despite strong Q2 results, the stock is trading below its yearly high,",
-      "category": "corporate_earnings",
-      "date": "2026-09-29 18:20",
-      "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/omnicell-stock-reports-7-40-percent-revenue-growth-in-q2-2026/70200319"
+      "impact": "Oil gains as stalled US-Iran talks trump supply recovery\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-09-30 01:39",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZNSGlvd0hfTjdOVTQxTEVYczRjUjdId3NlSGJDSV90UVVjTGhjaFF2OS1xckpOWElrcWRoUXNPa29WTHhsLW9yWVc2N1REdXZONl9iZ2ZUSkNOQ0xndE16LWpMa3c3T2FHWE0yajBlek1La3hVeTVnWkpLc2hhTTRNMnVILWY0RG9VbzVVZnZGV0JmM3VJWkNhVmlfNDlVMThOSVNtNlR3cFJUekNpMVZ3aE03Zw?oc=5"
     }
   ]
 }
