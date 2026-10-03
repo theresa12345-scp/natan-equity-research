@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-02T19:03:02.128474",
+  "timestamp": "2026-10-03T10:49:18.092145",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.6,
-    "bullish": 11,
+    "avg_relevance": 7.3,
+    "bullish": 12,
     "neutral": 10,
-    "bearish": 4,
-    "high_priority": 11,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,14 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 4,
-    "Bloomberg": 4,
+    "Reuters": 6,
+    "Bloomberg": 2,
     "CNBC": 6,
-    "The Wall Street Journal": 4,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1,
-    "Investor's Business Daily": 1
+    "Yahoo Entertainment": 2,
+    "MarketBeat": 2,
+    "AD HOC NEWS": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -30,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -114,33 +115,13 @@
       "link": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html"
     },
     {
-      "headline": "Stock Market Today: Global Bond Selloff Resumes; Yields Remain at Highs \u2014 Live Updates",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "fixed_income",
-      "date": "2026-10-01 17:35",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-01-2026"
-    },
-    {
-      "headline": "This Datapoint Could Explain Soaring Bond Yields",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "fixed_income",
-      "date": "2026-10-01 09:54",
-      "link": "https://www.wsj.com/finance/investing/this-datapoint-could-explain-soaring-bond-yields-d8ec5be0"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -150,7 +131,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-02 19:03",
+      "date": "2026-10-03 10:49",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -162,16 +143,6 @@
       "category": "us_equities",
       "date": "2026-10-02 18:03",
       "link": "https://www.cnbc.com/2026/10/02/fridays-rally-in-the-sp-500-might-not-be-enough-but-linde-is-out-of-this-world.html"
-    },
-    {
-      "headline": "How much higher can bond yields rise \u2014 and what does it mean for stocks?",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Also in Weekend Reads: Adjustable-rate mortgage loans, Gen Z entrepreneurs and advice from the Moneyist.",
-      "category": "fixed_income",
-      "date": "2026-10-02 17:48",
-      "link": "https://www.marketwatch.com/story/how-much-higher-can-bond-yields-rise-and-what-does-it-mean-for-stocks-12883d6c?mod=mw_rss_topstories"
     },
     {
       "headline": "The sector in the cross hairs of the bond sell-off looks poised for a bounce, says Mike Khouw",
@@ -204,74 +175,104 @@
       "link": "https://www.cnbc.com/2026/10/02/the-secret-signs-the-bond-sell-off-might-be-ending.html"
     },
     {
-      "headline": "Trump Accounts have auto-enrolled more than 60 million children, Treasury says",
+      "headline": "Nike shares plummet 10% after weak revenue outlook and layoff plans underway",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "More than 60 million children have been automatically enrolled in Trump Accounts,\u00a0according to a Treasury Department announcement exclusively provided to CNBC.",
-      "category": "fixed_income",
-      "date": "2026-10-01 14:39",
-      "link": "https://www.cnbc.com/2026/10/01/treasury-trump-accounts-auto-enroll-more-than-60-million-children.html"
-    },
-    {
-      "headline": "Angry Bondholders Flood Wall Street With Complaints on Paramount Losses",
-      "score": 7,
-      "source": "Bloomberg",
       "sentiment": "negative",
-      "impact": "Just hours after Paramount Skydance Corp. issued $52 billion of debt to fund the biggest Hollywood buyout ever, investors were nursing hundreds of millions of dollars in losses, triggering a flurry of angry calls from money managers to Wall Street banks that \u2026",
-      "category": "us_equities",
-      "date": "2026-10-01 12:35",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-01/paramount-s-41-billion-of-m-a-bonds-slump-as-trading-begins"
-    },
-    {
-      "headline": "France Is Ground Zero in the Global Bond Rout",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "negative",
-      "impact": "The country\u2019s finance ministry outlined tens of billions in cuts and cost savings",
-      "category": "fixed_income",
-      "date": "2026-10-01 12:29",
-      "link": "https://www.wsj.com/finance/france-is-ground-zero-in-the-global-bond-rout-4b743eb2"
-    },
-    {
-      "headline": "Stock Market Today: Dow Gains As Yields Waffle; Micron Stock Drops On Earnings (Live Coverage)",
-      "score": 7,
-      "source": "Investor's Business Daily",
-      "sentiment": "neutral",
-      "impact": "Stock Market Today: The Dow Jones index climbs Thursday as Treasury yields extend their gains. Micron stock slides on earnings.",
-      "category": "us_equities",
-      "date": "2026-10-01 12:18",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-micron-stock-mu-earnings/"
-    },
-    {
-      "headline": "Trump Says Inflation Could Pay Down the Debt \u2018Very Rapidly\u2019",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-10-01 09:06",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-01-2026/card/trump-says-inflation-could-pay-down-the-debt-very-rapidly--S6mygMl76dzCeRzAm3vp"
-    },
-    {
-      "headline": "Trump Says Powell Should Be Forced to Resign From Fed Board",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "President Donald Trump said former Federal Reserve Chair Jerome Powell should resign from the central bank\u2019s Board of Governors over findings the central bank mismanaged the renovation of its headquarters.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-01 04:11",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/trump-says-powell-should-be-forced-to-resign-from-fed-board-muoizeps"
-    },
-    {
-      "headline": "Stellantis CEO reconfirms 2026 guidance, says turnaround plan continues as automaker's shares hit new low",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Stellantis CEO Antonio Filosa on Wednesday reconfirmed the company's 2026 guidance and its plans to be cash flow positive by 2027.",
+      "impact": "Nike's shares plummeted in premarket trading, continuing a second straight day of declines after it reported falling revenue and plans to lay off staff.",
       "category": "corporate_earnings",
-      "date": "2026-09-30 20:15",
-      "link": "https://www.cnbc.com/2026/09/30/stellantis-guidance-turnaround-plan.html"
+      "date": "2026-10-02 10:00",
+      "link": "https://www.cnbc.com/2026/10/02/nike-nke-stock-q1-earnings-layoffs.html"
+    },
+    {
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures rise ahead of key jobs report as oil steadies",
+      "score": 7,
+      "source": "Yahoo Entertainment",
+      "sentiment": "positive",
+      "impact": "The Labor Department's September jobs report, oil prices, and bond yields were the key things to watch on Friday in markets.",
+      "category": "us_equities",
+      "date": "2026-10-02 10:00",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html"
+    },
+    {
+      "headline": "Fed's vice chair warns inflation remains high, but Fed needs time to assess rates",
+      "score": 7,
+      "source": "Yahoo Entertainment",
+      "sentiment": "neutral",
+      "impact": "Federal Reserve vice chairman Philip Jefferson acknowledged that inflation has remained too high for too long, but said the central bank should watch and ass...",
+      "category": "us_monetary_policy",
+      "date": "2026-10-01 19:33",
+      "link": "https://finance.yahoo.com/economy/policy/article/feds-vice-chair-warns-inflation-remains-high-but-fed-needs-time-to-assess-rates-181738105.html"
+    },
+    {
+      "headline": "Trump could target three Fed governors. Removing them may be harder than it looks",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Trump could seek to remove Jerome Powell, Lisa Cook and Michael Barr from the Federal Reserve, but court rulings and lengthy litigation could limit him.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-01 18:46",
+      "link": "https://www.cnbc.com/2026/10/01/trump-fed-powell-lisa-cook-michael-barr-removal.html"
+    },
+    {
+      "headline": "QCR (NASDAQ:QCRH) Upgraded to Moderate Buy at Raymond James Financial",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "QCR Holdings (NASDAQ:QCRH) has been upgraded to a \"moderate buy\" rating by Raymond James Financial, contributing to a largely positive analyst consensus. The company, which recently reported Q2 EPS of $2.19, exceeding estimates, saw its shares open 1.7% higher at $100.95. Institutional investors hol",
+      "category": "us_equities",
+      "date": "2026-10-03 10:06",
+      "link": "https://www.marketbeat.com/instant-alerts/analyst-qcr-nasdaq-qcrh-upgraded-to-moderate-buy-at-raymond-james-financial-2026-10-03/"
+    },
+    {
+      "headline": "First Business Financial Services (NASDAQ:FBIZ) Stock Rating Raised to Moderate Buy at Raymond James Financial",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Raymond James Financial has upgraded First Business Financial Services (NASDAQ:FBIZ) to a \"moderate buy\" rating. This upgrade aligns with a consensus \"Buy\" rating from other analysts, with the stock opening at $70.93, close to its 52-week high. The company recently surpassed earnings and revenue est",
+      "category": "us_equities",
+      "date": "2026-10-03 10:06",
+      "link": "https://www.marketbeat.com/instant-alerts/analyst-first-business-financial-services-nasdaq-fbiz-stock-rating-raised-to-moderate-buy-at-raymond-james-financial-2026-10-03/"
+    },
+    {
+      "headline": "U.S. Bancorp sets earnings date as U.S. Bancorp stock costs EUR 51.10 versus EUR 51.08",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "neutral",
+      "impact": "U.S. Bancorp (NYSE: USB) has scheduled its third-quarter 2026 earnings release for October 15, 2026, before market open. The company's stock was trading at EUR 51.10 in weekend trading, a slight increase from its previous close. U.S. Bancorp also declared a quarterly dividend of USD 0.54 per common ",
+      "category": "corporate_earnings",
+      "date": "2026-10-03 09:14",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/u-s-bancorp-sets-earnings-date-as-u-s-bancorp-stock-costs-eur-51-10/70220035"
+    },
+    {
+      "headline": "Photos of the week - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Photos of the week\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-03 00:05",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBST1Vlam5INGJkYkZwRklEdXp4bXlJOFpsRUxtR2M2UUt3Snd2dl9Cd3g1MUJQM0dvWWJUM3h5cjBxRkZRWjFoYUZuU1BfZEpzNGVHTTg3a3JzMVZtUnpjSHNwMjNjX2M?oc=5"
+    },
+    {
+      "headline": "G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "G7 countries agree on release of diesel and oil stocks after US pressure\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-10-02 22:20",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5"
+    },
+    {
+      "headline": "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Is it time to dust off the financial playbook from that dismal decade?",
+      "category": "global_markets",
+      "date": "2026-10-02 21:54",
+      "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories"
     }
   ]
 }
