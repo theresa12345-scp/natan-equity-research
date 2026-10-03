@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-03T10:49:18.092145",
+  "timestamp": "2026-10-03T17:50:03.570531",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 12,
-    "neutral": 10,
+    "avg_relevance": 7.2,
+    "bullish": 8,
+    "neutral": 14,
     "bearish": 3,
-    "high_priority": 9,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -16,12 +16,13 @@
     "Federal Reserve": 1,
     "Reuters": 6,
     "Bloomberg": 2,
-    "CNBC": 6,
     "Caixin/S&P Global": 1,
-    "Yahoo Entertainment": 2,
-    "MarketBeat": 2,
-    "AD HOC NEWS": 1,
-    "MarketWatch": 1
+    "Yahoo Finance UK": 1,
+    "CNBC": 6,
+    "24/7 Wall St.": 1,
+    "Moomoo": 1,
+    "MarketWatch": 1,
+    "TradingView": 2
   },
   "top_signals": [
     {
@@ -31,7 +32,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +42,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +52,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +62,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +72,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +82,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +92,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,18 +102,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Treasury yields inch higher as investors await key jobs report",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "U.S. Treasury yields inched higher on Friday as investors weighed a trading week dominated by a global bond selloff and awaited a key jobs report.",
-      "category": "fixed_income",
-      "date": "2026-10-02 07:47",
-      "link": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -121,7 +112,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -131,8 +122,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-03 10:49",
+      "date": "2026-10-03 17:50",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Bond Volatility Could Determine How S&P 500 Breadth Gap Closes, Morgan Stanley Says",
+      "score": 7,
+      "source": "Yahoo Finance UK",
+      "sentiment": "neutral",
+      "impact": "Morgan Stanley anticipates that the divergence between the S&P 500 and broader market participation will narrow in the coming month, with bond market volatility being a key factor. Strategist Michael Wilson suggests that if bond market volatility remains high, market breadth and index levels will co",
+      "category": "us_equities",
+      "date": "2026-10-03 14:42",
+      "link": "https://uk.finance.yahoo.com/news/bond-volatility-could-determine-p-144334476.html"
     },
     {
       "headline": "Friday's rally in the S&P 500 might not be enough, but Linde is out of this world",
@@ -165,114 +166,114 @@
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkdRRkxGNHBqcFM5b0RNbjRMU2NXeXFWUXdselk3QVNzVkNqSWw1aWdJTjQyc0VWeFNqSjB3dGtjaWdpdHZuYzVxaVdKQmM4X0lMRC10UnlzRWFndmFWUVlrU2l4NG5nR2QyNnJ0Z3AwNE91QXlVV2IzNG5RcENFVTViWEw4ek5xank2YU80OGVGRWV5RGVOcXVwZi1xSXhzaElHMWxndFFqQXQ0Q01YeHFoSllfeTJ1TWJv?oc=5"
     },
     {
-      "headline": "The secret signs the bond sell-off might be ending",
+      "headline": "Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "A big options bet involving the utility sector could indicate a top in yields.",
-      "category": "fixed_income",
-      "date": "2026-10-02 10:37",
-      "link": "https://www.cnbc.com/2026/10/02/the-secret-signs-the-bond-sell-off-might-be-ending.html"
+      "sentiment": "neutral",
+      "impact": "The IRS and Treasury issued a warning this week on an ETF strategy wealthy investors have been using to shield capital gains income from taxes.",
+      "category": "us_equities",
+      "date": "2026-10-02 13:45",
+      "link": "https://www.cnbc.com/2026/10/02/treasury-irs-capital-gains-income-tax-section-351-warning.html"
     },
     {
-      "headline": "Nike shares plummet 10% after weak revenue outlook and layoff plans underway",
+      "headline": "Dow jumps 400 points after weak jobs data sends yields tumbling: Live updates",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Nike's shares plummeted in premarket trading, continuing a second straight day of declines after it reported falling revenue and plans to lay off staff.",
+      "sentiment": "neutral",
+      "impact": "The Dow was headed for a losing week.",
+      "category": "us_equities",
+      "date": "2026-10-02 13:03",
+      "link": "https://www.cnbc.com/2026/10/01/stock-market-today-live-updates-.html"
+    },
+    {
+      "headline": "Rivian tops Q3 delivery expectations, reconfirms 2026 guidance",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Rivian reported a year-over-year increase in vehicle deliveries of 46% during the third quarter.",
       "category": "corporate_earnings",
-      "date": "2026-10-02 10:00",
-      "link": "https://www.cnbc.com/2026/10/02/nike-nke-stock-q1-earnings-layoffs.html"
+      "date": "2026-10-02 12:30",
+      "link": "https://www.cnbc.com/2026/10/02/q3-vehicle-deliveries.html"
     },
     {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures rise ahead of key jobs report as oil steadies",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "The Labor Department's September jobs report, oil prices, and bond yields were the key things to watch on Friday in markets.",
+      "headline": "Fortinet Turned $1,000 Into $24,579 in a Decade While the S&P 500 Delivered $3,585",
+      "score": 6,
+      "source": "24/7 Wall St.",
+      "sentiment": "neutral",
+      "impact": "Fortinet (FTNT) saw a $1,000 investment grow to $24,579 in a decade, significantly outperforming the S&P 500's return of $3,585 over the same period, attributed to its strategy of building custom chips and maintaining founder leadership. The company's success is driven by its FortiGate firewall, exp",
       "category": "us_equities",
-      "date": "2026-10-02 10:00",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html"
+      "date": "2026-10-03 15:46",
+      "link": "https://247wallst.com/investing/2026/10/03/fortinet-turned-1000-into-24579-in-a-decade-while-the-sp-500-delivered-3585/?tpid=1673356&tv=link&tc=in_content"
     },
     {
-      "headline": "Fed's vice chair warns inflation remains high, but Fed needs time to assess rates",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "neutral",
-      "impact": "Federal Reserve vice chairman Philip Jefferson acknowledged that inflation has remained too high for too long, but said the central bank should watch and ass...",
-      "category": "us_monetary_policy",
-      "date": "2026-10-01 19:33",
-      "link": "https://finance.yahoo.com/economy/policy/article/feds-vice-chair-warns-inflation-remains-high-but-fed-needs-time-to-assess-rates-181738105.html"
-    },
-    {
-      "headline": "Trump could target three Fed governors. Removing them may be harder than it looks",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Trump could seek to remove Jerome Powell, Lisa Cook and Michael Barr from the Federal Reserve, but court rulings and lengthy litigation could limit him.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-01 18:46",
-      "link": "https://www.cnbc.com/2026/10/01/trump-fed-powell-lisa-cook-michael-barr-removal.html"
-    },
-    {
-      "headline": "QCR (NASDAQ:QCRH) Upgraded to Moderate Buy at Raymond James Financial",
+      "headline": "Dow Jones Top Company Headlines at 7 PM ET: Tesla Sales Slump in Third Quarter | FAA ...",
       "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "QCR Holdings (NASDAQ:QCRH) has been upgraded to a \"moderate buy\" rating by Raymond James Financial, contributing to a largely positive analyst consensus. The company, which recently reported Q2 EPS of $2.19, exceeding estimates, saw its shares open 1.7% higher at $100.95. Institutional investors hol",
+      "source": "Moomoo",
+      "sentiment": "negative",
+      "impact": "This article provides the top company headlines from Dow Jones at 7 PM ET, focusing on a significant slump in Tesla sales during the third quarter. It also mentions news related to the FAA, indicating other major corporate and regulatory developments.",
       "category": "us_equities",
-      "date": "2026-10-03 10:06",
-      "link": "https://www.marketbeat.com/instant-alerts/analyst-qcr-nasdaq-qcrh-upgraded-to-moderate-buy-at-raymond-james-financial-2026-10-03/"
+      "date": "2026-10-03 15:12",
+      "link": "https://www.moomoo.com/news/post/1000571621/dow-jones-top-company-headlines-at-7-pm-et-tesla"
     },
     {
-      "headline": "First Business Financial Services (NASDAQ:FBIZ) Stock Rating Raised to Moderate Buy at Raymond James Financial",
-      "score": 6,
-      "source": "MarketBeat",
-      "sentiment": "positive",
-      "impact": "Raymond James Financial has upgraded First Business Financial Services (NASDAQ:FBIZ) to a \"moderate buy\" rating. This upgrade aligns with a consensus \"Buy\" rating from other analysts, with the stock opening at $70.93, close to its 52-week high. The company recently surpassed earnings and revenue est",
-      "category": "us_equities",
-      "date": "2026-10-03 10:06",
-      "link": "https://www.marketbeat.com/instant-alerts/analyst-first-business-financial-services-nasdaq-fbiz-stock-rating-raised-to-moderate-buy-at-raymond-james-financial-2026-10-03/"
-    },
-    {
-      "headline": "U.S. Bancorp sets earnings date as U.S. Bancorp stock costs EUR 51.10 versus EUR 51.08",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "neutral",
-      "impact": "U.S. Bancorp (NYSE: USB) has scheduled its third-quarter 2026 earnings release for October 15, 2026, before market open. The company's stock was trading at EUR 51.10 in weekend trading, a slight increase from its previous close. U.S. Bancorp also declared a quarterly dividend of USD 0.54 per common ",
-      "category": "corporate_earnings",
-      "date": "2026-10-03 09:14",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/u-s-bancorp-sets-earnings-date-as-u-s-bancorp-stock-costs-eur-51-10/70220035"
-    },
-    {
-      "headline": "Photos of the week - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Photos of the week\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-03 00:05",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBST1Vlam5INGJkYkZwRklEdXp4bXlJOFpsRUxtR2M2UUt3Snd2dl9Cd3g1MUJQM0dvWWJUM3h5cjBxRkZRWjFoYUZuU1BfZEpzNGVHTTg3a3JzMVZtUnpjSHNwMjNjX2M?oc=5"
-    },
-    {
-      "headline": "G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "G7 countries agree on release of diesel and oil stocks after US pressure\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-02 22:20",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5"
-    },
-    {
-      "headline": "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
+      "headline": "The Treasury Department started Trump accounts for 60 million kids \u2014 but families still have to take this step if they want one",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Is it time to dust off the financial playbook from that dismal decade?",
+      "impact": "Here\u2019s what parents seeking the $1,000 seed money for their child need to know.",
+      "category": "fixed_income",
+      "date": "2026-10-03 15:06",
+      "link": "https://www.marketwatch.com/story/the-treasury-department-started-trump-accounts-for-60-million-kids-but-families-still-have-to-take-this-step-if-they-want-one-003d9282?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "KIM5012364 Bond Profile: Coupon and Redemption",
+      "score": 6,
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "This article provides a detailed profile of the KIM5012364 bond issued by Kimco Realty Corporation. It outlines key facts such as the issuer, issue and maturity dates, face value, and minimum denomination. The profile also details the bond's interest payment structure, including a fixed coupon rate ",
+      "category": "fixed_income",
+      "date": "2026-10-03 14:21",
+      "link": "https://www.tradingview.com/symbols/FINRA-KIM5012364/profile/"
+    },
+    {
+      "headline": "ATO4890350 Bond Profile: Coupon and Redemption",
+      "score": 6,
+      "source": "TradingView",
+      "sentiment": "neutral",
+      "impact": "This article provides a detailed profile of the Atmos Energy Corporation bond ATO4890350, highlighting its key characteristics such as a 3.375% coupon rate and a maturity date of September 15, 2049. It covers essential information including issuer details, credit risk assessment, interest payment sc",
+      "category": "fixed_income",
+      "date": "2026-10-03 14:12",
+      "link": "https://www.tradingview.com/symbols/FINRA-ATO4890350/profile/"
+    },
+    {
+      "headline": "Gen Alpha kids are earning money. Here's how parents can help them save and invest",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Gen Alpha kids are earning and spending their own money. Parents can use savings, investing and education tools to build healthy habits.",
+      "category": "asia_economy",
+      "date": "2026-10-03 14:00",
+      "link": "https://www.cnbc.com/2026/10/03/investing-for-kids-accounts.html"
+    },
+    {
+      "headline": "Portugal prosecutors probe legality of US use of Lajes base in Iran war - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Portugal prosecutors probe legality of US use of Lajes base in Iran war\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-02 21:54",
-      "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories"
+      "date": "2026-10-03 13:55",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPalVaWllxS1FsVThCWHF3bXZTLXVRNWNhMTdNaERvemRJSWRtZU1iRHNTN19WSGt5THpaRjZpZkE5OGtMYkZPY3JOSG95ZlF3TU10M05VYkdCMHJ0bW93dlk5THJmYm9pM2daU1VteXJKWnp1bm5GSDBobkZyUDBzNDNkaExRSElQSG9zR3hfNFFtazQ4Y2ZtWk92a1NXZXRRbUd1Y0ZQOA?oc=5"
+    },
+    {
+      "headline": "Fire, smoke seen near Aramco facility in Riyadh, witness says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Fire, smoke seen near Aramco facility in Riyadh, witness says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-03 13:38",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5"
     }
   ]
 }
