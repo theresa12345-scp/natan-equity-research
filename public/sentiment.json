@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-04T18:02:09.805384",
+  "timestamp": "2026-10-05T13:02:46.978054",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
+    "avg_relevance": 7.2,
     "bullish": 13,
-    "neutral": 10,
-    "bearish": 2,
+    "neutral": 11,
+    "bearish": 1,
     "high_priority": 8,
     "material_events": 4
   },
@@ -15,11 +15,13 @@
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
     "Reuters": 4,
-    "Bloomberg": 2,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "CNBC": 8,
-    "AD HOC NEWS": 3,
-    "MarketWatch": 3
+    "CNBC": 7,
+    "MarketWatch": 3,
+    "Fox Business": 1,
+    "AD HOC NEWS": 1,
+    "MarketBeat": 1
   },
   "top_signals": [
     {
@@ -29,7 +31,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +41,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +51,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +61,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +71,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +81,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +91,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +101,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -109,7 +111,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,8 +121,58 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-04 18:02",
+      "date": "2026-10-05 13:02",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Why airfares could rise even more, but airline profits won't",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Airlines are trimming capacity as jet fuel prices keep climbing and travelers keep booking.",
+      "category": "corporate_earnings",
+      "date": "2026-10-05 12:06",
+      "link": "https://www.cnbc.com/2026/10/05/airfare-prices-airline-profits.html"
+    },
+    {
+      "headline": "Why airfare could rise even more, but airline profits won't",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Airlines are trimming capacity as jet fuel prices keep climbing and travelers keep booking.",
+      "category": "corporate_earnings",
+      "date": "2026-10-05 11:00",
+      "link": "https://www.cnbc.com/2026/10/05/airfare-prices-airline-profits.html"
+    },
+    {
+      "headline": "What Bessent is now saying after bond yields didn\u2019t stop rising on \u2018I am the house\u2019 remark",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "In a televised interview with Axios, Treasury Secretary Bessent defended his department\u2019s record in the bond market and walked back his \u201cI am the house\u201d declaration from a month ago.",
+      "category": "fixed_income",
+      "date": "2026-10-05 10:39",
+      "link": "https://www.marketwatch.com/story/what-bessent-is-now-saying-after-bond-yields-didnt-stop-rising-on-i-am-the-house-remark-0ab359f8?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Bessent Downplays Worries on Rising Yields, AI Bubble Concerns",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Treasury Secretary Scott Bessent said the recent rise in US Treasury yields was in line with global trends and didn\u2019t warrant consternation, even as worries about persisting price pressures pushed some benchmark rates to their highest in more than two decades.",
+      "category": "us_equities",
+      "date": "2026-10-03 14:59",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-03/bessent-downplays-worries-on-rising-yields-ai-bubble-concerns"
+    },
+    {
+      "headline": "Bond yields are hovering near multi-year highs: What it means for your wallet",
+      "score": 7,
+      "source": "Fox Business",
+      "sentiment": "neutral",
+      "impact": "The 10-year Treasury yield hit its highest level since 2002, raising borrowing costs on mortgages, auto loans, credit cards and student loans.",
+      "category": "fixed_income",
+      "date": "2026-10-03 11:00",
+      "link": "https://www.foxbusiness.com/economy/bond-yields-hovering-near-multi-year-highs-what-means-your-wallet"
     },
     {
       "headline": "Friday's rally in the S&P 500 might not be enough, but Linde is out of this world",
@@ -153,6 +205,66 @@
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkdRRkxGNHBqcFM5b0RNbjRMU2NXeXFWUXdselk3QVNzVkNqSWw1aWdJTjQyc0VWeFNqSjB3dGtjaWdpdHZuYzVxaVdKQmM4X0lMRC10UnlzRWFndmFWUVlrU2l4NG5nR2QyNnJ0Z3AwNE91QXlVV2IzNG5RcENFVTViWEw4ek5xank2YU80OGVGRWV5RGVOcXVwZi1xSXhzaElHMWxndFFqQXQ0Q01YeHFoSllfeTJ1TWJv?oc=5"
     },
     {
+      "headline": "GM says hybrid vehicles are coming: 'We're not tone deaf to our customers'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Hybrids are growing in popularity, as sales of the vehicles keep climbing.",
+      "category": "global_markets",
+      "date": "2026-10-05 12:30",
+      "link": "https://www.cnbc.com/2026/10/05/gm-hybrid-vehicles.html"
+    },
+    {
+      "headline": "McKesson sets earnings range as Barclays targets McKesson stock at USD 1,000.00",
+      "score": 6,
+      "source": "AD HOC NEWS",
+      "sentiment": "positive",
+      "impact": "McKesson announced its fiscal 2027 earnings range, setting adjusted earnings per share guidance at USD 44.20-45.00, which aligns closely with the consensus estimate. Barclays has raised its target for McKesson stock to USD 1,000.00, following strong first-quarter revenue growth of 7.70% to USD 105.3",
+      "category": "corporate_earnings",
+      "date": "2026-10-05 12:16",
+      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/mckesson-sets-earnings-range-as-barclays-targets-mckesson-stock-at-usd/70233093"
+    },
+    {
+      "headline": "NXP Semiconductors (NASDAQ:NXPI) Given New $265.00 Price Target at Stifel Nicolaus",
+      "score": 6,
+      "source": "MarketBeat",
+      "sentiment": "positive",
+      "impact": "Stifel Nicolaus has lowered its price target for NXP Semiconductors (NASDAQ:NXPI) to $265.00 from $282.00, while maintaining a \"hold\" rating. Despite this, the consensus among analysts remains a \"Moderate Buy\" with an average target of $304.91, and the company recently exceeded Q2 earnings and reven",
+      "category": "us_equities",
+      "date": "2026-10-05 12:11",
+      "link": "https://www.marketbeat.com/instant-alerts/analyst-nxp-semiconductors-nasdaq-nxpi-given-new-26500-price-target-at-stifel-nicolaus-2026-10-05/"
+    },
+    {
+      "headline": "An AI \u2018reality check\u2019 may take the S&P 500 to 5,000. Here are the trades to make, this strategist says.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Keep an eye on artificial-intelligence spending in the upcoming earnings season, Panmure Liberum\u2019s Joachim Klement said.",
+      "category": "us_equities",
+      "date": "2026-10-05 11:19",
+      "link": "https://www.marketwatch.com/story/an-ai-reality-check-may-take-the-s-p-500-to-5-000-heres-the-trades-to-make-this-strategist-says-263cf0e9?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "The bond selloff is opening up rare opportunities for investors. Here is where to look, says one major bank.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The chief investment office at Standard Chartered said bond and money markets have been overly hawkish on the Federal Reserve.",
+      "category": "fixed_income",
+      "date": "2026-10-05 10:33",
+      "link": "https://www.marketwatch.com/story/bond-selloff-is-opening-up-rare-opportunities-for-investors-here-is-where-to-look-says-major-bank-463447c7?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "It's time for us to put cash to work in this ugly market. Here's where we will do our buying",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "In his Sunday column, Jim Cramer explains why investors need to hold their nose and do some buying.",
+      "category": "global_markets",
+      "date": "2026-10-04 20:32",
+      "link": "https://www.cnbc.com/investingclub/2026/10/04/its-time-for-us-to-put-cash-to-work-in-this-ugly-market-heres-where-we-will-do-our-buying.html"
+    },
+    {
       "headline": "Supreme Court Justice Alito said he's 'thought about' retirement as Senate control hangs in balance",
       "score": 6,
       "source": "CNBC",
@@ -161,116 +273,6 @@
       "category": "global_markets",
       "date": "2026-10-04 17:53",
       "link": "https://www.cnbc.com/2026/10/04/supreme-court-justice-alito-thought-about-retiring.html"
-    },
-    {
-      "headline": "W.W. Grainger stock holds at USD 1,280.30 after earnings beat",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "W.W. Grainger (GWW) stock is holding steady at USD 1,280.30 after the company reported better-than-expected Q2 2026 earnings, with diluted EPS of USD 12.01 surpassing the USD 11.30 consensus. Revenue also beat estimates, rising 10.3% to USD 5.02 billion. Despite the strong performance, analyst senti",
-      "category": "corporate_earnings",
-      "date": "2026-10-04 17:09",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/w-w-grainger-stock-holds-at-usd-1-280-30-after-earnings-beat/70227379"
-    },
-    {
-      "headline": "Procter & Gamble stock heads into October earnings",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "positive",
-      "impact": "Procter & Gamble (P&G) is heading into its first-quarter fiscal 2027 earnings discussion on October 22nd. The company reported net sales of USD 87.032 billion for fiscal year 2026, a 3.3% increase, and diluted EPS of USD 6.62. Analysts have a \"Moderate Buy\" consensus rating with an average 12-month ",
-      "category": "corporate_earnings",
-      "date": "2026-10-04 16:46",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/procter-and-gamble-stock-heads-into-october-earnings/70227205"
-    },
-    {
-      "headline": "Adobe stock fell 1.49 percent on October 2 despite raised guidance",
-      "score": 6,
-      "source": "AD HOC NEWS",
-      "sentiment": "negative",
-      "impact": "Adobe stock fell 1.49 percent on October 2, 2026, despite the company raising its full-year guidance after strong fiscal Q3 results. The company reported revenue and adjusted EPS that beat analyst consensus, driven by growth in annual recurring revenue and an expanding AI-first business. Leadership ",
-      "category": "corporate_earnings",
-      "date": "2026-10-04 16:43",
-      "link": "https://www.ad-hoc-news.de/boerse/news/corporate-news/adobe-stock-fell-1-49-percent-on-october-2-despite-raised-guidance/70226462"
-    },
-    {
-      "headline": "Here are 3 things we're watching in the stock market in the week ahead",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The oil and bond markets will remain a critical driver of stocks.",
-      "category": "global_markets",
-      "date": "2026-10-04 15:33",
-      "link": "https://www.cnbc.com/investingclub/2026/10/04/here-are-3-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
-    },
-    {
-      "headline": "This NYC startup requires 4 days in office but just let everyone work remote for a whole month",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "SolComms, a New York City-based PR firm, says letting employees work from anywhere in the world boosted revenue, productivity and happiness.",
-      "category": "global_markets",
-      "date": "2026-10-04 14:00",
-      "link": "https://www.cnbc.com/2026/10/04/work-from-anywhere-month.html"
-    },
-    {
-      "headline": "Corporate America has never been this upbeat about future profits",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "As third-quarter earnings kick off this week, more companies than ever have expressed optimism about their bottom lines.",
-      "category": "corporate_earnings",
-      "date": "2026-10-04 14:00",
-      "link": "https://www.marketwatch.com/story/corporate-america-has-never-been-this-upbeat-about-future-profits-fbaf8cd9?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Starting a watch collection? What beginners should know before buying",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Watch experts explain how beginners can start a collection, what tends to hold value, when to buy used and how to avoid costly mistakes.",
-      "category": "global_markets",
-      "date": "2026-10-04 13:44",
-      "link": "https://www.cnbc.com/2026/10/04/watch-collecting-beginners.html"
-    },
-    {
-      "headline": "Chick-fil-A wants to stay a family business even as it expands in the U.S. and abroad",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Chick-fil-A has been expanding into new international markets and growing its menu under CEO Andrew Cathy.",
-      "category": "global_markets",
-      "date": "2026-10-04 12:08",
-      "link": "https://www.cnbc.com/2026/10/04/chick-fil-a-ceo-andrew-cathy-family-ownership-growth.html"
-    },
-    {
-      "headline": "Fed minutes coming this week could give markets important clues about future rate hikes",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Minutes from the September meeting may provide extra context, as the real fed-funds rate is now surprisingly low.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-04 12:00",
-      "link": "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Why brands like E.l.f., Wendy's and Gap are branching out into original music",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "E.l.f. Beauty released an album titled \"Mirror Mix\" as the brand plans to increase its marketing spend for the rest of the year.",
-      "category": "global_markets",
-      "date": "2026-10-04 12:00",
-      "link": "https://www.cnbc.com/2026/10/04/elf-wendys-gap-music-marketing.html"
-    },
-    {
-      "headline": "Falling wages, soaring energy prices and inflation: It\u2019s beginning to look a lot like the 1970s",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Is it time to dust off the financial playbook from that dismal decade?",
-      "category": "global_markets",
-      "date": "2026-10-03 23:58",
-      "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories"
     }
   ]
 }
