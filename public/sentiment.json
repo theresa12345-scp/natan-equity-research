@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-07T12:19:03.054005",
+  "timestamp": "2026-10-07T19:47:45.052066",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.1,
-    "bullish": 11,
-    "neutral": 12,
-    "bearish": 2,
+    "bullish": 12,
+    "neutral": 10,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,11 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 9,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 7,
-    "MarketWatch": 1
+    "CNBC": 5,
+    "MarketWatch": 2,
+    "The Wall Street Journal": 1,
+    "Fox News": 1
   },
   "top_signals": [
     {
@@ -28,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,7 +100,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -108,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,8 +120,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-07 12:19",
+      "date": "2026-10-07 19:47",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Strange market anomaly is creating a buying opportunity in the Nasdaq 100",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "So instead of buying QQQ outright and exposing your portfolio to severe downside risk, buying calls at current option prices is a smarter, capital-efficient way to stay long.",
+      "category": "us_equities",
+      "date": "2026-10-07 18:44",
+      "link": "https://www.cnbc.com/2026/10/07/strange-market-anomaly-is-creating-a-buying-opportunity-in-the-nasdaq-100.html"
+    },
+    {
+      "headline": "Should I put my nest egg in a 30-year Treasury bond?",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Risk comes in many forms, even with \u201csafe\u201d investments.",
+      "category": "fixed_income",
+      "date": "2026-10-07 14:34",
+      "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories"
     },
     {
       "headline": "Gold slips as dollar gains; investors await Fed minutes for rate clues - Reuters",
@@ -132,44 +154,24 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMU10STF5SHNISk9FdXk3NTA2YjZhbnhWRTJlYlpBRGVhanFxWVQxVzhVek11UEp1OUJOU1Y1WjNQTDlBWmg3aEhvVWkzMUpXd3dBbm5Qa3pEcFdEeERZUDNwUHdFYVp0YmZPQVd3dDIwalp0LU1YWi1WTFZNVm5FTWxrSkR0dTJnNk9aM1BBc29MWXk5S3lOLXIxVW1Fd0xvbmhxNEpn?oc=5"
     },
     {
-      "headline": "'I'm getting fed up': early US midterm voters line up before dawn in Ohio - Reuters",
+      "headline": "Stock Market Today: S&P 500 Hits New Record High",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "'I'm getting fed up': early US midterm voters line up before dawn in Ohio\u00a0\u00a0Reuters",
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-10-06 18:00",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-06-2026"
+    },
+    {
+      "headline": "Millions saved by blocking dead people payouts as Trump Treasury drops hammer on federal fraud",
+      "score": 7,
+      "source": "Fox News",
+      "sentiment": "negative",
+      "impact": "Treasury's \"Do Not Pay\" program screened over 1.1 billion payments worth $3.7 trillion, catching 13,500 improper payments to deceased people.",
       "category": "us_monetary_policy",
-      "date": "2026-10-06 18:52",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR3NBVWtIOEhDaDlKenA1S0x2NUh3dDFfa1c5REw3OThWbjVzQnpwWVhQd09nYnBJU2dwMFJfZWxhcU1nb1JTR1JETm85R1lRV0RVZEViRmR0UGZJdmpSQUdNLXZhTWRleFRaMndmX283c29UY3FvZE9KSVBsRVM0ZW5rMXZYam9FeklWUTZoU3FKQ2pDcFBzc21LVFF6QndO?oc=5"
-    },
-    {
-      "headline": "What Marvell's rosy long-term guidance means for our AI chip stocks",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "corporate_earnings",
-      "date": "2026-10-06 18:51",
-      "link": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html"
-    },
-    {
-      "headline": "How the S&P 500 can be at record highs, while the market remains oversold",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The S&P 500's new all-time high Tuesday might just be one of the most hated records in recent memory.",
-      "category": "us_equities",
-      "date": "2026-10-06 17:41",
-      "link": "https://www.cnbc.com/investingclub/2026/10/06/how-the-sp-500-can-be-at-record-highs-while-the-market-remains-oversold.html"
-    },
-    {
-      "headline": "Stock futures edge higher after Nasdaq hits new record: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The Nasdaq Composite jumped to a a fresh intraday all-time high and a record close on Monday.",
-      "category": "us_equities",
-      "date": "2026-10-06 06:05",
-      "link": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html"
+      "date": "2026-10-06 13:00",
+      "link": "https://www.foxnews.com/politics/millions-saved-blocking-dead-people-payouts-trump-treasury-drops-hammer-federal-fraud"
     },
     {
       "headline": "Why airfares could rise even more, but airline profits won't",
@@ -182,54 +184,74 @@
       "link": "https://www.cnbc.com/2026/10/05/airfare-prices-airline-profits.html"
     },
     {
-      "headline": "ICE came to town and left behind weakened economies",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Research links ICE enforcement surges to lasting declines in local spending, foot traffic and jobs. In Minneapolis, businesses are still recovering.",
-      "category": "global_markets",
-      "date": "2026-10-07 11:56",
-      "link": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html"
-    },
-    {
-      "headline": "SpaceX reportedly is looking to borrow as much money as the company generates in revenue to buy Nvidia chips",
+      "headline": "Fed\u2019s minutes show no appetite for a series of interest-rate hikes",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Elon Musk\u2019s SpaceX is in talks with banks and investors to borrow $40 billion to fund a purchase of Nvidia chips, according to a Financial Times report.",
-      "category": "corporate_earnings",
-      "date": "2026-10-07 11:11",
-      "link": "https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82?mod=mw_rss_topstories"
+      "impact": "September\u2019s rate hike was viewed by many officials as needed just in case inflation remains sticky.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-07 19:35",
+      "link": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories"
     },
     {
-      "headline": "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
+      "headline": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Iran has failed to take advantage of \"multiple opportunities\" to reach a deal on its nuclear program, Secretary of State Marco Rubio said Wednesday.",
+      "sentiment": "positive",
+      "impact": "Constellation Brands beat earnings and revenue expectations as beer brands gained share, while inventory rebuilding and consumer caution clouded demand.",
       "category": "global_markets",
-      "date": "2026-10-07 09:43",
-      "link": "https://www.cnbc.com/2026/10/07/us-iran-war-trump-hormuz.html"
+      "date": "2026-10-07 19:14",
+      "link": "https://www.cnbc.com/2026/10/07/constellation-brands-earnings-beer-demand.html"
     },
     {
-      "headline": "Google ordered to halt work on two data centers in \u2018Texas of Europe\u2019",
+      "headline": "New data strengthens our faith in a TJX comeback. Plus, the Nvidia-Microsoft PC is here",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Finland has emerged as a key location for data centers amid the AI boom.",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "category": "global_markets",
-      "date": "2026-10-07 09:26",
-      "link": "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html"
+      "date": "2026-10-07 19:07",
+      "link": "https://www.cnbc.com/investingclub/2026/10/07/new-data-strengthens-our-faith-in-a-tjx-comeback-plus-the-nvidia-microsoft-pc-is-here.html"
     },
     {
-      "headline": "Iraq devalues dinar to 1,520 per US dollar, state news agency says - Reuters",
+      "headline": "Syria weighs military aid for Saudi Arabia amid Yemen war, sources say - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iraq devalues dinar to 1,520 per US dollar, state news agency says\u00a0\u00a0Reuters",
+      "impact": "Syria weighs military aid for Saudi Arabia amid Yemen war, sources say\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-07 08:28",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMEpwOEJxamRUYWRiRS1XT1lsUDlTcWx6WnhhblZWODZ1b1NpN1ZRTWJXMjZjbVR1SnplZEMwYmYyNXpQOGRnanRaenFiNUVBdVY2bmZxUURyb1RUdktXUGpLaVdGUThRLUY1Z1BEMXItUEZoVUlWbE04Vy11ZjlpajJsZ3l2QVd3N2NIREJwZWFFZ0RJbThweG8zZjJGeDdtbThuUEJacHVFRnh3QWFNd3hrLXA4QQ?oc=5"
+      "date": "2026-10-07 18:21",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLWZMNEFpTGtIVEhwLWJHUXdGdGliYUtUazZhMk1yd3RDLW9yZllOblA2U1BvLVZaN2pvejZpaWwwenF5MzhObG93NC1BYzJhVGdIelROY2VXSTF6RTJ3MDROSzVYMUVoUm9UMHdCcTZEbVBxODRVVEYxRGIxZWljUHdiSVJDcUxubndSdFM3RFdNYmZOWDdBZk1tdXgzVzRFTGZmWlZPeDZVOGtZUXNwaEFEVTZnMzMxclRZ?oc=5"
+    },
+    {
+      "headline": "EXCLUSIVE: Saudi Arabia launches air safety probe into flydubai incident, sources say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "EXCLUSIVE: Saudi Arabia launches air safety probe into flydubai incident, sources say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-07 18:12",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYjBULXpYUldRcnZ0TUJ2bXJSUFlkNkdQSHdoT3YtX1RUVWZNb2NYdlI0OF9seXUwMU5CbFRtTnkxeXRuRUNaV01yQlBHZE5HS2pGZDJPMlVxalpacXpxOUVjZDhpc3hYTURMUDBBV0tEMFdNX0I3RS1naEVsOHVjTTB2S0cwM1owQklJVVlrblFGeXpVelE4SmotNGFxYmZyMFpuNXhSaHNFOVl3MGFrckpvb3RDakFOMnh1SnlSaTZYZnRYWUE?oc=5"
+    },
+    {
+      "headline": "EXCLUSIVE: Lebanon's Hezbollah gets $200 million from Iran to help displaced, sources say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "EXCLUSIVE: Lebanon's Hezbollah gets $200 million from Iran to help displaced, sources say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-07 18:11",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZDFQZzNVZkV5bHhCZ2FaemZmZDdyMTZtWndQR2tTakxOaW9SWTI2clhnZWpKcDZaVU9RS2p0TUJ0UGoxWWxUQm1JZ3pWYzZJN1pKSkROLTFzc2pqdE9TUEd6b1pQM2dlVE16VEZJbVlOOWFxUUhud3c5UXZ1N3NMMldSRkwxNS1hbnN2ZkxHX1hMaTAzSHMxODdFa2xhU1dTcVpmQ282d2xOUEZRbGpTejZmRFFCVzBsMTh6bnh3?oc=5"
+    },
+    {
+      "headline": "Another Micron triple? Where we agree with this wildly bullish call and where we don't",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Micron shares are too cheap. But the debate around the sustainability of the cycle isn't ending anytime soon.",
+      "category": "global_markets",
+      "date": "2026-10-07 17:52",
+      "link": "https://www.cnbc.com/investingclub/2026/10/07/another-micron-triple-where-we-agree-with-this-wildly-bullish-call-and-where-we-dont.html"
     },
     {
       "headline": "UK's Headlam to delist after it collapses into administration - Reuters",
@@ -238,38 +260,18 @@
       "sentiment": "neutral",
       "impact": "UK's Headlam to delist after it collapses into administration\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-07 08:00",
+      "date": "2026-10-07 17:52",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbzZHTkllVHhnc3hKbFl4UEY2WnpBeWUyLWxWQWxyWkJrN3JRcC1lYm9hdGRGNFZEUV9SXzVMdUNFOVgzRUlpelk1S3JCMnl6WlhQQnRSeXRUTVRQNVRZcWJENFY4ejhCNU8zd3ZGcjdBdWlLWVEyRFhvdkU3dFEzNEFMaWt2V2FIMjBnaHV4U083U0tWb1BCUG1XaGlRMTYzc0hqTHBycXFXUkRlajQ3NXoxOA?oc=5"
     },
     {
-      "headline": "Shell expects record refining margins as Iran war boosts fuel markets - Reuters",
+      "headline": "IEA to accelerate oil reserve release, says 100 million barrels still to come - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Shell expects record refining margins as Iran war boosts fuel markets\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-07 06:07",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPamVwY1BTVUJKQmdkWDFBXzA2aFBOVlJYUGVqTHB1cXFYY2ZQdFJ4NHVIT25iQXYwaFVSYTkwVWJnc18xVXBNeHNjQXVxU2pPalpGTWVaM1h2MnRlRGlXZnBTOTItUi03OGxMRlROUnRFQnBGZ0RZNnExUm9VMi1vdzdvY3ExaGtuTjBtb0REbVM?oc=5"
-    },
-    {
-      "headline": "India joins global rate-tightening wave with first hike in nearly 4 years - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "India joins global rate-tightening wave with first hike in nearly 4 years\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-07 04:33",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQlZCVTJBN0oxSFUtU3pHLXZBVzVpQVJfMXRkVnRMMWFXeUhrczVkVmRkelVJckVZOGc4QVZkVDBlSDRCVE1XMEJEUXBmWlVGaklQcDRxUTlFNVl0a3h6TlhqWmpVT1gyMmR4VTZtdmRWSTU3SUtPeGZPYndYdjlaVEsxWUdJU2U1RjhaS3Z2YU8xZ3lHbXVsaklld1hCTkRzS0lpTGJzcnJNX01TallDRQ?oc=5"
-    },
-    {
-      "headline": "Morning Bid: Who's the boss? - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Morning Bid: Who's the boss?\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-07 04:32",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pTkNXeGt4a29GamFjUnZ6UnlIdEtFZGFZSHk4UzFUWUZpcHVhNEpQNjI3OWxtZE5FbVJ5c3cteEhmOVVQUWZ6OWNmMXRNSEp4LTdaeGlIWVFESWlpSDcxcDQ1ejdPNnJqMXhLdHE1RmY2ZUhYWTJpWnFyRmhNSVU?oc=5"
+      "impact": "IEA to accelerate oil reserve release, says 100 million barrels still to come\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-10-07 17:04",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSWQwZFJidm90SFN2SzVMQVk2ZTZrVDI0LVhoWDloYnNCU2NuTE1ZUlZFM3dyZTFPaUptLXFZNlA2TTQtZFRFdXRDREdIZUtyWHhQbDQ4TDZOU1JpdjhENmxZLVdpU21ZaC1GcEFGT3MyZE5YX0FoZXJPUTM2TDNrTXpoTjRzUTh5V2VQdFlYTmFVTmtBYWIzR0hleXJ3RnZRNy1YTVRNQkxtSDF2OTZ1OUhYMkxFaGdNaUVSWnhxWQ?oc=5"
     }
   ]
 }
