@@ -1,25 +1,24 @@
 {
-  "timestamp": "2026-10-09T12:17:35.252803",
+  "timestamp": "2026-10-09T19:19:53.290774",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.6,
-    "bullish": 13,
-    "neutral": 10,
-    "bearish": 2,
-    "high_priority": 14,
-    "material_events": 6
+    "avg_relevance": 7.4,
+    "bullish": 10,
+    "neutral": 11,
+    "bearish": 4,
+    "high_priority": 12,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 12,
-    "Reuters": 4,
+    "Reuters": 7,
     "Bloomberg": 2,
+    "CNBC": 10,
     "Caixin/S&P Global": 1,
-    "Yahoo Entertainment": 1,
-    "Financial Times": 1
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -29,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,28 +58,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "10-year Treasury yield is little changed as Fed's Waller says more hikes needed, investors await 30-year auction",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "U.S. Treasury yields climbed higher on Thursday as investors eagerly awaited the long-dated bond auction later in the day, after strong sales of 10-year notes.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-08 14:11",
-      "link": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html"
-    },
-    {
-      "headline": "Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auction",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "U.S. Treasury yields climbed higher on Thursday as investors eagerly awaited the long-dated bond auction later in the day, after strong sales of 10-year notes.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-08 09:19",
-      "link": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -89,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -99,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -109,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -119,8 +98,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Four signs it is about to get uglier in the bond market as yields rise - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Four signs it is about to get uglier in the bond market as yields rise\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-10-09 16:18",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpPbXRYRlc0T3dINmZIZnM3VEgxWWJzS2tLRVBadmJMVnQ2ekdHaTQ1NG1SZlhfTV84VjNsM3JNR0RRSTZyVWJ1ODJFZmxpa1pxckluaktPY0d6T0d3bUVUUnRGQjlCVmwxWUNGWEs2cEo1VGV4R3MxN19PakJaZ3FUZnZfMWxqUHAzNk1nOTVFT0hr?oc=5"
     },
     {
       "headline": "Treasury yields steady as Trump strikes diplomatic tone on Iran ahead of midterms",
@@ -133,26 +122,6 @@
       "link": "https://www.cnbc.com/2026/10/09/us-treasurys-bond-yields-midterms.html"
     },
     {
-      "headline": "Pepsi shares rallied despite cutting profit guidance. Where Cramer stands on the stock now",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "CNBC's Jim Cramer said improving sales growth and investments to revive demand are encouraging signs, though PepsiCo still faces significant challenges.",
-      "category": "corporate_earnings",
-      "date": "2026-10-08 22:50",
-      "link": "https://www.cnbc.com/2026/10/08/pepsico-earnings-guidance-cramer.html"
-    },
-    {
-      "headline": "Treasury yields are 'really, really high,' but can come down soon, Bessent's new adviser says",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The comments from David Zervos come after the 10-year and 30-year yields marched to 24-year highs in recent days.",
-      "category": "us_equities",
-      "date": "2026-10-08 19:38",
-      "link": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html"
-    },
-    {
       "headline": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
       "score": 8,
       "source": "CNBC",
@@ -163,13 +132,23 @@
       "link": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html"
     },
     {
+      "headline": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Tariffs added 2.9 percentage points to inflation in 67 categories of goods by February 2026, researchers at the New York Federal Reserve found.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-08 12:05",
+      "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+    },
+    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -179,8 +158,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-09 12:17",
+      "date": "2026-10-09 19:19",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Trump\u2019s bid to fire the Fed's Lisa Cook follows a Supreme Court ruling and could affect Jerome Powell, central bank independence and interest rates.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-09 18:20",
+      "link": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html"
+    },
+    {
+      "headline": "The used car market is stagnant. Here's how to profit anyway",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Michael Khouw breaks down this short strangle options trade.",
+      "category": "corporate_earnings",
+      "date": "2026-10-09 17:37",
+      "link": "https://www.cnbc.com/2026/10/09/the-used-car-market-is-stagnant-heres-how-to-profit-anyway.html"
+    },
+    {
+      "headline": "London stocks post weekly gains as gilt yields retreat; telecom stocks fall - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "London stocks post weekly gains as gilt yields retreat; telecom stocks fall\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-10-09 16:35",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVpWYUFMM2hlY2dnS0N0Q1VkcTFqLUJ1cGJzcVdJTWUzYjRvUWZXeDgyMmZsYXhsYl9wbEd1X1lRbU50dXA5c3lXLTZvd0N5clhnS1gxZHlpYUp1M01ha1BBQkp4Y0VacnRZWEFEWms0WG5UWEYtTE96ZzRuNDlsUzB6eXRUWEdKUGMzd3VGbkdsUTR1Z0VRbGtKUFZOeDVu?oc=5"
     },
     {
       "headline": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
@@ -193,84 +202,74 @@
       "link": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html"
     },
     {
-      "headline": "PepsiCo beats earnings expectations, lowers guidance as it aims to stabilize North America business",
-      "score": 7,
-      "source": "Yahoo Entertainment",
+      "headline": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Bears continued to build up positions against the semiconductor group on Friday.",
+      "category": "global_markets",
+      "date": "2026-10-09 18:50",
+      "link": "https://www.cnbc.com/2026/10/09/two-massive-trades-just-happened-in-micron-and-nvidia-what-they-could-mean-for-chips.html"
+    },
+    {
+      "headline": "Trump ramps up battle to fire Fed\u2019s Lisa Cook. Her lawyers say there\u2019s no basis to remove her.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Trump wants the committee to report on whether there are grounds for Cook\u2019s removal from office. She hasn\u2019t been charged with a crime.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-09 17:50",
+      "link": "https://www.marketwatch.com/story/trump-ramps-up-battle-to-fire-feds-lisa-cook-her-lawyers-say-theres-no-basis-to-remove-her-3a62c5cd?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Tesla drops 'Full Self-Driving' brand name in Europe after regulator pushback",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "PepsiCo stock pops following better than feared results.",
-      "category": "corporate_earnings",
-      "date": "2026-10-08 10:31",
-      "link": "https://finance.yahoo.com/markets/stocks/article/pepsico-beats-earnings-expectations-lowers-guidance-as-it-aims-to-stabilize-north-america-business-103147761.html"
+      "impact": "German regulators called Tesla's \"Full Self-Driving\" brand name \"somewhat misleading.\"",
+      "category": "global_markets",
+      "date": "2026-10-09 17:12",
+      "link": "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html"
     },
     {
-      "headline": "Stock futures move lower after S&P 500 retreats from record: Live updates",
-      "score": 7,
+      "headline": "Cramer: Investors selling Apple on latest iPhone 18 report are 'stupid as plywood'",
+      "score": 6,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Stock futures edged lower early Thursday as higher yields dent investor appetite.",
-      "category": "us_equities",
-      "date": "2026-10-08 07:56",
-      "link": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html"
+      "sentiment": "negative",
+      "impact": "Cramer says investors who don't own the stock should use Friday's weakness to build a position.",
+      "category": "global_markets",
+      "date": "2026-10-09 16:43",
+      "link": "https://www.cnbc.com/investingclub/2026/10/09/cramer-investors-selling-apple-on-iphone-report-are-stupid-as-plywood.html"
     },
     {
-      "headline": "Samsung profit surges ninefold to $80bn on AI chip demand",
-      "score": 7,
-      "source": "Financial Times",
-      "sentiment": "positive",
-      "impact": "World\u2019s largest memory-chip maker posts record earnings for the three months to September",
-      "category": "corporate_earnings",
-      "date": "2026-10-07 23:30",
-      "link": "https://www.ft.com/content/8943785b-0919-4a49-8ab5-48e4a35a6e00?syn-25a6b1a6\\\\u003d1"
-    },
-    {
-      "headline": "Ferrari\u2019s chairman is bullish on AI. He\u2019s less certain how businesses will cash in",
+      "headline": "Verizon stock heads for worst day since 2002 as SpaceX U.S. network plans whack telcos",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Ferrari chair John Elkann played down AI bubble fears, but acknowledged investment in the technology could outpace revenue generation.",
+      "impact": "SpaceX announced the spectrum deal Thursday, as the company aims to push deeper into the telecom market through its Starlink service.",
       "category": "global_markets",
-      "date": "2026-10-09 11:54",
-      "link": "https://www.cnbc.com/2026/10/09/john-elkann-ferrari-ai-technology.html"
+      "date": "2026-10-09 16:26",
+      "link": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html"
     },
     {
-      "headline": "Kalshi traders see high odds that more than 5,100 data centers will be planned or operating before 2027",
+      "headline": "EU aviation body widens Saudi airspace warning after Houthi strikes - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Despite the growing backlash against data centers, Kalshi odds show the buildout will continue to expand.",
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "EU aviation body widens Saudi airspace warning after Houthi strikes\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-09 11:54",
-      "link": "https://www.cnbc.com/2026/10/09/kalshi-traders-see-high-odds-of-5000-plus-data-centers-by-2027.html"
+      "date": "2026-10-09 16:25",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObUF1S2Y0LTFHM0JDbXRLY05aMmVvUDJqOU1ZNjEtLVlDdFVMelgyTlN0d3BvY0lrLVJkZEc4VGI0eEMtWTVnbDBGQnNVSGx1bklCQkxiNEs3RzFlWklGSWtoMFpyLV9zb2N6Y1VlVjQ2b2pqMy1ld0IyZ2RQMGt3YmFRaWQyUFBrYnVua2VyWGdyQW4wU0xGWm91d2prUlRLSHZrZXNwZjl0MVBuQV9ZeFZmZi15Nmh1VGFvV25xeVJfYkNGWkE?oc=5"
     },
     {
-      "headline": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Delta Air Lines reported third-quarter earnings and missed Wall Street estimates for the first time in two years.",
-      "category": "global_markets",
-      "date": "2026-10-09 11:31",
-      "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html"
-    },
-    {
-      "headline": "Delta CEO: 'Safety is going to make the call' on launching Saudi Arabia flight",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Delta is weighing whether to continue with its Riyadh, Saudi Arabia flight debut as planned.",
-      "category": "global_markets",
-      "date": "2026-10-09 11:12",
-      "link": "https://www.cnbc.com/2026/10/09/delta-riyadh-flight-safety-houthi-attacks.html"
-    },
-    {
-      "headline": "Trump's moves to boost diesel supplies have not yet lowered prices - Reuters",
+      "headline": "Trump teases 'big announcement' on diesel - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump's moves to boost diesel supplies have not yet lowered prices\u00a0\u00a0Reuters",
+      "impact": "Trump teases 'big announcement' on diesel\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-09 10:19",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSC1DZmo5R2daREU0YTBRSFBZTE04NW92WFQ3eXhLeGhiRlFyTEZBbHdWT2xuczBRYmtWcmlqMVJKTUo0Vk9KTEk1OU1jYUo1NlQ3Zi1KTzhmc1pmZkhQS01OajhXWHR1aWpQVEpuRTllX0RSd3ZmR3ZKMG51MlJRNGQtX3BkdUpfOHFGejVtbnhMUGlGNVdDa2lISkd5dFdmNWc3dFpRZnJuNGJ6M3duQ1pJcXo?oc=5"
+      "date": "2026-10-09 15:55",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU3RwVkZ4Mkg3Vy1fdGF2T2t4RmRLV3lQaU5LcXdnd3hKd21HRlZqR1dBTDlEbmNheE1MYVNjZldOLVlUd2lpMDdSaDd5c0tSUEpVRWJPLU1rTU9hSVhTYlF3Z2JPUlQydXgyb0VraVpvMUlwdHlFY2RoNEZ3WUE4Y0JjNnlHMV9VakFsdzMzOFFzUnQ3MlE?oc=5"
     }
   ]
 }
