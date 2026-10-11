@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-11T11:49:00.758772",
+  "timestamp": "2026-10-11T18:41:23.324956",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.4,
     "bullish": 12,
     "neutral": 10,
     "bearish": 3,
-    "high_priority": 11,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,11 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 8,
     "Bloomberg": 2,
-    "CNBC": 5,
+    "CNBC": 3,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 3
+    "MarketWatch": 6,
+    "The Wall Street Journal": 1
   },
   "top_signals": [
     {
@@ -28,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +99,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Advisors to the ultra-wealthy steer clients back to bonds as yields climb",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Investors have a 'generational opportunity' to create ballast in their portfolio as bond yields rise.",
+      "category": "fixed_income",
+      "date": "2026-10-10 10:00",
+      "link": "https://www.cnbc.com/2026/10/10/advisors-to-the-ultra-wealthy-steer-clients-back-to-bonds.html"
     },
     {
       "headline": "Wall Street posts weekly gains with earnings, inflation data on tap - Reuters",
@@ -112,33 +123,13 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5"
     },
     {
-      "headline": "Four signs it is about to get uglier in the bond market as yields rise - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Four signs it is about to get uglier in the bond market as yields rise\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-10-09 16:18",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpPbXRYRlc0T3dINmZIZnM3VEgxWWJzS2tLRVBadmJMVnQ2ekdHaTQ1NG1SZlhfTV84VjNsM3JNR0RRSTZyVWJ1ODJFZmxpa1pxckluaktPY0d6T0d3bUVUUnRGQjlCVmwxWUNGWEs2cEo1VGV4R3MxN19PakJaZ3FUZnZfMWxqUHAzNk1nOTVFT0hr?oc=5"
-    },
-    {
-      "headline": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Levi Strauss on Wednesday posted earnings that beat expectations, though it saw benefits from tariff refunds.",
-      "category": "corporate_earnings",
-      "date": "2026-10-08 14:43",
-      "link": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -148,8 +139,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-11 11:48",
+      "date": "2026-10-11 18:41",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Bank earnings to shed the first light on how higher yields are affecting the economy",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
+      "category": "fixed_income",
+      "date": "2026-10-11 12:00",
+      "link": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories"
     },
     {
       "headline": "Should I put my nest egg in a 30-year Treasury bond?",
@@ -162,6 +163,16 @@
       "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories"
     },
     {
+      "headline": "Stock Market News, Oct. 9, 2026: Dow, S&P 500 finish higher as Nasdaq stretches weekly winning streak to four",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Catch up on the major stock-market news from Oct. 9.",
+      "category": "us_equities",
+      "date": "2026-10-09 21:52",
+      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-selloff-chip-stocks-openai-revenue-apple-iphone"
+    },
+    {
       "headline": "Here\u2019s how Treasury yields could rise to 6% \u2014 even without market upheaval",
       "score": 7,
       "source": "MarketWatch",
@@ -170,6 +181,16 @@
       "category": "fixed_income",
       "date": "2026-10-09 20:03",
       "link": "https://www.marketwatch.com/story/heres-how-treasury-yields-could-rise-to-6-even-without-market-upheaval-7d9fac9c"
+    },
+    {
+      "headline": "Planning for College Aid? The Federal Student-Loan Rules Just Changed",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-09 20:00",
+      "link": "https://www.wsj.com/personal-finance/college-loans-fafsa-2027-28-changes-6251b1a8"
     },
     {
       "headline": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
@@ -202,74 +223,54 @@
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVpWYUFMM2hlY2dnS0N0Q1VkcTFqLUJ1cGJzcVdJTWUzYjRvUWZXeDgyMmZsYXhsYl9wbEd1X1lRbU50dXA5c3lXLTZvd0N5clhnS1gxZHlpYUp1M01ha1BBQkp4Y0VacnRZWEFEWms0WG5UWEYtTE96ZzRuNDlsUzB6eXRUWEdKUGMzd3VGbkdsUTR1Z0VRbGtKUFZOeDVu?oc=5"
     },
     {
-      "headline": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Pepsi's North American business continues to lag behind its international markets.",
-      "category": "corporate_earnings",
-      "date": "2026-10-08 14:43",
-      "link": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html"
-    },
-    {
-      "headline": "Saudi stocks slide after attack on Riyadh airport - Reuters",
+      "headline": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Saudi stocks slide after attack on Riyadh airport\u00a0\u00a0Reuters",
+      "impact": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-11 07:51",
+      "date": "2026-10-11 18:18",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5"
+    },
+    {
+      "headline": "We\u2019re about to get a huge read on whether earnings can keep propping up the stock market",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "High hopes for third-quarter earnings are outweighing concerns around interest rates and oil prices \u2014 but one expert warns markets have gotten \u201cextremely complacent.\u201d",
+      "category": "corporate_earnings",
+      "date": "2026-10-11 14:00",
+      "link": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-11 13:43",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2hZZTRZLXk2amlHSS1zWkYtUmkzdy1EUWRFZ3lRUzRLX2hOMkxkLXBSR1hnVmd1UkNrN0NpNXNneXgwcGJ2ZzgwRFRRUVo5QS1xSWlENjhWN1M0MGR5eFpPOVZQT0dMUGRWcTQ1YTN3aHhpTjZVVGVqSldfcDN3SFZTQTJSMTUyX1psaXpyb2VKTVU0OGIzeFViOXZGVnRGb0lvTDNVdERoX0tHaHc?oc=5"
+    },
+    {
+      "headline": "Most Gulf stocks in red after attack on Riyadh airport - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Most Gulf stocks in red after attack on Riyadh airport\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-11 13:19",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5"
     },
     {
-      "headline": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-11 07:34",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMUlyV0IybXFzanN6N1FSS3JuaEljNFhGMWtwXzJwR3g0S0NTVkNvUW1CSW4tSWxzY2txeTAxZGxvR2Y2RW53cklmbF8tNGVpaEFTRXlMeW15RkpkVGQ3clNwejJoOXBmQnhYd1ZXWGFJMVVBZ1hpUGFPWDdXeWV4LU1ORFVoekJleFlnOHFRenp4d29OVmV4U0c4eUJJY051RGFna01qMUJ2WFp3cGdHUm5kV0lSZ1hMMFJpdExQN21wMkJHcm1GU01yWQ?oc=5"
-    },
-    {
-      "headline": "US military says it disabled cargo vessel trying to run Iran blockade - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US military says it disabled cargo vessel trying to run Iran blockade\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-11 01:35",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV2Nqd2RXZnpaY3lzeHVxN2Y0VC1ZZEpTSlFVeFpYbW1nQUZqRE5kSGt1NXo0TTFQQmtLSnFFX045Qk1pc2lpMWxXaGxfVkxxazIwNVdVYl82TWJZa2VURkhNWllYX1I1Vk00OFZoNzNNRmRQLURKVFpKbVVaVzZ4SjloWnB0SE1WTi1MWEp3TWttQ1h3MkpDcktydGU4MzdvVDlJS0V3Zk8xRkpp?oc=5"
-    },
-    {
-      "headline": "Rising interest rates: The good, the bad and the ugly for retirees",
+      "headline": "The bull market is turning 4 years old \u2014 but yields could crash the party",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Unlike higher gas prices, which hurt almost everyone, higher borrowing costs have an uneven impact.",
-      "category": "global_markets",
-      "date": "2026-10-10 19:44",
-      "link": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
-      "score": 6,
-      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Looking to balance out our AI exposure, we put more of our sizable cash pile to work.",
-      "category": "global_markets",
-      "date": "2026-10-10 15:28",
-      "link": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html"
-    },
-    {
-      "headline": "Israeli strikes kill five people in Gaza, medics say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israeli strikes kill five people in Gaza, medics say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-10 15:24",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcUhRYkpDR0ViRnlSNjNpcl94N3RPOGdvUHBlaVU0MXU3V2EtX1QwV2NFbGZTX3FtUnlYLTdmNmFIMlgwaHM0a1Z2MjB2UUV2cUNadGRHa1ZwTDJPakJ3d3VONVVwZS1WNnNmLVlkOW0yMXc5VDYxY1F3czY0QlFGSnpremd5UG1IcUlXMEhwNFBSLU9rQ3daalo5b1RvVW5ZajV6Wg?oc=5"
+      "impact": "For four years, tech has been the answer to almost every question about this bull market.",
+      "category": "fixed_income",
+      "date": "2026-10-11 13:00",
+      "link": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories"
     }
   ]
 }
