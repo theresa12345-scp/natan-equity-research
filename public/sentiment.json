@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-12T22:00:11.962259",
+  "timestamp": "2026-10-13T13:11:24.858326",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 11,
-    "neutral": 14,
-    "bearish": 0,
-    "high_priority": 9,
+    "bullish": 9,
+    "neutral": 13,
+    "bearish": 3,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 11,
     "Bloomberg": 2,
-    "Yahoo Entertainment": 2,
-    "Caixin/S&P Global": 1,
-    "Fortune": 2,
     "The Wall Street Journal": 1,
-    "CNBC": 3
+    "CNBC": 4,
+    "Caixin/S&P Global": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -30,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,18 +99,38 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Ray Dalio Warns Rising Bond Yields Could Put Stocks in Danger \u2014 Says Corporate Cash Flow Is \u2018Deteriorating\u2019 Even as Earnings Grow",
+      "headline": "Citi profit jumps 40% with higher investment banking, services and wealth revenue - Reuters",
       "score": 8,
-      "source": "Yahoo Entertainment",
-      "sentiment": "neutral",
-      "impact": "Ray Dalio is warning that rising bond yields could eventually undermine equities as earnings growth loses its ability to offset increasingly attractive retur...",
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Citi profit jumps 40% with higher investment banking, services and wealth revenue\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-10-13 12:12",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaEV6WWM3S2pfSzdheVNtbFZLdnBvTk1jQWl3Z0xGQ1R6RHByTUxVVl91U01wYTFUMWVQNGl5WmZzenJIRHhJMVczUWxGOGREVF9zV2wtX2w1a0tIM3RMZ2M1T3VBRFd1YmpPLUtqM2lmc3YzTVhKdW1QeGt0WkVLTjk4UXJMMlhQSVVnd1NnQm5PRklkZngwemJfRTdxa0JFU2syRkJfZ3hnbXoxcVlXcmhIeWg3ZjltTU41eUZCSkYxU3gxSjZF?oc=5"
+    },
+    {
+      "headline": "Concerns Over U.S. Fiscal Outlook Could Keep Long-End Treasury Yields Elevated",
+      "score": 8,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Latest market news.",
       "category": "fixed_income",
-      "date": "2026-10-11 11:30",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ray-dalio-warns-rising-bond-113037561.html"
+      "date": "2026-10-12 11:01",
+      "link": "https://www.wsj.com/finance/ecb-unlikely-to-intervene-in-french-bond-selloff-ab7ca520"
+    },
+    {
+      "headline": "S&P 500 futures are little changed with big banks set to kick off earnings season: Live updates",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Investors are looking ahead to a busy week of earnings results from the big banks and inflation data.",
+      "category": "us_equities",
+      "date": "2026-10-11 23:52",
+      "link": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -120,7 +139,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -130,148 +149,128 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-12 22:00",
+      "date": "2026-10-13 13:11",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "India Sept inflation nears RBI tolerance ceiling, boosting case for further rate hikes - Reuters",
+      "headline": "Bank earnings live updates: JPMorgan\u2019s earnings call is underway after rare earnings miss",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "India Sept inflation nears RBI tolerance ceiling, boosting case for further rate hikes\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-12 12:21",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM2hyc2tfZ1c4OFc2WGEwN3J5Ri1jaWVLOWtWbmpYTzlMcnNyVVhrN0pEdGg1ZXlKdEJMRjNiNXpRRC1KVDNXaWdDQ0ptQ245VEJaY19RZVNMUGJDYTJjUGNwV2NrLTU0LTRVbEcwWGZmSzhoX3hEdkVGcHAzTGZLb285UTBwYXhxZTVSWmxRNkt3X2xISDZwZg?oc=5"
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Follow live bank earnings coverage for JPMorgan, Wells Fargo, Goldman Sachs and Citigroup, with third-quarter results, calls and stock moves.",
+      "category": "corporate_earnings",
+      "date": "2026-10-13 13:06",
+      "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html"
     },
     {
-      "headline": "India inflation jumps to 5.54% in September, strengthening case for further rate hikes - Reuters",
+      "headline": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
       "score": 7,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "India inflation jumps to 5.54% in September, strengthening case for further rate hikes\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-12 12:13",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdUxxMHVta3BKU2dCLTBRTU5iRm1Xd1gwWWNBTzI4djlyVmFnYWpyZzRJbFQtamt5WHVoaFhCd1lMLVRWMUxpaGw5WERwT3dWZGJvbmRxYjhVUE5pU1Y4NjRzX2lVN1BpXzlBckQxMW4tYmhkNnpKOVQtdUQwSFJKUUZHUThxbnNRYllBZGtGSTV3MXFWZkc4cjRVUHJyU2c2MkNiRWczUl9NTUpVQ2tiSFVjR090Wk9yNjU3NkR4ZklId2o1akswcXNhZ3ptdw?oc=5"
+      "impact": "UnitedHealth Group said it expects 2026 adjusted earnings of at least $20.50 per share, up from a previous outlook of $19.50 to $20.00 per share.",
+      "category": "corporate_earnings",
+      "date": "2026-10-13 09:57",
+      "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html"
     },
     {
-      "headline": "Bond yields closely track diesel prices now, and Trump's deal with Putin may be too little too late",
+      "headline": "Indian shares flat at open as inflation strengthens rate-hike concerns - Reuters",
       "score": 7,
-      "source": "Fortune",
-      "sentiment": "neutral",
-      "impact": "\"Ultimately, diesel and gasoline drive inflation, not crude oil.\"",
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Indian shares flat at open as inflation strengthens rate-hike concerns\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-13 02:29",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRUVTdlJpcHF3dEZTQlg5WWlESlo0dXpTRWJQR1lwWHl2aHR2QVlEUzI4Vkx3OTZVNFdvdnhNMm5BSC04bnNJdzZyLU9BVTVhbFFsUHhzNXlWc0VlLW5KU2k0NWFHZUlicF9zQTVMYjJTTGZoNDRMREJBQk5YU3k0OFdCX2pROWxtYWhlM0ZrREQxVTQweWJMaFdoVW1XX1FrOXpGQnBjZy01eVktY3VQSktkb1YxVEJIbmMw?oc=5"
+    },
+    {
+      "headline": "Fund managers retain surprising optimism in the face of stagnant stock market and tumultuous bond market",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Many asset allocators are waiting for bond yields to hit 6% before they flip the switch from equities to fixed income, but a significant portion are already making the transition.",
       "category": "fixed_income",
-      "date": "2026-10-11 17:12",
-      "link": "https://fortune.com/2026/10/11/diesel-prices-10-year-bond-yields-crude-oil-inflation-trump-fuel-deal-putin-midterms/"
+      "date": "2026-10-13 12:40",
+      "link": "https://www.marketwatch.com/story/fund-managers-retain-surprising-optimism-in-the-face-of-stagnant-stock-market-and-tumultuous-bond-market-3d9763dd?mod=mw_rss_topstories"
     },
     {
-      "headline": "When Companies Stop Driving a Hard Bargain, This Fed Official Starts Worrying",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-11 14:00",
-      "link": "https://www.wsj.com/finance/investing/beth-hammack-cleveland-fed-inflation-7751c731"
-    },
-    {
-      "headline": "The hawk Fed Chair who broke the bond market?",
-      "score": 7,
-      "source": "Fortune",
+      "headline": "Iran and Russia ramping up hybrid campaigns in Britain, UK spy chief says - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Kevin Warsh may be the most hawkish Fed chair since Paul Volcker. September's Treasury rout shows what that costs.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-11 12:00",
-      "link": "https://fortune.com/2026/10/11/the-hawk-fed-chair-who-broke-the-bond-market/"
+      "impact": "Iran and Russia ramping up hybrid campaigns in Britain, UK spy chief says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-13 12:18",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOel94VDNzeEx1LXhzdm9vX0xSSUhyQUswNTAwUWhsVklGcEtQRm1KYlpUWXhKOUo5cE1tdTJXQV85eVZic05iV3gyVXNIZTJwV2xCRmo0QkFtMDFXMWNWR3lhaS05dHN2UVNtREJodXZLMllfOTBYdUpHelFKS1JQbUVxUFU4NzhTTUswVVlvX21QcXByY0F4akJ1ZGNtSDZ0aExrZHBYVlR4aGlCYTJz?oc=5"
     },
     {
-      "headline": "\u2018We\u2019re looking at a bubble here\u2019: Experts including Ray Dalio advise on how to protect your wealth as bond yields spike",
-      "score": 7,
-      "source": "Yahoo Entertainment",
+      "headline": "Why the world\u2019s No. 1 fund manager has just changed its mind on bonds for the first time in six years",
+      "score": 6,
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "See where they\u2019re placing their bets as long-dated bonds push past 5%.",
+      "impact": "After six years, BlackRock finds opportunities in government bonds.",
       "category": "fixed_income",
-      "date": "2026-10-11 10:45",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/looking-bubble-experts-including-ray-104500189.html"
+      "date": "2026-10-13 12:04",
+      "link": "https://www.marketwatch.com/story/why-the-worlds-number-one-fund-manager-has-just-changed-its-mind-on-bonds-for-the-first-time-in-six-years-4b1b5490?mod=mw_rss_topstories"
     },
     {
-      "headline": "Here's a calculator to explain why Cramer always stays invested. Plug in your own numbers, too",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Small, consistent gains over time, compounded through regular contributions, can supercharge your wealth",
-      "category": "global_markets",
-      "date": "2026-10-12 21:02",
-      "link": "https://www.cnbc.com/investingclub/2026/10/12/heres-a-calculator-to-explain-why-cramer-always-stays-invested.html"
-    },
-    {
-      "headline": "US hopes diesel deal can 'soften' Moscow on peace talks, sources say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US hopes diesel deal can 'soften' Moscow on peace talks, sources say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-12 20:33",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY1h5ek9QWEw0bXVmSUpuTlA1MDlVNXg1SzlnSkpwT1BXLVZHVnNMT1k0V3pfaU8tVFhUcWw1TWl1SE9Kcm04T0RYNjlhbGdyaUFQZEtOU2x6NmtJOGVfYXFWaHY3b1R0TDA5SzVsSDg0UTU2M2NGZk50WEZRTHBTSnJVWTBGbUJ6RjlnWFp0WTl1bkdWYmNYcl9ISXFSNS10OTBUZmVwQXpKSkI5REN1YTdkbnE?oc=5"
-    },
-    {
-      "headline": "Bear to bull: A double upgrade of Salesforce illustrates the folly of the 'SaaSpocalypse'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Jim Cramer said bets against Salesforce were always wrong.",
-      "category": "global_markets",
-      "date": "2026-10-12 19:50",
-      "link": "https://www.cnbc.com/investingclub/2026/10/12/bear-to-bull-a-double-upgrade-of-salesforce-illustrates-the-folly-of-the-saaspocalypse-.html"
-    },
-    {
-      "headline": "Saudi capital's airport to remain shut this week as airlines cancel services - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Saudi capital's airport to remain shut this week as airlines cancel services\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-12 19:36",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObGszbTdESk0xU0twcE1ZOHg4VFpzN2lzeWQ0ZDJseVpKczh6cE44eTNOb3ZDS3dnVnZJN3RCNE1wVDI0djVodU41LTN3WkVIemI0NWlucWpKY0tvU3JMeEM2YVN1OTBsdW5mZDVXeWhFcXdyQ1pGRjBVNTR6SmpBSXhzSXRObWtSTjlYcEJzOUxsX2Ezb28yZ1FrU083bzNpNmd2VlpjUkxnaE5PdEliNWpxeU5QNkp1V1JmcXlFdUJ1S01zcHc?oc=5"
-    },
-    {
-      "headline": "Microsoft, Micron and Meta make news. Here's what the updates mean for our stakes",
+      "headline": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "impact": "A Saudi-led coalition fighting the Houthis \u2013 a Yemeni militant group backed by Tehran \u2013 said it had intercepted another attack on Riyadh.",
       "category": "global_markets",
-      "date": "2026-10-12 18:47",
-      "link": "https://www.cnbc.com/investingclub/2026/10/12/microsoft-micron-and-meta-make-news-what-it-all-means-for-our-stakes.html"
+      "date": "2026-10-13 11:53",
+      "link": "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html"
     },
     {
-      "headline": "UK PM Burnham says Iran's IRGC likely behind RAF Fairford incident - Reuters",
+      "headline": "Germany's Nuremberg airport closes due to aviation emergency - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "UK PM Burnham says Iran's IRGC likely behind RAF Fairford incident\u00a0\u00a0Reuters",
+      "impact": "Germany's Nuremberg airport closes due to aviation emergency\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-12 17:12",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWJ0NVNWU296YXNLZ1BDNC11S1V3MW5uY1ViQ2M3VmZ4eVZVLWtTT2x4MG4zOGJncUVrOFFyZkcwekpYZXpWRWhvc0lxWkhveHU3MmV0VW03dEo1RmN4dzVhSVFWajBzMXlZVDFQWXRkQ3V3eFdVTDdadFpJNjFCVzVlQ05WMkYxZEpmelV6RDdBaWhSN19YVDJROXcySFo0anBOWTNQYk81TENDaUY4?oc=5"
+      "date": "2026-10-13 11:02",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUjNQUks5MFpvMms0djJycmdGa09TTTNkbkVoSDEtSkNBVDVENlNWZkVwdS1KbVB1c0RFZ0FNQVZLZEQ0T2Zxc3ZRVU1xSmhNcmZ3R00zTE1wcldqQWJGY3o1eS1wU2NyN2M4ODBCTlpxU3hMTEFwYThuSHp2dXdhdjdhaHo5b3ZxRjZZcTBVUjE4QVpyVlNlaHJfcGlWRjA?oc=5"
     },
     {
-      "headline": "What's in the diesel deal between Putin and Trump? - Reuters",
+      "headline": "Hezbollah outlines financial aid plan for Lebanese with destroyed homes - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "What's in the diesel deal between Putin and Trump?\u00a0\u00a0Reuters",
+      "impact": "Hezbollah outlines financial aid plan for Lebanese with destroyed homes\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-12 16:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVYyWUE3V0taZldlY0hsb2o0Rko0Y0QxTGJrbk80SHhyT3VKcWR1LTNfMFFEcEowbklSemZfRHp0Vk51cTBIQWFxNTBMSGZWTGZJejR4TUtoN1V6NGpWcnJtZWhScXY2MGotd1E4eW05UHd1cVZWb3NJLVI2NXl0QnJlRWlMeW1sVVFKSm1mQnBUd29yZVE?oc=5"
+      "date": "2026-10-13 10:39",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQclNUQUdGdlRtUDhteWNFb0FkSHc2emhTVE1hNTQ4SGQ2MWtkTkRiUzJPd28xY3VHQ0ZZVmUyOVJpa3gyS3pyczJ5X1pMQllhMGdqQ3VLUU5BWkYxWVlLbWQ4SktZMjhySFhmWFZzYVpEOFJzZVlZa291NEx4Qnd6aU9tWTZlbmh6c3V1cTNJUTNGX0drQmliNFhaSHhsMlhJNElsa1AtYjdQR29jbGZ4QnhQZXNjYTZmMjMzSmpR?oc=5"
     },
     {
-      "headline": "Trump defends Russia diesel deal as lawmakers from both parties complain - Reuters",
+      "headline": "Russia calls French seizure of alleged shadow fleet tanker a violation of international law, RIA reports - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump defends Russia diesel deal as lawmakers from both parties complain\u00a0\u00a0Reuters",
+      "impact": "Russia calls French seizure of alleged shadow fleet tanker a violation of international law, RIA reports\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-10-13 09:06",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYkZiVzlsbWNyMXA5cV8tX1Z3UVEwUzY0cEt1RjBKOW0xWDc4RFRzRzBwYzNUdEVrQjhJY3JObi1LZjNqVnpjZ1QyUng5TjlFeExVd1NYWk45ZjB2SXduaE9qR1h1V1RyRldpTFU3bUhtb1ZfWHkwN1E3cDNDQm9NbnhtSHRWWUdHYzRKdUlxcHAwWmNScFE1V3VhX2JwMVVaaU9XZmpILTBIZmVLLWUwMUtuTEJ6NnEwbEZsTk5jbUJqT1pOWHBV?oc=5"
+    },
+    {
+      "headline": "COMMENTARY: Trump's oil jawboning loses punch as wars spiral - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "COMMENTARY: Trump's oil jawboning loses punch as wars spiral\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-10-13 06:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGRSS0t5UkdaMjZZWUNWWXNZWlpKOV9YcC1XdF9UVXE1M3NEVFJ5MC0zdHZZZnQtclpCRDJZX2hVM1NWNC1xZWZuQl82blNBZmZLRk9YdWZuZ1VMcFZvQmVFYld4VzgteDB3R0NhM05CckEwcjlxVHdldmV0NXlKOGZnc0FuYVIzZU00clRsRVVLeHZySzJ3NnV6MDY3R0I3NU51Sk9oTmRMek8yNExNMXZLYw?oc=5"
+    },
+    {
+      "headline": "NEWSLETTER: Modi's three-pronged challenge - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "NEWSLETTER: Modi's three-pronged challenge\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-12 15:48",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWUNYSF8xeXZscDAyZTZVNC1zZHNtdHhqMng2bVZTenRCTDJWX0FDeV9pMjllMzRMRmJ0blkwMFZ1MENpd1RmbWltR1R0SmV6Q1JUQnpHbnZxNmQtYmZZaFpxdXVLS3Vxd2xqYmI1UVhLM3hCM2gybXN2LUZ5Q2JOdDByZUIwemdsenlGY3FxOENNME5lT0xocWNDYmN6X0ZxQXBiVFNHNnlENmVTOXdqU3pxdlpscHM?oc=5"
+      "date": "2026-10-13 05:30",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb1plNXNTVWlqekpCanlwOUdXUVpmeEVnSEU1R014Y3NGalBNOFFnZWdhUWRaV2hMSkNENlZRNi1CZG1hMGlGNnFuMnhBVnFTMHZZY2hkbTZ1TjlYSzgzOHk2eXlSbElkeHN0S1VhYkF1QmpmQmdRbng2OVB6b0tZZm5YUQ?oc=5"
     }
   ]
 }
