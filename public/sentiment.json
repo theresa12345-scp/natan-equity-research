@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-14T10:51:36.375678",
+  "timestamp": "2026-10-14T18:22:53.561409",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 11,
-    "neutral": 12,
-    "bearish": 2,
+    "avg_relevance": 7.5,
+    "bullish": 12,
+    "neutral": 8,
+    "bearish": 5,
     "high_priority": 11,
     "material_events": 5
   },
@@ -14,9 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 5,
-    "Reuters": 13,
-    "Bloomberg": 2,
+    "MarketWatch": 1,
+    "Reuters": 6,
+    "Bloomberg": 4,
+    "The Wall Street Journal": 1,
+    "CNBC": 8,
     "Caixin/S&P Global": 1
   },
   "top_signals": [
@@ -27,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -37,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -47,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -57,18 +59,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
-      "headline": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+      "headline": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma",
       "score": 9,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The IMF says risks in the government bond market have worsened and that yields could jump sharply and disorderly.",
-      "category": "fixed_income",
-      "date": "2026-10-13 03:19",
-      "link": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html"
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "There isn\u2019t any way to spin Wednesday\u2019s hot consumer-price index report as good, especially when looking at the bond market\u2019s reaction.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-14 16:27",
+      "link": "https://www.marketwatch.com/story/rising-bond-yields-and-higher-inflation-leave-the-fed-trapped-in-a-rate-hike-dilemma-d34ba326?mod=mw_rss_topstories"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -77,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -87,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -97,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -107,28 +109,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Citi profit tops estimates on higher investment banking, services and wealth revenue - Reuters",
+      "headline": "Stock Market Today: Wall Street Revenues Power Profit at Goldman and JPMorgan",
       "score": 8,
-      "source": "Reuters",
+      "source": "The Wall Street Journal",
       "sentiment": "positive",
-      "impact": "Citi profit tops estimates on higher investment banking, services and wealth revenue\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-10-13 17:05",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaEV6WWM3S2pfSzdheVNtbFZLdnBvTk1jQWl3Z0xGQ1R6RHByTUxVVl91U01wYTFUMWVQNGl5WmZzenJIRHhJMVczUWxGOGREVF9zV2wtX2w1a0tIM3RMZ2M1T3VBRFd1YmpPLUtqM2lmc3YzTVhKdW1QeGt0WkVLTjk4UXJMMlhQSVVnd1NnQm5PRklkZngwemJfRTdxa0JFU2syRkJfZ3hnbXoxcVlXcmhIeWg3ZjltTU41eUZCSkYxU3gxSjZF?oc=5"
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-10-13 18:17",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026"
     },
     {
-      "headline": "Wells Fargo beats profit estimates, but net interest income, revenue fall short - Reuters",
+      "headline": "S&P 500 is little changed as traders mull over bank earnings; chip stocks slide: Live updates",
       "score": 8,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Wells Fargo beats profit estimates, but net interest income, revenue fall short\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-10-13 15:39",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ3h0SU11NWFMTHJPeWw2ZGlmZlJ5RzNzRm9FZWZ3MURpVmtwajFQV2RnRDkxeVJVXzZGcEduYzF1RFdtT0RKYkRub1pfazFCbUNiWHllejh6V3Y2TVZnU1gzNV9qSkExVGhoWk1WampqaHduYjVoNGRVQ2NBb3lueThEZExQaTlQb1J0SmpLdUg5akhSY1NXNFNjY1d5dmx3SEhscjd4MFFyTFZtR0FtNkRB?oc=5"
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Traders digested a slew of corporate earnings reports from major banks along with a steep overnight decline in South Korea that put pressure on memory names.",
+      "category": "us_equities",
+      "date": "2026-10-13 17:57",
+      "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -137,7 +139,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -147,18 +149,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-14 10:51",
+      "date": "2026-10-14 18:22",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Bank of America earnings are out \u2013 Here are the numbers",
+      "headline": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "The U.S. Treasury Department announced a $1.2 billion penalty against Bank of America on Tuesday.",
+      "impact": "Morgan Stanley topped expectations on the top and bottom lines for the third quarter.",
       "category": "corporate_earnings",
-      "date": "2026-10-14 10:49",
+      "date": "2026-10-14 17:08",
+      "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
+    },
+    {
+      "headline": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Bank of America shares fell Wednesday after the company posted weaker-than-expected trading revenue and the impact of a $1.2 billion Treasury fine.",
+      "category": "corporate_earnings",
+      "date": "2026-10-14 16:49",
       "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
+    },
+    {
+      "headline": "Iran's central bank governor dismisses claims of economic collapse amid US blockade - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Iran's central bank governor dismisses claims of economic collapse amid US blockade\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-14 11:26",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY09JZzRxS3I5eWpRNnAyUlFPU21LTlRFQkJPc1NUVGNBeE5hZzI3al9VUlRpU3lvQTN5a2t1bjNmTWozZVJSM0lTWEJnR05NSmlNRmRfQ2txcjY4RFVCWGpRT2d5WlNiZjRpVXdsUm1MY1pReG5Wb0dRb0xUandmMmRSNGY0aHI1bWprNFc0bEwwcDV2Tkd3V1BHYml1U3VWcUdHSFJqUVFxdGctc1A0TXZaYlhNcndIbWVjN0xCQzlNYVhpdV9hYm42Nl9jdw?oc=5"
+    },
+    {
+      "headline": "India's wholesale inflation rises faster than expected at 11.4% in September - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "India's wholesale inflation rises faster than expected at 11.4% in September\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-14 06:35",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeTA5ZnNtZGZZRHdYREhmbEIyZFFaQldWR3lmWUV1WFFicUl0Y0ZUa0wxNjFsbDNzN2FVV1EtUklFdHJta1RmX1pwR21zTDBwdE9VZnpnWVo4XzBWU1RORXFHNFRZMy1nYnl6WjFHMk5rc3VxOG9qUVlOQjBibW9oOXcwRndZYVpybXF0V0t2MnI0WXJBNEVIT1VDMkRoOThEWmpGeWNn?oc=5"
     },
     {
       "headline": "Bank earnings takeaways: Here's how JPMorgan, Goldman, Wells Fargo and Citi performed in Q3",
@@ -171,104 +203,74 @@
       "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html"
     },
     {
+      "headline": "Bond Traders Eclipsed by Equities in a Wall Street Reversal",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "As Wall Street\u2019s fixed-income desks struggled in the third quarter, their rivals in equities seized a rare opening to outshine their market brethren.",
+      "category": "us_equities",
+      "date": "2026-10-13 17:34",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/bond-traders-eclipsed-by-equities-in-rare-wall-street-reversal"
+    },
+    {
       "headline": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
       "impact": "UnitedHealth Group said it expects 2026 adjusted earnings of at least $20.50 per share, up from a previous outlook of $19.50 to $20.00 per share.",
       "category": "corporate_earnings",
-      "date": "2026-10-13 09:57",
+      "date": "2026-10-13 15:04",
       "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html"
     },
     {
-      "headline": "Bank earnings live updates: JPMorgan and Wells Fargo report results",
+      "headline": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
       "score": 7,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Follow live bank earnings coverage for JPMorgan, Wells Fargo, Goldman Sachs and Citigroup, with third-quarter results, calls and stock moves.",
+      "impact": "Anthropic will release updated financials to a group of investors gathering at its headquarters this week, according to people familiar with the matter.",
       "category": "corporate_earnings",
-      "date": "2026-10-13 09:35",
-      "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html"
+      "date": "2026-10-13 14:50",
+      "link": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
     },
     {
-      "headline": "Gazans harvest dregs of olive groves bulldozed and cut off by Israel - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "headline": "Blackstone\u2019s Gray, Fed\u2019s Waller See Warning From France\u2019s Stress",
+      "score": 7,
+      "source": "Bloomberg",
       "sentiment": "negative",
-      "impact": "Gazans harvest dregs of olive groves bulldozed and cut off by Israel\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-14 08:15",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNel8xSV9xOXZENzNrZVdjeWUtUHZhT0U4cExIRmE0LXlsN3FUdmotOHdGOGkxOHhGVm1QR0FXclN5REpsMnEtUW84Y3JtNVkxd0lLbGxPSWdxa0RURlBwUm9kU2pGeDNiUFBnSUVIYTJqYWRCQTg5Q0Y2dG11VDF4NmpKaXlpcm5jVUhCZF9oZ1pvTFBSQnVnWWtDRmFGU2FXSExudktveUVBTkpFdmsxMzZIX3NvZw?oc=5"
+      "impact": "Blackstone Inc. President Jon Gray and Federal Reserve Governor Christopher Waller said the fiscal strains in France are a worrying sign for governments that have been spending heavily, but those risks are less pressing in the US thanks to its much higher gro\u2026",
+      "category": "us_monetary_policy",
+      "date": "2026-10-13 12:04",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/blackstone-s-gray-fed-s-waller-see-warning-from-france-s-stress"
     },
     {
-      "headline": "Iran executes monarchist convicted of armed attacks during war, judiciary news outlet says - Reuters",
+      "headline": "Merck CEO tells CNBC he expects breakthrough cancer vaccine will become faster to make",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Iran executes monarchist convicted of armed attacks during war, judiciary news outlet says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-14 05:13",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcVpwLVEyTnpiOC1HOGZUTVRVaFRnbGFIQWlnZzJHSF81ZUNPWV9fd09LYk1DbEdmYnp5aXdKUmZnLUlSV3o0RGZsSUstMjBJWGxhUEFubTJhbVhfUF9IaTlPeWoyLWFmb3dYeVpMX3hzYmVwRjBXekdyMnVGTEtnN2FNaG9NdDdyYzc5c0RTS3JWZlYxaXhQYkNCMWl5VGg3LTl1T3ZSMDl6NnZRWlVsNUU3cUdkbkk0WmNWY3lWSGNVdWxBQUlr?oc=5"
-    },
-    {
-      "headline": "Russian strikes kill one, hit energy facilities in Kyiv, mayor says - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Russian strikes kill one, hit energy facilities in Kyiv, mayor says\u00a0\u00a0Reuters",
+      "impact": "His comments come after Merck officially opened its new 120,000-square-foot research facility in the Greater Philadelphia area.",
       "category": "global_markets",
-      "date": "2026-10-14 04:14",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZV80UGpIZ2JaYk1HTDl1MzRSc2NJT29IRDAtcm5sQXpSMzJPVXJSOXRHMG9XaEdDV0szVHZmSTZCTlVUNzJseDhrSXdBaFItbEtMdmN0Rm5WTlNtYVF6MEVuV1ltVjBQcmtKeWRTODBXbUtRSnZkVXRETDB1bklNeFliTTZ0TFBJWEs3UXJJVkZpRVRRMkZNVHcwTS02RDJkTkpuNlpQMA?oc=5"
+      "date": "2026-10-14 17:24",
+      "link": "https://www.cnbc.com/2026/10/14/merck-moderna-cancer-vaccine-manufacturing-time.html"
     },
     {
-      "headline": "IMF's Georgieva optimistic on Senegal debt treatment under improved G20 framework - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "IMF's Georgieva optimistic on Senegal debt treatment under improved G20 framework\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-14 03:38",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLUtITnVTTGs0TVlyaUVXbE1sTmJXclVkQ0JQWXphZmJlTW1qY09OQThjbEQ1QUtvOFdBVkVHQm1mbFZKbW93bkFQLVhJS3llcF82WkRzSjBuYWdobm1EOHRIZEYzVzlPS3VuMDJ2LUQ4OThJVGxYUWJGcVIwNVRlWXdITkVDQVpGMzlCWkczdnJvdG40b1hwbm1WaHdNd3NuMVVfVlNmMjNDb3REV01OSmxXcHdvRVoySFd2WXBFcmpWVVQy?oc=5"
-    },
-    {
-      "headline": "Trump campaigns in Alaska, a conservative state feeling the pinch of high energy prices - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump campaigns in Alaska, a conservative state feeling the pinch of high energy prices\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-14 03:00",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLU1Cd0VNaHE0QjZ4LWRzYXExZTVlVm44cFVjXzVFQkNUelBMT09vcURKc1pvejJJb0g4UkhxVGMtSnFVUGJfS2Z0cDY1VFN1RklrUGR0MzVTZUJvdThHTXdkbmE5TkFCOTB2ZDNxdm5kVWpxaEVlbk5QTW05ZkdOOUJQT3BhakdVcWhoVzgzdGVhdml4c240ck12SXdXT1Nid2l5Q282azQ5SjVSdHBTekFuTU1NeXB1aVZFazBkdkNjS0VX?oc=5"
-    },
-    {
-      "headline": "Oil prices rise as Iran deploys new tactics to target tankers - Reuters",
+      "headline": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Oil prices rise as Iran deploys new tactics to target tankers\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-14 01:27",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5"
+      "impact": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-14 17:22",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVlQtcHJibXBpYWEwWTQ4dFdfWUFJbTVteGY0WThGcTFybEdUTERvVG9DcGdoY09vUjh0TG1QeG5zMWx0LTFvV09teVNXY1NLdXZVNlpuMVBIV3pndWJKWVBRdENjLVd0dnVwdUxPTHFPU002S0ZqR0lkcjgyNVl2ZFFXc05MdTJHenM3LVNUSlBUb1RyeDVxY3VTdUxEamxrbS1OXzJJR3o3SlltandncHAwVXFNSTFYcmJXblh2U25vN2xMMW1ibQ?oc=5"
     },
     {
-      "headline": "India boat capsizes, drowning 13, mostly children - Reuters",
+      "headline": "'The power of shrink' \u2014 tour the little-known $25B company that chipmakers can't live without",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "India boat capsizes, drowning 13, mostly children\u00a0\u00a0Reuters",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Here's a deep dive into Qnity and how its products help build the AI semiconductors that power the world.",
       "category": "global_markets",
-      "date": "2026-10-14 01:27",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYUgyQUdONkhNenM5cmZjbUVsNDdtUTJnYXlIQmJsVzlraV8wcno5TGNvTHVfYzZUZjhOenlTRHJBZTVQMFVkRmlqNzR3VlV3aGxlVi1CT2ZlU0FHenhhaUFUTmlCU1NFTmFDaUc3cnBQeUIzNU1LRXhCeDJ2aks4ZWxqaEV1cTdfRTV3UUo2dw?oc=5"
-    },
-    {
-      "headline": "Iran shifting tactics to step up attacks on shipping before US vote, officials say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran shifting tactics to step up attacks on shipping before US vote, officials say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-14 00:06",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXl4Z2E1ajJabkV2V0d3VVN4TE4xZVdXU0xjY1FwX2QwNzVpSEZ2UUdWY2d2N0w0TEZCXzRFR2oyZ3l4MlZkMER3cDZtOFRMc2p4VzRSWE1OZGdJaHBvRlZieVJ3Unc4bXEyRHFvalF4MEkwTmduUEFtV0lBX3NZS2Q0M2hoSkozeWFNMS02MnF5QmNveXNFNklHVktxYy1RM1BRcHlSVm92aWYzRnJpNTJvVWYtemNjbklpM3Jna2t0bUIweUV6VQ?oc=5"
+      "date": "2026-10-14 17:04",
+      "link": "https://www.cnbc.com/investingclub/2026/10/14/the-power-of-shrink-tour-the-little-known-25b-company-that-chipmakers-cant-live-without.html"
     }
   ]
 }
