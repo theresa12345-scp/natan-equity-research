@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-17T16:54:04.832254",
+  "timestamp": "2026-10-18T10:06:09.208270",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 12,
-    "neutral": 10,
-    "bearish": 3,
+    "avg_relevance": 7.0,
+    "bullish": 8,
+    "neutral": 15,
+    "bearish": 2,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,11 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
-    "Bloomberg": 2,
+    "Reuters": 11,
+    "Bloomberg": 5,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "MarketWatch": 2
+    "Abcnews.com": 1,
+    "CNBC": 2,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -28,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,7 +99,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -108,7 +109,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,8 +119,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-17 16:54",
+      "date": "2026-10-18 10:06",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Fed Chair Kevin Warsh warns of AI 'shock' for economy, pledges to contain inflation",
+      "score": 7,
+      "source": "Abcnews.com",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-16 16:12",
+      "link": "https://abcnews.com/Business/fed-chair-kevin-warsh-warns-ai-shock-economy/story?id\\\\u003d137315708"
     },
     {
       "headline": "What we want to see when Capital One and Meta report earnings next week",
@@ -132,44 +143,54 @@
       "link": "https://www.cnbc.com/investingclub/2026/10/16/what-we-want-to-see-when-capital-one-and-meta-report-earnings-next-week-.html"
     },
     {
-      "headline": "Dow jumps 150 points, Nasdaq slides as investors continue to rotate out of AI stocks: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The three major averages are coming off of a winning session on Thursday.",
-      "category": "us_equities",
-      "date": "2026-10-16 14:20",
-      "link": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "ExxonMobil signals $4.5 billion refining earnings boost as margins soar - Reuters",
-      "score": 7,
+      "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
+      "score": 6,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "ExxonMobil signals $4.5 billion refining earnings boost as margins soar\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-10-16 13:18",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTjlyZU82NGZleDhibTRDcWl1NzJId0JjZUpmMEVGZ1lRbzU2enR3WXV5a2xDME12TXdfYS1TaHJlMXh1bTIyNmNjbHVzNS1yb1laSVFHdWkxbnV4YTFyVXFVeGxzQktWV1ppWmZnQ1VHa2ljVVFrZjFOSHNqUjQ1U0lOTDJfTTRKT2FIWnRHRjg0MjhtXzlIYTJ2ZmdhUnJY?oc=5"
-    },
-    {
-      "headline": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Morgan Stanley topped expectations on the top and bottom lines for the third quarter.",
-      "category": "corporate_earnings",
-      "date": "2026-10-14 20:22",
-      "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
-    },
-    {
-      "headline": "Bank of America shares drop after third-quarter revenue miss and regulatory penalty",
-      "score": 7,
-      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Bank of America shares fell Wednesday after the company posted weaker-than-expected trading revenue and the impact of a $1.2 billion Treasury fine.",
-      "category": "corporate_earnings",
-      "date": "2026-10-14 20:20",
-      "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
+      "impact": "Saudi-led coalition says helicopter crash in Najran kills two crew members\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-18 09:07",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbFZiZFozb1RWTzVBbk4wZU8xMHlSeHhuSmhkMi1FSVhqTTZ5U3BMbF9aaU5fVjRpWnI1MkJTMTZscVcxTWM0YnVFRXFWdXQ2SnpSdVNPVm5LR1QzbVhpQjliR3VNZFl4WXhjODUzbjNZRXg0S0l0al80ZDlwdjc5ejFRU0E3NlJBZm1iOWg3VjhybzNLbWpOelQ4ZDZBWTkxS3Y4Rm9MUm9vTjdfYk9iaVRJd29DSDhMUi1KOGZMcDhzZGs?oc=5"
+    },
+    {
+      "headline": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-10-18 05:03",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMmFpc0NDcHNWM0tpSVFxYURNSGY4OTFCRlhISGVnLUZqUGtaWEpJUXhsTVpyNzZaRmV3R1JhRnRIdjJjS21DaVFjTDRHaEtIUXEySXNwd0U3el93cmNJeEtHblpNc2VhZERoMXliOUFxXzFMVHhnTUNpY1dRVHJEMGxVR1Uxb0ctRThOeGNxN0ZxaW8wQjhJVTJpSG5sSWVNWndGWWRTOW40TjFEa0d3MDVYcU1Id2tRekxlbURxS2gxcDQ5dlZYUnJ4UWlRUQ?oc=5"
+    },
+    {
+      "headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Lebanon says military delegation will press for halt to Israeli attacks at US talks\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-17 20:31",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSVBXRnY2dGJybHo5d2JiMTlEbnE2SGNfX3FBbVIyazh3dFFPWjB6eWpQaTZwZGwxT3dKQTRfVHlTQ0hZaGJfWmZtOFZYSERiV1Q1QWNTeWdDcWpSMkdtci0zOHBvelNXYW9XaFB0ZHRadFN5Sy1Vb25PNU8yeXV5Q01IdEZIX1o2TEpXNS15ZDcxX0MxQ1JJeEJZQ3laeGpvZURhYVpkajZrTmcwQzZzLW9EUnhaOUlaRmd5WGxaVEhpdElCQVE?oc=5"
+    },
+    {
+      "headline": "Explosion at Iraqi paramilitary alliance base kills one member, sources say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Explosion at Iraqi paramilitary alliance base kills one member, sources say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-17 16:35",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMFdrc1I4NnJ2Z0NQeUM2c25pYzF4ekRXcFVHRHlYVWVVYXhhV0hDXzhVUWtUc2JCRnZmU0lZRkJlRkZudWNzUzJINWpDWWdFcG13SG5YVHJnMk9tcEE2Z3BtdHJ1VHdJcXA4eGNQYXVfcE1VX293QjhYQ0YtaVJUOU1kYjJoR2hPeUJJNlNDUzVfVnlxVUhINGJEV2UzTllWRWVrRmpuNG5ZVGY2SFFvcFpySlJsNUEtYmF6LVNEcEpnck0?oc=5"
+    },
+    {
+      "headline": "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-17 14:23",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ013QTYtQ0JudFVITVllWWh1Y3Y4WXVXOW80UmlXbEw1YXcxSG5RUkc4djV1X255M3BrWFl1ektoZU5vS1pMYzd4MW5jQ19wS3o4NEFDdHEyT3BsdGl6dDRTNXRDTGVKUnFlVkxSamlaVXRRaGhCeTBCblhQaDZUbHh2TlFRbHYzWUQtODRtVDFjdGlyRUxJR3A1OGdXWU1NalRGRnlhTExDbktfdHpWMmpoY1ZpdTlacmtiN0o1TEJaZ28?oc=5"
     },
     {
       "headline": "Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
@@ -202,74 +223,54 @@
       "link": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories"
     },
     {
-      "headline": "Fed interest-rate decision this month is a closer call than markets think",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Here are some of the arguments against a Fed rate hike \u2014 and why some economists disagree with them.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-17 11:00",
-      "link": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law - Reuters",
+      "headline": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law\u00a0\u00a0Reuters",
+      "impact": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-17 08:05",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNDZxN09RLXNuaEpfdzNaQ3lhdzUyM29wSU84bG0tR3hpRm14NWM2d0hBbmtSVmtxM0hSZmhLMXQ5bFhCVTNKaTNkLW1LcUZRcEhlS3g1dmNMU1hFY1ZMYUJqaHBRQ0UwT3ZCNXUtM1Zwa3VxeDJxUmYtUXUxNXVKNk4wWHB3V2NaSkZEYk0yZkhXX2ZhMGtVZHhhcVhCOW9OUXp4djVwbGZ4UWdMa1RpTUJQenphV0RHTTFpejNMdDJtdw?oc=5"
+    },
+    {
+      "headline": "OpenAI poaches another SpaceX sales lead focused on AI",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "OpenAI hires SpaceX AI executives, including Graham Seamans, to expand enterprise sales and cybersecurity offerings amid new revenue strategies.",
+      "category": "global_markets",
+      "date": "2026-10-17 04:50",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/openai-poaches-another-spacex-sales-lead-focused-on-ai"
+    },
+    {
+      "headline": "Jio\u2019s $3.2 billion IPO tests Ambani appeal with young Indians",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Jio Platforms plans to raise about $3.2 billion in the offering, which opens on Oct. 21; the IPO will test how much the Reliance brand still matters to retail investors",
+      "category": "global_markets",
+      "date": "2026-10-17 04:07",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-17/jio-s-3-2-billion-ipo-tests-ambani-appeal-with-young-indians"
+    },
+    {
+      "headline": "Apple says iPhone Duo demand extraordinary after delivery delays",
+      "score": 6,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Many customers who opened Apple\u2019s online store Friday morning saw shipping delays pushed from November to December, then to the end of January",
+      "category": "global_markets",
+      "date": "2026-10-17 04:05",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/apple-iphone-duo-orders-slip-into-2027-amid-preorder-frenzy"
+    },
+    {
+      "headline": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong'\u00a0\u00a0Reuters",
       "category": "global_markets",
       "date": "2026-10-17 01:17",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5"
-    },
-    {
-      "headline": "Trump mocks popularity of the name Mohammad, common among Muslims - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump mocks popularity of the name Mohammad, common among Muslims\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-16 23:52",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ2c4Mjd3MjA4UFF3cXBJTVZKNkFCOXdERDN0YjY3NHNydFFzR1hXZ2V6dWljeGJYaUNNR3dEV1VXVHdXU3FhaTRtc21MSF8yZmRUd1lma0wzWU03S1pZR3E5NllSZVctYlJpSTJrLVMyekNHY0F0QkRBVEVLcVM3bnVTbzhLcDcya1d1ZzVsR0MwQ0psblVBenZnYl9IRjV4ZGl6Qg?oc=5"
-    },
-    {
-      "headline": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-16 21:51",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5"
-    },
-    {
-      "headline": "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US solicits exchange of up to 17 million barrels of oil from strategic reserve\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-16 21:36",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5"
-    },
-    {
-      "headline": "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "CoreWeave\u2019s bond yields and credit default swaps have surged as its stock sells off. Here\u2019s what those credit signals mean for stock investors.",
-      "category": "global_markets",
-      "date": "2026-10-16 20:33",
-      "link": "https://www.cnbc.com/investingclub/2026/10/16/coreweave-credit-default-swaps.html"
-    },
-    {
-      "headline": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-16 19:37",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjlHdlpLN0M4ZWJ5WmRvaUkyX2p0V0RNcnBqMmFaWVhqRzVUY2l6YlJkb2xpWXNXWXBZUlRXNzUyRHVhOXl2Wlh2bHROTWdQc1BYVkdjTVR3aFNaazVxOXR1REMtdW9HM0g3R3I0SW42T05qV3pOcDA0R2d3eC0xLWlxVS1MOFRiWHhyeFNzR0ZCWVl3dVplLU9wWmNNS3JhSGRBNjBTZjduSVp5TnlDd1pQN3ljajFBMHc?oc=5"
     }
   ]
 }
