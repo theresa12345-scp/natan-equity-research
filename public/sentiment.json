@@ -1,23 +1,25 @@
 {
-  "timestamp": "2026-10-19T19:42:05.536719",
+  "timestamp": "2026-10-20T10:39:35.351448",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
+    "avg_relevance": 7.3,
     "bullish": 8,
-    "neutral": 16,
-    "bearish": 1,
-    "high_priority": 8,
-    "material_events": 4
+    "neutral": 11,
+    "bearish": 6,
+    "high_priority": 11,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 15,
-    "Bloomberg": 2,
+    "The Wall Street Journal": 1,
+    "Reuters": 9,
+    "Bloomberg": 4,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "CNBC": 3
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -27,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -37,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -47,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -57,8 +59,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall",
+      "score": 9,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Latest market news.",
+      "category": "fixed_income",
+      "date": "2026-10-19 09:21",
+      "link": "https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-in-asian-trade-e5171539"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -67,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -77,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -87,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -97,8 +109,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "GM narrowed its 2026 earnings guidance and raised its adjusted automotive free cash flow outlook after beating Wall Street\u2019s third-quarter estimates.",
+      "category": "us_equities",
+      "date": "2026-10-20 10:39",
+      "link": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html"
+    },
+    {
+      "headline": "Indonesia\u2019s Selloff Deepens Across Stocks, Bonds on MSCI Risk",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Indonesian markets extended their selloff, with stocks deepening their worst rout in almost 30 years and losses spreading to bonds and the rupiah after MSCI Inc. warned the country may face a two-step downgrade.",
+      "category": "indonesia_equities",
+      "date": "2026-10-19 06:57",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-19/indonesian-stocks-tumble-to-lowest-since-2020-after-msci-warning"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -107,7 +139,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -117,38 +149,68 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-19 19:42",
+      "date": "2026-10-20 10:39",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+      "headline": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
       "score": 7,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "\"It looks like either the bond markets riot, or the people riot, or both,\" one analyst told CNBC.",
-      "category": "fixed_income",
-      "date": "2026-10-19 09:07",
-      "link": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+      "impact": "Investors are hopeful that last week's pullback was a clearing event for equities, but lingering concerns remain.",
+      "category": "corporate_earnings",
+      "date": "2026-10-19 20:57",
+      "link": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html"
     },
     {
-      "headline": "Global food inflation is expected to intensify as supply shocks pile up - Reuters",
+      "headline": "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
       "score": 7,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Global food inflation is expected to intensify as supply shocks pile up\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-19 04:04",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUVRkb2hsTDU1SE9pWjNla2I5RTYxUFJQZndkWkVIQ05EbzhUOWlfbGp5X2J2SHA0bTJpMGptenRDdXdWZ3E2VkthVVdBY2YxTFQ0SjhPc2xadGJWRFR2dENBZ1luZ1lEOUlsVTFxYnJxYmJ4ck9kZmtaQlg1bzFjemN5Rk1WdFhSb0tpT2c2OVVGd2lRenlBVnRud2E5S2ZsMlRucENKZ0hpLWJBd1dCX0R5VG10YkU?oc=5"
+      "impact": "Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-19 06:03",
+      "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html"
     },
     {
-      "headline": "Crushed tech stocks bounce \u2014 plus, new doctor survey keeps us positive on Lilly",
+      "headline": "Nasdaq futures gain as investors buy the dip in the AI trade: Live updates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The S&P 500 lost nearly 2% last week, its biggest weekly decline since late June. The Nasdaq fell 4.5%, snapping a four-week winning streak.",
+      "category": "us_equities",
+      "date": "2026-10-18 22:15",
+      "link": "https://www.cnbc.com/2026/10/18/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Bond Market\u2019s Big Short Bet Gets Wakeup Call as AI Trade Wobbles",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "US Treasuries are showing tentative signs of reclaiming their traditional role as a haven \u2014 threatening to wrong-foot investors who are heavily positioned for this year\u2019s bond slump to deepen.",
+      "category": "fixed_income",
+      "date": "2026-10-18 19:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles"
+    },
+    {
+      "headline": "Why smaller stocks face worse prospects than the S&P 500 in the coming years",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The Value Line Median Appreciation Potential has a good record forecasting smaller stocks\u2019 returns. And the next four years look bearish.",
+      "category": "us_equities",
+      "date": "2026-10-20 10:30",
+      "link": "https://www.marketwatch.com/story/why-smaller-stocks-face-worse-prospects-than-the-s-p-500-in-the-coming-years-f9f703ae?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Walmart launches joint membership with Sam's Club as it leans into delivery, gas discounts",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "impact": "Walmart is now offering a joint membership with Sam's Club for $120 per year as the retailer further leans into convenience.",
       "category": "global_markets",
-      "date": "2026-10-19 18:52",
-      "link": "https://www.cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html"
+      "date": "2026-10-20 10:00",
+      "link": "https://www.cnbc.com/2026/10/20/walmart-sams-club-plus-membership.html"
     },
     {
       "headline": "Every look from the Victoria's Secret Fashion Show - Reuters",
@@ -157,118 +219,58 @@
       "sentiment": "neutral",
       "impact": "Every look from the Victoria's Secret Fashion Show\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-19 18:27",
+      "date": "2026-10-20 08:29",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa2lPVEdrVzBfenM5SXI3MVNXTDdLQ1R5Si12OHFWQzF1TUtJaUZYdjl6SmZjSkdZeS1FSWV2a2JzeXc5TEFGdkliY09WTFE2SWYwRUQwVUJaWWsxV2dSNGZwYWlOMFMyd0kzaTZoN0xJZmJTRm9NUjdmdmhPeG9sYlJ5d05PVDREcWlFbF9YZ0U?oc=5"
     },
     {
-      "headline": "Germany summons Iranian envoy over plot to kill Jewish community leader - Reuters",
+      "headline": "Oil majors face spending test from Iran war windfall cash - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Germany summons Iranian envoy over plot to kill Jewish community leader\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-19 17:45",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMTBxMkF3RnVSeWFVMnUwOEZFYVAyeFRhRE9IVll1Q2czRDV3aWEtNzdvcV81TFZ1YzNjNDRkSHloSUFCUW9va0NyNEtSa1k0Wm9MeG9ZVE1sYkFpd0JoUjNXYm96NFdyY1FjNUFnNlljcEZQR3ByMUdXYVZOY2RDdnk3cEZXVHlfaTMzV19Xc0JTMDdPQmJlNHRrUE1Ua1ZtM0E5Umc2T3FrVmpXa3o3U29pZWdoSjNl?oc=5"
-    },
-    {
-      "headline": "Saudi Arabia postpones its 'Davos in the Desert' conference after attacks - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Saudi Arabia postpones its 'Davos in the Desert' conference after attacks\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-19 17:34",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXJvV3ktdmE4WU9ZNjVBcDRBYW9yNXJVYVI3MV83aWtIV0pYN0lGNzM4UlNRZDdpRGs1bGsxR18wcjY5STVhU1Q1VEZJUmRKWFZPUnoxSlpFaThtMzhjRlVIZGl2VVVYYTlYM181N0Jyb0h4ZWRrM2FVZFZsSFRBT1haU0QtdEp5QlZ6dVg2VVpyX2RsaDEzbnN2Q1NvSFc5WW5jT2VmVQ?oc=5"
-    },
-    {
-      "headline": "Christiane Amanpour to leave CNN after four decades as Ellison era begins - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Christiane Amanpour to leave CNN after four decades as Ellison era begins\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-19 17:12",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb1RuM0JKcU9Qaks5eThna1hYUlptN2YyRWlqc2dDX1kySU51MWZPNFd6bXpCVnVPZXptVl80VmlwLU9NbTVrVmNjeWpNUEs4WFFKekVFRGU2NTZJQlZxeEFINFJRa3RmTEVJbnhvUm83R2gyMDVEb3V5cmgxNHFBWnd6OVN5ZlBKQ09HcWJnSlhvM0FxTm9ORkNBdzg4RzJSZzhVWHdROU1oT0d6VEY3LXdLdUV5VkwzZGkxWlVjOTlqcG1l?oc=5"
-    },
-    {
-      "headline": "Rubio seeks to expand Central Asia ties with pomp-filled Uzbekistan visit - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Rubio seeks to expand Central Asia ties with pomp-filled Uzbekistan visit\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-10-19 16:16",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRjBMUkU1SEVNclFaMVR1SnljVENrS3N5RUdNcnV5UFZkdlB3RHdiWTFoSFRxcVRBVkRSOEowM0h4bHZyYmd4dDhKYlJQSzUzTUJ2QmxzaGtha2lxUldoLXRPSmczQndXbTNHRWxwRHBhZF9vdDdZRVl4WXJ0M3B0dEJrOWh1SkVzTXhIUTVydk11cEFPaXc3dGZBX0JnMk9hYlpOdkpXc3R3cllKTllGRG5MVC01QkZHNl9Td3J1VHhSckE?oc=5"
-    },
-    {
-      "headline": "Explainer: What's behind Egypt's move towards possible military involvement in Saudi-Yemen conflict? - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Explainer: What's behind Egypt's move towards possible military involvement in Saudi-Yemen conflict?\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-19 15:53",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVEFCaTJXdXlZR1NxZkpndXE3d0hRYWpmRUtBOXpXeTI3M2hUVnFSVVJrQm1NS29LLWlobDd4enF2OWxOY1h1SmJidXVlUksxeDdZdVMyZF9tVklTdWJiQzJZZzRNVnFEX0tMQUdCTW04WHhmdWdhQW42cERybkd1QzBDTHgxMklXU3dvbF9mbUt3a3RSb3NhZlpNbkpWcFNaWXZhMWE5TUkzTTVFMlI1YWV3NXJjb0lSMTRQVFNqbzFsRmZwRmtB?oc=5"
-    },
-    {
-      "headline": "Israel to resume commercial shipments to Gaza after Hamas fee dispute - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israel to resume commercial shipments to Gaza after Hamas fee dispute\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-19 15:48",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTE16ZHdCQXFFa1VvMzZRSFhtMER6Mmh2WVltcWZHcE9MYTByYXRIMWJvV2RJb1B4RXpoekFiTDV5Z1lyU1BmQ2FtUnZxT3ZqTnJwWEhSSnZUSmlobGRXcUYwYWxycU5NRjlNYWF0elNBR0FJUnRLZHJGeDRuSWNaXzI2aWhxbHpjNnFtbkN2N1lZa3luUHlXaHNVTnV3TzNjbmVnQVdsWnFIRGRCU2JDamM0SVZHTng0?oc=5"
-    },
-    {
-      "headline": "We're buying more of a beaten-up stock before another overhang is lifted",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "The stock is still down big from its Aug. 5 close.",
-      "category": "global_markets",
-      "date": "2026-10-19 15:43",
-      "link": "https://www.cnbc.com/investingclub/2026/10/19/were-buying-more-of-a-beaten-up-stock-before-another-overhang-is-lifted.html"
-    },
-    {
-      "headline": "France in turmoil after riots and looting: What we know - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "France in turmoil after riots and looting: What we know\u00a0\u00a0Reuters",
+      "sentiment": "negative",
+      "impact": "Oil majors face spending test from Iran war windfall cash\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-10-19 15:42",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdnU5M25aUmFwSHBYZjhkMFl5RlU1dkZMVTVuSlBWeHZPX01SUGVZUGF3Wm94U2wwUlYzdWxxbGowVXhMM09ON3NFbjV0WElKTFVsZVlGQkprLTZQTGxkaEYwSDBxcHNUMWVDQmczLVlJWHd5Ym5Id2ozZDRENTBvWURQekl2NW9ablROeHI4Z0c4ZFlZM0x0Y2V3ZEFJUQ?oc=5"
+      "date": "2026-10-20 06:04",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQemV5ZWpZWkdhUzlRTmJsLXMyNVFMa0EzLTYxSGJubDVlSkVWMGVuckZDRVZOOS05eGc1aHlSOGJva3A5d2R2SENNNVBNeTM5eXNEeWJWTDlDbzBUdlZTTDdFZDRlT3dkVWtSWmJJekhvc3BSQk5KbnlTcjR2Q1otUEFlS0JYSUVZclR1d0NGRzJJaHBXbFdBS1RPZWZqOVNXemZtVmlRQQ?oc=5"
     },
     {
-      "headline": "Meta apologizes after suspending \"No Kings\" Instagram account - Reuters",
+      "headline": "As France erupts, Europe's far right gains from fuel-price anger ahead of elections - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "As France erupts, Europe's far right gains from fuel-price anger ahead of elections\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-20 06:02",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRjl5VmhGZHJ1bUpkdTZQaElWaWdnSFVkdVVQOUhzN3Y5SFdHOUNpS0pXQjdsVzhMVm1YOFloSGhHbnNYT29talRoNVJWdlRDVkdCM0VQV1lIUFZSbG9MV3BPclJZZGVtejVZZFNNWWxxdFdBM19hS2pQdHNaWm51MFRFNWxLWHdzVzQwN1ZxeXFFenRPREthTGRvVW9vOW1JdWpiVWk0VE9UQWlqRnZJWEJ0aFVYd2xBR3FN?oc=5"
+    },
+    {
+      "headline": "How safe havens stack up as tech, energy and France fears grip markets - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "How safe havens stack up as tech, energy and France fears grip markets\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-20 04:06",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcHQwSENyS3lkNi05UkRqMGdnZVg3dUlBWC1KdE8wemZkNmthdFBhSG9MSXB5VV9Yd3ExSWI1ZDBFVEdpY1JKSl92RzlOOHhfbHpqeEdmUWlwa09IdlVqb0pyNDAzTzVGZjJDd05xMHlRazVZTUQ0eWxZWm8wZEFSRlllNkg5Mml6MFNBNEJ1OXdnTHlE?oc=5"
+    },
+    {
+      "headline": "Brent hits five-month high as attacks on ships, Saudi sites fuel supply worries - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Meta apologizes after suspending \"No Kings\" Instagram account\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-19 15:07",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRS0zZWNoLW9WajlJVDROa1puZGVHU0FTMGhMOWNXWGVieWUzM2ZWekUxcWlBX2tjb0sxOEVRYnozR0l3TW90YmlRV2FodkJENFZYY0Y2VVdLelM1MHFlc1FHUVFXdUVLeUpURHFFTjU3ZmZ1RGsyZzYtZmVIeUFxc0JEYm02LU5SRzVGQmx3VEdGd1lza19TZlk0alFEaU5LeHNPUDFNSlpKdw?oc=5"
+      "impact": "Brent hits five-month high as attacks on ships, Saudi sites fuel supply worries\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-10-20 00:58",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZlA3RXBMd0lXRU1feWpodXpZQ2tnUERkUHFQSlFGX2hCMjdrOVdhRVd2eVk3dmhLYklUdVM1WGtoXzc0cUt2OG44WjBYVFVZazFvQWo1UmJWRlliNzJHWlZBU1hScTU1RU9sVEdDVllsSWE4UXh5b0ZHX0VlU01fNDc3ckpxRkw3ZGdaM0xxMW1qOEhWck1XYUlSVkJWeVZyZWRRSkpqdTFQSmZhejlBRmkxZUJmMGtPVWx6Ym82SnNTcElaWGc?oc=5"
     },
     {
-      "headline": "Houthi attack kills 53 at Yemen government training camp, officials say - Reuters",
+      "headline": "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Houthi attack kills 53 at Yemen government training camp, officials say\u00a0\u00a0Reuters",
+      "impact": "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-19 15:03",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSXFqMTJmVlRrSjR1NmNocW1VRWFpV1pSMjlNZDh1YXBsS2gyRkE0c19uRXJCQXN4Nklqajh6Tk4yeHhlRWRpWG81WXJMRVJmWXREaXZ2UkJfT3FNOFJndW9PNHBTZFRvVGJnbmFkeU10ZDlWdWY2N0kzVkFDVTh5NG0zZlZiM0N3bWthZmF2LUJjUXlEd29WOVRLZFdodFA0YlcwRl9fX0ptQ2dyN2I5RjVfRWJxRW1vYmF6VURGWQ?oc=5"
-    },
-    {
-      "headline": "Iran's Araqchi blames US for Strait of Hormuz tensions, calls for diplomacy - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran's Araqchi blames US for Strait of Hormuz tensions, calls for diplomacy\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-19 14:17",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlo2WUlLX2EybUtYaE1xNVNaUWZvMFUtd1BrNk1meXpwa1ZoUDhVa21IWGZ3SmJ2b2U4ZmV6VDlqUzIxWVBoQVZqblJyaDlBa3ptUFJFZHZkVjBkRmY0d1cyZzlnazA3R1pDWVo3M2I1a1ViLWZMYmVpNHVmQzg0aXRnYnVoWDFNMk5kbWR5bGVuelNhRGh2c1had0pKYVoyY3ByS0dXUQ?oc=5"
+      "date": "2026-10-19 22:47",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOazNPMm5GbVJUYTRwVVVraElGMVptZkdyb0pkbklkdWMzY01zYWlkYTNNTDlxMFVnanBvVkczd3ozNUxZbDJ0Wl9JQ1hDOGtLZjJsM0hzeXRDTUpFYkhnWHFnQUFqRnZEVFFXZ1hHY1Vrb2hmbk1kaVNUTWZEZ0hoWURkZ080ZUlNQnVBaFhLWVNpTDliV3BmVHMzU05EQWUzTWdlNVd4dHpFNmhEUTZoRWVYVFJLQ1U?oc=5"
     }
   ]
 }
