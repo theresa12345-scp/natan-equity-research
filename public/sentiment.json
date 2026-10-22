@@ -1,24 +1,25 @@
 {
-  "timestamp": "2026-10-22T10:51:45.465254",
+  "timestamp": "2026-10-22T18:23:59.527632",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 12,
-    "neutral": 11,
-    "bearish": 2,
-    "high_priority": 11,
-    "material_events": 5
+    "avg_relevance": 7.3,
+    "bullish": 11,
+    "neutral": 13,
+    "bearish": 1,
+    "high_priority": 9,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 8,
-    "Reuters": 9,
-    "Bloomberg": 2,
+    "Reuters": 5,
+    "Bloomberg": 3,
+    "CNBC": 9,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 1
+    "MarketWatch": 1,
+    "The Wall Street Journal": 2
   },
   "top_signals": [
     {
@@ -28,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,18 +59,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Wall Street and investors will be looking for Netflix to provide additional details about the company's strategy following recent organizational changes",
-      "category": "corporate_earnings",
-      "date": "2026-10-20 22:29",
-      "link": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -78,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -88,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -98,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -108,28 +99,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
+      "headline": "Comcast beats earnings expectations as media revenue offsets weakness in connectivity",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "GM narrowed its 2026 earnings guidance and raised its adjusted automotive free cash flow outlook after beating Wall Street\u2019s third-quarter estimates.",
-      "category": "us_equities",
-      "date": "2026-10-20 20:08",
-      "link": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html"
-    },
-    {
-      "headline": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Housing data deteriorated further in September, according to separate reports Tuesday.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-20 17:50",
-      "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+      "sentiment": "neutral",
+      "impact": "Comcast is in the process of spinning off its media business into a separate publicly traded company.",
+      "category": "corporate_earnings",
+      "date": "2026-10-22 11:42",
+      "link": "https://www.cnbc.com/2026/10/22/comcast-cmcsa-earnings-q3-2026.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -138,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -148,8 +129,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-22 10:51",
+      "date": "2026-10-22 18:23",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "\u2018AI is on trial\u2019: Bond yields sink below 5% as investors look for safety",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Investors are flooding back into Treasurys for safety to hedge the risks of more AI fallout in stock and credit markets.",
+      "category": "fixed_income",
+      "date": "2026-10-22 17:16",
+      "link": "https://www.marketwatch.com/story/ai-is-on-trial-bond-yields-sink-below-5-as-investors-look-for-safety-dbc86ee9?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices.",
+      "category": "corporate_earnings",
+      "date": "2026-10-22 12:42",
+      "link": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html"
+    },
+    {
+      "headline": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Procter & Gamble topped Wall Street's estimates for its quarterly earnings and revenue.",
+      "category": "corporate_earnings",
+      "date": "2026-10-22 11:21",
+      "link": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html"
+    },
+    {
+      "headline": "Middle East, North Africa and Pakistan GDP to contract 1.3% in 2026, IMF says - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Middle East, North Africa and Pakistan GDP to contract 1.3% in 2026, IMF says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-22 06:04",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0pwaXRXY250QlJhREhaOWJuV1A0a0tWNGRXLW9VdjlFS2dSR09IdFNSRnA1VnotZW9ydlUwYy1GN3Rhb3JmaDlFRzZROVZyUUtqcUg4NzN3S1lfRzBtMERGcmREaFdvUXFwS2pCSXlLdzVUaDRLVm91TVZ4c1p2Q2xwSEZudGhuRkVhOGJLUDY0SUhuMFlVeFkyOEtWYlBvOVFBQW9lV2IzSTFxb09lT0k4d2tmZlk?oc=5"
     },
     {
       "headline": "Dip in the dollar takes a breather with Fed in focus - Reuters",
@@ -162,54 +183,34 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE9SaFExZHZyS2plVTA2NHNkbDFpcGpBSVVhc3J2NmZrRmtMRW1uY0FUU0JDMGtFQncxcnB3bUlFY21oa3V2VTZtOWsxcEVrWFhfOWZOd2oxY09XaWtpQ2ltWnE2NFFTYmg0OVNhaHJLVFdocG9NdGh1N3hjVzRPZUJlVW8wRFU3N24zR0tZbjk2bkNGVFhXaE1qbw?oc=5"
     },
     {
-      "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+      "headline": "Stock Market Today: Nasdaq Opens Higher; SpaceX Shares Surge on Tesla Deal Talks \u2014 Live Updates",
       "score": 7,
-      "source": "CNBC",
+      "source": "The Wall Street Journal",
       "sentiment": "positive",
-      "impact": "Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices.",
-      "category": "corporate_earnings",
-      "date": "2026-10-21 20:36",
-      "link": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html"
+      "impact": "Live updates on markets and the top finance, economics and business stories. Plus the latest on bonds, oil prices, the Dow, S&P 500 and Nasdaq.",
+      "category": "us_equities",
+      "date": "2026-10-21 13:34",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026"
     },
     {
-      "headline": "UK's FTSE 100 ticks higher on energy boost; hot inflation report limits gains - Reuters",
+      "headline": "The Treasury Market\u2019s New Power Brokers Are Pickier Than Ever",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "UK's FTSE 100 ticks higher on energy boost; hot inflation report limits gains\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-21 16:28",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMG9KdWFSdV90N2s0bHM3d0xsTVlOMGduRE1RZ1FvSi1SbnU4MFlRQUIteDlZTC03TmNHVFl3Z2lhV2FrN1NwQjV5Wk1rU096X1pUNXB4M2c2bS1MdXlSeEZHaTJobmFsQzlvYTN6WHpyd2FkRzFqOFdkbzZUdjZoNzJCa1B6c2RxMzBmemg3RnBWdldpM0x0VEtCR0F0YXE3N3V2YXppNnN6ejBs?oc=5"
-    },
-    {
-      "headline": "Meta stock advances ahead of after-the-bell earnings. What we're looking for",
-      "score": 7,
-      "source": "CNBC",
+      "source": "Bloomberg",
       "sentiment": "neutral",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "category": "corporate_earnings",
-      "date": "2026-10-21 16:00",
-      "link": "https://www.cnbc.com/investingclub/2026/10/21/meta-stock-advances-ahead-of-after-the-bell-earnings-what-were-looking-for.html"
+      "impact": "Beset by a selloff in Treasuries that\u2019s sent benchmark yields to multidecade highs, the US government is finding itself increasingly dependent on investors who only buy if the price is right.",
+      "category": "fixed_income",
+      "date": "2026-10-21 10:15",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-21/the-treasury-market-s-new-power-brokers-are-pickier-than-ever"
     },
     {
-      "headline": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
+      "headline": "Exclusive | How Much Can You Safely Spend in Retirement? A 401(k) Giant Offers Guidance",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "United Airlines cut its profit outlook for the year as fuel prices continued to climb.",
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
       "category": "corporate_earnings",
-      "date": "2026-10-21 11:27",
-      "link": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html"
-    },
-    {
-      "headline": "Stock futures rise as traders evaluate latest raft of earnings; SpaceX shares surge: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "This earnings season could help propel stocks as the year winds down, said Christian Mueller-Glissmann, head of asset allocation for Goldman Sachs Research.",
-      "category": "corporate_earnings",
-      "date": "2026-10-21 07:55",
-      "link": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+      "date": "2026-10-21 10:00",
+      "link": "https://www.wsj.com/personal-finance/retirement/how-much-can-you-safely-spend-in-retirement-a-401-k-giant-offers-guidance-0af4f348"
     },
     {
       "headline": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations",
@@ -222,54 +223,54 @@
       "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
     },
     {
-      "headline": "Why a global bank is slashing thousands of jobs \u2014 and what the Fed says about AI replacing workers",
+      "headline": "Elon Musk invests about $1 billion in Skydance",
       "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Barclays on Thursday said it\u2019s cutting 5,000 jobs, about 5% of its workforce, as the bank relies on artificial intelligence to perform back-office tasks.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-22 08:47",
-      "link": "https://www.marketwatch.com/story/why-a-global-bank-is-slashing-thousands-of-jobs-and-what-the-fed-says-about-ai-replacing-workers-9529b6ca?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "COMMENTARY: China uses crude stockpiles, but rising oil imports may curtail draws - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "COMMENTARY: China uses crude stockpiles, but rising oil imports may curtail draws\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-22 06:12",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMXlFU3FvdEtaU3AxTmhWTm5iUHV1R1pLeWhhM3JFR0FUSm9ua3pod2x4WUdUWHZXMW5Mc1FaY0RMakFzNkN3akV5OE0tODVVRHp4QWlMS0ZiUTg3NkhuODdNVkdkR3RHRGh0Mkhaa2QzNl9aUEl0bVlvSWRoTjJfTnhxeEVpU0pzbE5lcjFUS0R5b2xTSTB2ZkdGX1VtcUxyOTRhejdLWmxVUmRFTElxV01JZXUtaUZWb2s1cTNlM1hyZ1ltUF82NkxVV3RZdw?oc=5"
-    },
-    {
-      "headline": "IMF sees 1.3% contraction in Middle East, North Africa and Pakistan in 2026 - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "IMF sees 1.3% contraction in Middle East, North Africa and Pakistan in 2026\u00a0\u00a0Reuters",
+      "impact": "David Ellison's father, billionaire and Oracle co-founder Larry Ellison, has a history with Musk.",
       "category": "global_markets",
-      "date": "2026-10-22 06:04",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0pwaXRXY250QlJhREhaOWJuV1A0a0tWNGRXLW9VdjlFS2dSR09IdFNSRnA1VnotZW9ydlUwYy1GN3Rhb3JmaDlFRzZROVZyUUtqcUg4NzN3S1lfRzBtMERGcmREaFdvUXFwS2pCSXlLdzVUaDRLVm91TVZ4c1p2Q2xwSEZudGhuRkVhOGJLUDY0SUhuMFlVeFkyOEtWYlBvOVFBQW9lV2IzSTFxb09lT0k4d2tmZlk?oc=5"
+      "date": "2026-10-22 18:02",
+      "link": "https://www.cnbc.com/2026/10/22/elon-musk-skydance-investment.html"
     },
     {
-      "headline": "India's Mideast oil imports return to pre-war levels in September - Reuters",
+      "headline": "We're dipping back into the AI trade with our first data center buy in weeks",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "India's Mideast oil imports return to pre-war levels in September\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-22 06:02",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRl9GVUFVbTBqSFIzbnJpZmJ0c3Q5ZFJlQ0hQUkkwZW5aVDdVWTMwczBlRFRTbF9zM0NNODcyWG9PUTg5WXZKOXRfSUdJSXhHM1FPcFhUOTVmb0pIUHh5Rl9tYldSWDd1all5UV9fV2VMSmNxSUU4anJpUVVvMkFadHpQcmwxdFhRSHlvSXhpMEY1bXNkV2NnUnVNelltUHVRQjFzWE14TWZVVnhrRndv?oc=5"
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The stock is also getting an upgrade, with the expectation of a bounce ahead.",
+      "category": "global_markets",
+      "date": "2026-10-22 17:28",
+      "link": "https://www.cnbc.com/investingclub/2026/10/22/were-dipping-back-into-the-data-center-trade-with-small-buy.html"
     },
     {
-      "headline": "COMMENTARY: Don't mistake Mideast oil rebound for normality - Reuters",
+      "headline": "Pepsi renews contract with Taco Bell days after KFC switches to Coke in the U.S.",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "COMMENTARY: Don't mistake Mideast oil rebound for normality\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-22 06:00",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnNNcW94aG5WWHAzeXd2Zzl1TFVkQ3BxSzdlbm50RE9WS2tXcFBwLXk2TGdpQ25GZjcwb05fekJTZUY4eWxHSW9udnBqdDRhQ0JvLXZPSUFmNWZPYmR3T1hOaVZBb0hXWHFIODJPeVBWWERsVDRHelhSODBoWEZVbzFQTnBQRmFZT0h6MS04WlQ3eThuYUEzNjAtcHphdkNGNGpUSW5BNFVRNGlJQU1Mcw?oc=5"
+      "impact": "Taco Bell is sticking with longtime beverage supplier PepsiCo, even though sister chain KFC defected to Coca-Cola.",
+      "category": "global_markets",
+      "date": "2026-10-22 15:52",
+      "link": "https://www.cnbc.com/2026/10/22/pepsico-taco-bell-beverage-deal.html"
+    },
+    {
+      "headline": "AI stocks tumble as the defensives rise. What it says about this uneasy market",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "category": "global_markets",
+      "date": "2026-10-22 15:45",
+      "link": "https://www.cnbc.com/investingclub/2026/10/22/ai-stocks-tumble-as-the-defensives-rise-what-it-says-about-this-uneasy-market.html"
+    },
+    {
+      "headline": "Cruise lines chase luxury travelers with suites for up to $25,000 a night",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "CNBC got a tour of the Regent Suite, a top-of-the-line offering on Regent's Seven Seas Splendor that goes for $15,000 a night.",
+      "category": "global_markets",
+      "date": "2026-10-22 15:16",
+      "link": "https://www.cnbc.com/2026/10/22/luxury-cruise-suites-regent-seven-seas.html"
     }
   ]
 }
