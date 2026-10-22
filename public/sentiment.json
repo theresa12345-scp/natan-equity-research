@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-21T18:28:54.649907",
+  "timestamp": "2026-10-22T10:51:45.465254",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.4,
-    "bullish": 15,
-    "neutral": 10,
-    "bearish": 0,
-    "high_priority": 10,
+    "bullish": 12,
+    "neutral": 11,
+    "bearish": 2,
+    "high_priority": 11,
     "material_events": 5
   },
   "sources": {
@@ -14,10 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 9,
+    "CNBC": 8,
     "Reuters": 9,
     "Bloomberg": 2,
-    "Caixin/S&P Global": 1
+    "Caixin/S&P Global": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -27,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -37,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -47,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -57,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -77,7 +78,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -87,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -97,7 +98,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -107,7 +108,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -121,13 +122,23 @@
       "link": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html"
     },
     {
+      "headline": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Housing data deteriorated further in September, according to separate reports Tuesday.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-20 17:50",
+      "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+    },
+    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -137,8 +148,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-21 18:28",
+      "date": "2026-10-22 10:51",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Dip in the dollar takes a breather with Fed in focus - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Dip in the dollar takes a breather with Fed in focus\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-10-22 02:10",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE9SaFExZHZyS2plVTA2NHNkbDFpcGpBSVVhc3J2NmZrRmtMRW1uY0FUU0JDMGtFQncxcnB3bUlFY21oa3V2VTZtOWsxcEVrWFhfOWZOd2oxY09XaWtpQ2ltWnE2NFFTYmg0OVNhaHJLVFdocG9NdGh1N3hjVzRPZUJlVW8wRFU3N24zR0tZbjk2bkNGVFhXaE1qbw?oc=5"
+    },
+    {
+      "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices.",
+      "category": "corporate_earnings",
+      "date": "2026-10-21 20:36",
+      "link": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html"
     },
     {
       "headline": "UK's FTSE 100 ticks higher on energy boost; hot inflation report limits gains - Reuters",
@@ -171,104 +202,74 @@
       "link": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html"
     },
     {
-      "headline": "South African inflation rises modestly but bigger fuel-driven jump seen in October - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "South African inflation rises modestly but bigger fuel-driven jump seen in October\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-21 10:21",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOampUMVFEMmRCN2JXOXg1dTR6aGdjaFVmRF9IeGF4Q3J4a05MQ2hpdmk3ZU04MU01dTFVQzZ6dGoxUGxTRktfbUpURUxtZmdMdWdid054OFJHWGVYVmI4eTdvWUlCak1LM0JZNjJTRDB5NWllNlI0TUZfOTZEMlhUbV9PMW1nWE5hNTV5ZUVHQjNnVkw5UU5oTUkzNVZPSWhNVkZPMV9fcTc?oc=5"
-    },
-    {
-      "headline": "Pound gains against dollar, euro as inflation data cements future rate hike bets - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Pound gains against dollar, euro as inflation data cements future rate hike bets\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-21 09:54",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONEtnY2tIVF9OZTdBSTNUOHpQWjFKYzlBd1JYdEx6eXBBTGV3M0U1RGVQT08tT1o2NEdXTzUzZ3d4eGV4OVN2Ukc3c0h1RjRMNy02VHNpd3hiSl9fcFNnV2tyUjNyaVpzeWc0akVmVk94Z3VTU3VFZi1TMlp6S2xUR2habU5BYkVhWWtoMVhCNGlDMmFCa245OUJPWlFvRl9PcFdFdWo4VGEwVFNPalVITEkzYWZtT3pBMUNrT0hR?oc=5"
-    },
-    {
-      "headline": "UK inflation jumps to highest in nearly a year at 3.5% - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "UK inflation jumps to highest in nearly a year at 3.5%\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-21 06:04",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOURnbmVSYmVXLUUxTlpGWGFUbXplMlVvWTlhVlpKTkZKb1E1Q0pSTGthMmVLRkt0VTc0ZHllSnd0X2J6c1M2ajRXWGEzbUgyUHhLWlF5RVk2QktQWHU5eXFKQmxzVWdnQ0N3RkhXZXlKemNkZ3hWd2JIR1N1SW5ZeW4wWjAyOVBNLXVDWklIZEZaeHVHM1lzOUNHN2x1aEk?oc=5"
-    },
-    {
-      "headline": "Dollar mixed as traders wait on Fed, Aussie gains - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Dollar mixed as traders wait on Fed, Aussie gains\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-10-21 01:20",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMmhtRnJCbDhIc08yUUUxQnBOU0tmczBNT3JOTjBKVy1LY0VCUW1pdk9hNW83QXdqM3pKOGthelR0NldvLUx6ZHdfUWpTTnpHOVhVeG9nR0tUWjVqNlUyT09jbVp3eUZDb1RLbjhLakZYUXZfcXNoVndFSG50cUw5alpFRHVpNWdUMWtxLWpXMUZsdFE1RVhtX0RWVkVLazFFNUlIZi1fcHRJUjZYY090OVBwaTZMUnJ4TmdtbWFR?oc=5"
-    },
-    {
-      "headline": "Dow jumps 500 points as solid earnings, falling crude oil stir rebound: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A number of upbeat earnings reports and a drop in oil prices overshadowed recent pressure seen among artificial intelligence-related stocks.",
-      "category": "us_equities",
-      "date": "2026-10-20 16:37",
-      "link": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "SpaceX earnings live updates: Here's why analysts are bullish ahead of the report",
+      "headline": "Stock futures rise as traders evaluate latest raft of earnings; SpaceX shares surge: Live updates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Follow SpaceX\u2019s Q3 2026 earnings live, with updates on revenue, Starlink, AI spending, Starship, guidance and SPCX stock.",
+      "impact": "This earnings season could help propel stocks as the year winds down, said Christian Mueller-Glissmann, head of asset allocation for Goldman Sachs Research.",
       "category": "corporate_earnings",
-      "date": "2026-10-20 16:10",
-      "link": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html"
+      "date": "2026-10-21 07:55",
+      "link": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Trump-aligned super PACs pour millions into once-safe GOP House seats",
-      "score": 6,
+      "headline": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations",
+      "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Trump-aligned PACs are pouring hundreds of millions into House and Senate races as Republicans defend an expanding midterm election battleground map.",
+      "impact": "U.K. inflation rose by a hotter-than-expected 3.5% in the 12 months to September, driven by the surging cost of motor fuels.",
       "category": "global_markets",
-      "date": "2026-10-21 17:51",
-      "link": "https://www.cnbc.com/2026/10/21/trump-pac-spending-midterm-election-house-republicans.html"
+      "date": "2026-10-21 06:02",
+      "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
     },
     {
-      "headline": "Putin agrees to resume 3-way peace talks with Ukraine and US - Reuters",
+      "headline": "Why a global bank is slashing thousands of jobs \u2014 and what the Fed says about AI replacing workers",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Barclays on Thursday said it\u2019s cutting 5,000 jobs, about 5% of its workforce, as the bank relies on artificial intelligence to perform back-office tasks.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-22 08:47",
+      "link": "https://www.marketwatch.com/story/why-a-global-bank-is-slashing-thousands-of-jobs-and-what-the-fed-says-about-ai-replacing-workers-9529b6ca?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "COMMENTARY: China uses crude stockpiles, but rising oil imports may curtail draws - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Putin agrees to resume 3-way peace talks with Ukraine and US\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-21 15:44",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5"
-    },
-    {
-      "headline": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Wall Street\u2019s Big Three have generated $52 billion in equity trading revenue this year, capturing about 80% of the market on rising margin lending to hedge funds.",
+      "impact": "COMMENTARY: China uses crude stockpiles, but rising oil imports may curtail draws\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-10-21 15:30",
-      "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html"
+      "date": "2026-10-22 06:12",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMXlFU3FvdEtaU3AxTmhWTm5iUHV1R1pLeWhhM3JFR0FUSm9ua3pod2x4WUdUWHZXMW5Mc1FaY0RMakFzNkN3akV5OE0tODVVRHp4QWlMS0ZiUTg3NkhuODdNVkdkR3RHRGh0Mkhaa2QzNl9aUEl0bVlvSWRoTjJfTnhxeEVpU0pzbE5lcjFUS0R5b2xTSTB2ZkdGX1VtcUxyOTRhejdLWmxVUmRFTElxV01JZXUtaUZWb2s1cTNlM1hyZ1ltUF82NkxVV3RZdw?oc=5"
     },
     {
-      "headline": "Salesforce goes back to the M&A well to fortify a weaker business. Why it's a smart move",
+      "headline": "IMF sees 1.3% contraction in Middle East, North Africa and Pakistan in 2026 - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "The enterprise software giant's planned acquisition of Braze will beef up its marketing business and avoids diluting shareholders in the process.",
+      "impact": "IMF sees 1.3% contraction in Middle East, North Africa and Pakistan in 2026\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-21 15:27",
-      "link": "https://www.cnbc.com/investingclub/2026/10/21/salesforce-goes-back-to-the-ma-well-to-fortify-a-weaker-business-why-its-a-smart-move.html"
+      "date": "2026-10-22 06:04",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0pwaXRXY250QlJhREhaOWJuV1A0a0tWNGRXLW9VdjlFS2dSR09IdFNSRnA1VnotZW9ydlUwYy1GN3Rhb3JmaDlFRzZROVZyUUtqcUg4NzN3S1lfRzBtMERGcmREaFdvUXFwS2pCSXlLdzVUaDRLVm91TVZ4c1p2Q2xwSEZudGhuRkVhOGJLUDY0SUhuMFlVeFkyOEtWYlBvOVFBQW9lV2IzSTFxb09lT0k4d2tmZlk?oc=5"
+    },
+    {
+      "headline": "India's Mideast oil imports return to pre-war levels in September - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "India's Mideast oil imports return to pre-war levels in September\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-10-22 06:02",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRl9GVUFVbTBqSFIzbnJpZmJ0c3Q5ZFJlQ0hQUkkwZW5aVDdVWTMwczBlRFRTbF9zM0NNODcyWG9PUTg5WXZKOXRfSUdJSXhHM1FPcFhUOTVmb0pIUHh5Rl9tYldSWDd1all5UV9fV2VMSmNxSUU4anJpUVVvMkFadHpQcmwxdFhRSHlvSXhpMEY1bXNkV2NnUnVNelltUHVRQjFzWE14TWZVVnhrRndv?oc=5"
+    },
+    {
+      "headline": "COMMENTARY: Don't mistake Mideast oil rebound for normality - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "COMMENTARY: Don't mistake Mideast oil rebound for normality\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-10-22 06:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnNNcW94aG5WWHAzeXd2Zzl1TFVkQ3BxSzdlbm50RE9WS2tXcFBwLXk2TGdpQ25GZjcwb05fekJTZUY4eWxHSW9udnBqdDRhQ0JvLXZPSUFmNWZPYmR3T1hOaVZBb0hXWHFIODJPeVBWWERsVDRHelhSODBoWEZVbzFQTnBQRmFZT0h6MS04WlQ3eThuYUEzNjAtcHphdkNGNGpUSW5BNFVRNGlJQU1Mcw?oc=5"
     }
   ]
 }
