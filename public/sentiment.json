@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-23T18:10:29.459934",
+  "timestamp": "2026-10-24T09:59:37.505386",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 10,
+    "avg_relevance": 7.3,
+    "bullish": 12,
     "neutral": 12,
-    "bearish": 3,
-    "high_priority": 10,
+    "bearish": 1,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,11 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
-    "Bloomberg": 2,
-    "CNBC": 11,
+    "Reuters": 8,
+    "Bloomberg": 3,
+    "CNBC": 7,
     "Caixin/S&P Global": 1,
-    "Seeking Alpha": 1
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -28,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,18 +98,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "U.S. Treasury yields edged higher on Friday following a sharp reversal on Thursday.",
-      "category": "fixed_income",
-      "date": "2026-10-23 12:12",
-      "link": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html"
     },
     {
       "headline": "Comcast beats earnings expectations as media revenue offsets weakness in connectivity",
@@ -128,7 +118,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -138,8 +128,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-23 18:10",
+      "date": "2026-10-24 09:59",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
+      "category": "fixed_income",
+      "date": "2026-10-23 22:29",
+      "link": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html"
     },
     {
       "headline": "Investors are starting to find opportunities in the battered bond market",
@@ -172,34 +172,24 @@
       "link": "https://www.cnbc.com/2026/10/23/darden-brinker-qsr-stocks-restaurant-earnings.html"
     },
     {
-      "headline": "Higher interest rates have made family offices pickier about investing in real estate",
+      "headline": "Asian Stocks to Slide on Tech Rout, Bonds Rally: Markets Wrap",
       "score": 7,
-      "source": "CNBC",
+      "source": "Bloomberg",
       "sentiment": "positive",
-      "impact": "Higher interest rates have made family offices more selective about investing in real estate.",
-      "category": "global_markets",
-      "date": "2026-10-23 12:01",
-      "link": "https://www.cnbc.com/2026/10/23/high-interest-rates-raise-the-bar-for-real-estate-deals.html"
+      "impact": "Technology stocks trimmed their losses heading into the European session, offering global investors some respite after renewed pressure on the artificial intelligence trade drove demand for bonds. Crude oil extended its gains.",
+      "category": "fixed_income",
+      "date": "2026-10-23 02:35",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-22/stock-market-today-dow-s-p-live-updates"
     },
     {
-      "headline": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+      "headline": "Treasury yields see extreme plunge. Why investors are ducking for cover.",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "\"We're going to have an amazing 2027,\" he said.",
-      "category": "global_markets",
-      "date": "2026-10-22 14:55",
-      "link": "https://www.cnbc.com/2026/10/22/bill-ackman-talks-meta-and-markets-with-cnbc.html"
-    },
-    {
-      "headline": "AI doubts drive bond rally as Meta, IBM flash warning signs (TLT:NASDAQ)",
-      "score": 7,
-      "source": "Seeking Alpha",
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "AI stock anxiety sparks bond buying as Treasury yields fall.",
-      "category": "us_equities",
-      "date": "2026-10-22 14:24",
-      "link": "https://seekingalpha.com/news/4655965-ai-doubts-spark-bond-rally-as-meta-ibm-flash-warning-signs"
+      "impact": "The scramble for safety was attributed to a confluence of factors suddenly plaguing the market all at once",
+      "category": "fixed_income",
+      "date": "2026-10-22 21:32",
+      "link": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66"
     },
     {
       "headline": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
@@ -222,54 +212,64 @@
       "link": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html"
     },
     {
-      "headline": "American Express is cutting 5% of its workforce to 'prepare for AI'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Amex, which reported third-quarter results earlier Friday, is taking a $336 million restructuring charge in the quarter, CEO Stephen Squeri said Friday.",
-      "category": "global_markets",
-      "date": "2026-10-23 17:21",
-      "link": "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html"
-    },
-    {
-      "headline": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-23 17:08",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTNudHNub01PQk1mQ1pIc3I0d2N5TGJPTG5lSlkwSWZKc05VMHpaNGtRTmpmd1pDblNPYjZGbEw3d05QeThxdjNJWDhYX09KMDdPeTlOeWxhX0txVTVrVzRvdWwzMEFfN01jYUNoN1dEVkRQMjlrUENUNVcxMkNuZDlyTnVQMlBkNmhJRzRjRkRESDVJZmdWYzJFMUtzUzBMdFpXVWNoM0hzOTBaajZhRDJtQ0U5ZFlzMkdaZ3BZa2ZPN0RwUHR6cQ?oc=5"
-    },
-    {
-      "headline": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Reuters",
+      "headline": "Saudi civil defense says danger passed after brief alerts for Mecca, Jeddah, Taif and Yanbu - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say\u00a0\u00a0Reuters",
+      "impact": "Saudi civil defense says danger passed after brief alerts for Mecca, Jeddah, Taif and Yanbu\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-23 16:59",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?oc=5"
+      "date": "2026-10-24 08:34",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5"
     },
     {
-      "headline": "College campuses have (largely) gone silent. Can practicing small talk and phone-free spaces change that?",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "College students are spending less time socializing, which has implications for later in life and the workplace.",
-      "category": "global_markets",
-      "date": "2026-10-23 16:44",
-      "link": "https://www.cnbc.com/make-it/2026/10/23/college-students-socializing-less-campus-life.html"
-    },
-    {
-      "headline": "Seven killed as gunmen open fire at church in Jordan, authorities say - Reuters",
+      "headline": "Trump foreign policy hits voters in the pocketbook, imperiling Republicans in midterms - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Seven killed as gunmen open fire at church in Jordan, authorities say\u00a0\u00a0Reuters",
+      "impact": "Trump foreign policy hits voters in the pocketbook, imperiling Republicans in midterms\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-23 16:07",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd2lOTkU3cVRlN2NTOWxzMWZYZnZUSjBZeWV6VHprNk44Q0pWLXdaMjF6QU1iS1JjV2RLdkFkM2NyVUtTOXpDdHg3SThHN2tFZFozTGZIdlVaVzBqUFV2STZCMXcwbjMycDNTNWppUDdSTVZBaWxqTTR4dk5kWkFrTDM2TzVkYi1oNTNwTjluU2NmTmY5cHkxbEhhWGR4VUt5QTJub2hkalo1WExtNVc2MEoybC1YWkQxbnNoZ3l6QzB6c1lOdGJhZTdB?oc=5"
+      "date": "2026-10-24 05:05",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRzVIOWVqX0Jia3JrVmo5YkZuTGFOTlo1YVpMcFFwRHFtMEFaQVhYMjdZbGdYYXhaSTFLcTNiZzVNRzRCaTZIcWtmVktJTEhVTDl5dHNMcW9fMEp0WGxnazE1TnUzcEdXZUg1M3gyVUF4XzV1c1BmeGZKM2R1dm9USFljVldzUXdQWVk3bnFJMi1ZUDk5QjQ2TEozNUlXMXJ0bnkxYndOUFZVa042YlJlYnlzZVIzb2dJZzlReA?oc=5"
+    },
+    {
+      "headline": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-24 00:43",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQmxvaUpMTUR1QlpFdTFCM21oR2ZqYmwzWUVrSFpBYmZLYlFjWV9yc3NTX1BjTnZndGl1d2N4OG52MlVJenJKNkxKUW9aR3lZaGtvVzJ1UzhCeDh2X3hQcFRJVklIZ2N5X3drTHk0YVpFTmNKcGN6WDlpQ294WE5TNUhBT0g0NFJjSDhmek9yMU0zNGRMeU1mZ1ZkME13QUJ1aGFMR0gtOWVqcG50SFZQNWdUVlZxV01wNUNWc2gwZlp3VVhoZDc3VnIwcWdQSGhVOWFWUUE3ZndMTDIz?oc=5"
+    },
+    {
+      "headline": "In Florida, Trump vows to deal with Cuba after Iran gets settled - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "In Florida, Trump vows to deal with Cuba after Iran gets settled\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-23 23:52",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaW1UZUdScXEwTWVUNUJxcDkyWmV1TDREckM1RnRCTFR4VjBuVmk2Vm9OVF83d2FLdTdnSGN2N0FGNURpVXJKbzR4bWI3b05TY3pPWGgzRnZvX2N4SEQ4cmw3blpTZktVMXd4UDlFeWpFcG9jX1FJcTN3OW1WVW5UTnFfQ3BqdHRwNFAzOGRsc1Nyc0N6TENyVDJaeW9ZSExlSl9adExjYmQ?oc=5"
+    },
+    {
+      "headline": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a postresults bump. But not for Bloom Energy, the fuel-cell maker that has flourished due to data-center demand.",
+      "category": "corporate_earnings",
+      "date": "2026-10-23 21:13",
+      "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Marco Rubio calls on those seeking change in Cuba to partner with CIA - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Marco Rubio calls on those seeking change in Cuba to partner with CIA\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-23 20:20",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSi0yX09qbUQwUnFtemR0RURPc1hNMXpkYmF5cXN2NmVuUEZRQ0NFS1AtMXVlT2gtTDNocWthM0xBS2NrTndlYXNIWnhoQy1CdjJsODBOU0V3RHFSZkRKb0FBOUtGUVJEMlhGTHdtR1UyTXhLWDR1SktFcjlCUm5BSGdkREhaa3NzNEY2VXc0dGxXM25XNW1XNVRjX3dCekNhRDNLMw?oc=5"
     }
   ]
 }
