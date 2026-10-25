@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-25T10:24:11.658008",
+  "timestamp": "2026-10-25T17:28:53.132668",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.2,
-    "bullish": 11,
-    "neutral": 11,
-    "bearish": 3,
-    "high_priority": 9,
+    "bullish": 7,
+    "neutral": 17,
+    "bearish": 1,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,10 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 10,
+    "Reuters": 7,
     "Bloomberg": 2,
-    "CNBC": 7,
+    "Financial Times": 1,
+    "CNBC": 6,
     "Caixin/S&P Global": 1,
+    "MarketWatch": 3,
     "The Wall Street Journal": 1
   },
   "top_signals": [
@@ -28,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Chart of the Week: French government and corporate bond yields are converging",
+      "score": 8,
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "Some companies\u2019 bonds now yield less than government bonds",
+      "category": "fixed_income",
+      "date": "2026-10-24 09:30",
+      "link": "https://www.ft.com/content/473c0e0b-d4f7-449c-9192-648b82077222?syn-25a6b1a6\\\\u003d1"
     },
     {
       "headline": "Comcast beats earnings expectations as media revenue offsets weakness in connectivity",
@@ -118,7 +130,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -128,8 +140,18 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-25 10:24",
+      "date": "2026-10-25 17:28",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "More than a third of S&P 500 companies are about to report earnings as market confidence cracks",
+      "score": 7,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "\u201cWith cautious to negative market sentiment, it could be a tricky week,\u201d one strategist says.",
+      "category": "us_equities",
+      "date": "2026-10-25 14:00",
+      "link": "https://www.marketwatch.com/story/more-than-a-third-of-s-p-500-companies-are-about-to-report-earnings-as-market-confidence-cracks-03b7a8f1?mod=mw_rss_topstories"
     },
     {
       "headline": "Exclusive | JetBlue Creditors Hire Advisers as Airline\u2019s Shares, Bonds Sink",
@@ -142,16 +164,6 @@
       "link": "https://www.wsj.com/pro/bankruptcy/jetblue-creditors-huddle-with-restructuring-adviser-as-bonds-shares-sink-43866c42"
     },
     {
-      "headline": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
-      "category": "fixed_income",
-      "date": "2026-10-23 22:29",
-      "link": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html"
-    },
-    {
       "headline": "Restaurant earnings will test whether owning more brands pays off",
       "score": 7,
       "source": "CNBC",
@@ -162,114 +174,104 @@
       "link": "https://www.cnbc.com/2026/10/23/darden-brinker-qsr-stocks-restaurant-earnings.html"
     },
     {
-      "headline": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Procter & Gamble topped Wall Street's estimates for its quarterly earnings and revenue.",
-      "category": "corporate_earnings",
-      "date": "2026-10-22 14:19",
-      "link": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html"
-    },
-    {
-      "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices.",
-      "category": "corporate_earnings",
-      "date": "2026-10-22 12:42",
-      "link": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html"
-    },
-    {
-      "headline": "Disenchanted Netanyahu supporters are prize of Israel election campaign - Reuters",
+      "headline": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I\u2019m crazy. Who\u2019s right?",
       "score": 6,
-      "source": "Reuters",
+      "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "Disenchanted Netanyahu supporters are prize of Israel election campaign\u00a0\u00a0Reuters",
+      "impact": "\u201cI don\u2019t want to enter retirement owing six figures when we have the cash to clear it.\u201d",
       "category": "global_markets",
-      "date": "2026-10-25 07:27",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkR4bHJlcGYyMi1nYkI4Wm9SeThiSEh4ZUVrdHM1NnpJSjV4eWdVOUxOWS13NzhWZ3RLbXY4Skp2aVhhT0ZUOFR1a0pNYkZzRFRjVjEtSEttMjY1Z1RKMHNvZFI5RVZidV9ONzFuc1lfdjFnRlJlUG84Qy1SNmM5UFkwU0FGYmFLeXFiYTlqU2hsci01T2JwVW1PZFZKT0RCVlVpMTg5VVZDQktaTi01R1pDc2p3RVN3YmpWeWlER1I?oc=5"
+      "date": "2026-10-25 17:00",
+      "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories"
     },
     {
-      "headline": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports - Reuters",
+      "headline": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-10-25 07:22",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNjlxWUNjczg2SHFQamFEZDV0SVhZaHA5bFdqaVQzT1oxSjd0b2ZQQjd6MldHeEhKcUstbGJEa1QxMmFBMFhad2VnREVIa2xoT0tPWlFXVW5lcXVEYjMwdUd5NTRIYm0zTFpabXUxY2pCakRGM3JnWE1iNHc3MmtlbWduRno3ZWVGVWVpa2JtRjF4VDh5TEFHN21hUV9sQUhxOWpJMVVPNlhFMDd5SkJMekZkTFdtQzlnYnBQNkd2MG1TNzZy?oc=5"
+      "impact": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-25 16:12",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSlk2VkFXVkdJWWhnUXFnSFNuN25YOHpiSHdWczV3X3BHQURLcVhtVzdIVXlRbE5CWU9KSG45dkNqemxwZXBSRHpMR2hkdmhRSFhrNkpHU2dZa2RNbm1hQ3dMTUQtWGlIbElrNHhrb2Zsem4xY19hOHoxNmNlMjJPb3BUd2YybklKZXREeVNKZVNBRGJHTW5jcG5LaVdzZUhLTExFT3ZBV0Nwc29NRXhZXzJFbkRQTjR5UDQ5dVo4b2Jhcm5oVzF3ekt0MA?oc=5"
     },
     {
-      "headline": "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues - Reuters",
+      "headline": "Here are 4 big things we're watching in the stock market this week",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Peak earnings season, plus a Fed meeting and fresh inflation data.",
+      "category": "global_markets",
+      "date": "2026-10-25 14:58",
+      "link": "https://www.cnbc.com/investingclub/2026/10/25/here-are-4-big-things-were-watching-in-the-stock-market-this-week.html"
+    },
+    {
+      "headline": "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "I racked up over $11,000 in credit card debt traveling, shopping and dining out. Here's how I paid it all off in under two years.",
+      "category": "fixed_income",
+      "date": "2026-10-25 14:00",
+      "link": "https://www.cnbc.com/make-it/2026/10/25/pay-off-credit-card-debt.html"
+    },
+    {
+      "headline": "Should you travel together? Ask these questions before booking: 'It'll save you time, money and disappointment'",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Consider budget, accommodations, personal habits, alone time and more, say Anna Goldfarb and Nell McShane Wulfhart, experts in friendship, travel and decision-making.",
+      "category": "global_markets",
+      "date": "2026-10-25 13:38",
+      "link": "https://www.cnbc.com/make-it/2026/10/25/travel-compatibility-questions.html"
+    },
+    {
+      "headline": "Most Gulf shares close lower as Saudi-Houthi fighting rages on - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues\u00a0\u00a0Reuters",
+      "impact": "Most Gulf shares close lower as Saudi-Houthi fighting rages on\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-24 23:56",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT0JBTVByRUdVWnYzNWpyRUlfbGRFR2RnQzZpbTgzR05tX1AzU2VkVC10RUswYWthSGtJa2FZamVSa2E2ckdSeG5FN3VGTFU5SVJfbjY4NEZjR2tQSWJfZmxtbTJvUU5YSEpKWHRQQWpHMGRfR29xeFhkR1BwcHA5NlA3MnJmRnloYzF6Q0tBZG92ZDgzWmRubVNpNi1CajBmdXdNZmNTYnkzLWFnMldvaQ?oc=5"
+      "date": "2026-10-25 13:20",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3ZBWG5tbkZvcXJFc2xkcEs1SmhEcHAybDM1ZGN0T0ZCN3BIcTFyaF9laXlEYVA2N2ZsUmJjcmgxaS1aVW5jdFZSOFZrc2JnUWFJaFRwR25QS0pob0RTT0lONlJldzVxOFlidThrdm8zTVU4X1l4dFRPVUY5R0ZuX05aX2pibWg2VlNLUmlaVmFaWDg5bDlMQUVFWTh2bnZ3WFJ4MzA1RWVDMEtKOEE?oc=5"
     },
     {
-      "headline": "Houthis say they targeted Saudi oil sites; attacks reported in Aden - Reuters",
+      "headline": "Jordan church attack survivor says her cousin died before her eyes - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Houthis say they targeted Saudi oil sites; attacks reported in Aden\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-24 19:24",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5"
+      "impact": "Jordan church attack survivor says her cousin died before her eyes\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-25 12:45",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVTFxbDBEOEdFZFEwX29PZzd0QTNuYm11VXE5ekQ1bUgtQjVGeU1lbHdjVG9BR21DcENBLU5BeWFCeERYd2Y4bWp4OHFEclBuWlRUQ3ltUkduNFlQOXNwSTV6ZHJ4Qi02ZGQyakE1a0lfNldTM2RBQ3dVbEJHcWpSWE96b3FKUWstUjh6aExqcTdPMmdhMkRpbEhjcEtpak5YMmFfOThiTmh4ZGd5Z2lGMk1Ucjh0U2lDQjlRZQ?oc=5"
     },
     {
-      "headline": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+      "headline": "\u2018Nonanswers\u2019 aren\u2019t working. This is what investors really need from the Fed.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank\u2019s strategy.",
+      "category": "us_monetary_policy",
+      "date": "2026-10-25 12:44",
+      "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Marc Lore\u2019s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The rotation out of AI stocks benefited several defensive Club stocks.",
-      "category": "us_equities",
-      "date": "2026-10-24 16:14",
-      "link": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html"
-    },
-    {
-      "headline": "Libya's Dbeibah says ready to address Egypt's maritime concerns - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Libya's Dbeibah says ready to address Egypt's maritime concerns\u00a0\u00a0Reuters",
+      "sentiment": "neutral",
+      "impact": "Wonder is leaning into automation and user-built restaurants as founder Marc Lore prepares the startup for a potential IPO.",
       "category": "global_markets",
-      "date": "2026-10-24 16:04",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmxsRWg3NGtsREw4YWtPYlZUcjJVN0FJcDJkbzY1ZjdycTZzVzNjVFpwajFzTk9pT1V5QW5JdmQyMWNaOTIxU1pGdHRQQ2ZXcnh2UnFFQTJjUUlrSlpTZVBkNHBvaGpVY3JZMjZoSkliSWYxWm44dEpaQTdsNmNrb0RMV1FfX0p5eUpSQWFCYkpQRWE4WXllX1FYTW1IbE01SDk2bjVpNHVLOHI5RnllbE93?oc=5"
+      "date": "2026-10-25 12:00",
+      "link": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html"
     },
     {
-      "headline": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
+      "headline": "Four ways US foreign policy could change if Democrats win in November - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran has ramped up efforts to target US personnel, intelligence memo warns\u00a0\u00a0Reuters",
+      "impact": "Four ways US foreign policy could change if Democrats win in November\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-24 16:03",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5"
-    },
-    {
-      "headline": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-24 16:02",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0lFZzBBODd6NDh2OUEyNmMwbFUyalpDRFpwVkVRVkR2VzlOLWdTU1N1ZmhEaFBzaUFmWUVEMFBrdDFDMVF3WVlQWHh5VVFVd2R6LVM5b3VxakFlNVhwQlNwcHVhaHV0dDZuYjgzSU5qUTdtalpZd2tmQlFxN3ZtcmNpaTdvM3hCUlhMck5ubkphU25lT2dFU0ZvSDVXNEE0amJ1X3IwLU82a2M3TWROaU1SYWhhdHJuQmpLTzZtckhsaVdwODdaOTNaNkk?oc=5"
-    },
-    {
-      "headline": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Airlines are reporting fewer people flew in the third quarter as airfare surged on fuel costs, but executives say travelers are mostly swallowing higher fares.",
-      "category": "global_markets",
-      "date": "2026-10-24 15:53",
-      "link": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html"
+      "date": "2026-10-25 11:02",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVRLMHJmdldMQ1h3TUZkbmpNUUZqUlVTY1VPaTNpU0JLc2xua051SmgtQUJzcFlnRjV3a3VaWVctNFM0dF80X2VKMlM5UTNIQkV4YmJ4TTAxdDFVS2EtdFN6R2pfTDVTVnNfZjJOYXdxbTV3eGxQeUFPZV85ZjBNb0I2dlpVdU9DQkhDaWI2Z214Wko2cUVLenFCYWUtLVY5WF9ydlJOTmlkdjN4RloxQQ?oc=5"
     }
   ]
 }
