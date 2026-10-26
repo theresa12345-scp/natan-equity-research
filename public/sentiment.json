@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-26T11:53:04.937867",
+  "timestamp": "2026-10-26T19:46:50.883666",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 8,
-    "neutral": 17,
-    "bearish": 0,
-    "high_priority": 9,
+    "avg_relevance": 7.1,
+    "bullish": 9,
+    "neutral": 14,
+    "bearish": 2,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,10 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 16,
+    "Reuters": 12,
     "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "CNBC": 1
+    "CNBC": 4,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -27,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -37,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -47,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -57,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -67,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -77,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -87,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -97,8 +98,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-10-26 05:56",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZml1aC0yS2NrLUloeEFPZnYyeExpazhPVExTT1BLcV9HZGxEZWFzcHFUMTJFbDhUTjgyaE5EbGRja1BRX0p2UzlDSmEzUUpzTG9ZT2xKZEZMczFvb1pzU2xrdXlNT0dDUXYtQnhoLUFpT09xQmF5Q25FQXdKNGpjOERVdTB1UTk4NkhSd2k3cUNBSTJRMVVsUlpSWQ?oc=5"
     },
     {
       "headline": "Morning Bid: Elections, central banks and earnings on the menu - Reuters",
@@ -117,7 +128,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -127,58 +138,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-26 11:53",
+      "date": "2026-10-26 19:46",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Sinking Profits Turn China\u2019s $3.5 Trillion Stock Rout Into Trap",
+      "headline": "AI Spending Fears Threaten to Swamp Big Tech\u2019s Strong Earnings",
       "score": 7,
       "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Pessimism has gripped Chinese stocks, with no end in sight for a deepening selloff as investors confront the realities of an economy that\u2019s weak enough to erode corporate profits but not to trigger forceful new stimulus.",
-      "category": "asia_economy",
-      "date": "2026-10-25 00:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-25/sinking-profits-turn-china-s-3-5-trillion-stock-rout-into-trap"
+      "sentiment": "positive",
+      "impact": "Three of the biggest and most important technology companies in the world are expected to show healthy growth when they report earnings this week.",
+      "category": "corporate_earnings",
+      "date": "2026-10-25 13:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-25/ai-spending-fears-threaten-to-swamp-big-tech-s-strong-earnings"
     },
     {
-      "headline": "Restaurant earnings will test whether owning more brands pays off",
+      "headline": "Earnings playbook: Alphabet, Microsoft, Amazon and more report this week. Here's what to expect",
       "score": 7,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Shares of companies with multiple restaurant brands like Brinker and Darden are outperforming single-chain stocks like McDonald's and Chipotle.",
+      "sentiment": "neutral",
+      "impact": "The megacaps are some of the 160 S&P 500 companies expected to report at a critical time for tech and the market.",
       "category": "corporate_earnings",
-      "date": "2026-10-23 13:55",
-      "link": "https://www.cnbc.com/2026/10/23/darden-brinker-qsr-stocks-restaurant-earnings.html"
+      "date": "2026-10-25 11:54",
+      "link": "https://www.cnbc.com/2026/10/25/earnings-week-alphabet-microsoft-amazon.html"
     },
     {
-      "headline": "How Houthi attacks have grounded flights across Saudi Arabia - Reuters",
+      "headline": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "How Houthi attacks have grounded flights across Saudi Arabia\u00a0\u00a0Reuters",
+      "impact": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-26 10:26",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVEZPbnlhelpsZk1yY3U0YjhJSVRGNUF0aGFIdGo3NHZCVUhMbzl2VnhVclJlM250SFN4c3RiRzBMZ2o3cXNLNVpOSkpwOTdMVHczWS1pT0JnaWRObW8xMzJzQ0xjbWk3XzJBRUd6dEt6ZXlxWHZXNHR5VUdiMVBzbmM5VjBVTWNiSDRSSUtpaUlRMXhLWXZ0ZUQxeVA0QVdadHhGa0pyNGpSNy1NWG1rZE1xVUw?oc=5"
-    },
-    {
-      "headline": "Oil spill off UAE widens, satellite images show, prompting more beach closures - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Oil spill off UAE widens, satellite images show, prompting more beach closures\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-26 09:30",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbHhFSkdqM0dlc3lWWVViWVlQMDNlNnRVQkxSUWttcWR5R19wV3dvclAyOGtmNVFZMEI2YVVheGVlLUlJNTB3bzZGeDlqRTEtMGZiRk5ZN0x1dWs4a2VNaElUUW1Yd0lxaFRpTjhtVDdael9uaEpHa2kxTllSWVRHSjVIMUVLQmJSNUlGZDF5S0JEOXJ0Rk5GR1lFN0thcWNqSW15RmVsMUFrOUpGeE9lMm1oNVZVNFdjaVQ2VFJielNUM29rMG1BZUd3?oc=5"
-    },
-    {
-      "headline": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Middle East markets rebound as diplomacy fuels hopes of easing Iran hostilities\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-26 08:37",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaDhPSnA1U2M2cUI1ajJYZy1COWI1WG1mNUx1ajhqR0ZaZWw2OHhTZGxISHFCa01lZUlNMlFpMFktREVjQ0NUTGNWbGF6V2hOSndpWm10djdnNHpwa01ObUc4ZjBHQzU3ZnNkSm5HTDBlOTFPLXJVejlvalhOOEZRY3Y2b3JzdjRJNnRBZHFyTXo2Zmo0UHBzRVFRcmJFS0NlMjdxazZFZEJoREtRcmJjZENtay1Xd1VraWdSQ1BYQ0pYSUhVWFE?oc=5"
+      "date": "2026-10-26 19:07",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFIxVXVVYl90WFZodTB6bHpqOWN3aktZSHNDYTlaM3I5S1FoeU14U1NRVE1mVTJtSDV3ZHk1cHRiWDh6elBNamVIeE5tN2VvRDEyWXBPT1dyNW5KSXFyaE5PVEFOS1NyQW1CNkVVblN6SW1PeVg3aHQxY3B6WmhHU3cxM0gtdTNRLTY1NWo0R284RzQtSmVtTnRxVnR6MTVkNWVsU3djY1d2SURPNmo0N05CUFJZekpIUklNTmRxazZHVTNrbEFN?oc=5"
     },
     {
       "headline": "Mindful of the markets, UK's Healey is set to deliver a careful budget - Reuters",
@@ -187,88 +178,98 @@
       "sentiment": "neutral",
       "impact": "Mindful of the markets, UK's Healey is set to deliver a careful budget\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-26 07:22",
+      "date": "2026-10-26 18:58",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1FFNVNXLU1fbUd1NzRQT2wxeWUwRWlQU1M2X21RSGhMMzB1dzl2NmpZVG1HQ0I4RzZHRHA5elBfSHRvUmFDdWZLb1AyTERDVkxmdXJsR1ZORkQyZ29LVjZrWVl1TzcxNXFqNTRXOGp4cDZiSllBY1UzRnFsNWM2bkJwd1FUSlZDUzFoS2RRWE9XZHExUUUtSzBrcWNIUDVpZjRZ?oc=5"
     },
     {
-      "headline": "Large fire breaks out on island off Hong Kong - Reuters",
+      "headline": "The races that will decide control of the US Senate - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Large fire breaks out on island off Hong Kong\u00a0\u00a0Reuters",
+      "impact": "The races that will decide control of the US Senate\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-26 07:03",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcXhXUXVCVlRSanltUlpGQWlqZDh6V2JSY0Zuam9IX1dEd2xFQV85ZWM2QmI2OWJQLUhaNi1RakxfYUVWOHQ0OTQ2NWZYdUowU3BOVHJJR3gyZzJDS0N1TFdXSTdJaFNaZ2Q1cFpFYTl3aktxc3dVYnFBSW9ILXRpMlU0LXh5VkVmWWU3THhlS3NvSFVjZ1ZVRDY1enFFckhu?oc=5"
+      "date": "2026-10-26 18:53",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaVU2UUJNNDNwTjN1ZGswTlV1R3Uxb2lKYnR6cV9hOVBza2YwT2kzY3l1aERkc2hCR1NaY3JsWlczZ1dlekJZaERWVzMwempGbEozZ3dMVEt6QTZOQnVwNjBtQTNwVDNZcE5yRjFzMDFzUksyU2U4TFBCQ3UxeUt2NzBSdVJVNWU0RWxOOUp4UGhPblRVVDhkdw?oc=5"
     },
     {
-      "headline": "Who are the leading candidates in Israel's election? - Reuters",
+      "headline": "J&J's potential 'game-changer' drug \u2014 plus, what Microsoft's mass buyouts mean",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Who are the leading candidates in Israel's election?\u00a0\u00a0Reuters",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
       "category": "global_markets",
-      "date": "2026-10-26 06:02",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV2g2RGFiQXBkbmViQkVPM3ZxX0hlUF9XczIwMFdzOVFmRE1VZEVlM0ZYamdScHdyaTBYYTRRWDcyTF9NT0tSRjh0WWVmbWlfcWNtUmlrekFLRWlhTzZfTVlDZUQ5ZEF4ZGhaNjF1VFN0QVRHRzltRmJEbDlWM05nX1JGUkI0UDJpOE9xSWZFSjc3MENNb05vLTJUdGVjQQ?oc=5"
+      "date": "2026-10-26 18:45",
+      "link": "https://www.cnbc.com/investingclub/2026/10/26/jjs-potential-game-changer-drug-plus-what-microsofts-buyouts-mean.html"
     },
     {
-      "headline": "EXCLUSIVE: How purchases of sanctioned Iranian jet fuel were disguised by Myanmar - Reuters",
+      "headline": "FTC and 20 states sue Dollar General, alleging retailer overcharged shoppers",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "EXCLUSIVE: How purchases of sanctioned Iranian jet fuel were disguised by Myanmar\u00a0\u00a0Reuters",
+      "impact": "The Federal Trade Commission and 20 states have filed a lawsuit against Dollar General, claiming the retailer has charged customers more than advertised prices.",
       "category": "global_markets",
-      "date": "2026-10-26 04:02",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWl4SlBja1R4RkhhaTMxemplMld0aldQMmlzbzdsOVlPMnJFWVNwRVVMa1dnanFtOVctTlEyWjl0SnI4Q3I4TzQ4QU5LRjRtX3BKSXc2RE5tQTNRSWhKYXlvX01QdE1OZWlQc1d4ZkZwWWxVQTVGLUR1NWFVWjZYcFNvNDJXS1hOYXUtVWRQSkdwMVZ5MGtUcHpjUTI3TjZ6M0VZaUdhLVdSTzA5UXkyYXlWUTFyRHlXb0tF?oc=5"
+      "date": "2026-10-26 18:37",
+      "link": "https://www.cnbc.com/2026/10/26/ftc-dollar-general-lawsuit.html"
     },
     {
-      "headline": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies - Reuters",
+      "headline": "These energy stocks are poised to profit from an imminent AI power crunch",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Bloom Energy and Solaris Energy would benefit from an urgency around securing power to AI developers.",
+      "category": "corporate_earnings",
+      "date": "2026-10-26 18:10",
+      "link": "https://www.marketwatch.com/story/these-energy-stocks-are-poised-to-profit-from-an-imminent-ai-power-crunch-00c1a50d?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-26 03:48",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5"
-    },
-    {
-      "headline": "Bank of Japan's hawkish pause to leave scope for December hike - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Bank of Japan's hawkish pause to leave scope for December hike\u00a0\u00a0Reuters",
+      "impact": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-26 03:33",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMEdzMnVEVVZlSzdWcEh3X1N0eFctNGNlZVp2U0NhSjJnbjJoNU1GTVV5eUNYMkZNRUNKN0hnMU0wdDVXa0l1dnpLU0VTNGJTXzJ4eWtxM3R1YVBHQU9YNjlqOVhmekRNZU1NZ1drWnpBRXItejRwRHVtcXQ1eDNiTWtWSTRRMm9yV0pFNS1EYW94bTFnYjlLLWFtS1J6czY1T0JscFM2YmZWdw?oc=5"
+      "date": "2026-10-26 16:29",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUUluTlhFbGtJMWMtZ09ieVhSblh2b0Y4cWpleDVwWUVfUWVyanZIOHFhenFqaWRYZ0U0cEd6MFVjQk5xSXZkWjJNRmM4ZWdPa01KTHBRRjVHRnJPRWtlbGRwWFBNOFJnQ3F5Z2JZbjVFVE5ERUxDdmozN0FPUjRkaUpVNGIwRUFTVXhROU95dC1wby0wX2xzTlg2ODlZeDR2cmM3bHFFaHItbGJ6X3gxT2lwX0FONW11aGtoeWFXQmhmc00tWnlQZEhHQQ?oc=5"
     },
     {
-      "headline": "Officials from Mecca pact countries to meet Iranian officials in Tehran - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Officials from Mecca pact countries to meet Iranian officials in Tehran\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-26 03:20",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORnpERmd3Z1pYM2xFeTBMOEVnY21scU00QlNJOTdFdE5wbFhmcjdQU1ljTk9vWlJmd1JKdDRvT1p1LVZLT2hpM3h4UmVKYTRhTkJnVmJKZFhkRmFuUF9CZzA1YXNON1VmQ0ZOODVVTkJDZndUUzUzRUxEZmdDa2YyZlA4N1IyVGVCaVlNN2lGRnVXZWxQeTVlYTZnMmRJOHhrRGxYVTFNSXNEZTZfOGhWRGQ4RVlGSWNyTXZoSi1Zb1N0VW1EODBSdFBn?oc=5"
-    },
-    {
-      "headline": "Israel markets see upside in Netanyahu defeat after three-year rally - Reuters",
+      "headline": "Galp, Moeve scrap downstream merger as Iran war boosts refinery valuations - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "Israel markets see upside in Netanyahu defeat after three-year rally\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-26 03:01",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVXJIajdRV1c5bHF6T191cVFwTWxIUjhibThXYWJUQ3J4LWctRFR3THZpQ09OcG9adG93MTJPdHdxb1psaVpvU2RhMzNwR00wNm91RlozRW9QRHFLYXg4aW8ybzRDUWc3c1pXRng2RU02bmp1bVhld3hBMmViUW9CRy1MS0x3TUJCTm4yZUVERVVQcXhmandmTVVabzExTnRwQmowZmQwa2cxRktqWWF5UTNIY282QWFXOXZZ?oc=5"
+      "impact": "Galp, Moeve scrap downstream merger as Iran war boosts refinery valuations\u00a0\u00a0Reuters",
+      "category": "us_equities",
+      "date": "2026-10-26 15:51",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUdmRHBJcVJmcko1NVpEVHRETC1hVFI2NFhYLXdvcFBuVFJxRFA3X0FmWWR2ZWFEelRWbHJfdDc5b3RhNFI4SzB1OXBLWkcwbnF0amRmTXJYVXFKa1Z1eFV5T3FZSzV6SWlxUUpMenZ1WG5hbzAybGFWb1luMU10NjVFbHBrM0d3UlEwVWVqanVfLThBTXRNbWxhZ0ZodjZRZHFsTXhkMUVaMVVaaS1xdzJQNXY?oc=5"
     },
     {
-      "headline": "Saudi Arabia to store oil in Singapore to bolster Asia supply security - Reuters",
+      "headline": "Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "The judge ordered that Comey, the daughter of ex-FBI director James Comey, be retroactively reinstated to her job as an assistant United States attorney.",
+      "category": "global_markets",
+      "date": "2026-10-26 15:28",
+      "link": "https://www.cnbc.com/2026/10/26/maurene-comey-firing-unlawful-trump.html"
+    },
+    {
+      "headline": "Hezbollah readies for new regional war with funds from Iran, sources say - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Saudi Arabia to store oil in Singapore to bolster Asia supply security\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-26 01:47",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUzBNLUdzSXJyUVlmV19mTVRxempkeGpFOERuNWVHSnFqWFh2TkZqYk0yYjkwVVV1UkhPY0lzUGJHZk0tNjl6WDJtTkN5R0xQdFZNZ0NpR0Y5eVRWa1dLN0ZmX1dZWUlrTlh0YlRhZWhMbmZKRVJmTTl0anpmb1hrQ3Iwb1gzNTNzRUNybzhMdGR3VVFkd0dZa05Nc3RPOXp2QklZTGZydnYweXM?oc=5"
+      "impact": "Hezbollah readies for new regional war with funds from Iran, sources say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-26 14:53",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQajh2NzdqZUljUEFSTWFPOV9odmZYWE5sRkVLbUhzRndmN0dxSGRwM09CbVpZRjBXZTJrckJHRFV6RzBUTThlQ3pHQ0hWNWZuaFhCc2wwWGRwSDVmb2d1ME9UMmt0ZUVkTlA0WnpjY1o0R2Z2RzhvQXl3MHNHdEQ3YXdsMi0zTHFFTlBJekI1bnY4M3VRUFhzUnMzcGdVeHBPTm90MDFabFpnalo0RThZdENtMEVHSFU?oc=5"
+    },
+    {
+      "headline": "Apollo deepens Abu Dhabi ties with investment in Mubadala Capital - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Apollo deepens Abu Dhabi ties with investment in Mubadala Capital\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-26 14:33",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcEE4ZE9DeXU0LWNqVVVWRUxKTXFzbmN2ZHlUXzY1czFSZ1VWemlWUkx5N0RfZnlJZGNNeHcxY0ZkRUJkaTZXdzZDWm9FMjl1SXhlVFdSbXVBWnZaRUYzcmhweDVPeldraGJiQW1ueXJBM1pBUUExVHpSMDN1b1lpb3dacU5vNWJna0xJZVBlaWhGWkhWbWxadFF2Q0tTV0RVYjdySjlxTVdGX2p1OUJkdm1vd2pGdmVLY2dic1RnWDNycE5K?oc=5"
     }
   ]
 }
