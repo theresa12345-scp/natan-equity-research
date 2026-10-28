@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-27T19:16:02.018075",
+  "timestamp": "2026-10-28T11:50:24.777600",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 10,
-    "neutral": 13,
+    "avg_relevance": 7.1,
+    "bullish": 11,
+    "neutral": 12,
     "bearish": 2,
-    "high_priority": 9,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,11 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
-    "Bloomberg": 3,
-    "Yahoo Entertainment": 1,
+    "Reuters": 12,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 8,
+    "CNBC": 4,
+    "Sofi.com": 1,
     "MarketWatch": 1
   },
   "top_signals": [
@@ -29,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,18 +99,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq rally as investors parse Anthropic IPO filing, busy week of tech earnings",
-      "score": 8,
-      "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "Investors braced for a full earnings docket and the Federal Reserve's next policy decision this week.",
-      "category": "us_equities",
-      "date": "2026-10-26 16:35",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rally-as-investors-parse-anthropic-ipo-filing-busy-week-of-tech-earnings-153428995.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -119,7 +109,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,8 +119,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-27 19:16",
+      "date": "2026-10-28 11:50",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "StanChart shares soar after it hikes full-year targets and trounces profit estimates - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "StanChart shares soar after it hikes full-year targets and trounces profit estimates\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-10-28 04:13",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZjdKcHNBRWZiYWhjMnM3MWN5RGUxaVAyQXhnbmJVSzJxUXRGYUh0ejZ0S3ZJRmRvSHFSM0h0eWF2ZEdpeGVSeTY1a1NNeHJSdGZ6dHl0MXROWVFXUTBfRlNRYlhHdTl4eExkSFlRcFFZTzJoTUJNSENkVUExb1kwYnVYTzBWWU5vcmJma0g4MThEd2FuY3dyRUUwTlFBbVBMdmZuRW9ra2Nnd2wxUnlHT0x4WQ?oc=5"
+    },
+    {
+      "headline": "High inflation to persist globally into next year, Reuters poll shows - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "High inflation to persist globally into next year, Reuters poll shows\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-27 15:47",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSGlkNFRUdUxnaVVWLTVGV2pJeEdyQzVIUTBoak15M0dBVjMzcGZrV0NjMnVISDZud2U2RGdDcXc3NUZpSU5QNGtSS0xpc2F3QkR0Y05OOE00czlTSUV6ZUQ1V1Vrdk9BT2x6Qzk1a1IycThjeEJ0bk5MT3FjN0FxTEpvdFV1aEZ6MkRfTkJpbVU5eEZVdlhOVzdxVkJENXpjazlRVk0yZlROcTByLVluVXp0MA?oc=5"
     },
     {
       "headline": "UPS beats quarterly expectations, raises full-year guidance again",
@@ -153,34 +163,14 @@
       "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
     },
     {
-      "headline": "High inflation to persist globally into next year, Reuters poll shows - Reuters",
+      "headline": "SoFi Reports Third Quarter 2026 with Record Net Revenue of $1.4 Billion, Net Income of $241 Million and Raises Full-Year Guidance",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "High inflation to persist globally into next year, Reuters poll shows\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-27 13:41",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSGlkNFRUdUxnaVVWLTVGV2pJeEdyQzVIUTBoak15M0dBVjMzcGZrV0NjMnVISDZud2U2RGdDcXc3NUZpSU5QNGtSS0xpc2F3QkR0Y05OOE00czlTSUV6ZUQ1V1Vrdk9BT2x6Qzk1a1IycThjeEJ0bk5MT3FjN0FxTEpvdFV1aEZ6MkRfTkJpbVU5eEZVdlhOVzdxVkJENXpjazlRVk0yZlROcTByLVluVXp0MA?oc=5"
-    },
-    {
-      "headline": "SpaceX, Tesla and Anthropic may reshape the S&P 500\u2014but not right away",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "SpaceX, Tesla and Anthropic could become major S&P 500 holdings. Here's what that could mean for index fund investors.",
-      "category": "us_equities",
-      "date": "2026-10-27 12:00",
-      "link": "https://www.cnbc.com/make-it/2026/10/27/spacex-tesla-anthropic-and-sp-500-index-rules.html"
-    },
-    {
-      "headline": "US stock futures gain as oil pulls back ahead of Fed decision - Reuters",
-      "score": 7,
-      "source": "Reuters",
+      "source": "Sofi.com",
       "sentiment": "positive",
-      "impact": "US stock futures gain as oil pulls back ahead of Fed decision\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-10-27 11:27",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5"
+      "impact": "Adjusted Net Revenue up 44% to a record $1.4 billion Adjusted EBITDA up 70% to a record $470 million Adjusted Net income of $243 million, with $0.18 EPS Member growth up 35% to a record 17.1 million members Product growth up 44% to a record 26.7 million produ\u2026",
+      "category": "corporate_earnings",
+      "date": "2026-10-27 11:02",
+      "link": "https://investors.sofi.com/news/news-details/2026/SoFi-Reports-Third-Quarter-2026-with-Record-Net-Revenue-of-1-4-Billion-Net-Income-of-241-Million-and-Raises-Full-Year-Guidance/default.aspx"
     },
     {
       "headline": "GM will switch to Nasdaq from the NYSE on Nov. 17",
@@ -189,88 +179,98 @@
       "sentiment": "neutral",
       "impact": "GM expects to keep its \u201cGM\u201d ticker symbol, and the company says shareholders do not need to take action because of the transfer.",
       "category": "us_equities",
-      "date": "2026-10-27 10:49",
+      "date": "2026-10-27 10:32",
       "link": "https://www.cnbc.com/2026/10/27/gm-nasdaq-nyse-stock-listing.html"
     },
     {
-      "headline": "Dollar firms ahead of central bank meetings, steadier stocks stall safe haven play - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Dollar firms ahead of central bank meetings, steadier stocks stall safe haven play\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-10-27 02:12",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVDhUYWVaR1lyeGFScDAxOG1INFBuME5XaHhvOFNZTnhjUXFCTHVGX2k1cEJzSUMwUmpQblFZWE1WU2Z6Q0dnZTRmc2lCSEE1RklYN3VZdWV3aVRLblJ4aTFudW1aUkxUVWZXWUl6Ql8zQkVEaDBJakY4SnhyUmRwb1BQcHpKSHlOWG5DeDN3QVFIb1MyMU5mcDlESEdQS1BwdHhpaThFZjZDMDIweVVYX1VQX1VEdVdh?oc=5"
-    },
-    {
-      "headline": "China's industrial profit growth picks up amid deepening economic divergence - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "China's industrial profit growth picks up amid deepening economic divergence\u00a0\u00a0Reuters",
-      "category": "asia_economy",
-      "date": "2026-10-27 01:52",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUHdJdXJZYTVUYzhMU3FQMV9NQklLQTJsck9tSG5tV09VNGxqMFRSZ3NRRU51aXhpNUw1YlZnU3FjU3pIUFBpSHZ2QjdpbEpRcnpubFlMRi1DVXV1bnFoak9lVmJtX3FvaUNBekxPTEloSXQtWi1PZ2pDV3g0Yk1PT2NQYmdNNFZnNDVWdGQ3bE5CWnVUcllYQmFXTjAtNzl6SjV6Y3FOMlQ4dFZrMjQxd21meGNLcjVBcXc?oc=5"
-    },
-    {
-      "headline": "Stocks Gain Before Tech Earnings as Oil Declines: Markets Wrap",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "A revival of the artificial-intelligence trade fueled gains in stocks as Anthropic PBC filed for an IPO, with investors bracing for this week\u2019s results from tech giants and the Federal Reserve decision.",
-      "category": "commodities",
-      "date": "2026-10-26 13:51",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap"
-    },
-    {
-      "headline": "Boeing stock sinks 10% as company says it won't significantly ramp up 737 Max production until late 2027",
+      "headline": "A Democratic win in midterms could put prediction markets and the CFTC in the hot seat",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Boeing is set to brief investors on its aircraft production outlook when it reports quarterly results before the market opens Tuesday.",
+      "impact": "A Democratic House could increase scrutiny of prediction markets, the CFTC and the industry\u2019s ties to the Trump family after the midterms.",
       "category": "global_markets",
-      "date": "2026-10-27 19:10",
-      "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html"
+      "date": "2026-10-28 11:24",
+      "link": "https://www.cnbc.com/2026/10/28/democrats-prediction-markets-cftc-midterms.html"
     },
     {
-      "headline": "What's behind the AI trade comeback \u2014 plus, our take on Intel's latest deal",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "global_markets",
-      "date": "2026-10-27 18:13",
-      "link": "https://www.cnbc.com/investingclub/2026/10/27/the-ai-trade-comeback-plus-our-take-on-latest-intel-deal.html"
-    },
-    {
-      "headline": "The big reason Boeing\u2019s stock is falling so hard after earnings",
+      "headline": "Four reasons to start worrying about inflation \u2014 including the end of tariff refunds",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Boeing will come up short on 737 Max deliveries, casting doubt on its turnaround plans.",
-      "category": "corporate_earnings",
-      "date": "2026-10-27 17:59",
-      "link": "https://www.marketwatch.com/story/the-big-reason-boeings-stock-is-falling-so-hard-after-earnings-d31b400d?mod=mw_rss_topstories"
+      "sentiment": "positive",
+      "impact": "Dennis DeBusschere of 22V Research says companies that previously used tariff refunds to ease cost pressures will increasingly pass on those higher costs to consumers.",
+      "category": "global_markets",
+      "date": "2026-10-28 10:21",
+      "link": "https://www.marketwatch.com/story/four-reasons-to-start-worrying-about-inflation-including-the-end-of-tariff-refunds-978a5cfd?mod=mw_rss_topstories"
     },
     {
-      "headline": "Honda warns 50% Canada auto tariffs would be catastrophic for industry",
+      "headline": "Qatari mediators present Iran with new deal to end the war, official says - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "President Donald Trump has threatened to double tariffs on Canadian vehicles and parts from 25% to 50% if a trade deal is not reached between the two countries.",
+      "impact": "Qatari mediators present Iran with new deal to end the war, official says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-27 17:53",
-      "link": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html"
+      "date": "2026-10-28 09:07",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTAtQ19McEJXRVg0bmN2S1JaMm9lX2VsbUpzSjZnZi1md09fZnBoREF1U2lKT25ybDRzR0lxcC13XzcxRU1UTFFFUXRzem9TVjdNMHA4cjVPel9Rdk02UHk4M1BDUXFZcGRyR0FqcnlhUDNtTFczdy1Nd0VNNktvM3V0bUEzNC1qdXNLQngwOE9HVGtydEFIa1hqdm5sWjRHVHNNaFVteUZSbnVwa2U0MWxvd2RleGJpaXIxeg?oc=5"
     },
     {
-      "headline": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' \u2014 investors are split",
+      "headline": "UK's Healey says he will help households by scrapping fixed gas charges - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Investors are digesting Anthropic's S-1 filing that the Securities and Exchange Commission released on Monday.",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "UK's Healey says he will help households by scrapping fixed gas charges\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-10-27 17:26",
-      "link": "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html"
+      "date": "2026-10-28 07:43",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUU5FNkRLTTZZZnVoR0pVbjlMdXd0b056eUFxaUV2cGpaNjFTM3lsMmg5RW8xSlZiLWZJX1NzSTJJWkpybXhtcloxa0VzUUNxSDBJVk9neHhWZk5jbTNmbVVicXV1d0lkMjh5UlVJX2tBSHBQaUY3WkxlSHgtQUdnV3ltcEs5SDhnQU5RemE0RDJCaFA3b3RFdXZiSlZZSko2dkhneUtLSTI2WmRiSmZIdXdSZzFIQl9wWl9Zd19MVQ?oc=5"
+    },
+    {
+      "headline": "Netanyahu survives another day with unexpectedly clear backing of Israeli Jews - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Netanyahu survives another day with unexpectedly clear backing of Israeli Jews\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-28 02:48",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZmptb013S1hpZ2RvLUZSRWh6dHV5cWFLZC0tdVBFdE8yVk04N2xjd0Q2VzZvdC1mVEUtZmdDMW9LQlRET1doTFFJd2xqWlJZTWVhWVdtamNCWk9WMjAyanRzTjNDcXEzNG80bWM4a3p1bkp2Vm43em0tcUI1ZkE0Tm1RaHc5cEdVcS1ER0loZU1xczlmQ1gxaXZ5Q1Y3Tnp4eDNKZ09zSDNWbUxnNmt3Q1Rvc1FPcmV1dVpmSmlSRHVTc2M?oc=5"
+    },
+    {
+      "headline": "Oil up over 1% as Saudi Arabian refinery attack reignites supply risk concerns - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Oil up over 1% as Saudi Arabian refinery attack reignites supply risk concerns\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-10-28 01:49",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUhHblNqOGNPczlpdUR2NDFMWjZxX2FZYjVTTzREX2R4YU5jRzF2ckN1MG9sSnIxWG9hbDJ0TjV4YTZXRjdqSUc3aF9OcTJuUVlJZkZrdUd0V0RMUU1qUWxiNDdmdXhCTmJUczZWOFRUWTRKdzJQLUJYNXZBODhnTjJfOXMyNU01OGVreWM5TkNyamNjbzV5UzAxX3ZOdWcwcUE5SFZHSkEyUjZ1M1dUQ3ByRDdxbC13ZzRQR0xfcTZ0bjh6dnNPalJZRWI?oc=5"
+    },
+    {
+      "headline": "ASEAN envoy to lead humanitarian mission to Myanmar - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "ASEAN envoy to lead humanitarian mission to Myanmar\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-28 01:21",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVDBiTUtVdXhyTk5manktYnZ3anFPSUVJYXdtV3BSLVJRQmRsaXNxVU1COHViWkJ6ZFlhbGplZFQ2MzNBZDNoY1VSVHN2X0FVRnl4QjF4SjNPcU9OS3pNcGpaYWdDelNWYkV4Slg0QnBDSi1JQmY3XzZ3cWpRRUVndGQzWmQwUExuSkNpWHpGVUkzWEVPck9HQndNcGswZnBLYkE?oc=5"
+    },
+    {
+      "headline": "US costs of Iran war rise to over $47 billion, according to Pentagon estimate - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "US costs of Iran war rise to over $47 billion, according to Pentagon estimate\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-28 01:01",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQclRmNndRN0ZxR18wcDdQUy01TjRUZnN3V2NOMGRPcmF1WnZCVDM0TzgzWHdHSVpISFgzWnFYbDlpazlmZVpIVEltalZ0cHVSak1YQ1ZkVmtTbXFvcFhUVFFoSE5NTWR1UTFWdnp0bGtxVXJYM0c0VmgxbS1KS1EtUW9qb2xCVEhHVWdNWVdvTWpVZnp6QW13TWVGOEhPeXF1MVlPTWhpTmV2Q0N3MjUxaVdEeU5MZFRLLWRCOA?oc=5"
+    },
+    {
+      "headline": "Healey seeks to steer UK through 'difficult moment' with low-key budget - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Healey seeks to steer UK through 'difficult moment' with low-key budget\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-28 00:03",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTWt5eEVYVG40UkFvRGh3TmhBeFAzMDdOdVp1aW5kekhwRFUzRWxJdTVPRl8xZUt5QVl5bm9xbXczdE5DMHlpdE5JSWR6eEZGREI5VnU0TVFreVdyZ3lJQ2lRQnJqTjQydFphUmZaOFg3YlNRdlBsZ0s3TGVaQndkby16NkZMU3I1Q0FucHgyekp0MjFsWmI1YXBkMlpNRjVFNFlSVTJDeFhQQlowaHVzeQ?oc=5"
     }
   ]
 }
