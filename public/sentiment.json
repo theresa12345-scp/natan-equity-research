@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-29T19:27:03.272409",
+  "timestamp": "2026-10-30T11:52:13.759323",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.5,
-    "bullish": 9,
-    "neutral": 13,
+    "avg_relevance": 7.6,
+    "bullish": 12,
+    "neutral": 10,
     "bearish": 3,
-    "high_priority": 10,
+    "high_priority": 12,
     "material_events": 4
   },
   "sources": {
@@ -14,13 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 3,
+    "Reuters": 6,
     "Bloomberg": 2,
-    "CNBC": 10,
-    "Yahoo Entertainment": 2,
+    "CNBC": 7,
+    "Yahoo Entertainment": 1,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2,
-    "The Wall Street Journal": 1
+    "The Wall Street Journal": 2,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Rivian also revised its 2026 guidance to mark expected improvements in its vehicle deliveries, pre-tax adjusted earnings and capital expenditures.",
+      "category": "corporate_earnings",
+      "date": "2026-10-29 21:52",
+      "link": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html"
     },
     {
       "headline": "Norwegian shares surge 13% on earnings beat, guidance raise",
@@ -110,8 +120,18 @@
       "sentiment": "positive",
       "impact": "Norwegian said the company's bookings had \"improved modestly\" but remain below its optimal range.",
       "category": "corporate_earnings",
-      "date": "2026-10-29 16:23",
+      "date": "2026-10-29 20:14",
       "link": "https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html"
+    },
+    {
+      "headline": "Nasdaq-100 futures dip as Alphabet shares sell off after earnings report: Live updates",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Alphabet reported a disappointing third quarter, and shares tumbled after the results were released.",
+      "category": "us_equities",
+      "date": "2026-10-29 02:14",
+      "link": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html"
     },
     {
       "headline": "Stock market today: Nasdaq wavers, S&P 500 and Dow climb as Fed votes to hold rates steady in 10-2 decision",
@@ -120,7 +140,7 @@
       "sentiment": "neutral",
       "impact": "Wednesday was a critical day for markets amid a Fed decision and earnings results from Microsoft and Alphabet.",
       "category": "us_monetary_policy",
-      "date": "2026-10-28 19:10",
+      "date": "2026-10-28 18:48",
       "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html"
     },
     {
@@ -130,7 +150,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -140,18 +160,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-29 19:26",
+      "date": "2026-10-30 11:52",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Did the Fed make a mistake with its October rate pause? The Treasury could help save the day.",
+      "headline": "BP beats third-quarter forecasts with record $8.46 billion profit - Reuters",
       "score": 7,
-      "source": "MarketWatch",
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "BP beats third-quarter forecasts with record $8.46 billion profit\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-10-30 08:50",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT3h0ZnhqQXNOaC15cXFDMlJfa0kwa0xKeDloU0hKQVducC1rOERkX2R5bG1rQ1JSUFpYMUVaZ0p5RGw1eDZEMVliNTJ6V2s3elFyaks4UDg4UWNMMklreW9iUHBoZWpVZE5mZmxnY2JybHI3bUI3SWxuVV9lZVFvUDRYREYydzN5dDVHMXV6bXp5T3ZHZTlIXw?oc=5"
+    },
+    {
+      "headline": "UK inflation expectations fall in October, Citi/YouGov survey shows - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "UK inflation expectations fall in October, Citi/YouGov survey shows\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-10-29 17:06",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWRhWERQcmcydHFCRTJEbmJKeTQ5U2oxYjg4QXdrSDhqUlp2bFBMTUs5Zm9JaXMxUUZOcUVOYmZ5ZXJXaDhaUlIwMm8zT3hJV0hjQmdDMEZiQlpiRm1UYjMyazFjek55TTFjQlFGd21xVlY2NFdfV0ZKMTcxc3JuNVBNcXBYamVGamdSOEpkWDZpSUxSc3VaMWtVUGNvTnZocnZkcXhXY0pMTEU?oc=5"
+    },
+    {
+      "headline": "Europe Inc heads for second-best earnings season since 2022 - Reuters",
+      "score": 7,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "As focus shifts to the Treasury\u2019s funding plans, there\u2019s some expectation that longer-term supply could be reduced in an attempt to boost demand and lower yields",
-      "category": "us_monetary_policy",
-      "date": "2026-10-29 17:59",
-      "link": "https://www.marketwatch.com/story/did-the-fed-make-a-mistake-with-its-october-rate-pause-the-treasury-could-help-save-the-day-77d84993?mod=mw_rss_topstories"
+      "impact": "Europe Inc heads for second-best earnings season since 2022\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
+      "date": "2026-10-29 16:24",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHN5RlpkMThjUU5Rd0FRLXJRNEtteHQ3ODBGeE5tOEFFTWhwVmY5Y0Q5N0VtbDBYWU1wLWhYSUs0NHZJazBfUmlkNURTcDlmVHI5UU1uVkRxclEzQk1uWWxXNkswRGhwTHhjczVESE5kQnhkSjkwV0RTenpnaDJsVWNoWlFadnZyeUZpUHE5eFo0TjFILVNROERib18tQXpYdWc?oc=5"
     },
     {
       "headline": "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
@@ -164,6 +204,16 @@
       "link": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html"
     },
     {
+      "headline": "President of the European Central Bank Christine Lagarde to stand down in February",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "us_equities",
+      "date": "2026-10-29 10:03",
+      "link": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
+    },
+    {
       "headline": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
       "score": 7,
       "source": "CNBC",
@@ -172,6 +222,16 @@
       "category": "us_monetary_policy",
       "date": "2026-10-28 22:27",
       "link": "https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html"
+    },
+    {
+      "headline": "Carvana Profit Soars as Vehicle Sales Climb Nearly 40%",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
+      "category": "corporate_earnings",
+      "date": "2026-10-28 21:58",
+      "link": "https://www.wsj.com/business/earnings/carvana-profit-soars-as-vehicle-sales-climb-nearly-40-8e0355ab"
     },
     {
       "headline": "Ford reports mixed third-quarter results, says 2027 earnings will be in line with this year",
@@ -184,94 +244,34 @@
       "link": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html"
     },
     {
-      "headline": "Chipotle earnings miss estimates, but same-store sales increase for third straight quarter",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "For the full year, Chipotle reiterated its previous forecast that its same-store sales will increase by a low single digit percentage.",
-      "category": "corporate_earnings",
-      "date": "2026-10-28 19:30",
-      "link": "https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html"
-    },
-    {
-      "headline": "Fed meeting live updates: Interest rates held steady in split vote, Warsh says politics played 'no role' ahead of midterm elections",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "neutral",
-      "impact": "Live updates and coverage of the Federal Reserve's October policy-setting meeting.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-28 19:19",
-      "link": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html"
-    },
-    {
-      "headline": "Oracle stock pops 12% as long-term revenue forecast and clarity on financing ease debt concerns",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Oracle issued a revenue forecast for fiscal year 2030 of $225 billion, and said it will limit additional fundraising over that stretch to $20 billion.",
-      "category": "corporate_earnings",
-      "date": "2026-10-28 18:41",
-      "link": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html"
-    },
-    {
-      "headline": "Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Alphabet faces a skeptical Wall Street as it prepares to report quarterly results.",
-      "category": "corporate_earnings",
-      "date": "2026-10-28 16:00",
-      "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
-    },
-    {
-      "headline": "Microsoft will post earnings after the bell amid job cuts and new cash-flow test",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.",
-      "category": "corporate_earnings",
-      "date": "2026-10-28 16:00",
-      "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
-    },
-    {
-      "headline": "Ford Motor is set to report earnings after the bell. Here's what Wall Street expects",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Ford Motor is set to report third-quarter results after markets close Wednesday.",
-      "category": "us_equities",
-      "date": "2026-10-28 16:00",
-      "link": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html"
-    },
-    {
-      "headline": "Stellantis Confirms Guidance as Turnaround Progress Continues",
+      "headline": "Fed Leaves Rates Unchanged, Oil Tops $115",
       "score": 7,
       "source": "The Wall Street Journal",
       "sentiment": "neutral",
       "impact": "Latest market news.",
-      "category": "corporate_earnings",
-      "date": "2026-10-28 13:53",
-      "link": "https://www.wsj.com/business/stellantis-confirms-guidance-as-turnaround-progress-continues-a098f805"
+      "category": "us_monetary_policy",
+      "date": "2026-10-28 20:24",
+      "link": "https://www.wsj.com/finance/fed-leaves-rates-unchanged-oil-tops-115-f922556e"
     },
     {
-      "headline": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
+      "headline": "We\u2019re in our 70s. Should we pay off our 2.5% mortgage \u2014 or put the money in a high-yield savings account?",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "neutral",
-      "impact": "\u201cGiven the size and long-term nature of this gift, we want to make sure the funds are managed prudently.\u201d",
-      "category": "global_markets",
-      "date": "2026-10-29 18:30",
-      "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories"
+      "impact": "\u201cLet\u2019s say 10 years from now, when I\u2019m 84, we need a substantial amount of cash.\u201d",
+      "category": "fixed_income",
+      "date": "2026-10-30 11:01",
+      "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories"
     },
     {
-      "headline": "Cruise companies aim to keep fuel costs down. Their strategies for doing so differ",
+      "headline": "Here\u2019s the math on Amazon CEO\u2019s claim to be on path to two trillion-dollar revenue businesses",
       "score": 6,
-      "source": "CNBC",
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "Carnival is cutting fuel use, while Royal Caribbean and Norwegian rely on \"hedging\" to keep fuel costs down amid conflict in the Middle East.",
-      "category": "us_equities",
-      "date": "2026-10-29 17:45",
-      "link": "https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html"
+      "impact": "Amazon chief executive Andy Jassy set a bold target on the conference call announcing third-quarter earnings.",
+      "category": "corporate_earnings",
+      "date": "2026-10-30 10:34",
+      "link": "https://www.marketwatch.com/story/heres-the-math-on-amazon-ceos-claim-to-be-on-path-to-two-trillion-dollar-revenue-businesses-34d648e8?mod=mw_rss_topstories"
     }
   ]
 }
