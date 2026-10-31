@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-31T11:25:33.407354",
+  "timestamp": "2026-10-31T18:20:27.669359",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.6,
-    "bullish": 15,
-    "neutral": 7,
-    "bearish": 3,
-    "high_priority": 12,
+    "bullish": 13,
+    "neutral": 10,
+    "bearish": 2,
+    "high_priority": 13,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,13 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
+    "Reuters": 5,
     "Bloomberg": 2,
-    "CNBC": 10,
+    "CNBC": 9,
+    "Yahoo Entertainment": 1,
     "Caixin/S&P Global": 1,
     "Electrek": 1,
-    "MarketWatch": 1
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +100,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The U.S. Department of the Treasury has announced new Series I bond rates through April 2027.",
+      "category": "fixed_income",
+      "date": "2026-10-30 14:36",
+      "link": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html"
+    },
+    {
+      "headline": "Stock market today: Nasdaq dives, S&P 500 and Dow fall as Amazon, Intel earnings fuel tech rout",
+      "score": 8,
+      "source": "Yahoo Entertainment",
+      "sentiment": "negative",
+      "impact": "US stock futures sank in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the...",
+      "category": "us_equities",
+      "date": "2026-10-30 14:27",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
     },
     {
       "headline": "Swiss central bank posts bumper $23bn profit as gold, foreign assets soar",
@@ -111,16 +132,6 @@
       "category": "commodities",
       "date": "2026-10-30 12:31",
       "link": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html"
-    },
-    {
-      "headline": "Nasdaq-100 futures fall as Amazon and Intel swoon after earnings: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Amazon and Intel shares tumbled after the companies posted their latest earnings reports.",
-      "category": "us_equities",
-      "date": "2026-10-29 22:11",
-      "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
     },
     {
       "headline": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
@@ -149,7 +160,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -159,7 +170,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-31 11:25",
+      "date": "2026-10-31 18:20",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -191,16 +202,6 @@
       "category": "commodities",
       "date": "2026-10-30 12:52",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNEpvcHduNHFiT3VhT2lnSkhCN2dMTkEyd00tWUw5OXZheGhWRW0zdEFhVmxkcl9tV1JkSDV5MEZxWG5DUEVsQW5MVTB4RFQtUVpoeUlfM09BWGtkWmRjLWlpQml1alR3UjlmZHY0anVwOHJ4UGxHcTF2cmVTRFFqRjAtRnVlcTUxX3hMZVVlYTRlemVPVkxibEdQSGZ5Q1ZWTkp4aDR1NnJ4aUxDRVNDSUxSS1V3eW5HRThnQmphQTA5ZnM?oc=5"
-    },
-    {
-      "headline": "Indian Oil's Q2 profit nearly triples on LPG compensation - Reuters",
-      "score": 7,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "Indian Oil's Q2 profit nearly triples on LPG compensation\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-10-30 11:39",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVWVzSkNZbFc0QnVmMkpjTUJtVUJoOFlkQlp4V0hnR213VVNUeUZCNFpLVGxsWDFvdmd4bFZ3bWxaRlB2Wm04aFNkVkhoZ0RxaVRkdHRLLUthS2VPTVZTVElldUlZN1I5YmlDc2R0SV80Zk5hTjFINl9tejFxVURhWWN1QTJGMFFrek1vaWNTS1JKdmctZ1FVNGUybC1vWUd4UWJv?oc=5"
     },
     {
       "headline": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
@@ -253,24 +254,24 @@
       "link": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html"
     },
     {
-      "headline": "The rise of the 15-foot skeleton\u2014how a viral novelty became a Halloween staple",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "In just six years, giant skeletons have gone from an absurd viral novelty to the centerpiece of an expanding retail arms race for the front lawn.",
-      "category": "global_markets",
-      "date": "2026-10-31 10:27",
-      "link": "https://www.cnbc.com/make-it/2026/10/23/giant-halloween-skeleton-decorations.html"
-    },
-    {
-      "headline": "Has the tech bubble burst? Why the Nasdaq\u2019s rough ride looks eerily like 2000.",
+      "headline": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "Friday\u2019s big plunge raises disturbing parallels with the top of the dot-com bubble",
-      "category": "us_equities",
-      "date": "2026-10-30 23:14",
-      "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories"
+      "sentiment": "neutral",
+      "impact": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn\u2019t change your strategy.",
+      "category": "fixed_income",
+      "date": "2026-10-31 16:02",
+      "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "We\u2019re in our 70s. Should we pay off our 2.5% mortgage \u2014 or put the money in a high-yield savings account?",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "\u201cLet\u2019s say 10 years from now, when I\u2019m 84, we need a substantial amount of cash.\u201d",
+      "category": "fixed_income",
+      "date": "2026-10-31 16:00",
+      "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories"
     }
   ]
 }
