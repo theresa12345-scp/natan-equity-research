@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-30T19:02:00.686726",
+  "timestamp": "2026-10-31T11:25:33.407354",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.8,
-    "bullish": 14,
-    "neutral": 9,
-    "bearish": 2,
-    "high_priority": 15,
+    "avg_relevance": 7.6,
+    "bullish": 15,
+    "neutral": 7,
+    "bearish": 3,
+    "high_priority": 12,
     "material_events": 4
   },
   "sources": {
@@ -14,14 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
+    "Reuters": 6,
     "Bloomberg": 2,
-    "CNBC": 8,
-    "MarketWatch": 1,
-    "Fox Business": 1,
-    "The Wall Street Journal": 2,
+    "CNBC": 10,
     "Caixin/S&P Global": 1,
-    "Investor's Business Daily": 1
+    "Electrek": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -31,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -41,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -51,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -61,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -71,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -81,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -91,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -101,7 +99,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -113,6 +111,16 @@
       "category": "commodities",
       "date": "2026-10-30 12:31",
       "link": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html"
+    },
+    {
+      "headline": "Nasdaq-100 futures fall as Amazon and Intel swoon after earnings: Live updates",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Amazon and Intel shares tumbled after the companies posted their latest earnings reports.",
+      "category": "us_equities",
+      "date": "2026-10-29 22:11",
+      "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
     },
     {
       "headline": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
@@ -135,53 +143,13 @@
       "link": "https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html"
     },
     {
-      "headline": "Stock Market Today: Dow, S&P 500 and Nasdaq fall as Alphabet, Caterpillar earnings disappoint, but most stocks rise",
-      "score": 8,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Follow all the latest U.S. market action for Thursday here.",
-      "category": "us_equities",
-      "date": "2026-10-29 18:13",
-      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-alphabet-earnings-results-amazon-intel"
-    },
-    {
-      "headline": "Fed\u2019s preferred inflation gauge rose in September as third-quarter GDP beats expectations",
-      "score": 8,
-      "source": "Fox Business",
-      "sentiment": "positive",
-      "impact": "The Commerce Department released the Federal Reserve's preferred inflation gauge, which showed inflation trended higher in September, as third-quarter GDP rose more than expected.",
-      "category": "us_monetary_policy",
-      "date": "2026-10-29 14:34",
-      "link": "https://www.foxbusiness.com/economy/september-2026-pce-inflation"
-    },
-    {
-      "headline": "S&P 500 heads for first loss in four days as Alphabet, Caterpillar crack after earnings: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Alphabet reported a disappointing third quarter, and shares tumbled.",
-      "category": "us_equities",
-      "date": "2026-10-29 14:13",
-      "link": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Federal Debt Hits 100% of GDP",
-      "score": 8,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Surging borrowing lifts fiscal year-end debt ratio to highest since 1946",
-      "category": "us_monetary_policy",
-      "date": "2026-10-29 14:00",
-      "link": "https://www.wsj.com/economy/federal-debt-hits-100-of-gdp-585d3cb0"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -191,7 +159,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-10-30 19:01",
+      "date": "2026-10-31 11:25",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -225,24 +193,34 @@
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNEpvcHduNHFiT3VhT2lnSkhCN2dMTkEyd00tWUw5OXZheGhWRW0zdEFhVmxkcl9tV1JkSDV5MEZxWG5DUEVsQW5MVTB4RFQtUVpoeUlfM09BWGtkWmRjLWlpQml1alR3UjlmZHY0anVwOHJ4UGxHcTF2cmVTRFFqRjAtRnVlcTUxX3hMZVVlYTRlemVPVkxibEdQSGZ5Q1ZWTkp4aDR1NnJ4aUxDRVNDSUxSS1V3eW5HRThnQmphQTA5ZnM?oc=5"
     },
     {
-      "headline": "Stock Market Today: Nasdaq Sinks 350 Points; Google Stock's Tumble in Focus \u2014 Live Updates",
+      "headline": "Indian Oil's Q2 profit nearly triples on LPG compensation - Reuters",
       "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "negative",
-      "impact": "Live updates on stocks, bonds and markets, including the Dow Jones Industrial Average, S&P 500 and Nasdaq Composite",
-      "category": "us_equities",
-      "date": "2026-10-29 18:25",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-29-2026"
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Indian Oil's Q2 profit nearly triples on LPG compensation\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-10-30 11:39",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVWVzSkNZbFc0QnVmMkpjTUJtVUJoOFlkQlp4V0hnR213VVNUeUZCNFpLVGxsWDFvdmd4bFZ3bWxaRlB2Wm04aFNkVkhoZ0RxaVRkdHRLLUthS2VPTVZTVElldUlZN1I5YmlDc2R0SV80Zk5hTjFINl9tejFxVURhWWN1QTJGMFFrek1vaWNTS1JKdmctZ1FVNGUybC1vWUd4UWJv?oc=5"
     },
     {
-      "headline": "Caterpillar Revenue Miss, Outlook Dig Hole For Dow Jones Industrial Average",
+      "headline": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
       "score": 7,
-      "source": "Investor's Business Daily",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Caterpillar sees \"moderate\" revenue growth in Q4, not what analysts expected.",
-      "category": "us_equities",
-      "date": "2026-10-29 11:57",
-      "link": "https://www.investors.com/news/caterpillar-stock-q3-revenue-miss-dow-jones-industrial-average/"
+      "impact": "The BOJ declared that its underlying inflation target of 2% has been met, the first time the central bank has done so since it set the target in 2013.",
+      "category": "global_markets",
+      "date": "2026-10-30 03:16",
+      "link": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html"
+    },
+    {
+      "headline": "Rivian (RIVN) Q3 2026 earnings: revenue up 38%, R2 now its best-seller",
+      "score": 7,
+      "source": "Electrek",
+      "sentiment": "negative",
+      "impact": "Rivian (RIVN) Q3 2026 revenue rose 38% to $2.155B as the R2 became its best-seller, but the automotive business still posted an $80M gross loss.",
+      "category": "corporate_earnings",
+      "date": "2026-10-29 21:02",
+      "link": "http://electrek.co/2026/10/29/rivian-rivn-q3-2026-earnings-r2-best-seller/"
     },
     {
       "headline": "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
@@ -273,6 +251,26 @@
       "category": "corporate_earnings",
       "date": "2026-10-28 21:42",
       "link": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html"
+    },
+    {
+      "headline": "The rise of the 15-foot skeleton\u2014how a viral novelty became a Halloween staple",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "In just six years, giant skeletons have gone from an absurd viral novelty to the centerpiece of an expanding retail arms race for the front lawn.",
+      "category": "global_markets",
+      "date": "2026-10-31 10:27",
+      "link": "https://www.cnbc.com/make-it/2026/10/23/giant-halloween-skeleton-decorations.html"
+    },
+    {
+      "headline": "Has the tech bubble burst? Why the Nasdaq\u2019s rough ride looks eerily like 2000.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Friday\u2019s big plunge raises disturbing parallels with the top of the dot-com bubble",
+      "category": "us_equities",
+      "date": "2026-10-30 23:14",
+      "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories"
     }
   ]
 }
