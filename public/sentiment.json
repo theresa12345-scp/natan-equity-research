@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-01T18:47:01.383840",
+  "timestamp": "2026-11-02T14:13:33.053799",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 9,
-    "neutral": 13,
-    "bearish": 3,
-    "high_priority": 11,
+    "avg_relevance": 7.0,
+    "bullish": 7,
+    "neutral": 16,
+    "bearish": 2,
+    "high_priority": 8,
     "material_events": 4
   },
   "sources": {
@@ -14,11 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
-    "Bloomberg": 3,
-    "CNBC": 6,
+    "Reuters": 13,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "The Hill": 1,
+    "Financial Times": 1,
+    "Yahoo Entertainment": 1,
+    "CNBC": 2,
     "MarketWatch": 1
   },
   "top_signals": [
@@ -29,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,38 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Trump called out Big Oil profits. Here\u2019s how much their refining earnings have surged since",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Trump criticized Big Oil for making \u201ctoo much money,\u201d but oil majors have since reported surging refining earnings as fuel supplies tightened.",
-      "category": "commodities",
-      "date": "2026-10-31 06:00",
-      "link": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html"
-    },
-    {
-      "headline": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Rivian also revised its 2026 guidance to mark expected improvements in its vehicle deliveries, pre-tax adjusted earnings and capital expenditures.",
-      "category": "corporate_earnings",
-      "date": "2026-10-29 21:52",
-      "link": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html"
-    },
-    {
-      "headline": "Norwegian shares surge 13% on earnings beat, guidance raise",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Norwegian said the company's bookings had \"improved modestly\" but remain below its optimal range.",
-      "category": "corporate_earnings",
-      "date": "2026-10-29 20:14",
-      "link": "https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -139,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -149,128 +120,158 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-01 18:47",
+      "date": "2026-11-02 14:13",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "AI Enthusiasm Is Collapsing and Tech Earnings Just Made It Worse",
+      "headline": "Reliance earnings, lower oil prices power India's Sensex to near two-month high - Reuters",
       "score": 7,
-      "source": "Bloomberg",
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "The last two weeks were supposed to bring some clarity to a stock market wobbling on a series of risks, particularly doubts about heavy spending on artificial intelligence, as a series of technology giants reported their earnings.",
-      "category": "corporate_earnings",
-      "date": "2026-10-31 13:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-31/ai-enthusiasm-is-collapsing-and-tech-earnings-just-made-it-worse"
+      "impact": "Reliance earnings, lower oil prices power India's Sensex to near two-month high\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-11-02 02:42",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRV9nWF8tcV9tRkNYTENXRnRyTDhkcnRoZEJmMFJ1Wm1USDJwbDNxcEFuU0xNbE9JSnRJb2xScTBmWWVpZWJ5SmlhXzdBajNuSDhnOWdULWQ4UUZ2T3RRdjhpNWxZb08tcEQxR01tdks4dkhLTUN1WjJiZVFSa1JCbHBRdGVsZVZqNzFoQ2ZDdF9zbE9MeUlvRHhzZGRRM05SeGxlaFB1MFZjWVB3TVZjbTBfUlprRTZ2eTA3bFBFQVpLdw?oc=5"
     },
     {
-      "headline": "Anthropic's path to the Nasdaq just got a lot bumpier",
+      "headline": "Bond investors sit out \u2018most consequential\u2019 US midterm elections in years",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.",
-      "category": "us_equities",
-      "date": "2026-10-31 11:00",
-      "link": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html"
-    },
-    {
-      "headline": "Federal debt surpassed GDP for fiscal 2026",
-      "score": 7,
-      "source": "The Hill",
+      "source": "Financial Times",
       "sentiment": "neutral",
-      "impact": "The national debt topped the entire gross domestic product (GDP) for fiscal 2026, according to new data from the Bureau of Economic Analysis (BEA). From the fourth quarter of 2025 through the third quarter of this year, the country\u2019s economic output was more \u2026",
+      "impact": "Big fund managers are pressing \u2018pause\u2019 as vote and economic data releases loom",
+      "category": "fixed_income",
+      "date": "2026-11-01 05:01",
+      "link": "https://www.ft.com/content/937308d7-aa2e-4dac-b19b-423d83bc1253?syn-25a6b1a6\\\\u003d1"
+    },
+    {
+      "headline": "'The Fed put is very much back': Wall Street strategists weigh central bank's next move",
+      "score": 7,
+      "source": "Yahoo Entertainment",
+      "sentiment": "neutral",
+      "impact": "Stocks have been shaky as technology takes a hit, but the Fed's latest move to hold rates steady signals that policymakers will support the markets if the go...",
       "category": "us_monetary_policy",
-      "date": "2026-10-30 21:05",
-      "link": "https://thehill.com/business/6185236-federal-debt-gdp-bea-cbo-treasury/"
+      "date": "2026-10-31 15:53",
+      "link": "https://finance.yahoo.com/markets/article/the-fed-put-is-very-much-back-wall-street-strategists-weigh-central-banks-next-move-155353732.html"
     },
     {
-      "headline": "Here are 3 big things we're watching in the stock market in the week ahead",
+      "headline": "Automakers like Rivian and Ford are \u2018democratizing 3D printing\u2019 to reduce costs and increase speed",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The market could use a few victories in the days ahead, which will be filled with more earnings, an election, and jobs data.",
+      "impact": "Automakers including Ford, Rivian and GM are expanding 3D printing to make prototypes, factory tools and low-volume parts faster and at lower cost.",
       "category": "global_markets",
-      "date": "2026-11-01 18:12",
-      "link": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html"
+      "date": "2026-11-02 14:09",
+      "link": "https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html"
     },
     {
-      "headline": "Democratic Rep. Stevens endorses Rogers over El-Sayed in Michigan Senate election",
+      "headline": "We're buying the dip in a stock after an expectations reset",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Haley Stevens had lost the Democratic nomination for Senate in Michigan to Abdul El-Sayed earlier this year.",
+      "sentiment": "negative",
+      "impact": "We waited for the dust to settle after its earnings sell-off.",
       "category": "global_markets",
-      "date": "2026-11-01 17:59",
-      "link": "https://www.cnbc.com/2026/11/01/michigan-senate-stevens-rogers-endorsement-el-sayed.html"
+      "date": "2026-11-02 13:56",
+      "link": "https://www.cnbc.com/investingclub/2026/11/02/were-buying-the-dip-in-a-stock-after-an-expectations-reset.html"
     },
     {
-      "headline": "Israeli strikes kill eight people in Gaza - medics say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Israeli strikes kill eight people in Gaza - medics say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-01 16:41",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2E3NlZWbHB1MUtZdG5sLXBXci1sVnQtMWxWYk1CM1EzTUtfMXJiWDZYRlIzN09BWlBuaUVXOThueVFEdF9nMXdVaUpobUNCSXM3dUZWQVZjN2MwZ19pQUN6cDUtbnE2Rm1PX3BwYmhTWWo4TGRqbG0xSmhKQVhWYTlVNkFpTFdsUFhmcDlVaFI5cWZRYk1jcFRoU3RIZUV2QTRBdm5B?oc=5"
-    },
-    {
-      "headline": "Russia's FSB says minor detained over park attack threat after US tip-off - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Russia's FSB says minor detained over park attack threat after US tip-off\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-01 15:32",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEpDUVhCYWticTBIZEZxaHVlMXBZbFp0ODd6RVB2c1VzNllrVFpHRk5SR3E4Uk9YeWRJVFVoVGhlLS10ckliNzkyTzdjNi1KRU85UG9UQXpvcjlteTdLcm5iTERreDNqaF9jSU1ndTBwN2pBcXdGNlhEYTRmTFpKOXVOMUl3Q21fQW9DS2gxUWpkYjdfYnlJWmROR3VEQk5KUVhNSGFMNFFHcUZmNTZ2UENLWks?oc=5"
-    },
-    {
-      "headline": "Apple\u2019s new earnings era begins at a critical time for Big Tech",
+      "headline": "In the hunt for $1 trillion of revenue, SpaceX reportedly targets Boost Mobile for a deal",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "negative",
-      "impact": "A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.",
+      "sentiment": "positive",
+      "impact": "In recent weeks there has been intense speculation surrounding SpaceX  ambitions in the cellular market with multiple acquisition targets suggested; Boost Mobile is the latest",
       "category": "corporate_earnings",
-      "date": "2026-11-01 15:00",
-      "link": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories"
+      "date": "2026-11-02 12:20",
+      "link": "https://www.marketwatch.com/story/in-the-hunt-for-1-trillion-of-revenue-spacex-reportedly-targets-boost-mobile-for-a-deal-7eb4ea49?mod=mw_rss_topstories"
     },
     {
-      "headline": "Iran, Qatari mediators hold third day of talks to end US-Iran war - Reuters",
+      "headline": "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iran, Qatari mediators hold third day of talks to end US-Iran war\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-01 14:43",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5"
-    },
-    {
-      "headline": "Qatar surges, bucking Gulf market slide on Iran war concerns - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Qatar surges, bucking Gulf market slide on Iran war concerns\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-01 14:03",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5"
-    },
-    {
-      "headline": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027\u00a0\u00a0Reuters",
+      "impact": "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-11-01 13:36",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVRNX1Y5b0xXX3dlMU1QX2lRbVkxbkJYSU9SUVdxUFlXQ2hGcjRpRlVIbklCeTlZa1d2VnNOQWFaaVN0NHJVcnJSRVhUSngyVmcxdzlsZVpwSm1wbmduTGpNbXkwWEhKbGZQdURzZ0c0UHl2S28zLUxjbDdSUkdzZTFnMmtubVlvbmFVMHlsX3BvOVpLa2NqcWozZTJUWlhnUWUxYXFn?oc=5"
+      "date": "2026-11-02 12:17",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUjRWdTdnRzAwR2xkSU04ZHlmbHh0eXg5Wm8xS1k5Q2hLYWRWbWdOVzd4ckZHcjZkYktZVHEyV29yQ25XNE9Ga0Y3TG5Dc3Awd054Y2o3MU5rLTNZNmRRTkZXVjdyZWJNYnM4bVczRU1RRmlqOW5JOVZCVWpJSXFDazBHWm5hUXhGb2FGS2xUN3Q5cFFQelVqazAxYXNDamdDZ0pINE5mQUE3VGhFdDcxZkZ4cUdSOFVQTWRsdXl6LXdMTUpIWnFLQ0VB?oc=5"
     },
     {
-      "headline": "German ministers pledge tough action after rioters damage stores in Frankfurt - Reuters",
+      "headline": "US voters in a sour economic mood heading into midterm elections - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "German ministers pledge tough action after rioters damage stores in Frankfurt\u00a0\u00a0Reuters",
+      "impact": "US voters in a sour economic mood heading into midterm elections\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-01 13:26",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX2l3Y3cxckRlRlpIRFQzT2FWa0YzZHcxYTdSV3dDY29iN0FNUHdqa1hKWkxFdU40NFI5MG8tWEV2SU54cng3NXpoV3JhdzdjVVRKZHJPYmlPNVBYTG95Y1lQYW1PbzVscnpHZ0plMGhET096ZDNjdEg0dTlzd2dPNVNlOXV3N2NiOW5rXzRsN3VZc2pSQWk0TUxkLXl4ZTRrcV9mMW9UWnUtSzlPajJaLS16Qm8?oc=5"
+      "date": "2026-11-02 11:40",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUGRVbTNjVkVkWHA5anlUV0l1YUhUUjM2Zy1DOGg0T2l2V0Zqajl2TzVpUW5Wc2s1ZkF6eTRNSmNNMWZCUEZqM0ZjUHNKQ0NkZkNGdlY3U2xHcWhBTUdzcXBnd2p2Z0VjUWFiQ3JRYkdvbTR2NUdnZUlnZHU4ZjY0OTIxa0NSbGhXWE1Yc1A5VmZHQVQ3aEJzcHhHNFVqVTNFa3RKazBydW9TbnBEUlo0aEM4THZmQQ?oc=5"
+    },
+    {
+      "headline": "China's foreign minister pushes for dialogue to resolve Middle East conflict - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "China's foreign minister pushes for dialogue to resolve Middle East conflict\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-11-02 11:25",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ2VTVHZ5bkxnbmVXd3BUS0JEenI2QkpMYXJSVUxpUGJrNHpaMkFtZ244cE93RWhCWExKTmJFdm5FbFZEck14aVdnaW0tdU5DdHY0UUk3TkpqbW5vb1RzMW85Z1VkZHFBSnlRMkRVUTlxRDgyR2Z1N3BBSkRsdzI2Mm9WQmxjaFpiOUpqR3k5WjRZUVVZaUtGWGVscXhlS01PZjBUTWRMNHpIU28?oc=5"
+    },
+    {
+      "headline": "Sectors bracing for a pivot as US midterm elections loom - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Sectors bracing for a pivot as US midterm elections loom\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-02 11:09",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNVM3bDhEOHNLQ3VJRDRGcEtyeXBhNUdsblBVUGQ3bDBWLXUxQXZMXzF6SmxxdWczMUpJcFRSR21RU2hRaHFTLUxGQ0xkcmFkWFVoQm1WaVVQeGROMXFCaTJTQ0xCRHhkMU9pc3k1MUVQTkFvMER3SEszZG5kNGswQkdRQVo2Z1ZONGxZb1FSWDNhWmlzTHA2R2VVQVdvNnpHSlE?oc=5"
+    },
+    {
+      "headline": "Iranians have left Doha talks, draft proposal for US deal being circulated, official says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iranians have left Doha talks, draft proposal for US deal being circulated, official says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-02 10:41",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5"
+    },
+    {
+      "headline": "Saudi civil defence sounds all-clear after alerts in southern cities - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Saudi civil defence sounds all-clear after alerts in southern cities\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-02 07:22",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTmhEQmdqTzRHX3pXZXZRZC1WYXhvUHVtcTJEcS1UMUZWYnZUcTZtdS1fekpDdTNrWXJzSWp5LTBRUHpaTVdTOVlHeFZraWNiT1RnRmgtcTkxZ0pvaUR2VkRZV2d1ZVZTdjJMQklhcGlhbWR0aC1HV3I3bDdsRkN2dVpiZ1N5V3N1Z1pBSVExdlh1VldUSmNYWUV6SGhlV3UtMHZJMWtDRGR1ZkNWRWcyVTh6TlpCYmpxazc4?oc=5"
+    },
+    {
+      "headline": "Israeli strikes kill four people in Gaza, medics say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israeli strikes kill four people in Gaza, medics say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-02 07:18",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY19KZDAxQzZjOUlldUhfSTJfRlBVUXVhVXprMkw3UXBfX2ZTWDBCa1ExcVpCSXU5NHhiUDloQk9XX2JRXzBtTzM0XzlsTHI1Z3FMODJISDRoSTYyTmFyNTBHaHFvUGxzRlljU0NPRHprVjZiNFBRSWtXeGhueFlGX1NGRG9fTjBwS3hlZVdlNDM1ejlEWmt3TDRhSTBPbTFDSlZQMHJR?oc=5"
+    },
+    {
+      "headline": "World's energy supply buffers have been eroded, ADNOC CEO says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "World's energy supply buffers have been eroded, ADNOC CEO says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-02 06:38",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFJFQUd0MGpUMUdubkFVLWwzTHgwWmc1dlhDMzBWWjVYVnJGbTFiTndMWk9IclpjVWljUWlGTy1xUUN3VVRCLWRNeFluRGxQc3dFek52dVhvMU4zTGwtRDJtZWdDRnJRRFd4eUZiWDQtUnpkeFFOc1FRb1pJQ3BQNmptTDdKa0FWek5zSjdQcC1IcUZMTk1xNzdFQS1mQTd2WW11MmlGMTBIMmhyYURMVjltNmVWNi1Bc0JTLXhnTGg5TXk3YzYtb3Y2VQ?oc=5"
+    },
+    {
+      "headline": "Afghanistan asks US to act responsibly on deporting Afghan immigrants back home - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Afghanistan asks US to act responsibly on deporting Afghan immigrants back home\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-02 06:38",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR3NBd1hhMXk1Ti1CaVBEbWNkc1JBS1BicFgxcE0tX0JsWEpxbW5vVkJYTVF2NnJOdkdHRkh3OFhpTnRhbXhzV09QVzMtd0NkSG1yanNOa21rQUIxSXZOVkM2dUdXX0J0WEVxN1NzVnVobDBQZUdFX0ZSeFhsSFhrSDRUYWhwWkhaeTZpaEkycnlnZDkwV0VaYXRINF9UTjFKWXFYUEQyZEtJQy00eWJxQ3BfaGw0Y2xwejZodmF0UXJ6U29ubFQ4?oc=5"
     }
   ]
 }
