@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-02T22:37:47.746993",
+  "timestamp": "2026-11-03T13:16:10.939931",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 13,
+    "avg_relevance": 7.3,
+    "bullish": 10,
     "neutral": 12,
-    "bearish": 0,
-    "high_priority": 8,
+    "bearish": 3,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,10 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
-    "Bloomberg": 4,
-    "Caixin/S&P Global": 1,
+    "Reuters": 4,
+    "Bloomberg": 3,
     "CNBC": 9,
+    "Caixin/S&P Global": 1,
+    "Yahoo Entertainment": 1,
+    "The Wall Street Journal": 1,
     "MarketWatch": 2
   },
   "top_signals": [
@@ -28,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +60,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +100,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Ferrari raises 2026 guidance after Q3 earnings beat",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Ferrari raised its 2026 guidance Tuesday after third-quarter revenue and adjusted earnings per share edged past Wall Street expectations.",
+      "category": "corporate_earnings",
+      "date": "2026-11-03 13:01",
+      "link": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -108,7 +120,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,8 +130,38 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-02 22:37",
+      "date": "2026-11-03 13:16",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Taco Bell's same-store sales declined as a Cyclospora outbreak tied to lettuce served at its restaurants weighed on traffic.",
+      "category": "corporate_earnings",
+      "date": "2026-11-03 12:44",
+      "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html"
+    },
+    {
+      "headline": "Versant earnings beat expectations as digital platforms drive growth",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Versant posted third-quarter earnings that beat Wall Street expectations and reaffirmed its full-year guidance.",
+      "category": "corporate_earnings",
+      "date": "2026-11-03 12:06",
+      "link": "https://www.cnbc.com/2026/11/03/versant-vsnt-q3-2026-earnings.html"
+    },
+    {
+      "headline": "Indian shares extend gains on softer oil, strong earnings - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Indian shares extend gains on softer oil, strong earnings\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-11-03 02:38",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVNvY0lPbFp1SlNTR1BlbUstUy1iMUtZcGJzSTBxLXVBdEpWajhoT0RuWklLUkxfM1dFd1pWLVJxMnlaQzFnQzVyMUJEVC1sbVJGbmJTd2p5RGhNaldxbkNicjBvNWJ4dXoxS3RobzN6NTRzeDM5TV9fME1FTTJWM1JaNVNvM0JsSGRXTWQ1TG03MmlGZU43TVJyS1NHT0xGRWRpXy1ETkx1Q1E?oc=5"
     },
     {
       "headline": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
@@ -152,124 +194,84 @@
       "link": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
     },
     {
-      "headline": "Wall Street Braces for Biggest Treasury Sales Overhaul in Years",
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures recover from bruising sell-off ahead of busy week",
       "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "After Treasury Secretary Scott Bessent surprised dealers with his willingness to intervene in the bond market to drive down yields in recent months, Wall Street is now girding for the biggest revamp in guidance for US Treasuries issuance since early 2024.",
+      "source": "Yahoo Entertainment",
+      "sentiment": "negative",
+      "impact": "Investors regained risk appetite ahead of another packed week of earnings, midterm elections, and a key jobs report.",
       "category": "us_equities",
-      "date": "2026-11-01 20:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years"
+      "date": "2026-11-02 12:00",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
     },
     {
-      "headline": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+      "headline": "This Bond Measure Says Stocks Are Cheap. Don\u2019t Believe It.",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "fixed_income",
+      "date": "2026-11-02 11:47",
+      "link": "https://www.wsj.com/finance/investing/this-bond-measure-says-stocks-are-cheap-dont-believe-it-1db3069a"
+    },
+    {
+      "headline": "Alphabet Kicks Off Sale of Its Second Euro Bond This Year",
       "score": 7,
       "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "Jobs week lies ahead for the US, which means a heavy slate of data ahead of the capstone monthly employment report from the Bureau of Labor Statistics on Friday.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-01 14:41",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again"
+      "sentiment": "neutral",
+      "impact": "Alphabet Inc. is set to raise \u20ac6 billion ($6.7 billion) in its second euro bond sale this year, offering considerably higher yields than in its transaction in May after concerns over the pace of AI spending drove a credit-market selloff.",
+      "category": "fixed_income",
+      "date": "2026-11-02 07:17",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/alphabet-kicks-off-sale-of-its-second-euro-bond-this-year"
     },
     {
-      "headline": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+      "headline": "Shopify\u2019s stock slides after earnings. This is what\u2019s worrying Wall Street.",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Some investors appeared a little too eager to buy the dip in technology stocks last month.",
+      "sentiment": "negative",
+      "impact": "The company missed revenue expectations, a tough outcome in today\u2019s less forgiving tech market.",
       "category": "us_equities",
-      "date": "2026-11-02 22:03",
-      "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories"
+      "date": "2026-11-03 12:59",
+      "link": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories"
     },
     {
-      "headline": "Kimberly-Clark closes its acquisition of Tylenol maker Kenvue. What to expect next",
+      "headline": "Pfizer hikes full-year outlook, taps company veteran as new CFO ",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Kimberly-Clark has a plan improve growth and earnings following its acquisition of Kenvue",
+      "sentiment": "neutral",
+      "impact": "Pfizer announced that Cecile Guegan, who has held various leadership roles at the company over the last 20 years, stepped in as CFO this month.",
       "category": "global_markets",
-      "date": "2026-11-02 21:35",
-      "link": "https://www.cnbc.com/investingclub/2026/11/02/kimberly-clark-closes-its-acquisition-of-tylenol-maker-kenvue-what-to-expect-next.html"
+      "date": "2026-11-03 12:36",
+      "link": "https://www.cnbc.com/2026/11/03/pfizer-pfe-earnings-q3-2026.html"
     },
     {
-      "headline": "Palantir earnings reveal a major AI turning point",
+      "headline": "What analysts are telling us while Apple\u2019s stock falls after earnings report",
       "score": 6,
       "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "The U.S. commercial business brought in more money than the U.S. government segment in the third quarter.",
+      "sentiment": "negative",
+      "impact": "Shares in Apple declined 4.5% in premarket trading after investors were left feeling disappointed about the company\u2019s gross margin outlook and slowing services revenue  growth.",
       "category": "corporate_earnings",
-      "date": "2026-11-02 21:09",
-      "link": "https://www.marketwatch.com/story/palantir-earnings-reveal-a-major-ai-turning-point-db766110?mod=mw_rss_topstories"
+      "date": "2026-11-03 12:20",
+      "link": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories"
     },
     {
-      "headline": "Trump focuses on Reflecting Pool in final public speech before midterms",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Trump seemed to acknowledge that Democrats had an advantage heading into Election Day. \"But we gave this a very strong shot,\" he said.",
-      "category": "global_markets",
-      "date": "2026-11-02 20:29",
-      "link": "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html"
-    },
-    {
-      "headline": "2 of our banks are at the heart of this week's biggest tech deals",
+      "headline": "Supermarket fridges are under attack in Europe \u2014 here's what's happening",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "impact": "European supermarkets have become the center of another cyberattack, with hackers remotely heating fridges and spoiling food.",
       "category": "global_markets",
-      "date": "2026-11-02 19:15",
-      "link": "https://www.cnbc.com/investingclub/2026/11/02/2-of-our-banks-are-at-the-heart-of-this-weeks-biggest-tech-deals.html"
+      "date": "2026-11-03 12:11",
+      "link": "https://www.cnbc.com/2026/11/03/supermarket-fridges-hack-cyberattack-europe.html"
     },
     {
-      "headline": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate",
+      "headline": "Baked by Melissa enters Target with first at-home cupcake mix",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Just a day before the midterms, Kalshi traders give Democrats a 74% of controlling the Senate.",
+      "impact": "Baked by Melissa is launching bite-size cupcake kits at Target as the retailer heads into the critical holiday shopping season.",
       "category": "global_markets",
-      "date": "2026-11-02 19:15",
-      "link": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html"
-    },
-    {
-      "headline": "Texas governor race tightens in prediction markets, but Abbott remains favored",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Prediction markets still show the Republican incumbent favored to win a fourth term, but the odds have narrowed in recent weeks.",
-      "category": "global_markets",
-      "date": "2026-11-02 18:54",
-      "link": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html"
-    },
-    {
-      "headline": "Apple reports after the bell. Options traders expect a big move",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Apple reports after the bell. Options traders expect a big move.",
-      "category": "global_markets",
-      "date": "2026-11-02 18:19",
-      "link": "https://www.cnbc.com/2026/11/02/apple-reports-after-the-bell-options-traders-expect-a-big-move.html"
-    },
-    {
-      "headline": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-11-02 17:46",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPalhUUG9VTkRaNkpZM1BUTlpIYVM0WmJMU3UxZHpaSm5KRUhDdmNNTUVNbEJncFYyS1RqUVZmd2RaMUh3eUVINWt6Wm9WeGgzZmFoR2U1TzlnZ3dkUFVkdjJIclFHaEc2X2NWYnlLRnZGREs3RDg0WWdZbEJWc3d1RERMZHZESnhDb05HQXVlMjRCbnNxNVM4TFpvdzVPQ1hDMVlXVGpNMmx0Q0gzbXVFZGl3UERXYjllcmx5MUEyeGVHUQ?oc=5"
-    },
-    {
-      "headline": "Sectors bracing for a pivot as US midterm elections loom - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Sectors bracing for a pivot as US midterm elections loom\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-02 17:17",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNVM3bDhEOHNLQ3VJRDRGcEtyeXBhNUdsblBVUGQ3bDBWLXUxQXZMXzF6SmxxdWczMUpJcFRSR21RU2hRaHFTLUxGQ0xkcmFkWFVoQm1WaVVQeGROMXFCaTJTQ0xCRHhkMU9pc3k1MUVQTkFvMER3SEszZG5kNGswQkdRQVo2Z1ZONGxZb1FSWDNhWmlzTHA2R2VVQVdvNnpHSlE?oc=5"
+      "date": "2026-11-03 12:11",
+      "link": "https://www.cnbc.com/2026/11/03/baked-by-melissa-cupcake-kits-target.html"
     }
   ]
 }
