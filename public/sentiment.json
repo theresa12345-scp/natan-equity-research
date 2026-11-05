@@ -1,23 +1,25 @@
 {
-  "timestamp": "2026-11-05T13:43:14.517621",
+  "timestamp": "2026-11-05T20:57:03.866731",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 13,
-    "neutral": 9,
-    "bearish": 3,
-    "high_priority": 11,
-    "material_events": 5
+    "avg_relevance": 7.3,
+    "bullish": 16,
+    "neutral": 7,
+    "bearish": 2,
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 10,
     "Reuters": 7,
-    "Bloomberg": 2,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
+    "CNBC": 6,
+    "Yahoo Entertainment": 2,
+    "The Wall Street Journal": 1,
     "MarketWatch": 1
   },
   "top_signals": [
@@ -28,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,18 +60,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Treasury yields moved lower on Wednesday as investors weighed big wins from Democrats in the U.S. midterm elections.",
-      "category": "fixed_income",
-      "date": "2026-11-04 03:24",
-      "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -78,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -88,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -98,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -108,28 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "S&P 500 futures gain slightly on AMD's strong earnings as traders await election results: Live updates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Investors braced for the results of the 2026 U.S. midterm elections.",
-      "category": "us_equities",
-      "date": "2026-11-04 02:41",
-      "link": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Ferrari raises 2026 guidance after Q3 earnings beat",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Ferrari raised its 2026 guidance Tuesday after third-quarter revenue and adjusted earnings per share edged past Wall Street expectations.",
-      "category": "corporate_earnings",
-      "date": "2026-11-03 21:11",
-      "link": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -138,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -148,16 +120,36 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-05 13:43",
+      "date": "2026-11-05 20:57",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Emirates airline net profit drops 66% in first half dragged down by Iran war - Reuters",
+      "headline": "We're booking big profits in 2 outperformers in Thursday's terrible market",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "They have nothing to do with tech and data centers, which are getting slaughtered.",
+      "category": "corporate_earnings",
+      "date": "2026-11-05 16:22",
+      "link": "https://www.cnbc.com/investingclub/2026/11/05/were-booking-big-profits-in-2-outperformers-in-thursdays-terrible-market.html"
+    },
+    {
+      "headline": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-11-05 12:58",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1NmeDl4ZndpQkllbEZoTmVYQzFUSXpCeFNTRnByV05HcVlaYXl0RkY4b0htT1dYTkhQZG9DNldqcmtna1gyNVhkdTZwWmR3NTBZb0gtUm9kWnlfQzVhMWJCTzVYSGhpLXkxS085ZGpwVUVEbWlTWmItbElUTzFqTEwydEJTSUVheFJsTGNjdnlfRW1RaURzWm5KOGs5Rmx1bUV4SUxpTWNaMlNhWGxPU2lnNkt0cXc?oc=5"
+    },
+    {
+      "headline": "Emirates profit plunges as Iran war rattles Middle East aviation - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Emirates airline net profit drops 66% in first half dragged down by Iran war\u00a0\u00a0Reuters",
-      "category": "us_equities",
+      "impact": "Emirates profit plunges as Iran war rattles Middle East aviation\u00a0\u00a0Reuters",
+      "category": "corporate_earnings",
       "date": "2026-11-05 06:03",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ0FfNmtkUFFEaTlUdDhvdXZNYko4TUMwOVNTWVpEdHl5ZjMxUE8xdW9PRHNjelJlbFFkaFNEMEN6OHRnZVEzYnFXY09LQUtTa0FMSFZKY0I4amR2dUt3VGRTc3ExUGJ1cGFtQ245eDFuUkhkWUI3ZGNBMVQzN3NBRlZJOXJxZjRCRVN1STlia2lXUHdoRF9EdkhFcWpGZXJqUW9CUkJmUERhTzMxUGx0Wi1XX2ZwV3BEMVBHM1pmLWpYX01XX2xR?oc=5"
     },
@@ -192,84 +184,94 @@
       "link": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html"
     },
     {
-      "headline": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
+      "headline": "Stock market today: Dow jumps over 1,000 points, S&P 500 and Nasdaq gain after Democrats win control of Congress",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Taco Bell's same-store sales declined as a Cyclospora outbreak tied to lettuce served at its restaurants weighed on traffic.",
-      "category": "corporate_earnings",
-      "date": "2026-11-03 15:19",
-      "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html"
+      "source": "Yahoo Entertainment",
+      "sentiment": "positive",
+      "impact": "Markets priced in a divided government and assessed what a Democratic sweep of midterm elections means for key industries.",
+      "category": "us_equities",
+      "date": "2026-11-04 15:46",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-earnings-140752043.html"
     },
     {
-      "headline": "Versant earnings beat expectations as digital platforms drive growth",
+      "headline": "Fed Wins Protection With Democrats Taking Control of the Senate",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "President Donald Trump\u2019s campaign to reshape the Federal Reserve and bend interest-rate policy to his will has hit a formidable firewall after Democrats won control of the Senate on Tuesday.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-04 14:11",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/fed-wins-protection-with-democrats-taking-control-of-the-senate"
+    },
+    {
+      "headline": "Uber beats on revenue even as mobility and delivery units miss estimates",
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Versant posted third-quarter earnings that beat Wall Street expectations and reaffirmed its full-year guidance.",
+      "impact": "Uber reported better-than-expected revenue but its mobility unit faced higher fuel costs overseas and tighter driver supply.",
       "category": "corporate_earnings",
-      "date": "2026-11-03 14:17",
-      "link": "https://www.cnbc.com/2026/11/03/versant-vsnt-q3-2026-earnings.html"
+      "date": "2026-11-04 13:20",
+      "link": "https://www.cnbc.com/2026/11/04/uber-stock-q3-2026-earnings.html"
     },
     {
-      "headline": "Interest rates could go \u2018significantly higher\u2019 if oil prices keep climbing \u2014 even if the Iran war ends soon",
+      "headline": "AMD beats Q3 earnings expectations, with data center revenue climbing 97%",
+      "score": 7,
+      "source": "Yahoo Entertainment",
+      "sentiment": "positive",
+      "impact": "AMD beat expectations on the top and bottom lines.",
+      "category": "corporate_earnings",
+      "date": "2026-11-04 12:56",
+      "link": "https://finance.yahoo.com/technology/article/amd-stock-flat-following-strong-q3-earnings-beat-as-data-center-revenue-climbs-97-154919989.html"
+    },
+    {
+      "headline": "Novo Nordisk Lifts Guidance as Rollout of Wegovy Weight-Loss Pill Continues",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "negative",
+      "impact": "Third-quarter sales of the Wegovy pill reached the equivalent of $807.2 million",
+      "category": "corporate_earnings",
+      "date": "2026-11-04 08:50",
+      "link": "https://www.wsj.com/health/pharma/novo-nordisk-lifts-guidance-as-rollout-of-wegovy-weight-loss-pill-continues-1f748068"
+    },
+    {
+      "headline": "Bloom Energy\u2019s stock is one of the S&P 500\u2019s biggest losers amid fears of data-center delays",
       "score": 6,
       "source": "MarketWatch",
+      "sentiment": "negative",
+      "impact": "Bloom Energy shares got swept in by tech stocks\u2019 sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.",
+      "category": "us_equities",
+      "date": "2026-11-05 20:21",
+      "link": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "How Wall Street's postelection rally got obliterated \u2014 and what's next",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Strategists at Bank of America found a dramatic correlation between interest rates and oil prices in the U.S., U.K. and Germany.",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "us_equities",
+      "date": "2026-11-05 20:06",
+      "link": "https://www.cnbc.com/investingclub/2026/11/05/how-wall-streets-postelection-rally-got-obliterated-and-whats-next.html"
+    },
+    {
+      "headline": "ConocoPhillips boosts dividend after beating estimates on higher oil prices - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "ConocoPhillips boosts dividend after beating estimates on higher oil prices\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-11-05 12:33",
-      "link": "https://www.marketwatch.com/story/interest-rates-could-go-significantly-higher-if-oil-prices-keep-climbing-even-if-the-iran-war-ends-soon-e3493498?mod=mw_rss_topstories"
+      "date": "2026-11-05 19:34",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmVXLVh5bHBBQWh5ZkFmckpmSkRNMVB2UGZwaDFuYVc1TE93TVZKcjl4c1lPSjVQb1doc1pJdm11S01RTGtwTDRUblRGVWp2M3hrb2ZLakV3R0poTGRjcmRyOEI2M2hNOEJFVllydTcyQ043WFVSRURkREJvZWxtaWJmaDJNRllnc3lPZllyM1JtMEhnY09NLWRpZzNuQWt0YU1jTFpCMlQ2UG1ZQVVtYVF5dUlZZw?oc=5"
     },
     {
-      "headline": "Here's what the Democratic election rout could mean for the U.S. economy",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The biggest forces shaping the economy aren't going to change just because the party in power did.",
-      "category": "global_markets",
-      "date": "2026-11-05 12:11",
-      "link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html"
-    },
-    {
-      "headline": "Consumers are spending on physical gifts even as travel tops wish lists, Visa survey finds",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Even as travel and experiences top the wish list, consumers are still prioritizing spending on physical gifts this holiday season.",
-      "category": "global_markets",
-      "date": "2026-11-05 11:00",
-      "link": "https://www.cnbc.com/2026/11/05/visa-holiday-shopping-physical-gifts-travel.html"
-    },
-    {
-      "headline": "Photos show Americans reacting in real-time to midterm results - Reuters",
+      "headline": "Iran's security chief discusses regional, bilateral affairs with Putin - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Photos show Americans reacting in real-time to midterm results\u00a0\u00a0Reuters",
+      "impact": "Iran's security chief discusses regional, bilateral affairs with Putin\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-05 10:55",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbW1ldDZNRklJd0FRTHk3Qm5pc0U2QkpKT2l6MU9CSmRHSmQwSUJDcWkwYzd3ZWRVRndLSlNSUngzYUFBOWJFM3J0c0FCX2ZOSHlyZVFHOVhFNlpTTnBuc2hLMzMzakhGdDF3T1owSVJ4dExIaUl4V0UzZ0g0RWdIN3R0TENyUG9YekVLdWQtTDU2cnJKQ19MWHo4QjFXbW56SzBr?oc=5"
-    },
-    {
-      "headline": "PODCAST: Oil heads for pandemic-era fall - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "PODCAST: Oil heads for pandemic-era fall\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-11-05 10:47",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTUN4a1BScS1wZnluYTlzUWEwR0EtSUhnWU9VMGtEMkc3Y21FenVPbDU3X0dkak83aDh3VmFYdzltcVVuN3F3ZFJrLWwxeWxmZDZ1ZlNNeG9uY1FfQXdoc0xMYUh1T3hHeV9Ib3BtNGpRLXBPQVYxd3h1aEoxVklTVjlsOW01bXdTX3JJUzJrbGxwdzRKckk0?oc=5"
-    },
-    {
-      "headline": "Asia fuel oil benchmarks slump as market prices in potential Iran war de-escalation - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Asia fuel oil benchmarks slump as market prices in potential Iran war de-escalation\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-11-05 10:13",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOURmMHZvcURoTHdPckpVdEYtMVA3WTktOGNLOGpHeTRZcGZ4OWZjQ2tHQTlTYy15N05pZ0VPemlkZEozUGdHTU9ieDdvZlEyU2dBbzZtbzVPNDVaaGVGNktHTGg0Nk5GbU9kYnVTN291Zkp4NV9Idk05OTNKR1FFckUtVnFfX25tWkRYd1A3VEdrME1YQjFzVzF2VDk1T1Fnc2RRdEZMZzZPNWN1YVVtX2MyTzV0SlA4eWMzOFVlQ0NBY3p2VXpsZQ?oc=5"
+      "date": "2026-11-05 18:59",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkR5dEUwb2FoSDZrZ2p1UVF1T3VzbjEwSmhUWFBSeElYM0lHamE3SE0zYVViRHNqZ2piYTBjbWtoZThDU01hQmpYRFlwMHJTTFl3S2MyWnFoZWh1VTRCdEFvckJZcHktYjNpMWxLbU1vOGp3N0k1Yi1FZ0xTMXYzU2I2OHVZeGZrVXdiUmJOZ0phb2dLTjVGTTQ4aGF0WEdOLTVzS2RLQzBYNXR5?oc=5"
     }
   ]
 }
