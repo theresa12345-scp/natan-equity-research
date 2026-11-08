@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-07T18:30:21.747656",
+  "timestamp": "2026-11-08T12:27:23.206036",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 11,
-    "neutral": 11,
-    "bearish": 3,
-    "high_priority": 8,
+    "avg_relevance": 7.0,
+    "bullish": 7,
+    "neutral": 14,
+    "bearish": 4,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,12 +14,10 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 5,
+    "Reuters": 12,
     "Bloomberg": 2,
+    "CNBC": 5,
     "Caixin/S&P Global": 1,
-    "Yahoo Entertainment": 1,
-    "Financial Times": 1,
-    "CNBC": 10,
     "MarketWatch": 1
   },
   "top_signals": [
@@ -30,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,8 +98,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "The AI \u2018credit card\u2019 is getting costlier as CoreWeave bond yield tops 16%",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Coreweave's steep yields reflect stress in the AI debt markets as investors worry about a data center slowdown. What comes next.",
+      "category": "fixed_income",
+      "date": "2026-11-06 17:02",
+      "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -110,7 +118,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,7 +128,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-07 18:30",
+      "date": "2026-11-08 12:27",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -134,64 +142,74 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5"
     },
     {
-      "headline": "Stock market today: Nasdaq futures rebound after brutal sell-off, Dow and S&P 500 wobble as US adds 165K jobs",
-      "score": 7,
-      "source": "Yahoo Entertainment",
+      "headline": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Stocks are poised for steep weekly losses as a post-election rally turned into an artificial intelligence trade meltdown, sending tremors through markets.",
-      "category": "us_equities",
-      "date": "2026-11-06 13:59",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
-    },
-    {
-      "headline": "Moderna swings to profit as momentum for cancer vaccine builds",
-      "score": 7,
-      "source": "Financial Times",
-      "sentiment": "positive",
-      "impact": "Biotech company remains strongest performer in S&P 500 over past year",
-      "category": "corporate_earnings",
-      "date": "2026-11-06 11:45",
-      "link": "https://www.ft.com/content/05ce7a1d-0d7e-434a-bcea-e8239dcde17a?syn-25a6b1a6\\\\u003d1"
-    },
-    {
-      "headline": "Democratic sweep gives markets a reason to rethink path of interest rates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Rate hikes could be curbed by an Iran war resolution, slower U.S. growth and fresh fiscal policy \u2014 but none are set in stone.",
+      "impact": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-06 10:22",
-      "link": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html"
+      "date": "2026-11-08 05:24",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5"
     },
     {
-      "headline": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "E.l.f. Beauty posted stronger-than-expected quarterly results on Wednesday as the company continues to see broad-based growth across its portfolio.",
-      "category": "corporate_earnings",
-      "date": "2026-11-04 21:47",
-      "link": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html"
+      "headline": "Iran executes three men over armed unrest during January protests - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Iran executes three men over armed unrest during January protests\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-08 04:41",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ3AtenozM05Va3RPQ1JUYWZ2T2ZYSHVLeDVpN0pKd2lObzVlTjFmSTAyazZoUzNFbHNEc3F5NVBsclI5Rkt3MlpQaVpISy1HdEtOTmNWQVFPQ0IyOGVMOUp0aURUQWJNWENqTklhSUlNQkRqTnFSWm9QR2o3R201b0FVRk00WjV2dG5XaEwzRjIwWVoxQUtkRExIVWdUV1FqdFdPNUQxRjBIdXdfUVJ5RWJ3RkFEX0p5dUZtSzFVLVpsQlI2OTdRQ0pJeDl5djg?oc=5"
     },
     {
-      "headline": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "McDonald's has leaned into discounts to attract budget-conscious diners over the last two years.",
-      "category": "corporate_earnings",
-      "date": "2026-11-04 21:02",
-      "link": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html"
+      "headline": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-07 22:49",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVHIwVVZqTlgycHFJTEhPM3g1WU5oWWtKelZsNW5aUEphdmpDRC1STjMxQmYyYjR5dkNZUVFiVFBfZ3J1Nm9HN0RmM25pOUlTMWJkWGZuVktLV3h5QkNmdEtrbUt5X2NBYXFuZC04TzhPZUJWLWVJeWJMM256ZWIxRENRczhNdEtIa2I2aF85VzJUejZMa1ZvVEFSZXZCQWJtZU1nTnBvaVl4cmNJTEhfcWpCNTFjMmotS090TzE1eXc?oc=5"
     },
     {
-      "headline": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
-      "score": 7,
+      "headline": "Houthi-run health ministry says airstrikes kill 33 near Yemen capital - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Houthi-run health ministry says airstrikes kill 33 near Yemen capital\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-07 22:48",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPck9CUTVBTUgyQVJnZUxobTVpZGxIdTBmaGNmOWpHVWt4NUF4SHYyTWlUS1g2QmZ5RUd0YmJHVVpPQUVqa1lzVlJ1SU9HUUpDdzh0SVNFRW9KanJEZDJycDA5cVhxV0NKWnA5TUEtS2tkcDF4MTNjTUstalQwLXg3TVJXb3d1VlpaTUN6N1BFWHFfUk1FNm42QWdBSndJNDdQQUdNNlZKUVlLTUN6RmQ0aXluNHNUQUxYTW9vV0ZfUEFHX2tjXzBwZkpZeXA?oc=5"
+    },
+    {
+      "headline": "Explosions heard in areas in southern Iran, Iranian media report - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Explosions heard in areas in southern Iran, Iranian media report\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-07 21:57",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObzVlZDVLRWxGVlQ1a2V1cTY5NXBjcjlJVzVqbjBKRGpRLUpnWndzNlM5bFpUYjJaUU5UeG1OS2E3c205RVVNMDJaUWxoWFN2ODc1bVhnc096VFlpOFo1N1YwR2JGS2JQYURyQ3NHZEVZaFhvQU5IaWZ1VFZHRjZNTkstbVhiOTUyTDJKTjAySmE0N3FiUzZLUGJKdDdrcGllOTNmMEdHUC1DanlqZ3V5MA?oc=5"
+    },
+    {
+      "headline": "US military says it disabled cargo vessel in Gulf of Oman - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US military says it disabled cargo vessel in Gulf of Oman\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-07 21:22",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT3Z5Um5vZGVEQndERDNUZDljektyalQxMjB1SVk0SkNJOWRSSWJRLVBUc0czRzIxMWtFSEs0WnFoVk81XzN6V0xKOGZkNkUzYXFiM2wwdGE2cks3Uk05RlRpQk92SWp3REllTGF4cUVFV0IyelBXbFJNRzVJem5DRkVCLWRKQ0tPQTNVWi04NU5yRlJEeE1MUmVreHVHQ2RrYTZrUHpuLUs?oc=5"
+    },
+    {
+      "headline": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
+      "score": 6,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Flutter's new CEO Dan Taylor issued his first earnings report as CEO on Wednesday.",
-      "category": "corporate_earnings",
-      "date": "2026-11-04 19:53",
-      "link": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html"
+      "impact": "Trump ordered DOJ to examine alleged threats against Republicans while singling out Slotkin.",
+      "category": "global_markets",
+      "date": "2026-11-07 20:28",
+      "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
     },
     {
       "headline": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
@@ -214,6 +232,16 @@
       "link": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories"
     },
     {
+      "headline": "Syria denies plans to send troops to Yemen as Saudi military ties deepen - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Syria denies plans to send troops to Yemen as Saudi military ties deepen\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-07 16:35",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5"
+    },
+    {
       "headline": "Decisive election. Dramatic stock swings. How we handled the market last week",
       "score": 6,
       "source": "CNBC",
@@ -224,14 +252,14 @@
       "link": "https://www.cnbc.com/investingclub/2026/11/07/decisive-election-dramatic-stock-swings-how-we-handled-the-market-last-week.html"
     },
     {
-      "headline": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce - Reuters",
+      "headline": "After midterm rout, Vance tries to build his own 2028 brand - Reuters",
       "score": 6,
       "source": "Reuters",
-      "sentiment": "positive",
-      "impact": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce\u00a0\u00a0Reuters",
+      "sentiment": "neutral",
+      "impact": "After midterm rout, Vance tries to build his own 2028 brand\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-07 16:09",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGRyZ1FFOWdNalpDbFdEeHZqc1JMNVVkekpWT3NULUU4N0hXTkN3MTQ5dlNSWjdhaUVCWlVUQVdhbkZrOEdDZ2FlNS1qOENqVnhOWGNYcmgtSU8xN3pHUjIzdDZ5akJZNzhnR3g4U0w5NjR1NUNka204MWRxak1WN056VUQ1MEhpNnpnaWVGSF90RlBMaTBWY1R5NFJDa3Q0SE1rMDhUUHRJZ01EMDJHdkhqMTY5aFU5TGd6WTNsekRoQkcyUkE?oc=5"
+      "date": "2026-11-07 15:05",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUVFPc2NPajA0TVFQNEtVb2lEU19xSE93aFFXSWtYckVwU3JsVDR2MXd5azd4X2M3eG13bHlBLWRGUWR3NHNzeFdWdi12VVJZTDQ2THlCSHhkLVNXWHNsRUwxQ1V2RTFjSDd6bEdSYjB0Y1V5cVdYNjRaVWZ4T2R4UnN1NWoxNDZYUlo5dFVFaVJFUV8tQkt2WGdrNDBRSlV5Tmc?oc=5"
     },
     {
       "headline": "31-year-old dumpster diver brought in $140,000 in 12 months: I 'did much more than I thought was possible'",
@@ -242,36 +270,6 @@
       "category": "global_markets",
       "date": "2026-11-07 14:15",
       "link": "https://www.cnbc.com/make-it/2026/11/07/dumpster-diver-resale-business.html"
-    },
-    {
-      "headline": "Mark Cuban says he doesn\u2019t \u2018give a f---' about growing his net worth\u2014a healthy mindset for non-billionaires too, a financial therapist says",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The billionaire serial entrepreneur says he cares more about the impact he can have by spending and investing, rather than worrying about amassing more wealth.",
-      "category": "global_markets",
-      "date": "2026-11-07 14:05",
-      "link": "https://www.cnbc.com/make-it/2026/11/07/mark-cuban-net-worth-money-mindset.html"
-    },
-    {
-      "headline": "World\u2019s No. 1 restaurant crowned as contest comes under increasing scrutiny",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Asador Etxebarri in Atxondo, Spain, is the world's top restaurant, according to the 50 Best Restaurants, which announced its 2026 list.",
-      "category": "global_markets",
-      "date": "2026-11-07 13:38",
-      "link": "https://www.cnbc.com/2026/11/07/worlds-50-best-restaurants-2026-asador-etxebarri.html"
-    },
-    {
-      "headline": "Cosm rides premium moviegoing wave with more immersive screenings and a wider library",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Cosm tickets cost anywhere from $18 for a matinee to around $70 for prime seats or in-demand showings.",
-      "category": "global_markets",
-      "date": "2026-11-07 13:00",
-      "link": "https://www.cnbc.com/2026/11/07/cosm-immersive-movie-screenings.html"
     }
   ]
 }
