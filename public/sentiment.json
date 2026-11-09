@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-09T14:42:35.849578",
+  "timestamp": "2026-11-09T23:18:09.380814",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.0,
-    "bullish": 9,
-    "neutral": 14,
-    "bearish": 2,
+    "avg_relevance": 7.1,
+    "bullish": 12,
+    "neutral": 10,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,11 +14,10 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 12,
-    "Bloomberg": 2,
+    "Reuters": 5,
+    "Bloomberg": 3,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 1,
-    "CNBC": 4,
+    "CNBC": 11,
     "MarketWatch": 1
   },
   "top_signals": [
@@ -29,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +98,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -109,7 +108,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -119,8 +118,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-09 14:42",
+      "date": "2026-11-09 23:18",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Lucid misses Wall Street\u2019s earnings expectations, expands loan from Saudi Arabia fund",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The quarterly results are the first since Lucid CEO Silvio Napoli, who started leading the company in June, announced a restructuring plan.",
+      "category": "us_equities",
+      "date": "2026-11-09 23:05",
+      "link": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html"
+    },
+    {
+      "headline": "We're booking profits in a stock to reduce our data center exposure",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "The sale will lock in a sizable gain on stock purchased in December 2023.",
+      "category": "corporate_earnings",
+      "date": "2026-11-09 13:42",
+      "link": "https://www.cnbc.com/investingclub/2026/11/09/were-booking-profits-in-a-stock-to-reduce-our-data-center-exposure.html"
     },
     {
       "headline": "Gold gains as lower oil prices ease inflation fears - Reuters",
@@ -143,134 +162,114 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV0oxRGlDMkl5NWVMcTZ3NjVxWU5RakhWT3BnZG1vc254T1RSXzg0SE5MelBYSTNsakduTFo5R0pJMkNWNXZKVW9SZEFOLWZfbWQwdG94bkpoeGw5V0I5bmtlRktsWmpqTGhwVzFNSkgyaDdEVUprbDNsMkI1WThjZ1cwQmpIRjN5VVFOVw?oc=5"
     },
     {
-      "headline": "The Democratic Surge Will Cap Trump\u2019s Reach at the Fed",
+      "headline": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
       "score": 7,
-      "source": "The Wall Street Journal",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-08 01:07",
-      "link": "https://www.wsj.com/economy/central-banking/the-democratic-surge-will-cap-trumps-reach-at-the-fed-6b706e11"
+      "impact": "Key inflation data and AI earnings could set the tone for markets this week.",
+      "category": "corporate_earnings",
+      "date": "2026-11-08 23:18",
+      "link": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Eli Lilly\u2019s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval",
+      "headline": "Treasury Rally Gets New Boost as Election Hammers the AI Trade",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Wall Street sees the Treasury market emerging as a winner from the Democratic landslide in the US midterm elections, giving traders another reason to rethink this year\u2019s sharp selloff.",
+      "category": "fixed_income",
+      "date": "2026-11-08 20:00",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-08/treasury-rally-gets-new-boost-as-election-hammers-the-ai-trade"
+    },
+    {
+      "headline": "Skydance outlines its $6 billion in planned cost savings. Here's the breakdown",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Lilly plans to file by the end of the year for U.S. approval of the daily pill for moderate-to-severe obstructive sleep apnea in adults with obesity.",
-      "category": "global_markets",
-      "date": "2026-11-09 14:30",
-      "link": "https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html"
-    },
-    {
-      "headline": "Goodyear Tire CEO Mark Stewart steps down as company continues turnaround plan",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Goodyear Tire & Rubber appointed board member Roger Wood interim CEO and president, replacing Mark Stewart as the tire maker continues its turnaround plan.",
+      "impact": "The updates came alongside a third-quarter earnings report for the legacy Paramount Skydance.",
       "category": "us_equities",
-      "date": "2026-11-09 14:29",
-      "link": "https://www.cnbc.com/2026/11/09/goodyear-roger-wood-interim-ceo.html"
+      "date": "2026-11-09 21:28",
+      "link": "https://www.cnbc.com/2026/11/09/skydance-cost-savings-breakdown.html"
     },
     {
-      "headline": "Home listings pile up in October, but sellers won't slash prices",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "After a rough month in September, the housing market remained in a deep freeze in October as listings piled up. Sellers are still reluctant to cut prices.",
-      "category": "global_markets",
-      "date": "2026-11-09 13:54",
-      "link": "https://www.cnbc.com/2026/11/09/home-listings-pile-up-in-october-but-sellers-wont-slash-prices.html"
-    },
-    {
-      "headline": "Corporate America\u2019s profit numbers are just barely beating Wall Street\u2019s expectations",
+      "headline": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
       "score": 6,
       "source": "MarketWatch",
       "sentiment": "positive",
-      "impact": "S&P 500 companies\u2019 earnings are mostly topping analysts\u2019 estimates \u2014\u00a0but by the narrowest margin in roughly four years.",
-      "category": "us_equities",
-      "date": "2026-11-09 13:36",
-      "link": "https://www.marketwatch.com/story/corporate-americas-profit-numbers-are-just-barely-beating-wall-streets-expectations-eaa67fe2?mod=mw_rss_topstories"
+      "impact": "Tuesday\u2019s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade\u2019s resilience",
+      "category": "global_markets",
+      "date": "2026-11-09 21:24",
+      "link": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories"
     },
     {
-      "headline": "Restaurant chains refocus on food quality to bring back diners",
+      "headline": "Children\u2019s Place files for bankruptcy protection, seeks buyer",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Wendy's, Burger King, Chipotle and other chains are upgrading menu staples as restaurants look beyond discounts to win back diners.",
+      "impact": "The Children's Place has filed for chapter 11 bankruptcy protection and is seeking bids from potential new owners by Dec. 9.",
       "category": "global_markets",
-      "date": "2026-11-09 12:00",
-      "link": "https://www.cnbc.com/2026/11/09/restaurant-chains-better-food-diners.html"
+      "date": "2026-11-09 20:57",
+      "link": "https://www.cnbc.com/2026/11/09/childrens-place-chapter-11-sale.html"
     },
     {
-      "headline": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Reuters",
+      "headline": "PepsiCo to cut about 1,000 jobs as North American business struggles",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war\u00a0\u00a0Reuters",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "PepsiCo plans to cut about 1,000 jobs across North America as it streamlines operations and works to revive sales in its home market.",
       "category": "global_markets",
-      "date": "2026-11-09 11:46",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?oc=5"
+      "date": "2026-11-09 20:41",
+      "link": "https://www.cnbc.com/2026/11/09/pepsico-north-america-job-cuts.html"
     },
     {
-      "headline": "Iran defends two-day proposal for peace talks after US rejects conditions - Reuters",
+      "headline": "Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran defends two-day proposal for peace talks after US rejects conditions\u00a0\u00a0Reuters",
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Boeing has been working to stabilize production rates of its bestselling 737 Max planes, which are made outside of Seattle.",
       "category": "global_markets",
-      "date": "2026-11-09 09:19",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQTF0eFRFOUtERE9BUEU4Sy13ZnpyT0pVdUo1aHRYY3ctUThfVzFOTlFmdlJvS1NYOExsalBydmhoQkpVOXRaVC1TTjZ0cDFVRWtnS2x1MGthR2RiQnQ3WC10emY1ck8yTUxZVU5LVHVmUmdkM2k0S2NEbWdKOEk5QnE3WGhBazc3aEpZaFdBMS1jVUJoOE81QXJHLU1HbGJMLXROZUlXa245Z0NIS05FSA?oc=5"
+      "date": "2026-11-09 19:35",
+      "link": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html"
     },
     {
-      "headline": "Saudi Arabia says danger passed in Riyadh after alert, day after Houthi attack - Reuters",
+      "headline": "This beaten-down data center stock could be worth a look, says Mike Khouw",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Saudi Arabia says danger passed in Riyadh after alert, day after Houthi attack\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-09 07:15",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRFo2NjBsd2ZzTWNuTGtJOWZvbGVUanhLN0p2V1owR092a3o2emVkZllMWjc3YkF5aTJubFhzU3d2Z0FDT09FVWRyanJjdHVydVBkTkxDVmNjaERnYmljaDRZcUJGRTZUdDkxNFhhT3dXaW9RUS1McGc1eXZGT29yVm8wVWpNU25CenRqb3RJQmJIS3RickZfRnhBeEJFclppT3B2SVl4eXJMLXR3V0pTdjFpWHNLQWZpSFViMTVSM01WaE1QNXg0?oc=5"
-    },
-    {
-      "headline": "UAE's Gargash warns of prolonged regional uncertainty, says US-Iran settlement appears difficult - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "UAE's Gargash warns of prolonged regional uncertainty, says US-Iran settlement appears difficult\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-09 07:01",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlI2UXNzNl84Z1ByMV9Ybm5YNjMtZkdPcDhsZ2plZk9udWViZDZ4eTRVQVNXN2x6U2hENlkxbXJ2SXVvVU0tVWFkZGlSLXBDcnBZM1pzLVBNMzA5bjdZOHlFSXd6ZzhsWWZvV3JWWXlTME1tMnJ5Q0RoWHk1ZmJzbzk5cjZFaDI4NXpTOGRaVDBTNGNxcnRZYjF0X2NzY3EwaEJZcVhMaHRRMXREdXBkeXh6OGRCdU9aaWRJdS1zNzBQSUJCZEE?oc=5"
-    },
-    {
-      "headline": "Iran says no unauthorised vessels transited Strait of Hormuz overnight after navigation aids destroyed - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Iran says no unauthorised vessels transited Strait of Hormuz overnight after navigation aids destroyed\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-09 04:23",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNFkyaVpFU2VKQUVYc0xKQ1NmMFhuUmhEZXpCRFF5Ym5HaVpwSENiYk9QaWJhd1BtcU9sSEVyeGVoZ1RxUS1UamJHbEJOTUJwQjhzWUhrYko5RmZCMXJZQ04wZ2tyeFJZTGNFdUotNURHOXpDQTdGdXlMMEpaU3pWT0lvVzNPVkV1aHRIdjVYTE5yM2dwdVpDM0pQdV9TTDhTLXRQTlgxRkVlVFZtU0haT29fdEpyZw?oc=5"
+      "impact": "United Rentals is trading at a below-market forward multiple. Effectively, one can buy superior, market-beating growth at a discounted market multiple.",
+      "category": "us_equities",
+      "date": "2026-11-09 19:23",
+      "link": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html"
     },
     {
-      "headline": "Indian shares inch higher to close at 8-month high as crude oil drops - Reuters",
+      "headline": "Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Indian shares inch higher to close at 8-month high as crude oil drops\u00a0\u00a0Reuters",
+      "impact": "Poppi founders Allison and Stephen Ellsworth are launching Jetty, a hydration brand selling bottled drinks and powders at Whole Foods, Target and Amazon.",
+      "category": "global_markets",
+      "date": "2026-11-09 19:04",
+      "link": "https://www.cnbc.com/2026/11/08/poppi-founders-jetty-hydration-gatorade.html"
+    },
+    {
+      "headline": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Goldman CEO David Solomon says investor appetite for AI infrastructure remains strong despite a reset in AI stocks and political uncertainty around data centers.",
       "category": "commodities",
-      "date": "2026-11-09 02:40",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObkM4eVdiUXpCc3Jld1NOSlRzMEFUeHcxb09peUlKS3ZFNTVLS2lwMFE0T0x1NV94RGowQjZEM0luODhHRFNZWWxaX2w2Y0Rqc1d5X2tXYlRwcU5wMVMxNHNjeWVXZEZSNkYtV1JEV29LeDE2bEVRMnNBbUVNNGV5cjNlYVYydGhKT3Awc2VVeEY3WTZSbWJjak43bmpTdmJjR2ZSU01fSXhCeFNVNXlYeGxPODh2UUlHQ1FRb3VNSzc?oc=5"
+      "date": "2026-11-09 18:14",
+      "link": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html"
     },
     {
-      "headline": "Trump to meet Qatar's prime minister as Iran diplomacy faces hurdles - Reuters",
+      "headline": "Cosm rides premium moviegoing wave with more immersive screenings and a wider library",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Trump to meet Qatar's prime minister as Iran diplomacy faces hurdles\u00a0\u00a0Reuters",
+      "impact": "Cosm tickets cost anywhere from $18 for a matinee to around $70 for prime seats or in-demand showings.",
       "category": "global_markets",
-      "date": "2026-11-09 01:42",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdS16MHhHTm9BaFNxQWlxTTl4Mm1YbHktbTZ3Yi0yY1MtdkJSQ0Q0RWI0eko3cVhDVHlybTBMTU05cDhwdG5oQzhVSS1ndXhfOWV6eEQ1M2J0cFI0SzFXenhSMWF1YzcyNkVzQ3lDVVRVVWhGbVA2cHdPV3BHc3B2UG82eUxHcHFCbHJ5c2xCU05nU01uYlJjU1pMZU5XWUFHdFFlaV9ma0RPOGFwYmVsY3dtTTcxQQ?oc=5"
+      "date": "2026-11-09 18:05",
+      "link": "https://www.cnbc.com/2026/11/07/cosm-immersive-movie-screenings.html"
     }
   ]
 }
