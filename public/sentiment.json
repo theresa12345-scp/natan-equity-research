@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-11-11T21:06:44.543167",
+  "timestamp": "2026-11-12T14:16:12.482891",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.1,
-    "bullish": 8,
-    "neutral": 15,
-    "bearish": 2,
-    "high_priority": 8,
-    "material_events": 4
+    "avg_relevance": 7.4,
+    "bullish": 10,
+    "neutral": 12,
+    "bearish": 3,
+    "high_priority": 10,
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
-    "Bloomberg": 2,
+    "CNBC": 9,
+    "Reuters": 4,
+    "Bloomberg": 6,
     "Caixin/S&P Global": 1,
-    "CNBC": 10,
-    "Yahoo Entertainment": 1
+    "The Wall Street Journal": 1
   },
   "top_signals": [
     {
@@ -28,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,8 +58,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+      "score": 9,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-11 13:16",
+      "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -68,7 +78,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +98,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +108,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Falling US Bond Futures Offer No Relief as Fed Hike Bets Grow",
+      "score": 8,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Derivatives trading suggests a retreat in US Treasuries is set to continue as faster-than-expected inflation data cement expectations for more aggressive interest-rate hikes from the Federal Reserve.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-11 11:42",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-11/falling-us-bond-futures-offer-no-relief-as-fed-hike-bets-grow"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -108,7 +128,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -118,7 +138,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-11 21:06",
+      "date": "2026-11-12 14:16",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -126,10 +146,20 @@
       "score": 7,
       "source": "CNBC",
       "sentiment": "positive",
-      "impact": "JetBlue will give reporters a look at its new first-class seats on Wednesday.",
+      "impact": "JetBlue gave reporters a look at its new first-class seats on Wednesday.",
       "category": "corporate_earnings",
-      "date": "2026-11-11 20:35",
+      "date": "2026-11-11 22:10",
       "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
+    },
+    {
+      "headline": "Feds arrest top official of healthcare company, alleging illegal drug importation",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-11 21:33",
+      "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
     },
     {
       "headline": "JetBlue's CEO has pushed back on creditor fears and is betting on premium to return to profitability",
@@ -142,34 +172,44 @@
       "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
     },
     {
-      "headline": "Here's the inflation breakdown for October 2026 \u2014 in one chart",
+      "headline": "Stock Market Today: Tech Stocks Poised to Rise After CoreWeave Earnings",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The consumer price index rose 0.4% in October, a reduction from September but a level economists said is still uncomfortably high.",
-      "category": "us_equities",
-      "date": "2026-11-10 16:18",
-      "link": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html"
-    },
-    {
-      "headline": "Stock market today: Dow, S&P 500 slip after CPI data raises Fed rate-hike bets",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "neutral",
-      "impact": "Investors awaited a key inflation report that could sway the Federal Reserve's interest rate decision next month.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-10 15:12",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
-    },
-    {
-      "headline": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "CoreWeave\u2019s earnings after the bell could calm fears about its debt-fueled AI buildout \u2014 or stoke more fear.",
+      "source": "The Wall Street Journal",
+      "sentiment": "positive",
+      "impact": "Latest market news.",
       "category": "corporate_earnings",
-      "date": "2026-11-10 15:01",
-      "link": "https://www.cnbc.com/2026/11/10/coreweave-earnings-preview-debt-capex.html"
+      "date": "2026-11-11 11:46",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026"
+    },
+    {
+      "headline": "OpenAI Third-Quarter Revenue Soars Nearly 50% to $10 Billion",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "OpenAI\u2019s quarterly revenue hit $10 billion for the first time in the three months ending in September, according to people familiar with the matter, driven by strong demand for its latest artificial intelligence software.",
+      "category": "corporate_earnings",
+      "date": "2026-11-11 00:57",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/openai-third-quarter-revenue-soars-nearly-50-to-10-billion"
+    },
+    {
+      "headline": "Fed\u2019s Paulson Says Gradual Tightening Seems Appropriate for Now",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "neutral",
+      "impact": "Federal Reserve Bank of Philadelphia President Anna Paulson said she favors a gradual pace for interest-rate increases, adding that wage pressures have been limited and inflation expectations remain consistent with the central bank\u2019s 2% target.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-10 23:30",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-paulson-says-gradual-tightening-seems-appropriate-for-now"
+    },
+    {
+      "headline": "Fed\u2019s Bowman Warns of Stock Correction If AI Bets Don\u2019t Pan Out",
+      "score": 7,
+      "source": "Bloomberg",
+      "sentiment": "negative",
+      "impact": "Federal Reserve Governor Michelle Bowman said she sees a number of risks to economic activity from financial markets, including a sharp downturn in stock prices if returns on investments in artificial intelligence fall short of expectations.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-10 20:30",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-bowman-warns-of-stock-correction-if-ai-bets-don-t-pan-out"
     },
     {
       "headline": "Lucid misses Wall Street\u2019s earnings expectations, expands loan from Saudi Arabia fund",
@@ -182,94 +222,54 @@
       "link": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html"
     },
     {
-      "headline": "We're adding a chipmaker to our Bullpen watchlist and downgrading another name",
+      "headline": "Jensen and Lori Huang's Nvidia fortune is jointly controlled. How that makes things complicated now that he's resigned",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "category": "us_equities",
-      "date": "2026-11-11 20:04",
-      "link": "https://www.cnbc.com/investingclub/2026/11/11/were-adding-a-chipmaker-to-our-bullpen-watchlist-and-downgrading-another-name.html"
-    },
-    {
-      "headline": "Iran will not allow enriched nuclear material to leave the country, security chief says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran will not allow enriched nuclear material to leave the country, security chief says\u00a0\u00a0Reuters",
+      "impact": "Jensen Huang\u2019s $140 billion stake in Nvidia is largely held by trusts co-owned with his wife, Lori, creating added uncertainty for his financial future.",
       "category": "global_markets",
-      "date": "2026-11-11 20:03",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSmRMSFZZUld1UEFab291N25WYXZVNENjbmtrWVU0OEEwZm84Z2RONXZHM0JnY2FId2ROLTRvek9lWmZiSFNQNlMwVVpVQ0Q1V3NsSDk1alc5Z0JoMExVY3NpYjVSVDhXd3RtYmo2M2lsdHoydlUteHlDMkp5QlZsWGQxam1JUXFuRkV0UHhOTVB0ZWtxeUhCTkNHNkRMMG5TaUdQaHBUYTlmMkhBRjBWUkZUTlNMVU1ISzFfVlduXzBJd3p0U0psdDNTa1F4Zw?oc=5"
+      "date": "2026-11-12 14:13",
+      "link": "https://www.cnbc.com/2026/11/12/inside-jensen-and-lori-huangs-jointly-controlled-nvidia-fortune.html"
     },
     {
-      "headline": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca - Reuters",
+      "headline": "Disney's 'Star Wars' is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Cosm has secured a new studio partnership with Disney that will bring \"Star Wars: A New Hope\" to its domes as part of a multiyear, multifilm collaboration.",
+      "category": "global_markets",
+      "date": "2026-11-12 14:00",
+      "link": "https://www.cnbc.com/2026/11/12/star-wars-cosm-dome-screenings.html"
+    },
+    {
+      "headline": "Unions helped Democrats win big in 2026. Now they want action",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Unions spent millions of dollars and mobilized thousands of members to get out the vote for Democrats in the midterm election. Now they want to see action.",
+      "category": "global_markets",
+      "date": "2026-11-12 13:09",
+      "link": "https://www.cnbc.com/2026/11/12/democrats-unions-midterms-2026.html"
+    },
+    {
+      "headline": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Scout Motors has roughly 212,000 reservations for its Terra pickup and Traveler SUV, CEO Scott Keogh told CNBC.",
+      "category": "global_markets",
+      "date": "2026-11-12 11:30",
+      "link": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html"
+    },
+    {
+      "headline": "South Africa's citrus exports fall on Iran war disruption, bad weather - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca\u00a0\u00a0Reuters",
+      "impact": "South Africa's citrus exports fall on Iran war disruption, bad weather\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-11 19:50",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa0VablB0SWViZWpCRFg4bC0yX2ZTM19HNmFFVUdqVVlwbWRuRjdpSnNXZ3liU04zeTYyZWJPSlhLeEVRTUlMS0N2SnlPdEpINzVHUTJjRXJjd3RKdEZMLS14czdZSlpjcWlJWm95bFpTNHgxblNSVlFyLWhsQ0JncVFZRGRmQ0p6cDZQRGRtNlh6LWxnVXlLRkJyelFzdTFoM285d2tQZTJvS1BkYkRzLVZwUERKc2pHbVBqOUZDSmFRbGJ4TmpmQVExbnEzOTQ?oc=5"
-    },
-    {
-      "headline": "Apple's record run ignites options flurry \u2014 Watch Options Action live",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Apple's resilience continues to catch the attention of options traders looking for a safe harbor in tech.",
-      "category": "global_markets",
-      "date": "2026-11-11 18:53",
-      "link": "https://www.cnbc.com/2026/11/11/apples-record-run-ignites-options-flurry-watch-options-action-live.html"
-    },
-    {
-      "headline": "Bouncing Wynn Shares might be primed for the 'wheel strategy'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "From a valuation standpoint, WYNN is trading very close to its five-year historical averages across key metrics. So how should traders play this setup?",
-      "category": "global_markets",
-      "date": "2026-11-11 18:24",
-      "link": "https://www.cnbc.com/2026/11/11/bouncing-wynn-shares-might-be-primed-for-the-wheel-strategy.html"
-    },
-    {
-      "headline": "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Meta's head of infrastructure and co-head of engineering Santosh Janardhan will leave in 2027, with former AWS senior vice president David Brown taking over.",
-      "category": "global_markets",
-      "date": "2026-11-11 18:10",
-      "link": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html"
-    },
-    {
-      "headline": "Iran attacks shipping navigation systems on Oman's Didamar island, sources say - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Iran attacks shipping navigation systems on Oman's Didamar island, sources say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-11 17:59",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFB3XzM5cVFXcFdvTWhfdVJSY21DLVNHRE81YXh1Ykt3MlY0M29GY05FbFEwd2hMT3lTR1duaVV6UGdac003SWM2cTJpb1FqX2UzdnZqNW5YSEpEOGd2dmZ2VW5XOTZzcGlSNGl5dENGNFQ4c2JGYU9yaXV2RU84QXVRQVVtR3EtYmpaNXRKM3d2ZHJVdzlzOWxrMktEVVZYZzJVeVVzcmtMM0JLYmxsZVQ5YlRWN2tRd0UyM2dUXy04eW5PWlE?oc=5"
-    },
-    {
-      "headline": "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "American Airlines' first class food options include sandwiches, fruit and chia bowls",
-      "category": "global_markets",
-      "date": "2026-11-11 17:34",
-      "link": "https://www.cnbc.com/2026/11/11/american-airlines-first-class-chicago-new-york.html"
-    },
-    {
-      "headline": "Russia and Ukraine say some progress made at talks, US cites a lack of trust - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Russia and Ukraine say some progress made at talks, US cites a lack of trust\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-11 17:11",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdEZkalllTkswSW1lWVlXanFsVFBfVnBSUmE0U1VNWTJ4c3BrS3dzTDZWQUhwM3NfOTFMdjVuaHBqZVRTVFBYU2JEOWtpX2VoR1ZtUzZVcDlTN0tKVzVtczFhYThSSHpDTjJXSHV4U1Rqc0doRElpcW1WTGQwdmF6bE1VN3BpU2J4U3V1Rld3S25XNXZxWkVVNVlRZDAzLWpIVGFHWG9Bd2M?oc=5"
+      "date": "2026-11-12 08:54",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSEdMeVJPU1FqTUdleG5McVVJdTBkTXpIbng3bnEzRi1ZWUlSNWFfUExHbnZsc1h4Tm5Nb2k5b1JoWllINEhReExZbndMbTFXZ0JhcUNQWHZrYjlzcGFoRWNuc1FELUk0ekRTVmJub1dYUkNYdzIyZWowRWpITERUWXVScnhBVjlQU2ozWmdmNkhOUUY2U3dQQ1R2OVN5WHNLaFc0NWdVUndrZVRjanpEbVo1Z3o?oc=5"
     }
   ]
 }
