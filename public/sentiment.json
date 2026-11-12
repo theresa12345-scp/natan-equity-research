@@ -1,24 +1,25 @@
 {
-  "timestamp": "2026-11-12T14:16:12.482891",
+  "timestamp": "2026-11-12T21:20:40.927912",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
+    "avg_relevance": 7.2,
     "bullish": 10,
-    "neutral": 12,
-    "bearish": 3,
-    "high_priority": 10,
-    "material_events": 5
+    "neutral": 13,
+    "bearish": 2,
+    "high_priority": 9,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "CNBC": 9,
     "Reuters": 4,
-    "Bloomberg": 6,
+    "Bloomberg": 2,
+    "CNBC": 11,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 1
+    "TheStreet": 1,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -28,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,18 +59,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-      "score": 9,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-11 13:16",
-      "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -78,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -88,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -98,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -108,18 +99,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Falling US Bond Futures Offer No Relief as Fed Hike Bets Grow",
+      "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
       "score": 8,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Derivatives trading suggests a retreat in US Treasuries is set to continue as faster-than-expected inflation data cement expectations for more aggressive interest-rate hikes from the Federal Reserve.",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Fed Chair Kevin Warsh announced the move at his October news conference, though he did not set a date.",
       "category": "us_monetary_policy",
-      "date": "2026-11-11 11:42",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-11/falling-us-bond-futures-offer-no-relief-as-fed-hike-bets-grow"
+      "date": "2026-11-12 18:11",
+      "link": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -128,7 +119,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -138,8 +129,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-12 14:16",
+      "date": "2026-11-12 21:20",
       "link": "https://www.reuters.com/business/energy/"
+    },
+    {
+      "headline": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-11-12 03:40",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5"
+    },
+    {
+      "headline": "Feds arrest top official of healthcare company, alleging illegal drug importation",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-11 22:58",
+      "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
     },
     {
       "headline": "JetBlue unveils new first-class seats to bring back profits",
@@ -152,16 +163,6 @@
       "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
     },
     {
-      "headline": "Feds arrest top official of healthcare company, alleging illegal drug importation",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-11 21:33",
-      "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
-    },
-    {
       "headline": "JetBlue's CEO has pushed back on creditor fears and is betting on premium to return to profitability",
       "score": 7,
       "source": "CNBC",
@@ -172,44 +173,24 @@
       "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
     },
     {
-      "headline": "Stock Market Today: Tech Stocks Poised to Rise After CoreWeave Earnings",
+      "headline": "Stock Market Today (Nov. 11, 2026): S&P 500 rises on CoreWeave earnings, AI rebound",
       "score": 7,
-      "source": "The Wall Street Journal",
+      "source": "TheStreet",
       "sentiment": "positive",
-      "impact": "Latest market news.",
-      "category": "corporate_earnings",
-      "date": "2026-11-11 11:46",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026"
+      "impact": "CoreWeave soars after the cloud provider reported better-than-expected quarterly revenue and raised its revenue outlook.",
+      "category": "us_equities",
+      "date": "2026-11-11 14:52",
+      "link": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
     },
     {
-      "headline": "OpenAI Third-Quarter Revenue Soars Nearly 50% to $10 Billion",
+      "headline": "Nasdaq surges as CoreWeave leads tech rebound: Live updates",
       "score": 7,
-      "source": "Bloomberg",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "OpenAI\u2019s quarterly revenue hit $10 billion for the first time in the three months ending in September, according to people familiar with the matter, driven by strong demand for its latest artificial intelligence software.",
-      "category": "corporate_earnings",
-      "date": "2026-11-11 00:57",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/openai-third-quarter-revenue-soars-nearly-50-to-10-billion"
-    },
-    {
-      "headline": "Fed\u2019s Paulson Says Gradual Tightening Seems Appropriate for Now",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Federal Reserve Bank of Philadelphia President Anna Paulson said she favors a gradual pace for interest-rate increases, adding that wage pressures have been limited and inflation expectations remain consistent with the central bank\u2019s 2% target.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-10 23:30",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-paulson-says-gradual-tightening-seems-appropriate-for-now"
-    },
-    {
-      "headline": "Fed\u2019s Bowman Warns of Stock Correction If AI Bets Don\u2019t Pan Out",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "negative",
-      "impact": "Federal Reserve Governor Michelle Bowman said she sees a number of risks to economic activity from financial markets, including a sharp downturn in stock prices if returns on investments in artificial intelligence fall short of expectations.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-10 20:30",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-bowman-warns-of-stock-correction-if-ai-bets-don-t-pan-out"
+      "impact": "Stocks rose Wednesday, boosted by sharp gains in CoreWeave and a rebound in Nvidia following back-to-back losing sessions for the chipmaker.",
+      "category": "us_equities",
+      "date": "2026-11-11 14:40",
+      "link": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
     },
     {
       "headline": "Lucid misses Wall Street\u2019s earnings expectations, expands loan from Saudi Arabia fund",
@@ -222,54 +203,74 @@
       "link": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html"
     },
     {
-      "headline": "Jensen and Lori Huang's Nvidia fortune is jointly controlled. How that makes things complicated now that he's resigned",
+      "headline": "The S&P 500 is shrugging off Nvidia\u2019s selloff this week. Here\u2019s what\u2019s keeping the rest of the market afloat.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Investors have been forced to look up from the poster child of the artificial-intelligence trade and remember the other stocks on the board.",
+      "category": "us_equities",
+      "date": "2026-11-12 21:08",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Microsoft outage hits Outlook. AWS and Google users also report issues",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Jensen Huang\u2019s $140 billion stake in Nvidia is largely held by trusts co-owned with his wife, Lori, creating added uncertainty for his financial future.",
+      "impact": "Amazon Web Services and Google users also reported outages on Thursday",
       "category": "global_markets",
-      "date": "2026-11-12 14:13",
-      "link": "https://www.cnbc.com/2026/11/12/inside-jensen-and-lori-huangs-jointly-controlled-nvidia-fortune.html"
+      "date": "2026-11-12 20:57",
+      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
     },
     {
-      "headline": "Disney's 'Star Wars' is coming to Cosm domes ahead of 50th anniversary as part of multiyear film deal",
+      "headline": "The bond market now has an even bigger fear than AI fallout",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Cosm has secured a new studio partnership with Disney that will bring \"Star Wars: A New Hope\" to its domes as part of a multiyear, multifilm collaboration.",
-      "category": "global_markets",
-      "date": "2026-11-12 14:00",
-      "link": "https://www.cnbc.com/2026/11/12/star-wars-cosm-dome-screenings.html"
-    },
-    {
-      "headline": "Unions helped Democrats win big in 2026. Now they want action",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Unions spent millions of dollars and mobilized thousands of members to get out the vote for Democrats in the midterm election. Now they want to see action.",
-      "category": "global_markets",
-      "date": "2026-11-12 13:09",
-      "link": "https://www.cnbc.com/2026/11/12/democrats-unions-midterms-2026.html"
-    },
-    {
-      "headline": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Scout Motors has roughly 212,000 reservations for its Terra pickup and Traveler SUV, CEO Scott Keogh told CNBC.",
-      "category": "global_markets",
-      "date": "2026-11-12 11:30",
-      "link": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html"
-    },
-    {
-      "headline": "South Africa's citrus exports fall on Iran war disruption, bad weather - Reuters",
-      "score": 6,
-      "source": "Reuters",
+      "source": "MarketWatch",
       "sentiment": "negative",
-      "impact": "South Africa's citrus exports fall on Iran war disruption, bad weather\u00a0\u00a0Reuters",
+      "impact": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
+      "category": "fixed_income",
+      "date": "2026-11-12 20:44",
+      "link": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "United Airlines won\u2019t let AI agents book your flight. Expert says you shouldn't let a bot do that for you, anyway",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "AI agents can save you time, but an expert says decisions involving your health, wealth and privacy still need human input.",
       "category": "global_markets",
-      "date": "2026-11-12 08:54",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSEdMeVJPU1FqTUdleG5McVVJdTBkTXpIbng3bnEzRi1ZWUlSNWFfUExHbnZsc1h4Tm5Nb2k5b1JoWllINEhReExZbndMbTFXZ0JhcUNQWHZrYjlzcGFoRWNuc1FELUk0ekRTVmJub1dYUkNYdzIyZWowRWpITERUWXVScnhBVjlQU2ozWmdmNkhOUUY2U3dQQ1R2OVN5WHNLaFc0NWdVUndrZVRjanpEbVo1Z3o?oc=5"
+      "date": "2026-11-12 20:24",
+      "link": "https://www.cnbc.com/make-it/2026/11/12/ai-agents-human-in-loop.html"
+    },
+    {
+      "headline": "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
+      "category": "global_markets",
+      "date": "2026-11-12 20:10",
+      "link": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html"
+    },
+    {
+      "headline": "Jensen Huang is out and Nvidia stock is down\u2014what market pros say about buying dips",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Nvidia stock fell 5% on Thursday following the departure of CEO Jensen Huang. Some see it as a signal to sell, others an opportunity to buy.",
+      "category": "us_equities",
+      "date": "2026-11-12 20:01",
+      "link": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html"
+    },
+    {
+      "headline": "Who will replace Jensen Huang? Here's our early thoughts on the search for Nvidia's next CEO",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "global_markets",
+      "date": "2026-11-12 20:00",
+      "link": "https://www.cnbc.com/investingclub/2026/11/12/jensen-huang-ceo-replacement-jim-cramer.html"
     }
   ]
 }
