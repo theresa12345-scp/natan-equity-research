@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-12T21:20:40.927912",
+  "timestamp": "2026-11-13T13:38:41.060359",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 10,
-    "neutral": 13,
-    "bearish": 2,
-    "high_priority": 9,
+    "avg_relevance": 7.3,
+    "bullish": 12,
+    "neutral": 12,
+    "bearish": 1,
+    "high_priority": 11,
     "material_events": 4
   },
   "sources": {
@@ -14,11 +14,10 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 4,
+    "Reuters": 7,
     "Bloomberg": 2,
-    "CNBC": 11,
+    "CNBC": 9,
     "Caixin/S&P Global": 1,
-    "TheStreet": 1,
     "MarketWatch": 2
   },
   "top_signals": [
@@ -29,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -69,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,8 +98,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Rupee slips as higher oil prices and US yields knock stocks, bonds - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Rupee slips as higher oil prices and US yields knock stocks, bonds\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-11-13 03:12",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2lRcFhDeEM4YTZPLVVWRHNYTnU2XzJhTFJMTUpjT2lyY0JwZ25WaGxCR01JTVpRZTJBVE5SZ0Y1LXdqSzJFRDBWVW15TnEwRE9idm9zeGVGZlpPVndfdGhoQlhmaHlkSFdDZmdXOGQ2N00xMVlKX3JFbkMtYzN5Y2VULUkzNkZmV1VtMnBCSU81eFRkRGFxUG9XRlVqcGNfelRrSHZQNXZQSExsbDhBaVdlcWlfWDhu?oc=5"
+    },
+    {
+      "headline": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
+      "category": "corporate_earnings",
+      "date": "2026-11-12 21:20",
+      "link": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
     },
     {
       "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
@@ -119,7 +138,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -129,18 +148,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-12 21:20",
+      "date": "2026-11-13 13:38",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears - Reuters",
+      "headline": "Dollar near 19-month high on Fed hike bets, yen tests 160 - Reuters",
       "score": 7,
       "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Gold drops 3% to over one-year low as fading Middle East peace hopes fan inflation fears\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-11-12 03:40",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5"
+      "sentiment": "neutral",
+      "impact": "Dollar near 19-month high on Fed hike bets, yen tests 160\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-11-13 01:58",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdXI2eWRwY1h1QWkxeldEbWhGUmdSYzRrQjZveW9TTm5LekpTdEthSzRRZHI1NlhoQjAwXzdjdVFSU0ItZjA3NFFxTUUxQlNWUzBoRHdtVkhtZ09hVUt2SmNyaFVvRkhOa0VERndHN1EweWdGajFEa050UDNqN1dCTllZamxKS0J1R0FHWXJOU0lweWJDMnV2clZBRVI4YVU4MTFBeg?oc=5"
+    },
+    {
+      "headline": "Cerebras surges 13% after beating on quarterly revenue and announcing Microsoft deal",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
+      "category": "corporate_earnings",
+      "date": "2026-11-12 21:23",
+      "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
     },
     {
       "headline": "Feds arrest top official of healthcare company, alleging illegal drug importation",
@@ -163,114 +192,84 @@
       "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
     },
     {
-      "headline": "JetBlue's CEO has pushed back on creditor fears and is betting on premium to return to profitability",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "JetBlue will give reporters a look at its new first class seats on Wednesday.",
-      "category": "fixed_income",
-      "date": "2026-11-11 15:00",
-      "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
-    },
-    {
-      "headline": "Stock Market Today (Nov. 11, 2026): S&P 500 rises on CoreWeave earnings, AI rebound",
-      "score": 7,
-      "source": "TheStreet",
-      "sentiment": "positive",
-      "impact": "CoreWeave soars after the cloud provider reported better-than-expected quarterly revenue and raised its revenue outlook.",
-      "category": "us_equities",
-      "date": "2026-11-11 14:52",
-      "link": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
-    },
-    {
-      "headline": "Nasdaq surges as CoreWeave leads tech rebound: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Stocks rose Wednesday, boosted by sharp gains in CoreWeave and a rebound in Nvidia following back-to-back losing sessions for the chipmaker.",
-      "category": "us_equities",
-      "date": "2026-11-11 14:40",
-      "link": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Lucid misses Wall Street\u2019s earnings expectations, expands loan from Saudi Arabia fund",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The quarterly results are the first since Lucid CEO Silvio Napoli, who started leading the company in June, announced a restructuring plan.",
-      "category": "us_equities",
-      "date": "2026-11-09 23:05",
-      "link": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html"
-    },
-    {
-      "headline": "The S&P 500 is shrugging off Nvidia\u2019s selloff this week. Here\u2019s what\u2019s keeping the rest of the market afloat.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "Investors have been forced to look up from the poster child of the artificial-intelligence trade and remember the other stocks on the board.",
-      "category": "us_equities",
-      "date": "2026-11-12 21:08",
-      "link": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Microsoft outage hits Outlook. AWS and Google users also report issues",
+      "headline": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Amazon Web Services and Google users also reported outages on Thursday",
+      "impact": "The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
       "category": "global_markets",
-      "date": "2026-11-12 20:57",
-      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+      "date": "2026-11-13 13:15",
+      "link": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html"
     },
     {
-      "headline": "The bond market now has an even bigger fear than AI fallout",
+      "headline": "IAEA increasingly concerned about Iranian enrichment plant, its report says - Reuters",
       "score": 6,
-      "source": "MarketWatch",
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
-      "category": "fixed_income",
-      "date": "2026-11-12 20:44",
-      "link": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "United Airlines won\u2019t let AI agents book your flight. Expert says you shouldn't let a bot do that for you, anyway",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "AI agents can save you time, but an expert says decisions involving your health, wealth and privacy still need human input.",
+      "impact": "IAEA increasingly concerned about Iranian enrichment plant, its report says\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-12 20:24",
-      "link": "https://www.cnbc.com/make-it/2026/11/12/ai-agents-human-in-loop.html"
+      "date": "2026-11-13 12:47",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcEw4cVpnMkIxMTVtZEJlQmN3OHlsLUxxZnQxMWlfV3VfWTBYeHA2VEpBVWxpZk9TejdSaDgzazdlQUlMZy00aEhmZS1GYnhpVmU1bzdQTWM2VUJqd2dOWWowa1VQSWppQVdYSi1PVm0zX2J1b1hFU1QwaGs5N3lDZkJ3bEY5OG9Tai15M3VoRXVycFVBWjYwWjQ5dUhDcEJ4SWFHSXZxNDg5b2k2OG1DUVBoTHBDWE84dmVfZXc4WQ?oc=5"
     },
     {
-      "headline": "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+      "headline": "Profit surprises are normalizing \u2014 and that may signal a healthier stock market, say Citi strategists",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Although the majority of S&P 500 companies reported earnings above analysts\u2019 expectations, the beats were significantly lower than in more recent quarters.",
+      "category": "corporate_earnings",
+      "date": "2026-11-13 11:41",
+      "link": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "World oil market is returning to surplus as Gulf exports recover, IEA says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "World oil market is returning to surplus as Gulf exports recover, IEA says\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-11-13 11:34",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5"
+    },
+    {
+      "headline": "NHL\u2019s next media deal will test the league\u2019s strength",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
+      "impact": "How do the world's biggest media companies judge the value of non-NFL rights? The NHL is giving us our first window into a new era in media values.",
       "category": "global_markets",
-      "date": "2026-11-12 20:10",
-      "link": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html"
+      "date": "2026-11-13 11:34",
+      "link": "https://www.cnbc.com/2026/11/13/nhls-next-media-deal-will-test-the-leagues-strength.html"
     },
     {
-      "headline": "Jensen Huang is out and Nvidia stock is down\u2014what market pros say about buying dips",
+      "headline": "CNBC's Official NHL Team Valuations 2026: How the 32 franchises stack up",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Nvidia stock fell 5% on Thursday following the departure of CEO Jensen Huang. Some see it as a signal to sell, others an opportunity to buy.",
-      "category": "us_equities",
-      "date": "2026-11-12 20:01",
-      "link": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html"
-    },
-    {
-      "headline": "Who will replace Jensen Huang? Here's our early thoughts on the search for Nvidia's next CEO",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "impact": "The average NHL team is worth $2.71 billion, 23% more than a year ago.",
       "category": "global_markets",
-      "date": "2026-11-12 20:00",
-      "link": "https://www.cnbc.com/investingclub/2026/11/12/jensen-huang-ceo-replacement-jim-cramer.html"
+      "date": "2026-11-13 11:07",
+      "link": "https://www.cnbc.com/2026/11/13/cnbcs-official-nhl-team-valuations-2026-how-the-32-clubs-stack-up.html"
+    },
+    {
+      "headline": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
+      "category": "asia_economy",
+      "date": "2026-11-13 10:54",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html"
+    },
+    {
+      "headline": "Earnings growth is set to peter out \u2014 but not the bull market, says Goldman Sachs. Here\u2019s what the firm recommends.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Earnings growth is almost halving across major indices in 2027 but stocks have already discounted much of that deceleration.  Goldman recommends investors focus closely on those companies still delivering strong growth \u2013 as strong growth becomes  a scarce commodity.",
+      "category": "commodities",
+      "date": "2026-11-13 10:14",
+      "link": "https://www.marketwatch.com/story/earnings-growth-is-set-to-peter-out-but-not-the-bull-market-says-goldman-sachs-heres-what-the-firm-recommends-bf409a6d?mod=mw_rss_topstories"
     }
   ]
 }
