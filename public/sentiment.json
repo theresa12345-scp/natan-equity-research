@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-13T13:38:41.060359",
+  "timestamp": "2026-11-13T20:47:17.255961",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.3,
-    "bullish": 12,
-    "neutral": 12,
-    "bearish": 1,
+    "avg_relevance": 7.4,
+    "bullish": 10,
+    "neutral": 13,
+    "bearish": 2,
     "high_priority": 11,
     "material_events": 4
   },
@@ -14,11 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "Reuters": 6,
     "Bloomberg": 2,
-    "CNBC": 9,
+    "CNBC": 10,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 2
+    "The Wall Street Journal": 1,
+    "MarketWatch": 1
   },
   "top_signals": [
     {
@@ -28,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,8 +99,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation - Reuters",
+      "score": 8,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation\u00a0\u00a0Reuters",
+      "category": "us_monetary_policy",
+      "date": "2026-11-13 15:40",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWGl4M3I4cEx4Q1pteUwtd3I3OFBYWWFUU096V1Y3X2oxdl9KOFprODJXTEoxallGdk8tXzNuMzlWSXdjTTBFNjUxUHFwWmdVZTFHeTh0TEVYcWtNSXI2aUJkRFdKVFgtNmpWS01zTlhMS21ndThYQjY2bDhXSFpnV2c0Sl8wSzdBWnJzNmZVR05iUGdxU3BCUnBIYlcteEQtRkNMbDBQRF82QXVESmZSRGNvZG9yaGtfbm5QNHBTUE1jNjA?oc=5"
     },
     {
       "headline": "Rupee slips as higher oil prices and US yields knock stocks, bonds - Reuters",
@@ -122,23 +133,13 @@
       "link": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
     },
     {
-      "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Fed Chair Kevin Warsh announced the move at his October news conference, though he did not set a date.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-12 18:11",
-      "link": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html"
-    },
-    {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
       "score": 7,
       "source": "Caixin/S&P Global",
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -148,7 +149,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-13 13:38",
+      "date": "2026-11-13 20:47",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -172,6 +173,26 @@
       "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
     },
     {
+      "headline": "Nasdaq falters as Nvidia shares fall on CEO exit, oil prices rise: Live updates",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "The Nasdaq Composite fluctuated on Thursday as investors weighed the departure of Nvidia CEO Jensen Huang.",
+      "category": "us_equities",
+      "date": "2026-11-12 20:45",
+      "link": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "The Inflation Fight May Be About to Turn Painful",
+      "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Plus, retirees\u2019 investments, the affordability agenda and the downsides of a boring job market",
+      "category": "global_markets",
+      "date": "2026-11-12 10:57",
+      "link": "https://www.wsj.com/finance/investing/the-inflation-fight-may-be-about-to-turn-painful-1d053d79"
+    },
+    {
       "headline": "Feds arrest top official of healthcare company, alleging illegal drug importation",
       "score": 7,
       "source": "CNBC",
@@ -192,84 +213,64 @@
       "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
     },
     {
-      "headline": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
+      "headline": "Hassett denies report he's leaving White House: 'Not true'",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
+      "impact": "National Economic Council Director Kevin Hassett poured cold water on a report that he's expected to leave the White House in the coming weeks.",
       "category": "global_markets",
-      "date": "2026-11-13 13:15",
-      "link": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html"
+      "date": "2026-11-13 19:59",
+      "link": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html"
     },
     {
-      "headline": "IAEA increasingly concerned about Iranian enrichment plant, its report says - Reuters",
+      "headline": "Nvidia hasn\u2019t selected search firm for permanent Huang replacement, board tells CNBC",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Speculation has swirled around who Nvidia's board will select to permanently succeed Huang.",
+      "category": "global_markets",
+      "date": "2026-11-13 19:42",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html"
+    },
+    {
+      "headline": "The scandal at Nvidia is exactly what\u2019s wrong with the S&P 500",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "A big chunk of your retirement is likely invested in the computer-chip giant.",
+      "category": "us_equities",
+      "date": "2026-11-13 19:19",
+      "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Goldman Sachs looks to cash in on Anthropic's IPO, twice. Here's how and who else wants to",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "While co-leading the offering, Goldman also wants a shot at managing the billions of dollars in new wealth that the deal creates. It's not the only one.",
+      "category": "commodities",
+      "date": "2026-11-13 18:44",
+      "link": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html"
+    },
+    {
+      "headline": "The common theme driving stocks lower \u2014 plus, 3 trades and another we want to make",
+      "score": 6,
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "IAEA increasingly concerned about Iranian enrichment plant, its report says\u00a0\u00a0Reuters",
+      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
       "category": "global_markets",
-      "date": "2026-11-13 12:47",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcEw4cVpnMkIxMTVtZEJlQmN3OHlsLUxxZnQxMWlfV3VfWTBYeHA2VEpBVWxpZk9TejdSaDgzazdlQUlMZy00aEhmZS1GYnhpVmU1bzdQTWM2VUJqd2dOWWowa1VQSWppQVdYSi1PVm0zX2J1b1hFU1QwaGs5N3lDZkJ3bEY5OG9Tai15M3VoRXVycFVBWjYwWjQ5dUhDcEJ4SWFHSXZxNDg5b2k2OG1DUVBoTHBDWE84dmVfZXc4WQ?oc=5"
+      "date": "2026-11-13 17:57",
+      "link": "https://www.cnbc.com/investingclub/2026/11/13/the-common-theme-driving-stocks-lower-plus-3-trades-and-another-we-want-to-make.html"
     },
     {
-      "headline": "Profit surprises are normalizing \u2014 and that may signal a healthier stock market, say Citi strategists",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Although the majority of S&P 500 companies reported earnings above analysts\u2019 expectations, the beats were significantly lower than in more recent quarters.",
-      "category": "corporate_earnings",
-      "date": "2026-11-13 11:41",
-      "link": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "World oil market is returning to surplus as Gulf exports recover, IEA says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "World oil market is returning to surplus as Gulf exports recover, IEA says\u00a0\u00a0Reuters",
-      "category": "commodities",
-      "date": "2026-11-13 11:34",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5"
-    },
-    {
-      "headline": "NHL\u2019s next media deal will test the league\u2019s strength",
+      "headline": "Women are taking pay cuts and 'white-knuckling it' to manage menopause and work: 'I feel like I'm sitting on the sidelines'",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "How do the world's biggest media companies judge the value of non-NFL rights? The NHL is giving us our first window into a new era in media values.",
+      "sentiment": "negative",
+      "impact": "Women, and some trans and non-binary people, often experience career setbacks stemming from menopause that can hurt them financially and professionally.",
       "category": "global_markets",
-      "date": "2026-11-13 11:34",
-      "link": "https://www.cnbc.com/2026/11/13/nhls-next-media-deal-will-test-the-leagues-strength.html"
-    },
-    {
-      "headline": "CNBC's Official NHL Team Valuations 2026: How the 32 franchises stack up",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The average NHL team is worth $2.71 billion, 23% more than a year ago.",
-      "category": "global_markets",
-      "date": "2026-11-13 11:07",
-      "link": "https://www.cnbc.com/2026/11/13/cnbcs-official-nhl-team-valuations-2026-how-the-32-clubs-stack-up.html"
-    },
-    {
-      "headline": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
-      "category": "asia_economy",
-      "date": "2026-11-13 10:54",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html"
-    },
-    {
-      "headline": "Earnings growth is set to peter out \u2014 but not the bull market, says Goldman Sachs. Here\u2019s what the firm recommends.",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Earnings growth is almost halving across major indices in 2027 but stocks have already discounted much of that deceleration.  Goldman recommends investors focus closely on those companies still delivering strong growth \u2013 as strong growth becomes  a scarce commodity.",
-      "category": "commodities",
-      "date": "2026-11-13 10:14",
-      "link": "https://www.marketwatch.com/story/earnings-growth-is-set-to-peter-out-but-not-the-bull-market-says-goldman-sachs-heres-what-the-firm-recommends-bf409a6d?mod=mw_rss_topstories"
+      "date": "2026-11-13 16:00",
+      "link": "https://www.cnbc.com/make-it/2026/11/13/menopause-career-setbacks.html"
     }
   ]
 }
