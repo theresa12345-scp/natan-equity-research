@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-11-13T20:47:17.255961",
+  "timestamp": "2026-11-14T12:43:07.637987",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 10,
-    "neutral": 13,
+    "avg_relevance": 7.3,
+    "bullish": 11,
+    "neutral": 12,
     "bearish": 2,
     "high_priority": 11,
-    "material_events": 4
+    "material_events": 5
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 6,
-    "Bloomberg": 2,
-    "CNBC": 10,
+    "Bloomberg": 3,
+    "Reuters": 10,
+    "Morningstar.com": 1,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 1,
-    "MarketWatch": 1
+    "Yahoo Entertainment": 1,
+    "CNBC": 5
   },
   "top_signals": [
     {
@@ -29,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -39,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -49,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -59,8 +59,18 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+      "headline": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
+      "score": 9,
+      "source": "Bloomberg",
+      "sentiment": "positive",
+      "impact": "Just when global bond investors were starting to believe the worst of this year\u2019s rout was over, surging Treasury yields are making them think again.",
+      "category": "fixed_income",
+      "date": "2026-11-13 09:26",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -69,7 +79,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -79,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -89,7 +99,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -99,7 +109,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -113,24 +123,14 @@
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWGl4M3I4cEx4Q1pteUwtd3I3OFBYWWFUU096V1Y3X2oxdl9KOFprODJXTEoxallGdk8tXzNuMzlWSXdjTTBFNjUxUHFwWmdVZTFHeTh0TEVYcWtNSXI2aUJkRFdKVFgtNmpWS01zTlhMS21ndThYQjY2bDhXSFpnV2c0Sl8wSzdBWnJzNmZVR05iUGdxU3BCUnBIYlcteEQtRkNMbDBQRF82QXVESmZSRGNvZG9yaGtfbm5QNHBTUE1jNjA?oc=5"
     },
     {
-      "headline": "Rupee slips as higher oil prices and US yields knock stocks, bonds - Reuters",
+      "headline": "Inflation Is Sending Bond Yields Higher Again. Here\u2019s Why We\u2019re Not Worried",
       "score": 8,
-      "source": "Reuters",
+      "source": "Morningstar.com",
       "sentiment": "positive",
-      "impact": "Rupee slips as higher oil prices and US yields knock stocks, bonds\u00a0\u00a0Reuters",
+      "impact": "We\u2019re still optimistic about interest rates coming down, which is bullish for bonds.",
       "category": "fixed_income",
-      "date": "2026-11-13 03:12",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2lRcFhDeEM4YTZPLVVWRHNYTnU2XzJhTFJMTUpjT2lyY0JwZ25WaGxCR01JTVpRZTJBVE5SZ0Y1LXdqSzJFRDBWVW15TnEwRE9idm9zeGVGZlpPVndfdGhoQlhmaHlkSFdDZmdXOGQ2N00xMVlKX3JFbkMtYzN5Y2VULUkzNkZmV1VtMnBCSU81eFRkRGFxUG9XRlVqcGNfelRrSHZQNXZQSExsbDhBaVdlcWlfWDhu?oc=5"
-    },
-    {
-      "headline": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
-      "score": 8,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
-      "category": "corporate_earnings",
-      "date": "2026-11-12 21:20",
-      "link": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
+      "date": "2026-11-13 01:09",
+      "link": "https://www.morningstar.com/economy/inflation-is-sending-bond-yields-higher-again-heres-why-were-not-worried"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -139,7 +139,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -149,48 +149,28 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-13 20:47",
+      "date": "2026-11-14 12:43",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Dollar near 19-month high on Fed hike bets, yen tests 160 - Reuters",
+      "headline": "US Treasury's Bessent says he won't be cowed by death threats - Reuters",
       "score": 7,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Dollar near 19-month high on Fed hike bets, yen tests 160\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-11-13 01:58",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdXI2eWRwY1h1QWkxeldEbWhGUmdSYzRrQjZveW9TTm5LekpTdEthSzRRZHI1NlhoQjAwXzdjdVFSU0ItZjA3NFFxTUUxQlNWUzBoRHdtVkhtZ09hVUt2SmNyaFVvRkhOa0VERndHN1EweWdGajFEa050UDNqN1dCTllZamxKS0J1R0FHWXJOU0lweWJDMnV2clZBRVI4YVU4MTFBeg?oc=5"
+      "impact": "US Treasury's Bessent says he won't be cowed by death threats\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-11-13 13:45",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1dvSXJCYVVWa3A3ZlZZQ0hKWHB3bm1remdBSFFqd3VXUnpGQS1yMExEY3pGOUxDWWZaSGFad20tNEhfdVZabEdLbzVfSnJ4bm5QSVdQeFRCUzA0a2R4ZEY3dW54WjFVUVpWSHplbno5b184azJQZ2NYMTV2bjJKV3lONlJMWU9saEVWc1laT0lWQTByN1J3T2s2ZUlySFBmYXVZ?oc=5"
     },
     {
-      "headline": "Cerebras surges 13% after beating on quarterly revenue and announcing Microsoft deal",
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures waver as Nvidia tumult deepens",
       "score": 7,
-      "source": "CNBC",
+      "source": "Yahoo Entertainment",
       "sentiment": "positive",
-      "impact": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
-      "category": "corporate_earnings",
-      "date": "2026-11-12 21:23",
-      "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
-    },
-    {
-      "headline": "Nasdaq falters as Nvidia shares fall on CEO exit, oil prices rise: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "The Nasdaq Composite fluctuated on Thursday as investors weighed the departure of Nvidia CEO Jensen Huang.",
+      "impact": "A bumpy week didn't prevent the major averages from pacing for weekly gains.",
       "category": "us_equities",
-      "date": "2026-11-12 20:45",
-      "link": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "The Inflation Fight May Be About to Turn Painful",
-      "score": 7,
-      "source": "The Wall Street Journal",
-      "sentiment": "neutral",
-      "impact": "Plus, retirees\u2019 investments, the affordability agenda and the downsides of a boring job market",
-      "category": "global_markets",
-      "date": "2026-11-12 10:57",
-      "link": "https://www.wsj.com/finance/investing/the-inflation-fight-may-be-about-to-turn-painful-1d053d79"
+      "date": "2026-11-13 11:27",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-110151154.html"
     },
     {
       "headline": "Feds arrest top official of healthcare company, alleging illegal drug importation",
@@ -213,64 +193,84 @@
       "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
     },
     {
-      "headline": "Hassett denies report he's leaving White House: 'Not true'",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "National Economic Council Director Kevin Hassett poured cold water on a report that he's expected to leave the White House in the coming weeks.",
-      "category": "global_markets",
-      "date": "2026-11-13 19:59",
-      "link": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html"
-    },
-    {
-      "headline": "Nvidia hasn\u2019t selected search firm for permanent Huang replacement, board tells CNBC",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Speculation has swirled around who Nvidia's board will select to permanently succeed Huang.",
-      "category": "global_markets",
-      "date": "2026-11-13 19:42",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html"
-    },
-    {
-      "headline": "The scandal at Nvidia is exactly what\u2019s wrong with the S&P 500",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "neutral",
-      "impact": "A big chunk of your retirement is likely invested in the computer-chip giant.",
-      "category": "us_equities",
-      "date": "2026-11-13 19:19",
-      "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Goldman Sachs looks to cash in on Anthropic's IPO, twice. Here's how and who else wants to",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "While co-leading the offering, Goldman also wants a shot at managing the billions of dollars in new wealth that the deal creates. It's not the only one.",
-      "category": "commodities",
-      "date": "2026-11-13 18:44",
-      "link": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html"
-    },
-    {
-      "headline": "The common theme driving stocks lower \u2014 plus, 3 trades and another we want to make",
+      "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
       "score": 6,
       "source": "CNBC",
       "sentiment": "negative",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "impact": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
       "category": "global_markets",
-      "date": "2026-11-13 17:57",
-      "link": "https://www.cnbc.com/investingclub/2026/11/13/the-common-theme-driving-stocks-lower-plus-3-trades-and-another-we-want-to-make.html"
+      "date": "2026-11-14 12:00",
+      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html"
     },
     {
-      "headline": "Women are taking pay cuts and 'white-knuckling it' to manage menopause and work: 'I feel like I'm sitting on the sidelines'",
+      "headline": "Meet the seven co-founders of Anthropic",
       "score": 6,
       "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Women, and some trans and non-binary people, often experience career setbacks stemming from menopause that can hurt them financially and professionally.",
+      "sentiment": "neutral",
+      "impact": "Four researchers, a former journalist, a public policymaker, and an engineer founded Anthropic in 2021. They're now poised to become multi-billionaires.",
       "category": "global_markets",
-      "date": "2026-11-13 16:00",
-      "link": "https://www.cnbc.com/make-it/2026/11/13/menopause-career-setbacks.html"
+      "date": "2026-11-14 12:00",
+      "link": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html"
+    },
+    {
+      "headline": "Latin Grammy Awards: The fashion, moments, winners and performances - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Latin Grammy Awards: The fashion, moments, winners and performances\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-14 11:48",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLUdWNjJsc1BWTC1ycV83cEN2S3d0Z3hoaW9Cc3FmTVN6dkJpUXpZNDdOSVI1MUh2ZjB6WVdmQ0pFN1I5anRJaXhXeUQ3a3dRT1Y0Qm9GU0ladWhHdmxsQjNpZXNZMTc4YmM3YjBRYXJiV25teHBCSG1IdC1hTTV4SlNjampqR0NfZlVSZ3Zja1h5ZE5fMkZZLVdjQlZkc3dKY0RR?oc=5"
+    },
+    {
+      "headline": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-14 11:04",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5"
+    },
+    {
+      "headline": "Rubio assails international court in speech to conservative legal group - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Rubio assails international court in speech to conservative legal group\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-14 01:06",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblc1UEZaUHNzR0QzV051c0Nid3k2WWI3Y1RFNm00LW4wTm83X0Y5MlFRU29fZ0RvYnJFVURiMV96VS1HWmZnV1BkUW16MHJYdXdRbjJSOTJERzh5NXhiRGxjNUkwRDVwNjUxdHF3cXRKN21GNUVELWx2VHpMeHpUYjdjZWY3SFZ6QWs0MWh4cXFnUk1aMFMtT1NIMEl0VTJfcGFOalFvUG41ck5wczB3?oc=5"
+    },
+    {
+      "headline": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-14 00:22",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1dzUndCOE42aUFUazd4SFcxMFVWUTl6VmRVOE5QR0ZjNWRXY19qWTVuRUthUXhDS3UybmZnQmFHSHVRV20wdXJwTUlKUTlGVU42N1B4bkVwSjI4bkdJeG94aFpxX01NUTdyWUJOUVZHSHlXZkxGZXlsTWhjSmUwRXoyRklMekIycXlEUk1pM1NpNjJp?oc=5"
+    },
+    {
+      "headline": "US Air Force responds to suspected drone activity over UK airbase - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US Air Force responds to suspected drone activity over UK airbase\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-13 22:34",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTkFnODI2ZmFiRTJzS3N4eXI5TzJqbXpFV3lUM29neFFnSFJJOVlQcDNZR3B3MmczQWlTNDA4ZE13bXpQcm9yQXdROXIzWjBCRnZHNzhwQkxldWtuREJ2Q1BvOFEzcTZRN2tpQkxwb3dCLUtvdzZiUEsxbGNvXzVmWTUzMTVvdHl5cjZBX2Y1VTJzZlFjUnZrMjFrVWZXTWltM1hoSkxDMThmdDdEckQ1NVJMbTE0dXFQYXJMM3NEVQ?oc=5"
+    },
+    {
+      "headline": "Hackers stole $6.3 billion from Binance\u20142 habits that take 'a few seconds' can help you avoid similar traps",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Researchers from the Digital Inquiry Group say that two habits that take just \"a few seconds up front\" can help keep you from being \"duped\" online.",
+      "category": "global_markets",
+      "date": "2026-11-13 22:06",
+      "link": "https://www.cnbc.com/make-it/2026/11/13/binance-hack-2-online-habits-that-can-help-you-avoid-scams-.html"
     }
   ]
 }
