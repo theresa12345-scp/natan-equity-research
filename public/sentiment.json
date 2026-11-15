@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-15T13:10:20.972695",
+  "timestamp": "2026-11-15T19:37:35.153470",
   "summary": {
     "total_articles": 25,
     "avg_relevance": 7.0,
-    "bullish": 9,
+    "bullish": 8,
     "neutral": 14,
-    "bearish": 2,
+    "bearish": 3,
     "high_priority": 8,
     "material_events": 4
   },
@@ -14,13 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 9,
+    "Reuters": 12,
     "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "CNBC": 6,
-    "Yahoo Entertainment": 1,
-    "The Washington Post": 1,
-    "MarketWatch": 1
+    "CNBC": 4,
+    "MarketWatch": 2
   },
   "top_signals": [
     {
@@ -30,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -70,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -80,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -90,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -100,7 +98,7 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
@@ -110,7 +108,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -120,7 +118,7 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-15 13:10",
+      "date": "2026-11-15 19:37",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
@@ -144,24 +142,64 @@
       "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
     },
     {
-      "headline": "Fed on Track to Raise Interest Rates Next Month And Maybe Again in January",
-      "score": 7,
-      "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "The US monetary policy debate has already moved on to January.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-13 19:55",
-      "link": "https://finance.yahoo.com/economy/policy/articles/fed-track-raise-interest-rates-195501318.html"
+      "headline": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-15 18:59",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5"
     },
     {
-      "headline": "The Fed chief said AI would tame inflation. His colleagues disagree.",
-      "score": 7,
-      "source": "The Washington Post",
+      "headline": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-15 18:02",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2NSdXVjeDlTU0lLeTAtMGs5RmdHaW0wTVhVbzUwempOYUdlNVB3NXprMGZqYksyVjhLUU1OV250QlczemJOT2tXcVFIZEJYb0dwblVCblExbnFmZkVyeGZnZ0NJY3Z3a3NTcmxUQ21tR0ZsQVdhTTNRNWJaZW5pOEk4RDNEMXN3aExOaEE0QVNzaXV3UTM3ZjlNa2hDenRtajR2aGVGT3RQR0NOSnY1VHQ3czdCSkJWSUgxaFFYNThEUlBBMVpn?oc=5"
+    },
+    {
+      "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "A growing number of Federal Reserve officials say the AI boom may mean higher interest rates for longer. Fed Chair Kevin Warsh has been slower to agree, arguing that AI would help tame prices.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-13 18:00",
-      "link": "https://www.washingtonpost.com/business/2026/11/13/more-top-fed-officials-say-ai-is-fueling-inflation-kevin-warsh-is-an-outlier/"
+      "impact": "Battle for young male voters intensifies after US midterm rebuke of Republicans\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-15 16:18",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5"
+    },
+    {
+      "headline": "3 big things we're watching in the stock market in the week ahead",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Nvidia and Anthropic will share the spotlight in a pivotal week for the AI trade.",
+      "category": "global_markets",
+      "date": "2026-11-15 15:26",
+      "link": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
+    },
+    {
+      "headline": "Nvidia is gearing up for one of Wall Street\u2019s most anticipated earnings calls in years",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "Jensen Huang\u2019s sudden departure has made Tuesday\u2019s earnings call \u201cthe most important in the company\u2019s history.\u201d",
+      "category": "us_equities",
+      "date": "2026-11-15 15:00",
+      "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Yemeni government force retreats from strait in major setback in war against Houthis - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "positive",
+      "impact": "Yemeni government force retreats from strait in major setback in war against Houthis\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-15 13:24",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5"
     },
     {
       "headline": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
@@ -184,24 +222,14 @@
       "link": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories"
     },
     {
-      "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
+      "headline": "Jordan sentences three men to death over deadly church attack - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Battle for young male voters intensifies after US midterm rebuke of Republicans\u00a0\u00a0Reuters",
+      "impact": "Jordan sentences three men to death over deadly church attack\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-15 11:26",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5"
-    },
-    {
-      "headline": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-15 08:40",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5"
+      "date": "2026-11-15 10:51",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSW5qZzl5QmYwRkpOaUNfQlVXU1FOdEhVX0RUWEtsYjU5a3ZfWEJGS3R4MjVRYlVha3ZrcWpnQVV1SHQ0c09qY0V2U2RscnZUNjlaVjUwYW1GN2pfMjNHNE1LemRjUEZTSGlQY3JhcUNFTjhOYlNDZkVQTzFVbHZ1elgzX01md3BoRG0tam4zVEFha2tnUjU5TlllRmtrb09PMHFQVFZmNXNWSm9wTVRPYUFn?oc=5"
     },
     {
       "headline": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base - Reuters",
@@ -242,36 +270,6 @@
       "category": "global_markets",
       "date": "2026-11-14 22:31",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5"
-    },
-    {
-      "headline": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "Starship Test Flight 15 marks the first time Elon Musk's company has tried to catch both the booster and upper stage of the rocket.",
-      "category": "global_markets",
-      "date": "2026-11-14 21:26",
-      "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
-    },
-    {
-      "headline": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
-      "category": "global_markets",
-      "date": "2026-11-14 18:48",
-      "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html"
-    },
-    {
-      "headline": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "A real estate investment in markets across the U.S. called 'industrial outdoor storage' is attracting Wall Street giants including Brookfield and Blackstone.",
-      "category": "us_equities",
-      "date": "2026-11-14 15:14",
-      "link": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html"
     }
   ]
 }
