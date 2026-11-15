@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-11-14T18:58:02.302119",
+  "timestamp": "2026-11-15T13:10:20.972695",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.4,
-    "bullish": 11,
-    "neutral": 12,
+    "avg_relevance": 7.0,
+    "bullish": 9,
+    "neutral": 14,
     "bearish": 2,
-    "high_priority": 11,
-    "material_events": 5
+    "high_priority": 8,
+    "material_events": 4
   },
   "sources": {
     "Bank Indonesia": 1,
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Bloomberg": 4,
-    "Reuters": 5,
-    "Yahoo Entertainment": 1,
+    "Reuters": 9,
+    "Bloomberg": 2,
     "Caixin/S&P Global": 1,
-    "The Wall Street Journal": 1,
-    "CNBC": 8,
+    "CNBC": 6,
+    "Yahoo Entertainment": 1,
+    "The Washington Post": 1,
     "MarketWatch": 1
   },
   "top_signals": [
@@ -30,7 +30,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -40,7 +40,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -50,7 +50,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -60,18 +60,8 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
-    },
-    {
-      "headline": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
-      "score": 9,
-      "source": "Bloomberg",
-      "sentiment": "positive",
-      "impact": "Just when global bond investors were starting to believe the worst of this year\u2019s rout was over, surging Treasury yields are making them think again.",
-      "category": "fixed_income",
-      "date": "2026-11-13 09:26",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over"
     },
     {
       "headline": "Indonesian Rupiah Stabilizes at 15,850/USD on Trade Surplus",
@@ -80,7 +70,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -90,7 +80,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -100,7 +90,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -110,28 +100,8 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.reuters.com/markets/rates-bonds/"
-    },
-    {
-      "headline": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation\u00a0\u00a0Reuters",
-      "category": "us_monetary_policy",
-      "date": "2026-11-13 15:40",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWGl4M3I4cEx4Q1pteUwtd3I3OFBYWWFUU096V1Y3X2oxdl9KOFprODJXTEoxallGdk8tXzNuMzlWSXdjTTBFNjUxUHFwWmdVZTFHeTh0TEVYcWtNSXI2aUJkRFdKVFgtNmpWS01zTlhMS21ndThYQjY2bDhXSFpnV2c0Sl8wSzdBWnJzNmZVR05iUGdxU3BCUnBIYlcteEQtRkNMbDBQRF82QXVESmZSRGNvZG9yaGtfbm5QNHBTUE1jNjA?oc=5"
-    },
-    {
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq futures edge higher after wholesale inflation grows, Nvidia stock rebounds",
-      "score": 8,
-      "source": "Yahoo Entertainment",
-      "sentiment": "positive",
-      "impact": "A bumpy week didn't prevent the major averages from pacing for weekly gains.",
-      "category": "us_equities",
-      "date": "2026-11-13 14:14",
-      "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -140,7 +110,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -150,78 +120,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-14 18:58",
+      "date": "2026-11-15 13:10",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Stock Market Today: Nvidia Slides Again as Investors Brace for More Fallout; Nasdaq Slumps\u2014 Live Updates",
+      "headline": "Rivian, Lucid, Scout CEOs aren\u2019t counting on Democrats to restore EV federal support after midterm wins",
       "score": 7,
-      "source": "The Wall Street Journal",
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-15 13:00",
+      "link": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html"
+    },
+    {
+      "headline": "AI risks are the biggest threat to the financial system, Fed survey finds",
+      "score": 7,
+      "source": "CNBC",
       "sentiment": "negative",
-      "impact": "Latest market news.",
-      "category": "us_equities",
-      "date": "2026-11-13 17:30",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-13-2026"
-    },
-    {
-      "headline": "Anthropic IPO Share Orders From China Are Said to Be Rebuffed",
-      "score": 7,
-      "source": "Bloomberg",
-      "sentiment": "neutral",
-      "impact": "Institutional investors based in mainland China and Hong Kong have been excluded from placing orders in Anthropic PBC\u2019s initial public offering, according to people familiar with the matter, highlighting the sensitivities around an industry both Washington an\u2026",
+      "impact": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
       "category": "us_monetary_policy",
-      "date": "2026-11-13 15:37",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-share-orders-from-china-are-said-to-be-rebuffed"
+      "date": "2026-11-13 21:00",
+      "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
     },
     {
-      "headline": "US Treasury's Bessent says he won't be cowed by death threats - Reuters",
+      "headline": "Fed on Track to Raise Interest Rates Next Month And Maybe Again in January",
       "score": 7,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "US Treasury's Bessent says he won't be cowed by death threats\u00a0\u00a0Reuters",
-      "category": "fixed_income",
-      "date": "2026-11-13 13:45",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ1dvSXJCYVVWa3A3ZlZZQ0hKWHB3bm1remdBSFFqd3VXUnpGQS1yMExEY3pGOUxDWWZaSGFad20tNEhfdVZabEdLbzVfSnJ4bm5QSVdQeFRCUzA0a2R4ZEY3dW54WjFVUVpWSHplbno5b184azJQZ2NYMTV2bjJKV3lONlJMWU9saEVWc1laT0lWQTByN1J3T2s2ZUlySFBmYXVZ?oc=5"
-    },
-    {
-      "headline": "Dow rises 200 points as Nvidia stabilizes, inflation data is slightly lower than expected: Live updates",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Nvidia shares rebounded from its recent pressure and the latest inflation data came in slightly lighter than expected.",
-      "category": "us_equities",
-      "date": "2026-11-13 12:06",
-      "link": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-    },
-    {
-      "headline": "Feds arrest top official of healthcare company, alleging illegal drug importation",
-      "score": 7,
-      "source": "CNBC",
+      "source": "Yahoo Entertainment",
       "sentiment": "positive",
-      "impact": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
+      "impact": "The US monetary policy debate has already moved on to January.",
       "category": "us_monetary_policy",
-      "date": "2026-11-11 22:58",
-      "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
+      "date": "2026-11-13 19:55",
+      "link": "https://finance.yahoo.com/economy/policy/articles/fed-track-raise-interest-rates-195501318.html"
     },
     {
-      "headline": "JetBlue unveils new first-class seats to bring back profits",
+      "headline": "The Fed chief said AI would tame inflation. His colleagues disagree.",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "JetBlue gave reporters a look at its new first-class seats on Wednesday.",
-      "category": "corporate_earnings",
-      "date": "2026-11-11 22:10",
-      "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html"
+      "source": "The Washington Post",
+      "sentiment": "neutral",
+      "impact": "A growing number of Federal Reserve officials say the AI boom may mean higher interest rates for longer. Fed Chair Kevin Warsh has been slower to agree, arguing that AI would help tame prices.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-13 18:00",
+      "link": "https://www.washingtonpost.com/business/2026/11/13/more-top-fed-officials-say-ai-is-fueling-inflation-kevin-warsh-is-an-outlier/"
     },
     {
-      "headline": "The scandal at Nvidia is exactly what\u2019s wrong with the S&P 500",
+      "headline": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours.",
+      "category": "global_markets",
+      "date": "2026-11-15 12:51",
+      "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html"
+    },
+    {
+      "headline": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
       "score": 6,
       "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Charts show the potential for more pain ahead",
+      "category": "commodities",
+      "date": "2026-11-15 12:30",
+      "link": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
+      "score": 6,
+      "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "A big chunk of your retirement is likely invested in the computer-chip giant.",
-      "category": "us_equities",
-      "date": "2026-11-14 17:50",
-      "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories"
+      "impact": "Battle for young male voters intensifies after US midterm rebuke of Republicans\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-15 11:26",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5"
+    },
+    {
+      "headline": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-15 08:40",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5"
+    },
+    {
+      "headline": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-15 04:25",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS2FyaWZZTTd4ZWFoWFdoTnFNVmpjakdwQUVnZ0UtMEY5MFc1dEFBeGd4UmczdGh1ektRTHBjRGxBOVlVQy1XV3NOdV9MbWotQkNVa1NBdmJaUloya1VhR2FEUTN3QkgwZ1JRN00wME5tc243TmZHU20zdlpaUHR2Q2lyby0tUkJsR0w5N1lXclI4ZWI5RTdfbjB2d1hxMXVjOVp4MlJPOF9IcjIxSE1JWWx3?oc=5"
+    },
+    {
+      "headline": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-15 02:58",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5"
+    },
+    {
+      "headline": "Iran's navy says three tankers on fire after hitting mines in Hormuz - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran's navy says three tankers on fire after hitting mines in Hormuz\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-14 22:54",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?oc=5"
+    },
+    {
+      "headline": "Senior Hamas commander killed in Israeli strike in Gaza - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Senior Hamas commander killed in Israeli strike in Gaza\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-14 22:31",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUhZd1pxN2d0N3pmR2RCbjhCQk9teURKLThfYzR0bC1rVWJpVGUwNkpJelBNeVNLY3hxS1B0c0p2bTk5VmhCeFVGUWpHSFVNdHFKZjcydUdYNDEyMThuQ3hTRmFNSTQ0Z05ZSWRSd1A3QnM3eTRjWkNJbkN2Z2E5M1FQaUdrdUtaYzVNcWtVMC1LOU1yUkpoUk82d0ZQejM5cDR3YXVqcE5xMlJkTVU2dGduMDdsUWp2UG5ERFZUZw?oc=5"
+    },
+    {
+      "headline": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Starship Test Flight 15 marks the first time Elon Musk's company has tried to catch both the booster and upper stage of the rocket.",
+      "category": "global_markets",
+      "date": "2026-11-14 21:26",
+      "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+    },
+    {
+      "headline": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
+      "category": "global_markets",
+      "date": "2026-11-14 18:48",
+      "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html"
     },
     {
       "headline": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
@@ -232,46 +272,6 @@
       "category": "us_equities",
       "date": "2026-11-14 15:14",
       "link": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html"
-    },
-    {
-      "headline": "Juice your growth and save on taxes in this workplace investment account",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "High-deductible medical benefit plans with health savings accounts are on the menu at many employers as enrollment season for 2027 continues.",
-      "category": "global_markets",
-      "date": "2026-11-14 14:08",
-      "link": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html"
-    },
-    {
-      "headline": "Retailers are turning to entertainment to win shoppers\u2019 attention",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
-      "category": "global_markets",
-      "date": "2026-11-14 13:00",
-      "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html"
-    },
-    {
-      "headline": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-      "category": "global_markets",
-      "date": "2026-11-14 12:00",
-      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html"
-    },
-    {
-      "headline": "Meet the seven co-founders of Anthropic",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Four researchers, a former journalist, a public policymaker, and an engineer founded Anthropic in 2021. They're now poised to become multi-billionaires.",
-      "category": "global_markets",
-      "date": "2026-11-14 12:00",
-      "link": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html"
     }
   ]
 }
