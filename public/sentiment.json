@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-17T22:04:51.145229",
+  "timestamp": "2026-11-18T14:48:34.233391",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 8,
-    "neutral": 13,
-    "bearish": 4,
-    "high_priority": 8,
+    "avg_relevance": 7.3,
+    "bullish": 13,
+    "neutral": 10,
+    "bearish": 2,
+    "high_priority": 10,
     "material_events": 4
   },
   "sources": {
@@ -14,10 +14,12 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "Reuters": 4,
     "Bloomberg": 2,
+    "MarketWatch": 4,
+    "CNBC": 9,
     "Caixin/S&P Global": 1,
-    "CNBC": 11
+    "Financial Times": 1
   },
   "top_signals": [
     {
@@ -27,7 +29,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -37,7 +39,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -47,7 +49,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -57,7 +59,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -67,7 +69,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -77,7 +79,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -87,7 +89,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -97,8 +99,28 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.reuters.com/markets/rates-bonds/"
+    },
+    {
+      "headline": "How high must interest rates go to cool inflation? Possibly 100 basis points or more, Fed\u2019s Waller says.",
+      "score": 8,
+      "source": "MarketWatch",
+      "sentiment": "neutral",
+      "impact": "The central bank might have to be more aggressive in order to \u201cshock\u201d inflation out of the system, Federal Reserve governor Christopher Waller said Wednesday.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-18 14:32",
+      "link": "https://www.marketwatch.com/story/how-high-must-interest-rates-go-to-cool-inflation-possibly-100-basis-points-or-more-feds-waller-says-e7b41cf6?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Dow slides weighed by Home Depot; Nasdaq is flat ahead of Nvidia earnings: Live updates",
+      "score": 8,
+      "source": "CNBC",
+      "sentiment": "neutral",
+      "impact": "Nvidia shares pulled back 4.1%, as traders dumped the chipmaker ahead of its fiscal third-quarter report, due Tuesday after the bell",
+      "category": "us_equities",
+      "date": "2026-11-17 14:26",
+      "link": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -107,7 +129,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -117,18 +139,48 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-17 22:04",
+      "date": "2026-11-18 14:48",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "Wall Street ends lower ahead of Nvidia earnings, Anthropic debut - Reuters",
+      "headline": "Target posts best sales growth in five years, raises guidance",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "Target beat third-quarter sales expectations and raised its guidance as it continues a turnaround effort.",
+      "category": "corporate_earnings",
+      "date": "2026-11-18 13:29",
+      "link": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html"
+    },
+    {
+      "headline": "Fed officials set to raise rates again in December, but the future still looks murky",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "positive",
+      "impact": "continued inflation above the Fed's 2% target might push officials into a more aggressive stance.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-18 12:37",
+      "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+    },
+    {
+      "headline": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks.",
+      "score": 7,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Mortgage rates moved sharply higher last week, causing demand for both mortgage refinances and home purchase loans to drop. Rates hit the highest in 3 weeks.",
+      "category": "global_markets",
+      "date": "2026-11-18 12:34",
+      "link": "https://www.cnbc.com/2026/11/18/mortgage-demand-turns-lower-as-interest-rates-shoot-back-up-to-the-highest-level-in-three-weeks.html"
+    },
+    {
+      "headline": "UK inflation rises to one-year high but markets trim rate hike bets - Reuters",
       "score": 7,
       "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Wall Street ends lower ahead of Nvidia earnings, Anthropic debut\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-11-17 21:01",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5"
+      "sentiment": "positive",
+      "impact": "UK inflation rises to one-year high but markets trim rate hike bets\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-18 07:08",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QVW9FYWgxOUQyeFFFdHRIdkVLWDZLem1MWFItOVZmQU1SODEtcEZ1Y3NsOGZXeUtNQVN5cElvSmVoNXFoZDFVZ0NlaHFmcmNuQ2w1SWJENDNNLWVVWHNNQUVXdnV0X1Z5M3E2bnJSSzRQd3FBR1FQMzh0dGRPdw?oc=5"
     },
     {
       "headline": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
@@ -141,24 +193,14 @@
       "link": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html"
     },
     {
-      "headline": "Jensen Huang breaks his silence ahead of Nvidia earnings \u2014 plus, 1 stock to buy on weakness",
+      "headline": "Nvidia\u2019s interim CEO Colette Kress to make her debut at first earnings",
       "score": 7,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "source": "Financial Times",
+      "sentiment": "neutral",
+      "impact": "Successor to founder Jensen Huang will have to ease investors\u2019 anxiety about AI chipmaker\u2019s future",
       "category": "corporate_earnings",
-      "date": "2026-11-17 16:42",
-      "link": "https://www.cnbc.com/investingclub/2026/11/17/jensen-huang-breaks-his-silence-ahead-of-nvidia-earnings-plus-1-stock-to-buy.html"
-    },
-    {
-      "headline": "Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "How the market set-up is more favorable for the Anthropic IPO than the lead-up to SpaceX's debut.",
-      "category": "corporate_earnings",
-      "date": "2026-11-17 13:11",
-      "link": "https://www.cnbc.com/2026/11/17/nvidia-earnings-anthropic-ipo-tech-rally.html"
+      "date": "2026-11-17 05:00",
+      "link": "https://www.ft.com/content/424e5ab0-517e-4f8e-a286-df7c67fa05a6?syn-25a6b1a6\\\\u003d1"
     },
     {
       "headline": "Robert Pattinson cast as next James Bond",
@@ -171,104 +213,64 @@
       "link": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html"
     },
     {
-      "headline": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could \u2018disappoint\u2019",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Latest market news.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-16 17:00",
-      "link": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
-    },
-    {
-      "headline": "Rivian, Lucid, Scout CEOs aren\u2019t counting on Democrats to restore EV federal support after midterm wins",
-      "score": 7,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
-      "category": "us_monetary_policy",
-      "date": "2026-11-15 13:00",
-      "link": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html"
-    },
-    {
-      "headline": "U.S. officially loses measles elimination status amid ongoing outbreaks",
+      "headline": "Only two \u2018Magnificent Seven\u2019 stocks have managed to beat the S&P 500 since the start of 2025",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "The director of PAHO made the final call that measles is endemic \u2014 or always present \u2014 in the U.S. following 12 months of continuous transmission.\u00a0",
-      "category": "global_markets",
-      "date": "2026-11-17 22:02",
-      "link": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html"
-    },
-    {
-      "headline": "FAA pauses installation of new routers after ground stop",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Problems with the overwhelmed technology led the agency to issue a rare nationwide ground stop on Friday.",
-      "category": "global_markets",
-      "date": "2026-11-17 20:53",
-      "link": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
-    },
-    {
-      "headline": "A generational flight from tech to defensive stocks is underway. How we\u2019re capitalizing",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Jim Cramer has pushed the message that its important for investors to balance their portfolios.",
-      "category": "global_markets",
-      "date": "2026-11-17 20:31",
-      "link": "https://www.cnbc.com/investingclub/2026/11/17/a-generational-flight-from-tech-to-defensive-stocks-is-underway-how-were-capitalizing.html"
-    },
-    {
-      "headline": "Wall Street's fear gauge is surging again and this time it's not just about AI jitters",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "VIX up four days in a row as options traders show fear unseen since April",
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Alphabet and Apple have approached artificial intelligence in ways that have resonated on Wall Street.",
       "category": "us_equities",
-      "date": "2026-11-17 20:28",
-      "link": "https://www.cnbc.com/2026/11/17/wall-streets-fear-gauge-is-surging-again-and-this-time-its-not-just-about-ai-jitters.html"
+      "date": "2026-11-18 14:33",
+      "link": "https://www.marketwatch.com/story/only-two-magnificent-seven-stocks-have-managed-to-beat-the-s-p-500-since-the-start-of-2025-a3daa0f8?mod=mw_rss_topstories"
     },
     {
-      "headline": "US strikes Iranian missile launch site on Qeshm Island, US official says - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "US strikes Iranian missile launch site on Qeshm Island, US official says\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-17 19:40",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWENzVXNRVjR0NU9lejlJWll3U01GOENvbnlKVWJuZG9ZSmwtdVRXSDRPZ3JGcGZnSGhfQmYzNnFRQ0p4d2ZaZk80Q0NKUEgtdTI3cmFwb2JxT1FOamJYVllwTFR3UV9ZN2xfMTNTTFZiS0gtSjU2Q3B6dkVLUmgyYzlpcHprNXdCMEdST0RqNkdkTEgycGFEQkVwY01yWENOcVNpYWpFYlRrRG1waGlwVHNKM3h5UHBidHpMcXlkcw?oc=5"
-    },
-    {
-      "headline": "We\u2019re watching Cramer\u2019s favorite market indicator for a signal to buy stocks",
+      "headline": "Small investor enthusiasm for Anthropic IPO to rival SpaceX debut",
       "score": 6,
       "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "impact": "Anthropic is gearing up for a blockbuster initial public offering this week, and excitement among retail investors looks to be off the charts.",
       "category": "global_markets",
-      "date": "2026-11-17 19:15",
-      "link": "https://www.cnbc.com/investingclub/2026/11/17/were-watching-cramers-favorite-indicator-for-a-signal-to-buy-stocks.html"
+      "date": "2026-11-18 14:09",
+      "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html"
     },
     {
-      "headline": "Crew abandons gas tanker off Oman after being hit by projectile, sources say - Reuters",
+      "headline": "The AI power scramble is in full force. Which companies really stand to profit?",
       "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "Crew abandons gas tanker off Oman after being hit by projectile, sources say\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-17 18:46",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU0ZTTkw2LWNabWNsdzBOM1FzRF9nWk45NHcybXI1RHk2RF8wZDRDeDRiNE9uT202T2RWRHRqd1AzcFg5LWtlY3M2dlo4eTIzZHRVaUZKX21FUE5tcVNzR2VnT3RWRHdXbmU4QXlRUmZzWFZIZVZ0M2hXeFR6RE1QM1U0OWlDMi1SLUQ2V2tBVDFlU3lxM2lpeXRNa21CNjFMQTlOZV9MekM0WWUtREZHWmZ4TGJUa2dhNUxObDBIcTRRSGgwSUg0MXVB?oc=5"
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Big Tech is inking deals with traditional power companies, but investors need to look beyond the headlines.",
+      "category": "corporate_earnings",
+      "date": "2026-11-18 14:06",
+      "link": "https://www.marketwatch.com/story/the-ai-power-scramble-is-in-full-force-which-companies-really-stand-to-profit-f719619c?mod=mw_rss_topstories"
     },
     {
-      "headline": "US retail sales showcase underlying strength despite cost-of-living crunch - Reuters",
+      "headline": "Hims & Hers launches new peptide treatments \u2014 while admitting there's more to learn about efficacy",
       "score": 6,
-      "source": "Reuters",
+      "source": "CNBC",
       "sentiment": "neutral",
-      "impact": "US retail sales showcase underlying strength despite cost-of-living crunch\u00a0\u00a0Reuters",
+      "impact": "The telehealth company will now offer compounded forms of sermorelin, glutathione, NAD+,  vitamin B-12 and L-carnitine, none of which are approved by the FDA.",
       "category": "global_markets",
-      "date": "2026-11-17 18:28",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWXFYQzF0Y092amNQX1ZybEpWNGF0TkJ6SDY0eWtIenJRRWE2by1QSXROdzVLLUF3MjJqNGxyZkJVVWEzeUZGNXlIekdaT0pMUFRmd2pPbl9BZTRGZERFSnFOend6M0FKU3laSWdPdEpiWkw3TlVTejkwdFZaeHJyR3dTb2o5Y0toVnZaVkxIeWEwZw?oc=5"
+      "date": "2026-11-18 14:02",
+      "link": "https://www.cnbc.com/2026/11/18/hims-hers-peptides-plus-treatments.html"
+    },
+    {
+      "headline": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+      "score": 6,
+      "source": "MarketWatch",
+      "sentiment": "positive",
+      "impact": "Don\u2019t rule out a half-point interest-rate hike in December, BofA Global\u2019s rates team said.",
+      "category": "fixed_income",
+      "date": "2026-11-18 13:24",
+      "link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories"
+    },
+    {
+      "headline": "Worried about the AI bubble popping? How investing pros say to adjust your strategy",
+      "score": 6,
+      "source": "CNBC",
+      "sentiment": "negative",
+      "impact": "Tech concentration and AI-stock volatility are rattling investors. Experts explain how to diversify without abandoning long-term stock exposure.",
+      "category": "global_markets",
+      "date": "2026-11-18 13:19",
+      "link": "https://www.cnbc.com/make-it/2026/11/18/how-to-diversify-your-portfolio-amid-ai-bubble-fears.html"
     }
   ]
 }
