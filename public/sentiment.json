@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-25T22:58:39.469776",
+  "timestamp": "2026-11-26T16:01:02.572146",
   "summary": {
     "total_articles": 25,
-    "avg_relevance": 7.2,
-    "bullish": 11,
-    "neutral": 11,
-    "bearish": 3,
-    "high_priority": 10,
+    "avg_relevance": 7.1,
+    "bullish": 9,
+    "neutral": 14,
+    "bearish": 2,
+    "high_priority": 9,
     "material_events": 4
   },
   "sources": {
@@ -14,11 +14,11 @@
     "Indonesia Stock Exchange": 1,
     "BPS Statistics Indonesia": 1,
     "Federal Reserve": 1,
-    "Reuters": 7,
+    "Reuters": 15,
     "Bloomberg": 2,
-    "CNBC": 8,
+    "CNBC": 2,
     "Caixin/S&P Global": 1,
-    "MarketWatch": 3
+    "The Wall Street Journal": 1
   },
   "top_signals": [
     {
@@ -28,7 +28,7 @@
       "sentiment": "neutral",
       "impact": "The central bank maintained its benchmark rate amid global uncertainty, balancing growth support with currency stability. Foreign reserves remain robust at $151.8B, providing FX intervention capacity.",
       "category": "indonesia_monetary_policy",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/default.aspx"
     },
     {
@@ -38,7 +38,7 @@
       "sentiment": "positive",
       "impact": "Jakarta Composite Index maintains strength driven by banking and consumer sectors. Net foreign buying resumed as EM sentiment improves on Fed pivot expectations. YTD performance +2.3%.",
       "category": "indonesia_equities",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.idx.co.id/en/market-data/statistical-data/composite-index/"
     },
     {
@@ -48,7 +48,7 @@
       "sentiment": "positive",
       "impact": "Economic expansion driven by household consumption (+4.9%) and fixed investment (+5.1%). Manufacturing PMI at 52.3 signals continued expansion. Full-year growth projected at 5.05-5.15%.",
       "category": "indonesia_economy",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.bps.go.id/en/statistics-table/2/MTk3NSMy/gross-domestic-product--gdp-.html"
     },
     {
@@ -58,7 +58,7 @@
       "sentiment": "positive",
       "impact": "FOMC minutes suggest committee members see conditions for further easing. Core PCE trending toward 2.5% target. Markets pricing 65% probability of 25bp cut in December.",
       "category": "us_monetary_policy",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.federalreserve.gov/monetarypolicy.htm"
     },
     {
@@ -68,7 +68,7 @@
       "sentiment": "neutral",
       "impact": "Currency finds support from continued trade surplus ($10.5B Q3) and BI intervention. Carry trade dynamics remain favorable vs USD. Key resistance at 16,000 level.",
       "category": "indonesia_fx",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.reuters.com/markets/currencies/"
     },
     {
@@ -78,7 +78,7 @@
       "sentiment": "positive",
       "impact": "Major banks (BBCA, BBRI, BMRI) posted 12-15% earnings growth with NIMs expanding to 5.2-5.8%. Loan growth accelerated to 11.5% YoY. NPL ratios stable at 2.1-2.4%.",
       "category": "indonesia_financials",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.bloomberg.com/asia"
     },
     {
@@ -88,7 +88,7 @@
       "sentiment": "positive",
       "impact": "Index trading near 6,000 level as tech sector leads. Magnificent 7 stocks contribute 60% of YTD gains. Earnings growth re-accelerating to +8% YoY in Q4.",
       "category": "us_equities",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.bloomberg.com/markets"
     },
     {
@@ -98,28 +98,18 @@
       "sentiment": "neutral",
       "impact": "Bond yields decline as markets reprice Fed trajectory. Real yields at +2.0% remain attractive for fixed income allocations. Duration positioning shifts to neutral.",
       "category": "fixed_income",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.reuters.com/markets/rates-bonds/"
     },
     {
-      "headline": "Wealthy investors seek tax savings from municipal bonds as yields remain elevated",
+      "headline": "Fed\u2019s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
       "score": 8,
       "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Done right, bonds can be used to reduce taxes rather than defer them.",
-      "category": "fixed_income",
-      "date": "2026-11-25 15:00",
-      "link": "https://www.cnbc.com/2026/11/25/wealthy-investors-seek-tax-savings-from-municipal-bonds.html"
-    },
-    {
-      "headline": "Nasdaq futures slide over 2% as AI losses deepen; inflation data in focus - Reuters",
-      "score": 8,
-      "source": "Reuters",
-      "sentiment": "negative",
-      "impact": "Nasdaq futures slide over 2% as AI losses deepen; inflation data in focus\u00a0\u00a0Reuters",
-      "category": "us_equities",
-      "date": "2026-11-25 12:54",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5"
+      "sentiment": "positive",
+      "impact": "The personal consumption expenditures price index was expected to show an annual inflation rate of 3.8% in October, according to the Dow Jones consensus.",
+      "category": "us_monetary_policy",
+      "date": "2026-11-25 13:31",
+      "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
     },
     {
       "headline": "China Manufacturing PMI Expands to 51.5, Supporting EM Sentiment",
@@ -128,7 +118,7 @@
       "sentiment": "positive",
       "impact": "Factory activity strengthens on stimulus measures and export recovery. Positive read-through for Asian supply chains and commodity demand. EM currencies rally.",
       "category": "asia_economy",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.pmi.spglobal.com/Public/Home/PressRelease/"
     },
     {
@@ -138,138 +128,148 @@
       "sentiment": "neutral",
       "impact": "Oil prices stabilize on balanced supply-demand outlook. OPEC+ compliance remains high at 95%. Inventory levels normalize. Range-bound trading expected near term.",
       "category": "commodities",
-      "date": "2026-11-25 22:58",
+      "date": "2026-11-26 16:01",
       "link": "https://www.reuters.com/business/energy/"
     },
     {
-      "headline": "The Fed says inflation hasn\u2019t gotten any better ahead of its key December vote to raise rates",
+      "headline": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
       "score": 7,
-      "source": "MarketWatch",
+      "source": "CNBC",
       "sentiment": "positive",
-      "impact": "Just ahead of pivotal December vote to raise U.S. interest rates, the Federal Reserve on Wednesday said stubborn inflation remains a thorn in the side of an expanding economy.",
+      "impact": "The microdrama category has exploded at a time when traditional forms of media face waning interest and YouTube claims more viewing hours.",
+      "category": "corporate_earnings",
+      "date": "2026-11-26 12:00",
+      "link": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html"
+    },
+    {
+      "headline": "India swaps, treasury bills signal possibility of outsized RBI rate hike next week - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "India swaps, treasury bills signal possibility of outsized RBI rate hike next week\u00a0\u00a0Reuters",
+      "category": "fixed_income",
+      "date": "2026-11-26 10:21",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTURLc0UwZjNUdy05dVdJMVFLLUpDNUQwN19INXh3cVcwdW5fM2k3eDV2bnY4ZkZkMDVzSjN4N3Yzcm9CQ1MtT1hmaVJzMmY5VkpMUzgxQzVrQm1zZzU2OERSak1TeU84dDlTOVk0aEZSNXFGcUNzaFo2bVlXN2wwYjRScUxtVE9GeXFFRjBFdWdlZ2tjOEpnQ19UTmVJVnlBQ0ZVclBQdHhieTd0SDJlVEU3c0ZTaFZFazB6cVAtbWpqMmU2?oc=5"
+    },
+    {
+      "headline": "Gold drifts lower as Fed rate-hike fears loom - Reuters",
+      "score": 7,
+      "source": "Reuters",
+      "sentiment": "negative",
+      "impact": "Gold drifts lower as Fed rate-hike fears loom\u00a0\u00a0Reuters",
       "category": "us_monetary_policy",
-      "date": "2026-11-25 19:39",
-      "link": "https://www.marketwatch.com/story/the-fed-says-inflation-hasnt-gotten-any-better-ahead-of-its-key-december-vote-to-raise-rates-65024d33?mod=mw_rss_topstories"
+      "date": "2026-11-26 03:39",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNczNWcXJNQVFwUEZ5UjlTc1o0ZFE5NVFYZzA2eTJURHRsMmRMRmc1LTZ1TWszbFYyN05QRHRiQ1VIb1ZxUE9pTUs5WDVya1M0WFJEQ3lCN3J0T3h4bndfa1NyZFB4VFFaby1NWVdRRlFZeGlKdDNnYkRZN0c0eFZQY3VSWS11NW9SbUdndElMZk9oNk1kd0haVWh0Rl9VcTA1MDg1REE1cHZXWk14Umc?oc=5"
     },
     {
-      "headline": "US third-quarter economic growth revised sharply higher; inflation broadening out - Reuters",
+      "headline": "Saudi Engineer Accused of Bugging OpenAI to Be Released on $1 Million Bond",
       "score": 7,
+      "source": "The Wall Street Journal",
+      "sentiment": "neutral",
+      "impact": "Latest market news.",
+      "category": "fixed_income",
+      "date": "2026-11-24 23:00",
+      "link": "https://www.wsj.com/tech/saudi-engineer-accused-of-bugging-openai-to-be-released-on-1-million-bond-954f048e"
+    },
+    {
+      "headline": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam - Reuters",
+      "score": 6,
       "source": "Reuters",
       "sentiment": "positive",
-      "impact": "US third-quarter economic growth revised sharply higher; inflation broadening out\u00a0\u00a0Reuters",
-      "category": "corporate_earnings",
-      "date": "2026-11-25 16:15",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNalBrRjhRWHdhRDduMzduLU1kN1lGVFpzNFllX0RzdjJXMjdtajRZS1l1dms2MFJFbkhJQmx3Qzgydi1nTTJnQ1JPLUtoa1R5LWZjWjItUXJhXzhoZG51NU9ENzVBQjVSZWFpdHlqbV9PSkVncWtjUlptdXhjd0ZKRXZ6d2Y1dw?oc=5"
-    },
-    {
-      "headline": "Stock Market Today: Dow up 350 points, S&P 500 and Nasdaq decline a day after Nvidia's 31% surge; Dell results on tap: live updates",
-      "score": 7,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "Follow all the latest U.S. market action for Tuesday, a day after the massive rally from Nvidia reinstating Jensen Huang as CEO.",
-      "category": "us_equities",
-      "date": "2026-11-24 20:18",
-      "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-extend-gains-jensen-huang-ceo-return-nvidia-dell-results"
-    },
-    {
-      "headline": "HP\u2019s stock is a standout gainer in the tech selloff, as an earnings beat still matters",
-      "score": 6,
-      "source": "MarketWatch",
-      "sentiment": "positive",
-      "impact": "PC maker\u2019s \u2018low-quality\u2019 beat is enough to propel its shares amid the tech rout.",
-      "category": "corporate_earnings",
-      "date": "2026-11-25 21:36",
-      "link": "https://www.marketwatch.com/story/hps-stock-is-a-standout-gainer-in-the-tech-rout-as-an-earnings-beat-still-matters-8f6c76ad?mod=mw_rss_topstories"
-    },
-    {
-      "headline": "Macy's postpones Thanksgiving Day Parade due to severe weather",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "Macy's announced on Wednesday that the annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.",
+      "impact": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-25 21:26",
-      "link": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html"
+      "date": "2026-11-26 14:50",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQnltOGlBZG16OU1LUGlBS25WVUFhN2VnM0NhWHpzTlVscC1iOE5kdFZnaGhBbmNOdm80b05IQWttZm9MV0liVmZzVE56bXVxSHJXYXBmMktWSVQwZ2hfNmVGdWVJQmp5RkRtS1dXR0wwT0pXX1dFdUM5dDJrUWNTNHVsYjRNWXBWcmx3RTlqQ0ZQNEJWWFVxalA1Z0tkRExSbGJVOWpWX1pMY25aZHB3VnlvTWF0QUNvaElpM0FORVM5a1ZPa05mWDBXQQ?oc=5"
     },
     {
-      "headline": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+      "headline": "Airline Norse Atlantic flags bankruptcy risk as flights suspended - Reuters",
       "score": 6,
-      "source": "CNBC",
+      "source": "Reuters",
       "sentiment": "negative",
-      "impact": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
+      "impact": "Airline Norse Atlantic flags bankruptcy risk as flights suspended\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-25 20:28",
-      "link": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html"
+      "date": "2026-11-26 13:58",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5"
     },
     {
-      "headline": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
-      "category": "global_markets",
-      "date": "2026-11-25 20:07",
-      "link": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html"
-    },
-    {
-      "headline": "We're buying more of a stock down big from its July highs",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "We're dipping into our large cash position as the market remains oversold.",
-      "category": "us_equities",
-      "date": "2026-11-25 19:55",
-      "link": "https://www.cnbc.com/investingclub/2026/11/25/were-buying-more-of-a-stock-down-big-from-its-july-highs.html"
-    },
-    {
-      "headline": "Bullish hopes spring as traders bet against a higher VIX: Options Action Live",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "positive",
-      "impact": "With stocks mounting a comeback Wednesday, options trading across a few key volatility products suggests big swings in stocks may dampen in the near term.",
-      "category": "global_markets",
-      "date": "2026-11-25 19:12",
-      "link": "https://www.cnbc.com/2026/11/25/bullish-hopes-spring-as-traders-bet-against-a-higher-vix-options-action-live.html"
-    },
-    {
-      "headline": "Iraq's top court says Baghdad can deploy troops to secure borders in Kurdistan region - Reuters",
+      "headline": "OPEC+ oil capacity disputes persist ahead of Sunday meeting on 2027 quotas, sources say - Reuters",
       "score": 6,
       "source": "Reuters",
       "sentiment": "neutral",
-      "impact": "Iraq's top court says Baghdad can deploy troops to secure borders in Kurdistan region\u00a0\u00a0Reuters",
-      "category": "global_markets",
-      "date": "2026-11-25 18:58",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeGlKWlRMLUx5SDRZY3FLU3VLM19RX2JqVko0T3dBakVEVHVldFVtQ21MbGo2WEEzUXU1clEteTVvWWh3bkdkQzZPX3RSemt5eWlBVjJQZy1RdjNjNnlpT19ZZUd0ekFDc3JuVHZKVWJfX2VtTlBzU3ZTTHlBX3dkV1NNVXA4NmJMVlRGX3FidmJsa0VacW5fQ2E1ZHBZTnJrN2pVc1BkUk1aZVliX2lMdHJBcUFaYlh5WmY3a05aSVZYN1hKemFtTGFUMG0?oc=5"
-    },
-    {
-      "headline": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
-      "score": 6,
-      "source": "CNBC",
-      "sentiment": "neutral",
-      "impact": "SpaceX won approval from the FCC to put 1 million orbital data center satellites into space, a proposal that was opposed by Amazon and other groups.",
-      "category": "global_markets",
-      "date": "2026-11-25 18:22",
-      "link": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
-    },
-    {
-      "headline": "EXCLUSIVE: Boehly signs US-backed share swap deal to buy Lukoil global assets - Reuters",
-      "score": 6,
-      "source": "Reuters",
-      "sentiment": "neutral",
-      "impact": "EXCLUSIVE: Boehly signs US-backed share swap deal to buy Lukoil global assets\u00a0\u00a0Reuters",
+      "impact": "OPEC+ oil capacity disputes persist ahead of Sunday meeting on 2027 quotas, sources say\u00a0\u00a0Reuters",
       "category": "commodities",
-      "date": "2026-11-25 18:02",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM05VWXNudnhTWW1BY2VFUHpZRzdNSjU4TG1Ob3NYZTRKM0tNUWNGQmxyNEp6NW0yTEJWaTZabF9UNW9CUUZTclBhaGpnQmZ6WVRZTVhqS3dpOTBsZEtaOGZnMzFPQlR5MDRpZThJNmU0cXc5Q0trMDNhdWtxVjV4V1lMYzYyR1RHU0lBNDdWZDlzOWxBN1J1Wm0xWlJkNEVMaVNXUXdQcTRuUHlvczlnMTd1VGRWQQ?oc=5"
+      "date": "2026-11-26 13:02",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRWNNN09tM1phcUhhRlFRRTlHaW0yYU5fQUxJUVFEZjl5cEdhaHRnOGNwRkl6QUZTWEhNeU16Vnk5bHhNQ3JSd0FXNDlHZkdDVTV4ZkVsbUpQUFV4VWdobEhfdlpHOUt4SEJadFRpNHlYZTZRZFdBaEZKYnUyTHJ0eHlyWjE1a1FjenhuYWtoZHJJSHVPYVhjSlprNF81NkNiMlpQNUpBcy1kcHd3eEFaRjZHczhHV3RIWlJRaHZOQlBXUQ?oc=5"
     },
     {
-      "headline": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
+      "headline": "Serbia presidential election set for December 27 - Reuters",
       "score": 6,
-      "source": "CNBC",
-      "sentiment": "negative",
-      "impact": "Nvidia and other AI-linked stocks fell as investors weighed AI spending, inflation and higher-rate risks.",
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Serbia presidential election set for December 27\u00a0\u00a0Reuters",
       "category": "global_markets",
-      "date": "2026-11-25 17:10",
-      "link": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+      "date": "2026-11-26 12:39",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSm1tYjVaQVYwTmZWQk9pQXBBNlZvQjZGcjdpVlpzQ09hQmwxVmNJOXhiZVF1TTJsS05JM3NOOHhaRzJIaU9MT0c4bXdManBOdXk2Z2hReHlKTFJOaUR0aWRSMl9lVzNuelZRMkIycmpJRlV4RTBRd09kWVJTZ0tNdUNqRWNncHAtMzlyQnVmRQ?oc=5"
+    },
+    {
+      "headline": "Israel kills nine in Gaza, including a Hamas-appointed minister, officials say - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Israel kills nine in Gaza, including a Hamas-appointed minister, officials say\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-26 12:33",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzFiM29KUVhvZHZUYTV1SWtlLXNYbXg3ZzRodFVmanZkNzJsczZ4UldfRkNkSW1fVDhMaTFYOW9ETUxXaXFKcktCTThoYnBYS21mVjQxYkNWM19MR1h0WHNSdjlGenRTNkExU2RKU0ZKNUhCRWR0OVU2VmFqTUJHeE5QMVNybDE4Qk1WTmp5VGgyWDV0NjhaM3h4Ulp1bWZDUThnSlI0TFMwMnQzNk5KQnZXVTRCUUxvc2FLbmlDYVREeHpwOUpV?oc=5"
+    },
+    {
+      "headline": "Ukraine says Russia hits two grain ships near Odesa ports - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Ukraine says Russia hits two grain ships near Odesa ports\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-26 12:30",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYlR6OVYzNjI0N0hVQ2FsMVFSWU13djRFWmZDLUFQSUNoOFdWZ2RSdlZuLVZvbjc3bDlwWGlrN3NLMnktVFQtTndObHZZQVBFTjRGSkY0SmJVSkVteFYyY2RXRDNfRkdlQ1VNVWtkbjBQZmgtbXhpYTFXOElWeDYxNVlHdUlwVnhDV28xZlJoSC1GQ0tjcGRvXzZjNnpvZ2l4SHNqS1pLaFpaUQ?oc=5"
+    },
+    {
+      "headline": "German police arrest two Iraqis over alleged Cologne synagogue bomb plot - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "German police arrest two Iraqis over alleged Cologne synagogue bomb plot\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-26 12:28",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnk2X1RfVHc3VF8ybnZCVzdIbjFrdTNMbzI2SXhxVW9VTGx4RV94OV8zdU9yRzJPS1daUUZzMXBKM0o5aW1HMklsR1Y5OUlxMEhWTVpNX0tXclphbWhDcE1kb050ekVqaWtrcEpyenZQdS1MWlE2ZVp3ZjNJUjg4ay1HM2VPa0l3emJ0MHpGNHFmdUhsWGIwRXdfMUFuRlBWNDZSNXNzcE9kTkFLd2VnREE1Vl8zOVU0REpaT3o5dkhtTElF?oc=5"
+    },
+    {
+      "headline": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman\u2019s Khasab - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman\u2019s Khasab\u00a0\u00a0Reuters",
+      "category": "commodities",
+      "date": "2026-11-26 12:06",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcHNnYmJXdWlaS3JfaTRfQUhza0lkR0lSNjhWNVJoY1Mxd3VSVVZyOHV0R0xZbHl2TS1FX2VROGg0bmg1dHFUbG9ZckxfT2lSaFotSmNFczlabFRHWjZZUEYycHA3S0tXN0p4cHFvbjUyam9IcDBwYkFBSTJfbFZwLTVickFLaFU0bTYxeHI3eHVGTmQyV3ozMTQzWm4tWGduQi00RHJoclptRnlsQjJqdTdMTU9yX2w0OXRmanYtUndOZmtaSy1JdmRuRzg?oc=5"
+    },
+    {
+      "headline": "US chip curbs will slow Asia data-center investment, Fitch says - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "US chip curbs will slow Asia data-center investment, Fitch says\u00a0\u00a0Reuters",
+      "category": "asia_economy",
+      "date": "2026-11-26 11:19",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOelNJWFVtc1BvNXp5TFMzbWtqVTdzc3JVM3pmY1hkR09YMi1WV3k3TzZ4VzFDQUpkcGJHVEZ2R0NqVnRNNmZsTThQZ0V3SlNzUmY1dUFURGtVckNOTXVQamlqSnVxTG5NVy1UVVR1dnlaNFE1MTluNFdUOTZzSHg2eHYzYTF1emwxMjZKUVIxcWhqYzhxTUdYZ0VZU3BsV1UxRHp3RTZnc2lyS2U5SDAydW5vcjVqaFFz?oc=5"
+    },
+    {
+      "headline": "How Trump's proposed tariffs for India compare with rival nations - Reuters",
+      "score": 6,
+      "source": "Reuters",
+      "sentiment": "neutral",
+      "impact": "How Trump's proposed tariffs for India compare with rival nations\u00a0\u00a0Reuters",
+      "category": "global_markets",
+      "date": "2026-11-26 11:10",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNazJTSjI3dk40ZnhoM2ZJR2N2eXp0NUFoaWUxNUI4NW9wV19YWEtpd24tS0t5YnFHV2YzSkRmSXdiTnR6cjRuMTROY1d1VlQ2NUR3UjNNMUJkeU5XQVBOeUQ1VnVTQmtQU3BVOUNndHdyeUhvWDcxdmRHMGtheVJCREs4UzdCWS1VVDQwcmdQYWtILXltMHRhN1UxeTVtdGhuMFhpemlOdDRkLTB5?oc=5"
     }
   ]
 }
